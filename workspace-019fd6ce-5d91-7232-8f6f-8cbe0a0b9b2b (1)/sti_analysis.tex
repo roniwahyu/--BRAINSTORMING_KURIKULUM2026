@@ -1,0 +1,369 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[indonesian]{babel}
+\usepackage{geometry}
+\geometry{margin=1in, headsep=0.5in, footskip=0.5in}
+\usepackage{fontspec}
+\setmainfont{Inter}[Path=/usr/share/fonts/]
+\newfontfamily\headingfont{Inter}[Path=/usr/share/fonts/, BoldFont=Inter-Bold]
+\newfontfamily\accentfont{Inter}[Path=/usr/share/fonts/]
+
+% Colors
+\definecolor{primary}{RGB}{25, 113, 194}
+\definecolor{secondary}{RGB}{240, 245, 250}
+\definecolor{accent}{RGB}{0, 150, 136}
+\definecolor{lightgray}{RGB}{248, 249, 250}
+\definecolor{mediumgray}{RGB}{206, 212, 218}
+\definecolor{darkgray}{RGB}{108, 117, 125}
+
+% Page styling
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\color{darkgray}\thepage}
+\fancyhead[LO,RE]{\color{darkgray}\nouppercase{\leftmark}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Chapter styling
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+    {\normalfont\huge\bfseries\headingfont\color{primary}}
+    {\chaptertitlename\ \thechapter}{20pt}{\Huge\bfseries\headingfont\color{primary}}
+\titlespacing*{\chapter}{0pt}{0pt}{40pt}
+
+\titleformat{\section}
+    {\normalfont\Large\bfseries\headingfont\color{primary}}
+    {\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{20pt}{10pt}
+
+\titleformat{\subsection}
+    {\normalfont\large\bfseries\headingfont\color{accent}}
+    {\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{15pt}{5pt}
+
+% Table styling
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{colortbl}
+
+% List styling
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=*, topsep=5pt, itemsep=0pt}
+\setlist[enumerate]{leftmargin=*, topsep=5pt, itemsep=0pt}
+
+% Paragraph styling
+\usepackage{parskip}
+\setlength{\parskip}{10pt}
+
+% Text alignment
+\usepackage{ragged2e}
+\usepackage{microtype}
+
+% Graphics
+\usepackage{graphicx}
+\usepackage{float}
+
+% Hyperlinks
+\usepackage[colorlinks=true, linkcolor=primary, urlcolor=primary, citecolor=accent]{hyperref}
+
+% Custom commands
+\newcommand{\sectioncolor}[1]{\colorbox{secondary}{\parbox{\dimexpr\linewidth-2\fboxsep}{\strut #1}}}
+
+\newcommand{\cplbox}[1]{\colorbox{lightgray}{\parbox{\dimexpr\linewidth-2\fboxsep}{\strut \centering #1}}}
+
+\begin{document}
+
+% ========== COVER PAGE ==========
+\begin{titlepage}
+\pagecolor{lightgray}
+\begin{center}
+    \vspace*{2cm}
+    
+    {\Huge\bfseries\headingfont\color{primary} ANALISIS KURIKULUM \\ SISTEKIN}\\[0.5cm]
+    {\Large\bfseries\headingfont Berdasar Standar APTIKOM OBE \& ACM/ACEEE}\\[2cm]
+     
+    {\large\headingfont\color{darkgray} Oleh:}\vspace{0.3cm}
+    {\Large\bfseries\headingfont Profesor Ahli dengan 25+ Tahun Pengalaman}\vspace{0.5cm}
+    {\large\headingfont\color{darkgray} Asesor LAM INFOKOM & APTIKOM Aktif}\\[2cm]
+     
+    {\small\headingfont\color{darkgray} Tanggal: 4 Agustus 2026}
+    \vspace*{3cm}
+    
+    {\large\bfseries\headingfont\color{accent} PROGRAM STUDI SISTEM DAN TEKNOLOGI INFORMASI}
+    \vfill
+\end{center}
+\end{titlepage}
+
+% ========== TOC ==========
+\newpage
+\tableofcontents
+\thispagestyle{fancy}
+
+% ========== CHAPTER 1: PENDAHULUAN ==========
+\chapter*{Pendahuluan}
+\addcontentsline{toc}{chapter}{Pendahuluan}
+
+Program Studi Sistem dan Teknologi Informasi (SISTEKIN) saat ini menghadapi tantangan dalam memenuhi standar nasional dan internasional. Analisis ini disusun untuk mengidentifikasi kesenjangan antara kurikulum yang berjalan dengan standar APTIKOM OBE (Outcome-Based Education) dan ACM/ACEEE Computing Curricula.
+
+\begin{itemize}
+\item \textbf{Panduan APTIKOM 2023-2024} mendefinisikan STI sebagai program \textit{hybrid} antara Information Systems (IS) dan Information Technology (IT)
+\item \textbf{ACM/ACEEE Computing Curricula 2020} menekankan pentingnya integrasi sistem dan teknologi di tingkat enterprise
+\item Analisis ini berfokus pada \textbf{fakta, evidence, dan standar} tanpa overclaim
+\end{itemize}
+
+\newpage
+
+% ========== CHAPTER 2: TEMUAN UTAMA ==========
+\chapter{Temuan Utama}
+
+% ===== Section 2.1: Domain & Profil Lulusan =====
+\section{Domain dan Profil Lulusan}
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{>{\raggedright\arraybackslash}p{4.5cm} >{\raggedright\arraybackslash}p{5cm} >{\centering\arraybackslash}p{4cm}}
+\toprule
+\rowcolor{secondary}\textbf{Aspek} & \textbf{Standar APTIKOM} & \textbf{Kesenjangan} \\ \midrule
+Domain Program Studi & STI = Hybrid (IS + IT) & Kurikulum mirip TI dengan tambahan SI \\ \midrule
+Profil Lulusan & Enterprise Architect, Solution Architect, Digital Transformation Lead & Tidak terdefinisi jelas \\ \bottomrule
+\end{tabular}
+\caption{Pembanding Domain dan Profil Lulusan}
+\label{tab:domain}
+\end{table}
+
+\textbf{Evidence:} APTIKOM (2023-2024) secara eksplisit mendefinisikan STI sebagai program hybrid [001, 002, 006]. Kurikulum saat ini belum mencerminkan karakteristik ini.
+
+\newpage
+
+% ===== Section 2.2: CPL =====
+\section{Capaian Pembelajaran Lulusan (CPL)}
+
+APTIKOM mendefinisikan \textbf{7 CPL Keterampilan Khusus untuk STI (CPL 11-17)}. Hasil pemetaan:
+
+\begin{longtable}{>{\centering\arraybackslash}p{1.2cm} >{\raggedright\arraybackslash}p{5.5cm} >{\centering\arraybackslash}p{2cm} >{\raggedright\arraybackslash}p{4cm}}
+\toprule
+\rowcolor{secondary}\textbf{CPL} & \textbf{Deskripsi} & \textbf{Status} & \textbf{Mata Kuliah Pendukung} \\ \midrule
+11 & Analisis kebutuhan sistem secara enterprise & \color{orange}\textsf{⚠️ Sebagian} & Analisis dan Perancangan SI \\ \midrule
+12 & Merancang arsitektur sistem dan teknologi terintegrasi & \color{red}\textsf{❌ Tidak ada} & - \\ \midrule
+13 & Mengembangkan dan mengintegrasikan solusi sistem & teknologi & \color{orange}\textsf{⚠️ Sebagian} & API, Cloud \\ \midrule
+14 & Pengujian dan evaluasi sistem enterprise & \color{red}\textsf{❌ Tidak ada} & - \\ \midrule
+15 & Merancang dan mengelola arsitektur enterprise & \color{red}\textsf{❌ Tidak ada} & - \\ \midrule
+16 & Keamanan enterprise & \color{orange}\textsf{⚠️ Sebagian} & Keamanan Jaringan \\ \midrule
+17 & Transformasi digital melalui integrasi sistem & \color{red}\textsf{❌ Tidak ada} & - \\ \bottomrule
+\caption{Pemetaan CPL Keterampilan Khusus STI}
+\label{tab:cpl}
+\end{longtable}
+
+\bigskip
+\sectioncolor{\Large\bfseries Kesimpulan: 5 dari 7 CPL inti STI tidak terpenuhi}
+
+\newpage
+
+% ===== Section 2.3: Konsentrasi =====
+\section{Konsentrasi/Peminatan}
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{>{\raggedright\arraybackslash}p{4cm} >{\raggedright\arraybackslash}p{4.5cm} >{\raggedright\arraybackslash}p{5cm}}
+\toprule
+\rowcolor{secondary}\textbf{Aspek} & \textbf{Standar APTIKOM} & \textbf{Kesenjangan} \\ \midrule
+Konsentrasi & 3 konsentrasi wajib & Tidak ada (100% wajib) \\ \midrule
+Pilihan Mata Kuliah & 24 SKS (20-25% total) & 0 SKS \\ \midrule
+Diferensiasi Lulusan & Enterprise Architecture & DT & Tidak ada \\ \bottomrule
+\end{tabular}
+\caption{Rekomendasi Konsentrasi APTIKOM}
+\label{tab:konsentrasi}
+\end{table}
+
+\textbf{3 Konsentrasi yang Direkomendasikan APTIKOM:}
+
+\begin{enumerate}
+\item \textbf{Enterprise Systems \& Business Analytics} (Domain: IS)
+\item \textbf{IT Infrastructure \& Cybersecurity} (Domain: IT)
+\item \textbf{Enterprise Architecture \& Digital Transformation} (Domain: Hybrid - \textcolor{accent}{UNGGULAN})
+\end{enumerate}
+
+\newpage
+
+% ===== Section 2.4: Struktur SKS =====
+\section{Struktur SKS}
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{>{\raggedright\arraybackslash}p{3.5cm} >{\centering\arraybackslash}p{2.5cm} >{\centering\arraybackslash}p{2.5cm} >{\raggedright\arraybackslash}p{3cm}}
+\toprule
+\rowcolor{secondary}\textbf{Komponen} & \textbf{Saat Ini} & \textbf{Standar APTIKOM} & \textbf{Aksi} \\ \midrule
+Wajib Umum & 14 SKS & 14 SKS & \color{green}\textsf{✓ Tidak berubah} \\ \midrule
+Wajib Prodi & 120+ SKS & 86 SKS & \color{orange}\textsf{⚠ Kurangi 34 SKS} \\ \midrule
+Pilihan Konsentrasi & 0 SKS & 24 SKS & \color{green}\textsf{➕ Tambah 24 SKS} \\ \midrule
+MBKM & 0 SKS & 14 SKS & \color{green}\textsf{➕ Tambah 14 SKS} \\ \midrule
+Skripsi & 6 SKS & 6 SKS & \color{green}\textsf{✓ Tidak berubah} \\ \bottomrule
+\end{tabular}
+\caption{Perbandingan Struktur SKS}
+\label{tab:sks}
+\end{table}
+
+\textbf{Evidence:} ACM/ACEEE merekomendasikan \textbf{20-25\% SKS untuk peminatan}. Saat ini: 0\%.
+
+\newpage
+
+% ========== CHAPTER 3: REKOMENDASI ==========
+\chapter{Rekomendasi Perbaikan}
+
+% ===== Section 3.1: Tambah MK Inti =====
+\section{Tambahkan Mata Kuliah Inti STI}
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{>{\centering\arraybackslash}p{1.5cm} >{\raggedright\arraybackslash}p{5cm} >{\centering\arraybackslash}p{2cm} >{\centering\arraybackslash}p{1.5cm}}
+\toprule
+\rowcolor{secondary}\textbf{CPL} & \textbf{Mata Kuliah} & \textbf{Semester} & \textbf{SKS} \\ \midrule
+12, 15 & Enterprise Architecture (TOGAF) & 5 & 3 \\ \midrule
+13 & System Integration \& Middleware & 5 & 3 \\ \midrule
+14 & IT Governance (COBIT/ITIL) & 5 & 3 \\ \midrule
+17 & Digital Transformation Strategy & 6 & 3 \\ \bottomrule
+\end{tabular}
+\caption{Mata Kuliah Inti yang Perlu Ditambahkan}
+\label{tab:new_courses}
+\end{table}
+
+\textbf{Justifikasi:}
+\begin{itemize}
+\item TOGAF = Standar \textit{de facto} untuk arsitektur enterprise (ACM/ACEEE, ISO 42010)
+\item COBIT/ITIL = Framework governance TI yang diakui industri
+\item Digital Transformation = Keterampilan inti STI menurut APTIKOM [003]
+\end{itemize}
+
+\newpage
+
+% ===== Section 3.2: Implementasi Konsentrasi =====
+\section{Implementasi 3 Konsentrasi}
+
+\begin{longtable}{>{\raggedright\arraybackslash}p{3.5cm} >{\centering\arraybackslash}p{1.8cm} >{\raggedright\arraybackslash}p{5cm} >{\centering\arraybackslash}p{2cm}}
+\toprule
+\rowcolor{secondary}\textbf{Konsentrasi} & \textbf{Domain} & \textbf{Mata Kuliah Wajib} & \textbf{CPL} \\ \midrule
+Enterprise Systems \& Business Analytics & IS & ERP, BI, Data Mining & 11, 13, 17 \\ \midrule
+IT Infrastructure \& Cybersecurity & IT & Cloud Security, Network Security, ITIL & 13, 14, 16 \\ \midrule
+\textbf{Enterprise Architecture \& DT} & \textbf{Hybrid} & \textbf{TOGAF, System Integration, DT Strategy} & \textbf{12, 13, 15, 17} \\ \bottomrule
+\caption{Implementasi 3 Konsentrasi}
+\label{tab:implementation}
+\end{longtable}
+
+\textbf{Justifikasi:} APTIKOM menyarankan 3 konsentrasi ini [003, 006]. Konsentrasi ke-3 = \textbf{pembeda utama STI} dari SI/TI.
+
+\newpage
+
+% ===== Section 3.3: Hapus MK Tidak Relevan =====
+\section{Mata Kuliah yang Perlu Dihapus}
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{>{\centering\arraybackslash}p{1.5cm} >{\raggedright\arraybackslash}p{5cm} >{\raggedright\arraybackslash}p{4cm} >{\centering\arraybackslash}p{1.5cm}}
+\toprule
+\rowcolor{secondary}\textbf{Kode} & \textbf{Mata Kuliah} & \textbf{Alasan} & \textbf{SKS} \\ \midrule
+STI-316 & Multimedia Interaktif & Tidak relevan dengan profil STI & 2 \\ \midrule
+STI-317 & Metode Komputasi dan Numerik & Lebih cocok untuk TI/CS & 2 \\ \midrule
+STI-423 & Game Design dan Gamifikasi Sosial & Tidak ada di kurikulum APTIKOM & 3 \\ \midrule
+STI-638 & Intelligent Signal Processing & Lebih cocok untuk Teknik Elektro & 3 \\ \bottomrule
+\end{tabular}
+\caption{Mata Kuliah yang Perlu Dihapus}
+\label{tab:remove_courses}
+\end{table}
+
+\textbf{Justifikasi:} APTIKOM tidak merekomendasikan mata kuliah ini untuk STI [003, 004]. ACM/ACEEE: Mata kuliah ini bukan inti IS/IT.
+
+\newpage
+
+% ========== CHAPTER 4: RINGKASAN ==========
+\chapter{Ringkasan Perbaikan}
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{>{\centering\arraybackslash}p{0.8cm} >{\raggedright\arraybackslash}p{5cm} >{\raggedright\arraybackslash}p{3.5cm} >{\raggedright\arraybackslash}p{3cm}}
+\toprule
+\rowcolor{secondary}\textbf{No} & \textbf{Aksi} & \textbf{Dasar Evidence} & \textbf{Dampak} \\ \midrule
+1 & Tambah 4 MK inti STI & APTIKOM CPL 12-17 [002, 006] & Cover 5 CPL yang hilang \\ \midrule
+2 & Implementasi 3 konsentrasi & APTIKOM [003, 004] & Lulusan memiliki spesialisasi \\ \midrule
+3 & Hapus 4 MK tidak relevan & APTIKOM & ACM CC2020 & Ruang untuk konsentrasi & MBKM \\ \midrule
+4 & Alokasi MBKM 14 SKS & Kebijakan Kemendikbud & APTIKOM & Memenuhi 20\% SKS \\ \bottomrule
+\end{tabular}
+\caption{Ringkasan Aksi Perbaikan}
+\label{tab:summary}
+\end{table}
+
+\newpage
+
+% ========== CHAPTER 5: KESIMPULAN ==========
+\chapter{Kesimpulan}
+
+\begin{itemize}
+\item Kurikulum saat ini \textbf{tidak memenuhi standar APTIKOM OBE untuk STI} (5/7 CPL inti hilang)
+\item \textbf{Tidak ada konsentrasi} → Tidak ada diferensiasi lulusan
+\item \textbf{MBKM tidak terstruktur} → Tidak memenuhi kebijakan nasional
+\item Beberapa mata kuliah \textbf{tidak relevan} dengan domain STI
+\end{itemize}
+
+\bigskip
+\sectioncolor{\Large\bfseries Solusi Minimal:}
+
+\begin{itemize}
+\item \color{green}\textsf{✓} Tambah 4 MK inti STI (12 SKS)
+\item \color{green}\textsf{✓} Hapus 4 MK tidak relevan (10 SKS)
+\item \color{green}\textsf{✓} Implementasi 3 konsentrasi (24 SKS)
+\item \color{green}\textsf{✓} Alokasi MBKM (14 SKS)
+\end{itemize}
+
+\bigskip
+\sectioncolor{\Large\bfseries Hasil:}
+
+\begin{itemize}
+\item \color{green}\textsf{✓} Semua CPL tercover
+\item \color{green}\textsf{✓} Lulusan memiliki spesialisasi
+\item \color{green}\textsf{✓} Memenuhi standar APTIKOM & ACM/ACEEE
+\end{itemize}
+
+\newpage
+
+% ========== REFERENSI ==========
+\chapter*{Referensi}
+\addcontentsline{toc}{chapter}{Referensi}
+
+\begin{itemize}
+\item [001] Summary Pemetaan Prodi STI APTIKOM - 01 Agustus 2026
+\item [002] Detail Pemetaan CPL dan Profil Lulusan APTIKOM
+\item [003] Rekomendasi Konsentrasi STI APTIKOM
+\item [004] Kurikulum Lengkap STI 144SKS dan 150SKS
+\item [005] Dokumen Komprehensif Kurikulum STI dan Konsentrasi
+\item [006] Master Detail Seluruh Respon Diskusi STI APTIKOM
+\item ACM/IEEE Computing Curricula 2020 (CC2020)
+\item APTIKOM Panduan Kurikulum 2023-2024
+\end{itemize}
+
+\newpage
+
+% ========== BACK COVER ==========
+\begin{center}
+\pagecolor{lightgray}
+\vspace*{5cm}
+
+{\Huge\bfseries\headingfont\color{primary} TERIMA KASIH}\vspace{1cm}
+
+{\Large\headingfont\color{darkgray} Untuk perbaikan kurikulum SISTEKIN yang lebih baik}\vspace{2cm}
+
+{\large\bfseries\headingfont\color{accent} "The future belongs to those who prepare for it today."}\vspace{0.5cm}
+
+{\large\headingfont\color{darkgray} — Malcolm X}
+
+\vfill
+\end{center}
+
+\end{document}

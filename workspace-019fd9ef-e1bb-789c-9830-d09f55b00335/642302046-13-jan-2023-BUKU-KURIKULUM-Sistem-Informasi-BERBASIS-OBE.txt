@@ -1,0 +1,9723 @@
+ 
+ 
+ 
+ 
+ 
+ 
+20
+22
+Forum Program Studi APTIKOM
+PANDUAN KURIKULUM BERBASIS 
+OBE/KKNI/SKKNI APTIKOM
+Versi 1.1
+PROGRAM STUDI 
+SARJANA SISTEM INFORMASI
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+i 
+ 
+Tim Penyusun 
+  
+Pimpinan APTIKOM Pusat 
+ 
+Prof. Zainal A. Hasibuan, Ph.D. 
+Prof. Dr.rer.nat. Achmad Benny Mutiara, SSi., S.Kom 
+ 
+ 
+Pokja Forum Prodi APTIKOM 
+ 
+Prihandoko, S.Kom, 
+MIT., Ph.D. 
+Universitas Gunadarma 
+ 
+Solikin, S.Si., MT. 
+Universitas Bina Insani 
+Dr. Tien Febrianti 
+Kusumasari, S.T., M.T. 
+Universitas Telkom 
+Dr. Hanny Hikmayanti 
+Handayani, M.Kom. 
+Universitas Buana 
+Perjuangan Karawang 
+Dr. Dian Syafitri, 
+S.Kom., M.DigMMedia. 
+Universitas Bumigora 
+Elan Suherlan, M.Si. 
+Universitas YARSI 
+ 
+ 
+Tim Koordinator Forum Prodi Sistem Informasi 
+ 
+Anggit Dwi Hartanto, 
+M.Kom. 
+Universitas Amikom 
+Yogyakarta 
+Sendy Ferdian Sujadi, 
+S.Kom., M.T. 
+Universitas Kristen 
+Maranatha 
+Sukmawati Anggraeni 
+Putri, M.Kom. 
+Universitas Nusa Mandiri 
+ 
+ 
+ 
+Suryasari, S.Kom., M.T. 
+ 
+Universitas Multimedia 
+Nusantara 
+Ririn Ikana Desanti, 
+M.Kom. 
+Universitas Multimedia 
+Nusantara 
+Andrianingsih, S.Kom., 
+MMSI. 
+Universitas Nasional 
+ 
+ 
+ 
+Luthfi Ramadani, MT., 
+Ph.D. 
+Universitas Telkom 
+Taufik Nur Adi, MT., 
+Ph.D. 
+Universitas Telkom 
+Nur Syamsiah, ST., 
+MTI. 
+Universitas Darma 
+Persada 
+ 
+ 
+ 
+Dr. Heny Pratiwi, 
+S.Kom., M.Pd., M.TI. 
+STMIK Widya Cipta 
+Dharma 
+Fitriyana Dewi, 
+M.Kom. 
+Universitas Telkom 
+Dwi Oktarina, M.Kom. 
+ 
+Institut Bisnis dan 
+Teknologi Pelita Indonesia 
+Pekanbaru 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+ii 
+ 
+Kata Pengantar Ketua Umum APTIKOM 
+ 
+Puji syukur ke hadirat Tuhan Yang Maha Esa yang telah memberikan rahmat dan 
+hidayah-Nya sehingga Asosiasi Pendidikan Tinggi Informatika dan Komputer 
+(APTIKOM), khususnya Forum Program Studi APTIKOM, dapat menyelesaikan Buku 
+Kurikulum Bidang INFOKOM berbasis OBE/KKNI/SKKNI Tahun 2022. 
+Permendikbud Nomor 3 tahun 2020 tentang Standar Nasional Pendidikan Tinggi (SN-
+Dikti) menyatakan bahwa kurikulum adalah seperangkat rencana dan pengaturan 
+mengenai tujuan, isi, dan bahan pelajaran serta cara yang digunakan sebagai 
+pedoman penyelenggaraan kegiatan pembelajaran untuk mencapai tujuan Pendidikan 
+Tinggi. Pentingnya kurikulum  dalam mencapai lulusan yang berkualitas menjadi dasar 
+bagi APTIKOM untuk melakukan pemutakhiran Buku Kurikulum APTIKOM 2019 agar 
+selaras dengan perkembangan zaman, tuntutan global untuk mulai menerapkan 
+kurikulum berbasis Outcome Based Education (OBE), tuntutan ACM/IEEE 2020, dan 
+jenjang kualifikasi KKNI/SKKNI. APTIKOM berharap buku ini dapat menjadi rujukan 
+bagi Program Studi bidang Informatika dan Komputer di Indonesia dalam penyusunan 
+kurikulumnya.  
+Atas nama APTIKOM, saya mengucapkan terima kasih kepada Forum Program Studi 
+APTIKOM khususnya tim penyusun naskah ini yang telah bekerja keras dengan penuh 
+dedikasi dan kesungguhan. Saya ucapkan terima kasih pula kepada Telkom University, 
+Universitas Multimedia Nusantara, Universitas Nasional, Universitas Amikom 
+Yogyakarta dan Universitas Nusa Mandiri yang telah memberikan dukungan dan 
+bantuan selama proses penyusunan buku ini. Semoga Tuhan Yang Maha Esa 
+membalas semua kontribusi dan partisipasi yang telah dilakukan.  
+ 
+Jakarta, 8 Desember 2022  
+ 
+ 
+Prof. Zainal A. Hasibuan, Ph.D 
+ 
+ 
+ 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+iii 
+ 
+Kata Pengantar Ketua Pokja Forum Program Studi APTIKOM 
+ 
+Puji syukur ke hadirat Tuhan Yang Maha Esa yang telah memberikan rahmat dan 
+karunia-Nya sehingga Buku Kurikulum Bidang INFOKOM Berbasis OBE/KKNI/SKKNI 
+untuk Program Studi bidang Informatika dan Komputer (INFOKOM) ini dapat 
+diselesaikan.  
+Pada tanggal 21 Mei 2022 merupakan titik awal terbentuknya Forum Program Studi 
+APTIKOM, yang diinisiasi oleh Pokja Forum Prodi APTIKOM. Hingga bulan Oktober 
+2022  telah bergabung kurang lebih 600 ketua/sekretaris program studi dari seluruh 
+Indonesia ke dalam Forum Program Studi. Forum Prodi (FORDI) ini dibentuk dengan 
+tiga tujuan, yaitu: (1) melakukan evaluasi dan pemutakhiran kurikulum prodi, (2) 
+menjalankan proses penjaminan mutu prodi, dan (3)  mengembangkan program 
+MBKM antar Program Studi APTIKOM.  
+Penyusunan Buku Kurikulum Bidang INFOKOM tahun 2022 dilakukan secara bertahap 
+dan berkelanjutan selama 5 bulan sejak bulan Agustus 2022 hingga Desember 2022. 
+Forum Prodi APTIKOM membentuk koordinator untuk masing-masing program studi 
+dan melaksanakan pertemuan secara daring untuk membahas penyusunan kurikulum 
+Program Studi INFOKOM berbasis OBE. Selain itu, setiap bulan Pokja Forum Prodi 
+APTIKOM menyelenggarakan Rapat Kerja Pembahasan Kurikulum INFOKOM berbasis 
+OBE secara luring. Pertemuan luring pertama dilaksanakan di Telkom University pada 
+tanggal 1-2 Agustus 2022, pertemuan ke-dua di Universitas Multimedia Nusantara 
+pada tanggal 19-20 September 2022, pertemuan ke-tiga di Universitas Nasional pada 
+tanggal 10-11 Oktober 2022, pertemuan ke-empat di Universitas Amikom Yogyakarta 
+pada tanggal 10-12 November 2022, dan pertemuan ke-lima di Universitas Nusa 
+Mandiri pada tanggal 3-4 Desember 2022. Kami menyampaikan terima kasih dan 
+penghargaan yang setinggi-tingginya kepada 5 perguruan tinggi tersebut atas fasilitasi 
+yang diberikan untuk menyelenggarakan Rapat Kerja Forum Prodi. 
+Hasil dari kerja tim Forum Prodi APTIKOM adalah Buku Kurikulum Bidang INFOKOM 
+Berbasis OBE/KKNI/SKKNI. Buku ini akan terus disempurnakan, seiring dengan 
+perjalanan waktu dan kebutuhan penyempurnaan dan pemutakhiran. Untuk saat ini, 
+Buku Kurikulum Bidang INFOKOM Berbasis OBE/KKNI/SKKNI adalah buku versi 1.0. 
+Buku ini diharapkan dapat menjadi acuan dalam penyusunan kurikulum program studi 
+bidang informatika dan komputer di Indonesia. 
+  
+Jakarta, 8 Desember 2022 
+ 
+Prihandoko, MIT, PhD. 
+ 
+ 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+iv 
+ 
+Kata Pengantar Ketua Tim Koordinator Fordi Sistem Informasi 
+ 
+Puji syukur kami panjatkan kepada Allah SWT atas berkat dan rahmatNya, sehingga 
+Tim Kurikulum Forum Program Studi Sistem Informasi APTIKOM dapat menyelesaikan 
+Buku Panduan Kurikulum berbasis Outcome-Based Education (OBE)/KKNI/SKKNI 
+untuk Prodi Sistem Informasi. Proses penyusunan buku ini dilakukan dengan workshop 
+secara daring pada setiap minggunya serta luring pada setiap bulan yang diawali pada 
+bulan Agustus 2022 di Universitas Telkom Bandung, bulan September 2022 di 
+Universitas Multimedia Nusantara, bulan Oktober 2022 di Universitas Nasional, bulan 
+November 2022 di Universitas Amikom Yogyakarta dan terakhir pada bulan Desember 
+2022 di Universitas Nusa Mandiri.  
+Buku ini merupakan panduan bagi Program Studi Sistem Informasi seluruh Indonesia 
+dalam menyusun kurikulumnya. Misi buku panduan ini selain untuk pemurnian bidang 
+ilmu pada Program Studi Sistem Informasi juga menonjolkan kekhasan Program Studi 
+atau Perguruan Tinggi (University Value). Pada akhirnya setiap Program Studi Sistem 
+Informasi yang menggunakan panduan ini dalam menyusun kurikulum diharapkan 
+mempunyai ciri khas masing-masing tetapi tidak keluar dari bidang ilmu sistem 
+informasi. 
+Kami menyadari bahwa buku panduan ini masih banyak kekurangan, sehingga demi 
+kesempurnaan Buku Panduan Kurikulum berbasis Outcome-Based Education 
+(OBE)/KKNI/SKKNI ini, maka kami sangat berharap saran dan masukan positif untuk 
+dapat diperbaiki di kemudian hari oleh Tim Kurikulum Forum Program Studi Sistem 
+Informasi APTIKOM. Akhirnya, kami berharap agar buku ini benar-benar bisa 
+bermanfaat bagi Program Studi Sistem Informasi seluruh Indonesia. 
+ 
+Yogyakarta, 8 Desember 2022 
+ 
+Anggit Dwi Hartanto, M.Kom 
+ 
+ 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+v 
+ 
+Daftar Isi 
+ 
+Tim Penyusun ................................................................................................................... i 
+Kata Pengantar Ketua Umum APTIKOM ......................................................................... ii 
+Kata Pengantar Ketua Pokja Forum Program Studi APTIKOM ..................................... iii 
+Kata Pengantar Ketua Tim Koordinator Fordi Sistem Informasi .................................. iv 
+Daftar Isi .......................................................................................................................... v 
+Daftar Tabel .................................................................................................................... vii 
+Daftar Gambar ............................................................................................................... viii 
+Daftar Istilah .................................................................................................................... ix 
+Kodifikasi .......................................................................................................................... x 
+I. 
+Identitas Program Studi ....................................................................................... 1 
+II. 
+Evaluasi Kurikulum dan Tracer Study .................................................................. 1 
+III. 
+Landasan Perancangan dan Pengembangan Kurikulum .................................... 4 
+IV. 
+Rumusan Visi, Misi, Tujuan, Strategi, dan University Value. ............................. 7 
+V. 
+Rumusan Standar Kompetensi Lulusan (SKL) ..................................................... 8 
+5.1. 
+Rumusan Profil Lulusan .................................................................................... 8 
+5.2. 
+Rumusan CPL SN-DIKTI .................................................................................. 11 
+5.3. 
+Rumusan CPL Program Studi ........................................................................... 17 
+5.4. 
+Pemetaan CPL Program Studi terhadap CPL SN-DIKTI ....................................... 18 
+5.5. 
+Pemetaan CPL Program Studi terhadap PL ........................................................ 19 
+VI. 
+Penetapan Bahan Kajian .................................................................................... 19 
+6.1. 
+Rumusan Bahan Kajian (BK) ............................................................................ 19 
+6.2. 
+Pemetaan CPL terhadap BK ............................................................................. 20 
+6.3. 
+Pemetaan BK terhadap Mata Kuliah (MK) ......................................................... 21 
+VII. 
+Pembentukan Mata Kuliah (MK) dan Penentuan Bobot SKS ............................ 23 
+7.1. 
+Pemetaan CPL terhadap MK ............................................................................ 23 
+7.2. 
+Pemetaan BK - CPL - MK ................................................................................. 24 
+7.3. 
+Susunan Mata Kuliah dan Bobot SKS ................................................................ 24 
+VIII. Matriks dan Peta Kurikulum ............................................................................... 27 
+8.1. 
+Organisasi Mata Kuliah .................................................................................... 27 
+8.2. 
+Susunan Mata Kuliah dan Peta Pemenuhan CPL ................................................ 28 
+IX. 
+Rencana Pembelajaran Semester (RPS) ........................................................... 29 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+vi 
+ 
+9.1. 
+Rumusan CPMK berdasarkan CPL dan MK ......................................................... 29 
+9.2. 
+Pemetaan MK-CPL-CPMK ................................................................................. 31 
+9.3. 
+Pemetaan MK-CPMK-Sub CPMK ....................................................................... 32 
+9.4. 
+Rencana Pembelajaran Semester (RPS) ............................................................ 36 
+9.5. 
+Metode Pembelajaran ..................................................................................... 39 
+X. 
+Asesmen Pembelajaran ...................................................................................... 40 
+10.1. 
+Teknik Penilaian CPMK ................................................................................ 40 
+10.2. 
+Tahap dan Mekanisme Penilaian .................................................................. 42 
+10.3. 
+Bobot Penilaian ........................................................................................... 51 
+10.4. 
+Rumusan Nilai Akhir MK .............................................................................. 54 
+10.5. 
+Rumusan Nilai Akhir CPL .............................................................................. 55 
+XI. 
+Rencana Implementasi Hak Belajar Maksimum 3 Semester di Luar Program 
+Studi  ............................................................................................................................ 57 
+XII. 
+Manajemen dan Mekanisme Pelaksanaan Kurikulum ....................................... 58 
+Daftar Pustaka ............................................................................................................... 61 
+ 
+ 
+ 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+vii 
+ 
+Daftar Tabel 
+ 
+Tabel A.  
+Isian Identitas Program Studi ............................................................. 1 
+Tabel B.  
+Contoh Tahapan Evaluasi Kurikulum ................................................... 2 
+Tabel 1.  
+Profil Lulusan Wajib Program Studi Sistem Informasi ........................... 9 
+Tabel 1.a.  Daftar Pilihan Profesi ........................................................................ 11 
+Tabel 2.  
+CPL SN-DIKTI .................................................................................. 11 
+Tabel 3.  
+CPL Wajib Program Studi Sistem Informasi ........................................ 17 
+Tabel 4.  
+Pemetaan CPL SN-DIKTI - CPL Program Studi .................................... 18 
+Tabel 5.  
+Pemetaaan CPL dan PL ..................................................................... 19 
+Tabel 6.  
+Rumusan Bahan Kajian ..................................................................... 20 
+Tabel 7.  
+Pemetaan CPL - BK .......................................................................... 20 
+Tabel 8.  
+Pemetaan BK – MK ........................................................................... 21 
+Tabel 9.  
+Pemetaan CPL - MK .......................................................................... 23 
+Tabel 10.  Pemetaan BK - CPL - MK .................................................................. 24 
+Tabel 11.   Susunan Mata Kuliah ........................................................................ 26 
+Tabel 12.  Organisasi Mata Kuliah ..................................................................... 28 
+Tabel 12.a. Peta Pemenuhan Capaian Pembelajaran Lulusan (CPL) ....................... 29 
+Tabel 13.   Pemetaan CPL - CPMK - MK .............................................................. 30 
+Tabel 14.  Pemetaan MK-CPL-CPMK .................................................................. 31 
+Tabel 15.  Pemetaan MK - CPMK - Sub-CPMK .................................................... 33 
+Tabel 16.  Contoh Teknik Penilaian CPMK .......................................................... 41 
+Tabel 17.  Contoh Tahap dan Mekanisme Penilaian ............................................ 43 
+Tabel C.  
+Contoh Rubrik Holistik ...................................................................... 49 
+Tabel D.  
+Contoh Rubrik Analitik ...................................................................... 49 
+Tabel E.  
+Contoh Rubrik Skala Persepsi ............................................................ 50 
+Tabel 18.  Bobot Penilaian ................................................................................ 52 
+Tabel 18a.  Tabel Bobot Penilaian (MK-CPL-CPMK) ............................................... 53 
+Tabel 19.  Rumusan Nilai Akhir MK .................................................................... 54 
+Tabel 20.  Rumusan Nilai Akhir CPL ................................................................... 56 
+Tabel F.  
+Bentuk Kegiatan Pembelajaran di Luar Perguruan Tinggi ..................... 57 
+Tabel G.  
+Contoh Manajemen dan Mekanisme Pelaksanaan Kurikulum ................ 59 
+ 
+ 
+ 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+viii 
+ 
+Daftar Gambar 
+ 
+Gambar 1.  Contoh Mekanisme Evaluasi CPL Prodi ................................................ 3 
+Gambar 2.  Landasan Hukum, Kebijakan Nasional dan Institusional Pengembangan 
+Kurikulum Pendidikan Tinggi .............................................................. 7 
+Gambar 3.  Model Kurikulum berbasis OBE ........................................................... 8 
+Gambar 4.  Daftar Unit Kompetensi Okupasi 2018 ............................................... 10 
+ 
+ 
+ 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+ix 
+ 
+Daftar Istilah 
+ 
+No 
+Istilah 
+Arti 
+1 
+ASIIN 
+Accreditation Agency for Study Programmes in Engineering, Informatics, 
+Natural Sciences and Mathematics 
+2 
+BK 
+Bahan Kajian 
+3 
+CC-2020 
+Computing Curricula 2020 
+4 
+CPL 
+Capaian Pembelajaran Lulusan 
+5 
+CPMK 
+Capaian Pembelajaran Mata Kuliah 
+6 
+CS-2013 
+Computer Science curricula 2013 
+7 
+IABEE 
+Indonesian Accreditation Board for Engineering Education 
+8 
+IKT 
+Indikator Kinerja Tambahan 
+9 
+IKU 
+Indikator Kinerja Utama 
+10 
+KK 
+Keterampilan Khusus 
+11 
+KKN Tematik 
+Kuliah Kerja Nyata Tematik 
+12 
+KKNI 
+Kerangka Kualifikasi Nasional Indonesia 
+13 
+KU 
+Keterampilan Umum 
+14 
+MBKM 
+Merdeka Belajar Kampus Merdeka 
+15 
+MK 
+Mata Kuliah 
+16 
+OBE 
+Outcome Based Education 
+17 
+PL 
+Profil Lulusan 
+18 
+PPEPP 
+Penetapan, Pelaksanaan, Evaluasi, Pengendalian, Peningkatan 
+19 
+PT 
+Perguruan Tinggi 
+20 
+RPS 
+Rencana Pembelajaran Semester 
+21 
+SKKNI 
+Standar Kompetensi Kerja Nasional Indonesia  
+22 
+SKL 
+Standar Kompetensi Lulusan 
+23 
+SN-Dikti 
+Standar Nasional Pendidikan Tinggi 
+24 
+SOP 
+Standard Operational Procedure 
+25 
+SPMI 
+Sistem Penjaminan Mutu Internal 
+26 
+Sub CPMK 
+Sub Capaian Pembelajaran Mata Kuliah 
+27 
+UAS 
+Ujian Akhir Semester 
+28 
+UPPS 
+Unit Pengelola Program Studi 
+29 
+UTS 
+Ujian Tengah Semester 
+30 
+VMTS 
+Visi, Misi, Tujuan dan Strategi 
+ 
+ 
+ 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+x 
+ 
+Kodifikasi 
+ 
+Kategori 
+Pengkodean 
+Profil Lulusan (PL) 
+ 
+Capaian 
+Pembelajaran 
+Lulusan (CPL) 
+ 
+Bahan Kajian (BK) 
+ 
+Mata Kuliah (MK) 
+ 
+Capaian 
+Pembelajaran Mata 
+Kuliah (CPMK) 
+ 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+xi 
+ 
+Kategori 
+Pengkodean 
+Sub-Capaian 
+Pembelajaran Mata 
+Kuliah (Sub-CPMK) 
+ 
+ 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+1 
+ 
+ 
+Program studi (Prodi) menyusun buku kurikulum prodi dengan mengikuti struktur yang ada dalam panduan 
+ini. Buku kurikulum prodi berisi 12 Bab mencakup :(1) Identitas Program Studi (2) Evaluasi Kurikulum dan 
+Tracer Study, (3) Landasan Perancangan dan Pengembangan Kurikulum, (4) Rumusan Visi, Misi, Tujuan, 
+Strategi, dan University Value, (5) Rumusan Standar Kompetensi Lulusan, (6) Penetapan Bahan Kajian, (7) 
+Pembentukan Mata Kuliah dan Penetuan Bobot SKS, (8) Matriks dan Peta Kurikulum, (9) Rencana 
+Pemebelajaran Semester, (10) Asesmen Pembelajaran, (11) Rencana Implementasi Hak Belajar Maksimum 3 
+Semester di Luar Prodi, (12) Manajemen dan Mekanisme Pelaksanaan Kurikulum. 
+TEMPLATE BUKU KURIKULUM BERBASIS 
+OBE/KKNI/SKKNI APTIKOM 
+I. 
+Identitas Program Studi 
+Identitas Program Studi meliputi : Nama Perguruan Tinggi, Fakultas, Program Studi, 
+Akreditasi, Jenjang Pendidikan, Gelar Lulusan. Identitas program studi dapat mengisi 
+seperti Tabel A. Isian Identitas Program Studi. 
+Program Studi wajib mengisi Tabel A sebagai isian Identitas Program Studi. 
+Tabel A. Isian Identitas Program Studi 
+1 
+Nama Perguruan Tinggi (PT) 
+................................. 
+2 
+Fakultas 
+................................. 
+3 
+Program Studi 
+................................. 
+4 
+Peringkat Akreditasi 
+................................. 
+5 
+Jenjang Pendidikan 
+................................. 
+6 
+Gelar Lulusan 
+................................. 
+7 
+Visi Keilmuan Program Studi 
+................................. 
+8 
+Misi Program Studi (Optional) 
+................................. 
+ 
+Sumber: Template Dokumen Buku Pedoman Penyusunan Kurikulum Perguruan Tinggi 2020 
+II. 
+Evaluasi Kurikulum dan Tracer Study 
+Evaluasi kurikulum menjelaskan hasil evaluasi pelaksanaan kurikulum yang telah dan 
+sedang berjalan, dengan menyajikan mekanisme hasil evaluasi kurikulum.  
+Perubahan kurikulum dilakukan didasari oleh beberapa hal, antara lain perkembangan 
+ilmu pengetahuan, kebijakan pemerintah, kebutuhan pengguna lulusan, dan hasil 
+evaluasi kurikulum yang sedang berjalan. Analisis kebutuhan dapat diperoleh 
+berdasarkan kebutuhan pemangku kepentingan dari hasil tracer study. 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+2 
+ 
+Bedasarkan Panduan Penyusunan Kurikulum Pendidikan Tinggi [1] pada Tabel B, 
+terdapat contoh tahapan evaluasi kurikulum yang terdiri dari enam (6) tahapan 
+evaluasi mulai dari analisis kebutuhan, desain dan pengembangan kurikulum, sumber 
+daya, proses pelaksanaan kurikulum, capaian pelaksanaan kurikulum, dan 
+pembiayaan. Masing-masing tahapan bisa terdiri dari satu atau beberapa unsur yang 
+dievaluasi sesuai dengan tahapannya. 
+Program Studi membuat laporan evaluasi pelaksanaan kurikulum dengan format 
+seperti Tabel B. 
+Tabel B. Contoh Tahapan Evaluasi Kurikulum 
+Tahap Evaluasi 
+Kinerja Mutu 
+Standar Kinerja Mutu 
+I 
+Analisis 
+Kebutuhan 
+1. 
+Profil Lulusan 
+2. 
+Bahan Kajian 
+1. Renstra PT, Asosiasi Prodi/Profesi 
+2. Renstra PT, Asosiasi 
+Prodi/Profesi, Konsorsium Bidang 
+Ilmu 
+II 
+Desain dan 
+Pengembangan 
+Kurikulum 
+3. 
+CPL Prodi (KKNI, SN-Dikti, 
+CC2020, IS2020); 
+4. 
+Mata kuliah (sks, bahan kajian, 
+bentuk pembelajaran, metode 
+pembelajaran) 
+5. 
+Perangkat pembelajaran 
+Rencana Pembelajaran 
+Semester (RPS), RTM, 
+Instrumen Penilaian, bahan 
+ajar, media pembelajaran) 
+3. Deskriptor KKNI & SN-Dikti, Profil 
+Lulusan 
+4. Standar Isi & Proses SN-Dikti & 
+SPT, CPL Prodi & Bahan kajian 
+5. Standar Isi & Proses SN-Dikti & 
+SPT, Panduan-panduan, Mata 
+Kuliah 
+III 
+Sumber Daya 
+6. 
+Dosen & Tendik (Kualifikasi & 
+Kecukupan) 
+7. 
+Sumber belajar 
+8. 
+Fasilitas belajar 
+6. UU No. 12/thn 2012, SN-Dikti 
+7. SN-Dikti, SPT 
+8. SN-Dikti, SPT 
+IV 
+Proses 
+Pelaksanaan 
+Kurikulum 
+9. 
+Pelaksanaan pembelajaran 
+10. Kompetensi dosen 
+11. Kompetensi tendik 
+12. Sumber belajar 
+13. Fasilitas belajar 
+9. SN-Dikti, SPMI-PT, RPS-MK 
+10. SN-Dikti, SPT, RPS-MK 
+11. SN-Dikti, SPT 
+12. SN-Dikti, SPT 
+13. SN-Dikti, SPT 
+V 
+Capaian 
+Pelaksanaan 
+Kurikulum 
+14. Capaian CPL 
+15. Masa Studi 
+16. Karya Ilmiah 
+14. CPL Prodi, Kurikulum Prodi 
+15. SN-Dikti, SPT, Kurikulum Prodi 
+16. SN-Dikti, SPT, Kurikulum Prodi 
+Sumber: Buku Pedoman Penyusunan Kurikulum Perguruan Tinggi 2020 
+ 
+Gambar 1 merupakan contoh mekanisme evaluasi CPL Prodi dengan mengambil 
+standar Deskriptor KKNI, SN-Dikti dan Profil Lulusan. 
+ 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+3 
+ 
+ 
+Gambar 1. Contoh Mekanisme Evaluasi CPL Prodi 
+Sumber: Buku Pedoman Penyusunan Kurikulum Perguruan Tinggi 2020 
+ 
+CPL Prodi yang telah dirumuskan dibandingkan dengan standar, dalam hal ini adalah 
+deskriptor KKNI, SN-DIKTI, dan Profil Lulusan yang telah ditetapkan. Kesesuaian 
+rumusan CPL Prodi dengan deskriptor KKNI sesuai jenjang prodinya, khususnya pada 
+aspek pengetahuan, dan aspek  keterampilan khusus. Kesesuaian CPL Prodi yang 
+mengadopsi SN-DIKTI dengan jenjang program studinya, khususnya pada aspek 
+sikap, dan keterampilan umum. CPL Prodi dapat menggambarkan profil lulusan yang 
+telah ditetapkan. Jika ada perbedaan atau ketidaksesuaian dengan standar, maka 
+rumusan CPL Prodi perlu dilakukan perubahan atau revisi, atau jika tidak sesuai sama 
+sekali maka CPL Prodi tersebut tidak digunakan.  
+Proses evaluasi CPL Prodi dapat dilakukan pada setiap butir CPL Prodi. Setelah 
+dilakukan perubahan, selanjutnya CPL Prodi ditetapkan, dan menjadi salah satu 
+rujukan pada proses evaluasi selanjutnya. Evaluasi kurikulum pada setiap unsur 
+kinerja mutu akan terjadi secara berantai dalam enam tahapan seperti yang tersaji 
+pada Tabel 2. Namun demikian, tahapan evaluasi kurikulum dapat didasarkan pada 
+urutan sesuai SN-DIKTI[2]: (1) Standar Kompetensi Lulusan (SKL) atau Capaian 
+Pembelajaran Lulusan (CPL); (2) Standar isi pembelajaran; (3) Standar proses 
+pembelajaran; (4) Standar penilaian pembelajaran, dan seterusnya.  
+Tracer study merupakan studi pelacakan jejak lulusan/alumni yang dilakukan kepada 
+alumni 2 tahun setelah lulus.  Tracer study bertujuan untuk mengetahui outcome 
+pendidikan dalam bentuk transisi dari dunia pendidikan tinggi ke dunia 
+kerja, output pendidikan yaitu penilaian diri terhadap penguasaan dan pemerolehan 
+kompetensi, proses pendidikan berupa evaluasi proses pembelajaran dan kontribusi 
+pendidikan tinggi terhadap pemerolehan kompetensi serta input pendidikan berupa 
+penggalian lebih lanjut terhadap informasi sosio geografis lulusan. 
+Tracer study sebagai alat monitoring adaptasi lulusan perguruan tinggi di Indonesia 
+ketika memasuki dunia kerja. Tujuan tracer study yaitu: 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+4 
+ 
+● Mengetahui outcome pendidikan yang dihasilkan oleh perguruan tinggi kita. 
+● Mengetahui kontribusi perguruan tinggi kita terhadap kompetensi yang ada di 
+dunia kerja. 
+● Untuk monitoring adaptasi terhadap lulusan perguruan tinggi ketika memasuki 
+dunia kerja 
+ 
+Manfaat Tracer Study 
+1. Bagi perguruan tinggi 
+● Dapat mengetahui penyebaran lulusan perguruan tinggi (informasi alumni). 
+● Sebagai bahan evaluasi perguruan tinggi terhadap lulusan yang dihasilkan 
+apakah telah memenuhi standar kompetensi yang sesuai pada dunia kerja. 
+● Sebagai informasi mengenai kompetensi yang relevan bagi dunia kerja dapat 
+membantu upaya perbaikan kurikulum dan sistem pembelajaran. 
+● Sebagai salah satu nilai tambah dalam proses akreditasi perguruan tinggi. 
+ 
+2.  Bagi industri 
+● Dapat melihat informasi yang lebih dalam mengenai lulusan perguruan tinggi 
+melalui tracer study.  
+● Sebagai bahan acuan dalam membuat pelatihan-pelatihan yang lebih relevan 
+untuk lulusan pencari kerja baru. 
+III. 
+Landasan Perancangan dan Pengembangan Kurikulum 
+Pengembangan kurikulum merupakan hak dan kewajiban masing-masing perguruan 
+tinggi, namun demikian dalam pengembangan kurikulum perguruan tinggi harus 
+berlandaskan mulai dari UUD 1945, UU No. 12 Tahun 2012, Standar Nasional 
+Pendidikan Tinggi yang dituangkan dalam Permendikbud No. 3 Tahun 2020 [2], serta 
+ketentuan lain yang berlaku. Kurikulum diharapkan dapat menghantarkan mahasiswa 
+menguasai ilmu pengetahuan dan keterampilan tertentu. Kurikulum membentuk budi 
+pekerti luhur, sehingga dapat berkontribusi untuk menjaga nilai-nilai kebangsaan, 
+kebhinekaan, kepedulian kepada sesama bangsa dan umat manusia. 
+Penyusunan kurikulum hendaknya dilandasi dengan landasan yang kuat, baik secara 
+filosofis, sosiologis, psikologis, yuridis, dan lain-lain. 
+1. Landasan Filosofis 
+Memberikan pedoman secara filosofis pada tahap perancangan, pelaksanaan, dan 
+peningkatan kualitas Pendidikan[3], bagaimana pengetahuan dikaji dan dipelajari 
+agar mahasiswa memahami hakikat hidup dan memiliki kemampuan yang mampu 
+meningkatkan kualitas hidupnya baik secara individu, maupun di masyarakat[4]. 
+2. Landasan Sosiologis 
+Memberikan landasan sosiologis bagi pengembangan kurikulum sebagai 
+perangkat pendidikan yang terdiri dari tujuan, materi, kegiatan belajar dan 
+lingkungan belajar yang positif bagi perolehan pengalaman pembelajar yang 
+relevan dengan perkembangan personal dan sosial pembelajar[3]. Kurikulum 
+mampu mewariskan kebudayaan dari satu generasi ke generasi berikutnya di 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+5 
+ 
+tengah terpaan pengaruh globalisasi yang terus mengikis eksistensi kebudayaan 
+lokal. Dalam konteks kekinian peserta didik diharapkan mampu memiliki 
+kelincahan budaya (cultural agility) yang dianggap sebagai mega kompetensi yang 
+wajib dimiliki oleh calon profesional di abad ke-21 ini dengan penguasaan minimal 
+tiga kompetensi yaitu, minimisasi budaya (cultural minimization, yaitu 
+kemampuan kontrol diri dan menyesuaikan dengan standar, dalam kondisi bekerja 
+pada tataran internasional), adaptasi budaya (cultural adaptation), serta integrasi 
+budaya (cultural integration)[5]. 
+3. Landasan Psikologis 
+Memberikan landasan bagi pengembangan kurikulum, sehingga kurikulum dapat 
+menstimulasi keingintahuan mahasiswa, memotivasi belajar sepanjang hayat, 
+mampu berpikir kritis, melakukan penalaran tingkat tinggi, serta mengoptimalkan 
+pengembangan potensi mahasiswa[4]. Kurikulum yang mampu memfasilitasi 
+mahasiswa belajar menjadi manusia yang paripurna, yakni manusia yang bebas, 
+bertanggung jawab, percaya diri, bermoral atau berakhlak mulia, mampu 
+berkolaborasi, toleran, dan menjadi manusia yang terdidik penuh determinasi 
+kontribusi untuk tercapainya cita-cita dalam pembukaan UUD 1945. 
+4. Landasan Historis 
+Kurikulum yang mampu memfasilitasi mahasiswa belajar sesuai dengan 
+zamannya; kurikulum yang mampu mewariskan nilai budaya dan sejarah 
+keemasan bangsa-bangsa masa lalu, dan mentransformasikan dalam era di mana 
+dia sedang belajar; kurikulum yang mampu mempersiapkan mahasiswa agar 
+dapat hidup lebih baik di abad 21, serta mampu membaca tanda-tanda 
+perkembangannya. 
+5. Landasan Yuridis 
+Merupakan landasan hukum yang menjadi dasar atau rujukan pada tahapan 
+perancangan, pengembangan, pelaksanaan, dan evaluasi, serta sistem 
+penjaminan mutu perguruan tinggi yang akan menjamin pelaksanaan kurikulum 
+dan tercapainya tujuan kurikulum. Berikut adalah beberapa landasan hukum yang 
+perlu diacu dalam penyusunan dan pelaksanaan kurikulum: 
+1) Undang-Undang Republik Indonesia Nomor 14 Tahun 2005 tentang Guru dan 
+Dosen (Lembaran Negara Republik Indonesia Tahun 2005 Nomor 157, 
+Tambahan Lembaran Negara Republik Indonesia Nomor 4586); 
+2) Undang-Undang Republik Indonesia Nomor 12 Tahun 2012 tentang 
+Pendidikan Tinggi (Lembaran Negara Republik Indonesia Tahun 2012 Nomor 
+158, Tambahan Lembaran Negara Republik Indonesia Nomor 5336); 
+3) Peraturan Presiden Republik Indonesia Nomor 8 Tahun 2012, tentang 
+Kerangka Kualifikasi Nasional Indonesia (KKNI); 
+4) Peraturan Menteri Pendidikan dan Kebudayaan Republik Indonesia Nomor 73 
+Tahun 2013, tentang Penerapan KKNI Bidang Perguruan Tinggi; 
+5) Peraturan Menteri Riset, Teknologi, dan Pendidikan Tinggi Republik Indonesia 
+Nomor 62 Tahun 2016 tentang Sistem Penjaminan Mutu Pendidikan Tinggi; 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+6 
+ 
+6) Peraturan Menteri Riset, Teknologi, dan Pendidikan Tinggi Nomor 59 tahun 
+2018, tentang Ijazah, Sertifikat Kompetensi, Sertifikat Profesi, Gelar dan Tata 
+Cara Penulisan Gelar di Perguruan Tinggi; 
+7) Keputusan Menteri Riset, Teknologi, dan Pendidikan Tinggi No. 123 Tahun 
+2019 tentang Magang dan Pengakuan Satuan Kredit Semester Magang 
+Industri untuk Program Sarjana dan Sarjana Terapan. 
+8) Peraturan Menteri Pendidikan dan Kebudayaan No. 3 tahun 2020, tentang 
+Standar Nasional Pendidikan Tinggi; 
+9) Peraturan Menteri Pendidikan dan Kebudayaan No. 5 tahun 2020, tentang 
+Akreditasi Program Studi dan Perguruan Tinggi, 
+10) Peraturan Menteri Pendidikan dan Kebudayaan No. 7 Tahun 2020 tentang 
+Pendirian Perubahan, Pembubaran Perguruan Tinggi Negeri, dan Pendirian, 
+Perubahan, Pencabutan Izin Perguruan Tinggi Swasta. 
+11) Peraturan Menteri Pendidikan dan Kebudayaan No. 22 tahun 2020 tentang 
+Rencana Strategis Kementerian Pendidikan dan Kebudayaan. 
+12) Keputusan Direktur Jenderal Pendidikan Tinggi Kementerian Pendidikan dan 
+Kebudayaan Republik Indonesia No. 84/E/KPT/2020 tentang Pedoman 
+Pelaksanaan Mata Kuliah Wajib pada Kurikulum Pendidikan Tinggi 
+13) Computing Curricula 2020, Association for Computing Machinery (ACM) 
+14) IS2020 A Competency Model for Undergraduate Programs in Information 
+Systems, Association for Computing Machinery (ACM), Association for 
+Information Systems (AIS). 
+ 
+Kurikulum yang dikembangkan Program Studi haruslah memenuhi standar 
+kompetensi yang ditetapkan Menteri yakni Kerangka Kualifikasi Nasional 
+Indonesia (KKNI). Pengembangan kurikulum juga mengacu pada Standar 
+Nasional Pendidikan Tinggi pada saat ini Standar Nasional Pendidikan Tinggi yang 
+berlaku adalah Permendikbud No. 03 Tahun 2020 [2] menggantikan 
+Permenristekdikti No 44 tahun 2015. Gambar 2 Landasan Hukum, Kebijakan 
+Nasional dan Institusional Pengembangan Kurikulum Pendidikan Tinggi 
+menunjukkan rangkaian landasan hukum, kebijakan nasional dan institusional 
+pengembangan kurikulum Pendidikan tinggi. 
+ 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+7 
+ 
+ 
+Gambar 2. Landasan Hukum, Kebijakan Nasional dan Institusional Pengembangan 
+Kurikulum Pendidikan Tinggi 
+IV. 
+Rumusan Visi, Misi, Tujuan, Strategi, dan University Value. 
+1. Visi, Misi, Tujuan, Strategi dan University Value (VMTS) 
+Perguruan Tinggi sebagai lembaga pendidikan tinggi merupakan bagian integral 
+dalam sistem pendidikan nasional yang wajib menetapkan VMTS Perguruan 
+Tinggi. VMTS dapat diupayakan pencapaiannya dengan berbagai cara, salah 
+satunya menyusun kurikulum yang digunakan Program Studi. Kurikulum Program 
+Studi merupakan gambaran dari Program Studi itu sendiri yang secara langsung 
+mendeskripsikan ciri Program Studi. Oleh karena itu, Perguruan Tinggi harus 
+memiliki nilai-nilai (University Values) yang dikembangkan menjadi penciri lulusan 
+yang dihasilkan oleh Program Studi. VMTS Perguruan Tinggi dan nilai-nilai 
+Perguruan Tinggi ditampilkan sebagai pondasi pembentukan kurikulum yang 
+diinginkan, dengan menyertakan identitas dokumen terdapatnya VMTS Perguruan 
+Tinggi beserta nilai-nilainya tersebut. 
+ 
+2. Visi, Misi, Tujuan, Strategi UPPS/Fakultas 
+VMTS UPPS (Unit Pengelola Program Studi) merupakan turunan dari VMTS 
+Perguruan Tinggi yang telah ditetapkan oleh pihak terkait dalam Perguruan Tinggi. 
+Sehingga identitas dokumen terdapat VMTS UPPS yang disertakan dalam uraian 
+yang dimaksud. 
+ 
+3. Visi Keilmuan Program Studi 
+Visi keilmuan program studi merupakan ciri kas/kekhasan keilmuan yang ingin 
+dicapai Program Studi. Visi keilmuan Program Studi umumnya mengandung 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+8 
+ 
+muatan yang terdapat dalam Kerangka Kualifikasi Nasional Indonesia (KKNI) atau 
+Standar Kompetensi Kerja Nasional Indonesia (SKKNI) dengan level yang 
+disesuaikan dengan program pendidikan yang diselenggarakan. Visi keilmuan 
+diperlukan untuk pertimbangan bahan kajian yang digunakan dalam kurikulum 
+[8]. 
+V. 
+Rumusan Standar Kompetensi Lulusan (SKL) 
+Standar Kompetensi Lulusan (SKL) yang dinyatakan dalam Capaian Pembelajaran 
+Lulusan (CPL) – CPL terdiri dari aspek: Sikap, dan Keterampilan Umum minimal 
+diadopsi dari SN-Dikti [2], serta aspek Pengetahuan, dan Keterampilan Khusus 
+dirumuskan mengacu pada deskriptor KKNI sesuai dengan jenjangnya. 
+Proses penyusunan Panduan Kurikulum Berbasis OBE untuk Sistem Informasi pada 
+buku ini menggunakan model pada Gambar 3 Model Kurikulum berbasis OBE, yang terdiri 
+dari beberapa tahap. Tahap pertama merupakan pendefinisian Profil Lulusan (PL). 
+Pada tahap kedua, dilakukan pendefinisian Capaian Pembelajaran Lulusan (CPL) yang 
+merupakan daftar kompetensi yang dituju oleh Program Studi sesuai Profil Lulusan 
+(PL). Selanjutnya, pada tahap ketiga, dilakukan identifikasi dan pemetaan Bahan 
+Kajian (BK) dan Mata Kuliah (MK) yang dapat mendukung pencapaian pembelajaran 
+(CPL). Mata Kuliah (MK) tersebut lalu disusun ke struktur mata kuliah sesuai urutan 
+semester di tahap keempat. Di tahap kelima, dilakukan identifikasi Capaian 
+Pembelajaran Mata Kuliah (CPMK) untuk setiap Mata Kuliah (MK) dan pemetaannya 
+terhadap Capaian Pembelajaran Lulusan (CPL). Terakhir, di tahap keenam, dilakukan 
+pendefinisian metode, tahap, dan bobot penilaian untuk setiap CPMK dan 
+pemetaannya terhadap nilai akhir MK dan CPL. 
+ 
+Gambar 3. Model Kurikulum berbasis OBE 
+5.1. 
+Rumusan Profil Lulusan 
+Program Studi perlu mendefinisikan profil lulusan yaitu kemampuan yang akan dicapai 
+oleh mahasiswa sesuai dengan kebutuhan lulusan di industri. 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+9 
+ 
+a. Profil lulusan mengandung ciri khas atau kearifan lokal kompetensi dasar 
+dari Program Studi/Perguruan Tinggi. Kearifan lokal diambil dari potensi dan 
+karakteristik yang dimiliki oleh Program Studi/Perguruan Tinggi. 
+b. Profil lulusan berorientasi pada hard skill dan soft skill. Misalnya, jika terdapat 
+4 Profil Lulusan maka Profil 1, 2 berorientasi pada hard skill dan profil 3, 4 
+berorientasi pada soft skill. 
+c. Profesi lulusan dituliskan berdasarkan pada profil lulusan yang telah ditetapkan. 
+Berikut adalah Profil Lulusan (PL) wajib untuk Program Studi Sistem Informasi yang 
+disusun dari aspek Keterampilan Khusus dan Pengetahuan.  
+Program Studi menetapkan Profil Lulusan yang memiliki unsur 4 aspek yaitu Sikap, 
+Keterampilan Umum, Keterampilan Khusus dan Pengetahuan. Program studi wajib 
+menggunakan 2 Profil Lulusan pada Tabel 1, yang disusun dari aspek Keterampilan 
+Khusus dan Pengetahuan. Selain itu, Program Studi wajib menambahkan Profil 
+Lulusan dari aspek Sikap dan Keterampilan Umum. Program Studi juga dapat 
+menambahkan Profil Lulusan dari aspek Keterampilan Khusus dan Pengetahuan 
+sesuai dengan Kekhasan Program Studi. Jumlah total Profil lulusan yang disusun 
+sebanyak 4 (empat) sampai 5 (lima). 
+Tabel 1. Profil Lulusan Wajib Program Studi Sistem Informasi 
+No 
+Kode PL 
+Profil Lulusan (PL) 
+1 
+PL01 
+Lulusan memiliki kemampuan menganalisis, merancang, membuat, dan 
+melakukan evaluasi sistem informasi yang selaras dengan tujuan organisasi. 
+(IS2020) 
+2 
+PL02 
+Lulusan memiliki kemampuan memahami, menerapkan dan mengintegrasikan 
+model sistem, menggunakan metode dan berbagai teknik peningkatan bisnis 
+proses yang mendatangkan suatu nilai untuk organisasi. (IS2020) 
+3 
+PL03 
+.... 
+4 
+PL(n) 
+.... 
+ 
+Program Studi dapat menentukan profesi lulusan berdasarkan daftar unit Kompetensi 
+okupasi yang dijelaskan pada Gambar 4. 
+ 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+10 
+ 
+ 
+Gambar 4. Daftar Unit Kompetensi Okupasi 2018 
+sumber : https://proserti.kominfo.go.id/4f0rm1n/files/pubreg/filedok_5.pdf  
+ 
+Selain dari Daftar Unit Kompetensi Okupasi[6], Program Studi dapat menentukan 
+profesi yang bersumber dari AIS Job Index dan profesi sesuai dengan kekhasan 
+Program Studi atau Perguruan Tinggi. Pada Tabel 1.a adalah contoh profesi yang 
+disajikan dalam buku kurikulum program studi. 
+Program Studi dapat memilih 4 sampai 5 profesi dari daftar yang terdapat pada 
+Tabel 1.a atau Gambar 4 yang sesuai dengan kekhasan Program Studi. 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+11 
+ 
+Tabel 1.a. Daftar Pilihan Profesi 
+No 
+Profesi 
+Sumber 
+1 
+IT Consultant 
+AIS Job Index 2019 
+2 
+Data Analyst 
+AIS Job Index 2019 
+3 
+Systems Analyst 
+AIS Job Index 2019 
+4 
+IT Auditor 
+AIS Job Index 2019 
+5 
+Application Developer 
+AIS Job Index 2019 
+6 
+Information Security 
+AIS Job Index 2019 
+7 
+Project Manager 
+AIS Job Index 2019 
+8 
+Computer Support 
+AIS Job Index 2019 
+9 
+IS Technopreneur 
+Kekhasan Perguruan Tinggi 
+10 
+StartUp Founder 
+Kekhasan Perguruan Tinggi 
+11 
+Digital Business Developer 
+Kekhasan Perguruan Tinggi 
+5.2. 
+Rumusan CPL SN-DIKTI 
+Capaian Pembelajaran Lulusan (CPL) dapat ditentukan dari berbagai sumber standar 
+seperti SN-DIKTI[2], IS-2020[7], CC-2020[8], ASIIN dan IABEE[9].  
+Program Studi menyusun CPL SN-DIKTI yang mencakup 4 (empat) aspek yang 
+mencakup aspek Sikap, Keterampilan Umum, Keterampilan Khusus Dan 
+Pengetahuan. Aspek Sikap dan Keterampilan Umum mengadopsi dari SN-DIKTI, 
+serta dapat menambahkan dari standar IABEE/ASIIN. Sedangkan untuk aspek 
+Keterampilan Khusus dan Pengetahuan Program Studi dapat menggunakan CPL 
+wajib dan beberapa CPL tidak wajib yang telah disediakan pada daftar CPL pada 
+Tabel 2 CPL SN-DIKTI. 
+Tabel 2. CPL SN-DIKTI 
+No 
+CPL 
+SN-
+DIKTI 
+CPL 
+Prodi 
+Deskripsi 
+Kategori 
+Sumber 
+A 
+SIKAP (S) 
+  
+  
+1 
+CPL-S01 
+  
+Bertakwa kepada Tuhan Yang Maha Esa 
+dan mampu menunjukkan sikap religius. 
+Wajib 
+SN-DIKTI 
+2 
+CPL-S02 
+  
+Menjunjung tinggi nilai kemanusiaan 
+dalam menjalankan tugas berdasarkan 
+agama, moral dan etika. 
+Wajib 
+SN-DIKTI 
+3 
+CPL-S03 
+  
+Berkontribusi dalam peningkatan mutu 
+kehidupan bermasyarakat, berbangsa, 
+dan bernegara berdasarkan Pancasila. 
+Wajib 
+SN-DIKTI 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+12 
+ 
+No 
+CPL 
+SN-
+DIKTI 
+CPL 
+Prodi 
+Deskripsi 
+Kategori 
+Sumber 
+4 
+CPL-S04 
+  
+Berperan sebagai warga negara yang 
+bangga dan cinta tanah air, memiliki 
+nasionalisme serta rasa tanggungjawab 
+pada negara dan bangsa. 
+Wajib 
+SN-DIKTI 
+5 
+CPL-S05 
+  
+Menghargai keanekaragaman budaya, 
+pandangan, agama, dan kepercayaan, 
+serta pendapat atau temuan orisinal 
+orang lain. 
+Wajib 
+SN-DIKTI 
+6 
+CPL-S06 
+  
+Bekerja sama dan memiliki kepekaan 
+sosial 
+serta 
+kepedulian 
+terhadap 
+masyarakat dan lingkungan. 
+Wajib 
+SN-DIKTI 
+7 
+CPL-S07 
+  
+Taat hukum dan disiplin dalam kehidupan 
+bermasyarakat dan bernegara. 
+Wajib 
+SN-DIKTI 
+8 
+CPL-S08 
+  
+Menginternalisasi nilai, norma, dan etika 
+akademik. 
+Wajib 
+SN-DIKTI 
+9 
+CPL-S09 
+  
+Menunjukkan sikap bertanggungjawab 
+atas pekerjaan di bidang keahliannya 
+secara mandiri. 
+Wajib 
+SN-DIKTI 
+10 
+CPL-S10 
+  
+Menginternalisasi 
+semangat 
+kemandirian, 
+kejuangan, 
+dan 
+kewirausahaan. 
+Wajib 
+SN-DIKTI 
+B 
+KETERAMPILAN UMUM (KU) 
+  
+  
+1 
+CPL-
+KU01 
+  
+Mampu menerapkan pemikiran logis, 
+kritis, sistematis, dan inovatif dalam 
+konteks 
+pengembangan 
+atau 
+implementasi ilmu pengetahuan dan 
+teknologi 
+yang 
+memperhatikan 
+dan 
+menerapkan nilai humaniora yang sesuai 
+dengan bidang keahliannya. 
+Wajib 
+SN-DIKTI 
+2 
+CPL-
+KU02 
+  
+Mampu menunjukkan kinerja mandiri, 
+bermutu, dan terukur. 
+Wajib 
+SN-DIKTI 
+3 
+CPL-
+KU03 
+  
+Mampu 
+mengkaji 
+implikasi 
+pengembangan atau implementasi ilmu 
+pengetahuan 
+teknologi 
+yang 
+memperhatikan dan menerapkan nilai 
+humaniora sesuai dengan keahliannya 
+berdasarkan kaidah, tata cara dan etika 
+ilmiah dalam rangka menghasilkan solusi, 
+gagasan, 
+desain 
+atau 
+kritik 
+seni, 
+menyusun 
+deskripsi 
+saintifik 
+hasil 
+kajiannya dalam bentuk skripsi atau 
+laporan 
+tugas 
+akhir, 
+dan 
+mengunggahnya dalam laman perguruan 
+tinggi. 
+Wajib 
+SN-DIKTI 
+4 
+CPL-
+KU04 
+  
+Menyusun deskripsi saintifik hasil kajian 
+tersebut di atas dalam bentuk skripsi 
+atau 
+laporan 
+tugas 
+akhir, 
+dan 
+mengunggahnya dalam laman perguruan 
+tinggi. 
+Wajib 
+SN-DIKTI 
+5 
+CPL-
+KU05 
+  
+Mampu mengambil keputusan secara 
+tepat 
+dalam 
+konteks 
+penyelesaian 
+masalah 
+di 
+bidang 
+keahliannya, 
+Wajib 
+SN-DIKTI 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+13 
+ 
+No 
+CPL 
+SN-
+DIKTI 
+CPL 
+Prodi 
+Deskripsi 
+Kategori 
+Sumber 
+berdasarkan hasil analisis informasi dan 
+data. 
+6 
+CPL-
+KU06 
+  
+Mampu 
+memelihara 
+dan 
+mengembangkan jaringan kerja dengan 
+pembimbing, kolega, sejawat baik di 
+dalam maupun di luar lembaganya. 
+Wajib 
+SN-DIKTI 
+7 
+CPL-
+KU07 
+  
+Mampu 
+bertanggungjawab 
+atas 
+pencapaian hasil kerja kelompok dan 
+melakukan 
+supervisi 
+dan 
+evaluasi 
+terhadap penyelesaian pekerjaan yang 
+ditugaskan kepada pekerja yang berada 
+di bawah tanggungjawabnya. 
+Wajib 
+SN-DIKTI 
+8 
+CPL-
+KU08 
+  
+Mampu melakukan proses evaluasi diri 
+terhadap kelompok kerja yang berada 
+dibawah 
+tanggung 
+jawabnya, 
+dan 
+mampu mengelola pembelajaran secara 
+mandiri. 
+Wajib 
+SN-DIKTI 
+9 
+CPL-
+KU09 
+  
+Mampu 
+mendokumentasikan, 
+menyimpan, 
+mengamankan, 
+dan 
+menemukan 
+kembali 
+data 
+untuk 
+menjamin kesahihan dan mencegah 
+plagiasi. 
+Wajib 
+SN-DIKTI 
+10 
+CPL-
+KU10 
+  
+Berkomunikasi 
+secara 
+efektif 
+dalam 
+berbagai konteks profesional 
+Tidak 
+Wajib 
+IABEE, 1.3.c 
+C 
+KETERAMPILAN KHUSUS (KK) 
+  
+  
+1 
+CPL-
+KK01 
+CPL01 
+Mampu memahami, menganalisis, dan 
+menilai konsep dasar dan peran sistem 
+informasi dalam mengelola data dan 
+memberikan rekomendasi pengambilan 
+keputusan pada proses dan sistem 
+organisasi. 
+Wajib 
+IS2020 A3.1 
+Foundations 
+Competency 
+Realm 
+2 
+CPL-
+KK02 
+CPL02 
+Mampu 
+membangun, 
+mengelola, 
+menggunakan 
+dan 
+mengamankan 
+database dengan alat dan teknik dalam 
+sistem 
+basis 
+data 
+yang 
+akan 
+menghasilkan model relasional 
+Wajib 
+IS2020 3.2.1 
+Data/Informatio
+n Management 
+3 
+CPL-
+KK03 
+CPL04 
+Mampu 
+membuat 
+perencanaan 
+infrastruktur TI, arsitektur jaringan, 
+layanan fisik dan cloud, menganalisa 
+konsep identifikasi, otentikasi, otorisasi 
+akses dalam konteks melindungi orang 
+dan perangkat 
+Wajib 
+IS2020 
+A3.3 
+Technology 
+Competency 
+Realm 
+4 
+CPL-
+KK04 
+CPL03 
+Mampu 
+menerapkan 
+metodologi 
+pengembangan sistem informasi beserta 
+alat 
+pemodelannya 
+meliputi 
+pengembangan 
+sistem 
+berorientasi 
+objek, system development life cycle 
+(SDLC). 
+Wajib 
+IS2020 A.3.4.1 
+Competency 
+Area - System 
+Analysis and 
+Design 
+5 
+CPL-
+KK05 
+CPL03 
+Mampu menerapkan dasar logika, prinsip 
+matematika, ekspresi, aspek modular, 
+linearitas dan non-linearitas struktur data 
+pada pemrograman perangkat lunak 
+Wajib 
+IS2020 A3.4.2 
+Competency 
+Area - 
+Application 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+14 
+ 
+No 
+CPL 
+SN-
+DIKTI 
+CPL 
+Prodi 
+Deskripsi 
+Kategori 
+Sumber 
+Development 
+and 
+Programming 
+6 
+CPL-
+KK06 
+CPL05 
+Mampu memahami, menerapkan kode 
+etik dalam penggunaan informasi dan 
+data pada perancangan, implementasi, 
+dan penggunaan suatu sistem 
+Wajib 
+IS2020. A3.5.1 
+IS Ethics, 
+Sustainability, 
+User and 
+Implication 
+7 
+CPL-
+KK07 
+CPL06 
+Memiliki 
+kemampuan 
+merencanakan, 
+menerapkan, 
+memelihara 
+dan 
+meningkatkan 
+sistem 
+informasi 
+organisasi untuk mencapai tujuan dan 
+sasaran organisasi yang strategis baik 
+jangka pendek maupun jangka panjang. 
+Wajib 
+IS2020 A3.5.2 
+Competency 
+Area – IS 
+Management 
+and Strategy, 
+8 
+CPL-
+KK08 
+CPL06 
+Memiliki kemampuan untuk memantau, 
+mengevaluasi 
+dan 
+mengendalikan 
+sumberdaya sistem informasi untuk 
+memastikan keselarasan, 
+pencapaian 
+dan sasaran strategis organisasi. 
+Wajib 
+IS2020 A3.5.2 
+Competency 
+Area – IS 
+Management 
+and Strategy 
+9 
+CPL-
+KK09 
+CPL07 
+Mampu membangun perangkat lunak 
+dalam sebuah proyek sistem informasi 
+Wajib 
+IS2020 A3.6.2 
+Competency 
+Area – IS 
+Practicum 
+10 
+CPL-
+KK10 
+  
+Mampu 
+menerapkan 
+paradigma 
+pemrograman berorientasi objek secara 
+fundamental berdasarkan object, kelas, 
+pewarisan, enkapsulasi, abstraksi dan 
+polimorfisme 
+Tidak 
+Wajib 
+IS2020 A3.4.3 
+Competency 
+Area – Object-
+Oriented 
+Paradigm 
+11 
+CPL-
+KK11 
+  
+Mampu menerapkan fungsi dan bahasa 
+pemrograman 
+serta 
+memperhatikan 
+aspek keamanan pada aplikasi berbasis 
+web di sisi client dan server 
+Tidak 
+Wajib 
+IS2020 A.3.4.4 
+Competency 
+Area - Web 
+Development 
+  
+CPL-
+KK12 
+  
+Mampu menerapkan fungsi dan bahasa 
+pemrograman pada aplikasi berbasis 
+perangkat bergerak 
+Tidak 
+Wajib 
+IS2020 A3.4.5 
+Competency 
+Area - Mobile 
+development 
+12 
+CPL-
+KK13 
+  
+Mampu menerapkan konsep, metode dan 
+teknik dalam merancang UI/UX 
+Tidak 
+Wajib 
+IS2020 A3.4.6 
+Competency 
+Area - User 
+Interface 
+Design 
+13 
+CPL-
+KK14 
+  
+Memiliki kemampuan pengolahan data 
+yaitu 
+pemfilteran, 
+agregasi 
+dan 
+pengorganisasian 
+serta 
+menyajikan 
+informasi yang efektif, efisien, estetik 
+dalam analisis dan visualisasi data 
+Tidak 
+Wajib 
+IS2020 A3.2.3 
+Competency 
+Area - Data / 
+Information 
+Visualization 
+15 
+CPL-
+KK15 
+  
+Memiliki 
+kemampuan 
+dalam 
+mengidentifikasi, menilai, menganalisis 
+dan memberikan rekomendasi terkait 
+manajemen risiko teknologi informasi 
+dalam organisasi. 
+Tidak 
+Wajib 
+IS2020 A3.5.2 
+Competency 
+Area – IS 
+Management 
+and Strategy, 
+ISO2020 A3.5.4 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+15 
+ 
+No 
+CPL 
+SN-
+DIKTI 
+CPL 
+Prodi 
+Deskripsi 
+Kategori 
+Sumber 
+Competency 
+Area – Business 
+Process 
+Management 
+16 
+CPL-
+KK16 
+  
+Memiliki kemampuan dalam pengelolaan 
+bisnis dengan memanfaatkan teknologi 
+informasi 
+Tidak 
+Wajib 
+ASIIN SSC-07 
+Business 
+Informatics / 
+Information 
+Systems 
+17 
+CPL-
+KK17 
+  
+Memiliki kemampuan dalam melakukan 
+fungsi klasifikasi, klasterisasi, regresi, 
+deteksi anomali, pembelajaran aturan 
+asosiasi, perangkuman, baik secara 
+deskriptif maupun prediktif di dalam 
+memahami masalah data secara tepat 
+Tidak 
+Wajib 
+IS2020 A3.2.2 
+18 
+CPL-
+KK18 
+  
+Memiliki kemampuan menerapkan hash, 
+crypto 
+dan 
+bitcoin 
+pada 
+teknologi 
+blockchain 
+Tidak 
+Wajib 
+IS2020 A3.3.3 
+D 
+PENGETAHUAN (P) 
+  
+  
+1 
+CPL-P01 
+CPL01 
+Mampu memahami, menganalisis, dan 
+menilai konsep dasar dan peran sistem 
+informasi dalam mengelola data dan 
+memberikan rekomendasi pengambilan 
+keputusan pada proses dan sistem 
+organisasi. 
+Wajib 
+IS2020 
+A3.1 
+Foundations 
+Competency 
+Realm 
+2 
+CPL-P02 
+CPL02 
+Mampu memahami dan menjelaskan 
+konsep basis data, struktur data dan 
+visualisasi data secara menyeluruh 
+Wajib 
+IS2020 
+A3.2 Data / 
+Information 
+Competency 
+Realm 
+3 
+CPL-P03 
+CPL04 
+Mampu memahami dan menjelaskan 
+konsep 
+infrastruktur 
+TI, 
+arsitektur 
+jaringan, layanan fisik dan cloud untuk 
+menganalisa 
+konsep 
+identifikasi, 
+otentikasi, otorisasi akses dalam konteks 
+melindungi orang dan perangkat 
+Wajib 
+IS2020 
+A3.3 
+Technology 
+Competency 
+Realm 
+4 
+CPL-P04 
+CPL03 
+Mampu memahami dan menjelaskan 
+metodologi 
+pengembangan 
+sistem 
+informasi mulai dari pengembangan 
+sistem 
+berorientasi 
+objek, 
+software 
+development life cycle (SDLC), dan 
+pengembangan agile 
+Wajib 
+IS2020 A.3.4.1 
+Competency 
+Area - System 
+Analysis and 
+Design 
+5 
+CPL-P05 
+  
+Mampu memahami dan menjelaskan 
+dasar 
+logika, 
+prinsip 
+matematika, 
+ekspresi, aspek modular, linearitas dan 
+non-linearitas 
+struktur 
+data 
+pada 
+perangkat lunak 
+Wajib 
+IS2020 A3.4.2 
+Competency 
+Area - 
+Application 
+Development 
+and 
+Programming 
+6 
+CPL-P06 
+CPL05 
+Mampu memahami dan mengkaji dasar 
+hukum kode etik dalam penggunaan 
+informasi dan data pada perancangan, 
+Wajib 
+IS2020 A3.5.1 
+Competency 
+Area - IS Ethics, 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+16 
+ 
+No 
+CPL 
+SN-
+DIKTI 
+CPL 
+Prodi 
+Deskripsi 
+Kategori 
+Sumber 
+implementasi, dan penggunaan suatu 
+sistem 
+Sustainability, 
+Use, and 
+Implication for 
+Society 
+7 
+CPL-P07 
+CPL06 
+Mampu memahami dan menjelaskan 
+konsep perencanaan strategis, resiko 
+organisasi, serta kerangka kerja tata 
+kelola sistem informasi 
+Wajib 
+IS2020 A3.5.2 
+Competency 
+Area - IS 
+Management 
+and Strategy 
+8 
+CPL-P08 
+CPL07 
+Mampu memahami konsep, teknik pada 
+manajemen proyek untuk memenuhi 
+business 
+requirement 
+berdasarkan 
+kriteria pengambilan keputusan 
+Wajib 
+IS2020 A3.6.1 
+Competency 
+Area - IS 
+Project 
+Management 
+9 
+CPL-P09 
+  
+Mampu memahami, mengidentifikasi, 
+merekomendasikan 
+kebutuhan 
+bisnis 
+terhadap dampak penggunaan teknologi 
+di dalam masyarakat dan bisnis 
+Tidak 
+Wajib 
+IS2020 A3.3.3 
+Competency 
+Area - Emerging 
+Technologies 
+10 
+CPL-P10 
+  
+Mampu memahami permasalahan bisnis 
+berdasarkan analisis data di dalam 
+organisasi 
+sebagai 
+pendukung 
+pengambilan keputusan 
+Tidak 
+Wajib 
+IS2020 A3.2.2 
+Competency 
+Area - Data / 
+Business 
+Analytics 
+11 
+CPL-P11 
+  
+Mampu memahami konsep, metode, 
+teknik dan tahapan data mining serta 
+visualisasi data sebagai pengetahuan 
+yang 
+berkaitan 
+dengan 
+teknologi 
+informasi 
+Tidak 
+Wajib 
+IS2020 A3.2.2 
+Competency 
+Area - Data / 
+Business 
+Analytics 
+12 
+CPL-P12 
+  
+Mampu memahami fungsi dan bahasa 
+pemrograman 
+serta 
+memperhatikan 
+aspek keamanan pada aplikasi berbasis 
+web di sisi client dan server 
+Tidak 
+Wajib 
+IS2020 A.3.4.4 
+Competency 
+Area - Web 
+Development 
+13 
+CPL-P13 
+  
+Mampu memahami fungsi dan bahasa 
+pemrograman pada aplikasi berbasis 
+perangkat bergerak 
+Tidak 
+Wajib 
+IS2020 A3.4.5 
+Competency 
+Area - Mobile 
+development 
+14 
+CPL-P14 
+  
+Mampu memahami konsep, metode dan 
+teknik dalam merancang UI/UX 
+Tidak 
+Wajib 
+IS2020 A3.4.6 
+Competency 
+Area - User 
+Interface 
+Design 
+15 
+CPL-P15 
+  
+Mampu memahami dan melihat peluang 
+inovasi digital untuk mengembangkan 
+model bisnis digital yang baru 
+Tidak 
+Wajib 
+IS2020 A.3.5.3 
+Competency 
+Area - Digital 
+Innovation 
+16 
+CPL-P16 
+  
+Mampu 
+memahami 
+model 
+sistem, 
+metode dan berbagai teknik peningkatan 
+bisnis proses yang mendatangkan suatu 
+nilai untuk organisasi. 
+Tidak 
+Wajib 
+IS2020 A3.5.4 
+Competency 
+Area - Business 
+Process 
+Management 
+17 
+CPL-P17 
+  
+Memiliki pemahaman mengenai dasar-
+dasar 
+bisnis 
+dan 
+pengetahuan 
+Tidak 
+Wajib 
+ASIIN SSC-07 
+Business 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+17 
+ 
+No 
+CPL 
+SN-
+DIKTI 
+CPL 
+Prodi 
+Deskripsi 
+Kategori 
+Sumber 
+pendukung 
+lainnya 
+yang 
+berkaitan 
+dengan teknologi informasi 
+Informatics / 
+Information 
+Systems 
+5.3. 
+Rumusan CPL Program Studi 
+CPL Program Studi adalah CPL yang dirumuskan berdasarkan CPL SN-Dikti. Adapun 
+penyesuaian CPL dari aspek Sikap dan Keterampilan Umum Program Studi dapat 
+dirumuskan dari CPL SN-DIKTI pada Tabel 2, kemudian melakukan mapping seperti 
+pada Tabel 3 CPL Wajib Program Studi Sistem Informasi. Sedangkan CPL Program 
+Studi berkaitan dengan aspek Pengetahuan dan Keterampilan Khusus dapat 
+dirumuskan mengacu pada Tabel 3. 
+Program Studi wajib membuat CPL Program Studi yang dirumuskan dari Tabel 2 
+CPL SN-DIKTI, sesuai domain of practice Program Studi dimana jumlah yang 
+disarankan adalah antara 10 s/d 15 CPL Program Studi. Tabel 3 mencantumkan 
+Daftar CPL yang wajib diambil oleh Program Studi Sistem Informasi. Program Studi 
+dapat menambahkan CPL sesuai dengan kekhasan Program Studi yang mencakup 
+4 aspek yaitu Sikap, Pengetahuan, Keterampilan Umum dan Keterampilan Khusus. 
+Tabel 3. CPL Wajib Program Studi Sistem Informasi 
+No 
+Kode 
+CPL 
+Deskripsi CPL 
+Referensi 
+CPL SN-
+DIKTI 
+1 
+CPL01 
+Mampu memahami, menganalisis, dan menilai 
+konsep dasar dan peran sistem informasi 
+dalam mengelola data dan memberikan 
+rekomendasi pengambilan keputusan pada 
+proses dan sistem organisasi. 
+IS2020 
+CPL-KK01, 
+CPL-P01 
+A3.1 Foundations 
+Competency 
+Realm 
+2 
+CPL02 
+Mampu merancang dan menggunakan 
+database, serta mengolah dan menganalisa 
+data dengan alat dan teknik pengolahan data 
+IS2020 A3.2.1 
+Data/Information 
+Management 
+CPL-KK02, 
+CPL-P02 
+3 
+CPL03 
+Mampu memahami dan menggunakan 
+berbagai metodologi pengembangan sistem 
+beserta alat pemodelan sistem dan 
+menganalisa kebutuhan pengguna dalam 
+membangun sistem informasi untuk mencapai 
+tujuan organisasi 
+IS2020 A3.4.1 
+System Analysis 
+and Design, 
+A3.4.2 Application 
+Development and 
+Programming 
+CPL-KK04, 
+CPL-KK05, 
+CPL-P04 
+4 
+CPL04 
+Mampu membuat perencanaan infrastruktur 
+TI, arsitektur jaringan, layanan fisik dan cloud, 
+menganalisa konsep identifikasi, otentikasi, 
+otorisasi akses dalam konteks melindungi 
+orang dan perangkat 
+IS2020 
+CPL-KK03, 
+CPL-P03 
+A3.3 Technology 
+Competency 
+Realm 
+5 
+CPL05 
+Mampu memahami dan menerapkan kode etik 
+dalam penggunaan informasi dan data pada 
+perancangan, implementasi, dan penggunaan 
+suatu sistem 
+IS2020. A3.5.1 IS 
+Ethics, 
+Sustainability, 
+User and 
+Implication 
+CPL-KK06, 
+CPL-P06 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+18 
+ 
+No 
+Kode 
+CPL 
+Deskripsi CPL 
+Referensi 
+CPL SN-
+DIKTI 
+6 
+CPL06 
+Memiliki kemampuan merencanakan, 
+menerapkan, memelihara dan meningkatkan 
+sistem informasi organisasi untuk mencapai 
+tujuan dan sasaran organisasi yang strategis 
+baik jangka pendek maupun jangka panjang. 
+IS2020 A3.5.2 
+Competency Area 
+– IS Management 
+and Strategy, 
+CPL-KK07, 
+CPL-KK08, 
+CPL-P07 
+7 
+CPL07 
+Mampu memahami, mengidentifikasi dan 
+menerapkan konsep, teknik dan metodologi 
+manajemen proyek sistem informasi. 
+IS2020 A3.6.1 IS 
+Project 
+Management 
+CPL-KK09, 
+CPL-P08 
+8 
+CPL(n) 
+..... 
+.... 
+.... 
+5.4. 
+Pemetaan CPL Program Studi terhadap CPL SN-DIKTI 
+Pemetaan ini dilakukan untuk melihat kesesuaian antara CPL Program Studi dengan 
+CPL SN-DIKTI. Untuk aspek sikap dan keterampilan umum harus mengacu pada CPL 
+SN-DIKTI sebagai standar minimal. Tabel 4 merupakan contoh pemetaan CPL wajib 
+Program Studi dengan CPL SN-DIKTI.  
+Program Studi menyusun tabel pemetaan CPL Prodi terhadap CPL SN-Dikti sesuai 
+Tabel 4.  
+Tabel 4. Pemetaan CPL SN-DIKTI - CPL Program Studi 
+No 
+CPL SN-DIKTI 
+CPL Program Studi 
+CPL01 
+CPL02 
+CPL03 
+CPL04 
+CPL05 
+CPL06 
+CPL07 
+CPL(n) 
+SIKAP (S) 
+1 CPL-S01 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.... 
+2 CPL-S02 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.... 
+3 CPL-S03 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.... 
+4 CPL-S04 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.... 
+5 CPL-S05 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.... 
+6 CPL-S06 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.... 
+7 CPL-S07 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.... 
+8 CPL-S08 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.... 
+9 CPL-S09 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.... 
+10 CPL-S10 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.... 
+KETERAMPILAN UMUM (KU) 
+11 CPL-KU01 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.... 
+12 CPL-KU02 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.... 
+13 CPL-KU03 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.... 
+14 CPL-KU04 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.... 
+15 CPL-KU05 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.... 
+16 CPL-KU06 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.... 
+17 CPL-KU07 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.... 
+18 CPL-KU08 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.... 
+19 CPL-KU09 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.... 
+KETERAMPILAN KHUSUS (KK) 
+20 CPL-KK01 
+V 
+ 
+ 
+ 
+ 
+ 
+ 
+.... 
+21 CPL-KK02 
+ 
+V 
+ 
+ 
+ 
+ 
+ 
+.... 
+22 CPL-KK03 
+ 
+ 
+ 
+V 
+ 
+ 
+ 
+.... 
+23 CPL-KK04 
+ 
+ 
+V 
+ 
+ 
+ 
+ 
+.... 
+24 CPL-KK05 
+ 
+ 
+V 
+ 
+ 
+ 
+ 
+.... 
+25 CPL-KK06 
+ 
+ 
+ 
+ 
+V 
+ 
+ 
+.... 
+26 CPL-KK07 
+ 
+ 
+ 
+ 
+ 
+V 
+ 
+.... 
+27 CPL-KK08 
+ 
+ 
+ 
+ 
+ 
+V 
+ 
+.... 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+19 
+ 
+No 
+CPL SN-DIKTI 
+CPL Program Studi 
+CPL01 
+CPL02 
+CPL03 
+CPL04 
+CPL05 
+CPL06 
+CPL07 
+CPL(n) 
+28 CPL-KK09 
+ 
+ 
+ 
+ 
+ 
+ 
+V 
+.... 
+PENGETAHUAN (P) 
+29 CPL-P01 
+V 
+ 
+ 
+ 
+ 
+ 
+ 
+.... 
+30 CPL-P02 
+ 
+V 
+ 
+ 
+ 
+ 
+ 
+.... 
+31 CPL-P03 
+ 
+ 
+ 
+V 
+ 
+ 
+ 
+.... 
+32 CPL-P04 
+ 
+ 
+V 
+ 
+ 
+ 
+ 
+.... 
+33 CPL-P05 
+ 
+ 
+V 
+ 
+ 
+ 
+ 
+.... 
+34 CPL-P06 
+ 
+ 
+ 
+ 
+V 
+ 
+ 
+.... 
+35 CPL-P07 
+ 
+ 
+ 
+ 
+ 
+V 
+ 
+.... 
+36 CPL-P08 
+ 
+ 
+ 
+ 
+ 
+ 
+V 
+.... 
+.... .... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+5.5. 
+Pemetaan CPL Program Studi terhadap PL 
+Pemetaan CPL Program Studi terhadap PL dilakukan untuk memetakan kesesuaian 
+antara CPL yang ditetapkan terhadap Profil Lulusan dari Program Studi. Daftar PL 
+wajib dapat dilihat pada Tabel 1 Profil Lulusan, sedangkan daftar CPL wajib dapat 
+dilihat pada Tabel 3 CPL Wajib Program Studi Sistem Informasi. Satu atau lebih CPL 
+dapat digunakan untuk memenuhi satu atau lebih PL dan sebaliknya.  
+Program Studi melakukan pemetaan sesuai dengan PL dan CPL Program Studi yang 
+telah ditetapkan oleh Program Studi. 
+Tabel 5. Pemetaaan CPL dan PL 
+No 
+Kode CPL 
+Profil Lulusan (PL) 
+PL01 
+PL02 
+... 
+PL(n) 
+1 
+CPL01 
+V 
+  
+  
+.... 
+2 
+CPL02 
+V 
+  
+  
+.... 
+3 
+CPL03 
+V 
+  
+  
+.... 
+2 
+CPL04 
+V 
+  
+  
+.... 
+5 
+CPL05 
+  
+V 
+  
+.... 
+3 
+CPL06 
+  
+V 
+  
+.... 
+4 
+CPL07 
+  
+V 
+  
+.... 
+  
+CPL(n)... 
+.... 
+.... 
+.... 
+.... 
+VI. 
+Penetapan Bahan Kajian 
+Penetapan Bahan Kajian berdasarkan CPL dan/atau menggunakan Body of Knowledge 
+suatu Program Studi, yang kemudian digunakan untuk pembentukan mata kuliah 
+baru, dan evaluasi serta rekonstruksi terhadap mata kuliah lama atau sedang berjalan. 
+6.1. 
+Rumusan Bahan Kajian (BK) 
+Penetapan bahan kajian untuk Program Studi bersumber dari KKNI, SN-DIKTI[2], IS-
+2020[7], CC-2020[8], ASIIN, IABEE[9] dan sumber lainnya yang relevan.  
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+20 
+ 
+Program Studi menyusun Daftar Bahan Kajian dengan mengadopsi 11 BK Wajib 
+Program Studi Sistem Informasi dan memilih sejumlah BK tidak wajib seperti yang 
+ditunjukan pada Tabel 6 atau sesuai dengan kebijakan Program Studi. Program 
+Studi dapat menambah BK sesuai dengan domain of practice/value/ciri khas dari 
+Perguruan Tinggi atau Program Studi. 
+Tabel 6. Rumusan Bahan Kajian  
+No 
+Kode BK 
+Bahan Kajian 
+Kategori 
+Referensi 
+1 
+BK01 
+Foundation of Information Systems 
+Wajib Prodi SI 
+IS2020 
+2 
+BK02 
+Data / information Management 
+Wajib Prodi SI 
+IS2020 
+3 
+BK03 
+IT Infrastructure 
+Wajib Prodi SI 
+IS2020 
+4 
+BK04 
+IS Project Management 
+Wajib Prodi SI 
+IS2020 
+5 
+BK05 
+Systems Analysis & Design 
+Wajib Prodi SI 
+IS2020 
+6 
+BK06 
+IS Management and Strategy 
+Wajib Prodi SI 
+IS2020 
+7 
+BK07 
+Application Development / Programming 
+Wajib Prodi SI 
+IS2020 
+8 
+BK08 
+Secure Computing 
+Wajib Prodi SI 
+IS2020 
+9 
+BK09 
+Ethics, use and implications for society 
+Wajib Prodi SI 
+IS2020 
+10 
+BK10 
+Praktikum 
+Wajib Prodi SI 
+IS2020 
+11 
+BK11 
+Mathematics and statistics 
+Wajib Prodi SI 
+IABEE 
+12 
+BK12 
+Data / Business Analytics 
+Tidak Wajib 
+IS2020 
+13 
+BK13 
+Personality Development 
+Tidak Wajib 
+IABEE 
+14 
+BK14 
+Business Process Management 
+Tidak Wajib 
+IS2020/ASIIN 
+15 
+BK15 
+Enterprise Architecture 
+Tidak Wajib 
+CC2020 
+16 
+BK16 
+User Interface Design 
+Tidak Wajib 
+IS2020 
+17 
+BK17 
+Emerging Technologies 
+Tidak Wajib 
+IS2020 
+18 
+BK18 
+Digital Innovation 
+Tidak Wajib 
+IS2020 
+6.2. 
+Pemetaan CPL terhadap BK 
+Pemetaan CPL terhadap BK dilakukan untuk menunjukan BK yang dibutuhkan dalam 
+memenuhi setiap CPL yang telah ditetapkan. Pemetaan satu CPL dapat dilakukan  
+terhadap beberapa BK dan satu BK dapat  dipetakan terhadap beberapa 
+CPL. Berikut ini akan diberikan contoh pemetaan CPL terhadap BK. Misalnya untuk 
+memenuhi CPL02 diperlukan BK02 dan BK11. Untuk memenuhi CPL03 diperlukan 
+BK05 dan BK07 dan seterusnya. Pada Tabel 7 Pemetaan CPL terhadap BK diberikan 
+contoh pemetaaan CPL terhadap BK untuk CPL dan BK wajib Program Studi. Program 
+Studi wajib melanjutkan pemetaan seluruh CPL yang telah ditetapkan dengan BK yang 
+dipilih.  
+Program studi menyusun Pemetaan CPL dan BK sesuai dengan format Tabel 7. 
+Hubungan CPL terhadap BK dari banyak ke banyak yaitu dari satu CPL dapat 
+dipetakan ke beberapa BK dan dari satu BK dapat dipetakan ke beberapa CPL 
+Tabel 7. Pemetaan CPL - BK 
+BK 
+Capaian Pembelajaran Lulusan (CPL) 
+CPL01 
+CPL02 
+CPL03 
+CPL04 
+CPL05 
+CPL06 
+CPL07 
+CPL(n) 
+BK01 
+V 
+  
+  
+  
+  
+  
+  
+.... 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+21 
+ 
+BK 
+Capaian Pembelajaran Lulusan (CPL) 
+CPL01 
+CPL02 
+CPL03 
+CPL04 
+CPL05 
+CPL06 
+CPL07 
+CPL(n) 
+BK02 
+  
+V 
+  
+  
+  
+  
+  
+.... 
+BK03 
+  
+  
+  
+V 
+  
+  
+  
+.... 
+BK04 
+      
+      
+  
+  
+  
+  
+V 
+.... 
+BK05 
+  
+  
+V 
+  
+  
+V 
+  
+.... 
+BK06 
+  
+      
+      
+  
+  
+V 
+  
+.... 
+BK07 
+  
+  
+V 
+  
+  
+  
+  
+.... 
+BK08 
+  
+  
+  
+V 
+  
+  
+  
+.... 
+BK09 
+  
+  
+  
+  
+V 
+  
+  
+.... 
+BK10 
+  
+  
+  
+  
+  
+  
+V 
+.... 
+BK11 
+  
+V 
+  
+  
+  
+  
+  
+.... 
+BK(n) 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+6.3. 
+Pemetaan BK terhadap Mata Kuliah (MK) 
+Pemetaan BK terhadap MK dilakukan untuk menunjukan turunan dari bahan kajian ke 
+beberapa mata kuliah. Bahan kajian dalam matakuliah akan mempengaruhi keluasan 
+MK yang akan mempengaruhi penentuan SKS. Satu BK dapat diturunkan ke 
+beberapa MK dan satu MK dapat diturunkan dari beberapa BK. Pada buku 
+kurikulum ini akan diberikan contoh pemetaan MK terhadap BK.  
+Program studi harus menentukan MK yang memenuhi kriteria capstone project. 
+Capstone project adalah mata kuliah yang merupakan integrasi dari dan penerapan 
+pengetahuan dan keterampilan yang diperoleh dari tugas-tugas mata kuliah 
+sebelumnya. Keluaran dari mata kuliah ini berupa proyek perangkat lunak. 
+Contoh pemetaan BK terhadap MK, misalnya Bahan Kajian BK01: Foundation of 
+Information Systems diturunkan ke MK01: Konsep Sistem Informasi dan MK02: Sistem 
+Informasi Manajemen. Penamaan mata kuliah berdasarkan beberapa referensi seperti 
+IS-2020[7], CC-2020[8], ASIIN, IABEE[9], dan sumber lainnya yang relevan. Tabel 8 
+Pemetaan BK terhadap MK merupakan contoh pemetaan BK wajib terhadap mata 
+kuliah. Program Studi wajib melanjutkan pemetaan untuk seluruh BK yang ditetapkan 
+dengan mata kuliah yang ada. Pada proses pemetaan memungkinkan 1 (satu) MK 
+memiliki lebih dari 1 (satu) BK, begitupun sebaliknya. Pada Tabel 8, merupakan contoh 
+Pemetaan BK Wajib Prodi terhadap MK Wajib Prodi. Mata kuliah yang memenuhi 
+kriteria capstone project  seperti Manajemen Proyek Sistem Informasi, Proyek 
+Perangkat Lunak.  
+Program studi menyusun Pemetaan BK terhadap MK sesuai dengan Tabel 8. 
+Program studi wajib menyatakan mata kuliah yang dapat memenuhi kriteria 
+capstone project.  
+Tabel 8. Pemetaan BK – MK 
+No Kode 
+MK 
+Nama MK 
+Referensi 
+Bahan Kajian (BK) 
+BK01 BK02 BK03 BK04 BK05 BK06 BK07 BK08 BK09 BK10 BK11 BK(n) 
+1 
+MK01 Konsep Sistem 
+Informasi 
+IS2020 
+V 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+…. 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+22 
+ 
+No Kode 
+MK 
+Nama MK 
+Referensi 
+Bahan Kajian (BK) 
+BK01 BK02 BK03 BK04 BK05 BK06 BK07 BK08 BK09 BK10 BK11 BK(n) 
+2 
+MK02 
+Sistem 
+Informasi 
+Manajemen 
+CC2020 
+V 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+…. 
+3 
+MK03 Konsep Basis 
+Data 
+IS2020 
+ 
+V 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+…. 
+4 
+MK04 Sistem Basis 
+Data 
+IS2020 
+ 
+V 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+…. 
+5 
+MK05 Sistem 
+Operasi 
+CC2020 
+ 
+ 
+V 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+…. 
+6 
+MK06 Jaringan 
+Komputer 
+IS2020 
+ 
+ 
+V 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+…. 
+7 
+MK07 
+Pengantar 
+Teknologi 
+Informasi 
+IS2020 
+ 
+ 
+V 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+…. 
+8 
+MK08 
+Manajemen 
+Proyek Sistem 
+Informasi 
+CC2020 
+ 
+ 
+ 
+V 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+…. 
+9 
+MK09 
+Proyek 
+Perangkat 
+Lunak 
+IS2020 
+ 
+ 
+ 
+V 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+…. 
+10 
+MK10 
+Analisis dan 
+Perancangan 
+Sistem 
+Informasi 
+IS2020 
+ 
+ 
+ 
+ 
+V 
+V 
+ 
+ 
+ 
+ 
+ 
+…. 
+11 
+MK11 
+Software 
+Testing dan 
+Quality 
+Assurance 
+IS2020 
+ 
+ 
+ 
+ 
+V 
+ 
+ 
+ 
+ 
+ 
+ 
+…. 
+12 
+MK12 
+Tata Kelola 
+Teknologi 
+Informasi 
+IS2020 
+ 
+ 
+ 
+ 
+ 
+V 
+ 
+ 
+ 
+ 
+ 
+…. 
+13 
+MK13 Audit Sistem 
+Informasi 
+IS2020 
+ 
+ 
+ 
+ 
+ 
+V 
+ 
+ 
+ 
+ 
+ 
+…. 
+14 
+MK14 Dasar 
+Pemrograman 
+IS2020 
+ 
+ 
+ 
+ 
+ 
+ 
+V 
+ 
+ 
+ 
+ 
+…. 
+15 
+MK15 TransformasI 
+Digital 
+IS2020 
+ 
+ 
+ 
+ 
+ 
+V 
+ 
+ 
+ 
+ 
+ 
+…. 
+16 
+MK16 
+Pemrograman 
+Berorientasi 
+Objek 
+IS2020 
+ 
+ 
+ 
+ 
+ 
+ 
+V 
+ 
+ 
+ 
+ 
+…. 
+17 
+MK17 Pemrograman 
+berbasis Web 
+IS2020 
+ 
+ 
+ 
+ 
+ 
+ 
+V 
+ 
+ 
+ 
+ 
+…. 
+18 
+MK18 Keamanan 
+Jaringan 
+CC2020 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+V 
+ 
+ 
+ 
+…. 
+19 
+MK19 
+Keamanan 
+Sistem 
+Informasi 
+CC2020 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+V 
+ 
+ 
+ 
+…. 
+20 
+MK20 
+Kepemimpinan 
+dan 
+Manajemen 
+Organisasi 
+CC2020 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+V 
+ 
+ 
+…. 
+21 
+MK21 
+Etika Profesi 
+dan 
+Profesional 
+CC2020 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+V 
+ 
+ 
+…. 
+22 
+MK22 
+Metodologi 
+Penelitian dan 
+Penulisan 
+Ilmiah 
+IABEE/ 
+IS2020 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+V 
+ 
+…. 
+23 
+MK23 Statistika dan 
+Probabilitas 
+IABEE 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+V 
+…. 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+23 
+ 
+No Kode 
+MK 
+Nama MK 
+Referensi 
+Bahan Kajian (BK) 
+BK01 BK02 BK03 BK04 BK05 BK06 BK07 BK08 BK09 BK10 BK11 BK(n) 
+24 
+MK24 Tugas Akhir / 
+Skripsi 
+IS2020 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+V 
+ 
+…. 
+25 
+MK25 Kerja Praktek/ 
+Magang 
+IABEE 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+V 
+ 
+ 
+26 MK(n) .... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+VII. 
+Pembentukan Mata Kuliah (MK) dan Penentuan Bobot SKS 
+Sub Bab ini menjelaskan mekanisme pembentukan mata kuliah berdasarkan CPL 
+(beserta turunannya di level MK) dan bahan kajian, serta penetapan bobot sksnya.  
+7.1. 
+Pemetaan CPL terhadap MK 
+Pemetaan CPL terhadap MK dilakukan untuk menunjukkan keterhubungan antara 
+mata kuliah terhadap CPL Program Studi pada Tabel 9 Pemetaan CPL terhadap MK. 
+Program Studi memiliki 25 mata kuliah wajib yang akan dipetakan dengan CPL01 
+sampai dengan CPL07. Tabel 9 berikut ini merupakan contoh pemetaan CPL wajib 
+Program Studi dengan MK wajib Program Studi. Program Studi diwajibkan melakukan 
+pemetaan seluruh MK dan CPL yang telah ditetapkan Program Studi, termasuk CPL 
+aspek sikap dan keterampilan umum. Pada proses pemetaannya memungkinkan 1 
+(satu) MK memiliki lebih dari 1 (satu) CPL, begitu pula sebaliknya.  
+Program studi menyusun pemetaan CPL terhadap mata kuliah seperti yang 
+ditunjukan pada Tabel 9. 
+Tabel 9. Pemetaan CPL – MK 
+No 
+MK 
+Capaian Pembelajaran Lulusan (CPL) 
+CPL01 
+CPL02 
+CPL03 
+CPL04 
+CPL05 
+CPL06 
+CPL07 
+CPL(n) 
+1 
+MK01 
+V 
+ 
+ 
+ 
+ 
+ 
+ 
+…. 
+2 
+MK02 
+V 
+ 
+ 
+ 
+ 
+ 
+ 
+…. 
+3 
+MK03 
+ 
+V 
+ 
+ 
+ 
+ 
+ 
+…. 
+4 
+MK04 
+ 
+V 
+ 
+ 
+ 
+ 
+ 
+…. 
+5 
+MK05 
+ 
+ 
+ 
+V 
+ 
+ 
+ 
+…. 
+6 
+MK06 
+ 
+ 
+ 
+V 
+ 
+ 
+ 
+…. 
+7 
+MK07 
+ 
+ 
+ 
+V 
+ 
+ 
+ 
+…. 
+8 
+MK08 
+ 
+ 
+ 
+ 
+ 
+ 
+V 
+…. 
+9 
+MK09 
+ 
+ 
+ 
+ 
+ 
+ 
+V 
+…. 
+10 
+MK10 
+ 
+ 
+V 
+ 
+ 
+V 
+ 
+…. 
+11 
+MK11 
+ 
+ 
+V 
+ 
+ 
+ 
+ 
+…. 
+12 
+MK12 
+ 
+ 
+ 
+ 
+ 
+V 
+ 
+…. 
+13 
+MK13 
+ 
+ 
+ 
+ 
+ 
+V 
+ 
+…. 
+14 
+MK14 
+ 
+ 
+V 
+ 
+ 
+ 
+ 
+…. 
+15 
+MK15 
+ 
+ 
+ 
+ 
+ 
+V 
+ 
+…. 
+16 
+MK16 
+ 
+ 
+V 
+ 
+ 
+ 
+ 
+…. 
+17 
+MK17 
+ 
+ 
+V 
+ 
+ 
+ 
+ 
+…. 
+18 
+MK18 
+ 
+ 
+ 
+V 
+ 
+ 
+ 
+…. 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+24 
+ 
+No 
+MK 
+Capaian Pembelajaran Lulusan (CPL) 
+CPL01 
+CPL02 
+CPL03 
+CPL04 
+CPL05 
+CPL06 
+CPL07 
+CPL(n) 
+19 
+MK19 
+ 
+ 
+ 
+V 
+ 
+ 
+ 
+…. 
+20 
+MK20 
+ 
+ 
+ 
+ 
+V 
+ 
+ 
+…. 
+21 
+MK21 
+ 
+ 
+ 
+ 
+V 
+ 
+ 
+…. 
+22 
+MK22 
+ 
+ 
+ 
+ 
+ 
+ 
+V 
+…. 
+23 
+MK23 
+ 
+ 
+ 
+ 
+ 
+ 
+V 
+…. 
+24 
+MK24 
+ 
+ 
+ 
+ 
+ 
+ 
+V 
+…. 
+25 
+MK25 
+ 
+ 
+V 
+ 
+ 
+ 
+V 
+ 
+26 
+MK(n) 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+7.2. 
+Pemetaan BK - CPL - MK 
+Pemetaan CPL terhadap BK dan MK dilakukan untuk menunjukkan keterhubungan 
+antara mata kuliah terhadap CPL dan mata kuliah terhadap BK. Tabel 10 Pemetaan 
+CPL, BK, MK berikut ini merupakan contoh pemetaan CPL, BK dan MK wajib Program 
+Studi. Program Studi diwajibkan melakukan pemetaan seluruh CPL, BK dan MK yang 
+telah ditetapkan Program Studi. Pada proses pemetaan memungkinkan 1 (satu) CPL 
+memiliki lebih dari 1 (satu) BK dan MK begitupun sebaliknya. 
+Program Studi menyusun pemetaan BK terhadap CPL dan MK seperti yang 
+ditunjukan pada Tabel 10. 
+Tabel 10. Pemetaan BK - CPL - MK 
+ 
+CPL01 
+CPL02 
+CPL03 
+CPL04 
+CPL05 
+CPL06 
+CPL07 
+CPL(n) 
+BK01 
+MK01, 
+MK02 
+ 
+ 
+ 
+ 
+ 
+ 
+.... 
+BK02 
+ 
+MK03, 
+MK04 
+ 
+ 
+ 
+ 
+ 
+.... 
+BK03 
+ 
+ 
+ 
+MK05, MK06, 
+MK07 
+ 
+ 
+ 
+ 
+BK04 
+ 
+ 
+ 
+ 
+ 
+ 
+MK08, MK09 
+.... 
+BK05 
+ 
+ 
+MK10, MK11  
+ 
+ 
+ 
+.... 
+BK06 
+ 
+ 
+ 
+ 
+ 
+MK10, MK12, 
+MK13, MK15 
+ 
+.... 
+BK07 
+ 
+ 
+MK14, MK16, 
+MK17 
+ 
+ 
+ 
+ 
+.... 
+BK08 
+ 
+ 
+ 
+MK18, MK19 
+ 
+ 
+ 
+.... 
+BK09 
+ 
+ 
+ 
+ 
+MK20, MK21  
+ 
+ 
+BK10 
+ 
+ 
+MK25 
+ 
+ 
+ 
+MK22, MK24, 
+MK25 
+ 
+BK11 
+ 
+MK23 
+ 
+ 
+ 
+ 
+ 
+ 
+BK(n) 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+7.3. 
+Susunan Mata Kuliah dan Bobot SKS 
+Mata kuliah Program Studi disusun dan ditetapkan berdasarkan bahan kajian wajib 
+dan bahan kajian pilihan yang telah ditetapkan pada Tabel 6 Rumusan Bahan Kajian. 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+25 
+ 
+Namun untuk mata kuliah pilihan ditetapkan oleh Program Studi berdasarkan domain 
+of practice/ciri khas/value kampus atau Program Studi.  
+Penentuan bobot sks berdasarkan Standar Nasional Pendidikan Tinggi Nomor 3 Tahun 
+2020 [2] bahwa Bentuk Pembelajaran 1 (satu) Satuan Kredit Semester (SKS) pada 
+proses pembelajaran berupa kuliah, responsi atau tutorial, terdiri atas: 1) kegiatan 
+proses belajar 50 (lima puluh) menit per minggu per semester; 2) kegiatan penugasan 
+terstruktur 60 (enam puluh) menit per minggu per semester; dan 3) kegiatan mandiri 
+60 (enam puluh) menit per minggu per semester. Sedangkan pembelajaran 1 (satu) 
+Satuan Kredit Semester pada proses pembelajaran berupa seminar atau bentuk lain 
+yang sejenis, terdiri atas: 1) kegiatan proses belajar 100 (seratus) menit per minggu 
+per semester dan 2) kegiatan mandiri 70 (tujuh puluh) menit per minggu per 
+semester.  
+Berdasarkan Panduan Penyusunan Kurikulum Pendidikan Tinggi [1], terdapat aspek 
+penenentukan perkiraan besaran bobo sks, diantaranya: 
+Aspek penentu perkiraan besaran bobot sks  adalah: 
+1) Tingkat kemampuan yang harus dicapai (lihat Standar Kompetensi Lulusan  untuk 
+setiap jenis Program Studi dalam SN-DIKTI);  
+2) Kedalaman dan keluasan materi pembelajaran yang harus dikuasai (lihat Standar 
+Isi Pembelajaran dalam SN-DIKTI); 
+3) Metode/strategi pembelajaran yang dipilih untuk mencapai kemampuan tersebut 
+(lihat Standar Proses  Pembelajaran dalam  SN-DIKTI). 
+Sedangkan 
+besarnya 
+bobot 
+SKS 
+setiap 
+mata 
+kuliah 
+ditentukan 
+berdasarkan: 
+1) Tingkat kemampuan yang harus dicapai (CPL yang dibebankan pada mata kuliah) 
+yang diformulasikan lebih spesifik menjadi CPMK dan Sub-CPMK; 
+2) Kedalaman dan keluasan materi pembelajaran  yang dapat disetarakan dengan 
+waktu kegiatan belajar yang diperlukan untuk mencapai setiap butir CPL yang 
+dibebankan pada mata kuliah; 
+3) Bentuk dan metode pembelajaran yang dipilih. 
+Tabel 11 Susunan Mata Kuliah merupakan daftar mata kuliah wajib dan pilihan untuk 
+Program Studi sistem informasi. Program Studi diperbolehkan mengubah kategori 
+mata kuliah pilihan menjadi wajib. Jumlah mata kuliah pilihan diambil oleh Program 
+Studi sebanyak yang dibutuhkan dari daftar mata kuliah Tidak Wajib. 
+Program Studi dapat memilih beberapa mata kuliah dari Tabel 11 sebagai mata 
+kuliah wajib program studi atau mata kuliah pilihan. Program Studi diwajibkan 
+menentukan bobot SKS untuk setiap mata kuliah dengan mempertimbangkan 
+aspek-aspek penentu besarnya bobot SKS. 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+26 
+ 
+Tabel 11.  Susunan Mata Kuliah 
+No 
+Kode 
+MK 
+Nama Mata 
+Kuliah 
+Kategori 
+SKS 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+1 
+MK01 
+Konsep Sistem 
+Informasi 
+Wajib 
+  
+v 
+  
+  
+  
+  
+  
+  
+  
+2 
+MK02 
+Sistem Informasi 
+Manajemen 
+Wajib 
+  
+  
+v 
+  
+  
+  
+  
+  
+  
+3 
+MK03 
+Konsep Basis Data 
+Wajib 
+  
+  
+v 
+  
+  
+  
+  
+  
+  
+4 
+MK04 
+Sistem Basis Data 
+Wajib 
+  
+  
+  
+v 
+  
+  
+  
+  
+  
+5 
+MK05 
+Sistem Operasi 
+Wajib 
+  
+  
+v 
+  
+  
+  
+  
+  
+  
+6 
+MK06 
+Jaringan Komputer 
+Wajib 
+  
+  
+  
+v 
+  
+  
+  
+  
+  
+7 
+MK07 
+Pengantar 
+Teknologi Informasi 
+Wajib 
+  
+v 
+  
+  
+  
+  
+  
+  
+  
+8 
+MK08 
+Manajemen Proyek 
+Sistem Informasi 
+Wajib 
+  
+  
+  
+  
+  
+v 
+  
+  
+  
+9 
+MK09 
+Proyek Perangkat 
+Lunak 
+Wajib 
+  
+  
+  
+  
+  
+v 
+  
+  
+  
+10 
+MK10 
+Analisis dan 
+Perancangan 
+Sistem Informasi 
+Wajib 
+  
+  
+  
+  
+v 
+  
+  
+  
+  
+11 
+MK11 
+Software Testing 
+dan Quality 
+Assurance 
+Wajib 
+  
+  
+  
+  
+  
+  
+v 
+  
+  
+12 
+MK12 
+Tata Kelola 
+Teknologi Informasi 
+Wajib 
+  
+  
+  
+  
+  
+v 
+  
+  
+  
+13 
+MK13 
+Audit Sistem 
+Informasi 
+Wajib 
+  
+  
+  
+  
+  
+  
+v 
+  
+  
+14 
+MK14 
+Dasar 
+Pemrograman 
+Wajib 
+  
+v 
+  
+  
+  
+  
+  
+  
+  
+15 
+MK15 
+Transformasi Digital 
+Wajib 
+  
+  
+  
+v 
+  
+  
+  
+  
+  
+16 
+MK16 
+Pemrograman 
+Berorientasi Objek 
+Wajib 
+  
+  
+  
+v 
+  
+  
+  
+  
+  
+17 
+MK17 
+Pemrograman 
+berbasis Web 
+Wajib 
+  
+  
+  
+  
+v 
+  
+  
+  
+  
+18 
+MK18 
+Keamanan Jaringan 
+Wajib 
+  
+  
+  
+  
+v 
+  
+  
+  
+  
+19 
+MK19 
+Keamanan Sistem 
+Informasi 
+Wajib 
+  
+  
+  
+  
+  
+  
+v 
+  
+  
+20 
+MK20 
+Kepemimpinan dan 
+Manajemen 
+Organisasi 
+Wajib 
+  
+  
+  
+v 
+  
+  
+  
+  
+  
+21 
+MK21 
+Etika Profesi dan 
+Profesional 
+Wajib 
+  
+  
+  
+  
+v 
+  
+  
+  
+  
+22 
+MK22 
+Metodologi 
+Penelitian dan 
+Penulisan Ilmiah 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+v 
+  
+23 
+MK23 
+Statistika dan 
+Probabilitas 
+Wajib 
+  
+  
+v 
+  
+  
+  
+  
+  
+  
+24 
+MK24 
+Tugas Akhir / 
+Skripsi 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+v 
+25 
+MK25 
+Kerja Praktek / 
+Magang  
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+ v 
+  
+26 
+MK26 
+Manajemen 
+Layanan Teknologi 
+Informasi 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+27 
+MK27 
+Pemrograman 
+Aplikasi Bergerak 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+28 
+MK28 
+Computational 
+Thinking 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+29 
+MK29 
+Fundamental ERP 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+30 
+MK30 
+Matematika Diskrit 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+31 
+MK31 
+Sistem 
+Rekomendasi 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+32 
+MK32 
+Analitik dan 
+Visualisasi Data 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+27 
+ 
+No 
+Kode 
+MK 
+Nama Mata 
+Kuliah 
+Kategori 
+SKS 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+33 
+MK33 
+Big Data 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+34 
+MK34 
+Business 
+Intelligence 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+35 
+MK35 
+Machine Learning 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+36 
+MK36 
+Communication Skill 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+37 
+MK37 
+Komunikasi dan 
+Negosiasi 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+38 
+MK38 
+Manajemen Proses 
+Bisnis 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+39 
+MK39 
+Sistem Pendukung 
+Keputusan 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+40 
+MK40 
+Manajemen 
+Hubungan 
+Pelanggan 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+41 
+MK41 
+Supply Chain 
+Management 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+42 
+MK42 
+Financial 
+Accounting 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+43 
+MK43 
+Human Resource 
+Management 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+44 
+MK44 
+Arsitektur 
+Enterprise 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+45 
+MK45 
+UI/UX Design 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+46 
+MK46 
+Interaksi Manusia 
+Komputer 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+47 
+MK47 
+Blockchain 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+48 
+MK48 
+Pemrograman IoT 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+49 
+MK49 
+Financial 
+Technology 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+50 
+MK50 
+Technopreneurship 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+51 
+MK51 
+Startup Digital 
+Tidak 
+Wajib 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+VIII. 
+Matriks dan Peta Kurikulum 
+Subbab ini menggambarkan organisasi mata kuliah atau peta kurikulum dalam 
+struktur yang logis dan sistematis sesuai dengan Capaian Pembelajaran Lulusan 
+Program Studi. Distribusi mata kuliah disusun dalam rangkaian semester selama masa 
+studi lulusan Program Studi.  
+8.1. Organisasi Mata Kuliah 
+Organisasi mata kuliah dalam struktur kurikulum dilakukan secara cermat dan 
+sistematik untuk kesesuian tahapan belajar mahasiswa. Selain itu, organisasi MK 
+menjamin pembelajaran terselenggara secara efisien dan efektif untuk mencapai CPL 
+Program Studi. Organisasi mata kuliah dalam struktur kurikulum terdiri dari perluasan 
+wacana dan keterampilan mahasiswa dalam konteks yang lebih luas, serta 
+memberikan penguasaan kemampuan sesuai dengan tingkat kesulitan belajar untuk 
+mencapai CPL Program Studi yang telah ditetapkan[3].  
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+28 
+ 
+Program Studi wajib menyertakan 25 (dua puluh lima) mata kuliah wajib program 
+studi yang telah disajikan pada Tabel 11 dan Mata Kuliah Wajib Kurikulum (MKWK) 
+yang diatur pada Undang-Undang Nomor 12 Tahun 2012 tentang Pendidikan Tinggi 
+wajib memuat mata kuliah : a. Agama; b. Pancasila; c. Kewarganegaraan; dan d. 
+Bahasa Indonesia. Untuk pelaksanaan MKWK yang diatur pada Keputusan Direktur 
+Jenderal Pendidikan Tinggi Nomor 84/E/KPT/2020 tentang Pedoman Pelaksanaan 
+Mata Kuliah Wajib Kurikulum pada Kurikulum Pendidikan Tinggi[10], sebaiknya 
+pelaksanaan dilakukan di semester awal (2 tahun pertama perkuliahan).  
+Posisi mata kuliah pilihan terdapat pada peminatan/konsentrasi program studi. Jumlah 
+peminatan/konsentrasi program studi disarankan 1 s/d 3 peminatan. Program Studi 
+dapat menyertakan mata kuliah tidak wajib program studi yang telah disajikan pada 
+Tabel 11 maupun menambah mata kuliah pilihan yang ditentukan berdasarkan domain 
+of practice/value/ciri khas dari Perguruan Tinggi atau Program Studi. 
+Organisasi mata kuliah terdiri dari MK wajib, MK pilihan dan MKWK beserta jumlah 
+SKS yang dipetakan per semester. Penentuan tersebut disusun dalam rangkaian 
+semester selama masa studi mahasiswa sesuai dengan CPL Program Studi. 
+Berdasarkan Keputusan Menteri Pendidikan Nasional RI Nomor 232/U/2000 [11], 
+beban studi program sarjana sekurang-kurangnya 144 (seratus empat puluh empat) 
+SKS dan sebanyak-banyaknya 160 (seratus enam puluh) SKS yang dijadwalkan untuk 
+8 (delapan) semester. Sementara berdasarkan Standar Nasional Pendidikan Tinggi 
+Nomor 3 Tahun 2020 [2], beban normal belajar mahasiswa adalah 18 SKS per 
+semester sampai dengan 20 SKS per semester. Mahasiswa berprestasi akademik 
+tinggi, setelah 2 semester pada tahun akademik pertama dapat mengambil maksimum 
+24 SKS per semester pada semester berikut. 
+Program Studi menyusun organisasi mata kuliah yang tersebar dalam setiap 
+semester seperti Tabel 12. 
+Tabel 12. Organisasi Mata Kuliah 
+Smt 
+SKS Jml MK 
+MK Wajib 
+MK-Pil 
+MKWK 
+VIII 
+6 
+1 
+MK24  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VII 
+20 
+1-5 
+MK22 MK25 
+.... 
+.... 
+.... 
+... 
+... 
+... 
+ 
+VI 
+20 
+5-7 
+MK11 MK13 
+MK19 
+.... 
+... 
+... 
+... 
+... 
+ 
+V 
+20 
+5-7 
+MK08 MK09 
+MK12 
+... 
+... 
+... 
+... 
+... 
+ 
+IV 
+20 
+5-7 
+MK10 MK17 
+MK18 
+MK21 
+... 
+... 
+... 
+... 
+MKWK4 
+III 
+20 
+5-7 
+MK04 MK06 
+MK15 
+MK16 
+MK20 
+... 
+... 
+... 
+MKWK3 
+II 
+20 
+5-7 
+MK02 MK03 
+MK05 
+MK23 
+... 
+... 
+... 
+... 
+MKWK2 
+I 
+18 
+5-7 
+MK01 MK07 
+MK14 
+... 
+... 
+... 
+... 
+... 
+MKWK1 
+ 
+144  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+8.2. Susunan Mata Kuliah dan Peta Pemenuhan CPL 
+Susunan MK seperti pada Tabel 12 dipetakan terhadap pemenuhan CPL yang 
+dituangkan dalam peta pemenuhan CPL. Susunan MK dalam pemenuhan setiap CPL 
+didasarkan pada kedalaman dan keluasan materi pembelajaran yang dituangkan 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+29 
+ 
+seperti Tabel 12.a.  Susunan MK Prodi Sistem informasi terdiri dari 25 mata kuliah 
+wajib Program Studi pada Tabel 11 dan 4 MKWK pada Tabel 12 yang dilengkapi 
+dengan mata kuliah pilihan. MK pilihan tersebut dapat ditentukan berdasarkan domain 
+of practice/value/ciri khas dari Perguruan Tinggi atau Program Studi.  
+Program Studi memetakan susunan MK terhadap pemenuhan CPL sesuai dengan 
+Tabel 12.a. 
+Tabel 12.a. Peta Pemenuhan Capaian Pembelajaran Lulusan (CPL) 
+CPL 
+Semester 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+CPL01 
+MK01 
+MK02 
+ 
+ 
+ 
+ 
+ 
+ 
+CPL02 
+ 
+MK03 
+MK23 
+MK04 
+ 
+ 
+ 
+ 
+ 
+CPL03 
+MK14 
+ 
+MK16 
+MK10 
+MK17 
+ 
+MK11 
+ 
+ 
+CPL04 
+MK07 
+MK05 
+MK06 
+MK18 
+ 
+MK19 
+ 
+ 
+CPL05 
+ 
+ 
+MK20 
+MK21 
+ 
+ 
+ 
+ 
+CPL06 
+ 
+ 
+MK15 
+MK10 
+MK12 
+MK13 
+ 
+ 
+CPL07 
+ 
+ 
+ 
+ 
+MK08 
+MK09 
+ 
+MK22 
+MK25 
+MK24 
+CPL(n) 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+IX. 
+Rencana Pembelajaran Semester (RPS) 
+RPS disusun dari hasil rancangan pembelajaran, dituliskan lengkap untuk semua mata 
+kuliah pada Program Studi, disertai perangkat pembelajaran lainnya di antaranya: 
+rencana tugas, instrumen penilaian dalam bentuk rubrik dan/atau portofolio, bahan 
+ajar, dan lain-lain. 
+9.1. 
+Rumusan CPMK berdasarkan CPL dan MK 
+CPL yang dibebankan pada mata kuliah masih bersifat umum terhadap mata kuliah, 
+oleh karena itu CPL yang dibebankan pada mata kuliah perlu diturunkan menjadi 
+capaian pembelajaran mata kuliah (CPMK) atau sering disebut courses learning 
+outcomes. Saat menyusun CPMK yang perlu diperhatikan adalah penggunaan kata 
+kerja tindakan (action verb), karena hal tersebut berkaitan dengan level kualifikasi 
+lulusan, pengukuran dan pencapaian CPL. Rumusan CPMK dapat ditentukan dari aspek 
+kata kerja pada Capaian Pembelajaran Lulusan (CPL). Kata kerja tindakan dalam 
+merumuskan CPMK dapat menggunakan kata kerja kemampuan (capability verb) yang 
+disampaikan oleh Robert M. Gagne (1998) yakni terdiri dari keterampilan intelektual 
+(intellectual skill), strategi kognitif (cognitive strategies), informasi verbal (verbal 
+information), keterampilan motorik (motor skill), dan sikap (attitude). 
+Penentuan kode CPMK berdasarkan kode CPL (2 digit) disertakan dengan nomor urut 
+(1 digit). Misalnya CPMK011 artinya CPMK pertama ini diturunkan dari CPL01 dengan 
+nomor urut 1. 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+30 
+ 
+Berdasarkan Buku Panduan Penyusunan Kurikulum Pendidikan Tinggi tahun 2020[1], 
+bahwa rumusan CPMK yang baik memiliki sifat: 
+1. Specific – rumusan harus jelas, menggunakan istilah yang spesifik 
+menggambarkan kemampuan: sikap, pengetahuan, dan keterampilan yang 
+diinginkan, menggunakan kata kerja tindakan nyata (concrete verbs); 
+2. Measurable – rumusan harus mempunyai target hasil belajar mahasiswa yang 
+dapat diukur, sehingga dapat ditentukan kapan hal tersebut dapat dicapai oleh 
+mahasiswa; 
+3. Achievable – rumusan menyatakan kemampuan yang dapat dicapai oleh 
+mahasiswa; 
+4. Realistic – rumusan menyatakan kemampuan yang realistis untuk dapat dicapai 
+oleh mahasiswa; 
+5. Time-bound – rumusan menyatakan kemampuan yang dapat dicapai oleh 
+mahasiswa dalam waktu cukup dan wajar sesuai bobot sks nya. 
+ 
+Program Studi menentukan CPMK berdasarkan CPL kemudian Program Studi 
+melakukan pemetaan CPL terhadap CPMK pada MK seperti pada Tabel 13. 
+Tabel 13.  Pemetaan CPL - CPMK - MK 
+No 
+CPL 
+Deskripsi CPL 
+Kode 
+CPMK 
+CPMK 
+MK 
+1 
+CPL01 
+Mampu memahami, 
+menganalisis, dan menilai 
+konsep dasar dan peran 
+sistem informasi dalam 
+mengelola data dan 
+memberikan rekomendasi 
+pengambilan keputusan 
+pada proses dan sistem 
+organisasi. 
+CPMK011 Mampu memahami konsep dasar sistem 
+informasi 
+MK01 
+2 
+CPMK012 Mampu menganalisis proses dan sistem 
+organisasi 
+MK01 
+3 
+CPMK013 Mampu menilai proses dan sistem 
+pengelolaan data pada organisasi 
+MK02 
+4 
+CPMK014 
+Mampu menilai peran sistem informasi 
+dalam memberikan rekomendasi 
+pengambilan keputusan di organisasi 
+MK02 
+5 
+CPL02 
+Mampu merancang dan 
+menggunakan database, 
+serta mengolah dan 
+menganalisa data dengan 
+alat dan teknik pengolahan 
+data 
+CPMK021 Mampu merancang database 
+MK03 
+ 
+CPMK022 Mampu menggunakan database 
+MK04 
+ 
+CPMK023 Mampu mengolah data dengan alat dan 
+teknik pengolahan data 
+MK03, 
+MK25 
+6 
+CPMK024 Mampu menganalisa data dengan alat 
+dan teknik pengolahan data 
+MK04, 
+MK25 
+8 
+CPL03 
+Mampu memahami dan 
+menggunakan berbagai 
+metodologi pengembangan 
+sistem beserta alat 
+pemodelan sistem dan 
+menganalisa kebutuhan 
+pengguna dalam 
+membangun sistem 
+informasi untuk mencapai 
+tujuan organisasi 
+CMPK031 Mampu memahami berbagai metodologi 
+pengembangan sistem 
+MK10, 
+MK11 
+9 
+CPMK032 Mampu menggunakan berbagai alat 
+pengembangan sistem 
+MK14, 
+MK16, 
+MK17 
+10 
+CPMK033 
+Mampu menganalisa kebutuhan 
+pengguna dalam membangun sistem 
+informasi untuk mencapai tujuan 
+organisasi 
+MK10, 
+MK16, 
+MK17 
+11 
+CPL04 
+Mampu membuat 
+perencanaan infrastruktur 
+TI, arsitektur jaringan, 
+layanan fisik/cloud dan 
+menganalisa konsep 
+CPMK041 
+Mampu membuat perencanaan 
+infrastruktur TI, arsitektur jaringan, 
+serta layanan fisik/cloud 
+MK05, 
+MK06, 
+MK07 
+12 
+CPMK042 Mampu menganalisis konsep identifikasi, 
+otentikasi, otorisasi akses dalam konteks 
+MK18, 
+MK19 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+31 
+ 
+No 
+CPL 
+Deskripsi CPL 
+Kode 
+CPMK 
+CPMK 
+MK 
+identifikasi, otentikasi, 
+otorisasi akses dalam 
+konteks melindungi orang 
+dan perangkat 
+keamanan sistem 
+13 CPL05 
+Mampu memahami dan 
+menerapkan kode etik dalam 
+penggunaan informasi dan 
+data pada perancangan, 
+implementasi, dan 
+penggunaan suatu sistem 
+CPMK051 Mampu memahami kode etik dalam 
+penggunaan informasi data pada 
+perancangan, implementasi dan 
+penggunaan suatu sistem 
+MK20, 
+MK21 
+14 
+CPMK052 Mampu menerapkan kode etik dalam 
+penggunaan informasi data pada 
+perancangan, implementasi dan 
+penggunaan suatu sistem 
+MK20, 
+MK21 
+15 
+CPL06 
+Memiliki kemampuan 
+merencanakan, 
+menerapkan, memelihara 
+dan meningkatkan sistem 
+informasi organisasi untuk 
+mencapai tujuan dan 
+sasaran organisasi yang 
+strategis baik jangka pendek 
+maupun jangka panjang. 
+CPMK061 
+Mampu merencanakan sistem informasi 
+organisasi untuk mencapai tujuan dan 
+sasaran organisasi jangka panjang 
+MK10, 
+MK12, 
+MK13 
+16 
+CPMK062 
+Mampu menerapkan sistem informasi 
+untuk mencapai tujuan dan sasaran 
+organisasi jangka pendek. 
+MK15 
+17 
+CPMK063 
+Mampu memelihara sistem informasi 
+organisasi untuk mencapai tujuan 
+organisasi jangka pendek. 
+MK12, 
+MK13 
+18 
+CPMK064 
+Mampu meningkatkan layanan sistem 
+informasi yang strategis secara jangka 
+pendek. 
+MK15 
+19 
+CPL07 
+Mampu memahami, 
+mengidentifikasi dan 
+menerapkan konsep, teknik 
+dan metodologi manajemen 
+proyek sistem informasi. 
+CPMK071 
+Mampu memahami konsep, teknik dan 
+metodologi manajemen proyek sistem 
+informasi 
+MK08 
+20 
+CPMK072 
+Mampu mengidentifikasi konsep, teknik 
+dan metodologi manajemen proyek 
+sistem informasi 
+MK08, 
+MK09, 
+MK22 
+21 
+CPMK073 
+Mampu menerapkan konsep, teknik dan 
+metodologi manajemen proyek sistem 
+informasi 
+MK09, 
+MK22, 
+MK23, 
+MK24 
+9.2. 
+Pemetaan MK-CPL-CPMK 
+Pemetaan CPL dengan CPMK dan MK memberikan kemudahan dalam menentukan 
+pemenuhan capaian pembelajaran Program Studi berdasarkan penentuan mata kuliah 
+dan capaian pembelajaran mata kuliah. Tabel 14 Pemetaan CPL-CPMK-MK adalah 
+contoh pemetaan CPL-CPMK-MK dari MK wajib pada Tabel 11 Susunan Mata Kuliah.  
+Program Studi menyusun pemetaan MK-CPL-CPMK seperti Tabel 14, sesuai dengan 
+mata kuliah dan CPL yang telah ditetapkan oleh Program Studi. 
+Tabel 14. Pemetaan MK-CPL-CPMK 
+MK 
+Nama MK 
+Capaian Pembelajaran Lulusan (CPL) 
+CPL01 
+CPL02 
+CPL03 
+CPL04 
+CPL05 
+CPL06 
+CPL07 
+MK01 
+Konsep Sistem 
+Informasi 
+CPMK011 
+CPMK012 
+  
+  
+  
+  
+  
+  
+MK02 
+Sistem 
+Informasi 
+Manajemen 
+CPMK013 
+  
+  
+  
+  
+  
+  
+CPMK014 
+MK03 
+Konsep Basis 
+Data 
+  
+CPMK021 
+CPMK023 
+  
+  
+  
+  
+  
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+32 
+ 
+MK 
+Nama MK 
+Capaian Pembelajaran Lulusan (CPL) 
+CPL01 
+CPL02 
+CPL03 
+CPL04 
+CPL05 
+CPL06 
+CPL07 
+MK04 
+Sistem Basis 
+Data 
+  
+CPMK022 
+CPMK024 
+  
+  
+  
+  
+  
+MK05 
+Sistem Operasi 
+  
+  
+  
+CPMK041 
+  
+  
+  
+MK06 
+Jaringan 
+Komputer 
+  
+  
+  
+CPMK041 
+  
+  
+  
+MK07 
+Pengantar 
+Teknologi 
+Informasi 
+  
+  
+  
+CPMK041 
+  
+  
+  
+MK08 
+Proyek 
+Manajemen 
+Sistem 
+Informasi 
+  
+  
+  
+  
+  
+  
+CPMK071 
+CPMK072 
+MK09 
+Proyek 
+Perangkat 
+Lunak 
+  
+  
+  
+  
+  
+  
+CPMK072 
+CPMK073 
+MK10 
+Analisis dan 
+Perancangan 
+Sistem 
+Informasi 
+  
+  
+CMPK031 
+CPMK033 
+  
+  
+CPMK061 
+  
+MK11 
+Software 
+Testing dan 
+Quality 
+Assurance 
+  
+  
+CMPK031 
+  
+  
+  
+  
+MK12 
+Tata Kelola 
+Teknologi 
+Informasi 
+  
+  
+  
+  
+  
+CPMK061 
+CPMK063 
+  
+MK13 
+Audit Sistem 
+Informasi 
+  
+  
+  
+  
+  
+CPMK061 
+CPMK063 
+  
+MK14 
+Dasar 
+Pemrograman 
+  
+  
+CPMK032 
+  
+  
+  
+  
+MK15 
+TransformasI 
+Digital 
+  
+  
+  
+  
+  
+CPMK062 
+CPMK064 
+  
+MK16 
+Pemrograman 
+Berorientasi 
+Objek 
+  
+  
+CPMK032 
+CPMK033 
+  
+  
+  
+  
+MK17 
+Pemrograman 
+berbasis Web 
+  
+  
+CPMK032 
+CPMK033 
+  
+  
+  
+  
+MK18 
+Keamanan 
+Jaringan 
+  
+  
+  
+CPMK042 
+  
+  
+  
+MK19 
+Keamanan 
+Sistem 
+Informasi 
+  
+  
+  
+CPMK042 
+  
+  
+  
+MK20 
+Kepemimpinan 
+dan Manajemen 
+Organisasi 
+  
+  
+  
+  
+CPMK051 
+CPMK052 
+  
+  
+MK21 
+Etika Profesi 
+dan Profesional 
+  
+  
+  
+  
+CPMK051 
+CPMK052 
+  
+  
+MK22 
+Metodologi 
+Penelitian dan 
+Penulisan Ilmiah 
+  
+  
+  
+  
+  
+  
+CPMK072 
+CPMK073 
+MK23 
+Statistika dan 
+Probabilitas 
+  
+CPMK023 
+CPMK024 
+  
+  
+  
+  
+  
+MK24 
+Tugas Akhir / 
+Skripsi 
+  
+  
+  
+  
+  
+  
+CPMK073 
+9.3. 
+Pemetaan MK-CPMK-Sub CPMK 
+Sub-CPMK merupakan rumusan kemampuan akhir yang direncanakan pada tiap tahap 
+pembelajaran yang bersifat spesifik dan dapat diukur, serta didemonstrasikan pada 
+akhir proses pembelajaran. Sub-CPMK dirumuskan dari CPMK yang diharapkan secara 
+akumulatif berkontribusi terhadap pencapaian CPL.  
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+33 
+ 
+Program Studi membuat Sub-CPMK dari masing-masing CPMK yang ditetapkan 
+seperti pada Tabel 15.  
+Tabel 15. Pemetaan MK - CPMK - Sub-CPMK 
+MK 
+CPL 
+CPMK 
+Deskripsi CPMK 
+Sub-CPMK 
+MK01 
+CPL01 
+CPMK011 
+Mampu memahami konsep dasar 
+sistem informasi 
+Sub-CPMK0111 : Mampu menjelaskan 
+konsep dasar sistem. 
+Sub-CPMK0112 : Mampu menjelaskan 
+konsep informasi dan sistem informasi 
+CPMK012 
+Mampu menganalisis proses dan 
+sistem organisasi 
+Sub-CPMK0121 : Mampu menganalisis 
+proses organisasi 
+Sub-CPMK0122 : Mampu menganalisis 
+sistem organisasi 
+MK02 
+CPL01 
+CPMK013 
+Mampu menilai proses dan 
+sistem pengelolaan data pada 
+organisasi 
+Sub-CPMK0131 : Mampu menilai proses 
+yang ada pada organisasi 
+Sub-CPMK0132 : Mampu menilai sistem 
+pengelolaan data pada organisasi 
+CPMK014 
+Mampu menilai peran sistem 
+informasi dalam memberikan 
+rekomendasi pengambilan 
+keputusan di organisasi 
+Sub-CPMK0141 : Mampu menilai peran 
+sistem informasi pada organisasi 
+Sub-CPMK0142 : Mampu memberikan 
+rekomendasi pengambilan keputusan di 
+organisasi 
+MK03 
+CPL02 
+CPMK021 
+Mampu memahami 
+dan  merancang database 
+Sub-CPMK0211 : Mampu memahami 
+database 
+Sub-CPMK0212 : Mampu merancang 
+database 
+CPMK023 
+Mampu mengolah data dengan 
+alat dan teknik pengolahan data  
+  
+Sub-CPMK0231 : Mampu mengolah data 
+dengan alat pengolahan data 
+Sub-CPMK0232 : Mampu mengolah data 
+dengan teknik pengolahan data 
+MK04 
+CPL02 
+CPMK022 
+Mampu menggunakan sistem 
+manajemen basis data 
+Sub-CPMK01 : Mampu menggunakan 
+sistem manajemen basis data  
+ 
+MK05 
+CPL04 
+CPMK041 
+Mampu membuat perencanaan 
+infrastruktur TI, arsitektur 
+jaringan, serta layanan fisik dan 
+cloud 
+…………… 
+ 
+…………… 
+ 
+MK06 
+CPL04 
+CPMK041 
+Mampu membuat perencanaan 
+infrastruktur TI, arsitektur 
+jaringan, serta layanan fisik dan 
+cloud 
+…………… 
+ 
+…………… 
+ 
+MK07 
+CPL04 
+CPMK041 
+Mampu membuat perencanaan 
+infrastruktur TI, arsitektur 
+…………… 
+ 
+…………… 
+ 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+34 
+ 
+MK 
+CPL 
+CPMK 
+Deskripsi CPMK 
+Sub-CPMK 
+jaringan, serta layanan fisik dan 
+cloud 
+MK08 
+CPL07 
+CPMK071 
+Mampu memahami konsep, 
+teknik dan metodologi 
+manajemen proyek sistem 
+informasi 
+…………… 
+ 
+…………… 
+ 
+CPMK072 
+Mampu mengidentifikasi konsep, 
+teknik dan metodologi 
+manajemen proyek sistem 
+informasi 
+…………… 
+ 
+…………… 
+ 
+MK09 
+CPL07 
+CPMK072 
+Mampu mengidentifikasi konsep, 
+teknik dan metodologi 
+manajemen proyek sistem 
+informasi 
+…………… 
+ 
+…………… 
+ 
+CPMK073 
+Mampu menerapkan konsep, 
+teknik dan metodologi 
+manajemen proyek sistem 
+informasi 
+…………… 
+ 
+…………… 
+ 
+MK10 
+CPL03 
+CMPK031 
+Mampu memahami berbagai 
+metodologi pengembangan 
+sistem 
+…………… 
+ 
+…………… 
+ 
+CPMK033 Mampu menganalisa kebutuhan 
+pengguna dalam membangun 
+sistem informasi untuk mencapai 
+tujuan organisasi 
+…………… 
+ 
+…………… 
+ 
+MK11 
+CPL03 
+CMPK031 
+Mampu memahami berbagai 
+metodologi pengembangan 
+sistem  
+…………… 
+ 
+…………… 
+ 
+MK12 
+CPL06 
+CPMK061 
+Mampu merencanakan sistem 
+informasi organisasi untuk 
+mencapai tujuan dan sasaran 
+organisasi yang strategis secara 
+jangka pendek maupun jangka 
+panjang 
+…………… 
+ 
+…………… 
+ 
+CPMK063 
+ Mampu memelihara sistem 
+informasi organisasi untuk 
+mencapai tujuan dan sasaran 
+organisasi yang strategis secara 
+jangka pendek maupun jangka 
+panjang 
+…………… 
+ 
+…………… 
+ 
+MK13 
+CPL06 
+CPMK061 
+Mampu merencanakan sistem 
+informasi organisasi untuk 
+mencapai tujuan dan sasaran 
+organisasi yang strategis secara 
+jangka pendek maupun jangka 
+panjang  
+…………… 
+ 
+…………… 
+ 
+CPMK063 
+Mampu memelihara sistem 
+informasi organisasi untuk 
+mencapai tujuan dan sasaran 
+…………… 
+ 
+…………… 
+ 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+35 
+ 
+MK 
+CPL 
+CPMK 
+Deskripsi CPMK 
+Sub-CPMK 
+organisasi yang strategis secara 
+jangka pendek maupun jangka 
+panjang  
+MK14 
+CPL03 
+CPMK032 
+Mampu menggunakan berbagai 
+alat pengembangan sistem 
+…………… 
+ 
+…………… 
+ 
+MK15 
+CPL06 
+CPMK062 
+Mampu menerapkan sistem 
+informasi organisasi untuk 
+mencapai tujuan dan sasaran 
+organisasi yang strategis secara 
+jangka pendek maupun jangka 
+panjang  
+…………… 
+ 
+…………… 
+ 
+CPMK064 
+Mampu meningkatkan layanan 
+sistem informasi organisasi 
+untuk mencapai tujuan dan 
+sasaran organisasi yang strategis 
+secara jangka pendek maupun 
+jangka panjang  
+…………… 
+ 
+…………… 
+ 
+MK16 
+CPL03 
+CPMK032 
+Mampu menggunakan berbagai 
+alat pengembangan sistem 
+…………… 
+ 
+…………… 
+ 
+CPMK033 
+Mampu menganalisa kebutuhan 
+pengguna dalam membangun 
+sistem informasi untuk mencapai 
+tujuan organisasi 
+…………… 
+ 
+…………… 
+ 
+MK17 
+CPL03 
+CPMK032 
+Mampu menggunakan berbagai 
+alat pengembangan sistem  
+…………… 
+ 
+…………… 
+ 
+CPMK033 
+Mampu menganalisa kebutuhan 
+pengguna dalam membangun 
+sistem informasi untuk mencapai 
+tujuan organisasi  
+…………… 
+ 
+…………… 
+ 
+MK18 
+CPL04 
+CPMK042 
+Mampu menganalisis konsep 
+identifikasi, otentikasi, otorisasi 
+akses dalam konteks keamanan 
+sistem 
+…………… 
+ 
+…………… 
+ 
+MK19 
+CPL04 
+CPMK042 
+Mampu menganalisis konsep 
+identifikasi, otentikasi, otorisasi 
+akses dalam konteks keamanan 
+sistem  
+…………… 
+ 
+…………… 
+ 
+MK20 
+CPL05 
+CPMK051 
+Mampu memahami kode etik 
+dalam penggunaan informasi 
+data pada perancangan, 
+implementasi dan penggunaan 
+suatu sistem  
+…………… 
+ 
+…………… 
+ 
+CPMK052 
+Mampu menerapkan kode etik 
+dalam penggunaan informasi 
+data pada perancangan, 
+…………… 
+ 
+…………… 
+ 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+36 
+ 
+MK 
+CPL 
+CPMK 
+Deskripsi CPMK 
+Sub-CPMK 
+implementasi dan penggunaan 
+suatu sistem 
+MK21 
+CPL05 
+CPMK051 
+Mampu memahami kode etik 
+dalam penggunaan informasi 
+data pada perancangan, 
+implementasi dan penggunaan 
+suatu sistem 
+…………… 
+ 
+…………… 
+ 
+CPMK052 
+Mampu menerapkan kode etik 
+dalam penggunaan informasi 
+data pada perancangan, 
+implementasi dan penggunaan 
+suatu sistem 
+…………… 
+ 
+…………… 
+ 
+MK22 
+CPL07 
+CPMK072 
+Mampu menerapkan kode etik 
+dalam penggunaan informasi 
+data pada perancangan, 
+implementasi dan penggunaan 
+suatu sistem  
+…………… 
+ 
+…………… 
+ 
+CPMK073 
+Mampu menerapkan konsep, 
+teknik dan metodologi 
+manajemen proyek sistem 
+informasi  
+…………… 
+ 
+…………… 
+ 
+MK23 
+CPL02 
+CPMK023 
+Mampu mengolah data dengan 
+alat dan teknik pengolahan data 
+…………… 
+ 
+…………… 
+ 
+CPMK024 
+Mampu menganalisa data 
+dengan alat dan teknik 
+pengolahan data 
+…………… 
+ 
+…………… 
+ 
+MK24 
+CPL07 
+CPMK073 
+Mampu menerapkan konsep, 
+teknik dan metodologi 
+manajemen proyek sistem 
+informasi 
+…………… 
+ 
+…………… 
+ 
+MK ... 
+... 
+... 
+  
+.... 
+ 
+9.4. 
+Rencana Pembelajaran Semester (RPS) 
+RPS merupakan dokumen program pembelajaran yang dirancang untuk menghasilkan 
+lulusan yang memiliki kemampuan sesuai CPL yang telah ditetapkan, sehingga harus 
+dapat dijalankan oleh mahasiswa pada setiap tahapan belajar pada mata kuliah 
+terkait. RPS dititik beratkan pada bagaimana memandu mahasiswa untuk belajar agar 
+memiliki kemampuan sesuai dengan CPL lulusan yang dibebankan pada mata kuliah, 
+bukan pada kepentingan kegiatan dosen mengajar. Pembelajaran yang dirancang 
+dalam RPS adalah pembelajaran yang berpusat pada mahasiswa (Student Centered 
+Learning disingkat SCL). Berikut adalah contoh template RPS. 
+ 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+37 
+ 
+ 
+LOGO 
+NAMA PERGURUAN TINGGI 
+NAMA FAKULTAS 
+PROGRAM STUDI SISTEM INFORMASI 
+KODE DOKUMEN 
+RENCANA PEMBELAJARAN SEMESTER 
+MATA KULIAH (MK) 
+KODE 
+Bahan 
+Kajian 
+(BK) 
+BOBOT (sks) 
+SEMESTER 
+Tanggal 
+Penyusunan 
+……. 
+….. 
+….. 
+T [Teori] 
+= ? 
+<<tulis 
+dengan 
+angka 
+latin>> 
+P [Praktik] 
+= ? 
+<<tulis 
+dengan 
+angka 
+latin>> 
+[ ] 
+<<tulis 
+dengan angka 
+latin>> 
+<<tulis dengan 
+urutan Tanggal 
+Bulan Tahun>> 
+PENGESAHAN 
+Dosen 
+Pengembang RPS 
+Koordinator BK 
+Ka PRODI 
+ 
+ 
+TTD 
+ 
+<<Nama Dosen 
+Pengembang 
+RPS>> 
+ 
+(jika ada) 
+ 
+TTD 
+ 
+<<Nama Koordinator 
+BK>> 
+ 
+ 
+TTD 
+ 
+<<Nama Kaprodi>> 
+Capaian 
+Pembelajaran 
+CPL-PRODI yang dibebankan 
+pada MK 
+ 
+CPLXX 
+Tuliskan beberapa butir CPL Prodi yang dibebankan pada mata kuliah mencakup ranah 
+Sikap (S), Ketrampilan Umum (KU), Ketrampilan Khusus(KK) dan Pengetahuan(P) 
+berdasarkan  Rumpun MK (Bahan Kajian) pada kurikulum prodi 
+Capaian Pembelajaran Mata 
+Kuliah (CPMK) 
+ 
+CPMKXXX 
+CPMK merupakan turunan/uraian spesifik dari CPL-PRODI yg berkaitan dengan mata 
+kuliah ini 
+CPMKXXX 
+Pembuatan Butir CPMK bisa merupakan gabungan dari ranah Sikap (S), Ketrampilan 
+Umum (KU), Ketrampilan Khusus (KK) dan Pengetahuan(P) berdasarkan Rumpun MK 
+(Bahan Kajian) yang berhubungan dengan Matakuliah tersebut yang terdapat pada 
+kurikulum prodi 
+Kemampuan akhir tiap tahapan 
+belajar (Sub-CPMK) 
+ 
+Sub-
+CPMKXXX 
+Uraian spesifik turunan dari CPL yang dibebankan pada Mata Kuliah berkaitan dengan 
+keluasan dan kedalaman materi pembelajaran yang mengacu pada CPL 
+Sub-CPMK…  
+Sub-CPMKn  
+Korelasi CPMK terhadap Sub-
+CPMK 
+ 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+38 
+ 
+ 
+ 
+ 
+Capaian Pembelajaran Mata Kuliah (CPMK)  
+CPL yang Didukung 
+Kode CPMK 
+Deskripsi CPMK 
+CPMKXX 
+……………… 
+CPLXX 
+CPMKXX 
+………………….. 
+ 
+CPMKXX 
+……………….. 
+ 
+ 
+Deskripsi 
+Singkat MK 
+Tuliskan relevansi & cakupan materi perbelajaran/bahan kajian sesuai dengan matakuliah ini dan sesuai 
+dengan Sub-CPMK 
+Bahan Kajian: 
+Materi 
+Pembelajaran 
+Tuliskan bahan kajian dan dijabarkan dalam materi pembelajaran dalam pokok-pokok bahasan yang akan 
+dipelajari oleh mahasiswa sesuai dengan Sub-CPMK tersebut di atas 
+Pustaka 
+Utama : 
+ 
+1. 
+Tuliskan pustaka utama yang digunakan, termasuk bahan ajar yang disusun oleh dosen 
+pengampu MK ini 
+Pendukung : 
+ 
+2. 
+Tuliskan pustaka pendukung jika ada, sebagai pengayaan literasi 
+Dosen 
+Pengampu 
+<<Dosen Pengampu1>>, <<Dosen Pengampu2>>, <<Dosen Pengampu(n)>> 
+Mata Kuliah 
+Prasyarat 
+Tuliskan mata kuliah prasyarat, jika ada 
+ 
+Minggu 
+Ke- 
+Kemampuan 
+akhir tiap 
+tahapan 
+belajar (Sub-
+CPMK) 
+ 
+Bentuk Pembelajaran; 
+Metode Pembelajaran; 
+Penugasan Mahasiswa; 
+[Estimasi Waktu] 
+Materi 
+Pembelajaran 
+[Pustaka] 
+Bobot 
+Penilaian 
+(%) 
+Indikator 
+Kriteria 
+& 
+Teknik 
+(1) 
+(2) 
+(3) 
+(4) 
+Luring(5) 
+Daring(6) 
+(7) 
+(8) 
+1 
+Sub-CPMK 
+diturunkan 
+dari 
+CPMK 
+berdasarkan 
+ranah 
+Kognitif, 
+afektif 
+(teori/praktikum) 
+dan psikomotorik 
+(Praktikum) 
+(Tabel 
+Panduan 
+Pengisian kolom 
+sub-CPMK) 
+Tuliskan 
+indicator-
+indikator 
+pencapaian 
+Sub-CPMK 
+yang dapat 
+digunakan 
+sebagai 
+dasar untuk 
+Menyusun 
+instrument 
+penilaian 
+Tuliskan 
+kriteria 
+dan 
+bentuk 
+penilaian 
+sesuai 
+dengan 
+incubator 
+penilaian 
+pada tiap 
+tahapan 
+belajar: 
+Tes/ non-
+tes 
+Tuliskan 
+bentuk, 
+metode 
+pembelajaran 
+dan 
+penugasan 
+mahasiswa, 
+sesuaikan 
+dengan Sub-
+CPMK. 
+Serta 
+tuliskan media 
+atau 
+sumber 
+belajar digital 
+dalam 
+mode 
+blanded 
+learning (jika 
+diperlukan). 
+Tuliskan 
+bentuk, 
+metode 
+pembelajaran 
+dan 
+penugasan 
+mahasiswa, 
+sesuaikan 
+dengan Sub-
+CPMK. 
+Serta 
+tuliskan media 
+atau 
+sumber 
+belajar digital 
+dalam 
+mode 
+blanded 
+learning (jika 
+diperlukan). 
+Tuliskan materi 
+Pembelajaran 
+dengan 
+kedalamann 
+dan 
+kelusan 
+sesuai 
+dengan 
+Sub-CPMK. 
+[Pustaka: 
+new 
+update, 
+jelas, 
+relevan]. 
+Tuliskan 
+bobot (%) 
+pada 
+tiap 
+jenis 
+penilaian 
+sesaui 
+dengan 
+indicator 
+dan tingkat 
+kesulitan 
+pencapaian 
+Sub-CPMK 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+39 
+ 
+Minggu 
+Ke- 
+Kemampuan 
+akhir tiap 
+tahapan 
+belajar (Sub-
+CPMK) 
+ 
+Bentuk Pembelajaran; 
+Metode Pembelajaran; 
+Penugasan Mahasiswa; 
+[Estimasi Waktu] 
+Materi 
+Pembelajaran 
+[Pustaka] 
+Bobot 
+Penilaian 
+(%) 
+Indikator 
+Kriteria 
+& 
+Teknik 
+(1) 
+(2) 
+(3) 
+(4) 
+Luring(5) 
+Daring(6) 
+(7) 
+(8) 
+[sesuaikan 
+denan 
+besarnya sks 
+yang 
+telah 
+ditentukan]. 
+[sesuaikan 
+denan 
+besarnya sks 
+yang 
+telah 
+ditentukan]. 
+2 
+Tuliskan 
+kemampuan akhir 
+pada tiap 
+tahapan belajar 
+(Sub-CPMK) yang 
+bersifat dapat 
+diukur/ diamati 
+ 
+ 
+ 
+ 
+ 
+ 
+… 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+8 
+Evaluasi Tengah Semester / Ujian Tengan Semester 
+ 
+… 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+16 
+Evaluasi Akhir Semester / Ujian Akhir Semester 
+ 
+9.5. 
+Metode Pembelajaran 
+a. Project-Based Learning 
+Pembelajaran Berbasis Proyek (Project-Based Learning) adalah metode pembelajaran 
+yang menggunakan proyek/kegiatan sebagai media. Peserta didik melakukan 
+eksplorasi, penilaian, interpretasi, sintesis, dan informasi untuk menghasilkan 
+berbagai bentuk hasil belajar. Pembelajaran Berbasis Proyek merupakan metode 
+belajar yang menggunakan masalah sebagai langkah awal dalam mengumpulkan dan 
+mengintegrasikan pengetahuan baru berdasarkan pengalamannya dalam beraktifitas 
+secara nyata (Kemendibud, 2013).  
+Project-Based Learning atau pembelajaran berbasis proyek merupakan model 
+pembelajaran yang berpusat pada siswa untuk melakukan suatu investigasi yang 
+mendalam terhadap suatu topik. Siswa secara konstruktif melakukan pendalaman  
+pembelajaran dengan pendekatan berbasis riset terhadap permasalahan dan 
+pertanyaan yang berbobot, nyata, dan relevan (Grant, 2002). 
+Langkah-langkah Project-Based Learning, yang dikembangkan oleh The George Lucas 
+Educational Foundation (2005) terdiri dari: 
+1. Penentuan Pertanyaan Mendasar (Start With the Essential Question) 
+2. Mendesain Perencanaan Proyek (Design a Plan for the Project) 
+3. Menyusun Jadwal (Create a Schedule) 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+40 
+ 
+4. Memonitor siswa dan kemajuan proyek (Monitor the Students and the Progress 
+of the Project) 
+5. Menguji Hasil (Assess the Outcome) 
+6. Mengevaluasi Pengalaman (Evaluate the Experience) 
+ 
+b. Problem-Based Learning/Case-Based Learning 
+Problem-Based Learning adalah metodologi pembelajaran yang mendorong 
+mahasiswa untuk bertanggung jawab atas pembelajaran mahasiswa sendiri untuk 
+mengembangkan keterampilan dengan pengetahuan yang relevan.   
+Direktorat Jenderal Pendidikan Tinggi juga memberikan definisi Project-Based 
+Learning 
+sebagai 
+berikut. 
+Project-Based 
+Learning 
+adalah 
+belajar 
+dengan 
+memanfaatkan masalah dan mahasiswa harus melakukan pencarian/penggalian 
+informasi (inquiry) untuk dapat memecahkan masalah tersebut. Pada umumnya, 
+terdapat empat langkah yang perlu dilakukan mahasiswa dalam Project-Based 
+Learning, yaitu:  
+1. Menerima masalah yang relevan dengan salah satu/beberapa kompetensi yang 
+dituntut mata kuliah, dari dosennya; 
+2. Melakukan pencarian data dan informasi yang relevan untuk memecahkan 
+masalah;  
+3. Menata data dan mengaitkan data dengan masalah; dan 
+4. Menganalisis strategi pemecahan masalah Project-Based Learning adalah belajar 
+dengan 
+memanfaatkan 
+masalah 
+2 
+dan 
+mahasiswa 
+harus 
+melakukan 
+pencarian/penggalian informasi (inquiry) untuk dapat memecahkan masalah 
+tersebut. 
+X. 
+Asesmen Pembelajaran 
+Asesmen pembelajaran mencakup teknik penilaian CPMK, tahapan dan mekanisme 
+penilaian/asesmen CPMK, penentuan bobot penilaian, penilaian akhir matakuliah dan 
+CPL. Bagian ini menunjukkan contoh asesmen pembelajaran. Komponen penilaian 
+asesmen serta bobot masing-masing komponen dapat disesuaikan dengan kebutuhan 
+program studi. Proses penyesuaian asesmen pembelajaran dapat dilakukan 1 (satu) 
+tahun sekali pada saat evaluasi kurikulum jangka pendek. Sedangkan pemutakhiran 
+kurikulum dilakukan setiap 4-5 tahun sekali. Pada sub bab 10.1 sampai dengan sub 
+bab 10.5 akan dijelaskan dengan salah satu contoh metode perhitungan 
+pencapaian CPMK dan CPL. Metode perhitungan CPMK dan CPL tersebut dapat 
+bervariasi sesuai dengan metode yang digunakan oleh Prodi dan atau 
+Universitas. 
+10.1. Teknik Penilaian CPMK 
+Pada penentuan teknik penilaian CPMK perlu diperhatikan jenis mata kuliah yakni mata 
+kuliah teori, mata kuliah praktikum dan mata kuliah praktek. Standar teknik penilaian 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+41 
+ 
+didistribusikan sesuai dengan CPMK setiap mata kuliah. Tabel 16 Teknik Penilaian 
+CPMK akan merinci susunan teknik penilaian untuk setiap CPMK yang dimiliki. 
+Berdasarkan Panduan Penyusunan Kurikulum Perguruan Tinggi 2020 [1], pada proses 
+penilaian capaian pembelajaran dapat dilakukan berdasarkan sikap, pengetahuan dan 
+keterampilan (umum dan khusus) yang dijelaskan sebagai berikut: 
+1. Penilaian aspek sikap dapat menggunakan teknik penilaian observasi dengan 
+menggunakan instrumen penilaian rubrik/dan portofolio. Pada aspek sikap terdiri 
+penilaian diri, penilaian antar mahasiswa, dan penilaian aspek pribadi yang 
+menekankan pada aspek beriman, berakhlak mulia, percaya diri dan bertanggung 
+jawab. 
+2. Penilaian aspek pengetahuan dapat menggunakan teknik penilaian observasi, 
+partisipasi, unjuk kerja, tes tertulis, tes lisan dan angket. Sedangkan instrumen 
+penilaian menggunakan rubrik/dan portofolio. Penilaian kinerja berbentuk tes tulis 
+dan tes lisan yang dilaksanakan secara langsung maupun tidak langsung. Secara 
+langsung bermakna dosen dan mahasiswa bertemu secara tatap muka saat 
+penilaian, misalnya saat seminar, ujian skripsi, tesis dan disertasi. Sedangkan 
+secara tidak langsung, seperti menggunakan lembar soal ujian tertulis. Contohnya 
+kuis, tes tertulis (UTS dan UAS). 
+3. Penilaian aspek keterampilan dapat menggunakan  teknik penilaian observasi, 
+partisipasi, unjuk kerja, tes tertulis, tes lisan dan angket. dengan instrumen 
+penilaian menggunakan rubrik/dan portofolio. Penilaian kinerja yang dapat 
+diselenggarakan secara praktikum, praktek, simulasi, praktek lapangan, dan 
+lainnya seperti untuk meningkatkan kemampuan keterampilannya. Contohnya, 
+tugas kelompok, tugas praktik, unjuk kerja, partisipasi dan responsif.  
+Program Studi menentukan Teknik Penilaian berdasarkan kebutuhan aspek 
+penilaian sesuai CPMK yang ditetapkan untuk setiap mata kuliah seperti ditunjukan 
+pada Tabel 16 
+ 
+Tabel 16. Contoh Teknik Penilaian CPMK 
+CPL 
+MK 
+CPMK 
+MBKM 
+Partisipasi 
+(Kehadiran 
+/ Quiz) 
+Observasi 
+(Praktek 
+/ Tugas) 
+Unjuk Kerja 
+(Presentasi) 
+Tes 
+Tulis 
+(UTS) 
+Tes 
+Tulis 
+(UAS) 
+Tes Lisan 
+(Tugas 
+Kelompok) 
+CPL01 MK01 
+CPMK011 
+ 
+V 
+ 
+ 
+V 
+ 
+ 
+CPL01 MK01 
+CPMK012  
+ 
+V 
+V 
+ 
+ 
+V 
+CPL01 MK02 
+CPMK013 
+ 
+V 
+V 
+ 
+V 
+ 
+ 
+CPL01 MK02 
+CPMK014  
+ 
+V 
+V 
+ 
+ 
+V 
+CPL02 MK03 
+CPMK021  
+ 
+V 
+V 
+V 
+ 
+V 
+CPL02 MK03 
+CPMK023 
+ 
+ 
+V 
+ 
+ 
+ 
+V 
+CPL02 MK04 
+CPMK022 
+ 
+ 
+V 
+V 
+ 
+ 
+V 
+CPL02 MK04 
+CPMK024 
+ 
+ 
+ 
+V 
+V 
+V 
+V 
+CPL02 MK23 
+CPMK023 
+ 
+V 
+V 
+ 
+V 
+ 
+ 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+42 
+ 
+CPL 
+MK 
+CPMK 
+MBKM 
+Partisipasi 
+(Kehadiran 
+/ Quiz) 
+Observasi 
+(Praktek 
+/ Tugas) 
+Unjuk Kerja 
+(Presentasi) 
+Tes 
+Tulis 
+(UTS) 
+Tes 
+Tulis 
+(UAS) 
+Tes Lisan 
+(Tugas 
+Kelompok) 
+CPL02 MK23 
+CPMK024 
+ 
+ 
+ 
+V 
+ 
+V 
+V 
+CPL03 MK10 
+CPMK031 
+ 
+V 
+ 
+ 
+V 
+ 
+ 
+CPL03 MK10 
+CPMK033  
+ 
+ 
+V 
+ 
+ 
+V 
+CPL03 MK11 
+CPMK031 
+ 
+V 
+V 
+ 
+V 
+V 
+V 
+CPL03 MK14 
+CPMK032  
+ 
+V 
+ 
+V 
+V 
+V 
+CPL03 MK16 
+CPMK032  
+ 
+V 
+ 
+V 
+ 
+V 
+CPL03 MK16 
+CPMK033  
+ 
+ 
+V 
+ 
+ 
+V 
+CPL03 MK17 
+CPMK032  
+ 
+V 
+ 
+V 
+ 
+V 
+CPL03 MK17 
+CPMK033  
+ 
+ 
+V 
+ 
+ 
+V 
+CPL04 MK05 
+CPMK041 
+ 
+V 
+ 
+V 
+V 
+V 
+V 
+CPL04 MK06 
+CPMK041 
+ 
+V 
+V 
+V 
+V 
+ 
+V 
+CPL04 MK07 
+CPMK041 
+ 
+V 
+V 
+V 
+V 
+V 
+V 
+CPL04 MK18 
+CPMK042 
+ 
+V 
+V 
+ 
+V 
+V 
+V 
+CPL04 MK19 
+CPMK042 
+ 
+V 
+V 
+V 
+V 
+ 
+V 
+CPL05 MK20 
+CPMK051 
+ 
+V 
+ 
+ 
+V 
+V 
+ 
+CPL05 MK20 
+CPMK052  
+ 
+ 
+V 
+ 
+ 
+V 
+CPL05 MK21 
+CPMK051 
+ 
+V 
+ 
+ 
+V 
+V 
+ 
+CPL05 MK21 
+CPMK052  
+ 
+ 
+V 
+ 
+ 
+V 
+CPL06 MK12 
+CPMK061 
+ 
+V 
+ 
+V 
+ 
+V 
+V 
+CPL06 MK12 
+CPMK063 
+ 
+V 
+ 
+V 
+V 
+V 
+V 
+CPL06 MK13 
+CPMK061 
+ 
+V 
+ 
+V 
+ 
+V 
+V 
+CPL06 MK13 
+CPMK063 
+ 
+V 
+ 
+V 
+V 
+V 
+V 
+CPL06 MK15 
+CPMK062 
+ 
+V 
+ 
+V 
+V 
+ 
+V 
+CPL06 MK15 
+CPMK064 
+ 
+V 
+ 
+V 
+V 
+V 
+V 
+CPL07 MK08 
+CPMK071 
+ 
+V 
+ 
+ 
+V 
+V 
+ 
+CPL07 MK08 
+CPMK072 
+ 
+V 
+ 
+V 
+V 
+ 
+V 
+CPL07 MK09 
+CPMK072 
+ 
+V 
+ 
+ 
+V 
+ 
+V 
+CPL07 MK09 
+CPMK073 
+ 
+ 
+ 
+V 
+ 
+ 
+V 
+CPL07 MK22 
+CPMK072 
+ 
+V 
+V 
+ 
+V 
+ 
+ 
+CPL07 MK22 
+CPMK073 
+ 
+ 
+V 
+V 
+ 
+ 
+ 
+CPL07 MK24 
+CPMK073 
+ 
+ 
+V 
+V 
+ 
+ 
+ 
+CPL(n) .... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+10.2. Tahap dan Mekanisme Penilaian 
+Pada tahap dan mekanisme penilaian diperlukan penetepan instrumen penilaian yang 
+disesuaikan dengan CPMK yang dimiliki oleh setiap mata kuliah. Pada pemetaan tahap 
+mekanisme dan penilaian diperlukan ketentuan tahap penilaian, teknik penilaian, 
+instrumen, kriteria dan bobot yang ditentukan oleh Program Studi berdasarkan mata 
+kuliah, CPL yang dititipkan pada matakuliah dan capaian pembelajaran mata kuliah 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+43 
+ 
+yang ditentukan. Pemilihan metode perhitungan dan bobot pencapaian CPL 
+dan CPMK ditentukan berdasarkan kebijakan Program Studi.  
+Pada panduan kurikulum ini akan dijelaskan salah satu metode perhitungan CPL 
+dan CPMK dengan memberikan total bobot pada setiap matakuliah adalah 100. Total 
+bobot matakulah tersebut disusun dari bobot-bobot CPMK yang terdapat pada 
+matakuliah tersebut.Besarnya bobot CPMK pada mata kuliah berdasarkan kebijakan 
+Program Studi. Tabel 17 merupakan contoh Tahap Mekanisme dan Penilaian. Bobot 
+akumulasi pada setiap CPL memungkinkan lebih dari 100, sedangkan total bobot pada 
+satu matakuliah adalah 100.  
+Program Studi menentukan tahapan dan mekanisme penilaian yang dirinci ke dalam 
+Teknik Penilaian dan menghasilkan Bobot berdasarkan Instrumen dan Kriteria 
+sesuai CPMK yang dimiliki oleh setiap mata kuliah seperti yang ditunjukkan oleh 
+Tabel 17. 
+Tabel 17. Contoh Tahap dan Mekanisme Penilaian 
+CPL 
+MK 
+CPMK 
+Tahap 
+Penilaian 
+Teknik 
+Penilaian 
+Instrumen 
+Kriteria 
+Bobot 
+CPL01 
+MK01 
+CPMK011 
+Awal-
+Tengah 
+Semester 
+Partisipasi 
+(Kehadiran 
+/ Quiz); 
+UTS 
+Rubrik 
+holistik 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+40 
+CPL01 
+MK01 
+CPMK012 
+Tengah-
+Akhir 
+Semester 
+Observasi 
+(Praktek / 
+Tugas); 
+Tugas 
+Kelompok; 
+Presentasi 
+Rubrik 
+analitik 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+60 
+Rubrik skala 
+persepsi 
+CPL01 
+MK02 
+CPMK013 
+Awal-
+Tengah 
+Semester 
+Partisipasi 
+(Kehadiran 
+/ Quiz); 
+Observasi 
+(Praktek / 
+Tugas); 
+UTS 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+45 
+Rubrik 
+analitik 
+CPL01 
+MK02 
+CPMK014 
+Tengah-
+Akhir 
+Semester 
+Observasi 
+(Praktek / 
+Tugas); 
+Tugas 
+Kelompok; 
+Unjuk Kerja 
+(Presentasi) 
+Rubrik 
+analitik 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+55 
+Rubrik skala 
+persepsi 
+CPL02 
+MK03 
+CPMK021 
+Awal-
+Tengah 
+Semester 
+Partisipasi 
+(Kehadiran 
+/ Quiz); 
+Observasi 
+(Praktek / 
+Tugas); 
+UTS; Tugas 
+Kelompok; 
+Unjuk Kerja 
+(Presentasi) 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+60 
+Rubrik 
+analitik 
+Rubrik skala 
+persepsii 
+CPL02 
+MK03 
+CPMK023 
+Observasi 
+(Praktek / 
+Rubrik 
+analitik 
+Skala penilaian / 
+skor sesuai dimensi 
+40 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+44 
+ 
+CPL 
+MK 
+CPMK 
+Tahap 
+Penilaian 
+Teknik 
+Penilaian 
+Instrumen 
+Kriteria 
+Bobot 
+Tengah-
+Akhir 
+Semester 
+Tugas); Tes 
+Lisan 
+(Tugas 
+Kelompok) 
+Rubrik skala 
+persepsi 
+penilaian untuk 
+setiap CPMK 
+CPL02 
+MK04 
+CPMK022 
+Awal-
+Tengah 
+Semester 
+Observasi 
+(Praktek / 
+Tugas); Tes 
+Lisan 
+(Tugas 
+Kelompok); 
+Unjuk Kerja 
+(Presentasi) 
+Rubrik 
+analitik 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+55 
+Rubrik skala 
+persepsi 
+CPL02 
+MK04 
+CPMK024 
+Tengah-
+Akhir 
+Semester 
+Tes Lisan 
+(Tugas 
+Kelompok); 
+Unjuk Kerja 
+(Presentasi)
+; Tes Tulis 
+(UTS); Tes 
+Tulis (UAS) 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+45 
+Rubrik 
+analitik 
+Rubrik skala 
+persepsi 
+CPL02 
+MK23 
+CPMK023 
+Awal-
+Tengah 
+Semester 
+Partisipasi 
+(Kehadiran 
+/ Quiz); 
+Observasi 
+(Praktek / 
+Tugas); Tes 
+Tulis (UTS) 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+50 
+CPL02 
+MK23 
+CPMK024 
+Tengah-
+Akhir 
+Semester 
+Tes Lisan 
+(Tugas 
+Kelompok); 
+Unjuk Kerja 
+(Presentasi)
+; Tes Tulis 
+(UAS) 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+50 
+Rubrik 
+analitik 
+Rubrik skala 
+persepsi 
+CPL03 
+MK10 
+CPMK031 
+Awal-
+Tengah 
+Semester 
+Partisipasi 
+(Kehadiran 
+/ Quiz); Tes 
+Tulis (UTS) 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+45 
+CPL03 
+MK10 
+CPMK033 
+Tengah-
+Akhir 
+Semester 
+Tes Lisan 
+(Tugas 
+Kelompok); 
+Unjuk Kerja 
+(Presentasi) 
+Rubrik 
+analitik 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+55 
+Rubrik skala 
+persepsi 
+CPL03 
+MK11 
+CPMK031 
+Awal-Akhir 
+Semester 
+Partisipasi 
+(Kehadiran 
+/ Quiz); 
+Observasi 
+(Praktek / 
+Tugas); Tes 
+Lisan 
+(Tugas 
+Kelompok); 
+Tes Tulis 
+(UTS); Tes 
+Tulis (UAS) 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+100 
+Rubrik 
+analitik 
+Rubrik skala 
+persepsi 
+CPL03 
+MK14 
+CPMK032 
+Awal-Akhir 
+Semester 
+Observasi 
+(Praktek / 
+Tugas); Tes 
+Lisan 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+100 
+Rubrik 
+analitik 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+45 
+ 
+CPL 
+MK 
+CPMK 
+Tahap 
+Penilaian 
+Teknik 
+Penilaian 
+Instrumen 
+Kriteria 
+Bobot 
+(Tugas 
+Kelompok); 
+Tes Tulis 
+(UTS); Tes 
+Tulis (UAS) 
+Rubrik skala 
+persepsi 
+CPL03 
+MK16 
+CPMK032 
+Awal-
+Tengah 
+Semester 
+Observasi 
+(Praktek / 
+Tugas); Tes 
+Lisan 
+(Tugas 
+Kelompok); 
+Tes Tulis 
+(UTS) 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+65 
+Rubrik 
+analitik 
+Rubrik skala 
+persepsi 
+CPL03 
+MK16 
+CPMK033 
+Tengah-
+Akhir 
+Semester 
+Tes Lisan 
+(Tugas 
+Kelompok); 
+Unjuk Kerja 
+(Presentasi) 
+Rubrik 
+analitik 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+35 
+Rubrik skala 
+persepsi 
+CPL03 
+MK17 
+CPMK032 
+Awal-
+Tengah 
+Semester 
+Observasi 
+(Praktek / 
+Tugas); Tes 
+Lisan 
+(Tugas 
+Kelompok); 
+Tes Tulis 
+(UTS) 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+65 
+Rubrik 
+analitik 
+CPL03 
+MK17 
+CPMK033 
+Tengah-
+Akhir 
+Semester 
+Tes Lisan 
+(Tugas 
+Kelompok); 
+Unjuk Kerja 
+(Presentasi) 
+Rubrik 
+analitik 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+35 
+Rubrik skala 
+persepsi 
+CPL04 
+MK05 
+CPMK041 
+Awal-Akhir 
+Semester 
+Partisipasi 
+(Kehadiran 
+/ Quiz); Tes 
+Lisan 
+(Tugas 
+Kelompok); 
+Unjuk Kerja 
+(Presentasi)
+; Tes Tulis 
+(UTS); Tes 
+Tulis (UAS) 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+100 
+Rubrik 
+analitik 
+Rubrik skala 
+persepsi 
+CPL04 
+MK06 
+CPMK041 
+Awal-Akhir 
+Semester 
+Partisipasi 
+(Kehadiran 
+/ Quiz); 
+Observasi 
+(Praktek / 
+Tugas); Tes 
+Lisan 
+(Tugas 
+Kelompok); 
+Unjuk Kerja 
+(Presentasi)
+; Tes Tulis 
+(UTS) 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+100 
+Rubrik 
+analitik 
+Rubrik skala 
+persepsi 
+CPL04 
+MK07 
+CPMK041 
+Awal-Akhir 
+Semester 
+Partisipasi 
+(Kehadiran 
+/ Quiz); 
+Observasi 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+100 
+Rubrik 
+analitik 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+46 
+ 
+CPL 
+MK 
+CPMK 
+Tahap 
+Penilaian 
+Teknik 
+Penilaian 
+Instrumen 
+Kriteria 
+Bobot 
+(Praktek / 
+Tugas); Tes 
+Lisan 
+(Tugas 
+Kelompok); 
+Unjuk Kerja 
+(Presentasi)
+; Tes Tulis 
+(UTS); Tes 
+Tulis (UAS) 
+Rubrik skala 
+persepsi 
+CPL04 
+MK18 
+CPMK042 
+Awal-Akhir 
+Semester 
+Partisipasi 
+(Kehadiran 
+/ Quiz); 
+Observasi 
+(Praktek / 
+Tugas); Tes 
+Lisan 
+(Tugas 
+Kelompok); 
+Tes Tulis 
+(UTS); Tes 
+Tulis (UAS) 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+100 
+Rubrik 
+analitik 
+Rubrik skala 
+persepsi 
+CPL04 
+MK19 
+CPMK042 
+Awal-Akhir 
+Semester 
+Partisipasi 
+(Kehadiran 
+/ Quiz); 
+Observasi 
+(Praktek / 
+Tugas); Tes 
+Lisan 
+(Tugas 
+Kelompok); 
+Unjuk Kerja 
+(Presentasi)
+; Tes Tulis 
+(UTS); 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+100 
+Rubrik 
+analitik 
+Rubrik skala 
+persepsi 
+CPL05 
+MK20 
+CPMK051 
+Awal-
+Tengah 
+Semester 
+Partisipasi 
+(Kehadiran 
+/ Quiz); Tes 
+Tulis (UTS); 
+Tes Tulis 
+(UAS) 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+65 
+Rubrik skala 
+persepsi 
+CPL05 
+MK20 
+CPMK052 
+Tengah-
+Akhir 
+Semester 
+Tes Lisan 
+(Tugas 
+Kelompok); 
+Unjuk Kerja 
+(Presentasi) 
+Rubrik 
+analitik 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+35 
+Rubrik skala 
+persepsi 
+CPL05 
+MK21 
+CPMK051 
+Awal-
+Tengah 
+Semester 
+Partisipasi 
+(Kehadiran 
+/ Quiz); Tes 
+Tulis (UTS); 
+Tes Tulis 
+(UAS) 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+65 
+Rubrik skala 
+persepsi 
+CPL05 
+MK21 
+CPMK052 
+Tengah-
+Akhir 
+Semester 
+Tes Lisan 
+(Tugas 
+Kelompok); 
+Unjuk Kerja 
+(Presentasi) 
+Rubrik 
+analitik 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+35 
+Rubrik skala 
+persepsi 
+CPL06 
+MK12 
+CPMK061 
+Awal-Akhir 
+Semester 
+Partisipasi 
+(Kehadiran 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+40 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+47 
+ 
+CPL 
+MK 
+CPMK 
+Tahap 
+Penilaian 
+Teknik 
+Penilaian 
+Instrumen 
+Kriteria 
+Bobot 
+/ Quiz); Tes 
+Lisan 
+(Tugas 
+Kelompok); 
+Unjuk Kerja 
+(Presentasi)
+; Tes Tulis 
+(UAS) 
+Rubrik 
+analitik 
+penilaian untuk 
+setiap CPMK 
+Rubrik skala 
+persepsi 
+CPL06 
+MK12 
+CPMK063 
+Awal-Akhir 
+Semester 
+Partisipasi 
+(Kehadiran 
+/ Quiz); Tes 
+Lisan 
+(Tugas 
+Kelompok); 
+Unjuk Kerja 
+(Presentasi)
+; Tes Tulis 
+(UTS); Tes 
+Tulis (UAS) 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+60 
+Rubrik 
+analitik 
+Rubrik skala 
+persepsi 
+CPL06 
+MK13 
+CPMK061 
+Awal-Akhir 
+Semester 
+Partisipasi 
+(Kehadiran 
+/ Quiz); Tes 
+Lisan 
+(Tugas 
+Kelompok); 
+Unjuk Kerja 
+(Presentasi)
+; Tes Tulis 
+(UAS) 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+40 
+Rubrik 
+analitik 
+Rubrik skala 
+persepsi 
+CPL06 
+MK13 
+CPMK063 
+Awal-Akhir 
+Semester 
+Partisipasi 
+(Kehadiran 
+/ Quiz); Tes 
+Lisan 
+(Tugas 
+Kelompok); 
+Unjuk Kerja 
+(Presentasi)
+; Tes Tulis 
+(UTS); Tes 
+Tulis (UAS) 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+60 
+Rubrik 
+analitik 
+Rubrik skala 
+persepsi 
+CPL06 
+MK15 
+CPMK062 
+Awal-Akhir 
+Semester 
+Partisipasi 
+(Kehadiran 
+/ Quiz); Tes 
+Lisan 
+(Tugas 
+Kelompok); 
+Unjuk Kerja 
+(Presentasi)
+; Tes Tulis 
+(UTS); 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+40 
+Rubrik 
+analitik 
+Rubrik skala 
+persepsi 
+CPL06 
+MK15 
+CPMK064 
+Awal-Akhir 
+Semester 
+Partisipasi 
+(Kehadiran 
+/ Quiz); Tes 
+Lisan 
+(Tugas 
+Kelompok); 
+Unjuk Kerja 
+(Presentasi)
+; Tes Tulis 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+60 
+Rubrik 
+analitik 
+Rubrik skala 
+persepsi 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+48 
+ 
+CPL 
+MK 
+CPMK 
+Tahap 
+Penilaian 
+Teknik 
+Penilaian 
+Instrumen 
+Kriteria 
+Bobot 
+(UTS); Tes 
+Tulis (UAS) 
+CPL07 
+MK08 
+CPMK071 
+Awal-Akhir 
+Semester 
+Partisipasi 
+(Kehadiran 
+/ Quiz); Tes 
+Tulis (UTS); 
+Tes Tulis 
+(UAS) 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+50 
+CPL07 
+MK08 
+CPMK072 
+Awal-Akhir 
+Semester 
+Partisipasi 
+(Kehadiran 
+/ Quiz); Tes 
+Lisan 
+(Tugas 
+Kelompok); 
+Unjuk Kerja 
+(Presentasi)
+; Tes Tulis 
+(UTS) 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+50 
+Rubrik 
+analitik 
+Rubrik skala 
+persepsi 
+CPL07 
+MK09 
+CPMK072 
+Awal-
+Tengah 
+Semester 
+Partisipasi 
+(Kehadiran 
+/ Quiz); Tes 
+Lisan 
+(Tugas 
+Kelompok); 
+Tes Tulis 
+(UTS) 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+45 
+Rubrik skala 
+persepsii 
+CPL07 
+MK09 
+CPMK073 
+Tengah-
+Akhir 
+Semester 
+Tes Lisan 
+(Tugas 
+Kelompok); 
+Unjuk Kerja 
+(Presentasi) 
+Rubrik 
+analitik 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+55 
+Rubrik skala 
+persepsi 
+CPL07 
+MK22 
+CPMK072 
+Awal-
+Tengah 
+Semester 
+Partisipasi 
+(Kehadiran 
+/ Quiz); 
+Observasi 
+(Praktek / 
+Tugas); Tes 
+Tulis (UTS) 
+Rubrik 
+holistic 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+55 
+Rubrik 
+analitik 
+CPL07 
+MK22 
+CPMK073 
+Tengah-
+Akhir 
+Semester 
+Observasi 
+(Praktek / 
+Tugas); 
+Unjuk Kerja 
+(Presentasi) 
+Rubrik 
+analitik 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+45 
+Rubrik skala 
+persepsi 
+Penilaian 
+portofolio 
+CPL07 
+MK24 
+CPMK073 
+Awal-Akhir 
+Semester 
+Observasi 
+(Praktek / 
+Tugas); 
+Unjuk Kerja 
+(Presentasi) 
+Rubrik 
+analitik 
+Skala penilaian / 
+skor sesuai dimensi 
+penilaian untuk 
+setiap CPMK 
+100 
+Rubrik skala 
+persepsi 
+Penilaian 
+portofolio 
+CPL(n) 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+.... 
+ 
+Pedoman penilaian yang digunakan dapat berupa rubrik atau portofolio. Rubrik 
+sebagai panduan dan pendoman penilaian yang menggambarkan kriteria yang 
+ditetapkan untuk menilai dari hasil kinerja belajar mahasiswa. Pada buku panduan 
+penyusunan kurikulum pendidikan tinggi 2020[1], telah ditentukan rubrik yang dapat 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+49 
+ 
+digunakan, seperti  rubrik analitik, rubrik holistik dan rubrik skala persepsi yang 
+dijelaskan sebagai berikut: 
+1) Rubrik holistik merupakan pedoman penilaian untuk menilai berdasarkan kesan 
+keseluruhan atau kombinasi semua kriteria. Contoh rubrik holistik dapat dilihat 
+pada Tabel C. Rubrik Holistik. 
+2) Rubrik analitik merupakan pedoman penilaian yang memiliki tingkatan kinerja 
+penilaian yang dideskripsikan dan diberikan skala penilaian atau skor penilaian. 
+Contoh rubrik analitik dapat dilihat pada Tabel C. Rubrik Analitik. 
+3) Rubrik skala persepsi merupakan pendoman penilaian yang memiliki tingkatan 
+kriteria penilaian yang tidak dideskripsikan, namun tetap diberikan skala 
+penilaian atau skor penilaian. Contoh rubrik skala persepsi dapat dilihat pada 
+Tabel 22 Contoh Rubrik Skala Persepsi. 
+Pada penentuan aspek/dimensi yang dinilai, skala penilaian dan kriteria penilaian 
+dapat menyesuaikan dengan ketentuan dan kebijakan dari Program Studi. 
+Tabel C. Contoh Rubrik Holistik 
+GRADE 
+SKOR 
+KRITERIA PENILAIAN 
+Sangat Kurang 
+<20 
+Rancangan yang disajikan tidak teratur dan tidak menyelesaikan 
+permasalahan 
+Kurang 
+21 - 40 
+Rancangan yang disajikan teratur namun kurang menyelesaikan 
+permasalahan. 
+Cukup 
+41 - 60 
+Rancangan yang disajikan tersistematis, menyelesaikan masalah, 
+namun kurang dapat diimplementasikan 
+Baik 
+61 - 80 
+Rancangan yang disajikan sistematis, menyelesaikan masalah, dapat 
+diimplementasikan, kurang inovatif 
+Sangat Baik 
+>81 
+Rancangan yang disajikan sistematis, menyelesaikan masalah dan 
+dapat diimplementasikan dan inovatif 
+Tabel D. Contoh Rubrik Analitik 
+Aspek/  
+Dimensi 
+yang dinilai  
+Skala Penilaian  
+Sangat Kurang  
+Kurang  
+Cukup  
+Baik  
+Sangat Baik  
+(Skor < 20)  
+(21 – 40)  
+(41 – 60)  
+(61 – 80)  
+(Skor > 80)  
+Organisasi  
+Tidak ada 
+organisasi yang 
+jelas. Fakta 
+tidak digunakan 
+untuk 
+mendukung 
+pernyataan.  
+Cukup fokus, 
+namun bukti 
+kurang 
+mencukupi 
+untuk 
+digunakan 
+dalam menarik 
+kesimpulan  
+Presentasi 
+mempunyai fokus 
+dan menyajikan 
+beberapa bukti 
+yang mendukung 
+kesimpulan.  
+Terorganisasi 
+dengan baik dan 
+menyajikan fakta 
+yang meyakinka 
+untuk mendukun 
+kesimpulan.  
+Terorganisasi 
+dengan 
+menyajikan fakta 
+yang didukung 
+oleh contoh yang 
+telah dianalisis 
+sesuai konsep.  
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+50 
+ 
+Aspek/  
+Dimensi 
+yang dinilai  
+Skala Penilaian  
+Sangat Kurang  
+Kurang  
+Cukup  
+Baik  
+Sangat Baik  
+(Skor < 20)  
+(21 – 40)  
+(41 – 60)  
+(61 – 80)  
+(Skor > 80)  
+Isi  
+Isinya tidak 
+akurat atau 
+terlalu umum. 
+Pendengar tidak 
+belajar apapun 
+atau kadang 
+menyesatkan.  
+Isinya kurang 
+akurat, karena 
+tidak ada data 
+faktual, tidak 
+menambah 
+pemahaman 
+pendengar.  
+Isi secara umum 
+akurat, tetapi 
+tidak lengkap. 
+Para pendengar 
+bisa mempelajari 
+beberapa fakta 
+yang tersirat, 
+tetapi mereka 
+tidak menambah 
+wawasan baru 
+tentang topik 
+tersebut.  
+Isi akurat dan 
+lengkap. Para 
+pendengar 
+menambah 
+wawasan baru 
+tentang topik 
+tersebut.  
+Isi mampu 
+menggugah 
+pendengar untuk 
+mengambangkan 
+pikiran.  
+Gaya 
+Presentasi  
+Pembicara 
+cemas dan tidak 
+nyaman, dan 
+membaca 
+berbagai catatan 
+daripada 
+berbicara. 
+Pendengar 
+sering 
+diabaikan. Tidak 
+terjadi kontak 
+mata karena 
+pembicara lebih 
+banyak melihat 
+ke papan tulis 
+atau layar  
+Berpatokan 
+pada catatan, 
+tidak ada ide 
+yang 
+dikembangkan 
+di luar catatan, 
+suara monoton  
+Secara umum 
+pembicara 
+tenang, tetapi 
+dengan nada 
+yang datar dan 
+cukup sering 
+bergantung pada 
+catatan. Kadang- 
+kadang kontak 
+mata dengan 
+pendengar 
+diabaikan.  
+Pembicara 
+tenang dan 
+menggunakan 
+intonasi yang 
+tepat, berbicara 
+tanpa 
+bergantung pada 
+catatan, dan 
+berinteraksi 
+secara intensif 
+dengan 
+pendengar. 
+Pembicara selalu 
+kontak mata 
+dengan 
+pendengar.  
+Berbicara dengan 
+semangat, 
+menularkan 
+semangat dan 
+antusiasme pada 
+pendengar  
+Tabel E. Contoh Rubrik Skala Persepsi 
+Aspek/Dimensi yang 
+Dinilai  
+Skala Penilaian  
+Sangat 
+Kurang  
+Kurang  
+Cukup  
+Baik  
+Sangat Baik  
+(Skor < 20)  
+(21 – 40)  
+(41 – 60)  
+(61 – 80)  
+(Skor > 80)  
+Kemampuan Komunikasi  
+  
+  
+  
+  
+  
+Penguasaan Materi  
+  
+  
+  
+  
+  
+Kemampuan Menghadapi 
+Pertanyaan  
+  
+  
+  
+  
+  
+Ketepatan Menyelesaikan 
+Masalah  
+  
+  
+  
+  
+  
+ 
+Penilaian portofolio merupakan penilaian berkelanjutan yang didasarkan pada 
+kumpulan informasi yang menunjukkan perkembangan capaian belajar mahasiswa 
+dalam satu periode tertentu. Informasi tersebut dapat berupa karya mahasiswa dari 
+proses pembelajaran yang dianggap terbaik atau karya mahasiswa yang menunjukkan 
+perkembangan kemampuannya untuk mencapai capaian pembelajaran. 
+ 
+Macam penilaian portofolio yang disajikan dalam buku ini adalah sebagai berikut:  
+1. Portofolio perkembangan, berisi koleksi hasil-hasil karya mahasiswa yang 
+menunjukkan kemajuan pencapaian kemampuannya sesuai dengan tahapan 
+belajar yang telah dijalani.  
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+51 
+ 
+2. Portofolio pamer (showcase) berisi hasil-hasil karya mahasiswa yang 
+menunjukkan hasil kinerja belajar terbaiknya. 
+3. Portofolio komprehensif, berisi hasil-hasil karya mahasiswa secara 
+keseluruhan selama proses pembelajaran.  
+Contoh penilaian portofolio seperti pada Tabel 17 digunakan untuk mengukur 
+kemampuan mahasiswa memilih dan meringkas artikel jurnal ilmiah. Capaian 
+pembelajaran yang diukur:  
+ 
+1. Kemampuan memilih artikel jurnal bereputasi dan mutakhir sesuai dengan 
+tema dampak polusi industri;  
+2. Kemampuan meringkas artikel jurnal dengan tepat dan benar.  
+ 
+Tabel F. Contoh Penilaian Portofolio 
+ 
+No 
+Aspek Kemampuan yang Dinilai 
+Artikel 1 
+ 
+Artike 2 
+Artikel 3 
+Rendah 
+(1-5) 
+Tinggi 
+(6-10) 
+Rendah 
+(1-5) 
+Tinggi 
+(6-10) 
+Rendah 
+(1-5) 
+Tinggi 
+(6-10) 
+1 
+Artikel berasal dari jurnal terindeks dalam 
+kurun waktu 3 tahun terakhir. 
+  
+ 
+  
+ 
+  
+ 
+2 
+Artikel berkaitan dengan tema dampak 
+polusi industri. 
+  
+ 
+  
+ 
+  
+ 
+3 
+……………………. 
+  
+ 
+  
+ 
+  
+ 
+4 
+Dan seterusnya 
+  
+ 
+  
+ 
+  
+ 
+ 
+10.3. Bobot Penilaian  
+Penentuan bobot dan teknik penilaian berdasarkan standar dan metode penilaian 
+yang telah dipilih dan ditetapkan Program Studi disusun sesuai Tabel 18 Tabel 
+Bobot Penilaian. Tabel 18 merupakan contoh pemetaan bobot penilaian yang didistribusi 
+ke setiap CPMK yang dimiliki oleh mata kuliah sesuai dengan teknik penilaiannya untuk 
+memenuhi CPL.  
+Program Studi menentukan bobot penilaian berdasarkan CPL kedalam Teknik 
+penilaian yang didistribusikan ke setiap CPMK seperti Tabel 18. Bobot akumulasi 
+pada setiap CPL memungkinkan lebih/kurang dari 100. Akumulasi bobot penilaian 
+setiap mata kuliah adalah 100. 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+52 
+ 
+Tabel 18. Bobot Penilaian 
+CPL 
+MK 
+CPMK 
+MBKM 
+Partisipasi 
+(Kehadiran / 
+Quiz) 
+Observasi 
+(Praktek / 
+Tugas) 
+Unjuk 
+Kerja 
+(Presentas
+i) 
+Tes 
+Tulis 
+(UTS) 
+Tes 
+Tulis 
+(UAS) 
+Tes Lisan 
+(Tugas 
+Kelompok) 
+Total 
+CPL01 MK01 CPMK011 
+ 
+20 
+ 
+ 
+20 
+ 
+ 
+40 
+CPL01 MK01 CPMK012 
+ 
+ 
+10 
+30 
+ 
+ 
+20 
+60 
+CPL01 MK02 CPMK013 
+ 
+ 
+10 
+ 
+25 
+ 
+10 
+45 
+CPL01 MK02 CPMK014 
+ 
+ 
+10 
+30 
+ 
+ 
+15 
+55 
+CPL02 MK03 CPMK021  
+ 
+25 
+10 
+15 
+ 
+10 
+60 
+CPL02 MK03 CPMK023  
+ 
+30 
+ 
+ 
+ 
+10 
+40 
+CPL02 MK04 CPMK022  
+ 
+30 
+15 
+ 
+ 
+10 
+55 
+CPL02 MK04 CPMK024  
+ 
+ 
+10 
+10 
+15 
+10 
+45 
+CPL02 MK23 CPMK023  
+10 
+20 
+ 
+20 
+ 
+ 
+50 
+CPL02 MK23 CPMK024  
+ 
+ 
+15 
+ 
+25 
+10 
+50 
+CPL03 MK10 CPMK031 
+ 
+20 
+ 
+ 
+25 
+ 
+ 
+45 
+CPL03 MK10 CMPK033 
+ 
+ 
+ 
+35 
+ 
+ 
+20 
+55 
+CPL03 MK11 CPMK031  
+30 
+ 
+ 
+30 
+40 
+ 
+100 
+CPL03 MK14 CPMK032  
+15 
+30 
+ 
+25 
+30 
+ 
+100 
+CPL03 MK16 CPMK032 
+ 
+ 
+30 
+ 
+25 
+ 
+10 
+65 
+CPL03 MK16 CPMK033 
+ 
+ 
+ 
+25 
+ 
+ 
+10 
+35 
+CPL03 MK17 CPMK032 
+ 
+ 
+30 
+ 
+25 
+ 
+10 
+65 
+CPL03 MK17 CPMK033 
+ 
+ 
+ 
+25 
+ 
+ 
+10 
+35 
+CPL04 MK05 CPMK041 
+ 
+15 
+ 
+15 
+25 
+35 
+10 
+100 
+CPL04 MK06 CPMK041  
+15 
+20 
+20 
+30 
+ 
+15 
+100 
+CPL04 MK07 CPMK041  
+10 
+10 
+20 
+20 
+30 
+10 
+100 
+CPL04 MK18 CPMK042  
+25 
+10 
+ 
+25 
+30 
+10 
+100 
+CPL04 MK19 CPMK042  
+25 
+10 
+25 
+30 
+ 
+10 
+100 
+CPL05 MK20 CPMK051  
+15 
+ 
+ 
+20 
+30 
+ 
+65 
+CPL05 MK20 CPMK052  
+ 
+ 
+25 
+ 
+ 
+10 
+35 
+CPL05 MK21 CPMK051  
+10 
+ 
+ 
+25 
+30 
+ 
+65 
+CPL05 MK21 CPMK052  
+ 
+ 
+25 
+ 
+ 
+10 
+35 
+CPL06 MK12 CPMK061  
+5 
+ 
+10 
+ 
+20 
+5 
+40 
+CPL06 MK12 CPMK063  
+10 
+ 
+10 
+15 
+20 
+5 
+60 
+CPL06 MK13 CPMK061  
+5 
+ 
+10 
+ 
+20 
+5 
+40 
+CPL06 MK13 CPMK063  
+10 
+ 
+10 
+15 
+20 
+5 
+60 
+CPL06 MK15 CPMK062  
+10 
+ 
+10 
+15 
+ 
+5 
+40 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+53 
+ 
+CPL 
+MK 
+CPMK 
+MBKM 
+Partisipasi 
+(Kehadiran / 
+Quiz) 
+Observasi 
+(Praktek / 
+Tugas) 
+Unjuk 
+Kerja 
+(Presentas
+i) 
+Tes 
+Tulis 
+(UTS) 
+Tes 
+Tulis 
+(UAS) 
+Tes Lisan 
+(Tugas 
+Kelompok) 
+Total 
+CPL06 MK15 CPMK064  
+10 
+ 
+10 
+15 
+20 
+5 
+60 
+CPL07 MK08 CPMK071  
+10 
+ 
+ 
+20 
+20 
+ 
+50 
+CPL07 MK08 CPMK072  
+10 
+ 
+15 
+15 
+ 
+10 
+50 
+CPL07 MK09 CPMK072  
+10 
+ 
+ 
+20 
+ 
+15 
+45 
+CPL07 MK09 CPMK073  
+ 
+ 
+20 
+ 
+ 
+35 
+55 
+CPL07 MK22 CPMK072  
+15 
+20 
+ 
+20 
+ 
+ 
+55 
+CPL07 MK22 CPMK073  
+ 
+20 
+25 
+ 
+ 
+ 
+45 
+CPL07 MK24 CPMK073  
+ 
+50 
+50 
+ 
+ 
+ 
+100 
+ 
+Bobot penilaian yang dijelaskan pada Tabel 18a. Tabel Bobot Penilaian (MK-CPL-
+CPMK) untuk melihat nilai akumulasi bobot penilaian setiap mata kuliah.  
+Tabel 18a. Tabel Bobot Penilaian (MK-CPL-CPMK) 
+MK 
+CPL 
+CPMK 
+MB 
+KM 
+Partisipasi 
+(Kehadiran 
+/ Quiz) 
+Observasi 
+(Praktek 
+/ Tugas) 
+Unjuk Kerja 
+(Presentasi) 
+Tes 
+Tulis 
+(UTS) 
+Tes 
+Tulis 
+(UAS) 
+Tes Lisan 
+(Tugas 
+Kelompok) 
+Total 
+MK01 
+CPL01 
+CPMK011 
+ 
+20 
+ 
+ 
+20 
+ 
+ 
+40 
+MK01 
+CPL01 
+CPMK012 
+ 
+ 
+10 
+30 
+ 
+ 
+20 
+60 
+MK02 
+CPL01 
+CPMK013 
+ 
+ 
+10 
+ 
+25 
+ 
+10 
+45 
+MK02 
+CPL01 
+CPMK014 
+ 
+ 
+10 
+30 
+ 
+ 
+15 
+55 
+MK03 
+CPL02 
+CMPK021 
+ 
+ 
+25 
+10 
+15 
+ 
+10 
+60 
+MK03 
+CPL02 
+CMPK023 
+ 
+ 
+30 
+ 
+ 
+ 
+10 
+40 
+MK04 
+CPL02 
+CMPK022 
+ 
+ 
+30 
+15 
+ 
+ 
+10 
+55 
+MK04 
+CPL02 
+CMPK024 
+ 
+ 
+ 
+10 
+10 
+15 
+10 
+45 
+MK05 
+CPL04 
+CPMK041 
+ 
+15 
+ 
+15 
+25 
+35 
+10 
+100 
+MK06 
+CPL04 
+CPMK041 
+ 
+15 
+20 
+20 
+30 
+ 
+15 
+100 
+MK07 
+CPL04 
+CPMK041 
+ 
+10 
+10 
+20 
+20 
+30 
+10 
+100 
+MK08 
+CPL07 
+CPMK071 
+ 
+10 
+ 
+ 
+20 
+20 
+ 
+50 
+MK08 
+CPL07 
+CPMK072 
+ 
+10 
+ 
+15 
+15 
+ 
+10 
+50 
+MK09 
+CPL07 
+CPMK072 
+ 
+10 
+ 
+ 
+20 
+ 
+15 
+45 
+MK09 
+CPL07 
+CPMK073 
+ 
+ 
+ 
+20 
+ 
+ 
+35 
+55 
+MK10 
+CPL03 
+CPMK031 
+ 
+20 
+ 
+ 
+25 
+ 
+ 
+45 
+MK10 
+CPL03 
+CPMK033 
+ 
+ 
+ 
+35 
+ 
+ 
+20 
+55 
+MK11 
+CPL03 
+CPMK031 
+ 
+30 
+ 
+ 
+30 
+40 
+ 
+100 
+MK12 
+CPL06 
+CPMK061 
+ 
+5 
+ 
+10 
+ 
+20 
+5 
+40 
+MK12 
+CPL06 
+CPMK063 
+ 
+10 
+ 
+10 
+15 
+20 
+5 
+60 
+MK13 
+CPL06 
+CPMK061 
+ 
+5 
+ 
+10 
+ 
+20 
+5 
+40 
+MK13 
+CPL06 
+CPMK063 
+ 
+10 
+ 
+10 
+15 
+20 
+5 
+60 
+MK14 
+CPL03 
+CPMK032 
+ 
+15 
+30 
+ 
+25 
+30 
+ 
+100 
+MK15 
+CPL06 
+CPMK062 
+ 
+10 
+ 
+10 
+15 
+ 
+5 
+40 
+MK15 
+CPL06 
+CPMK064 
+ 
+10 
+ 
+10 
+15 
+20 
+5 
+60 
+MK16 
+CPL03 
+CPMK032 
+ 
+ 
+30 
+ 
+25 
+ 
+10 
+65 
+MK16 
+CPL03 
+CPMK033 
+ 
+ 
+ 
+25 
+ 
+ 
+10 
+35 
+MK17 
+CPL03 
+CPMK032 
+ 
+ 
+30 
+ 
+25 
+ 
+10 
+65 
+MK17 
+CPL03 
+CPMK033 
+ 
+ 
+ 
+25 
+ 
+ 
+10 
+35 
+MK18 
+CPL04 
+CPMK042 
+ 
+25 
+10 
+ 
+25 
+30 
+10 
+100 
+MK19 
+CPL04 
+CPMK042 
+ 
+25 
+10 
+25 
+30 
+ 
+10 
+100 
+MK20 
+CPL05 
+CPMK051 
+ 
+15 
+ 
+ 
+20 
+30 
+ 
+65 
+MK20 
+CPL05 
+CPMK052 
+ 
+ 
+ 
+25 
+ 
+ 
+10 
+35 
+MK21 
+CPL05 
+CPMK051 
+ 
+10 
+ 
+ 
+25 
+30 
+ 
+65 
+MK21 
+CPL05 
+CPMK052 
+ 
+ 
+ 
+25 
+ 
+ 
+10 
+35 
+MK22 
+CPL07 
+CPMK072 
+ 
+15 
+20 
+ 
+20 
+ 
+ 
+55 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+54 
+ 
+MK 
+CPL 
+CPMK 
+MB 
+KM 
+Partisipasi 
+(Kehadiran 
+/ Quiz) 
+Observasi 
+(Praktek 
+/ Tugas) 
+Unjuk Kerja 
+(Presentasi) 
+Tes 
+Tulis 
+(UTS) 
+Tes 
+Tulis 
+(UAS) 
+Tes Lisan 
+(Tugas 
+Kelompok) 
+Total 
+MK22 
+CPL07 
+CPMK073 
+ 
+ 
+20 
+25 
+ 
+ 
+ 
+45 
+MK23 
+CPL02 
+CPMK023 
+ 
+10 
+20 
+ 
+20 
+ 
+ 
+50 
+MK23 
+CPL02 
+CPMK024 
+ 
+ 
+ 
+15 
+ 
+25 
+10 
+50 
+MK24 
+CPL07 
+CPMK073 
+ 
+ 
+50 
+50 
+ 
+ 
+ 
+100 
+ 
+ 
+ 
+ 
+ 
+ 
+JUMLAH TOTAL SETIAP MK = 100 
+10.4. Rumusan Nilai Akhir MK 
+Rumusan nilai akhir matakuliah tergantung dari metode perhitungan 
+pencapaian CPL dan CPMK yang digunakan oleh Prodi. Pada buku panduan ini 
+akan diberiokan salah satu contoh perhitungan nilai akhir MK.  
+Rumusan Nilai Akhir MK pada metode perhitungan contoh ini digunakan untuk 
+memperlihatkan skor maksimal MK yang ditentukan berdasarkan CPL yang 
+diformulasikan lebih spesifik menjadi CPMK. Tabel 19 Rumusan Nilai Akhir MK 
+menunjukkan satu mata kuliah harus memiliki skor maksimal 100 dari akumulasi skor 
+sebaran CPMK dari CPL yang dibebankan kepada MK tersebut yang dipetakan pada 
+Tabel 19 Rumusan Nilai Akhir MK. 
+Program Studi dapat menentukan Rumusan Nilai Akhir MK berdasarkan bobot 
+penilaian pada Tabel 19. 
+Tabel 19. Rumusan Nilai Akhir MK 
+MK 
+CPL 
+CPMK 
+Skor Maks 
+Total 
+MK01 
+CPL01 
+CPMK011 
+40 
+100 
+MK01 
+CPL01 
+CPMK012 
+60 
+MK02 
+CPL01 
+CPMK013 
+45 
+100 
+MK02 
+CPL01 
+CPMK014 
+55 
+MK03 
+CPL02 
+CPMK021 
+60 
+100 
+MK03 
+CPL02 
+CPMK023 
+40 
+MK04 
+CPL02 
+CPMK022 
+55 
+100 
+MK04 
+CPL02 
+CPMK024 
+45 
+MK05 
+CPL04 
+CPMK041 
+100 
+100 
+MK06 
+CPL04 
+CPMK041 
+100 
+100 
+MK07 
+CPL04 
+CPMK041 
+100 
+100 
+MK08 
+CPL07 
+CPMK071 
+50 
+100 
+MK08 
+CPL07 
+CPMK072 
+50 
+MK09 
+CPL07 
+CPMK072 
+65 
+100 
+MK09 
+CPL07 
+CPMK073 
+35 
+MK10 
+CPL03 
+CPMK031 
+25 
+100 
+MK10 
+CPL03 
+CMPK033 
+25 
+MK10 
+CPL06 
+CPMK061 
+50 
+MK11 
+CPL03 
+CPMK031 
+100 
+100 
+MK12 
+CPL06 
+CPMK061 
+40 
+100 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+55 
+ 
+MK 
+CPL 
+CPMK 
+Skor Maks 
+Total 
+MK12 
+CPL06 
+CPMK063 
+60 
+MK13 
+CPL06 
+CPMK061 
+40 
+100 
+MK13 
+CPL06 
+CPMK063 
+60 
+MK14 
+CPL03 
+CPMK032 
+100 
+100 
+MK15 
+CPL06 
+CPMK062 
+40 
+100 
+MK15 
+CPL06 
+CPMK064 
+60 
+MK16 
+CPL03 
+CPMK032 
+65 
+100 
+MK16 
+CPL03 
+CPMK033 
+35 
+MK17 
+CPL03 
+CPMK032 
+65 
+100 
+MK17 
+CPL03 
+CPMK033 
+35 
+MK18 
+CPL04 
+CPMK042 
+100 
+100 
+MK19 
+CPL04 
+CPMK042 
+100 
+100 
+MK20 
+CPL05 
+CPMK051 
+65 
+100 
+MK20 
+CPL05 
+CPMK052 
+35 
+MK21 
+CPL05 
+CPMK051 
+65 
+100 
+MK21 
+CPL05 
+CPMK052 
+35 
+MK22 
+CPL07 
+CPMK072 
+55 
+100 
+MK22 
+CPL07 
+CPMK073 
+45 
+MK23 
+CPL02 
+CPMK023 
+50 
+100 
+MK23 
+CPL02 
+CPMK024 
+50 
+MK24 
+CPL07 
+CPMK073 
+100 
+100 
+10.5. Rumusan Nilai Akhir CPL 
+Berdasarkan metode perhitungan CPMK dan CPL yang digunakan pada buku kurikulum 
+ini maka akan ditentukan rumusan nilai akhir CPL. Rumusan Nilai Akhir CPL digunakan 
+untuk memberikan kesimpulan skor maksimal CPL berdasarkan pemetaan CPMK dan 
+MK dari CPL tersebut. Tabel 20 Rumusan Nilai Akhir CPL menunjukkan untuk setiap CPL 
+kemungkinan dapat memiliki skor lebih/kurang dari 100 yang diperoleh dari akumulasi 
+skor sebaran CPMK yang dibebankan pada MK tersebut yang dipetakan pada Tabel 
+20. 
+Program Studi dapat menentukan Rumusan Nilai Akhir CPL (Tabel 20) berdasarkan 
+bobot penilaian pada Tabel 18. 
+ 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+56 
+ 
+Tabel 20. Rumusan Nilai Akhir CPL 
+CPL 
+MK 
+CPMK 
+Skor Maks Total 
+CPL01 
+MK01 CPMK011 
+40 
+200 
+CPL01 
+MK01 CPMK012 
+60 
+CPL01 
+MK02 CPMK013 
+45 
+CPL01 
+MK02 CPMK014 
+55 
+CPL02 
+MK03 CPMK021 
+60 
+300 
+CPL02 
+MK03 CPMK023 
+40 
+CPL02 
+MK04 CPMK022 
+55 
+CPL02 
+MK04 CPMK024 
+45 
+CPL02 
+MK23 CPMK023 
+50 
+CPL02 
+MK23 CPMK024 
+50 
+CPL03 
+MK10 CPMK031 
+45 
+500 
+CPL03 
+MK10 CMPK033 
+55 
+CPL03 
+MK11 CPMK031 
+100 
+CPL03 
+MK14 CPMK032 
+100 
+CPL03 
+MK16 CPMK032 
+65 
+CPL03 
+MK16 CPMK033 
+35 
+CPL03 
+MK17 CPMK032 
+65 
+CPL03 
+MK17 CPMK033 
+35 
+CPL04 
+MK05 CPMK041 
+100 
+500 
+CPL04 
+MK06 CPMK041 
+100 
+CPL04 
+MK07 CPMK041 
+100 
+CPL04 
+MK18 CPMK042 
+100 
+CPL04 
+MK19 CPMK042 
+100 
+CPL05 
+MK20 CPMK051 
+65 
+200 
+CPL05 
+MK20 CPMK052 
+35 
+CPL05 
+MK21 CPMK051 
+65 
+CPL05 
+MK21 CPMK052 
+35 
+CPL06 
+MK10 CPMK061 
+50 
+350 
+CPL06 
+MK12 CPMK061 
+40 
+CPL06 
+MK12 CPMK063 
+60 
+CPL06 
+MK13 CPMK061 
+40 
+CPL06 
+MK13 CPMK063 
+60 
+CPL06 
+MK15 CPMK062 
+40 
+CPL06 
+MK15 CPMK064 
+60 
+CPL07 
+MK08 CPMK071 
+50 
+400 
+CPL07 
+MK08 CPMK072 
+50 
+CPL07 
+MK09 CPMK072 
+65 
+CPL07 
+MK09 CPMK073 
+35 
+CPL07 
+MK22 CPMK072 
+55 
+CPL07 
+MK22 CPMK073 
+45 
+CPL07 
+MK24 CPMK073 
+100 
+ 
+Evaluasi pencapaian CPL setiap mahasiswa (individu) dapat diukur dengan contoh 
+metode seperti tabel 18 sampai dengan tabel 20. Evaluasi tersebut dapat dimonitor 
+oleh Program Studi dalam beberapa tahap, misal setiap tingkat sampai mahasiswa 
+tersebut lulus. Selain evaluasi dan monitoring pencapaian CPL untuk setiap 
+mahasiswa, Program Studi juga harus melakukan evaluasi dan monitoring pencapaian 
+CPL secara agregat setiap angkatan mahasiswa.  
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+57 
+ 
+Pencapaian CPL secara agregat merupakan analisis jumlah mahasiswa yang telah lulus 
+pada setiap CPL Prodi. Pencapaian CPL secara agregat dapat dilakukan dengan 
+mengukur persen ketercapaian jumlah mahasiswa yang lulus dalam setiap CPL Prodi. 
+Evaluasi agregat dapat juga ditambahkan dengan analisis pencapaian yang lain sesuai 
+dengan kebutuhan Program Studi. Analisis pencapaian CPL agregat tersebut 
+digunakan oleh Program Studi dalam upaya mengevaluasi kesesuaian batas kelulusan 
+CPL mahasiswa dan batas ketercapaian CPL minimum  Prodi dibandingkan dengan 
+hasil pembelajaran mahasiswa.  
+XI. 
+Rencana Implementasi Hak Belajar Maksimum 3 Semester di Luar 
+Program Studi 
+Program MBKM merupakan salah satu metode dalam pembelajaran untuk 
+meningkatkan potensi pemenuhan CPL/CPMK. Hal ini merupakan implementasi 
+kebijakan “Merdeka Belajar–Kampus Merdeka” yang dinyatakan dalam penetapan 
+1). Belajar di luar Program Studi di PT yang sama, 2) Belajar di Program Studi yang 
+sama di luar PT, 3) Belajar di Program Studi yang berbeda di luar PT, dan 4) Belajar 
+di luar PT.  
+Bentuk Kegiatan Pembelajaran MBKM adalah kegiatan pembelajaran di luar Program 
+Studi yang dapat diikuti oleh mahasiswa selama maksimal tiga semester baik di dalam 
+maupun di luar perguruan tingginya yang terdiri dari 8 (delapan) bentuk, di antaranya 
+pertukaran mahasiswa, magang/praktek kerja, asistensi mengajar di satuan 
+pendidikan, penelitian/riset, proyek kemanusiaan, kegiatan wirausaha, studi/proyek 
+independen, membangun desa/kuliah kerja nyata tematik (Buku Panduan Penyusunan 
+Kurikulum Merdeka Belajar - Kampus Merdeka, 2020).  
+Bentuk kegiatan pembelajaran yang telah diatur pada Permendikbud No 3 Tahun 2020 
+Pasal 15 ayat 1 dapat dilakukan di dalam Program Studi dan di luar Program Studi, 
+meliputi magang/praktek kerja, KKN/KKNT, wirausaha, asisten mengajar di satuan 
+pendidikan, penelitian/riset, studi/proyek independen 
+Tabel F. Bentuk Kegiatan Pembelajaran di Luar Perguruan Tinggi  
+No 
+Bentuk Kegiatan 
+Pembelajaran 
+Keterangan 
+1 
+Magang/Praktek 
+Kerja 
+Kegiatan Magang MBKM dpt dikonversikan ke beberapa MK yg memiliki 
+kesesuaian CPL dan waktu kegiatan belajar yg sesuai dg bobot sks MK tsb. 
+2 
+KKN/KKNT 
+Kegiatan KKNT MBKM yg merupakan perpanjangan KKN-Reguler dpt 
+dikonversikan ke beberapa MK yg memiliki kesesuaian CPL dan waktu kegiatan 
+belajar yg sesuai dg bobot sks MK tsb. 
+3 
+Wirausaha 
+Kegiatan Wirausaha MBKM dpt dikonversikan ke beberapa MK yg memiliki 
+kesesuaian CPL dan waktu kegiatan belajar yg sesuai dg bobot sks MK tsb, 
+termasuk MK Kewirausahaan jika ada. 
+4 
+Asisten mengajar di 
+Satuan Pendidikan 
+(AMSP) 
+Kegiatan AMSP MBKM dpt dikonversikan ke beberapa MK yg memiliki 
+kesesuaian CPL dan waktu kegiatan belajar yg sesuai dg bobot sks MK tsb. 
+5 
+Penelitian/Riset 
+Dapat dikonversikan ke beberapa MK yg memiliki kesesuaian CPL dan waktu 
+kegiatan belajar yg sesuai dg bobot sks MK tsb. 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+58 
+ 
+No 
+Bentuk Kegiatan 
+Pembelajaran 
+Keterangan 
+6 
+Studi/Proyek 
+Independen 
+Dapat dikonversikan ke beberapa MK yg memiliki kesesuaian CPL dan waktu 
+kegiatan belajar yg sesuai dg bobot sks MK tsb. 
+7 
+Proyek 
+kemanusiaan 
+Dapat dikonversikan ke beberapa MK yg memiliki kesesuaian CPL dan waktu 
+kegiatan belajar yg sesuai dg bobot sks MK tsb. 
+8 
+Pertukaran 
+Mahasiswa 
+Dapat dikonversikan ke beberapa MK yg memiliki kesesuaian CPL dan waktu 
+kegiatan belajar yg sesuai dg bobot sks MK tsb. 
+XII. 
+Manajemen dan Mekanisme Pelaksanaan Kurikulum 
+Rencana pelaksanaan kurikulum dan perangkat Sistem Penjaminan Mutu Internal 
+(SPMI) di perguruan tinggi masing-masing yang terkait dengan pelaksanaan 
+kurikulum. Sistem penjaminan mutu kurikulum mengikuti siklus PPEPP, yakni : (i) 
+Penetapan kurikulum (P), (ii) Pelaksanaan Kurikulum (P), (iii) Evaluasi Kurikulum 
+(E), (iv) Pengendalian Kurikulum (P), dan (v) Peningkatan kurikulum (P).  
+Berdasarkan Panduan Penyusunan Kurikulum Pendidikan Tinggi 2020[1], proses 
+PPEPP dapat dijelaskan sebagai berikut: 
+Penetapan kurikulum dilakukan setiap minimal 4 – 5 tahun sekali oleh pimpinan 
+PT, dengan menetapkan Kualifikasi Profil/tujuan Pendidikan Program Studi, CPL, mata 
+kuliah beserta bobotnya, dan struktur kurikulum yang terintegrasi.  
+Pelaksanaan kurikulum dilakukan melalui proses pembelajaran, dengan 
+memperhatikan ketercapaian CPL pada lulusan. Evaluasi capaian pembelajaran pada 
+setiap matakuliah (CPMK) dan sub matakuliah (Sub-CPMK) dilakukan untuk menjamin 
+ketercapaian CPL. Pelaksanaan ketercapaian CPMK dan Sub-CPMK mengacu pada RPS 
+dengan memperhatikan ketercapaian CPL pada level MK. Sub-CPMK dan CPMK pada 
+level mata kuliah harus mendukung ketercapaian CPL yang dibebankan pada setiap 
+mata kuliah. 
+Evaluasi kurikulum bertujuan perbaikan keberlanjutan dalam pelaksanaan 
+kurikulum. Evaluasi dilakukan melalui dua tahap, yaitu tahap formatif dan tahap 
+sumatif. Evaluasi formatif dengan memperhatikan ketercapaian CPL melalui 
+ketercapaian CPMK. Evaluasi dilakukan terhadap bentuk pembelajaran, metode 
+pembelajaran, metode penilaian, RPS dan perangkat pembelajaran pendukungnya. 
+Evaluasi sumatif dilakukan secara berkala tiap 4 atau 5 tahun sekali, dengan 
+melibatkan pemangku kepentingan internal dan eksternal, serta direview oleh pakar 
+bidang ilmu Program Studi, industri, asosiasi, serta sesuai perkembangan IPTEKS dan 
+kebutuhan pengguna.  
+Pengendalian pelaksanaan kurikulum dilakukan setiap semester dengan 
+indikator hasil pengukuran ketercapaian CPL. Pengendalian kurikulum dilakukan oleh 
+Program Studi dan dimonitor dan dibantu oleh unit/lembaga penjaminan mutu 
+Perguruan Tinggi. 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+59 
+ 
+Peningkatan kurikulum, didasarkan atas hasil evaluasi kurikulum, baik formatif 
+maupun sumatif. Siklus penjaminan mutu kurikulum selengkapnya dapat mengacu 
+pada Siklus Kurikulum Pendidikan  
+Tabel G. Contoh Manajemen dan Mekanisme Pelaksanaan Kurikulum  
+Penetapan 
+Pelaksanaan 
+Evaluasi 
+Pengendalian 
+Peningkatan 
+Keberlanjutan 
+ 
+Kegiatan 
+Bukti Fisik 
+Buku 
+Kurikulum 
+Pembuatan 
+Buku 
+Kurikulum 
+Prodi 
+Buku Kurikulum 
+yang telah 
+disahkan oleh 
+Rektor 
+Raport Prodi/ 
+Performansi 
+Prodi 
+(Ketercepaian 
+CPL) 
+Laporan ketercapaian 
+CPL secara periodik 
+Program 
+tindaklanjut 
+berkaitan dengan 
+perbaikan 
+kurikulum 
+terutama 
+perbaikan CPL dan 
+Profil Lulusan 
+Tracer Study 
+Monitoring ketercapaian 
+Program Educational 
+Objective atau Profil 
+Lulusan 
+Standar 
+Pembelajaran 
+dan 
+Pembuatan 
+RPS 
+ 
+Proses 
+pembelajaran 
+Berita Acara 
+Pembelajaran 
+Portfolio 
+Matakuliah 
+(Pembelajaran) 
+Tindak lanjut hasil 
+pembelajaran (tingkat 
+matakuliah) 
+Perbaikan Standar 
+proses 
+pembelajaran 
+Standar 
+Penilaian 
+Pembelajaran 
+dan RPS 
+Proses 
+penilaian / 
+assessment 
+Berita Acara 
+Assessment 
+Portfolio 
+Matakuliah 
+(Pembelajaran) 
+Tindak lanjut hasil 
+pembelajaran (tingkat 
+matakuliah) 
+Perbaikan Standar 
+Penialian 
+ 
+Berikut adalah contoh-contoh dokumen untuk masing-masing siklus PPEPP Kurikulum: 
+Penetapan (P) 
+:  Prodi membuat buku kurikulum berdasarkan Buku Panduan 
+Kurikulum 
+yang 
+ditetapkan 
+oleh 
+Universitas. 
+Standar 
+Pembelajaran, 
+Standar 
+Penilaian, 
+SOP/Instruksi 
+Kerja 
+pelaksanaan Pembelajaran dan Penilaian, dan SK Rektor/Dekan 
+tentang Buku Kurikulum.  
+Pelaksanaan (P)  :  Laporan Pelaksanaan Kurikulum berupa Laporan Pencapaian CPL 
+Prodi, pelaksanaan perkuliahan, pelaksanaan penilaian yang 
+dilengkapi dengan Berita Acara Perkuliahaan dan Berita Acara 
+Penyerahan Nilai. 
+Evaluasi (E)  
+:  Laporan evaluasi pelaksanaan kurikulum dapat berupa portfolio 
+Prodi yang terdiri dari laporan pencapaian CPL. Sedangkan 
+perkuliahaan 
+dan 
+penilaian 
+dilaporkan 
+dalam 
+portfolio 
+matakuliah yang memastikan ketercapaian CPL di setiap 
+matakuliah tersebut.  
+Pengendalian (P)  :  Pengendalian kurikulum berupa monitoring ketercapaian CPL 
+secara periodik dan monitoring Program Educational Objective 
+(PEO) 
+atau 
+Profil 
+Lulusan. 
+Sedangkan 
+pengendalian 
+ketercapaian 
+CPL 
+dilakukan 
+dengan 
+monitoring 
+proses 
+perkuliahan dengan melakukan analisis tren ketercapaian CPL 
+dan CPMK.  
+Peningkatan (P)  :  Perbaikan kurikulum dilakukan berdasarkan hasil pengukuran 
+CPL dan hasil tracer studi. Pernbaikan pengelolaan perkuliahaan 
+dilakukan oleh universiatas atau unit dengan cara memperbaiki 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+60 
+ 
+standar proses pembelajaran dan standar penilaian. Perbaikan 
+konten perkuliahaan dilakukan prodi dengan perbaikan RPS 
+matakuliah. 
+ 
+ 
+ 
+PANDUAN KURIKULUM BERBASIS OBE/KKNI/SKKNI APTIKOM 
+Program Studi Sarjana Sistem Informasi 
+61 
+ 
+Daftar Pustaka 
+ 
+[1] 
+A. Junaidi and dkk, Panduan Penyusunan Kurikulum Pendidikan Tinggi: Di Era 
+Industri 4.0 Untuk Mendukung Merdeka Belajar-Kampus Merdeka. Jakarta: 
+Direktorat 
+Jenderal 
+Pendidikan 
+Tinggi 
+Kementerian 
+Pendidikan 
+Dan 
+Kebudayaan, 2020. 
+[2] 
+Menteri Pendidikan dan Kebudayaan Republik Indonesia, Standar Nasional 
+Pendidikan Tinggi. Peraturan Menteri Pendidikan dan Kebudayaan Republik 
+Indonesia Nomor 3 Tahun 2020. Jakarta: Kementerian Pendidikan dan 
+Kebudayaan Republik Indonesia., 2020. 
+[3] 
+A. Ornstein and F. Hunkins, Curriculum: Foundations, Principles, and Issues. 
+New York, NY, USA: Pearson Educational, 2014. 
+[4] 
+S. Zais, Robert, Curriculum: Principle and Foundations. New York, NY, USA: 
+Harper & Row, 1976. 
+[5] 
+P. Caligiuri, Cultural Agility: Building a Pipeline of Successful Global Profesionals. 
+San Francisco: Jossey-Bass., 2012. 
+[6] 
+Tim Okupasi, Daftar Unit Kompetensi Okupasi Dalam Kerangka Kualifikasi 
+Nasional Indonesia Bidang Teknologi Informasi dan Komunikasi (TIK). Jakarta: 
+Kementerian Komunikasi dan Informatika, 2018. 
+[7] 
+ACM and AIS, IS2020 A Competency Model for Undergraduate Programs in 
+Information Systems. New York, NY, USA: ACM Comput. Surv., 2020. 
+[8] 
+ACM, Computing Curricula 2020. New York, NY, USA: ACM, 2020. 
+[9] 
+IABEE and PII, Accreditation Criteria for Computing Programs. Jakarta: IABEE, 
+2020. 
+[10] Direktur Jenderal Pendidikan Tinggi, Pedoman Pelaksanaan Mata Kuliah Wajib 
+Pada Kurikulum Pendidikan Tinggi. Jakarta: Kementerian Pendidikan dan 
+Kebudayaan Republik Indonesia. Direktorat Jenderal Pendidikan Tinggi, 2020. 
+[11] Menteri Pendidikan Nasional, Pedoman Penyusunan Kurikulum Perguruan Tinggi 
+Dan Penilaian Hasil Belajar Mahasiswa. Jakarta: Kementerian Pendidikan 
+Nasional, 2000. 
+ 
+ 
+ 
+ 
+ 
+ 
+Daftar Host Rapat Kerja Penyusunan Panduan Kurikulum 
+ 
+ 
+ 
+ 
+ 
+Universitas Telkom 
+Universitas Multimedia 
+Nusantara 
+Universitas Nasional 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Universitas Amikom 
+Yogyakarta 
+ 
+Universitas Nusa Mandiri 
+ 
+ 
+ 
+ 
+Desain Cover 
+ 
+Haryoko, S.Kom., M.Cs - Universitas Amikom Yogyakarta 
+Zainal Arifin, S.Kom., M.Kom - STMIK Adhiguna Palu 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,78 @@
+=== PAGE 1 ===
+LAPORAN DAFTAR KURIKULUM PRODI
+Program Studi : SISTEM DAN TEKNOLOGI INFORMASI Total SKS : 146 SKS
+Kurikulum : 2025
+No. Kode Matakuliah Konsentrasi SKS Nilai Minimal Semester Wajib/Pilihan Paket?
+1. MKU-101 Agama I 2 C 1 Wajib Tidak
+2. MKU-102 Pancasila 2 C 1 Wajib Tidak
+3. MKU-103 Bahasa Indonesia 2 C 1 Wajib Tidak
+4. STI-101 Pengantar Sistem dan Teknologi Informasi 3 C 1 Wajib Tidak
+5. STI-102 Algoritma dan Pemrograman (+P) 3 C 1 Wajib Tidak
+6. STI-103 Logika Informatika 2 C 1 Wajib Tidak
+7. STI-104 Kalkulus 4 C 1 Wajib Tidak
+TOTAL SKS PER SEMESTER 18
+8. MFT-201 Bahasa Inggris 2 C 2 Wajib Tidak
+9. MKU-204 Kewirausahaan I 2 C 2 Wajib Tidak
+10. STI-205 Matematika Diskrit 2 C 2 Wajib Tidak
+11. STI-206 Basis Data (+P) 3 C 2 Wajib Tidak
+12. STI-207 Struktur Data 3 C 2 Wajib Tidak
+13. STI-208 Visualisasi Data dan Dashboard Interaktif (+P) 2 C 2 Wajib Tidak
+14. STI-209 Aljabar Linear 4 C 2 Wajib Tidak
+TOTAL SKS PER SEMESTER 18
+15. STI-310 Analisis dan Perancangan Sistem Informasi 3 C 3 Wajib Tidak
+16. STI-311 Sistem Operasi 3 C 3 Wajib Tidak
+17. STI-312 Pemrograman Web (+P) 3 C 3 Wajib Tidak
+18. STI-313 Keamanan Informasi Dasar 2 C 3 Wajib Tidak
+19. STI-314 Interaksi Manusia dan Komputer 3 C 3 Wajib Tidak
+20. STI-315 Etika dan Hukum TI 2 C 3 Wajib Tidak
+21. STI-316 Multimedia Interaktif 2 C 3 Wajib Tidak
+22. STI-317 Metode Komputasi dan Numerik 2 C 3 Wajib Tidak
+TOTAL SKS PER SEMESTER 20
+23. MKU-405 Kewarganegaraan 2 C 4 Wajib Tidak
+24. MKU-406 Agama II 0 C 4 Wajib Tidak
+25. STI-418 Sistem Cerdas 2 C 4 Wajib Tidak
+26. STI-419 Mobile Application Development (+P) 3 C 4 Wajib Tidak
+27. STI-420 Semantic Web dan Ontologi 2 C 4 Wajib Tidak
+28. STI-421 Manajemen Proyek TI 2 C 4 Wajib Tidak
+29. STI-422 E-Commerce dan Digital Business 3 C 4 Wajib Tidak
+30. STI-423 Game Design dan Gamifikasi Sosial (+P) 3 C 4 Wajib Tidak
+31. STI-424 Probabilitas dan Statistika 3 C 4 Wajib Tidak
+TOTAL SKS PER SEMESTER 20
+32. MKU-507 Kuliah Pengabdian Kepada Masyarakat 3 C 5 Wajib Tidak
+33. MKU-508 Kewirausahaan II 0 C 5 Wajib Tidak
+34. STI-525 Pemrograman Lanjut dan API (+P) 3 C 5 Wajib Tidak
+35. STI-526 Internet of Things (+P) 3 C 5 Wajib Tidak
+36. STI-527 Sistem Informasi Berbasis Cloud 2 C 5 Wajib Tidak
+37. STI-528 Text Mining dan NLP 2 C 5 Wajib Tidak
+38. STI-529 Keamanan Jaringan dan Forensik Digital (+P) 3 C 5 Wajib Tidak
+39. STI-530 Data Warehouse dan Business Intelligence (+P) 3 C 5 Wajib Tidak
+40. STI-531 Augmented Reality dan Virtual Reality (+P) 2 C 5 Wajib Tidak
+TOTAL SKS PER SEMESTER 21
+Dicetak oleh: SYAHRONI WAHYU IRIANANDA, S.Kom., M.T., pada 05 Agustus 2026 19:53:17 WIB | siakad.widyagama.ac.id/siakad/rep_kurikulumprodi
+
+=== PAGE 2 ===
+No. Kode Matakuliah Konsentrasi SKS Nilai Minimal Semester Wajib/Pilihan Paket?
+41. STI-632 Rekayasa Perangkat Lunak 3 C 6 Wajib Tidak
+42. STI-633 Sistem Pendukung Keputusan 3 C 6 Wajib Tidak
+43. STI-634 Pengolahan Citra Digital dan Vision (+P) 3 C 6 Wajib Tidak
+44. STI-635 Desain dan Evaluasi Antarmuka Pengguna (UI/UX) (+P) 3 C 6 Wajib Tidak
+45. STI-636 Machine Learning (+P) 3 C 6 Wajib Tidak
+46. STI-637 Smart City dan Sistem Pemerintahan Digital 3 C 6 Wajib Tidak
+47. STI-638 Intelligent Signal Processing 3 C 6 Wajib Tidak
+TOTAL SKS PER SEMESTER 21
+48. MFT-002 Metodologi Penelitian 2 C 7 Wajib Tidak
+49. MFT-003 Praktik Kerja Lapangan 3 C 7 Wajib Tidak
+50. STI-739 Platform Literasi dan Edukasi Digital (+P) 3 C 7 Wajib Tidak
+51. STI-740 Penambangan Data dan Visualisasi (+P) 3 C 7 Wajib Tidak
+52. STI-741 Integrasi Layanan Cerdas Berbasis AI 3 C 7 Wajib Tidak
+53. STI-742 Inovasi Teknologi dan Startup Digital 3 C 7 Wajib Tidak
+54. STI-743 Audit dan Tata Kelola Sistem Informasi 3 C 7 Wajib Tidak
+TOTAL SKS PER SEMESTER 20
+55. MFT-004 Skripsi 6 C 8 Wajib Tidak
+56. STI-844 Pra Skripsi 2 C 8 Wajib Tidak
+TOTAL SKS PER SEMESTER 8
+Dicetak oleh: SYAHRONI WAHYU IRIANANDA, S.Kom., M.T., pada 05 Agustus 2026 19:53:17 WIB | siakad.widyagama.ac.id/siakad/rep_kurikulumprodi
+
+=== PAGE 3 ===
+Dicetak oleh: SYAHRONI WAHYU IRIANANDA, S.Kom., M.T., pada 05 Agustus 2026 19:53:17 WIB | siakad.widyagama.ac.id/siakad/rep_kurikulumprodi
+
