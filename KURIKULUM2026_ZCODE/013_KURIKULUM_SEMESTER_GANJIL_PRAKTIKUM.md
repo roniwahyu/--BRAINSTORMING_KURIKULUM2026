@@ -11,7 +11,7 @@
 | **MKU** | Mata Kuliah Universitas | MK Umum Universitas Widyagama |
 | **FST-** | Mata Kuliah Fakultas | Fondasi keilmuan lintas prodi FSTI |
 | **STI-** | Mata Kuliah Wajib Prodi | Karakteristik prodi SISTEKIN |
-| **STA-/STB-/STC-** | MK Pilihan Peminatan | Smart IS / Cloud & Cyber / Digital Platform |
+| **STA-/STB-/STC-** | MK Pilihan Peminatan | Integrated Smart Systems / Cloud & Cyber / Digital Platform |
 
 ---
 

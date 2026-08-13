@@ -16,7 +16,7 @@ VMTS (Visi-Misi-Tujuan-Sasaran)
         └── 15 CPL (009A-D) dalam 4 Kategori
             └── MK Core Wajib (~33 MK) + MK Pilihan Peminatan (~18 MK)
                 └── 3 Peminatan (006)
-                    ├── P1: Smart Information Systems (Flagship)
+                    ├── P1: Integrated Smart Systems (Flagship)
                     ├── P2: Cloud Infrastructure & Cybersecurity (Volume)
                     └── P3: Digital Platform Engineering (Niche)
 ```
@@ -55,12 +55,12 @@ VMTS (Visi-Misi-Tujuan-Sasaran)
 
 | # | Kode | Profil Lulusan | Peminatan |
 |---|---|---|---|
-| **PL1** | PL-01 | Intelligent Information System Developer | P1: Smart IS |
+| **PL1** | PL-01 | Intelligent Information System Developer | P1: Integrated Smart Systems |
 | **PL2** | PL-02 | UI/UX Designer & Digital Platform Engineer | P3: Digital Platform |
 | **PL3** | PL-03 | Smart System & Technology Integrator | P2: Cloud & Cyber |
 | **PL4** | PL-04 | Technopreneur | P3: Digital Platform |
 | **PL5** | PL-05 | Digital System & Technology Governance Analyst | P2: Cloud & Cyber |
-| **PL6** | PL-06 | Data Analyst & Machine Learning Engineer | P1: Smart IS |
+| **PL6** | PL-06 | Data Analyst & Machine Learning Engineer | P1: Integrated Smart Systems |
 
 ### 3.2 Matriks: Profil Lulusan → CPL (Kompetensi yang harus dimiliki)
 
@@ -85,7 +85,7 @@ VMTS (Visi-Misi-Tujuan-Sasaran)
 
 | Profil Lulusan | Akademisi | Praktisi | Technopreneur | Sub-Role |
 |---|---|---|---|---|
-| **PL1: Intelligent IS Developer** | Researcher AI/ML | AI Developer, ML Engineer | AI Startup Founder | Smart IS Engineer, Vibe Coder |
+| **PL1: Intelligent IS Developer** | Researcher AI/ML | AI Developer, ML Engineer | AI Startup Founder | Integrated Smart Systems Engineer, Vibe Coder |
 | **PL2: UI/UX Designer & Platform Engineer** | UX/Platform Researcher | Product Designer, Platform Engineer | SaaS Founder | Full-Stack Developer, Mobile Developer |
 | **PL3: Smart System Integrator** | Systems Integration Researcher | Solutions Architect, DevOps | Integration Consultancy | Cloud Engineer, DevOps Engineer |
 | **PL4: Technopreneur** | Entrepreneurship Researcher | Product Manager, CTO | Startup Founder | Tech Co-Founder, Innovation Lead |
@@ -212,6 +212,7 @@ VMTS (Visi-Misi-Tujuan-Sasaran)
 | Manajemen Proyek TI | 3 | KK6 | Semua |
 | Etika-Hukum TI | 2 | S1, KU2 | Semua |
 | Analisis-Perancangan SI | 3 | P2, KU1 | Semua |
+| Sistem Informasi Manajemen | 3 | P2, KK4 | Semua |
 | Sistem Operasi | 3 | P3 | Semua |
 | Logika Informatika | 3 | P1, KU1 | Semua |
 
@@ -227,26 +228,29 @@ VMTS (Visi-Misi-Tujuan-Sasaran)
 | Kewirausahaan I | 2 | KK6 | MKWU |
 | KKN | 3 | S1, KU2 | MKWU |
 
-**MK Fakultas (FST) — 11 MK, 32 SKS:**
-| MK | SKS | CPL | Keterangan |
-|---|---|---|---|
-| Algoritma Pemrograman | 3 | KU1, P4 | Fondasi coding (+P) |
-| Pengantar AI (& Prompt Engineering) | 2 | KK1 | Dasar AI |
-| Statistika & Probabilitas | 3 | P1, P4 | Fondasi statistika (+P) |
-| Basis Data | 3 | P2, P4 | Fondasi DB (+P) |
-| Basic English | 2 | KU2 | Bahasa dasar |
-| Etika dan Hukum Digital | 2 | S1, KU2 | PDP, UU ITE |
-| English For IT Professionals | 2 | KU2 | IT English |
-| Metodologi Penelitian | 3 | KU1, KU2, KU3 | Paralel (Ganjil/Genap) |
-| PKL | 3 | S1, KU1-KU3 | Paralel (Ganjil/Genap) |
-| Pra-Skripsi | 3 | KU1, KU2, KU3 | Paralel, prasyarat ≥110 SKS |
-| Skripsi | 6 | S1, KU1-KU3 | Paralel (Ganjil/Genap) |
+**MK Fakultas (FSTI) — 14 MK, 37 SKS:**
+| No | Mata Kuliah | Kode | SKS | Semester | Syarat Prasyarat | CPL | Keterangan |
+|---|---|---|---|---|---|---|---|
+| 1 | Dasar Teknologi Digital | FST-101 | 2 | 1 | — | P2 | **MK Baru** — fondasi IT |
+| 2 | Algoritma pemrograman | FST-102 | 3 | 1 | — | KU1, P4 | Fondasi coding (+P) |
+| 3 | Struktur Data dan Strategi Algoritma | FST-203 | 3 | 2 | FST-102 | KU1, P4 | Fondasi struktur data (+P) |
+| 4 | Pengantar kecerdasan Artifisial & Data | FST-204 | 3 | 2 | — | KK1 | Dasar AI & Data (+P) |
+| 5 | Basic English | FST-205 | 2 | 2 | — | KU2 | Bahasa Inggris dasar |
+| 6 | Etika dan Hukum Digital | FST-206 | 2 | 2 | — | S1, KU2 | PDP, UU ITE, GDPR |
+| 7 | Basis Data | FST-207 | 3 | 2 | — | P2, P4 | Fondasi DB (+P) |
+| 8 | Statistika & Probabilitas | FST-408 | 3 | 4 | — | P1, P4 | Fondasi statistika (+P) |
+| 9 | English For IT Professionals | FST-409 | 2 | 4 | FST-205 | KU2 | IT English profesional |
+| 10 | Capstone Project | FST-610 | 3 | 6 | — | S1, KU1-3, KK | Project kolaboratif FSTI (+P) |
+| 11 | Metpen | FST-611 | 2 | 6-7 (Paralel) | >76 SKS | KU1, KU2, KU3 | Metodologi Penelitian |
+| 12 | PKL | FST-612 | 3 | 6-7 (Paralel) | >100 SKS | S1, KU1-KU3 | Praktik Kerja Lapangan |
+| 13 | Pra-Skripsi | FST-613 | 2 | 6-7-8 (Paralel) | >100 SKS | KU1, KU2, KU3 | Proposal Penelitian |
+| 14 | Skripsi | FST-714 | 6 | 7-8 (Paralel) | >120 SKS | S1, KU1-KU3 | Proyek/Riset Akhir |
 
 ---
 
 ## 6. 15 CPL → MK PILIHAN PEMINATAN (~18 MK)
 
-### 6.1 P1: Smart Information Systems (5 MK, ambil 3-4)
+### 6.1 P1: Integrated Smart Systems (5 MK, ambil 3-4)
 
 | MK | SKS | CPL | Nama Marketable |
 |---|---|---|---|
@@ -298,7 +302,7 @@ VMTS (Visi-Misi-Tujuan-Sasaran)
 
 ### 7.2 CPL Khusus (berlaku per peminatan)
 
-| CPL | P1: Smart IS | P2: Cloud & Cyber | P3: Digital Platform |
+| CPL | P1: Integrated Smart Systems | P2: Cloud & Cyber | P3: Digital Platform |
 |---|---|---|---|
 | **KK1** | Conversational AI, Smart Surveillance, ML, Deep Learning, Integrasi Cerdas AI, MLOps, Intelligent Agent, DSS | — | — |
 | **KK2** | ML, Data Warehouse, Data Mining, Deep Learning, Computational Methods, MLOps | — | — |
@@ -355,7 +359,7 @@ VMTS (Visi-Misi-Tujuan-Sasaran)
 
 ## 9. KONFIGURASI PEMINATAN → MK PILIHAN
 
-### P1: Smart Information Systems (Flagship)
+### P1: Integrated Smart Systems (Flagship)
 **Tagline:** *"Jadi AI Expert, bukan AI Researcher"*
 **Target:** PL-01 (Intelligent IS Developer), PL-06 (Data Analyst & ML Engineer)
 
@@ -413,7 +417,7 @@ VMTS (Visi-Misi-Tujuan-Sasaran)
 | **1** | Pengantar SISTEKIN, Algoritma-Pemrograman, Kalkulus, Logika Informatika, Agama, Pancasila | KU1, P1, P4, S1 |
 | **2** | Matematika Diskrit, Aljabar Linear, Probabilitas-Statistika, Struktur Data, Basis Data, B.Indonesia | P1, P4, KU1, KU2, P2 |
 | **3** | Web Back End Development, Sistem Cerdas, **Jaringan Komputer**, IoT, UI/UX Design, RPL, Sistem Operasi | P4, KU1, P3, KK3, KK5, P2, KK1 |
-| **4** | Machine Learning, Analisis-Perancangan SI, Web Front End Development, Mobile App Dev, Etika-Hukum TI, SI Berbasis Cloud | P2, KK1, KU1, P4, S1, P3, KK3 |
+| **4** | Machine Learning, Analisis-Perancangan SI, Web Front End Development, Mobile App Dev, Etika-Hukum TI, SI Berbasis Cloud, **Sistem Informasi Manajemen** | P2, KK1, KU1, P4, S1, P3, KK3, **KK4** |
 | **5** | Deep Learning, Data Warehouse-BI, Data Mining & Visualization, Manajemen Proyek TI, Metpen, Kewirausahaan I | KK1, KK2, P2, KK6, KU1-KU3 |
 | **6** | Integrasi Cerdas AI, Smart City & GovTech, Keamanan Info Dasar, **MK Pilihan Peminatan (3-4 MK)** | KK1, P3, KK3, **KK1-KK6 (peminatan)** |
 | **7** | Pra-Skripsi, **MK Pilihan Peminatan (sisa)**, Conversational AI, Smart Surveillance | KU1-KU3, **KK1-KK6 (peminatan)**, KK1 |

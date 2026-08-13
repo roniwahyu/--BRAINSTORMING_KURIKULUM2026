@@ -16,10 +16,10 @@
 | **STB-** | MK Pilihan Peminatan | Cloud and Cybersecurity |
 | **STC-** | MK Pilihan Peminatan | Digital Platform |
 
-**MK FST (Fakultas) — 11 MK:**
-- Algoritma Pemrograman, Pengantar AI, Statistika & Probabilitas, Basis Data
-- Basic English, Etika dan Hukum Digital, English For IT Professionals
-- Metodologi Penelitian, PKL, Pra-Skripsi, Skripsi
+**MK FSTI (Fakultas) — 14 MK (37 SKS):**
+- Dasar Teknologi Digital, Algoritma Pemrograman (+P), Struktur Data (+P), Pengantar AI & Data, Basic English, Etika & Hukum Digital, Basis Data (+P)
+- Statistika & Probabilitas (+P), English For IT Professionals, Capstone Project (+P)
+- Metpen, PKL, Pra-Skripsi, Skripsi
 
 **MBKM:** Program (bukan MK), dapat diakui maks 20 SKS → dikonversikan ke MK semester
 
@@ -29,20 +29,20 @@
 
 | Aspek | 2025 | 2026 | Selisih | Keterangan / Alasan |
 |---|---|---|---|---|
-| **Total SKS** | 146 | ~171 | **+25** | +MK FST (Fakultas), +Praktikum, +MK Pilihan, +Capstone |
-| **Total MK** | 56 | ~58 | **+2** | +11 MK FST, +1 MK Baru (Jaringan Komputer), -6 MK dihapus/diganti, -4 MK existing pindah ke FST |
+| **Total SKS** | 146 | 171 | **+25** | +MK FSTI (Fakultas), +Praktikum, +MK Pilihan, +Capstone |
+| **Total MK** | 56 | 59 | **+3** | +14 MK FSTI, +1 MK Baru (Jaringan Komputer), -6 MK dihapus/diganti |
 | **Semester** | 8 | 8 | 0 | Tidak berubah |
-| **MK FST (Fakultas)** | 0 | 11 | **+11** | Fondasi keilmuan lintas prodi FSTI (termasuk Skripsi) |
-| **MK STI (Prodi)** | 56 | 32 | **-24** | 7 MK pindah ke FST + 18 MK hapus/gabung + 1 MK Baru (Jaringan Komputer) |
-| **MK +P Core** | 16 | 22 | **+6** | Tambah +P: Algoritma, Struktur Data, Probstat, Basis Data, dll |
-| **Peminatan** | 0 | 3 | **+3** | P1 Smart IS, P2 Cloud & Cyber, P3 Digital Platform |
-| **MK Pilihan** | 0 | 9 | **+9** | 3 Pilihan/Sem × 3 Sem (5,6,7) |
+| **MK FSTI (Fakultas)** | 0 | 14 | **+14** | Fondasi keilmuan lintas prodi FSTI (37 SKS) |
+| **MK STI (Prodi)** | 56 | 30 | **-26** | 8 MK pindah ke FSTI + 18 MK hapus/gabung + 1 MK Baru |
+| **MK +P Core** | 16 | 22 | **+6** | Tambah +P: Algoritma, Struktur Data, Probstat, Basis Data, Capstone, dll |
+| **Peminatan** | 0 | 3 | **+3** | P1 Integrated Smart Systems, P2 Cloud & Cyber, P3 Digital Platform |
+| **MK Pilihan** | 0 | 9 | **+9** | 9 Pilihan per Mahasiswa di Sem 5-7 |
 | **CPL** | 10 | 14 | **+4** | Reorganisasi ke 4 kategori S/KU/P/KK + tambah KK4 |
 | **PL** | 6 | 6 | **0** | Jumlah sama, nama dan deskripsi diperbarui |
-| **Capstone** | — | 4 SKS | **+4** | Kolaborasi lintas 3 Prodi |
+| **Capstone** | — | 3 SKS | **+3** | Project FSTI lintas prodi di Sem 6 |
 | **MBKM** | — | Program | — | Program (bukan MK), maks 20 SKS dikonversikan |
-| **PKL** | 3 SKS | 3 SKS (FST) | **0** | MK FST (Fakultas), Paralel |
-| **Skripsi** | 6 SKS | 6 SKS (FST) | **0** | MK FST (Fakultas), Paralel |
+| **PKL** | 3 SKS | 3 SKS (FSTI) | **0** | MK FSTI (Fakultas), Paralel |
+| **Skripsi** | 6 SKS | 6 SKS (FSTI) | **0** | MK FSTI (Fakultas), Paralel |
 
 ---
 
@@ -51,11 +51,10 @@
 | # | Komponen | 2025 | 2026 | Selisih | Alasan Detail |
 |---|---|---|---|---|---|
 | **A** | **MKU (Universitas)** | 14 SKS | 14 SKS | 0 | Tidak berubah (6 MK) |
-| **B** | **MK FST (Fakultas)** | 0 SKS | 32 SKS | **+32** | 11 MK baru: Algoritma, AI, Statistika, Basis Data, English, dll |
-| **C** | **MK STI (Wajib Prodi)** | 132 SKS | 98 SKS | **-34** | 7 MK pindah ke FST, 18 MK hapus/gabung, +1 MK baru |
+| **B** | **MK FSTI (Fakultas)** | 0 SKS | 37 SKS | **+37** | 14 MK FSTI: Algoritma, AI, Struktur Data, Statistika, Basis Data, Capstone, dll |
+| **C** | **MK STI (Wajib Prodi)** | 132 SKS | 93 SKS | **-39** | 8 MK pindah ke FSTI, 18 MK hapus/gabung, +1 MK baru |
 | **D** | **MK Pilihan Peminatan** | 0 SKS | 27 SKS | **+27** | 9 MK × 3 SKS (ambil 9 per mahasiswa) |
-| **E** | **Capstone Design** | 0 SKS | 4 SKS | +4 | Kolaborasi lintas 3 Prodi, Sem 8 |
-| | **TOTAL** | **146 SKS** | **~171 SKS** | **+25** | |
+| | **TOTAL** | **146 SKS** | **171 SKS** | **+25** | |
 
 ---
 
@@ -284,7 +283,7 @@
 | Aspek | Lama (2025) | Baru (2026) |
 |---|---|---|
 | **Jumlah Peminatan** | 0 (tidak ada) | **3 Peminatan** |
-| **P1** | — | Smart Information Systems (Flagship) |
+| **P1** | — | Integrated Smart Systems (Flagship) |
 | **P2** | — | Cloud Infrastructure & Cybersecurity (Volume) |
 | **P3** | — | Digital Platform Engineering (Niche) |
 | **MK Pilihan** | 0 | 18 MK (ambil 9 per mahasiswa) |

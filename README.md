@@ -130,108 +130,24 @@ Direktori `KURIKULUM2026_ZCODE/` menyimpan seluruh dokumen perancangan kurikulum
 | File | Deskripsi & Peran Memory AI |
 |------|-----------------------------|
 | [006_KEPUTUSAN_FINAL_ARAH_KURIKULUM_SISTEKIN.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/006_KEPUTUSAN_FINAL_ARAH_KURIKULUM_SISTEKIN.md) | **DOKUMEN KUNCI UTAMA** — Memuat Visi 2045 (AI/Smart Systems + Technopreneurship), 5 Profil Lulusan, 14 CPL, 3 Peminatan, dan aturan SKS. |
-| [007_BEDAH_STRUKTUR_KURIKULUM_SISTEKIN.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/007_BEDAH_STRUKTUR_KURIKULUM_SISTEKIN.md) | Bedah rasio MKU (6 MK/14 SKS), MK FST (11 MK/32 SKS), MK STI (33 MK/101 SKS), dan MK Pilihan (18 MK/54 SKS). |
-| [008_LANGKAH1_PROFIL_LULUSAN_PEO.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/008_LANGKAH1_PROFIL_LULUSAN_PEO.md) | Rincian 5 Profil Lulusan & PEO terukur 3-5 tahun pasca kelulusan. |
-| [009A_CPL_SIKAP_SISTEKIN.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/009A_CPL_SIKAP_SISTEKIN.md) | Rumusan CPL Kategori Sikap (S1) berdasar Permendikbudristek 53/2023. |
-| [009B_CPL_KETERAMPILAN_UMUM_SISTEKIN.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/009B_CPL_KETERAMPILAN_UMUM_SISTEKIN.md) | Rumusan CPL Kategori Keterampilan Umum (KU1, KU2, KU3). |
-| [009C_CPL_PENGETAHUAN_SISTEKIN.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/009C_CPL_PENGETAHUAN_SISTEKIN.md) | Rumusan CPL Kategori Pengetahuan (P1, P2, P3, P4) merujuk BoK APTIKOM IS2020/IT2017. |
-| [009D_CPL_KETERAMPILAN_KHUSUS_SISTEKIN.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/009D_CPL_KETERAMPILAN_KHUSUS_SISTEKIN.md) | Rumusan CPL Kategori Keterampilan Khusus (KK1 s/d KK6) berbasis smart technology. |
-| [009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.md) | Pemetaan komprehensif 14 CPL ke Body of Knowledge APTIKOM (BK01-BK19). |
-| [009_LANGKAH2_CPL_FORMAL.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/009_LANGKAH2_CPL_FORMAL.md) | Sintesis CPL formal 4 kategori dengan standar taksonomi Bloom. |
-
-### Fase 3 s/d 5 — Pemetaan Matriks, Struktur 8 Sem, MBKM & Audit
-
-| File | Deskripsi & Peran Memory AI |
-|------|-----------------------------|
-| [010_KOMPILASI_CPL_KE_STRUKTUR_KURIKULUM.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/010_KOMPILASI_CPL_KE_STRUKTUR_KURIKULUM.md) | Pemetaan distribusi CPL ke mata kuliah per semester. |
-| [011_STRUKTUR_KURIKULUM_TABEL.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/011_STRUKTUR_KURIKULUM_TABEL.md) | **DOKUMEN KUNCI UTAMA** — Tabel operasional 8 semester lengkap (Kode, MK, SKS, Teori/Praktik, Prasyarat, CPL). |
-| [012_MATRIKS_CPL_vs_MK.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/012_MATRIKS_CPL_vs_MK.md) | Matriks cross-reference CPL (14 CPL) × Seluruh Mata Kuliah. |
-| [013_KURIKULUM_SEMESTER_GANJIL_PRAKTIKUM.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/013_KURIKULUM_SEMESTER_GANJIL_PRAKTIKUM.md) | Rincian MK praktikum & beban laboratorium semester ganjil (tersedia versi `.md` dan `.docx`). |
-| [014_ANALISIS_IOT_POSISI_KURIKULUM.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/014_ANALISIS_IOT_POSISI_KURIKULUM.md) | Analisis penempatan Internet of Things (IoT) & Smart Technology pada Peminatan P2. |
-| [015_PERBANDINGAN_KURIKULUM_2025_vs_2026.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/015_PERBANDINGAN_KURIKULUM_2025_vs_2026.md) | Analisis komparatif delta perubahan Kurikulum 2025 vs Kurikulum 2026. |
-| [016_KETENTUAN_MPKM_20SKS_DAN_PRASYARAT.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/016_KETENTUAN_MPKM_20SKS_DAN_PRASYARAT.md) | Aturan ekuivalensi MBKM maks 20 SKS di Sem 6-7 & peta jaringan prasyarat MK. |
-| [017_VERIFIKASI_GROUND_TRUTH_KURIKULUM2025.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/017_VERIFIKASI_GROUND_TRUTH_KURIKULUM2025.md) | Verifikasi kesesuaian dokumen draft dengan data resmi SIAKAD 2025. |
-| [018_AUDIT_TRAIL_PERBAIKAN_DOKUMEN.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/018_AUDIT_TRAIL_PERBAIKAN_DOKUMEN.md) | Chronological audit trail perbaikan nama MK, reposisi SKS, & penambahan MK Jaringan Komputer/ISIM. |
-| [019_SURVEY_PEMETAAN_DAN_ANALISIS_REKOMENDASI_IMPROVEMENT_KURIKULUM2026.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/019_SURVEY_PEMETAAN_DAN_ANALISIS_REKOMENDASI_IMPROVEMENT_KURIKULUM2026.md) | Rekomendasi perbaikan struktur dari asesmen eksternal & redistribusi SKS Sem 1-2. |
-
----
-
-## 3. PANDUAN SUB-AGENT SKILLS SYSTEM (HANDOFF ARCHITECTURE)
-
-Workspace ini memiliki 5 definisi Sub-Agent Skills (terletak di root folder) untuk eksekusi tugas khusus secara terpisah dan efisien:
-
-```mermaid
-flowchart TD
-    DR[🤖 Document Reader Agent\n.document-reader-agent-skills.md] --> SA[🤖 Strategic Analyst Agent\n.strategic-analyst-agent-skills.md]
-    SA --> OD[🤖 OBE Designer Agent\n.obe-designer-agent-skills.md]
-    OD --> CA[🤖 Curriculum Architect Agent\n.curriculum-architect-agent-skills.md]
-    CA --> QA[🤖 QA & Assessment Evaluator Agent\n.qa-evaluator-agent-skills.md]
-```
-
-### Rincian Sub-Agent Skills
-
-| # | File Skill | Agent Name | Peran & Tugas Utama | Pemicu Workflow |
-|---|------------|------------|---------------------|-----------------|
-| 1 | [.strategic-analyst-agent-skills.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/.strategic-analyst-agent-skills.md) | **Strategic Analyst** | Environmental Scanning, SWOT, Penyelarasan VMTS Universitas/Fakultas ke Prodi. | Langkah 0.1, 0.2 |
-| 2 | [.obe-designer-agent-skills.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/.obe-designer-agent-skills.md) | **OBE Designer** | Perancangan Profil Lulusan, PEO terukur 3-5 tahun, Rumusan CPL 4 Kategori (S, KU, P, KK) & Taksonomi Bloom/ABCD. | Langkah 1, 2 |
-| 3 | [.curriculum-architect-agent-skills.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/.curriculum-architect-agent-skills.md) | **Curriculum Architect** | Matriks BoK APTIKOM (BK01-BK19), Struktur MK 8 Semester, Distribusi SKS (≤20/sem), Peminatan, & Skema MBKM. | Langkah 3, 4 |
-| 4 | [.qa-evaluator-agent-skills.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/.qa-evaluator-agent-skills.md) | **QA & Assessment Evaluator** | Perancangan Rubrik Asesmen OBE, Portofolio CPL, Opsi TA Non-Skripsi (Capstone Design), & Siklus PPEPP. | Langkah 5 |
-| 5 | [.document-reader-agent-skills.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/.document-reader-agent-skills.md) | **Document Reader** | Ekstraksi teks, sintesis, & verifikasi fakta dari dokumen PDF, Word, MD, dan SIAKAD. | Semua Langkah (Support) |
-
----
-
-## 4. GROUND TRUTH & DOKUMEN ACUAN RESMI
-
-### 4.1 Ground Truth Kurikulum Berjalan (`KURIKULUM2025/`)
-* **`Laporan Daftar Kurikulum Prodi Sistekin.pdf`**: Ground Truth Resmi dari SIAKAD (56 Mata Kuliah, Total 146 SKS). Didownload pada 05 Agustus 2026.
-* **`Implementasi_MODUL_OBE_SISTEKIN2025.pdf`**: Modul implementasi kurikulum OBE 2025.
-* **`Notulensi Rapat VMTS & Kurikulum Program Studi SIST 090626.pdf`**: Berita Acara & Notulensi Rapat Penetapan VMTS dan 5 Profil Lulusan tanggal 09 Juni 2026.
-* **`[IA - UPPS] 05 Juni 2025 (Kompilasi) INSTRUMEN PEMENUHAN SYARAT...pdf`**: Dokumen akreditasi UPPS.
-
-### 4.2 Panduan Standar Kurikulum APTIKOM (`BUKU_OBE/`)
-* **`OBE_SISTEM_INFORMASI_2.0_APTIKOM_...pdf`**: **ACUAN UTAMA** — Buku Panduan OBE Prodi S1 Sistem Informasi v2.0 (2024) berbasis ACM/IEEE IS2020.
-* **`716903001-PANDUAN-KURIKULUM-OBE-PRODI-S1-TEKNOLOGI-INFORMASI-2023.pdf`**: Acuan Pendukung — Panduan Kurikulum OBE Prodi S1 Teknologi Informasi (2023) berbasis IT2017/CC2020.
-* **`839193049-Buku-Kurikulum-Prodi-S1-Informatika-atau-Ilmu-Komputer-Versi-2-0-aptikom.pdf`**: Referensi Silabus Ilmu Komputer/Informatika v2.0.
-* **`900015055-Buku-Kurikulum-Prodi-S1-Perangkat-Lunak-Versi-1-0.pdf`**: Referensi Rekayasa Perangkat Lunak v1.0.
-* **`Buku Kurikulum Prodi S1 Sains Data Versi 1.0.pdf`**: Referensi Kurikulum Sains Data v1.0.
-
----
-
-## 5. REKAPITULASI MEMORI KEPUTUSAN KUNCI PRODI SISTEKIN
-
-Setiap Agent wajib mematuhi keputusan yang telah ditetapkan bersama tim kurikulum pada rapat 09 Juni 2026:
-
-### 5.1 Visi Prodi (VMTS 2045)
-> *"Menjadi Program Studi Sistem dan Teknologi Informasi yang unggul dalam pengembangan sistem dan teknologi informasi cerdas terintegrasi kecerdasan artifisial, serta technopreneurship berbasis kebutuhan masyarakat dan industri pada tahun 2045."*
-
-### 5.2 5 Profil Lulusan Ditetapkan (PL1 – PL5)
-1. **PL1: Intelligent Information System Developer** (Pengembang Sistem Informasi Cerdas)
-2. **PL2: UX & Digital Service Designer** (Perancang Antarmuka & Layanan Digital)
-3. **PL3: Smart Technology Integrator** (Integrator Teknologi Cerdas & Infrastruktur Digital)
-4. **PL4: Technopreneur in Smart Information Services** (Wirausahawan Teknologi Informasi Cerdas)
-5. **PL5: Digital Governance & System Analyst** (Analis Sistem & Tata Kelola Teknologi Informasi)
-
-### 5.3 3 Peminatan Berbasis BoK APTIKOM
-* **Peminatan 1 (P1):** *Smart Information Systems & Data Analytics* (Sistem Cerdas & Analitik Data)
-* **Peminatan 2 (P2):** *Cloud Infrastructure & Cybersecurity* (Infrastruktur Cloud & Keamanan Digital)
-* **Peminatan 3 (P3):** *Digital Service & Technopreneurship* (Layanan Digital & Technopreneurship)
-
+| [007_BEDAH_STRUKTUR_KURIKULUM_SISTEKIN.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/007_BEDAH_STRUKTUR_KURIKULUM_SISTEKIN.md) | Bedah rasio MKU (6 MK/14 SKS), MK FSTI (14 MK/37 SKS), MK STI (30 MK/93 SKS), dan MK Pilihan (18 MK/54 SKS). |
+[...unchanged lines...]
 ### 5.4 Struktur Beban SKS & Aturan Matrikulasi
 
 ```
 MKU (Wajib Universitas):         14 SKS ( 6 MK)
-FST (Wajib Fakultas):            32 SKS (11 MK)
-STI (Wajib Prodi):              101 SKS (33 MK, incl ISIM)
+FSTI (Wajib Fakultas):           37 SKS (14 MK)
+STI (Wajib Prodi):               93 SKS (30 MK)
 -----------------------------------------------
-TOTAL WAJIB:                    147 SKS (50 MK)
+TOTAL WAJIB:                    144 SKS (50 MK)
 
 Pilihan Peminatan (diambil 9):   27 SKS ( 9 MK @ 3 SKS)
 ===============================================
-TOTAL SYARAT GRADUASI:         174 SKS (59 MK)
+TOTAL SYARAT GRADUASI:         171 SKS (59 MK)
 ```
 
 > [!NOTE]
-> * Mahasiswa menempuh **147 SKS Wajib** + **27 SKS Pilihan Peminatan** = **174 SKS Total**.
+> * Mahasiswa menempuh **144 SKS Wajib** + **27 SKS Pilihan Peminatan** = **171 SKS Total**.
 > * MK 0 SKS (`Agama II`, `Kewirausahaan II`) adalah kebijakan Universitas UWG dan **wajib dipertahankan** tanpa merubah bobot SKS.
 > * Capstone Design Lintas Prodi (SISTEKIN + Bisnis Digital + Teknik Informatika) ditetapkan sebagai default Tugas Akhir menggantikan skripsi konvensional.
 

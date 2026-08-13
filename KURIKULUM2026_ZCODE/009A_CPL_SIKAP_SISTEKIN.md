@@ -55,7 +55,7 @@
 
 | Peminatan | S1 |
 |---|---|
-| P1: Smart IS | ✅ |
+| P1: Integrated Smart Systems | ✅ |
 | P2: Cloud & Cyber | ✅ |
 | P3: Digital Platform | ✅ |
 

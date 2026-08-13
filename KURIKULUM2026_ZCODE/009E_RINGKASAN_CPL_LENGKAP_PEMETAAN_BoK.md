@@ -36,8 +36,8 @@
 
 | CPL | Rumusan | Peminatan | Sumber |
 |---|---|---|---|
-| **KK1** | Mampu menganalisis, merancang, dan mengembangkan sistem informasi cerdas berbasis AI/ML (conversational AI, deep learning, smart systems, decision support) untuk solusi bisnis dan organisasi | **P1: Smart IS** | IS2020 (K01, K09, K13, K16) |
-| **KK2** | Mampu mengumpulkan, memproses, dan menganalisis data serta membangun model machine learning untuk solusi bisnis (data engineering, BI, MLOps, data visualization) | **P1: Smart IS** | IS2020 (K01, K13, K16) |
+| **KK1** | Mampu menganalisis, merancang, dan mengembangkan sistem informasi cerdas berbasis AI/ML (conversational AI, deep learning, smart systems, decision support) untuk solusi bisnis dan organisasi | **P1: Integrated Smart Systems** | IS2020 (K01, K09, K13, K16) |
+| **KK2** | Mampu mengumpulkan, memproses, dan menganalisis data serta membangun model machine learning untuk solusi bisnis (data engineering, BI, MLOps, data visualization) | **P1: Integrated Smart Systems** | IS2020 (K01, K13, K16) |
 | **KK3** | Mampu mengintegrasikan dan mengelola infrastruktur cloud, menerapkan keamanan siber, serta menjalankan praktik DevOps (CI/CD, containerization, infrastructure as code) | **P2: Cloud & Cyber** | IT2017 (KK2, KK3), IS2020 (K02, K05, K06) |
 | **KK4** | Mampu menerapkan tata kelola TI, melakukan audit keamanan, dan memastikan kepatuhan terhadap regulasi dan standar industri (COBIT, ITIL, ISO, risk management) | **P2: Cloud & Cyber** | IS2020 (K05, K06, K07, K14) |
 | **KK5** | Mampu merancang dan mengimplementasikan antarmuka pengguna (UX/UI) yang efektif serta platform digital yang skalabel (microservices, SaaS, cloud-native, API) | **P3: Digital Platform** | IT2017 (KK1), IS2020 (K03, K04, K08, K10, K11, K12) |
@@ -104,7 +104,7 @@
 
 | Peminatan | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| **P1: Smart IS** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | | ✅ | ⭐⭐⭐ | ⭐⭐⭐ | | | | |
+| **P1: Integrated Smart Systems** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | | ✅ | ⭐⭐⭐ | ⭐⭐⭐ | | | | |
 | **P2: Cloud & Cyber** | ✅ | ✅ | ✅ | ✅ | ✅ | | ✅ | | | | ⭐⭐⭐ | ⭐⭐⭐ | | |
 | **P3: Digital Platform** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | | ✅ | | | | | ⭐⭐⭐ | ⭐⭐⭐ |
 

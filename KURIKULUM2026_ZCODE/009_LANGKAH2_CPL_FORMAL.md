@@ -20,8 +20,8 @@
 | **P2** | Sistem Informasi | Pengetahuan (P) | Semua |
 | **P3** | Infrastruktur TI & Tata Kelola | Pengetahuan (P) | Semua |
 | **P4** | Data & Pengembangan | Pengetahuan (P) | Semua |
-| **KK1** | Sistem Informasi Cerdas Berbasis AI/ML | Keterampilan Khusus (KK) | P1: Smart IS |
-| **KK2** | Analisis Data & ML Engineering | Keterampilan Khusus (KK) | P1: Smart IS |
+| **KK1** | Sistem Informasi Cerdas Berbasis AI/ML | Keterampilan Khusus (KK) | P1: Integrated Smart Systems |
+| **KK2** | Analisis Data & ML Engineering | Keterampilan Khusus (KK) | P1: Integrated Smart Systems |
 | **KK3** | Integrasi Cloud, Keamanan Siber & DevOps | Keterampilan Khusus (KK) | P2: Cloud & Cyber |
 | **KK4** | Tata Kelola TI, Audit & Kepatuhan | Keterampilan Khusus (KK) | P2: Cloud & Cyber |
 | **KK5** | Perancangan UX/UI & Platform Digital Skalabel | Keterampilan Khusus (KK) | P3: Digital Platform |
@@ -43,7 +43,7 @@
 
 ## 3. MATRIKS CPL → PEMINATAN → PROFIL LULUSAN
 
-| CPL | P1: Smart IS | P2: Cloud & Cyber | P3: Digital Platform | Profil Lulusan |
+| CPL | P1: Integrated Smart Systems | P2: Cloud & Cyber | P3: Digital Platform | Profil Lulusan |
 |---|---|---|---|---|
 | **S1** | ✅ | ✅ | ✅ | PL-01 s.d. PL-06 |
 | **KU1** | ✅ | ✅ | ✅ | PL-01 s.d. PL-06 |

@@ -25,7 +25,7 @@
 
 | Peminatan | Relevansi IoT | Contoh Penerapan |
 |---|---|---|
-| **P1: Smart IS** | IoT = sumber data sensor untuk AI/ML | Sensor → Edge AI → Prediksi maintenance |
+| **P1: Integrated Smart Systems** | IoT = sumber data sensor untuk AI/ML | Sensor → Edge AI → Prediksi maintenance |
 | **P2: Cloud & Cyber** | IoT = edge device yang perlu diamankan & diintegrasi ke cloud | IoT gateway → AWS IoT Core → Security monitoring |
 | **P3: Digital Platform** | IoT = platform data real-time untuk aplikasi | Dashboard IoT → API → Aplikasi mobile |
 
@@ -71,7 +71,7 @@ Tanpa pemahaman IoT, lulusan **tidak bisa mengintegrasikan AI ke perangkat fisik
 
 ## 3. ANALISIS: APA YANG TERJADI JIKA IoT → PEMINATAN?
 
-### 3.1 Jika IoT → P1 (Smart IS)
+### 3.1 Jika IoT → P1 (Integrated Smart Systems)
 
 | Dampak | Penjelasan |
 |---|---|

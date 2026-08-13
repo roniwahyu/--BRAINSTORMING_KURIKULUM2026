@@ -437,8 +437,30 @@ User menginformasikan bahwa MK terbagi menjadi:
 2. **MK Fakultas vs MK Prodi** — MK FST (Fakultas) adalah fondasi keilmuan lintas prodi, berbeda dari MK STI (Prodi) yang spesifik SISTEKIN
 3. **MK Paralel** — Metodologi Penelitian, PKL, Pra-Skripsi, Skripsi bisa diambil di Ganjil atau Genap
 4. **MBKM = Program, bukan MK** — Dapat diakui maks 20 SKS → dikonversikan ke MK semester
-5. **Total akhir:** 57 MK | 168 SKS | 14 CPL | 3 Peminatan | 11 MK FST
+5. **Total akhir:** 59 MK | 171 SKS | 14 CPL | 3 Peminatan | 14 MK FSTI (37 SKS)
+
+---
+
+### 7.6 Update Ketentuan Baru FSTI (13 Agustus 2026)
+
+- **Ketentuan MK FSTI Disesuaikan (14 MK, 37 SKS):**
+  - Dasar Teknologi Digital (FST-101, 2 SKS, Sem 1)
+  - Algoritma pemrograman (+P) (FST-102, 3 SKS, Sem 1)
+  - Struktur Data dan Strategi Algoritma (+P) (FST-203, 3 SKS, Sem 2)
+  - Pengantar kecerdasan Artifisial & Data (FST-204, 3 SKS, Sem 2)
+  - Basic English (FST-205, 2 SKS, Sem 2)
+  - Etika dan Hukum Digital (FST-206, 2 SKS, Sem 2)
+  - Basis Data (+P) (FST-207, 3 SKS, Sem 2)
+  - Statistika & Probabilitas (+P) (FST-408, 3 SKS, Sem 4)
+  - English For IT Professionals (FST-409, 2 SKS, Sem 4)
+  - Capstone Project (+P) (FST-610, 3 SKS, Sem 6)
+  - Metpen (FST-611, 2 SKS, Sem 6-7, >76 SKS)
+  - PKL (FST-612, 3 SKS, Sem 6-7, >100 SKS)
+  - Pra-Skripsi (FST-613, 2 SKS, Sem 6-7-8, >100 SKS)
+  - Skripsi (FST-714, 6 SKS, Sem 7-8, >120 SKS)
+- **Status Dokumen Terupdate:** `006`, `007`, `010`, `011`, `012`, `015`, `018`, `README.md`, `006.xlsx`, `011.xlsx` (Semua terharmonisasi ke **171 SKS / 14 MK FSTI**).
 
 ---
 
 *Dokumen ini merupakan audit trail lengkap perbaikan dokumen kurikulum SISTEKIN untuk penelusuran dan verifikasi berjenjang.*
+

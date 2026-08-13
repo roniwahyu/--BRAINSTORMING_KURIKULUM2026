@@ -1,16 +1,16 @@
 # 007 — BEDAH STRUKTUR KURIKULUM SISTEKIN: ANALISIS KOMPREHENSIF
 
-**Tanggal:** 10 Agustus 2026
-**Status:** Analisis lengkap struktur kurikulum dengan 3 peminatan
+**Tanggal:** 13 Agustus 2026
+**Status:** Analisis lengkap struktur kurikulum dengan 3 peminatan (Updated 14 MK FSTI / 37 SKS)
 **Ground Truth:** KURIKULUM2025 (56 MK, 146 SKS) — file terverifikasi manusia, sudah dijalankan 2 semester
-**Catatan:** KURIKULUM2025 = 56 MK semua wajib, 146 SKS, 0 peminatan → KURIKULUM2026 = ~57 MK, ~168 SKS, 3 peminatan, 9 MK pilihan
+**Catatan:** KURIKULUM2025 = 56 MK semua wajib, 146 SKS, 0 peminatan → KURIKULUM2026 = 59 MK, 171 SKS, 3 peminatan, 9 MK pilihan
 
 ### Kode Mata Kuliah
 | Prefix | Kategori |
 |---|---|
-| **MKU** | Mata Kuliah Universitas |
-| **FST-** | Mata Kuliah Fakultas (11 MK, 32 SKS) |
-| **STI-** | Mata Kuliah Wajib Prodi (31 MK, 95 SKS) |
+| **MKU** | Mata Kuliah Universitas (6 MK, 14 SKS) |
+| **FST-** | Mata Kuliah Fakultas (14 MK, 37 SKS) |
+| **STI-** | Mata Kuliah Wajib Prodi (30 MK, 93 SKS) |
 | **STA-/STB-/STC-** | MK Pilihan Peminatan (18 MK, 55 SKS) |
 
 ---
@@ -19,14 +19,14 @@
 
 | Komponen | Jumlah | Keterangan |
 |---|---|---|
-| **Total SKS** | ~168 | Wajib 141 + Pilihan 27 |
-| **Total MK** | ~57 | Wajib 48 + Pilihan 9 |
+| **Total SKS** | 171 | Wajib 144 + Pilihan 27 |
+| **Total MK** | 59 | Wajib 50 + Pilihan 9 |
 | **MK Universitas (MKU)** | 6 | 14 SKS |
-| **MK Fakultas (FST)** | 11 | 32 SKS |
-| **MK Wajib Prodi (STI)** | 31 | 95 SKS |
+| **MK Fakultas (FSTI)** | 14 | 37 SKS |
+| **MK Wajib Prodi (STI)** | 30 | 93 SKS |
 | **MK Pilihan Peminatan** | 9 | 27 SKS (ambil 9 dari 18) |
-| **Peminatan** | 3 | P1 Smart IS, P2 Cloud & Cyber, P3 Digital Platform |
-| **Semester** | 8 | 14-23 SKS/sem |
+| **Peminatan** | 3 | P1 Integrated Smart Systems, P2 Cloud & Cyber, P3 Digital Platform |
+| **Semester** | 8 | 13-23 SKS/sem |
 
 ---
 
@@ -47,7 +47,7 @@
 
 ## 3. ANALISIS PER PEMINATAN
 
-### P1: Smart Information Systems
+### P1: Integrated Smart Systems
 
 | Aspek | Status |
 |---|---|
@@ -100,7 +100,7 @@
 
 ## 5. REKOMENDASI UPDATE 005
 
-### A. Peminatan P1: Smart Information Systems
+### A. Peminatan P1: Integrated Smart Systems
 
 | MK | Status | Aksi |
 |---|---|---|

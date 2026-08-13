@@ -47,18 +47,18 @@
 
 | # | Kode | Profil Lulusan | Align Visi | Peminatan | Referensi |
 |---|---|---|---|---|---|
-| **PL1** | PL-01 | Intelligent Information System Developer | "sistem informasi cerdas terintegrasi AI" | P1: Smart IS | IS2020 A3.1, IT2017, SKKNI Level 6 |
+| **PL1** | PL-01 | Intelligent Information System Developer | "sistem informasi cerdas terintegrasi AI" | P1: Integrated Smart Systems | IS2020 A3.1, IT2017, SKKNI Level 6 |
 | **PL2** | PL-02 | UI/UX Designer & Digital Platform Engineer | "teknologi informasi cerdas" | P3: Digital Platform | IS2020 A3.4, IT2017, Seoul Accord |
 | **PL3** | PL-03 | Smart System & Technology Integrator | "terintegrasi kecerdasan artifisial" | P2: Cloud & Cyber | IS2020 A3.3, IT2017, SKKNI Level 6 |
 | **PL4** | PL-04 | Technopreneur | "technopreneurship berbasis kebutuhan" | P3: Digital Platform | IS2020, KKNI Level 6 |
 | **PL5** | PL-05 | Digital System & Technology Governance Analyst | "sistem informasi cerdas berbasis AI" | P2: Cloud & Cyber | IS2020 A3.5, IT2017, COBIT/ITIL |
-| **PL6** | PL-06 | Data Analyst & Machine Learning Engineer | "sistem informasi cerdas terintegrasi AI" | P1: Smart IS | IS2020 A3.2, IT2017, SKKNI Level 6 |
+| **PL6** | PL-06 | Data Analyst & Machine Learning Engineer | "sistem informasi cerdas terintegrasi AI" | P1: Integrated Smart Systems | IS2020 A3.2, IT2017, SKKNI Level 6 |
 
 ### Matriks: 6 Profil × 3 Jalur Karier + Sub-Role
 
 | Profil Lulusan | Akademisi | Praktisi | Technopreneur | Sub-Role |
 |---|---|---|---|---|
-| **PL1: Intelligent IS Developer** | Researcher AI/ML | AI Developer, ML Engineer | AI Startup Founder | Smart IS Engineer, Vibe Coder, AI-Augmented Developer |
+| **PL1: Intelligent IS Developer** | Researcher AI/ML | AI Developer, ML Engineer | AI Startup Founder | Integrated Smart Systems Engineer, Vibe Coder, AI-Augmented Developer |
 | **PL2: UI/UX Designer & Platform Engineer** | UX/Platform Researcher | Product Designer, Platform Engineer | Design Agency, SaaS Founder | Full-Stack Developer, Mobile Developer |
 | **PL3: Smart System Integrator** | Systems Integration Researcher | Solutions Architect, DevOps | Integration Consultancy | Cloud Engineer, DevOps Engineer |
 | **PL4: Technopreneur** | Entrepreneurship Researcher | Product Manager, CTO | Startup Founder | Tech Co-Founder, Innovation Lead |
@@ -122,41 +122,44 @@ Bisnis Digital      →  menjual solusi AI (model bisnis, customer journey)
 ### MK Universitas (MKU) — 6 MK, 14 SKS
 Agama, Pancasila, Bahasa Indonesia, Kewarganegaraan, Kewirausahaan I, KKN
 
-### MK Fakultas (FST) — 11 MK, 32 SKS
-| MK | SKS | Keterangan |
-|---|---|---|
-| Algoritma Pemrograman | 3 | Fondasi coding (+P) |
-| Pengantar AI (& Prompt Engineering) | 2 | **MK Baru** — dasar AI |
-| Statistika & Probabilitas | 3 | Fondasi statistika (+P) |
-| Basis Data | 3 | Fondasi DB (+P) |
-| Basic English | 2 | **MK Baru** — bahasa dasar |
-| Etika dan Hukum Digital | 2 | PDP, UU ITE, GDPR |
-| English For IT Professionals | 2 | **MK Baru** — IT English |
-| Metodologi Penelitian | 3 | Paralel (Ganjil/Genap) |
-| PKL | 3 | **MK Baru** — Paralel (Ganjil/Genap) |
-| Pra-Skripsi | 3 | Paralel, prasyarat ≥110 SKS |
-| Skripsi | 6 | Paralel (Ganjil/Genap) |
+### MK Fakultas (FSTI) — 14 MK, 37 SKS
+| No | Mata Kuliah | Kode | SKS | Semester | Syarat Prasyarat | Keterangan |
+|---|---|---|---|---|---|---|
+| 1 | Dasar Teknologi Digital | FST-101 | 2 | 1 | — | **MK Baru** — fondasi IT |
+| 2 | Algoritma pemrograman | FST-102 | 3 | 1 | — | Fondasi coding (+P) |
+| 3 | Struktur Data dan Strategi Algoritma | FST-203 | 3 | 2 | FST-102 | Fondasi struktur data (+P) |
+| 4 | Pengantar kecerdasan Artifisial & Data | FST-204 | 3 | 2 | — | Dasar AI & Data (+P) |
+| 5 | Basic English | FST-205 | 2 | 2 | — | Bahasa Inggris dasar |
+| 6 | Etika dan Hukum Digital | FST-206 | 2 | 2 | — | PDP, UU ITE, GDPR |
+| 7 | Basis Data | FST-207 | 3 | 2 | — | Fondasi DB (+P) |
+| 8 | Statistika & Probabilitas | FST-408 | 3 | 4 | — | Fondasi statistika (+P) |
+| 9 | English For IT Professionals | FST-409 | 2 | 4 | FST-205 | IT English profesional |
+| 10 | Capstone Project | FST-610 | 3 | 6 | — | Project kolaboratif FSTI (+P) |
+| 11 | Metpen | FST-611 | 2 | 6-7 (Paralel) | >76 SKS | Metodologi Penelitian |
+| 12 | PKL | FST-612 | 3 | 6-7 (Paralel) | >100 SKS | Praktik Kerja Lapangan |
+| 13 | Pra-Skripsi | FST-613 | 2 | 6-7-8 (Paralel) | >100 SKS | Proposal Penelitian |
+| 14 | Skripsi | FST-714 | 6 | 7-8 (Paralel) | >120 SKS | Proyek/Riset Akhir |
 
-### MK Wajib Prodi (STI) — 32 MK, 98 SKS
+### MK Wajib Prodi (STI) — 30 MK, 93 SKS
 | Kelompok | MK | SKS |
 |---|---|---|
 | **Fondasi** | Pengantar SI, Kalkulus, Logika Informatika | 8 |
 | **Matematika** | Matematika Diskrit, Aljabar Linear | 6 |
-| **Data & Infra** | Struktur Data, Sistem Operasi, Basis Data (FST), **Jaringan Komputer** | 11 |
+| **Data & Infra** | Sistem Operasi, Jaringan Komputer | 5 |
 | **AI/ML** | Sistem Cerdas, Machine Learning, Deep Learning, Data Mining & Visualization, DW-BI | 14 |
 | **Platform** | IoT, Web Front End Development, Pemrograman Mobile, Web Back End Development | 12 |
 | **Sistem** | RPL, Analisis SI, SI Cloud, Keamanan Dasar | 12 |
 | **Bisnis** | Manpro TI, Startup Digital | 6 |
 | **Integrasi** | Integrasi AI, Smart City, Conversational AI, Smart Surveillance, Platform Eng | 15 |
-| **Penyelesaian** | Seminars, Capstone Design | 6 |
-| **Total** | | **98** |
+| **Penyelesaian** | Seminars | 2 |
+| **Total** | | **93** |
 
 ### MK Pilihan Peminatan — 18 MK, 55 SKS (ambil 9 = 27 SKS)
-- **P1 Smart IS (STA)**: 5 MK, 15 SKS
+- **P1 Integrated Smart Systems (STA)**: 5 MK, 15 SKS
 - **P2 Cloud & Cyber (STB)**: 6 MK, 19 SKS
 - **P3 Digital Platform (STC)**: 7 MK, 21 SKS
 
-**Total:** ~58 MK | ~171 SKS (Wajib 49 MK, 144 SKS + Pilihan 18 MK, 27 SKS)
+**Total:** 59 MK | **171 SKS** (Wajib 50 MK, 144 SKS + Pilihan 9 MK, 27 SKS)
 
 **MBKM:** Program (bukan MK), dapat diakui maks 20 SKS → dikonversikan ke MK semester
 
@@ -170,13 +173,13 @@ Agama, Pancasila, Bahasa Indonesia, Kewarganegaraan, Kewirausahaan I, KKN
 
 ---
 
-### P1: Smart Information Systems
+### P1: Integrated Smart Systems
 **Tagline:** *"Mengintegrasikan AI ke dalam sistem informasi bisnis"*
 **Nama Marketable:** *Sistem Informasi Cerdas — AI Integration Specialist*
 
 | Aspek | Detail |
 |---|---|
-| **Nama Akademis** | Smart Information Systems (Sistem Informasi Cerdas) |
+| **Nama Akademis** | Integrated Smart Systems (Sistem Informasi Cerdas) |
 | **BoK Terkait** | IS2020: BK08 Smart Systems, BK10 Data Science, BK12 Security & Privacy |
 | **IT2020 Terkait** | AI, Machine Learning, Data Mining |
 | **Posisi** | **FLAGSHIP** — Diferensiasi kuat, sulit ditiru prodi lain |
@@ -258,7 +261,7 @@ Agama, Pancasila, Bahasa Indonesia, Kewarganegaraan, Kewirausahaan I, KKN
 
 | Prioritas | Peminatan | Tagline Marketing | Alasan |
 |---|---|---|---|
-| **🥇 FLAGSHIP** | P1: Smart Information Systems | *"Jadi AI Expert, bukan AI Researcher"* | Diferensiasi kuat, langka di pasar |
+| **🥇 FLAGSHIP** | P1: Integrated Smart Systems | *"Jadi AI Expert, bukan AI Researcher"* | Diferensiasi kuat, langka di pasar |
 | **🥈 VOLUME** | P2: Cloud Infrastructure & Cybersecurity | *"Cloud + Security = Karier Pasti"* | Demand tinggi, sertifikasi langsung hired |
 | **🥉 NICHE** | P3: Digital Platform Engineering | *"Bangun Platform, Jangan Cuma Pakai"* | Bridge ke startup, skill fleksibel |
 
@@ -273,7 +276,7 @@ Agama, Pancasila, Bahasa Indonesia, Kewarganegaraan, Kewirausahaan I, KKN
 
 ### Pemetaan Profil Lulusan ke Peminatan
 
-| Profil Lulusan | P1: Smart IS | P2: Cloud & Cyber | P3: Platform |
+| Profil Lulusan | P1: Integrated Smart Systems | P2: Cloud & Cyber | P3: Platform |
 |---|---|---|---|
 | PL1: Intelligent IS Developer | ⭐⭐⭐ | ⭐ | ⭐⭐ |
 | PL2: UX & Digital Service Designer | ⭐ | ⭐ | ⭐⭐⭐ |
@@ -293,7 +296,7 @@ Agama, Pancasila, Bahasa Indonesia, Kewarganegaraan, Kewirausahaan I, KKN
 | **Agama II & Kewirausahaan II** | 0 SKS — kebijakan universitas, dipertahankan |
 | **Capstone Design** | Sem 8, kolaborasi 3 prodi (SISTEKIN + Bisnis Digital + Teknik Informatika) |
 | **MBKM** | Maks 20 SKS, Sem 6–7 |
-| **Peminatan** | 3 peminatan mulai Sem 5: P1 Smart IS (Flagship), P2 Cloud & Cyber (Volume), P3 Digital Platform (Niche) |
+| **Peminatan** | 3 peminatan mulai Sem 5: P1 Integrated Smart Systems (Flagship), P2 Cloud & Cyber (Volume), P3 Digital Platform (Niche) |
 | **Reposisi** | RPL Sem6→Sem4, Metpen Sem7→Sem6, Statistika Sem4→Sem2 |
 
 ---

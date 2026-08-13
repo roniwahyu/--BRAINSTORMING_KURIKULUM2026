@@ -79,7 +79,7 @@
 
 | Peminatan | KU1 | KU2 | KU3 |
 |---|---|---|---|
-| P1: Smart IS | ✅ Analitis AI/ML | ✅ Dokumentasi model | ✅ Data-driven |
+| P1: Integrated Smart Systems | ✅ Analitis AI/ML | ✅ Dokumentasi model | ✅ Data-driven |
 | P2: Cloud & Cyber | ✅ Logis keamanan | ✅ Komunikasi risiko | ✅ Mandiri operasional |
 | P3: Digital Platform | ✅ Inovatif desain | ✅ Kolaborasi tim | ✅ Evaluasi produk |
 

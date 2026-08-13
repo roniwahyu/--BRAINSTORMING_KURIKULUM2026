@@ -55,7 +55,7 @@ Dokumen ini menyajikan survey komprehensif, pemetaan logis, analisis mendalam, s
 | 12 | Formulasi Rumusan Nilai Akhir MK & CPL | SI Tabel 19–20 / TI 19–20 | 🔴 **Tidak Ada** | Belum ada rumus matematis untuk mengagregasi nilai CPMK menjadi Capaian CPL Mahasiswa/Angkatan. | **Susun algoritma & spreadsheet/sistem asesmen OBE** (Target Ketercapaian CPL ≥75%). |
 | 13 | Rubrik Asesmen (Holistik / Analitik / Portofolio) | SI Tabel D/E/F/I/J / TI D–G | ❓ Belum Terlihat | Rubrik penilaian untuk tugas praktikum, PjBL, dan Capstone belum didokumentasikan. | Susun minimal 1 rubrik analitik per MK praktikum dan 1 rubrik portofolio untuk Capstone. |
 | 14 | Pedoman Capstone Design (3–6 SKS) | Panduan APTIKOM SI/TI (Wajib) | ⚠️ Parsial (MK 4 SKS, ❓ Pedoman) | MK Capstone Design ada di Sem 8 (4 SKS), namun Pedoman Penyelenggaraan belum terbit. | **Terbitkan Pedoman Capstone Design**: kriteria kelompok (3-5 mhs 3 prodi), 8 artefak output, & rubrik. Naikkan ke 6 SKS. |
-| 15 | Struktur MK Pilihan & Peminatan | SI/TI Guidelines | ✅ Patuh (3 Peminatan, 18 Elektif) | 3 Peminatan (P1 Smart IS, P2 Cloud & Security, P3 Digital Platform) dengan 18 MK pilihan. | Seimbangkan jumlah MK & SKS antar-peminatan (Bagian E). |
+| 15 | Struktur MK Pilihan & Peminatan | SI/TI Guidelines | ✅ Patuh (3 Peminatan, 18 Elektif) | 3 Peminatan (P1 Integrated Smart Systems, P2 Cloud & Security, P3 Digital Platform) dengan 18 MK pilihan. | Seimbangkan jumlah MK & SKS antar-peminatan (Bagian E). |
 | 16 | Ketentuan MBKM 20 SKS & Ekuivalensi | SI Tabel M / TI Guidelines | ✅ Patuh (Dokumen 016) | Mengatur skema magang/MBKM 20 SKS di Sem 6/7 dan pemetaan konversinya. | Lengkapi dengan Pedoman Konversi SKS, Portofolio Asesmen Lapangan, dan Form Evaluasi Mitra. |
 | 17 | Skema Tugas Akhir Fleksibel (Non-Skripsi) | Permendikbud 53/2023 Pasal 18 | ⚠️ Duplikasi (Sem 8: 10 SKS) | Dokumen 011 mewajibkan Capstone (4 SKS) DAN Skripsi (6 SKS) sekaligus di Sem 8. | **Tetapkan Skema Jalur Alternatif**: Jalur Default = Capstone Design (6 SKS) OR Jalur Riset = Skripsi (6 SKS). |
 | 18 | Matriks Prasyarat Mata Kuliah | SI/TI Guidelines | ✅ Patuh (Dokumen 016) | Menyajikan alur prasyarat keilmuan antar-MK. | Audit ulang logika prasyarat (misal: Statistika FST-103 tidak boleh berprasyarat Algoritma FST-101). |
@@ -152,8 +152,8 @@ Untuk mematuhi Permendikbudristek 53/2023 dan meratakan beban praktikum (+P), di
 | 4 | STI-404 | Sistem Informasi Berbasis Cloud | 3 | Wajib STI | — | Cloud Architecture IaaS/PaaS (P3, KK3) |
 | 5 | STI-405 | Keamanan Informasi Dasar | 3 | Wajib STI | — | Cybersecurity Fundamentals (P3, KK3) |
 | 6 | FST-106 | Etika dan Hukum Digital | 2 | Wajib FST | — | UU PDP, ITE & AI Ethics (S1, KU2) |
-| 7 | STI-406 | Sistem Informasi Manajemen & BPM | 3 | Wajib STI | — | **MK BARU WAJIB** — BK06 & BK15 (P2, KK4) |
-| | | **Total Semester 4** | **20** | | **2 Praktikum** | *BK06 & BK15 terpenuhi* |
+| 7 | STI-407 | Sistem Informasi Manajemen | 3 | Wajib STI | — | **MK BARU WAJIB** — BK06 only (P2, KK4). *BPM (BK15) ditunda — keputusan: SIM saja.* |
+| | | **Total Semester 4** | **20** | | **2 Praktikum** | *BK06 terpenuhi; BK15 outstanding* |
 
 #### SEMESTER 5 — Integrasi & Spesialisasi I (19 SKS)
 | No | Kode MK | Nama Mata Kuliah | SKS | Kategori | +P | Keterangan & CPL |
@@ -240,7 +240,7 @@ Fakultas Sains dan Teknologi (FST) menyediakan 11 Mata Kuliah Kebangsaan & Fonda
 | **BK03 IT Infrastructure** | IT2017 / APTIKOM | Jaringan Komputer (3), SI Cloud (3), Sistem Operasi (3) | 🟢 Pulih sempurna (Jarkom 3 SKS kembali wajib). |
 | **BK04 IS Project Management** | IS2020 / APTIKOM | Manpro TI (3 SKS) | 🟢 Terpenuhi baik. |
 | **BK05 Systems Analysis & Design** | IS2020 / APTIKOM | APSI (3 SKS) | 🟢 Terpenuhi (BPMN & UML). |
-| **BK06 IS Management & Strategy** | IS2020 / APTIKOM | **KOSONG pada wajib 2026** [F] | 🔴 **CRITICAL GAP:** Ditutup dengan menambah `SI Manajemen & BPM` (3 SKS, Sem 4). |
+| **BK06 IS Management & Strategy** | IS2020 / APTIKOM | **Sistem Informasi Manajemen (STI-407, 3 SKS, Sem 4)** | 🟢 **TERPENUHI** — ditambahkan sebagai MK Wajib STI (P2, KK4). |
 | **BK07 Application Development** | IS2020 / IT2017 | Web BE (3), Web FE (3), Mobile (3), RPL (3), Platform Eng (4) | 🟢 Sangat Kuat (16 SKS). |
 | **BK08 Secure Computing** | IT2017 / APTIKOM | Keamanan Info Dasar (3), Keamanan & Forensik (3) | 🟢 Terpenuhi sangat baik (6 SKS). |
 | **BK09 Ethics & Implications** | IS2020 / IT2017 | Etika Digital (2 SKS) | 🟢 Terpenuhi (FST-106). |
@@ -249,7 +249,7 @@ Fakultas Sains dan Teknologi (FST) menyediakan 11 Mata Kuliah Kebangsaan & Fonda
 | **BK12 Research Methodology** | APTIKOM | Metpen (3), Seminars/Sempro (2) | 🟢 Terpenuhi (5 SKS Total). |
 | **BK13 Data / Business Analytics** | IS2020 / APTIKOM | Machine Learning (3), Deep Learning (3), Data Mining (3) | 🟢 Terpenuhi sangat kuat (9 SKS). |
 | **BK14 Personality Development** | APTIKOM | Terintegrasi MKWU Agama, Pancasila, Kewarganegaraan | 🟢 Terpenuhi (14 SKS). |
-| **BK15 Business Process Management**| IS2020 / APTIKOM | **KOSONG sebagai MK Mandiri** [F] | 🔴 **CRITICAL GAP:** Digabung dalam `SI Manajemen & BPM` (Sem 4). |
+| **BK15 Business Process Management**| IS2020 / APTIKOM | **KOSONG sebagai MK Mandiri** [F] | 🟡 **OUTSTANDING:** BPM ditunda — keputusan SIM saja (BK15 partial di APSI/BPMN). |
 | **BK16 Enterprise Architecture** | IS2020 (Pendukung) | Hanya ada di Elektif STB-06 (TOGAF) | 🟡 Terpenuhi sebagai MK Pilihan Peminatan P2 (Cukup). |
 | **BK17 User Interface Design** | IS2020 / APTIKOM | UI/UX Design (3 SKS) | 🟢 Terpenuhi baik. |
 | **BK18 Emerging Technologies (AI)** | IT2017 / APTIKOM | Pengantar AI (3), Sistem Cerdas (3), IoT (3), Integrasi AI (3) | 🟠 **Over-concentration:** Conversational AI & Smart Surveillance dipindah ke Elektif P1. |
@@ -262,7 +262,7 @@ Fakultas Sains dan Teknologi (FST) menyediakan 11 Mata Kuliah Kebangsaan & Fonda
 ### E1. Evaluasi Ketimpangan Peminatan Saat Ini [H]
 
 Struktur MK Pilihan Peminatan pada KURIKULUM2026 awal menunjukkan ketidakseimbangan alokasi MK dan SKS antar-peminatan:
-- **Peminatan P1 (Smart Information Systems):** 5 MK (15 SKS)
+- **Peminatan P1 (Integrated Smart Systems):** 5 MK (15 SKS)
 - **Peminatan P2 (Cloud Infrastructure & Cybersecurity):** 6 MK (19 SKS) — *Terdapat STB-02 berbobot 4 SKS*.
 - **Peminatan P3 (Digital Platform Engineering):** 7 MK (21 SKS) — *Terlalu banyak pilihan memecah fokus*.
 

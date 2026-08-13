@@ -4,7 +4,7 @@
 **⚠️ STATUS:** Dokumen ini sudah **DISEPINGKAN** oleh 011_STRUKTUR_KURIKULUM_TABEL.md. Gunakan 011 sebagai acuan utama.
 **Dasar:** Kurikulum 2025 berjalan (146 SKS, 56 MK) + Keputusan Final 006
 **Acuan resmi:** PANDUAN APTIKOM SI v2.0 (IS2020) + PANDUAN OBE TI 2023 (IT2017/CC2020)
-**Peminatan:** P1 Smart Information Systems · P2 Cloud Infrastructure & Cybersecurity · P3 Digital Platform Engineering
+**Peminatan:** P1 Integrated Smart Systems · P2 Cloud Infrastructure & Cybersecurity · P3 Digital Platform Engineering
 
 **Update Kode MK (Agustus 2026):**
 | Prefix | Kategori | Keterangan |
@@ -12,7 +12,7 @@
 | **MKU** | Mata Kuliah Universitas | MK Umum Universitas Widyagama |
 | **FST-** | Mata Kuliah Fakultas | Fondasi keilmuan lintas prodi FSTI (11 MK) |
 | **STI-** | Mata Kuliah Wajib Prodi | Karakteristik prodi SISTEKIN (31 MK) |
-| **STA-/STB-/STC-** | MK Pilihan Peminatan | Smart IS / Cloud & Cyber / Digital Platform |
+| **STA-/STB-/STC-** | MK Pilihan Peminatan | Integrated Smart Systems / Cloud & Cyber / Digital Platform |
 
 ---
 
@@ -37,7 +37,7 @@ Kedua buku APTIKOM hanya menyatakan *"1 s/d 3 peminatan"* tanpa menamai. Peminat
 
 | Peminatan | Nama Akademis | Nama Marketable | BoK (IS2020) | BoK (IT2017) | Karakter |
 |---|---|---|---|---|---|
-| **P1** | Smart Information Systems | *Sistem Informasi Cerdas* | BK08 Smart Systems, BK10 Data Science | AI, Machine Learning, Data Mining | AI, ML, MLOps |
+| **P1** | Integrated Smart Systems | *Sistem Informasi Cerdas* | BK08 Smart Systems, BK10 Data Science | AI, Machine Learning, Data Mining | AI, ML, MLOps |
 | **P2** | Cloud Infrastructure & Cybersecurity | *Infrastruktur Cloud & Keamanan Siber* | BK06 Infrastructure, BK12 Security | Cloud, Network Security, Forensic | Cloud, DevOps, Governance |
 | **P3** | Digital Platform Engineering | *Rekayasa Platform Digital* | BK09 E-Commerce, BK16 Entrepreneurship | Software Engineering, Web, Mobile | Platform, SaaS, Startup |
 
@@ -204,7 +204,7 @@ Kedua buku APTIKOM hanya menyatakan *"1 s/d 3 peminatan"* tanpa menamai. Peminat
 
 ## DAFTAR MK PILIHAN PER PEMINATAN
 
-### P1: Smart Information Systems (Sistem Informasi Cerdas)
+### P1: Integrated Smart Systems (Sistem Informasi Cerdas)
 **Tagline:** *"Jadi AI Expert, bukan AI Researcher"*
 **BoK:** IS2020 BK08 Smart Systems, BK10 Data Science, BK12 Security & Privacy | IT2017 AI, Machine Learning
 
@@ -270,7 +270,7 @@ Kedua buku APTIKOM hanya menyatakan *"1 s/d 3 peminatan"* tanpa menamai. Peminat
 | **MK 0 SKS** | Agama II, Kewirausahaan II | **Dipertahankan** (R1) |
 | **Beban maks** | 21 SKS (Sem 5, 6) | **≤20 SKS** semua semester |
 | **Sem 8** | 8 SKS (timpang) | **12 SKS** (Capstone + pilihan) |
-| **Peminatan** | 0 | **3** (Smart IS, Cloud & Cyber, Digital Platform) |
+| **Peminatan** | 0 | **3** (Integrated Smart Systems, Cloud & Cyber, Digital Platform) |
 | **MK Wajib** | 56 (semua) | ~44 wajib + ~21 pilihan |
 | **MBKM** | Hanya PKL 3 SKS | **Slot hingga 20 SKS** (Sem 6-7) |
 | **Tugas Akhir** | Hanya Skripsi | **Capstone Design lintas-3-prodi** (default) |
@@ -310,7 +310,7 @@ Kedua buku APTIKOM hanya menyatakan *"1 s/d 3 peminatan"* tanpa menamai. Peminat
 
 | Peminatan | MK Baru |
 |---|---|
-| **P1: Smart IS** | MLOps & AI Pipeline, Intelligent Agent Systems, Deep Learning, Conversational AI, Smart Surveillance |
+| **P1: Integrated Smart Systems** | MLOps & AI Pipeline, Intelligent Agent Systems, Deep Learning, Conversational AI, Smart Surveillance |
 | **P2: Cloud & Cyber** | Cloud Architecture & DevOps, Cybersecurity Risk, IT Governance (COBIT), ITIL, TOGAF |
 | **P3: Digital Platform** | FinTech Platform, SaaS Engineering, Agile & Scrum, Technology Leadership, XR Development |
 

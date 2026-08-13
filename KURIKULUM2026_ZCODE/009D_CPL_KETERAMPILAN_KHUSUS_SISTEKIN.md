@@ -3,7 +3,7 @@
 **Status:** Final — Berdasarkan BUKU_OBE APTIKOM, IS2020, IT2017, SURVEY_PEMETAAN & BoK
 **Tanggal:** 11 Agustus 2026
 **Sumber:** PANDUAN OBE Prodi S1 TI (IT2017) + PANDUAN OBE Prodi S1 SI (IS2020) + SURVEY_PEMETAAN
-**Peminatan:** P1: Smart IS (2 CPL), P2: Cloud & Cyber (2 CPL), P3: Digital Platform (2 CPL)
+**Peminatan:** P1: Integrated Smart Systems (2 CPL), P2: Cloud & Cyber (2 CPL), P3: Digital Platform (2 CPL)
 **Ground Truth:** KURIKULUM2025 memiliki CPL01-CPL10 (belum dikategorikan S/KU/P/KK) — CPL KK1-KK6 ini merupakan reorganisasi ke kategori Keterampilan Khusus sesuai SN-Dikti
 
 ---
@@ -12,8 +12,8 @@
 
 | CPL | Rumusan | CPL-K Asli | Peminatan |
 |---|---|---|---|
-| **KK1** | Mampu menganalisis, merancang, dan mengembangkan sistem informasi cerdas berbasis AI/ML (conversational AI, deep learning, smart systems, decision support) untuk solusi bisnis dan organisasi | K01, K09, K13, K16 | **P1: Smart IS** |
-| **KK2** | Mampu mengumpulkan, memproses, dan menganalisis data serta membangun model machine learning untuk solusi bisnis (data engineering, BI, MLOps, data visualization) | K01, K13, K16 | **P1: Smart IS** |
+| **KK1** | Mampu menganalisis, merancang, dan mengembangkan sistem informasi cerdas berbasis AI/ML (conversational AI, deep learning, smart systems, decision support) untuk solusi bisnis dan organisasi | K01, K09, K13, K16 | **P1: Integrated Smart Systems** |
+| **KK2** | Mampu mengumpulkan, memproses, dan menganalisis data serta membangun model machine learning untuk solusi bisnis (data engineering, BI, MLOps, data visualization) | K01, K13, K16 | **P1: Integrated Smart Systems** |
 | **KK3** | Mampu mengintegrasikan dan mengelola infrastruktur cloud, menerapkan keamanan siber, serta menjalankan praktik DevOps (CI/CD, containerization, infrastructure as code) | K02, K05, K06 | **P2: Cloud & Cyber** |
 | **KK4** | Mampu menerapkan tata kelola TI, melakukan audit keamanan, dan memastikan kepatuhan terhadap regulasi dan standar industri (COBIT, ITIL, ISO, risk management) | K05, K06, K07, K14 | **P2: Cloud & Cyber** |
 | **KK5** | Mampu merancang dan mengimplementasikan antarmuka pengguna (UX/UI) yang efektif serta platform digital yang skalabel (microservices, SaaS, cloud-native, API) | K03, K04, K08, K10, K11, K12 | **P3: Digital Platform** |
@@ -177,7 +177,7 @@
 
 | Peminatan | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 |
 |---|---|---|---|---|---|---|
-| **P1: Smart IS** | ⭐⭐⭐ | ⭐⭐⭐ | | | | |
+| **P1: Integrated Smart Systems** | ⭐⭐⭐ | ⭐⭐⭐ | | | | |
 | **P2: Cloud & Cyber** | | | ⭐⭐⭐ | ⭐⭐⭐ | | |
 | **P3: Digital Platform** | | | | | ⭐⭐⭐ | ⭐⭐⭐ |
 
@@ -213,8 +213,8 @@
 
 | CPL KK | Digabung dari | Peminatan |
 |---|---|---|
-| **KK1** | K01 + K09 + K13 + K16 | P1: Smart IS |
-| **KK2** | K01 + K13 + K16 | P1: Smart IS |
+| **KK1** | K01 + K09 + K13 + K16 | P1: Integrated Smart Systems |
+| **KK2** | K01 + K13 + K16 | P1: Integrated Smart Systems |
 | **KK3** | K02 + K05 + K06 | P2: Cloud & Cyber |
 | **KK4** | K05 + K06 + K07 + K14 | P2: Cloud & Cyber |
 | **KK5** | K03 + K04 + K08 + K10 + K11 + K12 | P3: Digital Platform |
@@ -226,7 +226,7 @@
 ## 11. CATATAN METODOLOGIS
 
 - CPL KK dikonsolidasi dari **3 KK (IT2017) + 17 CPL-K (IS2020)** menjadi **6 CPL KK** yang mencakup:
-  - P1: Smart IS → KK1 (AI/ML systems), KK2 (Data/ML Engineering)
+  - P1: Integrated Smart Systems → KK1 (AI/ML systems), KK2 (Data/ML Engineering)
   - P2: Cloud & Cyber → KK3 (Cloud/DevOps/Security), KK4 (Governance/Audit/Compliance)
   - P3: Digital Platform → KK5 (UX/UI/Platform), KK6 (Startup/Entrepreneurship)
 - Sesuai BUKU_OBE APTIKOM: Keterampilan Khusus mengadopsi dari IS2020/IT2017/CC2020/Seoul Accord

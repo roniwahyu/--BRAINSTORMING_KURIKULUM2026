@@ -30,12 +30,12 @@
 
 | # | Kode | Profil Lulusan | Align Visi | Peminatan | Referensi |
 |---|---|---|---|---|---|
-| **PL1** | PL-01 | Intelligent Information System Developer | "sistem informasi cerdas terintegrasi AI" | P1: Smart IS | IS2020 A3.1, IT2017, SKKNI Level 6 |
+| **PL1** | PL-01 | Intelligent Information System Developer | "sistem informasi cerdas terintegrasi AI" | P1: Integrated Smart Systems | IS2020 A3.1, IT2017, SKKNI Level 6 |
 | **PL2** | PL-02 | UI/UX Designer & Digital Platform Engineer | "teknologi informasi cerdas" | P3: Digital Platform | IS2020 A3.4, IT2017, Seoul Accord |
 | **PL3** | PL-03 | Smart System & Technology Integrator | "terintegrasi kecerdasan artifisial" | P2: Cloud & Cyber | IS2020 A3.3, IT2017, SKKNI Level 6 |
 | **PL4** | PL-04 | Technopreneur | "technopreneurship berbasis kebutuhan" | P3: Digital Platform | IS2020, KKNI Level 6 |
 | **PL5** | PL-05 | Digital System & Technology Governance Analyst | "sistem informasi cerdas berbasis AI" | P2: Cloud & Cyber | IS2020 A3.5, IT2017, COBIT/ITIL |
-| **PL6** | PL-06 | Data Analyst & Machine Learning Engineer | "sistem informasi cerdas terintegrasi AI" | P1: Smart IS | IS2020 A3.2, IT2017, SKKNI Level 6 |
+| **PL6** | PL-06 | Data Analyst & Machine Learning Engineer | "sistem informasi cerdas terintegrasi AI" | P1: Integrated Smart Systems | IS2020 A3.2, IT2017, SKKNI Level 6 |
 
 ---
 
@@ -43,7 +43,7 @@
 
 | Profil Lulusan | Akademisi | Praktisi | Technopreneur | Sub-Role |
 |---|---|---|---|---|
-| **PL1: Intelligent IS Developer** | Researcher AI/ML | AI Developer, ML Engineer | AI Startup Founder | Smart IS Engineer, Vibe Coder, AI-Augmented Developer |
+| **PL1: Intelligent IS Developer** | Researcher AI/ML | AI Developer, ML Engineer | AI Startup Founder | Integrated Smart Systems Engineer, Vibe Coder, AI-Augmented Developer |
 | **PL2: UI/UX Designer & Platform Engineer** | UX/Platform Researcher | Product Designer, Platform Engineer | Design Agency, SaaS Founder | Full-Stack Developer, Mobile Developer |
 | **PL3: Smart System Integrator** | Systems Integration Researcher | Solutions Architect, DevOps | Integration Consultancy | Cloud Engineer, DevOps Engineer |
 | **PL4: Technopreneur** | Entrepreneurship Researcher | Product Manager, CTO | Startup Founder | Tech Co-Founder, Innovation Lead |
@@ -61,7 +61,7 @@
 | Jalur | Profil Lulusan (3-5 tahun) | Indikator Terukur | Sub-Role |
 |---|---|---|---|
 | **Akademisi** | Melanjutkan S2/S3 di bidang AI/ML atau menjadi peneliti/akademisi | Publikasi jurnal, tesis/disertasi, riset terapan | — |
-| **Praktisi** | Bekerja sebagai AI/ML Engineer, Data Engineer, atau Software Developer | Proyek di produksi, sertifikasi (AWS/GCP ML) | Smart IS Engineer, Vibe Coder, AI-Augmented Developer |
+| **Praktisi** | Bekerja sebagai AI/ML Engineer, Data Engineer, atau Software Developer | Proyek di produksi, sertifikasi (AWS/GCP ML) | Integrated Smart Systems Engineer, Vibe Coder, AI-Augmented Developer |
 | **Technopreneur** | Mendirikan startup berbasis solusi AI/ML | MVP diluncurkan, revenue/pivot, funding | AI Startup Founder |
 
 ---
@@ -132,7 +132,7 @@
 
 | Peminatan | Akademisi | Praktisi | Technopreneur |
 |---|---|---|---|
-| **P1: Smart IS** | ⭐⭐⭐ (riset AI/ML) | ⭐⭐⭐ (AI Engineer) | ⭐⭐ (AI startup) |
+| **P1: Integrated Smart Systems** | ⭐⭐⭐ (riset AI/ML) | ⭐⭐⭐ (AI Engineer) | ⭐⭐ (AI startup) |
 | **P2: Cloud & Cyber** | ⭐ (riskan) | ⭐⭐⭐ (Enterprise) | ⭐ (B2B konsultan) |
 | **P3: Digital Platform** | ⭐ (riskan) | ⭐⭐⭐ (Platform Dev) | ⭐⭐⭐ (SaaS startup) |
 

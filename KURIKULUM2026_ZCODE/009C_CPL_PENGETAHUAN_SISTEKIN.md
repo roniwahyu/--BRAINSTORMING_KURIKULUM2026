@@ -121,7 +121,7 @@
 
 | Peminatan | P1 | P2 | P3 | P4 |
 |---|---|---|---|---|
-| P1: Smart IS | ✅ | ✅ | | ✅ |
+| P1: Integrated Smart Systems | ✅ | ✅ | | ✅ |
 | P2: Cloud & Cyber | ✅ | | ✅ | |
 | P3: Digital Platform | ✅ | ✅ | | ✅ |
 
@@ -132,7 +132,7 @@
 | Aspek 006 | CPL P yang Relevan |
 |---|---|
 | **6 Profil Lulusan** | P1 (foundations), P2 (SAD), P3 (tata kelola), P4 (data) |
-| **3 Peminatan** | P1: Smart IS → P2, P4; P2: Cloud & Cyber → P3; P3: Platform → P2, P4 |
+| **3 Peminatan** | P1: Integrated Smart Systems → P2, P4; P2: Cloud & Cyber → P3; P3: Platform → P2, P4 |
 | **4 MK Diganti** | Conversational AI → P2; Smart Surveillance → P3; Digital Platform → P4; Deep Learning → P4 |
 | **8 MK +Praktikum** | Smart Systems → P2; SPK → P4; Prob-Stat → P1; Integrasi AI → P2, P3 |
 

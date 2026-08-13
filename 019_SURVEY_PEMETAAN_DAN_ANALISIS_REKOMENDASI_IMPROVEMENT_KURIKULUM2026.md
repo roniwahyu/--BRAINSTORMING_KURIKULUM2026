@@ -55,7 +55,7 @@ Dokumen ini menyajikan survey komprehensif, pemetaan logis, analisis mendalam, s
 | 12 | Formulasi Rumusan Nilai Akhir MK & CPL | SI Tabel 19–20 / TI 19–20 | 🔴 **Tidak Ada** | Belum ada rumus matematis untuk mengagregasi nilai CPMK menjadi Capaian CPL Mahasiswa/Angkatan. | **Susun algoritma & spreadsheet/sistem asesmen OBE** (Target Ketercapaian CPL ≥75%). |
 | 13 | Rubrik Asesmen (Holistik / Analitik / Portofolio) | SI Tabel D/E/F/I/J / TI D–G | ❓ Belum Terlihat | Rubrik penilaian untuk tugas praktikum, PjBL, dan Capstone belum didokumentasikan. | Susun minimal 1 rubrik analitik per MK praktikum dan 1 rubrik portofolio untuk Capstone. |
 | 14 | Pedoman Capstone Design (3–6 SKS) | Panduan APTIKOM SI/TI (Wajib) | ⚠️ Parsial (MK 4 SKS, ❓ Pedoman) | MK Capstone Design ada di Sem 8 (4 SKS), namun Pedoman Penyelenggaraan belum terbit. | **Terbitkan Pedoman Capstone Design**: kriteria kelompok (3-5 mhs 3 prodi), 8 artefak output, & rubrik. Naikkan ke 6 SKS. |
-| 15 | Struktur MK Pilihan & Peminatan | SI/TI Guidelines | ✅ Patuh (3 Peminatan, 18 Elektif) | 3 Peminatan (P1 Smart IS, P2 Cloud & Security, P3 Digital Platform) dengan 18 MK pilihan. | Seimbangkan jumlah MK & SKS antar-peminatan (Bagian E). |
+| 15 | Struktur MK Pilihan & Peminatan | SI/TI Guidelines | ✅ Patuh (3 Peminatan, 18 Elektif) | 3 Peminatan (P1 Integrated Smart Systems, P2 Cloud & Security, P3 Digital Platform) dengan 18 MK pilihan. | Seimbangkan jumlah MK & SKS antar-peminatan (Bagian E). |
 | 16 | Ketentuan MBKM 20 SKS & Ekuivalensi | SI Tabel M / TI Guidelines | ✅ Patuh (Dokumen 016) | Mengatur skema magang/MBKM 20 SKS di Sem 6/7 dan pemetaan konversinya. | Lengkapi dengan Pedoman Konversi SKS, Portofolio Asesmen Lapangan, dan Form Evaluasi Mitra. |
 | 17 | Skema Tugas Akhir Fleksibel (Non-Skripsi) | Permendikbud 53/2023 Pasal 18 | ⚠️ Duplikasi (Sem 8: 10 SKS) | Dokumen 011 mewajibkan Capstone (4 SKS) DAN Skripsi (6 SKS) sekaligus di Sem 8. | **Tetapkan Skema Jalur Alternatif**: Jalur Default = Capstone Design (6 SKS) OR Jalur Riset = Skripsi (6 SKS). |
 | 18 | Matriks Prasyarat Mata Kuliah | SI/TI Guidelines | ✅ Patuh (Dokumen 016) | Menyajikan alur prasyarat keilmuan antar-MK. | Audit ulang logika prasyarat (misal: Statistika FST-103 tidak boleh berprasyarat Algoritma FST-101). |
@@ -262,7 +262,7 @@ Fakultas Sains dan Teknologi (FST) menyediakan 11 Mata Kuliah Kebangsaan & Fonda
 ### E1. Evaluasi Ketimpangan Peminatan Saat Ini [H]
 
 Struktur MK Pilihan Peminatan pada KURIKULUM2026 awal menunjukkan ketidakseimbangan alokasi MK dan SKS antar-peminatan:
-- **Peminatan P1 (Smart Information Systems):** 5 MK (15 SKS)
+- **Peminatan P1 (Integrated Smart Systems):** 5 MK (15 SKS)
 - **Peminatan P2 (Cloud Infrastructure & Cybersecurity):** 6 MK (19 SKS) — *Terdapat STB-02 berbobot 4 SKS*.
 - **Peminatan P3 (Digital Platform Engineering):** 7 MK (21 SKS) — *Terlalu banyak pilihan memecah fokus*.
 

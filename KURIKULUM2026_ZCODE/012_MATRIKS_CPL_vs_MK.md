@@ -45,22 +45,25 @@
 
 ---
 
-### 2.2 MK FAKULTAS (FST) — 11 MK, 32 SKS
+### 2.2 MK FAKULTAS (FSTI) — 14 MK, 37 SKS
 
 | No | Mata Kuliah | SMS | SKS | +P | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Algoritma Pemrograman | 1 | 3 | ✅ | | ● | | | | | | ● | | | | | | |
-| 2 | Pengantar AI (& Prompt Engineering) | 1 | 2 | — | | | | | | | | | ● | | | | | |
-| 3 | Statistika & Probabilitas | 2 | 3 | ✅ | | | | | ● | | | ● | | | | | | |
-| 4 | Basis Data | 2 | 3 | ✅ | | | | | | ● | | ● | | | | | | |
-| 5 | Basic English | 1 | 2 | — | | | ● | | | | | | | | | | | |
-| 6 | Etika dan Hukum Digital | 4 | 2 | — | ● | | ● | | | | | | | | | | | |
-| 7 | English For IT Professionals | 2 | 2 | — | | | ● | | | | | | | | | | | |
-| 8 | Metodologi Penelitian | 5 | 3 | — | | ● | ● | ● | | | | | | | | | | |
-| 9 | PKL | 6 | 3 | — | ● | ● | ● | ● | | | | | | | | ● | ● | |
-| 10 | Pra-Skripsi | 7 | 3 | — | | ● | ● | ● | | | | | | | | | | |
-| 11 | Skripsi | 8 | 6 | — | | ● | ● | ● | | | | | | | | | | |
-| | **Subtotal FST** | | **32** | **3** | **2** | **5** | **7** | **3** | **1** | **1** | **0** | **3** | **1** | **0** | **0** | **1** | **1** | **0** |
+| 1 | Dasar Teknologi Digital | 1 | 2 | — | | | | | | ● | | | | | | | | |
+| 2 | Algoritma Pemrograman | 1 | 3 | ✅ | | ● | | | | | | ● | | | | | | |
+| 3 | Struktur Data dan Strategi Algoritma | 2 | 3 | ✅ | | ● | | | | | | ● | | | | | | |
+| 4 | Pengantar kecerdasan Artifisial & Data | 2 | 3 | — | | | | | | | | | ● | | | | | |
+| 5 | Basic English | 2 | 2 | — | | | ● | | | | | | | | | | | |
+| 6 | Etika dan Hukum Digital | 2 | 2 | — | ● | | ● | | | | | | | | | | | |
+| 7 | Basis Data | 2 | 3 | ✅ | | | | | | ● | | ● | | | | | | |
+| 8 | Statistika & Probabilitas | 4 | 3 | ✅ | | | | | ● | | | ● | | | | | | |
+| 9 | English For IT Professionals | 4 | 2 | — | | | ● | | | | | | | | | | | |
+| 10 | Capstone Project | 6 | 3 | ✅ | ● | ● | ● | ● | | | | | ● | ● | ● | ● | ● | ● |
+| 11 | Metpen | 6-7 | 2 | — | | ● | ● | ● | | | | | | | | | | |
+| 12 | PKL | 6-7 | 3 | — | ● | ● | ● | ● | | | | | | | | ● | ● | |
+| 13 | Pra-Skripsi | 6-7-8 | 2 | — | | ● | ● | ● | | | | | | | | | | |
+| 14 | Skripsi | 7-8 | 6 | — | | ● | ● | ● | | | | | | | | | | |
+| | **Subtotal FSTI** | | **37** | **5** | **3** | **6** | **7** | **4** | **1** | **2** | **0** | **4** | **2** | **1** | **1** | **2** | **2** | **1** |
 
 ---
 
@@ -87,7 +90,8 @@
 | 17 | Pemrograman Mobile | 4 | 3 | ✅ | | | | | | | | ● | | | | | ● | |
 | 18 | SI Berbasis Cloud | 4 | 3 | — | | | | | | | ● | | | | ● | | | |
 | 19 | Keamanan Informasi Dasar | 4 | 3 | — | | | | | | | ● | | | | ● | | | |
-| 19 | Manajemen Proyek TI | 4 | 3 | — | | | | | | | | | | | | | ● | |
+| 19a | Sistem Informasi Manajemen | 4 | 3 | — | | | | | | ● | | | | | | ● | | |
+| 20 | Manajemen Proyek TI | 5 | 3 | — | | | | | | | | | | | | | ● | |
 | 20 | Deep Learning dan Neural Networks | 5 | 3 | ✅ | | | | | | | | | ● | ● | | | | |
 | 21 | Data Warehouse dan BI | 5 | 3 | ✅ | | | | | | ● | | | | ● | | | | |
 | 22 | Data Mining & Visualization | 5 | 3 | ✅ | | | | | | ● | | | | ● | | | | |
@@ -104,7 +108,7 @@
 
 ---
 
-### 2.4 MK PILIHAN PEMINATAN P1: Smart Information Systems (STA-) — 5 MK, 15 SKS
+### 2.4 MK PILIHAN PEMINATAN P1: Integrated Smart Systems (STA-) — 5 MK, 15 SKS
 
 | No | Mata Kuliah | SMS | SKS | +P | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
