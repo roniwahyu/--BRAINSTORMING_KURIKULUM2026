@@ -16,10 +16,10 @@
 | **STB-** | MK Pilihan Peminatan | Cloud and Cybersecurity |
 | **STC-** | MK Pilihan Peminatan | Digital Platform |
 
-**MK FSTI (Fakultas) — 14 MK (37 SKS):**
-- Dasar Teknologi Digital, Algoritma Pemrograman (+P), Struktur Data (+P), Pengantar AI & Data, Basic English, Etika & Hukum Digital, Basis Data (+P)
-- Statistika & Probabilitas (+P), English For IT Professionals, Capstone Project (+P)
-- Metpen, PKL, Pra-Skripsi, Skripsi
+**MK FSTI (Fakultas) — 14 MK (36 SKS):**
+- Dasar Teknologi Digital, Algoritma Pemrograman (+P), Struktur Data (+P), Pengantar AI & Data (2 SKS Teori), Basic English, Etika & Hukum Digital, Basis Data (+P)
+- Statistika & Probabilitas (Teori), English For IT Professionals, Capstone Project (+P)
+- Metpen, PKL (+P), Pra-Skripsi / Seminars, Skripsi (+P)
 
 **MBKM:** Program (bukan MK), dapat diakui maks 20 SKS → dikonversikan ke MK semester
 
@@ -29,17 +29,17 @@
 
 | Aspek | 2025 | 2026 | Selisih | Keterangan / Alasan |
 |---|---|---|---|---|
-| **Total SKS** | 146 | 171 | **+25** | +MK FSTI (Fakultas), +Praktikum, +MK Pilihan, +Capstone |
-| **Total MK** | 56 | 59 | **+3** | +14 MK FSTI, +1 MK Baru (Jaringan Komputer), -6 MK dihapus/diganti |
+| **Total SKS** | 146 | 170 | **+24** | +MK FSTI (Fakultas), +Praktikum, +MK Pilihan, +Capstone |
+| **Total MK** | 56 | 61 | **+5** | +14 MK FSTI, +1 MK Baru (Jaringan Komputer), -6 MK dihapus/diganti, incl. 2 MK @ 0 SKS |
 | **Semester** | 8 | 8 | 0 | Tidak berubah |
-| **MK FSTI (Fakultas)** | 0 | 14 | **+14** | Fondasi keilmuan lintas prodi FSTI (37 SKS) |
+| **MK FSTI (Fakultas)** | 0 | 14 | **+14** | Fondasi keilmuan lintas prodi FSTI (36 SKS) |
 | **MK STI (Prodi)** | 56 | 30 | **-26** | 8 MK pindah ke FSTI + 18 MK hapus/gabung + 1 MK Baru |
-| **MK +P Core** | 16 | 22 | **+6** | Tambah +P: Algoritma, Struktur Data, Probstat, Basis Data, Capstone, dll |
+| **MK +P Core** | 16 | 24 | **+8** | Tambah +P: Algoritma, Struktur Data, Basis Data, Capstone, dll |
 | **Peminatan** | 0 | 3 | **+3** | P1 Integrated Smart Systems, P2 Cloud & Cyber, P3 Digital Platform |
 | **MK Pilihan** | 0 | 9 | **+9** | 9 Pilihan per Mahasiswa di Sem 5-7 |
 | **CPL** | 10 | 14 | **+4** | Reorganisasi ke 4 kategori S/KU/P/KK + tambah KK4 |
 | **PL** | 6 | 6 | **0** | Jumlah sama, nama dan deskripsi diperbarui |
-| **Capstone** | — | 3 SKS | **+3** | Project FSTI lintas prodi di Sem 6 |
+| **Capstone** | — | 3 SKS | **+3** | Project FSTI (MK Paralel Sem 6-7-8) |
 | **MBKM** | — | Program | — | Program (bukan MK), maks 20 SKS dikonversikan |
 | **PKL** | 3 SKS | 3 SKS (FSTI) | **0** | MK FSTI (Fakultas), Paralel |
 | **Skripsi** | 6 SKS | 6 SKS (FSTI) | **0** | MK FSTI (Fakultas), Paralel |
@@ -50,11 +50,11 @@
 
 | # | Komponen | 2025 | 2026 | Selisih | Alasan Detail |
 |---|---|---|---|---|---|
-| **A** | **MKU (Universitas)** | 14 SKS | 14 SKS | 0 | Tidak berubah (6 MK) |
-| **B** | **MK FSTI (Fakultas)** | 0 SKS | 37 SKS | **+37** | 14 MK FSTI: Algoritma, AI, Struktur Data, Statistika, Basis Data, Capstone, dll |
+| **A** | **MKU (Universitas)** | 14 SKS | 14 SKS | 0 | Tidak berubah (8 MK, incl. 2 MK @ 0 SKS: Agama II & Kewirausahaan II) |
+| **B** | **MK FSTI (Fakultas)** | 0 SKS | 36 SKS | **+36** | 14 MK FSTI: Algoritma, AI (2 SKS Teori), Struktur Data, Statistika (Teori), Basis Data, Capstone, dll |
 | **C** | **MK STI (Wajib Prodi)** | 132 SKS | 93 SKS | **-39** | 8 MK pindah ke FSTI, 18 MK hapus/gabung, +1 MK baru |
 | **D** | **MK Pilihan Peminatan** | 0 SKS | 27 SKS | **+27** | 9 MK × 3 SKS (ambil 9 per mahasiswa) |
-| | **TOTAL** | **146 SKS** | **171 SKS** | **+25** | |
+| | **TOTAL** | **146 SKS** | **170 SKS** | **+24** | |
 
 ---
 
@@ -327,7 +327,7 @@
 |---|---|
 | **Struktural** | +3 Peminatan, +9 MK Pilihan, +Capstone Design |
 | **Kode MK** | Pembagian MK: MKU (Universitas), FST (Fakultas), STI (Prodi), STA/STB/STC (Peminatan) |
-| **MK FST (Fakultas)** | +11 MK FST — fondasi keilmuan lintas prodi FSTI |
+| **MK FST (Fakultas)** | +14 MK FSTI — fondasi keilmuan lintas prodi FSTI (36 SKS) |
 | **Pedagogis** | CPL: 10 → 14 (reorganisasi + tambah), +BoK mapping, PL: 6 → 6 (nama berubah) |
 | **Praktikum** | +6 MK +P Core (dari 16 → 22), +P pada Algoritma, Struktur Data, Probstat, Basis Data |
 | **MK Diganti** | 4 MK diganti (Text Mining→Conv AI, Citra→Smart Surv, E-Commerce→Platform, Signal→Deep Learning) |

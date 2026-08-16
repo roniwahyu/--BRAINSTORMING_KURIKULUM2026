@@ -1,10 +1,10 @@
 # 012 — MATRIKS TOTAL MK vs 14 CPL
 
-**Tanggal:** 10 Agustus 2026
-**Status:** FINAL — Matriks CPL–MK Lengkap (OBE Alignment)
+**Tanggal:** 13 Agustus 2026
+**Status:** FINAL — Matriks CPL–MK Lengkap (OBE Alignment, Updated 14 MK FSTI / 36 SKS)
 **Dasar:** 009 (14 CPL) + 011 (Tabel Semester)
-**Total:** ~57 MK | ~168 SKS | 14 CPL
-**Ground Truth:** KURIKULUM2025 (56 MK, 146 SKS) — file terverifikasi manusia, sudah dijalankan 2 semester
+**Total:** 61 MK | 170 SKS | 14 CPL
+**Ground Truth:** KURIKULUM2025 (56 MK, 146 SKS) — file terverifikasi manusia, disesuaikan ketentuan FSTI
 
 ---
 
@@ -31,43 +31,45 @@
 
 ## 2. MATRIKS MK → 14 CPL
 
-### 2.1 MK WAJIB UNIVERSITAS (MKU) — 6 MK, 14 SKS
+### 2.1 MK WAJIB UNIVERSITAS (MKU) — 8 MK, 14 SKS
 
 | No | Mata Kuliah | SMS | SKS | +P | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Agama | 1 | 2 | — | ● | | | | | | | | | | | | | |
+| 1 | Agama I | 1 | 2 | — | ● | | | | | | | | | | | | | |
 | 2 | Pancasila | 1 | 2 | — | ● | | | | | | | | | | | | | |
 | 3 | Bahasa Indonesia | 1 | 2 | — | | | ● | | | | | | | | | | | |
-| 4 | Kewarganegaraan | 2 | 2 | — | ● | | | | | | | | | | | | | |
-| 5 | Kewirausahaan I | 2 | 2 | — | | | | | | | | | | | | | ● |
-| 6 | KKN | — | 3 | — | ● | | ● | | | | | | | | | | | |
-| | **Subtotal MKU** | | **14** | **0** | **4** | **0** | **3** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **1** |
+| 4 | Agama II | 2 | 0 | — | ● | | | | | | | | | | | | | |
+| 5 | Kewarganegaraan | 2 | 2 | — | ● | | | | | | | | | | | | | |
+| 6 | Kewirausahaan I | 2 | 2 | — | | | | | | | | | | | | | | ● |
+| 7 | Kewirausahaan II | 4 | 0 | — | | | | | | | | | | | | | | ● |
+| 8 | KKN | — | 3 | — | ● | | ● | | | | | | | | | | | |
+| | **Subtotal MKU** | | **14** | **0** | **5** | **0** | **3** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **2** |
 
 ---
 
-### 2.2 MK FAKULTAS (FSTI) — 14 MK, 37 SKS
+### 2.2 MK FAKULTAS (FSTI) — 14 MK, 36 SKS
 
 | No | Mata Kuliah | SMS | SKS | +P | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 1 | Dasar Teknologi Digital | 1 | 2 | — | | | | | | ● | | | | | | | | |
 | 2 | Algoritma Pemrograman | 1 | 3 | ✅ | | ● | | | | | | ● | | | | | | |
 | 3 | Struktur Data dan Strategi Algoritma | 2 | 3 | ✅ | | ● | | | | | | ● | | | | | | |
-| 4 | Pengantar kecerdasan Artifisial & Data | 2 | 3 | — | | | | | | | | | ● | | | | | |
+| 4 | Pengantar kecerdasan Artifisial & Data | 2 | 2 | — | | | | | | | | | ● | | | | | |
 | 5 | Basic English | 2 | 2 | — | | | ● | | | | | | | | | | | |
 | 6 | Etika dan Hukum Digital | 2 | 2 | — | ● | | ● | | | | | | | | | | | |
 | 7 | Basis Data | 2 | 3 | ✅ | | | | | | ● | | ● | | | | | | |
-| 8 | Statistika & Probabilitas | 4 | 3 | ✅ | | | | | ● | | | ● | | | | | | |
+| 8 | Statistika & Probabilitas | 4 | 3 | — | | | | | ● | | | ● | | | | | | |
 | 9 | English For IT Professionals | 4 | 2 | — | | | ● | | | | | | | | | | | |
-| 10 | Capstone Project | 6 | 3 | ✅ | ● | ● | ● | ● | | | | | ● | ● | ● | ● | ● | ● |
+| 10 | Capstone Project | 6-7-8 | 3 | ✅ | ● | ● | ● | ● | | | | | ● | ● | ● | ● | ● | ● |
 | 11 | Metpen | 6-7 | 2 | — | | ● | ● | ● | | | | | | | | | | |
-| 12 | PKL | 6-7 | 3 | — | ● | ● | ● | ● | | | | | | | | ● | ● | |
+| 12 | PKL | 6-7 | 3 | ✅ | ● | ● | ● | ● | | | | | | | | ● | ● | |
 | 13 | Pra-Skripsi | 6-7-8 | 2 | — | | ● | ● | ● | | | | | | | | | | |
-| 14 | Skripsi | 7-8 | 6 | — | | ● | ● | ● | | | | | | | | | | |
-| | **Subtotal FSTI** | | **37** | **5** | **3** | **6** | **7** | **4** | **1** | **2** | **0** | **4** | **2** | **1** | **1** | **2** | **2** | **1** |
+| 14 | Skripsi | 7-8 | 6 | ✅ | | ● | ● | ● | | | | | | | | | | |
+| | **Subtotal FSTI** | | **36** | **5** | **3** | **6** | **7** | **4** | **1** | **2** | **0** | **4** | **2** | **1** | **1** | **2** | **2** | **1** |
 
 ---
 
-### 2.3 MK WAJIB PRODI (STI) — 31 MK, 95 SKS
+### 2.3 MK WAJIB PRODI (STI) — 30 MK, 93 SKS
 
 | No | Mata Kuliah | SMS | SKS | +P | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -76,35 +78,32 @@
 | 3 | Logika Informatika | 1 | 3 | — | | ● | | | ● | | | | | | | | | |
 | 4 | Matematika Diskrit | 2 | 3 | — | | ● | | | ● | | | | | | | | | |
 | 5 | Aljabar Linear | 2 | 3 | — | | | | | ● | | | | | | | | | |
-| 6 | Struktur Data | 2 | 3 | ✅ | | ● | | | | | | ● | | | | | | |
-| 7 | Sistem Operasi | 2 | 2 | — | | | | | | | ● | | | | | | | |
-| 8 | Web Back End Development | 3 | 3 | ✅ | | ● | | | | | | ● | | | | | | |
-| 9 | Sistem Cerdas | 3 | 2 | ✅ | | | | | | ● | | | ● | | | | | |
-| 10 | UI/UX Design | 3 | 3 | — | | | | | | | | | | | | | ● | |
-| 11 | RPL | 3 | 3 | — | | | | | | | | ● | | | | | ● | ● |
-| 12 | IoT | 3 | 3 | ✅ | | | | | | | ● | | | | ● | | | |
+| 6 | Sistem Operasi | 2 | 2 | — | | | | | | | ● | | | | | | | |
+| 7 | Analisis dan Perancangan SI | 3 | 3 | — | | ● | | | | ● | | | | | | | ● | |
+| 8 | Sistem Cerdas | 3 | 2 | — | | | | | | ● | | | ● | | | | | |
+| 9 | UI/UX Design & Prototyping | 3 | 3 | ✅ | | | | | | | | | | | | | ● | |
+| 10 | RPL | 3 | 3 | — | | | | | | | | ● | | | | | ● | ● |
+| 11 | Jaringan Komputer | 3 | 3 | ✅ | | | | | | | ● | | | | ● | | | |
+| 12 | Keamanan Informasi Dasar | 3 | 3 | — | | | | | | | ● | | | | ● | | | |
 | 13 | Web Front End Development | 3 | 3 | ✅ | | | | | | | | ● | | | | | ● | |
-| **14** | **Jaringan Komputer** | **3** | **3** | **✅** | | | | | | | ● | | | | ● | | | |
-| 15 | Machine Learning | 4 | 3 | ✅ | | | | | | ● | | | ● | ● | | | | |
-| 16 | Analisis dan Perancangan SI | 4 | 3 | — | | ● | | | | ● | | | | | | | ● | |
-| 17 | Pemrograman Mobile | 4 | 3 | ✅ | | | | | | | | ● | | | | | ● | |
-| 18 | SI Berbasis Cloud | 4 | 3 | — | | | | | | | ● | | | | ● | | | |
-| 19 | Keamanan Informasi Dasar | 4 | 3 | — | | | | | | | ● | | | | ● | | | |
-| 19a | Sistem Informasi Manajemen | 4 | 3 | — | | | | | | ● | | | | | | ● | | |
-| 20 | Manajemen Proyek TI | 5 | 3 | — | | | | | | | | | | | | | ● | |
-| 20 | Deep Learning dan Neural Networks | 5 | 3 | ✅ | | | | | | | | | ● | ● | | | | |
-| 21 | Data Warehouse dan BI | 5 | 3 | ✅ | | | | | | ● | | | | ● | | | | |
-| 22 | Data Mining & Visualization | 5 | 3 | ✅ | | | | | | ● | | | | ● | | | | |
-| 23 | Seminars | 5 | 2 | — | | ● | ● | ● | | | | | | | | | | |
-| 24 | Integrasi Layanan Cerdas AI | 6 | 3 | ✅ | | | | | | ● | | | ● | | | | | |
-| 25 | Smart City dan Pemerintahan Digital | 6 | 3 | ✅ | | | | | | | ● | | | | ● | | | |
-| 26 | Keamanan Informasi Lanjut | 6 | 3 | — | | | | | | | ● | | | | ● | | | |
-| 27 | Digital Platform Engineering | 6 | 3 | ✅ | | | | | | | | ● | | | | | ● | |
-| 28 | Conversational AI | 7 | 3 | ✅ | | | | | | | | | ● | | | | | |
-| 29 | Smart Surveillance | 7 | 3 | ✅ | | | | | | | ● | | ● | | ● | | | |
-| 30 | Startup Digital | 7 | 3 | ✅ | | | | | | | | | | | | | ● | |
-| 31 | Capstone Design | 8 | 4 | ✅ | ● | ● | ● | ● | | ● | ● | ● | ● | ● | ● | ● | ● | |
-| | **Subtotal STI** | | **98** | **20** | **1** | **5** | **4** | **2** | **3** | **7** | **7** | **7** | **7** | **4** | **7** | **2** | **8** | **2** |
+| 14 | Machine Learning | 4 | 3 | ✅ | | | | | | ● | | | ● | ● | | | | |
+| 15 | Web Back End Development | 4 | 3 | ✅ | | ● | | | | | | ● | | | | | | |
+| 16 | SI Berbasis Cloud | 4 | 3 | — | | | | | | | ● | | | | ● | | | |
+| 17 | Manajemen Proyek TI | 4 | 3 | — | | | | | | | | | | | | | ● | |
+| 18 | Deep Learning dan Neural Networks | 5 | 3 | ✅ | | | | | | | | | ● | ● | | | | |
+| 19 | Data Warehouse dan BI | 5 | 3 | ✅ | | | | | | ● | | | | ● | | | | |
+| 20 | Data Mining & Visualization | 5 | 3 | ✅ | | | | | | ● | | | | ● | | | | |
+| 21 | IoT | 5 | 3 | ✅ | | | | | | | ● | | | | ● | | | |
+| 22 | Pemrograman Mobile | 5 | 3 | ✅ | | | | | | | | ● | | | | | ● | |
+| 23 | Integrasi Layanan Cerdas AI | 6 | 3 | ✅ | | | | | | ● | | | ● | | | | | |
+| 24 | Smart City dan Pemerintahan Digital | 6 | 3 | ✅ | | | | | | | ● | | | | ● | | | |
+| 25 | Keamanan Informasi Lanjut | 6 | 3 | — | | | | | | | ● | | | | ● | | | |
+| 26 | Digital Platform Engineering | 6 | 3 | ✅ | | | | | | | | ● | | | | | ● | |
+| 27 | Conversational AI | 7 | 3 | ✅ | | | | | | | | | ● | | | | | |
+| 28 | Smart Surveillance | 7 | 3 | ✅ | | | | | | | ● | | ● | | ● | | | |
+| 29 | Startup Digital | 7 | 3 | ✅ | | | | | | | | | | | | | ● | |
+| 30 | MK Pilihan Peminatan (9 MK) | 5-7 | 27 | ✅ | | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● |
+| | **Subtotal STI** | | **93** | **18** | **1** | **5** | **4** | **2** | **3** | **7** | **7** | **7** | **7** | **4** | **7** | **2** | **8** | **2** |
 
 ---
 

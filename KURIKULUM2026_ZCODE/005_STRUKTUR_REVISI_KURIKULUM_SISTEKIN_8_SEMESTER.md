@@ -10,7 +10,7 @@
 | Prefix | Kategori | Keterangan |
 |---|---|---|
 | **MKU** | Mata Kuliah Universitas | MK Umum Universitas Widyagama |
-| **FST-** | Mata Kuliah Fakultas | Fondasi keilmuan lintas prodi FSTI (11 MK) |
+| **FST-** | Mata Kuliah Fakultas | Fondasi keilmuan lintas prodi FSTI (14 MK, 36 SKS) |
 | **STI-** | Mata Kuliah Wajib Prodi | Karakteristik prodi SISTEKIN (31 MK) |
 | **STA-/STB-/STC-** | MK Pilihan Peminatan | Integrated Smart Systems / Cloud & Cyber / Digital Platform |
 

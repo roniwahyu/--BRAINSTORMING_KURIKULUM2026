@@ -62,31 +62,33 @@ Semester 7/8: Penyelesaian
 
 ---
 
-## 2. PRA-SKRIPSI: SYARAT 110 SKS
+## 2. PRA-SKRIPSI / SEMINARS: SYARAT >100 SKS
 
-### 2.1 Ketentuan Pra-Skripsi
+### 2.1 Ketentuan Pra-Skripsi / Seminars (`FST-613`)
 
 | Aspek | Ketentuan |
 |---|---|
-| **Prasyarat Utama** | **≥110 SKS lulus** |
-| **Normal Semester** | Semester 7 |
-| **SKS** | 3 SKS |
-| **Isi** | Proposal penelitian skripsi |
-| **Evaluasi** | Ujian Proposal |
+| **Prasyarat Utama** | **>100 SKS lulus** |
+| **Normal Semester** | MK Paralel Semester 6, 7, atau 8 |
+| **SKS** | 2 SKS (MK FSTI) |
+| **Isi & Tujuan** | Menyusun Proposal Penelitian Skripsi/Tugas Akhir dan mendesiminasikannya dalam seminar terbuka |
+| **Evaluasi** | Seminar Proposal (Diseminasi Proposal Skripsi) |
 
-### 2.2 Simulasi Akumulasi SKS hingga 110 SKS
+### 2.2 Simulasi Akumulasi SKS hingga >100 SKS
 
 | Semester | SKS Semester | Akumulasi SKS | Keterangan |
 |---|---|---|---|
-| 1 | 20 | 20 | Fondasi |
-| 2 | 21 | 41 | Fondasi Lanjutan |
-| 3 | 17 | 58 | Inti Sistem |
-| 4 | 20 | 78 | Inti Lanjutan |
-| 5 | 23 | 101 | Pendalaman + Peminatan |
-| 6 | 23 | 124 | Integrasi + MBKM |
-| **7** | **21** | **145** | **≥110 SKS → Bisa Pra-Skripsi** |
+| Sem 1 | 19 | 19 | Fondasi |
+| Sem 2 | 22 | 41 | Fondasi Lanjutan |
+| Sem 3 | 20 | 61 | Inti Sistem |
+| Sem 4 | 22 | 83 | Inti Lanjutan |
+| Sem 5 | 18 | 101 | Pendalaman + Peminatan (**>100 SKS → Lulus Syarat Pra-Skripsi/Seminars**) |
+| Sem 6 | 20 | 121 | Integrasi, Capstone + MBKM (**>120 SKS → Lulus Syarat Skripsi**) |
+| Sem 7 | 21 | 142 | Profesionalisasi |
+| Sem 8 | 13 | 155 | Paket Tugas Akhir |
+| KKN | 3 | **170** | Total Graduasi |
 
-**Catatan:** Dengan 124 SKS di akhir Semester 6, mahasiswa sudah memenuhi syarat 110 SKS untuk Pra-Skripsi di Semester 7.
+**Catatan:** Dengan 101 SKS di akhir Semester 5, mahasiswa sudah memenuhi syarat >100 SKS untuk mengambil Pra-Skripsi / Seminars di Semester 6, 7, atau 8.
 
 ### 2.3 Skenario: Magang 20 SKS
 

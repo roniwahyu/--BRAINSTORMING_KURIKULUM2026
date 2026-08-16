@@ -130,24 +130,24 @@ Direktori `KURIKULUM2026_ZCODE/` menyimpan seluruh dokumen perancangan kurikulum
 | File | Deskripsi & Peran Memory AI |
 |------|-----------------------------|
 | [006_KEPUTUSAN_FINAL_ARAH_KURIKULUM_SISTEKIN.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/006_KEPUTUSAN_FINAL_ARAH_KURIKULUM_SISTEKIN.md) | **DOKUMEN KUNCI UTAMA** — Memuat Visi 2045 (AI/Smart Systems + Technopreneurship), 5 Profil Lulusan, 14 CPL, 3 Peminatan, dan aturan SKS. |
-| [007_BEDAH_STRUKTUR_KURIKULUM_SISTEKIN.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/007_BEDAH_STRUKTUR_KURIKULUM_SISTEKIN.md) | Bedah rasio MKU (6 MK/14 SKS), MK FSTI (14 MK/37 SKS), MK STI (30 MK/93 SKS), dan MK Pilihan (18 MK/54 SKS). |
+| [007_BEDAH_STRUKTUR_KURIKULUM_SISTEKIN.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_ZCODE/007_BEDAH_STRUKTUR_KURIKULUM_SISTEKIN.md) | Bedah rasio MKU (8 MK/14 SKS), MK FSTI (14 MK/36 SKS), MK STI (30 MK/93 SKS), dan MK Pilihan (18 MK/54 SKS). |
 [...unchanged lines...]
 ### 5.4 Struktur Beban SKS & Aturan Matrikulasi
 
 ```
-MKU (Wajib Universitas):         14 SKS ( 6 MK)
-FSTI (Wajib Fakultas):           37 SKS (14 MK)
+MKU (Wajib Universitas):         14 SKS ( 8 MK, incl. 2 MK @ 0 SKS)
+FSTI (Wajib Fakultas):           36 SKS (14 MK, incl. Pengantar AI 2 SKS)
 STI (Wajib Prodi):               93 SKS (30 MK)
 -----------------------------------------------
-TOTAL WAJIB:                    144 SKS (50 MK)
+TOTAL WAJIB:                    143 SKS (52 MK)
 
 Pilihan Peminatan (diambil 9):   27 SKS ( 9 MK @ 3 SKS)
 ===============================================
-TOTAL SYARAT GRADUASI:         171 SKS (59 MK)
+TOTAL SYARAT GRADUASI:         170 SKS (61 MK Total)
 ```
 
 > [!NOTE]
-> * Mahasiswa menempuh **144 SKS Wajib** + **27 SKS Pilihan Peminatan** = **171 SKS Total**.
+> * Mahasiswa menempuh **143 SKS Wajib** + **27 SKS Pilihan Peminatan** = **170 SKS Total**.
 > * MK 0 SKS (`Agama II`, `Kewirausahaan II`) adalah kebijakan Universitas UWG dan **wajib dipertahankan** tanpa merubah bobot SKS.
 > * Capstone Design Lintas Prodi (SISTEKIN + Bisnis Digital + Teknik Informatika) ditetapkan sebagai default Tugas Akhir menggantikan skripsi konvensional.
 

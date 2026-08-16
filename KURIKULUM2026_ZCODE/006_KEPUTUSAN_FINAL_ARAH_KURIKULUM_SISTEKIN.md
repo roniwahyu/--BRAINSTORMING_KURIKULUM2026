@@ -90,20 +90,27 @@ Bisnis Digital      →  menjual solusi AI (model bisnis, customer journey)
 
 ---
 
-## 5. MK YANG PERLU +PRAKTIKUM
+## 5. ANALISIS KESEIMBANGAN PRAKTIKUM (+P) vs TEORI
 
-| MK | Saat Ini | Usulan | Alasan |
-|---|---|---|---|
-| Sistem Cerdas | 2 SKS | 2 SKS (+P) | Implementasi rule-based, fuzzy, agent |
-| Conversational AI & Intelligent Assistant | 3 SKS (baru) | 3 SKS (+P) | Chatbot, voice assistant hands-on |
-| Smart Surveillance & IoT Analytics | 3 SKS (baru) | 3 SKS (+P) | IoT dashboard, vision hands-on |
-| Integrasi Layanan Cerdas AI | 3 SKS | 3 SKS (+P) | API orchestration, ML deployment |
-| Smart City & Pemerintahan Digital | 3 SKS | 3 SKS (+P) | IoT dashboard, smart system prototyping |
-| Inovasi Teknologi & Startup Digital | 3 SKS | 3 SKS (+P) | MVP, pitch deck, customer validation |
-| Probabilitas & Statistika | 3 SKS | 3 SKS (+P) | Python/R EDA hands-on |
-| Sistem Pendukung Keputusan | 3 SKS | 3 SKS (+P) | AHP/TOPSIS implementation |
+| Kelompok MK | Jumlah MK | Total SKS | Persentase SKS | Karakteristik Utama |
+|---|:---:|:---:|:---:|---|
+| **Mata Kuliah Praktikum (+P / Hands-on)** | 24 MK | 80 SKS | **47.1%** | Coding, Lab, UI/UX Prototyping, Mobile, IoT, Capstone, PKL & Skripsi |
+| **Mata Kuliah Teori / Konseptual** | 37 MK | 90 SKS | **52.9%** | Fondasi Matematika, Sistem Cerdas (2 SKS), Keamanan Dasar (3 SKS), Etika & Governance |
+| **TOTAL KURIKULUM** | **61 MK** | **170 SKS** | **100.0%** | **Distribusi Sangat Seimbang (~47:53)** |
 
-**Total:** 8 MK baru (+P). Dari 16 → 24 MK berbasis praktikum.
+### Rincian MK Praktikum Baru (+P) & Reposisi Semester:
+1. **UI/UX Design & Prototyping** (3 SKS, +P, Semester 3) — Figma design system, interactive prototyping & user testing
+2. **Web Back End Development** (3 SKS, +P, Semester 4) — REST API, Node.js/Python/PHP backend (setelah Web Front End)
+3. **Internet of Things (IoT)** (3 SKS, +P, Semester 5) — sensor, gateway, dashboard IoT (setelah Jaringan Komputer di Sem 3)
+4. **Pemrograman Aplikasi Mobile** (3 SKS, +P, Semester 5) — Android/iOS native/cross-platform (setelah Web Front End & Back End)
+5. **Conversational AI & Intelligent Assistant** (3 SKS, +P, Semester 7) — chatbot, voice assistant, RAG
+6. **Smart Surveillance & IoT Analytics** (3 SKS, +P, Semester 7) — vision, IoT dashboard
+7. **Integrasi Layanan Cerdas AI** (3 SKS, +P, Semester 6) — API orchestration, ML deployment
+8. **Smart City & Pemerintahan Digital** (3 SKS, +P, Semester 6) — smart system prototyping
+9. **Inovasi Teknologi & Startup Digital** (3 SKS, +P, Semester 7) — MVP, pitch deck, validation
+10. **Capstone Project** (3 SKS, +P, MK Paralel Sem 6-7-8) — projek kolaboratif FSTI
+
+*(Catatan: Sistem Cerdas [2 SKS, Sem 3], Keamanan Informasi Dasar [3 SKS, Sem 4], Pengantar AI & Data [2 SKS, Sem 2], dan Probabilitas & Statistika [3 SKS, Sem 4] secara resmi berstatus Mata Kuliah Teori / Non-Praktikum).*
 
 ---
 
@@ -119,26 +126,26 @@ Bisnis Digital      →  menjual solusi AI (model bisnis, customer journey)
 | **STB-** | MK Pilihan Peminatan | Cloud and Cybersecurity |
 | **STC-** | MK Pilihan Peminatan | Digital Platform |
 
-### MK Universitas (MKU) — 6 MK, 14 SKS
-Agama, Pancasila, Bahasa Indonesia, Kewarganegaraan, Kewirausahaan I, KKN
+### MK Universitas (MKU) — 8 MK, 14 SKS
+Agama I (2 SKS, Sem 1), Pancasila (2 SKS, Sem 1), Bahasa Indonesia (2 SKS, Sem 1), Kewarganegaraan (2 SKS, Sem 2), Kewirausahaan I (2 SKS, Sem 2), Agama II (0 SKS, Sem 4 — Kebijakan UWG), Kewirausahaan II (0 SKS, Sem 4 — Kebijakan UWG), KPM (Kuliah Pengabdian Masyarakat / KKN) (3 SKS, Libur Antar Sem)
 
-### MK Fakultas (FSTI) — 14 MK, 37 SKS
+### MK Fakultas (FSTI) — 14 MK, 36 SKS
 | No | Mata Kuliah | Kode | SKS | Semester | Syarat Prasyarat | Keterangan |
 |---|---|---|---|---|---|---|
 | 1 | Dasar Teknologi Digital | FST-101 | 2 | 1 | — | **MK Baru** — fondasi IT |
 | 2 | Algoritma pemrograman | FST-102 | 3 | 1 | — | Fondasi coding (+P) |
 | 3 | Struktur Data dan Strategi Algoritma | FST-203 | 3 | 2 | FST-102 | Fondasi struktur data (+P) |
-| 4 | Pengantar kecerdasan Artifisial & Data | FST-204 | 3 | 2 | — | Dasar AI & Data (+P) |
+| 4 | Pengantar kecerdasan Artifisial & Data | FST-204 | 2 | 2 | — | **Teori (Non-+P)** — Dasar AI & Data |
 | 5 | Basic English | FST-205 | 2 | 2 | — | Bahasa Inggris dasar |
 | 6 | Etika dan Hukum Digital | FST-206 | 2 | 2 | — | PDP, UU ITE, GDPR |
 | 7 | Basis Data | FST-207 | 3 | 2 | — | Fondasi DB (+P) |
-| 8 | Statistika & Probabilitas | FST-408 | 3 | 4 | — | Fondasi statistika (+P) |
+| 8 | Statistika & Probabilitas | FST-408 | 3 | 4 | — | **Teori (Non-+P)** — Fondasi statistika |
 | 9 | English For IT Professionals | FST-409 | 2 | 4 | FST-205 | IT English profesional |
-| 10 | Capstone Project | FST-610 | 3 | 6 | — | Project kolaboratif FSTI (+P) |
+| 10 | Capstone Project | FST-610 | 3 | 6-7-8 (Paralel) | — | **MK Paralel** — Project FSTI (+P) |
 | 11 | Metpen | FST-611 | 2 | 6-7 (Paralel) | >76 SKS | Metodologi Penelitian |
-| 12 | PKL | FST-612 | 3 | 6-7 (Paralel) | >100 SKS | Praktik Kerja Lapangan |
-| 13 | Pra-Skripsi | FST-613 | 2 | 6-7-8 (Paralel) | >100 SKS | Proposal Penelitian |
-| 14 | Skripsi | FST-714 | 6 | 7-8 (Paralel) | >120 SKS | Proyek/Riset Akhir |
+| 12 | PKL | FST-612 | 3 | 6-7 (Paralel) | >100 SKS | Praktik Kerja Lapangan (+P) |
+| 13 | Pra-Skripsi / Seminars | FST-613 | 2 | 6-7-8 (Paralel) | >100 SKS | **MK Paralel** — Proposal Skripsi diseminarkan |
+| 14 | Skripsi | FST-714 | 6 | 7-8 (Paralel) | >120 SKS | Proyek/Riset Akhir (+P) |
 
 ### MK Wajib Prodi (STI) — 30 MK, 93 SKS
 | Kelompok | MK | SKS |
@@ -148,10 +155,10 @@ Agama, Pancasila, Bahasa Indonesia, Kewarganegaraan, Kewirausahaan I, KKN
 | **Data & Infra** | Sistem Operasi, Jaringan Komputer | 5 |
 | **AI/ML** | Sistem Cerdas, Machine Learning, Deep Learning, Data Mining & Visualization, DW-BI | 14 |
 | **Platform** | IoT, Web Front End Development, Pemrograman Mobile, Web Back End Development | 12 |
-| **Sistem** | RPL, Analisis SI, SI Cloud, Keamanan Dasar | 12 |
+| **Sistem** | RPL, Analisis SI, UI/UX Design & Prototyping, SI Cloud, Keamanan Dasar | 15 |
 | **Bisnis** | Manpro TI, Startup Digital | 6 |
 | **Integrasi** | Integrasi AI, Smart City, Conversational AI, Smart Surveillance, Platform Eng | 15 |
-| **Penyelesaian** | Seminars | 2 |
+| **Penyelesaian** | Seminars / Pra-Skripsi (Masuk Paket TA Paralel FSTI) | 2 |
 | **Total** | | **93** |
 
 ### MK Pilihan Peminatan — 18 MK, 55 SKS (ambil 9 = 27 SKS)
@@ -159,7 +166,7 @@ Agama, Pancasila, Bahasa Indonesia, Kewarganegaraan, Kewirausahaan I, KKN
 - **P2 Cloud & Cyber (STB)**: 6 MK, 19 SKS
 - **P3 Digital Platform (STC)**: 7 MK, 21 SKS
 
-**Total:** 59 MK | **171 SKS** (Wajib 50 MK, 144 SKS + Pilihan 9 MK, 27 SKS)
+**Total:** 61 MK | **170 SKS** (Wajib 52 MK, 143 SKS + Pilihan 9 MK, 27 SKS)
 
 **MBKM:** Program (bukan MK), dapat diakui maks 20 SKS → dikonversikan ke MK semester
 
@@ -294,7 +301,7 @@ Agama, Pancasila, Bahasa Indonesia, Kewarganegaraan, Kewirausahaan I, KKN
 | **Kalkulus** | Turun dari 4 → 3 SKS |
 | **Peminatan vs Konsentrasi** | Gunakan "peminatan" (sesuai BUKU_OBE) |
 | **Agama II & Kewirausahaan II** | 0 SKS — kebijakan universitas, dipertahankan |
-| **Capstone Design** | Sem 8, kolaborasi 3 prodi (SISTEKIN + Bisnis Digital + Teknik Informatika) |
+| **Capstone Design / Project** | Sem 6 (FST-610, 3 SKS), kolaborasi lintas prodi FSTI |
 | **MBKM** | Maks 20 SKS, Sem 6–7 |
 | **Peminatan** | 3 peminatan mulai Sem 5: P1 Integrated Smart Systems (Flagship), P2 Cloud & Cyber (Volume), P3 Digital Platform (Niche) |
 | **Reposisi** | RPL Sem6→Sem4, Metpen Sem7→Sem6, Statistika Sem4→Sem2 |
@@ -313,7 +320,7 @@ Agama, Pancasila, Bahasa Indonesia, Kewarganegaraan, Kewirausahaan I, KKN
 | `006_KEPUTUSAN_FINAL_ARAH_KURIKULUM_SISTEKIN.md` | Dokumen ini |
 | `007_BEDAH_STRUKTUR_KURIKULUM_SISTEKIN.md` | Analisis komprehensif struktur |
 | `008_LANGKAH1_PROFIL_LULUSAN_PEO.md` | Profil Lulusan & PEO (Langkah 1) |
-| `009_LANGKAH2_CPL_FORMAL.md` | CPL Formal 9 CPL (Langkah 2) |
+| `009_LANGKAH2_CPL_FORMAL.md` | CPL Formal 14 CPL (Langkah 2) |
 | `AGENTS.md` | Handoff untuk agent baru |
 | `.agent-skills.md` (5 file) | Sub-agent skills |
 

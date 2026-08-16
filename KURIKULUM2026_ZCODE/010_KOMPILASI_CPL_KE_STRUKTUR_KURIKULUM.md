@@ -13,7 +13,7 @@
 ```
 VMTS (Visi-Misi-Tujuan-Sasaran)
     └── 6 Profil Lulusan (008) × 3 Jalur Karier
-        └── 15 CPL (009A-D) dalam 4 Kategori
+        └── 14 CPL (009A-D) dalam 4 Kategori
             └── MK Core Wajib (~33 MK) + MK Pilihan Peminatan (~18 MK)
                 └── 3 Peminatan (006)
                     ├── P1: Integrated Smart Systems (Flagship)
@@ -159,7 +159,7 @@ VMTS (Visi-Misi-Tujuan-Sasaran)
 
 ---
 
-## 5. 15 CPL → MK CORE WAJIB (~33 MK)
+## 5. 14 CPL → MK CORE WAJIB (30 MK)
 
 ### 5.1 Pipa AI/ML
 
@@ -218,37 +218,39 @@ VMTS (Visi-Misi-Tujuan-Sasaran)
 
 ### 5.5 MKWU + MK Fakultas (FST)
 
-**MK Universitas (MKU) — 6 MK, 14 SKS:**
-| MK | SKS | CPL | Keterangan |
-|---|---|---|---|
-| Agama | 2 | S1 | MKWU |
-| Pancasila | 2 | S1 | MKWU |
-| Bahasa Indonesia | 2 | KU2 | MKWU |
-| Kewarganegaraan | 2 | S1 | MKWU |
-| Kewirausahaan I | 2 | KK6 | MKWU |
-| KKN | 3 | S1, KU2 | MKWU |
+**MK Universitas (MKWU) — 8 MK, 14 SKS:**
+| No | Mata Kuliah | Kode | SKS | CPL | Keterangan |
+|---|---|---|---|---|---|
+| 1 | Agama I | MKU-101 | 2 | S1 | MKWU (Sem 1) |
+| 2 | Pancasila | MKU-102 | 2 | S1 | MKWU (Sem 1) |
+| 3 | Bahasa Indonesia | MKU-103 | 2 | KU2 | MKWU (Sem 1) |
+| 4 | Kewarganegaraan | MKU-201 | 2 | S1 | MKWU (Sem 2) |
+| 5 | Kewirausahaan I | MKU-202 | 2 | KK6 | MKWU (Sem 2) |
+| 6 | Agama II | MKU-401A | 0 | S1 | MKWU — Kebijakan UWG (0 SKS, Sem 4) |
+| 7 | Kewirausahaan II | MKU-402 | 0 | KK6 | MKWU — Kebijakan UWG (0 SKS, Sem 4) |
+| 8 | KPM (Kuliah Pengabdian Masyarakat / KKN) | MKU-203 | 3 | S1, KU2 | MKWU (Libur Antar Sem) |
 
-**MK Fakultas (FSTI) — 14 MK, 37 SKS:**
+**MK Fakultas (FSTI) — 14 MK, 36 SKS:**
 | No | Mata Kuliah | Kode | SKS | Semester | Syarat Prasyarat | CPL | Keterangan |
 |---|---|---|---|---|---|---|---|
 | 1 | Dasar Teknologi Digital | FST-101 | 2 | 1 | — | P2 | **MK Baru** — fondasi IT |
 | 2 | Algoritma pemrograman | FST-102 | 3 | 1 | — | KU1, P4 | Fondasi coding (+P) |
 | 3 | Struktur Data dan Strategi Algoritma | FST-203 | 3 | 2 | FST-102 | KU1, P4 | Fondasi struktur data (+P) |
-| 4 | Pengantar kecerdasan Artifisial & Data | FST-204 | 3 | 2 | — | KK1 | Dasar AI & Data (+P) |
+| 4 | Pengantar kecerdasan Artifisial & Data | FST-204 | 2 | 2 | — | KK1 | **Teori (Non-+P)** — Dasar AI & Data |
 | 5 | Basic English | FST-205 | 2 | 2 | — | KU2 | Bahasa Inggris dasar |
 | 6 | Etika dan Hukum Digital | FST-206 | 2 | 2 | — | S1, KU2 | PDP, UU ITE, GDPR |
 | 7 | Basis Data | FST-207 | 3 | 2 | — | P2, P4 | Fondasi DB (+P) |
-| 8 | Statistika & Probabilitas | FST-408 | 3 | 4 | — | P1, P4 | Fondasi statistika (+P) |
+| 8 | Statistika & Probabilitas | FST-408 | 3 | 4 | — | P1, P4 | **Teori (Non-+P)** — Fondasi statistika |
 | 9 | English For IT Professionals | FST-409 | 2 | 4 | FST-205 | KU2 | IT English profesional |
-| 10 | Capstone Project | FST-610 | 3 | 6 | — | S1, KU1-3, KK | Project kolaboratif FSTI (+P) |
+| 10 | Capstone Project | FST-610 | 3 | 6-7-8 (Paralel) | — | S1, KU1-3, KK | **MK Paralel** — Project FSTI (+P) |
 | 11 | Metpen | FST-611 | 2 | 6-7 (Paralel) | >76 SKS | KU1, KU2, KU3 | Metodologi Penelitian |
-| 12 | PKL | FST-612 | 3 | 6-7 (Paralel) | >100 SKS | S1, KU1-KU3 | Praktik Kerja Lapangan |
-| 13 | Pra-Skripsi | FST-613 | 2 | 6-7-8 (Paralel) | >100 SKS | KU1, KU2, KU3 | Proposal Penelitian |
-| 14 | Skripsi | FST-714 | 6 | 7-8 (Paralel) | >120 SKS | S1, KU1-KU3 | Proyek/Riset Akhir |
+| 12 | PKL | FST-612 | 3 | 6-7 (Paralel) | >100 SKS | S1, KU1-KU3 | Praktik Kerja Lapangan (+P) |
+| 13 | Pra-Skripsi / Seminars | FST-613 | 2 | 6-7-8 (Paralel) | >100 SKS | KU1, KU2, KU3 | **MK Paralel** — Proposal Skripsi diseminarkan |
+| 14 | Skripsi | FST-714 | 6 | 7-8 (Paralel) | >120 SKS | S1, KU1-KU3 | Proyek/Riset Akhir (+P) |
 
 ---
 
-## 6. 15 CPL → MK PILIHAN PEMINATAN (~18 MK)
+## 6. 14 CPL → MK PILIHAN PEMINATAN (18 MK)
 
 ### 6.1 P1: Integrated Smart Systems (5 MK, ambil 3-4)
 
@@ -427,7 +429,7 @@ VMTS (Visi-Misi-Tujuan-Sasaran)
 
 ## 11. CAPSTONE DESIGN (Sem 8) → CPL COVERAGE
 
-Capstone dirancang untuk menguji **semua 15 CPL** dalam satu proyek kolaboratif lintas 3 prodi (SISTEKIN + Bisnis Digital + Teknik Informatika):
+Capstone dirancang untuk menguji **semua 14 CPL** dalam satu proyek kolaboratif lintas prodi FSTI:
 
 | CPL | Komponen Capstone |
 |---|---|
@@ -458,7 +460,7 @@ Capstone dirancang untuk menguji **semua 15 CPL** dalam satu proyek kolaboratif 
 |---|---|
 | `006_KEPUTUSAN_FINAL_ARAH_KURIKULUM_SISTEKIN.md` | Keputusan final: Visi, PL, Peminatan, MK |
 | `008_LANGKAH1_PROFIL_LULUSAN_PEO.md` | Profil Lulusan & PEO (Langkah 1) |
-| `009_LANGKAH2_CPL_FORMAL.md` | CPL Formal 15 CPL (Langkah 2) |
+| `009_LANGKAH2_CPL_FORMAL.md` | CPL Formal 14 CPL (Langkah 2) |
 | `009A_CPL_SIKAP_SISTEKIN.md` | CPL S1 — Sikap |
 | `009B_CPL_KETERAMPILAN_UMUM_SISTEKIN.md` | CPL KU1-KU3 — Keterampilan Umum |
 | `009C_CPL_PENGETAHUAN_SISTEKIN.md` | CPL P1-P4 — Pengetahuan |
@@ -468,4 +470,4 @@ Capstone dirancang untuk menguji **semua 15 CPL** dalam satu proyek kolaboratif 
 
 ---
 
-*Dokumen ini merupakan Kompilasi CPL (15 CPL) ke Struktur Kurikulum SISTEKIN berdasarkan 006 (Keputusan Final) dan 008 (Profil Lulusan). Selanjutnya adalah Langkah 3: CPMK per Mata Kuliah.*
+*Dokumen ini merupakan Kompilasi CPL (14 CPL) ke Struktur Kurikulum SISTEKIN berdasarkan 006 (Keputusan Final) dan 008 (Profil Lulusan). Selanjutnya adalah Langkah 3: CPMK per Mata Kuliah.*

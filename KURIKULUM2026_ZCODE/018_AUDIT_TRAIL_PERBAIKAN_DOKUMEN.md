@@ -437,28 +437,55 @@ User menginformasikan bahwa MK terbagi menjadi:
 2. **MK Fakultas vs MK Prodi** — MK FST (Fakultas) adalah fondasi keilmuan lintas prodi, berbeda dari MK STI (Prodi) yang spesifik SISTEKIN
 3. **MK Paralel** — Metodologi Penelitian, PKL, Pra-Skripsi, Skripsi bisa diambil di Ganjil atau Genap
 4. **MBKM = Program, bukan MK** — Dapat diakui maks 20 SKS → dikonversikan ke MK semester
-5. **Total akhir:** 59 MK | 171 SKS | 14 CPL | 3 Peminatan | 14 MK FSTI (37 SKS)
+5. **Total akhir:** 61 MK | 170 SKS | 14 CPL | 3 Peminatan | 14 MK FSTI (36 SKS)
 
 ---
 
 ### 7.6 Update Ketentuan Baru FSTI (13 Agustus 2026)
 
-- **Ketentuan MK FSTI Disesuaikan (14 MK, 37 SKS):**
-  - Dasar Teknologi Digital (FST-101, 2 SKS, Sem 1)
-  - Algoritma pemrograman (+P) (FST-102, 3 SKS, Sem 1)
-  - Struktur Data dan Strategi Algoritma (+P) (FST-203, 3 SKS, Sem 2)
-  - Pengantar kecerdasan Artifisial & Data (FST-204, 3 SKS, Sem 2)
-  - Basic English (FST-205, 2 SKS, Sem 2)
-  - Etika dan Hukum Digital (FST-206, 2 SKS, Sem 2)
-  - Basis Data (+P) (FST-207, 3 SKS, Sem 2)
-  - Statistika & Probabilitas (+P) (FST-408, 3 SKS, Sem 4)
-  - English For IT Professionals (FST-409, 2 SKS, Sem 4)
-  - Capstone Project (+P) (FST-610, 3 SKS, Sem 6)
-  - Metpen (FST-611, 2 SKS, Sem 6-7, >76 SKS)
-  - PKL (FST-612, 3 SKS, Sem 6-7, >100 SKS)
-  - Pra-Skripsi (FST-613, 2 SKS, Sem 6-7-8, >100 SKS)
-  - Skripsi (FST-714, 6 SKS, Sem 7-8, >120 SKS)
-- **Status Dokumen Terupdate:** `006`, `007`, `010`, `011`, `012`, `015`, `018`, `README.md`, `006.xlsx`, `011.xlsx` (Semua terharmonisasi ke **171 SKS / 14 MK FSTI**).
+- **Ketentuan MKWU Disesuaikan (8 MK, 14 SKS):**
+  - Agama I (MKU-101, 2 SKS, Sem 1)
+  - Pancasila (MKU-102, 2 SKS, Sem 1)
+  - Bahasa Indonesia (MKU-103, 2 SKS, Sem 1)
+  - Agama II (MKU-201A, **0 SKS**, Sem 2 — Kebijakan UWG)
+  - Kewarganegaraan (MKU-201, 2 SKS, Sem 2)
+  - Kewirausahaan I (MKU-202, 2 SKS, Sem 2)
+  - Kewirausahaan II (MKU-402, **0 SKS**, Sem 4 — Kebijakan UWG)
+  - KKN (MKU-203, 3 SKS, Libur Antar Sem)
+- **Status Dokumen Terupdate:** `006`, `007`, `010`, `011`, `012`, `015`, `018`, `README.md`, `006.xlsx`, `011.xlsx` (Semua terharmonisasi ke **170 SKS / 14 MK FSTI / 8 MKWU**).
+
+---
+
+### 7.7 Update 4 Ketentuan Spesifik MK & Pertukaran Semester (13 Agustus 2026)
+
+1. **Pengantar Kecerdasan Artifisial & Data (`FST-204`):**
+   - Diubah dari 3 SKS → **2 SKS**.
+   - Berstatus **Mata Kuliah Teori (Non-+P)**.
+2. **Probabilitas dan Statistika (`FST-408`):**
+   - 3 SKS.
+   - Berstatus **Mata Kuliah Teori (Non-+P)**.
+3. **Capstone Project (`FST-610`):**
+   - 3 SKS, **MK Paralel (Semester 6, 7, 8)**.
+4. **UI/UX Design & Prototyping (`STI-303`):**
+   - Nomenklatur disempurnakan menjadi **UI/UX Design & Prototyping** (3 SKS).
+   - Berstatus **Mata Kuliah Praktikum (+P: ✅)** (Figma design system, interactive prototyping & usability testing).
+5. **Pertukaran Posisi Web Back End & APSI:**
+   - **Web Back End Development (`STI-407`, 3 SKS, +P)** dipindahkan ke **Semester 4** (setelah *Web Front End Development* di Sem 3 & *Basis Data* di Sem 2).
+   - **Analisis dan Perancangan Sistem Informasi (`STI-301`, 3 SKS)** dipindahkan ke **Semester 3** (selevel dengan *RPL* & *UI/UX Design & Prototyping*).
+6. **Agama II (0 SKS) Dipindahkan ke Semester 4:**
+   - `Agama II` (`MKU-401A`, 0 SKS) dipindahkan dari Semester 2 ke **Semester 4** bersamaan dengan `Kewirausahaan II` (0 SKS). (Beban SKS Sem 2 & Sem 4 tetap 22 SKS).
+7. **Seminars / Pra-Skripsi (`FST-613`, 2 SKS) Menjadi Paket Tugas Akhir Paralel:**
+   - `Seminars` dipindahkan dari Semester 5 menjadi **MK Paralel (Semester 6, 7, 8)** tempat mahasiswa menyusun dan mendesiminasikan Proposal Skripsi sebelum/bersamaan dengan pengambilan *Skripsi*.
+8. **Sistem Cerdas (`STI-302`, 2 SKS, Sem 3) Ditetapkan Teori (Non-+P):**
+   - Berstatus **Mata Kuliah Teori / Non-Praktikum** sebagai fondasi konsep AI (expert systems, fuzzy logic, rule-based systems).
+9. **Keamanan Informasi Dasar (`STI-305`, 3 SKS) Dipindahkan ke Semester 3:**
+   - Dipindahkan dari Semester 4 ke **Semester 3** (selevel dengan *Jaringan Komputer* & *RPL*).
+10. **IoT (`STI-504`, 3 SKS, +P) & Pemrograman Mobile (`STI-505`, 3 SKS, +P) Dipindahkan ke Semester 5:**
+    - **Internet of Things (IoT)** dipindahkan dari Semester 3 ke **Semester 5** (setelah mahasiswa menempuh *Jaringan Komputer* di Sem 3).
+    - **Pemrograman Aplikasi Mobile** dipindahkan dari Semester 4 ke **Semester 5** (setelah *Web Front End* di Sem 3 & *Web Back End* di Sem 4).
+    - **Beban Semester 5:** 21 SKS (7 MK: Deep Learning, DW-BI, Data Mining, IoT, Mobile, 2 MK Pilihan Peminatan).
+- **Rasio Pembelajaran Akhir:** **24 MK Praktikum / 80 SKS (47.1%)** vs **37 MK Teori / 90 SKS (52.9%)**.
+- **Hasil Kalkulasi Ulang Total Kurikulum:** **61 MK | 170 SKS** (Wajib 143 SKS + Pilihan 27 SKS).
 
 ---
 

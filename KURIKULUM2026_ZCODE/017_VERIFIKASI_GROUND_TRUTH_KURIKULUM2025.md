@@ -57,8 +57,8 @@ Ditambah:
 ```
 Ditambah:
 - Ground Truth: KURIKULUM2025 (56 MK, 146 SKS) — file terverifikasi manusia, sudah dijalankan 2 semester
-- Catatan: KURIKULUM2025 = 56 MK semua wajib, 146 SKS, 0 peminatan → KURIKULUM2026 = ~57 MK, ~168 SKS, 3 peminatan, 9 MK pilihan
-- Update Kode MK: MKU (Universitas), FST- (Fakultas, 11 MK), STI- (Prodi, 31 MK), STA-/STB-/STC- (Peminatan)
+- Catatan: KURIKULUM2025 = 56 MK semua wajib, 146 SKS, 0 peminatan → KURIKULUM2026 = 61 MK, 170 SKS, 3 peminatan, 9 MK pilihan
+- Update Kode MK: MKU (Universitas), FST- (Fakultas, 14 MK), STI- (Prodi, 30 MK), STA-/STB-/STC- (Peminatan)
 ```
 
 #### 008 — PROFIL LULUSAN
@@ -89,10 +89,10 @@ Ditambah:
 #### 011 — STRUKTUR KURIKULUM
 ```
 FIXED:
-- Header: "~144 SKS" → "~168 SKS" (total aktual)
+- Header: "~144 SKS" → "171 SKS" (total aktual)
 - Ditambah:
   - Ground Truth: KURIKULUM2025 (56 MK, 146 SKS) — file terverifikasi manusia, sudah dijalankan 2 semester
-  - Update Kode MK: MKU (Universitas), FST- (Fakultas, 11 MK), STI- (Prodi, 31 MK), STA-/STB-/STC- (Peminatan)
+  - Update Kode MK: MKU (Universitas), FST- (Fakultas, 14 MK), STI- (Prodi, 30 MK), STA-/STB-/STC- (Peminatan)
   - Update MBKM: Program (bukan MK), dapat diakui maks 20 SKS → dikonversikan ke MK semester
   - Update Pra-Skripsi: Prasyarat ≥110 SKS lulus, MK FST (Fakultas)
   - Update PKL: MK FST (Fakultas), Paralel (Ganjil/Genap)

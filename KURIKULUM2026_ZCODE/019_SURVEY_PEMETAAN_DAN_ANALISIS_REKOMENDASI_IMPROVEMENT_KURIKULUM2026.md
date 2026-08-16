@@ -205,7 +205,7 @@ Untuk mematuhi Permendikbudristek 53/2023 dan meratakan beban praktikum (+P), di
 
 ## C. SURVEY & ANALISIS MENDALAM MK FAKULTAS (FST)
 
-Fakultas Sains dan Teknologi (FST) menyediakan 11 Mata Kuliah Kebangsaan & Fondasi Sains Komputer (total 32 SKS) untuk memperkuat keilmuan lintas program studi. Berikut adalah analisis kritis dan pemetaan perubahannya:
+Fakultas Sains dan Teknologi (FSTI) menyediakan 14 Mata Kuliah Kebangsaan & Fondasi Sains Komputer (total 37 SKS) untuk memperkuat keilmuan lintas program studi. Berikut adalah analisis kritis dan pemetaan perubahannya:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐

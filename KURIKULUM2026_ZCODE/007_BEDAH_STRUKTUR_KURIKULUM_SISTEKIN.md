@@ -1,15 +1,15 @@
 # 007 — BEDAH STRUKTUR KURIKULUM SISTEKIN: ANALISIS KOMPREHENSIF
 
 **Tanggal:** 13 Agustus 2026
-**Status:** Analisis lengkap struktur kurikulum dengan 3 peminatan (Updated 14 MK FSTI / 37 SKS)
+**Status:** Analisis lengkap struktur kurikulum dengan 3 peminatan (Updated 14 MK FSTI / 36 SKS)
 **Ground Truth:** KURIKULUM2025 (56 MK, 146 SKS) — file terverifikasi manusia, sudah dijalankan 2 semester
-**Catatan:** KURIKULUM2025 = 56 MK semua wajib, 146 SKS, 0 peminatan → KURIKULUM2026 = 59 MK, 171 SKS, 3 peminatan, 9 MK pilihan
+**Catatan:** KURIKULUM2025 = 56 MK semua wajib, 146 SKS, 0 peminatan → KURIKULUM2026 = 61 MK, 170 SKS, 3 peminatan, 9 MK pilihan
 
 ### Kode Mata Kuliah
 | Prefix | Kategori |
 |---|---|
-| **MKU** | Mata Kuliah Universitas (6 MK, 14 SKS) |
-| **FST-** | Mata Kuliah Fakultas (14 MK, 37 SKS) |
+| **MKU** | Mata Kuliah Universitas (8 MK, 14 SKS, incl. 2 MK @ 0 SKS) |
+| **FST-** | Mata Kuliah Fakultas (14 MK, 36 SKS) |
 | **STI-** | Mata Kuliah Wajib Prodi (30 MK, 93 SKS) |
 | **STA-/STB-/STC-** | MK Pilihan Peminatan (18 MK, 55 SKS) |
 
@@ -19,35 +19,35 @@
 
 | Komponen | Jumlah | Keterangan |
 |---|---|---|
-| **Total SKS** | 171 | Wajib 144 + Pilihan 27 |
-| **Total MK** | 59 | Wajib 50 + Pilihan 9 |
-| **MK Universitas (MKU)** | 6 | 14 SKS |
-| **MK Fakultas (FSTI)** | 14 | 37 SKS |
+| **Total SKS** | 170 | Wajib 143 + Pilihan 27 |
+| **Total MK** | 61 | Wajib 52 + Pilihan 9 (incl. 2 MK 0 SKS) |
+| **MK Universitas (MKWU)** | 8 | 14 SKS (6 MK ber-SKS + 2 MK 0 SKS) |
+| **MK Fakultas (FSTI)** | 14 | 36 SKS (incl. Pengantar AI & Data 2 SKS Teori) |
 | **MK Wajib Prodi (STI)** | 30 | 93 SKS |
 | **MK Pilihan Peminatan** | 9 | 27 SKS (ambil 9 dari 18) |
 | **Peminatan** | 3 | P1 Integrated Smart Systems, P2 Cloud & Cyber, P3 Digital Platform |
-| **Semester** | 8 | 13-23 SKS/sem |
+| **Semester** | 8 | 13-22 SKS/sem |
 
 ---
 
 ## 2. ANALISIS PER SEMESTER
 
 | Semester | SKS | MK | Karakter | Status |
-|---|---|---|---|---|
-| **Sem 1** | 18 | 7 | Fondasi | ✅ Seimbang |
-| **Sem 2** | 19 | 7 | Fondasi Lanjut | ✅ Seimbang |
-| **Sem 3** | 19 | 7 | Inti Keilmuan | ✅ Seimbang |
-| **Sem 4** | 19 | 9 | Inti Lanjut | ⚠️ MK banyak (9) |
-| **Sem 5** | 20 | 8 | Awal Peminatan | ✅ Seimbang |
-| **Sem 6** | 20 | 6 | Peminatan + MBKM | ✅ Seimbang |
-| **Sem 7** | 20 | 6 | Peminatan Lanjut | ✅ Seimbang |
-| **Sem 8** | 12 | 3 | Capstone & TA | ✅ Ringan |
+|---|:---:|:---:|---|---|
+| **Sem 1** | 19 | 8 | Fondasi Keilmuan & Basic IT | ✅ Seimbang |
+| **Sem 2** | 22 | 9 | Fondasi Lanjutan & Math/Database (Pengantar AI 2 SKS Teori) | ✅ Ideal (22 SKS) |
+| **Sem 3** | 20 | 7 | Core SE, APSI, Sistem Cerdas (2 SKS Teori), Keamanan Dasar & UI/UX (+P) | ✅ Seimbang |
+| **Sem 4** | 17 | 8 | Core AI, Web Back End (+P), Cloud & 2 MK 0 SKS (Agama II & KWU II) | ✅ Ringan & Fokus (17 SKS) |
+| **Sem 5** | 21 | 7 | Deep Learning (+P), Analytics (+P), IoT (+P), Mobile (+P) & 2 MK Peminatan | ✅ Hand-on Lab & Peminatan |
+| **Sem 6** | 20 | 7 | Integrasi AI, Smart City & Capstone (MK Paralel Sem 6-7-8) | ✅ Seimbang |
+| **Sem 7** | 21 | 7 | Conversational AI, Startup & 5 MK Pilihan Peminatan | ✅ Seimbang |
+| **Sem 8 / Paralel** | 13 | 4 | Metpen, PKL, Seminars (Proposal), Skripsi | ✅ Fokus Paket Tugas Akhir |
+| **KPM / KKN (Antar Sem)** | 3 | 1 | Kuliah Pengabdian Masyarakat | ✅ Mandiri |
+| **TOTAL GRADUASI** | **170** | **61** | **Wajib 143 SKS + Pilihan 27 SKS** | **Graduasi 8 Sem** |
 
 ---
 
 ## 3. ANALISIS PER PEMINATAN
-
-### P1: Integrated Smart Systems
 
 | Aspek | Status |
 |---|---|
@@ -79,7 +79,17 @@
 
 ---
 
-## 4. GAP ANALISIS vs KEPUTUSAN FINAL (006)
+## 4. ANALISIS KESEIMBANGAN PRAKTIKUM (+P) vs TEORI
+
+| Jenis Pembelajaran | Jumlah MK | Total SKS | Persentase SKS | Evaluasi Kesimbangan |
+|---|:---:|:---:|:---:|---|
+| **Mata Kuliah Praktikum (+P / Hands-on)** | 24 MK | 80 SKS | **47.1%** | **Sangat Seimbang** — coding, lab, UI/UX prototyping, mobile, IoT, Capstone |
+| **Mata Kuliah Teori & Konseptual** | 37 MK | 90 SKS | **52.9%** | **Sangat Seimbang** — fondasi teori, Sistem Cerdas (2 SKS), Keamanan Dasar, etika & governance |
+| **TOTAL** | **61 MK** | **170 SKS** | **100.0%** | **Rasio Ideal ~47:53 Berbasis OBE & Industri** |
+
+---
+
+## 5. GAP ANALISIS vs KEPUTUSAN FINAL (006)
 
 | Keputusan di 006 | Status di 005 | Aksi |
 |---|---|---|

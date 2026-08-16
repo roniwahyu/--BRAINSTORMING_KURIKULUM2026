@@ -11,7 +11,7 @@
 | Prefix | Kategori |
 |---|---|
 | **MKU** | Mata Kuliah Universitas |
-| **FST-** | Mata Kuliah Fakultas (11 MK) |
+| **FST-** | Mata Kuliah Fakultas (14 MK, 37 SKS) |
 | **STI-** | Mata Kuliah Wajib Prodi (31 MK) |
 | **STA-/STB-/STC-** | MK Pilihan Peminatan |
 

@@ -131,7 +131,7 @@
 | **KU (Keterampilan Umum)** | 3 | KU1, KU2, KU3 |
 | **P (Pengetahuan)** | 4 | P1, P2, P3, P4 |
 | **KK (Keterampilan Khusus)** | 6 | KK1, KK2, KK3, KK4, KK5, KK6 |
-| **Total** | **15 CPL** | |
+| **Total** | **14 CPL** | |
 
 ---
 

@@ -37,7 +37,7 @@
 | **Keterampilan Umum (KU)** | `009B_CPL_KETERAMPILAN_UMUM_SISTEKIN.md` | KU1, KU2, KU3 — dari SN-Dikti KU1-KU9 |
 | **Pengetahuan (P)** | `009C_CPL_PENGETAHUAN_SISTEKIN.md` | P1, P2, P3, P4 — dari 17 CPL-P (IS2020) + 2 CPL-P (IT2017) |
 | **Keterampilan Khusus (KK)** | `009D_CPL_KETERAMPILAN_KHUSUS_SISTEKIN.md` | KK1-KK6 — dari 17 CPL-K (IS2020) + 3 CPL-K (IT2017), dengan BoK mapping |
-| **Ringkasan & BoK Mapping** | `009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.md` | Kompilasi 15 CPL + BoK IS2020/IT2017 + PL + Peminatan + VMTS |
+| **Ringkasan & BoK Mapping** | `009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.md` | Kompilasi 14 CPL + BoK IS2020/IT2017 + PL + Peminatan + VMTS |
 
 ---
 
@@ -81,7 +81,7 @@
 ## 5. CATATAN PENTING
 
 ### CPL vs CPMK
-- **CPL** = Capaian Pembelajaran Lulusan (level prodi, 15 CPL)
+- **CPL** = Capasiain Pembelajaran Lulusan (level prodi, 14 CPL)
 - **CPMK** = Capaian Pembelajaran Mata Kuliah (level MK, diturunkan dari CPL)
 - CPL akan dijabarkan ke CPMK di Langkah 3
 
@@ -125,4 +125,4 @@
 
 ---
 
-*Dokumen ini merupakan Langkah 2 dari Master Workflow: CPL Formal (15 CPL). Selanjutnya adalah Langkah 3: Matriks BoK (CPL → BK → MK) dan Kompilasi ke Struktur Kurikulum (010).*
+*Dokumen ini merupakan Langkah 2 dari Master Workflow: CPL Formal (14 CPL). Selanjutnya adalah Langkah 3: Matriks BoK (CPL → BK → MK) dan Kompilasi ke Struktur Kurikulum (010).*
