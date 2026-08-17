@@ -304,7 +304,65 @@ Ditetapkan standar kesetaraan: **Tiap peminatan memiliki tepat 6 Mata Kuliah (@ 
 
 ---
 
-## F. UJI KESELARASAN KURIKULUM2026 DENGAN VMTS SISTEKIN 2045
+### E3. Audit Lanjutan: Konflik Substansi & Redundansi Portofolio P3 [H/A] *(Addendum 17 Agustus 2026)*
+
+> **Konteks:** Setelah penyeimbangan 3 Peminatan @ 6 MK/18 SKS dikonfirmasi (E2), audit lanjutan menemukan masalah **redundansi substansial** di dalam portofolio P3 itu sendiri.
+
+#### E3.1 Konflik Level MK: STI-701 (Wajib) vs STC-02 & STC-03 (Pilihan P3)
+
+| MK | Status | BoK | Substansi Inti |
+|---|---|---|---|
+| `STI-701 Digital Platform Engineering` (Sem 7, 3 SKS) | **WAJIB** — Semua mahasiswa STI | BK07 | Microservices, API Gateway, CI/CD, Redis/Kafka |
+| `STC-02 EdTech Platform Development` (3 SKS, +P) | Pilihan P3 | BK07 | LMS Architecture, SCORM/xAPI, Gamification API |
+| `STC-03 FinTech Platform Development` (3 SKS, +P) | Pilihan P3 | BK07 | Payment Gateway, Ledger, PCI-DSS, Webhook |
+
+**Temuan [H]:** STC-02 dan STC-03 keduanya membangun di atas arsitektur yang sama dengan STI-701. Persentase tumpang tindih substansi teknis antar ketiganya diestimasi ~70% (pola auth JWT/OAuth2, multi-tier web architecture, REST API, database pattern identik). Hanya **domain konten** yang berbeda (LMS vs Payment), bukan kompetensi platform engineering yang dikembangkan.
+
+#### E3.2 Redundansi Tambahan yang Teridentifikasi di P3
+
+| MK Pilihan P3 | Tumpang Tindih Dengan | Jenis Redundansi | Verdict |
+|---|---|---|---|
+| `STC-05 SaaS Architecture & Cloud-Native` | `STI-404 SI Berbasis Cloud` (Wajib Sem 4) + `STB-02 Cloud Arch & DevOps` (Pilihan P2) | SaaS = sub-set Cloud; mhs P3 sudah punya fondasi cloud dari STI-404 | ⚠️ Pertahankan dengan penajaman fokus **multi-tenancy & billing engine** |
+| `STC-06 Agile & Scrum for Digital Product` | `STI-406 Manajemen Proyek TI` (Wajib Sem 4) | STI-406 sudah mencakup Scrum & Waterfall; STC-06 terlalu mirip | ⚠️ Ubah fokus ke **Product Management** (bukan Project Management): discovery, roadmap, OKR |
+| `STC-02 EdTech + STC-03 FinTech` | Satu sama lain & STI-701 | ~70% substansi identik; hanya domain yang beda | ❌ Konsolidasi atau ganti |
+
+#### E3.3 Gap Kritis BoK IS2020 yang Ditemukan
+
+Berdasarkan tabel §D1 dokumen ini, **BK15 Business Process Management** adalah satu-satunya BoK IS2020 yang **belum terwakili** sebagai MK mandiri di seluruh kurikulum 2026. Slot yang terbebas dari konsolidasi STC-02+STC-03 merupakan peluang strategis untuk menutup gap ini.
+
+#### E3.4 Tiga Skenario Restrukturisasi P3 [A]
+
+| Skenario | Perubahan STC-02 & STC-03 | MK Pengganti Slot Bebas | BoK yang Tertutup | Rekomendasi |
+|---|---|---|---|---|
+| **S1 ⭐ Rekomendasi Asesor** | Digabung menjadi **`STC-02: Industry Vertical Application Development`** (3 SKS, +P) — 1 MK dengan 2 track domain (EdTech track minggu 4-6, FinTech track minggu 7-9) | **`STC-03: Business Process Automation & Low-Code Platform`** (3 SKS, +P: OutSystems/Mendix/UiPath/Bubble) | **BK15** (KOSONG → Tertutup). Cakupan BoK IS2020 = **19/19 lengkap** | ✅ **Terkuat untuk LAM INFOKOM** |
+| **S2** | Digabung → 1 MK `Industry Vertical Application Dev` (3 SKS) + slot kosong dibiarkan sebagai cadangan | — (tidak ada pengganti) | BK15 tetap kosong | ⚠️ Numerik cukup tapi gap BoK tidak tertutup |
+| **S3** | Dipertahankan 2 MK namun nama & fokus diubah radikal: `STC-02` → *Adaptive Learning Systems & AI in Education*; `STC-03` → *Secure Financial Systems & Open Banking API* | — | BK17 + BK08 (lebih diferensiatif) | ⚠️ Diferensiasi lebih jelas tapi beban dosen spesialis meningkat |
+
+> ⭐ **Nama gabungan `Industry Vertical Application Development`** dipilih (bukan *Vertical Platform Engineering*) untuk **menghindari konflik nama** dengan `STI-701 Digital Platform Engineering` yang merupakan MK Wajib di Semester 7.
+
+#### E3.5 Portofolio P3 Final Setelah Skenario 1 Diterapkan
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│ PEMINATAN P3 (REVISI USULAN S1): DIGITAL PLATFORM ENGINEERING & TECHNOPRENEURSHIP      │
+│                                                    Tetap 6 MK / 18 SKS                │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│  STC-01: Advanced UX Research & Usability Testing (3 SKS, +P)          ← TETAP        │
+│  STC-02: Industry Vertical Application Development (3 SKS, +P)         ← GABUNGAN BARU │
+│          [Track A: EdTech — LMS, SCORM/xAPI, Gamification]                            │
+│          [Track B: FinTech — Payment Gateway, Ledger, PCI-DSS]                        │
+│  STC-03: Business Process Automation & Low-Code Platform (3 SKS, +P)   ← PENGGANTI    │
+│          [BK15: OutSystems, Mendix, UiPath RPA, Bubble, n8n]                          │
+│  STC-04: Immersive Media & XR Development (3 SKS, +P)                  ← TETAP        │
+│  STC-05: SaaS & Multi-Tenant Platform Architecture (3 SKS, +P)         ← DIPERTAJAM   │
+│  STC-06: Digital Product Management & Growth Strategy (3 SKS)          ← DIUBAH FOKUS │
+│          [Bukan Project Mgmt — fokus: discovery, OKR, roadmap, GTM]                   │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+> ⚠️ **Status Implementasi:** PENDING DECISION. Perubahan pada Dokumen 011 & 020 terkait P3 BELUM dilakukan sampai ada konfirmasi pemilihan skenario. Detail rekam jejak di **[018] Section 7.11**.
+
+---
 
 ### F1. Rumusan Visi & Misi Terverifikasi [F]
 
@@ -335,20 +393,22 @@ Ditetapkan standar kesetaraan: **Tiap peminatan memiliki tepat 6 Mata Kuliah (@ 
 
 ```
 [P0: KEBUTUHAN DARURAT (1-2 MINGGU)]
- ├── 1. Disahkan Beban Minimal Lulus = Total Paket Kurikulum = Tepat 144 SKS.
- ├── 2. Terapkan Redistribusi Semester 1 & 2 (Max 20 SKS/Sem, Patuh Permendikbud 53).
- ├── 3. Sepakati Single-Track Tugas Akhir Sem 8 (Capstone 6 SKS OR Skripsi 6 SKS).
- └── 4. Kunci Kodefikasi Tunggal (Eliminasi duplikasi kode FST vs STI).
+ ├── 1. Disahkan Beban Minimal Lulus = Total Paket Kurikulum = Tepat 144 SKS.         ✅ SELESAI
+ ├── 2. Terapkan Redistribusi Semester 1 & 2 (Max 20 SKS/Sem, Patuh Permendikbud 53). ✅ SELESAI
+ ├── 3. Sepakati Single-Track Tugas Akhir Sem 8 (Capstone 6 SKS OR Skripsi 6 SKS).   ✅ SELESAI
+ ├── 4. Kunci Kodefikasi Tunggal (Eliminasi duplikasi kode FST vs STI).               ⏳ ONGOING
+ └── 5. [BARU] Putuskan Restrukturisasi Portofolio P3 (Pilih S1/S2/S3 di §E3.4).     ❌ PENDING
 
 [P1: KEBUTUHAN OBE & AKREDITASI (1-2 BULAN)]
- ├── 1. Produksi Massal RPS & Rumusan CPMK/Sub-CPMK untuk 45 MK (Format Bloom/ABCD).
- ├── 2. Susun Matriks Bahan Kajian ↔ Mata Kuliah (Matriks BK-MK) 19 BoK.
- ├── 3. Terbitkan 3 Pedoman Resmi: (a) Pedoman Capstone Design, (b) Pedoman MBKM 20 SKS, (c) Pedoman TA Dual-Track.
- └── 4. Tetapkan Skema Bobot Asesmen (Σ=100%) & Rubrik Portofolio CPL.
+ ├── 1. Produksi Massal RPS & Rumusan CPMK/Sub-CPMK untuk 44 MK Wajib (Format Bloom/ABCD).
+ ├── 2. Susun Matriks Bahan Kajian ↔ Mata Kuliah (Matriks BK-MK) 19 BoK IS2020.
+ ├── 3. [BARU] Susun MK STC-03 BK15 (Business Process Automation & Low-Code) jika S1 dipilih.
+ ├── 4. Terbitkan 3 Pedoman Resmi: (a) Pedoman Capstone Design, (b) Pedoman MBKM 20 SKS, (c) Pedoman TA Dual-Track.
+ └── 5. Tetapkan Skema Bobot Asesmen (Σ=100%) & Rubrik Portofolio CPL.
 
 [P2: PENJAMINAN MUTU & IMPLEMENTASI (3-12 BULAN)]
  ├── 1. Implementasikan Sistem Informasi Asesmen OBE (Penghitungan Nilai CPL Mhs/Angkatan).
- ├── 2. Penyeimbangan MK Peminatan (Format 6 MK @ 3 SKS per Peminatan).
+ ├── 2. Penajaman fokus STC-05 (multi-tenancy & billing) dan STC-06 (Product Management → bukan Scrum).
  ├── 3. Sosialisasikan Kurikulum 2026 kepada Mahasiswa, Dosen, dan Mitra Industri.
  └── 4. Jalankan Siklus Penjaminan Mutu PPEPP.
 ```
@@ -372,3 +432,4 @@ Ditetapkan standar kesetaraan: **Tiap peminatan memiliki tepat 6 Mata Kuliah (@ 
 1. Seluruh analisis kuantitatif dalam dokumen ini diturunkan langsung dari audit matematis independen terhadap daftar Mata Kuliah Dokumen 011, 012, 015, dan Buku OBE APTIKOM S1-SI v2.0 & S1-TI 2023.
 2. Penggunaan label **[F]**, **[A]**, dan **[H]** menjamin transparansi antara fakta dokumen, rekomendasi keahlian asesor, dan verifikasi perhitungan numerik.
 3. Dokumen 019 ini berlaku sebagai referensi utama perbaikan struktur kurikulum sebelum penerbitan Surat Keputusan (SK) Dekan/Rektor terkait Kurikulum 2026 SISTEKIN UWG.
+4. **[Addendum 17 Agustus 2026]** Section E3 ditambahkan berdasarkan audit lanjutan redundansi portofolio P3. Status implementasi: PENDING DECISION (lihat [018] §7.11 & [020] §3.2).

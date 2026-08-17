@@ -57,51 +57,52 @@
 
 ---
 
-## SEMESTER 2 — Fondasi Lanjutan (22 SKS)
+## SEMESTER 2 — Fondasi Lanjutan (20 SKS)
 
 | No | Mata Kuliah | Kode | SKS | +P | CPL | Keterangan |
 |---|---|---|---|---|---|---|
-| 1 | Matematika Diskrit | STI-201 | 3 | — | P1, KU1 | |
-| 2 | Aljabar Linear | STI-202 | 3 | — | P1 | |
-| 3 | Struktur Data dan Strategi Algoritma | FST-203 | 3 | ✅ | KU1, P4 | +P: Prasyarat FST-102 |
-| 4 | Pengantar kecerdasan Artifisial & Data | FST-204 | 2 | — | KK1 | **FSTI** — **Teori (Non-+P)** — 2 SKS |
-| 5 | Basic English | FST-205 | 2 | — | KU2 | **FSTI** — bahasa dasar |
+| 1 | Matematika Diskrit | STI-201 | 3 | — | P1, KU1 | Fondasi diskrit |
+| 2 | Aljabar Linear | STI-202 | 3 | — | P1 | Fondasi matriks & aljabar AI |
+| 3 | Struktur Data dan Strategi Algoritma | FST-203 | 3 | ✅ | KU1, P4 | **FSTI** — +P: Prasyarat FST-102 |
+| 4 | Pengantar kecerdasan Artifisial & Data | FST-204 | 2 | — | KK1 | **FSTI** — **Teori (Non-+P)** — Dasar AI |
+| 5 | Basic English | FST-205 | 2 | — | KU2 | **FSTI** — Bahasa Inggris dasar |
 | 6 | Etika dan Hukum Digital | FST-206 | 2 | — | S1, KU2 | **FSTI** — PDP, UU ITE, GDPR |
 | 7 | Basis Data | FST-207 | 3 | ✅ | P2, P4 | **FSTI** — +P: SQL, desain DB |
-| 8 | Kewarganegaraan | MKU-201 | 2 | — | S1 | MKWU |
-| 9 | Kewirausahaan I | MKU-202 | 2 | — | KK6 | MKWU |
-| | **Total Semester 2** | | **22** | | | |
+| 8 | Kewirausahaan I | MKU-202 | 2 | — | KK6 | MKWU (Fondasi Technopreneurship) |
+| | **Total Semester 2** | | **20** | | | **Patuh Permendikbud 53 (≤20 SKS)** |
 
 ---
 
-## SEMESTER 3 — Inti Sistem (17 SKS)
+## SEMESTER 3 — Inti Sistem (20 SKS)
 
 | No | Mata Kuliah | Kode | SKS | +P | CPL | Keterangan |
 |---|---|---|---|---|---|---|
 | 1 | **Analisis dan Perancangan Sistem Informasi (APSI)** | **STI-301** | **3** | **—** | **P2, KU1** | **BPMN, UML, Requirement Engineering** |
 | 2 | **Sistem Cerdas** | **STI-302** | **2** | **—** | **P2, KK1** | **Teori (Non-+P) — Rule-based, fuzzy, AI foundation** |
 | 3 | **UI/UX Design & Prototyping** | **STI-303** | **3** | **✅** | **KK5** | **+P: Design system, Figma interactive prototyping** |
-| 4 | Rekayasa Perangkat Lunak (RPL) | STI-304 | 3 | — | P4, KK5, KK6 | Reposisi dari Sem 6→Sem 4 → Sem 3 |
-| 5 | **Jaringan Komputer** | **STI-307** | **3** | **✅** | **P3, KK3** | **+P: TCP/IP, OSI, subnetting, Wireshark** |
-| 6 | Web Front End Development | STI-306 | 3 | ✅ | P4, KK5 | +P: frontend + backend |
-| | **Total Semester 3** | | **17** | | | |
+| 4 | Rekayasa Perangkat Lunak (RPL) | STI-304 | 3 | — | P4, KK5, KK6 | Software engineering lifecycle |
+| 5 | **Sistem Operasi** | **STI-305** | **3** | **—** | **P3, KK3** | **Manajemen proses, memori, virtualisasi** |
+| 6 | Web Front End Development | STI-306 | 3 | ✅ | P4, KK5 | +P: HTML/CSS/JS, frontend framework |
+| 7 | **Jaringan Komputer** | **STI-307** | **3** | **✅** | **P3, KK3** | **+P: TCP/IP, OSI, subnetting, Wireshark** |
+| | **Total Semester 3** | | **20** | | | |
 
 ---
 
-## SEMESTER 4 — Inti Lanjutan (20 SKS)
+## SEMESTER 4 — Inti Lanjutan & Karakter (19 SKS / 22 SKS Formal)
 
 | No | Mata Kuliah | Kode | SKS | +P | CPL | Keterangan |
 |---|---|---|---|---|---|---|
 | 1 | Machine Learning | STI-401 | 3 | ✅ | P2, KK1, KK2 | +P: sklearn, model evaluation |
 | 2 | **Web Back End Development** | **STI-407** | **3** | **✅** | **P4, KU1** | **+P: REST API, Node.js/Python/PHP backend** |
 | 3 | Sistem Informasi Berbasis Cloud | STI-404 | 3 | — | P3, KK3 | IaaS/PaaS/SaaS |
-| 4 | **Keamanan Informasi Dasar** | **STI-405** | **3** | **—** | **P3, KK3** | **Network security, kriptografi dasar (Semester 4)** |
+| 4 | **Keamanan Informasi Dasar** | **STI-405** | **3** | **—** | **P3, KK3** | **Network security, kriptografi dasar** |
 | 5 | Manajemen Proyek Teknologi Informasi | STI-406 | 3 | — | KK6 | Waterfall, Agile, Scrum |
 | 6 | Statistika & Probabilitas | FST-408 | 3 | — | P1, P4 | **FSTI** — **Teori (Non-+P)** — Probstat |
 | 7 | English For IT Professionals | FST-409 | 2 | — | KU2 | **FSTI** — Prasyarat: FST-205 |
-| 8 | **Agama II** | **MKU-401A** | **0** | **—** | **S1** | **MKWU — Kebijakan UWG (0 SKS)** |
-| 9 | Kewirausahaan II | MKU-402 | 0 | — | KK6 | MKWU — Kebijakan UWG (0 SKS) |
-| | **Total Semester 4** | | **20** | | | |
+| 8 | **Kewarganegaraan** | **MKU-401** | **2** | **—** | **S1** | **MKWU — Pindahan dari Sem 2** |
+| 9 | **Agama II** | **MKU-401A** | **0** | **—** | **S1** | **MKWU — Kebijakan UWG (0 SKS)** |
+| 10 | Kewirausahaan II | MKU-402 | 0 | — | KK6 | MKWU — Kebijakan UWG (0 SKS) |
+| | **Total Semester 4** | | **19** | | | **19 SKS (22 SKS incl. MK 0 SKS)** |
 
 ---
 
@@ -112,10 +113,10 @@
 | 1 | Deep Learning dan Neural Networks | STI-501 | 3 | ✅ | KK1, KK2 | Core | +P: CNN, RNN, Transformer |
 | 2 | Data Warehouse dan Business Intelligence | STI-502 | 3 | ✅ | P2, KK2 | Core | +P: ETL, dashboard |
 | 3 | Data Mining & Visualization | STI-503 | 3 | ✅ | P2, KK2 | Core | +P: clustering, visualization |
-| 4 | **Internet of Things (IoT)** | **STI-504** | **3** | **✅** | **P3, KK3** | **Core** | **+P: Sensor, gateway, dashboard IoT (Semester 5)** |
-| 5 | **Pemrograman Aplikasi Mobile** | **STI-505** | **3** | **✅** | **P4, KK5** | **Core** | **+P: Android/iOS native/cross-platform (Semester 5)** |
-| 6 | **MK Pilihan Peminatan 1** | STA-/STB-/STC- | 3 | — | Per MK | Smart IS/Cloud/Platform | Ambil 1 dari pilihan |
-| 7 | **MK Pilihan Peminatan 2** | STA-/STB-/STC- | 3 | — | Per MK | Smart IS/Cloud/Platform | Ambil 1 dari pilihan |
+| 4 | **Internet of Things (IoT)** | **STI-504** | **3** | **✅** | **P3, KK3** | **Core** | **+P: Sensor, gateway, dashboard IoT** |
+| 5 | **Pemrograman Aplikasi Mobile** | **STI-505** | **3** | **✅** | **P4, KK5** | **Core** | **+P: Flutter/React Native Android/iOS** |
+| 6 | **MK Pilihan Peminatan 1** | STA-/STB-/STC- | 3 | — | Per MK | Smart IS/Cloud/Platform | Ambil 1 dari portofolio peminatan |
+| 7 | **MK Pilihan Peminatan 2** | STA-/STB-/STC- | 3 | — | Per MK | Smart IS/Cloud/Platform | Ambil 1 dari portofolio peminatan |
 | | **Total Semester 5** | | **21** | | | | |
 
 ---
@@ -127,63 +128,43 @@
 | 1 | Integrasi Layanan Cerdas Berbasis AI | STI-601 | 3 | ✅ | P2, KK1 | Core | +P: API orchestration, ML deployment |
 | 2 | Smart City dan Pemerintahan Digital | STI-602 | 3 | ✅ | P3, KK3 | Core | +P: IoT dashboard, smart prototyping |
 | 3 | Keamanan Informasi Lanjut | STI-603 | 3 | — | P3, KK3, KK4 | Core | Forensik, incident response |
-| 4 | Digital Platform Engineering | STI-604 | 3 | ✅ | KK5 | Core | +P: microservices, API-first |
-| 5 | Capstone Project | FST-610 | 3 | ✅ | S1, KU1-3, KK | **FSTI** | **MK Paralel (Sem 6-7-8)** — Project FSTI (+P) |
-| 6 | **MK Pilihan Peminatan 3** | STA-/STB-/STC- | 3 | — | Per MK | Smart IS/Cloud/Platform | Ambil 1 dari pilihan |
-| 7 | **MK Pilihan Peminatan 4** | STA-/STB-/STC- | 2 | — | Per MK | Smart IS/Cloud/Platform | Ambil 1 dari pilihan (2 SKS) |
-| | **Total Semester 6** | | **20** | | | | |
-
-*(Catatan: Mahasiswa dapat mengambil MK Paralel FST-610 Capstone Project [Sem 6-7-8], FST-611 Metpen [Sem 6-7 Paralel, >76 SKS], FST-612 PKL [Sem 6-7 Paralel, >100 SKS], FST-613 Seminars/Pra-Skripsi [Sem 6-7-8, diseminarkan sebelum/bersamaan Skripsi], atau MBKM maks 20 SKS)*
+| 4 | Capstone Project | FST-610 | 3 | ✅ | S1, KU1-3, KK | **FSTI** | **MK Paralel (Sem 6-7-8)** — Project FSTI (+P) |
+| 5 | Metodologi Penelitian | FST-611 | 2 | — | KU1-3 | **FSTI** | Metodologi Penelitian (>76 SKS) |
+| 6 | **MK Pilihan Peminatan 3** | STA-/STB-/STC- | 3 | — | Per MK | Smart IS/Cloud/Platform | Ambil 1 dari portofolio peminatan |
+| 7 | **MK Pilihan Peminatan 4** | STA-/STB-/STC- | 3 | — | Per MK | Smart IS/Cloud/Platform | Ambil 1 dari portofolio peminatan |
+| | **Total Semester 6** | | **20** | | | | *(Dapat dikonversi program MBKM 20 SKS)* |
 
 ---
 
-## SEMESTER 7 — Profesionalisasi (21 SKS)
+## SEMESTER 7 — Profesionalisasi & Inkubasi (21 SKS)
 
 | No | Mata Kuliah | Kode | SKS | +P | CPL | Peminatan | Keterangan |
 |---|---|---|---|---|---|---|---|
-| 1 | Conversational AI dan Intelligent Assistant | STI-701 | 3 | ✅ | KK1 | Core | +P: chatbot, voice assistant, RAG |
-| 2 | Smart Surveillance dan IoT Analytics | STI-702 | 3 | ✅ | KK1, KK3 | Core | +P: vision, IoT analytics |
-| 3 | Inovasi Teknologi dan Startup Digital | STI-703 | 3 | ✅ | KK6 | Core | +P: MVP, pitch deck, validation |
-| 4 | **MK Pilihan Peminatan 5** | STA-/STB-/STC- | 3 | — | Per MK | Smart IS/Cloud/Platform | Ambil 1 dari pilihan |
-| 5 | **MK Pilihan Peminatan 6** | STA-/STB-/STC- | 3 | — | Per MK | Smart IS/Cloud/Platform | Ambil 1 dari pilihan |
-| 6 | **MK Pilihan Peminatan 7** | STA-/STB-/STC- | 3 | — | Per MK | Smart IS/Cloud/Platform | Ambil 1 dari pilihan |
-| 7 | **MK Pilihan Peminatan 8** | STA-/STB-/STC- | 3 | — | Per MK | Smart IS/Cloud/Platform | Ambil 1 dari pilihan |
-| | **Total Semester 7** | | **21** | | | | |
+| 1 | Digital Platform Engineering | STI-701 | 3 | ✅ | KK5 | Core | +P: Microservices, API gateway |
+| 2 | Inovasi Teknologi dan Startup Digital | STI-702 | 3 | ✅ | KK6 | Core | +P: MVP, pitch deck, validation |
+| 3 | Praktik Kerja Lapangan (PKL) | FST-612 | 3 | ✅ | S1, KU, KK | **FSTI** | Magang industri (>100 SKS) |
+| 4 | **MK Pilihan Peminatan 5** | STA-/STB-/STC- | 3 | — | Per MK | Smart IS/Cloud/Platform | Ambil 1 dari portofolio peminatan |
+| 5 | **MK Pilihan Peminatan 6** | STA-/STB-/STC- | 3 | — | Per MK | Smart IS/Cloud/Platform | Ambil 1 dari portofolio peminatan |
+| 6 | **MK Pilihan Peminatan 7** | STA-/STB-/STC- | 3 | — | Per MK | Smart IS/Cloud/Platform | Ambil 1 dari portofolio peminatan |
+| 7 | **MK Pilihan Peminatan 8** | STA-/STB-/STC- | 3 | — | Per MK | Smart IS/Cloud/Platform | Ambil 1 dari portofolio peminatan |
+| | **Total Semester 7** | | **21** | | | | *(Dapat dikonversi program MBKM 20 SKS)* |
 
 ---
 
-## SEMESTER 8 — Penyelesaian Akhir (13 SKS Paket / 6 SKS Minimal)
+## SEMESTER 8 — Penyelesaian Akhir (11 SKS)
 
 | No | Mata Kuliah | Kode | SKS | +P | CPL | Keterangan |
 |---|---|---|---|---|---|---|
-| 1 | Metpen | FST-611 | 2 | — | KU1-3 | **FSTI Paralel (Sem 6-7)** (Prasyarat: >76 SKS) |
-| 2 | PKL | FST-612 | 3 | ✅ | S1, KU, KK | **FSTI Paralel (Sem 6-7)** (Prasyarat: >100 SKS) |
-| 3 | Seminars / Pra-Skripsi | FST-613 | 2 | — | KU1-3 | **MK Paralel (Sem 6-7-8)** — Seminar Proposal Skripsi |
-| 4 | Skripsi | FST-714 | 6 | ✅ | S1, KU1-3, P, KK | **FSTI Paralel (Sem 7-8)** (Prasyarat: >120 SKS & Proposal diseminarkan) |
-| | **Total Semester 8 (Paket Tugas Akhir)** | | **13** | | | |
+| 1 | Seminars / Pra-Skripsi | FST-613 | 2 | — | KU1-3 | **MK Paralel (Sem 6-7-8)** — Seminar Proposal Skripsi |
+| 2 | Skripsi / Capstone TA | FST-714 | 6 | ✅ | S1, KU1-3, P, KK | **FSTI Paralel (Sem 7-8)** (>120 SKS) |
+| 3 | KPM (Kuliah Pengabdian Masyarakat / KKN) | MKU-203 | 3 | ✅ | S1, KU | Pengabdian masyarakat digital (Antar Semester) |
+| | **Total Semester 8** | | **11** | | | **Single Track Penyelesaian Akhir** |
 
 ---
 
-## RINGKASAN PER SEMESTER
+## MK PILIHAN PEMINATAN (SEIMBANG: @ 6 MK / 18 SKS)
 
-| Semester | Total SKS | Jumlah MK | MK +P | MK Pilihan Peminatan |
-|---|---|---|---|---|
-| **1** | 19 | 8 | 1 | 0 |
-| **2** | 22 | 9 | 3 | 0 |
-| **3** | 17 | 6 | 3 | 0 |
-| **4** | 20 | 9 | 2 | 0 |
-| **5** | 21 | 7 | 5 | 2 |
-| **6** | 20 | 7 | 4 | 2 |
-| **7** | 21 | 7 | 3 | 4 |
-| **8 / Paralel** | 13 | 4 | 2 | 0 |
-| **KPM / KKN (Antar Sem)** | 3 | 1 | 1 | 0 |
-| **TOTAL** | **170** | **61** | **24** | **9** |
-
----
-
-## MK PILIHAN PEMINATAN
-
-### P1: Smart Information Systems (5 pilihan)
+### P1: Integrated Smart Systems (6 MK / 18 SKS — Flagship)
 
 | No | Mata Kuliah | Kode | SKS | +P | CPL | Nama Marketable |
 |---|---|---|---|---|---|---|
@@ -191,20 +172,21 @@
 | 2 | Computational Methods and Numerics | STA-02 | 3 | ✅ | P1, KK2 | Data Scientist / ML Engineer |
 | 3 | Intelligent Agent Systems | STA-03 | 3 | ✅ | KK1 | AI Solution Architect |
 | 4 | MLOps and AI Pipeline | STA-04 | 3 | ✅ | KK1, KK2 | MLOps Engineer |
-| 5 | Knowledge Graph and Semantic Systems | STA-05 | 3 | ✅ | KK1 | Knowledge Engineer |
+| 5 | Conversational AI and Intelligent Assistant | STA-05 | 3 | ✅ | KK1 | Chatbot & RAG Engineer |
+| 6 | Smart Surveillance and IoT Analytics | STA-06 | 3 | ✅ | KK1, KK3 | Vision & Smart City Analytics |
 
-### P2: Cloud Infrastructure & Cybersecurity (6 pilihan)
+### P2: Cloud Infrastructure & Cybersecurity (6 MK / 18 SKS — Volume)
 
 | No | Mata Kuliah | Kode | SKS | +P | CPL | Nama Marketable |
 |---|---|---|---|---|---|---|
 | 1 | Network Security and Digital Forensics | STB-01 | 3 | ✅ | P3, KK3, KK4 | SOC Analyst / Forensic Investigator |
-| 2 | Cloud Architecture & DevOps | STB-02 | 4 | ✅ | P3, KK3 | Cloud Engineer / DevOps Engineer |
+| 2 | Cloud Architecture & DevOps | STB-02 | 3 | ✅ | P3, KK3 | Cloud Engineer / DevOps Engineer |
 | 3 | Cybersecurity Risk Management | STB-03 | 3 | — | KK3, KK4 | Security Risk Analyst |
 | 4 | IT Governance & Compliance (COBIT 2019) | STB-04 | 3 | — | KK4 | IT Auditor / GRC Analyst |
 | 5 | IT Service Management (ITIL 4) | STB-05 | 3 | — | P3, KK3 | Service Delivery Manager |
 | 6 | Enterprise Architecture (TOGAF) | STB-06 | 3 | — | P3, KK4 | Enterprise Architect |
 
-### P3: Digital Platform Engineering (7 pilihan)
+### P3: Digital Platform Engineering (6 MK / 18 SKS — Niche)
 
 | No | Mata Kuliah | Kode | SKS | +P | CPL | Nama Marketable |
 |---|---|---|---|---|---|---|
@@ -212,9 +194,7 @@
 | 2 | EdTech Platform Development | STC-02 | 3 | ✅ | KK5 | EdTech Product Engineer |
 | 3 | FinTech Platform Development | STC-03 | 3 | ✅ | KK5 | FinTech Engineer / API Developer |
 | 4 | Immersive Media & XR Development | STC-04 | 3 | ✅ | KK5 | XR/AR/VR Developer |
-| 5 | SaaS Engineering & Startup | STC-05 | 3 | ✅ | KK5, KK6 | SaaS Founder / Product Lead |
 | 6 | Agile & Scrum for Digital Product | STC-06 | 3 | — | KK6 | Scrum Master / Product Owner |
-| 7 | Technology Leadership & CTO Simulation | STC-07 | 3 | — | KK6 | Technology Lead / Engineering Manager |
 
 ---
 

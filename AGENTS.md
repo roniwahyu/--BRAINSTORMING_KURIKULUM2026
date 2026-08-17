@@ -54,9 +54,9 @@ Gunakan prompt bertahap ini. Tiap langkah harus menunggu konfirmasi user sebelum
 | **6 Profil Lulusan (PL)** | PL-01 s.d. PL-06 (Dokumen 008) | PL1: Intelligent IS Dev, PL2: UI/UX & Platform Eng, PL3: Smart Sys Integrator, PL4: Technopreneur, PL5: Digital Governance Analyst, PL6: Data & ML Eng. Tiap PL memiliki indikator PEO 3–5 tahun untuk 3 jalur (Akademisi, Praktisi, Technopreneur). |
 | **14 CPL (SN-Dikti & APTIKOM)** | 14 CPL (Dokumen 009/009E) | Sikap (S1), Keterampilan Umum (KU1, KU2, KU3), Pengetahuan (P1, P2, P3, P4), Keterampilan Khusus (KK1-KK6: @2 per peminatan). |
 | **Beban SKS Kelulusan** | **Tepat 144 SKS** | Permendikbudristek No. 53/2023 & APTIKOM. Total portofolio kurikulum ditawarkan: 170 SKS (61 MK: 8 MKWU [14 SKS], 14 MK FSTI [36 SKS], 30 MK STI [93 SKS], 18 MK Elektif [ambil 9 MK / 27 SKS]). |
-| **3 Peminatan (Mulai Sem 5)** | Flagship, Volume, Niche | **P1: Integrated Smart Systems** (Flagship - 5 MK), **P2: Cloud Infrastructure & Cybersecurity** (Volume - 6 MK), **P3: Digital Platform Engineering** (Niche - 7 MK). |
-| **Praktikum (+P) vs Teori** | Rasio 47.1% vs 52.9% | 24 MK Praktikum (80 SKS) vs 37 MK Teori (90 SKS). |
-| **Prasyarat & Reposisi Kunci** | Jaringan Komputer di Sem 3 | Jaringan Komputer (STI-307) fondasi IoT (Sem 5), Cloud (Sem 4), Security (Sem 4). Web Front End (Sem 3) & Web Back End (Sem 4) fondasi Mobile & Integrasi AI. |
+| **Batas Semester 1 & 2** | **Maksimal 20 SKS** | Sem 1 (19 SKS) & Sem 2 (Tepat 20 SKS). Kewarganegaraan (2 SKS) digeser ke Sem 4. Etika & Hukum Digital (2 SKS) & Kewirausahaan I (2 SKS) di Sem 2. |
+| **3 Peminatan Seimbang** | Masing-masing **6 MK (18 SKS)** | **P1: Integrated Smart Systems** (6 MK), **P2: Cloud Infrastructure & Cybersecurity** (6 MK), **P3: Digital Platform Engineering** (6 MK). Conversational AI & Smart Surveillance menjadi MK Pilihan P1. |
+| **Fondasi Sistem & Infra** | Sistem Operasi di Sem 3 | Sistem Operasi (STI-305, 3 SKS) & Jaringan Komputer (STI-307, 3 SKS) di Semester 3 sebagai fondasi IoT (Sem 5), Cloud (Sem 4), dan Security (Sem 4). |
 | **Single Track TA (Sem 8)** | Capstone Design lintas-prodi | Default = Capstone Design (6 SKS) lintas 3 prodi FSTI; Alternatif = Skripsi (6 SKS). MK 0 SKS UWG (Agama II & Kewirausahaan II) dipertahankan. |
 | **Fleksibilitas MBKM** | Hingga 20 SKS di Sem 6-7 | Dikonversikan ke paket MK Peminatan dan PKL. |
 

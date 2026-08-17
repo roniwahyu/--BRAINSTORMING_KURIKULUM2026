@@ -1,7 +1,7 @@
 # 020 — ANALISIS KOMPREHENSIF KESELARASAN KURIKULUM OBE SISTEKIN 2026
 
-**Tanggal:** 17 Agustus 2026  
-**Status:** DOKUMEN RUJUKAN KESELARASAN & GROUND TRUTH AGENTIC AI  
+**Tanggal:** 17 Agustus 2026 (Updated: Keputusan Penyeimbangan 3 Peminatan & Batas 20 SKS Sem 2)  
+**Status:** DOKUMEN RUJUKAN KESELARASAN AKTIF & GROUND TRUTH AGENTIC AI (VERSI TERKINI)  
 **Dasar Analisis:** Penelusuran Dokumen 006 s.d. 019 + Standar Kurikulum OBE APTIKOM (SI v2.0 & TI 2023) + Permendikbudristek No. 53 Tahun 2023 + Visi Keilmuan FSTI UWG 2045  
 **Tujuan:** Membangun memori kerja dan basis pemahaman yang sadar konteks (*context-aware alignment*) bagi seluruh agen AI dan pengembang kurikulum multi-peran.
 
@@ -18,107 +18,95 @@ graph TD
     
     CPL --> BOK["<b>4. Body of Knowledge (BoK) Keterlacakan</b><br/>• IS2020: 19 Bahan Kajian (BK01 s.d. BK19)<br/>• IT2017: 14 Bahan Kajian Utama"]
     
-    BOK --> STRUKTUR["<b>5. Struktur Kurikulum 8 Semester & Mata Kuliah (Dokumen 010, 011, 012)</b><br/>• MKWU (Universitas): 8 MK (14 SKS)<br/>• MK Fakultas (FSTI): 14 MK (36–37 SKS)<br/>• MK Wajib Prodi (STI): 30 MK (93 SKS)<br/>• MK Pilihan Peminatan: 18 MK (Ambil 9 MK / 27 SKS)"]
+    BOK --> STRUKTUR["<b>5. Struktur Kurikulum 8 Semester & Mata Kuliah (Dokumen 010, 011, 012)</b><br/>• MKWU (Universitas): 8 MK (14 SKS, incl. KWU I 2 SKS)<br/>• MK Fakultas (FSTI): 14 MK (36 SKS)<br/>• MK Wajib Prodi (STI): 30 MK (89–93 SKS, incl. Sistem Operasi)<br/>• MK Pilihan Peminatan: 3 Peminatan Seimbang @ 6 MK / 18 SKS (Ambil 9 MK / 27 SKS)"]
     
-    STRUKTUR --> ASSESS["<b>6. Asesmen OBE, Capstone & MBKM (Dokumen 016, 019)</b><br/>• Capstone Design Kolaboratif Lintas-3-Prodi (6 SKS) vs Skripsi (6 SKS)<br/>• Program Magang MBKM hingga 20 SKS di Sem 6/7<br/>• Rasio Hands-on Lab (+P) = 47.1% (24 MK / 80 SKS)"]
+    STRUKTUR --> ASSESS["<b>6. Asesmen OBE, Capstone & MBKM (Dokumen 016, 019)</b><br/>• Capstone Design Kolaboratif Lintas-3-Prodi (6 SKS) vs Skripsi (6 SKS)<br/>• Program Magang MBKM hingga 20 SKS di Sem 6/7<br/>• Rasio Hands-on Lab (+P) = ~47%"]
 ```
 
 ---
 
-## 2. MATRIKS KESELARASAN BERJENJANG (TIER 1 s.d. TIER 6)
+## 2. KEPUTUSAN KUNCI REVISI STRUKTUR KURIKULUM (17 AGUSTUS 2026)
 
-### Tier 1: VMTS 2045 ↔ Profil Lulusan & PEO (Dokumen 006 & 008)
-* **Visi 2045:** *"Menjadi Program Studi Sistem dan Teknologi Informasi yang bermutu, mandiri, bermartabat, dan berwawasan global, serta unggul dalam pengembangan sistem dan teknologi informasi cerdas terintegrasi kecerdasan artifisial, serta technopreneurship berbasis kebutuhan masyarakat dan industri pada tahun 2045."*
-* **Distinctive Positioning vs Sister Prodi di FSTI UWG:**
-  * **Teknik Informatika:** Riset algoritma dan fondasi komputasi AI murni (NLP core, Computer Vision deep research, neural network math).
-  * **SISTEKIN:** **Integrasi AI ke Sistem Informasi dan Platform Nyata** (*AI Integration Specialist, System Architecture, IoT & Cloud-native Smart Services*).
-  * **Bisnis Digital:** Pemasaran digital, tata kelola model bisnis, dan customer acquisition.
-
-* **6 Profil Lulusan (PL) dan 3 Jalur Capaian Karier 3–5 Tahun (PEO):**
-  1. **PL-01 (Intelligent IS Developer):** Pengembang sistem informasi cerdas berbasis AI/ML.
-  2. **PL-02 (UI/UX Designer & Digital Platform Engineer):** Perancang pengalaman pengguna dan perekayasa platform digital skalabel.
-  3. **PL-03 (Smart System & Technology Integrator):** Arsitek integrasi sistem cloud, IoT, dan otomasi cerdas.
-  4. **PL-04 (Technopreneur in Smart Information Services):** Pendiri/pengembang produk startup teknologi informasi cerdas.
-  5. **PL-05 (Digital System & Technology Governance Analyst):** Analis tata kelola, audit kepatuhan, dan manajemen risiko siber/TI.
-  6. **PL-06 (Data Analyst & Machine Learning Engineer):** Praktisi pengolahan data analitik, pipeline MLOps, dan business intelligence.
-
----
-
-### Tier 2: Profil Lulusan ↔ 14 Capaian Pembelajaran Lulusan (CPL)
-
-| Kategori | Kode | Rumusan Ringkas CPL | Pemetaan PL Utama |
+| No | Keputusan Kunci | Rationale & Landasan Regulasi/OBE | Dampak Perubahan Struktur |
 |---|---|---|---|
-| **Sikap (S)** | **S1** | Integritas, norma etika digital, kerja sama tim multidisiplin, dan tanggung jawab profesional mandiri. | Semua PL (PL01–PL06) |
-| **Keterampilan Umum (KU)** | **KU1** | Pemikiran logis, kritis, sistematis, dan inovatif dalam analisis komputasi kompleks. | Semua PL (PL01–PL06) |
-| | **KU2** | Komunikasi efektif lisan/tulisan teknis serta jejaring profesional global. | Semua PL (PL01–PL06) |
-| | **KU3** | Pengambilan keputusan berbasis data, evaluasi diri, dan pembelajaran mandiri sepanjang hayat (*lifelong learning*). | Semua PL (PL01–PL06) |
-| **Pengetahuan (P)** | **P1** | Sains dasar & matematika komputasi (Kalkulus, Probstat, Aljabar Linear, Matematika Diskrit, Logika). | Fondasi Seluruh PL |
-| | **P2** | Konsep, metodologi pemodelan, perancangan, dan arsitektur Sistem Informasi cerdas. | PL01, PL02, PL04, PL06 |
-| | **P3** | Infrastruktur jaringan, cloud computing, keamanan siber, dan tata kelola TI (GRC/ITIL). | PL03, PL05 |
-| | **P4** | Rekayasa data, pemrograman web modern, aplikasi mobile, dan prinsip UI/UX design. | PL01, PL02, PL04, PL06 |
-| **Keterampilan Khusus (KK)** | **KK1** | Menganalisis, merancang, dan mengintegrasikan model AI/ML, NLP RAG, & Intelligent Agents ke dalam sistem bisnis (*Peminatan P1*). | PL01, PL06 |
-| | **KK2** | Mengelola pipeline data, MLOps, Business Intelligence, dan visualisasi data analitik (*Peminatan P1*). | PL01, PL06 |
-| | **KK3** | Mengonfigurasi dan mengamankan infrastruktur cloud, DevOps CI/CD, dan mitigasi ancaman siber (*Peminatan P2*). | PL03, PL05 |
-| | **KK4** | Menerapkan tata kelola TI berbasis COBIT/ITIL, audit sistem informasi, dan manajemen risiko teknologi (*Peminatan P2*). | PL03, PL05 |
-| | **KK5** | Merancang UI/UX interaktif berbasis data dan membangun platform digital skalabel microservices/SaaS (*Peminatan P3*). | PL02, PL04 |
-| | **KK6** | Mengembangkan dan memvalidasi model produk startup digital (MVP, Lean Startup, Business Model) (*Peminatan P3*). | PL02, PL04 |
+| 1 | **Semester 2 Tepat 20 SKS** | **Permendikbudristek No. 53/2023 Pasal 18** membatasi beban Sem 1 & 2 maksimal 20 SKS/semester. | `MKU-401 Kewarganegaraan` (2 SKS) dipindahkan dari Sem 2 ke **Semester 4 (Genap)**; `FST-206 Etika dan Hukum Digital` (2 SKS) tetap di **Semester 2** bersamaan dengan Basis Data & AI. |
+| 2 | **Penambahan Kembali MK Sistem Operasi** | **BoK IT2017 & IS2020 (BK03 IT Infrastructure)** mewajibkan pemahaman manajemen memori/proses & virtualisasi sebelum Cloud/DevOps. | `STI-305 Sistem Operasi` (3 SKS) ditempatkan di **Semester 3 (Ganjil)** bersama Jaringan Komputer. |
+| 3 | **Conversational AI & Smart Surveillance Menjadi MK Pilihan P1** | Menghindari beban spesialisasi AI terlalu tinggi bagi mahasiswa jalur Cloud/Platform; memperkuat daya tarik peminatan AI. | `Conversational AI & Intelligent Assistant` (3 SKS, +P) dan `Smart Surveillance & IoT Analytics` (3 SKS, +P) menjadi **MK Pilihan Peminatan P1**. |
+| 4 | **3 Peminatan Seimbang (@ 6 MK / 18 SKS)** | Menciptakan keadilan beban akademik antar-jalur dan kemudahan penjadwalan administrasi FSTI. | P1, P2, P3 masing-masing memiliki portofolio **6 MK Pilihan (18 SKS)**. Mahasiswa mengambil 9 MK (27 SKS) di Sem 5–7. |
+| 5 | **Kewirausahaan I Tetap 2 SKS** | Memperkuat pilar VMTS *Technopreneurship* sejak tingkat awal (Sem 2). | `MKU-202 Kewirausahaan I` (2 SKS, Sem 2) + `MKU-402 Kewirausahaan II` (0 SKS, Sem 4). |
 
 ---
 
-### Tier 3: Pemetaan CPL ↔ Body of Knowledge (BoK)
-* **BoK IS2020 (APTIKOM SI v2.0):** 19 Bahan Kajian (BK01 Foundation, BK02 Data/Info, BK03 IT Infra, BK04 IS Mgmt, BK05 Systems Dev, BK06 Business, BK07 Security, BK08 Smart Systems, BK09 E-Commerce, BK10 Math/Stats, BK11 Emerging Tech, BK12 Security & Privacy, BK13 Intelligent Systems, BK14 UX, BK15 Project Mgmt, BK16 Enterprise Arch, BK17 Digital Innovation, BK18 Data Analytics, BK19 Ethics).
-* **BoK IT2017 (APTIKOM TI 2023):** 14 Bahan Kajian (Information Management, Integrated Systems Technology, Networking, Platform Technologies, Security, Software Fundamentals, Cloud Architecture, dll).
+## 3. KOMPOSISI 3 PEMINATAN SEIMBANG (MASING-MASING 6 MK / 18 SKS)
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                   3 PEMINATAN SISTEKIN 2026 (SEIMBANG: @ 6 MK / 18 SKS)                │
+├────────────────────────────┬────────────────────────────┬──────────────────────────────┤
+│  P1: INTEGRATED SMART      │  P2: CLOUD INFRASTRUCTURE  │  P3: DIGITAL PLATFORM        │
+│      SYSTEMS (Flagship)    │      & CYBERSECURITY       │      ENGINEERING (Niche)     │
+├────────────────────────────┼────────────────────────────┼──────────────────────────────┤
+│ 1. Decision Support Sys    │ 1. Network Security &      │ 1. Advanced UX Research      │
+│    (STA-01, 3 SKS, +P)     │    Digital Forensics       │    & Design (STC-01, 3 SKS)  │
+│ 2. Computational Methods   │    (STB-01, 3 SKS, +P)     │ 2. FinTech Platform          │
+│    & Numerics (STA-02, 3)  │ 2. Cloud Architecture &    │    Development (STC-02, 3)   │
+│ 3. Intelligent Agent Sys   │    DevOps (STB-02, 3, +P)  │ 3. EdTech Platform           │
+│    (STA-03, 3 SKS, +P)     │ 3. Cybersecurity Risk      │    Development (STC-03, 3)   │
+│ 4. MLOps & AI Pipeline     │    Management (STB-03, 3)  │ 4. Immersive XR/AR/VR        │
+│    (STA-04, 3 SKS, +P)     │ 4. IT Governance & COBIT   │    Development (STC-04, 3)   │
+│ 5. Conversational AI &     │    2019 (STB-04, 3 SKS)    │ 5. SaaS Architecture &       │
+│    Intelligent Assistant   │ 5. IT Service Management   │    Cloud Native (STC-05, 3)  │
+│    (STA-05, 3 SKS, +P) ★   │    (ITIL 4) (STB-05, 3 SKS)│ 6. Agile Scrum Product       │
+│ 6. Smart Surveillance &    │ 6. Enterprise Architecture │    Management & CTO Sim      │
+│    IoT Analytics           │    (TOGAF) (STB-06, 3 SKS) │    (STC-06, 3 SKS)           │
+│    (STA-06, 3 SKS, +P) ★   │                            │                              │
+```
+
+### 3.1 Boundary Keilmuan & Fokus Silabus MK Peminatan P3 (EdTech & FinTech Platform)
+
+Untuk menjaga *distinctive positioning* SISTEKIN (FSTI) vs Bisnis Digital (FEB), ditetapkan batasan teknis yang tegas:
+* **`STC-02: EdTech Platform Development` (3 SKS, +P):**
+  * **Bukan:** Model bisnis bimbingan belajar/kursus digital.
+  * **Fokus Keilmuan SISTEKIN:** Rekayasa arsitektur *Learning Management System (LMS)*, standar interoperabilitas konten (*SCORM, LTI, xAPI*), *gamification engine*, sistem kuis adaptif berbasis data, dan integrasi *Learning Analytics API*.
+* **`STC-03: FinTech Platform Development` (3 SKS, +P):**
+  * **Bukan:** Pemasaran produk perbankan atau analisis pasar modal.
+  * **Fokus Keilmuan SISTEKIN:** Arsitektur integrasi *Payment Gateway* (Midtrans/Xendit/Stripe), *double-entry transaction ledger & idempotency*, keamanan transaksi (*PCI-DSS, tokenization, JWT, webhook security*), serta pengantar *Decentralized Finance & Smart Contract Ledger*.
+* **Keterlacakan CPL & BoK:** Mendukung **CPL KK5** (Platform Skalabel) & **KK6** (Inovasi Startup) serta BoK IS2020 (BK07, BK09, BK17) dan BoK IT2017 (*Platform Technologies*).
+* **Prasyarat Wajib:** `STI-306 Web Front End` (Sem 3) + `STI-407 Web Back End` (Sem 4) + `FST-207 Basis Data` (Sem 2).
+
+### 3.2 [OPEN ISSUE] Portofolio Peminatan P3 — Audit Redundansi Sedang Dikaji
+
+> ⚠️ **PENDING DECISION — Jangan kunci perubahan 011 terkait P3 sebelum ada keputusan.**
+> Detail analisis dan 3 skenario keputusan tersimpan di **[018] Section 7.11**.
+
+Temuan: `STC-02 EdTech` dan `STC-03 FinTech` memiliki ~70% tumpang tindih substansi teknis satu sama lain dan dengan `STI-701 Digital Platform Engineering` (MK Wajib Sem 7). Seluruh slot P3 sedang dievaluasi untuk memastikan diversifikasi BoK IS2020 yang optimal, khususnya penutupan **gap BK15 Business Process Management** yang masih kosong di seluruh kurikulum.
 
 ---
 
-### Tier 4: Struktur Kurikulum, Distribusi Semester & Pembagian SKS
+## 4. DISTRIBUSI SEMESTER TERVALIDASI (BEBAN KELULUSAN 144 SKS)
 
-#### A. Rekonsiliasi Beban SKS: Kelulusan vs Penawaran Portofolio
-* **Standar Beban Kelulusan Mahasiswa (Graduation Requirement):** **Tepat 144 SKS** (Permendikbudristek No. 53 Tahun 2023 & APTIKOM SI/TI).
-* **Total Portofolio Kurikulum yang Disediakan Program Studi:** **170 SKS (61 MK)**
-  * MKWU (Universitas): 8 MK (14 SKS)
-  * MK Fakultas (FSTI): 14 MK (36–37 SKS)
-  * MK Wajib Prodi (STI): 30 MK (93 SKS)
-  * MK Pilihan Peminatan: 18 MK (55 SKS disediakan — mahasiswa mengambil 9 MK / 27 SKS).
-
-#### B. 3 Peminatan Unggulan (Mulai Semester 5)
-1. **P1: Integrated Smart Systems (Flagship — 5 MK / 15 SKS):** DSS, Computational Methods, Intelligent Agents, MLOps & AI Pipeline, Knowledge Graph.
-2. **P2: Cloud Infrastructure & Cybersecurity (Volume — 6 MK / 19 SKS):** Network Security & Forensics, Cloud Architecture & DevOps, Cybersecurity Risk, IT Governance (COBIT 2019), IT Service Management (ITIL 4), Enterprise Architecture (TOGAF).
-3. **P3: Digital Platform Engineering (Niche — 7 MK / 21 SKS):** Advanced UX Research, EdTech Platform, FinTech Platform, Immersive XR/VR, SaaS Engineering, Agile Scrum Product, Technology Leadership/CTO Simulation.
-
-#### C. Keseimbangan Teori vs Praktikum (+P)
-* **MK Praktikum / Hands-on Lab (+P):** 24 MK (80 SKS = **47.1%**).
-* **MK Teori / Konseptual:** 37 MK (90 SKS = **52.9%**).
+| Semester | MK Wajib (FSTI & STI) | MKWU (Universitas) | MK Pilihan Peminatan | Total SKS | Kepatuhan Regulasi & Pedagogi |
+|---|---|---|---|:---:|---|
+| **Sem 1** | Algoritma (+P, 3), Kalkulus (3), Logika (3), Pengantar STI (2), Dasar Digital (2) | Agama I (2), Pancasila (2), B. Indonesia (2) | — | **19 SKS** | ✅ Patuh Permendikbud 53 ($\le 20$ SKS) |
+| **Sem 2** | Diskrit (3), Aljabar Linear (3), Struktur Data (+P, 3), Pengantar AI (2), Basis Data (+P, 3), Basic English (2), **Etika & Hukum Digital (2)** | Kewirausahaan I (2) | — | **20 SKS** | ✅ **Tepat 20 SKS** (Kewarganegaraan pindah Sem 4) |
+| **Sem 3** | APSI (3), Sistem Cerdas (2), UI/UX (+P, 3), RPL (3), Jaringan (+P, 3), Web Front End (+P, 3), **Sistem Operasi (3)** | — | — | **20 SKS** | ✅ Fondasi Sistem & Jaringan Lengkap |
+| **Sem 4** | Machine Learning (+P, 3), Web Back End (+P, 3), Cloud (3), Keamanan Dasar (3), Manpro TI (3), Probstat (3), English for IT (2) | **Kewarganegaraan (2)**, Agama II (0), Kewirausahaan II (0) | — | **19 SKS** | ✅ Core Data/AI & Cloud + MK Karakter |
+| **Sem 5** | Deep Learning (+P, 3), DW-BI (+P, 3), Data Mining (+P, 3), IoT (+P, 3), Mobile (+P, 3) | — | 2 MK Pilihan Peminatan (6 SKS) | **21 SKS** | ✅ Advanced Core + Spesialisasi Awal |
+| **Sem 6** | Integrasi AI (+P, 3), Smart City (+P, 3), Capstone Project FSTI (+P, 3), Keamanan Lanjut (3), Metpen (2) | — | 2 MK Pilihan Peminatan (6 SKS) / MBKM | **20 SKS** | ✅ Integrasi Sistem, Capstone & MBKM |
+| **Sem 7** | Digital Platform Eng (+P, 3), Startup Digital (+P, 3), PKL (+P, 3) | — | 4 MK Pilihan Peminatan (12 SKS) / MBKM | **21 SKS** | ✅ Profesionalisasi & Inkubasi Produk |
+| **Sem 8** | Pra-Skripsi / Seminar (2), Skripsi / Capstone TA (6) | KPM / KKN (3) | — | **11 SKS** | ✅ Single Track Penyelesaian Akhir |
 
 ---
 
-### Tier 5: Logika Prasyarat Kritis & Perbaikan Alur (*Flow Prerequisites*)
-1. **Jaringan Komputer (`STI-307`, Sem 3, +P):** Wajib lulus sebelum mengambil *Internet of Things (`STI-504`)*, *SI Berbasis Cloud (`STI-404`)*, dan *Keamanan Informasi Dasar (`STI-405`)*.
-2. **Pemrograman Web Berjenjang:** *Web Front End (`STI-306`, Sem 3)* → *Web Back End (`STI-407`, Sem 4)* → *Pemrograman Mobile (`STI-505`, Sem 5)* & *Integrasi Layanan Cerdas AI (`STI-601`, Sem 6)*.
-3. **Penyelarasan AI:** *Pengantar AI & Data (`FST-204`, Sem 2)* → *Sistem Cerdas (`STI-302`, Sem 3)* → *Machine Learning (`STI-401`, Sem 4)* → *Deep Learning (`STI-501`, Sem 5)* → *Conversational AI (`STI-701`, Sem 7)*.
+## 5. CHECKLIST KESIAPAN DOKUMEN UNTUK AGENTIC AI BERIKUTNYA
+
+* [x] Keselarasan VMTS 2045 $\leftrightarrow$ 6 Profil Lulusan (PEO 3 Jalur)
+* [x] Keselarasan 14 CPL $\leftrightarrow$ 19 BoK IS2020 & 14 BoK IT2017
+* [x] Penyeimbangan 3 Peminatan (@ 6 MK / 18 SKS)
+* [x] Kepatuhan Beban Semester 1 & 2 ($\le 20$ SKS)
+* [ ] **[OPEN] Restrukturisasi Portofolio P3** — 3 skenario dikaji (lihat [018] §7.11). Keputusan menentukan apakah BK15 ditutup dengan MK baru.
+* [ ] **Langkah Kerja Berikutnya:** Penyusunan Matriks BoK $\leftrightarrow$ MK (Tabel 6 Standar APTIKOM) & Penyusunan CPMK RPS 44 MK Wajib.
 
 ---
 
-### Tier 6: Tugas Akhir, Capstone Design & Fleksibilitas MBKM (Permendikbud 53/2023)
-1. **Pilihan Jalur Penyelesaian Akhir Single-Track:**
-   * **Jalur Default (Utama):** *Capstone Design Project lintas-3-prodi FSTI* (6 SKS) — fokus produk kolaboratif nyata.
-   * **Jalur Alternatif:** *Skripsi / Riset Terapan* (6 SKS) — bagi mahasiswa yang berorientasi studi lanjut (S2/S3).
-2. **Program MBKM (Semester 6 & 7):**
-   * Diakui ekuivalensi hingga **20 SKS** yang dikonversikan ke paket MK Peminatan dan PKL.
-
----
-
-## 3. CHECKLIST KESIAPAN DOKUMEN DILANJUTKAN KE TAHAP ASESMEN OBE
-
-| No | Komponen Kurikulum OBE | Status Kesiapan | Langkah Tindak Lanjut |
-|---|---|---|---|
-| 1 | VMTS & Profil Lulusan (006, 008) | ✅ **Selesai & Final** | Siap untuk Buku Kurikulum Bab 1 & 2 |
-| 2 | Rumusan 14 CPL & BoK (009E) | ✅ **Selesai & Final** | Siap untuk Buku Kurikulum Bab 3 |
-| 3 | Struktur Matriks CPL ↔ MK (011, 012) | ✅ **Selesai & Final** | Siap untuk Buku Kurikulum Bab 4 |
-| 4 | Matriks Bahan Kajian (BoK) ↔ MK (Tabel 6 APTIKOM) | ⚠️ *Drafting Diperlukan* | Disusun pada fase berikutnya |
-| 5 | Rumusan CPMK & Sub-CPMK per MK (Bloom/ABCD) | ⚠️ *Fase Kerja Berikutnya* | Produksi RPS 44 MK Wajib |
-| 6 | Rubrik Asesmen (Holistik/Analitik/Portofolio) | ⚠️ *Fase Kerja Berikutnya* | Penyusunan rubrik evaluasi Capstone & PjBL |
-
----
-
-*Dokumen ini menjadi rujukan resmi bagi seluruh Agentic AI yang mengevaluasi, memvalidasi, atau merancang instrumen kurikulum Program Studi SISTEKIN UWG 2026.*
+*Dokumen ini menjadi rujukan resmi aktif (Single Source of Truth) bagi seluruh agen AI pengembang kurikulum SISTEKIN UWG 2026.*

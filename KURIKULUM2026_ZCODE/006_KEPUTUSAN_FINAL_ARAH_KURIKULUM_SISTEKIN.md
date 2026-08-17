@@ -127,7 +127,7 @@ Bisnis Digital      →  menjual solusi AI (model bisnis, customer journey)
 | **STC-** | MK Pilihan Peminatan | Digital Platform |
 
 ### MK Universitas (MKU) — 8 MK, 14 SKS
-Agama I (2 SKS, Sem 1), Pancasila (2 SKS, Sem 1), Bahasa Indonesia (2 SKS, Sem 1), Kewarganegaraan (2 SKS, Sem 2), Kewirausahaan I (2 SKS, Sem 2), Agama II (0 SKS, Sem 4 — Kebijakan UWG), Kewirausahaan II (0 SKS, Sem 4 — Kebijakan UWG), KPM (Kuliah Pengabdian Masyarakat / KKN) (3 SKS, Libur Antar Sem)
+Agama I (2 SKS, Sem 1), Pancasila (2 SKS, Sem 1), Bahasa Indonesia (2 SKS, Sem 1), Kewirausahaan I (2 SKS, Sem 2), Kewarganegaraan (2 SKS, Sem 4), Agama II (0 SKS, Sem 4 — Kebijakan UWG), Kewirausahaan II (0 SKS, Sem 4 — Kebijakan UWG), KPM (Kuliah Pengabdian Masyarakat / KKN) (3 SKS, Libur Antar Sem)
 
 ### MK Fakultas (FSTI) — 14 MK, 36 SKS
 | No | Mata Kuliah | Kode | SKS | Semester | Syarat Prasyarat | Keterangan |

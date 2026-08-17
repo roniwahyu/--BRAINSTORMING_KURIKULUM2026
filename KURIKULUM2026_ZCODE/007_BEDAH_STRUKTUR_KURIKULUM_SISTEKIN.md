@@ -34,16 +34,15 @@
 
 | Semester | SKS | MK | Karakter | Status |
 |---|:---:|:---:|---|---|
-| **Sem 1** | 19 | 8 | Fondasi Keilmuan & Basic IT | ✅ Seimbang |
-| **Sem 2** | 22 | 9 | Fondasi Lanjutan & Math/Database (Pengantar AI 2 SKS Teori) | ✅ Ideal (22 SKS) |
-| **Sem 3** | 20 | 7 | Core SE, APSI, Sistem Cerdas (2 SKS Teori), Keamanan Dasar & UI/UX (+P) | ✅ Seimbang |
-| **Sem 4** | 17 | 8 | Core AI, Web Back End (+P), Cloud & 2 MK 0 SKS (Agama II & KWU II) | ✅ Ringan & Fokus (17 SKS) |
-| **Sem 5** | 21 | 7 | Deep Learning (+P), Analytics (+P), IoT (+P), Mobile (+P) & 2 MK Peminatan | ✅ Hand-on Lab & Peminatan |
-| **Sem 6** | 20 | 7 | Integrasi AI, Smart City & Capstone (MK Paralel Sem 6-7-8) | ✅ Seimbang |
-| **Sem 7** | 21 | 7 | Conversational AI, Startup & 5 MK Pilihan Peminatan | ✅ Seimbang |
-| **Sem 8 / Paralel** | 13 | 4 | Metpen, PKL, Seminars (Proposal), Skripsi | ✅ Fokus Paket Tugas Akhir |
-| **KPM / KKN (Antar Sem)** | 3 | 1 | Kuliah Pengabdian Masyarakat | ✅ Mandiri |
-| **TOTAL GRADUASI** | **170** | **61** | **Wajib 143 SKS + Pilihan 27 SKS** | **Graduasi 8 Sem** |
+| **Sem 1** | 19 | 8 | Fondasi Keilmuan & Basic IT | ✅ Seimbang (≤20 SKS) |
+| **Sem 2** | 20 | 8 | Fondasi Lanjutan, Math/Data, Etika Digital & KWU I (2 SKS) | ✅ **Tepat 20 SKS** (Permendikbud 53) |
+| **Sem 3** | 20 | 7 | Core SE, APSI, Sistem Cerdas, UI/UX (+P), Sistem Operasi & Jaringan (+P) | ✅ Fondasi Sistem & Jaringan (20 SKS) |
+| **Sem 4** | 19 | 10 | Core AI, Web Back End (+P), Cloud, Keamanan Dasar, Probstat, KWN & 2 MK 0 SKS | ✅ Seimbang (19 SKS / 22 SKS formal) |
+| **Sem 5** | 21 | 7 | Deep Learning (+P), DW-BI (+P), Data Mining (+P), IoT (+P), Mobile (+P) & 2 MK Pilihan | ✅ Advanced Core & Peminatan |
+| **Sem 6** | 20 | 7 | Integrasi AI (+P), Smart City (+P), Capstone FSTI (+P), Keamanan Lanjut, Metpen & 2 MK Pilihan | ✅ Integrasi, Capstone & MBKM |
+| **Sem 7** | 21 | 7 | Platform Eng (+P), Startup (+P), PKL (+P) & 4 MK Pilihan Peminatan | ✅ Profesionalisasi & Inkubasi |
+| **Sem 8 / Paralel** | 11 | 3 | Pra-Skripsi (2), Skripsi / Capstone TA (6), KPM/KKN (3) | ✅ Single Track Penyelesaian Akhir |
+| **TOTAL GRADUASI** | **170** | **61** | **Wajib 143 SKS + Pilihan 27 SKS (Beban Lulus Mahasiswa = 144 SKS)** | **Graduasi 8 Sem** |
 
 ---
 

@@ -38,8 +38,8 @@
 | 1 | Agama I | 1 | 2 | — | ● | | | | | | | | | | | | | |
 | 2 | Pancasila | 1 | 2 | — | ● | | | | | | | | | | | | | |
 | 3 | Bahasa Indonesia | 1 | 2 | — | | | ● | | | | | | | | | | | |
-| 4 | Agama II | 2 | 0 | — | ● | | | | | | | | | | | | | |
-| 5 | Kewarganegaraan | 2 | 2 | — | ● | | | | | | | | | | | | | |
+| 4 | Agama II | 4 | 0 | — | ● | | | | | | | | | | | | | |
+| 5 | Kewarganegaraan | 4 | 2 | — | ● | | | | | | | | | | | | | |
 | 6 | Kewirausahaan I | 2 | 2 | — | | | | | | | | | | | | | | ● |
 | 7 | Kewirausahaan II | 4 | 0 | — | | | | | | | | | | | | | | ● |
 | 8 | KKN | — | 3 | — | ● | | ● | | | | | | | | | | | |
@@ -192,7 +192,7 @@
 
 | CPL | Sem 1 | Sem 2 | Sem 3 | Sem 4 | Sem 5 | Sem 6 | Sem 7 | Sem 8 |
 |---|---|---|---|---|---|---|---|---|
-| **S1** | Agama, Pancasila | Kewarganegaraan | — | Etika | — | PKL | — | Skripsi, Capstone |
+| **S1** | Agama, Pancasila | Etika | — | Kewarganegaraan, Agama II | — | PKL | — | Skripsi, Capstone |
 | **KU1** | Algoritma, Logika | Diskrit | API, RPL | Analisis SI | Metpen, Seminar | — | Pra-Skripsi | Skripsi, Capstone |
 | **KU2** | B.Ina, Basic Eng | English IT | — | Etika | Metpen, Seminar | — | Pra-Skripsi | Skripsi, Capstone |
 | **KU3** | — | — | — | — | Metpen, Seminar | PKL | Pra-Skripsi | Skripsi, Capstone |

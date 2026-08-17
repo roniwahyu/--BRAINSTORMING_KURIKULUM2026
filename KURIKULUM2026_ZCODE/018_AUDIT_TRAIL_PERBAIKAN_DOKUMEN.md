@@ -484,13 +484,64 @@ User menginformasikan bahwa MK terbagi menjadi:
     - **Internet of Things (IoT)** dipindahkan dari Semester 3 ke **Semester 5** (setelah mahasiswa menempuh *Jaringan Komputer* di Sem 3).
     - **Pemrograman Aplikasi Mobile** dipindahkan dari Semester 4 ke **Semester 5** (setelah *Web Front End* di Sem 3 & *Web Back End* di Sem 4).
     - **Beban Semester 5:** 21 SKS (7 MK: Deep Learning, DW-BI, Data Mining, IoT, Mobile, 2 MK Pilihan Peminatan).
-### 7.8 Konsolidasi Analisis Keselarasan Kurikulum & Sinkronisasi Agentic AI (17 Agustus 2026)
+### 7.9 Penyeimbangan 3 Peminatan, Batas 20 SKS Sem 2 (Kewarganegaraan ke Sem 4) & Penambahan Sistem Operasi (17 Agustus 2026)
 
-1. **Pembuatan Dokumen Rujukan 020:**
-   - Diterbitkan file `020_ANALISIS_KESELARASAN_KURIKULUM_OBE_SISTEKIN.md` sebagai *Single Source of Truth* arsitektur keselarasan kurikulum OBE SISTEKIN 2026.
-   - Memetakan hierarki 6 tingkat: VMTS 2045 → 6 Profil Lulusan (PL) & PEO 3 Jalur → 14 CPL (SN-Dikti & APTIKOM) → BoK IS2020 (19 BK) & IT2017 (14 BK) → Struktur 8 Semester (61 MK / 170 SKS portofolio / 144 SKS syarat kelulusan) → Asesmen & Capstone Design.
-2. **Sinkronisasi Memori Agent (`AGENTS.md`):**
-   - Meng-update `AGENTS.md` dengan ground truth konsensus, menghilangkan redundansi draft lama, dan menetapkan *Next Steps* untuk evaluasi multi-agent AI berikutnya.
+1. **Penyesuaian Semester 2 Menjadi Tepat 20 SKS:**
+   - Memindahkan `MKU-401 Kewarganegaraan` (2 SKS) dari Semester 2 ke **Semester 4 (Genap)** agar patuh Permendikbudristek No. 53/2023 Pasal 18 (batas maksimal 20 SKS di 2 semester pertama).
+   - Mempertahankan `FST-206 Etika dan Hukum Digital` (2 SKS) di **Semester 2** agar mahasiswa mendapatkan pemahaman regulasi privasi data (UU PDP/GDPR) bersamaan dengan *Basis Data* dan *AI*.
+2. **Penambahan Kembali MK Sistem Operasi:**
+   - Memasukkan kembali `STI-305 Sistem Operasi` (3 SKS) ke **Semester 3 (Ganjil)** sebagai fondasi BoK IT2017/IS2020 infrastruktur sebelum Cloud dan Keamanan.
+3. **Reposisi Conversational AI & Smart Surveillance:**
+   - Menggeser `Conversational AI` (3 SKS, +P) dan `Smart Surveillance` (3 SKS, +P) dari MK Wajib menjadi **MK Pilihan Peminatan P1 (Integrated Smart Systems)**.
+4. **Penyeimbangan 3 Peminatan (@ 6 MK / 18 SKS):**
+   - Menetapkan portofolio peminatan yang seimbang secara proporsional: P1 (6 MK / 18 SKS), P2 (6 MK / 18 SKS), dan P3 (6 MK / 18 SKS). Mahasiswa mengambil 9 MK pilihan (27 SKS) di Semester 5 s.d. 7.
+5. **Kewirausahaan I Tetap 2 SKS:**
+   - Mempertahankan `MKU-202 Kewirausahaan I` (2 SKS) di Semester 2 untuk penguatan pilar VMTS 2045.
+
+### 7.10 Penegasan Batasan Keilmuan & Fokus Silabus MK EdTech dan FinTech pada Peminatan P3 (17 Agustus 2026)
+
+1. **Klarifikasi Batasan (*Distinctive Boundary*) vs Bisnis Digital:**
+   - Mata kuliah `STC-02 EdTech Platform Development` (3 SKS, +P) dan `STC-03 FinTech Platform Development` (3 SKS, +P) pada Peminatan P3 (*Digital Platform Engineering*) ditegaskan berfokus pada **rekayasa arsitektur sistem dan integrasi API (*Platform Engineering*)**, bukan pada model bisnis atau pemasaran digital (ranah Bisnis Digital).
+2. **Fokus Silabus & Keterlacakan BoK/CPL:**
+   - **EdTech:** Arsitektur LMS, standar SCORM/LTI/xAPI, gamification logic engine, adaptive quiz algorithms, dan Learning Analytics API.
+   - **FinTech:** Integrasi Payment Gateway (Midtrans/Xendit/Stripe), transaction double-entry ledger & idempotency, PCI-DSS security compliance, dan decentralized smart contract ledger.
+   - **CPL & BoK:** Memenuhi CPL KK5 (Platform Skalabel) dan KK6 (Inovasi Startup) serta BoK IS2020 (BK07, BK09, BK17) dan BoK IT2017 (*Platform Technologies*).
+3. **Harmonisasi Prasyarat:**
+   - Ditetapkan prasyarat berjenjang: `STI-306 Web Front End` (Sem 3), `STI-407 Web Back End` (Sem 4), dan `FST-207 Basis Data` (Sem 2).
+
+---
+
+### 7.11 [OPEN ISSUE — PENDING DECISION] Analisis Redundansi & Restrukturisasi Portofolio Peminatan P3 Digital Platform Engineering (17 Agustus 2026)
+
+> ⚠️ **Status: Belum dikunci. Menunggu keputusan final dari Tim Kurikulum.**
+> Agent AI berikutnya JANGAN mengubah dokumen 011/020 terkait P3 sebelum ada keputusan resmi.
+
+#### Temuan Kritis (Berbasis Audit [019] §D1 & §E1)
+
+1. **Konflik Level MK — Duplikasi Nama & Substansi dengan MK Wajib:**
+   - `STI-701 Digital Platform Engineering` (Sem 7, **WAJIB**, 3 SKS) mengajarkan fondasi arsitektur platform: *Microservices, API Gateway, CI/CD, Redis/Kafka* — berlaku untuk **semua** mahasiswa STI.
+   - `STC-02 EdTech Platform Development` dan `STC-03 FinTech Platform Development` (Pilihan P3, 3 SKS masing-masing) mengajarkan **domain aplikasi** dari arsitektur yang sama.
+   - ~70% substansi teknis EdTech & FinTech **tumpang tindih** satu sama lain dan dengan STI-701 (BoK BK07 sama, CPL KK5+KK6 sama, pola auth/DB/API identik).
+
+2. **Temuan Redundansi Tambahan di P3 (Seluruh Slot):**
+   - `STC-06 Agile & Scrum for Digital Product` → tumpang tindih dengan `STI-406 Manajemen Proyek TI` (Sem 4, Wajib) yang sudah mencakup Scrum & Waterfall.
+   - `STC-05 SaaS Architecture & Cloud-Native` → sub-set dari `STI-404 Sistem Informasi Berbasis Cloud` (Sem 4, Wajib) dan `STB-02 Cloud Architecture & DevOps` (Pilihan P2).
+
+3. **Gap Kritis BoK BK15 (Business Process Management) — MASIH KOSONG:**
+   - Dokumen [019] §D1 mengidentifikasi BK15 sebagai satu-satunya BoK IS2020 yang **belum terwakili** di seluruh kurikulum (kosong sebagai MK mandiri). Slot yang terbebas dari konsolidasi EdTech+FinTech dapat digunakan untuk menutup gap ini.
+
+#### Tiga Skenario yang Sedang Dikaji
+
+| Skenario | Deskripsi | Dampak pada P3 |
+|---|---|---|
+| **S1 (Rekomendasi Asesor)** | Gabung EdTech+FinTech → `STC-02 Industry Vertical Application Dev` (3 SKS). Slot bebas diisi `STC-03 Business Process Automation & Low-Code Platform` (3 SKS, menutup BK15) | Portofolio tetap 6 MK / 18 SKS. Gap BK15 tertutup. Cakupan BoK IS2020 = 19/19. |
+| **S2** | Gabung EdTech+FinTech saja → tetap 5 MK aktif + 1 slot kosong sebagai cadangan | Portofolio 5 MK / 15 SKS (tidak seimbang dengan P1 & P2). BK15 tetap kosong. |
+| **S3** | Pertahankan keduanya, ubah fokus radikal: EdTech → *Adaptive Learning & AI in Education*; FinTech → *Secure Financial Systems & Open Banking API* | Diferensiasi teknis lebih jelas tapi nama MK berubah total; beban dosen spesialis meningkat. |
+
+#### Rekomendasi Asesor
+- **Skenario 1** adalah pilihan terkuat secara akademik dan strategis untuk akreditasi LAM INFOKOM.
+- Nama gabungan yang diusulkan: `Industry Vertical Application Development` (bukan "Vertical Platform Engineering" untuk menghindari konflik nama dengan STI-701).
+- MK pengganti slot: `Business Process Automation & Low-Code Platform` (BK15, CPL KK5+KK6, +P: OutSystems/Mendix/UiPath).
 
 ---
 

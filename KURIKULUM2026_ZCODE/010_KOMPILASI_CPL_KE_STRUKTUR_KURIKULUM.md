@@ -224,7 +224,7 @@ VMTS (Visi-Misi-Tujuan-Sasaran)
 | 1 | Agama I | MKU-101 | 2 | S1 | MKWU (Sem 1) |
 | 2 | Pancasila | MKU-102 | 2 | S1 | MKWU (Sem 1) |
 | 3 | Bahasa Indonesia | MKU-103 | 2 | KU2 | MKWU (Sem 1) |
-| 4 | Kewarganegaraan | MKU-201 | 2 | S1 | MKWU (Sem 2) |
+| 4 | Kewarganegaraan | MKU-401 | 2 | S1 | MKWU (Sem 4) |
 | 5 | Kewirausahaan I | MKU-202 | 2 | KK6 | MKWU (Sem 2) |
 | 6 | Agama II | MKU-401A | 0 | S1 | MKWU — Kebijakan UWG (0 SKS, Sem 4) |
 | 7 | Kewirausahaan II | MKU-402 | 0 | KK6 | MKWU — Kebijakan UWG (0 SKS, Sem 4) |
