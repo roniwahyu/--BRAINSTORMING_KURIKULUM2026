@@ -249,18 +249,17 @@ Agama I (2 SKS, Sem 1), Pancasila (2 SKS, Sem 1), Bahasa Indonesia (2 SKS, Sem 1
 | **Mengapa SISTEKIN?** | Bisnis Digital = jual. SISTEKIN = **bangun platform** (API, microservices, scalable) |
 | **Paspor Industri** | Startup, GoTo/Grab/Shopee, digital agency, BUMN go-digital, EdTech/FinTech company |
 
-**MK Pilihan P3:**
-| MK (Nama Akademis) | Nama Marketable | SKS | +P? | Alasan Masuk P3 |
-|---|---|---|---|---|
-| User Experience Research & Design | *UX Designer* | 3 | ✅ | User-centered platform design |
-| EdTech Platform Development | *Bangun Platform Belajar* | 3 | ✅ | LMS, quiz, gamification education |
-| FinTech Platform Development | *Bangun Sistem Pembayaran* | 3 | ✅ | Payment gateway, e-wallet, API |
-| Immersive Media & XR Development | *Developer VR/AR/MR* | 3 | ✅ | AR/VR prototyping, 3D interactive |
-| SaaS Engineering & Startup | *Launch SaaS MVP* | 3 | ✅ | Multi-tenant, subscription, cloud-native |
-| Agile & Scrum for Digital Product | *Product Manager* | 3 | ✅ | Sprint, Jira, backlog, retrospective |
-| Technology Leadership & CTO Simulation | *CTO Readiness* | 3 | ✅ | Tech strategy, team scaling, vendor mgmt |
+**MK Pilihan P3 (6 MK / 18 SKS):**
+| Kode | MK (Nama Akademis) | Nama Marketable | SKS | +P? | BoK Terjawab | Alasan Masuk P3 |
+|---|---|---|:---:|:---:|---|---|
+| STC-01 | User Experience Research & Design | *UX Researcher / Designer* | 3 | ✅ | SI-BK17, TI-BK11 | Riset UX mendalam, usability testing, design system |
+| **STC-02** | **Rekayasa & Otomasi Proses Bisnis** | **Business Process & Automation Engineer** | **3** | **✅** | **SI-BK15, TI-BK04** | **BPMN 2.0, workflow orchestration, integrasi proses enterprise (Menutup Gap SI-BK15)** |
+| STC-03 | Rekayasa Aplikasi Industri Vertikal | *Vertical Platform Engineer* | 3 | ✅ | SI-BK07, TI-BK06 | Konsolidasi FinTech & EdTech, payment gateway & platform API |
+| STC-04 | Immersive Media & XR Development | *Developer VR/AR/Spatial* | 3 | ✅ | SI-BK18, TI-BK24 | Spatial computing, AR/VR enterprise platform |
+| STC-05 | SaaS Architecture & Multi-Tenancy | *SaaS Product Engineer* | 3 | ✅ | SI-BK07, TI-BK20 | Multi-tenant isolation, subscription/billing engine, cloud-native |
+| STC-06 | Digital Product Management & Agile | *Digital Product Manager* | 3 | — | SI-BK19, TI-BK13 | Product roadmap, Scrum/Kanban, backlog & product discovery |
 
-**Total P3:** 7 MK pilihan (ambil 3-4 dari 7)
+**Total P3:** Tepat 6 MK pilihan (18 SKS) — Seimbang dengan P1 (6 MK) dan P2 (6 MK).
 
 ---
 

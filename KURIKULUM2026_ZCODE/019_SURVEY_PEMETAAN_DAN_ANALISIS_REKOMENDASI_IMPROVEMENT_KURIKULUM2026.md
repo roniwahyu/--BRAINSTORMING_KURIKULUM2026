@@ -340,23 +340,23 @@ Berdasarkan tabel §D1 dokumen ini, **BK15 Business Process Management** adalah 
 
 > ⭐ **Nama gabungan `Industry Vertical Application Development`** dipilih (bukan *Vertical Platform Engineering*) untuk **menghindari konflik nama** dengan `STI-701 Digital Platform Engineering` yang merupakan MK Wajib di Semester 7.
 
-#### E3.5 Portofolio P3 Final Setelah Skenario 1 Diterapkan
+#### E3.5 Portofolio P3 Final Terverifikasi (Level S1 Akademik-Rekayasa)
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│ PEMINATAN P3 (REVISI USULAN S1): DIGITAL PLATFORM ENGINEERING & TECHNOPRENEURSHIP      │
-│                                                    Tetap 6 MK / 18 SKS                │
+│ PEMINATAN P3 (FINAL KEPUTUSAN): DIGITAL PLATFORM ENGINEERING & TECHNOPRENEURSHIP       │
+│                                                    Tepat 6 MK / 18 SKS                 │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
-│  STC-01: Advanced UX Research & Usability Testing (3 SKS, +P)          ← TETAP        │
-│  STC-02: Industry Vertical Application Development (3 SKS, +P)         ← GABUNGAN BARU │
-│          [Track A: EdTech — LMS, SCORM/xAPI, Gamification]                            │
-│          [Track B: FinTech — Payment Gateway, Ledger, PCI-DSS]                        │
-│  STC-03: Business Process Automation & Low-Code Platform (3 SKS, +P)   ← PENGGANTI    │
-│          [BK15: OutSystems, Mendix, UiPath RPA, Bubble, n8n]                          │
-│  STC-04: Immersive Media & XR Development (3 SKS, +P)                  ← TETAP        │
-│  STC-05: SaaS & Multi-Tenant Platform Architecture (3 SKS, +P)         ← DIPERTAJAM   │
-│  STC-06: Digital Product Management & Growth Strategy (3 SKS)          ← DIUBAH FOKUS │
-│          [Bukan Project Mgmt — fokus: discovery, OKR, roadmap, GTM]                   │
+│  STC-01: User Experience Research & Design (3 SKS, +P)                 ← TETAP (UX)    │
+│  STC-02: Rekayasa & Otomasi Proses Bisnis (3 SKS, +P)                  ← BARU (BPM) ★ │
+│          [SI-BK15: BPMN 2.0, Process Mining, Workflow Orchestration Engine]            │
+│  STC-03: Rekayasa Aplikasi Industri Vertikal (3 SKS, +P)               ← GABUNGAN      │
+│          [FinTech Payment Gateway & EdTech Interactive Learning Platform]              │
+│  STC-04: Immersive Media & XR Development (3 SKS, +P)                  ← TETAP (XR)    │
+│  STC-05: SaaS Architecture & Multi-Tenancy (3 SKS, +P)                 ← DIPERTAJAM    │
+│          [Multi-Tenant Database Isolation & Subscription Billing Systems]              │
+│  STC-06: Digital Product Management & Agile Practices (3 SKS)          ← DIUBAH FOKUS  │
+│          [Product Discovery, Roadmapping, OKR, Scrum & Lean Growth]                    │
 └────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 

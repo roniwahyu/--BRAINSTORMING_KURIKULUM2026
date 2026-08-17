@@ -191,10 +191,11 @@
 | No | Mata Kuliah | Kode | SKS | +P | CPL | Nama Marketable |
 |---|---|---|---|---|---|---|
 | 1 | User Experience Research & Design | STC-01 | 3 | ✅ | KK5 | UX Researcher / Product Designer |
-| 2 | EdTech Platform Development | STC-02 | 3 | ✅ | KK5 | EdTech Product Engineer |
-| 3 | FinTech Platform Development | STC-03 | 3 | ✅ | KK5 | FinTech Engineer / API Developer |
+| 2 | **Rekayasa & Otomasi Proses Bisnis** *(BPA)* | **STC-02** | **3** | **✅** | **KK5** | **Business Process & Automation Engineer** *(SI-BK15)* |
+| 3 | Rekayasa Aplikasi Industri Vertikal *(FinTech & EdTech)* | STC-03 | 3 | ✅ | KK5 | Vertical Platform Engineer / API Developer |
 | 4 | Immersive Media & XR Development | STC-04 | 3 | ✅ | KK5 | XR/AR/VR Developer |
-| 6 | Agile & Scrum for Digital Product | STC-06 | 3 | — | KK6 | Scrum Master / Product Owner |
+| 5 | SaaS Architecture & Multi-Tenancy | STC-05 | 3 | ✅ | KK5 | SaaS Product Engineer |
+| 6 | Digital Product Management & Agile Practices | STC-06 | 3 | — | KK6 | Digital Product Manager / Scrum Master |
 
 ---
 

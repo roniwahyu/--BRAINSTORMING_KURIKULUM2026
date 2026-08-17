@@ -511,37 +511,27 @@ User menginformasikan bahwa MK terbagi menjadi:
 
 ---
 
-### 7.11 [OPEN ISSUE — PENDING DECISION] Analisis Redundansi & Restrukturisasi Portofolio Peminatan P3 Digital Platform Engineering (17 Agustus 2026)
+### 7.11 [DECISION FINAL — RESOLVED] Keputusan Restrukturisasi Peminatan P3: Penetapan STC-02 "Rekayasa & Otomasi Proses Bisnis" & Konsolidasi STC-03 (17 Agustus 2026)
 
-> ⚠️ **Status: Belum dikunci. Menunggu keputusan final dari Tim Kurikulum.**
-> Agent AI berikutnya JANGAN mengubah dokumen 011/020 terkait P3 sebelum ada keputusan resmi.
+> ✅ **Status: FINAL & TERKUNCI (Disetujui User).**  
+> Keputusan ini menyelesaikan gap kritis `SI-BK15` dan menuntaskan redundansi pemrograman di Peminatan P3.
 
-#### Temuan Kritis (Berbasis Audit [019] §D1 & §E1)
-
-1. **Konflik Level MK — Duplikasi Nama & Substansi dengan MK Wajib:**
-   - `STI-701 Digital Platform Engineering` (Sem 7, **WAJIB**, 3 SKS) mengajarkan fondasi arsitektur platform: *Microservices, API Gateway, CI/CD, Redis/Kafka* — berlaku untuk **semua** mahasiswa STI.
-   - `STC-02 EdTech Platform Development` dan `STC-03 FinTech Platform Development` (Pilihan P3, 3 SKS masing-masing) mengajarkan **domain aplikasi** dari arsitektur yang sama.
-   - ~70% substansi teknis EdTech & FinTech **tumpang tindih** satu sama lain dan dengan STI-701 (BoK BK07 sama, CPL KK5+KK6 sama, pola auth/DB/API identik).
-
-2. **Temuan Redundansi Tambahan di P3 (Seluruh Slot):**
-   - `STC-06 Agile & Scrum for Digital Product` → tumpang tindih dengan `STI-406 Manajemen Proyek TI` (Sem 4, Wajib) yang sudah mencakup Scrum & Waterfall.
-   - `STC-05 SaaS Architecture & Cloud-Native` → sub-set dari `STI-404 Sistem Informasi Berbasis Cloud` (Sem 4, Wajib) dan `STB-02 Cloud Architecture & DevOps` (Pilihan P2).
-
-3. **Gap Kritis BoK BK15 (Business Process Management) — MASIH KOSONG:**
-   - Dokumen [019] §D1 mengidentifikasi BK15 sebagai satu-satunya BoK IS2020 yang **belum terwakili** di seluruh kurikulum (kosong sebagai MK mandiri). Slot yang terbebas dari konsolidasi EdTech+FinTech dapat digunakan untuk menutup gap ini.
-
-#### Tiga Skenario yang Sedang Dikaji
-
-| Skenario | Deskripsi | Dampak pada P3 |
-|---|---|---|
-| **S1 (Rekomendasi Asesor)** | Gabung EdTech+FinTech → `STC-02 Industry Vertical Application Dev` (3 SKS). Slot bebas diisi `STC-03 Business Process Automation & Low-Code Platform` (3 SKS, menutup BK15) | Portofolio tetap 6 MK / 18 SKS. Gap BK15 tertutup. Cakupan BoK IS2020 = 19/19. |
-| **S2** | Gabung EdTech+FinTech saja → tetap 5 MK aktif + 1 slot kosong sebagai cadangan | Portofolio 5 MK / 15 SKS (tidak seimbang dengan P1 & P2). BK15 tetap kosong. |
-| **S3** | Pertahankan keduanya, ubah fokus radikal: EdTech → *Adaptive Learning & AI in Education*; FinTech → *Secure Financial Systems & Open Banking API* | Diferensiasi teknis lebih jelas tapi nama MK berubah total; beban dosen spesialis meningkat. |
-
-#### Rekomendasi Asesor
-- **Skenario 1** adalah pilihan terkuat secara akademik dan strategis untuk akreditasi LAM INFOKOM.
-- Nama gabungan yang diusulkan: `Industry Vertical Application Development` (bukan "Vertical Platform Engineering" untuk menghindari konflik nama dengan STI-701).
-- MK pengganti slot: `Business Process Automation & Low-Code Platform` (BK15, CPL KK5+KK6, +P: OutSystems/Mendix/UiPath).
+#### Ringkasan Keputusan:
+1. **Penetapan MK Baru `STC-02 Rekayasa & Otomasi Proses Bisnis` (3 SKS, +P, Semester 5/6/7):**
+   - **Nama Bahasa Inggris:** *Business Process Engineering & Automation*
+   - **Level Kualifikasi:** Jenjang Sarjana (S1) Akademik-Rekayasa (KKNI Level 6), bukan vokasi/D4.
+   - **Fokus Keilmuan:** Pemodelan formal proses bisnis (BPMN 2.0 / Petri Nets), *process mining*, optimasi metrik *throughput*, dan rekayasa orkestrasi alur kerja terdistribusi (*workflow orchestration engine* & integrasi API enterprise).
+   - **Dampak Akreditasi:** **Menutup Gap Kritis `SI-BK15` (Business Process Management)** sehingga kurikulum SISTEKIN kini **100% memenuhi 19/19 Bahan Kajian IS2020 APTIKOM**.
+2. **Konsolidasi EdTech & FinTech menjadi `STC-03 Rekayasa Aplikasi Industri Vertikal` (3 SKS, +P):**
+   - Menghilangkan duplikasi arsitektur CRUD/API berulang antara EdTech dan FinTech.
+   - Tetap mengajarkan domain studi kasus riil (*payment gateway, learning management, digital ledger*) dalam 1 MK yang padat dan fokus.
+3. **Portofolio Peminatan P3 Menjadi Tepat 6 MK (18 SKS):**
+   - `STC-01`: User Experience Research & Design (3 SKS, +P)
+   - `STC-02`: Rekayasa & Otomasi Proses Bisnis (3 SKS, +P) ⭐
+   - `STC-03`: Rekayasa Aplikasi Industri Vertikal (3 SKS, +P)
+   - `STC-04`: Immersive Media & XR Development (3 SKS, +P)
+   - `STC-05`: SaaS Architecture & Multi-Tenancy (3 SKS, +P)
+   - `STC-06`: Digital Product Management & Agile Practices (3 SKS)
 
 ---
 

@@ -57,29 +57,37 @@ graph TD
 │ 5. Conversational AI &     │    2019 (STB-04, 3 SKS)    │ 5. SaaS Architecture &       │
 │    Intelligent Assistant   │ 5. IT Service Management   │    Cloud Native (STC-05, 3)  │
 │    (STA-05, 3 SKS, +P) ★   │    (ITIL 4) (STB-05, 3 SKS)│ 6. Agile Scrum Product       │
-│ 6. Smart Surveillance &    │ 6. Enterprise Architecture │    Management & CTO Sim      │
-│    IoT Analytics           │    (TOGAF) (STB-06, 3 SKS) │    (STC-06, 3 SKS)           │
-│    (STA-06, 3 SKS, +P) ★   │                            │                              │
+```
+┌────────────────────────────┬────────────────────────────┬────────────────────────────┐
+│ P1: Integrated Smart Sys   │ P2: Cloud Infra & Security │ P3: Digital Platform Eng   │
+│ (STA-, 6 MK / 18 SKS)      │ (STB-, 6 MK / 18 SKS)      │ (STC-, 6 MK / 18 SKS)      │
+├────────────────────────────┼────────────────────────────┼────────────────────────────┤
+│ 1. Decision Support Sys    │ 1. Network Sec & Forensics │ 1. UX Research & Design    │
+│    (STA-01, 3 SKS)         │    (STB-01, 3 SKS, +P)     │    (STC-01, 3 SKS, +P)     │
+│ 2. Computational Methods   │ 2. Cloud Arch & DevOps     │ 2. Rekayasa & Otomasi      │
+│    (STA-02, 3 SKS)         │    (STB-02, 3 SKS, +P)     │    Proses Bisnis (STC-02)★ │
+│ 3. Intelligent Agent Sys   │ 3. Cyber Risk Management   │ 3. Rekayasa Aplikasi       │
+│    (STA-03, 3 SKS)         │    (STB-03, 3 SKS)         │    Vertikal (STC-03, +P)   │
+│ 4. MLOps & AI Pipeline     │ 4. IT Governance (COBIT)   │ 4. Immersive Media & XR    │
+│    (STA-04, 3 SKS, +P)     │    (STB-04, 3 SKS)         │    (STC-04, 3 SKS, +P)     │
+│ 5. Conversational AI ★     │ 5. IT Service Mgmt (ITIL)  │ 5. SaaS Architecture &     │
+│    (STA-05, 3 SKS, +P)     │    (STB-05, 3 SKS)         │    Multi-Tenancy (STC-05)  │
+│ 6. Smart Surveillance &    │ 6. Enterprise Architecture │ 6. Digital Product Mgmt &  │
+│    IoT Analytics           │    (TOGAF) (STB-06, 3 SKS) │    Agile (STC-06, 3 SKS)   │
+│    (STA-06, 3 SKS, +P) ★   │                            │                            │
+└────────────────────────────┴────────────────────────────┴────────────────────────────┘
 ```
 
-### 3.1 Boundary Keilmuan & Fokus Silabus MK Peminatan P3 (EdTech & FinTech Platform)
+### 3.1 Struktur Portofolio Peminatan P3 (Digital Platform Engineering) — FINAL
 
-Untuk menjaga *distinctive positioning* SISTEKIN (FSTI) vs Bisnis Digital (FEB), ditetapkan batasan teknis yang tegas:
-* **`STC-02: EdTech Platform Development` (3 SKS, +P):**
-  * **Bukan:** Model bisnis bimbingan belajar/kursus digital.
-  * **Fokus Keilmuan SISTEKIN:** Rekayasa arsitektur *Learning Management System (LMS)*, standar interoperabilitas konten (*SCORM, LTI, xAPI*), *gamification engine*, sistem kuis adaptif berbasis data, dan integrasi *Learning Analytics API*.
-* **`STC-03: FinTech Platform Development` (3 SKS, +P):**
-  * **Bukan:** Pemasaran produk perbankan atau analisis pasar modal.
-  * **Fokus Keilmuan SISTEKIN:** Arsitektur integrasi *Payment Gateway* (Midtrans/Xendit/Stripe), *double-entry transaction ledger & idempotency*, keamanan transaksi (*PCI-DSS, tokenization, JWT, webhook security*), serta pengantar *Decentralized Finance & Smart Contract Ledger*.
-* **Keterlacakan CPL & BoK:** Mendukung **CPL KK5** (Platform Skalabel) & **KK6** (Inovasi Startup) serta BoK IS2020 (BK07, BK09, BK17) dan BoK IT2017 (*Platform Technologies*).
-* **Prasyarat Wajib:** `STI-306 Web Front End` (Sem 3) + `STI-407 Web Back End` (Sem 4) + `FST-207 Basis Data` (Sem 2).
-
-### 3.2 [OPEN ISSUE] Portofolio Peminatan P3 — Audit Redundansi Sedang Dikaji
-
-> ⚠️ **PENDING DECISION — Jangan kunci perubahan 011 terkait P3 sebelum ada keputusan.**
-> Detail analisis dan 3 skenario keputusan tersimpan di **[018] Section 7.11**.
-
-Temuan: `STC-02 EdTech` dan `STC-03 FinTech` memiliki ~70% tumpang tindih substansi teknis satu sama lain dan dengan `STI-701 Digital Platform Engineering` (MK Wajib Sem 7). Seluruh slot P3 sedang dievaluasi untuk memastikan diversifikasi BoK IS2020 yang optimal, khususnya penutupan **gap BK15 Business Process Management** yang masih kosong di seluruh kurikulum.
+Telah ditetapkan restrukturisasi Peminatan P3 untuk memastikan keunggulan level S1 Akademik-Rekayasa (KKNI Level 6) serta menutup gap BoK nasional:
+* **`STC-02: Rekayasa & Otomasi Proses Bisnis` (3 SKS, +P):**
+  * **Fokus Level S1:** Pemodelan formal alur proses bisnis enterprise (*BPMN 2.0 / Petri Nets*), *Process Mining*, optimasi metrik *throughput*, dan rekayasa orkestrasi alur kerja terdistribusi (*workflow orchestration engine* & integrasi API).
+  * **Cakupan BoK:** **Menutup 100% Gap Kritis `SI-BK15` (Business Process Management)** dan `TI-BK04` (Sistem Terintegrasi).
+* **`STC-03: Rekayasa Aplikasi Industri Vertikal` (3 SKS, +P):**
+  * **Konsolidasi FinTech & EdTech:** Menggabungkan studi kasus rekayasa *payment gateway, SCORM LMS, ledger idempotency* ke dalam 1 MK terpadu untuk mengeliminasi redundansi coding.
+* **`STC-05: SaaS Architecture & Multi-Tenancy` (3 SKS, +P):**
+  * **Fokus Khusus Produk SaaS:** *Multi-tenant database isolation, subscription billing engine, micro-frontend*.
 
 ---
 
@@ -101,11 +109,11 @@ Temuan: `STC-02 EdTech` dan `STC-03 FinTech` memiliki ~70% tumpang tindih substa
 ## 5. CHECKLIST KESIAPAN DOKUMEN UNTUK AGENTIC AI BERIKUTNYA
 
 * [x] Keselarasan VMTS 2045 $\leftrightarrow$ 6 Profil Lulusan (PEO 3 Jalur)
-* [x] Keselarasan 14 CPL $\leftrightarrow$ 19 BoK IS2020 & 14 BoK IT2017
-* [x] Penyeimbangan 3 Peminatan (@ 6 MK / 18 SKS)
+* [x] Keselarasan 14 CPL $\leftrightarrow$ 19 BoK IS2020 & 27 BoK IT2017 (Cakupan 100% — Gap `SI-BK15` Terisi)
+* [x] Penyeimbangan 3 Peminatan (@ 6 MK / 18 SKS) — P1, P2, P3 Terstruktur Final
 * [x] Kepatuhan Beban Semester 1 & 2 ($\le 20$ SKS)
-* [ ] **[OPEN] Restrukturisasi Portofolio P3** — 3 skenario dikaji (lihat [018] §7.11). Keputusan menentukan apakah BK15 ditutup dengan MK baru.
-* [ ] **Langkah Kerja Berikutnya:** Penyusunan Matriks BoK $\leftrightarrow$ MK (Tabel 6 Standar APTIKOM) & Penyusunan CPMK RPS 44 MK Wajib.
+* [x] **Restrukturisasi Portofolio P3 FINAL & TERKUNCI** — `STC-02 Rekayasa & Otomasi Proses Bisnis` resmi ditetapkan.
+* [ ] **Langkah Kerja Berikutnya:** Penyusunan Matriks Detail BoK $\leftrightarrow$ MK (Tabel 6 Standar APTIKOM) & Penyusunan CPMK RPS 44 MK Wajib.
 
 ---
 
