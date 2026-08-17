@@ -53,7 +53,8 @@ Berikut adalah struktur lengkap folder dan file dalam workspace `!!BRAINSTORMING
 │   ├── 016_KETENTUAN_MPKM_20SKS_DAN_PRASYARAT.md      ← Skema MBKM & Prasyarat
 │   ├── 017_VERIFIKASI_GROUND_TRUTH_KURIKULUM2025.md  ← Verifikasi Data SIAKAD
 │   ├── 018_AUDIT_TRAIL_PERBAIKAN_DOKUMEN.md          ← Log Perubahan Dokumen
-│   └── 019_SURVEY_PEMETAAN_DAN_ANALISIS_REKOMENDASI...md
+│   ├── 019_SURVEY_PEMETAAN_DAN_ANALISIS_REKOMENDASI...md ← Rekomendasi Improvement & Asesmen
+│   └── 020_ANALISIS_KESELARASAN_KURIKULUM_OBE_SISTEKIN.md ← 🔑 SINGLE SOURCE OF TRUTH KESELARASAN KURIKULUM 2026
 │
 ├── KURIKULUM2025/                                    ← 📂 GROUND TRUTH DOKUMEN RESMI (SIAKAD & UPPS)
 │   ├── Laporan Daftar Kurikulum Prodi Sistekin.pdf   ← 🔑 GROUND TRUTH (56 MK, 146 SKS SIAKAD)

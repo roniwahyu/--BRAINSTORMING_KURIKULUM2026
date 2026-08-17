@@ -66,7 +66,7 @@
 
 | Komponen | BUKU_OBE (SI + TI) | SISTEKIN | Status |
 |---|---|---|---|
-| **Jumlah CPL** | 10-15 | 15 | ✅ (maksimal range) |
+| **Jumlah CPL** | 10-15 | 14 | ✅ (dalam range standar) |
 | **Kategori S (Sikap)** | Wajib (SN-Dikti) | 1 (S1) | ✅ |
 | **Kategori KU (Keterampilan Umum)** | Wajib (SN-Dikti) | 3 (KU1, KU2, KU3) | ✅ |
 | **Kategori P (Pengetahuan)** | Domain IS2020/IT2017 | 4 (P1, P2, P3, P4) | ✅ |

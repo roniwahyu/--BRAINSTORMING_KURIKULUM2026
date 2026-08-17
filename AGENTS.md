@@ -45,123 +45,83 @@ Gunakan prompt bertahap ini. Tiap langkah harus menunggu konfirmasi user sebelum
 
 ---
 
-## Key Decisions (already made — DO NOT revisit unless asked)
+## Key Decisions & Ground Truth Consensus (SUDAH FINAL — Jangan diubah tanpa persetujuan)
 
-| ID | Keputusan | Detail |
+| ID | Keputusan | Detail & Ground Truth |
 |---|---|---|
-| **VMTS** | Arah prodi = **AI/Smart Systems + Technopreneurship** | Visi 2045: "sistem & teknologi informasi cerdas berbasis kecerdasan artifisial dan technopreneurship" |
-| **5 Profil Lulusan** | Intelligent Information System Developer, UX & Digital Service Designer, Smart Technology Integrator, Technopreneur in Smart Information Services, Digital Governance & System Analyst | Disepakati rapat 09 Juni 2026 |
-| **R1** | MK 0 SKS (Agama II, Kewirausahaan II) = **kebijakan universitas** | Dipertahankan, tidak diubah |
-| **R2** | Rebalancing beban: semua sem ≤20 SKS | Sem 5-6-7 memuat peminatan |
-| **R3** | Reposisi: RPL Sem6→Sem4, Metpen Sem7→Sem6, Statistika Sem4→Sem2 | Diterapkan |
-| **R4** | 3 Peminatan berbasis BoK APTIKOM SI+TI | P1: Sistem Cerdas & Analitik Data, P2: Infrastruktur & Keamanan Digital, P3: Layanan Digital & Technopreneurship |
-| **R5** | MBKM maks 20 SKS di Sem 6-7 | Slot konversi dari peminatan + PKL |
-| **R6** | Capstone Design lintas-3-prodi (SISTEKIN + Bisnis Digital + Teknik Informatika) | Menggantikan Skripsi sbg default TA |
-| **R7** | MK "pinggiran" jadi **pilihan peminatan** (tidak dihapus) | AR/VR, Game Design, Signal Processing, Semantic Web, Multimedia → pilihan P1/P2/P3 |
-| **R8** | Tandai metode PjBL/Case + jenis MK (Teori/Praktik/Praktikum) | Sudah diterapkan di tabel struktur revisi |
+| **VMTS 2045** | Arah prodi = **AI/Smart Systems + Technopreneurship** | "Menjadi Program Studi Sistem dan Teknologi Informasi yang bermutu, mandiri, bermartabat, dan berwawasan global, serta unggul dalam pengembangan sistem dan teknologi informasi cerdas terintegrasi kecerdasan artifisial, serta technopreneurship berbasis kebutuhan masyarakat dan industri pada tahun 2045." |
+| **Distinctive Positioning** | Integrator AI nyata | TI = Riset algoritma AI murni; SISTEKIN = **Integrasi AI ke Sistem & Platform Nyata**; Bisnis Digital = Model bisnis. |
+| **6 Profil Lulusan (PL)** | PL-01 s.d. PL-06 (Dokumen 008) | PL1: Intelligent IS Dev, PL2: UI/UX & Platform Eng, PL3: Smart Sys Integrator, PL4: Technopreneur, PL5: Digital Governance Analyst, PL6: Data & ML Eng. Tiap PL memiliki indikator PEO 3–5 tahun untuk 3 jalur (Akademisi, Praktisi, Technopreneur). |
+| **14 CPL (SN-Dikti & APTIKOM)** | 14 CPL (Dokumen 009/009E) | Sikap (S1), Keterampilan Umum (KU1, KU2, KU3), Pengetahuan (P1, P2, P3, P4), Keterampilan Khusus (KK1-KK6: @2 per peminatan). |
+| **Beban SKS Kelulusan** | **Tepat 144 SKS** | Permendikbudristek No. 53/2023 & APTIKOM. Total portofolio kurikulum ditawarkan: 170 SKS (61 MK: 8 MKWU [14 SKS], 14 MK FSTI [36 SKS], 30 MK STI [93 SKS], 18 MK Elektif [ambil 9 MK / 27 SKS]). |
+| **3 Peminatan (Mulai Sem 5)** | Flagship, Volume, Niche | **P1: Integrated Smart Systems** (Flagship - 5 MK), **P2: Cloud Infrastructure & Cybersecurity** (Volume - 6 MK), **P3: Digital Platform Engineering** (Niche - 7 MK). |
+| **Praktikum (+P) vs Teori** | Rasio 47.1% vs 52.9% | 24 MK Praktikum (80 SKS) vs 37 MK Teori (90 SKS). |
+| **Prasyarat & Reposisi Kunci** | Jaringan Komputer di Sem 3 | Jaringan Komputer (STI-307) fondasi IoT (Sem 5), Cloud (Sem 4), Security (Sem 4). Web Front End (Sem 3) & Web Back End (Sem 4) fondasi Mobile & Integrasi AI. |
+| **Single Track TA (Sem 8)** | Capstone Design lintas-prodi | Default = Capstone Design (6 SKS) lintas 3 prodi FSTI; Alternatif = Skripsi (6 SKS). MK 0 SKS UWG (Agama II & Kewirausahaan II) dipertahankan. |
+| **Fleksibilitas MBKM** | Hingga 20 SKS di Sem 6-7 | Dikonversikan ke paket MK Peminatan dan PKL. |
 
 ---
 
 ## Important Correction (anti-hallucination)
 
-**Dokumen internal `analisis_vmts_sistekin.md` dan `analisis_mk_sistekin.md` menyimpulkan VMTS & Kurikulum 2025 "TIDAK LAYAK (47.5%)" dan mendorong pembelokan ke Enterprise Architecture. Kesimpulan itu SALAH secara metodologis** karena:
-
-- Mengukur VMTS dengan tolok ukur karangan sendiri ("STI wajib Enterprise Architecture")
-- BUKU_OBE APTIKOM SI v2.0 **tidak mewajibkan** Enterprise Architecture — EA hanya BK16 (kompetensi **pendukung**)
-- AI/Analytics/Smart Systems adalah BoK yang sah (BK13, BK18, area Intelligent Systems TI)
-
-**Jangan gunakan** skor 47.5% / 57.1% / 100% dari dokumen-dokumen itu. Arah AI/Smart Systems **dipertahankan**.
+1. **Jumlah CPL:** Tepat **14 CPL** (S1, KU1-KU3, P1-P4, KK1-KK6). Jangan gunakan angka 10, 15, atau 17.
+2. **Beban SKS:** Beban kelulusan mahasiswa adalah **144 SKS** (Permendikbud 53/2023). Portofolio paket yang ditawarkan 170 SKS (karena adanya mata kuliah pilihan peminatan).
+3. **Dokumen 020** (`KURIKULUM2026_ZCODE/020_ANALISIS_KESELARASAN_KURIKULUM_OBE_SISTEKIN.md`) adalah **single source of truth** analisis keselarasan terkini.
 
 ---
 
 ## Sub-Agent Skills (5 hidden `.agent-skills.md`)
 
-Tersedia 5 file definisi sub-agent di root workspace. Gunakan agent ini untuk mendelegasikan tugas secara paralel:
-
-| # | File | Agent | Peran | Dipicu oleh Langkah |
-|---|---|---|---|---|
-| 1 | `.strategic-analyst-agent-skills.md` | **Strategic Analyst** | Environmental Scanning, SWOT, VMTS (Latar Belakang) | Langkah 0.1, 0.2 |
-| 2 | `.obe-designer-agent-skills.md` | **OBE Designer** | Profil Lulusan, PEO, CPL (Bloom, ABCD) | Langkah 1, 2 |
-| 3 | `.curriculum-architect-agent-skills.md` | **Curriculum Architect** | Matriks BoK, MK+SKS, Struktur 8 Semester, MBKM | Langkah 3, 4 |
-| 4 | `.qa-evaluator-agent-skills.md` | **QA & Assessment Evaluator** | Rubrik, TA Non-Skripsi, PPEPP | Langkah 5 |
-| 5 | `.document-reader-agent-skills.md` | **Document Reader** | Ekstraksi & analisis dokumen (PDF/MD/Excel/Word) | Semua langkah (support) |
-
-### Alur Kolaborasi Sub-Agent
-
-```
-Document Reader ──→ Strategic Analyst ──→ OBE Designer ──→ Curriculum Architect ──→ QA Evaluator
- (ekstrak data)      (SWOT + VMTS)       (PEO + CPL)       (BoK + 8 sem + MBKM)      (rubrik + TA)
-```
-
-**Setiap agent** memiliki `System Role`, `Core Responsibilities`, `Operational Guidelines`, dan `Constraints` yang spesifik. Baca file `.agent-skills.md` terkait sebelum mendelegasikan tugas.
+Tersedia 5 file definisi sub-agent di root workspace:
+| # | File | Agent | Peran |
+|---|---|---|---|
+| 1 | `.strategic-analyst-agent-skills.md` | **Strategic Analyst** | VMTS, SWOT, positioning industri |
+| 2 | `.obe-designer-agent-skills.md` | **OBE Designer** | Profil Lulusan, PEO, 14 CPL, CPMK, taksonomi Bloom & ABCD |
+| 3 | `.curriculum-architect-agent-skills.md` | **Curriculum Architect** | Matriks BoK, struktur 8 semester, SKS, prasyarat, MBKM |
+| 4 | `.qa-evaluator-agent-skills.md` | **QA & Assessment Evaluator** | Rubrik analitik/portofolio, Capstone, PPEPP, audit LAM INFOKOM |
+| 5 | `.document-reader-agent-skills.md` | **Document Reader** | Ekstraksi & audit silang dokumen |
 
 ---
 
-## Working Directory Structure
+## Working Directory Structure (`KURIKULUM2026_ZCODE/`)
 
 ```
-!!BRAINSTORMING_KURIKULUM2026/
-├── AGENTS.md                                    ← FILE INI (handoff untuk agent)
-├── .strategic-analyst-agent-skills.md           ← 🤖 Strategic Analyst
-├── .obe-designer-agent-skills.md                ← 🤖 OBE Designer
-├── .curriculum-architect-agent-skills.md        ← 🤖 Curriculum Architect
-├── .qa-evaluator-agent-skills.md                ← 🤖 QA & Assessment Evaluator
-├── .document-reader-agent-skills.md             ← 🤖 Document Reader
-├── 001_...md – 005_...md                        ← 5 Dokumen analisis & revisi (output)
-├── workspace-019fd6ce-.../AWAL/                 ← KURIKULUM2025 (kurikulum lama)
-│   ├── 001_Summary_Pemetaan_...md               ← Brainstorming APTIKOM (draft AI)
-│   ├── 002_Detail_Pemetaan_CPL_...md
-│   ├── 003_Rekomendasi_Konsentrasi_...md
-│   ├── 004_Kurikulum_Lengkap_STI_...md
-│   ├── 005_Komprehensif_Kurikulum_...md
-│   ├── 006_Master_Detail_...md
-│   ├── analisis_mk_sistekin.md                  ← ⚠️ MENYESATKAN (lihat koreksi)
-│   ├── analisis_vmts_sistekin.md                ← ⚠️ MENYESATKAN (lihat koreksi)
-│   ├── 17_cpl_tidak_terlalu_banyak.md           ← OK (referensi)
-│   ├── asesmen_obe_4_komponen.md                ← OK (referensi)
-│   ├── obc_abc_cpl_cpmk.md                      ← OK (referensi ABCD)
-│   ├── smart_information_system_...md           ← OK (referensi)
-│   ├── Laporan Daftar Kurikulum Prodi Sistekin.pdf ← SIAKAD (sumber resmi)
-│   ├── kurikulum_sistekin_text.txt              ← Ekstraksi teks SIAKAD
-│   ├── vmts_full_text.txt                       ← Notulensi VMTS 09 Juni 2026
-│   └── vmts_text.txt
-├── workspace-019fd9ef-.../                      ← BUKU_OBE (3 panduan resmi)
-│   ├── OBE_SISTEM_INFORMASI_2.0_APTIKOM_...txt  ← ACUAN UTAMA (SI v2.0, IS2020)
-│   ├── 716903001-PANDUAN-KURIKULUM-OBE-...txt   ← Panduan TI 2023 (IT2017)
-│   ├── 642302046-...-BUKU-KURIKULUM-SI-...txt   ← SI v1.0 (pelengkap)
-│   └── uploads/                                 ← PDF asli
-├── STRUKTUR_KURIKULUM2025_SISTEKIN_SAAT_INI.md  ← (1) Potret struktur saat ini
-├── LAPORAN_GAP_ANALYSIS_KURIKULUM2025_SISTEKIN.md ← (2) Gap vs 12-bagian OBE
-├── INSIGHT_KELEMAHAN_KURIKULUM2025_vs_BUKU_OBE.md ← (3) 10 kelemahan berbukti
-├── REKOMENDASI_REVISI_STRUKTUR_KURIKULUM2025_SISTEKIN.md ← (4) 8 rekomendasi
-└── STRUKTUR_REVISI_KURIKULUM_SISTEKIN_8_SEMESTER.md ← (5) Struktur final revisi
+KURIKULUM2026_ZCODE/
+├── 001_LAPORAN_GAP_ANALYSIS_KURIKULUM2025_SISTEKIN.md
+├── 002_INSIGHT_KELEMAHAN_KURIKULUM2025_vs_BUKU_OBE.md
+├── 003_STRUKTUR_KURIKULUM2025_SISTEKIN_SAAT_INI.md
+├── 004_REKOMENDASI_REVISI_STRUKTUR_KURIKULUM2025_SISTEKIN.md
+├── 005_STRUKTUR_REVISI_KURIKULUM_SISTEKIN_8_SEMESTER.md (Draft Lama)
+├── 006_KEPUTUSAN_FINAL_ARAH_KURIKULUM_SISTEKIN.md (Keputusan Arah & Visi)
+├── 007_BEDAH_STRUKTUR_KURIKULUM_SISTEKIN.md
+├── 008_LANGKAH1_PROFIL_LULUSAN_PEO.md (6 Profil Lulusan + PEO 3 Jalur)
+├── 009A-009D (CPL Sikap, KU, Pengetahuan, Keterampilan Khusus)
+├── 009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.md (14 CPL + 19 BoK IS2020 + 14 BoK IT2017)
+├── 010_KOMPILASI_CPL_KE_STRUKTUR_KURIKULUM.md
+├── 011_STRUKTUR_KURIKULUM_TABEL.md (Tabel 8 Semester, Kode MK, Prasyarat)
+├── 012_MATRIKS_CPL_vs_MK.md (Matriks Pemetaan CPL x MK)
+├── 013_KURIKULUM_SEMESTER_GANJIL_PRAKTIKUM.md
+├── 014_ANALISIS_IOT_POSISI_KURIKULUM.md
+├── 015_PERBANDINGAN_KURIKULUM_2025_vs_2026.md
+├── 016_KETENTUAN_MPKM_20SKS_DAN_PRASYARAT.md
+├── 017_VERIFIKASI_GROUND_TRUTH_KURIKULUM2025.md
+├── 018_AUDIT_TRAIL_PERBAIKAN_DOKUMEN.md
+├── 019_SURVEY_PEMETAAN_DAN_ANALISIS_REKOMENDASI_IMPROVEMENT_KURIKULUM2026.md
+└── 020_ANALISIS_KESELARASAN_KURIKULUM_OBE_SISTEKIN.md ⭐ (Single Source of Truth Keselarasan)
 ```
 
 ---
 
 ## Current State & Next Steps
 
-**Sudah selesai:** Analisis struktur Kurikulum 2025 + Revisi struktur 8 semester (dokumen #1-#5)
-**Sedang/selanjutnya:** Menunggu konfirmasi user untuk **Langkah 1: Profil Lulusan & PEO** → **Langkah 2: CPL formal**
+**Status Saat Ini:** Keselarasan makro (VMTS ↔ PL/PEO ↔ 14 CPL ↔ BoK ↔ Struktur Kurikulum 8 Semester) telah **100% selaras dan terverifikasi di Dokumen 020**.
 
-**Yang belum dikerjakan (gap OBE):**
-- CPL formal 4 kategori (S/KU/P/KK) + referensi IS2020/SKKNI
-- PEO terukur 3-5 tahun
-- Matriks CPL↔BK↔MK↔CPMK
-- CPMK & Sub-CPMK per MK (action verb + Bloom)
-- RPS + asesmen berjenjang + rubrik
-- Bab MBKM formal + Bab Evaluasi & Tracer Study
+**Langkah Kerja Selanjutnya (Fase Asesmen Mikro OBE):**
+1. **Matriks Bahan Kajian (BoK) ↔ Mata Kuliah:** Pemetaan 19 BoK IS2020 & 14 BoK IT2017 ke MK Wajib & Pilihan (Tabel 6 Standar APTIKOM).
+2. **Formulasi CPMK & Sub-CPMK:** Perumusan kata kerja operasional Gagne/Bloom & format ABCD untuk 44 MK Wajib FSTI & STI.
+3. **Instrumen & Rubrik Asesmen OBE:** Penentuan bobot asesmen (PjBL/Case Method Σ=100%), rubrik penilaian Capstone Design & Portofolio CPL mahasiswa.
+4. **Finalisasi Naskah Buku Kurikulum SISTEKIN 2026:** Konsolidasi Bab 1 s.d. Bab 8 untuk penetapan Surat Keputusan (SK) Rektor.
 
 ---
 
-## Anti-Halusinasi Rules
-
-1. Jika dokumen referensi tidak cukup, **hentikan dan beri tahu** data apa yang kurang — jangan membuat asumsi.
-2. Setiap klaim tentang "standar APTIKOM" harus bisa dirujuk ke halaman/kutipan BUKU_OBE.
-3. Jangan gunakan skor kuantitatif (47.5%, 57.1%, 100%) dari dokumen `analisis_*` — tidak valid.
-4. Arah prodi = **AI/Smart Systems** (VMTS resmi). Enterprise Architecture = **opsional** (BK16 pendukung).
-5. **Jangan kerjakan semua langkah sekaligus.** Tunggu konfirmasi tiap langkah.
-
----
-
-*File ini berfungsi sebagai "memory/soul" untuk semua agent yang bekerja di folder ini. Baca dan pahami sebelum memulai tugas baru.*
+*File ini berfungsi sebagai "memory/soul" untuk semua agent yang bekerja di folder ini. Baca dan patuhi dokumen 020 sebelum memulai tugas baru.*

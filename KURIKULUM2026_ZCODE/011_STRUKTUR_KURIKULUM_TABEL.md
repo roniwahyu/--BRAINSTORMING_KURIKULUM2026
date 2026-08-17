@@ -69,7 +69,12 @@
 | 6 | Etika dan Hukum Digital | FST-206 | 2 | — | S1, KU2 | **FSTI** — PDP, UU ITE, GDPR |
 | 7 | Basis Data | FST-207 | 3 | ✅ | P2, P4 | **FSTI** — +P: SQL, desain DB |
 | 8 | Kewarganegaraan | MKU-201 | 2 | — | S1 | MKWU |
-| 9 | Kewirausahaan I | MK## SEMESTER 3 — Inti Sistem (17 SKS)
+| 9 | Kewirausahaan I | MKU-202 | 2 | — | KK6 | MKWU |
+| | **Total Semester 2** | | **22** | | | |
+
+---
+
+## SEMESTER 3 — Inti Sistem (17 SKS)
 
 | No | Mata Kuliah | Kode | SKS | +P | CPL | Keterangan |
 |---|---|---|---|---|---|---|

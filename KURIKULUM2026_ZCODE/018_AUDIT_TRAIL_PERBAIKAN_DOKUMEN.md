@@ -484,8 +484,13 @@ User menginformasikan bahwa MK terbagi menjadi:
     - **Internet of Things (IoT)** dipindahkan dari Semester 3 ke **Semester 5** (setelah mahasiswa menempuh *Jaringan Komputer* di Sem 3).
     - **Pemrograman Aplikasi Mobile** dipindahkan dari Semester 4 ke **Semester 5** (setelah *Web Front End* di Sem 3 & *Web Back End* di Sem 4).
     - **Beban Semester 5:** 21 SKS (7 MK: Deep Learning, DW-BI, Data Mining, IoT, Mobile, 2 MK Pilihan Peminatan).
-- **Rasio Pembelajaran Akhir:** **24 MK Praktikum / 80 SKS (47.1%)** vs **37 MK Teori / 90 SKS (52.9%)**.
-- **Hasil Kalkulasi Ulang Total Kurikulum:** **61 MK | 170 SKS** (Wajib 143 SKS + Pilihan 27 SKS).
+### 7.8 Konsolidasi Analisis Keselarasan Kurikulum & Sinkronisasi Agentic AI (17 Agustus 2026)
+
+1. **Pembuatan Dokumen Rujukan 020:**
+   - Diterbitkan file `020_ANALISIS_KESELARASAN_KURIKULUM_OBE_SISTEKIN.md` sebagai *Single Source of Truth* arsitektur keselarasan kurikulum OBE SISTEKIN 2026.
+   - Memetakan hierarki 6 tingkat: VMTS 2045 → 6 Profil Lulusan (PL) & PEO 3 Jalur → 14 CPL (SN-Dikti & APTIKOM) → BoK IS2020 (19 BK) & IT2017 (14 BK) → Struktur 8 Semester (61 MK / 170 SKS portofolio / 144 SKS syarat kelulusan) → Asesmen & Capstone Design.
+2. **Sinkronisasi Memori Agent (`AGENTS.md`):**
+   - Meng-update `AGENTS.md` dengan ground truth konsensus, menghilangkan redundansi draft lama, dan menetapkan *Next Steps* untuk evaluasi multi-agent AI berikutnya.
 
 ---
 
