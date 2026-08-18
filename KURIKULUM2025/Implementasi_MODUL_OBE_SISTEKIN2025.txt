@@ -1,0 +1,762 @@
+SELF ASSESSMENT KESIAPAN IMPLEMENTASI MODUL OBE - S1 SISTEM DAN TEKNOLOGI INFORMASI
+No      Aspek              Kriteria/Pertanyaan Kesiapan              Status                Catatan
+
+1 Kurikulum OBE     Profil lulusan tersedia dan menggambarkan peran lulusan.
+2 Kurikulum OBE     Jumlah profil lulusan > 3 dan mencakup bekerja/wirausaha.
+3 Kurikulum OBE     Profil lulusan disajikan dengan kode, nama, deskripsi, dan profesi.
+4 Kurikulum OBE     CPL prodi tersedia dan dirumuskan dengan KKO + konten +
+konteks.
+5 Kurikulum OBE     Jumlah CPL berada pada rentang 10-15.
+6 Kurikulum OBE     Semua CPL dipetakan ke Profil Lulusan.
+7 Kurikulum OBE     Setiap PL ditopang minimal 3 CPL.
+8 Kurikulum OBE     Semua mata kuliah dipetakan terhadap CPL.
+9 Kurikulum OBE     Struktur mata kuliah per semester dan total SKS tersedia.
+10 Kurikulum OBE     Peta pemenuhan CPL oleh mata kuliah tersedia.
+11 Kurikulum OBE     Bahan Kajian (BK) telah difinalkan dan dipetakan CPL-BK-MK.
+12 OBLT         Setiap mata kuliah memiliki RPS berbasis CPL/CPMK/Sub-CPMK.
+
+13 OBLT         Metode pembelajaran selaras dengan CPMK dan asesmen.
+14 OBLAE         Rencana evaluasi dan bobot penilaian setiap MK tersedia.
+15 OBLAE         Capaian CPMK dan CPL dihitung dari data nilai aktual mahasiswa.
+Ya Ya Ya Ya
+
+Ya Ya Ya Ya Ya Ya
+Perlu dilengkapi Perlu dilengkapi
+
+Sebagian Sebagian Belum
+6 PL telah dirumuskan.
+6 PL, termasuk Digital Technopreneur. Tersedia pada sheet 1.
+10 CPL dirancang pada sheet 2.
+
+Jumlah CPL = 10. Tersedia pada sheet 3.
+Seluruh PL ditopang 4-7 CPL. 56 MK dipetakan pada sheet 4.
+Kurikulum 2025: 56 MK, 146 SKS, 8 semester. Menggunakan level I-R-M pada sheet 6.
+Belum tersedia pada data sumber yang diberikan. Sheet 7 memberi contoh 6 mata kuliah; RPS seluruh MK perlu disusun/diinput.
+Contoh tersedia pada sheet 7.
+Template evaluasi tersedia pada sheet 8-11. Memerlukan data hasil asesmen aktual.
+
+
+16 OBLAE         Analisis ketercapaian dan continuous improvement dilakukan
+berkala.
+Belum
+Dijalankan setelah data implementasi semester tersedia.
+
+17 Dokumen        Landasan, tracer study, PEO/Tujuan Pendidikan, dan referensi
+kurikulum telah terdokumentasi.
+Perlu verifikasi    Tidak seluruhnya terdapat pada lampiran yang
+digunakan.
+
+PROFIL LULUSAN (PL) - S1 SISTEM DAN TEKNOLOGI INFORMASI
+No  Kode PL      Nama Profil Lulusan                 Deskripsi Profil Lulusan                    Profesi / Bidang Karier
+
+1 PL01    AI-Driven System Developer       Lulusan mampu mengembangkan sistem informasi berbasis AI sesuai
+kebutuhan pengguna dan organisasi secara profesional, adaptif, dan bertanggung jawab.
+AI Application Developer; Machine Learning Developer; Software Developer
+
+2 PL02   Human-Centered UX and Gamification
+Lulusan mampu merancang pengalaman pengguna dan gamifikasi
+UI/UX Designer; UX Researcher;
+
+Designer
+berdasarkan kebutuhan pengguna secara inklusif, efektif, dan berorientasi Interaction/Gamification Designer pengguna.
+3 PL03    IoT and Multimedia System Integrator   Lulusan mampu mengembangkan dan mengintegrasikan sistem IoT dan  IoT Developer; System Integrator; Multimedia/Smart
+multimedia sesuai kebutuhan penerapan secara andal dan efektif.    System Developer
+4 PL04    Semantic Knowledge and Data      Lulusan mampu mengelola dan mengintegrasikan data serta pengetahuan Knowledge Engineer; Data Integration Engineer;
+
+Integration Engineer
+pada sistem lintas platform secara terstruktur dan interoperabel.
+Semantic Web Developer
+
+
+5 PL05    Digital Technopreneur          Lulusan mampu mengembangkan usaha dan inovasi digital berdasarkan
+kebutuhan pasar dan masyarakat secara kreatif, etis, dan berkelanjutan. 6 PL06    Digital Governance and System Analyst  Lulusan mampu menganalisis sistem serta mendukung tata kelola dan
+transformasi digital organisasi secara sistematis, profesional, dan bertanggung jawab.
+Technopreneur; Startup Founder; Digital Product Manager
+System Analyst; IT Governance Analyst; Digital Transformation Analyst
+
+CAPAIAN PEMBELAJARAN LULUSAN (CPL) - 10 OUTCOMES
+CPL dirumuskan sebagai outcome program: kata kerja kemampuan + konten/bahan kajian + konteks keilmuan. Rumusan berikut merupakan rancangan untuk validasi tim kurikulum.
+No  Kode CPL                Rumusan CPL                     Fokus/Domain          PL Terkait           Sumber/Referensi
+
+1 CPL01  Mampu menganalisis kebutuhan pengguna, proses bisnis, dan permasalahan organisasi untuk merancang solusi sistem dan teknologi informasi yang sesuai.
+2 CPL02  Mampu merancang, membangun, menguji, dan mengintegrasikan perangkat lunak, basis data, API, dan layanan cloud untuk menghasilkan sistem informasi yang andal.
+Analisis kebutuhan & perancangan solusi
+Pengembangan perangkat lunak & platform
+PL01, PL02, PL06     Turunan 6 PL + struktur Kurikulum 2025; validasi prodi
+PL01, PL03, PL04     Turunan 6 PL + struktur Kurikulum 2025; validasi prodi
+
+3 CPL03  Mampu menerapkan metode komputasi, analitika data, kecerdasan buatan, dan machine learning untuk menghasilkan solusi cerdas dan rekomendasi berbasis data.
+AI, komputasi & analitika data     PL01, PL04, PL06     Turunan 6 PL + struktur Kurikulum 2025;
+validasi prodi
+
+
+4 CPL04  Mampu merancang dan mengevaluasi antarmuka, pengalaman pengguna, gamifikasi, dan multimedia interaktif dengan pendekatan human-centered yang inklusif.
+5 CPL05  Mampu merancang dan mengintegrasikan IoT, jaringan, sensor, multimedia, dan layanan komputasi untuk membangun sistem cerdas yang aman dan andal.
+6 CPL06  Mampu mengelola, mengintegrasikan, dan merepresentasikan data serta pengetahuan menggunakan basis data, semantic web, ontologi, data warehouse, dan teknologi interoperabilitas.
+
+UX, gamifikasi & multimedia     PL02, PL03, PL05     Turunan 6 PL + struktur Kurikulum 2025;
+validasi prodi
+
+IoT, infrastruktur & integrasi sistem   PL01, PL03        Turunan 6 PL + struktur Kurikulum 2025;
+validasi prodi
+Data, knowledge & interoperability   PL04, PL06        Turunan 6 PL + struktur Kurikulum 2025;
+validasi prodi
+
+7 CPL07  Mampu menganalisis dan menerapkan tata kelola, audit, keamanan, etika, hukum, dan kebijakan teknologi informasi untuk mendukung transformasi digital organisasi secara bertanggung jawab.
+Tata kelola, keamanan & kebijakan digital
+PL05, PL06        Turunan 6 PL + struktur Kurikulum 2025; validasi prodi
+
+8 CPL08  Mampu merancang dan mengelola proyek, produk, model bisnis, serta inovasi digital berbasis kebutuhan pasar dan masyarakat secara kreatif dan berkelanjutan.
+9 CPL09  Mampu menerapkan matematika, statistika, metode penelitian, dan pemikiran komputasional untuk memecahkan masalah serta mengomunikasikan hasil secara ilmiah.
+Proyek, inovasi & technopreneurship  PL01, PL02, PL05     Turunan 6 PL + struktur Kurikulum 2025;
+validasi prodi
+Fondasi ilmiah & penelitian      PL01, PL04, PL06     Turunan 6 PL + struktur Kurikulum 2025;
+validasi prodi
+
+10 CPL10  Mampu bekerja secara profesional dengan integritas, tanggung jawab, komunikasi efektif, kolaborasi, kepemimpinan, dan pembelajaran sepanjang hayat.
+Etika & keterampilan profesional   PL01, PL02, PL03, PL04,
+PL05, PL06
+Turunan 6 PL + struktur Kurikulum 2025; validasi prodi
+
+MATRIKS KETERKAITAN CPL - PROFIL LULUSAN
+No  Kode CPL  PL01   PL02   PL03   PL04   PL05   PL06   Jumlah PL                Rumusan CPL
+
+1 CPL01
+V     V                       V
+3 Mampu menganalisis kebutuhan pengguna, proses bisnis, dan permasalahan organisasi untuk merancang solusi sistem dan teknologi informasi yang sesuai.
+
+2 CPL02
+
+
+3 CPL03
+
+
+4 CPL04
+V          V     V
+
+
+V                V           V
+
+
+V     V           V
+3 Mampu merancang, membangun, menguji, dan mengintegrasikan perangkat lunak, basis data, API, dan layanan cloud untuk menghasilkan sistem informasi yang andal.
+3 Mampu menerapkan metode komputasi, analitika data, kecerdasan buatan, dan machine learning untuk menghasilkan solusi cerdas dan rekomendasi berbasis data.
+3 Mampu merancang dan mengevaluasi antarmuka, pengalaman pengguna, gamifikasi, dan multimedia interaktif dengan pendekatan human-centered yang inklusif.
+
+5 CPL05     V           V
+
+
+6 CPL06                      V           V
+
+
+7 CPL07                           V     V
+2 Mampu merancang dan mengintegrasikan IoT, jaringan, sensor, multimedia, dan layanan komputasi untuk membangun sistem cerdas yang aman dan andal.
+2 Mampu mengelola, mengintegrasikan, dan merepresentasikan data serta pengetahuan menggunakan basis data, semantic web, ontologi, data warehouse, dan teknologi interoperabilitas.
+2 Mampu menganalisis dan menerapkan tata kelola, audit, keamanan, etika, hukum, dan kebijakan teknologi informasi untuk mendukung transformasi digital organisasi secara bertanggung jawab.
+
+8 CPL08
+
+
+9 CPL09
+
+
+10 CPL10
+V     V                 V
+
+
+V                V           V
+
+
+V     V     V     V     V     V
+3 Mampu merancang dan mengelola proyek, produk, model bisnis, serta inovasi digital berbasis kebutuhan pasar dan masyarakat secara kreatif dan berkelanjutan.
+3 Mampu menerapkan matematika, statistika, metode penelitian, dan pemikiran komputasional untuk memecahkan masalah serta mengomunikasikan hasil secara ilmiah.
+6 Mampu bekerja secara profesional dengan integritas, tanggung jawab, komunikasi efektif, kolaborasi, kepemimpinan, dan pembelajaran sepanjang hayat.
+Jumlah CPL per    7     4     4     5     4     6      30           Kriteria: setiap PL ditopang minimal 3 CPL
+
+MATRIKS PEMETAAN CPL - MATA KULIAH (56 MK / 146 SKS)
+No   Kode MK          Nama Mata Kuliah          Smt  SKS  CPL01  CPL02  CPL03  CPL04  CPL05  CPL06  CPL07  CPL08  CPL09  CPL10   Jumlah
+CPL
+1 MKU-101   Agama I                         1    2                                              V        1
+2 MKU-102   Pancasila                         1    2                                V              V        2
+3 MKU-103   Bahasa Indonesia                     1    2                                         V     V        2
+4 STI-101   Pengantar Sistem dan Teknologi Informasi           1    3   V                            V                       2
+5 STI-102   Algoritma dan Pemrograman (+P)              1    3        V                                 V             2
+6 STI-103   Logika Informatika                     1    2                                         V             1
+7 STI-104   Kalkulus                         1    4                                         V             1
+8 MFT-201   Bahasa Inggris                      2    2                                              V        1
+9 MKU-204   Kewirausahaan I                      2    2                                    V         V        2
+10 STI-205   Matematika Diskrit                     2    2                                         V             1
+11 STI-206   Basis Data (+P)                      2    3        V                   V                            2
+12 STI-207   Struktur Data                       2    3        V                                 V             2
+13 STI-208   Visualisasi Data dan Dashboard Interaktif (+P)         2    2            V     V         V                            3
+14 STI-209   Aljabar Linear                       2    4                                         V             1
+15 STI-310   Analisis dan Perancangan Sistem Informasi          3    3   V     V                                      V        3
+16 STI-311   Sistem Operasi                      3    3        V              V                                 2
+17 STI-312   Pemrograman Web (+P)                  3    3        V         V                                      2
+18 STI-313   Keamanan Informasi Dasar                 3    2                      V         V                       2
+19 STI-314   Interaksi Manusia dan Komputer               3    3                 V                            V        2
+20 STI-315   Etika dan Hukum TI                    3    2                               V              V        2
+21 STI-316   Multimedia Interaktif                    3    2                 V     V                                 2
+22 STI-317   Metode Komputasi dan Numerik               3    2            V                            V             2
+23 MKU-405   Kewarganegaraan                     4    2                               V              V        2
+24 MKU-406   Agama II                         4    0                                              V        1
+25 STI-418   Sistem Cerdas                      4    2            V                             V             2
+26 STI-419   Mobile Application Development (+P)             4    3        V         V                                      2
+27 STI-420   Semantic Web dan Ontologi                 4    2                           V                            1
+28 STI-421   Manajemen Proyek TI                   4    2                                    V         V        2
+29 STI-422   E-Commerce dan Digital Business              4    3                               V     V                  2
+30 STI-423   Game Design dan Gamifikasi Sosial (+P)           4    3                 V                   V                  2
+31 STI-424   Probabilitas dan Statistika                  4    3            V                             V             2
+32 MKU-507   Kuliah Pengabdian Kepada Masyarakat            5    3                                    V         V        2
+33 MKU-508   Kewirausahaan II                     5    0                                    V         V        2
+34 STI-525   Pemrograman Lanjut dan API (+P)              5    3        V              V                                 2
+35 STI-526   Internet of Things (+P)                   5    3        V              V                                 2
+36 STI-527   Sistem Informasi Berbasis Cloud               5    2        V              V         V                       3
+37 STI-528   Text Mining dan NLP                    5    2            V              V                            2
+38 STI-529   Keamanan Jaringan dan Forensik Digital (+P)         5    3                      V         V                       2
+39 STI-530   Data Warehouse dan Business Intelligence (+P)        5    3            V              V     V                       3
+40 STI-531   Augmented Reality dan Virtual Reality (+P)           5    2                 V     V                                 2
+41 STI-632   Rekayasa Perangkat Lunak                 6    3   V     V                            V         V        4
+42 STI-633   Sistem Pendukung Keputusan                6    3   V         V              V                            3
+43 STI-634   Pengolahan Citra Digital dan Vision (+P)            6    3            V         V                                 2
+44 STI-635   Desain dan Evaluasi Antarmuka Pengguna (UI/UX) (+P)     6    3                 V                        V     V        3
+45 STI-636   Machine Learning (+P)                   6    3            V                            V             2
+46 STI-637   Smart City dan Sistem Pemerintahan Digital          6    3   V                            V     V                  3
+47 STI-638   Intelligent Signal Processing                 6    3            V         V                   V             3
+48 MFT-002   Metodologi Penelitian                    7    2                                         V     V        2
+49 MFT-003   Praktik Kerja Lapangan                   7    3   V     V                                      V        3
+50 STI-739   Platform Literasi dan Edukasi Digital (+P)           7    3                 V                   V         V        3
+51 STI-740   Penambangan Data dan Visualisasi (+P)            7    3            V     V         V                            3
+52 STI-741   Integrasi Layanan Cerdas Berbasis AI             7    3        V     V         V     V                            4
+53 STI-742   Inovasi Teknologi dan Startup Digital             7    3                                    V         V        2
+54 STI-743   Audit dan Tata Kelola Sistem Informasi            7    3                               V         V     V        3
+55 MFT-004   Skripsi                          8    6   V                                      V     V        3
+56 STI-844   Pra Skripsi                        8    2                                         V     V        2
+Jumlah mata kuliah pendukung tiap CPL               7    13    12    10    11    8    11    10    17    22     121
+
+Catatan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Seluruh MK telah memiliki minimal satu kontribusi CPL.
+
+ORGANISASI MATA KULIAH KURIKULUM 2025
+Semester Jumlah MK  Total SKS                    Daftar Mata Kuliah                        CPL Dominan               Catatan
+
+1      7      18 MKU-101 - Agama I (2 SKS)
+MKU-102 - Pancasila (2 SKS)
+MKU-103 - Bahasa Indonesia (2 SKS)
+STI-101 - Pengantar Sistem dan Teknologi Informasi (3 SKS) STI-102 - Algoritma dan Pemrograman (+P) (3 SKS)
+STI-103 - Logika Informatika (2 SKS) STI-104 - Kalkulus (4 SKS)
+2      7      18 MFT-201 - Bahasa Inggris (2 SKS)
+MKU-204 - Kewirausahaan I (2 SKS) STI-205 - Matematika Diskrit (2 SKS) STI-206 - Basis Data (+P) (3 SKS)
+STI-207 - Struktur Data (3 SKS)
+STI-208 - Visualisasi Data dan Dashboard Interaktif (+P) (2 SKS) STI-209 - Aljabar Linear (4 SKS)
+3       8      20 STI-310 - Analisis dan Perancangan Sistem Informasi (3 SKS) STI-311 - Sistem Operasi (3 SKS)
+STI-312 - Pemrograman Web (+P) (3 SKS) STI-313 - Keamanan Informasi Dasar (2 SKS)
+STI-314 - Interaksi Manusia dan Komputer (3 SKS) STI-315 - Etika dan Hukum TI (2 SKS)
+STI-316 - Multimedia Interaktif (2 SKS)
+STI-317 - Metode Komputasi dan Numerik (2 SKS)
+4      9      20 MKU-405 - Kewarganegaraan (2 SKS)
+MKU-406 - Agama II (0 SKS)
+STI-418 - Sistem Cerdas (2 SKS)
+STI-419 - Mobile Application Development (+P) (3 SKS) STI-420 - Semantic Web dan Ontologi (2 SKS)
+STI-421 - Manajemen Proyek TI (2 SKS)
+STI-422 - E-Commerce dan Digital Business (3 SKS)
+STI-423 - Game Design dan Gamifikasi Sosial (+P) (3 SKS) STI-424 - Probabilitas dan Statistika (3 SKS)
+5      9      21 MKU-507 - Kuliah Pengabdian Kepada Masyarakat (3 SKS)
+MKU-508 - Kewirausahaan II (0 SKS)
+STI-525 - Pemrograman Lanjut dan API (+P) (3 SKS) STI-526 - Internet of Things (+P) (3 SKS)
+STI-527 - Sistem Informasi Berbasis Cloud (2 SKS) STI-528 - Text Mining dan NLP (2 SKS)
+STI-529 - Keamanan Jaringan dan Forensik Digital (+P) (3 SKS) STI-530 - Data Warehouse dan Business Intelligence (+P) (3 SKS) STI-531 - Augmented Reality dan Virtual Reality (+P) (2 SKS)
+6      7      21 STI-632 - Rekayasa Perangkat Lunak (3 SKS)
+STI-633 - Sistem Pendukung Keputusan (3 SKS)
+STI-634 - Pengolahan Citra Digital dan Vision (+P) (3 SKS)
+STI-635 - Desain dan Evaluasi Antarmuka Pengguna (UI/UX) (+P) (3 SKS) STI-636 - Machine Learning (+P) (3 SKS)
+STI-637 - Smart City dan Sistem Pemerintahan Digital (3 SKS) STI-638 - Intelligent Signal Processing (3 SKS)
+CPL09, CPL10, CPL07
+
+
+
+
+
+
+CPL09, CPL10, CPL02
+
+
+
+
+
+
+CPL02, CPL10, CPL05
+
+
+
+
+
+
+
+CPL10, CPL08, CPL07
+
+
+
+
+
+
+
+
+CPL05, CPL02, CPL07
+
+
+
+
+
+
+
+
+CPL03, CPL01, CPL09
+
+7      7      20 MFT-002 - Metodologi Penelitian (2 SKS)
+MFT-003 - Praktik Kerja Lapangan (3 SKS)
+STI-739 - Platform Literasi dan Edukasi Digital (+P) (3 SKS) STI-740 - Penambangan Data dan Visualisasi (+P) (3 SKS) STI-741 - Integrasi Layanan Cerdas Berbasis AI (3 SKS) STI-742 - Inovasi Teknologi dan Startup Digital (3 SKS)
+STI-743 - Audit dan Tata Kelola Sistem Informasi (3 SKS)
+8      2      8 MFT-004 - Skripsi (6 SKS)
+STI-844 - Pra Skripsi (2 SKS)
+CPL10, CPL09, CPL02
+
+
+
+
+
+
+CPL09, CPL10, CPL01
+TOTAL    56      146                                                                   Data kurikulum 2025 sesuai laporan prodi.
+
+PETA PEMENUHAN CPL OLEH MATA KULIAH - LEVEL I/R/M
+Legenda: I = Introduced (diperkenalkan), R = Reinforced (diperkuat), M = Mastered (dikuasai/diukur pada level akhir). Penetapan level ini adalah rancangan awal yang perlu divalidasi pada RPS.
+Kode MK            Nama Mata Kuliah           SKS  Smt   CPL01   CPL02   CPL03   CPL04   CPL05   CPL06   CPL07   CPL08   CPL09   CPL10  Jumlah CPL
+MKU-101   Agama I                             2    1                                                   I         1
+MKU-102   Pancasila                            2    1                                   I                I         2
+MKU-103   Bahasa Indonesia                        2    1                                             I     I         2
+STI-101    Pengantar Sistem dan Teknologi Informasi             3    1   I                                I                         2
+STI-102    Algoritma dan Pemrograman (+P)                 3    1         I                                     I              2
+STI-103    Logika Informatika                        2    1                                             I              1
+STI-104    Kalkulus                             4    1                                             I              1
+MFT-201   Bahasa Inggris                          2    2                                                  R         1
+MKU-204   Kewirausahaan I                         2    2                                        I           R         2
+STI-205    Matematika Diskrit                        2    2                                             R              1
+STI-206    Basis Data (+P)                         3    2        R                     I                               2
+STI-207    Struktur Data                           3    2        R  R      2
+STI-208    Visualisasi Data dan Dashboard Interaktif (+P)           2    2              I     I           I                               3
+STI-209    Aljabar Linear                          4    2                                             R              1
+STI-310    Analisis dan Perancangan Sistem Informasi            3    3   R     R                                          R         3
+STI-311    Sistem Operasi                          3    3        R                I                                     2
+STI-312    Pemrograman Web (+P)                     3    3        R          R                                          2
+STI-313    Keamanan Informasi Dasar                    2    3                        I           R                         2
+STI-314    Interaksi Manusia dan Komputer                  3    3                   R                               R         2
+STI-315    Etika dan Hukum TI                        2    3                                   R                R         2
+STI-316    Multimedia Interaktif                       2    3                   R     I                                     2
+STI-317    Metode Komputasi dan Numerik                  2    3              R                               R              2
+MKU-405   Kewarganegaraan                        2    4                                   R                R         2
+MKU-406   Agama II                             0    4                                                   R         1
+STI-418    Sistem Cerdas                          2    4              R                               R              2
+STI-419    Mobile Application Development (+P)               3    4        R          R                                          2
+STI-420    Semantic Web dan Ontologi                    2    4                             R                               1
+STI-421    Manajemen Proyek TI                       2    4                                        R          R         2
+STI-422    E-Commerce dan Digital Business                 3    4                                   R     R                    2
+STI-423    Game Design dan Gamifikasi Sosial (+P)              3    4                   R                     R                    2
+STI-424    Probabilitas dan Statistika                     3    4              R                               R              2
+MKU-507   Kuliah Pengabdian Kepada Masyarakat              3    5                                        R          R         2
+MKU-508   Kewirausahaan II                         0    5                                        R          R         2
+STI-525    Pemrograman Lanjut dan API (+P)                 3    5        R                R                                    2
+STI-526    Internet of Things (+P)                      3    5        R                R                                    2
+STI-527    Sistem Informasi Berbasis Cloud                  2    5        R                R          R                         3
+STI-528    Text Mining dan NLP                       2    5              R                R                               2
+STI-529    Keamanan Jaringan dan Forensik Digital (+P)            3    5                        R          R                         2
+STI-530    Data Warehouse dan Business Intelligence (+P)          3    5              R                R     R                         3
+STI-531    Augmented Reality dan Virtual Reality (+P)             2    5                   R     R                                    2
+STI-632    Rekayasa Perangkat Lunak                    3    6   R     R                               R          R         4
+STI-633    Sistem Pendukung Keputusan                   3    6   R          R                R                               3
+STI-634    Pengolahan Citra Digital dan Vision (+P)              3    6              R          R                                    2
+STI-635    Desain dan Evaluasi Antarmuka Pengguna (UI/UX) (+P)       3    6                   R                          R     R         3
+STI-636    Machine Learning (+P)                      3    6              R                               R              2
+STI-637    Smart City dan Sistem Pemerintahan Digital            3    6   R                               R     R                    3
+STI-638    Intelligent Signal Processing                    3    6              R          R                     R              3
+MFT-002   Metodologi Penelitian                       2    7                                             R     R         2
+
+MFT-003   Praktik Kerja Lapangan                      3    7    R  M                                          R         3
+STI-739    Platform Literasi dan Edukasi Digital (+P)              3    7                   M                     M          R         3
+STI-740    Penambangan Data dan Visualisasi (+P)              3    7              M     M          M                               3
+STI-741    Integrasi Layanan Cerdas Berbasis AI               3    7        M     M          M     M                               4
+STI-742    Inovasi Teknologi dan Startup Digital                3    7                                        M  R    2
+STI-743    Audit dan Tata Kelola Sistem Informasi               3    7                                   M  R     R    3
+MFT-004   Skripsi                              6    8   M                                          M     M         3
+STI-844    Pra Skripsi                            2    8                                             M     M         2
+Jumlah I                                          1     1     1     1     3     2     2     1     4     3
+Jumlah R                                         5     10     9     7     7     4     8     7     11     17
+Jumlah M                                         1     2     2     2     1     2     1     2     2     2
+
+CONTOH PENURUNAN CPL -> CPMK -> SUB-CPMK -> EVALUASI (6 MATA KULIAH PENCIRI)
+Kode MK        Nama Mata Kuliah        PL Utama  CPMK          Rumusan CPMK          Sub-CPMK          Rumusan Sub-CPMK           CPL      Metode Evaluasi     Bobot (%)
+
+STI-741   Integrasi Layanan Cerdas Berbasis AI      PL01
+STI-741   Integrasi Layanan Cerdas Berbasis AI      PL01
+CPMK1   Menganalisis kebutuhan integrasi layanan cerdas dan data pada suatu kasus organisasi.
+CPMK1   Menganalisis kebutuhan integrasi layanan cerdas dan data pada suatu kasus organisasi.
+Sub-CPMK1.1 Mengidentifikasi kebutuhan pengguna, sumber data, dan batasan CPL01   Studi kasus + tugas analisis       15
+sistem.
+Sub-CPMK1.2 Menyusun arsitektur konseptual layanan AI dan aliran data.   CPL03   Kuis + studi kasus           15
+
+STI-741   Integrasi Layanan Cerdas Berbasis AI      PL01
+
+STI-741   Integrasi Layanan Cerdas Berbasis AI      PL01
+CPMK2  Merancang dan membangun prototipe layanan cerdas berbasis AI yang terintegrasi.
+CPMK2  Merancang dan membangun prototipe layanan cerdas berbasis AI yang terintegrasi.
+Sub-CPMK2.1 Mengembangkan API/model layanan cerdas dan mekanisme integrasi.
+Sub-CPMK2.2 Mengintegrasikan layanan dengan data/cloud/komponen sistem yang relevan.
+CPL02   Praktikum + project           20
+CPL05   Project               20
+
+STI-741   Integrasi Layanan Cerdas Berbasis AI      PL01
+STI-741   Integrasi Layanan Cerdas Berbasis AI      PL01
+CPMK3   Mengevaluasi kualitas, interoperabilitas, dan kinerja solusi Sub-CPMK3.1 Menguji interoperabilitas data dan layanan.          CPL06   Uji sistem               15
+cerdas.
+CPMK3   Mengevaluasi kualitas, interoperabilitas, dan kinerja solusi Sub-CPMK3.2 Mempresentasikan hasil evaluasi dan perbaikan solusi.     CPL10   Presentasi + laporan          15
+cerdas.
+
+STI-635   Desain dan Evaluasi Antarmuka Pengguna (UI/UX) (+P)
+PL02
+CPMK1  Menganalisis karakteristik, kebutuhan, dan konteks pengguna.
+Sub-CPMK1.1 Menyusun persona, user journey, dan kebutuhan pengalaman pengguna.
+CPL04   Studi kasus              15
+
+STI-635   Desain dan Evaluasi Antarmuka Pengguna (UI/UX) (+P)
+PL02
+CPMK1  Menganalisis karakteristik, kebutuhan, dan konteks pengguna.
+Sub-CPMK1.2 Merumuskan kriteria usability dan aksesibilitas.        CPL04   Kuis + tugas              15
+
+STI-635   Desain dan Evaluasi Antarmuka Pengguna (UI/UX) (+P)
+STI-635   Desain dan Evaluasi Antarmuka Pengguna (UI/UX) (+P)
+PL02 PL02
+CPMK2   Merancang prototipe antarmuka berbasis human-centered Sub-CPMK2.1 Menyusun wireframe dan prototipe interaktif.         CPL04   Project                20
+design.
+CPMK2   Merancang prototipe antarmuka berbasis human-centered Sub-CPMK2.2 Menerapkan prinsip inklusivitas dan konsistensi desain.     CPL10   Review sejawat            15
+design.
+
+STI-635   Desain dan Evaluasi Antarmuka Pengguna (UI/UX) (+P)
+STI-635   Desain dan Evaluasi Antarmuka Pengguna (UI/UX) (+P)
+PL02 PL02
+CPMK3  Mengevaluasi antarmuka menggunakan metode yang tepat.
+CPMK3  Mengevaluasi antarmuka menggunakan metode yang tepat.
+Sub-CPMK3.1 Melaksanakan usability testing dan menganalisis hasilnya.    CPL09   Praktikum evaluasi           20
+Sub-CPMK3.2 Menyusun rekomendasi perbaikan berbasis bukti.       CPL04   Laporan + presentasi          15
+
+STI-526   Internet of Things (+P)            PL03
+CPMK1   Menganalisis kebutuhan dan arsitektur sistem IoT.    Sub-CPMK1.1 Mengidentifikasi sensor, aktuator, protokol, dan kebutuhan
+konektivitas.
+CPL05   Kuis + studi kasus           15
+STI-526   Internet of Things (+P)             PL03   CPMK1   Menganalisis kebutuhan dan arsitektur sistem IoT.    Sub-CPMK1.2 Menyusun arsitektur perangkat-edge-cloud sesuai kasus.    CPL05   Tugas desain              15
+
+STI-526   Internet of Things (+P)            PL03
+STI-526   Internet of Things (+P)            PL03
+CPMK2  Mengembangkan prototipe IoT yang terhubung dengan layanan perangkat lunak.
+CPMK2  Mengembangkan prototipe IoT yang terhubung dengan layanan perangkat lunak.
+Sub-CPMK2.1 Membangun akuisisi data sensor dan komunikasi perangkat.   CPL05   Praktikum               20
+Sub-CPMK2.2 Mengintegrasikan data IoT dengan API/aplikasi.        CPL02   Project                20
+STI-526   Internet of Things (+P)             PL03   CPMK3   Menguji keandalan dan keamanan dasar sistem IoT.   Sub-CPMK3.1 Melakukan pengujian konektivitas, latensi, dan ketahanan sistem. CPL05   Uji sistem               15
+
+
+STI-526   Internet of Things (+P)            PL03
+STI-420   Semantic Web dan Ontologi          PL04
+
+STI-420   Semantic Web dan Ontologi          PL04
+
+STI-420   Semantic Web dan Ontologi          PL04
+STI-420   Semantic Web dan Ontologi          PL04
+CPMK3   Menguji keandalan dan keamanan dasar sistem IoT.   Sub-CPMK3.2 Mendokumentasikan hasil pengujian dan perbaikan.      CPL10   Laporan                15
+CPMK1   Menjelaskan konsep representasi pengetahuan, semantic Sub-CPMK1.1 Mengidentifikasi konsep, relasi, dan taksonomi domain.     CPL06   Kuis                 15
+web, dan ontologi.
+CPMK1   Menjelaskan konsep representasi pengetahuan, semantic Sub-CPMK1.2 Menganalisis kebutuhan interoperabilitas data pada kasus.    CPL06   Studi kasus              15
+web, dan ontologi.
+CPMK2   Merancang model ontologi untuk suatu domain.     Sub-CPMK2.1 Membangun kelas, properti, dan relasi ontologi.        CPL06   Praktikum               20
+CPMK2   Merancang model ontologi untuk suatu domain.     Sub-CPMK2.2 Menguji konsistensi dan keterhubungan model.        CPL09   Tugas analisis             15
+
+STI-420   Semantic Web dan Ontologi          PL04
+
+STI-420   Semantic Web dan Ontologi          PL04
+
+STI-742   Inovasi Teknologi dan Startup Digital       PL05
+
+STI-742   Inovasi Teknologi dan Startup Digital       PL05
+CPMK3  Mengimplementasikan dan mengevaluasi integrasi data semantik.
+CPMK3  Mengimplementasikan dan mengevaluasi integrasi data semantik.
+CPMK1  Menganalisis masalah, peluang, dan kebutuhan pasar untuk inovasi digital.
+CPMK1  Menganalisis masalah, peluang, dan kebutuhan pasar untuk inovasi digital.
+Sub-CPMK3.1 Menerapkan query dan linked data pada prototipe.       CPL06   Project                20
+Sub-CPMK3.2 Menyusun dokumentasi teknis dan presentasi.        CPL10   Laporan + presentasi          15
+Sub-CPMK1.1 Memvalidasi problem-solution fit melalui riset pengguna/pasar.  CPL08   Studi lapangan             15
+Sub-CPMK1.2 Merumuskan proposisi nilai dan segmen pengguna.      CPL08   Tugas                15
+
+STI-742   Inovasi Teknologi dan Startup Digital       PL05
+STI-742   Inovasi Teknologi dan Startup Digital       PL05
+STI-742   Inovasi Teknologi dan Startup Digital       PL05
+STI-742   Inovasi Teknologi dan Startup Digital       PL05
+CPMK2   Merancang model bisnis dan MVP produk digital.     Sub-CPMK2.1 Menyusun model bisnis dan strategi pengembangan produk.   CPL08   Project                20
+CPMK2   Merancang model bisnis dan MVP produk digital.     Sub-CPMK2.2 Mengembangkan dan menguji MVP bersama pengguna.    CPL08   Project                20
+CPMK3   Menyajikan dan mengevaluasi kelayakan inovasi digital.  Sub-CPMK3.1 Menyusun metrik validasi dan analisis kelayakan.       CPL09   Analisis data              15
+CPMK3   Menyajikan dan mengevaluasi kelayakan inovasi digital.  Sub-CPMK3.2 Melakukan pitching dan refleksi profesional.         CPL10   Pitching + refleksi            15
+
+STI-743   Audit dan Tata Kelola Sistem Informasi      PL06
+CPMK1  Menganalisis prinsip tata kelola, risiko, kontrol, dan kepatuhan TI.
+Sub-CPMK1.1 Mengidentifikasi tujuan tata kelola dan risiko pada kasus organisasi.
+CPL07   Studi kasus              15
+
+STI-743   Audit dan Tata Kelola Sistem Informasi      PL06
+CPMK1  Menganalisis prinsip tata kelola, risiko, kontrol, dan kepatuhan TI.
+Sub-CPMK1.2 Memetakan kontrol, etika, hukum, dan kebutuhan kebijakan.   CPL07   Kuis + tugas              15
+
+STI-743   Audit dan Tata Kelola Sistem Informasi      PL06
+STI-743   Audit dan Tata Kelola Sistem Informasi      PL06
+CPMK2   Merancang prosedur audit dan evaluasi tata kelola SI.   Sub-CPMK2.1 Menyusun ruang lingkup, kriteria, bukti, dan instrumen audit.   CPL09   Project audit              20
+CPMK2   Merancang prosedur audit dan evaluasi tata kelola SI.   Sub-CPMK2.2 Melaksanakan analisis temuan dan tingkat risiko.       CPL07   Project audit              20
+
+STI-743   Audit dan Tata Kelola Sistem Informasi      PL06
+CPMK3  Merumuskan rekomendasi peningkatan tata kelola dan transformasi digital.
+Sub-CPMK3.1 Menyusun rekomendasi berbasis bukti dan prioritas risiko.    CPL07   Laporan               15
+
+STI-743   Audit dan Tata Kelola Sistem Informasi      PL06
+CPMK3  Merumuskan rekomendasi peningkatan tata kelola dan transformasi digital.
+Sub-CPMK3.2 Mempresentasikan temuan secara profesional dan bertanggung jawab.
+CPL10   Presentasi              15
+
+Kode MK        Nama Mata Kuliah        Total Bobot
+Validasi
+STI-741   Integrasi Layanan Cerdas Berbasis AI          100 OK STI-635   Desain dan Evaluasi Antarmuka Pengguna (UI/UX) (+    100 OK STI-526   Internet of Things (+P)                100 OK
+STI-420   Semantic Web dan Ontologi             100 OK
+STI-742   Inovasi Teknologi dan Startup Digital          100 OK
+
+STI-743   Audit dan Tata Kelola Sistem Informasi         100 OK
+
+TEMPLATE EVALUASI OBE - STI-741 Integrasi Layanan Cerdas Berbasis AI
+CPL dibebankan: CPL02, CPL03, CPL05, CPL06 | Isi nilai 0-100 pada kolom Tugas s.d. Project. Target ketercapaian default = 75.
+
+Komp onen
+Bobot (%)
+
+Bobot       Kelompok CPMK      Tugas    Kuis    UTS    UAS   Aktivitas   Project   Nilai Akhir   CPMK1   CPMK2   CPMK3     Status
+100                      15%    10%    20%    20%     10%     25%    Target     75     75     75
+
+No     NIM        Nama Mahasiswa      Tugas    Kuis    UTS    UAS   Aktivitas   Project   Nilai Akhir   CPMK1   CPMK2   CPMK3    Status CPL
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+
+
+Rata-ra Rata-ra Rata-ra Rata-ra
+Ringkasan Kelas
+Target CPL    75
+Persentase
+
+TEMPLATE EVALUASI OBE - STI-635 Desain dan Evaluasi Antarmuka Pengguna (UI/UX)
+CPL dibebankan: CPL04, CPL09, CPL10 | Isi nilai 0-100 pada kolom Tugas s.d. Project. Target ketercapaian default = 75.
+
+Komp onen
+Bobot (%)
+Bobot       Kelompok CPMK      Tugas    Kuis    UTS    UAS   Aktivitas   Project   Nilai Akhir   CPMK1   CPMK2   CPMK3     Status
+100                      15%    10%    20%    20%     10%     25%    Target     75     75     75
+
+No     NIM        Nama Mahasiswa      Tugas    Kuis    UTS    UAS   Aktivitas   Project   Nilai Akhir   CPMK1   CPMK2   CPMK3    Status CPL
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+
+
+Rata-ra Rata-ra Rata-ra Rata-ra
+Ringkasan Kelas
+Target CPL    75
+Persentase
+
+TEMPLATE EVALUASI OBE - STI-526 Internet of Things
+CPL dibebankan: CPL02, CPL05 | Isi nilai 0-100 pada kolom Tugas s.d. Project. Target ketercapaian default = 75.
+
+Komp onen
+Bobot (%)
+Bobot       Kelompok CPMK      Tugas    Kuis    UTS    UAS   Aktivitas   Project   Nilai Akhir   CPMK1   CPMK2   CPMK3     Status
+100                      15%    10%    20%    20%     10%     25%    Target     75     75     75
+
+No     NIM        Nama Mahasiswa      Tugas    Kuis    UTS    UAS   Aktivitas   Project   Nilai Akhir   CPMK1   CPMK2   CPMK3    Status CPL
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+
+
+Rata-ra Rata-ra Rata-ra Rata-ra
+Ringkasan Kelas
+Target CPL    75
+Persentase
+
+TEMPLATE EVALUASI OBE - STI-743 Audit dan Tata Kelola Sistem Informasi
+CPL dibebankan: CPL07, CPL09, CPL10 | Isi nilai 0-100 pada kolom Tugas s.d. Project. Target ketercapaian default = 75.
+
+Komp onen
+Bobot (%)
+Bobot       Kelompok CPMK      Tugas    Kuis    UTS    UAS   Aktivitas   Project   Nilai Akhir   CPMK1   CPMK2   CPMK3     Status
+100                      15%    10%    20%    20%     10%     25%    Target     75     75     75
+
+No     NIM        Nama Mahasiswa      Tugas    Kuis    UTS    UAS   Aktivitas   Project   Nilai Akhir   CPMK1   CPMK2   CPMK3    Status CPL
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+
+
+Rata-ra Rata-ra Rata-ra Rata-ra
+Ringkasan Kelas
+Target CPL    75
+Persentase
+
+TEMPLATE REKAPITULASI KETERCAPAIAN CPL PROGRAM STUDI
+Catatan: capaian aktual CPL harus berasal dari data asesmen seluruh mata kuliah pengukur. Kolom capaian dapat diisi setelah integrasi data nilai/RPS selesai. Target default dapat disesuaikan
+
+Kode CPL         Fokus CPL           Jumlah MK Pendukung
+MK Pengukur Level M          Target (%)  Capaian Aktual (%)
+Status
+CPL01   Analisis kebutuhan & perancangan solusi             7 MFT-004                                75           Belum ada data
+CPL02   Pengembangan perangkat lunak & platform           13 MFT-003, STI-741                           75           Belum ada data
+CPL03   AI, komputasi & analitika data                  12 STI-740, STI-741                            75           Belum ada data
+CPL04   UX, gamifikasi & multimedia                   10 STI-739, STI-740                            75           Belum ada data
+CPL05   IoT, infrastruktur & integrasi sistem               11 STI-741                                75           Belum ada data
+CPL06   Data, knowledge & interoperability                8 STI-740, STI-741                            75           Belum ada data
+CPL07   Tata kelola, keamanan & kebijakan digital            11 STI-743                                75           Belum ada data
+CPL08   Proyek, inovasi & technopreneurship              10 STI-739, STI-742                            75           Belum ada data
+CPL09   Fondasi ilmiah & penelitian                   17 MFT-004, STI-844                           75           Belum ada data
+CPL10   Etika & keterampilan profesional                22 MFT-004, STI-844                           75           Belum ada data

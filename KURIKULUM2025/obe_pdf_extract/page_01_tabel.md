@@ -1,0 +1,22 @@
+# SELF ASSESSMENT KESIAPAN IMPLEMENTASI MODUL OBE
+## S1 Sistem dan Teknologi Informasi
+
+| No | Aspek | Kriteria / Pertanyaan Kesiapan | Status | Catatan |
+|:---:|:---:|---|:---:|---|
+| 1 | Kurikulum OBE | Profil lulusan tersedia dan menggambarkan peran lulusan. | Ya | 6 PL telah dirumuskan. |
+| 2 | Kurikulum OBE | Jumlah profil lulusan > 3 dan mencakup bekerja/wirausaha. | Ya | 6 PL, termasuk Digital Technopreneur. |
+| 3 | Kurikulum OBE | Profil lulusan disajikan dengan kode, nama, deskripsi, dan profesi. | Ya | Tersedia pada sheet 1. |
+| 4 | Kurikulum OBE | CPL prodi tersedia dan dirumuskan dengan KKO + konten + konteks. | Ya | 10 CPL dirancang pada sheet 2. |
+| 5 | Kurikulum OBE | Jumlah CPL berada pada rentang 10-15. | Ya | Jumlah CPL = 10. |
+| 6 | Kurikulum OBE | Semua CPL dipetakan ke Profil Lulusan. | Ya | Tersedia pada sheet 3. |
+| 7 | Kurikulum OBE | Setiap PL ditopang minimal 3 CPL. | Ya | Seluruh PL ditopang 4-7 CPL. |
+| 8 | Kurikulum OBE | Semua mata kuliah dipetakan terhadap CPL. | Ya | 56 MK dipetakan pada sheet 4. |
+| 9 | Kurikulum OBE | Struktur mata kuliah per semester dan total SKS tersedia. | Ya | Kurikulum 2025: 56 MK, 146 SKS, 8 semester. |
+| 10 | Kurikulum OBE | Peta pemenuhan CPL oleh mata kuliah tersedia. | Ya | Menggunakan level I-R-M pada sheet 6. |
+| 11 | Kurikulum OBE | Bahan Kajian (BK) telah difinalkan dan dipetakan CPL-BK-MK. | Perlu dilengkapi | Belum tersedia pada data sumber yang diberikan. |
+| 12 | OBLT | Setiap mata kuliah memiliki RPS berbasis CPL/CPMK/Sub-CPMK. | Perlu dilengkapi | Sheet 7 memberi contoh 6 mata kuliah; RPS seluruh MK perlu disusun/diinput. |
+| 13 | OBLT | Metode pembelajaran selaras dengan CPMK dan asesmen. | Sebagian | Contoh tersedia pada sheet 7. |
+| 14 | OBLAE | Rencana evaluasi dan bobot penilaian setiap MK tersedia. | Sebagian | Template evaluasi tersedia pada sheet 8-11. |
+| 15 | OBLAE | Capaian CPMK dan CPL dihitung dari data nilai aktual mahasiswa. | Belum | Memerlukan data hasil asesmen aktual. |
+| 16 | OBLAE | Analisis ketercapaian dan *continuous improvement* dilakukan berkala. | Belum | Dijalankan setelah data implementasi semester tersedia. |
+| 17 | Dokumen | Landasan, tracer study, PEO/Tujuan Pendidikan, dan referensi kurikulum telah terdokumentasi. | Perlu verifikasi | Tidak seluruhnya terdapat pada lampiran yang digunakan. |
