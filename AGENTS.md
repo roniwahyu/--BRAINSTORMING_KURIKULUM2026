@@ -109,20 +109,29 @@ KURIKULUM2026_ZCODE/
 ├── 019_SURVEY_PEMETAAN_DAN_ANALISIS_REKOMENDASI_IMPROVEMENT_KURIKULUM2026.md
 ├── 020_ANALISIS_KESELARASAN_KURIKULUM_OBE_SISTEKIN.md ⭐ (Single Source of Truth Keselarasan Makro)
 ├── 021_PEMETAAN_BoK_VS_MK_SISTEKIN2026.md (Pemetaan SI-BK & TI-BK Lengkap)
-└── 022_AUDIT_KRITIS_BEBAN_BOK_DAN_KELEMAHAN_KURIKULUM2026.md ⭐ (Single Source of Truth Audit Kritis & Mitigasi)
+├── 022_AUDIT_KRITIS_BEBAN_BOK_DAN_KELEMAHAN_KURIKULUM2026.md ⭐ (Single Source of Truth Audit Kritis & Mitigasi)
+├── 023_FORMULASI_MATRIKS_OBE_LENGKAP_DAN_TAKSONOMI_CPL_MK.md ⭐ (4 Matriks Lanjutan OBE, I-R-M & Asesmen)
+├── 024_FORMULASI_CPMK_SUB_CPMK_SEMESTER_1_DAN_2.md (CPMK & Sub-CPMK Sem 1-2)
+├── 025_FORMULASI_CPMK_SUB_CPMK_SEMESTER_3_DAN_4.md (CPMK & Sub-CPMK Sem 3-4)
+├── 026_FORMULASI_CPMK_SUB_CPMK_SEMESTER_5_DAN_6.md (CPMK & Sub-CPMK Sem 5-6)
+├── 027_FORMULASI_CPMK_SUB_CPMK_SEMESTER_7_8_DAN_PEMINATAN.md ⭐ (CPMK Sem 7-8 & 18 MK Pilihan P1-P3)
+├── 028_CONTOH_RPS_READY_MACHINE_LEARNING_SISTEKIN.md ⭐ (Contoh RPS Siap Pakai Terstandar OBE LAM INFOKOM)
+└── 029_PANDUAN_SISTEM_ASESMEN_DAN_EVALUASI_OBE_SISTEKIN.md ⭐ (Panduan Asesmen OBE, Formula CPL Attainment, Rubrik Master & CQI)
 ```
 
 ---
 
 ## Current State & Next Steps
 
-**Status Saat Ini:** Keselarasan makro (VMTS ↔ PL/PEO ↔ 14 CPL ↔ BoK ↔ Struktur Kurikulum 8 Semester ↔ 3 Peminatan Seimbang) telah **100% selaras, terverifikasi di Dokumen 020/021, dan diaudit stres-ujinya di Dokumen 022**.
+**Status Saat Ini:** 
+- **Fase Makro OBE:** VMTS ↔ PL/PEO ↔ 14 CPL ↔ 19 BoK IS2020 & 27 BoK IT2017 ↔ Struktur 8 Semester (144 SKS lulus / 170 SKS portofolio) ↔ 3 Peminatan Seimbang (@ 18 SKS) telah **100% tuntas dan terverifikasi di Dokumen 020–023**.
+- **Fase Mikro OBE:** Formulasi PL, CPL, CPMK berbasis ABCD & Taksonomi Bloom (C2–C6), serta Sub-CPMK untuk **seluruh 61 Mata Kuliah** telah **100% selesai diformulasikan di Dokumen 024, 025, 026, dan 027**.
+- **Fase Asesmen & Penjaminan Mutu OBE:** Panduan Asesmen OBE Terperinci (Formula Matematis Ketercapaian CPL, 4 Rubrik Analitik Master, Kepatuhan IKU 7 $\ge 50\%$, Siklus PPEPP / CQI, dan Transkrip Capaian Radar SKPI) telah **100% tuntas di Dokumen 028 & 029**.
 
-**Langkah Kerja Selanjutnya (Fase Asesmen Mikro OBE):**
-1. **Formulasi CPMK & Sub-CPMK:** Perumusan kata kerja operasional Gagne/Bloom & format ABCD untuk 44 MK Wajib FSTI & STI (Semester 1–4 terlebih dahulu).
-2. **Instrumen & Rubrik Asesmen OBE:** Penentuan bobot asesmen (PjBL/Case Method $\Sigma=100\%$), rubrik penilaian Capstone Design & Portofolio CPL mahasiswa.
-3. **Penyusunan Rencana Pembelajaran Semester (RPS):** Template terstandar LAM INFOKOM & IABEE.
-4. **Finalisasi Naskah Buku Kurikulum SISTEKIN 2026:** Konsolidasi Bab 1 s.d. Bab 8 untuk penetapan Surat Keputusan (SK) Rektor.
+**Langkah Kerja Selanjutnya (Finalisasi Buku Kurikulum):**
+1. **Konsolidasi Naskah Buku Kurikulum SISTEKIN 2026:** Finalisasi Bab 1 s.d. Bab 8 untuk naskah pengesahan Surat Keputusan (SK) Rektor.
+
+
 
 ---
 

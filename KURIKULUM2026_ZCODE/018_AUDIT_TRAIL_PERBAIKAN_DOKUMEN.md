@@ -555,14 +555,48 @@ User menginformasikan bahwa MK terbagi menjadi:
    - **Semester 4:** Beban 19 SKS menjadi sangat seimbang dengan 3 MK Lab (+P) + 4 MK Teori + MKWU.
    - **Semester 5:** Beban 21 SKS terselamatkan dari kejenuhan lab (menjadi 4 MK Lab + 1 MK Teori-Manajerial + 2 MK Pilihan).
    - **Alur Belajar Data:** Menjadi berjenjang sempurna: $\text{Basis Data (Sem 2)} \rightarrow \text{Data Warehouse (Sem 4)} \rightarrow \text{Data Mining (Sem 5)}$.
-4. **Dokumen Terdampak & Tersinkronisasi:**
-   - `011_STRUKTUR_KURIKULUM_TABEL.md`
-   - `020_ANALISIS_KESELARASAN_KURIKULUM_OBE_SISTEKIN.md`
-   - `021_PEMETAAN_BoK_VS_MK_SISTEKIN2026.md`
-   - `022_AUDIT_KRITIS_BEBAN_BOK_DAN_KELEMAHAN_KURIKULUM2026.md`
+### 7.14 Penerbitan Dokumen 023: Formulasi 4 Matriks OBE Tingkat Lanjut (18 Agustus 2026)
+
+1. **Konteks & Kebutuhan Standar Akreditasi:**
+   - Melengkapi seluruh matriks kurikulum berbasis OBE sesuai standar instrumen Akreditasi LAM INFOKOM (Kriteria 9) dan standar internasional IABEE/ABET.
+2. **Empat Matriks Baru yang Diformulasikan:**
+   - **Matriks 1:** Matriks CPL $\leftrightarrow$ Mata Kuliah Berbasis Level Penguasaan (*Mastery Levels: Introduce / Reinforce / Master — I-R-M* & Taksonomi Bloom C2–C6).
+   - **Matriks 2:** Matriks 2-Dimensi Formal Pemenuhan 19 Bahan Kajian IS2020 (`SI-BK01`–`SI-BK19`) dan 27 Bahan Kajian IT2017 (`TI-BK01`–`TI-BK27`) terhadap 61 Mata Kuliah.
+   - **Matriks 3:** Matriks Keterlacakan Komprehensif (*End-to-End Traceability*: VMTS 2045 $\rightarrow$ 3 PEO $\rightarrow$ 6 PL $\rightarrow$ 14 CPL $\rightarrow$ 3 Peminatan $\rightarrow$ Target Karier).
+   - **Matriks 4:** Matriks Rencana Asesmen Langsung CPL (*CPL Direct Assessment & Benchmark Mapping Matrix*) untuk sistem penjaminan mutu PPEPP.
+### 7.15 Penerbitan Dokumen 024, 025, 026, dan 027: Formulasi Lengkap PL, CPL, CPMK & Sub-CPMK Seluruh 61 MK (18 Agustus 2026)
+
+1. **Konteks & Standar Konstruksi:**
+   - Menyusun capaian pembelajaran mikro (*Micro-Level Learning Outcomes*) untuk seluruh 61 Mata Kuliah portofolio SISTEKIN 2026.
+   - Menggunakan formula **ABCD** (*Audience, Behavior, Condition, Degree*) dan kata kerja operasional **Taksonomi Bloom (C2–C6, P2–P5, A2–A5)**.
+2. **Pembagian Dokumen Terbit:**
+   - **`024_FORMULASI_CPMK_SUB_CPMK_SEMESTER_1_DAN_2.md`:** 16 MK Fondasi (FSTI, STI & MKWU — Algoritma, Kalkulus, Diskrit, Basis Data, Aljabar, AI Dasar, Etika Digital).
+   - **`025_FORMULASI_CPMK_SUB_CPMK_SEMESTER_3_DAN_4.md`:** 17 MK Inti (APSI, Sistem Cerdas, UI/UX, RPL, OS, Jarkom, Web FE, ML, DW-BI, Web BE, Cloud, Keamanan Dasar, Probstat, English IT, KWN).
+   - **`026_FORMULASI_CPMK_SUB_CPMK_SEMESTER_5_DAN_6.md`:** 10 MK Wajib Lanjut & Integrasi (Deep Learning, Data Mining, IoT, Mobile Dev, Manpro TI, Integrasi AI, Smart City, Keamanan Lanjut, Capstone FSTI, Metpen).
+### 7.16 Penerbitan Dokumen 028: Contoh Rencana Pembelajaran Semester (RPS) Terstandar OBE (18 Agustus 2026)
+
+1. **Konteks & Tujuan:**
+   - Menyediakan dokumen contoh operasional RPS *ready-to-implement* yang mematuhi standar LAM INFOKOM, IABEE, dan Kepmendikbud No. 53/2023.
+### 7.17 Penerbitan Dokumen 029: Panduan Sistem Asesmen, Evaluasi & Penjaminan Mutu Berbasis OBE (18 Agustus 2026)
+
+1. **Konteks & Kepatuhan Standar Akreditasi:**
+   - Menyusun kerangka kerja operasional asesmen berbasis luaran (*Outcome-Based Assessment*) yang mematuhi standar LAM INFOKOM (Kriteria 9), IABEE, dan IKU 7 (Case Method & PjBL $\ge 50\%$).
+2. **Komponen Inti Panduan Asesmen:**
+   - **Arsitektur Asesmen:** Direct Assessment (85%) & Indirect Assessment (15%).
+   - **Formula Matematis CPL Attainment:** Algoritma perhitungan ketercapaian Sub-CPMK $\rightarrow$ CPMK $\rightarrow$ CPL per mata kuliah $\rightarrow$ Akumulasi CPL seluruh masa studi.
+   - **Standar Ambang Batas (*Threshold*):** Target kelulusan CPL $\ge 70.0$ (Grade B) dengan capaian minimal kohort $\ge 75\%$.
+   - **4 Rubrik Analitik Master:** Rubrik PjBL Proyek Terpadu, Rubrik Case Method, Rubrik Sidang Skripsi (`FST-714`), dan Rubrik Capstone Project (`FST-610`).
+   - **Siklus PPEPP / CQI:** Manajemen perbaikan mutu berkelanjutan berbasis evaluasi semesteran.
+   - **Portofolio Lulusan:** Profil Radar Chart Ketercapaian CPL sebagai lampiran resmi SKPI.
+3. **Dokumen Terbit:**
+   - `029_PANDUAN_SISTEM_ASESMEN_DAN_EVALUASI_OBE_SISTEKIN.md`.
 
 ---
 
 *Dokumen ini merupakan audit trail lengkap perbaikan dokumen kurikulum SISTEKIN untuk penelusuran dan verifikasi berjenjang.*
+
+
+
+
 
 
