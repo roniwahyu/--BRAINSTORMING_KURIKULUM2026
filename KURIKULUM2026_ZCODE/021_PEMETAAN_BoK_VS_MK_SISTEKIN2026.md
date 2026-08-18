@@ -112,10 +112,10 @@
 | Kode MK | Mata Kuliah | SKS | BoK Primer (SI / TI) | BoK Sekunder (SI / TI) | Evaluasi & Status Konflik |
 |---|---|:---:|---|---|---|
 | STI-401 | Machine Learning | 3 | **SI-BK13**, **SI-BK18**, **TI-BK22** | SI-BK11, TI-BK18 | ✅ Algoritma Supervised/Unsupervised |
+| **STI-402** | **Data Warehouse & Business Intelligence** | 3 | **SI-BK02**, **SI-BK13**, **TI-BK09** | SI-BK19 | ⚠️ Berbagi SI-BK02 dgn FST-207 — **TIDAK KONFLIK**: DB=transaksional, DW=analitik dimensional *(Pindah dari Sem 5)* |
 | STI-407 | Web Back End Development | 3 | **SI-BK07**, **TI-BK06**, **TI-BK16** | SI-BK08, TI-BK07 | ✅ Server-side, REST API, ORM |
 | STI-404 | SI Berbasis Cloud | 3 | **SI-BK03**, **TI-BK20** | SI-BK06, SI-BK08 | ⚠️ Berbagi SI-BK03 dgn STI-305 — **TIDAK KONFLIK**: OS=lokal, Cloud=abstraksi distributed |
 | STI-405 | Keamanan Informasi Dasar | 3 | **SI-BK08**, **TI-BK07**, **TI-BK14** | SI-BK03, TI-BK03 | ✅ Kriptografi, security posture, auth |
-| STI-406 | Manajemen Proyek TI | 3 | **SI-BK04**, **TI-BK13** | SI-BK06 | ✅ Siklus proyek, PMBOK, budgeting |
 | FST-408 | Statistika & Probabilitas | 3 | **SI-BK11**, **TI-BK18** | SI-BK13, TI-BK22 | ✅ Inferensi & estimasi probabilitas |
 
 ### 2.4 Semester 5–7 (MK Wajib Core STI)
@@ -123,10 +123,10 @@
 | Kode MK | Mata Kuliah | SKS | BoK Primer (SI / TI) | BoK Sekunder (SI / TI) | Evaluasi & Status Konflik |
 |---|---|:---:|---|---|---|
 | STI-501 | Deep Learning & Neural Networks | 3 | **SI-BK13**, **SI-BK18**, **TI-BK22** | SI-BK07 | ⚠️ Berbagi SI-BK18 dgn STI-401 — **TIDAK KONFLIK**: ML=fondasi, DL=arsitektur deep neural |
-| STI-502 | Data Warehouse & Business Intelligence | 3 | **SI-BK02**, **SI-BK13**, **TI-BK09** | SI-BK19 | ⚠️ Berbagi SI-BK02 dgn FST-207 — **TIDAK KONFLIK**: DB=transaksional, DW=analitik dimensional |
-| STI-503 | Data Mining & Visualization | 3 | **SI-BK02**, **SI-BK13**, **TI-BK22** | SI-BK17 | ⚠️ Berbagi SI-BK13 dgn STI-502 — **TIDAK KONFLIK**: DW=agregasi, Mining=pattern discovery |
+| STI-503 | Data Mining & Visualization | 3 | **SI-BK02**, **SI-BK13**, **TI-BK22** | SI-BK17 | ⚠️ Berbagi SI-BK13 dgn STI-402 — **TIDAK KONFLIK**: DW=infrastruktur analitik, Mining=discovery pola |
 | STI-504 | Internet of Things (IoT) | 3 | **SI-BK03**, **SI-BK18**, **TI-BK02** | SI-BK07, SI-BK08 | ✅ Sensor, edge computing, protokol MQTT |
 | STI-505 | Pemrograman Aplikasi Mobile | 3 | **SI-BK07**, **TI-BK06**, **TI-BK23** | SI-BK17, TI-BK11 | ✅ Cross-platform mobile engineering |
+| **STI-506** | **Manajemen Proyek TI** | 3 | **SI-BK04**, **TI-BK13** | SI-BK06 | ✅ Siklus proyek, PMBOK, Scrum *(Pindah dari Sem 4 — 1 semester sblm Capstone)* |
 | STI-601 | Integrasi Layanan Cerdas Berbasis AI | 3 | **SI-BK07**, **SI-BK18**, **TI-BK04** | SI-BK13 | ✅ API orchestration & AI service deployment |
 | STI-602 | Smart City & Pemerintahan Digital | 3 | **SI-BK03**, **SI-BK19**, **TI-BK02** | SI-BK06, SI-BK13 | ✅ Domain solusi kota pintar & e-Gov |
 | STI-603 | Keamanan Informasi Lanjut | 3 | **SI-BK08**, **TI-BK12**, **TI-BK21** | SI-BK03 | ⚠️ Berbagi SI-BK08 dgn STI-405 — **TIDAK KONFLIK**: Dasar=kripto, Lanjut=forensik & CSIRT |

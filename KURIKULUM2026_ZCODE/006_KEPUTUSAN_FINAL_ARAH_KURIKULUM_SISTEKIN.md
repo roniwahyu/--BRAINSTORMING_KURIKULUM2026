@@ -194,16 +194,17 @@ Agama I (2 SKS, Sem 1), Pancasila (2 SKS, Sem 1), Bahasa Indonesia (2 SKS, Sem 1
 | **Mengapa SISTEKIN?** | TI murni = riset AI. SISTEKIN = **terapkan AI ke SI** (niche unik) |
 | **Paspor Industri** | Startup AI, BUMN digital, Smart City vendor, konsultan digital |
 
-**MK Pilihan P1:**
-| MK (Nama Akademis) | Nama Marketable | SKS | +P? | Alasan Masuk P1 |
-|---|---|---|---|---|
-| Decision Support Systems | *AI Analyst / Decision Scientist* | 3 | ✅ | AHP/TOPSIS + AI decision support |
-| Computational Methods & Numerics | *Data Scientist / ML Engineer* | 3 | ✅ | Fondasi optimasi ML |
-| Deep Learning & Neural Networks | *Deep Learning Engineer* | 3 | ✅ | CNN, RNN, Transformer untuk SI |
-| Intelligent Agent Systems | *AI Solution Architect* | 3 | ✅ | Multi-agent untuk otomasi bisnis |
-| **★ MLOps & AI Pipeline** | **MLOps Engineer** | **3** | **✅** | **ML model deployment, monitoring, CI/CD for ML** |
+**MK Pilihan P1 (6 MK / 18 SKS):**
+| Kode | MK (Nama Akademis) | Nama Marketable | SKS | +P? | Alasan Masuk P1 |
+|---|---|---|:---:|:---:|---|
+| STA-01 | Decision Support Systems | *AI Analyst / Decision Scientist* | 3 | ✅ | AHP/TOPSIS + AI decision support |
+| STA-02 | Computational Methods & Numerics | *Data Scientist / ML Engineer* | 3 | ✅ | Fondasi optimasi numerik & ML |
+| STA-03 | Intelligent Agent Systems | *AI Solution Architect* | 3 | ✅ | Multi-agent untuk otomasi bisnis |
+| STA-04 | MLOps & AI Pipeline | *MLOps Engineer* | 3 | ✅ | ML model deployment, monitoring, CI/CD for ML |
+| STA-05 | Conversational AI & Intelligent Assistant | *Chatbot & RAG Engineer* | 3 | ✅ | LLM fine-tuning, RAG pipeline, AI Agent |
+| STA-06 | Smart Surveillance & IoT Analytics | *Vision & Smart City Analytics* | 3 | ✅ | Computer vision, edge video analytics |
 
-**Total P1:** 5 MK pilihan (ambil 3-4 dari 5)
+**Total P1:** Tepat 6 MK pilihan (18 SKS)
 
 ---
 
@@ -221,17 +222,18 @@ Agama I (2 SKS, Sem 1), Pancasila (2 SKS, Sem 1), Bahasa Indonesia (2 SKS, Sem 1
 | **Mengapa SISTEKIN?** | Cloud + SI = **bukan DevOps murni** — fokus pada **governance & architecture** |
 | **Paspor Industri** | AWS/Azure/GCP partner, BSSN, perbankan, Telkom, Telkomsel, konsultan IT |
 
-**MK Pilihan P2:**
-| MK (Nama Akademis) | Nama Marketable | SKS | +P? | Alasan Masuk P2 |
-|---|---|---|---|---|
-| Network Security & Digital Forensics | *SOC Analyst / Forensic Investigator* | 3 | ✅ | Incident response, evidence collection |
-| Cloud Architecture & DevOps | *Cloud Engineer / DevOps Engineer* | 4 | ✅ | Docker, K8s, CI/CD, IaC, monitoring |
-| Cybersecurity Risk Management | *Security Risk Analyst* | 3 | ✅ | Risk assessment, business continuity |
-| IT Governance & Compliance (COBIT 2019) | *IT Auditor / GRC Analyst* | 3 | ✅ | Governance framework, compliance |
-| IT Service Management (ITIL 4) | *Service Delivery Manager* | 3 | ✅ | Service desk, incident, change, CSI |
-| Enterprise Architecture (TOGAF) | *Enterprise Architect* | 3 | ✅ | ADM, ArchiMate, architecture planning |
+**MK Pilihan P2 (6 MK / 18 SKS):**
+| Kode | MK (Nama Akademis) | Nama Marketable | SKS | +P? | Alasan Masuk P2 |
+|---|---|---|:---:|:---:|---|
+| STB-01 | Network Security & Digital Forensics | *SOC Analyst / Forensic Investigator* | 3 | ✅ | Incident response, evidence collection |
+| STB-02 | Cloud Architecture & DevOps | *Cloud Engineer / DevOps Engineer* | 3 | ✅ | Docker, K8s, CI/CD, IaC, monitoring |
+| STB-03 | Cybersecurity Risk Management | *Security Risk Analyst* | 3 | — | Risk assessment, business continuity |
+| STB-04 | IT Governance & Compliance (COBIT 2019) | *IT Auditor / GRC Analyst* | 3 | — | Governance framework, compliance |
+| STB-05 | IT Service Management (ITIL 4) | *Service Delivery Manager* | 3 | — | Service desk, incident, change, CSI |
+| STB-06 | Enterprise Architecture (TOGAF) | *Enterprise Architect* | 3 | — | ADM, ArchiMate, architecture planning |
 
-**Total P2:** 6 MK pilihan (ambil 3-4 dari 6)
+**Total P2:** Tepat 6 MK pilihan (18 SKS)
+
 
 ---
 

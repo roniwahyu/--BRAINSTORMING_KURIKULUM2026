@@ -107,19 +107,21 @@ KURIKULUM2026_ZCODE/
 ├── 017_VERIFIKASI_GROUND_TRUTH_KURIKULUM2025.md
 ├── 018_AUDIT_TRAIL_PERBAIKAN_DOKUMEN.md
 ├── 019_SURVEY_PEMETAAN_DAN_ANALISIS_REKOMENDASI_IMPROVEMENT_KURIKULUM2026.md
-└── 020_ANALISIS_KESELARASAN_KURIKULUM_OBE_SISTEKIN.md ⭐ (Single Source of Truth Keselarasan)
+├── 020_ANALISIS_KESELARASAN_KURIKULUM_OBE_SISTEKIN.md ⭐ (Single Source of Truth Keselarasan Makro)
+├── 021_PEMETAAN_BoK_VS_MK_SISTEKIN2026.md (Pemetaan SI-BK & TI-BK Lengkap)
+└── 022_AUDIT_KRITIS_BEBAN_BOK_DAN_KELEMAHAN_KURIKULUM2026.md ⭐ (Single Source of Truth Audit Kritis & Mitigasi)
 ```
 
 ---
 
 ## Current State & Next Steps
 
-**Status Saat Ini:** Keselarasan makro (VMTS ↔ PL/PEO ↔ 14 CPL ↔ BoK ↔ Struktur Kurikulum 8 Semester) telah **100% selaras dan terverifikasi di Dokumen 020**.
+**Status Saat Ini:** Keselarasan makro (VMTS ↔ PL/PEO ↔ 14 CPL ↔ BoK ↔ Struktur Kurikulum 8 Semester ↔ 3 Peminatan Seimbang) telah **100% selaras, terverifikasi di Dokumen 020/021, dan diaudit stres-ujinya di Dokumen 022**.
 
 **Langkah Kerja Selanjutnya (Fase Asesmen Mikro OBE):**
-1. **Matriks Bahan Kajian (BoK) ↔ Mata Kuliah:** Pemetaan 19 BoK IS2020 & 14 BoK IT2017 ke MK Wajib & Pilihan (Tabel 6 Standar APTIKOM).
-2. **Formulasi CPMK & Sub-CPMK:** Perumusan kata kerja operasional Gagne/Bloom & format ABCD untuk 44 MK Wajib FSTI & STI.
-3. **Instrumen & Rubrik Asesmen OBE:** Penentuan bobot asesmen (PjBL/Case Method Σ=100%), rubrik penilaian Capstone Design & Portofolio CPL mahasiswa.
+1. **Formulasi CPMK & Sub-CPMK:** Perumusan kata kerja operasional Gagne/Bloom & format ABCD untuk 44 MK Wajib FSTI & STI (Semester 1–4 terlebih dahulu).
+2. **Instrumen & Rubrik Asesmen OBE:** Penentuan bobot asesmen (PjBL/Case Method $\Sigma=100\%$), rubrik penilaian Capstone Design & Portofolio CPL mahasiswa.
+3. **Penyusunan Rencana Pembelajaran Semester (RPS):** Template terstandar LAM INFOKOM & IABEE.
 4. **Finalisasi Naskah Buku Kurikulum SISTEKIN 2026:** Konsolidasi Bab 1 s.d. Bab 8 untuk penetapan Surat Keputusan (SK) Rektor.
 
 ---

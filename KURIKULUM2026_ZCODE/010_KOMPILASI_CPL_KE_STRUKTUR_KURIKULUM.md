@@ -377,53 +377,53 @@ VMTS (Visi-Misi-Tujuan-Sasaran)
 
 ---
 
-### P2: Cloud Infrastructure & Cybersecurity (Volume)
+### P2: Cloud Infrastructure & Cybersecurity (Volume — 6 MK / 18 SKS)
 **Tagline:** *"Cloud + Security = Karier Pasti"*
 **Target:** PL-03 (Smart System Integrator), PL-05 (Digital Governance Analyst)
 
-| MK Pilihan | SKS | CPL |
-|---|---|---|
-| Network Security & Digital Forensics | 3 | P3, KK3, KK4 |
-| Cloud Architecture & DevOps | 4 | P3, KK3 |
-| Cybersecurity Risk Management | 3 | KK3, KK4 |
-| IT Governance & Compliance (COBIT 2019) | 3 | KK4 |
-| IT Service Management (ITIL 4) | 3 | P3, KK3 |
-| Enterprise Architecture (TOGAF) | 3 | P3, KK4 |
+| Kode | MK Pilihan | SKS | CPL | Keterangan |
+|---|---|:---:|---|---|
+| STB-01 | Network Security & Digital Forensics | 3 | P3, KK3, KK4 | +P: Incident response & evidence collection |
+| STB-02 | Cloud Architecture & DevOps | 3 | P3, KK3 | +P: Docker, K8s, CI/CD, IaC |
+| STB-03 | Cybersecurity Risk Management | 3 | KK3, KK4 | Risk assessment, ISO 27001 |
+| STB-04 | IT Governance & Compliance (COBIT 2019) | 3 | KK4 | Governance framework, compliance |
+| STB-05 | IT Service Management (ITIL 4) | 3 | P3, KK3 | Service value chain, SLA |
+| STB-06 | Enterprise Architecture (TOGAF) | 3 | P3, KK4 | ADM, ArchiMate |
 
-**Ambil:** 3-4 dari 6 MK (9-13 SKS)
+**Total P2:** 6 MK (18 SKS)
 
 ---
 
-### P3: Digital Platform Engineering (Niche)
+### P3: Digital Platform Engineering (Niche — 6 MK / 18 SKS)
 **Tagline:** *"Bangun Platform, Jangan Cuma Pakai"*
 **Target:** PL-02 (UI/UX Designer & Platform Engineer), PL-04 (Technopreneur)
 
-| MK Pilihan | SKS | CPL |
-|---|---|---|
-| User Experience Research & Design | 3 | KK5 |
-| EdTech Platform Development | 3 | KK5 |
-| FinTech Platform Development | 3 | KK5 |
-| Immersive Media & XR Development | 3 | KK5 |
-| SaaS Engineering & Startup | 3 | KK5, KK6 |
-| Agile & Scrum for Digital Product | 3 | KK6 |
-| Technology Leadership & CTO Simulation | 3 | KK6 |
+| Kode | MK Pilihan | SKS | CPL | Keterangan |
+|---|---|:---:|---|---|
+| STC-01 | User Experience Research & Design | 3 | KK5 | +P: UX research, usability testing |
+| **STC-02** | **Rekayasa & Otomasi Proses Bisnis** | **3** | **KK5** | **+P: BPMN 2.0, workflow engine, process mining (SI-BK15)** ⭐ |
+| STC-03 | Rekayasa Aplikasi Industri Vertikal | 3 | KK5 | +P: FinTech & EdTech platform integration |
+| STC-04 | Immersive Media & XR Development | 3 | KK5 | +P: Spatial computing, WebXR |
+| STC-05 | SaaS Architecture & Multi-Tenancy | 3 | KK5, KK6 | +P: Multi-tenant, billing engine |
+| STC-06 | Digital Product Management & Agile | 3 | KK6 | Product roadmap, Scrum/Kanban |
 
-**Ambil:** 3-4 dari 7 MK (9-12 SKS)
+**Total P3:** 6 MK (18 SKS)
 
 ---
 
 ## 10. STRUKTUR SEMESTER → CPL COVERAGE
 
-| Semester | MK Utama | CPL yang Dibangun |
-|---|---|---|
-| **1** | Pengantar SISTEKIN, Algoritma-Pemrograman, Kalkulus, Logika Informatika, Agama, Pancasila | KU1, P1, P4, S1 |
-| **2** | Matematika Diskrit, Aljabar Linear, Probabilitas-Statistika, Struktur Data, Basis Data, B.Indonesia | P1, P4, KU1, KU2, P2 |
-| **3** | Web Back End Development, Sistem Cerdas, **Jaringan Komputer**, IoT, UI/UX Design, RPL, Sistem Operasi | P4, KU1, P3, KK3, KK5, P2, KK1 |
-| **4** | Machine Learning, Analisis-Perancangan SI, Web Front End Development, Mobile App Dev, Etika-Hukum TI, SI Berbasis Cloud, **Sistem Informasi Manajemen** | P2, KK1, KU1, P4, S1, P3, KK3, **KK4** |
-| **5** | Deep Learning, Data Warehouse-BI, Data Mining & Visualization, Manajemen Proyek TI, Metpen, Kewirausahaan I | KK1, KK2, P2, KK6, KU1-KU3 |
-| **6** | Integrasi Cerdas AI, Smart City & GovTech, Keamanan Info Dasar, **MK Pilihan Peminatan (3-4 MK)** | KK1, P3, KK3, **KK1-KK6 (peminatan)** |
-| **7** | Pra-Skripsi, **MK Pilihan Peminatan (sisa)**, Conversational AI, Smart Surveillance | KU1-KU3, **KK1-KK6 (peminatan)**, KK1 |
-| **8** | **Skripsi/Capstone Design**, PKL | S1, KU1-KU3, KK1-KK6 (semua kompetensi) |
+| Semester | MK Utama | SKS | CPL yang Dibangun |
+|---|---|:---:|---|
+| **1** | Pengantar SISTEKIN, Algoritma (+P), Kalkulus, Logika Informatika, Dasar Digital, MKWU (Agama I, Pancasila, B.Indo) | 19 | KU1, KU2, P1, P2, P4, S1 |
+| **2** | Diskrit, Aljabar Linear, Struktur Data (+P), Pengantar AI, Basis Data (+P), Basic English, Etika Digital, KWU I | 20 | P1, P2, P4, KU1, KU2, KK1, KK6, S1 |
+| **3** | APSI, Sistem Cerdas, UI/UX (+P), RPL, Sistem Operasi, Web Front End (+P), Jaringan Komputer (+P) | 20 | P2, P3, P4, KU1, KK1, KK3, KK5, KK6 |
+| **4** | Machine Learning (+P), **Data Warehouse & BI (+P)**, Web Back End (+P), Cloud, Keamanan Dasar, Probstat, English for IT, KWN | 19 | P1, P2, P3, P4, KU1, KU2, KK1, KK2, KK3, S1 |
+| **5** | Deep Learning (+P), Data Mining (+P), IoT (+P), Mobile (+P), **Manajemen Proyek TI**, + 2 MK Pilihan Peminatan | 21 | P2, P3, P4, KK1, KK2, KK3, KK5, KK6, CPL Peminatan |
+| **6** | Integrasi AI (+P), Smart City (+P), Keamanan Lanjut, Capstone FSTI (+P), Metpen, + 2 MK Pilihan / MBKM | 20 | P2, P3, KU1-KU3, KK1, KK3, KK4, S1, CPL Peminatan / MBKM |
+| **7** | Digital Platform Eng (+P), Startup Digital (+P), PKL (+P), + 4 MK Pilihan Peminatan / MBKM | 21 | KK5, KK6, KU1-KU3, S1, CPL Peminatan / MBKM |
+| **8** | Pra-Skripsi/Seminar, Skripsi / Capstone TA (+P), KPM/KKN | 11 | S1, KU1-KU3, P1-P4, KK1-KK6 (Pemenuhan Seluruh 14 CPL) |
+
 
 ---
 

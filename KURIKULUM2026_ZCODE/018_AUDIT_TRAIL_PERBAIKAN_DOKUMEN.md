@@ -533,7 +533,36 @@ User menginformasikan bahwa MK terbagi menjadi:
    - `STC-05`: SaaS Architecture & Multi-Tenancy (3 SKS, +P)
    - `STC-06`: Digital Product Management & Agile Practices (3 SKS)
 
+### 7.12 Penerbitan Dokumen 022: Audit Kritis Beban BoK, Tumpang Tindih Terselubung & Mitigasi Pedagogis (18 Agustus 2026)
+
+1. **Konteks & Tujuan:**
+   - Melakukan *stress-testing audit* menyeluruh pasca-penyelarasan makro kurikulum SISTEKIN 2026.
+   - Hasil audit didokumentasikan resmi di **`022_AUDIT_KRITIS_BEBAN_BOK_DAN_KELEMAHAN_KURIKULUM2026.md`**.
+2. **Empat Temuan & Rekomendasi Utama:**
+   - **BoK Over-Saturation:** Mitigasi 15 SKS Matematika (`SI-BK11`) dengan pendekatan *Computational Mathematics* menggunakan Python/NumPy.
+   - **Subtle Overlaps:** Menetapkan garis batas tegas antara *DW-BI* (Infrastruktur Data) vs *Data Mining* (Pola & Clustering) di Semester 5, serta *Integrasi AI* (Serving API) vs *Platform Eng* (Enterprise Plumbing).
+   - **Semester 5 Overload Trap:** Mengidentifikasi risiko 5 MK Wajib Praktikum (+P) serempak; merekomendasikan *Integrated Project Assignment* (IoT + Mobile) dan relaksasi format praktikum di DW-BI/Data Mining.
+   - **Operational Feasibility:** Pedoman pemanfaatan GPU cloud akademis dan kit IoT mandiri mahasiswa.
+3. **Dokumen Terdampak & Terbuat:**
+### 7.13 Pertukaran Posisi Semester: Data Warehouse & BI (Sem 4) ↔ Manajemen Proyek TI (Sem 5) (18 Agustus 2026)
+
+1. **Konteks Masalah:**
+   - Evaluasi pedagogis Dokumen [022] menemukan bahwa Semester 5 mengalami beban berlebih (*Semester 5 Overload Trap*) dengan 5 MK Praktikum Lab Wajib sekaligus. Selain itu, *DW-BI* dan *Data Mining* berada di semester yang sama sehingga materi ETL/Dashboard tumpang tindih.
+2. **Keputusan Perubahan Disetujui:**
+   - **`STI-402 Data Warehouse & Business Intelligence` (3 SKS, +P):** Dipindahkan dari Semester 5 ke **Semester 4 (Genap)**. Mahasiswa mempelajari gudang data segera setelah *Basis Data (Sem 2)* dan bersinergi dengan *Machine Learning (Sem 4)*.
+   - **`STI-506 Manajemen Proyek Teknologi Informasi` (3 SKS, Non-+P):** Dipindahkan dari Semester 4 ke **Semester 5 (Ganjil)**. Mahasiswa mempelajari metodologi Agile/Scrum tepat 1 semester sebelum mengeksekusi *Capstone Project (FST-610)* di Semester 6.
+3. **Dampak Positif:**
+   - **Semester 4:** Beban 19 SKS menjadi sangat seimbang dengan 3 MK Lab (+P) + 4 MK Teori + MKWU.
+   - **Semester 5:** Beban 21 SKS terselamatkan dari kejenuhan lab (menjadi 4 MK Lab + 1 MK Teori-Manajerial + 2 MK Pilihan).
+   - **Alur Belajar Data:** Menjadi berjenjang sempurna: $\text{Basis Data (Sem 2)} \rightarrow \text{Data Warehouse (Sem 4)} \rightarrow \text{Data Mining (Sem 5)}$.
+4. **Dokumen Terdampak & Tersinkronisasi:**
+   - `011_STRUKTUR_KURIKULUM_TABEL.md`
+   - `020_ANALISIS_KESELARASAN_KURIKULUM_OBE_SISTEKIN.md`
+   - `021_PEMETAAN_BoK_VS_MK_SISTEKIN2026.md`
+   - `022_AUDIT_KRITIS_BEBAN_BOK_DAN_KELEMAHAN_KURIKULUM2026.md`
+
 ---
 
 *Dokumen ini merupakan audit trail lengkap perbaikan dokumen kurikulum SISTEKIN untuk penelusuran dan verifikasi berjenjang.*
+
 

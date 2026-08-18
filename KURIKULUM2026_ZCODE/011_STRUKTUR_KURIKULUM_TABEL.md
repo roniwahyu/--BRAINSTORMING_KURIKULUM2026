@@ -88,36 +88,37 @@
 
 ---
 
-## SEMESTER 4 — Inti Lanjutan & Karakter (19 SKS / 22 SKS Formal)
+## SEMESTER 4 — Inti Data, Cloud, Keamanan & Karakter (19 SKS / 22 SKS Formal)
 
 | No | Mata Kuliah | Kode | SKS | +P | CPL | Keterangan |
 |---|---|---|---|---|---|---|
 | 1 | Machine Learning | STI-401 | 3 | ✅ | P2, KK1, KK2 | +P: sklearn, model evaluation |
-| 2 | **Web Back End Development** | **STI-407** | **3** | **✅** | **P4, KU1** | **+P: REST API, Node.js/Python/PHP backend** |
-| 3 | Sistem Informasi Berbasis Cloud | STI-404 | 3 | — | P3, KK3 | IaaS/PaaS/SaaS |
-| 4 | **Keamanan Informasi Dasar** | **STI-405** | **3** | **—** | **P3, KK3** | **Network security, kriptografi dasar** |
-| 5 | Manajemen Proyek Teknologi Informasi | STI-406 | 3 | — | KK6 | Waterfall, Agile, Scrum |
+| 2 | **Data Warehouse dan Business Intelligence** | **STI-402** | **3** | **✅** | **P2, KK2** | **+P: Dimensional modeling, ETL, BI dashboard (Pindahan dari Sem 5)** |
+| 3 | **Web Back End Development** | **STI-407** | **3** | **✅** | **P4, KU1** | **+P: REST API, Node.js/Python/PHP backend** |
+| 4 | Sistem Informasi Berbasis Cloud | STI-404 | 3 | — | P3, KK3 | IaaS/PaaS/SaaS |
+| 5 | **Keamanan Informasi Dasar** | **STI-405** | **3** | **—** | **P3, KK3** | **Network security, kriptografi dasar** |
 | 6 | Statistika & Probabilitas | FST-408 | 3 | — | P1, P4 | **FSTI** — **Teori (Non-+P)** — Probstat |
 | 7 | English For IT Professionals | FST-409 | 2 | — | KU2 | **FSTI** — Prasyarat: FST-205 |
 | 8 | **Kewarganegaraan** | **MKU-401** | **2** | **—** | **S1** | **MKWU — Pindahan dari Sem 2** |
 | 9 | **Agama II** | **MKU-401A** | **0** | **—** | **S1** | **MKWU — Kebijakan UWG (0 SKS)** |
-| 10 | Kewirausahaan II | MKU-402 | 0 | — | KK6 | MKWU — Kebijakan UWG (0 SKS) |
-| | **Total Semester 4** | | **19** | | | **19 SKS (22 SKS incl. MK 0 SKS)** |
+| 10| Kewirausahaan II | MKU-402 | 0 | — | KK6 | MKWU — Kebijakan UWG (0 SKS) |
+| | **Total Semester 4** | | **19** | | | **19 SKS (3 MK Lab + 4 Teori + MKWU)** |
 
 ---
 
-## SEMESTER 5 — Pendalaman + Peminatan (21 SKS)
+## SEMESTER 5 — Pendalaman, Proyek + Peminatan (21 SKS)
 
 | No | Mata Kuliah | Kode | SKS | +P | CPL | Peminatan | Keterangan |
 |---|---|---|---|---|---|---|---|
 | 1 | Deep Learning dan Neural Networks | STI-501 | 3 | ✅ | KK1, KK2 | Core | +P: CNN, RNN, Transformer |
-| 2 | Data Warehouse dan Business Intelligence | STI-502 | 3 | ✅ | P2, KK2 | Core | +P: ETL, dashboard |
-| 3 | Data Mining & Visualization | STI-503 | 3 | ✅ | P2, KK2 | Core | +P: clustering, visualization |
-| 4 | **Internet of Things (IoT)** | **STI-504** | **3** | **✅** | **P3, KK3** | **Core** | **+P: Sensor, gateway, dashboard IoT** |
-| 5 | **Pemrograman Aplikasi Mobile** | **STI-505** | **3** | **✅** | **P4, KK5** | **Core** | **+P: Flutter/React Native Android/iOS** |
+| 2 | Data Mining & Visualization | STI-503 | 3 | ✅ | P2, KK2 | Core | +P: clustering, pattern discovery |
+| 3 | **Internet of Things (IoT)** | **STI-504** | **3** | **✅** | **P3, KK3** | **Core** | **+P: Sensor, gateway, dashboard IoT** |
+| 4 | **Pemrograman Aplikasi Mobile** | **STI-505** | **3** | **✅** | **P4, KK5** | **Core** | **+P: Flutter/React Native Android/iOS** |
+| 5 | **Manajemen Proyek Teknologi Informasi** | **STI-506** | **3** | **—** | **KK6** | **Core** | **Waterfall, Agile, Scrum (Pindahan dari Sem 4 — 1 semester sebelum Capstone)** |
 | 6 | **MK Pilihan Peminatan 1** | STA-/STB-/STC- | 3 | — | Per MK | Smart IS/Cloud/Platform | Ambil 1 dari portofolio peminatan |
 | 7 | **MK Pilihan Peminatan 2** | STA-/STB-/STC- | 3 | — | Per MK | Smart IS/Cloud/Platform | Ambil 1 dari portofolio peminatan |
-| | **Total Semester 5** | | **21** | | | | |
+| | **Total Semester 5** | | **21** | | | | **Beban Seimbang (4 MK Lab + 1 MK Manajerial)** |
+
 
 ---
 
@@ -216,6 +217,7 @@
 Total SKS Praktikum (+P): **24 MK | 80 SKS** (**47.1%** dari Total 170 SKS).
 
 | No | Kode | Nama Mata Kuliah | SKS | SMS | Kategori | Fokus Praktikum / Hands-on Lab |
+| No | Kode | Nama Mata Kuliah | SKS | SMS | Kategori | Fokus Praktikum / Hands-on Lab |
 |---|---|---|:---:|:---:|---|---|
 | 1 | FST-102 | Algoritma dan Pemrograman | 3 | 1 | FSTI | Coding dasar C++/Python, logika algoritma, kontrol alur |
 | 2 | FST-203 | Struktur Data dan Strategi Algoritma | 3 | 2 | FSTI | Array, linked list, tree, graph, sorting, searching |
@@ -224,23 +226,21 @@ Total SKS Praktikum (+P): **24 MK | 80 SKS** (**47.1%** dari Total 170 SKS).
 | 5 | STI-307 | Jaringan Komputer | 3 | 3 | STI | Simulation Cisco Packet Tracer, subnetting, Wireshark packet capture |
 | 6 | STI-306 | Web Front End Development | 3 | 3 | STI | HTML5, CSS3, JavaScript, React/Vue frontend framework |
 | 7 | STI-401 | Machine Learning | 3 | 4 | STI | Python scikit-learn, regresi, klasifikasi, evaluasi model & pipeline ML |
-| 8 | STI-407 | Web Back End Development | 3 | 4 | STI | REST API development, Node.js/Python/PHP framework, Auth JWT |
-| 9 | STI-501 | Deep Learning dan Neural Networks | 3 | 5 | STI | PyTorch/TensorFlow, CNN computer vision, RNN/LSTM, Transformer NLP |
-| 10 | STI-502 | Data Warehouse dan Business Intelligence | 3 | 5 | STI | ETL pipeline processing, schema star/snowflake, BI PowerBI/Tableau dashboard |
+| 8 | **STI-402** | **Data Warehouse dan Business Intelligence** | **3** | **4** | **STI** | **ETL pipeline processing, schema star/snowflake, BI PowerBI/Tableau dashboard** |
+| 9 | STI-407 | Web Back End Development | 3 | 4 | STI | REST API development, Node.js/Python/PHP framework, Auth JWT |
+| 10 | STI-501 | Deep Learning dan Neural Networks | 3 | 5 | STI | PyTorch/TensorFlow, CNN computer vision, RNN/LSTM, Transformer NLP |
 | 11 | STI-503 | Data Mining & Visualization | 3 | 5 | STI | Exploratory data analysis, clustering (K-Means), association rules, Seaborn/Plotly |
 | 12 | STI-504 | Internet of Things (IoT) | 3 | 5 | STI | Sensor ESP32/Arduino, protokol MQTT, gateway & dashboard IoT Blynk/Node-RED |
 | 13 | STI-505 | Pemrograman Aplikasi Mobile | 3 | 5 | STI | Flutter/React Native cross-platform, Android Studio, integrasi API & sqlite |
 | 14 | STI-601 | Integrasi Layanan Cerdas Berbasis AI | 3 | 6 | STI | Model deployment FastAPI/Docker, MLOps, API orchestration & microservices |
 | 15 | STI-602 | Smart City dan Pemerintahan Digital | 3 | 6 | STI | Prototyping sistem sensor smart city, GIS mapping & portal SPBE |
-| 16 | STI-604 | Digital Platform Engineering | 3 | 6 | STI | Microservices architecture, API Gateway, CI/CD pipeline, Redis/Kafka |
-| 17 | FST-610 | Capstone Project | 3 | 6-7-8 | FSTI | Proyek lintas-prodi FSTI, pengembangan produk digital nyata & testing |
-| 18 | STI-701 | Conversational AI dan Intelligent Assistant | 3 | 7 | STI | LLM fine-tuning, RAG architecture, LangChain, OpenAI API, Chatbot UI |
-| 19 | STI-702 | Smart Surveillance dan IoT Analytics | 3 | 7 | STI | OpenCV computer vision, YOLO object detection, edge AI video analytics |
-| 20 | STI-703 | Inovasi Teknologi dan Startup Digital | 3 | 7 | STI | MVP prototyping, product validation, landing page & pitch deck interactive |
-| 21 | STA/STB/STC | 9 MK Pilihan Peminatan | 27 | 5-7 | STI | Lab hands-on spesialisasi P1 (Smart IS), P2 (Cloud & Cyber), P3 (Digital Platform) |
-| 22 | FST-612 | Praktik Kerja Lapangan (PKL) | 3 | 6-7 | FSTI | Magang industri 1-3 bulan / proyek nyata perusahaan |
-| 23 | FST-714 | Skripsi | 6 | 7-8 | FSTI | Pengembangan sistem/riset mandiri, coding & pengujian perangkat lunak |
-| 24 | MKU-203 | KPM (Kuliah Pengabdian Masyarakat / KKN) | 3 | Libur | MKWU | Implementasi teknologi digital untuk pengabdian masyarakat desa |
+| 16 | FST-610 | Capstone Project | 3 | 6-7-8 | FSTI | Proyek lintas-prodi FSTI, pengembangan produk digital nyata & testing |
+| 17 | STI-701 | Digital Platform Engineering | 3 | 7 | STI | Microservices architecture, API Gateway, CI/CD pipeline, Redis/Kafka |
+| 18 | STI-702 | Inovasi Teknologi dan Startup Digital | 3 | 7 | STI | MVP prototyping, product validation, landing page & pitch deck interactive |
+| 19 | STA/STB/STC | 9 MK Pilihan Peminatan | 27 | 5-7 | STI | Lab hands-on spesialisasi P1 (Smart IS), P2 (Cloud & Cyber), P3 (Digital Platform) |
+| 20 | FST-612 | Praktik Kerja Lapangan (PKL) | 3 | 6-7 | FSTI | Magang industri 1-3 bulan / proyek nyata perusahaan |
+| 21 | FST-714 | Skripsi / Capstone TA | 6 | 7-8 | FSTI | Pengembangan sistem/riset mandiri, coding & pengujian perangkat lunak |
+| 22 | MKU-203 | KPM (Kuliah Pengabdian Masyarakat / KKN) | 3 | Libur | MKWU | Implementasi teknologi digital untuk pengabdian masyarakat desa |
 | | **TOTAL** | **24 MK PRAKTIKUM (+P)** | **80** | | | **80 SKS (47.1% dari Total 170 SKS)** |
 
 ---
@@ -276,7 +276,7 @@ Total SKS Praktikum (+P): **24 MK | 80 SKS** (**47.1%** dari Total 170 SKS).
 | 3 | Logika Informatika | STI-103 | 1 | — | Fondasi logika |
 | 4 | Matematika Diskrit | STI-201 | 2 | STI-103 (Logika) | Fondasi diskrit |
 | 5 | Aljabar Linear | STI-202 | 2 | STI-102 (Kalkulus) | Fondasi matriks |
-| 6 | Sistem Operasi | STI-204 | 2 | — | Fondasi sistem |
+| 6 | Sistem Operasi | STI-305 | 3 | — | Fondasi sistem & OS |
 | 7 | Analisis dan Perancangan SI | STI-301 | 3 | — | BPMN, UML, Requirement Engineering |
 | 8 | Sistem Cerdas | STI-302 | 3 | — | Teori (Non-+P) — Rule-based, fuzzy, AI |
 | 9 | UI/UX Design & Prototyping (+P) | STI-303 | 3 | — | Figma interactive prototyping |
@@ -284,24 +284,23 @@ Total SKS Praktikum (+P): **24 MK | 80 SKS** (**47.1%** dari Total 170 SKS).
 | 11 | Jaringan Komputer (+P) | STI-307 | 3 | — | TCP/IP, OSI, subnetting, Wireshark |
 | 12 | Web Front End Development (+P) | STI-306 | 3 | FST-102 (Algoritma) | Frontend web development |
 | 13 | Machine Learning (+P) | STI-401 | 4 | FST-408 (Statistika) + FST-207 (Basis Data) | sklearn, model evaluation |
-| 14 | Web Back End Development (+P) | STI-407 | 4 | FST-203 (Struktur Data) + FST-207 (Basis Data) | REST API, Node.js/Python/PHP |
-| 15 | SI Berbasis Cloud | STI-404 | 4 | STI-307 (Jaringan Komputer) | IaaS/PaaS/SaaS |
-| 16 | Keamanan Informasi Dasar | STI-405 | 4 | STI-307 (Jaringan Komputer) | Network security, kriptografi |
-| 17 | Manajemen Proyek TI | STI-406 | 4 | — | Waterfall, Agile, Scrum |
+| 14 | **Data Warehouse dan BI (+P)** | **STI-402** | **4** | **FST-207 (Basis Data)** | **ETL, PowerBI/Tableau dashboard** |
+| 15 | Web Back End Development (+P) | STI-407 | 4 | FST-203 (Struktur Data) + FST-207 (Basis Data) | REST API, Node.js/Python/PHP |
+| 16 | SI Berbasis Cloud | STI-404 | 4 | STI-307 (Jaringan Komputer) | IaaS/PaaS/SaaS |
+| 17 | Keamanan Informasi Dasar | STI-405 | 4 | STI-307 (Jaringan Komputer) | Network security, kriptografi |
 | 18 | Deep Learning dan Neural Networks (+P) | STI-501 | 5 | STI-401 (Machine Learning) | CNN, RNN, Transformer |
-| 19 | Data Warehouse dan BI (+P) | STI-502 | 5 | FST-207 (Basis Data) + STI-401 (ML) | ETL, PowerBI/Tableau dashboard |
-| 20 | Data Mining & Visualization (+P) | STI-503 | 5 | STI-401 (Machine Learning) | Clustering, Seaborn/Plotly |
-| 21 | Internet of Things (IoT) (+P) | STI-504 | 5 | STI-307 (Jaringan Komputer) | Sensor, gateway, dashboard IoT |
-| 22 | Pemrograman Aplikasi Mobile (+P) | STI-505 | 5 | STI-306 (Web Front End) + STI-407 (Web Back End) | Flutter/React Native Android/iOS |
+| 19 | Data Mining & Visualization (+P) | STI-503 | 5 | STI-401 (ML) + STI-402 (DW-BI) | Clustering, Seaborn/Plotly |
+| 20 | Internet of Things (IoT) (+P) | STI-504 | 5 | STI-307 (Jaringan Komputer) | Sensor, gateway, dashboard IoT |
+| 21 | Pemrograman Aplikasi Mobile (+P) | STI-505 | 5 | STI-306 (Web FE) + STI-407 (Web BE) | Flutter/React Native Android/iOS |
+| 22 | **Manajemen Proyek TI** | **STI-506** | **5** | **STI-301 (APSI) + STI-304 (RPL)** | **Waterfall, Agile, Scrum** |
 | 23 | Integrasi Layanan Cerdas Berbasis AI (+P) | STI-601 | 6 | STI-401 (ML) + STI-407 (Web Back End) | API orchestration, model deployment |
 | 24 | Smart City dan Pemerintahan Digital (+P) | STI-602 | 6 | STI-504 (IoT) | Prototyping IoT smart city & SPBE |
 | 25 | Keamanan Informasi Lanjut | STI-603 | 6 | STI-405 (Keamanan Dasar) | Forensik, incident response |
-| 26 | Digital Platform Engineering (+P) | STI-604 | 6 | STI-407 (Web Back End) + STI-304 (RPL) | Microservices, API-first architecture |
-| 27 | Conversational AI (+P) | STI-701 | 7 | STI-501 (Deep Learning) | Chatbot LLM, RAG, LangChain |
-| 28 | Smart Surveillance (+P) | STI-702 | 7 | STI-501 (Deep Learning) + STI-504 (IoT) | Computer vision, YOLO object detection |
-| 29 | Startup Digital (+P) | STI-703 | 7 | — | MVP development, pitch deck |
-| 30 | MK Pilihan Peminatan (9 MK +P/Teori) | STA/STB/STC | 5-7 | Sesuai Peminatan | 9 MK Pilihan per Mahasiswa (27 SKS) |
+| 26 | Digital Platform Engineering (+P) | STI-701 | 7 | STI-407 (Web BE) + STI-304 (RPL) | Microservices, API-first architecture |
+| 27 | Inovasi Teknologi & Startup Digital (+P) | STI-702 | 7 | — | MVP development, pitch deck |
+| 28 | MK Pilihan Peminatan (9 MK +P/Teori) | STA/STB/STC | 5-7 | Sesuai Peminatan | 9 MK Pilihan per Mahasiswa (27 SKS) |
 | | **TOTAL** | **30 MK STI + 9 PILIHAN** | | | **120 SKS (70.6% dari Total 170 SKS)** |
+
 
 ---
 

@@ -37,8 +37,8 @@
 | **Sem 1** | 19 | 8 | Fondasi Keilmuan & Basic IT | ✅ Seimbang (≤20 SKS) |
 | **Sem 2** | 20 | 8 | Fondasi Lanjutan, Math/Data, Etika Digital & KWU I (2 SKS) | ✅ **Tepat 20 SKS** (Permendikbud 53) |
 | **Sem 3** | 20 | 7 | Core SE, APSI, Sistem Cerdas, UI/UX (+P), Sistem Operasi & Jaringan (+P) | ✅ Fondasi Sistem & Jaringan (20 SKS) |
-| **Sem 4** | 19 | 10 | Core AI, Web Back End (+P), Cloud, Keamanan Dasar, Probstat, KWN & 2 MK 0 SKS | ✅ Seimbang (19 SKS / 22 SKS formal) |
-| **Sem 5** | 21 | 7 | Deep Learning (+P), DW-BI (+P), Data Mining (+P), IoT (+P), Mobile (+P) & 2 MK Pilihan | ✅ Advanced Core & Peminatan |
+| **Sem 4** | 19 | 10 | Machine Learning (+P), DW-BI (+P), Web BE (+P), Cloud, Keamanan Dasar, Probstat, KWN & 2 MK 0 SKS | ✅ Seimbang (19 SKS / 22 SKS formal) |
+| **Sem 5** | 21 | 7 | Deep Learning (+P), Data Mining (+P), IoT (+P), Mobile (+P), Manpro TI & 2 MK Pilihan | ✅ Beban Seimbang (4 Lab + 1 Manajerial) |
 | **Sem 6** | 20 | 7 | Integrasi AI (+P), Smart City (+P), Capstone FSTI (+P), Keamanan Lanjut, Metpen & 2 MK Pilihan | ✅ Integrasi, Capstone & MBKM |
 | **Sem 7** | 21 | 7 | Platform Eng (+P), Startup (+P), PKL (+P) & 4 MK Pilihan Peminatan | ✅ Profesionalisasi & Inkubasi |
 | **Sem 8 / Paralel** | 11 | 3 | Pra-Skripsi (2), Skripsi / Capstone TA (6), KPM/KKN (3) | ✅ Single Track Penyelesaian Akhir |
@@ -46,35 +46,20 @@
 
 ---
 
-## 3. ANALISIS PER PEMINATAN
+## 3. ANALISIS PER PEMINATAN (SEIMBANG: @ 6 MK / 18 SKS)
 
-| Aspek | Status |
-|---|---|
-| **MK Pilihan** | 6 (Text Mining, Citra, Data Mining & Visualization, SKD, Signal Processing, KomNum) |
-| **SKS Pilihan** | ~16 |
-| **Ambil** | 3-4 MK (9-12 SKS) |
-| **Gap** | ⚠️ Belum ada MLOps (baru direkomendasikan) |
-| **Alignment VMTS** | ✅ AI/ML terintegrasi SI |
+### P1: Integrated Smart Systems (Flagship — 6 MK / 18 SKS)
+* **Portofolio:** `STA-01` Decision Support Systems (+P), `STA-02` Computational Methods (+P), `STA-03` Intelligent Agent Systems (+P), `STA-04` MLOps & AI Pipeline (+P), `STA-05` Conversational AI (+P), `STA-06` Smart Surveillance & IoT Analytics (+P).
+* **Alignment VMTS:** ✅ AI terintegrasi sistem fisik & analitik bisnis cerdas.
 
-### P2: Cloud Infrastructure & Cybersecurity
+### P2: Cloud Infrastructure & Cybersecurity (Volume — 6 MK / 18 SKS)
+* **Portofolio:** `STB-01` Network Security & Forensics (+P), `STB-02` Cloud Architecture & DevOps (+P), `STB-03` Cyber Risk Management, `STB-04` IT Governance & Compliance (COBIT 2019), `STB-05` IT Service Management (ITIL 4), `STB-06` Enterprise Architecture (TOGAF).
+* **Alignment VMTS:** ✅ Infrastruktur cloud berskala besar & tata kelola keamanan informasi.
 
-| Aspek | Status |
-|---|---|
-| **MK Pilihan** | 5 (Jaringan, IoT, Audit SI, Cloud Security, ITIL) |
-| **SKS Pilihan** | ~15 |
-| **Ambil** | 3-4 MK (9-12 SKS) |
-| **Gap** | ⚠️ Belum ada TOGAF (baru direkomendasikan) |
-| **Alignment VMTS** | ✅ Infrastructure + Security |
+### P3: Digital Platform Engineering (Niche — 6 MK / 18 SKS)
+* **Portofolio:** `STC-01` UX Research & Design (+P), `STC-02` Rekayasa & Otomasi Proses Bisnis (+P) ⭐, `STC-03` Rekayasa Aplikasi Industri Vertikal (+P), `STC-04` Immersive Media & XR (+P), `STC-05` SaaS Architecture & Multi-Tenancy (+P), `STC-06` Digital Product Management & Agile.
+* **Alignment VMTS:** ✅ Platform digital scalable, BPMN enterprise & technopreneurship.
 
-### P3: Digital Platform Engineering
-
-| Aspek | Status |
-|---|---|
-| **MK Pilihan** | 6 (UI/UX, AR/VR, Multimedia, Semantic Web, Game, EdTech) |
-| **SKS Pilihan** | ~16 |
-| **Ambil** | 3-4 MK (9-12 SKS) |
-| **Gap** | ⚠️ Belum ada FinTech, SaaS, Agile, CTO |
-| **Alignment VMTS** | ✅ Platform + Technopreneurship |
 
 ---
 

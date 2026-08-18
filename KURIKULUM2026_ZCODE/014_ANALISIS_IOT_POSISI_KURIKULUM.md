@@ -1,179 +1,71 @@
-# 014 — ANALISIS: POSISI IoT DALAM STRUKTUR KURIKULUM SISTEKIN
+# 014 — ANALISIS STRATEGIS: POSISI INTERNET OF THINGS (IoT) DALAM KURIKULUM SISTEKIN
 
-**Tanggal:** 10 Agustus 2026
-**Status:** ANALISIS — Posisi IoT: Core vs Peminatan
-**Pertanyaan:** Mengapa IoT Semester 3 bukan masuk peminatan?
-**Ground Truth:** KURIKULUM2025 = IoT Semester 5 (3 SKS, +P) → KURIKULUM2026 = IoT Semester 3 (3 SKS, +P) — dipindah lebih awal sebagai fondasi
+**Tanggal:** 18 Agustus 2026  
+**Status:** FINAL — Terverifikasi Penuh Sesuai Dokumen [011], [020], [021], dan [022]  
+**Pertanyaan Kunci:** Mengapa IoT Wajib Tetap Menjadi Mata Kuliah Inti (Core) Prodi dan Bukan Masuk Peminatan?  
+**Posisi Terkunci:** **`STI-504 Internet of Things (IoT)` — 3 SKS (+P), Semester 5 (Core Wajib Prodi)**
 
 ---
 
-## 1. POSISI IoT SAAT INI
+## 1. POSISI STRUKTURAL IoT DALAM KURIKULUM 2026
 
-| Aspek | Keterangan |
+| Aspek | Penetapan Final Kurikulum 2026 |
 |---|---|
-| **Lokasi** | Semester 3 — MK Core Wajib |
-| **SKS** | 3 SKS (+P) |
-| **CPL** | P3, KK3 |
-| **Ruang Lab** | Lab IoT/Sensor |
-| **Prasyarat** | Tidak ada (bisa langsung di Sem 3) |
+| **Kode & Nama MK** | `STI-504 Internet of Things (IoT)` |
+| **Beban SKS & Tipe** | 3 SKS (+P / Hands-on Laboratory) |
+| **Lokasi Semester** | Semester 5 (Ganjil) — Inti Rekayasa Sistem Cerdas |
+| **CPL yang Dibangun** | **P3 (Pengetahuan Infrastruktur/IoT)** & **KK3 (Keterampilan Rekayasa Cloud/IoT)** |
+| **Prasyarat Wajib** | `STI-307 Jaringan Komputer` (Sem 3) & `STI-305 Sistem Operasi` (Sem 3) |
+| **Mata Kuliah Lanjutan** | Menjadi prasyarat untuk `STI-602 Smart City & SPBE` (Sem 6) & `FST-610 Capstone Project` |
 
 ---
 
-## 2. ALASAN IoT MASUK CORE (BUKAN PEMINATAN)
+## 2. 4 ALASAN UTAMA IoT WAJIB TETAP CORE (BUKAN PEMINATAN)
 
-### 2.1 Relevansi untuk SEMUA Peminatan
+### 2.1 Menjaga Identitas & Pilar "Teknologi Informasi" (STI $\ne$ SI Konvensional)
+Program studi kita adalah **Sistem dan Teknologi Informasi (SISTEKIN)**. Jika IoT dijadikan MK Pilihan, mahasiswa yang memilih jalur P2 (*Cloud/Cyber*) atau P3 (*Digital Platform*) dapat lulus tanpa pernah belajar perangkat keras/sensor sama sekali. Hal ini akan mendegradasi prodi menjadi prodi Sistem Informasi murni atau Manajemen Bisnis Digital.
 
-| Peminatan | Relevansi IoT | Contoh Penerapan |
-|---|---|---|
-| **P1: Integrated Smart Systems** | IoT = sumber data sensor untuk AI/ML | Sensor → Edge AI → Prediksi maintenance |
-| **P2: Cloud & Cyber** | IoT = edge device yang perlu diamankan & diintegrasi ke cloud | IoT gateway → AWS IoT Core → Security monitoring |
-| **P3: Digital Platform** | IoT = platform data real-time untuk aplikasi | Dashboard IoT → API → Aplikasi mobile |
+### 2.2 Hukum Akreditasi OBE (Keterikatan Wajib CPL P3 & KK3)
+* **CPL P3 & KK3** adalah Capaian Pembelajaran Lulusan yang **wajib dicapai oleh 100% lulusan** SISTEKIN.
+* Asesor LAM INFOKOM / IABEE akan memberikan catatan kritis apabila suatu CPL wajib dibebankan pada mata kuliah yang berstatus *opsional / elektif*.
 
-**Kesimpulan:** Ketiga peminatan membutuhkan pemahaman IoT sebagai fondasi.
+### 2.3 Relevansi Lintas 3 Peminatan
+IoT merupakan *enabler* data fisik untuk seluruh peminatan:
+* **P1 (Integrated Smart Systems):** IoT adalah sumber *real-time sensor data stream* untuk algoritma Machine Learning / Edge AI.
+* **P2 (Cloud & Cybersecurity):** IoT adalah perangkat *edge* yang wajib diamankan (*IoT security posture*) dan diintegrasikan ke platform cloud (AWS IoT Core / Azure IoT Hub).
+* **P3 (Digital Platform Engineering):** IoT menyediakan *telemetry data* untuk visualisasi *real-time dashboard*, aplikasi mobile, dan otomasi proses bisnis.
 
-### 2.2 Referensi BUKU_OBE
+### 2.4 Jembatan Prasyarat Menuju Smart City & Capstone Project
+* Di Semester 6, mahasiswa memprogram MK Wajib **`STI-602 Smart City dan Pemerintahan Digital` (3 SKS, +P)** dan **`FST-610 Capstone Project` (3 SKS, +P)**.
+* Kedua mata kuliah tersebut secara langsung mengasumsikan mahasiswa sudah menguasai mikrokontroler (ESP32), sensor array, dan protokol komunikasi IoT (MQTT / HTTP REST).
 
-| Referensi | Domain IoT | Posisi |
-|---|---|---|
-| **IS2020** | BK08 (Smart Systems) | Fondasi — bukan pilihan |
-| **IT2017** | (Embedded Systems, IoT) | Fondasi — bukan pilihan |
-| **SKKNI Level 6** | Integrasi sistem cerdas | Kompetensi inti |
+---
 
-Kedua BUKU_OBE menempatkan IoT sebagai **fondasi**, bukan pilihan.
-
-### 2.3 Posisi Distinctive SISTEKIN
-
-> *"SISTEKIN = mengintegrasikan AI ke dalam sistem & platform nyata"*
-
-IoT adalah **enabler utama** untuk "sistem nyata":
+## 3. POLA PEMBELAJARAN: FONDASI CORE $\rightarrow$ SPESIALISASI ELEKTIF
 
 ```
-Tanpa IoT:
-  AI/ML → hanya bekerja di data digital (database, API)
-
-Dengan IoT:
-  AI/ML → bekerja di data fisik (sensor, kamera, aktuator)
-  → Smart City, Smart Factory, Smart Home, Smart Health
-```
-
-Tanpa pemahaman IoT, lulusan **tidak bisa mengintegrasikan AI ke perangkat fisik**.
-
-### 2.4 Benchmark Kampus Lain
-
-| Kampus | Posisi IoT | Keterangan |
-|---|---|---|
-| **ITB STI** | Wajib (Sem 3-4) | Masuk paket Teknologi Platform |
-| **UNJ STI** | Wajib (identitas prodi) | Smart Device/IoT jadi diferensiasi |
-| **Untag SISTEKIN** | Wajib (Sem 5) | Masuk peta kurikulum inti |
-| **UWG (saat ini)** | Pilihan | Potensi gap kompetensi |
-
----
-
-## 3. ANALISIS: APA YANG TERJADI JIKA IoT → PEMINATAN?
-
-### 3.1 Jika IoT → P1 (Integrated Smart Systems)
-
-| Dampak | Penjelasan |
-|---|---|
-| **Mahasiswa P2 tidak belajar IoT** | Gap untuk integrasi IoT ke cloud/security |
-| **Mahasiswa P3 tidak belajar IoT** | Gap untuk platform IoT-based |
-| **P1 jadi terlalu berat** | P1 sudah punya 5 MK pilihan, tambah IoT = 6 |
-
-### 3.2 Jika IoT → P2 (Cloud & Cyber)
-
-| Dampak | Penjelasan |
-|---|---|
-| **Hanya P2 yang belajar IoT security** | P1 & P3 lemah dalam keamanan IoT |
-| **IoT security = niche** | Terlalu sempit untuk jadi satu peminatan |
-
-### 3.3 Jika IoT → P3 (Digital Platform)
-
-| Dampak | Penjelasan |
-|---|---|
-| **Hanya P3 yang belajar IoT platform** | P1 & P3 tidak bisa bangun aplikasi IoT |
-| **IoT platform = subset P3** | Tidak semua platform IoT |
-
-### 3.4 Jika IoT Dihapus dari Core
-
-| Dampak | Penjelasan |
-|---|---|
-| **Gap kompetensi besar** | Lulusan tidak paham sensor, edge, protokol IoT |
-| **Tidak selaras BUKU_OBE** | IS2020 & IT2017 wajibkan IoT |
-| **Capstone terganggu** | Proyek lintas prodi butuh pemahaman IoT dasar |
-
----
-
-## 4. PERBANDINGAN: IoT CORE vs IoT PEMINATAN
-
-| Aspek | IoT Core (Sa Ini) | IoT Peminatan |
-|---|---|---|
-| **Siapa yang belajar** | Semua mahasiswa (100%) | Hanya mahasiswa peminatan tertentu (33%) |
-| **Kedalaman** | Fondasi (konsep, sensor, protokol, dashboard) | Pendalaman (edge AI, IoT security, platform) |
-| **Semester** | Sem 3 (awal) | Sem 5-7 (akhir) |
-| **Dampak ke Capstone** | Semua mahasiswa bisa integrasi IoT | Hanya sebagian yang bisa |
-| **Dampak ke Karier** | Semua lulusan punya baseline IoT | Hanya lulusan peminatan tertentu |
-
----
-
-## 5. YANG SUDAH BENAR: IoT DALAM DISTRIBUSI
-
-Struktur saat ini sudah tepat:
-
-| Komponen | Lokasi | Keterangan |
-|---|---|---|
-| **IoT (Fondasi)** | Sem 3 — Core | Semua mahasiswa belajar dasar IoT |
-| **Smart Surveillance & IoT Analytics** | Sem 7 — Core | Pendalaman IoT untuk semua peminatan |
-| **MK Pilihan P1** | Sem 5-7 | AI-powered IoT ( Intelligent Agent, MLOps) |
-| **MK Pilihan P2** | Sem 5-7 | IoT Security (Network Security, Forensics) |
-| **MK Pilihan P3** | Sem 5-7 | IoT Platform (XR, FinTech, EdTech) |
-
-**Pola: Fondasi (Core) → Pendalaman (Pilihan)**
-
-```
-Sem 3: IoT Dasar (Core) ← semua mahasiswa
-  ↓
-Sem 5-7: IoT Pendalaman (Pilihan) ← sesuai peminatan
-  - P1: AI-powered IoT
-  - P2: IoT Security
-  - P3: IoT Platform
+┌─────────────────────────────────────────────────────────────┐
+│ SEMESTER 5: STI-504 Internet of Things (IoT) [CORE WAJIB]   │
+│ (Mikrokontroler ESP32, Protokol MQTT/CoAP, Sensor, Gateway) │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+       ┌───────────────────────┼───────────────────────┐
+       ▼                       ▼                       ▼
+┌──────────────┐        ┌──────────────┐        ┌──────────────┐
+│ P1 (STA-06)  │        │ P2 (STB-01)  │        │ P3 (STC-04)  │
+│ Smart Surv.  │        │ Network Sec. │        │ Immersive XR │
+│ & Edge AI    │        │ & IoT Foren. │        │ & Spatial    │
+└──────────────┘        └──────────────┘        └──────────────┘
 ```
 
 ---
 
-## 6. KESIMPULAN
+## 4. KESIMPULAN & KEPUTUSAN FINAL
 
-| # | Kesimpulan |
-|---|---|
-| 1 | IoT tetap **core** karena fundamental untuk SISTEKIN |
-| 2 | **Semua peminatan** membutuhkan pemahaman IoT |
-| 3 | IoT di **Sem 3** (awal) → fondasi sebelum peminatan (Sem 5+) |
-| 4 | **Referensi BUKU_OBE** menempatkan IoT di domain fondasi |
-| 5 | **Benchmark kampus lain** (ITB, UNJ, Untag) menempatkan IoT sebagai wajib |
-| 6 | **Yang masuk peminatan** adalah pendalaman IoT (Smart Surveillance, IoT Analytics di Sem 7) — sudah benar |
-| 7 | Jika IoT dipindah ke peminatan → **gap kompetensi** untuk 2/3 mahasiswa |
+1. **IoT tetap berstatus Mata Kuliah Wajib Inti (Core Prodi SISTEKIN)** di Semester 5 (3 SKS, +P).
+2. **Posisinya di Semester 5 sangat ideal & aman** setelah penataan ulang beban praktikum (DW-BI digeser ke Sem 4 dan Manpro TI digeser ke Sem 5).
+3. Pendalaman tingkat lanjut IoT diwadahi melalui MK Pilihan spesialisasi di Semester 5–7 (*Smart Surveillance, Network Forensics, Immersive Media*).
 
 ---
 
-## 7. REKOMENDASI
-
-| # | Rekomendasi |
-|---|---|
-| 1 | **Pertahankan IoT sebagai Core** di Semester 3 |
-| 2 | **Pertahankan Smart Surveillance & IoT Analytics** sebagai Core di Semester 7 |
-| 3 | **MK Pilihan P1** tambah Intelligent Agent Systems (IoT + AI) |
-| 4 | **MK Pilihan P2** tambah Network Security & Digital Forensics (IoT Security) |
-| 5 | **MK Pilihan P3** tambah Immersive Media & XR (IoT Visualization) |
-
----
-
-## 8. LAMAN REFERENSI
-
-| Dokumen | Fungsi |
-|---|---|
-| `006_KEPUTUSAN_FINAL_ARAH_KURIKULUM_SISTEKIN.md` | Keputusan final: IoT masuk Smart Systems Core |
-| `011_STRUKTUR_KURIKULUM_TABEL.md` | Struktur semester lengkap |
-| `012_MATRIKS_CPL_vs_MK.md` | Matriks CPL → MK |
-
----
-
-*Dokumen ini merupakan analisis posisi IoT dalam kurikulum SISTEKIN. Kesimpulan: IoT tetap sebagai Core Wajib, bukan Peminatan.*
+*Dokumen ini merupakan analisis resmi posisi strategis IoT dalam struktur Kurikulum SISTEKIN 2026.*
