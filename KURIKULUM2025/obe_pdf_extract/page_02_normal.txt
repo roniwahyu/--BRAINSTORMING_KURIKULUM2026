@@ -1,0 +1,33 @@
+No Kode PL Nama Profil Lulusan Deskripsi Profil Lulusan Profesi / Bidang Karier
+1 PL01 AI-Driven System Developer Lulusan mampu mengembangkan sistem informasi berbasis AI sesuai 
+kebutuhan pengguna dan organisasi secara profesional, adaptif, dan 
+bertanggung jawab.
+AI Application Developer; Machine Learning 
+Developer; Software Developer
+2 PL02 Human-Centered UX and Gamification 
+Designer
+Lulusan mampu merancang pengalaman pengguna dan gamifikasi 
+berdasarkan kebutuhan pengguna secara inklusif, efektif, dan berorientasi 
+pengguna.
+UI/UX Designer; UX Researcher; 
+Interaction/Gamification Designer
+3 PL03 IoT and Multimedia System Integrator Lulusan mampu mengembangkan dan mengintegrasikan sistem IoT dan 
+multimedia sesuai kebutuhan penerapan secara andal dan efektif.
+IoT Developer; System Integrator; Multimedia/Smart 
+System Developer
+4 PL04 Semantic Knowledge and Data 
+Integration Engineer
+Lulusan mampu mengelola dan mengintegrasikan data serta pengetahuan 
+pada sistem lintas platform secara terstruktur dan interoperabel.
+Knowledge Engineer; Data Integration Engineer; 
+Semantic Web Developer
+5 PL05 Digital Technopreneur Lulusan mampu mengembangkan usaha dan inovasi digital berdasarkan 
+kebutuhan pasar dan masyarakat secara kreatif, etis, dan berkelanjutan.
+Technopreneur; Startup Founder; Digital Product 
+Manager
+6 PL06 Digital Governance and System Analyst Lulusan mampu menganalisis sistem serta mendukung tata kelola dan 
+transformasi digital organisasi secara sistematis, profesional, dan 
+bertanggung jawab.
+System Analyst; IT Governance Analyst; Digital 
+Transformation Analyst
+PROFIL LULUSAN (PL) - S1 SISTEM DAN TEKNOLOGI INFORMASI

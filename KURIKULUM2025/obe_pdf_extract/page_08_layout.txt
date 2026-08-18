@@ -1,0 +1,10 @@
+          7                    7                  20 MFT-002 - Metodologi Penelitian (2 SKS)                                                                              CPL10, CPL09, CPL02
+                                               MFT-003 - Praktik Kerja Lapangan (3 SKS)
+                                               STI-739 - Platform Literasi dan Edukasi Digital (+P) (3 SKS)
+                                               STI-740 - Penambangan Data dan Visualisasi (+P) (3 SKS)
+                                               STI-741 - Integrasi Layanan Cerdas Berbasis AI (3 SKS)
+                                               STI-742 - Inovasi Teknologi dan Startup Digital (3 SKS)
+                                               STI-743 - Audit dan Tata Kelola Sistem Informasi (3 SKS)
+          8                    2                    8 MFT-004 - Skripsi (6 SKS)                                                                                           CPL09, CPL10, CPL01
+                                               STI-844 - Pra Skripsi (2 SKS)
+TOTAL              56               146                                                                                                                                                                                 Data kurikulum 2025 sesuai laporan prodi.

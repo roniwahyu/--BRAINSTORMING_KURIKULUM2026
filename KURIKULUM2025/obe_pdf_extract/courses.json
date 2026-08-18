@@ -1,0 +1,916 @@
+[
+  {
+    "no": 1,
+    "code": "MKU-101",
+    "name": "Agama I",
+    "smt": 1,
+    "sks": 2,
+    "maps": [
+      10
+    ],
+    "count": 1,
+    "irm": {
+      "10": "I"
+    }
+  },
+  {
+    "no": 2,
+    "code": "MKU-102",
+    "name": "Pancasila",
+    "smt": 1,
+    "sks": 2,
+    "maps": [
+      7,
+      10
+    ],
+    "count": 2,
+    "irm": {
+      "7": "I",
+      "10": "I"
+    }
+  },
+  {
+    "no": 3,
+    "code": "MKU-103",
+    "name": "Bahasa Indonesia",
+    "smt": 1,
+    "sks": 2,
+    "maps": [
+      9,
+      10
+    ],
+    "count": 2,
+    "irm": {
+      "9": "I",
+      "10": "I"
+    }
+  },
+  {
+    "no": 4,
+    "code": "STI-101",
+    "name": "Pengantar Sistem dan Teknologi Informasi",
+    "smt": 1,
+    "sks": 3,
+    "maps": [
+      1,
+      7
+    ],
+    "count": 2,
+    "irm": {
+      "1": "I",
+      "7": "I"
+    }
+  },
+  {
+    "no": 5,
+    "code": "STI-102",
+    "name": "Algoritma dan Pemrograman (+P)",
+    "smt": 1,
+    "sks": 3,
+    "maps": [
+      2,
+      9
+    ],
+    "count": 2,
+    "irm": {
+      "2": "I",
+      "9": "I"
+    }
+  },
+  {
+    "no": 6,
+    "code": "STI-103",
+    "name": "Logika Informatika",
+    "smt": 1,
+    "sks": 2,
+    "maps": [
+      9
+    ],
+    "count": 1,
+    "irm": {
+      "9": "I"
+    }
+  },
+  {
+    "no": 7,
+    "code": "STI-104",
+    "name": "Kalkulus",
+    "smt": 1,
+    "sks": 4,
+    "maps": [
+      9
+    ],
+    "count": 1,
+    "irm": {
+      "9": "I"
+    }
+  },
+  {
+    "no": 8,
+    "code": "MFT-201",
+    "name": "Bahasa Inggris",
+    "smt": 2,
+    "sks": 2,
+    "maps": [
+      10
+    ],
+    "count": 1,
+    "irm": {
+      "10": "R"
+    }
+  },
+  {
+    "no": 9,
+    "code": "MKU-204",
+    "name": "Kewirausahaan I",
+    "smt": 2,
+    "sks": 2,
+    "maps": [
+      8,
+      10
+    ],
+    "count": 2,
+    "irm": {
+      "8": "I",
+      "10": "R"
+    }
+  },
+  {
+    "no": 10,
+    "code": "STI-205",
+    "name": "Matematika Diskrit",
+    "smt": 2,
+    "sks": 2,
+    "maps": [
+      9
+    ],
+    "count": 1,
+    "irm": {
+      "9": "R"
+    }
+  },
+  {
+    "no": 11,
+    "code": "STI-206",
+    "name": "Basis Data (+P)",
+    "smt": 2,
+    "sks": 3,
+    "maps": [
+      2,
+      6
+    ],
+    "count": 2,
+    "irm": {
+      "2": "R",
+      "6": "I"
+    }
+  },
+  {
+    "no": 12,
+    "code": "STI-207",
+    "name": "Struktur Data",
+    "smt": 2,
+    "sks": 3,
+    "maps": [
+      2,
+      9
+    ],
+    "count": 2,
+    "irm": {
+      "2": "R",
+      "9": "R"
+    }
+  },
+  {
+    "no": 13,
+    "code": "STI-208",
+    "name": "Visualisasi Data dan Dashboard Interaktif (+P)",
+    "smt": 2,
+    "sks": 2,
+    "maps": [
+      3,
+      4,
+      6
+    ],
+    "count": 3,
+    "irm": {
+      "3": "I",
+      "4": "I",
+      "6": "I"
+    }
+  },
+  {
+    "no": 14,
+    "code": "STI-209",
+    "name": "Aljabar Linear",
+    "smt": 2,
+    "sks": 4,
+    "maps": [
+      9
+    ],
+    "count": 1,
+    "irm": {
+      "9": "R"
+    }
+  },
+  {
+    "no": 15,
+    "code": "STI-310",
+    "name": "Analisis dan Perancangan Sistem Informasi",
+    "smt": 3,
+    "sks": 3,
+    "maps": [
+      1,
+      2,
+      10
+    ],
+    "count": 3,
+    "irm": {
+      "1": "R",
+      "2": "R",
+      "10": "R"
+    }
+  },
+  {
+    "no": 16,
+    "code": "STI-311",
+    "name": "Sistem Operasi",
+    "smt": 3,
+    "sks": 3,
+    "maps": [
+      2,
+      5
+    ],
+    "count": 2,
+    "irm": {
+      "2": "R",
+      "5": "I"
+    }
+  },
+  {
+    "no": 17,
+    "code": "STI-312",
+    "name": "Pemrograman Web (+P)",
+    "smt": 3,
+    "sks": 3,
+    "maps": [
+      2,
+      4
+    ],
+    "count": 2,
+    "irm": {
+      "2": "R",
+      "4": "R"
+    }
+  },
+  {
+    "no": 18,
+    "code": "STI-313",
+    "name": "Keamanan Informasi Dasar",
+    "smt": 3,
+    "sks": 2,
+    "maps": [
+      5,
+      7
+    ],
+    "count": 2,
+    "irm": {
+      "5": "I",
+      "7": "R"
+    }
+  },
+  {
+    "no": 19,
+    "code": "STI-314",
+    "name": "Interaksi Manusia dan Komputer",
+    "smt": 3,
+    "sks": 3,
+    "maps": [
+      4,
+      10
+    ],
+    "count": 2,
+    "irm": {
+      "4": "R",
+      "10": "R"
+    }
+  },
+  {
+    "no": 20,
+    "code": "STI-315",
+    "name": "Etika dan Hukum TI",
+    "smt": 3,
+    "sks": 2,
+    "maps": [
+      7,
+      10
+    ],
+    "count": 2,
+    "irm": {
+      "7": "R",
+      "10": "R"
+    }
+  },
+  {
+    "no": 21,
+    "code": "STI-316",
+    "name": "Multimedia Interaktif",
+    "smt": 3,
+    "sks": 2,
+    "maps": [
+      4,
+      5
+    ],
+    "count": 2,
+    "irm": {
+      "4": "R",
+      "5": "I"
+    }
+  },
+  {
+    "no": 22,
+    "code": "STI-317",
+    "name": "Metode Komputasi dan Numerik",
+    "smt": 3,
+    "sks": 2,
+    "maps": [
+      3,
+      9
+    ],
+    "count": 2,
+    "irm": {
+      "3": "R",
+      "9": "R"
+    }
+  },
+  {
+    "no": 23,
+    "code": "MKU-405",
+    "name": "Kewarganegaraan",
+    "smt": 4,
+    "sks": 2,
+    "maps": [
+      7,
+      10
+    ],
+    "count": 2,
+    "irm": {
+      "7": "R",
+      "10": "R"
+    }
+  },
+  {
+    "no": 24,
+    "code": "MKU-406",
+    "name": "Agama II",
+    "smt": 4,
+    "sks": 0,
+    "maps": [
+      10
+    ],
+    "count": 1,
+    "irm": {
+      "10": "R"
+    }
+  },
+  {
+    "no": 25,
+    "code": "STI-418",
+    "name": "Sistem Cerdas",
+    "smt": 4,
+    "sks": 2,
+    "maps": [
+      3,
+      9
+    ],
+    "count": 2,
+    "irm": {
+      "3": "R",
+      "9": "R"
+    }
+  },
+  {
+    "no": 26,
+    "code": "STI-419",
+    "name": "Mobile Application Development (+P)",
+    "smt": 4,
+    "sks": 3,
+    "maps": [
+      2,
+      4
+    ],
+    "count": 2,
+    "irm": {
+      "2": "R",
+      "4": "R"
+    }
+  },
+  {
+    "no": 27,
+    "code": "STI-420",
+    "name": "Semantic Web dan Ontologi",
+    "smt": 4,
+    "sks": 2,
+    "maps": [
+      6
+    ],
+    "count": 1,
+    "irm": {
+      "6": "R"
+    }
+  },
+  {
+    "no": 28,
+    "code": "STI-421",
+    "name": "Manajemen Proyek TI",
+    "smt": 4,
+    "sks": 2,
+    "maps": [
+      8,
+      10
+    ],
+    "count": 2,
+    "irm": {
+      "8": "R",
+      "10": "R"
+    }
+  },
+  {
+    "no": 29,
+    "code": "STI-422",
+    "name": "E-Commerce dan Digital Business",
+    "smt": 4,
+    "sks": 3,
+    "maps": [
+      7,
+      8
+    ],
+    "count": 2,
+    "irm": {
+      "7": "R",
+      "8": "R"
+    }
+  },
+  {
+    "no": 30,
+    "code": "STI-423",
+    "name": "Game Design dan Gamifikasi Sosial (+P)",
+    "smt": 4,
+    "sks": 3,
+    "maps": [
+      4,
+      8
+    ],
+    "count": 2,
+    "irm": {
+      "4": "R",
+      "8": "R"
+    }
+  },
+  {
+    "no": 31,
+    "code": "STI-424",
+    "name": "Probabilitas dan Statistika",
+    "smt": 4,
+    "sks": 3,
+    "maps": [
+      3,
+      9
+    ],
+    "count": 2,
+    "irm": {
+      "3": "R",
+      "9": "R"
+    }
+  },
+  {
+    "no": 32,
+    "code": "MKU-507",
+    "name": "Kuliah Pengabdian Kepada Masyarakat",
+    "smt": 5,
+    "sks": 3,
+    "maps": [
+      8,
+      10
+    ],
+    "count": 2,
+    "irm": {
+      "8": "R",
+      "10": "R"
+    }
+  },
+  {
+    "no": 33,
+    "code": "MKU-508",
+    "name": "Kewirausahaan II",
+    "smt": 5,
+    "sks": 0,
+    "maps": [
+      8,
+      10
+    ],
+    "count": 2,
+    "irm": {
+      "8": "R",
+      "10": "R"
+    }
+  },
+  {
+    "no": 34,
+    "code": "STI-525",
+    "name": "Pemrograman Lanjut dan API (+P)",
+    "smt": 5,
+    "sks": 3,
+    "maps": [
+      2,
+      5
+    ],
+    "count": 2,
+    "irm": {
+      "2": "R",
+      "5": "R"
+    }
+  },
+  {
+    "no": 35,
+    "code": "STI-526",
+    "name": "Internet of Things (+P)",
+    "smt": 5,
+    "sks": 3,
+    "maps": [
+      2,
+      5
+    ],
+    "count": 2,
+    "irm": {
+      "2": "R",
+      "5": "R"
+    }
+  },
+  {
+    "no": 36,
+    "code": "STI-527",
+    "name": "Sistem Informasi Berbasis Cloud",
+    "smt": 5,
+    "sks": 2,
+    "maps": [
+      2,
+      5,
+      7
+    ],
+    "count": 3,
+    "irm": {
+      "2": "R",
+      "5": "R",
+      "7": "R"
+    }
+  },
+  {
+    "no": 37,
+    "code": "STI-528",
+    "name": "Text Mining dan NLP",
+    "smt": 5,
+    "sks": 2,
+    "maps": [
+      3,
+      6
+    ],
+    "count": 2,
+    "irm": {
+      "3": "R",
+      "6": "R"
+    }
+  },
+  {
+    "no": 38,
+    "code": "STI-529",
+    "name": "Keamanan Jaringan dan Forensik Digital (+P)",
+    "smt": 5,
+    "sks": 3,
+    "maps": [
+      5,
+      7
+    ],
+    "count": 2,
+    "irm": {
+      "5": "R",
+      "7": "R"
+    }
+  },
+  {
+    "no": 39,
+    "code": "STI-530",
+    "name": "Data Warehouse dan Business Intelligence (+P)",
+    "smt": 5,
+    "sks": 3,
+    "maps": [
+      3,
+      6,
+      7
+    ],
+    "count": 3,
+    "irm": {
+      "3": "R",
+      "6": "R",
+      "7": "R"
+    }
+  },
+  {
+    "no": 40,
+    "code": "STI-531",
+    "name": "Augmented Reality dan Virtual Reality (+P)",
+    "smt": 5,
+    "sks": 2,
+    "maps": [
+      4,
+      5
+    ],
+    "count": 2,
+    "irm": {
+      "4": "R",
+      "5": "R"
+    }
+  },
+  {
+    "no": 41,
+    "code": "STI-632",
+    "name": "Rekayasa Perangkat Lunak",
+    "smt": 6,
+    "sks": 3,
+    "maps": [
+      1,
+      2,
+      8,
+      10
+    ],
+    "count": 4,
+    "irm": {
+      "1": "R",
+      "2": "R",
+      "8": "R",
+      "10": "R"
+    }
+  },
+  {
+    "no": 42,
+    "code": "STI-633",
+    "name": "Sistem Pendukung Keputusan",
+    "smt": 6,
+    "sks": 3,
+    "maps": [
+      1,
+      3,
+      6
+    ],
+    "count": 3,
+    "irm": {
+      "1": "R",
+      "3": "R",
+      "6": "R"
+    }
+  },
+  {
+    "no": 43,
+    "code": "STI-634",
+    "name": "Pengolahan Citra Digital dan Vision (+P)",
+    "smt": 6,
+    "sks": 3,
+    "maps": [
+      3,
+      5
+    ],
+    "count": 2,
+    "irm": {
+      "3": "R",
+      "5": "R"
+    }
+  },
+  {
+    "no": 44,
+    "code": "STI-635",
+    "name": "Desain dan Evaluasi Antarmuka Pengguna (UI/UX) (+P)",
+    "smt": 6,
+    "sks": 3,
+    "maps": [
+      4,
+      9,
+      10
+    ],
+    "count": 3,
+    "irm": {
+      "4": "R",
+      "9": "R",
+      "10": "R"
+    }
+  },
+  {
+    "no": 45,
+    "code": "STI-636",
+    "name": "Machine Learning (+P)",
+    "smt": 6,
+    "sks": 3,
+    "maps": [
+      3,
+      9
+    ],
+    "count": 2,
+    "irm": {
+      "3": "R",
+      "9": "R"
+    }
+  },
+  {
+    "no": 46,
+    "code": "STI-637",
+    "name": "Smart City dan Sistem Pemerintahan Digital",
+    "smt": 6,
+    "sks": 3,
+    "maps": [
+      1,
+      7,
+      8
+    ],
+    "count": 3,
+    "irm": {
+      "1": "R",
+      "7": "R",
+      "8": "R"
+    }
+  },
+  {
+    "no": 47,
+    "code": "STI-638",
+    "name": "Intelligent Signal Processing",
+    "smt": 6,
+    "sks": 3,
+    "maps": [
+      3,
+      5,
+      9
+    ],
+    "count": 3,
+    "irm": {
+      "3": "R",
+      "5": "R",
+      "9": "R"
+    }
+  },
+  {
+    "no": 48,
+    "code": "MFT-002",
+    "name": "Metodologi Penelitian",
+    "smt": 7,
+    "sks": 2,
+    "maps": [
+      9,
+      10
+    ],
+    "count": 2,
+    "irm": {
+      "9": "R",
+      "10": "R"
+    }
+  },
+  {
+    "no": 49,
+    "code": "MFT-003",
+    "name": "Praktik Kerja Lapangan",
+    "smt": 7,
+    "sks": 3,
+    "maps": [
+      1,
+      2,
+      10
+    ],
+    "count": 3,
+    "irm": {
+      "1": "R",
+      "2": "M",
+      "10": "R"
+    }
+  },
+  {
+    "no": 50,
+    "code": "STI-739",
+    "name": "Platform Literasi dan Edukasi Digital (+P)",
+    "smt": 7,
+    "sks": 3,
+    "maps": [
+      4,
+      8,
+      10
+    ],
+    "count": 3,
+    "irm": {
+      "4": "M",
+      "8": "M",
+      "10": "R"
+    }
+  },
+  {
+    "no": 51,
+    "code": "STI-740",
+    "name": "Penambangan Data dan Visualisasi (+P)",
+    "smt": 7,
+    "sks": 3,
+    "maps": [
+      3,
+      4,
+      6
+    ],
+    "count": 3,
+    "irm": {
+      "3": "M",
+      "4": "M",
+      "6": "M"
+    }
+  },
+  {
+    "no": 52,
+    "code": "STI-741",
+    "name": "Integrasi Layanan Cerdas Berbasis AI",
+    "smt": 7,
+    "sks": 3,
+    "maps": [
+      2,
+      3,
+      5,
+      6
+    ],
+    "count": 4,
+    "irm": {
+      "2": "M",
+      "3": "M",
+      "5": "M",
+      "6": "M"
+    }
+  },
+  {
+    "no": 53,
+    "code": "STI-742",
+    "name": "Inovasi Teknologi dan Startup Digital",
+    "smt": 7,
+    "sks": 3,
+    "maps": [
+      8,
+      10
+    ],
+    "count": 2,
+    "irm": {
+      "8": "M",
+      "10": "R"
+    }
+  },
+  {
+    "no": 54,
+    "code": "STI-743",
+    "name": "Audit dan Tata Kelola Sistem Informasi",
+    "smt": 7,
+    "sks": 3,
+    "maps": [
+      7,
+      9,
+      10
+    ],
+    "count": 3,
+    "irm": {
+      "7": "M",
+      "9": "R",
+      "10": "R"
+    }
+  },
+  {
+    "no": 55,
+    "code": "MFT-004",
+    "name": "Skripsi",
+    "smt": 8,
+    "sks": 6,
+    "maps": [
+      1,
+      9,
+      10
+    ],
+    "count": 3,
+    "irm": {
+      "1": "M",
+      "9": "M",
+      "10": "M"
+    }
+  },
+  {
+    "no": 56,
+    "code": "STI-844",
+    "name": "Pra Skripsi",
+    "smt": 8,
+    "sks": 2,
+    "maps": [
+      9,
+      10
+    ],
+    "count": 2,
+    "irm": {
+      "9": "M",
+      "10": "M"
+    }
+  }
+]
