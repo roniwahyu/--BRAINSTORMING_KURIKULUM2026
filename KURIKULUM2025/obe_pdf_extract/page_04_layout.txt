@@ -1,0 +1,33 @@
+                                                                         MATRIKS KETERKAITAN CPL - PROFIL LULUSAN
+ No      Kode CPL            PL01           PL02           PL03           PL04            PL05           PL06         Jumlah PL                                                  Rumusan CPL
+     1 CPL01                   V               V                                                                     V              3 Mampu menganalisis kebutuhan pengguna, proses bisnis, dan
+                                                                                                                                       permasalahan organisasi untuk merancang solusi sistem dan teknologi
+                                                                                                                                       informasi yang sesuai.
+     2 CPL02                   V                                 V               V                                                  3  Mampu merancang, membangun, menguji, dan mengintegrasikan perangkat
+                                                                                                                                       lunak, basis data, API, dan layanan cloud untuk menghasilkan sistem
+                                                                                                                                       informasi yang andal.
+     3 CPL03                   V                                                   V                                 V              3 Mampu menerapkan metode komputasi, analitika data, kecerdasan buatan,
+                                                                                                                                       dan machine learning untuk menghasilkan solusi cerdas dan rekomendasi
+                                                                                                                                       berbasis data.
+     4 CPL04                                   V               V                                 V                                  3 Mampu merancang dan mengevaluasi antarmuka, pengalaman pengguna,
+                                                                                                                                       gamifikasi, dan multimedia interaktif dengan pendekatan human-centered
+                                                                                                                                       yang inklusif.
+     5 CPL05                   V                                 V                                                                  2 Mampu merancang dan mengintegrasikan IoT, jaringan, sensor, multimedia,
+                                                                                                                                       dan layanan komputasi untuk membangun sistem cerdas yang aman dan
+                                                                                                                                       andal.
+     6 CPL06                                                                 V                                 V                    2 Mampu mengelola, mengintegrasikan, dan merepresentasikan data serta
+                                                                                                                                       pengetahuan menggunakan basis data, semantic web, ontologi, data
+                                                                                                                                       warehouse, dan teknologi interoperabilitas.
+     7 CPL07                                                                                V               V                       2 Mampu menganalisis dan menerapkan tata kelola, audit, keamanan, etika,
+                                                                                                                                       hukum, dan kebijakan teknologi informasi untuk mendukung transformasi
+                                                                                                                                       digital organisasi secara bertanggung jawab.
+     8 CPL08                   V               V                                                   V                                3 Mampu merancang dan mengelola proyek, produk, model bisnis, serta
+                                                                                                                                       inovasi digital berbasis kebutuhan pasar dan masyarakat secara kreatif dan
+                                                                                                                                       berkelanjutan.
+     9 CPL09                   V                                                   V                                 V              3 Mampu menerapkan matematika, statistika, metode penelitian, dan
+                                                                                                                                       pemikiran komputasional untuk memecahkan masalah serta
+                                                                                                                                       mengomunikasikan hasil secara ilmiah.
+    10 CPL10                   V               V               V               V               V               V                    6 Mampu bekerja secara profesional dengan integritas, tanggung jawab,
+                                                                                                                                       komunikasi efektif, kolaborasi, kepemimpinan, dan pembelajaran sepanjang
+                                                                                                                                       hayat.
+Jumlah CPL per                 7               4              4              5              4               6               30                              Kriteria: setiap PL ditopang minimal 3 CPL

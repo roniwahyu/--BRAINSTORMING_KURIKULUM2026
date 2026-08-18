@@ -1,0 +1,120 @@
+Kode MK Nama Mata Kuliah PL Utama CPMK Rumusan CPMK Sub-CPMK Rumusan Sub-CPMK CPL Metode Evaluasi Bobot (%)
+STI-741 Integrasi Layanan Cerdas Berbasis AI PL01 CPMK1 Menganalisis kebutuhan integrasi layanan cerdas dan 
+data pada suatu kasus organisasi.
+Sub-CPMK1.1Mengidentifikasi kebutuhan pengguna, sumber data, dan batasan 
+sistem.
+CPL01 Studi kasus + tugas analisis 15
+STI-741 Integrasi Layanan Cerdas Berbasis AI PL01 CPMK1 Menganalisis kebutuhan integrasi layanan cerdas dan 
+data pada suatu kasus organisasi.
+Sub-CPMK1.2 Menyusun arsitektur konseptual layanan AI dan aliran data. CPL03 Kuis + studi kasus 15
+STI-741 Integrasi Layanan Cerdas Berbasis AI PL01 CPMK2 Merancang dan membangun prototipe layanan cerdas 
+berbasis AI yang terintegrasi.
+Sub-CPMK2.1 Mengembangkan API/model layanan cerdas dan mekanisme 
+integrasi.
+CPL02 Praktikum + project 20
+STI-741 Integrasi Layanan Cerdas Berbasis AI PL01 CPMK2 Merancang dan membangun prototipe layanan cerdas 
+berbasis AI yang terintegrasi.
+Sub-CPMK2.2 Mengintegrasikan layanan dengan data/cloud/komponen sistem 
+yang relevan.
+CPL05 Project 20
+STI-741 Integrasi Layanan Cerdas Berbasis AI PL01 CPMK3 Mengevaluasi kualitas, interoperabilitas, dan kinerja solusi 
+cerdas.
+Sub-CPMK3.1 Menguji interoperabilitas data dan layanan. CPL06 Uji sistem 15
+STI-741 Integrasi Layanan Cerdas Berbasis AI PL01 CPMK3 Mengevaluasi kualitas, interoperabilitas, dan kinerja solusi 
+cerdas.
+Sub-CPMK3.2 Mempresentasikan hasil evaluasi dan perbaikan solusi. CPL10 Presentasi + laporan 15
+STI-635 Desain dan Evaluasi Antarmuka Pengguna (UI/UX) 
+(+P)
+PL02 CPMK1 Menganalisis karakteristik, kebutuhan, dan konteks 
+pengguna.
+Sub-CPMK1.1 Menyusun persona, user journey, dan kebutuhan pengalaman 
+pengguna.
+CPL04 Studi kasus 15
+STI-635 Desain dan Evaluasi Antarmuka Pengguna (UI/UX) 
+(+P)
+PL02 CPMK1 Menganalisis karakteristik, kebutuhan, dan konteks 
+pengguna.
+Sub-CPMK1.2 Merumuskan kriteria usability dan aksesibilitas. CPL04 Kuis + tugas 15
+STI-635 Desain dan Evaluasi Antarmuka Pengguna (UI/UX) 
+(+P)
+PL02 CPMK2 Merancang prototipe antarmuka berbasis human-centered 
+design.
+Sub-CPMK2.1 Menyusun wireframe dan prototipe interaktif. CPL04 Project 20
+STI-635 Desain dan Evaluasi Antarmuka Pengguna (UI/UX) 
+(+P)
+PL02 CPMK2 Merancang prototipe antarmuka berbasis human-centered 
+design.
+Sub-CPMK2.2 Menerapkan prinsip inklusivitas dan konsistensi desain. CPL10 Review sejawat 15
+STI-635 Desain dan Evaluasi Antarmuka Pengguna (UI/UX) 
+(+P)
+PL02 CPMK3 Mengevaluasi antarmuka menggunakan metode yang 
+tepat.
+Sub-CPMK3.1 Melaksanakan usability testing dan menganalisis hasilnya. CPL09 Praktikum evaluasi 20
+STI-635 Desain dan Evaluasi Antarmuka Pengguna (UI/UX) 
+(+P)
+PL02 CPMK3 Mengevaluasi antarmuka menggunakan metode yang 
+tepat.
+Sub-CPMK3.2 Menyusun rekomendasi perbaikan berbasis bukti. CPL04 Laporan + presentasi 15
+STI-526 Internet of Things (+P) PL03 CPMK1 Menganalisis kebutuhan dan arsitektur sistem IoT. Sub-CPMK1.1 Mengidentifikasi sensor, aktuator, protokol, dan kebutuhan 
+konektivitas.
+CPL05 Kuis + studi kasus 15
+STI-526 Internet of Things (+P) PL03 CPMK1 Menganalisis kebutuhan dan arsitektur sistem IoT.Sub-CPMK1.2Menyusun arsitektur perangkat-edge-cloud sesuai kasus.CPL05 Tugas desain 15
+STI-526 Internet of Things (+P) PL03 CPMK2 Mengembangkan prototipe IoT yang terhubung dengan 
+layanan perangkat lunak.
+Sub-CPMK2.1 Membangun akuisisi data sensor dan komunikasi perangkat. CPL05 Praktikum 20
+STI-526 Internet of Things (+P) PL03 CPMK2 Mengembangkan prototipe IoT yang terhubung dengan 
+layanan perangkat lunak.
+Sub-CPMK2.2 Mengintegrasikan data IoT dengan API/aplikasi. CPL02 Project 20
+STI-526 Internet of Things (+P) PL03 CPMK3 Menguji keandalan dan keamanan dasar sistem IoT. Sub-CPMK3.1 Melakukan pengujian konektivitas, latensi, dan ketahanan sistem. CPL05 Uji sistem 15
+STI-526 Internet of Things (+P) PL03 CPMK3 Menguji keandalan dan keamanan dasar sistem IoT.Sub-CPMK3.2Mendokumentasikan hasil pengujian dan perbaikan.CPL10 Laporan 15
+STI-420 Semantic Web dan Ontologi PL04 CPMK1 Menjelaskan konsep representasi pengetahuan, semantic 
+web, dan ontologi.
+Sub-CPMK1.1 Mengidentifikasi konsep, relasi, dan taksonomi domain. CPL06 Kuis 15
+STI-420 Semantic Web dan Ontologi PL04 CPMK1 Menjelaskan konsep representasi pengetahuan, semantic 
+web, dan ontologi.
+Sub-CPMK1.2 Menganalisis kebutuhan interoperabilitas data pada kasus. CPL06 Studi kasus 15
+STI-420 Semantic Web dan Ontologi PL04 CPMK2 Merancang model ontologi untuk suatu domain.Sub-CPMK2.1Membangun kelas, properti, dan relasi ontologi. CPL06 Praktikum 20
+STI-420 Semantic Web dan Ontologi PL04 CPMK2 Merancang model ontologi untuk suatu domain.Sub-CPMK2.2Menguji konsistensi dan keterhubungan model. CPL09 Tugas analisis 15
+STI-420 Semantic Web dan Ontologi PL04 CPMK3 Mengimplementasikan dan mengevaluasi integrasi data 
+semantik.
+Sub-CPMK3.1 Menerapkan query dan linked data pada prototipe. CPL06 Project 20
+STI-420 Semantic Web dan Ontologi PL04 CPMK3 Mengimplementasikan dan mengevaluasi integrasi data 
+semantik.
+Sub-CPMK3.2 Menyusun dokumentasi teknis dan presentasi. CPL10 Laporan + presentasi 15
+STI-742 Inovasi Teknologi dan Startup Digital PL05 CPMK1 Menganalisis masalah, peluang, dan kebutuhan pasar 
+untuk inovasi digital.
+Sub-CPMK1.1 Memvalidasi problem-solution fit melalui riset pengguna/pasar. CPL08 Studi lapangan 15
+STI-742 Inovasi Teknologi dan Startup Digital PL05 CPMK1 Menganalisis masalah, peluang, dan kebutuhan pasar 
+untuk inovasi digital.
+Sub-CPMK1.2 Merumuskan proposisi nilai dan segmen pengguna. CPL08 Tugas 15
+STI-742 Inovasi Teknologi dan Startup Digital PL05 CPMK2 Merancang model bisnis dan MVP produk digital.Sub-CPMK2.1Menyusun model bisnis dan strategi pengembangan produk.CPL08 Project 20
+STI-742 Inovasi Teknologi dan Startup Digital PL05 CPMK2 Merancang model bisnis dan MVP produk digital.Sub-CPMK2.2Mengembangkan dan menguji MVP bersama pengguna.CPL08 Project 20
+STI-742 Inovasi Teknologi dan Startup Digital PL05 CPMK3 Menyajikan dan mengevaluasi kelayakan inovasi digital.Sub-CPMK3.1Menyusun metrik validasi dan analisis kelayakan. CPL09 Analisis data 15
+STI-742 Inovasi Teknologi dan Startup Digital PL05 CPMK3 Menyajikan dan mengevaluasi kelayakan inovasi digital.Sub-CPMK3.2Melakukan pitching dan refleksi profesional. CPL10 Pitching + refleksi 15
+STI-743 Audit dan Tata Kelola Sistem Informasi PL06 CPMK1 Menganalisis prinsip tata kelola, risiko, kontrol, dan 
+kepatuhan TI.
+Sub-CPMK1.1 Mengidentifikasi tujuan tata kelola dan risiko pada kasus 
+organisasi.
+CPL07 Studi kasus 15
+STI-743 Audit dan Tata Kelola Sistem Informasi PL06 CPMK1 Menganalisis prinsip tata kelola, risiko, kontrol, dan 
+kepatuhan TI.
+Sub-CPMK1.2 Memetakan kontrol, etika, hukum, dan kebutuhan kebijakan. CPL07 Kuis + tugas 15
+STI-743 Audit dan Tata Kelola Sistem Informasi PL06 CPMK2 Merancang prosedur audit dan evaluasi tata kelola SI.Sub-CPMK2.1Menyusun ruang lingkup, kriteria, bukti, dan instrumen audit.CPL09 Project audit 20
+STI-743 Audit dan Tata Kelola Sistem Informasi PL06 CPMK2 Merancang prosedur audit dan evaluasi tata kelola SI.Sub-CPMK2.2Melaksanakan analisis temuan dan tingkat risiko. CPL07 Project audit 20
+STI-743 Audit dan Tata Kelola Sistem Informasi PL06 CPMK3 Merumuskan rekomendasi peningkatan tata kelola dan 
+transformasi digital.
+Sub-CPMK3.1 Menyusun rekomendasi berbasis bukti dan prioritas risiko. CPL07 Laporan 15
+STI-743 Audit dan Tata Kelola Sistem Informasi PL06 CPMK3 Merumuskan rekomendasi peningkatan tata kelola dan 
+transformasi digital.
+Sub-CPMK3.2 Mempresentasikan temuan secara profesional dan bertanggung 
+jawab.
+CPL10 Presentasi 15
+Kode MK Nama Mata Kuliah Total 
+Bobot
+Validasi
+STI-741 Integrasi Layanan Cerdas Berbasis AI 100 OK
+STI-635 Desain dan Evaluasi Antarmuka Pengguna (UI/UX) (+P)100 OK
+STI-526 Internet of Things (+P) 100 OK
+STI-420 Semantic Web dan Ontologi 100 OK
+STI-742 Inovasi Teknologi dan Startup Digital 100 OK
+CONTOH PENURUNAN CPL -> CPMK -> SUB-CPMK -> EVALUASI (6 MATA KULIAH PENCIRI)
