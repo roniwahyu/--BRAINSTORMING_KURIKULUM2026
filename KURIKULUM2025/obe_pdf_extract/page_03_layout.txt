@@ -1,0 +1,29 @@
+                                                                                         CAPAIAN PEMBELAJARAN LULUSAN (CPL) - 10 OUTCOMES
+CPL dirumuskan sebagai outcome program: kata kerja kemampuan + konten/bahan kajian + konteks keilmuan. Rumusan berikut merupakan rancangan untuk validasi tim kurikulum.
+  No      Kode CPL                                                   Rumusan CPL                                                                     Fokus/Domain                                   PL Terkait                                   Sumber/Referensi
+      1 CPL01            Mampu menganalisis kebutuhan pengguna, proses bisnis, dan permasalahan                                       Analisis kebutuhan & perancangan                   PL01, PL02, PL06                  Turunan 6 PL + struktur Kurikulum 2025;
+                         organisasi untuk merancang solusi sistem dan teknologi informasi yang sesuai.                                solusi                                                                                   validasi prodi
+      2 CPL02            Mampu merancang, membangun, menguji, dan mengintegrasikan perangkat lunak,                                   Pengembangan perangkat lunak &                     PL01, PL03, PL04                  Turunan 6 PL + struktur Kurikulum 2025;
+                         basis data, API, dan layanan cloud untuk menghasilkan sistem informasi yang                                  platform                                                                                 validasi prodi
+                         andal.
+      3 CPL03            Mampu menerapkan metode komputasi, analitika data, kecerdasan buatan, dan                                    AI, komputasi & analitika data                PL01, PL04, PL06                  Turunan 6 PL + struktur Kurikulum 2025;
+                         machine learning untuk menghasilkan solusi cerdas dan rekomendasi berbasis data.                                                                                                                      validasi prodi
+
+      4 CPL04            Mampu merancang dan mengevaluasi antarmuka, pengalaman pengguna,                                             UX, gamifikasi & multimedia                   PL02, PL03, PL05                  Turunan 6 PL + struktur Kurikulum 2025;
+                         gamifikasi, dan multimedia interaktif dengan pendekatan human-centered yang                                                                                                                           validasi prodi
+                         inklusif.
+      5 CPL05            Mampu merancang dan mengintegrasikan IoT, jaringan, sensor, multimedia, dan                                  IoT, infrastruktur & integrasi sistem        PL01, PL03                             Turunan 6 PL + struktur Kurikulum 2025;
+                         layanan komputasi untuk membangun sistem cerdas yang aman dan andal.                                                                                                                                  validasi prodi
+      6 CPL06            Mampu mengelola, mengintegrasikan, dan merepresentasikan data serta                                          Data, knowledge & interoperability         PL04, PL06                             Turunan 6 PL + struktur Kurikulum 2025;
+                         pengetahuan menggunakan basis data, semantic web, ontologi, data warehouse,                                                                                                                           validasi prodi
+                         dan teknologi interoperabilitas.
+      7 CPL07            Mampu menganalisis dan menerapkan tata kelola, audit, keamanan, etika, hukum,                                Tata kelola, keamanan & kebijakan                  PL05, PL06                             Turunan 6 PL + struktur Kurikulum 2025;
+                         dan kebijakan teknologi informasi untuk mendukung transformasi digital organisasi                            digital                                                                                  validasi prodi
+                         secara bertanggung jawab.
+      8 CPL08            Mampu merancang dan mengelola proyek, produk, model bisnis, serta inovasi                                    Proyek, inovasi & technopreneurship     PL01, PL02, PL05                  Turunan 6 PL + struktur Kurikulum 2025;
+                         digital berbasis kebutuhan pasar dan masyarakat secara kreatif dan berkelanjutan.                                                                                                                     validasi prodi
+      9 CPL09            Mampu menerapkan matematika, statistika, metode penelitian, dan pemikiran                                    Fondasi ilmiah & penelitian                    PL01, PL04, PL06                  Turunan 6 PL + struktur Kurikulum 2025;
+                         komputasional untuk memecahkan masalah serta mengomunikasikan hasil secara                                                                                                                            validasi prodi
+                         ilmiah.
+     10 CPL10            Mampu bekerja secara profesional dengan integritas, tanggung jawab, komunikasi                               Etika & keterampilan profesional            PL01, PL02, PL03, PL04,                      Turunan 6 PL + struktur Kurikulum 2025;
+                         efektif, kolaborasi, kepemimpinan, dan pembelajaran sepanjang hayat.                                                                                            PL05, PL06                            validasi prodi

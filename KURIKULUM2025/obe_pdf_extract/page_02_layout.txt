@@ -1,0 +1,18 @@
+                                                          PROFIL LULUSAN (PL) - S1 SISTEM DAN TEKNOLOGI INFORMASI
+No      Kode PL                  Nama Profil Lulusan                                                 Deskripsi Profil Lulusan                                                       Profesi / Bidang Karier
+    1 PL01           AI-Driven System Developer                      Lulusan mampu mengembangkan sistem informasi berbasis AI sesuai                               AI Application Developer; Machine Learning
+                                                                        kebutuhan pengguna dan organisasi secara profesional, adaptif, dan                         Developer; Software Developer
+                                                                        bertanggung jawab.
+    2 PL02           Human-Centered UX and Gamification                 Lulusan mampu merancang pengalaman pengguna dan gamifikasi                                 UI/UX Designer; UX Researcher;
+                     Designer                                           berdasarkan kebutuhan pengguna secara inklusif, efektif, dan berorientasi                  Interaction/Gamification Designer
+                                                                        pengguna.
+    3 PL03           IoT and Multimedia System Integrator       Lulusan mampu mengembangkan dan mengintegrasikan sistem IoT dan                                    IoT Developer; System Integrator; Multimedia/Smart
+                                                                        multimedia sesuai kebutuhan penerapan secara andal dan efektif.                            System Developer
+    4 PL04           Semantic Knowledge and Data                        Lulusan mampu mengelola dan mengintegrasikan data serta pengetahuan                        Knowledge Engineer; Data Integration Engineer;
+                     Integration Engineer                               pada sistem lintas platform secara terstruktur dan interoperabel.                          Semantic Web Developer
+
+    5 PL05           Digital Technopreneur                                Lulusan mampu mengembangkan usaha dan inovasi digital berdasarkan                        Technopreneur; Startup Founder; Digital Product
+                                                                        kebutuhan pasar dan masyarakat secara kreatif, etis, dan berkelanjutan.                    Manager
+    6 PL06           Digital Governance and System Analyst    Lulusan mampu menganalisis sistem serta mendukung tata kelola dan                                    System Analyst; IT Governance Analyst; Digital
+                                                                        transformasi digital organisasi secara sistematis, profesional, dan                        Transformation Analyst
+                                                                        bertanggung jawab.

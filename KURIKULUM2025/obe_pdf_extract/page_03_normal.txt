@@ -1,0 +1,56 @@
+No Kode CPL Rumusan CPL Fokus/Domain PL Terkait Sumber/Referensi
+1 CPL01 Mampu menganalisis kebutuhan pengguna, proses bisnis, dan permasalahan 
+organisasi untuk merancang solusi sistem dan teknologi informasi yang sesuai.
+Analisis kebutuhan & perancangan 
+solusi
+PL01, PL02, PL06 Turunan 6 PL + struktur Kurikulum 2025; 
+validasi prodi
+2 CPL02 Mampu merancang, membangun, menguji, dan mengintegrasikan perangkat lunak, 
+basis data, API, dan layanan cloud untuk menghasilkan sistem informasi yang 
+andal.
+Pengembangan perangkat lunak & 
+platform
+PL01, PL03, PL04 Turunan 6 PL + struktur Kurikulum 2025; 
+validasi prodi
+3 CPL03 Mampu menerapkan metode komputasi, analitika data, kecerdasan buatan, dan 
+machine learning untuk menghasilkan solusi cerdas dan rekomendasi berbasis data.
+AI, komputasi & analitika data PL01, PL04, PL06 Turunan 6 PL + struktur Kurikulum 2025; 
+validasi prodi
+4 CPL04 Mampu merancang dan mengevaluasi antarmuka, pengalaman pengguna, 
+gamifikasi, dan multimedia interaktif dengan pendekatan human-centered yang 
+inklusif.
+UX, gamifikasi & multimedia PL02, PL03, PL05 Turunan 6 PL + struktur Kurikulum 2025; 
+validasi prodi
+5 CPL05 Mampu merancang dan mengintegrasikan IoT, jaringan, sensor, multimedia, dan 
+layanan komputasi untuk membangun sistem cerdas yang aman dan andal.
+IoT, infrastruktur & integrasi sistem PL01, PL03 Turunan 6 PL + struktur Kurikulum 2025; 
+validasi prodi
+6 CPL06 Mampu mengelola, mengintegrasikan, dan merepresentasikan data serta 
+pengetahuan menggunakan basis data, semantic web, ontologi, data warehouse, 
+dan teknologi interoperabilitas.
+Data, knowledge & interoperability PL04, PL06 Turunan 6 PL + struktur Kurikulum 2025; 
+validasi prodi
+7 CPL07 Mampu menganalisis dan menerapkan tata kelola, audit, keamanan, etika, hukum, 
+dan kebijakan teknologi informasi untuk mendukung transformasi digital organisasi 
+secara bertanggung jawab.
+Tata kelola, keamanan & kebijakan 
+digital
+PL05, PL06 Turunan 6 PL + struktur Kurikulum 2025; 
+validasi prodi
+8 CPL08 Mampu merancang dan mengelola proyek, produk, model bisnis, serta inovasi 
+digital berbasis kebutuhan pasar dan masyarakat secara kreatif dan berkelanjutan.
+Proyek, inovasi & technopreneurship PL01, PL02, PL05 Turunan 6 PL + struktur Kurikulum 2025; 
+validasi prodi
+9 CPL09 Mampu menerapkan matematika, statistika, metode penelitian, dan pemikiran 
+komputasional untuk memecahkan masalah serta mengomunikasikan hasil secara 
+ilmiah.
+Fondasi ilmiah & penelitian PL01, PL04, PL06 Turunan 6 PL + struktur Kurikulum 2025; 
+validasi prodi
+10 CPL10 Mampu bekerja secara profesional dengan integritas, tanggung jawab, komunikasi 
+efektif, kolaborasi, kepemimpinan, dan pembelajaran sepanjang hayat.
+Etika & keterampilan profesional PL01, PL02, PL03, PL04, 
+PL05, PL06
+Turunan 6 PL + struktur Kurikulum 2025; 
+validasi prodi
+CAPAIAN PEMBELAJARAN LULUSAN (CPL) - 10 OUTCOMES
+CPL dirumuskan sebagai outcome program: kata kerja kemampuan + konten/bahan kajian + konteks keilmuan. Rumusan berikut merupakan rancangan untuk validasi tim kurikulum.
