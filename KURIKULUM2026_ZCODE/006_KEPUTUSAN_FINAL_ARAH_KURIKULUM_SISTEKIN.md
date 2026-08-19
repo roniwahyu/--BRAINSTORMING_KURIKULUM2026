@@ -92,23 +92,25 @@ Bisnis Digital      →  menjual solusi AI (model bisnis, customer journey)
 
 ## 5. ANALISIS KESEIMBANGAN PRAKTIKUM (+P) vs TEORI
 
-| Kelompok MK | Jumlah MK | Total SKS | Persentase SKS | Karakteristik Utama |
+| Kelompok MK | Jumlah MK Portofolio | SKS Portofolio | Beban Ditempuh Mahasiswa | Karakteristik Utama |
 |---|:---:|:---:|:---:|---|
-| **Mata Kuliah Praktikum (+P / Hands-on)** | 24 MK | 80 SKS | **47.1%** | Coding, Lab, UI/UX Prototyping, Mobile, IoT, Capstone, PKL & Skripsi |
-| **Mata Kuliah Teori / Konseptual** | 37 MK | 90 SKS | **52.9%** | Fondasi Matematika, Sistem Cerdas (2 SKS), Keamanan Dasar (3 SKS), Etika & Governance |
-| **TOTAL KURIKULUM** | **61 MK** | **170 SKS** | **100.0%** | **Distribusi Sangat Seimbang (~47:53)** |
+| **Mata Kuliah Praktikum (+P / Hands-on)** | 35 MK | 108 SKS | **21–27 MK (66–84 SKS / 44,6%–56,8%)** | Coding, Lab, UI/UX Prototyping, Mobile, IoT, Platform Eng, Capstone, PKL & Skripsi |
+| **Mata Kuliah Teori / Konseptual** | 32 MK | 76 SKS | **28–34 MK (64–82 SKS / 43,2%–55,4%)** | Fondasi Matematika, Sistem Cerdas (2 SKS), Keamanan Dasar (3 SKS), Etika, GRC & Teori |
+| **TOTAL KURIKULUM** | **67 MK** | **184 SKS** | **55 MK (148 SKS)** | **Distribusi Sangat Seimbang (~50:50 Berbasis OBE & Industri)** |
 
 ### Rincian MK Praktikum Baru (+P) & Reposisi Semester:
 1. **UI/UX Design & Prototyping** (3 SKS, +P, Semester 3) — Figma design system, interactive prototyping & user testing
 2. **Web Back End Development** (3 SKS, +P, Semester 4) — REST API, Node.js/Python/PHP backend (setelah Web Front End)
 3. **Internet of Things (IoT)** (3 SKS, +P, Semester 5) — sensor, gateway, dashboard IoT (setelah Jaringan Komputer di Sem 3)
-4. **Pemrograman Aplikasi Mobile** (3 SKS, +P, Semester 5) — Android/iOS native/cross-platform (setelah Web Front End & Back End)
-5. **Conversational AI & Intelligent Assistant** (3 SKS, +P, Semester 7) — chatbot, voice assistant, RAG
-6. **Smart Surveillance & IoT Analytics** (3 SKS, +P, Semester 7) — vision, IoT dashboard
-7. **Integrasi Layanan Cerdas AI** (3 SKS, +P, Semester 6) — API orchestration, ML deployment
-8. **Smart City & Pemerintahan Digital** (3 SKS, +P, Semester 6) — smart system prototyping
-9. **Inovasi Teknologi & Startup Digital** (3 SKS, +P, Semester 7) — MVP, pitch deck, validation
-10. **Capstone Project** (3 SKS, +P, MK Paralel Sem 6-7-8) — projek kolaboratif FSTI
+4. **Pemrograman Aplikasi Mobile** (3 SKS, +P, Semester 5) — Android/iOS Flutter/React Native (setelah Web Front End & Back End)
+5. **KPM / KKN Digital** (3 SKS, +P, Semester 5) — Pengabdian masyarakat berbasis teknologi digital di desa/mitra
+6. **Digital Platform Engineering** (3 SKS, +P, Semester 6) — Microservices, API gateway, distributed caching
+7. **Integrasi Layanan Cerdas AI** (3 SKS, +P, Semester 6) — API orchestration, ML model deployment
+8. **Smart City & Pemerintahan Digital** (3 SKS, +P, Semester 6) — Smart system prototyping & IoT dashboard
+9. **Inovasi Teknologi & Startup Digital** (3 SKS, +P, Semester 7) — MVP development, pitch deck, customer validation
+10. **Capstone Project FSTI** (3 SKS, +P, Semester 7) — Proyek kolaboratif multidisiplin lintas 3 prodi FSTI
+11. **Praktik Kerja Lapangan (PKL)** (3 SKS, +P, Semester 7) — Magang profesional industri
+12. **Skripsi / Tugas Akhir** (6 SKS, +P, Semester 8) — Riset & implementasi produk akhir (*Single Track* murni)
 
 *(Catatan: Sistem Cerdas [2 SKS, Sem 3], Keamanan Informasi Dasar [3 SKS, Sem 4], Pengantar AI & Data [2 SKS, Sem 2], dan Probabilitas & Statistika [3 SKS, Sem 4] secara resmi berstatus Mata Kuliah Teori / Non-Praktikum).*
 
@@ -119,17 +121,17 @@ Bisnis Digital      →  menjual solusi AI (model bisnis, customer journey)
 ### Kode Mata Kuliah
 | Prefix | Kategori | Keterangan |
 |---|---|---|
-| **MKU** | Mata Kuliah Universitas | MK Umum Universitas Widyagama |
-| **FST-** | Mata Kuliah Fakultas | Fondasi keilmuan lintas prodi di FSTI |
-| **STI-** | Mata Kuliah Wajib Prodi | Karakteristik prodi SISTEKIN |
-| **STA-** | MK Pilihan Peminatan | Smart Information System |
-| **STB-** | MK Pilihan Peminatan | Cloud and Cybersecurity |
-| **STC-** | MK Pilihan Peminatan | Digital Platform |
+| **MKU** | Mata Kuliah Universitas | MK Umum Universitas Widyagama (8 MK, 13 SKS) |
+| **FST-** | Mata Kuliah Fakultas | Fondasi keilmuan lintas prodi di FSTI (14 MK, 38 SKS) |
+| **STI-** | Mata Kuliah Wajib Prodi | Karakteristik prodi SISTEKIN (27 MK, 79 SKS) |
+| **STA-** | MK Pilihan Peminatan P1 | Integrated Smart Systems (6 MK, 18 SKS) |
+| **STB-** | MK Pilihan Peminatan P2 | Cloud Infrastructure & Cybersecurity (6 MK, 18 SKS) |
+| **STC-** | MK Pilihan Peminatan P3 | Digital Platform Engineering (6 MK, 18 SKS) |
 
-### MK Universitas (MKU) — 8 MK, 14 SKS
-Agama I (2 SKS, Sem 1), Pancasila (2 SKS, Sem 1), Bahasa Indonesia (2 SKS, Sem 1), Kewirausahaan I (2 SKS, Sem 2), Kewarganegaraan (2 SKS, Sem 4), Agama II (0 SKS, Sem 4 — Kebijakan UWG), Kewirausahaan II (0 SKS, Sem 4 — Kebijakan UWG), KPM (Kuliah Pengabdian Masyarakat / KKN) (3 SKS, Libur Antar Sem)
+### MK Universitas (MKU) — 8 MK, 13 SKS
+Agama I (2 SKS, Sem 1), Pancasila (2 SKS, Sem 1), Bahasa Indonesia (2 SKS, Sem 1), Kewirausahaan I (2 SKS, Sem 2), Kewarganegaraan (2 SKS, Sem 4), Agama II (0 SKS, Sem 4 — Kebijakan UWG), Kewirausahaan II (0 SKS, Sem 4 — Kebijakan UWG), KPM (Kuliah Pengabdian Masyarakat / KKN Digital) (3 SKS, Sem 5).
 
-### MK Fakultas (FSTI) — 14 MK, 36 SKS
+### MK Fakultas (FSTI) — 14 MK, 38 SKS
 | No | Mata Kuliah | Kode | SKS | Semester | Syarat Prasyarat | Keterangan |
 |---|---|---|---|---|---|---|
 | 1 | Dasar Teknologi Digital | FST-101 | 2 | 1 | — | **MK Baru** — fondasi IT |
@@ -141,34 +143,35 @@ Agama I (2 SKS, Sem 1), Pancasila (2 SKS, Sem 1), Bahasa Indonesia (2 SKS, Sem 1
 | 7 | Basis Data | FST-207 | 3 | 2 | — | Fondasi DB (+P) |
 | 8 | Statistika & Probabilitas | FST-408 | 3 | 4 | — | **Teori (Non-+P)** — Fondasi statistika |
 | 9 | English For IT Professionals | FST-409 | 2 | 4 | FST-205 | IT English profesional |
-| 10 | Capstone Project | FST-610 | 3 | 6-7-8 (Paralel) | — | **MK Paralel** — Project FSTI (+P) |
-| 11 | Metpen | FST-611 | 2 | 6-7 (Paralel) | >76 SKS | Metodologi Penelitian |
-| 12 | PKL | FST-612 | 3 | 6-7 (Paralel) | >100 SKS | Praktik Kerja Lapangan (+P) |
-| 13 | Pra-Skripsi / Seminars | FST-613 | 2 | 6-7-8 (Paralel) | >100 SKS | **MK Paralel** — Proposal Skripsi diseminarkan |
-| 14 | Skripsi | FST-714 | 6 | 7-8 (Paralel) | >120 SKS | Proyek/Riset Akhir (+P) |
+| 10 | Metpen | FST-611 | 2 | 6 | >76 SKS | Metodologi Penelitian |
+| 11 | Capstone Project | FST-610 | 3 | 7 | — | Proyek kolaboratif FSTI (+P) (Sem 7) |
+| 12 | PKL | FST-612 | 3 | 7 | >100 SKS | Praktik Kerja Lapangan (+P) (Sem 7) |
+| 13 | Pra-Skripsi / Seminars | FST-613 | 2 | 7 | >100 SKS | Seminar Proposal Skripsi (Sem 7) |
+| 14 | Skripsi | FST-714 | 6 | 8 | >120 SKS & Lulus Sempro | Proyek/Riset Akhir (+P) (Sem 8) |
 
-### MK Wajib Prodi (STI) — 30 MK, 93 SKS
-| Kelompok | MK | SKS |
+### MK Wajib Prodi (STI) — 27 MK, 79 SKS
+| Kelompok | Mata Kuliah | SKS |
 |---|---|---|
-| **Fondasi** | Pengantar SI, Kalkulus, Logika Informatika | 8 |
-| **Matematika** | Matematika Diskrit, Aljabar Linear | 6 |
-| **Data & Infra** | Sistem Operasi, Jaringan Komputer | 5 |
-| **AI/ML** | Sistem Cerdas, Machine Learning, Deep Learning, Data Mining & Visualization, DW-BI | 14 |
-| **Platform** | IoT, Web Front End Development, Pemrograman Mobile, Web Back End Development | 12 |
-| **Sistem** | RPL, Analisis SI, UI/UX Design & Prototyping, SI Cloud, Keamanan Dasar | 15 |
-| **Bisnis** | Manpro TI, Startup Digital | 6 |
-| **Integrasi** | Integrasi AI, Smart City, Conversational AI, Smart Surveillance, Platform Eng | 15 |
-| **Penyelesaian** | Seminars / Pra-Skripsi (Masuk Paket TA Paralel FSTI) | 2 |
-| **Total** | | **93** |
+| **Fondasi & Logika** | Pengantar SISTEKIN (2), Kalkulus (3), Logika Informatika (3) | 8 |
+| **Matematika Lanjut** | Matematika Diskrit (3), Aljabar Linear (3) | 6 |
+| **Sistem & Infra Dasar**| Sistem Operasi (3), Jaringan Komputer (3) | 6 |
+| **Data & Kecerdasan** | Sistem Cerdas (2), Machine Learning (3), Data Warehouse & BI (3), Deep Learning (3), Data Mining & Visualization (3) | 14 |
+| **Platform & Rekayasa** | Analisis & Perancangan SI (3), UI/UX Design (3), Rekayasa Perangkat Lunak (3), Web Front End (3), Web Back End (3), Mobile App (3), IoT (3), Digital Platform Engineering (3) | 24 |
+| **Cloud & Keamanan** | SI Berbasis Cloud (3), Keamanan Informasi Dasar (3), Keamanan Informasi Lanjut (3) | 9 |
+| **Integrasi & Bisnis** | Integrasi Layanan Cerdas AI (3), Smart City (3), Manpro TI (3), Inovasi & Startup Digital (3) | 12 |
+| **Total MK Wajib STI** | **27 Mata Kuliah** | **79** |
 
-### MK Pilihan Peminatan — 18 MK, 55 SKS (ambil 9 = 27 SKS)
-- **P1 Integrated Smart Systems (STA)**: 5 MK, 15 SKS
-- **P2 Cloud & Cyber (STB)**: 6 MK, 19 SKS
-- **P3 Digital Platform (STC)**: 7 MK, 21 SKS
+### MK Pilihan Peminatan — 18 MK Portofolio Ditawarkan (54 SKS, Mahasiswa Mengambil 6 MK = 18 SKS)
+- **P1 Integrated Smart Systems (STA)**: 6 MK, 18 SKS
+- **P2 Cloud Infrastructure & Cybersecurity (STB)**: 6 MK, 18 SKS
+- **P3 Digital Platform Engineering (STC)**: 6 MK, 18 SKS
 
-**Total:** 61 MK | **170 SKS** (Wajib 52 MK, 143 SKS + Pilihan 9 MK, 27 SKS)
+**Total Beban Kurikulum:**
+- **Portofolio Ditawarkan:** **67 MK / 184 SKS** (Wajib 49 MK, 130 SKS + Pilihan 18 MK, 54 SKS)
+- **Paket Ditempuh Mahasiswa:** **55 MK / 148 SKS** (Wajib 49 MK, 130 SKS + Pilihan 6 MK, 18 SKS)
+- **Syarat Kelulusan Mahasiswa:** **Minimal 144 SKS** (Permendikbudristek No. 53/2023)
 
-**MBKM:** Program (bukan MK), dapat diakui maks 20 SKS → dikonversikan ke MK semester
+**MBKM:** Program (bukan MK), dapat diakui maks 20 SKS di Sem 6 dan/atau Sem 7 $\rightarrow$ dikonversikan ke paket MK semester terkait.
 
 ---
 
@@ -302,10 +305,10 @@ Agama I (2 SKS, Sem 1), Pancasila (2 SKS, Sem 1), Bahasa Indonesia (2 SKS, Sem 1
 | **Kalkulus** | Turun dari 4 → 3 SKS |
 | **Peminatan vs Konsentrasi** | Gunakan "peminatan" (sesuai BUKU_OBE) |
 | **Agama II & Kewirausahaan II** | 0 SKS — kebijakan universitas, dipertahankan |
-| **Capstone Design / Project** | Sem 6 (FST-610, 3 SKS), kolaborasi lintas prodi FSTI |
+| **Capstone Project & TA** | Capstone FSTI (FST-610, 3 SKS) di Sem 7, Pra-Skripsi (FST-613, 2 SKS) di Sem 7, Skripsi Murni (FST-714, 6 SKS) di Sem 8, KPM (MKU-203, 3 SKS) di Sem 5 |
 | **MBKM** | Maks 20 SKS, Sem 6–7 |
-| **Peminatan** | 3 peminatan mulai Sem 5: P1 Integrated Smart Systems (Flagship), P2 Cloud & Cyber (Volume), P3 Digital Platform (Niche) |
-| **Reposisi** | RPL Sem6→Sem4, Metpen Sem7→Sem6, Statistika Sem4→Sem2 |
+| **Peminatan** | 3 peminatan seimbang (@ 6 MK / 18 SKS): P1 Integrated Smart Systems (Flagship), P2 Cloud & Cyber (Volume), P3 Digital Platform (Niche) |
+| **Reposisi Kunci** | KPM Sem8→Sem5, Platform Eng Sem7→Sem6, Capstone Sem6→Sem7, Pra-Skripsi Sem8→Sem7, Skripsi Murni di Sem8 |
 
 ---
 

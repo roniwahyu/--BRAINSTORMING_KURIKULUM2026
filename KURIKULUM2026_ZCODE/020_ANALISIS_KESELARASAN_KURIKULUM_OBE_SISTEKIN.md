@@ -18,9 +18,9 @@ graph TD
     
     CPL --> BOK["<b>4. Body of Knowledge (BoK) Keterlacakan</b><br/>• IS2020: 19 Bahan Kajian (BK01 s.d. BK19)<br/>• IT2017: 14 Bahan Kajian Utama"]
     
-    BOK --> STRUKTUR["<b>5. Struktur Kurikulum 8 Semester & Mata Kuliah (Dokumen 010, 011, 012)</b><br/>• MKWU (Universitas): 8 MK (13 SKS, incl. KWU I 2 SKS)<br/>• MK Fakultas (FSTI): 14 MK (38 SKS)<br/>• MK Wajib Prodi (STI): 27 MK (79 SKS, incl. Sistem Operasi)<br/>• MK Pilihan Peminatan: 3 Peminatan Seimbang @ 6 MK / 18 SKS (Ambil 8 MK / 24 SKS)<br/>• Grand Total Portofolio: 67 MK / 184 SKS | Beban Terjadwal: 57 MK / 154 SKS (Lulus ≥144 SKS)"]
+    BOK --> STRUKTUR["<b>5. Struktur Kurikulum 8 Semester & Mata Kuliah (Dokumen 010, 011, 012, 031)</b><br/>• MKWU (Universitas): 8 MK (13 SKS, incl. KPM di Sem 5)<br/>• MK Fakultas (FSTI): 14 MK (38 SKS, incl. Capstone di Sem 7)<br/>• MK Wajib Prodi (STI): 27 MK (79 SKS, incl. Platform Eng di Sem 6)<br/>• MK Pilihan Peminatan: 3 Peminatan Seimbang @ 6 MK / 18 SKS (Ambil 6 MK / 18 SKS)<br/>• Grand Total Portofolio: 67 MK / 184 SKS | Beban Paket Ditempuh: 55 MK / 148 SKS (Syarat Lulus ≥144 SKS)"]
     
-    STRUKTUR --> ASSESS["<b>6. Asesmen OBE, Capstone & MBKM (Dokumen 016, 019)</b><br/>• Capstone Design Kolaboratif Lintas-3-Prodi (6 SKS) vs Skripsi (6 SKS)<br/>• Program Magang MBKM hingga 20 SKS di Sem 6/7<br/>• Rasio Hands-on Lab (+P) = ~47%"]
+    STRUKTUR --> ASSESS["<b>6. Asesmen OBE, Capstone & MBKM (Dokumen 016, 019)</b><br/>• Capstone Design Kolaboratif Lintas-3-Prodi (6 SKS) vs Skripsi (6 SKS)<br/>• Program Magang MBKM hingga 20 SKS di Sem 6/7<br/>• Rasio Hands-on Lab (+P) Wajib = 42,9% (66 dari 154 SKS; ditambah 9–24 SKS MK pilihan +P)"]
 ```
 
 ---
@@ -32,7 +32,7 @@ graph TD
 | 1 | **Semester 2 Tepat 20 SKS** | **Permendikbudristek No. 53/2023 Pasal 18** membatasi beban Sem 1 & 2 maksimal 20 SKS/semester. | `MKU-401 Kewarganegaraan` (2 SKS) dipindahkan dari Sem 2 ke **Semester 4 (Genap)**; `FST-206 Etika dan Hukum Digital` (2 SKS) tetap di **Semester 2** bersamaan dengan Basis Data & AI. |
 | 2 | **Penambahan Kembali MK Sistem Operasi** | **BoK IT2017 & IS2020 (BK03 IT Infrastructure)** mewajibkan pemahaman manajemen memori/proses & virtualisasi sebelum Cloud/DevOps. | `STI-305 Sistem Operasi` (3 SKS) ditempatkan di **Semester 3 (Ganjil)** bersama Jaringan Komputer. |
 | 3 | **Conversational AI & Smart Surveillance Menjadi MK Pilihan P1** | Menghindari beban spesialisasi AI terlalu tinggi bagi mahasiswa jalur Cloud/Platform; memperkuat daya tarik peminatan AI. | `Conversational AI & Intelligent Assistant` (3 SKS, +P) dan `Smart Surveillance & IoT Analytics` (3 SKS, +P) menjadi **MK Pilihan Peminatan P1**. |
-| 4 | **3 Peminatan Seimbang (@ 6 MK / 18 SKS)** | Menciptakan keadilan beban akademik antar-jalur dan kemudahan penjadwalan administrasi FSTI. | P1, P2, P3 masing-masing memiliki portofolio **6 MK Pilihan (18 SKS)**. Mahasiswa mengambil 9 MK (27 SKS) di Sem 5–7. |
+| 4 | **3 Peminatan Seimbang (@ 6 MK / 18 SKS)** | Menciptakan keadilan beban akademik antar-jalur dan kemudahan penjadwalan administrasi FSTI. | P1, P2, P3 masing-masing memiliki portofolio **6 MK Pilihan (18 SKS)**. Mahasiswa mengambil **8 MK (24 SKS)** di Sem 5–7 (Rekonsiliasi 19/08/2026: 2 slot Sem 5 + 2 slot Sem 6 + 4 slot Sem 7). |
 | 5 | **Kewirausahaan I Tetap 2 SKS** | Memperkuat pilar VMTS *Technopreneurship* sejak tingkat awal (Sem 2). | `MKU-202 Kewirausahaan I` (2 SKS, Sem 2) + `MKU-402 Kewirausahaan II` (0 SKS, Sem 4). |
 
 ---
@@ -91,7 +91,7 @@ Telah ditetapkan restrukturisasi Peminatan P3 untuk memastikan keunggulan level 
 
 ---
 
-## 4. DISTRIBUSI SEMESTER TERVALIDASI (BEBAN KELULUSAN 144 SKS)
+## 4. DISTRIBUSI SEMESTER TERVALIDASI (PAKET DITEMPUH 148 SKS — SYARAT LULUS MINIMAL 144 SKS PERMENDIKBUDRISTEK 53/2023)
 
 | Semester | MK Wajib (FSTI & STI) | MKWU (Universitas) | MK Pilihan Peminatan | Total SKS | Kepatuhan Regulasi & Pedagogi |
 |---|---|---|---|:---:|---|
@@ -99,10 +99,10 @@ Telah ditetapkan restrukturisasi Peminatan P3 untuk memastikan keunggulan level 
 | **Sem 2** | Diskrit (3), Aljabar Linear (3), Struktur Data (+P, 3), Pengantar AI (2), Basis Data (+P, 3), Basic English (2), **Etika & Hukum Digital (2)** | Kewirausahaan I (2) | — | **20 SKS** | ✅ **Tepat 20 SKS** (Kewarganegaraan pindah Sem 4) |
 | **Sem 3** | APSI (3), Sistem Cerdas (2), UI/UX (+P, 3), RPL (3), Jaringan (+P, 3), Web Front End (+P, 3), **Sistem Operasi (3)** | — | — | **20 SKS** | ✅ Fondasi Sistem & Jaringan Lengkap |
 | **Sem 4** | Machine Learning (+P, 3), **Data Warehouse & BI (+P, 3)**, Web Back End (+P, 3), Cloud (3), Keamanan Dasar (3), Probstat (3), English for IT (2) | **Kewarganegaraan (2)**, Agama II (0), Kewirausahaan II (0) | — | **22 SKS** | ✅ Core Data & Cloud (3 MK Lab Seimbang, 8 MK ber-SKS + 2 MK @ 0 SKS) |
-| **Sem 5** | Deep Learning (+P, 3), Data Mining (+P, 3), IoT (+P, 3), Mobile (+P, 3), **Manajemen Proyek TI (3)** | — | 2 MK Pilihan Peminatan (6 SKS) | **21 SKS** | ✅ Advanced Core & Proyek (Beban Lab Seimbang) |
-| **Sem 6** | Integrasi AI (+P, 3), Smart City (+P, 3), Capstone Project FSTI (+P, 3), Keamanan Lanjut (3), Metpen (2) | — | 2 MK Pilihan Peminatan (6 SKS) / MBKM | **20 SKS** | ✅ Integrasi Sistem, Capstone & MBKM |
-| **Sem 7** | Digital Platform Eng (+P, 3), Startup Digital (+P, 3), PKL (+P, 3) | — | 4 MK Pilihan Peminatan (12 SKS) / MBKM | **21 SKS** | ✅ Profesionalisasi & Inkubasi Produk |
-| **Sem 8** | Pra-Skripsi / Seminar (2), Skripsi / Capstone TA (6) | KPM / KKN (3) | — | **11 SKS** | ✅ Single Track Penyelesaian Akhir |
+| **Sem 5** | Deep Learning (+P, 3), Data Mining (+P, 3), IoT (+P, 3), Mobile (+P, 3), **Manajemen Proyek TI (3)** | **KPM / KKN Digital (3)** | 1 MK Pilihan Peminatan (3 SKS) | **21 SKS** | ✅ **KPM di Sem 5** (6 MK Wajib 18 SKS + 1 MK Pilihan 3 SKS) |
+| **Sem 6** | Integrasi AI (+P, 3), Smart City (+P, 3), Keamanan Lanjut (3), **Digital Platform Eng (+P, 3)**, Metpen (2) | — | 2 MK Pilihan Peminatan (6 SKS) / MBKM | **20 SKS** | ✅ **Platform Eng di Sem 6** (5 MK Wajib 14 SKS + 2 MK Pilihan 6 SKS) |
+| **Sem 7** | **Inovasi Startup (+P, 3)**, **Capstone Project FSTI (+P, 3)**, **PKL (+P, 3)**, **Pra-Skripsi (2)** | — | 3 MK Pilihan Peminatan (9 SKS) / MBKM | **20 SKS** | ✅ **Puncak Rekayasa & Sempro** (4 MK Wajib 11 SKS + 3 MK Pilihan 9 SKS) |
+| **Sem 8** | **Skripsi / Tugas Akhir (6 SKS)** | — | — | **6 SKS** | ✅ **Single Track Skripsi Murni** (Fokus Penuh Kelulusan Tepat Waktu) |
 
 ---
 
@@ -113,7 +113,7 @@ Telah ditetapkan restrukturisasi Peminatan P3 untuk memastikan keunggulan level 
 * [x] Penyeimbangan 3 Peminatan (@ 6 MK / 18 SKS) — P1, P2, P3 Terstruktur Final
 * [x] Kepatuhan Beban Semester 1 & 2 ($\le 20$ SKS)
 * [x] **Restrukturisasi Portofolio P3 FINAL & TERKUNCI** — `STC-02 Rekayasa & Otomasi Proses Bisnis` resmi ditetapkan.
-* [ ] **Langkah Kerja Berikutnya:** Penyusunan Matriks Detail BoK $\leftrightarrow$ MK (Tabel 6 Standar APTIKOM) & Penyusunan CPMK RPS 44 MK Wajib.
+* [ ] **Langkah Kerja Berikutnya:** Penyusunan Matriks Detail BoK $\leftrightarrow$ MK (Tabel 6 Standar APTIKOM) & Penyusunan CPMK RPS 49 MK Wajib.
 
 ---
 

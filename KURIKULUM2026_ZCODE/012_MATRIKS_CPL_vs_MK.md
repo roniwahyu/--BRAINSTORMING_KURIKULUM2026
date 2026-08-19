@@ -2,8 +2,8 @@
 
 **Tanggal:** 19 Agustus 2026 (Rekonsiliasi Matematis Final)  
 **Status:** FINAL — Matriks Pemetaan CPL–MK Berbasis OBE (Terekonsiliasi Penuh Sesuai Dokumen 011, 020, 021, 022, 030)  
-**Dasar:** 14 CPL SN-Dikti/APTIKOM + Portofolio 67 MK / 184 SKS (Beban Paket 8 Semester = 154 SKS; Syarat Lulus Mahasiswa = Minimal 144 SKS)  
-**Distribusi SKS:** 8 MKWU (13 SKS) + 14 MK FSTI (38 SKS) + 27 MK STI Wajib (79 SKS) + 18 MK Pilihan (ambil 8 MK / 24 SKS)
+**Dasar:** 14 CPL SN-Dikti/APTIKOM + Portofolio 67 MK / 184 SKS (Beban Paket 8 Semester = 55 MK / 148 SKS; Syarat Lulus Minimal = 144 SKS Permendikbud 53/2023)  
+**Distribusi SKS:** 8 MKWU (13 SKS) + 14 MK FSTI (38 SKS) + 27 MK STI Wajib (79 SKS) + 18 MK Pilihan (ambil 6 MK / 18 SKS)
 
 ---
 
@@ -94,8 +94,8 @@
 | 23| STI-601 | Integrasi Layanan Cerdas AI | 6 | 3 | ✅ | | | | | | ● | | | ● | | | | | |
 | 24| STI-602 | Smart City dan Pemerintahan Digital | 6 | 3 | ✅ | | | | | | | ● | | | | ● | | | |
 | 25| STI-603 | Keamanan Informasi Lanjut | 6 | 3 | — | | | | | | | ● | | | | ● | ● | | |
-| 26| STI-701 | Digital Platform Engineering| 7 | 3 | ✅ | | | | | | | | ● | | | | | ● | |
-| 27| STI-702 | Startup Digital & Inovasi | 7 | 3 | ✅ | | | | | | | | | | | | | | ● |
+| 26| STI-604 | Digital Platform Engineering| 6 | 3 | ✅ | | | | | | | | ● | | | | | ● | |
+| 27| STI-701 | Inovasi Teknologi & Startup | 7 | 3 | ✅ | | | | | | | | | | | | | | ● |
 | | | **Subtotal STI Wajib (27 MK)**| | **79** | **17** | **0** | **4** | **1** | **0** | **4** | **6** | **7** | **5** | **4** | **4** | **6** | **1** | **6** | **3** |
 
 ---

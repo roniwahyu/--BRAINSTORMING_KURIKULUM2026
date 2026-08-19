@@ -418,11 +418,12 @@ VMTS (Visi-Misi-Tujuan-Sasaran)
 | **1** | Pengantar SISTEKIN, Algoritma (+P), Kalkulus, Logika Informatika, Dasar Digital, MKWU (Agama I, Pancasila, B.Indo) | 19 | KU1, KU2, P1, P2, P4, S1 |
 | **2** | Diskrit, Aljabar Linear, Struktur Data (+P), Pengantar AI, Basis Data (+P), Basic English, Etika Digital, KWU I | 20 | P1, P2, P4, KU1, KU2, KK1, KK6, S1 |
 | **3** | APSI, Sistem Cerdas, UI/UX (+P), RPL, Sistem Operasi, Web Front End (+P), Jaringan Komputer (+P) | 20 | P2, P3, P4, KU1, KK1, KK3, KK5, KK6 |
-| **4** | Machine Learning (+P), **Data Warehouse & BI (+P)**, Web Back End (+P), Cloud, Keamanan Dasar, Probstat, English for IT, KWN | 19 | P1, P2, P3, P4, KU1, KU2, KK1, KK2, KK3, S1 |
-| **5** | Deep Learning (+P), Data Mining (+P), IoT (+P), Mobile (+P), **Manajemen Proyek TI**, + 2 MK Pilihan Peminatan | 21 | P2, P3, P4, KK1, KK2, KK3, KK5, KK6, CPL Peminatan |
-| **6** | Integrasi AI (+P), Smart City (+P), Keamanan Lanjut, Capstone FSTI (+P), Metpen, + 2 MK Pilihan / MBKM | 20 | P2, P3, KU1-KU3, KK1, KK3, KK4, S1, CPL Peminatan / MBKM |
-| **7** | Digital Platform Eng (+P), Startup Digital (+P), PKL (+P), + 4 MK Pilihan Peminatan / MBKM | 21 | KK5, KK6, KU1-KU3, S1, CPL Peminatan / MBKM |
-| **8** | Pra-Skripsi/Seminar, Skripsi / Capstone TA (+P), KPM/KKN | 11 | S1, KU1-KU3, P1-P4, KK1-KK6 (Pemenuhan Seluruh 14 CPL) |
+| **4** | Machine Learning (+P), **Data Warehouse & BI (+P)**, Web Back End (+P), Cloud, Keamanan Dasar, Probstat, English for IT, KWN & 2 MK @ 0 SKS | 22 | P1, P2, P3, P4, KU1, KU2, KK1, KK2, KK3, S1 |
+| **5** | Deep Learning (+P), Data Mining (+P), IoT (+P), Mobile (+P), **Manajemen Proyek TI**, **KPM / KKN Digital (3 SKS)** + 1 MK Pilihan Peminatan | 21 | P2, P3, P4, KK1, KK2, KK3, KK5, KK6, S1, KU, CPL Peminatan |
+| **6** | Integrasi AI (+P), Smart City (+P), Keamanan Lanjut, **Digital Platform Eng (+P)**, Metpen + 2 MK Pilihan / MBKM | 20 | P2, P3, KU1-KU3, KK1, KK3, KK4, KK5, S1, CPL Peminatan / MBKM |
+| **7** | Inovasi Startup (+P), **Capstone Project FSTI (+P)**, **PKL (+P)**, **Pra-Skripsi (2)** + 3 MK Pilihan Peminatan / MBKM | 20 | KK6, KK3, KK4, KU1-KU3, S1, CPL Peminatan / MBKM |
+| **8** | **Skripsi / Tugas Akhir Murni (6 SKS)** | 6 | S1, KU1-KU3, P1-P4, KK1-KK6 (Pemenuhan & Asesmen Portofolio Seluruh 14 CPL) |
+| **TOTAL** | **49 MK Wajib (130 SKS) + 6 MK Pilihan (18 SKS) = 55 MK** | **148** | **Cakupan 100% 14 CPL (Syarat Lulus Minimal = 144 SKS)** |
 
 
 ---

@@ -1,17 +1,17 @@
 # 007 — BEDAH STRUKTUR KURIKULUM SISTEKIN: ANALISIS KOMPREHENSIF
 
-**Tanggal:** 13 Agustus 2026
-**Status:** Analisis lengkap struktur kurikulum dengan 3 peminatan (Updated 14 MK FSTI / 36 SKS)
+**Tanggal:** 19 Agustus 2026 (Penataan Final Terkunci)
+**Status:** Analisis lengkap struktur kurikulum dengan 3 peminatan seimbang (Updated: 14 MK FSTI / 38 SKS & 27 MK STI / 79 SKS)
 **Ground Truth:** KURIKULUM2025 (56 MK, 146 SKS) — file terverifikasi manusia, sudah dijalankan 2 semester
-**Catatan:** KURIKULUM2025 = 56 MK semua wajib, 146 SKS, 0 peminatan → KURIKULUM2026 = 61 MK, 170 SKS, 3 peminatan, 9 MK pilihan
+**Catatan:** KURIKULUM2025 = 56 MK semua wajib, 146 SKS, 0 peminatan → KURIKULUM2026 = 55 MK Paket Ditempuh (148 SKS) / 67 MK Portofolio Ditawarkan (184 SKS), 3 peminatan (@ 6 MK / 18 SKS), mahasiswa menempuh 6 MK pilihan (18 SKS).
 
 ### Kode Mata Kuliah
 | Prefix | Kategori |
 |---|---|
-| **MKU** | Mata Kuliah Universitas (8 MK, 14 SKS, incl. 2 MK @ 0 SKS) |
-| **FST-** | Mata Kuliah Fakultas (14 MK, 36 SKS) |
-| **STI-** | Mata Kuliah Wajib Prodi (30 MK, 93 SKS) |
-| **STA-/STB-/STC-** | MK Pilihan Peminatan (18 MK, 55 SKS) |
+| **MKU** | Mata Kuliah Universitas (8 MK, 13 SKS, incl. 2 MK @ 0 SKS) |
+| **FST-** | Mata Kuliah Fakultas (14 MK, 38 SKS) |
+| **STI-** | Mata Kuliah Wajib Prodi (27 MK, 79 SKS) |
+| **STA-/STB-/STC-** | MK Pilihan Peminatan (18 MK Portofolio Ditawarkan, 54 SKS; Ditempuh 6 MK / 18 SKS) |
 
 ---
 
@@ -19,14 +19,15 @@
 
 | Komponen | Jumlah | Keterangan |
 |---|---|---|
-| **Total SKS** | 170 | Wajib 143 + Pilihan 27 |
-| **Total MK** | 61 | Wajib 52 + Pilihan 9 (incl. 2 MK 0 SKS) |
-| **MK Universitas (MKWU)** | 8 | 14 SKS (6 MK ber-SKS + 2 MK 0 SKS) |
-| **MK Fakultas (FSTI)** | 14 | 36 SKS (incl. Pengantar AI & Data 2 SKS Teori) |
-| **MK Wajib Prodi (STI)** | 30 | 93 SKS |
-| **MK Pilihan Peminatan** | 9 | 27 SKS (ambil 9 dari 18) |
-| **Peminatan** | 3 | P1 Integrated Smart Systems, P2 Cloud & Cyber, P3 Digital Platform |
-| **Semester** | 8 | 13-22 SKS/sem |
+| **Total SKS Paket Ditempuh** | **148** | Wajib 130 SKS + Pilihan 18 SKS (Syarat Lulus Minimal = 144 SKS) |
+| **Total MK Paket Ditempuh** | **55** | Wajib 49 MK + Pilihan 6 MK (incl. 2 MK @ 0 SKS UWG) |
+| **Total Portofolio Ditawarkan** | **184 SKS / 67 MK** | Total seluruh opsi mata kuliah yang disediakan oleh Program Studi |
+| **MK Universitas (MKWU)** | 8 MK | 13 SKS (6 MK ber-SKS + 2 MK 0 SKS; KPM di Sem 5) |
+| **MK Fakultas (FSTI)** | 14 MK | 38 SKS (incl. Metpen Sem 6, Capstone Sem 7, PKL Sem 7, Pra-Skripsi Sem 7, Skripsi Sem 8) |
+| **MK Wajib Prodi (STI)** | 27 MK | 79 SKS (incl. Platform Eng di Sem 6 & Startup Digital di Sem 7) |
+| **MK Pilihan Peminatan** | 6 MK | 18 SKS diambil (Tepat 1 paket peminatan penuh dari 18 MK portofolio) |
+| **Peminatan** | 3 | P1 Integrated Smart Systems, P2 Cloud & Cyber, P3 Digital Platform (@ 6 MK / 18 SKS) |
+| **Semester** | 8 | 6–22 SKS/semester |
 
 ---
 
@@ -37,12 +38,12 @@
 | **Sem 1** | 19 | 8 | Fondasi Keilmuan & Basic IT | ✅ Seimbang (≤20 SKS) |
 | **Sem 2** | 20 | 8 | Fondasi Lanjutan, Math/Data, Etika Digital & KWU I (2 SKS) | ✅ **Tepat 20 SKS** (Permendikbud 53) |
 | **Sem 3** | 20 | 7 | Core SE, APSI, Sistem Cerdas, UI/UX (+P), Sistem Operasi & Jaringan (+P) | ✅ Fondasi Sistem & Jaringan (20 SKS) |
-| **Sem 4** | 19 | 10 | Machine Learning (+P), DW-BI (+P), Web BE (+P), Cloud, Keamanan Dasar, Probstat, KWN & 2 MK 0 SKS | ✅ Seimbang (19 SKS / 22 SKS formal) |
-| **Sem 5** | 21 | 7 | Deep Learning (+P), Data Mining (+P), IoT (+P), Mobile (+P), Manpro TI & 2 MK Pilihan | ✅ Beban Seimbang (4 Lab + 1 Manajerial) |
-| **Sem 6** | 20 | 7 | Integrasi AI (+P), Smart City (+P), Capstone FSTI (+P), Keamanan Lanjut, Metpen & 2 MK Pilihan | ✅ Integrasi, Capstone & MBKM |
-| **Sem 7** | 21 | 7 | Platform Eng (+P), Startup (+P), PKL (+P) & 4 MK Pilihan Peminatan | ✅ Profesionalisasi & Inkubasi |
-| **Sem 8 / Paralel** | 11 | 3 | Pra-Skripsi (2), Skripsi / Capstone TA (6), KPM/KKN (3) | ✅ Single Track Penyelesaian Akhir |
-| **TOTAL GRADUASI** | **170** | **61** | **Wajib 143 SKS + Pilihan 27 SKS (Beban Lulus Mahasiswa = 144 SKS)** | **Graduasi 8 Sem** |
+| **Sem 4** | 22 | 10 | Machine Learning (+P), DW-BI (+P), Web BE (+P), Cloud, Keamanan Dasar, Probstat, KWN & 2 MK 0 SKS | ✅ Seimbang (8 MK ber-SKS + 2 MK @ 0 SKS) |
+| **Sem 5** | 21 | 7 | Deep Learning (+P), Data Mining (+P), IoT (+P), Mobile (+P), Manpro TI, KPM (3 SKS) & 1 MK Pilihan | ✅ **KPM di Sem 5** (Pengabdian tuntas lebih awal) |
+| **Sem 6** | 20 | 7 | Integrasi AI (+P), Smart City (+P), Keamanan Lanjut, Digital Platform Eng (+P), Metpen & 2 MK Pilihan | ✅ **Platform Eng di Sem 6** (MBKM 20 SKS) |
+| **Sem 7** | 20 | 7 | Inovasi Startup (+P), Capstone FSTI (+P), PKL (+P), Pra-Skripsi (2) & 3 MK Pilihan Peminatan | ✅ **Puncak Rekayasa & Sempro** (MBKM 20 SKS) |
+| **Sem 8** | 6 | 1 | Skripsi / Tugas Akhir Murni (6 SKS) | ✅ **Single Track Skripsi Murni** (Fokus Lulus Cepat) |
+| **TOTAL GRADUASI** | **148** | **55** | **Wajib 130 SKS + Pilihan 18 SKS (Beban Lulus Minimal = 144 SKS)** | **Graduasi 8 Sem (148 SKS)** |
 
 ---
 
@@ -60,16 +61,15 @@
 * **Portofolio:** `STC-01` UX Research & Design (+P), `STC-02` Rekayasa & Otomasi Proses Bisnis (+P) ⭐, `STC-03` Rekayasa Aplikasi Industri Vertikal (+P), `STC-04` Immersive Media & XR (+P), `STC-05` SaaS Architecture & Multi-Tenancy (+P), `STC-06` Digital Product Management & Agile.
 * **Alignment VMTS:** ✅ Platform digital scalable, BPMN enterprise & technopreneurship.
 
-
 ---
 
 ## 4. ANALISIS KESEIMBANGAN PRAKTIKUM (+P) vs TEORI
 
-| Jenis Pembelajaran | Jumlah MK | Total SKS | Persentase SKS | Evaluasi Kesimbangan |
+| Jenis Pembelajaran | Jumlah MK Portofolio | Total SKS Portofolio | Beban Ditempuh Mahasiswa | Evaluasi Keseimbangan |
 |---|:---:|:---:|:---:|---|
-| **Mata Kuliah Praktikum (+P / Hands-on)** | 24 MK | 80 SKS | **47.1%** | **Sangat Seimbang** — coding, lab, UI/UX prototyping, mobile, IoT, Capstone |
-| **Mata Kuliah Teori & Konseptual** | 37 MK | 90 SKS | **52.9%** | **Sangat Seimbang** — fondasi teori, Sistem Cerdas (2 SKS), Keamanan Dasar, etika & governance |
-| **TOTAL** | **61 MK** | **170 SKS** | **100.0%** | **Rasio Ideal ~47:53 Berbasis OBE & Industri** |
+| **Mata Kuliah Praktikum (+P / Hands-on)** | 35 MK | 108 SKS | **21–27 MK (66–84 SKS / 44,6%–56,8%)** | **Sangat Seimbang** — coding, lab, UI/UX prototyping, mobile, IoT, Platform Eng, Capstone |
+| **Mata Kuliah Teori & Konseptual** | 32 MK | 76 SKS | **28–34 MK (64–82 SKS / 43,2%–55,4%)** | **Sangat Seimbang** — fondasi teori, Sistem Cerdas (2 SKS), Keamanan Dasar, etika & governance |
+| **TOTAL** | **67 MK** | **184 SKS** | **55 MK (148 SKS)** | **Rasio Ideal ~50:50 Berbasis OBE & Industri** |
 
 ---
 

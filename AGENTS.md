@@ -53,20 +53,20 @@ Gunakan prompt bertahap ini. Tiap langkah harus menunggu konfirmasi user sebelum
 | **Distinctive Positioning** | Integrator AI nyata | TI = Riset algoritma AI murni; SISTEKIN = **Integrasi AI ke Sistem & Platform Nyata**; Bisnis Digital = Model bisnis. |
 | **6 Profil Lulusan (PL)** | PL-01 s.d. PL-06 (Dokumen 008) | PL1: Intelligent IS Dev, PL2: UI/UX & Platform Eng, PL3: Smart Sys Integrator, PL4: Technopreneur, PL5: Digital Governance Analyst, PL6: Data & ML Eng. Tiap PL memiliki indikator PEO 3–5 tahun untuk 3 jalur (Akademisi, Praktisi, Technopreneur). |
 | **14 CPL (SN-Dikti & APTIKOM)** | 14 CPL (Dokumen 009/009E) | Sikap (S1), Keterampilan Umum (KU1, KU2, KU3), Pengetahuan (P1, P2, P3, P4), Keterampilan Khusus (KK1-KK6: @2 per peminatan). |
-| **Beban SKS Kelulusan** | **Tepat 144 SKS** | Permendikbudristek No. 53/2023 & APTIKOM. Total portofolio kurikulum ditawarkan: 170 SKS (61 MK: 8 MKWU [14 SKS], 14 MK FSTI [36 SKS], 30 MK STI [93 SKS], 18 MK Elektif [ambil 9 MK / 27 SKS]). |
+| **Beban SKS Kelulusan** | **Paket Ditempuh 148 SKS / 55 MK** (Penataan Final 19/08/2026) | Memenuhi & melampaui syarat lulus minimal 144 SKS (Permendikbudristek No. 53/2023). Komposisi paket: 8 MKWU [13 SKS] + 14 MK FSTI [38 SKS] + 27 MK STI [79 SKS] + 6 MK Elektif [18 SKS]. Portofolio ditawarkan: **184 SKS / 67 MK** (18 MK elektif; ambil 6 MK / 18 SKS). |
 | **Batas Semester 1 & 2** | **Maksimal 20 SKS** | Sem 1 (19 SKS) & Sem 2 (Tepat 20 SKS). Kewarganegaraan (2 SKS) digeser ke Sem 4. Etika & Hukum Digital (2 SKS) & Kewirausahaan I (2 SKS) di Sem 2. |
-| **3 Peminatan Seimbang** | Masing-masing **6 MK (18 SKS)** | **P1: Integrated Smart Systems** (6 MK), **P2: Cloud Infrastructure & Cybersecurity** (6 MK), **P3: Digital Platform Engineering** (6 MK). Conversational AI & Smart Surveillance menjadi MK Pilihan P1. |
+| **3 Peminatan Seimbang** | Masing-masing **6 MK (18 SKS)** | **P1: Integrated Smart Systems** (6 MK), **P2: Cloud Infrastructure & Cybersecurity** (6 MK), **P3: Digital Platform Engineering** (6 MK). Mahasiswa menempuh 1 paket peminatan penuh (6 MK: 1 di Sem 5, 2 di Sem 6, 3 di Sem 7). |
 | **Fondasi Sistem & Infra** | Sistem Operasi di Sem 3 | Sistem Operasi (STI-305, 3 SKS) & Jaringan Komputer (STI-307, 3 SKS) di Semester 3 sebagai fondasi IoT (Sem 5), Cloud (Sem 4), dan Security (Sem 4). |
-| **Single Track TA (Sem 8)** | Capstone Design lintas-prodi | Default = Capstone Design (6 SKS) lintas 3 prodi FSTI; Alternatif = Skripsi (6 SKS). MK 0 SKS UWG (Agama II & Kewirausahaan II) dipertahankan. |
-| **Fleksibilitas MBKM** | Hingga 20 SKS di Sem 6-7 | Dikonversikan ke paket MK Peminatan dan PKL. |
+| **Penataan Tingkat Akhir (Dok. 031)** | KPM Sem 5, Platform Sem 6, Capstone & Pra-Skripsi Sem 7, Skripsi Sem 8 | KPM (3 SKS) di Sem 5; Platform Eng (3 SKS) di Sem 6; Capstone Project FSTI (3 SKS), PKL (3 SKS) & Pra-Skripsi (2 SKS) di Sem 7; Skripsi Murni (6 SKS) di Sem 8. |
+| **Fleksibilitas MBKM** | Hingga 20 SKS di Sem 6-7 | Dikonversikan ke paket MK Peminatan, Capstone, dan PKL. |
 
 ---
 
 ## Important Correction (anti-hallucination)
 
 1. **Jumlah CPL:** Tepat **14 CPL** (S1, KU1-KU3, P1-P4, KK1-KK6). Jangan gunakan angka 10, 15, atau 17.
-2. **Beban SKS:** Beban kelulusan mahasiswa adalah **144 SKS** (Permendikbud 53/2023). Portofolio paket yang ditawarkan 170 SKS (karena adanya mata kuliah pilihan peminatan).
-3. **Dokumen 020** (`KURIKULUM2026_ZCODE/020_ANALISIS_KESELARASAN_KURIKULUM_OBE_SISTEKIN.md`) adalah **single source of truth** analisis keselarasan terkini.
+2. **Beban SKS:** Paket ditempuh mahasiswa adalah **148 SKS / 55 MK** (Penataan Final 19/08/2026; syarat lulus minimal nasional 144 SKS — Permendikbud 53/2023). Portofolio ditawarkan **184 SKS / 67 MK** (18 MK elektif ditawarkan, diambil 6 MK / 18 SKS). Jangan gunakan angka lama: 170 SKS / 154 SKS / 61 MK / "tepat 144" / 30 MK STI / 93 SKS STI / FSTI 36 SKS / MKWU 14 SKS.
+3. **Dokumen 020, 030 & 031** (`KURIKULUM2026_ZCODE/`) adalah **single source of truth** analisis keselarasan dan penataan struktur terkini.
 
 ---
 
@@ -124,8 +124,8 @@ KURIKULUM2026_ZCODE/
 ## Current State & Next Steps
 
 **Status Saat Ini:** 
-- **Fase Makro OBE:** VMTS ↔ PL/PEO ↔ 14 CPL ↔ 19 BoK IS2020 & 27 BoK IT2017 ↔ Struktur 8 Semester (144 SKS lulus / 170 SKS portofolio) ↔ 3 Peminatan Seimbang (@ 18 SKS) telah **100% tuntas dan terverifikasi di Dokumen 020–023**.
-- **Fase Mikro OBE:** Formulasi PL, CPL, CPMK berbasis ABCD & Taksonomi Bloom (C2–C6), serta Sub-CPMK untuk **seluruh 61 Mata Kuliah** telah **100% selesai diformulasikan di Dokumen 024, 025, 026, dan 027**.
+- **Fase Makro OBE:** VMTS ↔ PL/PEO ↔ 14 CPL ↔ 19 BoK IS2020 & 27 BoK IT2017 ↔ Struktur 8 Semester (154 SKS ditempuh / 184 SKS portofolio — Rekonsiliasi 19/08/2026) ↔ 3 Peminatan Seimbang (@ 18 SKS) telah **100% tuntas dan terverifikasi di Dokumen 020–023**.
+- **Fase Mikro OBE:** Formulasi PL, CPL, CPMK berbasis ABCD & Taksonomi Bloom (C2–C6), serta Sub-CPMK untuk **seluruh 67 MK portofolio** telah **100% selesai diformulasikan di Dokumen 024, 025, 026, dan 027**.
 - **Fase Asesmen & Penjaminan Mutu OBE:** Panduan Asesmen OBE Terperinci (Formula Matematis Ketercapaian CPL, 4 Rubrik Analitik Master, Kepatuhan IKU 7 $\ge 50\%$, Siklus PPEPP / CQI, dan Transkrip Capaian Radar SKPI) telah **100% tuntas di Dokumen 028 & 029**.
 
 **Langkah Kerja Selanjutnya (Finalisasi Buku Kurikulum):**
