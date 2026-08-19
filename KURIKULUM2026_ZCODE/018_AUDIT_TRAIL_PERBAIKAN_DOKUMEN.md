@@ -593,6 +593,27 @@ User menginformasikan bahwa MK terbagi menjadi:
 
 ---
 
+### 7.18 Rekonsiliasi Matematis Total SKS & Penataan Struktur Semester Tingkat Akhir (19 Agustus 2026)
+
+1. **Audit & Rekonsiliasi Matematis Total SKS (Dokumen 030):**
+   - Mengoreksi seluruh ketidakcocokan agregat lama:
+     - **MKWU:** 8 MK (13 SKS, karena Agama II & KWU II berbobot 0 SKS).
+     - **FSTI:** 14 MK (38 SKS, dengan FST-204 berbobot 2 SKS).
+     - **STI Wajib Inti:** 27 MK (79 SKS, setelah pengalihan Struktur Data, Basis Data, dan Statistika ke FSTI).
+     - **MK Pilihan Peminatan Ditempuh:** 6 MK (18 SKS — tepat 1 paket peminatan penuh @ 6 MK / 18 SKS).
+     - **Paket Ditempuh Mahasiswa:** **55 MK / 148 SKS** (Memenuhi syarat kelulusan minimal 144 SKS Permendikbudristek No. 53/2023).
+     - **Portofolio Ditawarkan:** **67 MK / 184 SKS** (49 MK Wajib 130 SKS + 18 MK Pilihan P1-P3 54 SKS).
+2. **Keputusan Penataan Struktur Semester Tingkat Akhir (Dokumen 031):**
+   - **`MKU-203 KPM (KKN Digital)` (3 SKS):** Dipindahkan dari Semester 8 ke **Semester 5** agar pengabdian masyarakat tuntas lebih awal dan tidak mengganggu penyusunan Tugas Akhir.
+   - **`STI-604 Digital Platform Engineering` (3 SKS, +P):** Dipindahkan dari Semester 7 ke **Semester 6** sehingga dikuasai sebelum eksekusi Capstone & Startup di Semester 7.
+   - **`FST-610 Capstone Project FSTI` (3 SKS, +P):** Dipindahkan dari Semester 6 ke **Semester 7** sebagai puncak proyek rekayasa kolaboratif bersamaan dengan PKL & Startup Digital.
+   - **`FST-613 Pra-Skripsi / Seminars` (2 SKS):** Dipindahkan dari Semester 8 ke **Semester 7** agar mahasiswa menyelesaikan proposal penelitian dan lulus Sempro di Semester 7.
+   - **`FST-714 Skripsi / Tugas Akhir` (6 SKS, +P):** Ditempatkan di **Semester 8** sebagai *Single Track* murni (6 SKS) sehingga fokus kelulusan tepat waktu ($\le 4$ tahun) optimal.
+3. **Status Dokumen Terupdate:**
+   - `006`, `007`, `010`, `011`, `012`, `015`, `017`, `018`, `020`, `030`, `031`, `AGENTS.md`, `Implementasi_Modul_OBE_SISTEKIN2026_TABLES.md`, dan `Implementasi_Modul_OBE_SISTEKIN2026_UPDATED.xlsx`.
+
+---
+
 *Dokumen ini merupakan audit trail lengkap perbaikan dokumen kurikulum SISTEKIN untuk penelusuran dan verifikasi berjenjang.*
 
 

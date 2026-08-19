@@ -79,28 +79,26 @@
 | STI-504 | Internet of Things (IoT) | 3 | ✅ | | | | | | | M | | | | M | | | |
 | STI-505 | Pemrograman Aplikasi Mobile | 3 | ✅ | | | | | | | | M | | | | | M | |
 | STI-506 | Manajemen Proyek TI | 3 | — | | | | | | | | | | | | | | M |
+| MKU-203 | KPM (KKN Digital) | 3 | ✅ | M | | M | | | | | | | | | | | |
 | STA/B/C | MK Pilihan Peminatan 1 | 3 | 🔄 | | R | R | | | | | | R/M | R/M | R/M | R/M | R/M | R/M |
-| STA/B/C | MK Pilihan Peminatan 2 | 3 | 🔄 | | R | R | | | | | | R/M | R/M | R/M | R/M | R/M | R/M |
 | **SEMESTER 6** | | | | | | | | | | | | | | | | | |
 | STI-601 | Integrasi Layanan Cerdas Berbasis AI | 3 | ✅ | | | | | | M | | | M | | | | | |
 | STI-602 | Smart City & Pemerintahan Digital | 3 | ✅ | | | | | | | M | | | | M | | | |
 | STI-603 | Keamanan Informasi Lanjut | 3 | — | | | | | | | M | | | | M | M | | |
-| FST-610 | Capstone Project FSTI | 3 | ✅ | M | M | M | M | | | | | M | M | M | M | M | M |
+| STI-604 | Digital Platform Engineering | 3 | ✅ | | | | | | | | M | | | | | M | |
 | FST-611 | Metodologi Penelitian | 2 | — | | M | M | M | | | | | | | | | | |
+| STA/B/C | MK Pilihan Peminatan 2 / MBKM | 3 | 🔄 | | M | M | M | | | | | M | M | M | M | M | M |
 | STA/B/C | MK Pilihan Peminatan 3 / MBKM | 3 | 🔄 | | M | M | M | | | | | M | M | M | M | M | M |
-| STA/B/C | MK Pilihan Peminatan 4 / MBKM | 3 | 🔄 | | M | M | M | | | | | M | M | M | M | M | M |
 | **SEMESTER 7** | | | | | | | | | | | | | | | | | |
-| STI-701 | Digital Platform Engineering | 3 | ✅ | | | | | | | | M | | | | | M | |
-| STI-702 | Inovasi Teknologi & Startup Digital | 3 | ✅ | | | | | | | | | | | | | | M |
+| STI-701 | Inovasi Teknologi & Startup Digital | 3 | ✅ | | | | | | | | | | | | | | M |
+| FST-610 | Capstone Project FSTI | 3 | ✅ | M | M | M | M | | | | | M | M | M | M | M | M |
 | FST-612 | Praktik Kerja Lapangan (PKL) | 3 | ✅ | M | M | M | M | | | | | | | | M | M | |
+| FST-613 | Pra-Skripsi / Seminars | 2 | — | | M | M | M | | | | | | | | | | |
+| STA/B/C | MK Pilihan Peminatan 4 / MBKM | 3 | 🔄 | | M | M | M | | | | | M | M | M | M | M | M |
 | STA/B/C | MK Pilihan Peminatan 5 / MBKM | 3 | 🔄 | | M | M | M | | | | | M | M | M | M | M | M |
 | STA/B/C | MK Pilihan Peminatan 6 / MBKM | 3 | 🔄 | | M | M | M | | | | | M | M | M | M | M | M |
-| STA/B/C | MK Pilihan Peminatan 7 / MBKM | 3 | 🔄 | | M | M | M | | | | | M | M | M | M | M | M |
-| STA/B/C | MK Pilihan Peminatan 8 / MBKM | 3 | 🔄 | | M | M | M | | | | | M | M | M | M | M | M |
 | **SEMESTER 8** | | | | | | | | | | | | | | | | | |
-| FST-613 | Pra-Skripsi / Seminars | 2 | — | | M | M | M | | | | | | | | | | |
-| FST-714 | Skripsi / Capstone TA | 6 | ✅ | M | M | M | M | M | M | M | M | M | M | M | M | M | M |
-| MKU-203 | KPM (KKN Digital) | 3 | ✅ | M | | M | | | | | | | | | | | |
+| FST-714 | Skripsi / Tugas Akhir Murni | 6 | ✅ | M | M | M | M | M | M | M | M | M | M | M | M | M | M |
 
 ---
 
@@ -114,11 +112,11 @@
 | **SI-BK02** | Data Management, Governance & Analytics | `FST-207` Basis Data (Sem 2), `STI-402` Data Warehouse & BI (Sem 4), `STI-503` Data Mining (Sem 5) | ✅ 100% |
 | **SI-BK03** | IT Infrastructure, Cloud, OS & Networks | `STI-305` OS (Sem 3), `STI-307` Jarkom (Sem 3), `STI-404` Cloud (Sem 4), `STI-504` IoT (Sem 5) | ✅ 100% |
 | **SI-BK04** | Project Management & Agile | `STI-506` Manajemen Proyek TI (Sem 5), `STC-06` Agile Practices (Sem 5-7) | ✅ 100% |
-| **SI-BK05** | Information Systems Practicum & Capstone | `FST-610` Capstone Project (Sem 6), `FST-612` PKL (Sem 7), `FST-714` Skripsi (Sem 8) | ✅ 100% |
+| **SI-BK05** | Information Systems Practicum & Capstone | `FST-610` Capstone Project (Sem 7), `FST-612` PKL (Sem 7), `FST-714` Skripsi (Sem 8) | ✅ 100% |
 | **SI-BK06** | IT Governance, Strategy, Sourcing & EA | `STB-04` COBIT (Sem 5-7), `STB-05` ITIL (Sem 5-7), `STB-06` TOGAF (Sem 5-7) | ✅ 100% |
-| **SI-BK07** | Systems Analysis & Application Development | `FST-102` Algo (Sem 1), `FST-203` Struktur Data (Sem 2), `STI-306` Web FE (Sem 3), `STI-407` Web BE (Sem 4), `STI-505` Mobile (Sem 5), `STI-701` Platform Eng (Sem 7), `STC-03` Vertikal App | ✅ 100% |
+| **SI-BK07** | Systems Analysis & Application Development | `FST-102` Algo (Sem 1), `FST-203` Struktur Data (Sem 2), `STI-306` Web FE (Sem 3), `STI-407` Web BE (Sem 4), `STI-505` Mobile (Sem 5), `STI-604` Platform Eng (Sem 6), `STC-03` Vertikal App | ✅ 100% |
 | **SI-BK08** | Secure Computing, Cybersecurity & Risk | `FST-206` Etika Digital (Sem 2), `STI-405` Keamanan Dasar (Sem 4), `STI-603` Keamanan Lanjut (Sem 6), `STB-01` Forensik, `STB-03` Cyber Risk | ✅ 100% |
-| **SI-BK09** | Digital Innovation, Platform & Architecture | `STI-701` Digital Platform Engineering (Sem 7), `STC-05` SaaS Architecture (Sem 5-7) | ✅ 100% |
+| **SI-BK09** | Digital Innovation, Platform & Architecture | `STI-604` Digital Platform Engineering (Sem 6), `STC-05` SaaS Architecture (Sem 5-7) | ✅ 100% |
 | **SI-BK10** | Object-Oriented Paradigms & Data Structures| `FST-102` Algo (Sem 1), `FST-203` Struktur Data & Strategi Algoritma (Sem 2) | ✅ 100% |
 | **SI-BK11** | Applied Mathematics, Logic & Statistics | `STI-102` Kalkulus (Sem 1), `STI-103` Logika (Sem 1), `STI-201` Diskrit (Sem 2), `STI-202` Aljabar (Sem 2), `FST-408` Probstat (Sem 4), `STA-02` KomNum | ✅ 100% |
 | **SI-BK12** | Social, Ethical & Professional Issues | `MKU-101` Agama, `MKU-102` Pancasila, `FST-206` Etika & Hukum Digital (Sem 2), `MKU-401` KWN | ✅ 100% |
@@ -128,7 +126,7 @@
 | **SI-BK16** | User Experience Research, UI & Design Thinking| `STI-303` UI/UX Design (Sem 3), `STC-01` UX Research & Design (Sem 5-7) | ✅ 100% |
 | **SI-BK17** | Data Mining, Visual Analytics & BI | `STI-402` Data Warehouse & BI (Sem 4), `STI-503` Data Mining & Visualization (Sem 5) | ✅ 100% |
 | **SI-BK18** | Emerging Technologies, Spatial XR & Agent | `STI-504` IoT (Sem 5), `STA-03` Agent, `STA-05` Conv AI, `STA-06` Smart Surv, `STC-04` XR | ✅ 100% |
-| **SI-BK19** | Digital Technopreneurship & Product Mgmt | `MKU-202` KWU I (Sem 2), `STI-702` Startup Digital (Sem 7), `STC-06` Digital Product Mgmt | ✅ 100% |
+| **SI-BK19** | Digital Technopreneurship & Product Mgmt | `MKU-202` KWU I (Sem 2), `STI-701` Inovasi Startup (Sem 7), `STC-06` Digital Product Mgmt | ✅ 100% |
 
 ---
 
@@ -186,8 +184,8 @@ Matriks ini menentukan mata kuliah tolok ukur (*benchmark courses*) dan metode p
 | | **KK2** | `STI-402` DW-BI, `STI-503` Data Mining, `STA-01` DSS | Laporan ETL Pipeline, Data Warehouse Schema & Dashboard Analitik Bisnis | $\ge 75\%$ Mahasiswa Skor $\ge 70$ (B) |
 | | **KK3** | `STI-307` Jarkom, `STI-504` IoT, `STI-602` Smart City, `STB-02` DevOps | Prototyping Hardware IoT Sensor, Konfigurasi Cloud & Pipeline CI/CD | $\ge 75\%$ Mahasiswa Skor $\ge 70$ (B) |
 | | **KK4** | `STI-603` Keamanan Lanjut, `STB-03` Risk Mgmt, `STB-04` COBIT, `STB-06` TOGAF | Dokumen Audit Keamanan, Penilaian Risiko (ISO 27001) & Matriks Tata Kelola | $\ge 70\%$ Mahasiswa Skor $\ge 70$ (B) |
-| | **KK5** | `STI-303` UI/UX, `STI-505` Mobile, `STI-701` Platform Eng, `STC-02` Otomasi BPMN | Produk Aplikasi Mobile/Web Terintegrasi, Desain Figma & Engine Alur Kerja | $\ge 75\%$ Mahasiswa Skor $\ge 70$ (B) |
-| | **KK6** | `STI-506` Manpro TI, `STI-702` Startup Digital, `STC-06` Digital Product Mgmt | Produk Minimum Layak (MVP), Pitch Deck Bisnis & Artefak Manajemen Agile | $\ge 75\%$ Mahasiswa Skor $\ge 70$ (B) |
+| | **KK5** | `STI-303` UI/UX, `STI-505` Mobile, `STI-604` Platform Eng, `STC-02` Otomasi BPMN | Produk Aplikasi Mobile/Web Terintegrasi, Desain Figma & Engine Alur Kerja | $\ge 75\%$ Mahasiswa Skor $\ge 70$ (B) |
+| | **KK6** | `STI-506` Manpro TI, `STI-701` Startup Digital, `STC-06` Digital Product Mgmt | Produk Minimum Layak (MVP), Pitch Deck Bisnis & Artefak Manajemen Agile | $\ge 75\%$ Mahasiswa Skor $\ge 70$ (B) |
 
 ---
 

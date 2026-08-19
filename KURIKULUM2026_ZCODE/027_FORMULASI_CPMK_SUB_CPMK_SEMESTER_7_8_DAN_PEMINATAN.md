@@ -11,26 +11,7 @@
 
 ---
 
-### 1. STI-701: Digital Platform Engineering (3 SKS, +P)
-* **Profil Lulusan Terkait:** PL-02, PL-04
-* **CPL yang Dibebankan:** **KK5** (Arsitektur Platform Terdistribusi), **P4** (Microservices Plumbing)
-
-| Kode CPMK | Rumusan CPMK (Formula ABCD) | Level Bloom |
-|---|---|:---:|
-| **CPMK-1** | Mahasiswa mampu **merancang** arsitektur sistem terdistribusi berskala besar (*Distributed Systems: Microservices Pattern, Service Registry, API Gateway Kong/Ocelot, Event-Driven Architecture*). | **C6** |
-| **CPMK-2** | Mahasiswa mampu **mengimplementasikan** komunikasi asinkronus berkecepatan tinggi antar-layanan menggunakan *Message Broker / Streaming Platform* (**Apache Kafka / RabbitMQ**). | **C4** |
-| **CPMK-3** | Mahasiswa mampu **membangun** strategi *Distributed Caching* (**Redis**) dan manajemen isolasi basis data terdistribusi (*Database-per-service & Saga Pattern*). | **C5** |
-| **CPMK-4** | Mahasiswa mampu **mengonfigurasi** *Continuous Integration / Continuous Deployment (CI/CD)* pipeline menggunakan GitHub Actions / GitLab CI untuk otomatisasi testing dan rilis. | **C4** |
-
-#### Rincian Sub-CPMK:
-* **Sub-CPMK 1.1:** Mampu mendekomposisi arsitektur monolitik menjadi bounded context microservices (C4).
-* **Sub-CPMK 1.2:** Mampu memprogram producer, consumer, dan topic partition di Apache Kafka (C4).
-* **Sub-CPMK 1.3:** Mampu mengimplementasikan caching Redis untuk optimasi query throughput tinggi (C4).
-* **Sub-CPMK 1.4:** Mampu membangun pipeline CI/CD otomatis dengan pengujian unit test dan docker build (C5).
-
----
-
-### 2. STI-702: Inovasi Teknologi dan Startup Digital (3 SKS, +P)
+### 1. STI-701: Inovasi Teknologi dan Startup Digital (3 SKS, +P — Semester 7)
 * **Profil Lulusan Terkait:** PL-04 (Technopreneur)
 * **CPL yang Dibebankan:** **KK6** (Inkubasi Produk Digital & Startup Creation), **KU2** (Pitching)
 
@@ -42,14 +23,33 @@
 | **CPMK-4** | Mahasiswa mampu **menyusun** dokumen presentasi investasi (*Investor Pitch Deck*) dan mempresentasikannya di hadapan panel investor/mentor industri. | **C6, KU2** |
 
 #### Rincian Sub-CPMK:
-* **Sub-CPMK 2.1:** Mampu merancang Lean Canvas dan hipotesis eksperimen validasi (C4).
-* **Sub-CPMK 2.2:** Mampu membuat landing page interaktif dengan tracking analitik konversi (C5).
-* **Sub-CPMK 2.3:** Mampu menghitung unit economics (Customer Acquisition Cost vs Lifetime Value) (C4).
-* **Sub-CPMK 2.4:** Mampu menyajikan pitch deck 10-slide terstandar venture capital secara meyakinkan (C6).
+* **Sub-CPMK 1.1:** Mampu merancang Lean Canvas dan hipotesis eksperimen validasi (C4).
+* **Sub-CPMK 1.2:** Mampu membuat landing page interaktif dengan tracking analitik konversi (C5).
+* **Sub-CPMK 1.3:** Mampu menghitung unit economics (Customer Acquisition Cost vs Lifetime Value) (C4).
+* **Sub-CPMK 1.4:** Mampu menyajikan pitch deck 10-slide terstandar venture capital secara meyakinkan (C6).
 
 ---
 
-### 3. FST-612: Praktik Kerja Lapangan (PKL) (3 SKS, +P)
+### 2. FST-610: Capstone Project FSTI (3 SKS, +P — Bersama FSTI — Semester 7)
+* **Profil Lulusan Terkait:** Seluruh PL (PL-01 s.d. PL-06)
+* **CPL yang Dibebankan:** **S1, KU1, KU2, KU3, P1-P4, KK1-KK6** (Integrasi Seluruh Kompetensi OBE)
+
+| Kode CPMK | Rumusan CPMK (Formula ABCD) | Level Bloom |
+|---|---|:---:|
+| **CPMK-1** | Mahasiswa mampu **merumuskan** solusi rekayasa komprehensif terhadap permasalahan nyata multidisiplin di industri/masyarakat melalui kolaborasi tim lintas prodi FSTI. | **C6** |
+| **CPMK-2** | Mahasiswa mampu **merancang** dan **membangun** artefak produk digital utuh (*Working Software / Hardware-Software Integration / AI System*) yang mematuhi standar kualitas industri. | **C6** |
+| **CPMK-3** | Mahasiswa mampu **menguji** dan **memvalidasi** kinerja sistem secara menyeluruh (*End-to-End Testing, Usability Testing, Stress Testing*). | **C5** |
+| **CPMK-4** | Mahasiswa mampu **mengomunikasikan** hasil produk digital secara profesional melalui laporan teknis, pameran poster, dan demonstrasi produk (*Product Demo Day*). | **KU2, A3** |
+
+#### Rincian Sub-CPMK:
+* **Sub-CPMK 2.1:** Mampu menyusun dokumen *Software Architecture Document (SAD)* dan rencana kerja sprint tim (C5).
+* **Sub-CPMK 2.2:** Mampu mengimplementasikan integrasi frontend, backend, database, dan AI/IoT service (C6).
+* **Sub-CPMK 2.3:** Mampu melaksanakan pengujian fungsional dan pengujian beban kinerja produk (C5).
+* **Sub-CPMK 2.4:** Mampu mempresentasikan purwarupa kerja di hadapan dewan penguji dan pemangku kepentingan (C5).
+
+---
+
+### 3. FST-612: Praktik Kerja Lapangan (PKL) (3 SKS, +P — Semester 7)
 * **Profil Lulusan Terkait:** Seluruh PL
 * **CPL yang Dibebankan:** **S1, KU1, KU2, KU3, KK3, KK5** (Pengalaman Industri Nyata)
 
@@ -61,7 +61,7 @@
 
 ---
 
-### 4. FST-613: Pra-Skripsi / Seminars (2 SKS, Teori — Semester 8)
+### 4. FST-613: Pra-Skripsi / Seminars (2 SKS, Teori — Semester 7)
 * **Profil Lulusan Terkait:** Seluruh PL
 * **CPL yang Dibebankan:** **KU1, KU2, KU3** (Diseminasi Proposal Penelitian)
 
@@ -72,7 +72,7 @@
 
 ---
 
-### 5. FST-714: Skripsi / Capstone TA (6 SKS, +P — Semester 8)
+### 5. FST-714: Skripsi / Tugas Akhir Murni (6 SKS, +P — Semester 8)
 * **Profil Lulusan Terkait:** Seluruh PL (Mahkota Kelulusan Sarjana)
 * **CPL yang Dibebankan:** **Pemenuhan Komprehensif 14 CPL (S1, KU1-3, P1-4, KK1-6)**
 
@@ -82,17 +82,6 @@
 | **CPMK-2** | Mahasiswa mampu **melakukan** pengujian empiris, evaluasi komparatif metrik performa, dan pembahasan hasil riset secara mendalam. | **C5** |
 | **CPMK-3** | Mahasiswa mampu **menyusun** Naskah Skripsi lengkap berstandar akademik dan artikel ilmiah yang siap dipublikasikan pada jurnal terakreditasi / konferensi internasional. | **C6, KU2** |
 | **CPMK-4** | Mahasiswa mampu **mempertahankan** temuan riset dan karya sistem dalam Sidang Ujian Tugas Akhir (Pendadaran) secara saintifik dan etis. | **C6, S1** |
-
----
-
-### 6. MKU-203: Kuliah Pengabdian Masyarakat (KPM / KKN) (3 SKS, +P)
-* **Profil Lulusan Terkait:** Seluruh PL
-* **CPL yang Dibebankan:** **S1** (Pelayanan Masyarakat), **KU1** (Penerapan Solusi Digital Desa)
-
-| Kode CPMK | Rumusan CPMK (Formula ABCD) | Level Bloom |
-|---|---|:---:|
-| **CPMK-1** | Mahasiswa mampu **menganalisis** permasalahan sosial-ekonomi di komunitas masyarakat/desa sasaran. | **C4** |
-| **CPMK-2** | Mahasiswa mampu **mengimplementasikan** program kerja pemberdayaan teknologi digital (*Desa Cerdas / Digitalisasi UMKM Desa*) secara partisipatif dan berkelanjutan. | **C6, A3** |
 
 ---
 

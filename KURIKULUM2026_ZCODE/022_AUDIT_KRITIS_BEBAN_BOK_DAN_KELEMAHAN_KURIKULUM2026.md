@@ -54,35 +54,35 @@ Visualisasi Konsentrasi BoK dalam Kurikulum 2026:
   * Mahasiswa P2 **diarahkan** mengambil kombinasi seimbang: 2 MK Teknis (`STB-01 Forensik` + `STB-02 DevOps`) + 1 MK Arsitektur (`STB-06 TOGAF`) + maksimal 1 MK Tata Kelola (`STB-03` atau `STB-04`).
   * RPS masing-masing harus tegas: STB-03 (ISO 27001/31000 Risk), STB-04 (COBIT 2019 IT Alignment), STB-05 (ITIL 4 Service Value Chain).
 
-### 3.3 Integrasi Layanan Cerdas (Sem 6) vs Digital Platform Engineering (Sem 7)
-* **Masalah:** `STI-601 Integrasi AI` vs `STI-701 Platform Engineering`.
-* **Potensi Redundansi:** Keduanya bersinggungan di materi *API Gateway, Microservices, dan Container/Docker*.
+### 3.3 Integrasi Layanan Cerdas (Sem 6) vs Digital Platform Engineering (Sem 6)
+* **Pembedaan Ranah Arsitektur:** `STI-601 Integrasi Layanan Cerdas AI` (3 SKS, +P) vs `STI-604 Digital Platform Engineering` (3 SKS, +P).
 * **Garis Batas Silabus yang Ditetapkan:**
-  * **STI-601 (Sem 6):** Fokus pada **Machine Learning Serving Layer**: Membungkus model AI (PyTorch/ONNX) menjadi API berkecepatan tinggi, Vector Database (Milvus/Pinecone), RAG Pipeline, dan batch/stream inference.
-  * **STI-701 (Sem 7):** Fokus pada **Enterprise Platform Plumbing**: Event-Driven Architecture, Message Broker (Apache Kafka/RabbitMQ), Service Mesh (Istio), distributed caching (Redis), dan high-availability infrastructure.
+  * **STI-601 (Sem 6):** Fokus pada **Machine Learning Serving Layer**: Membungkus model AI (PyTorch/ONNX) menjadi API berkecepatan tinggi, Vector Database (Milvus/Pinecone/Chroma), RAG Pipeline, dan batch/stream inference.
+  * **STI-604 (Sem 6):** Fokus pada **Enterprise Platform Plumbing & Scalability**: Event-Driven Architecture, Message Broker (Apache Kafka/RabbitMQ), Service Mesh (Istio), distributed caching (Redis), API Gateway, dan high-availability microservices infrastructure.
 
 ---
 
-## 4. ANOMALI BEBAN SEMESTER: RESOLUSI *"SEMESTER 5 OVERLOAD TRAP"* — ✅ TERSELESAIKAN
+## 4. ANOMALI BEBAN SEMESTER: RESOLUSI BEBAN TINGKAT AKHIR (SEM 5–8) — ✅ TERSELESAIKAN
 
 ### 4.1 Peta Sebaran Mata Kuliah Praktikum Laboratorium (+P / Hands-on) Terkini
 
 ```
-Distribusi Mata Kuliah Praktikum Lab (+P) Pasca-Pertukaran:
-Sem 1: █ (1 MK / 3 SKS)
-Sem 2: ██ (2 MK / 6 SKS)
-Sem 3: ███ (3 MK / 9 SKS)
-Sem 4: ███ (3 MK / 9 SKS: ML, DW-BI, Web BE) ──→ Sangat Seimbang
-Sem 5: ████ (4 MK Wajib Lab + 1 MK Manpro TI Teori) ──→ BEBAN AMAN & SEHAT
-Sem 6: ███ + 🔄 (3 MK Wajib Lab + Pilihan)
-Sem 7: ███ + 🔄 (3 MK Wajib Lab + Pilihan)
-Sem 8: █ (Skripsi / Capstone TA)
+Distribusi Mata Kuliah Praktikum Lab (+P) & Proyek Terkini:
+Sem 1: █ (1 MK / 3 SKS - Algoritma)
+Sem 2: ██ (2 MK / 6 SKS - Struktur Data, Basis Data)
+Sem 3: ████ (4 MK / 12 SKS - APSI, UI/UX, Web FE, Jarkom)
+Sem 4: ███ (3 MK / 9 SKS - ML, DW-BI, Web BE) ──→ Sangat Seimbang
+Sem 5: ████ + 🤝 (4 MK Lab: DL, Data Mining, IoT, Mobile + KPM Digital 3 SKS + 1 Pilihan)
+Sem 6: ████ (4 MK Lab: Integrasi AI, Smart City, Platform Eng, Metpen + 2 Pilihan)
+Sem 7: ████ (4 MK Proyek/Lab: Startup, Capstone FSTI, PKL, Pra-Skripsi + 3 Pilihan)
+Sem 8: █ (Skripsi Murni 6 SKS - Single Track Fokus)
 ```
 
-### 4.2 Hasil Resolusi Penyeimbangan Semester 4 & 5
-* **Semester 4 (Genap - 19 SKS):** Mengakomodasi `STI-402 DW-BI` (+P, 3 SKS) bersama `Machine Learning` (+P, 3 SKS) dan `Web Back End` (+P, 3 SKS). Total 3 MK Lab (+ 4 MK Teori & MKWU) $\rightarrow$ **Sangat Seimbang**.
-* **Semester 5 (Ganjil - 21 SKS):** Mengakomodasi `STI-506 Manpro TI` (Non-+P, 3 SKS). Total 4 MK Lab Wajib (Deep Learning, Data Mining, IoT, Mobile) + 1 MK Manajerial (Manpro TI).
-* **Dampak Keunggulan Tambahan:** Pembelajaran *Manpro TI* di Semester 5 kini berada tepat **1 semester sebelum eksekusi *Capstone Project* di Semester 6**, memberikan retensi metodologi *Agile/Scrum* yang optimal bagi mahasiswa.
+### 4.2 Hasil Resolusi Penyeimbangan Semester 5 s.d. 8
+* **Semester 5 (21 SKS, 7 MK):** Mengakomodasi 5 MK Core STI (Deep Learning, Data Mining, IoT, Mobile App, Manpro TI) + `MKU-203 KPM (KKN Digital)` (3 SKS) + 1 MK Pilihan (3 SKS). Pengabdian masyarakat tuntas di semester 5.
+* **Semester 6 (20 SKS, 7 MK):** Mengakomodasi `STI-604 Digital Platform Engineering` (+P, 3 SKS), `Integrasi AI` (+P, 3 SKS), `Smart City` (+P, 3 SKS), `Keamanan Lanjut` (3 SKS), `Metpen` (2 SKS) + 2 MK Pilihan (6 SKS) / MBKM.
+* **Semester 7 (20 SKS, 7 MK):** Mengakomodasi `STI-701 Inovasi Startup` (+P, 3 SKS), `FST-610 Capstone Project FSTI` (+P, 3 SKS), `FST-612 PKL` (+P, 3 SKS), `FST-613 Pra-Skripsi` (2 SKS) + 3 MK Pilihan (9 SKS) / MBKM. Puncak rekayasa multidisiplin dan seminar proposal.
+* **Semester 8 (6 SKS, 1 MK):** `FST-714 Skripsi / Tugas Akhir` (6 SKS) murni tanpa beban perkuliahan teori, menjamin mahasiswa fokus menyelesaikan riset dan lulus tepat waktu ($\le 4$ tahun).
 
 ---
 

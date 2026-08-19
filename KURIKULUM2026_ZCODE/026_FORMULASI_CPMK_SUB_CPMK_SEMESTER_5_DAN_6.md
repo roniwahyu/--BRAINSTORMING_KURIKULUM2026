@@ -137,19 +137,64 @@
 
 | Kode CPMK | Rumusan CPMK (Formula ABCD) | Level Bloom |
 |---|---|:---:|
+### 6. MKU-203: Kuliah Pengabdian Masyarakat / KKN Digital (3 SKS, +P)
+* **Profil Lulusan Terkait:** Seluruh PL (PL-01 s.d. PL-06)
+* **CPL yang Dibebankan:** **S1** (Kepedulian Sosial & Integritas), **KU1** (Problem Solving di Masyarakat), **KU2** (Komunikasi Komunitas)
+
+| Kode CPMK | Rumusan CPMK (Formula ABCD) | Level Bloom |
+|---|---|:---:|
+| **CPMK-1** | Mahasiswa mampu **mengidentifikasi** permasalahan dan potensi transformasi digital pada masyarakat mitra, desa, atau UMKM secara partisipatif. | **C4, A3** |
+| **CPMK-2** | Mahasiswa mampu **merancang** dan **mengimplementasikan** program kerja pemberdayaan berbasis teknologi informasi (literasi digital, sistem informasi desa, website UMKM, otomasi administrasi). | **C6** |
+| **CPMK-3** | Mahasiswa mampu **mengevaluasi** dampak program pengabdian dan menyusun laporan pertanggungjawaban serta video dokumentasi luaran pengabdian masyarakat. | **C5, KU2** |
+
+#### Rincian Sub-CPMK:
+* **Sub-CPMK 6.1:** Mampu melakukan survei lapangan dan Focus Group Discussion (FGD) bersama perangkat desa/mitra (C4).
+* **Sub-CPMK 6.2:** Mampu mengeksekusi solusi sistem dan teknologi informasi terapan sesuai kebutuhan riil masyarakat (C6).
+* **Sub-CPMK 6.3:** Mampu mendiseminasikan hasil luaran KKN Digital pada publikasi media massa atau seminar pengabdian (C5).
+
+---
+
+# BAGIAN II: FORMULASI MATA KULIAH WAJIB SEMESTER 6 (20 SKS)
+
+---
+
+### 7. STI-601: Integrasi Layanan Cerdas Berbasis AI (3 SKS, +P)
+* **Profil Lulusan Terkait:** PL-01 (Intelligent IS Dev), PL-03 (Smart Sys Integrator)
+* **CPL yang Dibebankan:** **P2** (Integrasi AI), **KK1** (AI Deployment & API Orchestration)
+
+| Kode CPMK | Rumusan CPMK (Formula ABCD) | Level Bloom |
+|---|---|:---:|
+| **CPMK-1** | Mahasiswa mampu **merancang** arsitektur *AI Serving Layer* untuk membungkus model pembelajaran mesin ke dalam RESTful API / gRPC berlatensi rendah (**FastAPI / TorchServe / Triton**). | **C6** |
+| **CPMK-2** | Mahasiswa mampu **mengonstruksi** alur kerja pencarian semantik dan *Retrieval-Augmented Generation (RAG)* menggunakan *Vector Database* (**Milvus / Pinecone / Chroma**). | **C6** |
+| **CPMK-3** | Mahasiswa mampu **mengintegrasikan** *Large Language Model (LLM)* dan model kecerdasan artifisial multimodal ke dalam aplikasi enterprise melalui teknik *Prompt Engineering* dan *Function Calling*. | **C5** |
+
+#### Rincian Sub-CPMK:
+* **Sub-CPMK 7.1:** Mampu melakukan konversi dan optimasi model AI ke format ONNX/TensorRT (C4).
+* **Sub-CPMK 7.2:** Mampu memprogram embedding generator dan indexing dokumen pada Vector DB (C4).
+* **Sub-CPMK 7.3:** Mampu membangun pipeline RAG terpadu dengan orkestrasi LangChain / LlamaIndex (C6).
+* **Sub-CPMK 7.4:** Mampu melakukan load testing dan monitoring performa latency API AI (C5).
+
+---
+
+### 8. STI-602: Smart City & Pemerintahan Digital (3 SKS, +P)
+* **Profil Lulusan Terkait:** PL-03, PL-05
+* **CPL yang Dibebankan:** **P3** (Sistem Perkotaan & SPBE), **KK3** (Integrasi Sensor & Data Spasial)
+
+| Kode CPMK | Rumusan CPMK (Formula ABCD) | Level Bloom |
+|---|---|:---:|
 | **CPMK-1** | Mahasiswa mampu **menganalisis** 6 pilar kota cerdas (*Smart Governance, Smart Economy, Smart Living, Smart Mobility, Smart Environment, Smart People*) dan arsitektur **SPBE** (*Sistem Pemerintahan Berbasis Elektronik*). | **C4** |
 | **CPMK-2** | Mahasiswa mampu **mengintegrasikan** data spasial dan sensor lingkungan (*Geographic Information System / GIS & IoT Sensors*) ke dalam dasbor command center kota cerdas. | **C5** |
 | **CPMK-3** | Mahasiswa mampu **merancang** purwarupa layanan publik digital inklusif (*Citizen-Centric E-Government Services*) yang memenuhi standar interoperabilitas data pemerintah (Satu Data Indonesia). | **C6** |
 
 #### Rincian Sub-CPMK:
-* **Sub-CPMK 7.1:** Mampu menelaah domain arsitektur SPBE (Layanan, Proses Bisnis, Data, Aplikasi, Keamanan) (C4).
-* **Sub-CPMK 7.2:** Mampu memproses peta spasial menggunakan QGIS dan visualisasi GeoJSON (C3).
-* **Sub-CPMK 7.3:** Mampu mengintegrasikan data sensor kualitas udara/banjir ke portal dashboard kota (C5).
-* **Sub-CPMK 7.4:** Mampu merancang arsitektur interoperabilitas data API antar-organisasi publik (C6).
+* **Sub-CPMK 8.1:** Mampu menelaah domain arsitektur SPBE (Layanan, Proses Bisnis, Data, Aplikasi, Keamanan) (C4).
+* **Sub-CPMK 8.2:** Mampu memprocess peta spasial menggunakan QGIS dan visualisasi GeoJSON (C3).
+* **Sub-CPMK 8.3:** Mampu mengintegrasikan data sensor kualitas udara/banjir ke portal dashboard kota (C5).
+* **Sub-CPMK 8.4:** Mampu merancang arsitektur interoperabilitas data API antar-organisasi publik (C6).
 
 ---
 
-### 8. STI-603: Keamanan Informasi Lanjut (3 SKS, Teori)
+### 9. STI-603: Keamanan Informasi Lanjut (3 SKS, Teori)
 * **Profil Lulusan Terkait:** PL-03, PL-05
 * **CPL yang Dibebankan:** **P3** (Keamanan Siber Enterprise), **KK3** (Incident Response), **KK4** (Investigasi & Forensik Digital)
 
@@ -160,33 +205,33 @@
 | **CPMK-3** | Mahasiswa mampu **melakukan** simulasi uji penetrasi keamanan (*Penetration Testing / Ethical Hacking*) pada jaringan dan sistem operasi menggunakan kerangka kerja MITRE ATT&CK. | **C4** |
 
 #### Rincian Sub-CPMK:
-* **Sub-CPMK 8.1:** Mampu melakukan akuisisi image bit-by-bit harddisk menggunakan alat forensik FTK Imager (C3).
-* **Sub-CPMK 8.2:** Mampu menganalisis artefak RAM memory dump menggunakan Volatility Framework (C4).
-* **Sub-CPMK 8.3:** Mampu menyusun *Playbook Penanganan Insiden Ransomware* dan *Data Breach* (C5).
-* **Sub-CPMK 8.4:** Mampu melakukan vulnerability scanning jaringan menggunakan Nessus / Nmap (C4).
+* **Sub-CPMK 9.1:** Mampu melakukan akuisisi image bit-by-bit harddisk menggunakan alat forensik FTK Imager (C3).
+* **Sub-CPMK 9.2:** Mampu menganalisis artefak RAM memory dump menggunakan Volatility Framework (C4).
+* **Sub-CPMK 9.3:** Mampu menyusun *Playbook Penanganan Insiden Ransomware* dan *Data Breach* (C5).
+* **Sub-CPMK 9.4:** Mampu melakukan vulnerability scanning jaringan menggunakan Nessus / Nmap (C4).
 
 ---
 
-### 9. FST-610: Capstone Project (3 SKS, +P — Bersama FSTI)
-* **Profil Lulusan Terkait:** Seluruh PL (PL-01 s.d. PL-06)
-* **CPL yang Dibebankan:** **S1, KU1, KU2, KU3, P1-P4, KK1-KK6** (Integrasi Seluruh Kompetensi OBE)
+### 10. STI-604: Digital Platform Engineering (3 SKS, +P)
+* **Profil Lulusan Terkait:** PL-02, PL-04
+* **CPL yang Dibebankan:** **KK5** (Arsitektur Platform Terdistribusi), **P4** (Microservices Plumbing)
 
 | Kode CPMK | Rumusan CPMK (Formula ABCD) | Level Bloom |
 |---|---|:---:|
-| **CPMK-1** | Mahasiswa mampu **merumuskan** solusi rekayasa komprehensif terhadap permasalahan nyata multidisiplin di industri/masyarakat melalui kolaborasi tim lintas prodi FSTI. | **C6** |
-| **CPMK-2** | Mahasiswa mampu **merancang** dan **membangun** artefak produk digital utuh (*Working Software / Hardware-Software Integration / AI System*) yang mematuhi standar kualitas industri. | **C6** |
-| **CPMK-3** | Mahasiswa mampu **menguji** dan **memvalidasi** kinerja sistem secara menyeluruh (*End-to-End Testing, Usability Testing, Stress Testing*). | **C5** |
-| **CPMK-4** | Mahasiswa mampu **mengomunikasikan** hasil produk digital secara profesional melalui laporan teknis, pameran poster, dan demonstrasi produk (*Product Demo Day*). | **KU2, A3** |
+| **CPMK-1** | Mahasiswa mampu **merancang** arsitektur sistem terdistribusi berskala besar (*Distributed Systems: Microservices Pattern, Service Registry, API Gateway Kong/Ocelot, Event-Driven Architecture*). | **C6** |
+| **CPMK-2** | Mahasiswa mampu **mengimplementasikan** komunikasi asinkronus berkecepatan tinggi antar-layanan menggunakan *Message Broker / Streaming Platform* (**Apache Kafka / RabbitMQ**). | **C4** |
+| **CPMK-3** | Mahasiswa mampu **membangun** strategi *Distributed Caching* (**Redis**) dan manajemen isolasi basis data terdistribusi (*Database-per-service & Saga Pattern*). | **C5** |
+| **CPMK-4** | Mahasiswa mampu **mengonfigurasi** *Continuous Integration / Continuous Deployment (CI/CD)* pipeline menggunakan GitHub Actions / GitLab CI untuk otomatisasi testing dan rilis. | **C4** |
 
 #### Rincian Sub-CPMK:
-* **Sub-CPMK 9.1:** Mampu menyusun dokumen *Software Architecture Document (SAD)* dan rencana kerja sprint tim (C5).
-* **Sub-CPMK 9.2:** Mampu mengimplementasikan integrasi frontend, backend, database, dan AI/IoT service (C6).
-* **Sub-CPMK 9.3:** Mampu melaksanakan pengujian fungsional dan pengujian beban kinerja produk (C5).
-* **Sub-CPMK 9.4:** Mampu mempresentasikan purwarupa kerja di hadapan dewan penguji dan pemangku kepentingan (C5).
+* **Sub-CPMK 10.1:** Mampu mendekomposisi arsitektur monolitik menjadi bounded context microservices (C4).
+* **Sub-CPMK 10.2:** Mampu memprogram producer, consumer, dan topic partition di Apache Kafka (C4).
+* **Sub-CPMK 10.3:** Mampu mengimplementasikan caching Redis untuk optimasi query throughput tinggi (C4).
+* **Sub-CPMK 10.4:** Mampu membangun pipeline CI/CD otomatis dengan pengujian unit test dan docker build (C5).
 
 ---
 
-### 10. FST-611: Metodologi Penelitian (2 SKS, Teori — Bersama FSTI)
+### 11. FST-611: Metodologi Penelitian (2 SKS, Teori — Bersama FSTI)
 * **Profil Lulusan Terkait:** Seluruh PL
 * **CPL yang Dibebankan:** **KU1** (Metode Ilmiah), **KU2** (Penulisan Ilmiah), **KU3** (Kajian Literatur Kritis)
 
@@ -194,13 +239,13 @@
 |---|---|:---:|
 | **CPMK-1** | Mahasiswa mampu **mengidentifikasi** kesenjangan riset (*Research Gap*) melalui telaah literatur sistematis (*Systematic Literature Review / SLR*) pada jurnal internasional/nasional bereputasi. | **C4** |
 | **CPMK-2** | Mahasiswa mampu **memilih** metode penelitian komputasi yang tepat (*Design Science Research Methodology / DSRM*, Eksperimen Kuantitatif, Analisis Performa Algoritma). | **C4** |
-| **CPMK-3** | Mahasiswa mampu **menyusun** proposal penelitian Tugas Akhir / Skripsi yang lengkap, sistematis, mematuhi etika akademik, dan siap diseminarkan pada forum Pra-Skripsi. | **C6** |
+| **CPMK-3** | Mahasiswa mampu **menyusun** proposal penelitian Tugas Akhir / Skripsi yang lengkap, sistematis, mematuhi etika akademik, dan siap diseminarkan pada forum Pra-Skripsi di Semester 7. | **C6** |
 
 #### Rincian Sub-CPMK:
-* **Sub-CPMK 10.1:** Mampu merumuskan latar belakang masalah, pertanyaan penelitian, dan batasan masalah yang terukur (C4).
-* **Sub-CPMK 10.2:** Mampu menggunakan Reference Manager (Mendeley/Zotero) dengan gaya sitasi IEEE/APA (C3).
-* **Sub-CPMK 10.3:** Mampu merancang kerangka konseptual penelitian dan rencana pengujian validitas instrumen riset (C5).
-* **Sub-CPMK 10.4:** Mampu menyusun draft Bab 1, Bab 2, dan Bab 3 Proposal Skripsi sesuai template resmi FSTI (C6).
+* **Sub-CPMK 11.1:** Mampu merumuskan latar belakang masalah, pertanyaan penelitian, dan batasan masalah yang terukur (C4).
+* **Sub-CPMK 11.2:** Mampu menggunakan Reference Manager (Mendeley/Zotero) dengan gaya sitasi IEEE/APA (C3).
+* **Sub-CPMK 11.3:** Mampu merancang kerangka konseptual penelitian dan rencana pengujian validitas instrumen riset (C5).
+* **Sub-CPMK 11.4:** Mampu menyusun draft Bab 1, Bab 2, dan Bab 3 Proposal Skripsi sesuai template resmi FSTI (C6).
 
 ---
 
