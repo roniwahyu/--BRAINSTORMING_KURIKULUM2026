@@ -40,7 +40,7 @@
 
 ---
 
-### 1.3 SEMESTER 5 — Analitik, IoT, Mobile & Proyek Manajerial (21 SKS)
+### 1.3 SEMESTER 5 — Analitik, IoT, Mobile & Pengabdian Masyarakat (21 SKS)
 
 | No | Kode | Mata Kuliah | SKS | +P | CPL | Kategori | Alokasi Laboratorium / Sifat |
 |---|---|---|:---:|:---:|---|---|---|
@@ -49,24 +49,24 @@
 | **3** | **STI-504** | **Internet of Things (IoT)** | **3** | **✅** | **P3, KK3** | **Core STI** | **Lab IoT & Sensor (ESP32/MQTT)** |
 | **4** | **STI-505** | **Pemrograman Aplikasi Mobile** | **3** | **✅** | **P4, KK5** | **Core STI** | **Lab Mobile Dev (Flutter/Android)** |
 | 5 | STI-506 | Manajemen Proyek TI | 3 | — | KK6 | Core STI | Kuliah Teori & Studi Kasus Agile |
-| **6** | **STA/B/C** | **MK Pilihan Peminatan 1** | **3** | 🔄 | Peminatan | Elektif | Lab Spesialisasi Peminatan |
-| **7** | **STA/B/C** | **MK Pilihan Peminatan 2** | **3** | 🔄 | Peminatan | Elektif | Lab Spesialisasi Peminatan |
-| | | **Total Semester 5** | **21** | | | | **4 MK Lab Wajib + 1-2 Lab Pilihan** |
+| **6** | **MKU-203** | **KPM (KKN Digital)** | **3** | **✅** | **S1, KU** | **MKWU** | **Pengabdian Masyarakat / Lapangan Mitra Desa** |
+| **7** | **STA/B/C** | **MK Pilihan Peminatan 1** | **3** | 🔄 | Peminatan | Elektif | Lab Spesialisasi Peminatan |
+| | | **Total Semester 5** | **21** | | | | **4 MK Lab Wajib + KPM + 1 Lab Pilihan** |
 
 ---
 
-### 1.4 SEMESTER 7 — Profesionalisasi, Inkubasi & Magang Industri (21 SKS)
+### 1.4 SEMESTER 7 — Puncak Rekayasa, Inkubasi & Seminar Proposal (20 SKS)
 
 | No | Kode | Mata Kuliah | SKS | +P | CPL | Kategori | Alokasi Laboratorium / Sifat |
 |---|---|---|:---:|:---:|---|---|---|
-| **1** | **STI-701** | **Digital Platform Engineering** | **3** | **✅** | **KK5** | **Core STI** | **Lab Cloud & Microservices (Docker/Kafka)** |
-| **2** | **STI-702** | **Inovasi Teknologi & Startup Digital** | **3** | **✅** | **KK6** | **Core STI** | **Lab Inkubasi Bisnis Digital & Prototyping** |
+| **1** | **STI-701** | **Inovasi Teknologi & Startup Digital** | **3** | **✅** | **KK6** | **Core STI** | **Lab Inkubasi Bisnis Digital & Prototyping** |
+| **2** | **FST-610** | **Capstone Project FSTI** | **3** | **✅** | **S1, KU, KK** | **FSTI** | **Lab Terpadu Multidisiplin FSTI** |
 | **3** | **FST-612** | **Praktik Kerja Lapangan (PKL)** | **3** | **✅** | **KU, KK** | **FSTI** | **Praktik Industri / Magang Mitra (1-3 Bulan)** |
-| **4** | **STA/B/C** | **MK Pilihan Peminatan 5** | **3** | 🔄 | Peminatan | Elektif | Lab Spesialisasi Peminatan / MBKM |
-| **5** | **STA/B/C** | **MK Pilihan Peminatan 6** | **3** | 🔄 | Peminatan | Elektif | Lab Spesialisasi Peminatan / MBKM |
-| **6** | **STA/B/C** | **MK Pilihan Peminatan 7** | **3** | 🔄 | Peminatan | Elektif | Lab Spesialisasi Peminatan / MBKM |
-| **7** | **STA/B/C** | **MK Pilihan Peminatan 8** | **3** | 🔄 | Peminatan | Elektif | Lab Spesialisasi Peminatan / MBKM |
-| | | **Total Semester 7** | **21** | | | | **3 MK Lab Wajib + Pilihan / MBKM** |
+| 4 | FST-613 | Pra-Skripsi / Seminars | 2 | — | KU1, KU2 | FSTI | Seminar Proposal Skripsi Terbuka |
+| **5** | **STA/B/C** | **MK Pilihan Peminatan 4** | **3** | 🔄 | Peminatan | Elektif | Lab Spesialisasi Peminatan / MBKM |
+| **6** | **STA/B/C** | **MK Pilihan Peminatan 5** | **3** | 🔄 | Peminatan | Elektif | Lab Spesialisasi Peminatan / MBKM |
+| **7** | **STA/B/C** | **MK Pilihan Peminatan 6** | **3** | 🔄 | Peminatan | Elektif | Lab Spesialisasi Peminatan / MBKM |
+| | | **Total Semester 7** | **20** | | | | **3 MK Proyek/Lab Wajib + Sempro + 3 MK Pilihan / MBKM** |
 
 ---
 
@@ -74,10 +74,10 @@
 
 | Kategori Laboratorium | Mata Kuliah Pengguna Utama (Semester Ganjil) | Software & Hardware Utama |
 |---|---|---|
-| **Lab Pemrograman & Rekayasa Perangkat Lunak** | FST-102 (Algoritma), STI-306 (Web FE), STI-505 (Mobile), STI-701 (Platform Eng) | Visual Studio Code, Node.js, Flutter SDK, Android Studio, Git |
+| **Lab Pemrograman & Rekayasa Perangkat Lunak** | FST-102 (Algoritma), STI-306 (Web FE), STI-505 (Mobile) | Visual Studio Code, Node.js, Flutter SDK, Android Studio, Git |
 | **Lab Jaringan, Cloud & Hardware IoT** | STI-307 (Jaringan Komputer), STI-504 (Internet of Things), STB-01 (Forensik), STB-02 (DevOps) | Cisco Packet Tracer, Wireshark, ESP32 Kit, Docker, VirtualBox |
 | **Lab AI, Data Science & GPU** | STI-501 (Deep Learning), STI-503 (Data Mining), STA-04 (MLOps), STA-05 (Conversational AI) | GPU NVIDIA CUDA / Google Colab Pro, PyTorch, Jupyter Lab, scikit-learn |
-| **Lab Desain UI/UX & Inkubasi Startup** | STI-303 (UI/UX Design), STC-01 (UX Research), STI-702 (Startup Digital) | Figma Pro, Miro, Balsamiq, Pitch Deck & Lean Canvas Tools |
+| **Lab Desain UI/UX & Inkubasi Startup** | STI-303 (UI/UX Design), STC-01 (UX Research), STI-701 (Startup Digital), FST-610 (Capstone) | Figma Pro, Miro, Balsamiq, Pitch Deck & Lean Canvas Tools |
 
 ---
 

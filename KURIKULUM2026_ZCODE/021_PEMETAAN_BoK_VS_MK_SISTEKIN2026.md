@@ -7,7 +7,7 @@
 **Konvensi Notasi:**
 - **`SI-BK01` s.d. `SI-BK19`**: Bahan Kajian IS2020 dari *Panduan Kurikulum Sarjana Sistem Informasi APTIKOM v2.0 (2024)*
 - **`TI-BK01` s.d. `TI-BK27`**: Bahan Kajian IT2017/CC-2020 dari *Panduan Kurikulum Sarjana Teknologi Informasi APTIKOM (2023)*
-- **Status:** Analisis Aktif — Keputusan P3 masih terbuka (lihat [018] §7.11)
+- **Status:** FINAL — Terkunci & Sempurna (Peminatan P1-P3 Seimbang @ 6 MK / 18 SKS; SI-BK15 Ditutup 100% oleh STC-02 Rekayasa & Otomasi Proses Bisnis)
 
 ---
 

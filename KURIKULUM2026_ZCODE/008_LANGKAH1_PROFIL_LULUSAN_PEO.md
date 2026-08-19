@@ -181,35 +181,30 @@
 
 ## 9. SELANJUTNYA: LANGKAH 2 — CPL FORMAL
 
-CPL (Capaian Pembelajaran Lulusan) akan diturunkan dari Profil Lulusan dalam 4 kategori:
+CPL (Capaian Pembelajaran Lulusan) diturunkan dari 6 Profil Lulusan dalam 4 kategori standar SN-Dikti & APTIKOM (Tepat **14 CPL**):
 
-| Kategori | Kode | Keterangan | Sumber |
-|---|---|---|---|
-| **Sikap (S)** | S1-S10 | SN-Dikti | Tabel 2 BUKU_OBE |
-| **Keterampilan Umum (KU)** | KU1-KU9 | SN-Dikti | Tabel 2 BUKU_OBE |
-| **Pengetahuan (P)** | P1-P5 | IS2020 / IT2017 | Domain of Practice |
-| **Keterampilan Khusus (KK)** | KK1-KK8 | IS2020 / IT2017 / CC2020 | Domain of Practice |
-
-**Target:** 10-15 CPL (sesuai instruksi BUKU_OBE)
+| Kategori | Kode CPL | Jumlah | Standar Rujukan |
+|---|---|:---:|---|
+| **Sikap (S)** | S1 | 1 CPL | SN-Dikti Permendikbudristek No. 53/2023 |
+| **Keterampilan Umum (KU)** | KU1, KU2, KU3 | 3 CPL | SN-Dikti Permendikbudristek No. 53/2023 |
+| **Pengetahuan (P)** | P1, P2, P3, P4 | 4 CPL | BoK IS2020 & IT2017 APTIKOM |
+| **Keterampilan Khusus (KK)** | KK1, KK2, KK3, KK4, KK5, KK6 | 6 CPL | @2 CPL per Peminatan Keahlian (P1, P2, P3) |
+| **TOTAL CPL** | | **14 CPL** | **100% Selaras SN-Dikti & Standar OBE APTIKOM** |
 
 ---
 
-## 9. LAMAN REFERENSI
+## 10. LAMAN REFERENSI
 
 | Dokumen | Fungsi |
 |---|---|
-| `001_LAPORAN_GAP_ANALYSIS_KURIKULUM2025_SISTEKIN.md` | Gap analysis vs 12-bagian BUKU_OBE |
-| `002_INSIGHT_KELEMAHAN_KURIKULUM2025_vs_BUKU_OBE.md` | 10 kelemahan berbukti kutipan |
-| `003_STRUKTUR_KURIKULUM2025_SISTEKIN_SAAT_INI.md` | Potret struktur saat ini |
-| `004_REKOMENDASI_REVISI_STRUKTUR_KURIKULUM2025_SISTEKIN.md` | 8 rekomendasi R1-R8 |
-| `005_STRUKTUR_REVISI_KURIKULUM_SISTEKIN_8_SEMESTER.md` | Struktur final revisi 8 semester |
-| `006_KEPUTUSAN_FINAL_ARAH_KURIKULUM_SISTEKIN.md` | Keputusan final arah kurikulum |
-| `007_BEDAH_STRUKTUR_KURIKULUM_SISTEKIN.md` | Analisis komprehensif |
-| `008_LANGKAH1_PROFIL_LULUSAN_PEO.md` | Dokumen ini — Profil Lulusan & PEO |
-| `009_LANGKAH2_CPL_FORMAL.md` | CPL Formal 9 CPL (Langkah 2) |
-| `AGENTS.md` | Handoff untuk agent baru |
-| `.agent-skills.md` (5 file) | Sub-agent skills |
+| `006_KEPUTUSAN_FINAL_ARAH_KURIKULUM_SISTEKIN.md` | Keputusan final arah kurikulum (148 SKS Paket / 184 Portofolio) |
+| `007_BEDAH_STRUKTUR_KURIKULUM_SISTEKIN.md` | Analisis komprehensif struktur kurikulum |
+| `008_LANGKAH1_PROFIL_LULUSAN_PEO.md` | Dokumen ini — Profil Lulusan & PEO (6 PL x 3 Jalur) |
+| `009_LANGKAH2_CPL_FORMAL.md` | CPL Formal 14 CPL (Langkah 2) |
+| `009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.md` | Pemetaan 14 CPL $\leftrightarrow$ 19 BoK SI & 27 BoK TI |
+| `020_ANALISIS_KESELARASAN_KURIKULUM_OBE_SISTEKIN.md` | Single Source of Truth Keselarasan Makro |
+| `AGENTS.md` | Memory consensus & ground truth |
 
 ---
 
-*Dokumen ini merupakan Langkah 1 dari Master Workflow: Profil Lulusan & PEO. Selanjutnya adalah Langkah 2: CPL Formal (S/KU/P/KK).*
+*Dokumen ini merupakan Langkah 1 dari Master Workflow: Profil Lulusan & PEO. Selanjutnya adalah Langkah 2: CPL Formal (14 CPL: S/KU/P/KK).*

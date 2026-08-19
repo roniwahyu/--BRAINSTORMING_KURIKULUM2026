@@ -16,7 +16,7 @@
 | **Lokasi Semester** | Semester 5 (Ganjil) — Inti Rekayasa Sistem Cerdas |
 | **CPL yang Dibangun** | **P3 (Pengetahuan Infrastruktur/IoT)** & **KK3 (Keterampilan Rekayasa Cloud/IoT)** |
 | **Prasyarat Wajib** | `STI-307 Jaringan Komputer` (Sem 3) & `STI-305 Sistem Operasi` (Sem 3) |
-| **Mata Kuliah Lanjutan** | Menjadi prasyarat untuk `STI-602 Smart City & SPBE` (Sem 6) & `FST-610 Capstone Project` |
+| **Mata Kuliah Lanjutan** | Menjadi prasyarat untuk `STI-602 Smart City & SPBE` (Sem 6) & `FST-610 Capstone Project` (Sem 7) |
 
 ---
 
@@ -36,7 +36,7 @@ IoT merupakan *enabler* data fisik untuk seluruh peminatan:
 * **P3 (Digital Platform Engineering):** IoT menyediakan *telemetry data* untuk visualisasi *real-time dashboard*, aplikasi mobile, dan otomasi proses bisnis.
 
 ### 2.4 Jembatan Prasyarat Menuju Smart City & Capstone Project
-* Di Semester 6, mahasiswa memprogram MK Wajib **`STI-602 Smart City dan Pemerintahan Digital` (3 SKS, +P)** dan **`FST-610 Capstone Project` (3 SKS, +P)**.
+* Di Semester 6, mahasiswa memprogram MK Wajib **`STI-602 Smart City dan Pemerintahan Digital` (3 SKS, +P)** dan di Semester 7 mengeksekusi **`FST-610 Capstone Project` (3 SKS, +P)**.
 * Kedua mata kuliah tersebut secara langsung mengasumsikan mahasiswa sudah menguasai mikrokontroler (ESP32), sensor array, dan protokol komunikasi IoT (MQTT / HTTP REST).
 
 ---
