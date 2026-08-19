@@ -146,8 +146,8 @@
 | 45 | STI-601 | Integrasi Layanan Cerdas Berbasis AI (+P) | 6 | 3 |  |  |  |  |  | V |  |  | V |  |  |  |  |  | 2 |
 | 46 | STI-602 | Smart City & Pemerintahan Digital (+P) | 6 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
 | 47 | STI-603 | Keamanan Informasi Lanjut | 6 | 3 |  |  |  |  |  |  | V |  |  |  | V | V |  |  | 3 |
-| 48 | STI-701 | Digital Platform Engineering (+P) | 7 | 3 |  |  |  |  |  |  |  | V |  |  |  |  | V |  | 2 |
-| 49 | STI-702 | Inovasi Teknologi & Startup Digital (+P) | 7 | 3 |  |  |  |  |  |  |  |  |  |  |  |  |  | V | 1 |
+| 48 | STI-604 | Digital Platform Engineering (+P) | 6 | 3 |  |  |  |  |  |  |  | V |  |  |  |  | V |  | 2 |
+| 49 | STI-701 | Inovasi Teknologi & Startup Digital (+P) | 7 | 3 |  |  |  |  |  |  |  |  |  |  |  |  |  | V | 1 |
 | MK PILIHAN P1: INTEGRATED SMART SYSTEMS (6 MK, 18 SKS) | | | | | | | | | | | | | | | | | | | |
 | 50 | STA-01 | Decision Support Systems (+P) | 5-7 | 3 |  |  |  |  |  | V |  |  | V |  |  |  |  |  | 2 |
 | 51 | STA-02 | Computational Methods & Numerics (+P) | 5-7 | 3 |  |  |  |  | V |  |  |  |  | V |  |  |  |  | 2 |
@@ -234,14 +234,14 @@
 | STI-601 | Integrasi Layanan Cerdas Berbasis AI | 3 | 6 |  |  |  |  |  | M |  |  | M |  |  |  |  |  | 2 |
 | STI-602 | Smart City & Pemerintahan Digital | 3 | 6 |  |  |  |  |  |  | M |  |  |  | M |  |  |  | 2 |
 | STI-603 | Keamanan Informasi Lanjut | 3 | 6 |  |  |  |  |  |  | M |  |  |  | M | M |  |  | 3 |
-| FST-610 | Capstone Project | 3 | 6 | M | M | M | M |  |  |  |  | M | M | M | M | M | M | 10 |
+| STI-604 | Digital Platform Engineering | 3 | 6 |  |  |  |  |  |  |  | M |  |  |  |  | M |  | 2 |
 | FST-611 | Metodologi Penelitian | 2 | 6 |  | M | M | M |  |  |  |  |  |  |  |  |  |  | 3 |
-| STI-701 | Digital Platform Engineering | 3 | 7 |  |  |  |  |  |  |  | M |  |  |  |  | M |  | 2 |
-| STI-702 | Inovasi Teknologi & Startup Digital | 3 | 7 |  |  |  |  |  |  |  |  |  |  |  |  |  | M | 1 |
+| STI-701 | Inovasi Teknologi & Startup Digital | 3 | 7 |  |  |  |  |  |  |  |  |  |  |  |  |  | M | 1 |
+| FST-610 | Capstone Project FSTI | 3 | 7 | M | M | M | M |  |  |  |  | M | M | M | M | M | M | 10 |
 | FST-612 | Praktik Kerja Lapangan (PKL) | 3 | 7 | M | M | M | M |  |  |  |  |  |  |  | M | M |  | 7 |
-| FST-613 | Pra-Skripsi / Seminars | 2 | 8 |  | M | M | M |  |  |  |  |  |  |  |  |  |  | 3 |
-| FST-714 | Skripsi / Capstone TA | 6 | 8 | M | M | M | M | M | M | M | M | M | M | M | M | M | M | 14 |
-| MKU-203 | KPM / KKN Digital | 3 | 8 | M |  | M |  |  |  |  |  |  |  |  |  |  |  | 2 |
+| FST-613 | Pra-Skripsi / Seminars | 2 | 7 |  | M | M | M |  |  |  |  |  |  |  |  |  |  | 3 |
+| FST-714 | Skripsi / Tugas Akhir | 6 | 8 | M | M | M | M | M | M | M | M | M | M | M | M | M | M | 14 |
+| MKU-203 | KPM / KKN Digital | 3 | 5 | M |  | M |  |  |  |  |  |  |  |  |  |  |  | 2 |
 | Jumlah I |  |  |  | 2 | 2 | 2 | 0 | 2 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 0 | 1 | |
 | Jumlah R |  |  |  | 1 | 4 | 2 | 0 | 3 | 7 | 7 | 7 | 3 | 3 | 5 | 1 | 6 | 2 | |
 | Jumlah M |  |  |  | 4 | 5 | 5 | 4 | 1 | 4 | 4 | 3 | 5 | 4 | 4 | 4 | 4 | 4 | |
@@ -267,10 +267,9 @@
 | STI-504 | Internet of Things (+P) | PL-03 | CPMK3 | Menguji keandalan dan keamanan dasar sistem IoT. | Sub-CPMK3.1 | Melakukan pengujian konektivitas, latensi, ketahanan, dan mendokumentasikan hasilnya. | P3 | Uji sistem + laporan | 30 |
 | STI-303 | UI/UX Design & Prototyping (+P) | PL-02 | CPMK1 | Melakukan riset pengguna dan merumuskan problem statement. | Sub-CPMK1.1 | Merumuskan Problem Statement dan How-Might-We dari wawancara/observasi pengguna. | KK5 | Studi kasus UX | 20 |
 | STI-303 | UI/UX Design & Prototyping (+P) | PL-02 | CPMK2 | Mengembangkan purwarupa interaktif high-fidelity menggunakan Figma. | Sub-CPMK2.1 | Membangun Atomic Design Components, Auto-Layout, dan interaksi mikro di Figma. | KK5 | Praktikum Figma + project | 40 |
-| STI-303 | UI/UX Design & Prototyping (+P) | PL-02 | CPMK3 | Mengevaluasi kualitas antarmuka melalui Usability Testing (SUS & Heuristic). | Sub-CPMK3.1 | Mengukur skor SUS dan menyusun laporan rekomendasi perbaikan UI/UX berbasis bukti. | KK5 | Laporan evaluasi | 40 |
-| STI-701 | Digital Platform Engineering (+P) | PL-02 | CPMK1 | Merancang arsitektur microservices dan API gateway untuk platform digital skalabel. | Sub-CPMK1.1 | Mengimplementasikan microservices menggunakan Docker dan API Gateway. | P4 | Lab hands-on | 25 |
-| STI-701 | Digital Platform Engineering (+P) | PL-02 | CPMK2 | Membangun pipeline CI/CD dan Infrastructure as Code untuk deployment otomatis. | Sub-CPMK2.1 | Membangun CI/CD pipeline menggunakan GitHub Actions dan Terraform/Ansible. | KK5 | Project DevOps PjBL | 40 |
-| STI-701 | Digital Platform Engineering (+P) | PL-02 | CPMK3 | Mengevaluasi kinerja dan skalabilitas platform digital dengan load testing. | Sub-CPMK3.1 | Melakukan load testing menggunakan k6/JMeter dan menganalisis metrik performa. | KK5 | Project evaluasi | 35 |
+| STI-604 | Digital Platform Engineering (+P) | PL-02 | CPMK1 | Merancang arsitektur microservices dan API gateway untuk platform digital skalabel. | Sub-CPMK1.1 | Mengimplementasikan microservices menggunakan Docker dan API Gateway. | P4 | Lab hands-on | 25 |
+| STI-604 | Digital Platform Engineering (+P) | PL-02 | CPMK2 | Membangun pipeline CI/CD dan Infrastructure as Code untuk deployment otomatis. | Sub-CPMK2.1 | Membangun CI/CD pipeline menggunakan GitHub Actions dan Terraform/Ansible. | KK5 | Project DevOps PjBL | 40 |
+| STI-604 | Digital Platform Engineering (+P) | PL-02 | CPMK3 | Mengevaluasi kinerja dan skalabilitas platform digital dengan load testing. | Sub-CPMK3.1 | Melakukan load testing menggunakan k6/JMeter dan menganalisis metrik performa. | KK5 | Project evaluasi | 35 |
 | STI-603 | Keamanan Informasi Lanjut | PL-05 | CPMK1 | Menganalisis teknik serangan lanjutan dan mensimulasikan penetration testing dasar. | Sub-CPMK1.1 | Mensimulasikan serangan OWASP Top 10 dengan Metasploit/Burp Suite. | P3 | Lab penetration testing | 25 |
 | STI-603 | Keamanan Informasi Lanjut | PL-05 | CPMK2 | Melakukan digital forensics analysis terhadap sistem file dan log jaringan. | Sub-CPMK2.1 | Menganalisis artefak digital dan merekonstruksi kronologi insiden keamanan. | KK3 | Lab forensik | 30 |
 | STI-603 | Keamanan Informasi Lanjut | PL-05 | CPMK3 | Menyusun kebijakan keamanan informasi organisasi berbasis ISO 27001. | Sub-CPMK3.1 | Membuat IS Policy Framework dan Risk Register mitigasi berbasis studi kasus. | KK4 | Project kebijakan | 45 |
@@ -279,7 +278,7 @@
 | STI-401 | Machine Learning (+P) | 100 | OK | | | | | | |
 | STI-504 | Internet of Things (+P) | 100 | OK | | | | | | |
 | STI-303 | UI/UX Design & Prototyping (+P) | 100 | OK | | | | | | |
-| STI-701 | Digital Platform Engineering (+P) | 100 | OK | | | | | | |
+| STI-604 | Digital Platform Engineering (+P) | 100 | OK | | | | | | |
 | STI-603 | Keamanan Informasi Lanjut | 100 | OK | | | | | | |
 
 ---
@@ -475,13 +474,13 @@
 | P1 | Fondasi sains & matematika komputasi | 10 | STI-202 Aljabar Linear, FST-408 Statistika, FST-714 Skripsi | 65 |  | Belum ada data |
 | P2 | Sistem informasi & metodologi SI | 16 | STI-401 Machine Learning, STI-601 Integrasi AI, FST-714 Skripsi | 70 |  | Belum ada data |
 | P3 | Infrastruktur TI & keamanan | 12 | STI-504 IoT, STI-602 Smart City, STI-603 Keamanan Lanjut | 70 |  | Belum ada data |
-| P4 | Platform digital & pengembangan aplikasi | 12 | STI-505 Mobile, STI-701 Platform Eng, FST-714 Skripsi | 70 |  | Belum ada data |
+| P4 | Platform digital & pengembangan aplikasi | 12 | STI-505 Mobile, STI-604 Platform Eng, FST-714 Skripsi | 70 |  | Belum ada data |
 | KK1 | AI/ML integration ke SI bisnis | 12 | STI-501 Deep Learning, STI-601 Integrasi AI, FST-610 Capstone | 75 |  | Belum ada data |
 | KK2 | Data engineering & ML pipeline | 7 | STI-501 Deep Learning, STI-503 Data Mining, STA-04 MLOps | 75 |  | Belum ada data |
 | KK3 | Cloud, IoT & infrastruktur terintegrasi | 12 | STI-504 IoT, STI-602 Smart City, STB-02 Cloud DevOps | 75 |  | Belum ada data |
 | KK4 | Audit, GRC & tata kelola TI | 8 | STI-603 Keamanan Lanjut, STB-04 COBIT, FST-612 PKL | 70 |  | Belum ada data |
-| KK5 | Platform digital skalabel & UI/UX | 14 | STI-303 UI/UX, STI-505 Mobile, STI-701 Platform Eng, STC-01 UXR | 75 |  | Belum ada data |
-| KK6 | Manajemen proyek & technopreneurship | 8 | STI-506 Manpro, STI-702 Startup, STC-06 Digital Product Mgmt | 75 |  | Belum ada data |
+| KK5 | Platform digital skalabel & UI/UX | 14 | STI-303 UI/UX, STI-505 Mobile, STI-604 Platform Eng, STC-01 UXR | 75 |  | Belum ada data |
+| KK6 | Manajemen proyek & technopreneurship | 8 | STI-506 Manpro, STI-701 Startup, STC-06 Digital Product Mgmt | 75 |  | Belum ada data |
 
 ---
 

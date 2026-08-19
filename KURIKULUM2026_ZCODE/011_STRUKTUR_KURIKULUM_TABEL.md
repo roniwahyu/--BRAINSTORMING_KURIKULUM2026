@@ -232,14 +232,14 @@ Total MK Wajib Praktikum (+P): **21 MK | 66 SKS** (**42,9%** dari Paket Ditempuh
 | 13 | STI-505 | Pemrograman Aplikasi Mobile | 3 | 5 | STI | Flutter/React Native cross-platform, Android Studio, integrasi API & sqlite |
 | 14 | STI-601 | Integrasi Layanan Cerdas Berbasis AI | 3 | 6 | STI | Model deployment FastAPI/Docker, MLOps, API orchestration & microservices |
 | 15 | STI-602 | Smart City dan Pemerintahan Digital | 3 | 6 | STI | Prototyping sistem sensor smart city, GIS mapping & portal SPBE |
-| 16 | FST-610 | Capstone Project | 3 | 6-7-8 | FSTI | Proyek lintas-prodi FSTI, pengembangan produk digital nyata & testing |
-| 17 | STI-701 | Digital Platform Engineering | 3 | 7 | STI | Microservices architecture, API Gateway, CI/CD pipeline, Redis/Kafka |
-| 18 | STI-702 | Inovasi Teknologi dan Startup Digital | 3 | 7 | STI | MVP prototyping, product validation, landing page & pitch deck interactive |
-| 19 | STA/STB/STC | 8 MK Pilihan Peminatan | 24 | 5-7 | STI | Lab hands-on spesialisasi P1 (Smart IS), P2 (Cloud & Cyber), P3 (Digital Platform) — 13 dari 18 MK elektif ber-+P |
-| 20 | FST-612 | Praktik Kerja Lapangan (PKL) | 3 | 6-7 | FSTI | Magang industri 1-3 bulan / proyek nyata perusahaan |
-| 21 | FST-714 | Skripsi / Capstone TA | 6 | 7-8 | FSTI | Pengembangan sistem/riset mandiri, coding & pengujian perangkat lunak |
-| 22 | MKU-203 | KPM (Kuliah Pengabdian Masyarakat / KKN) | 3 | Libur | MKWU | Implementasi teknologi digital untuk pengabdian masyarakat desa |
-| | **TOTAL WAJIB (+P)** | **21 MK** | **66** | | | **66 SKS wajib (42,9% dari 154 SKS) + 9–24 SKS MK pilihan +P** |
+| 16 | **STI-604** | **Digital Platform Engineering** | **3** | **6** | **STI** | **Microservices architecture, API Gateway, CI/CD pipeline, Redis/Kafka** |
+| 17 | **MKU-203** | **KPM (Kuliah Pengabdian Masyarakat / KKN Digital)** | **3** | **5** | **MKWU** | **Implementasi teknologi digital untuk pengabdian masyarakat desa** |
+| 18 | **STI-701** | **Inovasi Teknologi dan Startup Digital** | **3** | **7** | **STI** | **MVP prototyping, product validation, landing page & pitch deck interactive** |
+| 19 | **FST-610** | **Capstone Project FSTI** | **3** | **7** | **FSTI** | **Proyek terpadu lintas-prodi FSTI, pengembangan produk digital nyata & testing** |
+| 20 | FST-612 | Praktik Kerja Lapangan (PKL) | 3 | 7 | FSTI | Magang industri 1-3 bulan / proyek nyata perusahaan |
+| 21 | FST-714 | Skripsi / Tugas Akhir | 6 | 8 | FSTI | Pengembangan sistem/riset mandiri, coding & pengujian perangkat lunak murni |
+| 22 | STA/STB/STC | 6 MK Pilihan Peminatan | 18 | 5-7 | STI | Lab hands-on spesialisasi P1 (Smart IS), P2 (Cloud & Cyber), P3 (Digital Platform) — 13 dari 18 MK elektif ber-+P |
+| | **TOTAL WAJIB (+P)** | **21 MK** | **66** | | | **66 SKS wajib (44,6% dari 148 SKS) + 9–18 SKS MK pilihan +P** |
 
 ---
 
