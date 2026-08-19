@@ -1,9 +1,9 @@
 # 012 — MATRIKS TOTAL MK vs 14 CPL SISTEKIN 2026
 
-**Tanggal:** 18 Agustus 2026  
-**Status:** FINAL — Matriks Pemetaan CPL–MK Berbasis OBE (Terverifikasi Penuh Sesuai Dokumen 011, 020, 021, 022)  
-**Dasar:** 14 CPL SN-Dikti/APTIKOM + Portofolio 61 MK / 170 SKS (Beban Lulus Mahasiswa = 144 SKS)  
-**Distribusi SKS:** 8 MKWU (14 SKS) + 14 MK FSTI (36 SKS) + 30 MK STI (93 SKS) + 18 MK Pilihan (ambil 9 MK / 27 SKS)
+**Tanggal:** 19 Agustus 2026 (Rekonsiliasi Matematis Final)  
+**Status:** FINAL — Matriks Pemetaan CPL–MK Berbasis OBE (Terekonsiliasi Penuh Sesuai Dokumen 011, 020, 021, 022, 030)  
+**Dasar:** 14 CPL SN-Dikti/APTIKOM + Portofolio 67 MK / 184 SKS (Beban Paket 8 Semester = 154 SKS; Syarat Lulus Mahasiswa = Minimal 144 SKS)  
+**Distribusi SKS:** 8 MKWU (13 SKS) + 14 MK FSTI (38 SKS) + 27 MK STI Wajib (79 SKS) + 18 MK Pilihan (ambil 8 MK / 24 SKS)
 
 ---
 
@@ -16,9 +16,9 @@
 | **SMS** | Semester Rekomendasi Pemrograman |
 
 **Prefix Mata Kuliah:**
-* **MKU**: Mata Kuliah Umum Universitas Widyagama (8 MK, 14 SKS)
-* **FST-**: Mata Kuliah Bersama Fakultas Sains dan Teknologi (14 MK, 36 SKS)
-* **STI-**: Mata Kuliah Wajib Inti Program Studi SISTEKIN (30 MK, 93 SKS)
+* **MKU**: Mata Kuliah Umum Universitas Widyagama (8 MK, 13 SKS)
+* **FST-**: Mata Kuliah Bersama Fakultas Sains dan Teknologi (14 MK, 38 SKS)
+* **STI-**: Mata Kuliah Wajib Inti Program Studi SISTEKIN (27 MK, 79 SKS)
 * **STA-**: MK Pilihan Peminatan P1 (Integrated Smart Systems — 6 MK, 18 SKS)
 * **STB-**: MK Pilihan Peminatan P2 (Cloud Infrastructure & Cybersecurity — 6 MK, 18 SKS)
 * **STC-**: MK Pilihan Peminatan P3 (Digital Platform Engineering — 6 MK, 18 SKS)
@@ -27,7 +27,7 @@
 
 ## 2. MATRIKS PEMETAAN MK → 14 CPL
 
-### 2.1 MK WAJIB UNIVERSITAS (MKWU) — 8 MK, 14 SKS
+### 2.1 MK WAJIB UNIVERSITAS (MKWU) — 8 MK, 13 SKS
 
 | No | Kode | Mata Kuliah | SMS | SKS | +P | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 |
 |---|---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -39,11 +39,11 @@
 | 6 | MKU-401A| Agama II *(0 SKS)* | 4 | 0 | — | ● | | | | | | | | | | | | | |
 | 7 | MKU-402 | Kewirausahaan II *(0 SKS)* | 4 | 0 | — | | | | | | | | | | | | | | ● |
 | 8 | MKU-203 | KPM (KKN Digital) | 8 | 3 | ✅ | ● | | ● | | | | | | | | | | | |
-| | | **Subtotal MKWU** | | **14** | **1** | **5** | **0** | **2** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **2** |
+| | | **Subtotal MKWU** | | **13** | **1** | **5** | **0** | **2** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **2** |
 
 ---
 
-### 2.2 MK BERSAMA FAKULTAS (FSTI) — 14 MK, 36 SKS
+### 2.2 MK BERSAMA FAKULTAS (FSTI) — 14 MK, 38 SKS
 
 | No | Kode | Mata Kuliah | SMS | SKS | +P | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 |
 |---|---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -61,11 +61,11 @@
 | 12| FST-612 | Praktik Kerja Lapangan (PKL)| 7 | 3 | ✅ | ● | ● | ● | ● | | | | | | | | ● | ● | |
 | 13| FST-613 | Pra-Skripsi / Seminars | 8 | 2 | — | | ● | ● | ● | | | | | | | | | | |
 | 14| FST-714 | Skripsi / Capstone TA | 8 | 6 | ✅ | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● |
-| | | **Subtotal FSTI** | | **36** | **6** | **4** | **7** | **8** | **5** | **2** | **3** | **1** | **5** | **3** | **2** | **2** | **3** | **3** | **2** |
+| | | **Subtotal FSTI** | | **38** | **6** | **4** | **7** | **8** | **5** | **2** | **3** | **1** | **5** | **3** | **2** | **2** | **3** | **3** | **2** |
 
 ---
 
-### 2.3 MK WAJIB PRODI (STI) — 30 MK, 93 SKS
+### 2.3 MK WAJIB PRODI (STI) — 27 MK, 79 SKS
 
 | No | Kode | Mata Kuliah | SMS | SKS | +P | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 |
 |---|---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -92,12 +92,11 @@
 | 21| STI-505 | Pemrograman Aplikasi Mobile | 5 | 3 | ✅ | | | | | | | | ● | | | | | ● | |
 | 22| **STI-506**| **Manajemen Proyek TI** | **5** | **3** | **—** | | | | | | | | | | | | | | **●** |
 | 23| STI-601 | Integrasi Layanan Cerdas AI | 6 | 3 | ✅ | | | | | | ● | | | ● | | | | | |
-| 24| STI-602 | Smart City & SPBE | 6 | 3 | ✅ | | | | | | | ● | | | | ● | | | |
+| 24| STI-602 | Smart City dan Pemerintahan Digital | 6 | 3 | ✅ | | | | | | | ● | | | | ● | | | |
 | 25| STI-603 | Keamanan Informasi Lanjut | 6 | 3 | — | | | | | | | ● | | | | ● | ● | | |
 | 26| STI-701 | Digital Platform Engineering| 7 | 3 | ✅ | | | | | | | | ● | | | | | ● | |
 | 27| STI-702 | Startup Digital & Inovasi | 7 | 3 | ✅ | | | | | | | | | | | | | | ● |
-| 28| STA/B/C | MK Pilihan Peminatan (9 MK) | 5-7 | 27 | 🔄 | | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● |
-| | | **Subtotal STI (Wajib 30 MK)**| | **93** | **17** | **0** | **4** | **1** | **0** | **4** | **6** | **7** | **5** | **4** | **4** | **6** | **1** | **6** | **3** |
+| | | **Subtotal STI Wajib (27 MK)**| | **79** | **17** | **0** | **4** | **1** | **0** | **4** | **6** | **7** | **5** | **4** | **4** | **6** | **1** | **6** | **3** |
 
 ---
 

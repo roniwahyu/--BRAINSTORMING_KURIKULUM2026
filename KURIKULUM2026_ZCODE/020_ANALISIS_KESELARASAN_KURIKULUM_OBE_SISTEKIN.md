@@ -18,7 +18,7 @@ graph TD
     
     CPL --> BOK["<b>4. Body of Knowledge (BoK) Keterlacakan</b><br/>• IS2020: 19 Bahan Kajian (BK01 s.d. BK19)<br/>• IT2017: 14 Bahan Kajian Utama"]
     
-    BOK --> STRUKTUR["<b>5. Struktur Kurikulum 8 Semester & Mata Kuliah (Dokumen 010, 011, 012)</b><br/>• MKWU (Universitas): 8 MK (14 SKS, incl. KWU I 2 SKS)<br/>• MK Fakultas (FSTI): 14 MK (36 SKS)<br/>• MK Wajib Prodi (STI): 30 MK (89–93 SKS, incl. Sistem Operasi)<br/>• MK Pilihan Peminatan: 3 Peminatan Seimbang @ 6 MK / 18 SKS (Ambil 9 MK / 27 SKS)"]
+    BOK --> STRUKTUR["<b>5. Struktur Kurikulum 8 Semester & Mata Kuliah (Dokumen 010, 011, 012)</b><br/>• MKWU (Universitas): 8 MK (13 SKS, incl. KWU I 2 SKS)<br/>• MK Fakultas (FSTI): 14 MK (38 SKS)<br/>• MK Wajib Prodi (STI): 27 MK (79 SKS, incl. Sistem Operasi)<br/>• MK Pilihan Peminatan: 3 Peminatan Seimbang @ 6 MK / 18 SKS (Ambil 8 MK / 24 SKS)<br/>• Grand Total Portofolio: 67 MK / 184 SKS | Beban Terjadwal: 57 MK / 154 SKS (Lulus ≥144 SKS)"]
     
     STRUKTUR --> ASSESS["<b>6. Asesmen OBE, Capstone & MBKM (Dokumen 016, 019)</b><br/>• Capstone Design Kolaboratif Lintas-3-Prodi (6 SKS) vs Skripsi (6 SKS)<br/>• Program Magang MBKM hingga 20 SKS di Sem 6/7<br/>• Rasio Hands-on Lab (+P) = ~47%"]
 ```
@@ -98,7 +98,7 @@ Telah ditetapkan restrukturisasi Peminatan P3 untuk memastikan keunggulan level 
 | **Sem 1** | Algoritma (+P, 3), Kalkulus (3), Logika (3), Pengantar STI (2), Dasar Digital (2) | Agama I (2), Pancasila (2), B. Indonesia (2) | — | **19 SKS** | ✅ Patuh Permendikbud 53 ($\le 20$ SKS) |
 | **Sem 2** | Diskrit (3), Aljabar Linear (3), Struktur Data (+P, 3), Pengantar AI (2), Basis Data (+P, 3), Basic English (2), **Etika & Hukum Digital (2)** | Kewirausahaan I (2) | — | **20 SKS** | ✅ **Tepat 20 SKS** (Kewarganegaraan pindah Sem 4) |
 | **Sem 3** | APSI (3), Sistem Cerdas (2), UI/UX (+P, 3), RPL (3), Jaringan (+P, 3), Web Front End (+P, 3), **Sistem Operasi (3)** | — | — | **20 SKS** | ✅ Fondasi Sistem & Jaringan Lengkap |
-| **Sem 4** | Machine Learning (+P, 3), **Data Warehouse & BI (+P, 3)**, Web Back End (+P, 3), Cloud (3), Keamanan Dasar (3), Probstat (3), English for IT (2) | **Kewarganegaraan (2)**, Agama II (0), Kewirausahaan II (0) | — | **19 SKS** | ✅ Core Data & Cloud (3 MK Lab Seimbang) |
+| **Sem 4** | Machine Learning (+P, 3), **Data Warehouse & BI (+P, 3)**, Web Back End (+P, 3), Cloud (3), Keamanan Dasar (3), Probstat (3), English for IT (2) | **Kewarganegaraan (2)**, Agama II (0), Kewirausahaan II (0) | — | **22 SKS** | ✅ Core Data & Cloud (3 MK Lab Seimbang, 8 MK ber-SKS + 2 MK @ 0 SKS) |
 | **Sem 5** | Deep Learning (+P, 3), Data Mining (+P, 3), IoT (+P, 3), Mobile (+P, 3), **Manajemen Proyek TI (3)** | — | 2 MK Pilihan Peminatan (6 SKS) | **21 SKS** | ✅ Advanced Core & Proyek (Beban Lab Seimbang) |
 | **Sem 6** | Integrasi AI (+P, 3), Smart City (+P, 3), Capstone Project FSTI (+P, 3), Keamanan Lanjut (3), Metpen (2) | — | 2 MK Pilihan Peminatan (6 SKS) / MBKM | **20 SKS** | ✅ Integrasi Sistem, Capstone & MBKM |
 | **Sem 7** | Digital Platform Eng (+P, 3), Startup Digital (+P, 3), PKL (+P, 3) | — | 4 MK Pilihan Peminatan (12 SKS) / MBKM | **21 SKS** | ✅ Profesionalisasi & Inkubasi Produk |

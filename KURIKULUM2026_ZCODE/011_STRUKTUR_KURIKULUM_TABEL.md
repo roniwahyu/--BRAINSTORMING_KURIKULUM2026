@@ -1,10 +1,10 @@
 # 011 — STRUKTUR KURIKULUM SISTEKIN (TABEL PER SEMESTER)
 
-**Tanggal:** 13 Agustus 2026
-**Status:** FINAL — Struktur Kurikulum Lengkap 8 Semester (Updated: 14 MK FSTI / 37 SKS)
+**Tanggal:** 19 Agustus 2026 (Rekonsiliasi Matematis Final)
+**Status:** FINAL — Struktur Kurikulum Lengkap 8 Semester (Terekonsiliasi: 14 MK FSTI / 38 SKS & 27 MK STI / 79 SKS)
 **Dasar:** 006 (Keputusan Final) + 008 (Profil Lulusan) + 009 (14 CPL) + 010 (Kompilasi) + Ketentuan MK FSTI 2026
-**Total:** 171 SKS | 59 MK | 8 Semester
-**Ground Truth:** KURIKULUM2025 (56 MK, 146 SKS) — file terverifikasi manusia, disesuaikan ketentuan FSTI
+**Total:** 67 MK Portofolio Ditawarkan (184 SKS) | 57 MK Paket Ditempuh Mahasiswa (154 SKS) | Syarat Lulus Mahasiswa = Minimal 144 SKS (Permendikbudristek No. 53/2023)
+**Ground Truth:** KURIKULUM2025 (56 MK, 146 SKS) — file terverifikasi manusia, disesuaikan ketentuan FSTI & Rekonsiliasi 2026
 
 ---
 
@@ -12,24 +12,24 @@
 
 | Prefix | Kategori | Keterangan |
 |---|---|---|
-| **MKU** | Mata Kuliah Universitas | MK Umum Universitas Widyagama (Agama, Pancasila, Bahasa Indonesia, dll) |
-| **FST-** | Mata Kuliah Fakultas (MKF) | MK Fakultas Saintek / Ilmu Komputer — fondasi keilmuan lintas prodi (14 MK, 37 SKS) |
-| **STI-** | Mata Kuliah Wajib Prodi | MK Wajib Program Studi SISTEKIN (30 MK, 93 SKS) |
-| **STA-** | MK Pilihan Peminatan | Peminatan Smart Information System (Integrated Smart Systems) |
-| **STB-** | MK Pilihan Peminatan | Peminatan Cloud and Cybersecurity |
-| **STC-** | MK Pilihan Peminatan | Peminatan Digital Platform |
+| **MKU** | Mata Kuliah Universitas | MK Umum Universitas Widyagama (8 MK, 13 SKS: 6 MK ber-SKS + 2 MK @ 0 SKS) |
+| **FST-** | Mata Kuliah Fakultas (MKF) | MK Fakultas Saintek / Ilmu Komputer — fondasi keilmuan lintas prodi (14 MK, 38 SKS) |
+| **STI-** | Mata Kuliah Wajib Prodi | MK Wajib Inti Program Studi SISTEKIN (27 MK, 79 SKS) |
+| **STA-** | MK Pilihan Peminatan | Peminatan Smart Information System (Integrated Smart Systems — 6 MK, 18 SKS) |
+| **STB-** | MK Pilihan Peminatan | Peminatan Cloud and Cybersecurity (6 MK, 18 SKS) |
+| **STC-** | MK Pilihan Peminatan | Peminatan Digital Platform Engineering (6 MK, 18 SKS) |
 
-### MK FSTI (Fakultas) — 14 MK, 37 SKS:
+### MK FSTI (Fakultas) — 14 MK, 38 SKS:
 | No | Mata Kuliah | Kode MK | Semester | Syarat Prasyarat | SKS | Keterangan |
 |---|---|---|:---:|---|:---:|---|
 | 1 | Dasar Teknologi Digital | FST-101 | 1 | — | 2 | **MK Baru FSTI** — fondasi IT |
 | 2 | Algoritma pemrograman (+P) | FST-102 | 1 | — | 3 | Fondasi coding |
 | 3 | Struktur Data dan Strategi Algoritma (+P) | FST-203 | 2 | FST-102 | 3 | Pindah dari STI ke FSTI |
-| 4 | Pengantar kecerdasan Artifisial & Data | FST-204 | 2 | — | 3 | Basic AI & Data hands-on |
+| 4 | Pengantar kecerdasan Artifisial & Data | FST-204 | 2 | — | 2 | Teori (Non-+P) — Dasar AI & Data |
 | 5 | Basic English | FST-205 | 2 | — | 2 | Bahasa Inggris dasar |
 | 6 | Etika dan Hukum Digital | FST-206 | 2 | — | 2 | PDP, UU ITE, GDPR |
 | 7 | Basis Data (+P) | FST-207 | 2 | — | 3 | Fondasi DB |
-| 8 | Statistika & Probabilitas | FST-408 | 4 | — | 3 | Fondasi statistika (+P) |
+| 8 | Statistika & Probabilitas | FST-408 | 4 | — | 3 | Fondasi statistika (Teori) |
 | 9 | English For IT Professionals | FST-409 | 4 | FST-205 | 2 | IT English |
 | 10 | Capstone Project | FST-610 | 6 | — | 3 | Project kolaboratif FSTI (+P) |
 | 11 | Metpen | FST-611 | 6-7 (Paralel) | >76 SKS | 2 | Metodologi Penelitian |
@@ -88,7 +88,7 @@
 
 ---
 
-## SEMESTER 4 — Inti Data, Cloud, Keamanan & Karakter (19 SKS / 22 SKS Formal)
+## SEMESTER 4 — Inti Data, Cloud, Keamanan & Karakter (22 SKS)
 
 | No | Mata Kuliah | Kode | SKS | +P | CPL | Keterangan |
 |---|---|---|---|---|---|---|
@@ -102,7 +102,7 @@
 | 8 | **Kewarganegaraan** | **MKU-401** | **2** | **—** | **S1** | **MKWU — Pindahan dari Sem 2** |
 | 9 | **Agama II** | **MKU-401A** | **0** | **—** | **S1** | **MKWU — Kebijakan UWG (0 SKS)** |
 | 10| Kewirausahaan II | MKU-402 | 0 | — | KK6 | MKWU — Kebijakan UWG (0 SKS) |
-| | **Total Semester 4** | | **19** | | | **19 SKS (3 MK Lab + 4 Teori + MKWU)** |
+| | **Total Semester 4** | | **22** | | | **22 SKS (3 MK Lab + 4 Teori + MKWU: 8 MK ber-SKS + 2 MK @ 0 SKS)** |
 
 ---
 
@@ -201,14 +201,16 @@
 ---
 
 ## RINGKASAN STRUKTUR KURIKULUM BERDASARKAN KOMPONEN
-
-| Komponen | Jumlah MK | Total SKS | Keterangan |
-|---|---|---|---|
-| MKWU (Universitas) | 8 | 14 | Agama I, Pancasila, B.Indonesia, KWN, KWU I, Agama II (0 SKS), KWU II (0 SKS), KPM (Kuliah Pengabdian Masyarakat / KKN) |
-| MK FSTI (Fakultas) | 14 | 36 | Fondasi keilmuan lintas prodi FSTI (termasuk Capstone, Metpen, PKL, Pra-Skripsi/Seminars, Skripsi) |
-| MK STI (Wajib Prodi) | 30 | 93 | Karakteristik khusus prodi SISTEKIN |
-| MK Pilihan Peminatan (9 dari 18) | 9 | 27 | STA-/STB-/STC- (ambil 9 MK per mahasiswa) |
-| **GRAND TOTAL** | **61** | **170** | **Syarat Kelulusan Mahasiswa** |
+ 
+| Komponen | Jumlah MK Ditawarkan | SKS Ditawarkan | Beban SKS Ditempuh Mahasiswa | Keterangan |
+|---|:---:|:---:|:---:|---|
+| **MKWU (Universitas)** | 8 | 13 | 13 | Agama I, Pancasila, B.Indonesia, KWN, KWU I, Agama II (0 SKS), KWU II (0 SKS), KPM (KKN Digital) |
+| **MK FSTI (Fakultas)** | 14 | 38 | 38 | Fondasi keilmuan lintas prodi FSTI (termasuk Capstone 3 SKS, Metpen 2 SKS, PKL 3 SKS, Pra-Skripsi 2 SKS, Skripsi 6 SKS) |
+| **MK STI (Wajib Inti Prodi)** | 27 | 79 | 79 | Karakteristik khusus keilmuan prodi SISTEKIN |
+| **MK Pilihan Peminatan (P1/P2/P3)** | 18 | 54 | 24 (8 MK) | Portofolio 18 MK (STA/STB/STC); Mahasiswa menempuh 8 MK pilihan di Sem 5–7 |
+| **SUBTOTAL WAJIB DITEMPUH** | **49** | **130** | **130** | **49 MK Wajib Inti Kurikulum** |
+| **GRAND TOTAL PAKET 8 SEMESTER** | **57** | **154** | **154** | **Beban Terjadwal (Syarat Lulus Minimal = 144 SKS)** |
+| **GRAND TOTAL PORTOFOLIO DITAWARKAN** | **67** | **184** | — | **Total Seluruh Opsi Portofolio MK Prodi** |
 
 ---
 
@@ -265,7 +267,7 @@ Total SKS Praktikum (+P): **24 MK | 80 SKS** (**47.1%** dari Total 170 SKS).
 | 12 | PKL (+P) | FST-612 | 6-7 | **>100 SKS lulus** | Paralel (Sem 6-7) |
 | 13 | Pra-Skripsi / Seminars | FST-613 | 6-7-8 | **>100 SKS lulus** | Paralel (Sem 6-7-8) |
 | 14 | Skripsi (+P) | FST-714 | 7-8 | **>120 SKS lulus & Proposal diseminarkan** | Paralel (Sem 7-8) |
-| | **TOTAL** | **14 MK FSTI** | | | **36 SKS (21.2% dari Total 170 SKS)** |
+| | **TOTAL** | **14 MK FSTI** | | | **38 SKS (20.7% dari Total 184 SKS Portofolio)** |
 
 ### MK STI (Wajib Prodi)
 
@@ -298,10 +300,10 @@ Total SKS Praktikum (+P): **24 MK | 80 SKS** (**47.1%** dari Total 170 SKS).
 | 25 | Keamanan Informasi Lanjut | STI-603 | 6 | STI-405 (Keamanan Dasar) | Forensik, incident response |
 | 26 | Digital Platform Engineering (+P) | STI-701 | 7 | STI-407 (Web BE) + STI-304 (RPL) | Microservices, API-first architecture |
 | 27 | Inovasi Teknologi & Startup Digital (+P) | STI-702 | 7 | — | MVP development, pitch deck |
-| 28 | MK Pilihan Peminatan (9 MK +P/Teori) | STA/STB/STC | 5-7 | Sesuai Peminatan | 9 MK Pilihan per Mahasiswa (27 SKS) |
-| | **TOTAL** | **30 MK STI + 9 PILIHAN** | | | **120 SKS (70.6% dari Total 170 SKS)** |
+| 28 | MK Pilihan Peminatan (8 MK +P/Teori) | STA/STB/STC | 5-7 | Sesuai Peminatan | 8 MK Pilihan per Mahasiswa (24 SKS) |
+| | **TOTAL** | **27 MK STI + 8 PILIHAN** | | | **103 SKS (56.0% dari Total 184 SKS Portofolio)** |
 
 
 ---
 
-*Dokumen ini merupakan Struktur Kurikulum SISTEKIN versi terbaru (14 MK FSTI / 36 SKS & 30 MK STI / 93 SKS & 9 MK Pilihan / 27 SKS).*
+*Dokumen ini merupakan Struktur Kurikulum SISTEKIN versi terbaru yang telah terekonsiliasi secara matematis (8 MKWU / 13 SKS, 14 MK FSTI / 38 SKS, 27 MK STI Wajib / 79 SKS, dan 18 MK Pilihan Peminatan / 54 SKS).*

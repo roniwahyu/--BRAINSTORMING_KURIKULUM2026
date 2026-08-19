@@ -39,7 +39,7 @@
 | 2 | PL-02 | UI/UX Designer & Digital Platform Engineer | Lulusan mampu merancang pengalaman pengguna (UX) yang inklusif dan membangun platform digital skalabel berbasis web, mobile, dan proses bisnis terotomasi. | Full-Stack Platform Engineer; UX/Product Engineer; Mobile Lead Developer |
 | 3 | PL-03 | Smart System & Technology Integrator | Lulusan mampu mengintegrasikan infrastruktur cloud, IoT, dan jaringan komputer menjadi sistem cerdas yang aman, andal, dan terhubung. | IoT Solutions Architect; Cloud Systems Integrator; Smart City Engineer |
 | 4 | PL-04 | Technopreneur (Pengembang Usaha Rintisan Digital) | Lulusan mampu mengembangkan usaha dan inovasi digital berbasis kebutuhan pasar dan masyarakat secara kreatif, etis, dan berkelanjutan. | Tech Startup Founder; SaaS Product Owner; Digital Product Manager |
-| 5 | PL-05 | Digital Governance Analyst (Analis Tata Kelola TI) | Lulusan mampu menganalisis risiko siber, melakukan audit, dan menyusun tata kelola TI sesuai standar GRC (COBIT/ITIL/ISO 27001). | IT Auditor; Cybersecurity GRC Specialist; Enterprise Architect |
+| 5 | PL-05 | Digital System & Technology Governance Analyst (Analis Tata Kelola Sistem & TI) | Lulusan mampu menganalisis risiko siber, melakukan audit, dan menyusun tata kelola TI sesuai standar GRC (COBIT/ITIL/ISO 27001). | IT Auditor; Cybersecurity GRC Specialist; Enterprise Architect |
 | 6 | PL-06 | Data Analyst & ML Engineer (Perekayasa Data & ML) | Lulusan mampu merancang pipeline data, melatih model ML, dan mengimplementasikan sistem analitik cerdas berbasis data empiris skala enterprise. | Data Scientist; Machine Learning Engineer; MLOps Specialist |
 
 ---
@@ -181,12 +181,12 @@
 | 1 | 8 | 19 | MKU-101 Agama I (2) / MKU-102 Pancasila (2) / MKU-103 Bahasa Indonesia (2) / FST-101 Dasar Teknologi Digital (2) / FST-102 Algoritma & Pemrograman (3) / STI-101 Pengantar SI & TI (2) / STI-102 Kalkulus (3) / STI-103 Logika Informatika (3) | S1, P1, P2, P4, KU1 | Fondasi komputer, coding, dan matematika |
 | 2 | 8 | 20 | STI-201 Matematika Diskrit (3) / STI-202 Aljabar Linear (3) / FST-203 Struktur Data & Algoritma (3) / FST-204 Pengantar AI & Data (2) / FST-205 Basic English (2) / FST-206 Etika & Hukum Digital (2) / FST-207 Basis Data (3) / MKU-202 Kewirausahaan I (2) | P1, P2, P4, KU1, KU2, KK1, KK6 | Tepat 20 SKS — Patuh Permendikbud 53/2023 |
 | 3 | 7 | 20 | STI-301 APSI (3) / STI-302 Sistem Cerdas (2) / STI-303 UI/UX Design (3) / STI-304 RPL (3) / STI-305 Sistem Operasi (3) / STI-306 Web Front End (3) / STI-307 Jaringan Komputer (3) | P2, P3, P4, KK1, KK3, KK5 | Fondasi sistem, jaringan, dan OS |
-| 4 | 10 | 19 | STI-401 Machine Learning (3) / STI-402 Data Warehouse & BI (3) / STI-404 SI Berbasis Cloud (3) / STI-405 Keamanan Informasi (3) / STI-407 Web Back End (3) / FST-408 Statistika (3) / FST-409 English IT (2) / MKU-401 Kewarganegaraan (2) / MKU-401A Agama II (0) / MKU-402 Kewirausahaan II (0) | P1, P2, P3, KK1, KK2, KK3, KU2 | 19 SKS (2 MK 0-SKS MKWU kebijakan UWG) |
+| 4 | 10 | 22 | STI-401 Machine Learning (3) / STI-402 Data Warehouse & BI (3) / STI-404 SI Berbasis Cloud (3) / STI-405 Keamanan Informasi (3) / STI-407 Web Back End (3) / FST-408 Statistika (3) / FST-409 English IT (2) / MKU-401 Kewarganegaraan (2) / MKU-401A Agama II (0) / MKU-402 Kewirausahaan II (0) | P1, P2, P3, KK1, KK2, KK3, KU2 | 22 SKS (8 MK ber-SKS + 2 MK @ 0 SKS kebijakan UWG) |
 | 5 | 7 | 21 | STI-501 Deep Learning (3) / STI-503 Data Mining (3) / STI-504 IoT (3) / STI-505 Mobile App (3) / STI-506 Manpro TI (3) / MK Pilihan 1 (3) / MK Pilihan 2 (3) | KK1, KK2, KK3, KK5, KK6 | 2 MK Pilihan Peminatan (P1/P2/P3) |
 | 6 | 7 | 20 | STI-601 Integrasi AI (3) / STI-602 Smart City (3) / STI-603 Keamanan Lanjut (3) / FST-610 Capstone Project (3) / FST-611 Metpen (2) / MK Pilihan 3 (3) / MK Pilihan 4 (3) | P2, P3, KK1, KK3, KK4, KU1-3 | Capstone & Metpen paralel; MBKM maks 20 SKS |
 | 7 | 7 | 21 | STI-701 Digital Platform Eng (3) / STI-702 Startup Digital (3) / FST-612 PKL (3) / MK Pilihan 5 (3) / MK Pilihan 6 (3) / MK Pilihan 7 (3) / MK Pilihan 8 (3) | KK5, KK6, KK3, KK4, KU1-3 | 4 MK Pilihan terakhir; MBKM maks 20 SKS |
-| 8 | 3 | 11 | FST-613 Pra-Skripsi (2) / FST-714 Skripsi/Capstone TA (6) / MKU-203 KPM/KKN Digital (3) | S1, KU1-3, seluruh P & KK | Single track TA; syarat lulus = 144 SKS |
-| TOTAL | 57 | 131 | (Wajib ditempuh) + 9 MK Pilihan Peminatan (27 SKS, Sem 5-7) = 61 MK / 170 SKS | | Portofolio 170 SKS; syarat lulus 144 SKS |
+| 8 | 3 | 11 | FST-613 Pra-Skripsi (2) / FST-714 Skripsi/Capstone TA (6) / MKU-203 KPM/KKN Digital (3) | S1, KU1-3, seluruh P & KK | Single track TA; syarat kelulusan minimal = 144 SKS |
+| TOTAL | 57 | 154 | 49 MK Wajib (130 SKS) + 8 MK Pilihan Peminatan (24 SKS, Sem 5-7) = 57 MK / 154 SKS Paket Terjadwal | | Portofolio Ditawarkan: 67 MK / 184 SKS; Syarat Lulus: Minimal 144 SKS |
 
 ---
 
