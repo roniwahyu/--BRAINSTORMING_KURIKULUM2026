@@ -143,7 +143,7 @@ $$\% Cohort\_Attainment_{CPL_x} = \left( \frac{\text{Jumlah Mahasiswa dengan } A
 
 ## 5. INTEGRASI CAPAIAN CPL KE DALAM SKPI (SURAT KETERANGAN PENDAMPING IJAZAH)
 
-![Grafik Radar Capaian OBE CPL SISTEKIN](C:\Users\admin\.gemini\antigravity-ide\brain\ce2e85f4-db23-4379-8c44-235f79723ae8\obe_cpl_radar_chart_1787215907676.jpg)
+
 
 
 

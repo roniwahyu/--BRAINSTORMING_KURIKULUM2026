@@ -6,7 +6,26 @@
 
 ---
 
-### VISUALISASI STRATEGIS: VMTS 2045 & POSITIONING SISTEKIN
+### PETA PIKIRAN (MINDMAP) VMTS 2045 & POSITIONING PRODI
+
+```mermaid
+mindmap
+  root((SISTEKIN 2045))
+    AI & Smart Systems
+      Applied Artificial Intelligence
+      Machine Learning & Deep Learning
+      Edge AI & Sensor Systems
+    Technopreneurship
+      Digital Startup Validation
+      Lean MVP Development
+      Product Management
+    Distinctive Positioning
+      Teknik Informatika: Riset Algoritma AI Murni
+      Sistem Informasi: Manajemen & Proses Bisnis
+      Bisnis Digital: Model Bisnis & Marketing
+      SISTEKIN: Integrator AI ke Sistem & Platform Nyata
+```
+
 
 ```mermaid
 graph TD
