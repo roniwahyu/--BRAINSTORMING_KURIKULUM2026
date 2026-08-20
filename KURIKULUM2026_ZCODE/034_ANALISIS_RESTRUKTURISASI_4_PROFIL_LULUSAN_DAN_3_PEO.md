@@ -111,7 +111,46 @@ Dalam waktu 3 hingga 5 tahun setelah menyelesaikan studi di Program Studi S1 Sis
 
 ---
 
-## 5. PANDUAN KERJA UNTUK AGENTIC AI SELANJUTNYA (*NEXT STEPS ROADMAP*)
+## 5. ANALISIS KOMPARATIF & KESELARASAN DOKUMEN 008 VS DOKUMEN 034
+
+```
+┌───────────────────────────┬──────────────────────────────────┬──────────────────────────────────┐
+│ Aspek Analisis            │ Dokumen 008 (Draf Awal)          │ Dokumen 034 (Draf Penajaman)     │
+├───────────────────────────┼──────────────────────────────────┼──────────────────────────────────┤
+│ Jumlah Profil Lulusan (PL)│ 6 Profil Lulusan (PL-01 s.d 06)  │ 4 Profil Lulusan (PL-1 s.d PL-4) │
+├───────────────────────────┼──────────────────────────────────┼──────────────────────────────────┤
+│ Granularitas Profil       │ • PL1: Intelligent IS Dev        │ • PL-1: Intelligent IS & Data/AI │
+│                           │ • PL2: UI/UX & Platform Eng      │ • PL-2: Cloud, Cyber & Smart Sys │
+│                           │ • PL3: Smart Sys Integrator      │ • PL-3: UI/UX & Platform Eng     │
+│                           │ • PL4: Technopreneur             │ • PL-4: Digital Technopreneur    │
+│                           │ • PL5: Digital Governance        │                                  │
+│                           │ • PL6: Data & ML Engineer        │                                  │
+├───────────────────────────┼──────────────────────────────────┼──────────────────────────────────┤
+│ Format Perumusan PEO      │ Berupa tabel indikator 3–5 tahun │ Berupa 3 Butir Pernyataan Formal │
+│                           │ (18 sel matriks: 6 PL × 3 Jalur) │ Objektif Pendidikan (PEO-1/2/3)  │
+├───────────────────────────┼──────────────────────────────────┼──────────────────────────────────┤
+│ Standar BUKU APTIKOM      │ Sesuai (Batas atas 6 profil)     │ Sangat Ideal (Sweet spot 4 PL)   │
+├───────────────────────────┼──────────────────────────────────┼──────────────────────────────────┤
+│ Kesiapan Audit Akreditasi │ Cukup Rentan (*Sample bias*      │ Sangat Kuat & Mudah Diukur pada  │
+│ (Tracer Study & PPEPP)    │  pada tracer study alumni awal)  │  Tracer Study & Kriteria 9       │
+└───────────────────────────┴──────────────────────────────────┴──────────────────────────────────┘
+```
+
+### 5.1 Keselarasan Filosofis & Keilmuan (100% Selaras)
+1. **Pilar AI & Data:** `PL1` dan `PL6` pada Dokumen 008 digabungkan menjadi `PL-1` (*Intelligent IS & Data/AI Engineer*) pada Dokumen 034 tanpa menghilangkan kompetensi analitik maupun rekayasa software cerdas.
+2. **Pilar Cloud, IoT, Cyber & Tata Kelola:** `PL3` dan `PL5` pada Dokumen 008 disatukan menjadi `PL-2` (*Cloud Infrastructure, Cybersecurity & Smart Systems Integrator*) pada Dokumen 034, selaras dengan integrasi infrastruktur modern di industri.
+3. **Pilar Platform & UI/UX:** `PL2` pada Dokumen 008 tetap dipertahankan sebagai `PL-3` (*UI/UX Designer & Digital Platform Engineer*) pada Dokumen 034.
+4. **Pilar Technopreneurship:** `PL4` pada Dokumen 008 dikukuhkan sebagai `PL-4` (*Digital Technopreneur & IT Product Innovator*) pada Dokumen 034 sebagai representasi pilar kewirausahaan digital mandiri.
+
+### 5.2 Keselarasan Formulasi PEO
+Dokumen 008 menggunakan pendekatan indikator per-sel (18 sel matriks), sedangkan Dokumen 034 mengkristalisasikannya menjadi **3 Butir PEO Formal Berbasis Peran** (*Role-Based PEO*):
+* **PEO-1:** Jalur Profesional / Praktisi Industri
+* **PEO-2:** Jalur Technopreneur & Startup Inovasi
+* **PEO-3:** Jalur Peneliti / Akademisi & Pembelajar Sepanjang Hayat
+
+---
+
+## 6. PANDUAN KERJA UNTUK AGENTIC AI SELANJUTNYA (*NEXT STEPS ROADMAP*)
 
 Bagi sesi atau sub-agent berikutnya yang akan melakukan pendalaman dan penajaman:
 
