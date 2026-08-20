@@ -618,16 +618,17 @@ User menginformasikan bahwa MK terbagi menjadi:
    - **Tabel Portofolio Peminatan:** Memuat rincian 18 MK elektif yang ditawarkan di SIAKAD (54 SKS) untuk 3 peminatan seimbang (P1, P2, P3).
    - **Rekapitulasi Komponen:** MKWU (13 SKS / 8 MK), FSTI (38 SKS / 14 MK), Core STI (79 SKS / 27 MK), dan Peminatan Ditempuh (18 SKS / 6 MK).
    - **Klausul Kepatuhan Regulasi:** Kepatuhan batas beban $\le 20\text{ SKS}$ pada Semester 1 (19 SKS) dan Semester 2 (20 SKS) serta pelampauan ambang batas nasional kelulusan $\ge 144\text{ SKS}$ (Permendikbudristek No. 53 Tahun 2023).
-### 7.21 Penerbitan Dokumen 033: Formulasi Master Matrix Keterlacakan OBE (20 Agustus 2026)
+### 7.22 Penerbitan Dokumen 034: Analisis Restrukturisasi 4 Profil Lulusan & 3 PEO (20 Agustus 2026)
 
 1. **Konteks & Tujuan:**
-   - Menyusun analisis keselarasan mendalam dan Master Matrix Keterlacakan OBE (*Constructive Alignment Matrix*) yang memetakan keterhubungan langsung secara terperinci: VMTS 2045 $\rightarrow$ 6 Profil Lulusan (PEO 3 Jalur) $\rightarrow$ 14 CPL (PLO) $\rightarrow$ 19 BoK IS2020 & 27 BoK IT2017 APTIKOM $\rightarrow$ 55 MK Wajib/Peminatan $\rightarrow$ Rumusan CPMK (Taksonomi Bloom C2–C6 & Format ABCD).
-2. **Karakteristik Dokumen 033:**
-   - Menyajikan analisis keselarasan per pilar keilmuan (AI & Integrated Smart Systems, Cloud Infrastructure & Cybersecurity, Digital Platform Engineering & Technopreneurship).
-   - Memuat tabel Master Matrix 14 CPL dengan indikator rumusan CPMK terstandar dan MK penanggung jawab per semester.
-   - Mengonfirmasi pemenuhan 100% tanpa gap terhadap instrumen LAM INFOKOM Kriteria 9 dan standar internasional IABEE/ABET.
+   - Menyusun analisis strategis restrukturisasi Profil Lulusan dari model 6 PL lama menjadi **4 Profil Lulusan Utama (PL-1 s.d. PL-4)** dan merumuskan **3 Butir PEO Berbasis Peran Karier (*Role-Based*)** sesuai rekomendasi Buku Panduan Kurikulum OBE APTIKOM SI v2.0 & TI 2023, standar IABEE, dan instrumen akreditasi LAM INFOKOM Kriteria 1 & 9.
+2. **Karakteristik Dokumen 034:**
+   - **4 Profil Lulusan (PL):** PL-1 (*Intelligent IS & Data/AI Engineer*), PL-2 (*Cloud, Cyber & Smart Systems Integrator*), PL-3 (*UI/UX Designer & Platform Engineer*), dan PL-4 (*Digital Technopreneur & IT Product Innovator*).
+   - **3 Butir PEO Role-Based:** PEO-1 (*Jalur Profesional / Praktisi Industri*), PEO-2 (*Jalur Technopreneur & Startup*), PEO-3 (*Jalur Peneliti / Akademisi / Lifelong Learner*).
+   - **Matriks Keterlacakan:** Pemetaan eksplisit VMTS 2045 $\leftrightarrow$ 3 PEO $\leftrightarrow$ 4 PL $\leftrightarrow$ 14 CPL.
+   - **Roadmap Penajaman:** Panduan teknis bagi sesi/sub-agent berikutnya untuk memperbarui Dokumen 008, 033, dan menyusun kuesioner *tracer study* Buku Kurikulum.
 3. **Dokumen Terbit:**
-   - `033_ANALISIS_KESELARASAN_VMTS_PL_CPL_BoK_CPMK_DAN_MATRIKS.md`.
+   - `034_ANALISIS_RESTRUKTURISASI_4_PROFIL_LULUSAN_DAN_3_PEO.md`.
 
 ---
 
