@@ -618,16 +618,16 @@ User menginformasikan bahwa MK terbagi menjadi:
    - **Tabel Portofolio Peminatan:** Memuat rincian 18 MK elektif yang ditawarkan di SIAKAD (54 SKS) untuk 3 peminatan seimbang (P1, P2, P3).
    - **Rekapitulasi Komponen:** MKWU (13 SKS / 8 MK), FSTI (38 SKS / 14 MK), Core STI (79 SKS / 27 MK), dan Peminatan Ditempuh (18 SKS / 6 MK).
    - **Klausul Kepatuhan Regulasi:** Kepatuhan batas beban $\le 20\text{ SKS}$ pada Semester 1 (19 SKS) dan Semester 2 (20 SKS) serta pelampauan ambang batas nasional kelulusan $\ge 144\text{ SKS}$ (Permendikbudristek No. 53 Tahun 2023).
-### 7.20 Harmonisasi Menyeluruh Repositori Dokumen 001 s.d. 032 (20 Agustus 2026)
+### 7.21 Penerbitan Dokumen 033: Formulasi Master Matrix Keterlacakan OBE (20 Agustus 2026)
 
 1. **Konteks & Tujuan:**
-   - Melakukan sinkronisasi penuh dan penguncian konsistensi angka di seluruh dokumen dari `001` hingga `032`, menghapus seluruh residu kontradiksi data lama, serta memastikan *zero hallucination, zero overclaim*.
-2. **Rincian Pekerjaan Terlaksana:**
-   - **Penerbitan Dokumen 032:** Lampiran master definitif 55 MK (148 SKS paket ditempuh) dan 67 MK (184 SKS portofolio ditawarkan) untuk SK Rektor.
-   - **Sinkronisasi Dokumen Historis (001–005):** Penambahan banner status penegasan bahwa seluruh temuan/gap Kurikulum 2025 telah 100% terselesaikan pada Kurikulum 2026.
-   - **Pembaruan Dokumen Inti (006–016, 019–021, 030–031):** Pemutakhiran konsisten kode MK (`STI-604` Sem 6, `STI-701` Sem 7, `FST-610` Sem 7, `FST-613` Sem 7, `FST-714` Sem 8, `MKU-203` Sem 5), sebaran lab praktikum, ekuivalensi MBKM 20 SKS, dan rantai prasyarat.
-   - **Penyelarasan Modul OBE (Markdown & Excel):** Pemutakhiran `Implementasi_Modul_OBE_SISTEKIN2026_TABLES.md` dan regenerasi sukses `Implementasi_Modul_OBE_SISTEKIN2026_UPDATED.xlsx` (15 Sheet).
-   - **Pembaruan Memori Agen:** `AGENTS.md` diperbarui dengan daftar file dan ground truth mutakhir.
+   - Menyusun analisis keselarasan mendalam dan Master Matrix Keterlacakan OBE (*Constructive Alignment Matrix*) yang memetakan keterhubungan langsung secara terperinci: VMTS 2045 $\rightarrow$ 6 Profil Lulusan (PEO 3 Jalur) $\rightarrow$ 14 CPL (PLO) $\rightarrow$ 19 BoK IS2020 & 27 BoK IT2017 APTIKOM $\rightarrow$ 55 MK Wajib/Peminatan $\rightarrow$ Rumusan CPMK (Taksonomi Bloom C2–C6 & Format ABCD).
+2. **Karakteristik Dokumen 033:**
+   - Menyajikan analisis keselarasan per pilar keilmuan (AI & Integrated Smart Systems, Cloud Infrastructure & Cybersecurity, Digital Platform Engineering & Technopreneurship).
+   - Memuat tabel Master Matrix 14 CPL dengan indikator rumusan CPMK terstandar dan MK penanggung jawab per semester.
+   - Mengonfirmasi pemenuhan 100% tanpa gap terhadap instrumen LAM INFOKOM Kriteria 9 dan standar internasional IABEE/ABET.
+3. **Dokumen Terbit:**
+   - `033_ANALISIS_KESELARASAN_VMTS_PL_CPL_BoK_CPMK_DAN_MATRIKS.md`.
 
 ---
 

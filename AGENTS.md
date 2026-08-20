@@ -119,7 +119,8 @@ KURIKULUM2026_ZCODE/
 ├── 029_PANDUAN_SISTEM_ASESMEN_DAN_EVALUASI_OBE_SISTEKIN.md ⭐ (Panduan Asesmen OBE, Formula CPL Attainment, Rubrik Master & CQI)
 ├── 030_ANALISIS_KESELARASAN_IMPLEMENTASI_OBE_2026.md (Berita Acara Rekonsiliasi OBE 2026)
 ├── 031_PENYESUAIAN_STRUKTUR_SEMESTER_5_7_8_DAN_TA.md (Keputusan Penataan Posisi MK Semester Tingkat Akhir & TA)
-└── 032_DISTRIBUSI_FINAL_MATA_KULIAH_8_SEMESTER_SISTEKIN.md ⭐ (Lampiran Definitif 55 MK / 148 SKS Naskah SK Rektor)
+├── 032_DISTRIBUSI_FINAL_MATA_KULIAH_8_SEMESTER_SISTEKIN.md ⭐ (Lampiran Definitif 55 MK / 148 SKS Naskah SK Rektor)
+└── 033_ANALISIS_KESELARASAN_VMTS_PL_CPL_BoK_CPMK_DAN_MATRIKS.md ⭐ (Master Matrix Keterlacakan OBE & CPMK)
 ```
 
 ---
