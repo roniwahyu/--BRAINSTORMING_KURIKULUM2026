@@ -6,6 +6,31 @@
 
 ---
 
+### VISUALISASI STRATEGIS: VMTS 2045 & POSITIONING SISTEKIN
+
+```mermaid
+graph TD
+    subgraph VMTS ["VISI KEILMUAN SISTEKIN 2045"]
+        V1["Sistem & Teknologi Informasi Cerdas"]
+        V2["Integrasi Artificial Intelligence (Applied AI)"]
+        V3["Technopreneurship Berbasis Kebutuhan Industri"]
+    end
+
+    subgraph POS ["DISTINCTIVE POSITIONING LESTARI"]
+        TI["Teknik Informatika<br/>(Riset Algoritma AI Murni)"]
+        SI["Sistem Informasi<br/>(Manajemen & Proses Bisnis)"]
+        BD["Bisnis Digital<br/>(Model Bisnis & Pemasaran)"]
+        ST["SISTEKIN UWG<br/>(Integrator AI ke Sistem & Platform Nyata)"]
+    end
+
+    VMTS --> ST
+    TI -. "Komponen Algoritma" .-> ST
+    SI -. "Analisis Kebutuhan Bisnis" .-> ST
+    BD -. "Validasi Pasar Technopreneur" .-> ST
+```
+
+---
+
 ## 1. VISI, MISI, TUJUAN, DAN STRATEGI (VMTS)
 
 ### 1.1 Visi Keilmuan Program Studi SISTEKIN (Tahun 2045)

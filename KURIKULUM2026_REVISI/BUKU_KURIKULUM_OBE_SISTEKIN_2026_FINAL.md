@@ -221,6 +221,31 @@ Pengembangan Kurikulum SISTEKIN 2026 mengikuti siklus baku OBE yang terintegrasi
 
 ---
 
+### VISUALISASI STRATEGIS: VMTS 2045 & POSITIONING SISTEKIN
+
+```mermaid
+graph TD
+    subgraph VMTS ["VISI KEILMUAN SISTEKIN 2045"]
+        V1["Sistem & Teknologi Informasi Cerdas"]
+        V2["Integrasi Artificial Intelligence (Applied AI)"]
+        V3["Technopreneurship Berbasis Kebutuhan Industri"]
+    end
+
+    subgraph POS ["DISTINCTIVE POSITIONING LESTARI"]
+        TI["Teknik Informatika<br/>(Riset Algoritma AI Murni)"]
+        SI["Sistem Informasi<br/>(Manajemen & Proses Bisnis)"]
+        BD["Bisnis Digital<br/>(Model Bisnis & Pemasaran)"]
+        ST["SISTEKIN UWG<br/>(Integrator AI ke Sistem & Platform Nyata)"]
+    end
+
+    VMTS --> ST
+    TI -. "Komponen Algoritma" .-> ST
+    SI -. "Analisis Kebutuhan Bisnis" .-> ST
+    BD -. "Validasi Pasar Technopreneur" .-> ST
+```
+
+---
+
 ## 1. VISI, MISI, TUJUAN, DAN STRATEGI (VMTS)
 
 ### 1.1 Visi Keilmuan Program Studi SISTEKIN (Tahun 2045)
@@ -325,6 +350,30 @@ Analisis VMTS dan posisi strategis ini menjadi landasan formal bagi:
 
 **Dokumen Revisi Definitif Kurikulum 2026**  
 **Standar Rujukan:** Standar LAM INFOKOM Kriteria 1 & 9, Panduan Kurikulum OBE APTIKOM v2.0 (IS2020 & IT2017), Standar Akreditasi Internasional IABEE (Kriteria 1), ACM/IEEE CC2020.
+
+---
+
+### VISUALISASI ARSITEKTUR: PELEBURAN PROFIL & 3 PEO
+
+```mermaid
+graph TD
+    subgraph PELEBURAN ["KONSOLIDASI PROFIL LULUSAN (6 PL → 4 PL)"]
+        PL1_OLD["PL-01: Intelligent IS Dev"] & PL6_OLD["PL-06: Data & ML Eng"] --> PL1["PL-1: Intelligent IS & Data/AI Engineer"]
+        PL3_OLD["PL-03: Smart Sys Integrator"] & PL5_OLD["PL-05: Governance Analyst"] --> PL2["PL-2: Cloud Infra, Cybersecurity & Smart Sys"]
+        PL2_OLD["PL-02: UI/UX & Platform Eng"] --> PL3["PL-3: UI/UX Designer & Platform Engineer"]
+        PL4_OLD["PL-04: Technopreneur"] --> PL4["PL-4: Digital Technopreneur & Product Innovator"]
+    end
+
+    subgraph PEO ["3 PROGRAM EDUCATIONAL OBJECTIVES (3-5 TAHUN)"]
+        PEO1["PEO-1: Professional Practice & Systems Integration"]
+        PEO2["PEO-2: Digital Innovation & Technopreneurship"]
+        PEO3["PEO-3: Advanced Study, Research & Lifelong Learning"]
+    end
+
+    PL1 & PL2 & PL3 --> PEO1
+    PL3 & PL4 --> PEO2
+    PL1 & PL2 & PL3 & PL4 --> PEO3
+```
 
 ---
 
@@ -536,6 +585,30 @@ Sebagai program studi baru yang sedang bertumbuh, SISTEKIN menerapkan evaluasi P
 
 ---
 
+### VISUALISASI SILSILAH GENEALOGI 14 CPL & BOK APTIKOM
+
+```mermaid
+graph TD
+    subgraph KATEGORI ["14 CAPAIAN PEMBELAJARAN LULUSAN (CPL)"]
+        S["Sikap (S1)"]
+        KU["Keterampilan Umum (KU1 - KU3)"]
+        P["Pengetahuan (P1 - P4)"]
+        KK["Keterampilan Khusus (KK1 - KK6)"]
+    end
+
+    subgraph RUJUKAN ["STANDAR RUJUKAN NASIONAL & INTERNASIONAL"]
+        SNDIKTI["SN-Dikti Permendikbudristek 53/2023"]
+        IS2020["APTIKOM IS2020 (19 Bahan Kajian)"]
+        IT2017["APTIKOM IT2017 (14/27 Bahan Kajian)"]
+    end
+
+    SNDIKTI --> S & KU
+    IS2020 --> P & KK
+    IT2017 --> P & KK
+```
+
+---
+
 ## 1. LANDASAN DAN PRINSIP PERUMUSAN CPL
 
 Perumusan Capaian Pembelajaran Lulusan (CPL) Program Studi SISTEKIN 2026 didasarkan pada prinsip *Outcome-Based Education* (OBE) yang mengintegrasikan:
@@ -708,6 +781,33 @@ Dengan tersusunnya dokumen komprehensif ini:
 
 **Dokumen Revisi Definitif Kurikulum 2026**  
 **Standar Rujukan:** Permendikbudristek No. 53 Tahun 2023, Panduan Kurikulum OBE APTIKOM v2.0 (IS2020 & IT2017), Standar IABEE & LAM INFOKOM.
+
+---
+
+### VISUALISASI STRUKTUR 8 SEMESTER & ALUR PRASYARAT
+
+![Peta Jalan Kurikulum 8 Semester SISTEKIN](C:\Users\admin\.gemini\antigravity-ide\brain\ce2e85f4-db23-4379-8c44-235f79723ae8\sistekin_curriculum_roadmap_infographic_1787215926220.jpg)
+
+
+
+```mermaid
+graph TD
+    subgraph SEM12 ["TAHAP FONDASI (SEM 1-2: MAX 20 SKS)"]
+        S1["Sem 1 (19 SKS): Dasar Koding, Logika, Kalkulus"] --> S2["Sem 2 (20 SKS): Basis Data, OOP, Matdis, Aljabar"]
+    end
+
+    subgraph SEM34 ["TAHAP PENGUATAN INTI (SEM 3-4)"]
+        S2 --> S3["Sem 3 (19 SKS): APSI, RPL, OS, Jaringan, UI/UX"]
+        S3 --> S4["Sem 4 (20 SKS): ML, DW-BI, Cloud, Security, Web BE"]
+    end
+
+    subgraph SEM58 ["TAHAP SPESIALISASI & CAPSTONE (SEM 5-8)"]
+        S4 --> S5["Sem 5 (19 SKS): Deep Learning, IoT, Mobile, Peminatan 1"]
+        S5 --> S6["Sem 6 (18 SKS): Smart City, Platform Eng, Peminatan 2-3"]
+        S6 --> S7["Sem 7 (18 SKS): Capstone FSTI, PKL, Pra-Skripsi, Peminatan 4-6"]
+        S7 --> S8["Sem 8 (6 SKS): Skripsi Murni / Opsi Non-Skripsi"]
+    end
+```
 
 ---
 
@@ -900,6 +1000,27 @@ Mahasiswa memilih 1 paket peminatan penuh (ditempuh 1 MK di Sem 5, 2 MK di Sem 6
 
 ---
 
+### VISUALISASI 3 PEMINATAN & JALUR MBKM 20 SKS
+
+```mermaid
+graph TD
+    subgraph PEMINATAN ["3 PAKET PEMINATAN SEIMBANG (@ 18 SKS / 6 MK)"]
+        P1["P1: Integrated Smart Systems<br/>(AI/ML, MLOps, Agent, NLP, Vision)"]
+        P2["P2: Cloud Infra & Cybersecurity<br/>(DevOps, Security, COBIT, ITIL, TOGAF)"]
+        P3["P3: Digital Platform Engineering<br/>(UX Research, BPA, SaaS, Agile Product)"]
+    end
+
+    subgraph MBKM ["KONVERSI 20 SKS MBKM (SEMESTER 6-7)"]
+        M1["Magang Industri / Studio"]
+        M2["Studi Independen Bersertifikat"]
+        M3["Riset / Kemanusiaan / Wirausaha"]
+    end
+
+    M1 & M2 & M3 -. "Ekuivalensi SKS" .-> P1 & P2 & P3
+```
+
+---
+
 ## 1. PANDUAN UMUM PEMILIHAN PEMINATAN (18 SKS / 6 MK)
 
 Program Studi Sistem dan Teknologi Informasi menyediakan **3 Peminatan Keahlian Terstruktur** yang masing-masing berbobot **6 Mata Kuliah (18 SKS)**:
@@ -1030,6 +1151,27 @@ Kurikulum SISTEKIN 2026 menyediakan fleksibilitas penempuhan hingga **20 SKS MBK
 
 ---
 
+### VISUALISASI ALUR CAPSTONE & 4 OPSI TA NON-SKRIPSI
+
+```mermaid
+graph TD
+    subgraph CAPSTONE ["CAPSTONE PROJECT FSTI (FST-610 - SEMESTER 7)"]
+        C1["Formasi Tim Multidisiplin"] --> C2["Monev Progres 50% (UTS)"]
+        C2 --> C3["Demo Day & Live Testing (UAS)"]
+    end
+
+    subgraph TA_OPTIONS ["4 OPSI SKEMA TUGAS AKHIR (SEMESTER 8)"]
+        O1["Opsi A: Skripsi Riset Algoritma AI"]
+        O2["Opsi B: Purwarupa Produk System/Platform"]
+        O3["Opsi C: Publikasi Jurnal (SINTA 2 / Scopus)"]
+        O4["Opsi D: Startup Digital MVP & Validasi Pasar"]
+    end
+
+    C3 --> TA_OPTIONS
+```
+
+---
+
 ## 1. PEDOMAN CAPSTONE PROJECT FSTI (`FST-610`, 3 SKS — SEMESTER 7)
 
 ### 1.1 Hakikat dan Tujuan Capstone Project
@@ -1133,6 +1275,28 @@ Sesuai ketentuan **Permendikbudristek No. 53 Tahun 2023**, Program Studi SISTEKI
 > **Dokumen Revisi Definitif Kurikulum 2026**  
 > **Status:** Master Panduan Asesmen OBE Terintegrasi (Kepatuhan IKU 7 & Standar 4 Titik Asesmen)  
 > **Standar Rujukan:** Standar LAM INFOKOM Kriteria 6 (Pendidikan) & Kriteria 9 (Luaran CPL), Panduan Kurikulum OBE APTIKOM v2.0, IABEE Criteria for Assessment & CQI.
+
+---
+
+### VISUALISASI ALUR HINGGA ASESMEN OBE & SIKLUS PPEPP
+
+```mermaid
+graph TD
+    subgraph ASESMEN_FLOW ["PIPELINE PENGUKURAN CPL"]
+        MK["Asesmen 4x MK (Tugas1, UTS, Tugas2, UAS)"] --> CPMK["Skor Attainment CPMK (Bloom C2-C6)"]
+        CPMK --> CPL_IND["Formula CPL Attainment Individu"]
+        CPL_IND --> RADAR["Radar Chart CPL pada SKPI Wisudawan"]
+    end
+
+    subgraph PPEPP ["SIKLUS CONTINUOUS QUALITY IMPROVEMENT (CQI)"]
+        P1["Penetapan Baseline"] --> P2["Pelaksanaan RPS"]
+        P2 --> E["Evaluasi Attainment Cohort (Target ≥ 80%)"]
+        E --> P3["Pengendalian Gap (RCA & RTM)"]
+        P3 --> P4["Peningkatan Kurikulum (CQI)"]
+    end
+
+    CPL_IND --> E
+```
 
 ---
 
@@ -1250,6 +1414,10 @@ $$\% Cohort\_Attainment_{CPL_x} = \left( \frac{\text{Jumlah Mahasiswa dengan } A
 
 ## 5. INTEGRASI CAPAIAN CPL KE DALAM SKPI (SURAT KETERANGAN PENDAMPING IJAZAH)
 
+![Grafik Radar Capaian OBE CPL SISTEKIN](C:\Users\admin\.gemini\antigravity-ide\brain\ce2e85f4-db23-4379-8c44-235f79723ae8\obe_cpl_radar_chart_1787215907676.jpg)
+
+
+
 Hasil ketercapaian 14 CPL mahasiswa selama 8 semester akan dicetak sebagai **Portofolio Capaian OBE (Radar Chart CPL)** pada lampiran resmi SKPI lulusan:
 
 ```
@@ -1295,6 +1463,29 @@ Apabila terdapat $CPL_x$ yang belum memenuhi ambang batas target prodi ($\ge 80\
 > **Dokumen Revisi Definitif Kurikulum 2026**  
 > **Status:** Master Panduan Pengukuran PEO, Validasi Stakeholder & Siklus Penjaminan Mutu PPEPP  
 > **Standar Rujukan:** Standar LAM INFOKOM Kriteria 1 (VMTS) & Kriteria 9 (Luaran dan Capaian Tridharma), Standar Akreditasi Internasional IABEE (Kriteria 1: PEO Assessment & CQI), Permendikbudristek No. 53 Tahun 2023.
+
+---
+
+### VISUALISASI PEO MEASUREMENT PLAN & STAKEHOLDER FEEDBACK
+
+```mermaid
+graph TD
+    subgraph TIMELINE ["PEO MEASUREMENT PLAN BERTAHAP"]
+        T1["Tiap Semester: CPMK & CPL (SIAKAD)"] --> T2["Tiap Tahun: FGD Industri & Review RPS"]
+        T2 --> T3["Saat Kelulusan: Exit Survey & SKPI Radar"]
+        T3 --> T4["1 Thn Pasca: Tracer Transisi Kerja Awal"]
+        T4 --> T5["3-5 Thn Pasca: Tracer PEO & Employer Survey"]
+    end
+
+    subgraph STAKEHOLDER ["FEEDBACK LOOP STAKEHOLDER"]
+        S1["Industrial FGD"]
+        S2["Employer Needs Survey"]
+        S3["Advisory Board Review"]
+    end
+
+    STAKEHOLDER --> T2
+    T5 --> RTM["Rapat Tinjauan Manajemen (RTM) PPEPP"]
+```
 
 ---
 
@@ -1590,6 +1781,25 @@ Untuk menjamin hak akademik mahasiswa yang telah menempuh kurikulum 2025, diberl
 
 **Dokumen Revisi Definitif Kurikulum 2026**  
 **Standar Rujukan:** Standar LAM INFOKOM (Kriteria 1: VMTS, Kriteria 6: Kurikulum & Pembelajaran, Kriteria 9: Luaran & Capaian Tridharma), Panduan Kurikulum OBE APTIKOM v2.0 (IS2020 & IT2017), Standar IABEE Kriteria 1, 2, & 3.
+
+---
+
+### VISUALISASI KETERLACAKAN MAKRO OBE & ALUR I-R-M
+
+```mermaid
+graph LR
+    subgraph MAKRO ["KETERLACAKAN STRATEGIS MAKRO"]
+        VMTS["VMTS 2045"] --> PEO["3 PEO"]
+        PEO --> PL["4 Profil Lulusan"]
+        PL --> CPL["14 CPL Terstandar"]
+    end
+
+    subgraph PROGRESI ["ALUR PENGUASAAN MATA KULIAH (I-R-M)"]
+        CPL --> I["I (Introduce): Semester 1-2"]
+        I --> R["R (Reinforce): Semester 3-6"]
+        R --> M["M (Master): Semester 7-8 & Capstone"]
+    end
+```
 
 ---
 
@@ -1917,6 +2127,28 @@ Dokumen matriks keterlacakan ini membuktikan secara definitif bahwa kurikulum SI
 > **Status Dokumen:** Master Portofolio 67 Mata Kuliah (184 SKS Portofolio / 148 SKS Paket Kelulusan)  
 > **Skema Asesmen Standar OBE:** Tepat 4x Titik Evaluasi Terstruktur: **Tugas 1 (20%), UTS (25-30%), Tugas 2 (20-25%), dan UAS (30%)** (Total = 100%).  
 > **Standar Rujukan:** Panduan KPT APTIKOM v2.0 (2024), Permendikbudristek No. 53/2023, ACM/IEEE CC2020, SN-Dikti  
+
+---
+
+### VISUALISASI STRUKTUR 3-TABEL & SKEMA 4x ASESMEN
+
+```mermaid
+graph TD
+    subgraph SYLLABUS ["STANDAR 3-TABEL PER MATA KULIAH"]
+        T1["Tabel A: Identitas & Pemetaan Makro (CPL, PL, PEO)"]
+        T2["Tabel B: Formulasi CPMK ABCD (Bloom C2-C6)"]
+        T3["Tabel C: Matriks 16 Pertemuan & Sub-CPMK"]
+    end
+
+    subgraph ASESMEN ["4 TITIK EVALUASI BAKU (TOTAL 100%)"]
+        W4["Pekan 4: Tugas 1 (20%)"]
+        W8["Pekan 8: UTS (25-30%)"]
+        W12["Pekan 12: Tugas 2 (20-25%)"]
+        W16["Pekan 16: UAS (30%)"]
+    end
+
+    T3 --> ASESMEN
+```
 
 ---
 

@@ -6,6 +6,25 @@
 
 ---
 
+### VISUALISASI KETERLACAKAN MAKRO OBE & ALUR I-R-M
+
+```mermaid
+graph LR
+    subgraph MAKRO ["KETERLACAKAN STRATEGIS MAKRO"]
+        VMTS["VMTS 2045"] --> PEO["3 PEO"]
+        PEO --> PL["4 Profil Lulusan"]
+        PL --> CPL["14 CPL Terstandar"]
+    end
+
+    subgraph PROGRESI ["ALUR PENGUASAAN MATA KULIAH (I-R-M)"]
+        CPL --> I["I (Introduce): Semester 1-2"]
+        I --> R["R (Reinforce): Semester 3-6"]
+        R --> M["M (Master): Semester 7-8 & Capstone"]
+    end
+```
+
+---
+
 ## 1. MATRIKS KESELARASAN STRATEGIS: VMTS 2045 $\leftrightarrow$ 3 PEO $\leftrightarrow$ 4 PROFIL LULUSAN (PL)
 
 | Pilar VMTS 2045 SISTEKIN UWG | Rumusan PEO Terkait (3–5 Thn Lulus) | Profil Lulusan yang Dituju | Domain Karir / Peran Utama Alumni |

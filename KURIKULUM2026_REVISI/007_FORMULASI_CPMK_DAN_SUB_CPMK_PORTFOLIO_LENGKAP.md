@@ -9,6 +9,28 @@
 
 ---
 
+### VISUALISASI STRUKTUR 3-TABEL & SKEMA 4x ASESMEN
+
+```mermaid
+graph TD
+    subgraph SYLLABUS ["STANDAR 3-TABEL PER MATA KULIAH"]
+        T1["Tabel A: Identitas & Pemetaan Makro (CPL, PL, PEO)"]
+        T2["Tabel B: Formulasi CPMK ABCD (Bloom C2-C6)"]
+        T3["Tabel C: Matriks 16 Pertemuan & Sub-CPMK"]
+    end
+
+    subgraph ASESMEN ["4 TITIK EVALUASI BAKU (TOTAL 100%)"]
+        W4["Pekan 4: Tugas 1 (20%)"]
+        W8["Pekan 8: UTS (25-30%)"]
+        W12["Pekan 12: Tugas 2 (20-25%)"]
+        W16["Pekan 16: UAS (30%)"]
+    end
+
+    T3 --> ASESMEN
+```
+
+---
+
 ## 1. PANDUAN STRUKTUR 3 TABEL STANDAR PER MATA KULIAH
 
 Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dalam **3 Tabel Standar** yang siap diurai (*parsed*) oleh Agentic AI untuk otomasi Rencana Pembelajaran Semester (RPS), instrumen asesmen OBE, dan penyusunan Naskah Buku Kurikulum KPT:

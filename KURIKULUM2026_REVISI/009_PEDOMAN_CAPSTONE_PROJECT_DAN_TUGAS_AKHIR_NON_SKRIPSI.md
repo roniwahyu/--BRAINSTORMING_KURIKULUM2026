@@ -6,6 +6,27 @@
 
 ---
 
+### VISUALISASI ALUR CAPSTONE & 4 OPSI TA NON-SKRIPSI
+
+```mermaid
+graph TD
+    subgraph CAPSTONE ["CAPSTONE PROJECT FSTI (FST-610 - SEMESTER 7)"]
+        C1["Formasi Tim Multidisiplin"] --> C2["Monev Progres 50% (UTS)"]
+        C2 --> C3["Demo Day & Live Testing (UAS)"]
+    end
+
+    subgraph TA_OPTIONS ["4 OPSI SKEMA TUGAS AKHIR (SEMESTER 8)"]
+        O1["Opsi A: Skripsi Riset Algoritma AI"]
+        O2["Opsi B: Purwarupa Produk System/Platform"]
+        O3["Opsi C: Publikasi Jurnal (SINTA 2 / Scopus)"]
+        O4["Opsi D: Startup Digital MVP & Validasi Pasar"]
+    end
+
+    C3 --> TA_OPTIONS
+```
+
+---
+
 ## 1. PEDOMAN CAPSTONE PROJECT FSTI (`FST-610`, 3 SKS — SEMESTER 7)
 
 ### 1.1 Hakikat dan Tujuan Capstone Project

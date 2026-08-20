@@ -6,6 +6,30 @@
 
 ---
 
+### VISUALISASI ARSITEKTUR: PELEBURAN PROFIL & 3 PEO
+
+```mermaid
+graph TD
+    subgraph PELEBURAN ["KONSOLIDASI PROFIL LULUSAN (6 PL → 4 PL)"]
+        PL1_OLD["PL-01: Intelligent IS Dev"] & PL6_OLD["PL-06: Data & ML Eng"] --> PL1["PL-1: Intelligent IS & Data/AI Engineer"]
+        PL3_OLD["PL-03: Smart Sys Integrator"] & PL5_OLD["PL-05: Governance Analyst"] --> PL2["PL-2: Cloud Infra, Cybersecurity & Smart Sys"]
+        PL2_OLD["PL-02: UI/UX & Platform Eng"] --> PL3["PL-3: UI/UX Designer & Platform Engineer"]
+        PL4_OLD["PL-04: Technopreneur"] --> PL4["PL-4: Digital Technopreneur & Product Innovator"]
+    end
+
+    subgraph PEO ["3 PROGRAM EDUCATIONAL OBJECTIVES (3-5 TAHUN)"]
+        PEO1["PEO-1: Professional Practice & Systems Integration"]
+        PEO2["PEO-2: Digital Innovation & Technopreneurship"]
+        PEO3["PEO-3: Advanced Study, Research & Lifelong Learning"]
+    end
+
+    PL1 & PL2 & PL3 --> PEO1
+    PL3 & PL4 --> PEO2
+    PL1 & PL2 & PL3 & PL4 --> PEO3
+```
+
+---
+
 ## 1. SEJARAH, ANALISIS, DAN ALASAN PENYATUAN PROFIL LULUSAN (DARI 6 PL MENJADI 4 PL)
 
 ### 1.1 Latar Belakang Model 6 Profil Lulusan (Draf Awal Kurikulum 2025/2026)

@@ -6,6 +6,33 @@
 
 ---
 
+### VISUALISASI STRUKTUR 8 SEMESTER & ALUR PRASYARAT
+
+![Peta Jalan Kurikulum 8 Semester SISTEKIN](C:\Users\admin\.gemini\antigravity-ide\brain\ce2e85f4-db23-4379-8c44-235f79723ae8\sistekin_curriculum_roadmap_infographic_1787215926220.jpg)
+
+
+
+```mermaid
+graph TD
+    subgraph SEM12 ["TAHAP FONDASI (SEM 1-2: MAX 20 SKS)"]
+        S1["Sem 1 (19 SKS): Dasar Koding, Logika, Kalkulus"] --> S2["Sem 2 (20 SKS): Basis Data, OOP, Matdis, Aljabar"]
+    end
+
+    subgraph SEM34 ["TAHAP PENGUATAN INTI (SEM 3-4)"]
+        S2 --> S3["Sem 3 (19 SKS): APSI, RPL, OS, Jaringan, UI/UX"]
+        S3 --> S4["Sem 4 (20 SKS): ML, DW-BI, Cloud, Security, Web BE"]
+    end
+
+    subgraph SEM58 ["TAHAP SPESIALISASI & CAPSTONE (SEM 5-8)"]
+        S4 --> S5["Sem 5 (19 SKS): Deep Learning, IoT, Mobile, Peminatan 1"]
+        S5 --> S6["Sem 6 (18 SKS): Smart City, Platform Eng, Peminatan 2-3"]
+        S6 --> S7["Sem 7 (18 SKS): Capstone FSTI, PKL, Pra-Skripsi, Peminatan 4-6"]
+        S7 --> S8["Sem 8 (6 SKS): Skripsi Murni / Opsi Non-Skripsi"]
+    end
+```
+
+---
+
 ## 1. REKAPITULASI DAN DISTRIBUSI BEBAN STUDI
 
 Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket wajib kelulusan mahasiswa sebesar **148 SKS** yang terdistribusi ke dalam **55 Mata Kuliah**:

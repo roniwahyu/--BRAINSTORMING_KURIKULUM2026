@@ -7,6 +7,28 @@
 
 ---
 
+### VISUALISASI ALUR HINGGA ASESMEN OBE & SIKLUS PPEPP
+
+```mermaid
+graph TD
+    subgraph ASESMEN_FLOW ["PIPELINE PENGUKURAN CPL"]
+        MK["Asesmen 4x MK (Tugas1, UTS, Tugas2, UAS)"] --> CPMK["Skor Attainment CPMK (Bloom C2-C6)"]
+        CPMK --> CPL_IND["Formula CPL Attainment Individu"]
+        CPL_IND --> RADAR["Radar Chart CPL pada SKPI Wisudawan"]
+    end
+
+    subgraph PPEPP ["SIKLUS CONTINUOUS QUALITY IMPROVEMENT (CQI)"]
+        P1["Penetapan Baseline"] --> P2["Pelaksanaan RPS"]
+        P2 --> E["Evaluasi Attainment Cohort (Target ≥ 80%)"]
+        E --> P3["Pengendalian Gap (RCA & RTM)"]
+        P3 --> P4["Peningkatan Kurikulum (CQI)"]
+    end
+
+    CPL_IND --> E
+```
+
+---
+
 ## 1. KERANGKA ASESMEN OBE SISTEKIN 2026
 
 Sistem penilaian pada Kurikulum OBE SISTEKIN berorientasi penuh pada pembuktian ketercapaian **14 CPL** secara langsung (*Direct Assessment*) melalui Capaian Pembelajaran Mata Kuliah (CPMK):
@@ -120,6 +142,10 @@ $$\% Cohort\_Attainment_{CPL_x} = \left( \frac{\text{Jumlah Mahasiswa dengan } A
 ---
 
 ## 5. INTEGRASI CAPAIAN CPL KE DALAM SKPI (SURAT KETERANGAN PENDAMPING IJAZAH)
+
+![Grafik Radar Capaian OBE CPL SISTEKIN](C:\Users\admin\.gemini\antigravity-ide\brain\ce2e85f4-db23-4379-8c44-235f79723ae8\obe_cpl_radar_chart_1787215907676.jpg)
+
+
 
 Hasil ketercapaian 14 CPL mahasiswa selama 8 semester akan dicetak sebagai **Portofolio Capaian OBE (Radar Chart CPL)** pada lampiran resmi SKPI lulusan:
 

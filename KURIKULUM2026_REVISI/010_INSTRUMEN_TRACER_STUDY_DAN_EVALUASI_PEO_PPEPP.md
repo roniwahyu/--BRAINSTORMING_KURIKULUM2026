@@ -7,6 +7,29 @@
 
 ---
 
+### VISUALISASI PEO MEASUREMENT PLAN & STAKEHOLDER FEEDBACK
+
+```mermaid
+graph TD
+    subgraph TIMELINE ["PEO MEASUREMENT PLAN BERTAHAP"]
+        T1["Tiap Semester: CPMK & CPL (SIAKAD)"] --> T2["Tiap Tahun: FGD Industri & Review RPS"]
+        T2 --> T3["Saat Kelulusan: Exit Survey & SKPI Radar"]
+        T3 --> T4["1 Thn Pasca: Tracer Transisi Kerja Awal"]
+        T4 --> T5["3-5 Thn Pasca: Tracer PEO & Employer Survey"]
+    end
+
+    subgraph STAKEHOLDER ["FEEDBACK LOOP STAKEHOLDER"]
+        S1["Industrial FGD"]
+        S2["Employer Needs Survey"]
+        S3["Advisory Board Review"]
+    end
+
+    STAKEHOLDER --> T2
+    T5 --> RTM["Rapat Tinjauan Manajemen (RTM) PPEPP"]
+```
+
+---
+
 ## 1. AUDIT TERMINOLOGI, LANDASAN KONSEPTUAL & DISTINSI PEO
 
 Untuk menjamin kepatuhan terhadap standar asesmen akreditasi internasional IABEE dan LAM INFOKOM, Program Studi SISTEKIN menegaskan distinsi terminologi kurikulum berikut:

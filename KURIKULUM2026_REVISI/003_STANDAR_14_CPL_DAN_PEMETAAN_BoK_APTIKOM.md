@@ -7,6 +7,30 @@
 
 ---
 
+### VISUALISASI SILSILAH GENEALOGI 14 CPL & BOK APTIKOM
+
+```mermaid
+graph TD
+    subgraph KATEGORI ["14 CAPAIAN PEMBELAJARAN LULUSAN (CPL)"]
+        S["Sikap (S1)"]
+        KU["Keterampilan Umum (KU1 - KU3)"]
+        P["Pengetahuan (P1 - P4)"]
+        KK["Keterampilan Khusus (KK1 - KK6)"]
+    end
+
+    subgraph RUJUKAN ["STANDAR RUJUKAN NASIONAL & INTERNASIONAL"]
+        SNDIKTI["SN-Dikti Permendikbudristek 53/2023"]
+        IS2020["APTIKOM IS2020 (19 Bahan Kajian)"]
+        IT2017["APTIKOM IT2017 (14/27 Bahan Kajian)"]
+    end
+
+    SNDIKTI --> S & KU
+    IS2020 --> P & KK
+    IT2017 --> P & KK
+```
+
+---
+
 ## 1. LANDASAN DAN PRINSIP PERUMUSAN CPL
 
 Perumusan Capaian Pembelajaran Lulusan (CPL) Program Studi SISTEKIN 2026 didasarkan pada prinsip *Outcome-Based Education* (OBE) yang mengintegrasikan:

@@ -6,6 +6,27 @@
 
 ---
 
+### VISUALISASI 3 PEMINATAN & JALUR MBKM 20 SKS
+
+```mermaid
+graph TD
+    subgraph PEMINATAN ["3 PAKET PEMINATAN SEIMBANG (@ 18 SKS / 6 MK)"]
+        P1["P1: Integrated Smart Systems<br/>(AI/ML, MLOps, Agent, NLP, Vision)"]
+        P2["P2: Cloud Infra & Cybersecurity<br/>(DevOps, Security, COBIT, ITIL, TOGAF)"]
+        P3["P3: Digital Platform Engineering<br/>(UX Research, BPA, SaaS, Agile Product)"]
+    end
+
+    subgraph MBKM ["KONVERSI 20 SKS MBKM (SEMESTER 6-7)"]
+        M1["Magang Industri / Studio"]
+        M2["Studi Independen Bersertifikat"]
+        M3["Riset / Kemanusiaan / Wirausaha"]
+    end
+
+    M1 & M2 & M3 -. "Ekuivalensi SKS" .-> P1 & P2 & P3
+```
+
+---
+
 ## 1. PANDUAN UMUM PEMILIHAN PEMINATAN (18 SKS / 6 MK)
 
 Program Studi Sistem dan Teknologi Informasi menyediakan **3 Peminatan Keahlian Terstruktur** yang masing-masing berbobot **6 Mata Kuliah (18 SKS)**:
