@@ -1,8 +1,9 @@
-# 008 — SISTEM ASESMEN OBE, FORMULA KETERCAPAIAN CPL, DAN RUBRIK MASTER
+# 008 — SISTEM ASESMEN OBE, SKEMA 4x EVALUASI TERSTRUKTUR, FORMULA CPL, DAN RUBRIK MASTER
 ## Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang
 
-**Dokumen Revisi Definitif Kurikulum 2026**  
-**Standar Rujukan:** Standar LAM INFOKOM Kriteria 6 (Pendidikan) & Kriteria 9 (Luaran CPL), Panduan Kurikulum OBE APTIKOM v2.0, IABEE Criteria for Assessment & CQI.
+> **Dokumen Revisi Definitif Kurikulum 2026**  
+> **Status:** Master Panduan Asesmen OBE Terintegrasi (Kepatuhan IKU 7 & Standar 4 Titik Asesmen)  
+> **Standar Rujukan:** Standar LAM INFOKOM Kriteria 6 (Pendidikan) & Kriteria 9 (Luaran CPL), Panduan Kurikulum OBE APTIKOM v2.0, IABEE Criteria for Assessment & CQI.
 
 ---
 
@@ -14,9 +15,9 @@ Sistem penilaian pada Kurikulum OBE SISTEKIN berorientasi penuh pada pembuktian 
 ┌──────────────────────────────────────────────────────────────────────────────────────────┐
 │                         SIKLUS ASESMEN BERBASIS LUARAN (OBE)                             │
 ├──────────────────────────────────────────────────────────────────────────────────────────┤
-│ 1. Mata Kuliah merumuskan CPMK & Sub-CPMK (Bloom C2–C6).                                 │
-│ 2. Instrumen Asesmen dirancang: Tugas Kasus, Proyek PjBL, Kuis, UTS, UAS.                 │
-│ 3. Nilai Mahasiswa dihitung per Sub-CPMK menggunakan Rubrik Analitik Terstandar.         │
+│ 1. Mata Kuliah merumuskan 3–4 CPMK (Bloom C2–C6) & Sub-CPMK per pekan.                   │
+│ 2. Instrumen Asesmen distandarisasi ke dalam 4 Titik Evaluasi Terstruktur.               │
+│ 3. Nilai Mahasiswa dihitung per CPMK menggunakan Rubrik Analitik Terstandar.             │
 │ 4. Skor Ketercapaian CPL dihitung menggunakan Formula Bobot Matriks MK ↔ CPL.            │
 │ 5. Analisis Gap & Tindak Lanjut Perbaikan Berkelanjutan (PPEPP / CQI).                   │
 └──────────────────────────────────────────────────────────────────────────────────────────┘
@@ -28,27 +29,43 @@ Sistem penilaian pada Kurikulum OBE SISTEKIN berorientasi penuh pada pembuktian 
 
 ---
 
-## 2. FORMULA MATEMATIS KETERCAPAIAN CPL (CPL ATTAINMENT FORMULATION)
+## 2. SKEMA STANDAR 4x TITIK EVALUASI MATA KULIAH
 
-### 2.1 Perhitungan Ketercapaian CPMK pada Mata Kuliah ($Score_{CPMK_j}$)
+Untuk memastikan kemudahan pengelolaan nilai di Sistem Informasi Akademik (SIAKAD), menjaga keadilan beban belajar mahasiswa, serta memetakan secara langsung 1-to-1 terhadap CPMK mata kuliah, Program Studi SISTEKIN menetapkan **Skema Baku 4x Titik Asesmen**:
+
+| Komponen Asesmen | Jadwal Pekan | Target Evaluasi CPMK | Bobot MK Teori | Bobot MK Praktikum / Proyek (+P) |
+|---|:---:|---|:---:|:---:|
+| **Tugas 1** | Pekan 4 / 5 | **CPMK-1** (Fondasi Konsep / Kuis / Problem Solving Awal) | **20%** | **20%** *(Milestone Proyek 1 / Modul Lab 1)* |
+| **UTS** | Pekan 8 | **CPMK-2** (atau CPMK-1 & 2) (Evaluasi Tengah Semester) | **30%** *(Ujian Teori Terjadwal)* | **25%** *(Ujian Praktik / Evaluasi Proyek 50%)* |
+| **Tugas 2** | Pekan 12 / 13 | **CPMK-3** (Penerapan Lanjut / Studi Kasus / Integrasi Sistem) | **20%** *(Paper Analisis / Kasus 2)* | **25%** *(Milestone Proyek 2 / Integrasi Sistem)* |
+| **UAS** | Pekan 16 | **CPMK-4** (Evaluasi Akhir Komprehensif & Sintesis CPL) | **30%** *(Ujian Akhir Komprehensif)* | **30%** *(Demo Day, Portofolio & Uji Produk)* |
+| **TOTAL BOBOT** | | **Pemenuhan 100% CPMK Mata Kuliah** | **100%** | **100%** |
+
+*Catatan:* Pekan-pekan selain 4 titik di atas difokuskan pada aktivitas pembelajaran aktif (*active learning, hands-on coding, live discussion*) yang bersifat formatif (*non-graded*).
+
+---
+
+## 3. FORMULA MATEMATIS KETERCAPAIAN CPL (CPL ATTAINMENT FORMULATION)
+
+### 3.1 Perhitungan Ketercapaian CPMK pada Mata Kuliah ($Score_{CPMK_j}$)
 Skor ketercapaian untuk suatu $CPMK_j$ pada mata kuliah $k$ oleh mahasiswa $i$ dihitung sebagai rata-rata berbobot dari instrumen asesmen terkait:
 
 $$Score_{CPMK_j, k}(i) = \sum_{m=1}^{M} \left( W_{jm} \times Score_{m}(i) \right)$$
 
 *Dimana:*
-* $Score_m(i)$ = Nilai instrumen asesmen ke-$m$ (skala 0–100).
+* $Score_m(i)$ = Nilai instrumen asesmen ke-$m$ (Tugas 1, UTS, Tugas 2, atau UAS, skala 0–100).
 * $W_{jm}$ = Bobot instrumen ke-$m$ terhadap $CPMK_j$ ($\sum W_{jm} = 1.0$).
 
 ---
 
-### 2.2 Perhitungan Nilai Akhir Mata Kuliah ($NA_k$)
+### 3.2 Perhitungan Nilai Akhir Mata Kuliah ($NA_k$)
 Nilai akhir mata kuliah merupakan agregasi dari seluruh ketercapaian CPMK:
 
 $$NA_k(i) = \sum_{j=1}^{J} \left( W_{CPMK_j, k} \times Score_{CPMK_j, k}(i) \right)$$
 
 ---
 
-### 2.3 Perhitungan Ketercapaian CPL Mahasiswa Individu ($Attainment_{CPL_x}(i)$)
+### 3.3 Perhitungan Ketercapaian CPL Mahasiswa Individu ($Attainment_{CPL_x}(i)$)
 Ketercapaian seorang mahasiswa $i$ pada suatu $CPL_x$ dihitung dari seluruh mata kuliah pembina $CPL_x$:
 
 $$Attainment_{CPL_x}(i) = \frac{\sum_{k \in MK(CPL_x)} \left( SKS_k \times Weight_{k, CPL_x} \times NA_k(i) \right)}{\sum_{k \in MK(CPL_x)} \left( SKS_k \times Weight_{k, CPL_x} \right)}$$
@@ -57,7 +74,7 @@ $$Attainment_{CPL_x}(i) = \frac{\sum_{k \in MK(CPL_x)} \left( SKS_k \times Weigh
 
 ---
 
-### 2.4 Perhitungan Ketercapaian CPL Program Studi ($Cohort\_Attainment_{CPL_x}$)
+### 3.4 Perhitungan Ketercapaian CPL Program Studi ($Cohort\_Attainment_{CPL_x}$)
 Untuk akreditasi LAM INFOKOM Kriteria 9, persentase ketercapaian kohor lulusan dihitung:
 
 $$\% Cohort\_Attainment_{CPL_x} = \left( \frac{\text{Jumlah Mahasiswa dengan } Attainment_{CPL_x} \ge 65.0}{\text{Total Mahasiswa dalam Angkatan}} \right) \times 100\%$$
@@ -66,65 +83,43 @@ $$\% Cohort\_Attainment_{CPL_x} = \left( \frac{\text{Jumlah Mahasiswa dengan } A
 
 ---
 
-## 3. MASTER RUBRIK PENILAIAN OBE TERSTANDAR
+## 4. MASTER RUBRIK PENILAIAN OBE TERSTANDAR
 
-### 3.1 Rubrik 1: Penilaian Proyek Rekayasa Perangkat Lunak & Coding (PjBL)
+### 4.1 Rubrik 1: Penilaian Proyek Rekayasa Perangkat Lunak & Coding (PjBL)
 *Digunakan untuk MK Praktikum, Platform Engineering, AI, dan Capstone Project.*
 
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                   RUBRIK ANALITIK PROYEK REKAYASA PERANGKAT LUNAK & CODING                       │
-├──────────────────┬─────────────────┬─────────────────┬─────────────────┬─────────────────────────┤
-│ Kriteria         │ Sangat Baik     │ Baik            │ Cukup           │ Kurang                  │
-│                  │ (81 – 100)      │ (70 – 80)       │ (56 – 69)       │ (< 56)                  │
-├──────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────────────┤
-│ 1. Arsitektur &  │ Arsitektur modu-│ Arsitektur cuku-│ Arsitektur ku-  │ Kode monolitik tanpa    │
-│    Struktur Kode │ lar, SOLID, rapi│ p modular, pola │ rang teratur,   │ pola, sulit dipahami,   │
-│    (Bobot: 25%)  │ & dokumentatif. │ desain standar. │ redundansi kode.│ tidak terstruktur.      │
-├──────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────────────┤
-│ 2. Fungsionalitas│ 100% fitur ber- │ 80-99% fitur ber│ 60-79% fitur ber│ Fitur utama gagal       │
-│    & Fitur       │ jalan sempurna, │ jalan baik, bug │ jalan, terjadi  │ berfungsi, sering       │
-│    (Bobot: 35%)  │ zero fatal bug. │ minor non-fatal.│ error berulang. │ crash saat runtime.     │
-├──────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────────────┤
-│ 3. UI/UX & Res-  │ Antarmuka intui-│ Antarmuka baik, │ Antarmuka standar│ Antarmuka buruk, sulit │
-│    ponsivitas    │ tif, estetik &  │ responsif pada  │ tapi kaku / ada │ digunakan, tidak res-   │
-│    (Bobot: 20%)  │ adaptif devices.│ layar utama.    │ cacat layout.   │ ponsif.                 │
-├──────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────────────┤
-│ 4. Pengujian &   │ Unit test kom-  │ Unit test ter-  │ Pengujian manual│ Tidak ada bukti pengu-  │
-│    Dokumentasi   │ prehensif, lapo-│ sedia, README   │ terbatas, doku- │ jian, tanpa dokumentasi │
-│    (Bobot: 20%)  │ ran teknis rapi.│ cukup memadai.  │ mentasi minim.  │ repositori.             │
-└──────────────────┴─────────────────┴─────────────────┴─────────────────┴─────────────────────────┘
-```
+| Kriteria | Sangat Baik (81 – 100) | Baik (70 – 80) | Cukup (56 – 69) | Kurang (< 56) |
+|---|---|---|---|---|
+| **1. Arsitektur & Struktur Kode (25%)** | Arsitektur modular, SOLID, clean code, terdokumentasi rapi. | Arsitektur cukup modular, pola desain standar industri. | Arsitektur kurang teratur, terjadi duplikasi kode. | Kode monolitik tanpa pola, sulit dibaca dan dipelihara. |
+| **2. Fungsionalitas & Fitur (35%)** | 100% fitur berjalan sempurna sesuai SRS, zero fatal bug. | 80–99% fitur berjalan baik, ada bug minor non-fatal. | 60–79% fitur berjalan, beberapa error fungsional. | Fitur utama gagal berfungsi, crash saat runtime. |
+| **3. UI/UX & Responsivitas (20%)** | Antarmuka intuitif, estetik, adaptif di multi-device. | Antarmuka baik dan responsif pada layar desktop/mobile. | Antarmuka standar, kaku, atau cacat visual minor. | Antarmuka buruk, tidak ramah pengguna, tidak responsif. |
+| **4. Pengujian & Dokumentasi (20%)** | Pengujian otomatis/manual komprehensif, README & API spec rapi. | Pengujian memadai, dokumentasi instalasi lengkap. | Pengujian minimal, dokumentasi teknis kurang lengkap. | Tidak ada bukti pengujian, tanpa dokumentasi. |
 
 ---
 
-### 3.2 Rubrik 2: Penilaian Presentasi Lisan & Komunikasi Ilmiah
+### 4.2 Rubrik 2: Penilaian Presentasi Lisan & Komunikasi Ilmiah
 *Digunakan untuk Seminar Proposal, Sidang Proyek, dan Capstone Project.*
 
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                   RUBRIK ANALITIK PRESENTASI LISAN & KOMUNIKASI ILMIAH                           │
-├──────────────────┬─────────────────┬─────────────────┬─────────────────┬─────────────────────────┤
-│ Kriteria         │ Sangat Baik     │ Baik            │ Cukup           │ Kurang                  │
-│                  │ (81 – 100)      │ (70 – 80)       │ (56 – 69)       │ (< 56)                  │
-├──────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────────────┤
-│ 1. Penguasaan    │ Menguasai penuh │ Memahami materi │ Pemahaman cukup │ Tidak menguasai materi, │
-│    Materi        │ materi & mampu  │ dengan baik,    │ tetapi ragu-ragu│ tidak mampu menjawab    │
-│    (Bobot: 40%)  │ menjawab kritis.│ jawaban tepat.  │ menjawab tanya. │ pertanyaan penguji.     │
-├──────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────────────┤
-│ 2. Kualitas Media│ Slide profesional│ Slide rapi dan  │ Slide terlalu   │ Slide buruk, visual     │
-│    Visual        │ visual kuat, data│ teks jelas ter- │ padat teks, gam-│ membingungkan, banyak   │
-│    (Bobot: 30%)  │ terstruktur.    │ baca.           │ bar pecah.      │ kesalahan tik (*typo*). │
-├──────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────────────┤
-│ 3. Artikulasi &  │ Artikulasi lu-  │ Komunikasi jelas│ Suara monoton,  │ Komunikasi pasif, waktu │
-│    Manajemen Wkt │ gas, percaya    │ kontak mata baik│ melebihi alokasi│ tidak terkontrol, tidak │
-│    (Bobot: 30%)  │ diri, tepat wkt.│ tepat waktu.    │ waktu presentasi│ profesional.            │
-└──────────────────┴─────────────────┴─────────────────┴─────────────────┴─────────────────────────┘
-```
+| Kriteria | Sangat Baik (81 – 100) | Baik (70 – 80) | Cukup (56 – 69) | Kurang (< 56) |
+|---|---|---|---|---|
+| **1. Penguasaan Materi (40%)** | Menguasai penuh materi & mampu menjawab pertanyaan kritis secara ilmiah. | Memahami materi dengan baik, jawaban tepat dan logis. | Pemahaman cukup, namun ragu-ragu saat tanya jawab. | Tidak menguasai materi, tidak mampu menjawab pertanyaan. |
+| **2. Kualitas Media Visual (30%)** | Slide profesional, visual infografis kuat, data terstruktur. | Slide rapi, teks terbaca jelas, visual mendukung. | Slide terlalu padat teks (*text-heavy*), visual minim. | Slide buruk, tidak terstruktur, banyak salah ketik (*typo*). |
+| **3. Artikulasi & Waktu (30%)** | Artikulasi lugas, percaya diri, kontak mata baik, tepat waktu. | Komunikasi jelas, intonasi baik, alokasi waktu pas. | Suara monoton, sedikit melebihi batas waktu. | Komunikasi pasif, tidak terkontrol, tidak profesional. |
 
 ---
 
-## 4. INTEGRASI CAPAIAN CPL KE DALAM SKPI (SURAT KETERANGAN PENDAMPING IJAZAH)
+### 4.3 Rubrik 3: Penilaian Karya Tulis & Laporan Rekayasa
+*Digunakan untuk Laporan Praktikum, Tugas Analisis Kasus, dan Skripsi.*
+
+| Kriteria | Sangat Baik (81 – 100) | Baik (70 – 80) | Cukup (56 – 69) | Kurang (< 56) |
+|---|---|---|---|---|
+| **1. Kedalaman Analisis (40%)** | Analisis kritis mendalam, sintesis literatur mutakhir, solusi orisinal. | Analisis baik, argumen terstruktur, rujukan relevan. | Analisis bersifat deskriptif, kurang mendalam. | Analisis dangkal, tanpa landasan teori yang memadai. |
+| **2. Metodologi Rekayasa (30%)** | Metodologi ilmiah/rekayasa tepat, tahapan sistematis dan valid. | Metodologi tepat dan dapat dipertanggungjawabkan. | Metodologi kurang lengkap atau ada langkah terlewat. | Metodologi tidak jelas atau keliru. |
+| **3. Tata Tulis & Sitasi (30%)** | Format standar IEEE/APA sempurna, sitasi Mendeley, bebas plagiasi (<20%). | Format rapi, sitasi standar, kemiripan rendah. | Format kurang konsisten, ada kesalahan sitasi minor. | Format tidak rapi, banyak salah eja, indikasi plagiasi. |
+
+---
+
+## 5. INTEGRASI CAPAIAN CPL KE DALAM SKPI (SURAT KETERANGAN PENDAMPING IJAZAH)
 
 Hasil ketercapaian 14 CPL mahasiswa selama 8 semester akan dicetak sebagai **Portofolio Capaian OBE (Radar Chart CPL)** pada lampiran resmi SKPI lulusan:
 
@@ -149,7 +144,7 @@ Hasil ketercapaian 14 CPL mahasiswa selama 8 semester akan dicetak sebagai **Por
 
 ---
 
-## 5. SIKLUS CONTINUOUS QUALITY IMPROVEMENT (CQI) — PPEPP
+## 6. SIKLUS CONTINUOUS QUALITY IMPROVEMENT (CQI) — PPEPP
 
 Apabila terdapat $CPL_x$ yang belum memenuhi ambang batas target prodi ($\ge 80\%$), Program Studi menjalankan siklus perbaikan PPEPP:
 1. **Penetapan (P):** Meninjau ulang target baseline CPL.
