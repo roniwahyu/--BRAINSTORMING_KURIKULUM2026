@@ -5,15 +5,16 @@
 **Filosofi rekomendasi:** *Revisi, bukan bongkar total.* Pertahankan MK inti AI/Smart Systems yang sudah selaras VMTS; perbaiki struktur, keseimbangan, keterlacakan, dan fleksibilitas.
 **Tanggal:** 10 Agustus 2026
 
-**⚠️ Catatan:** Dokumen ini merupakan rekomendasi untuk KURIKULUM2025. Untuk Kurikulum 2026, lihat dokumen 006, 011, 012, 015.
+**⚠️ Catatan Status (20 Agustus 2026):**  
+Dokumen ini merupakan rekomendasi awal (R1–R8) terhadap Kurikulum 2025. Seluruh rekomendasi ini telah direalisasikan dan tuntas dikunci pada **Kurikulum SISTEKIN 2026 (148 SKS Paket Ditempuh / 55 MK; 184 SKS Portofolio / 67 MK)** yang terdokumentasi resmi di **Dokumen [020], [030], [031], dan [032]**.
 
-**Update Kode MK (Agustus 2026):**
-| Prefix | Kategori |
-|---|---|
-| **MKU** | Mata Kuliah Universitas |
-| **FST-** | Mata Kuliah Fakultas (14 MK, 37 SKS) |
-| **STI-** | Mata Kuliah Wajib Prodi (31 MK) |
-| **STA-/STB-/STC-** | MK Pilihan Peminatan |
+**Sistem Kode MK Definitif 2026:**
+| Prefix | Kategori | Jumlah SKS Paket |
+|---|---|:---:|
+| **MKU** | Mata Kuliah Wajib Umum Universitas | 13 SKS (8 MK) |
+| **FST-** | Mata Kuliah Bersama Fakultas (FSTI) | 38 SKS (14 MK) |
+| **STI-** | Mata Kuliah Inti Program Studi | 79 SKS (27 MK) |
+| **STA-/STB-/STC-** | MK Pilihan Peminatan (P1, P2, P3) | 18 SKS Ditempuh (6 MK) / 54 SKS Ditawarkan |
 
 ---
 

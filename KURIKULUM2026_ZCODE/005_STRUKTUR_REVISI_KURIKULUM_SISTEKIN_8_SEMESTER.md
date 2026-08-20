@@ -1,18 +1,16 @@
 # STRUKTUR REVISI KURIKULUM SISTEKIN — 8 SEMESTER
 
-**Versi:** DRAFT LAMA · **Tanggal:** 10 Agustus 2026 (Updated)
-**⚠️ STATUS:** Dokumen ini sudah **DISEPINGKAN** oleh 011_STRUKTUR_KURIKULUM_TABEL.md. Gunakan 011 sebagai acuan utama.
-**Dasar:** Kurikulum 2025 berjalan (146 SKS, 56 MK) + Keputusan Final 006
-**Acuan resmi:** PANDUAN APTIKOM SI v2.0 (IS2020) + PANDUAN OBE TI 2023 (IT2017/CC2020)
-**Peminatan:** P1 Integrated Smart Systems · P2 Cloud Infrastructure & Cybersecurity · P3 Digital Platform Engineering
+**Versi:** DRAFT HISTORIS · **Tanggal:** 10 Agustus 2026  
+**⚠️ STATUS REKONSILIASI (20 Agustus 2026):**  
+Dokumen ini merupakan draft historis awal dan telah **DISEMPURNAKAN & DIKUNCI PENUH** oleh struktur final **55 MK / 148 SKS Paket Ditempuh (184 SKS Portofolio / 67 MK)** pada Dokumen **[011]**, **[020]**, **[030]**, **[031]**, dan **[032_DISTRIBUSI_FINAL_MATA_KULIAH_8_SEMESTER_SISTEKIN.md]**. Gunakan Dokumen [032] dan [011] sebagai acuan definitif.
 
-**Update Kode MK (Agustus 2026):**
-| Prefix | Kategori | Keterangan |
-|---|---|---|
-| **MKU** | Mata Kuliah Universitas | MK Umum Universitas Widyagama |
-| **FST-** | Mata Kuliah Fakultas | Fondasi keilmuan lintas prodi FSTI (14 MK, 36 SKS) |
-| **STI-** | Mata Kuliah Wajib Prodi | Karakteristik prodi SISTEKIN (31 MK) |
-| **STA-/STB-/STC-** | MK Pilihan Peminatan | Integrated Smart Systems / Cloud & Cyber / Digital Platform |
+**Sistem Kode & Komponen Kurikulum 2026 Terkunci:**
+| Prefix | Kategori | Beban Paket Ditempuh |
+|---|---|:---:|
+| **MKU** | Mata Kuliah Wajib Umum Universitas | 13 SKS (8 MK) |
+| **FST-** | Mata Kuliah Bersama Fakultas (FSTI) | 38 SKS (14 MK) |
+| **STI-** | Mata Kuliah Inti Program Studi | 79 SKS (27 MK) |
+| **STA-/STB-/STC-** | MK Pilihan Peminatan (P1, P2, P3) | 18 SKS (6 MK Ditempuh) |
 
 ---
 

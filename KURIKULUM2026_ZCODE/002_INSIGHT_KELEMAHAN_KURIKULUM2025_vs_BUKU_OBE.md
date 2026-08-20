@@ -9,6 +9,10 @@
 
 **Sifat dokumen:** analisis diagnostik berbasis kutipan buku, bukan vonis. Setiap klaim kelemahan disertai **justifikasi (bukti dari buku)** dan **insight (mengapa itu penting & risikonya)**.
 
+> [!NOTE]
+> **Catatan Status & Hasil Akhir (20 Agustus 2026):**  
+> Seluruh 10 kelemahan Kurikulum 2025 (K1 s.d. K10) dalam dokumen ini telah **100% terselesaikan** dalam penyusunan Kurikulum 2026 (14 CPL ber-BoK APTIKOM, 3 Peminatan Seimbang, Matriks OBE Lengkap, CPMK/Sub-CPMK 67 MK, dan Struktur 8 Semester 148 SKS). Rujukan terkunci ada pada **Dokumen [020], [030], [031], dan [032]**.
+
 ---
 
 ## RINGKASAN 1 KALIMAT

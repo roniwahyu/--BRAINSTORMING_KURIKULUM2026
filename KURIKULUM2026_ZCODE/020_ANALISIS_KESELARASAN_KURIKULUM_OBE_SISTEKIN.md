@@ -117,4 +117,4 @@ Telah ditetapkan restrukturisasi Peminatan P3 untuk memastikan keunggulan level 
 
 ---
 
-*Dokumen ini menjadi rujukan resmi aktif (Single Source of Truth) bagi seluruh agen AI pengembang kurikulum SISTEKIN UWG 2026.*
+*Dokumen ini menjadi rujukan resmi aktif (Single Source of Truth) bagi seluruh agen AI pengembang kurikulum SISTEKIN UWG 2026, dengan rincian 55 MK master definitif terdokumentasi di Dokumen [032].*

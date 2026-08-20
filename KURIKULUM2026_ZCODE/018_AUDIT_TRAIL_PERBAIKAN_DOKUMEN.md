@@ -609,8 +609,25 @@ User menginformasikan bahwa MK terbagi menjadi:
    - **`FST-610 Capstone Project FSTI` (3 SKS, +P):** Dipindahkan dari Semester 6 ke **Semester 7** sebagai puncak proyek rekayasa kolaboratif bersamaan dengan PKL & Startup Digital.
    - **`FST-613 Pra-Skripsi / Seminars` (2 SKS):** Dipindahkan dari Semester 8 ke **Semester 7** agar mahasiswa menyelesaikan proposal penelitian dan lulus Sempro di Semester 7.
    - **`FST-714 Skripsi / Tugas Akhir` (6 SKS, +P):** Ditempatkan di **Semester 8** sebagai *Single Track* murni (6 SKS) sehingga fokus kelulusan tepat waktu ($\le 4$ tahun) optimal.
-3. **Status Dokumen Terupdate:**
-   - `006`, `007`, `010`, `011`, `012`, `015`, `017`, `018`, `020`, `030`, `031`, `AGENTS.md`, `Implementasi_Modul_OBE_SISTEKIN2026_TABLES.md`, dan `Implementasi_Modul_OBE_SISTEKIN2026_UPDATED.xlsx`.
+### 7.19 Penerbitan Dokumen 032: Distribusi Final 55 Mata Kuliah 8 Semester SISTEKIN (20 Agustus 2026)
+
+1. **Konteks & Tujuan:**
+   - Menyediakan dokumen definitif tabel 8 semester (*clean, locked, zero-conflict*) yang siap dicantumkan langsung sebagai Lampiran Keputusan Resmi SK Rektor tentang Kurikulum SISTEKIN 2026.
+2. **Karakteristik & Rincian Dokumen 032:**
+   - **Tabel 8 Semester:** Memuat rincian 55 mata kuliah paket ditempuh (148 SKS) dengan kode mata kuliah, bobot SKS, tipe (+P/Teori/Praktik/Proyek/Seminar/Mandiri), kategori (MKWU/FSTI/Core STI/Elektif), pemetaan CPL utama, dan prasyarat akademik.
+   - **Tabel Portofolio Peminatan:** Memuat rincian 18 MK elektif yang ditawarkan di SIAKAD (54 SKS) untuk 3 peminatan seimbang (P1, P2, P3).
+   - **Rekapitulasi Komponen:** MKWU (13 SKS / 8 MK), FSTI (38 SKS / 14 MK), Core STI (79 SKS / 27 MK), dan Peminatan Ditempuh (18 SKS / 6 MK).
+   - **Klausul Kepatuhan Regulasi:** Kepatuhan batas beban $\le 20\text{ SKS}$ pada Semester 1 (19 SKS) dan Semester 2 (20 SKS) serta pelampauan ambang batas nasional kelulusan $\ge 144\text{ SKS}$ (Permendikbudristek No. 53 Tahun 2023).
+### 7.20 Harmonisasi Menyeluruh Repositori Dokumen 001 s.d. 032 (20 Agustus 2026)
+
+1. **Konteks & Tujuan:**
+   - Melakukan sinkronisasi penuh dan penguncian konsistensi angka di seluruh dokumen dari `001` hingga `032`, menghapus seluruh residu kontradiksi data lama, serta memastikan *zero hallucination, zero overclaim*.
+2. **Rincian Pekerjaan Terlaksana:**
+   - **Penerbitan Dokumen 032:** Lampiran master definitif 55 MK (148 SKS paket ditempuh) dan 67 MK (184 SKS portofolio ditawarkan) untuk SK Rektor.
+   - **Sinkronisasi Dokumen Historis (001–005):** Penambahan banner status penegasan bahwa seluruh temuan/gap Kurikulum 2025 telah 100% terselesaikan pada Kurikulum 2026.
+   - **Pembaruan Dokumen Inti (006–016, 019–021, 030–031):** Pemutakhiran konsisten kode MK (`STI-604` Sem 6, `STI-701` Sem 7, `FST-610` Sem 7, `FST-613` Sem 7, `FST-714` Sem 8, `MKU-203` Sem 5), sebaran lab praktikum, ekuivalensi MBKM 20 SKS, dan rantai prasyarat.
+   - **Penyelarasan Modul OBE (Markdown & Excel):** Pemutakhiran `Implementasi_Modul_OBE_SISTEKIN2026_TABLES.md` dan regenerasi sukses `Implementasi_Modul_OBE_SISTEKIN2026_UPDATED.xlsx` (15 Sheet).
+   - **Pembaruan Memori Agen:** `AGENTS.md` diperbarui dengan daftar file dan ground truth mutakhir.
 
 ---
 

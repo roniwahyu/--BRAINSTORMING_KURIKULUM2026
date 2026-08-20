@@ -116,7 +116,10 @@ KURIKULUM2026_ZCODE/
 ├── 026_FORMULASI_CPMK_SUB_CPMK_SEMESTER_5_DAN_6.md (CPMK & Sub-CPMK Sem 5-6)
 ├── 027_FORMULASI_CPMK_SUB_CPMK_SEMESTER_7_8_DAN_PEMINATAN.md ⭐ (CPMK Sem 7-8 & 18 MK Pilihan P1-P3)
 ├── 028_CONTOH_RPS_READY_MACHINE_LEARNING_SISTEKIN.md ⭐ (Contoh RPS Siap Pakai Terstandar OBE LAM INFOKOM)
-└── 029_PANDUAN_SISTEM_ASESMEN_DAN_EVALUASI_OBE_SISTEKIN.md ⭐ (Panduan Asesmen OBE, Formula CPL Attainment, Rubrik Master & CQI)
+├── 029_PANDUAN_SISTEM_ASESMEN_DAN_EVALUASI_OBE_SISTEKIN.md ⭐ (Panduan Asesmen OBE, Formula CPL Attainment, Rubrik Master & CQI)
+├── 030_ANALISIS_KESELARASAN_IMPLEMENTASI_OBE_2026.md (Berita Acara Rekonsiliasi OBE 2026)
+├── 031_PENYESUAIAN_STRUKTUR_SEMESTER_5_7_8_DAN_TA.md (Keputusan Penataan Posisi MK Semester Tingkat Akhir & TA)
+└── 032_DISTRIBUSI_FINAL_MATA_KULIAH_8_SEMESTER_SISTEKIN.md ⭐ (Lampiran Definitif 55 MK / 148 SKS Naskah SK Rektor)
 ```
 
 ---
@@ -124,7 +127,7 @@ KURIKULUM2026_ZCODE/
 ## Current State & Next Steps
 
 **Status Saat Ini:** 
-- **Fase Makro OBE:** VMTS ↔ PL/PEO ↔ 14 CPL ↔ 19 BoK IS2020 & 27 BoK IT2017 ↔ Struktur 8 Semester (154 SKS ditempuh / 184 SKS portofolio — Rekonsiliasi 19/08/2026) ↔ 3 Peminatan Seimbang (@ 18 SKS) telah **100% tuntas dan terverifikasi di Dokumen 020–023**.
+- **Fase Makro OBE:** VMTS ↔ PL/PEO ↔ 14 CPL ↔ 19 BoK IS2020 & 27 BoK IT2017 ↔ Struktur 8 Semester (148 SKS paket ditempuh / 184 SKS portofolio ditawarkan) ↔ 3 Peminatan Seimbang (@ 18 SKS) telah **100% tuntas dan terverifikasi di Dokumen 020–023, 030–032**.
 - **Fase Mikro OBE:** Formulasi PL, CPL, CPMK berbasis ABCD & Taksonomi Bloom (C2–C6), serta Sub-CPMK untuk **seluruh 67 MK portofolio** telah **100% selesai diformulasikan di Dokumen 024, 025, 026, dan 027**.
 - **Fase Asesmen & Penjaminan Mutu OBE:** Panduan Asesmen OBE Terperinci (Formula Matematis Ketercapaian CPL, 4 Rubrik Analitik Master, Kepatuhan IKU 7 $\ge 50\%$, Siklus PPEPP / CQI, dan Transkrip Capaian Radar SKPI) telah **100% tuntas di Dokumen 028 & 029**.
 

@@ -62,6 +62,4 @@ Setelah dilakukan audit matematis menyeluruh terhadap daftar baris mata kuliah d
 
 ---
 
-## 4. KESIMPULAN
-
-Seluruh berkas perancangan kurikulum (`011`, `012`, `020`, `030`, `031`, dan modul implementasi Markdown/Excel) kini telah berada dalam status **100% SINKRON, TEREKONSILIASI SECARA MATEMATIS, DAN SIAP DIJADIKAN LAMPIRAN BUKU KURIKULUM & SK REKTOR**.
+Seluruh berkas perancangan kurikulum (`011`, `012`, `020`, `030`, `031`, `032`, dan modul implementasi Markdown/Excel) kini telah berada dalam status **100% SINKRON, TEREKONSILIASI SECARA MATEMATIS, DAN SIAP DIJADIKAN LAMPIRAN BUKU KURIKULUM & SK REKTOR**. Dokumen [032] menjadi lampiran definitif tabel 55 MK untuk SK Rektor.

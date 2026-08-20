@@ -96,4 +96,4 @@ $$\boxed{\text{Metodologi Penelitian (Sem 6, 2 SKS)}} \longrightarrow \boxed{\te
 
 ---
 
-*Dokumen 031 ini disahkan sebagai rujukan struktural resmi kurikulum Program Studi Sistem dan Teknologi Informasi (SISTEKIN) FSTI Universitas Widyagama Malang Tahun 2026.*
+*Dokumen 031 ini disahkan sebagai rujukan struktural resmi penataan semester tingkat akhir dan dikompilasikan secara penuh ke dalam Dokumen [032] untuk lampiran SK Rektor Kurikulum Program Studi Sistem dan Teknologi Informasi (SISTEKIN) FSTI Universitas Widyagama Malang Tahun 2026.*
