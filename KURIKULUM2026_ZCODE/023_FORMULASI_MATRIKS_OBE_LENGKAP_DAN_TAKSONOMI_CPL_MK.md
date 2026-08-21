@@ -60,7 +60,7 @@
 | STI-402 | Data Warehouse & Business Intelligence | 3 | ✅ | | | | | | R | | | | R | | | | |
 | STI-407 | Web Back End Development | 3 | ✅ | | R | | | | | | R | | | | | | |
 | STI-404 | SI Berbasis Cloud | 3 | — | | | | | | | R | | | | R | | | |
-| STI-405 | Keamanan Informasi Dasar | 3 | — | | | | | | | R | | | | R | | | |
+| STI-405 | Keamanan Informasi Dasar | 2 | — | | | | | | | R | | | | R | | | |
 | FST-408 | Statistika & Probabilitas | 3 | — | | | | | R | | | R | | | | | | |
 | FST-409 | English for IT Professionals | 2 | — | | | R | | | | | | | | | | | |
 | MKU-401 | Kewarganegaraan | 2 | — | R | | | | | | | | | | | | | |
@@ -83,7 +83,7 @@
 | STA/B/C | MK Pilihan Peminatan 1 | 3 | 🔄 | | R | R | | | | | | R/M | R/M | R/M | R/M | R/M | R/M |
 | **SEMESTER 6** | | | | | | | | | | | | | | | | | |
 | STI-601 | Integrasi Layanan Cerdas Berbasis AI | 3 | ✅ | | | | | | M | | | M | | | | | |
-| STI-602 | Smart City & Pemerintahan Digital | 3 | ✅ | | | | | | | M | | | | M | | | |
+| STI-602 | Smart City & Pemerintahan Digital | 2 | ✅ | | | | | | | M | | | | M | | | |
 | STI-603 | Keamanan Informasi Lanjut | 3 | — | | | | | | | M | | | | M | M | | |
 | STI-604 | Digital Platform Engineering | 3 | ✅ | | | | | | | | M | | | | | M | |
 | FST-611 | Metodologi Penelitian | 2 | — | | M | M | M | | | | | | | | | | |

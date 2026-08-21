@@ -18,11 +18,11 @@ Setelah dilakukan audit matematis menyeluruh terhadap daftar baris mata kuliah d
 |---|:---:|:---:|:---:|:---:|---|
 | **Mata Kuliah Umum Universitas (MKWU)** | **8 MK** | **13 SKS** | **8 MK** | **13 SKS** | 6 MK ber-SKS (13 SKS: Agama I 2, Pancasila 2, B.Indo 2, KWU I 2, KWN 2, KPM 3 di Sem 5) + 2 MK @ 0 SKS kebijakan UWG (Agama II & KWU II). |
 | **Mata Kuliah Bersama Fakultas (FSTI)** | **14 MK** | **38 SKS** | **14 MK** | **38 SKS** | Fondasi saintek & keahlian lintas prodi (incl. FST-204 Pengantar AI @ 2 SKS, Metpen 2 SKS di Sem 6, Capstone 3 SKS di Sem 7, PKL 3 SKS di Sem 7, Pra-Skripsi 2 SKS di Sem 7, Skripsi 6 SKS di Sem 8). |
-| **Mata Kuliah Wajib Inti Prodi (STI)** | **27 MK** | **79 SKS** | **27 MK** | **79 SKS** | Inti keilmuan SISTEKIN (Sem 1: 8 SKS, Sem 2: 6 SKS, Sem 3: 20 SKS, Sem 4: 15 SKS, Sem 5: 15 SKS, Sem 6: 12 SKS incl. Platform Eng, Sem 7: 3 SKS Startup). |
+| **Mata Kuliah Wajib Inti Prodi (STI)** | **27 MK** | **77 SKS** | **27 MK** | **77 SKS** | Inti keilmuan SISTEKIN (Sem 1: 8 SKS, Sem 2: 6 SKS, Sem 3: 20 SKS, Sem 4: 15 SKS, Sem 5: 15 SKS, Sem 6: 12 SKS incl. Platform Eng, Sem 7: 3 SKS Startup). |
 | **Mata Kuliah Pilihan Peminatan (STA/B/C)** | **18 MK** | **54 SKS** | **6 MK** | **18 SKS** | 3 Peminatan Seimbang (@ 6 MK / 18 SKS); Mahasiswa mengambil tepat 1 paket peminatan penuh (6 MK: 1 di Sem 5, 2 di Sem 6, 3 di Sem 7). |
 | **SUBTOTAL WAJIB DITEMPUH** | **49 MK** | **130 SKS** | **49 MK** | **130 SKS** | **Fondasi & Inti Wajib Kurikulum** |
-| **GRAND TOTAL PAKET 8 SEMESTER** | **55 MK** | **148 SKS** | **55 MK** | **148 SKS** | **Beban Paket Terjadwal (Syarat Lulus Minimal = 144 SKS Permendikbud 53/2023)** |
-| **GRAND TOTAL PORTOFOLIO DITAWARKAN** | **67 MK** | **184 SKS** | — | — | **Total Seluruh Opsi Portofolio MK yang Ditawarkan Prodi** |
+| **GRAND TOTAL PAKET 8 SEMESTER** | **55 MK** | **146 SKS** | **55 MK** | **146 SKS** | **Beban Paket Terjadwal (Syarat Lulus Minimal = 144 SKS Permendikbud 53/2023)** |
+| **GRAND TOTAL PORTOFOLIO DITAWARKAN** | **67 MK** | **182 SKS** | — | — | **Total Seluruh Opsi Portofolio MK yang Ditawarkan Prodi** |
 
 ---
 
@@ -30,7 +30,7 @@ Setelah dilakukan audit matematis menyeluruh terhadap daftar baris mata kuliah d
 
 | # | Temuan Masalah Lama | Akar Penyebab (*Root Cause*) | Tindakan Koreksi & Resolusi Final | Status |
 |:---:|---|---|---|:---:|
-| 1 | **Klaim STI Wajib "30 MK / 93 SKS" vs Realita** | Pada draf awal Dokumen 006, 3 MK (Struktur Data, Basis Data, Statistika) masih berkode STI. Saat dialihkan ke FSTI (`FST-203`, `FST-207`, `FST-408`), jumlah MK STI berkurang dari 30 MK menjadi **27 MK (79 SKS)**, namun teks narasi ringkasan lama tidak diperbarui. | Dokumen 011, 012, 020, dan 031 telah diperbarui resmi: **STI Wajib Inti = 27 MK (79 SKS)**. | ✅ Tuntas |
+| 1 | **Klaim STI Wajib "30 MK / 93 SKS" vs Realita** | Pada draf awal Dokumen 006, 3 MK (Struktur Data, Basis Data, Statistika) masih berkode STI. Saat dialihkan ke FSTI (`FST-203`, `FST-207`, `FST-408`), jumlah MK STI berkurang dari 30 MK menjadi **27 MK (77 SKS)**, namun teks narasi ringkasan lama tidak diperbarui. | Dokumen 011, 012, 020, dan 031 telah diperbarui resmi: **STI Wajib Inti = 27 MK (77 SKS)**. | ✅ Tuntas |
 | 2 | **Klaim FSTI "36 / 37 SKS" vs Penjumlahan Baris** | Header Dokumen 011 sempat menulis 37 SKS dan summary menulis 36 SKS, sedangkan penjumlahan 14 MK riil adalah $2+3+3+2+2+2+3+3+2+3+2+3+2+6 = \mathbf{38\text{ SKS}}$. | Seluruh dokumen (011, 012, 020, 030, 031) diseragamkan: **FSTI = 14 MK (38 SKS)** dengan `FST-204` = 2 SKS. | ✅ Tuntas |
 | 3 | **Klaim MKWU "14 SKS" vs Penjumlahan Baris** | Penjumlahan 8 MKWU riil adalah $2+2+2+2+2+0+0+3 = \mathbf{13\text{ SKS}}$ (karena Agama II & KWU II berbobot 0 SKS). Ringkasan lama salah menjumlahkan menjadi 14 SKS. | Seluruh dokumen diseragamkan: **MKWU = 8 MK (13 SKS)**. | ✅ Tuntas |
 | 4 | **Anomali Footer Semester 4 (Klaim 19 SKS vs Riil 22 SKS)** | Pergeseran `MKU-401 Kewarganegaraan` (2 SKS) dan `STI-402 DW-BI` (3 SKS) ke Semester 4 menambah beban riil menjadi 22 SKS, namun footer tabel Dokumen 011 tertinggal di angka 19 SKS. | Footer Semester 4 di Dokumen 011 dan 020 diperbarui menjadi **22 SKS** (8 MK ber-SKS + 2 MK @ 0 SKS). | ✅ Tuntas |
@@ -38,7 +38,7 @@ Setelah dilakukan audit matematis menyeluruh terhadap daftar baris mata kuliah d
 
 ---
 
-## 3. DISTRIBUSI BEBAN 8 SEMESTER TERVALIDASI (148 SKS TERJADWAL)
+## 3. DISTRIBUSI BEBAN 8 SEMESTER TERVALIDASI (146 SKS TERJADWAL)
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
@@ -55,9 +55,9 @@ Setelah dilakukan audit matematis menyeluruh terhadap daftar baris mata kuliah d
 │ Semester 7 │ 4 MK Wajib (11 SKS - Capst)│ 3 MK Pilihan / MBKM (9 SKS) │ 20 SKS         │
 │ Semester 8 │ 1 MK Wajib (6 SKS - Skrips)│ —                           │ 6 SKS (Murni)  │
 ├────────────┼────────────────────────────┼─────────────────────────────┼────────────────┤
-│ TOTAL      │ 49 MK Wajib (130 SKS)      │ 6 MK Pilihan (18 SKS)       │ 148 SKS Paket  │
+│ TOTAL      │ 49 MK Wajib (130 SKS)      │ 6 MK Pilihan (18 SKS)       │ 146 SKS Paket  │
 └────────────┴────────────────────────────┴─────────────────────────────┴────────────────┘
-* Beban kelulusan mahasiswa: 148 SKS (Memenuhi & melampaui syarat minimal 144 SKS Permendikbudristek No. 53/2023).
+* Beban kelulusan mahasiswa: 146 SKS (Memenuhi & melampaui syarat minimal 144 SKS Permendikbudristek No. 53/2023).
 ```
 
 ---

@@ -17,20 +17,20 @@
 |---|:---:|:---:|:---:|
 | **Mata Kuliah Wajib Umum (MKWU / Universitas)** | 8 MK | 13 SKS | 8,8% |
 | **Mata Kuliah Wajib Fakultas (FSTI)** | 14 MK | 38 SKS | 25,7% |
-| **Mata Kuliah Inti Program Studi (Core STI)** | 27 MK | 79 SKS | 53,4% |
+| **Mata Kuliah Inti Program Studi (Core STI)** | 27 MK | 77 SKS | 53,4% |
 | **Mata Kuliah Pilihan Peminatan (Elektif)** | 6 MK | 18 SKS | 12,1% |
-| **TOTAL PAKET DITEMPUH MAHASISWA** | **55 MK** | **148 SKS** | **100,0%** |
-| *Portofolio MK Ditawarkan di SIAKAD* | *67 MK* | *184 SKS* | *18 MK Pilihan Ditawarkan* |
+| **TOTAL PAKET DITEMPUH MAHASISWA** | **55 MK** | **146 SKS** | **100,0%** |
+| *Portofolio MK Ditawarkan di SIAKAD* | *67 MK* | *182 SKS* | *18 MK Pilihan Ditawarkan* |
 
 > [!IMPORTANT]
 > **Kepatuhan Regulasi:**  
-> - **Beban Kelulusan:** 148 SKS (Memenuhi dan melampaui batas minimal 144 SKS Permendikbudristek No. 53/2023).  
+> - **Beban Kelulusan:** 146 SKS (Memenuhi dan melampaui batas minimal 144 SKS Permendikbudristek No. 53/2023).  
 > - **Beban 2 Semester Awal:** Semester 1 (19 SKS) dan Semester 2 (20 SKS) $\le 20\text{ SKS}$ (Sesuai Pasal 18 Permendikbudristek No. 53/2023).  
 > - **Rasio Praktikum / Hands-on (+P):** 21 MK Wajib (66 SKS / 44,6%) memuat laboratorium terstruktur.
 
 ---
 
-## 2. TABEL DISTRIBUSI MATA KULIAH 8 SEMESTER (55 MK / 148 SKS)
+## 2. TABEL DISTRIBUSI MATA KULIAH 8 SEMESTER (55 MK / 146 SKS)
 
 ### SEMESTER 1 — Fondasi Sains Komputer & Karakter Kebangsaan (19 SKS)
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | CPL | Prasyarat |
@@ -109,7 +109,7 @@
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | CPL | Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|:---:|---|
 | 39 | `STI-601` | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | Core STI | P2, KK1 | `STI-501`, `STI-407` |
-| 40 | `STI-602` | Smart City & Pemerintahan Digital | 3 | +P | Core STI | P3, KK3 | `STI-504` |
+| 40 | `STI-602` | Smart City & Pemerintahan Digital | 2 | +P | Core STI | P3, KK3 | `STI-504` |
 | 41 | `STI-603` | Keamanan Informasi Lanjut | 3 | Teori | Core STI | P3, KK3, KK4 | `STI-405` |
 | 42 | `STI-604` | Digital Platform Engineering | 3 | +P | Core STI | P4, KK5 | `STI-407` |
 | 43 | `FST-611` | Metodologi Penelitian | 2 | Teori | FSTI | KU1, KU2 | $\ge 76\text{ SKS}$ |

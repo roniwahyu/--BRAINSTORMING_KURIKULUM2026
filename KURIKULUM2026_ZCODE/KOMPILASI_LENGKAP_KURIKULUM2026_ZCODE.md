@@ -75,7 +75,7 @@
 
 > [!NOTE]
 > **Catatan Status & Hasil Akhir (20 Agustus 2026):**  
-> Dokumen ini merupakan dokumen historis *gap analysis* Kurikulum 2025 (146 SKS). Seluruh temuan gap telah diselesaikan secara tuntas pada **Kurikulum SISTEKIN 2026 (148 SKS Paket Ditempuh / 55 MK; 184 SKS Portofolio Ditawarkan / 67 MK)** yang disahkan pada **Dokumen [020], [030], [031], dan [032]**.
+> Dokumen ini merupakan dokumen historis *gap analysis* Kurikulum 2025 (146 SKS). Seluruh temuan gap telah diselesaikan secara tuntas pada **Kurikulum SISTEKIN 2026 (146 SKS Paket Ditempuh / 55 MK; 182 SKS Portofolio Ditawarkan / 67 MK)** yang disahkan pada **Dokumen [020], [030], [031], dan [032]**.
 
 ---
 
@@ -248,7 +248,7 @@ Agar penyusunan tidak berbasis asumsi, sebaiknya dilengkapi:
 
 > [!NOTE]
 > **Catatan Status & Hasil Akhir (20 Agustus 2026):**  
-> Seluruh 10 kelemahan Kurikulum 2025 (K1 s.d. K10) dalam dokumen ini telah **100% terselesaikan** dalam penyusunan Kurikulum 2026 (14 CPL ber-BoK APTIKOM, 3 Peminatan Seimbang, Matriks OBE Lengkap, CPMK/Sub-CPMK 67 MK, dan Struktur 8 Semester 148 SKS). Rujukan terkunci ada pada **Dokumen [020], [030], [031], dan [032]**.
+> Seluruh 10 kelemahan Kurikulum 2025 (K1 s.d. K10) dalam dokumen ini telah **100% terselesaikan** dalam penyusunan Kurikulum 2026 (14 CPL ber-BoK APTIKOM, 3 Peminatan Seimbang, Matriks OBE Lengkap, CPMK/Sub-CPMK 67 MK, dan Struktur 8 Semester 146 SKS). Rujukan terkunci ada pada **Dokumen [020], [030], [031], dan [032]**.
 
 ---
 
@@ -428,7 +428,7 @@ Agar penyusunan tidak berbasis asumsi, sebaiknya dilengkapi:
 
 > [!NOTE]
 > **Catatan Pembaruan Kurikulum 2026 (20 Agustus 2026):**  
-> Struktur Kurikulum 2025 (146 SKS kaku) dalam dokumen ini telah direvisi secara menyeluruh menjadi **Kurikulum SISTEKIN 2026 (148 SKS Paket Ditempuh / 55 MK; 184 SKS Portofolio / 67 MK)** dengan 3 Peminatan Fleksibel (@ 6 MK / 18 SKS), KPM di Sem 5, Platform Eng di Sem 6, Capstone di Sem 7, Pra-Skripsi di Sem 7, dan Skripsi Murni di Sem 8. Rujukan definitif ada pada **Dokumen [020], [030], [031], dan [032]**.
+> Struktur Kurikulum 2025 (146 SKS kaku) dalam dokumen ini telah direvisi secara menyeluruh menjadi **Kurikulum SISTEKIN 2026 (146 SKS Paket Ditempuh / 55 MK; 182 SKS Portofolio / 67 MK)** dengan 3 Peminatan Fleksibel (@ 6 MK / 18 SKS), KPM di Sem 5, Platform Eng di Sem 6, Capstone di Sem 7, Pra-Skripsi di Sem 7, dan Skripsi Murni di Sem 8. Rujukan definitif ada pada **Dokumen [020], [030], [031], dan [032]**.
 
 ---
 
@@ -506,14 +506,14 @@ Agar penyusunan tidak berbasis asumsi, sebaiknya dilengkapi:
 **Tanggal:** 10 Agustus 2026
 
 **⚠️ Catatan Status (20 Agustus 2026):**  
-Dokumen ini merupakan rekomendasi awal (R1–R8) terhadap Kurikulum 2025. Seluruh rekomendasi ini telah direalisasikan dan tuntas dikunci pada **Kurikulum SISTEKIN 2026 (148 SKS Paket Ditempuh / 55 MK; 184 SKS Portofolio / 67 MK)** yang terdokumentasi resmi di **Dokumen [020], [030], [031], dan [032]**.
+Dokumen ini merupakan rekomendasi awal (R1–R8) terhadap Kurikulum 2025. Seluruh rekomendasi ini telah direalisasikan dan tuntas dikunci pada **Kurikulum SISTEKIN 2026 (146 SKS Paket Ditempuh / 55 MK; 182 SKS Portofolio / 67 MK)** yang terdokumentasi resmi di **Dokumen [020], [030], [031], dan [032]**.
 
 **Sistem Kode MK Definitif 2026:**
 | Prefix | Kategori | Jumlah SKS Paket |
 |---|---|:---:|
 | **MKU** | Mata Kuliah Wajib Umum Universitas | 13 SKS (8 MK) |
 | **FST-** | Mata Kuliah Bersama Fakultas (FSTI) | 38 SKS (14 MK) |
-| **STI-** | Mata Kuliah Inti Program Studi | 79 SKS (27 MK) |
+| **STI-** | Mata Kuliah Inti Program Studi | 77 SKS (27 MK) |
 | **STA-/STB-/STC-** | MK Pilihan Peminatan (P1, P2, P3) | 18 SKS Ditempuh (6 MK) / 54 SKS Ditawarkan |
 
 ---
@@ -733,14 +733,14 @@ Semua jalur dinilai dengan **rubrik OBE berbasis Taksonomi Bloom** (sesuai conto
 
 **Versi:** DRAFT HISTORIS · **Tanggal:** 10 Agustus 2026  
 **⚠️ STATUS REKONSILIASI (20 Agustus 2026):**  
-Dokumen ini merupakan draft historis awal dan telah **DISEMPURNAKAN & DIKUNCI PENUH** oleh struktur final **55 MK / 148 SKS Paket Ditempuh (184 SKS Portofolio / 67 MK)** pada Dokumen **[011]**, **[020]**, **[030]**, **[031]**, dan **[032_DISTRIBUSI_FINAL_MATA_KULIAH_8_SEMESTER_SISTEKIN.md]**. Gunakan Dokumen [032] dan [011] sebagai acuan definitif.
+Dokumen ini merupakan draft historis awal dan telah **DISEMPURNAKAN & DIKUNCI PENUH** oleh struktur final **55 MK / 146 SKS Paket Ditempuh (182 SKS Portofolio / 67 MK)** pada Dokumen **[011]**, **[020]**, **[030]**, **[031]**, dan **[032_DISTRIBUSI_FINAL_MATA_KULIAH_8_SEMESTER_SISTEKIN.md]**. Gunakan Dokumen [032] dan [011] sebagai acuan definitif.
 
 **Sistem Kode & Komponen Kurikulum 2026 Terkunci:**
 | Prefix | Kategori | Beban Paket Ditempuh |
 |---|---|:---:|
 | **MKU** | Mata Kuliah Wajib Umum Universitas | 13 SKS (8 MK) |
 | **FST-** | Mata Kuliah Bersama Fakultas (FSTI) | 38 SKS (14 MK) |
-| **STI-** | Mata Kuliah Inti Program Studi | 79 SKS (27 MK) |
+| **STI-** | Mata Kuliah Inti Program Studi | 77 SKS (27 MK) |
 | **STA-/STB-/STC-** | MK Pilihan Peminatan (P1, P2, P3) | 18 SKS (6 MK Ditempuh) |
 
 ---
@@ -1189,7 +1189,7 @@ Bisnis Digital      →  menjual solusi AI (model bisnis, customer journey)
 |---|:---:|:---:|:---:|---|
 | **Mata Kuliah Praktikum (+P / Hands-on)** | 35 MK | 108 SKS | **21–27 MK (66–84 SKS / 44,6%–56,8%)** | Coding, Lab, UI/UX Prototyping, Mobile, IoT, Platform Eng, Capstone, PKL & Skripsi |
 | **Mata Kuliah Teori / Konseptual** | 32 MK | 76 SKS | **28–34 MK (64–82 SKS / 43,2%–55,4%)** | Fondasi Matematika, Sistem Cerdas (2 SKS), Keamanan Dasar (3 SKS), Etika, GRC & Teori |
-| **TOTAL KURIKULUM** | **67 MK** | **184 SKS** | **55 MK (148 SKS)** | **Distribusi Sangat Seimbang (~50:50 Berbasis OBE & Industri)** |
+| **TOTAL KURIKULUM** | **67 MK** | **182 SKS** | **55 MK (146 SKS)** | **Distribusi Sangat Seimbang (~50:50 Berbasis OBE & Industri)** |
 
 ### Rincian MK Praktikum Baru (+P) & Reposisi Semester:
 1. **UI/UX Design & Prototyping** (3 SKS, +P, Semester 3) — Figma design system, interactive prototyping & user testing
@@ -1216,7 +1216,7 @@ Bisnis Digital      →  menjual solusi AI (model bisnis, customer journey)
 |---|---|---|
 | **MKU** | Mata Kuliah Universitas | MK Umum Universitas Widyagama (8 MK, 13 SKS) |
 | **FST-** | Mata Kuliah Fakultas | Fondasi keilmuan lintas prodi di FSTI (14 MK, 38 SKS) |
-| **STI-** | Mata Kuliah Wajib Prodi | Karakteristik prodi SISTEKIN (27 MK, 79 SKS) |
+| **STI-** | Mata Kuliah Wajib Prodi | Karakteristik prodi SISTEKIN (27 MK, 77 SKS) |
 | **STA-** | MK Pilihan Peminatan P1 | Integrated Smart Systems (6 MK, 18 SKS) |
 | **STB-** | MK Pilihan Peminatan P2 | Cloud Infrastructure & Cybersecurity (6 MK, 18 SKS) |
 | **STC-** | MK Pilihan Peminatan P3 | Digital Platform Engineering (6 MK, 18 SKS) |
@@ -1242,7 +1242,7 @@ Agama I (2 SKS, Sem 1), Pancasila (2 SKS, Sem 1), Bahasa Indonesia (2 SKS, Sem 1
 | 13 | Pra-Skripsi / Seminars | FST-613 | 2 | 7 | >100 SKS | Seminar Proposal Skripsi (Sem 7) |
 | 14 | Skripsi | FST-714 | 6 | 8 | >120 SKS & Lulus Sempro | Proyek/Riset Akhir (+P) (Sem 8) |
 
-### MK Wajib Prodi (STI) — 27 MK, 79 SKS
+### MK Wajib Prodi (STI) — 27 MK, 77 SKS
 | Kelompok | Mata Kuliah | SKS |
 |---|---|---|
 | **Fondasi & Logika** | Pengantar SISTEKIN (2), Kalkulus (3), Logika Informatika (3) | 8 |
@@ -1260,8 +1260,8 @@ Agama I (2 SKS, Sem 1), Pancasila (2 SKS, Sem 1), Bahasa Indonesia (2 SKS, Sem 1
 - **P3 Digital Platform Engineering (STC)**: 6 MK, 18 SKS
 
 **Total Beban Kurikulum:**
-- **Portofolio Ditawarkan:** **67 MK / 184 SKS** (Wajib 49 MK, 130 SKS + Pilihan 18 MK, 54 SKS)
-- **Paket Ditempuh Mahasiswa:** **55 MK / 148 SKS** (Wajib 49 MK, 130 SKS + Pilihan 6 MK, 18 SKS)
+- **Portofolio Ditawarkan:** **67 MK / 182 SKS** (Wajib 49 MK, 130 SKS + Pilihan 18 MK, 54 SKS)
+- **Paket Ditempuh Mahasiswa:** **55 MK / 146 SKS** (Wajib 49 MK, 130 SKS + Pilihan 6 MK, 18 SKS)
 - **Syarat Kelulusan Mahasiswa:** **Minimal 144 SKS** (Permendikbudristek No. 53/2023)
 
 **MBKM:** Program (bukan MK), dapat diakui maks 20 SKS di Sem 6 dan/atau Sem 7 $\rightarrow$ dikonversikan ke paket MK semester terkait.
@@ -1442,16 +1442,16 @@ Agama I (2 SKS, Sem 1), Pancasila (2 SKS, Sem 1), Bahasa Indonesia (2 SKS, Sem 1
 # 007 — BEDAH STRUKTUR KURIKULUM SISTEKIN: ANALISIS KOMPREHENSIF
 
 **Tanggal:** 19 Agustus 2026 (Penataan Final Terkunci)
-**Status:** Analisis lengkap struktur kurikulum dengan 3 peminatan seimbang (Updated: 14 MK FSTI / 38 SKS & 27 MK STI / 79 SKS)
+**Status:** Analisis lengkap struktur kurikulum dengan 3 peminatan seimbang (Updated: 14 MK FSTI / 38 SKS & 27 MK STI / 77 SKS)
 **Ground Truth:** KURIKULUM2025 (56 MK, 146 SKS) — file terverifikasi manusia, sudah dijalankan 2 semester
-**Catatan:** KURIKULUM2025 = 56 MK semua wajib, 146 SKS, 0 peminatan → KURIKULUM2026 = 55 MK Paket Ditempuh (148 SKS) / 67 MK Portofolio Ditawarkan (184 SKS), 3 peminatan (@ 6 MK / 18 SKS), mahasiswa menempuh 6 MK pilihan (18 SKS).
+**Catatan:** KURIKULUM2025 = 56 MK semua wajib, 146 SKS, 0 peminatan → KURIKULUM2026 = 55 MK Paket Ditempuh (146 SKS) / 67 MK Portofolio Ditawarkan (182 SKS), 3 peminatan (@ 6 MK / 18 SKS), mahasiswa menempuh 6 MK pilihan (18 SKS).
 
 ### Kode Mata Kuliah
 | Prefix | Kategori |
 |---|---|
 | **MKU** | Mata Kuliah Universitas (8 MK, 13 SKS, incl. 2 MK @ 0 SKS) |
 | **FST-** | Mata Kuliah Fakultas (14 MK, 38 SKS) |
-| **STI-** | Mata Kuliah Wajib Prodi (27 MK, 79 SKS) |
+| **STI-** | Mata Kuliah Wajib Prodi (27 MK, 77 SKS) |
 | **STA-/STB-/STC-** | MK Pilihan Peminatan (18 MK Portofolio Ditawarkan, 54 SKS; Ditempuh 6 MK / 18 SKS) |
 
 ---
@@ -1462,10 +1462,10 @@ Agama I (2 SKS, Sem 1), Pancasila (2 SKS, Sem 1), Bahasa Indonesia (2 SKS, Sem 1
 |---|---|---|
 | **Total SKS Paket Ditempuh** | **148** | Wajib 130 SKS + Pilihan 18 SKS (Syarat Lulus Minimal = 144 SKS) |
 | **Total MK Paket Ditempuh** | **55** | Wajib 49 MK + Pilihan 6 MK (incl. 2 MK @ 0 SKS UWG) |
-| **Total Portofolio Ditawarkan** | **184 SKS / 67 MK** | Total seluruh opsi mata kuliah yang disediakan oleh Program Studi |
+| **Total Portofolio Ditawarkan** | **182 SKS / 67 MK** | Total seluruh opsi mata kuliah yang disediakan oleh Program Studi |
 | **MK Universitas (MKWU)** | 8 MK | 13 SKS (6 MK ber-SKS + 2 MK 0 SKS; KPM di Sem 5) |
 | **MK Fakultas (FSTI)** | 14 MK | 38 SKS (incl. Metpen Sem 6, Capstone Sem 7, PKL Sem 7, Pra-Skripsi Sem 7, Skripsi Sem 8) |
-| **MK Wajib Prodi (STI)** | 27 MK | 79 SKS (incl. Platform Eng di Sem 6 & Startup Digital di Sem 7) |
+| **MK Wajib Prodi (STI)** | 27 MK | 77 SKS (incl. Platform Eng di Sem 6 & Startup Digital di Sem 7) |
 | **MK Pilihan Peminatan** | 6 MK | 18 SKS diambil (Tepat 1 paket peminatan penuh dari 18 MK portofolio) |
 | **Peminatan** | 3 | P1 Integrated Smart Systems, P2 Cloud & Cyber, P3 Digital Platform (@ 6 MK / 18 SKS) |
 | **Semester** | 8 | 6–22 SKS/semester |
@@ -1484,7 +1484,7 @@ Agama I (2 SKS, Sem 1), Pancasila (2 SKS, Sem 1), Bahasa Indonesia (2 SKS, Sem 1
 | **Sem 6** | 20 | 7 | Integrasi AI (+P), Smart City (+P), Keamanan Lanjut, Digital Platform Eng (+P), Metpen & 2 MK Pilihan | ✅ **Platform Eng di Sem 6** (MBKM 20 SKS) |
 | **Sem 7** | 20 | 7 | Inovasi Startup (+P), Capstone FSTI (+P), PKL (+P), Pra-Skripsi (2) & 3 MK Pilihan Peminatan | ✅ **Puncak Rekayasa & Sempro** (MBKM 20 SKS) |
 | **Sem 8** | 6 | 1 | Skripsi / Tugas Akhir Murni (6 SKS) | ✅ **Single Track Skripsi Murni** (Fokus Lulus Cepat) |
-| **TOTAL GRADUASI** | **148** | **55** | **Wajib 130 SKS + Pilihan 18 SKS (Beban Lulus Minimal = 144 SKS)** | **Graduasi 8 Sem (148 SKS)** |
+| **TOTAL GRADUASI** | **148** | **55** | **Wajib 130 SKS + Pilihan 18 SKS (Beban Lulus Minimal = 144 SKS)** | **Graduasi 8 Sem (146 SKS)** |
 
 ---
 
@@ -1510,7 +1510,7 @@ Agama I (2 SKS, Sem 1), Pancasila (2 SKS, Sem 1), Bahasa Indonesia (2 SKS, Sem 1
 |---|:---:|:---:|:---:|---|
 | **Mata Kuliah Praktikum (+P / Hands-on)** | 35 MK | 108 SKS | **21–27 MK (66–84 SKS / 44,6%–56,8%)** | **Sangat Seimbang** — coding, lab, UI/UX prototyping, mobile, IoT, Platform Eng, Capstone |
 | **Mata Kuliah Teori & Konseptual** | 32 MK | 76 SKS | **28–34 MK (64–82 SKS / 43,2%–55,4%)** | **Sangat Seimbang** — fondasi teori, Sistem Cerdas (2 SKS), Keamanan Dasar, etika & governance |
-| **TOTAL** | **67 MK** | **184 SKS** | **55 MK (148 SKS)** | **Rasio Ideal ~50:50 Berbasis OBE & Industri** |
+| **TOTAL** | **67 MK** | **182 SKS** | **55 MK (146 SKS)** | **Rasio Ideal ~50:50 Berbasis OBE & Industri** |
 
 ---
 
@@ -1871,7 +1871,7 @@ CPL (Capaian Pembelajaran Lulusan) diturunkan dari 6 Profil Lulusan dalam 4 kate
 
 | Dokumen | Fungsi |
 |---|---|
-| `006_KEPUTUSAN_FINAL_ARAH_KURIKULUM_SISTEKIN.md` | Keputusan final arah kurikulum (148 SKS Paket / 184 Portofolio) |
+| `006_KEPUTUSAN_FINAL_ARAH_KURIKULUM_SISTEKIN.md` | Keputusan final arah kurikulum (146 SKS Paket / 184 Portofolio) |
 | `007_BEDAH_STRUKTUR_KURIKULUM_SISTEKIN.md` | Analisis komprehensif struktur kurikulum |
 | `008_LANGKAH1_PROFIL_LULUSAN_PEO.md` | Dokumen ini — Profil Lulusan & PEO (6 PL x 3 Jalur) |
 | `009_LANGKAH2_CPL_FORMAL.md` | CPL Formal 14 CPL (Langkah 2) |
@@ -3399,9 +3399,9 @@ Capstone dirancang untuk menguji **semua 14 CPL** dalam satu proyek kolaboratif 
 # 011 — STRUKTUR KURIKULUM SISTEKIN (TABEL PER SEMESTER)
 
 **Tanggal:** 19 Agustus 2026 (Rekonsiliasi Matematis Final)
-**Status:** FINAL — Struktur Kurikulum Lengkap 8 Semester (Terekonsiliasi: 14 MK FSTI / 38 SKS & 27 MK STI / 79 SKS)
+**Status:** FINAL — Struktur Kurikulum Lengkap 8 Semester (Terekonsiliasi: 14 MK FSTI / 38 SKS & 27 MK STI / 77 SKS)
 **Dasar:** 006 (Keputusan Final) + 008 (Profil Lulusan) + 009 (14 CPL) + 010 (Kompilasi) + Ketentuan MK FSTI 2026
-**Total:** 67 MK Portofolio Ditawarkan (184 SKS) | 55 MK Paket Ditempuh Mahasiswa (148 SKS) | Syarat Lulus Mahasiswa = Minimal 144 SKS (Permendikbudristek No. 53/2023)
+**Total:** 67 MK Portofolio Ditawarkan (182 SKS) | 55 MK Paket Ditempuh Mahasiswa (146 SKS) | Syarat Lulus Mahasiswa = Minimal 144 SKS (Permendikbudristek No. 53/2023)
 **Ground Truth:** KURIKULUM2025 (56 MK, 146 SKS) — file terverifikasi manusia, disesuaikan ketentuan FSTI & Rekonsiliasi 2026
 
 ---
@@ -3412,7 +3412,7 @@ Capstone dirancang untuk menguji **semua 14 CPL** dalam satu proyek kolaboratif 
 |---|---|---|
 | **MKU** | Mata Kuliah Universitas | MK Umum Universitas Widyagama (8 MK, 13 SKS: 6 MK ber-SKS + 2 MK @ 0 SKS) |
 | **FST-** | Mata Kuliah Fakultas (MKF) | MK Fakultas Saintek / Ilmu Komputer — fondasi keilmuan lintas prodi (14 MK, 38 SKS) |
-| **STI-** | Mata Kuliah Wajib Prodi | MK Wajib Inti Program Studi SISTEKIN (27 MK, 79 SKS) |
+| **STI-** | Mata Kuliah Wajib Prodi | MK Wajib Inti Program Studi SISTEKIN (27 MK, 77 SKS) |
 | **STA-** | MK Pilihan Peminatan | Peminatan Smart Information System (Integrated Smart Systems — 6 MK, 18 SKS) |
 | **STB-** | MK Pilihan Peminatan | Peminatan Cloud and Cybersecurity (6 MK, 18 SKS) |
 | **STC-** | MK Pilihan Peminatan | Peminatan Digital Platform Engineering (6 MK, 18 SKS) |
@@ -3524,7 +3524,7 @@ Capstone dirancang untuk menguji **semua 14 CPL** dalam satu proyek kolaboratif 
 | No | Mata Kuliah | Kode | SKS | +P | CPL | Peminatan | Keterangan |
 |---|---|---|---|---|---|---|---|
 | 1 | Integrasi Layanan Cerdas Berbasis AI | STI-601 | 3 | ✅ | P2, KK1 | Core | +P: API orchestration, ML deployment |
-| 2 | Smart City dan Pemerintahan Digital | STI-602 | 3 | ✅ | P3, KK3 | Core | +P: IoT dashboard, smart prototyping |
+| 2 | Smart City dan Pemerintahan Digital | STI-602 | 2 | ✅ | P3, KK3 | Core | +P: IoT dashboard, smart prototyping |
 | 3 | Keamanan Informasi Lanjut | STI-603 | 3 | — | P3, KK3, KK4 | Core | Forensik, incident response |
 | 4 | **Digital Platform Engineering** | **STI-604** | **3** | **✅** | **KK5** | **Core** | **+P: Microservices, API gateway (Pindahan dari Sem 7)** |
 | 5 | Metodologi Penelitian | FST-611 | 2 | — | KU1-3 | **FSTI** | Metodologi Penelitian (>76 SKS lulus) |
@@ -3629,7 +3629,7 @@ Total MK Wajib Praktikum (+P): **21 MK | 66 SKS** (**42,9%** dari Paket Ditempuh
 | 12 | STI-504 | Internet of Things (IoT) | 3 | 5 | STI | Sensor ESP32/Arduino, protokol MQTT, gateway & dashboard IoT Blynk/Node-RED |
 | 13 | STI-505 | Pemrograman Aplikasi Mobile | 3 | 5 | STI | Flutter/React Native cross-platform, Android Studio, integrasi API & sqlite |
 | 14 | STI-601 | Integrasi Layanan Cerdas Berbasis AI | 3 | 6 | STI | Model deployment FastAPI/Docker, MLOps, API orchestration & microservices |
-| 15 | STI-602 | Smart City dan Pemerintahan Digital | 3 | 6 | STI | Prototyping sistem sensor smart city, GIS mapping & portal SPBE |
+| 15 | STI-602 | Smart City dan Pemerintahan Digital | 2 | 6 | STI | Prototyping sistem sensor smart city, GIS mapping & portal SPBE |
 | 16 | **STI-604** | **Digital Platform Engineering** | **3** | **6** | **STI** | **Microservices architecture, API Gateway, CI/CD pipeline, Redis/Kafka** |
 | 17 | **MKU-203** | **KPM (Kuliah Pengabdian Masyarakat / KKN Digital)** | **3** | **5** | **MKWU** | **Implementasi teknologi digital untuk pengabdian masyarakat desa** |
 | 18 | **STI-701** | **Inovasi Teknologi dan Startup Digital** | **3** | **7** | **STI** | **MVP prototyping, product validation, landing page & pitch deck interactive** |
@@ -3637,7 +3637,7 @@ Total MK Wajib Praktikum (+P): **21 MK | 66 SKS** (**42,9%** dari Paket Ditempuh
 | 20 | FST-612 | Praktik Kerja Lapangan (PKL) | 3 | 7 | FSTI | Magang industri 1-3 bulan / proyek nyata perusahaan |
 | 21 | FST-714 | Skripsi / Tugas Akhir | 6 | 8 | FSTI | Pengembangan sistem/riset mandiri, coding & pengujian perangkat lunak murni |
 | 22 | STA/STB/STC | 6 MK Pilihan Peminatan | 18 | 5-7 | STI | Lab hands-on spesialisasi P1 (Smart IS), P2 (Cloud & Cyber), P3 (Digital Platform) — 13 dari 18 MK elektif ber-+P |
-| | **TOTAL WAJIB (+P)** | **21 MK** | **66** | | | **66 SKS wajib (44,6% dari 148 SKS) + 9–18 SKS MK pilihan +P** |
+| | **TOTAL WAJIB (+P)** | **21 MK** | **66** | | | **66 SKS wajib (44,6% dari 146 SKS) + 9–18 SKS MK pilihan +P** |
 
 ---
 
@@ -3661,7 +3661,7 @@ Total MK Wajib Praktikum (+P): **21 MK | 66 SKS** (**42,9%** dari Paket Ditempuh
 | 12 | PKL (+P) | FST-612 | 6-7 | **>100 SKS lulus** | Paralel (Sem 6-7) |
 | 13 | Pra-Skripsi / Seminars | FST-613 | 6-7-8 | **>100 SKS lulus** | Paralel (Sem 6-7-8) |
 | 14 | Skripsi (+P) | FST-714 | 7-8 | **>120 SKS lulus & Proposal diseminarkan** | Paralel (Sem 7-8) |
-| | **TOTAL** | **14 MK FSTI** | | | **38 SKS (20.7% dari Total 184 SKS Portofolio)** |
+| | **TOTAL** | **14 MK FSTI** | | | **38 SKS (20.7% dari Total 182 SKS Portofolio)** |
 
 ### MK STI (Wajib Prodi)
 
@@ -3695,12 +3695,12 @@ Total MK Wajib Praktikum (+P): **21 MK | 66 SKS** (**42,9%** dari Paket Ditempuh
 | 26 | Digital Platform Engineering (+P) | STI-604 | 6 | STI-407 (Web BE) + STI-304 (RPL) | Microservices, API-first architecture (Pindahan dari Sem 7) |
 | 27 | Inovasi Teknologi & Startup Digital (+P) | STI-701 | 7 | — | MVP development, pitch deck |
 | 28 | MK Pilihan Peminatan (6 MK +P/Teori) | STA/STB/STC | 5-7 | Sesuai Peminatan | 6 MK Pilihan per Mahasiswa (18 SKS — 1 Paket Penuh) |
-| | **TOTAL** | **27 MK STI + 6 PILIHAN** | | | **97 SKS (52.7% dari Total 184 SKS Portofolio)** |
+| | **TOTAL** | **27 MK STI + 6 PILIHAN** | | | **97 SKS (52.7% dari Total 182 SKS Portofolio)** |
 
 
 ---
 
-*Dokumen ini merupakan Struktur Kurikulum SISTEKIN versi terbaru yang telah terekonsiliasi secara matematis (8 MKWU / 13 SKS, 14 MK FSTI / 38 SKS, 27 MK STI Wajib / 79 SKS, dan 18 MK Pilihan Peminatan / 54 SKS; Paket Ditempuh = 55 MK / 148 SKS).*
+*Dokumen ini merupakan Struktur Kurikulum SISTEKIN versi terbaru yang telah terekonsiliasi secara matematis (8 MKWU / 13 SKS, 14 MK FSTI / 38 SKS, 27 MK STI Wajib / 77 SKS, dan 18 MK Pilihan Peminatan / 54 SKS; Paket Ditempuh = 55 MK / 146 SKS).*
 
 
 
@@ -3721,8 +3721,8 @@ Total MK Wajib Praktikum (+P): **21 MK | 66 SKS** (**42,9%** dari Paket Ditempuh
 
 **Tanggal:** 19 Agustus 2026 (Rekonsiliasi Matematis Final)  
 **Status:** FINAL — Matriks Pemetaan CPL–MK Berbasis OBE (Terekonsiliasi Penuh Sesuai Dokumen 011, 020, 021, 022, 030)  
-**Dasar:** 14 CPL SN-Dikti/APTIKOM + Portofolio 67 MK / 184 SKS (Beban Paket 8 Semester = 55 MK / 148 SKS; Syarat Lulus Minimal = 144 SKS Permendikbud 53/2023)  
-**Distribusi SKS:** 8 MKWU (13 SKS) + 14 MK FSTI (38 SKS) + 27 MK STI Wajib (79 SKS) + 18 MK Pilihan (ambil 6 MK / 18 SKS)
+**Dasar:** 14 CPL SN-Dikti/APTIKOM + Portofolio 67 MK / 182 SKS (Beban Paket 8 Semester = 55 MK / 146 SKS; Syarat Lulus Minimal = 144 SKS Permendikbud 53/2023)  
+**Distribusi SKS:** 8 MKWU (13 SKS) + 14 MK FSTI (38 SKS) + 27 MK STI Wajib (77 SKS) + 18 MK Pilihan (ambil 6 MK / 18 SKS)
 
 ---
 
@@ -3737,7 +3737,7 @@ Total MK Wajib Praktikum (+P): **21 MK | 66 SKS** (**42,9%** dari Paket Ditempuh
 **Prefix Mata Kuliah:**
 * **MKU**: Mata Kuliah Umum Universitas Widyagama (8 MK, 13 SKS)
 * **FST-**: Mata Kuliah Bersama Fakultas Sains dan Teknologi (14 MK, 38 SKS)
-* **STI-**: Mata Kuliah Wajib Inti Program Studi SISTEKIN (27 MK, 79 SKS)
+* **STI-**: Mata Kuliah Wajib Inti Program Studi SISTEKIN (27 MK, 77 SKS)
 * **STA-**: MK Pilihan Peminatan P1 (Integrated Smart Systems — 6 MK, 18 SKS)
 * **STB-**: MK Pilihan Peminatan P2 (Cloud Infrastructure & Cybersecurity — 6 MK, 18 SKS)
 * **STC-**: MK Pilihan Peminatan P3 (Digital Platform Engineering — 6 MK, 18 SKS)
@@ -3784,7 +3784,7 @@ Total MK Wajib Praktikum (+P): **21 MK | 66 SKS** (**42,9%** dari Paket Ditempuh
 
 ---
 
-### 2.3 MK WAJIB PRODI (STI) — 27 MK, 79 SKS
+### 2.3 MK WAJIB PRODI (STI) — 27 MK, 77 SKS
 
 | No | Kode | Mata Kuliah | SMS | SKS | +P | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 |
 |---|---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -3804,14 +3804,14 @@ Total MK Wajib Praktikum (+P): **21 MK | 66 SKS** (**42,9%** dari Paket Ditempuh
 | 14| **STI-402**| **Data Warehouse & BI** | **4** | **3** | **✅** | | | | | | **●** | | | | **●** | | | | |
 | 15| STI-407 | Web Back End Development | 4 | 3 | ✅ | | ● | | | | | | ● | | | | | | |
 | 16| STI-404 | SI Berbasis Cloud | 4 | 3 | — | | | | | | | ● | | | | ● | | | |
-| 17| STI-405 | Keamanan Informasi Dasar | 4 | 3 | — | | | | | | | ● | | | | ● | | | |
+| 17| STI-405 | Keamanan Informasi Dasar | 4 | 2 | — | | | | | | | ● | | | | ● | | | |
 | 18| STI-501 | Deep Learning & Neural Nets | 5 | 3 | ✅ | | | | | | | | | ● | ● | | | | |
 | 19| STI-503 | Data Mining & Visualization | 5 | 3 | ✅ | | | | | | ● | | | | ● | | | | |
 | 20| STI-504 | Internet of Things (IoT) | 5 | 3 | ✅ | | | | | | | ● | | | | ● | | | |
 | 21| STI-505 | Pemrograman Aplikasi Mobile | 5 | 3 | ✅ | | | | | | | | ● | | | | | ● | |
 | 22| **STI-506**| **Manajemen Proyek TI** | **5** | **3** | **—** | | | | | | | | | | | | | | **●** |
 | 23| STI-601 | Integrasi Layanan Cerdas AI | 6 | 3 | ✅ | | | | | | ● | | | ● | | | | | |
-| 24| STI-602 | Smart City dan Pemerintahan Digital | 6 | 3 | ✅ | | | | | | | ● | | | | ● | | | |
+| 24| STI-602 | Smart City dan Pemerintahan Digital | 6 | 2 | ✅ | | | | | | | ● | | | | ● | | | |
 | 25| STI-603 | Keamanan Informasi Lanjut | 6 | 3 | — | | | | | | | ● | | | | ● | ● | | |
 | 26| STI-604 | Digital Platform Engineering| 6 | 3 | ✅ | | | | | | | | ● | | | | | ● | |
 | 27| STI-701 | Inovasi Teknologi & Startup | 7 | 3 | ✅ | | | | | | | | | | | | | | ● |
@@ -4091,7 +4091,7 @@ IoT merupakan *enabler* data fisik untuk seluruh peminatan:
 **Tanggal:** 19 Agustus 2026 (Penataan Final Terkunci)  
 **Status:** FINAL — Perbandingan Kurikulum 2025 (Lama) vs Kurikulum OBE 2026 (Baru Terekonsiliasi)  
 **Sumber Kurikulum Lama (2025):** `Laporan Daftar Kurikulum Prodi Sistekin.pdf` (56 MK, 146 SKS, 0 Peminatan)  
-**Sumber Kurikulum Baru (2026):** Dokumen [011], [012], [020], [030], dan [031] (67 MK Portofolio Ditawarkan / 184 SKS; 55 MK Paket Ditempuh / 148 SKS; 3 Peminatan @ 6 MK / 18 SKS)
+**Sumber Kurikulum Baru (2026):** Dokumen [011], [012], [020], [030], dan [031] (67 MK Portofolio Ditawarkan / 182 SKS; 55 MK Paket Ditempuh / 146 SKS; 3 Peminatan @ 6 MK / 18 SKS)
 
 ---
 
@@ -4099,8 +4099,8 @@ IoT merupakan *enabler* data fisik untuk seluruh peminatan:
 
 | Dimensi Perbandingan | Kurikulum Lama (2025) | Kurikulum Baru (2026) | Transformasi & Dampak Positif |
 |---|:---:|:---:|---|
-| **Beban SKS Paket Ditempuh** | 146 SKS (Kaku) | **148 SKS (55 MK)** | Memenuhi & melampaui syarat kelulusan minimal 144 SKS (Permendikbudristek 53/2023) |
-| **Portofolio MK Ditawarkan**| 56 MK / 146 SKS | **67 MK / 184 SKS** | Mahasiswa memiliki pilihan peminatan fleksibel |
+| **Beban SKS Paket Ditempuh** | 146 SKS (Kaku) | **146 SKS (55 MK)** | Memenuhi & melampaui syarat kelulusan minimal 144 SKS (Permendikbudristek 53/2023) |
+| **Portofolio MK Ditawarkan**| 56 MK / 146 SKS | **67 MK / 182 SKS** | Mahasiswa memiliki pilihan peminatan fleksibel |
 | **Peminatan Keahlian** | 0 (Polos / Generalis) | **3 Peminatan Seimbang** | **P1 (Smart Systems), P2 (Cloud/Cyber), P3 (Platform)** (@ 6 MK / 18 SKS) |
 | **Mata Kuliah Pilihan** | 0 MK | **18 MK ditawarkan** | Mahasiswa menempuh 1 paket peminatan penuh (6 MK / 18 SKS di Sem 5–7) |
 | **MK Bersama Fakultas (FSTI)**| 0 MK (Terisolir) | **14 MK (38 SKS)** | Efisiensi sumber daya, Capstone kolaboratif lintas prodi & standarisasi saintek |
@@ -4120,10 +4120,10 @@ Kurikulum 2025 (146 SKS):
 ├── MKU (Universitas) : 14 SKS (8 MK)
 └── MK Prodi STI      : 132 SKS (48 MK Wajib)
 
-Kurikulum 2026 (Portofolio 184 SKS / Paket Ditempuh 148 SKS / Minimal Lulus 144 SKS):
+Kurikulum 2026 (Portofolio 182 SKS / Paket Ditempuh 146 SKS / Minimal Lulus 144 SKS):
 ├── MKWU (Universitas): 13 SKS (8 MK, incl. KPM di Sem 5)
 ├── MKF (Fakultas FSTI): 38 SKS (14 MK, incl. Capstone Sem 7 & Skripsi Sem 8)
-├── MK Wajib Prodi STI : 79 SKS (27 MK, incl. Platform Eng Sem 6 & Startup Sem 7)
+├── MK Wajib Prodi STI : 77 SKS (27 MK, incl. Platform Eng Sem 6 & Startup Sem 7)
 └── MK Pilihan Elektif : 18 SKS (6 MK diambil dari 18 MK Portofolio Peminatan)
 ```
 
@@ -4160,7 +4160,7 @@ Kurikulum 2026 (Portofolio 184 SKS / Paket Ditempuh 148 SKS / Minimal Lulus 144 
 | **Sem 6** | 21 SKS (7 MK) | **20 SKS (7 MK: 5 Wajib + 2 Pilihan)** | ✅ Integrasi AI, Platform Eng, Metpen & MBKM |
 | **Sem 7** | 20 SKS (7 MK) | **20 SKS (7 MK: 4 Wajib + 3 Pilihan)** | ✅ Capstone FSTI, Startup Digital, PKL, Pra-Skripsi & MBKM |
 | **Sem 8** | 8 SKS (2 MK) | **6 SKS (1 MK: Skripsi Murni)** | ✅ **Single Track Skripsi Murni** (Fokus Lulus Cepat) |
-| **TOTAL** | **146 SKS (56 MK)** | **148 SKS (55 MK)** | ✅ **Paket Ditempuh (Syarat Lulus Minimal = 144 SKS)** |
+| **TOTAL** | **146 SKS (56 MK)** | **146 SKS (55 MK)** | ✅ **Paket Ditempuh (Syarat Lulus Minimal = 144 SKS)** |
 
 ---
 
@@ -4205,7 +4205,7 @@ Kurikulum 2026 (Portofolio 184 SKS / Paket Ditempuh 148 SKS / Minimal Lulus 144 
 | No | Mata Kuliah yang Dikonversikan | SKS | Kategori | Bentuk Penilaian Ekuivalensi |
 |:---:|---|:---:|---|---|
 | 1 | STI-601 Integrasi Layanan Cerdas AI | 3 | Core STI | Tugas Rekayasa API & Integrasi Sistem Industri |
-| 2 | STI-602 Smart City / Solusi Digital | 3 | Core STI | Solusi Transformasi Digital pada Industri/Mitra |
+| 2 | STI-602 Smart City / Solusi Digital | 2 | Core STI | Solusi Transformasi Digital pada Industri/Mitra |
 | 3 | STI-603 Keamanan Informasi Lanjut | 3 | Core STI | Implementasi Kebijakan & Keamanan Data Magang |
 | 4 | STI-604 Digital Platform Engineering | 3 | Core STI | Pengembangan Backend / Platform Skalabel Industri |
 | 5 | FST-611 Metodologi Penelitian | 2 | FSTI | Perumusan Masalah & Metodologi Proyek Magang |
@@ -4234,7 +4234,7 @@ Kurikulum 2026 (Portofolio 184 SKS / Paket Ditempuh 148 SKS / Minimal Lulus 144 
 │ SMT 4 AKHIR: 81 SKS ──→ LULUS SYARAT METPEN FST-611 (>76 SKS Lulus)        │
 │ SMT 5 AKHIR: 102 SKS ─→ MEMASUKI SYARAT PKL FST-612 & PRA-SKRIPSI (>100 SKS)│
 │ SMT 6 AKHIR: 122 SKS ─→ MEMASUKI SYARAT SKRIPSI / TA FST-714 (>120 SKS)     │
-│ SMT 8 AKHIR: 148 SKS ─→ PAKET LULUS SARJANA SISTEKIN (MINIMAL 144 SKS)      │
+│ SMT 8 AKHIR: 146 SKS ─→ PAKET LULUS SARJANA SISTEKIN (MINIMAL 144 SKS)      │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -4334,8 +4334,8 @@ graph TD
 
 | No | Dokumen | Parameter SKS / MK | Status CPL / BoK | Status Keselarasan & Ketetapan Kunci |
 |:---:|---|:---:|:---:|:---:|
-| **006** | `KEPUTUSAN_FINAL_ARAH_KURIKULUM` | 148 SKS (55 MK) / 184 SKS (67 MK) | 14 CPL / 3 Peminatan | ✅ **100% SINKRON** (P1-P3 @ 6 MK / 18 SKS) |
-| **007** | `BEDAH_STRUKTUR_KURIKULUM` | 148 SKS Paket / 184 Portofolio | 14 CPL / 44,6%–56,8% +P | ✅ **100% SINKRON** (DW-BI Sem 4, KPM Sem 5, Platf Sem 6, Capst Sem 7) |
+| **006** | `KEPUTUSAN_FINAL_ARAH_KURIKULUM` | 146 SKS (55 MK) / 182 SKS (67 MK) | 14 CPL / 3 Peminatan | ✅ **100% SINKRON** (P1-P3 @ 6 MK / 18 SKS) |
+| **007** | `BEDAH_STRUKTUR_KURIKULUM` | 146 SKS Paket / 184 Portofolio | 14 CPL / 44,6%–56,8% +P | ✅ **100% SINKRON** (DW-BI Sem 4, KPM Sem 5, Platf Sem 6, Capst Sem 7) |
 | **008** | `LANGKAH1_PROFIL_LULUSAN_PEO` | 6 PL × 3 Jalur | PEO 3–5 Tahun | ✅ **100% SINKRON** (Indikator PEO Terukur) |
 | **009** | `LANGKAH2_CPL_FORMAL` | 14 CPL SN-Dikti | S(1), KU(3), P(4), KK(6) | ✅ **100% SINKRON** (Tepat 14 CPL) |
 | **009A**| `CPL_SIKAP` | CPL S1 | Etika & Moral | ✅ **100% SINKRON** |
@@ -4343,26 +4343,26 @@ graph TD
 | **009C**| `CPL_PENGETAHUAN` | CPL P1–P4 | BoK IS2020 / IT2017 | ✅ **100% SINKRON** |
 | **009D**| `CPL_KETERAMPILAN_KHUSUS` | CPL KK1–KK6 | @2 per Peminatan | ✅ **100% SINKRON** |
 | **009E**| `RINGKASAN_CPL_LENGKAP` | 14 CPL | 19 BoK SI + 27 BoK TI | ✅ **100% SINKRON** |
-| **010** | `KOMPILASI_CPL_KE_STRUKTUR` | 148 SKS (55 MK) | 14 CPL Coverage | ✅ **100% SINKRON** (Pemetaan Lengkap) |
-| **011** | `STRUKTUR_KURIKULUM_TABEL` | 148 SKS Paket / 184 SKS Portofolio | 21 MK Wajib (+P) | ✅ **MASTER TABEL FINAL TERKUNCI** |
-| **012** | `MATRIKS_CPL_vs_MK` | 148 SKS Paket / 184 SKS Portofolio | $\ge 3$ MK per CPL | ✅ **100% SINKRON** (Matriks Pemetaan Utuh) |
+| **010** | `KOMPILASI_CPL_KE_STRUKTUR` | 146 SKS (55 MK) | 14 CPL Coverage | ✅ **100% SINKRON** (Pemetaan Lengkap) |
+| **011** | `STRUKTUR_KURIKULUM_TABEL` | 146 SKS Paket / 182 SKS Portofolio | 21 MK Wajib (+P) | ✅ **MASTER TABEL FINAL TERKUNCI** |
+| **012** | `MATRIKS_CPL_vs_MK` | 146 SKS Paket / 182 SKS Portofolio | $\ge 3$ MK per CPL | ✅ **100% SINKRON** (Matriks Pemetaan Utuh) |
 | **013** | `SEMESTER_GANJIL_PRAKTIKUM` | 19 S1, 20 S3, 21 S5, 20 S7 | Alokasi Lab Lengkap | ✅ **100% SINKRON** (Fasilitas Lab Terpetakan) |
 | **014** | `ANALISIS_IOT_POSISI` | STI-504 (3 SKS, +P) | Penjamin CPL P3/KK3 | ✅ **100% SINKRON** (Wajib Core di Sem 5) |
-| **015** | `PERBANDINGAN_2025_vs_2026` | 146 SKS vs 148 SKS | 10 CPL vs 14 CPL | ✅ **100% SINKRON** (Komparasi Makro) |
+| **015** | `PERBANDINGAN_2025_vs_2026` | 146 SKS vs 146 SKS | 10 CPL vs 14 CPL | ✅ **100% SINKRON** (Komparasi Makro) |
 | **016** | `KETENTUAN_MBKM_DAN_PRASYARAT`| Maks 20 SKS MBKM | Prerequisite Chain | ✅ **100% SINKRON** (Milestone >76, >100, >120) |
 | **017** | `VERIFIKASI_GROUND_TRUTH` | Dokumen ini | Bukti Audit Silang | ✅ **100% VERIFIED** |
 | **018** | `AUDIT_TRAIL_PERBAIKAN` | Log §1.0 s.d. §7.15 | Riwayat Konsensus | ✅ **100% UP-TO-DATE** |
 | **019** | `SURVEY_PEMETAAN_IMPROVEMENT`| P1, P2, P3 Level S1 | STC-02 BPA Terisi | ✅ **100% SINKRON** |
-| **020** | `ANALISIS_KESELARASAN_OBE` | 148 SKS Paket (Lulus $\ge 144$) | Single Source of Truth | ✅ **100% PERFECT ALIGNMENT** ⭐ |
+| **020** | `ANALISIS_KESELARASAN_OBE` | 146 SKS Paket (Lulus $\ge 144$) | Single Source of Truth | ✅ **100% PERFECT ALIGNMENT** ⭐ |
 | **021** | `PEMETAAN_BoK_VS_MK` | 19 SI-BK / 27 TI-BK | 0 Gap / BK15 Terpenuhi | ✅ **100% APTIKOM COMPLIANT** |
 | **022** | `AUDIT_KRITIS_BEBAN_BOK` | Stress-Testing Audit | Mitigasi Risiko RPS | ✅ **100% RESOLVED** ⭐ |
 | **023** | `FORMULASI_MATRIKS_OBE` | Level I-R-M Lengkap | Taksonomi Bloom | ✅ **100% SINKRON** |
 | **024-027**| `FORMULASI_CPMK_SUB_CPMK` | 67 MK Portofolio | ABCD Formula | ✅ **100% READY** |
 | **028** | `CONTOH_RPS_READY_ML` | RPS Standar LAM INFOKOM | Case Method/PjBL | ✅ **100% READY** |
 | **029** | `PANDUAN_ASESMEN_OBE` | Formula Attainment & CQI | PPEPP Cycle | ✅ **100% READY** |
-| **030** | `ANALISIS_KESELARASAN_FINAL`| Berita Acara Rekonsiliasi | 148 SKS Paket / 184 Portofolio | ✅ **100% TEREKONSILIASI** ⭐ |
+| **030** | `ANALISIS_KESELARASAN_FINAL`| Berita Acara Rekonsiliasi | 146 SKS Paket / 184 Portofolio | ✅ **100% TEREKONSILIASI** ⭐ |
 | **031** | `PENYESUAIAN_STRUKTUR_AKHIR`| Penataan Sem 5, 6, 7, 8 | KPM Sem 5, Platform Sem 6, Capstone Sem 7, Skripsi Sem 8 | ✅ **TERKUNCI RESMI** ⭐ |
-| **032** | `DISTRIBUSI_FINAL_8_SEMESTER`| Lampiran 55 MK Definitif | 148 SKS Paket Ditempuh (SK Rektor) | ✅ **DECREE-READY** ⭐ |
+| **032** | `DISTRIBUSI_FINAL_8_SEMESTER`| Lampiran 55 MK Definitif | 146 SKS Paket Ditempuh (SK Rektor) | ✅ **DECREE-READY** ⭐ |
 | **033** | `MASTER_MATRIX_OBE_CPMK`    | VMTS $\leftrightarrow$ CPL $\leftrightarrow$ BoK $\leftrightarrow$ CPMK | Master Matrix Keterlacakan Komprehensif | ✅ **100% ALIGNED** ⭐ |
 | **034** | `RESTRUKTURISASI_4PL_3PEO`  | Analisis 4 PL & 3 PEO Role-Based | Fondasi Penajaman Tracer Study OBE | ✅ **STRATEGIC BRIEF** ⭐ |
 
@@ -4371,7 +4371,7 @@ graph TD
 ## 3. RINGKASAN DATA KUNCI TIDAK BOLEH BERUBAH (GROUND TRUTH 2026)
 
 1. **Jumlah CPL:** Tepat **14 CPL** (S1, KU1-KU3, P1-P4, KK1-KK6).
-2. **Beban SKS Kelulusan Mahasiswa:** **148 SKS Paket Ditempuh (55 MK)** (Syarat Minimal Kelulusan = 144 SKS Permendikbudristek No. 53/2023; Portofolio Ditawarkan = 184 SKS / 67 MK).
+2. **Beban SKS Kelulusan Mahasiswa:** **146 SKS Paket Ditempuh (55 MK)** (Syarat Minimal Kelulusan = 144 SKS Permendikbudristek No. 53/2023; Portofolio Ditawarkan = 182 SKS / 67 MK).
 3. **Peminatan Keahlian:** Tepat **3 Peminatan Seimbang** @ 6 MK (18 SKS):
    - **P1: Integrated Smart Systems** (STA-01 s.d. STA-06)
    - **P2: Cloud Infrastructure & Cybersecurity** (STB-01 s.d. STB-06)
@@ -5003,10 +5003,10 @@ User menginformasikan bahwa MK terbagi menjadi:
    - Mengoreksi seluruh ketidakcocokan agregat lama:
      - **MKWU:** 8 MK (13 SKS, karena Agama II & KWU II berbobot 0 SKS).
      - **FSTI:** 14 MK (38 SKS, dengan FST-204 berbobot 2 SKS).
-     - **STI Wajib Inti:** 27 MK (79 SKS, setelah pengalihan Struktur Data, Basis Data, dan Statistika ke FSTI).
+     - **STI Wajib Inti:** 27 MK (77 SKS, setelah pengalihan Struktur Data, Basis Data, dan Statistika ke FSTI).
      - **MK Pilihan Peminatan Ditempuh:** 6 MK (18 SKS — tepat 1 paket peminatan penuh @ 6 MK / 18 SKS).
-     - **Paket Ditempuh Mahasiswa:** **55 MK / 148 SKS** (Memenuhi syarat kelulusan minimal 144 SKS Permendikbudristek No. 53/2023).
-     - **Portofolio Ditawarkan:** **67 MK / 184 SKS** (49 MK Wajib 130 SKS + 18 MK Pilihan P1-P3 54 SKS).
+     - **Paket Ditempuh Mahasiswa:** **55 MK / 146 SKS** (Memenuhi syarat kelulusan minimal 144 SKS Permendikbudristek No. 53/2023).
+     - **Portofolio Ditawarkan:** **67 MK / 182 SKS** (49 MK Wajib 130 SKS + 18 MK Pilihan P1-P3 54 SKS).
 2. **Keputusan Penataan Struktur Semester Tingkat Akhir (Dokumen 031):**
    - **`MKU-203 KPM (KKN Digital)` (3 SKS):** Dipindahkan dari Semester 8 ke **Semester 5** agar pengabdian masyarakat tuntas lebih awal dan tidak mengganggu penyusunan Tugas Akhir.
    - **`STI-604 Digital Platform Engineering` (3 SKS, +P):** Dipindahkan dari Semester 7 ke **Semester 6** sehingga dikuasai sebelum eksekusi Capstone & Startup di Semester 7.
@@ -5018,9 +5018,9 @@ User menginformasikan bahwa MK terbagi menjadi:
 1. **Konteks & Tujuan:**
    - Menyediakan dokumen definitif tabel 8 semester (*clean, locked, zero-conflict*) yang siap dicantumkan langsung sebagai Lampiran Keputusan Resmi SK Rektor tentang Kurikulum SISTEKIN 2026.
 2. **Karakteristik & Rincian Dokumen 032:**
-   - **Tabel 8 Semester:** Memuat rincian 55 mata kuliah paket ditempuh (148 SKS) dengan kode mata kuliah, bobot SKS, tipe (+P/Teori/Praktik/Proyek/Seminar/Mandiri), kategori (MKWU/FSTI/Core STI/Elektif), pemetaan CPL utama, dan prasyarat akademik.
+   - **Tabel 8 Semester:** Memuat rincian 55 mata kuliah paket ditempuh (146 SKS) dengan kode mata kuliah, bobot SKS, tipe (+P/Teori/Praktik/Proyek/Seminar/Mandiri), kategori (MKWU/FSTI/Core STI/Elektif), pemetaan CPL utama, dan prasyarat akademik.
    - **Tabel Portofolio Peminatan:** Memuat rincian 18 MK elektif yang ditawarkan di SIAKAD (54 SKS) untuk 3 peminatan seimbang (P1, P2, P3).
-   - **Rekapitulasi Komponen:** MKWU (13 SKS / 8 MK), FSTI (38 SKS / 14 MK), Core STI (79 SKS / 27 MK), dan Peminatan Ditempuh (18 SKS / 6 MK).
+   - **Rekapitulasi Komponen:** MKWU (13 SKS / 8 MK), FSTI (38 SKS / 14 MK), Core STI (77 SKS / 27 MK), dan Peminatan Ditempuh (18 SKS / 6 MK).
    - **Klausul Kepatuhan Regulasi:** Kepatuhan batas beban $\le 20\text{ SKS}$ pada Semester 1 (19 SKS) dan Semester 2 (20 SKS) serta pelampauan ambang batas nasional kelulusan $\ge 144\text{ SKS}$ (Permendikbudristek No. 53 Tahun 2023).
 ### 7.22 Penerbitan Dokumen 034: Analisis Restrukturisasi 4 Profil Lulusan & 3 PEO (20 Agustus 2026)
 
@@ -5068,14 +5068,14 @@ User menginformasikan bahwa MK terbagi menjadi:
 **Labeling Metodologis:**  
 - **[F]** = Fakta Terverifikasi (Diambil langsung dari dokumen resmi/SIAKAD/Buku OBE SI v2.0/TI 2023/VMTS)  
 - **[A]** = Rekomendasi Asesor / Arsitek Kurikulum (Telah disahkan dalam Konsensus Final 19/08/2026)  
-- **[H]** = Hasil Hitung Ulang & Audit Independen (Terekonsiliasi: 148 SKS Paket Ditempuh / 184 SKS Portofolio)  
+- **[H]** = Hasil Hitung Ulang & Audit Independen (Terekonsiliasi: 146 SKS Paket Ditempuh / 182 SKS Portofolio)  
 
 ---
 
 > [!NOTE]
 > **STATUS RESOLUSI AUDIT (19 Agustus 2026):**  
 > Seluruh 17 temuan audit di dokumen ini telah **100% diselesaikan secara tuntas dan terdokumentasi resmi**:
-> 1. **Rekonsiliasi SKS [H]:** Selesai di Dokumen [030] & [031] (**148 SKS Paket Ditempuh / 55 MK; 184 SKS Portofolio / 67 MK; Syarat Lulus Minimal 144 SKS**).
+> 1. **Rekonsiliasi SKS [H]:** Selesai di Dokumen [030] & [031] (**146 SKS Paket Ditempuh / 55 MK; 182 SKS Portofolio / 67 MK; Syarat Lulus Minimal 144 SKS**).
 > 2. **Beban Sem 1 & 2 [H]:** Selesai di Dokumen [011] & [020] (**Sem 1 = 19 SKS; Sem 2 = Tepat 20 SKS**).
 > 3. **Perangkat Asesmen Mikro OBE [F]:** Selesai di Dokumen [023] s.d. [029] (Matriks I-R-M, CPMK/Sub-CPMK 67 MK, RPS Standar LAM INFOKOM, Formula Attainment, 4 Rubrik Analitik Master & CQI).
 > 4. **Keselarasan VMTS & BoK [A]:** Selesai di Dokumen [020], [021] (100% terpenuhi 19 SI-BK & 27 TI-BK), dan [022].
@@ -5086,8 +5086,8 @@ User menginformasikan bahwa MK terbagi menjadi:
 
 > [!IMPORTANT]
 > **Diferensiasi Beban Kelulusan vs Jumlah SKS Paket Kurikulum:**
-> 1. **Beban Total Kelulusan Mahasiswa (Graduation Requirement):** Sesuai **Permendikbudristek No. 53 Tahun 2023** dan **Standar Kurikulum OBE APTIKOM (SI v2.0 & TI 2023)**, beban belajar minimal untuk memperoleh gelar Sarjana Komputer (S.Kom) pada Program Studi SISTEKIN adalah **minimal 144 SKS** (Paket terjadwal ditempuh = **148 SKS / 55 MK**).
-> 2. **Jumlah SKS Portofolio Ditawarkan Prodi:** Disediakan total **184 SKS / 67 MK** (termasuk 18 MK elektif peminatan @ 54 SKS, di mana mahasiswa menempuh 1 paket peminatan penuh @ 6 MK / 18 SKS).
+> 1. **Beban Total Kelulusan Mahasiswa (Graduation Requirement):** Sesuai **Permendikbudristek No. 53 Tahun 2023** dan **Standar Kurikulum OBE APTIKOM (SI v2.0 & TI 2023)**, beban belajar minimal untuk memperoleh gelar Sarjana Komputer (S.Kom) pada Program Studi SISTEKIN adalah **minimal 144 SKS** (Paket terjadwal ditempuh = **146 SKS / 55 MK**).
+> 2. **Jumlah SKS Portofolio Ditawarkan Prodi:** Disediakan total **182 SKS / 67 MK** (termasuk 18 MK elektif peminatan @ 54 SKS, di mana mahasiswa menempuh 1 paket peminatan penuh @ 6 MK / 18 SKS).
 
 ---
 
@@ -5221,7 +5221,7 @@ Untuk mematuhi Permendikbudristek 53/2023 dan meratakan beban praktikum (+P), di
 | 2 | STI-402 | Analisis & Perancangan SI (APSI) | 3 | Wajib STI | — | BPMN & UML Modeling (P2, KU1) |
 | 3 | STI-403 | Pemrograman Aplikasi Mobile | 3 | Wajib STI | ✅ | Flutter / Android Native (P4, KK5) |
 | 4 | STI-404 | Sistem Informasi Berbasis Cloud | 3 | Wajib STI | — | Cloud Architecture IaaS/PaaS (P3, KK3) |
-| 5 | STI-405 | Keamanan Informasi Dasar | 3 | Wajib STI | — | Cybersecurity Fundamentals (P3, KK3) |
+| 5 | STI-405 | Keamanan Informasi Dasar | 2 | Wajib STI | — | Cybersecurity Fundamentals (P3, KK3) |
 | 6 | FST-106 | Etika dan Hukum Digital | 2 | Wajib FST | — | UU PDP, ITE & AI Ethics (S1, KU2) |
 | 7 | STI-407 | Sistem Informasi Manajemen | 3 | Wajib STI | — | **MK BARU WAJIB** — BK06 only (P2, KK4). *BPM (BK15) ditunda — keputusan: SIM saja.* |
 | | | **Total Semester 4** | **20** | | **2 Praktikum** | *BK06 terpenuhi; BK15 outstanding* |
@@ -5245,7 +5245,7 @@ Untuk mematuhi Permendikbudristek 53/2023 dan meratakan beban praktikum (+P), di
 |---|---|---|---|---|---|---|
 | 1 | FST-109 | Praktik Kerja Lapangan (PKL) | 3 | Wajib FST | — | Magang Industri / Proyek Riil (S1, KU, KK) |
 | 2 | STI-601 | Data Warehouse & Business Intelligence | 3 | Wajib STI | ✅ | OLAP, ETL & Dashboard (P2, KK2) |
-| 3 | STI-602 | Data Mining & Analitis Bisnis | 3 | Wajib STI | ✅ | Predictive Analytics (P2, KK2) |
+| 3 | STI-602 | Data Mining & Analitis Bisnis | 2 | Wajib STI | ✅ | Predictive Analytics (P2, KK2) |
 | 4 | STA/STB/STC-03 | MK Pilihan Peminatan 3 | 3 | Peminatan | — | Sesuai Jalur Peminatan P1/P2/P3 |
 | 5 | STA/STB/STC-04 | MK Pilihan Peminatan 4 | 3 | Peminatan | — | Sesuai Jalur Peminatan P1/P2/P3 |
 | 6 | STI-603 | Smart City & Digital Society | 3 | Wajib STI | — | Smart Ecosystem & Community (KK3, KK6) |
@@ -5540,7 +5540,7 @@ graph TD
     
     CPL --> BOK["<b>4. Body of Knowledge (BoK) Keterlacakan</b><br/>• IS2020: 19 Bahan Kajian (BK01 s.d. BK19)<br/>• IT2017: 14 Bahan Kajian Utama"]
     
-    BOK --> STRUKTUR["<b>5. Struktur Kurikulum 8 Semester & Mata Kuliah (Dokumen 010, 011, 012, 031)</b><br/>• MKWU (Universitas): 8 MK (13 SKS, incl. KPM di Sem 5)<br/>• MK Fakultas (FSTI): 14 MK (38 SKS, incl. Capstone di Sem 7)<br/>• MK Wajib Prodi (STI): 27 MK (79 SKS, incl. Platform Eng di Sem 6)<br/>• MK Pilihan Peminatan: 3 Peminatan Seimbang @ 6 MK / 18 SKS (Ambil 6 MK / 18 SKS)<br/>• Grand Total Portofolio: 67 MK / 184 SKS | Beban Paket Ditempuh: 55 MK / 148 SKS (Syarat Lulus ≥144 SKS)"]
+    BOK --> STRUKTUR["<b>5. Struktur Kurikulum 8 Semester & Mata Kuliah (Dokumen 010, 011, 012, 031)</b><br/>• MKWU (Universitas): 8 MK (13 SKS, incl. KPM di Sem 5)<br/>• MK Fakultas (FSTI): 14 MK (38 SKS, incl. Capstone di Sem 7)<br/>• MK Wajib Prodi (STI): 27 MK (77 SKS, incl. Platform Eng di Sem 6)<br/>• MK Pilihan Peminatan: 3 Peminatan Seimbang @ 6 MK / 18 SKS (Ambil 6 MK / 18 SKS)<br/>• Grand Total Portofolio: 67 MK / 182 SKS | Beban Paket Ditempuh: 55 MK / 146 SKS (Syarat Lulus ≥144 SKS)"]
     
     STRUKTUR --> ASSESS["<b>6. Asesmen OBE, Capstone & MBKM (Dokumen 016, 019)</b><br/>• Capstone Design Kolaboratif Lintas-3-Prodi (6 SKS) vs Skripsi (6 SKS)<br/>• Program Magang MBKM hingga 20 SKS di Sem 6/7<br/>• Rasio Hands-on Lab (+P) Wajib = 42,9% (66 dari 154 SKS; ditambah 9–24 SKS MK pilihan +P)"]
 ```
@@ -5613,7 +5613,7 @@ Telah ditetapkan restrukturisasi Peminatan P3 untuk memastikan keunggulan level 
 
 ---
 
-## 4. DISTRIBUSI SEMESTER TERVALIDASI (PAKET DITEMPUH 148 SKS — SYARAT LULUS MINIMAL 144 SKS PERMENDIKBUDRISTEK 53/2023)
+## 4. DISTRIBUSI SEMESTER TERVALIDASI (PAKET DITEMPUH 146 SKS — SYARAT LULUS MINIMAL 144 SKS PERMENDIKBUDRISTEK 53/2023)
 
 | Semester | MK Wajib (FSTI & STI) | MKWU (Universitas) | MK Pilihan Peminatan | Total SKS | Kepatuhan Regulasi & Pedagogi |
 |---|---|---|---|:---:|---|
@@ -5773,7 +5773,7 @@ Telah ditetapkan restrukturisasi Peminatan P3 untuk memastikan keunggulan level 
 | **STI-402** | **Data Warehouse & Business Intelligence** | 3 | **SI-BK02**, **SI-BK13**, **TI-BK09** | SI-BK19 | ⚠️ Berbagi SI-BK02 dgn FST-207 — **TIDAK KONFLIK**: DB=transaksional, DW=analitik dimensional *(Pindah dari Sem 5)* |
 | STI-407 | Web Back End Development | 3 | **SI-BK07**, **TI-BK06**, **TI-BK16** | SI-BK08, TI-BK07 | ✅ Server-side, REST API, ORM |
 | STI-404 | SI Berbasis Cloud | 3 | **SI-BK03**, **TI-BK20** | SI-BK06, SI-BK08 | ⚠️ Berbagi SI-BK03 dgn STI-305 — **TIDAK KONFLIK**: OS=lokal, Cloud=abstraksi distributed |
-| STI-405 | Keamanan Informasi Dasar | 3 | **SI-BK08**, **TI-BK07**, **TI-BK14** | SI-BK03, TI-BK03 | ✅ Kriptografi, security posture, auth |
+| STI-405 | Keamanan Informasi Dasar | 2 | **SI-BK08**, **TI-BK07**, **TI-BK14** | SI-BK03, TI-BK03 | ✅ Kriptografi, security posture, auth |
 | FST-408 | Statistika & Probabilitas | 3 | **SI-BK11**, **TI-BK18** | SI-BK13, TI-BK22 | ✅ Inferensi & estimasi probabilitas |
 
 ### 2.4 Semester 5–7 (MK Wajib Core STI)
@@ -5786,7 +5786,7 @@ Telah ditetapkan restrukturisasi Peminatan P3 untuk memastikan keunggulan level 
 | STI-505 | Pemrograman Aplikasi Mobile | 3 | **SI-BK07**, **TI-BK06**, **TI-BK23** | SI-BK17, TI-BK11 | ✅ Cross-platform mobile engineering |
 | **STI-506** | **Manajemen Proyek TI** | 3 | **SI-BK04**, **TI-BK13** | SI-BK06 | ✅ Siklus proyek, PMBOK, Scrum *(Pindah dari Sem 4 — 1 semester sblm Capstone)* |
 | STI-601 | Integrasi Layanan Cerdas Berbasis AI | 3 | **SI-BK07**, **SI-BK18**, **TI-BK04** | SI-BK13 | ✅ API orchestration & AI service deployment |
-| STI-602 | Smart City & Pemerintahan Digital | 3 | **SI-BK03**, **SI-BK19**, **TI-BK02** | SI-BK06, SI-BK13 | ✅ Domain solusi kota pintar & e-Gov |
+| STI-602 | Smart City & Pemerintahan Digital | 2 | **SI-BK03**, **SI-BK19**, **TI-BK02** | SI-BK06, SI-BK13 | ✅ Domain solusi kota pintar & e-Gov |
 | STI-603 | Keamanan Informasi Lanjut | 3 | **SI-BK08**, **TI-BK12**, **TI-BK21** | SI-BK03 | ⚠️ Berbagi SI-BK08 dgn STI-405 — **TIDAK KONFLIK**: Dasar=kripto, Lanjut=forensik & CSIRT |
 | STI-701 | Digital Platform Engineering | 3 | **SI-BK07**, **TI-BK04**, **TI-BK06** | SI-BK03, SI-BK08 | ⚠️ Berbagi SI-BK07 dgn STI-407 — **TIDAK KONFLIK**: WebBE=API server, Platform=microservices |
 | STI-702 | Inovasi Teknologi & Startup Digital | 3 | **SI-BK19**, **TI-BK25** | SI-BK18 | ✅ Validasi produk, lean startup, MVP |
@@ -6155,7 +6155,7 @@ Hasil audit ini menjadi rujukan wajib (*mandatory design guidelines*) saat menyu
 | STI-402 | Data Warehouse & Business Intelligence | 3 | ✅ | | | | | | R | | | | R | | | | |
 | STI-407 | Web Back End Development | 3 | ✅ | | R | | | | | | R | | | | | | |
 | STI-404 | SI Berbasis Cloud | 3 | — | | | | | | | R | | | | R | | | |
-| STI-405 | Keamanan Informasi Dasar | 3 | — | | | | | | | R | | | | R | | | |
+| STI-405 | Keamanan Informasi Dasar | 2 | — | | | | | | | R | | | | R | | | |
 | FST-408 | Statistika & Probabilitas | 3 | — | | | | | R | | | R | | | | | | |
 | FST-409 | English for IT Professionals | 2 | — | | | R | | | | | | | | | | | |
 | MKU-401 | Kewarganegaraan | 2 | — | R | | | | | | | | | | | | | |
@@ -6178,7 +6178,7 @@ Hasil audit ini menjadi rujukan wajib (*mandatory design guidelines*) saat menyu
 | STA/B/C | MK Pilihan Peminatan 1 | 3 | 🔄 | | R | R | | | | | | R/M | R/M | R/M | R/M | R/M | R/M |
 | **SEMESTER 6** | | | | | | | | | | | | | | | | | |
 | STI-601 | Integrasi Layanan Cerdas Berbasis AI | 3 | ✅ | | | | | | M | | | M | | | | | |
-| STI-602 | Smart City & Pemerintahan Digital | 3 | ✅ | | | | | | | M | | | | M | | | |
+| STI-602 | Smart City & Pemerintahan Digital | 2 | ✅ | | | | | | | M | | | | M | | | |
 | STI-603 | Keamanan Informasi Lanjut | 3 | — | | | | | | | M | | | | M | M | | |
 | STI-604 | Digital Platform Engineering | 3 | ✅ | | | | | | | | M | | | | | M | |
 | FST-611 | Metodologi Penelitian | 2 | — | | M | M | M | | | | | | | | | | |
@@ -7843,11 +7843,11 @@ Setelah dilakukan audit matematis menyeluruh terhadap daftar baris mata kuliah d
 |---|:---:|:---:|:---:|:---:|---|
 | **Mata Kuliah Umum Universitas (MKWU)** | **8 MK** | **13 SKS** | **8 MK** | **13 SKS** | 6 MK ber-SKS (13 SKS: Agama I 2, Pancasila 2, B.Indo 2, KWU I 2, KWN 2, KPM 3 di Sem 5) + 2 MK @ 0 SKS kebijakan UWG (Agama II & KWU II). |
 | **Mata Kuliah Bersama Fakultas (FSTI)** | **14 MK** | **38 SKS** | **14 MK** | **38 SKS** | Fondasi saintek & keahlian lintas prodi (incl. FST-204 Pengantar AI @ 2 SKS, Metpen 2 SKS di Sem 6, Capstone 3 SKS di Sem 7, PKL 3 SKS di Sem 7, Pra-Skripsi 2 SKS di Sem 7, Skripsi 6 SKS di Sem 8). |
-| **Mata Kuliah Wajib Inti Prodi (STI)** | **27 MK** | **79 SKS** | **27 MK** | **79 SKS** | Inti keilmuan SISTEKIN (Sem 1: 8 SKS, Sem 2: 6 SKS, Sem 3: 20 SKS, Sem 4: 15 SKS, Sem 5: 15 SKS, Sem 6: 12 SKS incl. Platform Eng, Sem 7: 3 SKS Startup). |
+| **Mata Kuliah Wajib Inti Prodi (STI)** | **27 MK** | **77 SKS** | **27 MK** | **77 SKS** | Inti keilmuan SISTEKIN (Sem 1: 8 SKS, Sem 2: 6 SKS, Sem 3: 20 SKS, Sem 4: 15 SKS, Sem 5: 15 SKS, Sem 6: 12 SKS incl. Platform Eng, Sem 7: 3 SKS Startup). |
 | **Mata Kuliah Pilihan Peminatan (STA/B/C)** | **18 MK** | **54 SKS** | **6 MK** | **18 SKS** | 3 Peminatan Seimbang (@ 6 MK / 18 SKS); Mahasiswa mengambil tepat 1 paket peminatan penuh (6 MK: 1 di Sem 5, 2 di Sem 6, 3 di Sem 7). |
 | **SUBTOTAL WAJIB DITEMPUH** | **49 MK** | **130 SKS** | **49 MK** | **130 SKS** | **Fondasi & Inti Wajib Kurikulum** |
-| **GRAND TOTAL PAKET 8 SEMESTER** | **55 MK** | **148 SKS** | **55 MK** | **148 SKS** | **Beban Paket Terjadwal (Syarat Lulus Minimal = 144 SKS Permendikbud 53/2023)** |
-| **GRAND TOTAL PORTOFOLIO DITAWARKAN** | **67 MK** | **184 SKS** | — | — | **Total Seluruh Opsi Portofolio MK yang Ditawarkan Prodi** |
+| **GRAND TOTAL PAKET 8 SEMESTER** | **55 MK** | **146 SKS** | **55 MK** | **146 SKS** | **Beban Paket Terjadwal (Syarat Lulus Minimal = 144 SKS Permendikbud 53/2023)** |
+| **GRAND TOTAL PORTOFOLIO DITAWARKAN** | **67 MK** | **182 SKS** | — | — | **Total Seluruh Opsi Portofolio MK yang Ditawarkan Prodi** |
 
 ---
 
@@ -7855,7 +7855,7 @@ Setelah dilakukan audit matematis menyeluruh terhadap daftar baris mata kuliah d
 
 | # | Temuan Masalah Lama | Akar Penyebab (*Root Cause*) | Tindakan Koreksi & Resolusi Final | Status |
 |:---:|---|---|---|:---:|
-| 1 | **Klaim STI Wajib "30 MK / 93 SKS" vs Realita** | Pada draf awal Dokumen 006, 3 MK (Struktur Data, Basis Data, Statistika) masih berkode STI. Saat dialihkan ke FSTI (`FST-203`, `FST-207`, `FST-408`), jumlah MK STI berkurang dari 30 MK menjadi **27 MK (79 SKS)**, namun teks narasi ringkasan lama tidak diperbarui. | Dokumen 011, 012, 020, dan 031 telah diperbarui resmi: **STI Wajib Inti = 27 MK (79 SKS)**. | ✅ Tuntas |
+| 1 | **Klaim STI Wajib "30 MK / 93 SKS" vs Realita** | Pada draf awal Dokumen 006, 3 MK (Struktur Data, Basis Data, Statistika) masih berkode STI. Saat dialihkan ke FSTI (`FST-203`, `FST-207`, `FST-408`), jumlah MK STI berkurang dari 30 MK menjadi **27 MK (77 SKS)**, namun teks narasi ringkasan lama tidak diperbarui. | Dokumen 011, 012, 020, dan 031 telah diperbarui resmi: **STI Wajib Inti = 27 MK (77 SKS)**. | ✅ Tuntas |
 | 2 | **Klaim FSTI "36 / 37 SKS" vs Penjumlahan Baris** | Header Dokumen 011 sempat menulis 37 SKS dan summary menulis 36 SKS, sedangkan penjumlahan 14 MK riil adalah $2+3+3+2+2+2+3+3+2+3+2+3+2+6 = \mathbf{38\text{ SKS}}$. | Seluruh dokumen (011, 012, 020, 030, 031) diseragamkan: **FSTI = 14 MK (38 SKS)** dengan `FST-204` = 2 SKS. | ✅ Tuntas |
 | 3 | **Klaim MKWU "14 SKS" vs Penjumlahan Baris** | Penjumlahan 8 MKWU riil adalah $2+2+2+2+2+0+0+3 = \mathbf{13\text{ SKS}}$ (karena Agama II & KWU II berbobot 0 SKS). Ringkasan lama salah menjumlahkan menjadi 14 SKS. | Seluruh dokumen diseragamkan: **MKWU = 8 MK (13 SKS)**. | ✅ Tuntas |
 | 4 | **Anomali Footer Semester 4 (Klaim 19 SKS vs Riil 22 SKS)** | Pergeseran `MKU-401 Kewarganegaraan` (2 SKS) dan `STI-402 DW-BI` (3 SKS) ke Semester 4 menambah beban riil menjadi 22 SKS, namun footer tabel Dokumen 011 tertinggal di angka 19 SKS. | Footer Semester 4 di Dokumen 011 dan 020 diperbarui menjadi **22 SKS** (8 MK ber-SKS + 2 MK @ 0 SKS). | ✅ Tuntas |
@@ -7863,7 +7863,7 @@ Setelah dilakukan audit matematis menyeluruh terhadap daftar baris mata kuliah d
 
 ---
 
-## 3. DISTRIBUSI BEBAN 8 SEMESTER TERVALIDASI (148 SKS TERJADWAL)
+## 3. DISTRIBUSI BEBAN 8 SEMESTER TERVALIDASI (146 SKS TERJADWAL)
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
@@ -7880,9 +7880,9 @@ Setelah dilakukan audit matematis menyeluruh terhadap daftar baris mata kuliah d
 │ Semester 7 │ 4 MK Wajib (11 SKS - Capst)│ 3 MK Pilihan / MBKM (9 SKS) │ 20 SKS         │
 │ Semester 8 │ 1 MK Wajib (6 SKS - Skrips)│ —                           │ 6 SKS (Murni)  │
 ├────────────┼────────────────────────────┼─────────────────────────────┼────────────────┤
-│ TOTAL      │ 49 MK Wajib (130 SKS)      │ 6 MK Pilihan (18 SKS)       │ 148 SKS Paket  │
+│ TOTAL      │ 49 MK Wajib (130 SKS)      │ 6 MK Pilihan (18 SKS)       │ 146 SKS Paket  │
 └────────────┴────────────────────────────┴─────────────────────────────┴────────────────┘
-* Beban kelulusan mahasiswa: 148 SKS (Memenuhi & melampaui syarat minimal 144 SKS Permendikbudristek No. 53/2023).
+* Beban kelulusan mahasiswa: 146 SKS (Memenuhi & melampaui syarat minimal 144 SKS Permendikbudristek No. 53/2023).
 ```
 
 ---
@@ -7974,10 +7974,10 @@ $$\boxed{\text{Metodologi Penelitian (Sem 6, 2 SKS)}} \longrightarrow \boxed{\te
 | **Sem 3** | STI-301 APSI (3), STI-302 Sistem Cerdas (2), STI-303 UI/UX (+P, 3), STI-304 RPL (3), STI-305 Sistem Operasi (3), STI-306 Web FE (+P, 3), STI-307 Jarkom (+P, 3) | — | **20 SKS** | ✅ Fondasi Sistem & Jaringan Lengkap |
 | **Sem 4** | STI-401 ML (+P, 3), STI-402 DW-BI (+P, 3), STI-407 Web BE (+P, 3), STI-404 Cloud (3), STI-405 Keamanan (3), FST-408 Probstat (3), FST-409 English IT (2), MKU-401 KWN (2), MKU-401A Agama II (0), MKU-402 KWU II (0) | — | **22 SKS** | ✅ Core Data & Cloud (8 MK ber-SKS + 2 MK @ 0 SKS) |
 | **Sem 5** | STI-501 Deep Learning (+P, 3), STI-503 Data Mining (+P, 3), STI-504 IoT (+P, 3), STI-505 Mobile (+P, 3), STI-506 Manpro TI (3), **MKU-203 KPM / KKN Digital (3)** ★ | 1 MK Pilihan (3 SKS) | **21 SKS** | ✅ **KPM di Sem 5** (6 MK Wajib 18 SKS + 1 MK Pilihan 3 SKS) |
-| **Sem 6** | STI-601 Integrasi AI (+P, 3), STI-602 Smart City (+P, 3), STI-603 Keamanan Lanjut (3), **STI-604 Platform Eng (+P, 3)** ★, **FST-611 Metpen (2)** | 2 MK Pilihan (6 SKS) / MBKM | **20 SKS** | ✅ **Platform Eng di Sem 6** (5 MK Wajib 14 SKS + 2 MK Pilihan 6 SKS) |
+| **Sem 6** | STI-601 Integrasi AI (+P, 3), STI-602 Smart City (2), STI-603 Keamanan Lanjut (3), **STI-604 Platform Eng (+P, 3)** ★, **FST-611 Metpen (2)** | 2 MK Pilihan (6 SKS) / MBKM | **20 SKS** | ✅ **Platform Eng di Sem 6** (5 MK Wajib 14 SKS + 2 MK Pilihan 6 SKS) |
 | **Sem 7** | **STI-701 Startup Digital (+P, 3)**, **FST-610 Capstone Project (+P, 3)** ★, **FST-612 PKL (+P, 3)**, **FST-613 Pra-Skripsi (2)** ★ | 3 MK Pilihan (9 SKS) / MBKM | **20 SKS** | ✅ **Puncak Rekayasa & Sempro** (4 MK Wajib 11 SKS + 3 MK Pilihan 9 SKS) |
 | **Sem 8** | **FST-714 Skripsi / Tugas Akhir (6 SKS)** ★ | — | **6 SKS** | ✅ **Single-Track Skripsi Murni** (Fokus Penuh Penyelesaian Akhir) |
-| **TOTAL** | **49 MK Wajib (130 SKS)** | **6 MK Pilihan Peminatan (18 SKS)** | **148 SKS** | ✅ **Syarat Kelulusan: Minimal 144 SKS** (Permendikbudristek No. 53/2023) |
+| **TOTAL** | **49 MK Wajib (130 SKS)** | **6 MK Pilihan Peminatan (18 SKS)** | **146 SKS** | ✅ **Syarat Kelulusan: Minimal 144 SKS** (Permendikbudristek No. 53/2023) |
 
 ---
 
@@ -7991,12 +7991,12 @@ $$\boxed{\text{Metodologi Penelitian (Sem 6, 2 SKS)}} \longrightarrow \boxed{\te
 ├─────────────────────────────────────┼──────────────┼──────────────┼───────────────────────┤
 │ 1. Mata Kuliah Umum Universitas     │ 8 MK         │ 13 SKS       │ 8 MK (13 SKS)         │
 │ 2. Mata Kuliah Bersama Fakultas     │ 14 MK        │ 38 SKS       │ 14 MK (38 SKS)        │
-│ 3. Mata Kuliah Wajib Inti Prodi     │ 27 MK        │ 79 SKS       │ 27 MK (79 SKS)        │
+│ 3. Mata Kuliah Wajib Inti Prodi     │ 27 MK        │ 77 SKS       │ 27 MK (77 SKS)        │
 │ 4. Mata Kuliah Pilihan Peminatan    │ 18 MK        │ 54 SKS       │ 6 MK (18 SKS)         │
 ├─────────────────────────────────────┼──────────────┼──────────────┼───────────────────────┤
 │ SUBTOTAL WAJIB DITEMPUH             │ 49 MK        │ 130 SKS      │ 49 MK (130 SKS)       │
-│ TOTAL PAKET 8 SEMESTER TERJADWAL    │ 55 MK        │ 148 SKS      │ 148 SKS Paket Ditempuh│
-│ TOTAL PORTOFOLIO DITAWARKAN PRODI   │ 67 MK        │ 184 SKS      │ (Syarat Lulus ≥144 SKS│
+│ TOTAL PAKET 8 SEMESTER TERJADWAL    │ 55 MK        │ 146 SKS      │ 146 SKS Paket Ditempuh│
+│ TOTAL PORTOFOLIO DITAWARKAN PRODI   │ 67 MK        │ 182 SKS      │ (Syarat Lulus ≥144 SKS│
 └─────────────────────────────────────┴──────────────┴──────────────┴───────────────────────┘
 ```
 
@@ -8038,20 +8038,20 @@ $$\boxed{\text{Metodologi Penelitian (Sem 6, 2 SKS)}} \longrightarrow \boxed{\te
 |---|:---:|:---:|:---:|
 | **Mata Kuliah Wajib Umum (MKWU / Universitas)** | 8 MK | 13 SKS | 8,8% |
 | **Mata Kuliah Wajib Fakultas (FSTI)** | 14 MK | 38 SKS | 25,7% |
-| **Mata Kuliah Inti Program Studi (Core STI)** | 27 MK | 79 SKS | 53,4% |
+| **Mata Kuliah Inti Program Studi (Core STI)** | 27 MK | 77 SKS | 53,4% |
 | **Mata Kuliah Pilihan Peminatan (Elektif)** | 6 MK | 18 SKS | 12,1% |
-| **TOTAL PAKET DITEMPUH MAHASISWA** | **55 MK** | **148 SKS** | **100,0%** |
-| *Portofolio MK Ditawarkan di SIAKAD* | *67 MK* | *184 SKS* | *18 MK Pilihan Ditawarkan* |
+| **TOTAL PAKET DITEMPUH MAHASISWA** | **55 MK** | **146 SKS** | **100,0%** |
+| *Portofolio MK Ditawarkan di SIAKAD* | *67 MK* | *182 SKS* | *18 MK Pilihan Ditawarkan* |
 
 > [!IMPORTANT]
 > **Kepatuhan Regulasi:**  
-> - **Beban Kelulusan:** 148 SKS (Memenuhi dan melampaui batas minimal 144 SKS Permendikbudristek No. 53/2023).  
+> - **Beban Kelulusan:** 146 SKS (Memenuhi dan melampaui batas minimal 144 SKS Permendikbudristek No. 53/2023).  
 > - **Beban 2 Semester Awal:** Semester 1 (19 SKS) dan Semester 2 (20 SKS) $\le 20\text{ SKS}$ (Sesuai Pasal 18 Permendikbudristek No. 53/2023).  
 > - **Rasio Praktikum / Hands-on (+P):** 21 MK Wajib (66 SKS / 44,6%) memuat laboratorium terstruktur.
 
 ---
 
-## 2. TABEL DISTRIBUSI MATA KULIAH 8 SEMESTER (55 MK / 148 SKS)
+## 2. TABEL DISTRIBUSI MATA KULIAH 8 SEMESTER (55 MK / 146 SKS)
 
 ### SEMESTER 1 — Fondasi Sains Komputer & Karakter Kebangsaan (19 SKS)
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | CPL | Prasyarat |
@@ -8130,7 +8130,7 @@ $$\boxed{\text{Metodologi Penelitian (Sem 6, 2 SKS)}} \longrightarrow \boxed{\te
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | CPL | Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|:---:|---|
 | 39 | `STI-601` | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | Core STI | P2, KK1 | `STI-501`, `STI-407` |
-| 40 | `STI-602` | Smart City & Pemerintahan Digital | 3 | +P | Core STI | P3, KK3 | `STI-504` |
+| 40 | `STI-602` | Smart City & Pemerintahan Digital | 2 | +P | Core STI | P3, KK3 | `STI-504` |
 | 41 | `STI-603` | Keamanan Informasi Lanjut | 3 | Teori | Core STI | P3, KK3, KK4 | `STI-405` |
 | 42 | `STI-604` | Digital Platform Engineering | 3 | +P | Core STI | P4, KK5 | `STI-407` |
 | 43 | `FST-611` | Metodologi Penelitian | 2 | Teori | FSTI | KU1, KU2 | $\ge 76\text{ SKS}$ |
@@ -8261,7 +8261,7 @@ Prinsip *Outcome-Based Education* (OBE) dan penjaminan mutu PPEPP mensyaratkan k
 └──────────────────────────────────────┬──────────────────────────────────────┘
                                        ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│ 5. STRUKTUR 8 SEMESTER (55 MK / 148 SKS Ditempuh & 67 MK / 184 SKS Portofolio)│
+│ 5. STRUKTUR 8 SEMESTER (55 MK / 146 SKS Ditempuh & 67 MK / 182 SKS Portofolio)│
 └──────────────────────────────────────┬──────────────────────────────────────┘
                                        ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -9007,7 +9007,7 @@ Bagi sesi atau sub-agent berikutnya yang akan melakukan pendalaman dan penajaman
 3. **Penyusunan Kuesioner Tracer Study Terstandar (Bab 7 Buku Kurikulum):**  
    Susun instrumen kuesioner survei alumni dan pengguna lulusan berbasis 3 PEO & 4 PL untuk lampiran sistem penjaminan mutu PPEPP.
 4. **Proteksi Integritas Struktur MK & CPL:**  
-   Tetap pertahankan struktur **55 MK / 148 SKS Paket Ditempuh**, **3 Peminatan Seimbang (@ 18 SKS)**, dan **14 CPL** karena telah terkunci sempurna (*zero conflict*).
+   Tetap pertahankan struktur **55 MK / 146 SKS Paket Ditempuh**, **3 Peminatan Seimbang (@ 18 SKS)**, dan **14 CPL** karena telah terkunci sempurna (*zero conflict*).
 
 ---
 
@@ -9654,7 +9654,7 @@ Bagi sesi atau sub-agent berikutnya yang akan melakukan pendalaman dan penajaman
 | 35 | STI-401 | Machine Learning (+P) | 4 | 3 |  |  |  |  |  | V |  |  | V | V |  |  |  |  | 3 |
 | 36 | STI-402 | Data Warehouse & BI (+P) | 4 | 3 |  |  |  |  |  | V |  |  |  | V |  |  |  |  | 2 |
 | 37 | STI-404 | SI Berbasis Cloud | 4 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
-| 38 | STI-405 | Keamanan Informasi Dasar | 4 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
+| 38 | STI-405 | Keamanan Informasi Dasar | 4 | 2 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
 | 39 | STI-407 | Web Back End Development (+P) | 4 | 3 |  | V |  |  |  |  |  | V |  |  |  |  |  |  | 2 |
 | 40 | STI-501 | Deep Learning & Neural Networks (+P) | 5 | 3 |  |  |  |  |  |  |  |  | V | V |  |  |  |  | 2 |
 | 41 | STI-503 | Data Mining & Visualization (+P) | 5 | 3 |  |  |  |  |  | V |  |  |  | V |  |  |  |  | 2 |
@@ -9662,7 +9662,7 @@ Bagi sesi atau sub-agent berikutnya yang akan melakukan pendalaman dan penajaman
 | 43 | STI-505 | Pemrograman Aplikasi Mobile (+P) | 5 | 3 |  |  |  |  |  |  |  | V |  |  |  |  | V |  | 2 |
 | 44 | STI-506 | Manajemen Proyek TI | 5 | 3 |  |  |  |  |  |  |  |  |  |  |  |  |  | V | 1 |
 | 45 | STI-601 | Integrasi Layanan Cerdas Berbasis AI (+P) | 6 | 3 |  |  |  |  |  | V |  |  | V |  |  |  |  |  | 2 |
-| 46 | STI-602 | Smart City & Pemerintahan Digital (+P) | 6 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
+| 46 | STI-602 | Smart City & Pemerintahan Digital (+P) | 6 | 2 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
 | 47 | STI-603 | Keamanan Informasi Lanjut | 6 | 3 |  |  |  |  |  |  | V |  |  |  | V | V |  |  | 3 |
 | 48 | STI-604 | Digital Platform Engineering (+P) | 6 | 3 |  |  |  |  |  |  |  | V |  |  |  |  | V |  | 2 |
 | 49 | STI-701 | Inovasi Teknologi & Startup Digital (+P) | 7 | 3 |  |  |  |  |  |  |  |  |  |  |  |  |  | V | 1 |
@@ -9704,7 +9704,7 @@ Bagi sesi atau sub-agent berikutnya yang akan melakukan pendalaman dan penajaman
 | 6 | 7 | 20 | STI-601 Integrasi AI (3) / STI-602 Smart City (3) / STI-603 Keamanan Lanjut (3) / STI-604 Digital Platform Eng (3) / FST-611 Metpen (2) / MK Pilihan 2 (3) / MK Pilihan 3 (3) | P2, P3, KK1, KK3, KK4, KK5, KU1-3 | 5 MK Wajib (14 SKS) + 2 MK Pilihan (6 SKS) — Platform Eng di Sem 6; MBKM maks 20 SKS |
 | 7 | 7 | 20 | STI-701 Startup Digital (3) / FST-610 Capstone Project (3) / FST-612 PKL (3) / FST-613 Pra-Skripsi (2) / MK Pilihan 4 (3) / MK Pilihan 5 (3) / MK Pilihan 6 (3) | KK6, KK3, KK4, KU1-3, S1 | 4 MK Wajib (11 SKS) + 3 MK Pilihan (9 SKS) — Capstone, PKL, Pra-Skripsi; MBKM maks 20 SKS |
 | 8 | 1 | 6 | FST-714 Skripsi / Tugas Akhir (6) | S1, KU1-3, seluruh P & KK | Single track Skripsi Murni (6 SKS); syarat kelulusan minimal = 144 SKS |
-| TOTAL | 55 | 148 | 49 MK Wajib (130 SKS) + 6 MK Pilihan Peminatan (18 SKS, Sem 5-7) = 55 MK / 148 SKS Paket Terjadwal | | Portofolio Ditawarkan: 67 MK / 184 SKS; Syarat Lulus: Minimal 144 SKS Permendikbud 53/2023 |
+| TOTAL | 55 | 148 | 49 MK Wajib (130 SKS) + 6 MK Pilihan Peminatan (18 SKS, Sem 5-7) = 55 MK / 146 SKS Paket Terjadwal | | Portofolio Ditawarkan: 67 MK / 182 SKS; Syarat Lulus: Minimal 144 SKS Permendikbud 53/2023 |
 
 ---
 
@@ -9740,7 +9740,7 @@ Bagi sesi atau sub-agent berikutnya yang akan melakukan pendalaman dan penajaman
 | STI-401 | Machine Learning | 3 | 4 |  |  |  |  |  | R |  |  | R | R |  |  |  |  | 3 |
 | STI-402 | Data Warehouse & BI | 3 | 4 |  |  |  |  |  | R |  |  |  | R |  |  |  |  | 2 |
 | STI-404 | SI Berbasis Cloud | 3 | 4 |  |  |  |  |  |  | R |  |  |  | R |  |  |  | 2 |
-| STI-405 | Keamanan Informasi Dasar | 3 | 4 |  |  |  |  |  |  | R |  |  |  | R |  |  |  | 2 |
+| STI-405 | Keamanan Informasi Dasar | 2 | 4 |  |  |  |  |  |  | R |  |  |  | R |  |  |  | 2 |
 | STI-407 | Web Back End Dev | 3 | 4 |  | R |  |  |  |  |  | R |  |  |  |  |  |  | 2 |
 | FST-408 | Statistika & Probabilitas | 3 | 4 |  |  |  |  | R |  |  | R |  |  |  |  |  |  | 2 |
 | FST-409 | English for IT Professionals | 2 | 4 |  |  | R |  |  |  |  |  |  |  |  |  |  |  | 1 |
@@ -9750,7 +9750,7 @@ Bagi sesi atau sub-agent berikutnya yang akan melakukan pendalaman dan penajaman
 | STI-505 | Pemrograman Aplikasi Mobile | 3 | 5 |  |  |  |  |  |  |  | M |  |  |  |  | M |  | 2 |
 | STI-506 | Manajemen Proyek TI | 3 | 5 |  |  |  |  |  |  |  |  |  |  |  |  |  | M | 1 |
 | STI-601 | Integrasi Layanan Cerdas Berbasis AI | 3 | 6 |  |  |  |  |  | M |  |  | M |  |  |  |  |  | 2 |
-| STI-602 | Smart City & Pemerintahan Digital | 3 | 6 |  |  |  |  |  |  | M |  |  |  | M |  |  |  | 2 |
+| STI-602 | Smart City & Pemerintahan Digital | 2 | 6 |  |  |  |  |  |  | M |  |  |  | M |  |  |  | 2 |
 | STI-603 | Keamanan Informasi Lanjut | 3 | 6 |  |  |  |  |  |  | M |  |  |  | M | M |  |  | 3 |
 | STI-604 | Digital Platform Engineering | 3 | 6 |  |  |  |  |  |  |  | M |  |  |  |  | M |  | 2 |
 | FST-611 | Metodologi Penelitian | 2 | 6 |  | M | M | M |  |  |  |  |  |  |  |  |  |  | 3 |

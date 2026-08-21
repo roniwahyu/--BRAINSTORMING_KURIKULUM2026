@@ -3,7 +3,7 @@
 **Tanggal:** 19 Agustus 2026 (Penataan Final Terkunci)  
 **Status:** FINAL — Perbandingan Kurikulum 2025 (Lama) vs Kurikulum OBE 2026 (Baru Terekonsiliasi)  
 **Sumber Kurikulum Lama (2025):** `Laporan Daftar Kurikulum Prodi Sistekin.pdf` (56 MK, 146 SKS, 0 Peminatan)  
-**Sumber Kurikulum Baru (2026):** Dokumen [011], [012], [020], [030], dan [031] (67 MK Portofolio Ditawarkan / 184 SKS; 55 MK Paket Ditempuh / 148 SKS; 3 Peminatan @ 6 MK / 18 SKS)
+**Sumber Kurikulum Baru (2026):** Dokumen [011], [012], [020], [030], dan [031] (67 MK Portofolio Ditawarkan / 182 SKS; 55 MK Paket Ditempuh / 146 SKS; 3 Peminatan @ 6 MK / 18 SKS)
 
 ---
 
@@ -11,8 +11,8 @@
 
 | Dimensi Perbandingan | Kurikulum Lama (2025) | Kurikulum Baru (2026) | Transformasi & Dampak Positif |
 |---|:---:|:---:|---|
-| **Beban SKS Paket Ditempuh** | 146 SKS (Kaku) | **148 SKS (55 MK)** | Memenuhi & melampaui syarat kelulusan minimal 144 SKS (Permendikbudristek 53/2023) |
-| **Portofolio MK Ditawarkan**| 56 MK / 146 SKS | **67 MK / 184 SKS** | Mahasiswa memiliki pilihan peminatan fleksibel |
+| **Beban SKS Paket Ditempuh** | 146 SKS (Kaku) | **146 SKS (55 MK)** | Memenuhi & melampaui syarat kelulusan minimal 144 SKS (Permendikbudristek 53/2023) |
+| **Portofolio MK Ditawarkan**| 56 MK / 146 SKS | **67 MK / 182 SKS** | Mahasiswa memiliki pilihan peminatan fleksibel |
 | **Peminatan Keahlian** | 0 (Polos / Generalis) | **3 Peminatan Seimbang** | **P1 (Smart Systems), P2 (Cloud/Cyber), P3 (Platform)** (@ 6 MK / 18 SKS) |
 | **Mata Kuliah Pilihan** | 0 MK | **18 MK ditawarkan** | Mahasiswa menempuh 1 paket peminatan penuh (6 MK / 18 SKS di Sem 5–7) |
 | **MK Bersama Fakultas (FSTI)**| 0 MK (Terisolir) | **14 MK (38 SKS)** | Efisiensi sumber daya, Capstone kolaboratif lintas prodi & standarisasi saintek |
@@ -32,10 +32,10 @@ Kurikulum 2025 (146 SKS):
 ├── MKU (Universitas) : 14 SKS (8 MK)
 └── MK Prodi STI      : 132 SKS (48 MK Wajib)
 
-Kurikulum 2026 (Portofolio 184 SKS / Paket Ditempuh 148 SKS / Minimal Lulus 144 SKS):
+Kurikulum 2026 (Portofolio 182 SKS / Paket Ditempuh 146 SKS / Minimal Lulus 144 SKS):
 ├── MKWU (Universitas): 13 SKS (8 MK, incl. KPM di Sem 5)
 ├── MKF (Fakultas FSTI): 38 SKS (14 MK, incl. Capstone Sem 7 & Skripsi Sem 8)
-├── MK Wajib Prodi STI : 79 SKS (27 MK, incl. Platform Eng Sem 6 & Startup Sem 7)
+├── MK Wajib Prodi STI : 77 SKS (27 MK, incl. Platform Eng Sem 6 & Startup Sem 7)
 └── MK Pilihan Elektif : 18 SKS (6 MK diambil dari 18 MK Portofolio Peminatan)
 ```
 
@@ -72,7 +72,7 @@ Kurikulum 2026 (Portofolio 184 SKS / Paket Ditempuh 148 SKS / Minimal Lulus 144 
 | **Sem 6** | 21 SKS (7 MK) | **20 SKS (7 MK: 5 Wajib + 2 Pilihan)** | ✅ Integrasi AI, Platform Eng, Metpen & MBKM |
 | **Sem 7** | 20 SKS (7 MK) | **20 SKS (7 MK: 4 Wajib + 3 Pilihan)** | ✅ Capstone FSTI, Startup Digital, PKL, Pra-Skripsi & MBKM |
 | **Sem 8** | 8 SKS (2 MK) | **6 SKS (1 MK: Skripsi Murni)** | ✅ **Single Track Skripsi Murni** (Fokus Lulus Cepat) |
-| **TOTAL** | **146 SKS (56 MK)** | **148 SKS (55 MK)** | ✅ **Paket Ditempuh (Syarat Lulus Minimal = 144 SKS)** |
+| **TOTAL** | **146 SKS (56 MK)** | **146 SKS (55 MK)** | ✅ **Paket Ditempuh (Syarat Lulus Minimal = 144 SKS)** |
 
 ---
 

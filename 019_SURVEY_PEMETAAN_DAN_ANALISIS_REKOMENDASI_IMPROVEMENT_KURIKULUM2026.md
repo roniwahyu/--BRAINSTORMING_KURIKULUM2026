@@ -16,7 +16,7 @@
 > [!IMPORTANT]
 > **Diferensiasi Beban Kelulusan vs Jumlah SKS Paket Kurikulum:**
 > 1. **Beban Total Kelulusan Mahasiswa (Graduation Requirement):** Sesuai **Permendikbudristek No. 53 Tahun 2023** dan **Standar Kurikulum OBE APTIKOM (SI v2.0 & TI 2023)**, beban belajar minimal untuk memperoleh gelar Sarjana Komputer (S.Kom) pada Program Studi SISTEKIN adalah **tepat 144 SKS**.
-> 2. **Jumlah SKS Paket Kurikulum Disediakan (Offered Curriculum Credits):** Jumlah total SKS yang dirancang dalam struktur kurikulum paket 8 semester dihitung dan diselaraskan tepat **144 SKS** (pola reguler), namun jumlah SKS yang ditawarkan di portofolio prodi dapat sedikit berbeda (misal 144–148 SKS pilihan) untuk memberikan ruang fleksibilitas pemilihan MK bagi mahasiswa, dengan syarat **beban kelulusan mahasiswa tetap tepat 144 SKS**.
+> 2. **Jumlah SKS Paket Kurikulum Disediakan (Offered Curriculum Credits):** Jumlah total SKS yang dirancang dalam struktur kurikulum paket 8 semester dihitung dan diselaraskan tepat **144 SKS** (pola reguler), namun jumlah SKS yang ditawarkan di portofolio prodi dapat sedikit berbeda (misal 144–146 SKS pilihan) untuk memberikan ruang fleksibilitas pemilihan MK bagi mahasiswa, dengan syarat **beban kelulusan mahasiswa tetap tepat 144 SKS**.
 
 ---
 

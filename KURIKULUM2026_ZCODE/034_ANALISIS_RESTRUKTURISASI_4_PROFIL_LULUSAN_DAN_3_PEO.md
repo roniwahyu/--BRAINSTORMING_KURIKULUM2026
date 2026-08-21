@@ -161,7 +161,7 @@ Bagi sesi atau sub-agent berikutnya yang akan melakukan pendalaman dan penajaman
 3. **Penyusunan Kuesioner Tracer Study Terstandar (Bab 7 Buku Kurikulum):**  
    Susun instrumen kuesioner survei alumni dan pengguna lulusan berbasis 3 PEO & 4 PL untuk lampiran sistem penjaminan mutu PPEPP.
 4. **Proteksi Integritas Struktur MK & CPL:**  
-   Tetap pertahankan struktur **55 MK / 148 SKS Paket Ditempuh**, **3 Peminatan Seimbang (@ 18 SKS)**, dan **14 CPL** karena telah terkunci sempurna (*zero conflict*).
+   Tetap pertahankan struktur **55 MK / 146 SKS Paket Ditempuh**, **3 Peminatan Seimbang (@ 18 SKS)**, dan **14 CPL** karena telah terkunci sempurna (*zero conflict*).
 
 ---
 

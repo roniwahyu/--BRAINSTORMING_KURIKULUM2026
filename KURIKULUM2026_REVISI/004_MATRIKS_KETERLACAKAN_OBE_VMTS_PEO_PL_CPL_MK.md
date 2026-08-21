@@ -45,7 +45,7 @@ graph LR
 
 ---
 
-## 3. MASTER TABEL KETERLACAKAN 14 CPL $\times$ 55 MATA KULIAH (PAKET 148 SKS DITEMPUH)
+## 3. MASTER TABEL KETERLACAKAN 14 CPL $\times$ 55 MATA KULIAH (PAKET 146 SKS DITEMPUH)
 
 ### Keterangan Simbol Matriks:
 * **`I` (Introduce):** Pengenalan konsep dasar keilmuan dan teori dasar (Ranah Bloom C2–C3).
@@ -112,7 +112,7 @@ graph LR
 | 38 | `STA/B/C` | **MK Pilihan Peminatan 1** | 3 | | | | | | | | | * | * | * | * | * | * | PL-1..3 | PEO-1..3 | **R** |
 | 38.B | `MKU-402` | Kewirausahaan II | 0 | | | | | | | | | | | | | | **R** | PL-4 | PEO-2 | **R** |
 | 39 | `STI-601` | Integrasi Layanan Cerdas AI | 3 | | | | | | **M** | | | **M** | | | | | | PL-1 | PEO-1, PEO-3 | **M** |
-| 40 | `STI-602` | Smart City & Pem. Digital | 3 | | | | | | | **M** | | | | **M** | | | | PL-2 | PEO-1 | **M** |
+| 40 | `STI-602` | Smart City & Pem. Digital | 2 | | | | | | | **M** | | | | **M** | | | | PL-2 | PEO-1 | **M** |
 | 41 | `STI-603` | Keamanan Informasi Lanjut | 3 | | | | | | | **M** | | | | **M** | **M** | | | PL-2 | PEO-1 | **M** |
 | 42 | `STI-604` | Digital Platform Engineering| 3 | | | | | | | | **M** | | | | | **M** | | PL-3 | PEO-1, PEO-2 | **M** |
 | 43 | `FST-611` | Metodologi Penelitian | 2 | | **M** | **M** | | | | | | | | | | | | Seluruh PL | PEO-3 | **M** |
@@ -306,7 +306,7 @@ Sesuai Keputusan Menteri Pendidikan dan Kebudayaan No. 210/M/2023 tentang Indika
 | 38 | `STA/B/C` | MK Pilihan Peminatan 1 | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
 | 38.B | `MKU-402` | Kewirausahaan II | 0 | 30% | 40% | 30% | **70%** | *MKWU 0 SKS (Sem 5)* |
 | 39 | `STI-601` | Integrasi Layanan Cerdas AI| 3 | 20% | 55% | 25% | **75%** | ✅ Patuh IKU 7 |
-| 40 | `STI-602` | Smart City & Pem. Digital | 3 | 35% | 35% | 30% | **70%** | ✅ Patuh IKU 7 |
+| 40 | `STI-602` | Smart City & Pem. Digital | 2 | 35% | 35% | 30% | **70%** | ✅ Patuh IKU 7 |
 | 41 | `STI-603` | Keamanan Informasi Lanjut | 3 | 30% | 40% | 30% | **70%** | ✅ Patuh IKU 7 |
 | 42 | `STI-604` | Digital Platform Engineering| 3 | 20% | 55% | 25% | **75%** | ✅ Patuh IKU 7 |
 | 43 | `FST-611` | Metodologi Penelitian | 2 | 30% | 40% | 30% | **70%** | ✅ Patuh IKU 7 |

@@ -22,7 +22,7 @@
 | No | Mata Kuliah yang Dikonversikan | SKS | Kategori | Bentuk Penilaian Ekuivalensi |
 |:---:|---|:---:|---|---|
 | 1 | STI-601 Integrasi Layanan Cerdas AI | 3 | Core STI | Tugas Rekayasa API & Integrasi Sistem Industri |
-| 2 | STI-602 Smart City / Solusi Digital | 3 | Core STI | Solusi Transformasi Digital pada Industri/Mitra |
+| 2 | STI-602 Smart City / Solusi Digital | 2 | Core STI | Solusi Transformasi Digital pada Industri/Mitra |
 | 3 | STI-603 Keamanan Informasi Lanjut | 3 | Core STI | Implementasi Kebijakan & Keamanan Data Magang |
 | 4 | STI-604 Digital Platform Engineering | 3 | Core STI | Pengembangan Backend / Platform Skalabel Industri |
 | 5 | FST-611 Metodologi Penelitian | 2 | FSTI | Perumusan Masalah & Metodologi Proyek Magang |
@@ -51,7 +51,7 @@
 │ SMT 4 AKHIR: 81 SKS ──→ LULUS SYARAT METPEN FST-611 (>76 SKS Lulus)        │
 │ SMT 5 AKHIR: 102 SKS ─→ MEMASUKI SYARAT PKL FST-612 & PRA-SKRIPSI (>100 SKS)│
 │ SMT 6 AKHIR: 122 SKS ─→ MEMASUKI SYARAT SKRIPSI / TA FST-714 (>120 SKS)     │
-│ SMT 8 AKHIR: 148 SKS ─→ PAKET LULUS SARJANA SISTEKIN (MINIMAL 144 SKS)      │
+│ SMT 8 AKHIR: 146 SKS ─→ PAKET LULUS SARJANA SISTEKIN (MINIMAL 144 SKS)      │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 

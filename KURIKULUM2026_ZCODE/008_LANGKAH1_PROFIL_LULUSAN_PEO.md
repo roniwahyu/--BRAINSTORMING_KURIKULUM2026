@@ -197,7 +197,7 @@ CPL (Capaian Pembelajaran Lulusan) diturunkan dari 6 Profil Lulusan dalam 4 kate
 
 | Dokumen | Fungsi |
 |---|---|
-| `006_KEPUTUSAN_FINAL_ARAH_KURIKULUM_SISTEKIN.md` | Keputusan final arah kurikulum (148 SKS Paket / 184 Portofolio) |
+| `006_KEPUTUSAN_FINAL_ARAH_KURIKULUM_SISTEKIN.md` | Keputusan final arah kurikulum (146 SKS Paket / 184 Portofolio) |
 | `007_BEDAH_STRUKTUR_KURIKULUM_SISTEKIN.md` | Analisis komprehensif struktur kurikulum |
 | `008_LANGKAH1_PROFIL_LULUSAN_PEO.md` | Dokumen ini — Profil Lulusan & PEO (6 PL x 3 Jalur) |
 | `009_LANGKAH2_CPL_FORMAL.md` | CPL Formal 14 CPL (Langkah 2) |

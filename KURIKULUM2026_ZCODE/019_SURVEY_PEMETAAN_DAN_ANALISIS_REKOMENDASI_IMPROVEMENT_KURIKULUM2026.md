@@ -7,14 +7,14 @@
 **Labeling Metodologis:**  
 - **[F]** = Fakta Terverifikasi (Diambil langsung dari dokumen resmi/SIAKAD/Buku OBE SI v2.0/TI 2023/VMTS)  
 - **[A]** = Rekomendasi Asesor / Arsitek Kurikulum (Telah disahkan dalam Konsensus Final 19/08/2026)  
-- **[H]** = Hasil Hitung Ulang & Audit Independen (Terekonsiliasi: 148 SKS Paket Ditempuh / 184 SKS Portofolio)  
+- **[H]** = Hasil Hitung Ulang & Audit Independen (Terekonsiliasi: 146 SKS Paket Ditempuh / 182 SKS Portofolio)  
 
 ---
 
 > [!NOTE]
 > **STATUS RESOLUSI AUDIT (19 Agustus 2026):**  
 > Seluruh 17 temuan audit di dokumen ini telah **100% diselesaikan secara tuntas dan terdokumentasi resmi**:
-> 1. **Rekonsiliasi SKS [H]:** Selesai di Dokumen [030] & [031] (**148 SKS Paket Ditempuh / 55 MK; 184 SKS Portofolio / 67 MK; Syarat Lulus Minimal 144 SKS**).
+> 1. **Rekonsiliasi SKS [H]:** Selesai di Dokumen [030] & [031] (**146 SKS Paket Ditempuh / 55 MK; 182 SKS Portofolio / 67 MK; Syarat Lulus Minimal 144 SKS**).
 > 2. **Beban Sem 1 & 2 [H]:** Selesai di Dokumen [011] & [020] (**Sem 1 = 19 SKS; Sem 2 = Tepat 20 SKS**).
 > 3. **Perangkat Asesmen Mikro OBE [F]:** Selesai di Dokumen [023] s.d. [029] (Matriks I-R-M, CPMK/Sub-CPMK 67 MK, RPS Standar LAM INFOKOM, Formula Attainment, 4 Rubrik Analitik Master & CQI).
 > 4. **Keselarasan VMTS & BoK [A]:** Selesai di Dokumen [020], [021] (100% terpenuhi 19 SI-BK & 27 TI-BK), dan [022].
@@ -25,8 +25,8 @@
 
 > [!IMPORTANT]
 > **Diferensiasi Beban Kelulusan vs Jumlah SKS Paket Kurikulum:**
-> 1. **Beban Total Kelulusan Mahasiswa (Graduation Requirement):** Sesuai **Permendikbudristek No. 53 Tahun 2023** dan **Standar Kurikulum OBE APTIKOM (SI v2.0 & TI 2023)**, beban belajar minimal untuk memperoleh gelar Sarjana Komputer (S.Kom) pada Program Studi SISTEKIN adalah **minimal 144 SKS** (Paket terjadwal ditempuh = **148 SKS / 55 MK**).
-> 2. **Jumlah SKS Portofolio Ditawarkan Prodi:** Disediakan total **184 SKS / 67 MK** (termasuk 18 MK elektif peminatan @ 54 SKS, di mana mahasiswa menempuh 1 paket peminatan penuh @ 6 MK / 18 SKS).
+> 1. **Beban Total Kelulusan Mahasiswa (Graduation Requirement):** Sesuai **Permendikbudristek No. 53 Tahun 2023** dan **Standar Kurikulum OBE APTIKOM (SI v2.0 & TI 2023)**, beban belajar minimal untuk memperoleh gelar Sarjana Komputer (S.Kom) pada Program Studi SISTEKIN adalah **minimal 144 SKS** (Paket terjadwal ditempuh = **146 SKS / 55 MK**).
+> 2. **Jumlah SKS Portofolio Ditawarkan Prodi:** Disediakan total **182 SKS / 67 MK** (termasuk 18 MK elektif peminatan @ 54 SKS, di mana mahasiswa menempuh 1 paket peminatan penuh @ 6 MK / 18 SKS).
 
 ---
 
@@ -160,7 +160,7 @@ Untuk mematuhi Permendikbudristek 53/2023 dan meratakan beban praktikum (+P), di
 | 2 | STI-402 | Analisis & Perancangan SI (APSI) | 3 | Wajib STI | — | BPMN & UML Modeling (P2, KU1) |
 | 3 | STI-403 | Pemrograman Aplikasi Mobile | 3 | Wajib STI | ✅ | Flutter / Android Native (P4, KK5) |
 | 4 | STI-404 | Sistem Informasi Berbasis Cloud | 3 | Wajib STI | — | Cloud Architecture IaaS/PaaS (P3, KK3) |
-| 5 | STI-405 | Keamanan Informasi Dasar | 3 | Wajib STI | — | Cybersecurity Fundamentals (P3, KK3) |
+| 5 | STI-405 | Keamanan Informasi Dasar | 2 | Wajib STI | — | Cybersecurity Fundamentals (P3, KK3) |
 | 6 | FST-106 | Etika dan Hukum Digital | 2 | Wajib FST | — | UU PDP, ITE & AI Ethics (S1, KU2) |
 | 7 | STI-407 | Sistem Informasi Manajemen | 3 | Wajib STI | — | **MK BARU WAJIB** — BK06 only (P2, KK4). *BPM (BK15) ditunda — keputusan: SIM saja.* |
 | | | **Total Semester 4** | **20** | | **2 Praktikum** | *BK06 terpenuhi; BK15 outstanding* |
@@ -184,7 +184,7 @@ Untuk mematuhi Permendikbudristek 53/2023 dan meratakan beban praktikum (+P), di
 |---|---|---|---|---|---|---|
 | 1 | FST-109 | Praktik Kerja Lapangan (PKL) | 3 | Wajib FST | — | Magang Industri / Proyek Riil (S1, KU, KK) |
 | 2 | STI-601 | Data Warehouse & Business Intelligence | 3 | Wajib STI | ✅ | OLAP, ETL & Dashboard (P2, KK2) |
-| 3 | STI-602 | Data Mining & Analitis Bisnis | 3 | Wajib STI | ✅ | Predictive Analytics (P2, KK2) |
+| 3 | STI-602 | Data Mining & Analitis Bisnis | 2 | Wajib STI | ✅ | Predictive Analytics (P2, KK2) |
 | 4 | STA/STB/STC-03 | MK Pilihan Peminatan 3 | 3 | Peminatan | — | Sesuai Jalur Peminatan P1/P2/P3 |
 | 5 | STA/STB/STC-04 | MK Pilihan Peminatan 4 | 3 | Peminatan | — | Sesuai Jalur Peminatan P1/P2/P3 |
 | 6 | STI-603 | Smart City & Digital Society | 3 | Wajib STI | — | Smart Ecosystem & Community (KK3, KK6) |

@@ -2,14 +2,14 @@
 
 **Versi:** DRAFT HISTORIS · **Tanggal:** 10 Agustus 2026  
 **⚠️ STATUS REKONSILIASI (20 Agustus 2026):**  
-Dokumen ini merupakan draft historis awal dan telah **DISEMPURNAKAN & DIKUNCI PENUH** oleh struktur final **55 MK / 148 SKS Paket Ditempuh (184 SKS Portofolio / 67 MK)** pada Dokumen **[011]**, **[020]**, **[030]**, **[031]**, dan **[032_DISTRIBUSI_FINAL_MATA_KULIAH_8_SEMESTER_SISTEKIN.md]**. Gunakan Dokumen [032] dan [011] sebagai acuan definitif.
+Dokumen ini merupakan draft historis awal dan telah **DISEMPURNAKAN & DIKUNCI PENUH** oleh struktur final **55 MK / 146 SKS Paket Ditempuh (182 SKS Portofolio / 67 MK)** pada Dokumen **[011]**, **[020]**, **[030]**, **[031]**, dan **[032_DISTRIBUSI_FINAL_MATA_KULIAH_8_SEMESTER_SISTEKIN.md]**. Gunakan Dokumen [032] dan [011] sebagai acuan definitif.
 
 **Sistem Kode & Komponen Kurikulum 2026 Terkunci:**
 | Prefix | Kategori | Beban Paket Ditempuh |
 |---|---|:---:|
 | **MKU** | Mata Kuliah Wajib Umum Universitas | 13 SKS (8 MK) |
 | **FST-** | Mata Kuliah Bersama Fakultas (FSTI) | 38 SKS (14 MK) |
-| **STI-** | Mata Kuliah Inti Program Studi | 79 SKS (27 MK) |
+| **STI-** | Mata Kuliah Inti Program Studi | 77 SKS (27 MK) |
 | **STA-/STB-/STC-** | MK Pilihan Peminatan (P1, P2, P3) | 18 SKS (6 MK Ditempuh) |
 
 ---

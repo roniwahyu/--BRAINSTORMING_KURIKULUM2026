@@ -8,7 +8,7 @@
 
 > [!NOTE]
 > **Catatan Status & Hasil Akhir (20 Agustus 2026):**  
-> Dokumen ini merupakan dokumen historis *gap analysis* Kurikulum 2025 (146 SKS). Seluruh temuan gap telah diselesaikan secara tuntas pada **Kurikulum SISTEKIN 2026 (148 SKS Paket Ditempuh / 55 MK; 184 SKS Portofolio Ditawarkan / 67 MK)** yang disahkan pada **Dokumen [020], [030], [031], dan [032]**.
+> Dokumen ini merupakan dokumen historis *gap analysis* Kurikulum 2025 (146 SKS). Seluruh temuan gap telah diselesaikan secara tuntas pada **Kurikulum SISTEKIN 2026 (146 SKS Paket Ditempuh / 55 MK; 182 SKS Portofolio Ditawarkan / 67 MK)** yang disahkan pada **Dokumen [020], [030], [031], dan [032]**.
 
 ---
 

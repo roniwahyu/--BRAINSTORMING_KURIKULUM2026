@@ -1,9 +1,9 @@
 # 011 — STRUKTUR KURIKULUM SISTEKIN (TABEL PER SEMESTER)
 
 **Tanggal:** 19 Agustus 2026 (Rekonsiliasi Matematis Final)
-**Status:** FINAL — Struktur Kurikulum Lengkap 8 Semester (Terekonsiliasi: 14 MK FSTI / 38 SKS & 27 MK STI / 79 SKS)
+**Status:** FINAL — Struktur Kurikulum Lengkap 8 Semester (Terekonsiliasi: 14 MK FSTI / 38 SKS & 27 MK STI / 77 SKS)
 **Dasar:** 006 (Keputusan Final) + 008 (Profil Lulusan) + 009 (14 CPL) + 010 (Kompilasi) + Ketentuan MK FSTI 2026
-**Total:** 67 MK Portofolio Ditawarkan (184 SKS) | 55 MK Paket Ditempuh Mahasiswa (148 SKS) | Syarat Lulus Mahasiswa = Minimal 144 SKS (Permendikbudristek No. 53/2023)
+**Total:** 67 MK Portofolio Ditawarkan (182 SKS) | 55 MK Paket Ditempuh Mahasiswa (146 SKS) | Syarat Lulus Mahasiswa = Minimal 144 SKS (Permendikbudristek No. 53/2023)
 **Ground Truth:** KURIKULUM2025 (56 MK, 146 SKS) — file terverifikasi manusia, disesuaikan ketentuan FSTI & Rekonsiliasi 2026
 
 ---
@@ -14,7 +14,7 @@
 |---|---|---|
 | **MKU** | Mata Kuliah Universitas | MK Umum Universitas Widyagama (8 MK, 13 SKS: 6 MK ber-SKS + 2 MK @ 0 SKS) |
 | **FST-** | Mata Kuliah Fakultas (MKF) | MK Fakultas Saintek / Ilmu Komputer — fondasi keilmuan lintas prodi (14 MK, 38 SKS) |
-| **STI-** | Mata Kuliah Wajib Prodi | MK Wajib Inti Program Studi SISTEKIN (27 MK, 79 SKS) |
+| **STI-** | Mata Kuliah Wajib Prodi | MK Wajib Inti Program Studi SISTEKIN (27 MK, 77 SKS) |
 | **STA-** | MK Pilihan Peminatan | Peminatan Smart Information System (Integrated Smart Systems — 6 MK, 18 SKS) |
 | **STB-** | MK Pilihan Peminatan | Peminatan Cloud and Cybersecurity (6 MK, 18 SKS) |
 | **STC-** | MK Pilihan Peminatan | Peminatan Digital Platform Engineering (6 MK, 18 SKS) |
@@ -126,13 +126,13 @@
 | No | Mata Kuliah | Kode | SKS | +P | CPL | Peminatan | Keterangan |
 |---|---|---|---|---|---|---|---|
 | 1 | Integrasi Layanan Cerdas Berbasis AI | STI-601 | 3 | ✅ | P2, KK1 | Core | +P: API orchestration, ML deployment |
-| 2 | Smart City dan Pemerintahan Digital | STI-602 | 3 | ✅ | P3, KK3 | Core | +P: IoT dashboard, smart prototyping |
+| 2 | Smart City dan Pemerintahan Digital | STI-602 | 2 | — | P3, KK3 | Core | Teori (Non-+P) — SPBE & Urban Governance |
 | 3 | Keamanan Informasi Lanjut | STI-603 | 3 | — | P3, KK3, KK4 | Core | Forensik, incident response |
 | 4 | **Digital Platform Engineering** | **STI-604** | **3** | **✅** | **KK5** | **Core** | **+P: Microservices, API gateway (Pindahan dari Sem 7)** |
 | 5 | Metodologi Penelitian | FST-611 | 2 | — | KU1-3 | **FSTI** | Metodologi Penelitian (>76 SKS lulus) |
 | 6 | **MK Pilihan Peminatan 2** | STA-/STB-/STC- | 3 | — | Per MK | Smart IS/Cloud/Platform | Ambil 1 dari portofolio peminatan |
 | 7 | **MK Pilihan Peminatan 3** | STA-/STB-/STC- | 3 | — | Per MK | Smart IS/Cloud/Platform | Ambil 1 dari portofolio peminatan |
-| | **Total Semester 6** | | **20** | | | | **5 MK Wajib (14 SKS) + 2 MK Pilihan (6 SKS) — Dapat Dikonversi MBKM 20 SKS** |
+| | **Total Semester 6** | | **19** | | | | **5 MK Wajib (14 SKS) + 2 MK Pilihan (6 SKS) — Dapat Dikonversi MBKM 20 SKS** |
 
 ---
 
@@ -203,17 +203,17 @@
 |---|:---:|:---:|:---:|---|
 | **MKWU (Universitas)** | 8 | 13 | 13 | Agama I, Pancasila, B.Indonesia, KWN, KWU I, Agama II (0 SKS), KWU II (0 SKS), KPM (KKN Digital di Sem 5) |
 | **MK FSTI (Fakultas)** | 14 | 38 | 38 | Fondasi keilmuan lintas prodi FSTI (termasuk Capstone 3 SKS, Metpen 2 SKS, PKL 3 SKS, Pra-Skripsi 2 SKS, Skripsi 6 SKS) |
-| **MK STI (Wajib Inti Prodi)** | 27 | 79 | 79 | Karakteristik khusus keilmuan prodi SISTEKIN (termasuk Platform Eng di Sem 6 & Startup di Sem 7) |
+| **MK STI (Wajib Inti Prodi)** | 27 | 77 | 77 | Karakteristik khusus keilmuan prodi SISTEKIN (termasuk Platform Eng di Sem 6 & Startup di Sem 7) |
 | **MK Pilihan Peminatan (P1/P2/P3)** | 18 | 54 | 18 (6 MK) | Portofolio 18 MK (STA/STB/STC); Mahasiswa menempuh tepat 1 paket peminatan penuh (6 MK / 18 SKS di Sem 5–7) |
 | **SUBTOTAL WAJIB DITEMPUH** | **49** | **130** | **130** | **49 MK Wajib Inti Kurikulum** |
-| **GRAND TOTAL PAKET 8 SEMESTER** | **55** | **148** | **148** | **Beban Terjadwal (Syarat Lulus Minimal = 144 SKS Permendikbud 53/2023)** |
-| **GRAND TOTAL PORTOFOLIO DITAWARKAN** | **67** | **184** | — | **Total Seluruh Opsi Portofolio MK Prodi** |
+| **GRAND TOTAL PAKET 8 SEMESTER** | **55** | **146** | **146** | **Beban Terjadwal (Syarat Lulus Minimal = 144 SKS Permendikbud 53/2023)** |
+| **GRAND TOTAL PORTOFOLIO DITAWARKAN** | **67** | **182** | — | **Total Seluruh Opsi Portofolio MK Prodi** |
 
 ---
 
 ## TABEL DAFTAR MATA KULIAH PRAKTIKUM (+P / HANDS-ON)
 
-Total MK Wajib Praktikum (+P): **21 MK | 66 SKS** (**42,9%** dari Paket Ditempuh 154 SKS); ditambah 3–8 MK Pilihan ber-praktikum (9–24 SKS) → total beban praktikum mahasiswa **75–90 SKS (48,7%–58,4%)**.
+Total MK Wajib Praktikum (+P): **20 MK | 63 SKS** (**42,9%** dari Paket Ditempuh 154 SKS); ditambah 3–8 MK Pilihan ber-praktikum (9–24 SKS) → total beban praktikum mahasiswa **75–90 SKS (48,7%–58,4%)**.
 
 | No | Kode | Nama Mata Kuliah | SKS | SMS | Kategori | Fokus Praktikum / Hands-on Lab |
 |---|---|---|:---:|:---:|---|---|
@@ -231,7 +231,6 @@ Total MK Wajib Praktikum (+P): **21 MK | 66 SKS** (**42,9%** dari Paket Ditempuh
 | 12 | STI-504 | Internet of Things (IoT) | 3 | 5 | STI | Sensor ESP32/Arduino, protokol MQTT, gateway & dashboard IoT Blynk/Node-RED |
 | 13 | STI-505 | Pemrograman Aplikasi Mobile | 3 | 5 | STI | Flutter/React Native cross-platform, Android Studio, integrasi API & sqlite |
 | 14 | STI-601 | Integrasi Layanan Cerdas Berbasis AI | 3 | 6 | STI | Model deployment FastAPI/Docker, MLOps, API orchestration & microservices |
-| 15 | STI-602 | Smart City dan Pemerintahan Digital | 3 | 6 | STI | Prototyping sistem sensor smart city, GIS mapping & portal SPBE |
 | 16 | **STI-604** | **Digital Platform Engineering** | **3** | **6** | **STI** | **Microservices architecture, API Gateway, CI/CD pipeline, Redis/Kafka** |
 | 17 | **MKU-203** | **KPM (Kuliah Pengabdian Masyarakat / KKN Digital)** | **3** | **5** | **MKWU** | **Implementasi teknologi digital untuk pengabdian masyarakat desa** |
 | 18 | **STI-701** | **Inovasi Teknologi dan Startup Digital** | **3** | **7** | **STI** | **MVP prototyping, product validation, landing page & pitch deck interactive** |
@@ -239,7 +238,7 @@ Total MK Wajib Praktikum (+P): **21 MK | 66 SKS** (**42,9%** dari Paket Ditempuh
 | 20 | FST-612 | Praktik Kerja Lapangan (PKL) | 3 | 7 | FSTI | Magang industri 1-3 bulan / proyek nyata perusahaan |
 | 21 | FST-714 | Skripsi / Tugas Akhir | 6 | 8 | FSTI | Pengembangan sistem/riset mandiri, coding & pengujian perangkat lunak murni |
 | 22 | STA/STB/STC | 6 MK Pilihan Peminatan | 18 | 5-7 | STI | Lab hands-on spesialisasi P1 (Smart IS), P2 (Cloud & Cyber), P3 (Digital Platform) — 13 dari 18 MK elektif ber-+P |
-| | **TOTAL WAJIB (+P)** | **21 MK** | **66** | | | **66 SKS wajib (44,6% dari 148 SKS) + 9–18 SKS MK pilihan +P** |
+| | **TOTAL WAJIB (+P)** | **21 MK** | **66** | | | **66 SKS wajib (44,6% dari 146 SKS) + 9–18 SKS MK pilihan +P** |
 
 ---
 
@@ -263,7 +262,7 @@ Total MK Wajib Praktikum (+P): **21 MK | 66 SKS** (**42,9%** dari Paket Ditempuh
 | 12 | PKL (+P) | FST-612 | 6-7 | **>100 SKS lulus** | Paralel (Sem 6-7) |
 | 13 | Pra-Skripsi / Seminars | FST-613 | 6-7-8 | **>100 SKS lulus** | Paralel (Sem 6-7-8) |
 | 14 | Skripsi (+P) | FST-714 | 7-8 | **>120 SKS lulus & Proposal diseminarkan** | Paralel (Sem 7-8) |
-| | **TOTAL** | **14 MK FSTI** | | | **38 SKS (20.7% dari Total 184 SKS Portofolio)** |
+| | **TOTAL** | **14 MK FSTI** | | | **38 SKS (20.7% dari Total 182 SKS Portofolio)** |
 
 ### MK STI (Wajib Prodi)
 
@@ -297,9 +296,9 @@ Total MK Wajib Praktikum (+P): **21 MK | 66 SKS** (**42,9%** dari Paket Ditempuh
 | 26 | Digital Platform Engineering (+P) | STI-604 | 6 | STI-407 (Web BE) + STI-304 (RPL) | Microservices, API-first architecture (Pindahan dari Sem 7) |
 | 27 | Inovasi Teknologi & Startup Digital (+P) | STI-701 | 7 | — | MVP development, pitch deck |
 | 28 | MK Pilihan Peminatan (6 MK +P/Teori) | STA/STB/STC | 5-7 | Sesuai Peminatan | 6 MK Pilihan per Mahasiswa (18 SKS — 1 Paket Penuh) |
-| | **TOTAL** | **27 MK STI + 6 PILIHAN** | | | **97 SKS (52.7% dari Total 184 SKS Portofolio)** |
+| | **TOTAL** | **27 MK STI + 6 PILIHAN** | | | **97 SKS (52.7% dari Total 182 SKS Portofolio)** |
 
 
 ---
 
-*Dokumen ini merupakan Struktur Kurikulum SISTEKIN versi terbaru yang telah terekonsiliasi secara matematis (8 MKWU / 13 SKS, 14 MK FSTI / 38 SKS, 27 MK STI Wajib / 79 SKS, dan 18 MK Pilihan Peminatan / 54 SKS; Paket Ditempuh = 55 MK / 148 SKS).*
+*Dokumen ini merupakan Struktur Kurikulum SISTEKIN versi terbaru yang telah terekonsiliasi secara matematis (8 MKWU / 13 SKS, 14 MK FSTI / 38 SKS, 27 MK STI Wajib / 77 SKS, dan 18 MK Pilihan Peminatan / 54 SKS; Paket Ditempuh = 55 MK / 146 SKS).*

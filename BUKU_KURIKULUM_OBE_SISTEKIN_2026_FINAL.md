@@ -50,7 +50,7 @@ Telah diperiksa, divalidasi, dan disetujui untuk diberlakukan secara resmi berda
 
 **MEMUTUSKAN:**
 * **Menetapkan:** KEPUTUSAN REKTOR UNIVERSITAS WIDYAGAMA MALANG TENTANG PEMBERLAKUAN BUKU KURIKULUM KPT-OBE 2026 PROGRAM STUDI SISTEM DAN TEKNOLOGI INFORMASI (S1).
-* **KESATU:** Memberlakukan Naskah Buku Kurikulum KPT-OBE 2026 Program Studi SISTEKIN dengan beban studi kelulusan **148 SKS (55 Mata Kuliah)** dalam portofolio yang ditawarkan sebesar **184 SKS (67 Mata Kuliah)** terhitung mulai Tahun Akademik Ganjil 2026/2027.
+* **KESATU:** Memberlakukan Naskah Buku Kurikulum KPT-OBE 2026 Program Studi SISTEKIN dengan beban studi kelulusan **146 SKS (55 Mata Kuliah)** dalam portofolio yang ditawarkan sebesar **182 SKS (67 Mata Kuliah)** terhitung mulai Tahun Akademik Ganjil 2026/2027.
 * **KEDUA:** Kurikulum ini menjadi acuan tunggal bagi perencanaan, pelaksanaan, asesmen luaran, dan penjaminan mutu PPEPP pembelajaran di lingkungan Program Studi SISTEKIN.
 * **KETIGA:** Keputusan ini berlaku sejak tanggal ditetapkan, dengan ketentuan apabila terdapat kekeliruan akan diperbaiki sebagaimana mestinya.
 
@@ -132,7 +132,7 @@ Malang, 20 Agustus 2026
   * 4.4 Indikator Kinerja CPL (*Performance Indicators*) dan Taksonomi Bloom
   * 4.5 Matriks Keterlacakan Makro OBE (VMTS $\leftrightarrow$ PEO $\leftrightarrow$ PL $\leftrightarrow$ CPL $\leftrightarrow$ MK)
 * **BAB V: STRUKTUR KURIKULUM 8 SEMESTER DAN PEMINATAN**
-  * 5.1 Rekapitulasi Beban Studi (148 SKS Paket / 184 SKS Portofolio)
+  * 5.1 Rekapitulasi Beban Studi (146 SKS Paket / 182 SKS Portofolio)
   * 5.2 Sebaran Mata Kuliah Semester 1 s.d. Semester 8
   * 5.3 Paket 3 Peminatan Keahlian (@ 18 SKS / 6 MK)
   * 5.4 Peta Jalur Pembelajaran (*Curriculum Prerequisite Flowchart*)
@@ -151,7 +151,8 @@ Malang, 20 Agustus 2026
   * 8.1 Tata Kelola Program Studi dan Kualifikasi Dosen
   * 8.2 Sarana Laboratorium dan Infrastruktur Komputasi Cerdas
   * 8.3 Ketentuan dan Aturan Peralihan Kurikulum 2025 ke 2026
-  * 8.4 Matriks Ekuivalensi Mata Kuliah Kurikulum 2025 $ightarrow$ 2026
+  * 8.4 Matriks Ekuivalensi Mata Kuliah Kurikulum 2025 $
+ightarrow$ 2026
 * **LAMPIRAN-LAMPIRAN:**
   * **Lampiran 1:** Master Tabel Keterlacakan I-R-M 14 CPL $	imes$ 55 Mata Kuliah
   * **Lampiran 2:** Master Portofolio Silabus 3-Tabel Lengkap Seluruh 67 Mata Kuliah (CPMK ABCD & 16 Pertemuan)
@@ -325,7 +326,7 @@ Program Studi Sistem dan Teknologi Informasi (SISTEKIN) FSTI Universitas Widyaga
 │    (APTIKOM v2.0, IS2020, IT2017).       │    memiliki rekam jejak alumni (tracer study).│
 │ 2. Visi keilmuan yang sangat fokus dan   │ 2. Kebutuhan peningkatan kapasitas dosen      │
 │    relevan: AI Integration & Techno.     │    dalam sertifikasi industri bertaraf global.│
-│ 3. Paket SKS terstruktur (148 SKS / 55   │ 3. Fasilitas laboratorium spesialisasi cerdas │
+│ 3. Paket SKS terstruktur (146 SKS / 55   │ 3. Fasilitas laboratorium spesialisasi cerdas │
 │    MK) dengan 3 peminatan yang seimbang. │    yang sedang dalam proses akselerasi.       │
 │ 4. Adanya pilar Capstone & non-skripsi.  │                                               │
 ├──────────────────────────────────────────┼───────────────────────────────────────────────┤
@@ -341,7 +342,7 @@ Program Studi Sistem dan Teknologi Informasi (SISTEKIN) FSTI Universitas Widyaga
 ```
 
 ### Strategi Transformasi Matriks SWOT:
-* **Strategi S-O (Maxi-Maxi):** Mengkapitalisasi visi *AI Integrator* dan kurikulum fleksibel 148 SKS untuk menarik talenta mahasiswa dan menjalin kemitraan MBKM dengan industri teknologi nasional.
+* **Strategi S-O (Maxi-Maxi):** Mengkapitalisasi visi *AI Integrator* dan kurikulum fleksibel 146 SKS untuk menarik talenta mahasiswa dan menjalin kemitraan MBKM dengan industri teknologi nasional.
 * **Strategi W-O (Mini-Maxi):** Memanfaatkan kemitraan industri global (Google, AWS, Microsoft, Oracle Academy) untuk sertifikasi dosen dan mahasiswa guna menutup kelemahan usia prodi.
 * **Strategi S-T (Maxi-Mini):** Memastikan ekosistem *PjBL (Project-based Learning)* dan *Capstone Project* menghasilkan portofolio nyata yang melampaui kemampuan lulusan konvensional di pasar kerja.
 * **Strategi W-T (Mini-Mini):** Menetapkan sistem penjaminan mutu PPEPP yang ketat sejak tahun pertama agar setiap luaran mata kuliah terukur secara objektif sesuai standar akreditasi LAM INFOKOM.
@@ -863,7 +864,7 @@ graph TD
 
 ## 1. REKAPITULASI DAN DISTRIBUSI BEBAN STUDI
 
-Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket wajib kelulusan mahasiswa sebesar **148 SKS** yang terdistribusi ke dalam **55 Mata Kuliah**:
+Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket wajib kelulusan mahasiswa sebesar **146 SKS** yang terdistribusi ke dalam **55 Mata Kuliah**:
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
@@ -873,24 +874,24 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 ├───────────────────────────────────────────┼──────────────┼───────────────┼───────────────────────┤
 │ Mata Kuliah Wajib Umum (MKWU)             │ 8 MK         │ 13 SKS        │ 8,8%                  │
 │ Mata Kuliah Wajib Fakultas (FSTI)         │ 14 MK        │ 38 SKS        │ 25,7%                 │
-│ Mata Kuliah Inti Program Studi (Core STI) │ 27 MK        │ 79 SKS        │ 53,4%                 │
+│ Mata Kuliah Inti Program Studi (Core STI) │ 27 MK        │ 77 SKS        │ 53,4%                 │
 │ Mata Kuliah Pilihan Peminatan (Elektif)   │ 6 MK         │ 18 SKS        │ 12,1%                 │
 ├───────────────────────────────────────────┼──────────────┼───────────────┼───────────────────────┤
-│ TOTAL PAKET DITEMPUH MAHASISWA            │ 55 MK        │ 148 SKS       │ 100,0%                │
+│ TOTAL PAKET DITEMPUH MAHASISWA            │ 55 MK        │ 146 SKS       │ 100,0%                │
 ├───────────────────────────────────────────┼──────────────┼───────────────┼───────────────────────┤
-│ Portofolio MK Ditawarkan (SIAKAD)         │ 67 MK        │ 184 SKS       │ 18 MK Elektif         │
+│ Portofolio MK Ditawarkan (SIAKAD)         │ 67 MK        │ 182 SKS       │ 18 MK Elektif         │
 └───────────────────────────────────────────┴──────────────┴───────────────┴───────────────────────┘
 ```
 
 > [!IMPORTANT]
 > **Kepatuhan Regulasi Nasional & Akreditasi:**
-> 1. **Beban Kelulusan:** 148 SKS (Memenuhi dan melampaui syarat minimal 144 SKS Permendikbudristek 53/2023).
+> 1. **Beban Kelulusan:** 146 SKS (Memenuhi dan melampaui syarat minimal 144 SKS Permendikbudristek 53/2023).
 > 2. **Batas Semester 1 & 2:** Semester 1 (19 SKS) dan Semester 2 (20 SKS) $\le 20\text{ SKS}$ (Pasal 18 Permendikbudristek 53/2023).
 > 3. **Proporsi Praktikum:** 21 Mata Kuliah (66 SKS / 44,6%) dilengkapi laboratorium praktikum hands-on.
 
 ---
 
-## 2. STRUKTUR KURIKULUM 8 SEMESTER (55 MK / 148 SKS)
+## 2. STRUKTUR KURIKULUM 8 SEMESTER (55 MK / 146 SKS)
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
@@ -907,7 +908,7 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 │ Sem 7    │ Capstone, PKL & Sem. │ 7 MK    │ 20 SKS   │ Startup, Capstone FSTI, PKL, Pra-Skripsi  │
 │ Sem 8    │ Skripsi Mandiri      │ 1 MK    │ 6 SKS    │ Skripsi / Tugas Akhir Murni               │
 ├──────────┴──────────────────────┼─────────┼──────────┼───────────────────────────────────────────┤
-│ TOTAL PAKET DITEMPUH            │ 55 MK   │ 148 SKS  │ Paket Lulus Tepat Waktu (4 Tahun)         │
+│ TOTAL PAKET DITEMPUH            │ 55 MK   │ 146 SKS  │ Paket Lulus Tepat Waktu (4 Tahun)         │
 └─────────────────────────────────┴─────────┴──────────┴───────────────────────────────────────────┘
 ```
 
@@ -1789,11 +1790,12 @@ Untuk mendukung pelaksanaan kurikulum berbasis praktik dan integrasi AI nyata, F
 Untuk menjamin hak akademik mahasiswa yang telah menempuh kurikulum 2025, diberlakukan aturan peralihan sebagai berikut:
 1. **Prinsip Bebas Rugi (*Non-Detrimental Principle*):** Mahasiswa tidak boleh dirugikan dalam jumlah SKS yang telah ditempuh dan nilai yang telah diraih.
 2. **Mahasiswa Angkatan 2025:** Dilakukan pemetaan (*bridging*) otomatis menggunakan Tabel Ekuivalensi. Mata kuliah yang mengalami perubahan nama/kode langsung dikonversikan ke mata kuliah padanannya di Kurikulum 2026.
-3. **Mahasiswa Angkatan 2026 dan Seterusnya:** Mengikuti secara penuh kurikulum 2026 dengan paket beban kelulusan 148 SKS / 55 MK.
+3. **Mahasiswa Angkatan 2026 dan Seterusnya:** Mengikuti secara penuh kurikulum 2026 dengan paket beban kelulusan 146 SKS / 55 MK.
 
 ---
 
-## 8.4 Matriks Ekuivalensi Mata Kuliah Kurikulum 2025 $ightarrow$ Kurikulum 2026
+## 8.4 Matriks Ekuivalensi Mata Kuliah Kurikulum 2025 $
+ightarrow$ Kurikulum 2026
 
 | Kode Lama | Nama MK Kurikulum 2025 | SKS | Kode Baru | Nama MK Kurikulum 2026 | SKS | Status Ekuivalensi |
 |:---:|---|:---:|:---:|---|:---:|---|
@@ -1873,7 +1875,7 @@ graph LR
 
 ---
 
-## 3. MASTER TABEL KETERLACAKAN 14 CPL $\times$ 55 MATA KULIAH (PAKET 148 SKS DITEMPUH)
+## 3. MASTER TABEL KETERLACAKAN 14 CPL $\times$ 55 MATA KULIAH (PAKET 146 SKS DITEMPUH)
 
 ### Keterangan Simbol Matriks:
 * **`I` (Introduce):** Pengenalan konsep dasar keilmuan dan teori dasar (Ranah Bloom C2–C3).
@@ -2174,7 +2176,7 @@ Dokumen matriks keterlacakan ini membuktikan secara definitif bahwa kurikulum SI
 
 > **Program Studi:** S1 Sistem dan Teknologi Informasi (SISTEKIN)  
 > **Fakultas:** Sains dan Teknologi Informasi (FSTI) — Universitas Widyagama Malang  
-> **Status Dokumen:** Master Portofolio 67 Mata Kuliah (184 SKS Portofolio / 148 SKS Paket Kelulusan)  
+> **Status Dokumen:** Master Portofolio 67 Mata Kuliah (182 SKS Portofolio / 146 SKS Paket Kelulusan)  
 > **Skema Asesmen Standar OBE:** Tepat 4x Titik Evaluasi Terstruktur: **Tugas 1 (20%), UTS (25-30%), Tugas 2 (20-25%), dan UAS (30%)** (Total = 100%).  
 > **Standar Rujukan:** Panduan KPT APTIKOM v2.0 (2024), Permendikbudristek No. 53/2023, ACM/IEEE CC2020, SN-Dikti  
 
@@ -2222,11 +2224,11 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 |---|:---:|:---:|:---:|---|
 | **Mata Kuliah Wajib Umum (MKWU)** | 8 MK | 13 SKS | Sem 1, 2, 4, 5 | S1, KU1, KU2, KU3 |
 | **Mata Kuliah Dasar Fakultas (FSTI)** | 14 MK | 38 SKS | Sem 1, 2, 4, 6, 7, 8 | Fondasi Matematika, Sains, Capstone, PKL, Skripsi |
-| **Mata Kuliah Inti Program Studi (STI)** | 27 MK | 79 SKS | Sem 1, 2, 3, 4, 5, 6, 7 | Core IS/IT BoK (Komputasi, Cloud, AI, Security) |
+| **Mata Kuliah Inti Program Studi (STI)** | 27 MK | 77 SKS | Sem 1, 2, 3, 4, 5, 6, 7 | Core IS/IT BoK (Komputasi, Cloud, AI, Security) |
 | **Mata Kuliah Peminatan 1 (Smart Systems)** | 6 MK | 18 SKS Ditawarkan | Sem 5 (1 MK), Sem 6 (2 MK), Sem 7 (3 MK) | Pilihan Jalur P1 (Ambil 6 MK / 18 SKS) |
 | **Mata Kuliah Peminatan 2 (Cloud & Cyber)** | 6 MK | 18 SKS Ditawarkan | Sem 5 (1 MK), Sem 6 (2 MK), Sem 7 (3 MK) | Pilihan Jalur P2 (Ambil 6 MK / 18 SKS) |
 | **Mata Kuliah Peminatan 3 (Platform Eng)** | 6 MK | 18 SKS Ditawarkan | Sem 5 (1 MK), Sem 6 (2 MK), Sem 7 (3 MK) | Pilihan Jalur P3 (Ambil 6 MK / 18 SKS) |
-| **TOTAL PORTOFOLIO DITAWARKAN** | **67 MK** | **184 SKS** | **8 Semester** | **Paket Ditempuh: 55 MK / 148 SKS** |
+| **TOTAL PORTOFOLIO DITAWARKAN** | **67 MK** | **182 SKS** | **8 Semester** | **Paket Ditempuh: 55 MK / 146 SKS** |
 
 ---
 

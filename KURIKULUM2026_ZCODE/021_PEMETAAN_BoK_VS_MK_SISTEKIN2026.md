@@ -115,7 +115,7 @@
 | **STI-402** | **Data Warehouse & Business Intelligence** | 3 | **SI-BK02**, **SI-BK13**, **TI-BK09** | SI-BK19 | ⚠️ Berbagi SI-BK02 dgn FST-207 — **TIDAK KONFLIK**: DB=transaksional, DW=analitik dimensional *(Pindah dari Sem 5)* |
 | STI-407 | Web Back End Development | 3 | **SI-BK07**, **TI-BK06**, **TI-BK16** | SI-BK08, TI-BK07 | ✅ Server-side, REST API, ORM |
 | STI-404 | SI Berbasis Cloud | 3 | **SI-BK03**, **TI-BK20** | SI-BK06, SI-BK08 | ⚠️ Berbagi SI-BK03 dgn STI-305 — **TIDAK KONFLIK**: OS=lokal, Cloud=abstraksi distributed |
-| STI-405 | Keamanan Informasi Dasar | 3 | **SI-BK08**, **TI-BK07**, **TI-BK14** | SI-BK03, TI-BK03 | ✅ Kriptografi, security posture, auth |
+| STI-405 | Keamanan Informasi Dasar | 2 | **SI-BK08**, **TI-BK07**, **TI-BK14** | SI-BK03, TI-BK03 | ✅ Kriptografi, security posture, auth |
 | FST-408 | Statistika & Probabilitas | 3 | **SI-BK11**, **TI-BK18** | SI-BK13, TI-BK22 | ✅ Inferensi & estimasi probabilitas |
 
 ### 2.4 Semester 5–7 (MK Wajib Core STI)
@@ -128,7 +128,7 @@
 | STI-505 | Pemrograman Aplikasi Mobile | 3 | **SI-BK07**, **TI-BK06**, **TI-BK23** | SI-BK17, TI-BK11 | ✅ Cross-platform mobile engineering |
 | **STI-506** | **Manajemen Proyek TI** | 3 | **SI-BK04**, **TI-BK13** | SI-BK06 | ✅ Siklus proyek, PMBOK, Scrum *(Pindah dari Sem 4 — 1 semester sblm Capstone)* |
 | STI-601 | Integrasi Layanan Cerdas Berbasis AI | 3 | **SI-BK07**, **SI-BK18**, **TI-BK04** | SI-BK13 | ✅ API orchestration & AI service deployment |
-| STI-602 | Smart City & Pemerintahan Digital | 3 | **SI-BK03**, **SI-BK19**, **TI-BK02** | SI-BK06, SI-BK13 | ✅ Domain solusi kota pintar & e-Gov |
+| STI-602 | Smart City & Pemerintahan Digital | 2 | **SI-BK03**, **SI-BK19**, **TI-BK02** | SI-BK06, SI-BK13 | ✅ Domain solusi kota pintar & e-Gov |
 | STI-603 | Keamanan Informasi Lanjut | 3 | **SI-BK08**, **TI-BK12**, **TI-BK21** | SI-BK03 | ⚠️ Berbagi SI-BK08 dgn STI-405 — **TIDAK KONFLIK**: Dasar=kripto, Lanjut=forensik & CSIRT |
 | STI-701 | Digital Platform Engineering | 3 | **SI-BK07**, **TI-BK04**, **TI-BK06** | SI-BK03, SI-BK08 | ⚠️ Berbagi SI-BK07 dgn STI-407 — **TIDAK KONFLIK**: WebBE=API server, Platform=microservices |
 | STI-702 | Inovasi Teknologi & Startup Digital | 3 | **SI-BK19**, **TI-BK25** | SI-BK18 | ✅ Validasi produk, lean startup, MVP |

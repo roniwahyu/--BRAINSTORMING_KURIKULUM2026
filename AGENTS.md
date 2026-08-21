@@ -81,7 +81,7 @@ KURIKULUM2026_REVISI/
 ├── 002_FORMULASI_3_PEO_DAN_4_PROFIL_LULUSAN_SISTEKIN.md (3 PEO & 4 PL Role-Based + Indikator)
 ├── 003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.md (14 CPL, Genealogi Sumber, 19 BoK IS & 14 BoK IT)
 ├── 004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.md (Matriks Tabel Makro OBE VMTS-PEO-PL-CPL-MK-IRM)
-├── 005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md (Struktur 8 Semester 148 SKS / 55 MK)
+├── 005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md (Struktur 8 Semester 146 SKS / 55 MK)
 ├── 006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.md (3 Peminatan @ 18 SKS & Panduan Konversi MBKM)
 ├── 007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.md ⭐ (Silabus 3-Tabel Lengkap 67 MK Portofolio, 4x Asesmen)
 ├── 008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.md (Formula CPL Attainment, 4x Asesmen, 4 Rubrik Master, CQI)
@@ -94,7 +94,7 @@ KURIKULUM2026_REVISI/
 ## Current State & Next Steps
 
 **Status Saat Ini:** 
-- **Fase Makro OBE:** VMTS ↔ 3 PEO ↔ 4 PL ↔ 14 CPL ↔ 19 BoK IS2020 & 14/27 BoK IT2017 ↔ Struktur 8 Semester (148 SKS paket ditempuh / 184 SKS portofolio ditawarkan) ↔ 3 Peminatan Seimbang (@ 18 SKS) telah **100% tuntas dan terverifikasi di Dokumen 001–006**.
+- **Fase Makro OBE:** VMTS ↔ 3 PEO ↔ 4 PL ↔ 14 CPL ↔ 19 BoK IS2020 & 14/27 BoK IT2017 ↔ Struktur 8 Semester (146 SKS paket ditempuh / 182 SKS portofolio ditawarkan) ↔ 3 Peminatan Seimbang (@ 18 SKS) telah **100% tuntas dan terverifikasi di Dokumen 001–006**.
 - **Fase Mikro OBE & Silabus 3-Tabel:** Formulasi Identitas MK, CPMK berbasis ABCD & Taksonomi Bloom (C2–C6), serta Matriks 16 Pertemuan dengan Skema 4x Asesmen (Tugas 1 [20%], UTS [25-30%], Tugas 2 [20-25%], UAS [30%]) untuk **seluruh 67 MK portofolio** telah **100% tuntas di Dokumen 007 (355 KB)**.
 - **Fase Asesmen, Tugas Akhir, & Penjaminan Mutu:** Sistem Asesmen OBE (IKU 7 $\ge 50\%$, Formula Ketercapaian CPL, 4 Rubrik Analitik Master), Pedoman Capstone & 4 Opsi TA Non-Skripsi, serta Instrumen Tracer Study PEO telah **100% tuntas di Dokumen 008, 009, dan 010**.
 

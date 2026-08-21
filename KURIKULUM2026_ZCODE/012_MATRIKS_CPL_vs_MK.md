@@ -2,8 +2,8 @@
 
 **Tanggal:** 19 Agustus 2026 (Rekonsiliasi Matematis Final)  
 **Status:** FINAL — Matriks Pemetaan CPL–MK Berbasis OBE (Terekonsiliasi Penuh Sesuai Dokumen 011, 020, 021, 022, 030)  
-**Dasar:** 14 CPL SN-Dikti/APTIKOM + Portofolio 67 MK / 184 SKS (Beban Paket 8 Semester = 55 MK / 148 SKS; Syarat Lulus Minimal = 144 SKS Permendikbud 53/2023)  
-**Distribusi SKS:** 8 MKWU (13 SKS) + 14 MK FSTI (38 SKS) + 27 MK STI Wajib (79 SKS) + 18 MK Pilihan (ambil 6 MK / 18 SKS)
+**Dasar:** 14 CPL SN-Dikti/APTIKOM + Portofolio 67 MK / 182 SKS (Beban Paket 8 Semester = 55 MK / 146 SKS; Syarat Lulus Minimal = 144 SKS Permendikbud 53/2023)  
+**Distribusi SKS:** 8 MKWU (13 SKS) + 14 MK FSTI (38 SKS) + 27 MK STI Wajib (77 SKS) + 18 MK Pilihan (ambil 6 MK / 18 SKS)
 
 ---
 
@@ -18,7 +18,7 @@
 **Prefix Mata Kuliah:**
 * **MKU**: Mata Kuliah Umum Universitas Widyagama (8 MK, 13 SKS)
 * **FST-**: Mata Kuliah Bersama Fakultas Sains dan Teknologi (14 MK, 38 SKS)
-* **STI-**: Mata Kuliah Wajib Inti Program Studi SISTEKIN (27 MK, 79 SKS)
+* **STI-**: Mata Kuliah Wajib Inti Program Studi SISTEKIN (27 MK, 77 SKS)
 * **STA-**: MK Pilihan Peminatan P1 (Integrated Smart Systems — 6 MK, 18 SKS)
 * **STB-**: MK Pilihan Peminatan P2 (Cloud Infrastructure & Cybersecurity — 6 MK, 18 SKS)
 * **STC-**: MK Pilihan Peminatan P3 (Digital Platform Engineering — 6 MK, 18 SKS)
@@ -65,7 +65,7 @@
 
 ---
 
-### 2.3 MK WAJIB PRODI (STI) — 27 MK, 79 SKS
+### 2.3 MK WAJIB PRODI (STI) — 27 MK, 77 SKS
 
 | No | Kode | Mata Kuliah | SMS | SKS | +P | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 |
 |---|---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -85,14 +85,14 @@
 | 14| **STI-402**| **Data Warehouse & BI** | **4** | **3** | **✅** | | | | | | **●** | | | | **●** | | | | |
 | 15| STI-407 | Web Back End Development | 4 | 3 | ✅ | | ● | | | | | | ● | | | | | | |
 | 16| STI-404 | SI Berbasis Cloud | 4 | 3 | — | | | | | | | ● | | | | ● | | | |
-| 17| STI-405 | Keamanan Informasi Dasar | 4 | 3 | — | | | | | | | ● | | | | ● | | | |
+| 17| STI-405 | Keamanan Informasi Dasar | 4 | 2 | — | | | | | | | ● | | | | ● | | | |
 | 18| STI-501 | Deep Learning & Neural Nets | 5 | 3 | ✅ | | | | | | | | | ● | ● | | | | |
 | 19| STI-503 | Data Mining & Visualization | 5 | 3 | ✅ | | | | | | ● | | | | ● | | | | |
 | 20| STI-504 | Internet of Things (IoT) | 5 | 3 | ✅ | | | | | | | ● | | | | ● | | | |
 | 21| STI-505 | Pemrograman Aplikasi Mobile | 5 | 3 | ✅ | | | | | | | | ● | | | | | ● | |
 | 22| **STI-506**| **Manajemen Proyek TI** | **5** | **3** | **—** | | | | | | | | | | | | | | **●** |
 | 23| STI-601 | Integrasi Layanan Cerdas AI | 6 | 3 | ✅ | | | | | | ● | | | ● | | | | | |
-| 24| STI-602 | Smart City dan Pemerintahan Digital | 6 | 3 | ✅ | | | | | | | ● | | | | ● | | | |
+| 24| STI-602 | Smart City dan Pemerintahan Digital | 6 | 2 | ✅ | | | | | | | ● | | | | ● | | | |
 | 25| STI-603 | Keamanan Informasi Lanjut | 6 | 3 | — | | | | | | | ● | | | | ● | ● | | |
 | 26| STI-604 | Digital Platform Engineering| 6 | 3 | ✅ | | | | | | | | ● | | | | | ● | |
 | 27| STI-701 | Inovasi Teknologi & Startup | 7 | 3 | ✅ | | | | | | | | | | | | | | ● |

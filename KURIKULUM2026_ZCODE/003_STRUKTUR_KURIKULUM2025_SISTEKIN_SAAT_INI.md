@@ -6,7 +6,7 @@
 
 > [!NOTE]
 > **Catatan Pembaruan Kurikulum 2026 (20 Agustus 2026):**  
-> Struktur Kurikulum 2025 (146 SKS kaku) dalam dokumen ini telah direvisi secara menyeluruh menjadi **Kurikulum SISTEKIN 2026 (148 SKS Paket Ditempuh / 55 MK; 184 SKS Portofolio / 67 MK)** dengan 3 Peminatan Fleksibel (@ 6 MK / 18 SKS), KPM di Sem 5, Platform Eng di Sem 6, Capstone di Sem 7, Pra-Skripsi di Sem 7, dan Skripsi Murni di Sem 8. Rujukan definitif ada pada **Dokumen [020], [030], [031], dan [032]**.
+> Struktur Kurikulum 2025 (146 SKS kaku) dalam dokumen ini telah direvisi secara menyeluruh menjadi **Kurikulum SISTEKIN 2026 (146 SKS Paket Ditempuh / 55 MK; 182 SKS Portofolio / 67 MK)** dengan 3 Peminatan Fleksibel (@ 6 MK / 18 SKS), KPM di Sem 5, Platform Eng di Sem 6, Capstone di Sem 7, Pra-Skripsi di Sem 7, dan Skripsi Murni di Sem 8. Rujukan definitif ada pada **Dokumen [020], [030], [031], dan [032]**.
 
 ---
 

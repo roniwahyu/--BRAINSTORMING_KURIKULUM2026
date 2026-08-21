@@ -89,12 +89,12 @@ Program Studi Sistem dan Teknologi Informasi (SISTEKIN) FSTI Universitas Widyaga
 
 | STRENGTHS (Kekuatan Internal) | WEAKNESSES (Kelemahan Internal) |
 |---|---|
-| 1. Kurikulum modern berbasis OBE terkini (APTIKOM v2.0, IS2020, IT2017).<br>2. Visi keilmuan yang sangat fokus dan relevan: AI Integration & Technopreneurship.<br>3. Paket SKS terstruktur (148 SKS / 55 MK) dengan 3 peminatan seimbang.<br>4. Adanya pilar Capstone & opsi Tugas Akhir non-skripsi. | 1. Status program studi baru yang belum memiliki rekam jejak alumni (*tracer study*).<br>2. Kebutuhan peningkatan kapasitas dosen dalam sertifikasi industri bertaraf global.<br>3. Fasilitas laboratorium spesialisasi cerdas yang sedang dalam proses akselerasi. |
+| 1. Kurikulum modern berbasis OBE terkini (APTIKOM v2.0, IS2020, IT2017).<br>2. Visi keilmuan yang sangat fokus dan relevan: AI Integration & Technopreneurship.<br>3. Paket SKS terstruktur (146 SKS / 55 MK) dengan 3 peminatan seimbang.<br>4. Adanya pilar Capstone & opsi Tugas Akhir non-skripsi. | 1. Status program studi baru yang belum memiliki rekam jejak alumni (*tracer study*).<br>2. Kebutuhan peningkatan kapasitas dosen dalam sertifikasi industri bertaraf global.<br>3. Fasilitas laboratorium spesialisasi cerdas yang sedang dalam proses akselerasi. |
 | **OPPORTUNITIES (Peluang Eksternal)** | **THREATS (Ancaman Eksternal)** |
 | 1. Lonjakan kebutuhan industri terhadap Data/AI Engineer & Cloud Architect.<br>2. Kebijakan Permendikbudristek 53/2023 yang memberi fleksibilitas MBKM & TA.<br>3. Kemitraan strategis Malang Raya sebagai kota pendidikan & hub digital. | 1. Kecepatan disrupsi teknologi AI generatif yang dapat mengusir kurikulum usang.<br>2. Persaingan ketat dengan prodi TI/SI konvensional dari PTN/PTS mapan.<br>3. Standar kompetensi industri yang menuntut penguasaan sertifikasi internasional. |
 
 ### Strategi Transformasi Matriks SWOT:
-* **Strategi S-O (Maxi-Maxi):** Mengkapitalisasi visi *AI Integrator* dan kurikulum fleksibel 148 SKS untuk menarik talenta mahasiswa dan menjalin kemitraan MBKM dengan industri teknologi nasional.
+* **Strategi S-O (Maxi-Maxi):** Mengkapitalisasi visi *AI Integrator* dan kurikulum fleksibel 146 SKS untuk menarik talenta mahasiswa dan menjalin kemitraan MBKM dengan industri teknologi nasional.
 * **Strategi W-O (Mini-Maxi):** Memanfaatkan kemitraan industri global (Google, AWS, Microsoft, Oracle Academy) untuk sertifikasi dosen dan mahasiswa guna menutup kelemahan usia prodi.
 * **Strategi S-T (Maxi-Mini):** Memastikan ekosistem *PjBL (Project-based Learning)* dan *Capstone Project* menghasilkan portofolio nyata yang melampaui kemampuan lulusan konvensional di pasar kerja.
 * **Strategi W-T (Mini-Mini):** Menetapkan sistem penjaminan mutu PPEPP yang ketat sejak tahun pertama agar setiap luaran mata kuliah terukur secara objektif sesuai standar akreditasi LAM INFOKOM.

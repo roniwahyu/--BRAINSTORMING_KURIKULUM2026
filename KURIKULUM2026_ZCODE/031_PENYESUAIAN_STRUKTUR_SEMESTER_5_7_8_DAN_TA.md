@@ -68,10 +68,10 @@ $$\boxed{\text{Metodologi Penelitian (Sem 6, 2 SKS)}} \longrightarrow \boxed{\te
 | **Sem 3** | STI-301 APSI (3), STI-302 Sistem Cerdas (2), STI-303 UI/UX (+P, 3), STI-304 RPL (3), STI-305 Sistem Operasi (3), STI-306 Web FE (+P, 3), STI-307 Jarkom (+P, 3) | — | **20 SKS** | ✅ Fondasi Sistem & Jaringan Lengkap |
 | **Sem 4** | STI-401 ML (+P, 3), STI-402 DW-BI (+P, 3), STI-407 Web BE (+P, 3), STI-404 Cloud (3), STI-405 Keamanan (3), FST-408 Probstat (3), FST-409 English IT (2), MKU-401 KWN (2), MKU-401A Agama II (0), MKU-402 KWU II (0) | — | **22 SKS** | ✅ Core Data & Cloud (8 MK ber-SKS + 2 MK @ 0 SKS) |
 | **Sem 5** | STI-501 Deep Learning (+P, 3), STI-503 Data Mining (+P, 3), STI-504 IoT (+P, 3), STI-505 Mobile (+P, 3), STI-506 Manpro TI (3), **MKU-203 KPM / KKN Digital (3)** ★ | 1 MK Pilihan (3 SKS) | **21 SKS** | ✅ **KPM di Sem 5** (6 MK Wajib 18 SKS + 1 MK Pilihan 3 SKS) |
-| **Sem 6** | STI-601 Integrasi AI (+P, 3), STI-602 Smart City (+P, 3), STI-603 Keamanan Lanjut (3), **STI-604 Platform Eng (+P, 3)** ★, **FST-611 Metpen (2)** | 2 MK Pilihan (6 SKS) / MBKM | **20 SKS** | ✅ **Platform Eng di Sem 6** (5 MK Wajib 14 SKS + 2 MK Pilihan 6 SKS) |
+| **Sem 6** | STI-601 Integrasi AI (+P, 3), STI-602 Smart City (2), STI-603 Keamanan Lanjut (3), **STI-604 Platform Eng (+P, 3)** ★, **FST-611 Metpen (2)** | 2 MK Pilihan (6 SKS) / MBKM | **20 SKS** | ✅ **Platform Eng di Sem 6** (5 MK Wajib 14 SKS + 2 MK Pilihan 6 SKS) |
 | **Sem 7** | **STI-701 Startup Digital (+P, 3)**, **FST-610 Capstone Project (+P, 3)** ★, **FST-612 PKL (+P, 3)**, **FST-613 Pra-Skripsi (2)** ★ | 3 MK Pilihan (9 SKS) / MBKM | **20 SKS** | ✅ **Puncak Rekayasa & Sempro** (4 MK Wajib 11 SKS + 3 MK Pilihan 9 SKS) |
 | **Sem 8** | **FST-714 Skripsi / Tugas Akhir (6 SKS)** ★ | — | **6 SKS** | ✅ **Single-Track Skripsi Murni** (Fokus Penuh Penyelesaian Akhir) |
-| **TOTAL** | **49 MK Wajib (130 SKS)** | **6 MK Pilihan Peminatan (18 SKS)** | **148 SKS** | ✅ **Syarat Kelulusan: Minimal 144 SKS** (Permendikbudristek No. 53/2023) |
+| **TOTAL** | **49 MK Wajib (130 SKS)** | **6 MK Pilihan Peminatan (18 SKS)** | **146 SKS** | ✅ **Syarat Kelulusan: Minimal 144 SKS** (Permendikbudristek No. 53/2023) |
 
 ---
 
@@ -85,12 +85,12 @@ $$\boxed{\text{Metodologi Penelitian (Sem 6, 2 SKS)}} \longrightarrow \boxed{\te
 ├─────────────────────────────────────┼──────────────┼──────────────┼───────────────────────┤
 │ 1. Mata Kuliah Umum Universitas     │ 8 MK         │ 13 SKS       │ 8 MK (13 SKS)         │
 │ 2. Mata Kuliah Bersama Fakultas     │ 14 MK        │ 38 SKS       │ 14 MK (38 SKS)        │
-│ 3. Mata Kuliah Wajib Inti Prodi     │ 27 MK        │ 79 SKS       │ 27 MK (79 SKS)        │
+│ 3. Mata Kuliah Wajib Inti Prodi     │ 27 MK        │ 77 SKS       │ 27 MK (77 SKS)        │
 │ 4. Mata Kuliah Pilihan Peminatan    │ 18 MK        │ 54 SKS       │ 6 MK (18 SKS)         │
 ├─────────────────────────────────────┼──────────────┼──────────────┼───────────────────────┤
 │ SUBTOTAL WAJIB DITEMPUH             │ 49 MK        │ 130 SKS      │ 49 MK (130 SKS)       │
-│ TOTAL PAKET 8 SEMESTER TERJADWAL    │ 55 MK        │ 148 SKS      │ 148 SKS Paket Ditempuh│
-│ TOTAL PORTOFOLIO DITAWARKAN PRODI   │ 67 MK        │ 184 SKS      │ (Syarat Lulus ≥144 SKS│
+│ TOTAL PAKET 8 SEMESTER TERJADWAL    │ 55 MK        │ 146 SKS      │ 146 SKS Paket Ditempuh│
+│ TOTAL PORTOFOLIO DITAWARKAN PRODI   │ 67 MK        │ 182 SKS      │ (Syarat Lulus ≥144 SKS│
 └─────────────────────────────────────┴──────────────┴──────────────┴───────────────────────┘
 ```
 

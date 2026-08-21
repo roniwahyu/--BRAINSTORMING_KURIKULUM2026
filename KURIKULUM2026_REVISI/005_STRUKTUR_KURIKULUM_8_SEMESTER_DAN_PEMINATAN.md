@@ -159,7 +159,7 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 ├──────────┼───────────┼──────────────┼────────────────┼───────────┼──────────────────────────────────────────┤
 │ TOTAL    │ 55 MK     │ 146 SKS      │ 146 SKS        │ 100,0%    │ Paket Lulus Tepat Waktu (4 Tahun)        │
 └──────────┴───────────┴──────────────┴────────────────┴───────────┴──────────────────────────────────────────┘
-```�� 20 SKS       │ 140 SKS        │ 13,7%     │ Tahap Integrasi Capstone, PKL & Sempro   │
+``` 20 SKS       │ 140 SKS        │ 13,7%     │ Tahap Integrasi Capstone, PKL & Sempro   │
 │ Sem 8    │ 1 MK      │ 6 SKS        │ 146 SKS        │ 4,1%      │ Tahap Penyelesaian Skripsi / Non-Skripsi │
 ├──────────┼───────────┼──────────────┼────────────────┼───────────┼──────────────────────────────────────────┤
 │ TOTAL    │ 55 MK     │ 146 SKS      │ 146 SKS        │ 100,0%    │ Paket Lulus Tepat Waktu (4 Tahun)        │
@@ -185,7 +185,7 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
 | 53 | `FST-714` | Skripsi / Tugas Akhir | 6 | Mandiri | FSTI | `FST-613`, $\ge 120\text{ SKS}$ |
-| **SUBTOTAL** | — | **Total SKS Semester 8 (1 MK)** | **6** | — | — | **Kumulatif: 147 SKS** |
+| **SUBTOTAL** | — | **Total SKS Semester 8 (1 MK)** | **6** | — | — | **Kumulatif: 146 SKS** |
 
 ---
 
@@ -202,9 +202,9 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 │ Sem 5    │ 7 MK      │ 21 SKS       │ 101 SKS        │ 14,3%     │ Tahap Spesialisasi Deep Learning & IoT   │
 │ Sem 6    │ 7 MK      │ 20 SKS       │ 121 SKS        │ 13,6%     │ Tahap Spesialisasi MBKM & Platform Eng   │
 │ Sem 7    │ 7 MK      │ 20 SKS       │ 141 SKS        │ 13,6%     │ Tahap Integrasi Capstone, PKL & Sempro   │
-│ Sem 8    │ 1 MK      │ 6 SKS        │ 147 SKS        │ 4,1%      │ Tahap Penyelesaian Skripsi / Non-Skripsi │
+│ Sem 8    │ 1 MK      │ 6 SKS        │ 146 SKS        │ 4,1%      │ Tahap Penyelesaian Skripsi / Non-Skripsi │
 ├──────────┼───────────┼──────────────┼────────────────┼───────────┼──────────────────────────────────────────┤
-│ TOTAL    │ 55 MK     │ 147 SKS      │ 147 SKS        │ 100,0%    │ Paket Lulus Tepat Waktu (4 Tahun)        │
+│ TOTAL    │ 55 MK     │ 146 SKS      │ 146 SKS        │ 100,0%    │ Paket Lulus Tepat Waktu (4 Tahun)        │
 └──────────┴───────────┴──────────────┴────────────────┴───────────┴──────────────────────────────────────────┘
 ```
 

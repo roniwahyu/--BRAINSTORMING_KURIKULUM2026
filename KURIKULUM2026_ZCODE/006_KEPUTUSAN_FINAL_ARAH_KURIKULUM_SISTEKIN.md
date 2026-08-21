@@ -96,7 +96,7 @@ Bisnis Digital      →  menjual solusi AI (model bisnis, customer journey)
 |---|:---:|:---:|:---:|---|
 | **Mata Kuliah Praktikum (+P / Hands-on)** | 35 MK | 108 SKS | **21–27 MK (66–84 SKS / 44,6%–56,8%)** | Coding, Lab, UI/UX Prototyping, Mobile, IoT, Platform Eng, Capstone, PKL & Skripsi |
 | **Mata Kuliah Teori / Konseptual** | 32 MK | 76 SKS | **28–34 MK (64–82 SKS / 43,2%–55,4%)** | Fondasi Matematika, Sistem Cerdas (2 SKS), Keamanan Dasar (3 SKS), Etika, GRC & Teori |
-| **TOTAL KURIKULUM** | **67 MK** | **184 SKS** | **55 MK (148 SKS)** | **Distribusi Sangat Seimbang (~50:50 Berbasis OBE & Industri)** |
+| **TOTAL KURIKULUM** | **67 MK** | **182 SKS** | **55 MK (146 SKS)** | **Distribusi Sangat Seimbang (~50:50 Berbasis OBE & Industri)** |
 
 ### Rincian MK Praktikum Baru (+P) & Reposisi Semester:
 1. **UI/UX Design & Prototyping** (3 SKS, +P, Semester 3) — Figma design system, interactive prototyping & user testing
@@ -123,7 +123,7 @@ Bisnis Digital      →  menjual solusi AI (model bisnis, customer journey)
 |---|---|---|
 | **MKU** | Mata Kuliah Universitas | MK Umum Universitas Widyagama (8 MK, 13 SKS) |
 | **FST-** | Mata Kuliah Fakultas | Fondasi keilmuan lintas prodi di FSTI (14 MK, 38 SKS) |
-| **STI-** | Mata Kuliah Wajib Prodi | Karakteristik prodi SISTEKIN (27 MK, 79 SKS) |
+| **STI-** | Mata Kuliah Wajib Prodi | Karakteristik prodi SISTEKIN (27 MK, 77 SKS) |
 | **STA-** | MK Pilihan Peminatan P1 | Integrated Smart Systems (6 MK, 18 SKS) |
 | **STB-** | MK Pilihan Peminatan P2 | Cloud Infrastructure & Cybersecurity (6 MK, 18 SKS) |
 | **STC-** | MK Pilihan Peminatan P3 | Digital Platform Engineering (6 MK, 18 SKS) |
@@ -149,7 +149,7 @@ Agama I (2 SKS, Sem 1), Pancasila (2 SKS, Sem 1), Bahasa Indonesia (2 SKS, Sem 1
 | 13 | Pra-Skripsi / Seminars | FST-613 | 2 | 7 | >100 SKS | Seminar Proposal Skripsi (Sem 7) |
 | 14 | Skripsi | FST-714 | 6 | 8 | >120 SKS & Lulus Sempro | Proyek/Riset Akhir (+P) (Sem 8) |
 
-### MK Wajib Prodi (STI) — 27 MK, 79 SKS
+### MK Wajib Prodi (STI) — 27 MK, 77 SKS
 | Kelompok | Mata Kuliah | SKS |
 |---|---|---|
 | **Fondasi & Logika** | Pengantar SISTEKIN (2), Kalkulus (3), Logika Informatika (3) | 8 |
@@ -167,8 +167,8 @@ Agama I (2 SKS, Sem 1), Pancasila (2 SKS, Sem 1), Bahasa Indonesia (2 SKS, Sem 1
 - **P3 Digital Platform Engineering (STC)**: 6 MK, 18 SKS
 
 **Total Beban Kurikulum:**
-- **Portofolio Ditawarkan:** **67 MK / 184 SKS** (Wajib 49 MK, 130 SKS + Pilihan 18 MK, 54 SKS)
-- **Paket Ditempuh Mahasiswa:** **55 MK / 148 SKS** (Wajib 49 MK, 130 SKS + Pilihan 6 MK, 18 SKS)
+- **Portofolio Ditawarkan:** **67 MK / 182 SKS** (Wajib 49 MK, 130 SKS + Pilihan 18 MK, 54 SKS)
+- **Paket Ditempuh Mahasiswa:** **55 MK / 146 SKS** (Wajib 49 MK, 130 SKS + Pilihan 6 MK, 18 SKS)
 - **Syarat Kelulusan Mahasiswa:** **Minimal 144 SKS** (Permendikbudristek No. 53/2023)
 
 **MBKM:** Program (bukan MK), dapat diakui maks 20 SKS di Sem 6 dan/atau Sem 7 $\rightarrow$ dikonversikan ke paket MK semester terkait.

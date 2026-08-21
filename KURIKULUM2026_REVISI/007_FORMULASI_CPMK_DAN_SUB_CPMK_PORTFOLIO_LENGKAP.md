@@ -3,7 +3,7 @@
 
 > **Program Studi:** S1 Sistem dan Teknologi Informasi (SISTEKIN)  
 > **Fakultas:** Sains dan Teknologi Informasi (FSTI) — Universitas Widyagama Malang  
-> **Status Dokumen:** Master Portofolio 67 Mata Kuliah (184 SKS Portofolio / 148 SKS Paket Kelulusan)  
+> **Status Dokumen:** Master Portofolio 67 Mata Kuliah (182 SKS Portofolio / 146 SKS Paket Kelulusan)  
 > **Skema Asesmen Standar OBE:** Tepat 4x Titik Evaluasi Terstruktur: **Tugas 1 (20%), UTS (25-30%), Tugas 2 (20-25%), dan UAS (30%)** (Total = 100%).  
 > **Standar Rujukan:** Panduan KPT APTIKOM v2.0 (2024), Permendikbudristek No. 53/2023, ACM/IEEE CC2020, SN-Dikti  
 
@@ -51,11 +51,11 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 |---|:---:|:---:|:---:|---|
 | **Mata Kuliah Wajib Umum (MKWU)** | 8 MK | 13 SKS | Sem 1, 2, 4, 5 | S1, KU1, KU2, KU3 |
 | **Mata Kuliah Dasar Fakultas (FSTI)** | 14 MK | 38 SKS | Sem 1, 2, 4, 6, 7, 8 | Fondasi Matematika, Sains, Capstone, PKL, Skripsi |
-| **Mata Kuliah Inti Program Studi (STI)** | 27 MK | 79 SKS | Sem 1, 2, 3, 4, 5, 6, 7 | Core IS/IT BoK (Komputasi, Cloud, AI, Security) |
+| **Mata Kuliah Inti Program Studi (STI)** | 27 MK | 77 SKS | Sem 1, 2, 3, 4, 5, 6, 7 | Core IS/IT BoK (Komputasi, Cloud, AI, Security) |
 | **Mata Kuliah Peminatan 1 (Smart Systems)** | 6 MK | 18 SKS Ditawarkan | Sem 5 (1 MK), Sem 6 (2 MK), Sem 7 (3 MK) | Pilihan Jalur P1 (Ambil 6 MK / 18 SKS) |
 | **Mata Kuliah Peminatan 2 (Cloud & Cyber)** | 6 MK | 18 SKS Ditawarkan | Sem 5 (1 MK), Sem 6 (2 MK), Sem 7 (3 MK) | Pilihan Jalur P2 (Ambil 6 MK / 18 SKS) |
 | **Mata Kuliah Peminatan 3 (Platform Eng)** | 6 MK | 18 SKS Ditawarkan | Sem 5 (1 MK), Sem 6 (2 MK), Sem 7 (3 MK) | Pilihan Jalur P3 (Ambil 6 MK / 18 SKS) |
-| **TOTAL PORTOFOLIO DITAWARKAN** | **67 MK** | **184 SKS** | **8 Semester** | **Paket Ditempuh: 55 MK / 148 SKS** |
+| **TOTAL PORTOFOLIO DITAWARKAN** | **67 MK** | **182 SKS** | **8 Semester** | **Paket Ditempuh: 55 MK / 146 SKS** |
 
 ---
 

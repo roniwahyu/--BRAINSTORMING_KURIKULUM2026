@@ -599,10 +599,10 @@ User menginformasikan bahwa MK terbagi menjadi:
    - Mengoreksi seluruh ketidakcocokan agregat lama:
      - **MKWU:** 8 MK (13 SKS, karena Agama II & KWU II berbobot 0 SKS).
      - **FSTI:** 14 MK (38 SKS, dengan FST-204 berbobot 2 SKS).
-     - **STI Wajib Inti:** 27 MK (79 SKS, setelah pengalihan Struktur Data, Basis Data, dan Statistika ke FSTI).
+     - **STI Wajib Inti:** 27 MK (77 SKS, setelah pengalihan Struktur Data, Basis Data, dan Statistika ke FSTI).
      - **MK Pilihan Peminatan Ditempuh:** 6 MK (18 SKS — tepat 1 paket peminatan penuh @ 6 MK / 18 SKS).
-     - **Paket Ditempuh Mahasiswa:** **55 MK / 148 SKS** (Memenuhi syarat kelulusan minimal 144 SKS Permendikbudristek No. 53/2023).
-     - **Portofolio Ditawarkan:** **67 MK / 184 SKS** (49 MK Wajib 130 SKS + 18 MK Pilihan P1-P3 54 SKS).
+     - **Paket Ditempuh Mahasiswa:** **55 MK / 146 SKS** (Memenuhi syarat kelulusan minimal 144 SKS Permendikbudristek No. 53/2023).
+     - **Portofolio Ditawarkan:** **67 MK / 182 SKS** (49 MK Wajib 130 SKS + 18 MK Pilihan P1-P3 54 SKS).
 2. **Keputusan Penataan Struktur Semester Tingkat Akhir (Dokumen 031):**
    - **`MKU-203 KPM (KKN Digital)` (3 SKS):** Dipindahkan dari Semester 8 ke **Semester 5** agar pengabdian masyarakat tuntas lebih awal dan tidak mengganggu penyusunan Tugas Akhir.
    - **`STI-604 Digital Platform Engineering` (3 SKS, +P):** Dipindahkan dari Semester 7 ke **Semester 6** sehingga dikuasai sebelum eksekusi Capstone & Startup di Semester 7.
@@ -614,9 +614,9 @@ User menginformasikan bahwa MK terbagi menjadi:
 1. **Konteks & Tujuan:**
    - Menyediakan dokumen definitif tabel 8 semester (*clean, locked, zero-conflict*) yang siap dicantumkan langsung sebagai Lampiran Keputusan Resmi SK Rektor tentang Kurikulum SISTEKIN 2026.
 2. **Karakteristik & Rincian Dokumen 032:**
-   - **Tabel 8 Semester:** Memuat rincian 55 mata kuliah paket ditempuh (148 SKS) dengan kode mata kuliah, bobot SKS, tipe (+P/Teori/Praktik/Proyek/Seminar/Mandiri), kategori (MKWU/FSTI/Core STI/Elektif), pemetaan CPL utama, dan prasyarat akademik.
+   - **Tabel 8 Semester:** Memuat rincian 55 mata kuliah paket ditempuh (146 SKS) dengan kode mata kuliah, bobot SKS, tipe (+P/Teori/Praktik/Proyek/Seminar/Mandiri), kategori (MKWU/FSTI/Core STI/Elektif), pemetaan CPL utama, dan prasyarat akademik.
    - **Tabel Portofolio Peminatan:** Memuat rincian 18 MK elektif yang ditawarkan di SIAKAD (54 SKS) untuk 3 peminatan seimbang (P1, P2, P3).
-   - **Rekapitulasi Komponen:** MKWU (13 SKS / 8 MK), FSTI (38 SKS / 14 MK), Core STI (79 SKS / 27 MK), dan Peminatan Ditempuh (18 SKS / 6 MK).
+   - **Rekapitulasi Komponen:** MKWU (13 SKS / 8 MK), FSTI (38 SKS / 14 MK), Core STI (77 SKS / 27 MK), dan Peminatan Ditempuh (18 SKS / 6 MK).
    - **Klausul Kepatuhan Regulasi:** Kepatuhan batas beban $\le 20\text{ SKS}$ pada Semester 1 (19 SKS) dan Semester 2 (20 SKS) serta pelampauan ambang batas nasional kelulusan $\ge 144\text{ SKS}$ (Permendikbudristek No. 53 Tahun 2023).
 ### 7.22 Penerbitan Dokumen 034: Analisis Restrukturisasi 4 Profil Lulusan & 3 PEO (20 Agustus 2026)
 

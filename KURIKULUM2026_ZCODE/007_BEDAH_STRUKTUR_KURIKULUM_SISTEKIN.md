@@ -1,16 +1,16 @@
 # 007 — BEDAH STRUKTUR KURIKULUM SISTEKIN: ANALISIS KOMPREHENSIF
 
 **Tanggal:** 19 Agustus 2026 (Penataan Final Terkunci)
-**Status:** Analisis lengkap struktur kurikulum dengan 3 peminatan seimbang (Updated: 14 MK FSTI / 38 SKS & 27 MK STI / 79 SKS)
+**Status:** Analisis lengkap struktur kurikulum dengan 3 peminatan seimbang (Updated: 14 MK FSTI / 38 SKS & 27 MK STI / 77 SKS)
 **Ground Truth:** KURIKULUM2025 (56 MK, 146 SKS) — file terverifikasi manusia, sudah dijalankan 2 semester
-**Catatan:** KURIKULUM2025 = 56 MK semua wajib, 146 SKS, 0 peminatan → KURIKULUM2026 = 55 MK Paket Ditempuh (148 SKS) / 67 MK Portofolio Ditawarkan (184 SKS), 3 peminatan (@ 6 MK / 18 SKS), mahasiswa menempuh 6 MK pilihan (18 SKS).
+**Catatan:** KURIKULUM2025 = 56 MK semua wajib, 146 SKS, 0 peminatan → KURIKULUM2026 = 55 MK Paket Ditempuh (146 SKS) / 67 MK Portofolio Ditawarkan (182 SKS), 3 peminatan (@ 6 MK / 18 SKS), mahasiswa menempuh 6 MK pilihan (18 SKS).
 
 ### Kode Mata Kuliah
 | Prefix | Kategori |
 |---|---|
 | **MKU** | Mata Kuliah Universitas (8 MK, 13 SKS, incl. 2 MK @ 0 SKS) |
 | **FST-** | Mata Kuliah Fakultas (14 MK, 38 SKS) |
-| **STI-** | Mata Kuliah Wajib Prodi (27 MK, 79 SKS) |
+| **STI-** | Mata Kuliah Wajib Prodi (27 MK, 77 SKS) |
 | **STA-/STB-/STC-** | MK Pilihan Peminatan (18 MK Portofolio Ditawarkan, 54 SKS; Ditempuh 6 MK / 18 SKS) |
 
 ---
@@ -21,10 +21,10 @@
 |---|---|---|
 | **Total SKS Paket Ditempuh** | **148** | Wajib 130 SKS + Pilihan 18 SKS (Syarat Lulus Minimal = 144 SKS) |
 | **Total MK Paket Ditempuh** | **55** | Wajib 49 MK + Pilihan 6 MK (incl. 2 MK @ 0 SKS UWG) |
-| **Total Portofolio Ditawarkan** | **184 SKS / 67 MK** | Total seluruh opsi mata kuliah yang disediakan oleh Program Studi |
+| **Total Portofolio Ditawarkan** | **182 SKS / 67 MK** | Total seluruh opsi mata kuliah yang disediakan oleh Program Studi |
 | **MK Universitas (MKWU)** | 8 MK | 13 SKS (6 MK ber-SKS + 2 MK 0 SKS; KPM di Sem 5) |
 | **MK Fakultas (FSTI)** | 14 MK | 38 SKS (incl. Metpen Sem 6, Capstone Sem 7, PKL Sem 7, Pra-Skripsi Sem 7, Skripsi Sem 8) |
-| **MK Wajib Prodi (STI)** | 27 MK | 79 SKS (incl. Platform Eng di Sem 6 & Startup Digital di Sem 7) |
+| **MK Wajib Prodi (STI)** | 27 MK | 77 SKS (incl. Platform Eng di Sem 6 & Startup Digital di Sem 7) |
 | **MK Pilihan Peminatan** | 6 MK | 18 SKS diambil (Tepat 1 paket peminatan penuh dari 18 MK portofolio) |
 | **Peminatan** | 3 | P1 Integrated Smart Systems, P2 Cloud & Cyber, P3 Digital Platform (@ 6 MK / 18 SKS) |
 | **Semester** | 8 | 6–22 SKS/semester |
@@ -43,7 +43,7 @@
 | **Sem 6** | 20 | 7 | Integrasi AI (+P), Smart City (+P), Keamanan Lanjut, Digital Platform Eng (+P), Metpen & 2 MK Pilihan | ✅ **Platform Eng di Sem 6** (MBKM 20 SKS) |
 | **Sem 7** | 20 | 7 | Inovasi Startup (+P), Capstone FSTI (+P), PKL (+P), Pra-Skripsi (2) & 3 MK Pilihan Peminatan | ✅ **Puncak Rekayasa & Sempro** (MBKM 20 SKS) |
 | **Sem 8** | 6 | 1 | Skripsi / Tugas Akhir Murni (6 SKS) | ✅ **Single Track Skripsi Murni** (Fokus Lulus Cepat) |
-| **TOTAL GRADUASI** | **148** | **55** | **Wajib 130 SKS + Pilihan 18 SKS (Beban Lulus Minimal = 144 SKS)** | **Graduasi 8 Sem (148 SKS)** |
+| **TOTAL GRADUASI** | **148** | **55** | **Wajib 130 SKS + Pilihan 18 SKS (Beban Lulus Minimal = 144 SKS)** | **Graduasi 8 Sem (146 SKS)** |
 
 ---
 
@@ -69,7 +69,7 @@
 |---|:---:|:---:|:---:|---|
 | **Mata Kuliah Praktikum (+P / Hands-on)** | 35 MK | 108 SKS | **21–27 MK (66–84 SKS / 44,6%–56,8%)** | **Sangat Seimbang** — coding, lab, UI/UX prototyping, mobile, IoT, Platform Eng, Capstone |
 | **Mata Kuliah Teori & Konseptual** | 32 MK | 76 SKS | **28–34 MK (64–82 SKS / 43,2%–55,4%)** | **Sangat Seimbang** — fondasi teori, Sistem Cerdas (2 SKS), Keamanan Dasar, etika & governance |
-| **TOTAL** | **67 MK** | **184 SKS** | **55 MK (148 SKS)** | **Rasio Ideal ~50:50 Berbasis OBE & Industri** |
+| **TOTAL** | **67 MK** | **182 SKS** | **55 MK (146 SKS)** | **Rasio Ideal ~50:50 Berbasis OBE & Industri** |
 
 ---
 

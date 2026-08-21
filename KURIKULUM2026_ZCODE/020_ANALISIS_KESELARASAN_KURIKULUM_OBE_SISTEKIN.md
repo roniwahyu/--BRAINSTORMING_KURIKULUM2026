@@ -18,7 +18,7 @@ graph TD
     
     CPL --> BOK["<b>4. Body of Knowledge (BoK) Keterlacakan</b><br/>• IS2020: 19 Bahan Kajian (BK01 s.d. BK19)<br/>• IT2017: 14 Bahan Kajian Utama"]
     
-    BOK --> STRUKTUR["<b>5. Struktur Kurikulum 8 Semester & Mata Kuliah (Dokumen 010, 011, 012, 031)</b><br/>• MKWU (Universitas): 8 MK (13 SKS, incl. KPM di Sem 5)<br/>• MK Fakultas (FSTI): 14 MK (38 SKS, incl. Capstone di Sem 7)<br/>• MK Wajib Prodi (STI): 27 MK (79 SKS, incl. Platform Eng di Sem 6)<br/>• MK Pilihan Peminatan: 3 Peminatan Seimbang @ 6 MK / 18 SKS (Ambil 6 MK / 18 SKS)<br/>• Grand Total Portofolio: 67 MK / 184 SKS | Beban Paket Ditempuh: 55 MK / 148 SKS (Syarat Lulus ≥144 SKS)"]
+    BOK --> STRUKTUR["<b>5. Struktur Kurikulum 8 Semester & Mata Kuliah (Dokumen 010, 011, 012, 031)</b><br/>• MKWU (Universitas): 8 MK (13 SKS, incl. KPM di Sem 5)<br/>• MK Fakultas (FSTI): 14 MK (38 SKS, incl. Capstone di Sem 7)<br/>• MK Wajib Prodi (STI): 27 MK (77 SKS, incl. Platform Eng di Sem 6)<br/>• MK Pilihan Peminatan: 3 Peminatan Seimbang @ 6 MK / 18 SKS (Ambil 6 MK / 18 SKS)<br/>• Grand Total Portofolio: 67 MK / 182 SKS | Beban Paket Ditempuh: 55 MK / 146 SKS (Syarat Lulus ≥144 SKS)"]
     
     STRUKTUR --> ASSESS["<b>6. Asesmen OBE, Capstone & MBKM (Dokumen 016, 019)</b><br/>• Capstone Design Kolaboratif Lintas-3-Prodi (6 SKS) vs Skripsi (6 SKS)<br/>• Program Magang MBKM hingga 20 SKS di Sem 6/7<br/>• Rasio Hands-on Lab (+P) Wajib = 42,9% (66 dari 154 SKS; ditambah 9–24 SKS MK pilihan +P)"]
 ```
@@ -91,7 +91,7 @@ Telah ditetapkan restrukturisasi Peminatan P3 untuk memastikan keunggulan level 
 
 ---
 
-## 4. DISTRIBUSI SEMESTER TERVALIDASI (PAKET DITEMPUH 148 SKS — SYARAT LULUS MINIMAL 144 SKS PERMENDIKBUDRISTEK 53/2023)
+## 4. DISTRIBUSI SEMESTER TERVALIDASI (PAKET DITEMPUH 146 SKS — SYARAT LULUS MINIMAL 144 SKS PERMENDIKBUDRISTEK 53/2023)
 
 | Semester | MK Wajib (FSTI & STI) | MKWU (Universitas) | MK Pilihan Peminatan | Total SKS | Kepatuhan Regulasi & Pedagogi |
 |---|---|---|---|:---:|---|

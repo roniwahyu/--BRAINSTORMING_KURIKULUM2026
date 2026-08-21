@@ -136,7 +136,7 @@
 | 35 | STI-401 | Machine Learning (+P) | 4 | 3 |  |  |  |  |  | V |  |  | V | V |  |  |  |  | 3 |
 | 36 | STI-402 | Data Warehouse & BI (+P) | 4 | 3 |  |  |  |  |  | V |  |  |  | V |  |  |  |  | 2 |
 | 37 | STI-404 | SI Berbasis Cloud | 4 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
-| 38 | STI-405 | Keamanan Informasi Dasar | 4 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
+| 38 | STI-405 | Keamanan Informasi Dasar | 4 | 2 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
 | 39 | STI-407 | Web Back End Development (+P) | 4 | 3 |  | V |  |  |  |  |  | V |  |  |  |  |  |  | 2 |
 | 40 | STI-501 | Deep Learning & Neural Networks (+P) | 5 | 3 |  |  |  |  |  |  |  |  | V | V |  |  |  |  | 2 |
 | 41 | STI-503 | Data Mining & Visualization (+P) | 5 | 3 |  |  |  |  |  | V |  |  |  | V |  |  |  |  | 2 |
@@ -144,7 +144,7 @@
 | 43 | STI-505 | Pemrograman Aplikasi Mobile (+P) | 5 | 3 |  |  |  |  |  |  |  | V |  |  |  |  | V |  | 2 |
 | 44 | STI-506 | Manajemen Proyek TI | 5 | 3 |  |  |  |  |  |  |  |  |  |  |  |  |  | V | 1 |
 | 45 | STI-601 | Integrasi Layanan Cerdas Berbasis AI (+P) | 6 | 3 |  |  |  |  |  | V |  |  | V |  |  |  |  |  | 2 |
-| 46 | STI-602 | Smart City & Pemerintahan Digital (+P) | 6 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
+| 46 | STI-602 | Smart City & Pemerintahan Digital (+P) | 6 | 2 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
 | 47 | STI-603 | Keamanan Informasi Lanjut | 6 | 3 |  |  |  |  |  |  | V |  |  |  | V | V |  |  | 3 |
 | 48 | STI-604 | Digital Platform Engineering (+P) | 6 | 3 |  |  |  |  |  |  |  | V |  |  |  |  | V |  | 2 |
 | 49 | STI-701 | Inovasi Teknologi & Startup Digital (+P) | 7 | 3 |  |  |  |  |  |  |  |  |  |  |  |  |  | V | 1 |
@@ -186,7 +186,7 @@
 | 6 | 7 | 20 | STI-601 Integrasi AI (3) / STI-602 Smart City (3) / STI-603 Keamanan Lanjut (3) / STI-604 Digital Platform Eng (3) / FST-611 Metpen (2) / MK Pilihan 2 (3) / MK Pilihan 3 (3) | P2, P3, KK1, KK3, KK4, KK5, KU1-3 | 5 MK Wajib (14 SKS) + 2 MK Pilihan (6 SKS) — Platform Eng di Sem 6; MBKM maks 20 SKS |
 | 7 | 7 | 20 | STI-701 Startup Digital (3) / FST-610 Capstone Project (3) / FST-612 PKL (3) / FST-613 Pra-Skripsi (2) / MK Pilihan 4 (3) / MK Pilihan 5 (3) / MK Pilihan 6 (3) | KK6, KK3, KK4, KU1-3, S1 | 4 MK Wajib (11 SKS) + 3 MK Pilihan (9 SKS) — Capstone, PKL, Pra-Skripsi; MBKM maks 20 SKS |
 | 8 | 1 | 6 | FST-714 Skripsi / Tugas Akhir (6) | S1, KU1-3, seluruh P & KK | Single track Skripsi Murni (6 SKS); syarat kelulusan minimal = 144 SKS |
-| TOTAL | 55 | 148 | 49 MK Wajib (130 SKS) + 6 MK Pilihan Peminatan (18 SKS, Sem 5-7) = 55 MK / 148 SKS Paket Terjadwal | | Portofolio Ditawarkan: 67 MK / 184 SKS; Syarat Lulus: Minimal 144 SKS Permendikbud 53/2023 |
+| TOTAL | 55 | 148 | 49 MK Wajib (130 SKS) + 6 MK Pilihan Peminatan (18 SKS, Sem 5-7) = 55 MK / 146 SKS Paket Terjadwal | | Portofolio Ditawarkan: 67 MK / 182 SKS; Syarat Lulus: Minimal 144 SKS Permendikbud 53/2023 |
 
 ---
 
@@ -222,7 +222,7 @@
 | STI-401 | Machine Learning | 3 | 4 |  |  |  |  |  | R |  |  | R | R |  |  |  |  | 3 |
 | STI-402 | Data Warehouse & BI | 3 | 4 |  |  |  |  |  | R |  |  |  | R |  |  |  |  | 2 |
 | STI-404 | SI Berbasis Cloud | 3 | 4 |  |  |  |  |  |  | R |  |  |  | R |  |  |  | 2 |
-| STI-405 | Keamanan Informasi Dasar | 3 | 4 |  |  |  |  |  |  | R |  |  |  | R |  |  |  | 2 |
+| STI-405 | Keamanan Informasi Dasar | 2 | 4 |  |  |  |  |  |  | R |  |  |  | R |  |  |  | 2 |
 | STI-407 | Web Back End Dev | 3 | 4 |  | R |  |  |  |  |  | R |  |  |  |  |  |  | 2 |
 | FST-408 | Statistika & Probabilitas | 3 | 4 |  |  |  |  | R |  |  | R |  |  |  |  |  |  | 2 |
 | FST-409 | English for IT Professionals | 2 | 4 |  |  | R |  |  |  |  |  |  |  |  |  |  |  | 1 |
@@ -232,7 +232,7 @@
 | STI-505 | Pemrograman Aplikasi Mobile | 3 | 5 |  |  |  |  |  |  |  | M |  |  |  |  | M |  | 2 |
 | STI-506 | Manajemen Proyek TI | 3 | 5 |  |  |  |  |  |  |  |  |  |  |  |  |  | M | 1 |
 | STI-601 | Integrasi Layanan Cerdas Berbasis AI | 3 | 6 |  |  |  |  |  | M |  |  | M |  |  |  |  |  | 2 |
-| STI-602 | Smart City & Pemerintahan Digital | 3 | 6 |  |  |  |  |  |  | M |  |  |  | M |  |  |  | 2 |
+| STI-602 | Smart City & Pemerintahan Digital | 2 | 6 |  |  |  |  |  |  | M |  |  |  | M |  |  |  | 2 |
 | STI-603 | Keamanan Informasi Lanjut | 3 | 6 |  |  |  |  |  |  | M |  |  |  | M | M |  |  | 3 |
 | STI-604 | Digital Platform Engineering | 3 | 6 |  |  |  |  |  |  |  | M |  |  |  |  | M |  | 2 |
 | FST-611 | Metodologi Penelitian | 2 | 6 |  | M | M | M |  |  |  |  |  |  |  |  |  |  | 3 |
