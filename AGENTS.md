@@ -86,7 +86,14 @@ KURIKULUM2026_REVISI/
 ├── 007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.md ⭐ (Silabus 3-Tabel Lengkap 67 MK Portofolio, 4x Asesmen)
 ├── 008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.md (Formula CPL Attainment, 4x Asesmen, 4 Rubrik Master, CQI)
 ├── 009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.md (Pedoman Capstone FSTI & 4 Opsi TA Non-Skripsi)
-└── 010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.md (Instrumen Tracer Study & Evaluasi PEO Siklus PPEPP)
+├── 010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.md (Instrumen Tracer Study & Evaluasi PEO Siklus PPEPP)
+├── 011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.md ⭐ (14 Sheet Matriks Terpadu, Exportable ke Excel/Word/PDF)
+├── 011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.xlsx (Output Workbook 15 Tab Berformat Rapi)
+├── GENERATE_EXCEL_011.bat (Trigger Batch Sekali Klik untuk Re-generate Excel)
+├── START_LIVE_WATCHER.bat (Trigger Background Watcher untuk Auto-update Excel saat file .md disimpan)
+└── _tools/
+    ├── export_011_tables_to_excel.py (Engine Konversi Multi-Sheet Python)
+    └── watch_and_auto_export.py (Engine Live Watcher)
 ```
 
 ---
