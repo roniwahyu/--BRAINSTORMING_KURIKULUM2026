@@ -1,4 +1,4 @@
-# 004 — MATRIKS KETERLACAKAN LENGKAP OBE: VMTS $\leftrightarrow$ 3 PEO $\leftrightarrow$ 4 PL $\leftrightarrow$ 14 CPL $\leftrightarrow$ 55 MATA KULIAH
+# 004 — MATRIKS KETERLACAKAN LENGKAP OBE: VMTS ↔ 3 PEO ↔ 4 PL ↔ 14 CPL ↔ 55 MATA KULIAH
 ## Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang
 
 **Dokumen Revisi Definitif Kurikulum 2026**  
@@ -25,7 +25,7 @@ graph LR
 
 ---
 
-## 1. MATRIKS KESELARASAN STRATEGIS: VMTS 2045 $\leftrightarrow$ 3 PEO $\leftrightarrow$ 4 PROFIL LULUSAN (PL)
+## 1. MATRIKS KESELARASAN STRATEGIS: VMTS 2045 ↔ 3 PEO ↔ 4 PROFIL LULUSAN (PL)
 
 | Pilar VMTS 2045 SISTEKIN UWG | Rumusan PEO Terkait (3–5 Thn Lulus) | Profil Lulusan yang Dituju | Domain Karir / Peran Utama Alumni |
 |---|---|---|---|
@@ -35,7 +35,7 @@ graph LR
 
 ---
 
-## 2. MATRIKS KETERLACAKAN 3 PEO $\leftrightarrow$ 4 PROFIL LULUSAN $\leftrightarrow$ 14 CPL
+## 2. MATRIKS KETERLACAKAN 3 PEO ↔ 4 PROFIL LULUSAN ↔ 14 CPL
 
 | Kode PEO | Deskripsi Singkat PEO | Profil Lulusan Utama | Pemetaan 14 CPL SN-Dikti & APTIKOM |
 |:---:|---|:---:|---|
@@ -110,6 +110,7 @@ graph LR
 | 36 | `STI-506` | Manajemen Proyek TI | 3 | | | | | | | | | | | | | | **R** | PL-4 | PEO-1, PEO-2 | **R** |
 | 37 | `MKU-203` | KPM (Pengabdian Masy.) | 3 | **M** | | | **M** | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **M** |
 | 38 | `STA/B/C` | **MK Pilihan Peminatan 1** | 3 | | | | | | | | | * | * | * | * | * | * | PL-1..3 | PEO-1..3 | **R** |
+| 38.B | `MKU-402` | Kewirausahaan II | 0 | | | | | | | | | | | | | | **R** | PL-4 | PEO-2 | **R** |
 | 39 | `STI-601` | Integrasi Layanan Cerdas AI | 3 | | | | | | **M** | | | **M** | | | | | | PL-1 | PEO-1, PEO-3 | **M** |
 | 40 | `STI-602` | Smart City & Pem. Digital | 3 | | | | | | | **M** | | | | **M** | | | | PL-2 | PEO-1 | **M** |
 | 41 | `STI-603` | Keamanan Informasi Lanjut | 3 | | | | | | | **M** | | | | **M** | **M** | | | PL-2 | PEO-1 | **M** |
@@ -199,7 +200,7 @@ graph LR
 
 ---
 
-## 6. MATRIKS 2-DIMENSI: BAHAN KAJIAN (BoK IS2020 & IT2017) $\leftrightarrow$ MATA KULIAH (STANDAR APTIKOM TABEL 6)
+## 6. MATRIKS 2-DIMENSI: BAHAN KAJIAN (BoK IS2020 & IT2017) ↔ MATA KULIAH (STANDAR APTIKOM TABEL 6)
 
 Matriks ini memetakan relasi langsung antara 19 Bahan Kajian Standar APTIKOM SI (IS2020) dan 14 Bahan Kajian Utama Standar APTIKOM TI (IT2017) terhadap mata kuliah pembina:
 
@@ -207,7 +208,7 @@ Matriks ini memetakan relasi langsung antara 19 Bahan Kajian Standar APTIKOM SI 
   * `●` : **Bahan Kajian Primer (Core BoK)** — Topik utama yang mendominasi $\ge 60\%$ bahan ajar mata kuliah.  
   * `○` : **Bahan Kajian Sekunder (Supporting BoK)** — Topik pendukung yang diintegrasikan dalam proyek/praktikum ($\pm 20-40\%$).  
 
-### TABEL 6.1: PEMETAAN 19 BAHAN KAJIAN IS2020 (APTIKOM v2.0) $\leftrightarrow$ MATA KULIAH
+### TABEL 6.1: PEMETAAN 19 BAHAN KAJIAN IS2020 (APTIKOM v2.0) ↔ MATA KULIAH
 
 | Kode BoK IS | Nomenklatur Bahan Kajian IS2020 | Mata Kuliah Pembina Primer (●) | Mata Kuliah Pembina Sekunder (○) | Total MK | Status Cakupan |
 |---|---|---|---|:---:|:---:|
@@ -233,7 +234,7 @@ Matriks ini memetakan relasi langsung antara 19 Bahan Kajian Standar APTIKOM SI 
 
 ---
 
-### TABEL 6.2: PEMETAAN 14 BAHAN KAJIAN UTAMA IT2017 (APTIKOM) $\leftrightarrow$ MATA KULIAH
+### TABEL 6.2: PEMETAAN 14 BAHAN KAJIAN UTAMA IT2017 (APTIKOM) ↔ MATA KULIAH
 
 | Kode BoK IT | Nomenklatur Bahan Kajian Utama IT2017 | Mata Kuliah Pembina Primer (●) | Mata Kuliah Pembina Sekunder (○) | Total MK | Status Cakupan |
 |---|---|---|---|:---:|:---:|
@@ -303,6 +304,7 @@ Sesuai Keputusan Menteri Pendidikan dan Kebudayaan No. 210/M/2023 tentang Indika
 | 36 | `STI-506` | Manajemen Proyek TI | 3 | 30% | 45% | 25% | **75%** | ✅ Patuh IKU 7 |
 | 37 | `MKU-203` | KPM (Pengabdian Masy.) | 3 | 20% | 70% | 10% | **90%** | ✅ Patuh IKU 7 |
 | 38 | `STA/B/C` | MK Pilihan Peminatan 1 | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
+| 38.B | `MKU-402` | Kewirausahaan II | 0 | 30% | 40% | 30% | **70%** | *MKWU 0 SKS (Sem 5)* |
 | 39 | `STI-601` | Integrasi Layanan Cerdas AI| 3 | 20% | 55% | 25% | **75%** | ✅ Patuh IKU 7 |
 | 40 | `STI-602` | Smart City & Pem. Digital | 3 | 35% | 35% | 30% | **70%** | ✅ Patuh IKU 7 |
 | 41 | `STI-603` | Keamanan Informasi Lanjut | 3 | 30% | 40% | 30% | **70%** | ✅ Patuh IKU 7 |

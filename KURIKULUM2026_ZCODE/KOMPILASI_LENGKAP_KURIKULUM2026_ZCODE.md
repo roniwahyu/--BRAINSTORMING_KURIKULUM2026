@@ -3448,7 +3448,7 @@ Capstone dirancang untuk menguji **semua 14 CPL** dalam satu proyek kolaboratif 
 | 3 | Pengantar Sistem dan Teknologi Informasi | STI-101 | 2 | — | P2 | Gambaran besar SI + TI |
 | 4 | Kalkulus | STI-102 | 3 | — | P1 | Turun dari 4→3 SKS |
 | 5 | Logika Informatika | STI-103 | 3 | — | P1, KU1 | Dipertahankan (bukan Logika Digital) |
-| 6 | Agama | MKU-101 | 2 | — | S1 | MKWU |
+| 6 | Agama I | MKU-101 | 2 | — | S1 | MKWU |
 | 7 | Pancasila | MKU-102 | 2 | — | S1 | MKWU |
 | 8 | Bahasa Indonesia | MKU-103 | 2 | — | KU2 | MKWU |
 | | **Total Semester 1** | | **19** | | | |
@@ -5184,7 +5184,7 @@ Untuk mematuhi Permendikbudristek 53/2023 dan meratakan beban praktikum (+P), di
 | 3 | STI-102 | Kalkulus | 3 | Wajib STI | — | Landasan Matematika (P1) |
 | 4 | STI-103 | Logika Informatika | 3 | Wajib STI | — | Penalaran Logis (P1, KU1) |
 | 5 | FST-102 | Pengantar AI & Prompt Engineering | 3 | Wajib FST | ✅ | **Naik ke 3 SKS (+P)** — Agent & LLM (KK1) |
-| 6 | MKU-101 | Agama | 2 | MKWU | — | Sikap & Karakter (S1) |
+| 6 | MKU-101 | Agama I | 2 | MKWU | — | Sikap & Karakter (S1) |
 | 7 | MKU-102 | Pancasila | 2 | MKWU | — | Ideologi & Kebangsaan (S1) |
 | 8 | MKU-103 | Bahasa Indonesia | 2 | MKWU | — | Komunikasi Ilmiah (KU2) |
 | | | **Total Semester 1** | **20** | | **2 Praktikum** | *Patuh Permendikbud 53 (≤20 SKS)* |

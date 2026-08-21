@@ -50,7 +50,7 @@
 | 3 | Pengantar Sistem dan Teknologi Informasi | STI-101 | 2 | — | P2 | Gambaran besar SI + TI |
 | 4 | Kalkulus | STI-102 | 3 | — | P1 | Turun dari 4→3 SKS |
 | 5 | Logika Informatika | STI-103 | 3 | — | P1, KU1 | Dipertahankan (bukan Logika Digital) |
-| 6 | Agama | MKU-101 | 2 | — | S1 | MKWU |
+| 6 | Agama I | MKU-101 | 2 | — | S1 | MKWU |
 | 7 | Pancasila | MKU-102 | 2 | — | S1 | MKWU |
 | 8 | Bahasa Indonesia | MKU-103 | 2 | — | KU2 | MKWU |
 | | **Total Semester 1** | | **19** | | | |
@@ -88,7 +88,7 @@
 
 ---
 
-## SEMESTER 4 — Inti Data, Cloud, Keamanan & Karakter (22 SKS)
+## SEMESTER 4 — Inti Data, Cloud, Keamanan & Karakter (21 SKS)
 
 | No | Mata Kuliah | Kode | SKS | +P | CPL | Keterangan |
 |---|---|---|---|---|---|---|
@@ -96,13 +96,12 @@
 | 2 | **Data Warehouse dan Business Intelligence** | **STI-402** | **3** | **✅** | **P2, KK2** | **+P: Dimensional modeling, ETL, BI dashboard (Pindahan dari Sem 5)** |
 | 3 | **Web Back End Development** | **STI-407** | **3** | **✅** | **P4, KU1** | **+P: REST API, Node.js/Python/PHP backend** |
 | 4 | Sistem Informasi Berbasis Cloud | STI-404 | 3 | — | P3, KK3 | IaaS/PaaS/SaaS |
-| 5 | **Keamanan Informasi Dasar** | **STI-405** | **3** | **—** | **P3, KK3** | **Network security, kriptografi dasar** |
+| 5 | **Keamanan Informasi Dasar** | **STI-405** | **2** | **—** | **P3, KK3** | **Network security, kriptografi dasar** |
 | 6 | Statistika & Probabilitas | FST-408 | 3 | — | P1, P4 | **FSTI** — **Teori (Non-+P)** — Probstat |
 | 7 | English For IT Professionals | FST-409 | 2 | — | KU2 | **FSTI** — Prasyarat: FST-205 |
 | 8 | **Kewarganegaraan** | **MKU-401** | **2** | **—** | **S1** | **MKWU — Pindahan dari Sem 2** |
 | 9 | **Agama II** | **MKU-401A** | **0** | **—** | **S1** | **MKWU — Kebijakan UWG (0 SKS)** |
-| 10| Kewirausahaan II | MKU-402 | 0 | — | KK6 | MKWU — Kebijakan UWG (0 SKS) |
-| | **Total Semester 4** | | **22** | | | **22 SKS (3 MK Lab + 4 Teori + MKWU: 8 MK ber-SKS + 2 MK @ 0 SKS)** |
+| | **Total Semester 4** | | **21** | | | **21 SKS (3 MK Lab + 4 Teori + MKWU: 8 MK ber-SKS + 1 MK @ 0 SKS)** |
 
 ---
 
@@ -117,7 +116,8 @@
 | 5 | **Manajemen Proyek Teknologi Informasi** | **STI-506** | **3** | **—** | **KK6** | **Core** | **Waterfall, Agile, Scrum** |
 | 6 | **KPM (Kuliah Pengabdian Masyarakat / KKN)** | **MKU-203** | **3** | **✅** | **S1, KU** | **MKWU** | **Pengabdian masyarakat digital (Pindahan dari Sem 8)** |
 | 7 | **MK Pilihan Peminatan 1** | STA-/STB-/STC- | 3 | — | Per MK | Smart IS/Cloud/Platform | Ambil 1 dari portofolio peminatan |
-| | **Total Semester 5** | | **21** | | | | **6 MK Wajib (18 SKS) + 1 MK Pilihan (3 SKS)** |
+| 8 | **Kewirausahaan II** | **MKU-402** | **0** | **—** | **KK6** | **MKWU** | **MKWU — Kebijakan UWG (0 SKS, Sem 5)** |
+| | **Total Semester 5** | | **21** | | | | **6 MK Wajib (18 SKS) + 1 MK Pilihan (3 SKS) + 1 MK @ 0 SKS** |
 
 ---
 

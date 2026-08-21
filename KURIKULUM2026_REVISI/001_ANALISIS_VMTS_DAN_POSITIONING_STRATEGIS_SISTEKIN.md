@@ -73,24 +73,11 @@ graph TD
 
 Program Studi Sistem dan Teknologi Informasi (SISTEKIN) FSTI Universitas Widyagama Malang memiliki posisi pembeda (*unique positioning*) yang tegas dibandingkan program studi serumpun lainnya di bidang *computing*:
 
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────┐
-│              PETA DIFERENSIASI KEILMUAN COMPUTING DI LINGKUNGAN FSTI                     │
-├──────────────────────┬───────────────────────────────────────────────────────────────────┤
-│ Program Studi        │ Fokus Utama Keilmuan & Peran Kompetensi                           │
-├──────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ Teknik Informatika / │ Teori komputasi, algoritma fundamental murni, arsitektur internal │
-│ Ilmu Komputer        │ perangkat keras, serta riset model matematika kecerdasan buatan.  │
-├──────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ SISTEKIN             │ PEREKAYASA & PENGINTEGRASI SISTEM CERDAS NYATA (AI Integrator):   │
-│ (Sistem & Teknologi  │ Mengintegrasikan model AI, infrastruktur cloud & IoT, keamanan    │
-│  Informasi)          │ siber, dan platform digital ke dalam proses bisnis dan organisasi │
-│                      │ dengan semangat kemandirian Technopreneurship.                     │
-├──────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ Bisnis Digital /     │ Strategi pemasaran digital, model finansial, operasional bisnis,  │
-│ Manajemen            │ dan manajemen e-commerce (tanpa fokus pada rekayasa kode/infra).  │
-└──────────────────────┴───────────────────────────────────────────────────────────────────┘
-```
+| Program Studi | Fokus Utama Keilmuan & Peran Kompetensi |
+|---|---|
+| **Teknik Informatika / Ilmu Komputer** | Teori komputasi, algoritma fundamental murni, arsitektur internal perangkat keras, serta riset model matematika kecerdasan buatan. |
+| **SISTEKIN (Sistem & Teknologi Informasi)** | **PEREKAYASA & PENGINTEGRASI SISTEM CERDAS NYATA (AI Integrator):** Mengintegrasikan model AI, infrastruktur cloud & IoT, keamanan siber, dan platform digital ke dalam proses bisnis dan organisasi dengan semangat kemandirian Technopreneurship. |
+| **Bisnis Digital / Manajemen** | Strategi pemasaran digital, model finansial, operasional bisnis, dan manajemen e-commerce (tanpa fokus pada rekayasa kode/infra). |
 
 ### Karakteristik "AI & Smart Systems Integrator":
 * Lulusan SISTEKIN bukan hanya menjadi *consumer* perangkat lunak, tetapi **pembangun solusi (*solution builder*)** yang menghubungkan model Machine Learning / Deep Learning dengan arsitektur komputasi awan, sensor IoT, antarmuka pengguna interaktif, dan tata kelola keamanan informasi yang tangguh.
@@ -100,30 +87,11 @@ Program Studi Sistem dan Teknologi Informasi (SISTEKIN) FSTI Universitas Widyaga
 
 ## 3. ENVIRONMENTAL SCANNING & ANALISIS SWOT (LAM INFOKOM KRITERIA 1)
 
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────┐
-│                              ANALISIS MATRIKS SWOT SISTEKIN                              │
-├──────────────────────────────────────────┬───────────────────────────────────────────────┤
-│ STRENGTHS (Kekuatan Internal)            │ WEAKNESSES (Kelemahan Internal)               │
-├──────────────────────────────────────────┼───────────────────────────────────────────────┤
-│ 1. Kurikulum modern berbasis OBE terkini │ 1. Status program studi baru yang belum       │
-│    (APTIKOM v2.0, IS2020, IT2017).       │    memiliki rekam jejak alumni (tracer study).│
-│ 2. Visi keilmuan yang sangat fokus dan   │ 2. Kebutuhan peningkatan kapasitas dosen      │
-│    relevan: AI Integration & Techno.     │    dalam sertifikasi industri bertaraf global.│
-│ 3. Paket SKS terstruktur (148 SKS / 55   │ 3. Fasilitas laboratorium spesialisasi cerdas │
-│    MK) dengan 3 peminatan yang seimbang. │    yang sedang dalam proses akselerasi.       │
-│ 4. Adanya pilar Capstone & non-skripsi.  │                                               │
-├──────────────────────────────────────────┼───────────────────────────────────────────────┤
-│ OPPORTUNITIES (Peluang Eksternal)        │ THREATS (Ancaman Eksternal)                   │
-├──────────────────────────────────────────┼───────────────────────────────────────────────┤
-│ 1. Lonjakan kebutuhan industri terhadap  │ 1. Kecepatan disrupsi teknologi AI generatif  │
-│    Data/AI Engineer & Cloud Architect.   │    yang dapat mengusir kurikulum usang.      │
-│ 2. Kebijakan Permendikbudristek 53/2023  │ 2. Persaingan ketat dengan prodi TI/SI kon-   │
-│    yang memberi fleksibilitas MBKM & TA. │    vensional dari PTN/PTS mapan.             │
-│ 3. Kemitraan strategis Malang Raya       │ 3. Standar kompetensi industri yang menuntut  │
-│    sebagai kota pendidikan & hub digital.│    penguasaan sertifikasi internasional.      │
-└──────────────────────────────────────────┴───────────────────────────────────────────────┘
-```
+| STRENGTHS (Kekuatan Internal) | WEAKNESSES (Kelemahan Internal) |
+|---|---|
+| 1. Kurikulum modern berbasis OBE terkini (APTIKOM v2.0, IS2020, IT2017).<br>2. Visi keilmuan yang sangat fokus dan relevan: AI Integration & Technopreneurship.<br>3. Paket SKS terstruktur (148 SKS / 55 MK) dengan 3 peminatan seimbang.<br>4. Adanya pilar Capstone & opsi Tugas Akhir non-skripsi. | 1. Status program studi baru yang belum memiliki rekam jejak alumni (*tracer study*).<br>2. Kebutuhan peningkatan kapasitas dosen dalam sertifikasi industri bertaraf global.<br>3. Fasilitas laboratorium spesialisasi cerdas yang sedang dalam proses akselerasi. |
+| **OPPORTUNITIES (Peluang Eksternal)** | **THREATS (Ancaman Eksternal)** |
+| 1. Lonjakan kebutuhan industri terhadap Data/AI Engineer & Cloud Architect.<br>2. Kebijakan Permendikbudristek 53/2023 yang memberi fleksibilitas MBKM & TA.<br>3. Kemitraan strategis Malang Raya sebagai kota pendidikan & hub digital. | 1. Kecepatan disrupsi teknologi AI generatif yang dapat mengusir kurikulum usang.<br>2. Persaingan ketat dengan prodi TI/SI konvensional dari PTN/PTS mapan.<br>3. Standar kompetensi industri yang menuntut penguasaan sertifikasi internasional. |
 
 ### Strategi Transformasi Matriks SWOT:
 * **Strategi S-O (Maxi-Maxi):** Mengkapitalisasi visi *AI Integrator* dan kurikulum fleksibel 148 SKS untuk menarik talenta mahasiswa dan menjalin kemitraan MBKM dengan industri teknologi nasional.

@@ -53,12 +53,12 @@ Gunakan prompt bertahap ini. Tiap langkah harus menunggu konfirmasi user sebelum
 | **Distinctive Positioning** | Integrator AI nyata | TI = Riset algoritma AI murni; SISTEKIN = **Integrasi AI ke Sistem & Platform Nyata**; Bisnis Digital = Model bisnis. |
 | **3 PEO & 4 Profil Lulusan (PL)** | 3 PEO & 4 PL Role-Based (Dokumen 002) | **PEO-1** (Professional Practice & Systems Integration), **PEO-2** (Digital Innovation & Technopreneurship), **PEO-3** (Advanced Study, Research & Lifelong Learning). **PL-1** (Intelligent IS Dev & AI Eng), **PL-2** (Cloud Infra, Cyber & Smart Sys), **PL-3** (UI/UX & Digital Platform Eng), **PL-4** (Digital Technopreneur & IT Product Innovator). |
 | **14 CPL (SN-Dikti & APTIKOM)** | 14 CPL Terstandar (Dokumen 003) | Sikap (S1), Keterampilan Umum (KU1, KU2, KU3), Pengetahuan (P1, P2, P3, P4), Keterampilan Khusus (KK1-KK6: @2 per peminatan). Dilengkapi genealogi sumber IS2020 CPL-P01..P17 & CPL-K01..K17 serta IT2017 KK1..KK3. |
-| **Beban SKS Kelulusan** | **Paket Ditempuh 148 SKS / 55 MK** (Penataan Final) | Memenuhi & melampaui syarat lulus minimal 144 SKS (Permendikbudristek No. 53/2023). Komposisi paket: 8 MKWU [13 SKS] + 14 MK FSTI [38 SKS] + 27 MK STI [79 SKS] + 6 MK Elektif [18 SKS]. Portofolio ditawarkan: **184 SKS / 67 MK** (18 MK elektif; ambil 6 MK / 18 SKS). |
-| **Batas Semester 1 & 2** | **Maksimal 20 SKS** | Sem 1 (19 SKS) & Sem 2 (Tepat 20 SKS). Kewarganegaraan (2 SKS) digeser ke Sem 4. Etika & Hukum Digital (2 SKS) & Kewirausahaan I (2 SKS) di Sem 2. |
+| **Beban SKS Kelulusan** | **Paket Ditempuh 146 SKS / 55 MK** (Penataan Final) | Memenuhi & melampaui syarat lulus minimal 144 SKS (Permendikbudristek No. 53/2023). Komposisi paket: 8 MKWU [13 SKS] + 14 MK FSTI [38 SKS] + 27 MK STI [77 SKS] + 6 MK Elektif [18 SKS]. Portofolio ditawarkan: **182 SKS / 67 MK** (18 MK elektif; ambil 6 MK / 18 SKS). |
+| **Batas Semester 1 & 2** | **Maksimal 20 SKS** | Sem 1 (19 SKS) & Sem 2 (Tepat 20 SKS). Sem 4 (21 SKS, Dasar Keamanan Informasi 2 SKS). Sem 6 (19 SKS, Smart City & Pem. Digital 2 SKS). Kewarganegaraan (2 SKS) di Sem 4. Etika & Hukum Digital (2 SKS) & Kewirausahaan I (2 SKS) di Sem 2. |
 | **3 Peminatan Seimbang** | Masing-masing **6 MK (18 SKS)** | **P1: Integrated Smart Systems** (6 MK: STA-01..06), **P2: Cloud Infrastructure & Cybersecurity** (6 MK: STB-01..06), **P3: Digital Platform Engineering** (6 MK: STC-01..06). Mahasiswa menempuh 1 paket peminatan penuh (6 MK: 1 di Sem 5, 2 di Sem 6, 3 di Sem 7). |
 | **Skema Asesmen Terstruktur** | **4x Titik Evaluasi Baku (Total = 100%)** | **Tugas 1** di Pekan 4 (20%), **UTS** di Pekan 8 (25% Praktikum / 30% Teori), **Tugas 2** di Pekan 12 (20% Teori / 25% Praktikum), dan **UAS** di Pekan 16 (30%). Memetakan secara langsung 1-to-1 ke 4 CPMK dan memenuhi IKU 7 $\ge 50\%$. |
-| **Fondasi Sistem & Infra** | Sistem Operasi di Sem 3 | Sistem Operasi (STI-305, 3 SKS) & Jaringan Komputer (STI-307, 3 SKS) di Semester 3 sebagai fondasi IoT (Sem 5), Cloud (Sem 4), dan Security (Sem 4). |
-| **Penataan Tingkat Akhir** | KPM Sem 5, Platform Sem 6, Capstone & Pra-Skripsi Sem 7, Skripsi Sem 8 | KPM (3 SKS) di Sem 5; Platform Eng (3 SKS) di Sem 6; Capstone Project FSTI (3 SKS), PKL (3 SKS) & Pra-Skripsi (2 SKS) di Sem 7; Skripsi Murni / Opsi Non-Skripsi (6 SKS) di Sem 8. |
+| **Fondasi Sistem & Infra** | Sistem Operasi di Sem 3 | Sistem Operasi (STI-305, 3 SKS) & Jaringan Komputer (STI-307, 3 SKS) di Semester 3 sebagai fondasi IoT (Sem 5), Cloud (Sem 4), dan Security (Sem 4, STI-405 2 SKS). |
+| **Penataan Tingkat Akhir** | KPM & KWU II Sem 5, Platform & Smart City Sem 6, Capstone & Pra-Skripsi Sem 7, Skripsi Sem 8 | KPM (3 SKS) & Kewirausahaan II (0 SKS) di Sem 5; Platform Eng (3 SKS) & Smart City (2 SKS) di Sem 6; Capstone Project FSTI (3 SKS), PKL (3 SKS) & Pra-Skripsi (2 SKS) di Sem 7; Skripsi Murni / Opsi Non-Skripsi (6 SKS) di Sem 8. |
 | **Fleksibilitas MBKM** | Hingga 20 SKS di Sem 6-7 | Dikonversikan ke paket MK Peminatan, Capstone, dan PKL. |
 
 ---
@@ -67,7 +67,7 @@ Gunakan prompt bertahap ini. Tiap langkah harus menunggu konfirmasi user sebelum
 
 1. **Jumlah CPL:** Tepat **14 CPL** (S1, KU1-KU3, P1-P4, KK1-KK6). Jangan gunakan angka 10, 15, atau 17.
 2. **Profil Lulusan & PEO:** Tepat **4 Profil Lulusan (PL-1 s.d. PL-4)** dan **3 PEO (PEO-1 s.d. PEO-3)**.
-3. **Beban SKS:** Paket ditempuh mahasiswa adalah **148 SKS / 55 MK** (syarat lulus minimal nasional 144 SKS — Permendikbud 53/2023). Portofolio ditawarkan **184 SKS / 67 MK** (18 MK elektif ditawarkan, diambil 6 MK / 18 SKS).
+3. **Beban SKS:** Paket ditempuh mahasiswa adalah **146 SKS / 55 MK** (syarat lulus minimal nasional 144 SKS — Permendikbud 53/2023). Portofolio ditawarkan **182 SKS / 67 MK** (18 MK elektif ditawarkan, diambil 6 MK / 18 SKS).
 4. **Skema Asesmen:** Tepat **4x Titik Asesmen Baku** per mata kuliah (Tugas 1 [20%], UTS [25-30%], Tugas 2 [20-25%], UAS [30%]).
 5. **Folder `KURIKULUM2026_REVISI/`** adalah **single source of truth definitif** untuk penyusunan Naskah Buku Kurikulum KPT-OBE SISTEKIN 2026.
 

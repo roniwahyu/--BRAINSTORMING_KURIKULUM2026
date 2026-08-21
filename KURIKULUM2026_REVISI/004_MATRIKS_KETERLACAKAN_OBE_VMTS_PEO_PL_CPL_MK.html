@@ -1,0 +1,3200 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>004 — Matriks Keterlacakan OBE VMTS-PEO-PL-CPL-MK | Kurikulum OBE SISTEKIN 2026</title>
+    <meta name="description" content="Dokumen Resmi Kurikulum OBE 2026 Program Studi Sistem dan Teknologi Informasi (S1) FSTI UWG Malang.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- KaTeX for LaTeX Math -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+
+    <!-- Mermaid JS for Flowcharts -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+
+    <style>
+        :root {
+            --bg-primary: #0b0f19;
+            --bg-secondary: #111827;
+            --bg-card: rgba(17, 24, 39, 0.75);
+            --bg-card-hover: rgba(31, 41, 55, 0.85);
+            --border-color: rgba(255, 255, 255, 0.1);
+            --border-accent: rgba(99, 102, 241, 0.35);
+            
+            --text-primary: #f9fafb;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+            
+            --primary: #6366f1;
+            --primary-light: #818cf8;
+            --secondary: #06b6d4;
+            --accent: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            
+            --mkwu-color: #ec4899;
+            --fsti-color: #8b5cf6;
+            --sti-color: #3b82f6;
+            --elektif-color: #10b981;
+            
+            --font-sans: 'Plus Jakarta Sans', 'Inter', sans-serif;
+            --font-code: 'Fira Code', monospace;
+            --shadow-glow: 0 0 30px rgba(99, 102, 241, 0.12);
+            --radius-lg: 16px;
+            --radius-md: 12px;
+            --radius-sm: 8px;
+        }
+
+        [data-theme="light"] {
+            --bg-primary: #f8fafc;
+            --bg-secondary: #ffffff;
+            --bg-card: rgba(255, 255, 255, 0.9);
+            --bg-card-hover: #ffffff;
+            --border-color: rgba(0, 0, 0, 0.08);
+            --border-accent: rgba(99, 102, 241, 0.25);
+            
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --text-muted: #94a3b8;
+            
+            --shadow-glow: 0 10px 30px rgba(99, 102, 241, 0.08);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            padding-bottom: 80px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Navbar */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(11, 15, 25, 0.85);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 14px 0;
+            margin-bottom: 32px;
+        }
+        [data-theme="light"] .navbar { background: rgba(248, 250, 252, 0.85); }
+
+        .navbar-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+        .brand-logo {
+            width: 40px; height: 40px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: var(--radius-sm);
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 800; color: white; font-size: 1.1rem;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+        }
+        .brand-text h1 { font-size: 1.05rem; font-weight: 700; color: var(--text-primary); }
+        .brand-text p { font-size: 0.75rem; color: var(--text-secondary); }
+
+        .doc-select {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            font-size: 0.85rem;
+            font-weight: 600;
+            outline: none;
+            cursor: pointer;
+            max-width: 380px;
+        }
+
+        .search-box {
+            position: relative;
+            min-width: 240px;
+        }
+        .search-input {
+            width: 100%;
+            padding: 8px 14px 8px 34px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            color: var(--text-primary);
+            font-size: 0.85rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .search-input:focus { border-color: var(--primary); }
+        .search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); font-size: 0.8rem; opacity: 0.6; }
+
+        .nav-actions { display: flex; align-items: center; gap: 10px; }
+        .btn-action {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            cursor: pointer; font-size: 0.85rem; font-weight: 600;
+            display: inline-flex; align-items: center; gap: 6px;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
+        .btn-action:hover { border-color: var(--primary); color: var(--primary-light); transform: translateY(-1px); }
+
+        /* Hero Header */
+        .hero {
+            background: radial-gradient(circle at top right, rgba(99, 102, 241, 0.15), transparent 50%),
+                        radial-gradient(circle at bottom left, rgba(6, 182, 212, 0.1), transparent 50%);
+            border: 1px solid var(--border-accent);
+            border-radius: var(--radius-lg);
+            padding: 36px;
+            margin-bottom: 36px;
+            box-shadow: var(--shadow-glow);
+        }
+        .hero-badge-group { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+        .badge {
+            font-size: 0.72rem; font-weight: 700; padding: 4px 12px; border-radius: 20px;
+            letter-spacing: 0.03em; text-transform: uppercase;
+        }
+        .badge-primary { background: rgba(99, 102, 241, 0.2); color: var(--primary-light); border: 1px solid rgba(99, 102, 241, 0.4); }
+        .badge-accent { background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); }
+        .badge-warning { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.4); }
+
+        .hero-title {
+            font-size: 2rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 8px;
+            background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        [data-theme="light"] .hero-title {
+            background: linear-gradient(135deg, #0f172a 0%, #334155 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+
+        /* Typography & Content */
+        .content {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+        }
+
+        .content h1 { font-size: 1.8rem; font-weight: 800; margin: 32px 0 16px 0; color: var(--text-primary); border-bottom: 2px solid var(--border-accent); padding-bottom: 10px; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 30px 0 14px 0; color: var(--primary-light); border-bottom: 1px solid var(--border-color); padding-bottom: 8px; }
+        .content h3 { font-size: 1.15rem; font-weight: 700; margin: 24px 0 12px 0; color: var(--text-primary); }
+        .content h4 { font-size: 1rem; font-weight: 600; margin: 18px 0 8px 0; color: var(--text-secondary); }
+
+        .content p { margin-bottom: 16px; color: var(--text-secondary); font-size: 0.96rem; }
+        .content ul, .content ol { margin: 0 0 20px 24px; color: var(--text-secondary); font-size: 0.95rem; }
+        .content li { margin-bottom: 6px; }
+        .content blockquote {
+            border-left: 4px solid var(--primary);
+            padding: 12px 20px;
+            background: rgba(99, 102, 241, 0.06);
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            margin: 20px 0;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Tables */
+        .table-wrapper { overflow-x: auto; margin: 24px 0; border-radius: var(--radius-md); border: 1px solid var(--border-color); }
+        table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem; }
+        th {
+            background: rgba(31, 41, 55, 0.7); color: var(--text-primary);
+            font-weight: 700; padding: 12px 16px; border-bottom: 1px solid var(--border-color);
+            font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em;
+        }
+        [data-theme="light"] th { background: #f1f5f9; }
+        td { padding: 12px 16px; border-bottom: 1px solid var(--border-color); color: var(--text-secondary); }
+        tr:last-child td { border-bottom: none; }
+        tr:hover td { background: var(--bg-card-hover); color: var(--text-primary); }
+
+        /* Code Badges */
+        .code-tag {
+            font-family: var(--font-code); font-weight: 600; font-size: 0.82rem;
+            padding: 2px 8px; border-radius: 4px; background: rgba(99, 102, 241, 0.12);
+            color: var(--primary-light); border: 1px solid rgba(99, 102, 241, 0.25);
+        }
+        code {
+            font-family: var(--font-code); font-size: 0.85rem; padding: 2px 6px;
+            background: rgba(255, 255, 255, 0.06); border-radius: 4px; color: var(--primary-light);
+        }
+
+        .cat-badge { font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px; display: inline-block; }
+        .cat-mkwu { background: rgba(236, 72, 153, 0.15); color: #f472b6; border: 1px solid rgba(236, 72, 153, 0.3); }
+        .cat-fsti { background: rgba(139, 92, 246, 0.15); color: #c084fc; border: 1px solid rgba(139, 92, 246, 0.3); }
+        .cat-sti  { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
+        .cat-elektif { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+
+        /* Custom Alerts */
+        .custom-alert {
+            border-left: 4px solid var(--primary);
+            background: rgba(17, 24, 39, 0.6);
+            border: 1px solid var(--border-color);
+            border-left-width: 4px;
+            border-radius: var(--radius-md);
+            padding: 16px 20px;
+            margin: 24px 0;
+        }
+        .alert-important { border-left-color: var(--primary); background: rgba(99, 102, 241, 0.08); }
+        .alert-note { border-left-color: var(--secondary); background: rgba(6, 182, 212, 0.08); }
+        .alert-tip { border-left-color: var(--accent); background: rgba(16, 185, 129, 0.08); }
+        .alert-warning { border-left-color: var(--warning); background: rgba(245, 158, 11, 0.08); }
+        .alert-caution { border-left-color: var(--danger); background: rgba(239, 68, 68, 0.08); }
+        
+        .alert-header { font-weight: 700; font-size: 0.9rem; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
+        .alert-important .alert-header { color: var(--primary-light); }
+        .alert-note .alert-header { color: var(--secondary); }
+        .alert-tip .alert-header { color: var(--accent); }
+        .alert-warning .alert-header { color: var(--warning); }
+        .alert-caution .alert-header { color: var(--danger); }
+        .alert-content { color: var(--text-secondary); font-size: 0.92rem; }
+
+        /* ASCII Tables Box */
+        .ascii-table-box {
+            background: #090d16;
+            border: 1px solid var(--border-accent);
+            border-radius: var(--radius-md);
+            padding: 16px;
+            font-family: var(--font-code);
+            font-size: 0.8rem;
+            color: var(--primary-light);
+            overflow-x: auto;
+            margin: 24px 0;
+            white-space: pre;
+        }
+
+        /* Mermaid Box */
+        .mermaid-card {
+            background: rgba(17, 24, 39, 0.5);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 24px; margin: 24px 0;
+            text-align: center; overflow-x: auto;
+        }
+
+        /* Bottom Nav Links */
+        .doc-nav {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--border-color);
+        }
+        .nav-btn {
+            background: var(--bg-secondary); border: 1px solid var(--border-color);
+            color: var(--text-primary); padding: 10px 18px; border-radius: var(--radius-sm);
+            text-decoration: none; font-weight: 600; font-size: 0.88rem; transition: all 0.2s;
+        }
+        .nav-btn:hover { border-color: var(--primary); color: var(--primary-light); }
+
+        /* Footer */
+        .footer { margin-top: 60px; text-align: center; color: var(--text-muted); font-size: 0.85rem; }
+
+        @media print {
+            body { background: white; color: black; }
+            .navbar, .nav-actions, .doc-nav, .search-box { display: none; }
+            .hero, .content { border: 1px solid #ccc; box-shadow: none; background: white; padding: 20px; }
+            th { background: #eee !important; color: black !important; }
+            td { color: black !important; }
+            .code-tag { background: #f0f0f0; color: black; border: 1px solid #ccc; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <a href="index.html" class="brand">
+                <div class="brand-logo">STI</div>
+                <div class="brand-text">
+                    <h1>SISTEKIN — FSTI UWG</h1>
+                    <p>Buku Kurikulum OBE 2026</p>
+                </div>
+            </a>
+            
+            <select class="doc-select" onchange="window.location.href=this.value">
+                <option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
+<option value="002_FORMULASI_3_PEO_DAN_4_PROFIL_LULUSAN_SISTEKIN.html" >002 — Formulasi 3 PEO & 4 Profil Lulusan</option>
+<option value="003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.html" >003 — Standar 14 CPL & Pemetaan BoK APTIKOM</option>
+<option value="004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.html" selected>004 — Matriks Keterlacakan OBE VMTS-PEO-PL-CPL-MK</option>
+<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — Struktur Kurikulum 8 Semester & Peminatan</option>
+<option value="006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.html" >006 — Distribusi MK Peminatan & Panduan MBKM</option>
+<option value="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" >007 — Silabus 3-Tabel & CPMK 67 MK Portofolio</option>
+<option value="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" >008 — Sistem Asesmen OBE & Attainment CPL</option>
+<option value="009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.html" >009 — Pedoman Capstone & 4 Opsi TA Non-Skripsi</option>
+<option value="010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.html" >010 — Instrumen Tracer Study & Evaluasi PEO</option>
+<option value="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" >📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)</option>
+            </select>
+
+            
+    <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="globalTableSearch" class="search-input" placeholder="Cari dalam dokumen (kode, MK, istilah, tabel)...">
+    </div>
+    
+
+            <div class="nav-actions">
+                <a href="index.html" class="btn-action">🏠 Portal Dokumen</a>
+                <button class="btn-action" onclick="window.print()">🖨️ Cetak PDF</button>
+                <button class="btn-action" id="themeToggle">🌓 Tema</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-badge-group">
+                <span class="badge badge-primary">Kurikulum OBE 2026</span>
+                <span class="badge badge-accent">Permendikbudristek 53/2023</span>
+                <span class="badge badge-warning">FSTI UWG Malang</span>
+            </div>
+            <h1 class="hero-title">004 — Matriks Keterlacakan OBE VMTS-PEO-PL-CPL-MK</h1>
+            <p style="color: var(--text-secondary); font-size: 0.95rem;">Dokumen Kurikulum OBE Definitif Program Studi Sistem dan Teknologi Informasi (S1)</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="content">
+            <h1 id="004-matriks-keterlacakan-lengkap-obe-vmts-3-peo-4-pl-14-cpl-55-mata-kuliah">004 — MATRIKS KETERLACAKAN LENGKAP OBE: VMTS ↔ 3 PEO ↔ 4 PL ↔ 14 CPL ↔ 55 MATA KULIAH</h1>
+<h2 id="program-studi-sistem-dan-teknologi-informasi-s1-fakultas-sains-dan-teknologi-informasi-fsti-universitas-widyagama-malang">Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang</h2>
+<p><strong>Dokumen Revisi Definitif Kurikulum 2026</strong><br />
+<strong>Standar Rujukan:</strong> Standar LAM INFOKOM (Kriteria 1: VMTS, Kriteria 6: Kurikulum &amp; Pembelajaran, Kriteria 9: Luaran &amp; Capaian Tridharma), Panduan Kurikulum OBE APTIKOM v2.0 (IS2020 &amp; IT2017), Standar IABEE Kriteria 1, 2, &amp; 3.</p>
+<hr />
+<h3 id="visualisasi-keterlacakan-makro-obe-alur-i-r-m">VISUALISASI KETERLACAKAN MAKRO OBE &amp; ALUR I-R-M</h3>
+<div class="mermaid-card"><div class="mermaid">
+graph LR
+    subgraph MAKRO [&quot;KETERLACAKAN STRATEGIS MAKRO&quot;]
+        VMTS[&quot;VMTS 2045&quot;] --&gt; PEO[&quot;3 PEO&quot;]
+        PEO --&gt; PL[&quot;4 Profil Lulusan&quot;]
+        PL --&gt; CPL[&quot;14 CPL Terstandar&quot;]
+    end
+
+    subgraph PROGRESI [&quot;ALUR PENGUASAAN MATA KULIAH (I-R-M)&quot;]
+        CPL --&gt; I[&quot;I (Introduce): Semester 1-2&quot;]
+        I --&gt; R[&quot;R (Reinforce): Semester 3-6&quot;]
+        R --&gt; M[&quot;M (Master): Semester 7-8 &amp; Capstone&quot;]
+    end
+</div></div>
+
+<hr />
+<h2 id="1-matriks-keselarasan-strategis-vmts-2045-3-peo-4-profil-lulusan-pl">1. MATRIKS KESELARASAN STRATEGIS: VMTS 2045 ↔ 3 PEO ↔ 4 PROFIL LULUSAN (PL)</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Pilar VMTS 2045 SISTEKIN UWG</th>
+<th>Rumusan PEO Terkait (3–5 Thn Lulus)</th>
+<th>Profil Lulusan yang Dituju</th>
+<th>Domain Karir / Peran Utama Alumni</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Pilar 1: AI &amp; Smart Systems Integration</strong></td>
+<td><strong>PEO-1:</strong> <em>Professional Practice &amp; Systems Integration</em><br><strong>PEO-3:</strong> <em>Advanced Study, Research &amp; Lifelong Learning</em></td>
+<td><strong>PL-1:</strong> <em>Intelligent Information Systems &amp; Data/AI Engineer</em><br><strong>PL-2:</strong> <em>Cloud Infrastructure, Cybersecurity &amp; Smart Systems Integrator</em></td>
+<td>AI Engineer, ML Engineer, Data Scientist, IoT Specialist, Cloud Architect, Cybersecurity Specialist, Peneliti AI.</td>
+</tr>
+<tr>
+<td><strong>Pilar 2: Modern Digital Platform &amp; Software Engineering</strong></td>
+<td><strong>PEO-1:</strong> <em>Professional Practice &amp; Systems Integration</em><br><strong>PEO-2:</strong> <em>Digital Innovation &amp; Technopreneurship</em></td>
+<td><strong>PL-3:</strong> <em>UI/UX Designer &amp; Digital Platform Engineer</em></td>
+<td>Full-Stack Platform Engineer, Microservices Specialist, UI/UX Lead, Mobile App Developer, Solution Architect.</td>
+</tr>
+<tr>
+<td><strong>Pilar 3: Technopreneurship &amp; Kemandirian Bangsa</strong></td>
+<td><strong>PEO-2:</strong> <em>Digital Innovation &amp; Technopreneurship</em><br><strong>PEO-1:</strong> <em>Professional Practice &amp; Systems Integration</em></td>
+<td><strong>PL-4:</strong> <em>Digital Technopreneur &amp; IT Product Innovator</em></td>
+<td>Tech Startup Founder, IT Project Manager, Chief Product Officer (CPO), IT Business Strategist, Digital Consultant.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="2-matriks-keterlacakan-3-peo-4-profil-lulusan-14-cpl">2. MATRIKS KETERLACAKAN 3 PEO ↔ 4 PROFIL LULUSAN ↔ 14 CPL</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Kode PEO</th>
+<th>Deskripsi Singkat PEO</th>
+<th style="text-align: center;">Profil Lulusan Utama</th>
+<th>Pemetaan 14 CPL SN-Dikti &amp; APTIKOM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>PEO-1</strong></td>
+<td><strong>Professional Practice &amp; Systems Integration:</strong> Menjadi praktisi profesional yang kompeten merancang, mengintegrasikan, mengamankan, dan mengelola solusi AI, cloud, dan platform digital.</td>
+<td style="text-align: center;"><strong>PL-1, PL-2, PL-3</strong> <em>(primer)</em><br>PL-4 <em>(sekunder)</em></td>
+<td><strong>S1, KU1, KU3, P1, P2, P3, P4, KK1, KK2, KK3, KK4, KK5, KK6</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PEO-2</strong></td>
+<td><strong>Digital Innovation &amp; Technopreneurship:</strong> Menjadi inovator produk digital, technopreneur mandiri, atau konsultan transformasi digital yang adaptif terhadap dinamika industri.</td>
+<td style="text-align: center;"><strong>PL-4, PL-3</strong> <em>(primer)</em><br>PL-1, PL-2 <em>(sekunder)</em></td>
+<td><strong>S1, KU1, KU2, KU3, P2, P4, KK5, KK6</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PEO-3</strong></td>
+<td><strong>Advanced Study, Research &amp; Lifelong Learning:</strong> Menjadi pembelajar sepanjang hayat yang mampu melanjutkan studi pascasarjana, riset terapan, dan sertifikasi keahlian internasional.</td>
+<td style="text-align: center;"><strong>PL-1, PL-2, PL-3, PL-4</strong> <em>(seluruh PL)</em></td>
+<td><strong>S1, KU1, KU2, P1, P2, P3, P4, KK1, KK2, KK3, KK4</strong></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="3-master-tabel-keterlacakan-14-cpl-timestimes-55-mata-kuliah-paket-148-sks-ditempuh">3. MASTER TABEL KETERLACAKAN 14 CPL <span class="arithmatex"><span class="MathJax_Preview">\times</span><script type="math/tex">\times</script></span> 55 MATA KULIAH (PAKET 148 SKS DITEMPUH)</h2>
+<h3 id="keterangan-simbol-matriks">Keterangan Simbol Matriks:</h3>
+<ul>
+<li><strong><code>I</code>> (Introduce):</strong> Pengenalan konsep dasar keilmuan dan teori dasar (Ranah Bloom C2–C3).</li>
+<li><strong><code>R</code>> (Reinforce):</strong> Penguatan, analisis kasus mendalam, dan penerapan sistematis (Ranah Bloom C3–C4).</li>
+<li><strong><code>M</code>> (Master):</strong> Penguasaan tingkat tinggi, sintesis, perancangan arsitektur, dan evaluasi mandiri (Ranah Bloom C5–C6).</li>
+</ul>
+<hr />
+<h3 id="tabel-31-matriks-keterlacakan-tahap-fondasi-semester-1-semester-2">TABEL 3.1: MATRIKS KETERLACAKAN TAHAP FONDASI (SEMESTER 1 &amp; SEMESTER 2)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th style="text-align: center;">Kode MK</th>
+<th>Nama Mata Kuliah</th>
+<th style="text-align: center;">SKS</th>
+<th style="text-align: center;">S1</th>
+<th style="text-align: center;">KU1</th>
+<th style="text-align: center;">KU2</th>
+<th style="text-align: center;">KU3</th>
+<th style="text-align: center;">P1</th>
+<th style="text-align: center;">P2</th>
+<th style="text-align: center;">P3</th>
+<th style="text-align: center;">P4</th>
+<th style="text-align: center;">KK1</th>
+<th style="text-align: center;">KK2</th>
+<th style="text-align: center;">KK3</th>
+<th style="text-align: center;">KK4</th>
+<th style="text-align: center;">KK5</th>
+<th style="text-align: center;">KK6</th>
+<th style="text-align: center;">Target PL</th>
+<th style="text-align: center;">Target PEO</th>
+<th style="text-align: center;">Status IRM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"><span class="code-tag">FST-101</span>></td>
+<td>Dasar Teknologi Digital</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>I</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>I</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-1, PL-2, PL-3</td>
+<td style="text-align: center;">PEO-1</td>
+<td style="text-align: center;"><strong>I</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><span class="code-tag">FST-102</span>></td>
+<td>Algoritma &amp; Pemrograman</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>I</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>I</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-1, PL-3, PL-4</td>
+<td style="text-align: center;">PEO-1, PEO-3</td>
+<td style="text-align: center;"><strong>I</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><span class="code-tag">STI-101</span>></td>
+<td>Pengantar Sistem &amp; TI</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>I</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Seluruh PL</td>
+<td style="text-align: center;">PEO-1, PEO-2</td>
+<td style="text-align: center;"><strong>I</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"><span class="code-tag">STI-102</span>></td>
+<td>Kalkulus</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>I</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-1, PL-2</td>
+<td style="text-align: center;">PEO-1, PEO-3</td>
+<td style="text-align: center;"><strong>I</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><span class="code-tag">STI-103</span>></td>
+<td>Logika Informatika</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>I</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>I</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-1, PL-2</td>
+<td style="text-align: center;">PEO-1, PEO-3</td>
+<td style="text-align: center;"><strong>I</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;"><span class="code-tag">MKU-101</span>></td>
+<td>Pendidikan Agama I</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><strong>I</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Seluruh PL</td>
+<td style="text-align: center;">PEO-1, PEO-2, PEO-3</td>
+<td style="text-align: center;"><strong>I</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;"><span class="code-tag">MKU-102</span>></td>
+<td>Pendidikan Pancasila</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><strong>I</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Seluruh PL</td>
+<td style="text-align: center;">PEO-1, PEO-2, PEO-3</td>
+<td style="text-align: center;"><strong>I</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;"><span class="code-tag">MKU-103</span>></td>
+<td>Bahasa Indonesia</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>I</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Seluruh PL</td>
+<td style="text-align: center;">PEO-1, PEO-2, PEO-3</td>
+<td style="text-align: center;"><strong>I</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;"><span class="code-tag">STI-201</span>></td>
+<td>Matematika Diskrit</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>I</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-1, PL-2</td>
+<td style="text-align: center;">PEO-1, PEO-3</td>
+<td style="text-align: center;"><strong>I</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;"><span class="code-tag">STI-202</span>></td>
+<td>Aljabar Linear &amp; Matriks</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>I</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-1, PL-2</td>
+<td style="text-align: center;">PEO-1, PEO-3</td>
+<td style="text-align: center;"><strong>I</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;"><span class="code-tag">FST-203</span>></td>
+<td>Struktur Data &amp; Algoritma</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>I</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-1, PL-3</td>
+<td style="text-align: center;">PEO-1, PEO-3</td>
+<td style="text-align: center;"><strong>I</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;"><span class="code-tag">FST-204</span>></td>
+<td>Organisasi &amp; Arsitektur Kom</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>I</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-2</td>
+<td style="text-align: center;">PEO-1</td>
+<td style="text-align: center;"><strong>I</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;"><span class="code-tag">FST-205</span>></td>
+<td>Pemrograman Lanjut (OOP)</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>I</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-1, PL-3</td>
+<td style="text-align: center;">PEO-1</td>
+<td style="text-align: center;"><strong>I</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;"><span class="code-tag">FST-206</span>></td>
+<td>Etika Profesi &amp; Hukum Dig.</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><strong>I</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>I</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Seluruh PL</td>
+<td style="text-align: center;">PEO-1, PEO-2</td>
+<td style="text-align: center;"><strong>I</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;"><span class="code-tag">FST-207</span>></td>
+<td>Sistem Basis Data</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>I</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>I</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-1, PL-3</td>
+<td style="text-align: center;">PEO-1</td>
+<td style="text-align: center;"><strong>I</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">16</td>
+<td style="text-align: center;"><span class="code-tag">MKU-202</span>></td>
+<td>Kewirausahaan I</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>I</strong></td>
+<td style="text-align: center;">PL-4</td>
+<td style="text-align: center;">PEO-2</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="tabel-32-matriks-keterlacakan-tahap-penguatan-inti-rekayasa-semester-3-semester-4">TABEL 3.2: MATRIKS KETERLACAKAN TAHAP PENGUATAN INTI REKAYASA (SEMESTER 3 &amp; SEMESTER 4)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th style="text-align: center;">Kode MK</th>
+<th>Nama Mata Kuliah</th>
+<th style="text-align: center;">SKS</th>
+<th style="text-align: center;">S1</th>
+<th style="text-align: center;">KU1</th>
+<th style="text-align: center;">KU2</th>
+<th style="text-align: center;">KU3</th>
+<th style="text-align: center;">P1</th>
+<th style="text-align: center;">P2</th>
+<th style="text-align: center;">P3</th>
+<th style="text-align: center;">P4</th>
+<th style="text-align: center;">KK1</th>
+<th style="text-align: center;">KK2</th>
+<th style="text-align: center;">KK3</th>
+<th style="text-align: center;">KK4</th>
+<th style="text-align: center;">KK5</th>
+<th style="text-align: center;">KK6</th>
+<th style="text-align: center;">Target PL</th>
+<th style="text-align: center;">Target PEO</th>
+<th style="text-align: center;">Status IRM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">17</td>
+<td style="text-align: center;"><span class="code-tag">STI-301</span>></td>
+<td>Analisis &amp; Perancangan SI</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-1, PL-3</td>
+<td style="text-align: center;">PEO-1</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">18</td>
+<td style="text-align: center;"><span class="code-tag">STI-302</span>></td>
+<td>Sistem Cerdas</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-1</td>
+<td style="text-align: center;">PEO-1, PEO-3</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">19</td>
+<td style="text-align: center;"><span class="code-tag">STI-303</span>></td>
+<td>UI/UX Design &amp; Prototyping</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-3</td>
+<td style="text-align: center;">PEO-1, PEO-2</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;"><span class="code-tag">STI-304</span>></td>
+<td>Rekayasa Perangkat Lunak</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-1, PL-3</td>
+<td style="text-align: center;">PEO-1</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;"><span class="code-tag">STI-305</span>></td>
+<td>Sistem Operasi</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-2</td>
+<td style="text-align: center;">PEO-1</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">22</td>
+<td style="text-align: center;"><span class="code-tag">STI-306</span>></td>
+<td>Web Front End Development</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-3</td>
+<td style="text-align: center;">PEO-1, PEO-2</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;"><span class="code-tag">STI-307</span>></td>
+<td>Jaringan Komputer</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-2</td>
+<td style="text-align: center;">PEO-1</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">24</td>
+<td style="text-align: center;"><span class="code-tag">STI-401</span>></td>
+<td>Machine Learning</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-1</td>
+<td style="text-align: center;">PEO-1, PEO-3</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">25</td>
+<td style="text-align: center;"><span class="code-tag">STI-402</span>></td>
+<td>Data Warehouse &amp; BI</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-1</td>
+<td style="text-align: center;">PEO-1</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">26</td>
+<td style="text-align: center;"><span class="code-tag">STI-407</span>></td>
+<td>Web Back End Development</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-3</td>
+<td style="text-align: center;">PEO-1, PEO-2</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">27</td>
+<td style="text-align: center;"><span class="code-tag">STI-404</span>></td>
+<td>Komputasi Awan (Cloud)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-2</td>
+<td style="text-align: center;">PEO-1</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">28</td>
+<td style="text-align: center;"><span class="code-tag">STI-405</span>></td>
+<td>Dasar Keamanan Informasi</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-2</td>
+<td style="text-align: center;">PEO-1</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">29</td>
+<td style="text-align: center;"><span class="code-tag">FST-408</span>></td>
+<td>Probabilitas &amp; Statistika</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-1, PL-2</td>
+<td style="text-align: center;">PEO-1, PEO-3</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">30</td>
+<td style="text-align: center;"><span class="code-tag">FST-409</span>></td>
+<td>Manajemen Sains &amp; Riset Op</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-1, PL-4</td>
+<td style="text-align: center;">PEO-1, PEO-2</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">31</td>
+<td style="text-align: center;"><span class="code-tag">MKU-201</span>></td>
+<td>Pend. Kewarganegaraan(KWN)</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><strong>I</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Seluruh PL</td>
+<td style="text-align: center;">PEO-1, PEO-2, PEO-3</td>
+<td style="text-align: center;"><strong>I</strong></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="tabel-33-matriks-keterlacakan-tahap-spesialisasi-lanjut-semester-5-semester-6">TABEL 3.3: MATRIKS KETERLACAKAN TAHAP SPESIALISASI &amp; LANJUT (SEMESTER 5 &amp; SEMESTER 6)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th style="text-align: center;">Kode MK</th>
+<th>Nama Mata Kuliah</th>
+<th style="text-align: center;">SKS</th>
+<th style="text-align: center;">S1</th>
+<th style="text-align: center;">KU1</th>
+<th style="text-align: center;">KU2</th>
+<th style="text-align: center;">KU3</th>
+<th style="text-align: center;">P1</th>
+<th style="text-align: center;">P2</th>
+<th style="text-align: center;">P3</th>
+<th style="text-align: center;">P4</th>
+<th style="text-align: center;">KK1</th>
+<th style="text-align: center;">KK2</th>
+<th style="text-align: center;">KK3</th>
+<th style="text-align: center;">KK4</th>
+<th style="text-align: center;">KK5</th>
+<th style="text-align: center;">KK6</th>
+<th style="text-align: center;">Target PL</th>
+<th style="text-align: center;">Target PEO</th>
+<th style="text-align: center;">Status IRM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">32</td>
+<td style="text-align: center;"><span class="code-tag">STI-501</span>></td>
+<td>Deep Learning &amp; Neural Net</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-1</td>
+<td style="text-align: center;">PEO-1, PEO-3</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">33</td>
+<td style="text-align: center;"><span class="code-tag">STI-503</span>></td>
+<td>Data Mining &amp; Visualisasi</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-1</td>
+<td style="text-align: center;">PEO-1</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">34</td>
+<td style="text-align: center;"><span class="code-tag">STI-504</span>></td>
+<td>Internet of Things (IoT)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-2</td>
+<td style="text-align: center;">PEO-1</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">35</td>
+<td style="text-align: center;"><span class="code-tag">STI-505</span>></td>
+<td>Pemrograman Aplikasi Mobile</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-3</td>
+<td style="text-align: center;">PEO-1, PEO-2</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">36</td>
+<td style="text-align: center;"><span class="code-tag">STI-506</span>></td>
+<td>Manajemen Proyek TI</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;">PL-4</td>
+<td style="text-align: center;">PEO-1, PEO-2</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">37</td>
+<td style="text-align: center;"><span class="code-tag">MKU-203</span>></td>
+<td>KPM (Pengabdian Masy.)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Seluruh PL</td>
+<td style="text-align: center;">PEO-1, PEO-2, PEO-3</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">38</td>
+<td style="text-align: center;"><code>STA/B/C</code></td>
+<td><strong>MK Pilihan Peminatan 1</strong></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">PL-1..3</td>
+<td style="text-align: center;">PEO-1..3</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">38.B</td>
+<td style="text-align: center;"><span class="code-tag">MKU-402</span>></td>
+<td>Kewirausahaan II</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>R</strong></td>
+<td style="text-align: center;">PL-4</td>
+<td style="text-align: center;">PEO-2</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">39</td>
+<td style="text-align: center;"><span class="code-tag">STI-601</span>></td>
+<td>Integrasi Layanan Cerdas AI</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-1</td>
+<td style="text-align: center;">PEO-1, PEO-3</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">40</td>
+<td style="text-align: center;"><span class="code-tag">STI-602</span>></td>
+<td>Smart City &amp; Pem. Digital</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-2</td>
+<td style="text-align: center;">PEO-1</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">41</td>
+<td style="text-align: center;"><span class="code-tag">STI-603</span>></td>
+<td>Keamanan Informasi Lanjut</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-2</td>
+<td style="text-align: center;">PEO-1</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">42</td>
+<td style="text-align: center;"><span class="code-tag">STI-604</span>></td>
+<td>Digital Platform Engineering</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PL-3</td>
+<td style="text-align: center;">PEO-1, PEO-2</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">43</td>
+<td style="text-align: center;"><span class="code-tag">FST-611</span>></td>
+<td>Metodologi Penelitian</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Seluruh PL</td>
+<td style="text-align: center;">PEO-3</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">44</td>
+<td style="text-align: center;"><code>STA/B/C</code></td>
+<td><strong>MK Pilihan Peminatan 2</strong></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">PL-1..3</td>
+<td style="text-align: center;">PEO-1..3</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">45</td>
+<td style="text-align: center;"><code>STA/B/C</code></td>
+<td><strong>MK Pilihan Peminatan 3</strong></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">PL-1..3</td>
+<td style="text-align: center;">PEO-1..3</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="tabel-34-matriks-keterlacakan-tahap-puncak-karya-akhir-semester-7-semester-8">TABEL 3.4: MATRIKS KETERLACAKAN TAHAP PUNCAK &amp; KARYA AKHIR (SEMESTER 7 &amp; SEMESTER 8)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th style="text-align: center;">Kode MK</th>
+<th>Nama Mata Kuliah</th>
+<th style="text-align: center;">SKS</th>
+<th style="text-align: center;">S1</th>
+<th style="text-align: center;">KU1</th>
+<th style="text-align: center;">KU2</th>
+<th style="text-align: center;">KU3</th>
+<th style="text-align: center;">P1</th>
+<th style="text-align: center;">P2</th>
+<th style="text-align: center;">P3</th>
+<th style="text-align: center;">P4</th>
+<th style="text-align: center;">KK1</th>
+<th style="text-align: center;">KK2</th>
+<th style="text-align: center;">KK3</th>
+<th style="text-align: center;">KK4</th>
+<th style="text-align: center;">KK5</th>
+<th style="text-align: center;">KK6</th>
+<th style="text-align: center;">Target PL</th>
+<th style="text-align: center;">Target PEO</th>
+<th style="text-align: center;">Status IRM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">46</td>
+<td style="text-align: center;"><span class="code-tag">STI-701</span>></td>
+<td>Inovasi &amp; Startup Digital</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;">PL-4</td>
+<td style="text-align: center;">PEO-2</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">47</td>
+<td style="text-align: center;"><span class="code-tag">FST-610</span>></td>
+<td>Capstone Project FSTI</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;">Seluruh PL</td>
+<td style="text-align: center;">PEO-1, PEO-2</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">48</td>
+<td style="text-align: center;"><span class="code-tag">FST-612</span>></td>
+<td>Praktik Kerja Lapangan(PKL)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;">Seluruh PL</td>
+<td style="text-align: center;">PEO-1, PEO-2</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">49</td>
+<td style="text-align: center;"><span class="code-tag">FST-613</span>></td>
+<td>Pra-Skripsi / Sempro</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Seluruh PL</td>
+<td style="text-align: center;">PEO-1, PEO-3</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">50</td>
+<td style="text-align: center;"><code>STA/B/C</code></td>
+<td><strong>MK Pilihan Peminatan 4</strong></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">PL-1..3</td>
+<td style="text-align: center;">PEO-1..3</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">51</td>
+<td style="text-align: center;"><code>STA/B/C</code></td>
+<td><strong>MK Pilihan Peminatan 5</strong></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">PL-1..3</td>
+<td style="text-align: center;">PEO-1..3</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">52</td>
+<td style="text-align: center;"><code>STA/B/C</code></td>
+<td><strong>MK Pilihan Peminatan 6</strong></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">PL-1..3,4</td>
+<td style="text-align: center;">PEO-1..3</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">53</td>
+<td style="text-align: center;"><span class="code-tag">FST-714</span>></td>
+<td>Skripsi / Tugas Akhir</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;"><strong>M</strong></td>
+<td style="text-align: center;">Seluruh PL</td>
+<td style="text-align: center;">PEO-1, PEO-2, PEO-3</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="4-matriks-keterlacakan-18-mata-kuliah-pilihan-peminatan-sta-stb-stc">4. MATRIKS KETERLACAKAN 18 MATA KULIAH PILIHAN PEMINATAN (STA / STB / STC)</h2>
+<h3 id="tabel-41-peminatan-1-integrated-smart-systems-sta-18-sks">TABEL 4.1: PEMINATAN 1 — INTEGRATED SMART SYSTEMS (STA- / 18 SKS)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th style="text-align: center;">Kode MK</th>
+<th>Nama Mata Kuliah Pilihan P1</th>
+<th style="text-align: center;">SKS</th>
+<th style="text-align: center;">Sem</th>
+<th>CPL Dibina</th>
+<th style="text-align: center;">PL Relevan</th>
+<th style="text-align: center;">Target PEO</th>
+<th style="text-align: center;">Status IRM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"><code>STA-01</code>></td>
+<td>Decision Support Systems</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5</td>
+<td>P2, KK1, KK2</td>
+<td style="text-align: center;">PL-1</td>
+<td style="text-align: center;">PEO-1, PEO-3</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><code>STA-02</code>></td>
+<td>Computational Methods and Numerics</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">6</td>
+<td>P1, KK1</td>
+<td style="text-align: center;">PL-1</td>
+<td style="text-align: center;">PEO-1, PEO-3</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><code>STA-03</code>></td>
+<td>Intelligent Agent Systems</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">6</td>
+<td>P2, KK1</td>
+<td style="text-align: center;">PL-1</td>
+<td style="text-align: center;">PEO-1, PEO-3</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"><code>STA-04</code>></td>
+<td>MLOps and AI Pipeline</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td>P4, KK1, KK2</td>
+<td style="text-align: center;">PL-1</td>
+<td style="text-align: center;">PEO-1, PEO-3</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><code>STA-05</code>></td>
+<td>Conversational AI &amp; Intelligent Assistant</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td>P2, KK1</td>
+<td style="text-align: center;">PL-1</td>
+<td style="text-align: center;">PEO-1, PEO-2</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;"><code>STA-06</code>></td>
+<td>Smart Surveillance and IoT Analytics</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td>P3, KK1, KK3</td>
+<td style="text-align: center;">PL-1, PL-2</td>
+<td style="text-align: center;">PEO-1, PEO-3</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="tabel-42-peminatan-2-cloud-infrastructure-cybersecurity-stb-18-sks">TABEL 4.2: PEMINATAN 2 — CLOUD INFRASTRUCTURE &amp; CYBERSECURITY (STB- / 18 SKS)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th style="text-align: center;">Kode MK</th>
+<th>Nama Mata Kuliah Pilihan P2</th>
+<th style="text-align: center;">SKS</th>
+<th style="text-align: center;">Sem</th>
+<th>CPL Dibina</th>
+<th style="text-align: center;">PL Relevan</th>
+<th style="text-align: center;">Target PEO</th>
+<th style="text-align: center;">Status IRM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"><code>STB-01</code>></td>
+<td>Network Security &amp; Digital Forensics</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5</td>
+<td>P3, KK3, KK4</td>
+<td style="text-align: center;">PL-2</td>
+<td style="text-align: center;">PEO-1, PEO-3</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><code>STB-02</code>></td>
+<td>Cloud Architecture &amp; DevOps</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">6</td>
+<td>P3, P4, KK3</td>
+<td style="text-align: center;">PL-2</td>
+<td style="text-align: center;">PEO-1, PEO-3</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><code>STB-03</code>></td>
+<td>Cybersecurity Risk Management</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">6</td>
+<td>P3, KK4</td>
+<td style="text-align: center;">PL-2</td>
+<td style="text-align: center;">PEO-1</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"><code>STB-04</code>></td>
+<td>IT Governance &amp; Compliance (COBIT 2019)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td>P3, KK4</td>
+<td style="text-align: center;">PL-2, PL-4</td>
+<td style="text-align: center;">PEO-1, PEO-2</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><code>STB-05</code>></td>
+<td>IT Service Management (ITIL 4)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td>P2, KK4</td>
+<td style="text-align: center;">PL-2, PL-4</td>
+<td style="text-align: center;">PEO-1, PEO-2</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;"><code>STB-06</code>></td>
+<td>Enterprise Architecture (TOGAF)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td>P2, P3, KK4</td>
+<td style="text-align: center;">PL-2, PL-4</td>
+<td style="text-align: center;">PEO-1, PEO-2</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="tabel-43-peminatan-3-digital-platform-engineering-stc-18-sks">TABEL 4.3: PEMINATAN 3 — DIGITAL PLATFORM ENGINEERING (STC- / 18 SKS)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th style="text-align: center;">Kode MK</th>
+<th>Nama Mata Kuliah Pilihan P3</th>
+<th style="text-align: center;">SKS</th>
+<th style="text-align: center;">Sem</th>
+<th>CPL Dibina</th>
+<th style="text-align: center;">PL Relevan</th>
+<th style="text-align: center;">Target PEO</th>
+<th style="text-align: center;">Status IRM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"><code>STC-01</code>></td>
+<td>User Experience Research &amp; Design</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5</td>
+<td>P4, KK5</td>
+<td style="text-align: center;">PL-3</td>
+<td style="text-align: center;">PEO-1, PEO-2</td>
+<td style="text-align: center;"><strong>R</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><code>STC-02</code>></td>
+<td>Rekayasa &amp; Otomasi Proses Bisnis (BPA)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">6</td>
+<td>P2, P4, KK5</td>
+<td style="text-align: center;">PL-3</td>
+<td style="text-align: center;">PEO-1, PEO-2</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><code>STC-03</code>></td>
+<td>Rekayasa Aplikasi Industri Vertikal</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">6</td>
+<td>P4, KK5</td>
+<td style="text-align: center;">PL-3</td>
+<td style="text-align: center;">PEO-1, PEO-2</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"><code>STC-04</code>></td>
+<td>Immersive Media &amp; XR Development</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td>P4, KK5</td>
+<td style="text-align: center;">PL-3</td>
+<td style="text-align: center;">PEO-1, PEO-3</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><code>STC-05</code>></td>
+<td>SaaS Architecture &amp; Multi-Tenancy</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td>P4, KK5</td>
+<td style="text-align: center;">PL-3</td>
+<td style="text-align: center;">PEO-1, PEO-2</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;"><code>STC-06</code>></td>
+<td>Digital Product Management &amp; Agile</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td>P2, KK6</td>
+<td style="text-align: center;">PL-3, PL-4</td>
+<td style="text-align: center;">PEO-1, PEO-2</td>
+<td style="text-align: center;"><strong>M</strong></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="5-rekapitulasi-pemenuhan-cpl-tingkat-distribusi-sks">5. REKAPITULASI PEMENUHAN CPL &amp; TINGKAT DISTRIBUSI SKS</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kategori CPL</th>
+<th style="text-align: center;">Kode CPL</th>
+<th>Deskripsi Ringkas CPL</th>
+<th style="text-align: center;">Jumlah MK Pembina</th>
+<th style="text-align: center;">Total SKS Pembina Langsung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Sikap (S)</strong></td>
+<td style="text-align: center;"><strong>S1</strong></td>
+<td>Integritas, etika komputasi, nilai Pancasila &amp; spiritualitas</td>
+<td style="text-align: center;">7 MK Wajib + Capstone + TA</td>
+<td style="text-align: center;">21 SKS</td>
+</tr>
+<tr>
+<td><strong>Keterampilan Umum (KU)</strong></td>
+<td style="text-align: center;"><strong>KU1</strong></td>
+<td>Berpikir kritis, pemecahan masalah kompleks &amp; logika komputasi</td>
+<td style="text-align: center;">10 MK Wajib + Capstone + TA</td>
+<td style="text-align: center;">29 SKS</td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align: center;"><strong>KU2</strong></td>
+<td>Komunikasi efektif ilmiah, kepemimpinan &amp; kolaborasi tim</td>
+<td style="text-align: center;">6 MK Wajib + Capstone + TA</td>
+<td style="text-align: center;">18 SKS</td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align: center;"><strong>KU3</strong></td>
+<td>Tanggung jawab etis, kepatuhan regulasi siber &amp; hukum digital</td>
+<td style="text-align: center;">4 MK Wajib + Capstone + TA</td>
+<td style="text-align: center;">14 SKS</td>
+</tr>
+<tr>
+<td><strong>Pengetahuan (P)</strong></td>
+<td style="text-align: center;"><strong>P1</strong></td>
+<td>Fondasi matematika sains komputer, logika, aljabar &amp; kalkulus</td>
+<td style="text-align: center;">7 MK Wajib</td>
+<td style="text-align: center;">20 SKS</td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align: center;"><strong>P2</strong></td>
+<td>Konsep sistem informasi cerdas, arsitektur data &amp; tata kelola</td>
+<td style="text-align: center;">12 MK Wajib + Elektif</td>
+<td style="text-align: center;">34 SKS</td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align: center;"><strong>P3</strong></td>
+<td>Infrastruktur komputasi awan, jaringan, IoT &amp; keamanan siber</td>
+<td style="text-align: center;">10 MK Wajib + Elektif</td>
+<td style="text-align: center;">28 SKS</td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align: center;"><strong>P4</strong></td>
+<td>Rekayasa perangkat lunak, algoritma pemrograman &amp; platform</td>
+<td style="text-align: center;">11 MK Wajib + Elektif</td>
+<td style="text-align: center;">32 SKS</td>
+</tr>
+<tr>
+<td><strong>Keterampilan Khusus (KK)</strong></td>
+<td style="text-align: center;"><strong>KK1</strong></td>
+<td>Merancang, melatih &amp; mengintegrasikan model Machine Learning/AI</td>
+<td style="text-align: center;">5 MK Inti + 6 MK P1</td>
+<td style="text-align: center;">33 SKS</td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align: center;"><strong>KK2</strong></td>
+<td>Rekayasa data end-to-end, data mining, DWH/BI &amp; analitik</td>
+<td style="text-align: center;">4 MK Inti + 2 MK P1</td>
+<td style="text-align: center;">18 SKS</td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align: center;"><strong>KK3</strong></td>
+<td>Mengonfigurasi cloud infra, arsitektur jaringan &amp; telemetri IoT</td>
+<td style="text-align: center;">7 MK Inti + 3 MK P2</td>
+<td style="text-align: center;">30 SKS</td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align: center;"><strong>KK4</strong></td>
+<td>Menganalisis risiko keamanan siber, pentest &amp; tata kelola TI</td>
+<td style="text-align: center;">3 MK Inti + 5 MK P2</td>
+<td style="text-align: center;">24 SKS</td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align: center;"><strong>KK5</strong></td>
+<td>Membangun web/mobile multi-platform, UI/UX &amp; microservices</td>
+<td style="text-align: center;">7 MK Inti + 5 MK P3</td>
+<td style="text-align: center;">36 SKS</td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align: center;"><strong>KK6</strong></td>
+<td>Mengelola proyek TI secara adaptif, startup digital &amp; bisnis</td>
+<td style="text-align: center;">4 MK Inti + 2 MK P3 + Capstone</td>
+<td style="text-align: center;">21 SKS</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<hr />
+<h2 id="6-matriks-2-dimensi-bahan-kajian-bok-is2020-it2017-mata-kuliah-standar-aptikom-tabel-6">6. MATRIKS 2-DIMENSI: BAHAN KAJIAN (BoK IS2020 &amp; IT2017) ↔ MATA KULIAH (STANDAR APTIKOM TABEL 6)</h2>
+<p>Matriks ini memetakan relasi langsung antara 19 Bahan Kajian Standar APTIKOM SI (IS2020) dan 14 Bahan Kajian Utama Standar APTIKOM TI (IT2017) terhadap mata kuliah pembina:</p>
+<ul>
+<li><strong>Keterangan Notasi:</strong>  </li>
+<li><code>●</code> : <strong>Bahan Kajian Primer (Core BoK)</strong> — Topik utama yang mendominasi <span class="arithmatex"><span class="MathJax_Preview">\ge 60\%</span><script type="math/tex">\ge 60\%</script></span> bahan ajar mata kuliah.  </li>
+<li><code>○</code> : <strong>Bahan Kajian Sekunder (Supporting BoK)</strong> — Topik pendukung yang diintegrasikan dalam proyek/praktikum (<span class="arithmatex"><span class="MathJax_Preview">\pm 20-40\%</span><script type="math/tex">\pm 20-40\%</script></span>).  </li>
+</ul>
+<h3 id="tabel-61-pemetaan-19-bahan-kajian-is2020-aptikom-v20-mata-kuliah">TABEL 6.1: PEMETAAN 19 BAHAN KAJIAN IS2020 (APTIKOM v2.0) ↔ MATA KULIAH</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode BoK IS</th>
+<th>Nomenklatur Bahan Kajian IS2020</th>
+<th>Mata Kuliah Pembina Primer (●)</th>
+<th>Mata Kuliah Pembina Sekunder (○)</th>
+<th style="text-align: center;">Total MK</th>
+<th style="text-align: center;">Status Cakupan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>BK-IS01</strong></td>
+<td><em>Foundations of Information Systems</em></td>
+<td><span class="code-tag">STI-101</span>>, <span class="code-tag">FST-101</span>></td>
+<td><span class="code-tag">STI-301</span>></td>
+<td style="text-align: center;">3 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IS02</strong></td>
+<td><em>Data and Information Management</em></td>
+<td><span class="code-tag">FST-207</span>>, <span class="code-tag">STI-402</span>>, <span class="code-tag">STI-503</span>></td>
+<td><code>STA-01</code>>, <code>STA-04</code>></td>
+<td style="text-align: center;">5 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IS03</strong></td>
+<td><em>IT Infrastructure and Networking</em></td>
+<td><span class="code-tag">STI-307</span>>, <span class="code-tag">STI-404</span>>, <span class="code-tag">STI-305</span>></td>
+<td><code>STB-01</code>>, <code>STB-02</code>>, <span class="code-tag">STI-504</span>></td>
+<td style="text-align: center;">6 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IS04</strong></td>
+<td><em>Enterprise Architecture</em></td>
+<td><code>STB-06</code>></td>
+<td><span class="code-tag">STI-301</span>>, <span class="code-tag">STI-604</span>></td>
+<td style="text-align: center;">3 MK</td>
+<td style="text-align: center;">✅ Terpenuhi</td>
+</tr>
+<tr>
+<td><strong>BK-IS05</strong></td>
+<td><em>IS Management and Governance</em></td>
+<td><code>STB-04</code>>, <code>STB-05</code>></td>
+<td><span class="code-tag">STI-506</span>>, <code>STB-03</code>></td>
+<td style="text-align: center;">4 MK</td>
+<td style="text-align: center;">✅ Terpenuhi</td>
+</tr>
+<tr>
+<td><strong>BK-IS06</strong></td>
+<td><em>Information Security and Risk Management</em></td>
+<td><span class="code-tag">STI-405</span>>, <span class="code-tag">STI-603</span>>, <code>STB-01</code>>, <code>STB-03</code>></td>
+<td><span class="code-tag">FST-206</span>></td>
+<td style="text-align: center;">5 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IS07</strong></td>
+<td><em>Systems Analysis and Design</em></td>
+<td><span class="code-tag">STI-301</span>>, <span class="code-tag">STI-304</span>></td>
+<td><span class="code-tag">FST-610</span>>, <code>STC-02</code>></td>
+<td style="text-align: center;">4 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IS08</strong></td>
+<td><em>Project Management</em></td>
+<td><span class="code-tag">STI-506</span>>, <code>STC-06</code>></td>
+<td><span class="code-tag">FST-610</span>>, <span class="code-tag">FST-612</span>></td>
+<td style="text-align: center;">4 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IS09</strong></td>
+<td><em>Business Process Management</em></td>
+<td><code>STC-02</code>></td>
+<td><span class="code-tag">STI-301</span>>, <span class="code-tag">STI-602</span>></td>
+<td style="text-align: center;">3 MK</td>
+<td style="text-align: center;">✅ Terpenuhi</td>
+</tr>
+<tr>
+<td><strong>BK-IS10</strong></td>
+<td><em>Applied Mathematics and Logic</em></td>
+<td><span class="code-tag">STI-102</span>>, <span class="code-tag">STI-103</span>>, <span class="code-tag">STI-201</span>>, <span class="code-tag">STI-202</span>>, <span class="code-tag">FST-408</span>>, <span class="code-tag">FST-409</span>></td>
+<td><code>STA-02</code>></td>
+<td style="text-align: center;">7 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IS11</strong></td>
+<td><em>Programming Fundamentals &amp; OOP</em></td>
+<td><span class="code-tag">FST-102</span>>, <span class="code-tag">FST-203</span>>, <span class="code-tag">FST-205</span>></td>
+<td><span class="code-tag">STI-306</span>>, <span class="code-tag">STI-407</span>></td>
+<td style="text-align: center;">5 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IS12</strong></td>
+<td><em>Web and Mobile App Development</em></td>
+<td><span class="code-tag">STI-306</span>>, <span class="code-tag">STI-407</span>>, <span class="code-tag">STI-505</span>>, <span class="code-tag">STI-604</span>></td>
+<td><code>STC-03</code>>, <code>STC-05</code>></td>
+<td style="text-align: center;">6 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IS13</strong></td>
+<td><em>Data Analytics and Business Intelligence</em></td>
+<td><span class="code-tag">STI-402</span>>, <span class="code-tag">STI-503</span>>, <code>STA-01</code>></td>
+<td><span class="code-tag">STI-401</span>>, <code>STA-04</code>></td>
+<td style="text-align: center;">5 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IS14</strong></td>
+<td><em>IT Audit and Compliance</em></td>
+<td><code>STB-04</code>>, <code>STB-03</code>></td>
+<td><span class="code-tag">FST-206</span>>, <code>STB-05</code>></td>
+<td style="text-align: center;">4 MK</td>
+<td style="text-align: center;">✅ Terpenuhi</td>
+</tr>
+<tr>
+<td><strong>BK-IS15</strong></td>
+<td><em>Digital Innovation and Entrepreneurship</em></td>
+<td><span class="code-tag">MKU-202</span>>, <span class="code-tag">STI-701</span>>, <span class="code-tag">FST-610</span>></td>
+<td><code>STC-06</code>></td>
+<td style="text-align: center;">4 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IS16</strong></td>
+<td><em>Artificial Intelligence &amp; Intelligent Systems</em></td>
+<td><span class="code-tag">STI-302</span>>, <span class="code-tag">STI-601</span>>, <code>STA-03</code>>, <code>STA-05</code>></td>
+<td><span class="code-tag">STI-401</span>>, <code>STA-06</code>></td>
+<td style="text-align: center;">6 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IS17</strong></td>
+<td><em>Human-Computer Interaction &amp; UX</em></td>
+<td><span class="code-tag">STI-303</span>>, <code>STC-01</code>></td>
+<td><span class="code-tag">STI-306</span>>, <span class="code-tag">STI-505</span>></td>
+<td style="text-align: center;">4 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IS18</strong></td>
+<td><em>Machine Learning and Data Science</em></td>
+<td><span class="code-tag">STI-401</span>>, <span class="code-tag">STI-501</span>>, <code>STA-04</code>></td>
+<td><code>STA-02</code>>, <code>STA-06</code>></td>
+<td style="text-align: center;">5 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IS19</strong></td>
+<td><em>Cloud Architecture &amp; DevOps</em></td>
+<td><span class="code-tag">STI-404</span>>, <code>STB-02</code>></td>
+<td><span class="code-tag">STI-604</span>>, <code>STC-05</code>></td>
+<td style="text-align: center;">4 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="tabel-62-pemetaan-14-bahan-kajian-utama-it2017-aptikom-mata-kuliah">TABEL 6.2: PEMETAAN 14 BAHAN KAJIAN UTAMA IT2017 (APTIKOM) ↔ MATA KULIAH</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode BoK IT</th>
+<th>Nomenklatur Bahan Kajian Utama IT2017</th>
+<th>Mata Kuliah Pembina Primer (●)</th>
+<th>Mata Kuliah Pembina Sekunder (○)</th>
+<th style="text-align: center;">Total MK</th>
+<th style="text-align: center;">Status Cakupan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>BK-IT01</strong></td>
+<td><em>Information Technology Fundamentals</em></td>
+<td><span class="code-tag">FST-101</span>>, <span class="code-tag">STI-101</span>></td>
+<td><span class="code-tag">FST-204</span>></td>
+<td style="text-align: center;">3 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IT02</strong></td>
+<td><em>Applied AI &amp; Intelligent Technologies</em></td>
+<td><span class="code-tag">STI-302</span>>, <span class="code-tag">STI-401</span>>, <span class="code-tag">STI-501</span>>, <span class="code-tag">STI-601</span>></td>
+<td><code>STA-03..06</code>></td>
+<td style="text-align: center;">8 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IT03</strong></td>
+<td><em>Networking &amp; Communications</em></td>
+<td><span class="code-tag">STI-307</span>></td>
+<td><span class="code-tag">STI-404</span>>, <span class="code-tag">STI-504</span>>, <code>STB-01</code>></td>
+<td style="text-align: center;">4 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IT04</strong></td>
+<td><em>Platform Technologies &amp; Web/Mobile</em></td>
+<td><span class="code-tag">STI-306</span>>, <span class="code-tag">STI-407</span>>, <span class="code-tag">STI-505</span>>, <span class="code-tag">STI-604</span>></td>
+<td><code>STC-03..05</code>></td>
+<td style="text-align: center;">7 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IT05</strong></td>
+<td><em>Cloud Computing &amp; Virtualization</em></td>
+<td><span class="code-tag">STI-404</span>>, <code>STB-02</code>></td>
+<td><span class="code-tag">STI-305</span>>, <code>STC-05</code>></td>
+<td style="text-align: center;">4 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IT06</strong></td>
+<td><em>Cybersecurity Principles &amp; Defense</em></td>
+<td><span class="code-tag">STI-405</span>>, <span class="code-tag">STI-603</span>>, <code>STB-01</code>></td>
+<td><code>STB-03</code>></td>
+<td style="text-align: center;">4 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IT07</strong></td>
+<td><em>System Integration and Architecture</em></td>
+<td><span class="code-tag">STI-601</span>>, <span class="code-tag">STI-604</span>>, <span class="code-tag">FST-610</span>></td>
+<td><code>STB-06</code>>, <code>STC-02</code>></td>
+<td style="text-align: center;">5 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IT08</strong></td>
+<td><em>IT Service Management &amp; Governance</em></td>
+<td><code>STB-04</code>>, <code>STB-05</code>></td>
+<td><span class="code-tag">STI-506</span>></td>
+<td style="text-align: center;">3 MK</td>
+<td style="text-align: center;">✅ Terpenuhi</td>
+</tr>
+<tr>
+<td><strong>BK-IT09</strong></td>
+<td><em>Data Analytics &amp; Information Visualization</em></td>
+<td><span class="code-tag">STI-402</span>>, <span class="code-tag">STI-503</span>></td>
+<td><code>STA-01</code>>, <code>STA-04</code>></td>
+<td style="text-align: center;">4 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IT10</strong></td>
+<td><em>User Experience &amp; Interaction Design</em></td>
+<td><span class="code-tag">STI-303</span>>, <code>STC-01</code>></td>
+<td><span class="code-tag">STI-306</span>>, <code>STC-04</code>></td>
+<td style="text-align: center;">4 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IT11</strong></td>
+<td><em>Software Development Practices</em></td>
+<td><span class="code-tag">STI-304</span>>, <span class="code-tag">STI-407</span>>, <span class="code-tag">STI-604</span>></td>
+<td><span class="code-tag">FST-205</span>>, <code>STC-05</code>></td>
+<td style="text-align: center;">5 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IT12</strong></td>
+<td><em>IT Risk Management and Compliance</em></td>
+<td><code>STB-03</code>>, <code>STB-04</code>></td>
+<td><span class="code-tag">FST-206</span>></td>
+<td style="text-align: center;">3 MK</td>
+<td style="text-align: center;">✅ Terpenuhi</td>
+</tr>
+<tr>
+<td><strong>BK-IT13</strong></td>
+<td><em>Technology Entrepreneurship</em></td>
+<td><span class="code-tag">MKU-202</span>>, <span class="code-tag">STI-701</span>>, <span class="code-tag">FST-610</span>></td>
+<td><code>STC-06</code>></td>
+<td style="text-align: center;">4 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+<tr>
+<td><strong>BK-IT14</strong></td>
+<td><em>IoT and Embedded Smart Systems</em></td>
+<td><span class="code-tag">STI-504</span>>, <code>STA-06</code>></td>
+<td><span class="code-tag">STI-305</span>>, <span class="code-tag">STI-307</span>></td>
+<td style="text-align: center;">4 MK</td>
+<td style="text-align: center;">✅ Sangat Kuat</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="7-matriks-kepatuhan-iku-7-metode-pembelajaran-partisipatif-per-mata-kuliah">7. MATRIKS KEPATUHAN IKU 7 &amp; METODE PEMBELAJARAN PARTISIPATIF PER MATA KULIAH</h2>
+<p>Sesuai Keputusan Menteri Pendidikan dan Kebudayaan No. 210/M/2023 tentang Indikator Kinerja Utama (IKU) Perguruan Tinggi, khususnya <strong>IKU 7 (Kelas yang Kolaboratif dan Partisipatif)</strong>, setiap mata kuliah dievaluasi proporsi pembelajarannya:</p>
+<ul>
+<li><strong>CM:</strong> <em>Case Method</em> (Pemecahan Kasus Nyata)  </li>
+<li><strong>PjBL:</strong> <em>Team-Based Project</em> (Proyek Berbasis Kelompok Terintegrasi)  </li>
+<li><strong>DA:</strong> <em>Direct Assessment / Cognitive Exam</em> (Ujian Teori / Kuis Mandiri)  </li>
+<li><strong>Syarat Mutu IKU 7:</strong> Bobot Evaluasi Kolaboratif <span class="arithmatex"><span class="MathJax_Preview">(CM + PjBL) \ge 50\%</span><script type="math/tex">(CM + PjBL) \ge 50\%</script></span>.</li>
+</ul>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th style="text-align: center;">Kode MK</th>
+<th>Nama Mata Kuliah</th>
+<th style="text-align: center;">SKS</th>
+<th style="text-align: center;">Bobot Case Method (%)</th>
+<th style="text-align: center;">Bobot Team-Based PjBL (%)</th>
+<th style="text-align: center;">Bobot Evaluasi Kognitif / Lab (%)</th>
+<th style="text-align: center;"><strong>Total Bobot IKU 7 (CM + PjBL)</strong></th>
+<th style="text-align: center;">Status Kepatuhan IKU 7</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"><span class="code-tag">FST-101</span>></td>
+<td>Dasar Teknologi Digital</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">50%</td>
+<td style="text-align: center;"><strong>50%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><span class="code-tag">FST-102</span>></td>
+<td>Algoritma &amp; Pemrograman</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">40%</td>
+<td style="text-align: center;">40%</td>
+<td style="text-align: center;"><strong>60%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><span class="code-tag">STI-101</span>></td>
+<td>Pengantar Sistem &amp; TI</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">50%</td>
+<td style="text-align: center;"><strong>50%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"><span class="code-tag">STI-102</span>></td>
+<td>Kalkulus</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">80%</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;"><em>MK Teori Dasar Sains</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><span class="code-tag">STI-103</span>></td>
+<td>Logika Informatika</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">80%</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;"><em>MK Teori Dasar Sains</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;"><span class="code-tag">MKU-101</span>></td>
+<td>Pendidikan Agama I</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">40%</td>
+<td style="text-align: center;"><strong>60%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;"><span class="code-tag">MKU-102</span>></td>
+<td>Pendidikan Pancasila</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">40%</td>
+<td style="text-align: center;"><strong>60%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;"><span class="code-tag">MKU-103</span>></td>
+<td>Bahasa Indonesia</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">40%</td>
+<td style="text-align: center;">40%</td>
+<td style="text-align: center;"><strong>60%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;"><span class="code-tag">STI-201</span>></td>
+<td>Matematika Diskrit</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">80%</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;"><em>MK Teori Dasar Sains</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;"><span class="code-tag">STI-202</span>></td>
+<td>Aljabar Linear &amp; Matriks</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">80%</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;"><em>MK Teori Dasar Sains</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;"><span class="code-tag">FST-203</span>></td>
+<td>Struktur Data &amp; Algoritma</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">40%</td>
+<td style="text-align: center;">40%</td>
+<td style="text-align: center;"><strong>60%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;"><span class="code-tag">FST-204</span>></td>
+<td>Organisasi &amp; Arsitektur Kom</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">50%</td>
+<td style="text-align: center;"><strong>50%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;"><span class="code-tag">FST-205</span>></td>
+<td>Pemrograman Lanjut (OOP)</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">45%</td>
+<td style="text-align: center;">35%</td>
+<td style="text-align: center;"><strong>65%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;"><span class="code-tag">FST-206</span>></td>
+<td>Etika Profesi &amp; Hukum Dig.</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">40%</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">40%</td>
+<td style="text-align: center;"><strong>60%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;"><span class="code-tag">FST-207</span>></td>
+<td>Sistem Basis Data</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">45%</td>
+<td style="text-align: center;">35%</td>
+<td style="text-align: center;"><strong>65%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">16</td>
+<td style="text-align: center;"><span class="code-tag">MKU-202</span>></td>
+<td>Kewirausahaan I</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">40%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;"><strong>70%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">17</td>
+<td style="text-align: center;"><span class="code-tag">STI-301</span>></td>
+<td>Analisis &amp; Perancangan SI</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">40%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;"><strong>70%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">18</td>
+<td style="text-align: center;"><span class="code-tag">STI-302</span>></td>
+<td>Sistem Cerdas</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">25%</td>
+<td style="text-align: center;">35%</td>
+<td style="text-align: center;">40%</td>
+<td style="text-align: center;"><strong>60%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">19</td>
+<td style="text-align: center;"><span class="code-tag">STI-303</span>></td>
+<td>UI/UX Design &amp; Prototyping</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">55%</td>
+<td style="text-align: center;">25%</td>
+<td style="text-align: center;"><strong>75%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;"><span class="code-tag">STI-304</span>></td>
+<td>Rekayasa Perangkat Lunak</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">55%</td>
+<td style="text-align: center;">25%</td>
+<td style="text-align: center;"><strong>75%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;"><span class="code-tag">STI-305</span>></td>
+<td>Sistem Operasi</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">35%</td>
+<td style="text-align: center;">45%</td>
+<td style="text-align: center;"><strong>55%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">22</td>
+<td style="text-align: center;"><span class="code-tag">STI-306</span>></td>
+<td>Web Front End Development</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">50%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;"><strong>70%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;"><span class="code-tag">STI-307</span>></td>
+<td>Jaringan Komputer</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">35%</td>
+<td style="text-align: center;">45%</td>
+<td style="text-align: center;"><strong>55%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">24</td>
+<td style="text-align: center;"><span class="code-tag">STI-401</span>></td>
+<td>Machine Learning</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">50%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;"><strong>70%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">25</td>
+<td style="text-align: center;"><span class="code-tag">STI-402</span>></td>
+<td>Data Warehouse &amp; BI</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">25%</td>
+<td style="text-align: center;">45%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;"><strong>70%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">26</td>
+<td style="text-align: center;"><span class="code-tag">STI-407</span>></td>
+<td>Web Back End Development</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">50%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;"><strong>70%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">27</td>
+<td style="text-align: center;"><span class="code-tag">STI-404</span>></td>
+<td>Komputasi Awan (Cloud)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">45%</td>
+<td style="text-align: center;">35%</td>
+<td style="text-align: center;"><strong>65%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">28</td>
+<td style="text-align: center;"><span class="code-tag">STI-405</span>></td>
+<td>Dasar Keamanan Informasi</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">25%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">45%</td>
+<td style="text-align: center;"><strong>55%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">29</td>
+<td style="text-align: center;"><span class="code-tag">FST-408</span>></td>
+<td>Probabilitas &amp; Statistika</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">10%</td>
+<td style="text-align: center;">70%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;"><em>MK Teori Dasar Sains</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">30</td>
+<td style="text-align: center;"><span class="code-tag">FST-409</span>></td>
+<td>Manajemen Sains &amp; Riset Op</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">50%</td>
+<td style="text-align: center;"><strong>50%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">31</td>
+<td style="text-align: center;"><span class="code-tag">MKU-201</span>></td>
+<td>Kewarganegaraan</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">40%</td>
+<td style="text-align: center;"><strong>60%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">32</td>
+<td style="text-align: center;"><span class="code-tag">STI-501</span>></td>
+<td>Deep Learning &amp; Neural Net</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">50%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;"><strong>70%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">33</td>
+<td style="text-align: center;"><span class="code-tag">STI-503</span>></td>
+<td>Data Mining &amp; Visualisasi</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">45%</td>
+<td style="text-align: center;">35%</td>
+<td style="text-align: center;"><strong>65%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">34</td>
+<td style="text-align: center;"><span class="code-tag">STI-504</span>></td>
+<td>Internet of Things (IoT)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">50%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;"><strong>70%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">35</td>
+<td style="text-align: center;"><span class="code-tag">STI-505</span>></td>
+<td>Pemrograman Mobile</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">50%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;"><strong>70%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">36</td>
+<td style="text-align: center;"><span class="code-tag">STI-506</span>></td>
+<td>Manajemen Proyek TI</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">45%</td>
+<td style="text-align: center;">25%</td>
+<td style="text-align: center;"><strong>75%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">37</td>
+<td style="text-align: center;"><span class="code-tag">MKU-203</span>></td>
+<td>KPM (Pengabdian Masy.)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">70%</td>
+<td style="text-align: center;">10%</td>
+<td style="text-align: center;"><strong>90%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">38</td>
+<td style="text-align: center;"><code>STA/B/C</code></td>
+<td>MK Pilihan Peminatan 1</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">50%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;"><strong>70%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">38.B</td>
+<td style="text-align: center;"><span class="code-tag">MKU-402</span>></td>
+<td>Kewirausahaan II</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">40%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;"><strong>70%</strong></td>
+<td style="text-align: center;"><em>MKWU 0 SKS (Sem 5)</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">39</td>
+<td style="text-align: center;"><span class="code-tag">STI-601</span>></td>
+<td>Integrasi Layanan Cerdas AI</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">55%</td>
+<td style="text-align: center;">25%</td>
+<td style="text-align: center;"><strong>75%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">40</td>
+<td style="text-align: center;"><span class="code-tag">STI-602</span>></td>
+<td>Smart City &amp; Pem. Digital</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">35%</td>
+<td style="text-align: center;">35%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;"><strong>70%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">41</td>
+<td style="text-align: center;"><span class="code-tag">STI-603</span>></td>
+<td>Keamanan Informasi Lanjut</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">40%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;"><strong>70%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">42</td>
+<td style="text-align: center;"><span class="code-tag">STI-604</span>></td>
+<td>Digital Platform Engineering</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">55%</td>
+<td style="text-align: center;">25%</td>
+<td style="text-align: center;"><strong>75%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">43</td>
+<td style="text-align: center;"><span class="code-tag">FST-611</span>></td>
+<td>Metodologi Penelitian</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">40%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;"><strong>70%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">44</td>
+<td style="text-align: center;"><code>STA/B/C</code></td>
+<td>MK Pilihan Peminatan 2</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">50%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;"><strong>70%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">45</td>
+<td style="text-align: center;"><code>STA/B/C</code></td>
+<td>MK Pilihan Peminatan 3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">50%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;"><strong>70%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">46</td>
+<td style="text-align: center;"><span class="code-tag">STI-701</span>></td>
+<td>Inovasi &amp; Startup Digital</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">60%</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;"><strong>80%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">47</td>
+<td style="text-align: center;"><span class="code-tag">FST-610</span>></td>
+<td>Capstone Project FSTI</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">85%</td>
+<td style="text-align: center;">15%</td>
+<td style="text-align: center;"><strong>85%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">48</td>
+<td style="text-align: center;"><span class="code-tag">FST-612</span>></td>
+<td>Praktik Kerja Lapangan(PKL)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">85%</td>
+<td style="text-align: center;">15%</td>
+<td style="text-align: center;"><strong>85%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">49</td>
+<td style="text-align: center;"><span class="code-tag">FST-613</span>></td>
+<td>Pra-Skripsi / Sempro</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">50%</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;"><strong>80%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">50</td>
+<td style="text-align: center;"><code>STA/B/C</code></td>
+<td>MK Pilihan Peminatan 4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">50%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;"><strong>70%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">51</td>
+<td style="text-align: center;"><code>STA/B/C</code></td>
+<td>MK Pilihan Peminatan 5</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">50%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;"><strong>70%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">52</td>
+<td style="text-align: center;"><code>STA/B/C</code></td>
+<td>MK Pilihan Peminatan 6</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">50%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;"><strong>70%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">53</td>
+<td style="text-align: center;"><span class="code-tag">FST-714</span>></td>
+<td>Skripsi / Tugas Akhir</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">90%</td>
+<td style="text-align: center;">10%</td>
+<td style="text-align: center;"><strong>90%</strong></td>
+<td style="text-align: center;">✅ Patuh IKU 7</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p><strong>Rekapitulasi Kepatuhan IKU 7 Kurikulum SISTEKIN 2026:</strong><br />
+<em> </em><em>Persentase MK Memenuhi IKU 7 (CM + PjBL <span class="arithmatex"><span class="MathJax_Preview">\ge 50\%</span><script type="math/tex">\ge 50\%</script></span>):</em><em> </em><em>89.1%</em><em> (49 dari 55 MK paket).<br />
+</em> <strong>Rata-rata Bobot Pembelajaran Kolaboratif Kurikulum:</strong> <strong>67.8%</strong> (Jauh melampaui standar minimal 50%).</p>
+</blockquote>
+<h2 id="8-kesimpulan-penjaminan-mutu-kurikulum-obe">8. KESIMPULAN PENJAMINAN MUTU KURIKULUM OBE</h2>
+<p>Dokumen matriks keterlacakan ini membuktikan secara definitif bahwa kurikulum SISTEKIN 2026:
+1. <strong>Memiliki Keselarasan Konstruktif Utuh:</strong> Tidak ada pemisahan (<em>disconnect</em>) antara visi institusi dengan mata kuliah yang diajarkan setiap minggunya.
+2. <strong>Keseimbangan Bobot SKS:</strong> Seluruh 14 CPL terlayani secara adil dan proporsional dengan alokasi SKS yang solid.
+3. <strong>Kepatuhan Instrumen Akreditasi:</strong> Format matriks memenuhi 100% instrumen akreditasi LAM INFOKOM Kriteria 6 dan standar IABEE Kriteria 1-3.</p>
+<hr />
+<p><em>Disahkan sebagai Dokumen Resmi 004 — Kurikulum OBE Revisi SISTEKIN 2026.</em><br />
+<strong>Tim Pengembang Kurikulum FSTI Universitas Widyagama Malang</strong></p>
+
+            <div class="doc-nav">
+                <div><a href="003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.html" class="nav-btn">← Sebelumnya</a></div>
+                <div><a href="index.html" class="nav-btn">🏠 Index Utama</a></div>
+                <div><a href="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" class="nav-btn">Selanjutnya →</a></div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p><strong>Dokumen Resmi Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
+            <p>Tim Pengembang Kurikulum FSTI — Universitas Widyagama Malang © 2026</p>
+        </footer>
+    </div>
+
+    <script>
+        // Mermaid Init
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'dark',
+            flowchart: { curve: 'basis', useMaxWidth: true }
+        });
+
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        let currentTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', currentTheme);
+
+        themeToggle.addEventListener('click', () => {
+            currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', currentTheme);
+            localStorage.setItem('theme', currentTheme);
+        });
+
+        // Live Table Search Filter
+        const searchInput = document.getElementById('globalTableSearch');
+        if (searchInput) {
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase().trim();
+                const rows = document.querySelectorAll('table tbody tr');
+                rows.forEach(row => {
+                    const text = row.innerText.toLowerCase();
+                    if (query === '' || text.includes(query)) {
+                        row.style.display = '';
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+            });
+        }
+    </script>
+</body>
+</html>

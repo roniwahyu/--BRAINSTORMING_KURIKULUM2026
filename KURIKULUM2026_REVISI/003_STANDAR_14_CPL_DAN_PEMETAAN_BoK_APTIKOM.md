@@ -105,7 +105,7 @@ Setiap CPL diturunkan ke dalam **Indikator Kinerja (IK/PI)** terukur dengan pene
 
 ---
 
-## 4. MATRIKS SILANG CPL $\leftrightarrow$ 19 BAHAN KAJIAN (BoK) IS2020 (APTIKOM v2.0)
+## 4. MATRIKS SILANG CPL ↔ 19 BAHAN KAJIAN (BoK) IS2020 (APTIKOM v2.0)
 
 Berikut adalah matriks cross-tabulation pemenuhan 19 Bahan Kajian Standar APTIKOM S1 Sistem Informasi (IS2020) terhadap 14 CPL SISTEKIN:
 
@@ -133,7 +133,7 @@ Berikut adalah matriks cross-tabulation pemenuhan 19 Bahan Kajian Standar APTIKO
 
 ---
 
-## 5. MATRIKS SILANG CPL $\leftrightarrow$ 14 BAHAN KAJIAN UTAMA (BoK) IT2017 (APTIKOM)
+## 5. MATRIKS SILANG CPL ↔ 14 BAHAN KAJIAN UTAMA (BoK) IT2017 (APTIKOM)
 
 Berikut adalah matriks cross-tabulation pemenuhan 14 Bahan Kajian Utama Standar APTIKOM S1 Teknologi Informasi (IT2017/CC2020) terhadap 14 CPL SISTEKIN:
 
@@ -156,7 +156,7 @@ Berikut adalah matriks cross-tabulation pemenuhan 14 Bahan Kajian Utama Standar 
 
 ---
 
-## 6. MATRIKS PEMETAAN CPL $\leftrightarrow$ 4 PROFIL LULUSAN (PL)
+## 6. MATRIKS PEMETAAN CPL ↔ 4 PROFIL LULUSAN (PL)
 
 | Profil Lulusan SISTEKIN 2026 | Peminatan Terkait | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -172,7 +172,7 @@ Berikut adalah matriks cross-tabulation pemenuhan 14 Bahan Kajian Utama Standar 
 
 ---
 
-## 7. MATRIKS PEMETAAN CPL $\leftrightarrow$ 3 PROGRAM EDUCATIONAL OBJECTIVES (PEO)
+## 7. MATRIKS PEMETAAN CPL ↔ 3 PROGRAM EDUCATIONAL OBJECTIVES (PEO)
 
 | Kode PEO | Nomenklatur Program Educational Objectives (3–5 Tahun) | CPL Sikap & Umum | CPL Pengetahuan | CPL Keterampilan Khusus |
 |---|---|---|---|---|

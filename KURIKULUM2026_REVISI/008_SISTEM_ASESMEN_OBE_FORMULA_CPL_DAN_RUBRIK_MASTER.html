@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>008 — Sistem Asesmen OBE & Attainment CPL | Kurikulum OBE SISTEKIN 2026</title>
+    <meta name="description" content="Dokumen Resmi Kurikulum OBE 2026 Program Studi Sistem dan Teknologi Informasi (S1) FSTI UWG Malang.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- KaTeX for LaTeX Math -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+
+    <!-- Mermaid JS for Flowcharts -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+
+    <style>
+        :root {
+            --bg-primary: #0b0f19;
+            --bg-secondary: #111827;
+            --bg-card: rgba(17, 24, 39, 0.75);
+            --bg-card-hover: rgba(31, 41, 55, 0.85);
+            --border-color: rgba(255, 255, 255, 0.1);
+            --border-accent: rgba(99, 102, 241, 0.35);
+            
+            --text-primary: #f9fafb;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+            
+            --primary: #6366f1;
+            --primary-light: #818cf8;
+            --secondary: #06b6d4;
+            --accent: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            
+            --mkwu-color: #ec4899;
+            --fsti-color: #8b5cf6;
+            --sti-color: #3b82f6;
+            --elektif-color: #10b981;
+            
+            --font-sans: 'Plus Jakarta Sans', 'Inter', sans-serif;
+            --font-code: 'Fira Code', monospace;
+            --shadow-glow: 0 0 30px rgba(99, 102, 241, 0.12);
+            --radius-lg: 16px;
+            --radius-md: 12px;
+            --radius-sm: 8px;
+        }
+
+        [data-theme="light"] {
+            --bg-primary: #f8fafc;
+            --bg-secondary: #ffffff;
+            --bg-card: rgba(255, 255, 255, 0.9);
+            --bg-card-hover: #ffffff;
+            --border-color: rgba(0, 0, 0, 0.08);
+            --border-accent: rgba(99, 102, 241, 0.25);
+            
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --text-muted: #94a3b8;
+            
+            --shadow-glow: 0 10px 30px rgba(99, 102, 241, 0.08);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            padding-bottom: 80px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Navbar */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(11, 15, 25, 0.85);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 14px 0;
+            margin-bottom: 32px;
+        }
+        [data-theme="light"] .navbar { background: rgba(248, 250, 252, 0.85); }
+
+        .navbar-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+        .brand-logo {
+            width: 40px; height: 40px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: var(--radius-sm);
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 800; color: white; font-size: 1.1rem;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+        }
+        .brand-text h1 { font-size: 1.05rem; font-weight: 700; color: var(--text-primary); }
+        .brand-text p { font-size: 0.75rem; color: var(--text-secondary); }
+
+        .doc-select {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            font-size: 0.85rem;
+            font-weight: 600;
+            outline: none;
+            cursor: pointer;
+            max-width: 380px;
+        }
+
+        .search-box {
+            position: relative;
+            min-width: 240px;
+        }
+        .search-input {
+            width: 100%;
+            padding: 8px 14px 8px 34px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            color: var(--text-primary);
+            font-size: 0.85rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .search-input:focus { border-color: var(--primary); }
+        .search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); font-size: 0.8rem; opacity: 0.6; }
+
+        .nav-actions { display: flex; align-items: center; gap: 10px; }
+        .btn-action {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            cursor: pointer; font-size: 0.85rem; font-weight: 600;
+            display: inline-flex; align-items: center; gap: 6px;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
+        .btn-action:hover { border-color: var(--primary); color: var(--primary-light); transform: translateY(-1px); }
+
+        /* Hero Header */
+        .hero {
+            background: radial-gradient(circle at top right, rgba(99, 102, 241, 0.15), transparent 50%),
+                        radial-gradient(circle at bottom left, rgba(6, 182, 212, 0.1), transparent 50%);
+            border: 1px solid var(--border-accent);
+            border-radius: var(--radius-lg);
+            padding: 36px;
+            margin-bottom: 36px;
+            box-shadow: var(--shadow-glow);
+        }
+        .hero-badge-group { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+        .badge {
+            font-size: 0.72rem; font-weight: 700; padding: 4px 12px; border-radius: 20px;
+            letter-spacing: 0.03em; text-transform: uppercase;
+        }
+        .badge-primary { background: rgba(99, 102, 241, 0.2); color: var(--primary-light); border: 1px solid rgba(99, 102, 241, 0.4); }
+        .badge-accent { background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); }
+        .badge-warning { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.4); }
+
+        .hero-title {
+            font-size: 2rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 8px;
+            background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        [data-theme="light"] .hero-title {
+            background: linear-gradient(135deg, #0f172a 0%, #334155 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+
+        /* Typography & Content */
+        .content {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+        }
+
+        .content h1 { font-size: 1.8rem; font-weight: 800; margin: 32px 0 16px 0; color: var(--text-primary); border-bottom: 2px solid var(--border-accent); padding-bottom: 10px; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 30px 0 14px 0; color: var(--primary-light); border-bottom: 1px solid var(--border-color); padding-bottom: 8px; }
+        .content h3 { font-size: 1.15rem; font-weight: 700; margin: 24px 0 12px 0; color: var(--text-primary); }
+        .content h4 { font-size: 1rem; font-weight: 600; margin: 18px 0 8px 0; color: var(--text-secondary); }
+
+        .content p { margin-bottom: 16px; color: var(--text-secondary); font-size: 0.96rem; }
+        .content ul, .content ol { margin: 0 0 20px 24px; color: var(--text-secondary); font-size: 0.95rem; }
+        .content li { margin-bottom: 6px; }
+        .content blockquote {
+            border-left: 4px solid var(--primary);
+            padding: 12px 20px;
+            background: rgba(99, 102, 241, 0.06);
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            margin: 20px 0;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Tables */
+        .table-wrapper { overflow-x: auto; margin: 24px 0; border-radius: var(--radius-md); border: 1px solid var(--border-color); }
+        table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem; }
+        th {
+            background: rgba(31, 41, 55, 0.7); color: var(--text-primary);
+            font-weight: 700; padding: 12px 16px; border-bottom: 1px solid var(--border-color);
+            font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em;
+        }
+        [data-theme="light"] th { background: #f1f5f9; }
+        td { padding: 12px 16px; border-bottom: 1px solid var(--border-color); color: var(--text-secondary); }
+        tr:last-child td { border-bottom: none; }
+        tr:hover td { background: var(--bg-card-hover); color: var(--text-primary); }
+
+        /* Code Badges */
+        .code-tag {
+            font-family: var(--font-code); font-weight: 600; font-size: 0.82rem;
+            padding: 2px 8px; border-radius: 4px; background: rgba(99, 102, 241, 0.12);
+            color: var(--primary-light); border: 1px solid rgba(99, 102, 241, 0.25);
+        }
+        code {
+            font-family: var(--font-code); font-size: 0.85rem; padding: 2px 6px;
+            background: rgba(255, 255, 255, 0.06); border-radius: 4px; color: var(--primary-light);
+        }
+
+        .cat-badge { font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px; display: inline-block; }
+        .cat-mkwu { background: rgba(236, 72, 153, 0.15); color: #f472b6; border: 1px solid rgba(236, 72, 153, 0.3); }
+        .cat-fsti { background: rgba(139, 92, 246, 0.15); color: #c084fc; border: 1px solid rgba(139, 92, 246, 0.3); }
+        .cat-sti  { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
+        .cat-elektif { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+
+        /* Custom Alerts */
+        .custom-alert {
+            border-left: 4px solid var(--primary);
+            background: rgba(17, 24, 39, 0.6);
+            border: 1px solid var(--border-color);
+            border-left-width: 4px;
+            border-radius: var(--radius-md);
+            padding: 16px 20px;
+            margin: 24px 0;
+        }
+        .alert-important { border-left-color: var(--primary); background: rgba(99, 102, 241, 0.08); }
+        .alert-note { border-left-color: var(--secondary); background: rgba(6, 182, 212, 0.08); }
+        .alert-tip { border-left-color: var(--accent); background: rgba(16, 185, 129, 0.08); }
+        .alert-warning { border-left-color: var(--warning); background: rgba(245, 158, 11, 0.08); }
+        .alert-caution { border-left-color: var(--danger); background: rgba(239, 68, 68, 0.08); }
+        
+        .alert-header { font-weight: 700; font-size: 0.9rem; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
+        .alert-important .alert-header { color: var(--primary-light); }
+        .alert-note .alert-header { color: var(--secondary); }
+        .alert-tip .alert-header { color: var(--accent); }
+        .alert-warning .alert-header { color: var(--warning); }
+        .alert-caution .alert-header { color: var(--danger); }
+        .alert-content { color: var(--text-secondary); font-size: 0.92rem; }
+
+        /* ASCII Tables Box */
+        .ascii-table-box {
+            background: #090d16;
+            border: 1px solid var(--border-accent);
+            border-radius: var(--radius-md);
+            padding: 16px;
+            font-family: var(--font-code);
+            font-size: 0.8rem;
+            color: var(--primary-light);
+            overflow-x: auto;
+            margin: 24px 0;
+            white-space: pre;
+        }
+
+        /* Mermaid Box */
+        .mermaid-card {
+            background: rgba(17, 24, 39, 0.5);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 24px; margin: 24px 0;
+            text-align: center; overflow-x: auto;
+        }
+
+        /* Bottom Nav Links */
+        .doc-nav {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--border-color);
+        }
+        .nav-btn {
+            background: var(--bg-secondary); border: 1px solid var(--border-color);
+            color: var(--text-primary); padding: 10px 18px; border-radius: var(--radius-sm);
+            text-decoration: none; font-weight: 600; font-size: 0.88rem; transition: all 0.2s;
+        }
+        .nav-btn:hover { border-color: var(--primary); color: var(--primary-light); }
+
+        /* Footer */
+        .footer { margin-top: 60px; text-align: center; color: var(--text-muted); font-size: 0.85rem; }
+
+        @media print {
+            body { background: white; color: black; }
+            .navbar, .nav-actions, .doc-nav, .search-box { display: none; }
+            .hero, .content { border: 1px solid #ccc; box-shadow: none; background: white; padding: 20px; }
+            th { background: #eee !important; color: black !important; }
+            td { color: black !important; }
+            .code-tag { background: #f0f0f0; color: black; border: 1px solid #ccc; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <a href="index.html" class="brand">
+                <div class="brand-logo">STI</div>
+                <div class="brand-text">
+                    <h1>SISTEKIN — FSTI UWG</h1>
+                    <p>Buku Kurikulum OBE 2026</p>
+                </div>
+            </a>
+            
+            <select class="doc-select" onchange="window.location.href=this.value">
+                <option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
+<option value="002_FORMULASI_3_PEO_DAN_4_PROFIL_LULUSAN_SISTEKIN.html" >002 — Formulasi 3 PEO & 4 Profil Lulusan</option>
+<option value="003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.html" >003 — Standar 14 CPL & Pemetaan BoK APTIKOM</option>
+<option value="004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.html" >004 — Matriks Keterlacakan OBE VMTS-PEO-PL-CPL-MK</option>
+<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — Struktur Kurikulum 8 Semester & Peminatan</option>
+<option value="006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.html" >006 — Distribusi MK Peminatan & Panduan MBKM</option>
+<option value="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" >007 — Silabus 3-Tabel & CPMK 67 MK Portofolio</option>
+<option value="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" selected>008 — Sistem Asesmen OBE & Attainment CPL</option>
+<option value="009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.html" >009 — Pedoman Capstone & 4 Opsi TA Non-Skripsi</option>
+<option value="010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.html" >010 — Instrumen Tracer Study & Evaluasi PEO</option>
+<option value="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" >📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)</option>
+            </select>
+
+            
+    <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="globalTableSearch" class="search-input" placeholder="Cari dalam dokumen (kode, MK, istilah, tabel)...">
+    </div>
+    
+
+            <div class="nav-actions">
+                <a href="index.html" class="btn-action">🏠 Portal Dokumen</a>
+                <button class="btn-action" onclick="window.print()">🖨️ Cetak PDF</button>
+                <button class="btn-action" id="themeToggle">🌓 Tema</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-badge-group">
+                <span class="badge badge-primary">Kurikulum OBE 2026</span>
+                <span class="badge badge-accent">Permendikbudristek 53/2023</span>
+                <span class="badge badge-warning">FSTI UWG Malang</span>
+            </div>
+            <h1 class="hero-title">008 — Sistem Asesmen OBE & Attainment CPL</h1>
+            <p style="color: var(--text-secondary); font-size: 0.95rem;">Dokumen Kurikulum OBE Definitif Program Studi Sistem dan Teknologi Informasi (S1)</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="content">
+            <h1 id="008-sistem-asesmen-obe-skema-4x-evaluasi-terstruktur-formula-cpl-dan-rubrik-master">008 — SISTEM ASESMEN OBE, SKEMA 4x EVALUASI TERSTRUKTUR, FORMULA CPL, DAN RUBRIK MASTER</h1>
+<h2 id="program-studi-sistem-dan-teknologi-informasi-s1-fakultas-sains-dan-teknologi-informasi-fsti-universitas-widyagama-malang">Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang</h2>
+<blockquote>
+<p><strong>Dokumen Revisi Definitif Kurikulum 2026</strong><br />
+<strong>Status:</strong> Master Panduan Asesmen OBE Terintegrasi (Kepatuhan IKU 7 &amp; Standar 4 Titik Asesmen)<br />
+<strong>Standar Rujukan:</strong> Standar LAM INFOKOM Kriteria 6 (Pendidikan) &amp; Kriteria 9 (Luaran CPL), Panduan Kurikulum OBE APTIKOM v2.0, IABEE Criteria for Assessment &amp; CQI.</p>
+</blockquote>
+<hr />
+<h3 id="visualisasi-alur-hingga-asesmen-obe-siklus-ppepp">VISUALISASI ALUR HINGGA ASESMEN OBE &amp; SIKLUS PPEPP</h3>
+<div class="mermaid-card"><div class="mermaid">
+graph TD
+    subgraph ASESMEN_FLOW [&quot;PIPELINE PENGUKURAN CPL&quot;]
+        MK[&quot;Asesmen 4x MK (Tugas1, UTS, Tugas2, UAS)&quot;] --&gt; CPMK[&quot;Skor Attainment CPMK (Bloom C2-C6)&quot;]
+        CPMK --&gt; CPL_IND[&quot;Formula CPL Attainment Individu&quot;]
+        CPL_IND --&gt; RADAR[&quot;Radar Chart CPL pada SKPI Wisudawan&quot;]
+    end
+
+    subgraph PPEPP [&quot;SIKLUS CONTINUOUS QUALITY IMPROVEMENT (CQI)&quot;]
+        P1[&quot;Penetapan Baseline&quot;] --&gt; P2[&quot;Pelaksanaan RPS&quot;]
+        P2 --&gt; E[&quot;Evaluasi Attainment Cohort (Target ≥ 80%)&quot;]
+        E --&gt; P3[&quot;Pengendalian Gap (RCA &amp; RTM)&quot;]
+        P3 --&gt; P4[&quot;Peningkatan Kurikulum (CQI)&quot;]
+    end
+
+    CPL_IND --&gt; E
+</div></div>
+
+<hr />
+<h2 id="1-kerangka-asesmen-obe-sistekin-2026">1. KERANGKA ASESMEN OBE SISTEKIN 2026</h2>
+<p>Sistem penilaian pada Kurikulum OBE SISTEKIN berorientasi penuh pada pembuktian ketercapaian <strong>14 CPL</strong> secara langsung (<em>Direct Assessment</em>) melalui Capaian Pembelajaran Mata Kuliah (CPMK):</p>
+<div class="table-wrapper">
+<div class="table-title-header" style="background: rgba(99, 102, 241, 0.15); padding: 10px 16px; font-weight: 700; color: var(--primary-light); border: 1px solid var(--border-color); border-bottom: none; border-radius: var(--radius-md) var(--radius-md) 0 0; text-align: center;">SIKLUS ASESMEN BERBASIS LUARAN (OBE)</div>
+<div class="table-wrapper"><table><thead><tr>
+<th>1. Mata Kuliah merumuskan 3–4 CPMK (Bloom C2–C6) &amp; Sub-CPMK per pekan.&lt;br&gt;2. Instrumen Asesmen distandarisasi ke dalam 4 Titik Evaluasi Terstruktur.&lt;br&gt;3. Nilai Mahasiswa dihitung per CPMK menggunakan Rubrik Analitik Terstandar.&lt;br&gt;4. Skor Ketercapaian CPL dihitung menggunakan Formula Bobot Matriks MK ↔ CPL.&lt;br&gt;5. Analisis Gap &amp; Tindak Lanjut Perbaikan Berkelanjutan (PPEPP / CQI).</th>
+</tr></thead><tbody>
+</tbody></table></div></div>
+
+<div class="custom-alert alert-important">
+    <div class="alert-header"><span class="alert-icon">⚡</span> IMPORTANT</div>
+    <div class="alert-content">**Kepatuhan IKU 7 (Indikator Kinerja Utama Kemendikbudristek):**  
+Setiap mata kuliah keahlian dan praktikum wajib mengalokasikan **minimal 50% bobot evaluasi** menggunakan metode pembelajaran partisipatif dan kolaboratif: **Case Method (Studi Kasus)** atau **Team-Based Project (PjBL)**.</div>
+</div>
+
+<hr />
+<h2 id="2-skema-standar-4x-titik-evaluasi-mata-kuliah">2. SKEMA STANDAR 4x TITIK EVALUASI MATA KULIAH</h2>
+<p>Untuk memastikan kemudahan pengelolaan nilai di Sistem Informasi Akademik (SIAKAD), menjaga keadilan beban belajar mahasiswa, serta memetakan secara langsung 1-to-1 terhadap CPMK mata kuliah, Program Studi SISTEKIN menetapkan <strong>Skema Baku 4x Titik Asesmen</strong>:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Komponen Asesmen</th>
+<th style="text-align: center;">Jadwal Pekan</th>
+<th>Target Evaluasi CPMK</th>
+<th style="text-align: center;">Bobot MK Teori</th>
+<th style="text-align: center;">Bobot MK Praktikum / Proyek (+P)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Tugas 1</strong></td>
+<td style="text-align: center;">Pekan 4 / 5</td>
+<td><strong>CPMK-1</strong> (Fondasi Konsep / Kuis / Problem Solving Awal)</td>
+<td style="text-align: center;"><strong>20%</strong></td>
+<td style="text-align: center;"><strong>20%</strong> <em>(Milestone Proyek 1 / Modul Lab 1)</em></td>
+</tr>
+<tr>
+<td><strong>UTS</strong></td>
+<td style="text-align: center;">Pekan 8</td>
+<td><strong>CPMK-2</strong> (atau CPMK-1 &amp; 2) (Evaluasi Tengah Semester)</td>
+<td style="text-align: center;"><strong>30%</strong> <em>(Ujian Teori Terjadwal)</em></td>
+<td style="text-align: center;"><strong>25%</strong> <em>(Ujian Praktik / Evaluasi Proyek 50%)</em></td>
+</tr>
+<tr>
+<td><strong>Tugas 2</strong></td>
+<td style="text-align: center;">Pekan 12 / 13</td>
+<td><strong>CPMK-3</strong> (Penerapan Lanjut / Studi Kasus / Integrasi Sistem)</td>
+<td style="text-align: center;"><strong>20%</strong> <em>(Paper Analisis / Kasus 2)</em></td>
+<td style="text-align: center;"><strong>25%</strong> <em>(Milestone Proyek 2 / Integrasi Sistem)</em></td>
+</tr>
+<tr>
+<td><strong>UAS</strong></td>
+<td style="text-align: center;">Pekan 16</td>
+<td><strong>CPMK-4</strong> (Evaluasi Akhir Komprehensif &amp; Sintesis CPL)</td>
+<td style="text-align: center;"><strong>30%</strong> <em>(Ujian Akhir Komprehensif)</em></td>
+<td style="text-align: center;"><strong>30%</strong> <em>(Demo Day, Portofolio &amp; Uji Produk)</em></td>
+</tr>
+<tr>
+<td><strong>TOTAL BOBOT</strong></td>
+<td style="text-align: center;"></td>
+<td><strong>Pemenuhan 100% CPMK Mata Kuliah</strong></td>
+<td style="text-align: center;"><strong>100%</strong></td>
+<td style="text-align: center;"><strong>100%</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p><em>Catatan:</em> Pekan-pekan selain 4 titik di atas difokuskan pada aktivitas pembelajaran aktif (<em>active learning, hands-on coding, live discussion</em>) yang bersifat formatif (<em>non-graded</em>).</p>
+<hr />
+<h2 id="3-formula-matematis-ketercapaian-cpl-cpl-attainment-formulation">3. FORMULA MATEMATIS KETERCAPAIAN CPL (CPL ATTAINMENT FORMULATION)</h2>
+<h3 id="31-perhitungan-ketercapaian-cpmk-pada-mata-kuliah-score_cpmk_jscore_cpmk_j">3.1 Perhitungan Ketercapaian CPMK pada Mata Kuliah (<span class="arithmatex"><span class="MathJax_Preview">Score_{CPMK_j}</span><script type="math/tex">Score_{CPMK_j}</script></span>)</h3>
+<p>Skor ketercapaian untuk suatu <span class="arithmatex"><span class="MathJax_Preview">CPMK_j</span><script type="math/tex">CPMK_j</script></span> pada mata kuliah <span class="arithmatex"><span class="MathJax_Preview">k</span><script type="math/tex">k</script></span> oleh mahasiswa <span class="arithmatex"><span class="MathJax_Preview">i</span><script type="math/tex">i</script></span> dihitung sebagai rata-rata berbobot dari instrumen asesmen terkait:</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">Score_{CPMK_j, k}(i) = \sum_{m=1}^{M} \left( W_{jm} \times Score_{m}(i) \right)</div>
+<script type="math/tex; mode=display">Score_{CPMK_j, k}(i) = \sum_{m=1}^{M} \left( W_{jm} \times Score_{m}(i) \right)</script>
+</div>
+<p><em>Dimana:</em>
+* <span class="arithmatex"><span class="MathJax_Preview">Score_m(i)</span><script type="math/tex">Score_m(i)</script></span> = Nilai instrumen asesmen ke-<span class="arithmatex"><span class="MathJax_Preview">m</span><script type="math/tex">m</script></span> (Tugas 1, UTS, Tugas 2, atau UAS, skala 0–100).
+* <span class="arithmatex"><span class="MathJax_Preview">W_{jm}</span><script type="math/tex">W_{jm}</script></span> = Bobot instrumen ke-<span class="arithmatex"><span class="MathJax_Preview">m</span><script type="math/tex">m</script></span> terhadap <span class="arithmatex"><span class="MathJax_Preview">CPMK_j</span><script type="math/tex">CPMK_j</script></span> (<span class="arithmatex"><span class="MathJax_Preview">\sum W_{jm} = 1.0</span><script type="math/tex">\sum W_{jm} = 1.0</script></span>).</p>
+<hr />
+<h3 id="32-perhitungan-nilai-akhir-mata-kuliah-na_kna_k">3.2 Perhitungan Nilai Akhir Mata Kuliah (<span class="arithmatex"><span class="MathJax_Preview">NA_k</span><script type="math/tex">NA_k</script></span>)</h3>
+<p>Nilai akhir mata kuliah merupakan agregasi dari seluruh ketercapaian CPMK:</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">NA_k(i) = \sum_{j=1}^{J} \left( W_{CPMK_j, k} \times Score_{CPMK_j, k}(i) \right)</div>
+<script type="math/tex; mode=display">NA_k(i) = \sum_{j=1}^{J} \left( W_{CPMK_j, k} \times Score_{CPMK_j, k}(i) \right)</script>
+</div>
+<hr />
+<h3 id="33-perhitungan-ketercapaian-cpl-mahasiswa-individu-attainment_cpl_xiattainment_cpl_xi">3.3 Perhitungan Ketercapaian CPL Mahasiswa Individu (<span class="arithmatex"><span class="MathJax_Preview">Attainment_{CPL_x}(i)</span><script type="math/tex">Attainment_{CPL_x}(i)</script></span>)</h3>
+<p>Ketercapaian seorang mahasiswa <span class="arithmatex"><span class="MathJax_Preview">i</span><script type="math/tex">i</script></span> pada suatu <span class="arithmatex"><span class="MathJax_Preview">CPL_x</span><script type="math/tex">CPL_x</script></span> dihitung dari seluruh mata kuliah pembina <span class="arithmatex"><span class="MathJax_Preview">CPL_x</span><script type="math/tex">CPL_x</script></span>:</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">Attainment_{CPL_x}(i) = \frac{\sum_{k \in MK(CPL_x)} \left( SKS_k \times Weight_{k, CPL_x} \times NA_k(i) \right)}{\sum_{k \in MK(CPL_x)} \left( SKS_k \times Weight_{k, CPL_x} \right)}</div>
+<script type="math/tex; mode=display">Attainment_{CPL_x}(i) = \frac{\sum_{k \in MK(CPL_x)} \left( SKS_k \times Weight_{k, CPL_x} \times NA_k(i) \right)}{\sum_{k \in MK(CPL_x)} \left( SKS_k \times Weight_{k, CPL_x} \right)}</script>
+</div>
+<p><em>Ambang Batas Kelulusan CPL Minimum:</em> <strong>65,0 (Kategori B / Memuaskan)</strong>.</p>
+<hr />
+<h3 id="34-perhitungan-ketercapaian-cpl-program-studi-cohort_attainment_cpl_xcohort_attainment_cpl_x">3.4 Perhitungan Ketercapaian CPL Program Studi (<span class="arithmatex"><span class="MathJax_Preview">Cohort\_Attainment_{CPL_x}</span><script type="math/tex">Cohort\_Attainment_{CPL_x}</script></span>)</h3>
+<p>Untuk akreditasi LAM INFOKOM Kriteria 9, persentase ketercapaian kohor lulusan dihitung:</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">\% Cohort\_Attainment_{CPL_x} = \left( \frac{\text{Jumlah Mahasiswa dengan } Attainment_{CPL_x} \ge 65.0}{\text{Total Mahasiswa dalam Angkatan}} \right) \times 100\%</div>
+<script type="math/tex; mode=display">\% Cohort\_Attainment_{CPL_x} = \left( \frac{\text{Jumlah Mahasiswa dengan } Attainment_{CPL_x} \ge 65.0}{\text{Total Mahasiswa dalam Angkatan}} \right) \times 100\%</script>
+</div>
+<p><em>Target Standar Mutu Prodi SISTEKIN:</em> <strong>Minimal 80% mahasiswa mencapai threshold CPL <span class="arithmatex"><span class="MathJax_Preview">\ge 65,0</span><script type="math/tex">\ge 65,0</script></span></strong>.</p>
+<hr />
+<h2 id="4-master-rubrik-penilaian-obe-terstandar">4. MASTER RUBRIK PENILAIAN OBE TERSTANDAR</h2>
+<h3 id="41-rubrik-1-penilaian-proyek-rekayasa-perangkat-lunak-coding-pjbl">4.1 Rubrik 1: Penilaian Proyek Rekayasa Perangkat Lunak &amp; Coding (PjBL)</h3>
+<p><em>Digunakan untuk MK Praktikum, Platform Engineering, AI, dan Capstone Project.</em></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kriteria</th>
+<th>Sangat Baik (81 – 100)</th>
+<th>Baik (70 – 80)</th>
+<th>Cukup (56 – 69)</th>
+<th>Kurang (&lt; 56)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1. Arsitektur &amp; Struktur Kode (25%)</strong></td>
+<td>Arsitektur modular, SOLID, clean code, terdokumentasi rapi.</td>
+<td>Arsitektur cukup modular, pola desain standar industri.</td>
+<td>Arsitektur kurang teratur, terjadi duplikasi kode.</td>
+<td>Kode monolitik tanpa pola, sulit dibaca dan dipelihara.</td>
+</tr>
+<tr>
+<td><strong>2. Fungsionalitas &amp; Fitur (35%)</strong></td>
+<td>100% fitur berjalan sempurna sesuai SRS, zero fatal bug.</td>
+<td>80–99% fitur berjalan baik, ada bug minor non-fatal.</td>
+<td>60–79% fitur berjalan, beberapa error fungsional.</td>
+<td>Fitur utama gagal berfungsi, crash saat runtime.</td>
+</tr>
+<tr>
+<td><strong>3. UI/UX &amp; Responsivitas (20%)</strong></td>
+<td>Antarmuka intuitif, estetik, adaptif di multi-device.</td>
+<td>Antarmuka baik dan responsif pada layar desktop/mobile.</td>
+<td>Antarmuka standar, kaku, atau cacat visual minor.</td>
+<td>Antarmuka buruk, tidak ramah pengguna, tidak responsif.</td>
+</tr>
+<tr>
+<td><strong>4. Pengujian &amp; Dokumentasi (20%)</strong></td>
+<td>Pengujian otomatis/manual komprehensif, README &amp; API spec rapi.</td>
+<td>Pengujian memadai, dokumentasi instalasi lengkap.</td>
+<td>Pengujian minimal, dokumentasi teknis kurang lengkap.</td>
+<td>Tidak ada bukti pengujian, tanpa dokumentasi.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="42-rubrik-2-penilaian-presentasi-lisan-komunikasi-ilmiah">4.2 Rubrik 2: Penilaian Presentasi Lisan &amp; Komunikasi Ilmiah</h3>
+<p><em>Digunakan untuk Seminar Proposal, Sidang Proyek, dan Capstone Project.</em></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kriteria</th>
+<th>Sangat Baik (81 – 100)</th>
+<th>Baik (70 – 80)</th>
+<th>Cukup (56 – 69)</th>
+<th>Kurang (&lt; 56)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1. Penguasaan Materi (40%)</strong></td>
+<td>Menguasai penuh materi &amp; mampu menjawab pertanyaan kritis secara ilmiah.</td>
+<td>Memahami materi dengan baik, jawaban tepat dan logis.</td>
+<td>Pemahaman cukup, namun ragu-ragu saat tanya jawab.</td>
+<td>Tidak menguasai materi, tidak mampu menjawab pertanyaan.</td>
+</tr>
+<tr>
+<td><strong>2. Kualitas Media Visual (30%)</strong></td>
+<td>Slide profesional, visual infografis kuat, data terstruktur.</td>
+<td>Slide rapi, teks terbaca jelas, visual mendukung.</td>
+<td>Slide terlalu padat teks (<em>text-heavy</em>), visual minim.</td>
+<td>Slide buruk, tidak terstruktur, banyak salah ketik (<em>typo</em>).</td>
+</tr>
+<tr>
+<td><strong>3. Artikulasi &amp; Waktu (30%)</strong></td>
+<td>Artikulasi lugas, percaya diri, kontak mata baik, tepat waktu.</td>
+<td>Komunikasi jelas, intonasi baik, alokasi waktu pas.</td>
+<td>Suara monoton, sedikit melebihi batas waktu.</td>
+<td>Komunikasi pasif, tidak terkontrol, tidak profesional.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="43-rubrik-3-penilaian-karya-tulis-laporan-rekayasa">4.3 Rubrik 3: Penilaian Karya Tulis &amp; Laporan Rekayasa</h3>
+<p><em>Digunakan untuk Laporan Praktikum, Tugas Analisis Kasus, dan Skripsi.</em></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kriteria</th>
+<th>Sangat Baik (81 – 100)</th>
+<th>Baik (70 – 80)</th>
+<th>Cukup (56 – 69)</th>
+<th>Kurang (&lt; 56)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1. Kedalaman Analisis (40%)</strong></td>
+<td>Analisis kritis mendalam, sintesis literatur mutakhir, solusi orisinal.</td>
+<td>Analisis baik, argumen terstruktur, rujukan relevan.</td>
+<td>Analisis bersifat deskriptif, kurang mendalam.</td>
+<td>Analisis dangkal, tanpa landasan teori yang memadai.</td>
+</tr>
+<tr>
+<td><strong>2. Metodologi Rekayasa (30%)</strong></td>
+<td>Metodologi ilmiah/rekayasa tepat, tahapan sistematis dan valid.</td>
+<td>Metodologi tepat dan dapat dipertanggungjawabkan.</td>
+<td>Metodologi kurang lengkap atau ada langkah terlewat.</td>
+<td>Metodologi tidak jelas atau keliru.</td>
+</tr>
+<tr>
+<td><strong>3. Tata Tulis &amp; Sitasi (30%)</strong></td>
+<td>Format standar IEEE/APA sempurna, sitasi Mendeley, bebas plagiasi (&lt;20%).</td>
+<td>Format rapi, sitasi standar, kemiripan rendah.</td>
+<td>Format kurang konsisten, ada kesalahan sitasi minor.</td>
+<td>Format tidak rapi, banyak salah eja, indikasi plagiasi.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="5-integrasi-capaian-cpl-ke-dalam-skpi-surat-keterangan-pendamping-ijazah">5. INTEGRASI CAPAIAN CPL KE DALAM SKPI (SURAT KETERANGAN PENDAMPING IJAZAH)</h2>
+<p>Hasil ketercapaian 14 CPL mahasiswa selama 8 semester akan dicetak sebagai <strong>Portofolio Capaian OBE (Radar Chart CPL)</strong> pada lampiran resmi SKPI lulusan:</p>
+<div class="highlight"><pre><span></span><code>                  S1 (Sikap &amp; Etika)
+                        [100]
+                     /    |    \
+             KK6 [85]     |     [90] KU1 (Berpikir Kritis)
+            /             |             \
+      KK5 [92]            |              [88] KU2 (Komunikasi)
+     /                    |                    \
+   KK4 [80]               |                     [85] KU3 (Manajemen Mandiri)
+   |                      |                      |
+   KK3 [88]           SISTEKIN                   | P1 (Sains &amp; Mat) [82]
+   |                   ALUMNI                    |
+   KK2 [94]           OBE RADAR                  | P2 (Konsep SI) [90]
+     \                    |                    /
+      KK1 [95]            |              [88] P3 (Infra &amp; Security)
+            \             |             /
+             [92] P4 (RPL &amp; Data Platform)
+</code></pre></div>
+<hr />
+<h2 id="6-siklus-continuous-quality-improvement-cqi-ppepp">6. SIKLUS CONTINUOUS QUALITY IMPROVEMENT (CQI) — PPEPP</h2>
+<p>Apabila terdapat <span class="arithmatex"><span class="MathJax_Preview">CPL_x</span><script type="math/tex">CPL_x</script></span> yang belum memenuhi ambang batas target prodi (<span class="arithmatex"><span class="MathJax_Preview">\ge 80\%</span><script type="math/tex">\ge 80\%</script></span>), Program Studi menjalankan siklus perbaikan PPEPP:
+1. <strong>Penetapan (P):</strong> Meninjau ulang target baseline CPL.
+2. <strong>Pelaksanaan (P):</strong> Mengajar sesuai RPS terstandar OBE.
+3. <strong>Evaluasi (E):</strong> Mengukur CPL pada akhir semester via Rapat Tinjauan Kurikulum.
+4. <strong>Pengendalian (P):</strong> Melakukan <em>Root Cause Analysis</em> (RCA) pada MK yang mengalami anomali nilai.
+5. <strong>Peningkatan (P):</strong> Memperbaiki modul praktikum, memberikan pelatihan dosen, atau memperbarui studi kasus industri pada semester berikutnya.</p>
+<hr />
+<p><em>Disahkan sebagai Dokumen Resmi 008 — Kurikulum OBE Revisi SISTEKIN 2026.</em><br />
+<strong>Tim Pengembang Kurikulum FSTI Universitas Widyagama Malang</strong></p>
+
+            <div class="doc-nav">
+                <div><a href="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" class="nav-btn">← Sebelumnya</a></div>
+                <div><a href="index.html" class="nav-btn">🏠 Index Utama</a></div>
+                <div><a href="009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.html" class="nav-btn">Selanjutnya →</a></div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p><strong>Dokumen Resmi Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
+            <p>Tim Pengembang Kurikulum FSTI — Universitas Widyagama Malang © 2026</p>
+        </footer>
+    </div>
+
+    <script>
+        // Mermaid Init
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'dark',
+            flowchart: { curve: 'basis', useMaxWidth: true }
+        });
+
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        let currentTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', currentTheme);
+
+        themeToggle.addEventListener('click', () => {
+            currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', currentTheme);
+            localStorage.setItem('theme', currentTheme);
+        });
+
+        // Live Table Search Filter
+        const searchInput = document.getElementById('globalTableSearch');
+        if (searchInput) {
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase().trim();
+                const rows = document.querySelectorAll('table tbody tr');
+                rows.forEach(row => {
+                    const text = row.innerText.toLowerCase();
+                    if (query === '' || text.includes(query)) {
+                        row.style.display = '';
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+            });
+        }
+    </script>
+</body>
+</html>

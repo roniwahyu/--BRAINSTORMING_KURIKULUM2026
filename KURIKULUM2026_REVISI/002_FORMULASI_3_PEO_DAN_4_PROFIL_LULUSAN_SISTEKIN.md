@@ -61,7 +61,7 @@ Berdasarkan audit kelayakan implementasi kurikulum OBE, ditemukan 4 kelemahan fu
 
 ---
 
-### 1.3 Matriks Migrasi dan Rekonsiliasi (Peleburan 6 PL $\rightarrow$ 4 PL)
+### 1.3 Matriks Migrasi dan Rekonsiliasi (Peleburan 6 PL → 4 PL)
 
 Proses penyatuan profil ini dilakukan **tanpa menghilangkan satu pun kompetensi/bahan kajian**, melainkan mengkonsolidasikannya menjadi lebih kokoh dan selaras dengan kebutuhan industri terkini:
 
@@ -169,7 +169,7 @@ Dalam kerangka PEO SISTEKIN, **kepemimpinan (*leadership*) bukan merupakan PEO t
 
 ---
 
-## 4. MATRIKS KETERLACAKAN STRATEGIS: VMTS $\leftrightarrow$ 3 PEO $\leftrightarrow$ 4 PL $\leftrightarrow$ 14 CPL
+## 4. MATRIKS KETERLACAKAN STRATEGIS: VMTS ↔ 3 PEO ↔ 4 PL ↔ 14 CPL
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────────────────────┐

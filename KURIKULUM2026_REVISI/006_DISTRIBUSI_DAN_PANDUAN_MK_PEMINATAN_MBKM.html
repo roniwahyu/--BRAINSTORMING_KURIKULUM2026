@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>006 — Distribusi MK Peminatan & Panduan MBKM | Kurikulum OBE SISTEKIN 2026</title>
+    <meta name="description" content="Dokumen Resmi Kurikulum OBE 2026 Program Studi Sistem dan Teknologi Informasi (S1) FSTI UWG Malang.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- KaTeX for LaTeX Math -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+
+    <!-- Mermaid JS for Flowcharts -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+
+    <style>
+        :root {
+            --bg-primary: #0b0f19;
+            --bg-secondary: #111827;
+            --bg-card: rgba(17, 24, 39, 0.75);
+            --bg-card-hover: rgba(31, 41, 55, 0.85);
+            --border-color: rgba(255, 255, 255, 0.1);
+            --border-accent: rgba(99, 102, 241, 0.35);
+            
+            --text-primary: #f9fafb;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+            
+            --primary: #6366f1;
+            --primary-light: #818cf8;
+            --secondary: #06b6d4;
+            --accent: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            
+            --mkwu-color: #ec4899;
+            --fsti-color: #8b5cf6;
+            --sti-color: #3b82f6;
+            --elektif-color: #10b981;
+            
+            --font-sans: 'Plus Jakarta Sans', 'Inter', sans-serif;
+            --font-code: 'Fira Code', monospace;
+            --shadow-glow: 0 0 30px rgba(99, 102, 241, 0.12);
+            --radius-lg: 16px;
+            --radius-md: 12px;
+            --radius-sm: 8px;
+        }
+
+        [data-theme="light"] {
+            --bg-primary: #f8fafc;
+            --bg-secondary: #ffffff;
+            --bg-card: rgba(255, 255, 255, 0.9);
+            --bg-card-hover: #ffffff;
+            --border-color: rgba(0, 0, 0, 0.08);
+            --border-accent: rgba(99, 102, 241, 0.25);
+            
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --text-muted: #94a3b8;
+            
+            --shadow-glow: 0 10px 30px rgba(99, 102, 241, 0.08);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            padding-bottom: 80px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Navbar */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(11, 15, 25, 0.85);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 14px 0;
+            margin-bottom: 32px;
+        }
+        [data-theme="light"] .navbar { background: rgba(248, 250, 252, 0.85); }
+
+        .navbar-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+        .brand-logo {
+            width: 40px; height: 40px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: var(--radius-sm);
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 800; color: white; font-size: 1.1rem;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+        }
+        .brand-text h1 { font-size: 1.05rem; font-weight: 700; color: var(--text-primary); }
+        .brand-text p { font-size: 0.75rem; color: var(--text-secondary); }
+
+        .doc-select {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            font-size: 0.85rem;
+            font-weight: 600;
+            outline: none;
+            cursor: pointer;
+            max-width: 380px;
+        }
+
+        .search-box {
+            position: relative;
+            min-width: 240px;
+        }
+        .search-input {
+            width: 100%;
+            padding: 8px 14px 8px 34px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            color: var(--text-primary);
+            font-size: 0.85rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .search-input:focus { border-color: var(--primary); }
+        .search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); font-size: 0.8rem; opacity: 0.6; }
+
+        .nav-actions { display: flex; align-items: center; gap: 10px; }
+        .btn-action {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            cursor: pointer; font-size: 0.85rem; font-weight: 600;
+            display: inline-flex; align-items: center; gap: 6px;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
+        .btn-action:hover { border-color: var(--primary); color: var(--primary-light); transform: translateY(-1px); }
+
+        /* Hero Header */
+        .hero {
+            background: radial-gradient(circle at top right, rgba(99, 102, 241, 0.15), transparent 50%),
+                        radial-gradient(circle at bottom left, rgba(6, 182, 212, 0.1), transparent 50%);
+            border: 1px solid var(--border-accent);
+            border-radius: var(--radius-lg);
+            padding: 36px;
+            margin-bottom: 36px;
+            box-shadow: var(--shadow-glow);
+        }
+        .hero-badge-group { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+        .badge {
+            font-size: 0.72rem; font-weight: 700; padding: 4px 12px; border-radius: 20px;
+            letter-spacing: 0.03em; text-transform: uppercase;
+        }
+        .badge-primary { background: rgba(99, 102, 241, 0.2); color: var(--primary-light); border: 1px solid rgba(99, 102, 241, 0.4); }
+        .badge-accent { background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); }
+        .badge-warning { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.4); }
+
+        .hero-title {
+            font-size: 2rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 8px;
+            background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        [data-theme="light"] .hero-title {
+            background: linear-gradient(135deg, #0f172a 0%, #334155 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+
+        /* Typography & Content */
+        .content {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+        }
+
+        .content h1 { font-size: 1.8rem; font-weight: 800; margin: 32px 0 16px 0; color: var(--text-primary); border-bottom: 2px solid var(--border-accent); padding-bottom: 10px; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 30px 0 14px 0; color: var(--primary-light); border-bottom: 1px solid var(--border-color); padding-bottom: 8px; }
+        .content h3 { font-size: 1.15rem; font-weight: 700; margin: 24px 0 12px 0; color: var(--text-primary); }
+        .content h4 { font-size: 1rem; font-weight: 600; margin: 18px 0 8px 0; color: var(--text-secondary); }
+
+        .content p { margin-bottom: 16px; color: var(--text-secondary); font-size: 0.96rem; }
+        .content ul, .content ol { margin: 0 0 20px 24px; color: var(--text-secondary); font-size: 0.95rem; }
+        .content li { margin-bottom: 6px; }
+        .content blockquote {
+            border-left: 4px solid var(--primary);
+            padding: 12px 20px;
+            background: rgba(99, 102, 241, 0.06);
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            margin: 20px 0;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Tables */
+        .table-wrapper { overflow-x: auto; margin: 24px 0; border-radius: var(--radius-md); border: 1px solid var(--border-color); }
+        table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem; }
+        th {
+            background: rgba(31, 41, 55, 0.7); color: var(--text-primary);
+            font-weight: 700; padding: 12px 16px; border-bottom: 1px solid var(--border-color);
+            font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em;
+        }
+        [data-theme="light"] th { background: #f1f5f9; }
+        td { padding: 12px 16px; border-bottom: 1px solid var(--border-color); color: var(--text-secondary); }
+        tr:last-child td { border-bottom: none; }
+        tr:hover td { background: var(--bg-card-hover); color: var(--text-primary); }
+
+        /* Code Badges */
+        .code-tag {
+            font-family: var(--font-code); font-weight: 600; font-size: 0.82rem;
+            padding: 2px 8px; border-radius: 4px; background: rgba(99, 102, 241, 0.12);
+            color: var(--primary-light); border: 1px solid rgba(99, 102, 241, 0.25);
+        }
+        code {
+            font-family: var(--font-code); font-size: 0.85rem; padding: 2px 6px;
+            background: rgba(255, 255, 255, 0.06); border-radius: 4px; color: var(--primary-light);
+        }
+
+        .cat-badge { font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px; display: inline-block; }
+        .cat-mkwu { background: rgba(236, 72, 153, 0.15); color: #f472b6; border: 1px solid rgba(236, 72, 153, 0.3); }
+        .cat-fsti { background: rgba(139, 92, 246, 0.15); color: #c084fc; border: 1px solid rgba(139, 92, 246, 0.3); }
+        .cat-sti  { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
+        .cat-elektif { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+
+        /* Custom Alerts */
+        .custom-alert {
+            border-left: 4px solid var(--primary);
+            background: rgba(17, 24, 39, 0.6);
+            border: 1px solid var(--border-color);
+            border-left-width: 4px;
+            border-radius: var(--radius-md);
+            padding: 16px 20px;
+            margin: 24px 0;
+        }
+        .alert-important { border-left-color: var(--primary); background: rgba(99, 102, 241, 0.08); }
+        .alert-note { border-left-color: var(--secondary); background: rgba(6, 182, 212, 0.08); }
+        .alert-tip { border-left-color: var(--accent); background: rgba(16, 185, 129, 0.08); }
+        .alert-warning { border-left-color: var(--warning); background: rgba(245, 158, 11, 0.08); }
+        .alert-caution { border-left-color: var(--danger); background: rgba(239, 68, 68, 0.08); }
+        
+        .alert-header { font-weight: 700; font-size: 0.9rem; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
+        .alert-important .alert-header { color: var(--primary-light); }
+        .alert-note .alert-header { color: var(--secondary); }
+        .alert-tip .alert-header { color: var(--accent); }
+        .alert-warning .alert-header { color: var(--warning); }
+        .alert-caution .alert-header { color: var(--danger); }
+        .alert-content { color: var(--text-secondary); font-size: 0.92rem; }
+
+        /* ASCII Tables Box */
+        .ascii-table-box {
+            background: #090d16;
+            border: 1px solid var(--border-accent);
+            border-radius: var(--radius-md);
+            padding: 16px;
+            font-family: var(--font-code);
+            font-size: 0.8rem;
+            color: var(--primary-light);
+            overflow-x: auto;
+            margin: 24px 0;
+            white-space: pre;
+        }
+
+        /* Mermaid Box */
+        .mermaid-card {
+            background: rgba(17, 24, 39, 0.5);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 24px; margin: 24px 0;
+            text-align: center; overflow-x: auto;
+        }
+
+        /* Bottom Nav Links */
+        .doc-nav {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--border-color);
+        }
+        .nav-btn {
+            background: var(--bg-secondary); border: 1px solid var(--border-color);
+            color: var(--text-primary); padding: 10px 18px; border-radius: var(--radius-sm);
+            text-decoration: none; font-weight: 600; font-size: 0.88rem; transition: all 0.2s;
+        }
+        .nav-btn:hover { border-color: var(--primary); color: var(--primary-light); }
+
+        /* Footer */
+        .footer { margin-top: 60px; text-align: center; color: var(--text-muted); font-size: 0.85rem; }
+
+        @media print {
+            body { background: white; color: black; }
+            .navbar, .nav-actions, .doc-nav, .search-box { display: none; }
+            .hero, .content { border: 1px solid #ccc; box-shadow: none; background: white; padding: 20px; }
+            th { background: #eee !important; color: black !important; }
+            td { color: black !important; }
+            .code-tag { background: #f0f0f0; color: black; border: 1px solid #ccc; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <a href="index.html" class="brand">
+                <div class="brand-logo">STI</div>
+                <div class="brand-text">
+                    <h1>SISTEKIN — FSTI UWG</h1>
+                    <p>Buku Kurikulum OBE 2026</p>
+                </div>
+            </a>
+            
+            <select class="doc-select" onchange="window.location.href=this.value">
+                <option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
+<option value="002_FORMULASI_3_PEO_DAN_4_PROFIL_LULUSAN_SISTEKIN.html" >002 — Formulasi 3 PEO & 4 Profil Lulusan</option>
+<option value="003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.html" >003 — Standar 14 CPL & Pemetaan BoK APTIKOM</option>
+<option value="004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.html" >004 — Matriks Keterlacakan OBE VMTS-PEO-PL-CPL-MK</option>
+<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — Struktur Kurikulum 8 Semester & Peminatan</option>
+<option value="006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.html" selected>006 — Distribusi MK Peminatan & Panduan MBKM</option>
+<option value="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" >007 — Silabus 3-Tabel & CPMK 67 MK Portofolio</option>
+<option value="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" >008 — Sistem Asesmen OBE & Attainment CPL</option>
+<option value="009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.html" >009 — Pedoman Capstone & 4 Opsi TA Non-Skripsi</option>
+<option value="010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.html" >010 — Instrumen Tracer Study & Evaluasi PEO</option>
+<option value="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" >📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)</option>
+            </select>
+
+            
+    <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="globalTableSearch" class="search-input" placeholder="Cari dalam dokumen (kode, MK, istilah, tabel)...">
+    </div>
+    
+
+            <div class="nav-actions">
+                <a href="index.html" class="btn-action">🏠 Portal Dokumen</a>
+                <button class="btn-action" onclick="window.print()">🖨️ Cetak PDF</button>
+                <button class="btn-action" id="themeToggle">🌓 Tema</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-badge-group">
+                <span class="badge badge-primary">Kurikulum OBE 2026</span>
+                <span class="badge badge-accent">Permendikbudristek 53/2023</span>
+                <span class="badge badge-warning">FSTI UWG Malang</span>
+            </div>
+            <h1 class="hero-title">006 — Distribusi MK Peminatan & Panduan MBKM</h1>
+            <p style="color: var(--text-secondary); font-size: 0.95rem;">Dokumen Kurikulum OBE Definitif Program Studi Sistem dan Teknologi Informasi (S1)</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="content">
+            <h1 id="006-distribusi-dan-panduan-mata-kuliah-peminatan-mbkm">006 — DISTRIBUSI DAN PANDUAN MATA KULIAH PEMINATAN &amp; MBKM</h1>
+<h2 id="program-studi-sistem-dan-teknologi-informasi-s1-fakultas-sains-dan-teknologi-informasi-fsti-universitas-widyagama-malang">Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang</h2>
+<p><strong>Dokumen Revisi Definitif Kurikulum 2026</strong><br />
+<strong>Standar Rujukan:</strong> Permendikbudristek No. 53 Tahun 2023, Panduan Kurikulum OBE APTIKOM v2.0, Panduan Merdeka Belajar Kampus Merdeka (MBKM).</p>
+<hr />
+<h3 id="visualisasi-3-peminatan-jalur-mbkm-20-sks">VISUALISASI 3 PEMINATAN &amp; JALUR MBKM 20 SKS</h3>
+<div class="mermaid-card"><div class="mermaid">
+graph TD
+    subgraph PEMINATAN [&quot;3 PAKET PEMINATAN SEIMBANG (@ 18 SKS / 6 MK)&quot;]
+        P1[&quot;P1: Integrated Smart Systems&lt;br/&gt;(AI/ML, MLOps, Agent, NLP, Vision)&quot;]
+        P2[&quot;P2: Cloud Infra &amp; Cybersecurity&lt;br/&gt;(DevOps, Security, COBIT, ITIL, TOGAF)&quot;]
+        P3[&quot;P3: Digital Platform Engineering&lt;br/&gt;(UX Research, BPA, SaaS, Agile Product)&quot;]
+    end
+
+    subgraph MBKM [&quot;KONVERSI 20 SKS MBKM (SEMESTER 6-7)&quot;]
+        M1[&quot;Magang Industri / Studio&quot;]
+        M2[&quot;Studi Independen Bersertifikat&quot;]
+        M3[&quot;Riset / Kemanusiaan / Wirausaha&quot;]
+    end
+
+    M1 &amp; M2 &amp; M3 -. &quot;Ekuivalensi SKS&quot; .-&gt; P1 &amp; P2 &amp; P3
+</div></div>
+
+<hr />
+<h2 id="1-panduan-umum-pemilihan-peminatan-18-sks-6-mk">1. PANDUAN UMUM PEMILIHAN PEMINATAN (18 SKS / 6 MK)</h2>
+<p>Program Studi Sistem dan Teknologi Informasi menyediakan <strong>3 Peminatan Keahlian Terstruktur</strong> yang masing-masing berbobot <strong>6 Mata Kuliah (18 SKS)</strong>:
+* Mahasiswa menentukan pilihan peminatan pada akhir Semester 4 setelah lulus mata kuliah fondasi dasar.
+* Penempuhan mata kuliah peminatan didistribusikan secara bertahap:
+  * <strong>Semester 5:</strong> 1 Mata Kuliah Peminatan (3 SKS)
+  * <strong>Semester 6:</strong> 2 Mata Kuliah Peminatan (6 SKS)
+  * <strong>Semester 7:</strong> 3 Mata Kuliah Peminatan (9 SKS)</p>
+<hr />
+<h2 id="2-rincian-silabus-deskripsi-18-mata-kuliah-peminatan">2. RINCIAN SILABUS &amp; DESKRIPSI 18 MATA KULIAH PEMINATAN</h2>
+<h3 id="21-peminatan-1-integrated-smart-systems-kecerdasan-artifisial-terintegrasi">2.1 Peminatan 1: Integrated Smart Systems (Kecerdasan Artifisial Terintegrasi)</h3>
+<p>Basis Profil: <strong>PL-1 (Intelligent Information Systems &amp; Data/AI Engineer)</strong></p>
+<ol>
+<li><strong><code>STA-01</code>> Sistem Pendukung Keputusan Cerdas (3 SKS — Semester 5, +P)</strong><br />
+   * <strong>CPL:</strong> KK1 | <strong>Prasyarat:</strong> <span class="code-tag">STI-202</span>>, <span class="code-tag">STI-302</span>>
+   * <strong>Deskripsi:</strong> Konsep multi-criteria decision making (MCDM), metode AHP, TOPSIS, PROMETHEE, integrasi Fuzzy Logic, serta pembangunan dashboard DSS berbasis web.</li>
+<li><strong><code>STA-02</code>> Metode Komputasi Numerik Terapan (3 SKS — Semester 6, +P)</strong><br />
+   * <strong>CPL:</strong> KK2 | <strong>Prasyarat:</strong> <span class="code-tag">STI-102</span>>, <span class="code-tag">STI-202</span>>
+   * <strong>Deskripsi:</strong> Solusi persamaan non-linear, interpolasi, optimasi numerik gradient descent, integrasi numerik untuk pemodelan algoritma AI dan simulasi sistem.</li>
+<li><strong><code>STA-03</code>> Sistem Agen Cerdas &amp; Multi-Agent (3 SKS — Semester 6, +P)</strong><br />
+   * <strong>CPL:</strong> KK1 | <strong>Prasyarat:</strong> <span class="code-tag">STI-401</span>>
+   * <strong>Deskripsi:</strong> Arsitektur autonomous agent, multi-agent communication protocols (FIPA-ACL), Reinforcement Learning (Q-learning, PPO), dan implementasi swarm intelligence.</li>
+<li><strong><code>STA-04</code>> MLOps &amp; AI Pipeline Engineering (3 SKS — Semester 7, +P)</strong><br />
+   * <strong>CPL:</strong> KK2 | <strong>Prasyarat:</strong> <span class="code-tag">STI-501</span>>
+   * <strong>Deskripsi:</strong> Siklus hidup operasionalisasi machine learning (MLOps), automated data validation, tracking eksperimen (MLflow, Weights &amp; Biases), model registry, CI/CD pipeline deployment model AI.</li>
+<li><strong><code>STA-05</code>> Conversational AI &amp; Intelligent Assistant (3 SKS — Semester 7, +P)</strong><br />
+   * <strong>CPL:</strong> KK1 | <strong>Prasyarat:</strong> <span class="code-tag">STI-501</span>>
+   * <strong>Deskripsi:</strong> Large Language Models (LLM), fine-tuning teknik LoRA/QLoRA, Retrieval-Augmented Generation (RAG), framework LangChain &amp; LlamaIndex, serta perancangan asisten cerdas enterprise.</li>
+<li><strong><code>STA-06</code>> Smart Surveillance &amp; Edge AI Analytics (3 SKS — Semester 7, +P)</strong><br />
+   * <strong>CPL:</strong> KK1, KK3 | <strong>Prasyarat:</strong> <span class="code-tag">STI-501</span>>, <span class="code-tag">STI-504</span>>
+   * <strong>Deskripsi:</strong> Computer vision real-time (YOLO, OpenCV), optimasi inferensi model untuk perangkat Edge (TensorRT, Edge TPU, Jetson Nano), streaming video analytics untuk smart campus dan industri.</li>
+</ol>
+<hr />
+<h3 id="22-peminatan-2-cloud-infrastructure-cybersecurity-infrastruktur-awan-keamanan-siber">2.2 Peminatan 2: Cloud Infrastructure &amp; Cybersecurity (Infrastruktur Awan &amp; Keamanan Siber)</h3>
+<p>Basis Profil: <strong>PL-2 (Cloud Infrastructure, Cybersecurity &amp; Smart Systems Integrator)</strong></p>
+<ol>
+<li><strong><code>STB-01</code>> Network Security and Digital Forensics (3 SKS — Semester 5, +P)</strong><br />
+   * <strong>CPL:</strong> P3, KK3, KK4 | <strong>Prasyarat:</strong> <span class="code-tag">STI-307</span>>, <span class="code-tag">STI-405</span>>
+   * <strong>Deskripsi:</strong> Network packet analysis (Wireshark, Zeek), intrusion detection/prevention systems (Snort/Suricata), rantai bukti forensik digital, analisis artefak disk/memori (Autopsy, Volatility).</li>
+<li><strong><code>STB-02</code>> Cloud Architecture &amp; DevOps (3 SKS — Semester 6, +P)</strong><br />
+   * <strong>CPL:</strong> P3, KK3 | <strong>Prasyarat:</strong> <span class="code-tag">STI-404</span>>
+   * <strong>Deskripsi:</strong> Container orchestration dengan Kubernetes, Infrastructure as Code (Terraform / Ansible), CI/CD automation pipeline, dan arsitektur cloud native berskala enterprise.</li>
+<li><strong><code>STB-03</code>> Cybersecurity Risk Management (3 SKS — Semester 6, Teori)</strong><br />
+   * <strong>CPL:</strong> KK3, KK4 | <strong>Prasyarat:</strong> <span class="code-tag">STI-405</span>>
+   * <strong>Deskripsi:</strong> Penilaian risiko keamanan siber menggunakan standar ISO/IEC 27005 dan NIST CSF, penyusunan Business Continuity Plan (BCP), dan Disaster Recovery Plan (DRP).</li>
+<li><strong><code>STB-04</code>> IT Governance &amp; Compliance (COBIT 2019) (3 SKS — Semester 7, Teori)</strong><br />
+   * <strong>CPL:</strong> KK4 | <strong>Prasyarat:</strong> <span class="code-tag">STI-405</span>>
+   * <strong>Deskripsi:</strong> Kerangka kerja COBIT 2019 (Domain EDM, APO, BAI, DSS, MEA), pengukuran kapabilitas proses (Capability Level), audit tata kelola TI, dan kepatuhan regulasi UU PDP.</li>
+<li><strong><code>STB-05</code>> IT Service Management (ITIL 4) (3 SKS — Semester 7, Teori)</strong><br />
+   * <strong>CPL:</strong> P3, KK3 | <strong>Prasyarat:</strong> <span class="code-tag">STI-404</span>>
+   * <strong>Deskripsi:</strong> Kerangka kerja ITIL 4 Service Value System (SVS), perancangan Service Catalog, pengelolaan Service Level Agreement (SLA), Incident, Problem, dan Change Management.</li>
+<li><strong><code>STB-06</code>> Enterprise Architecture (TOGAF) (3 SKS — Semester 7, Teori)</strong><br />
+   * <strong>CPL:</strong> P3, KK4 | <strong>Prasyarat:</strong> <span class="code-tag">STI-301</span>>
+   * <strong>Deskripsi:</strong> Perancangan cetak biru enterprise architecture menggunakan TOGAF ADM (Business, Data, Application, Technology Architecture) dan pemodelan standar ArchiMate.</li>
+</ol>
+<hr />
+<h3 id="23-peminatan-3-digital-platform-engineering-rekayasa-platform-produk-digital">2.3 Peminatan 3: Digital Platform Engineering (Rekayasa Platform &amp; Produk Digital)</h3>
+<p>Basis Profil: <strong>PL-3 (UI/UX Designer &amp; Digital Platform Engineer)</strong></p>
+<ol>
+<li><strong><code>STC-01</code>> User Experience Research &amp; Design (3 SKS — Semester 5, +P)</strong><br />
+   * <strong>CPL:</strong> KK5 | <strong>Prasyarat:</strong> <span class="code-tag">STI-303</span>>
+   * <strong>Deskripsi:</strong> Riset pengguna kuantitatif &amp; kualitatif, usability testing, eye-tracking simulation, pembangunan enterprise design system tokens (Figma, Storybook), micro-interactions.</li>
+<li><strong><code>STC-02</code>> Rekayasa &amp; Otomasi Proses Bisnis (BPA) (3 SKS — Semester 6, +P)</strong><br />
+   * <strong>CPL:</strong> KK5, KK6 | <strong>Prasyarat:</strong> <span class="code-tag">STI-301</span>>
+   * <strong>Deskripsi:</strong> Pemodelan proses bisnis BPMN 2.0, Process Mining untuk analisis log transaksi, workflow orchestration engine (Camunda/Temporal), dan Robotic Process Automation (RPA).</li>
+<li><strong><code>STC-03</code>> Rekayasa Aplikasi Industri Vertikal (FinTech &amp; EdTech) (3 SKS — Semester 6, +P)</strong><br />
+   * <strong>CPL:</strong> KK5 | <strong>Prasyarat:</strong> <span class="code-tag">STI-407</span>>, <span class="code-tag">STI-505</span>>
+   * <strong>Deskripsi:</strong> Domain-Driven Design (DDD) untuk solusi vertikal: FinTech (Payment Gateway, Core Banking API, Ledger) dan EdTech (LMS Architecture, SCORM/xAPI interoperability).</li>
+<li><strong><code>STC-04</code>> Immersive Media &amp; XR Development (3 SKS — Semester 7, +P)</strong><br />
+   * <strong>CPL:</strong> KK5 | <strong>Prasyarat:</strong> <span class="code-tag">STI-303</span>>, <span class="code-tag">STI-306</span>>
+   * <strong>Deskripsi:</strong> WebXR, pemodelan 3D interaktif (Three.js), Augmented Reality (AR) mobile development, interaksi spasial, dan antarmuka komputasi spasial imersif.</li>
+<li><strong><code>STC-05</code>> SaaS Architecture &amp; Multi-Tenancy (3 SKS — Semester 7, +P)</strong><br />
+   * <strong>CPL:</strong> KK5, KK6 | <strong>Prasyarat:</strong> <span class="code-tag">STI-604</span>>
+   * <strong>Deskripsi:</strong> Arsitektur SaaS multi-tenant (Database-per-tenant vs Shared-schema), subscription billing engine (Stripe API), micro-frontends, dan distributed caching.</li>
+<li><strong><code>STC-06</code>> Digital Product Management &amp; Agile Practices (3 SKS — Semester 7, Teori)</strong><br />
+   * <strong>CPL:</strong> KK6 | <strong>Prasyarat:</strong> <span class="code-tag">STI-506</span>>, <span class="code-tag">MKU-202</span>>
+   * <strong>Deskripsi:</strong> Product lifecycle, Product Roadmap &amp; OKRs, backlog prioritization (RICE, Kano, MoSCoW), A/B testing, product-led growth (PLG), dan fasilitasi ritual Agile/Scrum.</li>
+</ol>
+<hr />
+<h2 id="3-panduan-implementasi-mbkm-merdeka-belajar-kampus-merdeka">3. PANDUAN IMPLEMENTASI MBKM (MERDEKA BELAJAR KAMPUS MERDEKA)</h2>
+<p>Kurikulum SISTEKIN 2026 menyediakan fleksibilitas penempuhan hingga <strong>20 SKS MBKM per semester</strong> pada <strong>Semester 6 dan/atau Semester 7</strong>:</p>
+<div class="table-wrapper">
+<div class="table-title-header" style="background: rgba(99, 102, 241, 0.15); padding: 10px 16px; font-weight: 700; color: var(--primary-light); border: 1px solid var(--border-color); border-bottom: none; border-radius: var(--radius-md) var(--radius-md) 0 0; text-align: center;">SKEMA EKUIVALENSI MBKM 20 SKS</div>
+<div class="table-wrapper"><table><thead><tr>
+<th>Jalur MBKM</th>
+<th>Semester</th>
+<th>Paket MK yang Dikonversi</th>
+<th>Total SKS Dikonversi</th>
+</tr></thead><tbody>
+<tr>
+<td>Magang Industri<br>Bersertifikat (MSIB)</td>
+<td>Sem 6</td>
+<td>• MK Pilihan Peminatan 2 (3)<br>• MK Pilihan Peminatan 3 (3)<br>• STI-601 Integrasi AI (3)<br>• STI-604 Platform Eng (3)<br>• STI-602 Smart City (3)<br>• STI-603 Keamanan Lanjut (3)<br>• FST-611 Metopel (2)</td>
+<td>**20 SKS**</td>
+</tr>
+<tr>
+<td>Magang Industri /<br>Studi Independen /<br>Wirausaha Merdeka</td>
+<td>Sem 7</td>
+<td>• MK Pilihan Peminatan 4 (3)<br>• MK Pilihan Peminatan 5 (3)<br>• MK Pilihan Peminatan 6 (3)<br>• STI-701 Startup Digital (3)<br>• FST-610 Capstone FSTI (3)<br>• FST-612 PKL Industri (3)<br>• FST-613 Pra-Skripsi (2)</td>
+<td>**20 SKS**</td>
+</tr>
+</tbody></table></div></div>
+
+<hr />
+<p><em>Disahkan sebagai Dokumen Resmi 006 — Kurikulum OBE Revisi SISTEKIN 2026.</em><br />
+<strong>Tim Pengembang Kurikulum FSTI Universitas Widyagama Malang</strong></p>
+
+            <div class="doc-nav">
+                <div><a href="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" class="nav-btn">← Sebelumnya</a></div>
+                <div><a href="index.html" class="nav-btn">🏠 Index Utama</a></div>
+                <div><a href="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" class="nav-btn">Selanjutnya →</a></div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p><strong>Dokumen Resmi Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
+            <p>Tim Pengembang Kurikulum FSTI — Universitas Widyagama Malang © 2026</p>
+        </footer>
+    </div>
+
+    <script>
+        // Mermaid Init
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'dark',
+            flowchart: { curve: 'basis', useMaxWidth: true }
+        });
+
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        let currentTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', currentTheme);
+
+        themeToggle.addEventListener('click', () => {
+            currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', currentTheme);
+            localStorage.setItem('theme', currentTheme);
+        });
+
+        // Live Table Search Filter
+        const searchInput = document.getElementById('globalTableSearch');
+        if (searchInput) {
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase().trim();
+                const rows = document.querySelectorAll('table tbody tr');
+                rows.forEach(row => {
+                    const text = row.innerText.toLowerCase();
+                    if (query === '' || text.includes(query)) {
+                        row.style.display = '';
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+            });
+        }
+    </script>
+</body>
+</html>

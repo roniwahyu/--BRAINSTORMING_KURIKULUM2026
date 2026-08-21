@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>002 — Formulasi 3 PEO & 4 Profil Lulusan | Kurikulum OBE SISTEKIN 2026</title>
+    <meta name="description" content="Dokumen Resmi Kurikulum OBE 2026 Program Studi Sistem dan Teknologi Informasi (S1) FSTI UWG Malang.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- KaTeX for LaTeX Math -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+
+    <!-- Mermaid JS for Flowcharts -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+
+    <style>
+        :root {
+            --bg-primary: #0b0f19;
+            --bg-secondary: #111827;
+            --bg-card: rgba(17, 24, 39, 0.75);
+            --bg-card-hover: rgba(31, 41, 55, 0.85);
+            --border-color: rgba(255, 255, 255, 0.1);
+            --border-accent: rgba(99, 102, 241, 0.35);
+            
+            --text-primary: #f9fafb;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+            
+            --primary: #6366f1;
+            --primary-light: #818cf8;
+            --secondary: #06b6d4;
+            --accent: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            
+            --mkwu-color: #ec4899;
+            --fsti-color: #8b5cf6;
+            --sti-color: #3b82f6;
+            --elektif-color: #10b981;
+            
+            --font-sans: 'Plus Jakarta Sans', 'Inter', sans-serif;
+            --font-code: 'Fira Code', monospace;
+            --shadow-glow: 0 0 30px rgba(99, 102, 241, 0.12);
+            --radius-lg: 16px;
+            --radius-md: 12px;
+            --radius-sm: 8px;
+        }
+
+        [data-theme="light"] {
+            --bg-primary: #f8fafc;
+            --bg-secondary: #ffffff;
+            --bg-card: rgba(255, 255, 255, 0.9);
+            --bg-card-hover: #ffffff;
+            --border-color: rgba(0, 0, 0, 0.08);
+            --border-accent: rgba(99, 102, 241, 0.25);
+            
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --text-muted: #94a3b8;
+            
+            --shadow-glow: 0 10px 30px rgba(99, 102, 241, 0.08);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            padding-bottom: 80px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Navbar */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(11, 15, 25, 0.85);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 14px 0;
+            margin-bottom: 32px;
+        }
+        [data-theme="light"] .navbar { background: rgba(248, 250, 252, 0.85); }
+
+        .navbar-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+        .brand-logo {
+            width: 40px; height: 40px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: var(--radius-sm);
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 800; color: white; font-size: 1.1rem;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+        }
+        .brand-text h1 { font-size: 1.05rem; font-weight: 700; color: var(--text-primary); }
+        .brand-text p { font-size: 0.75rem; color: var(--text-secondary); }
+
+        .doc-select {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            font-size: 0.85rem;
+            font-weight: 600;
+            outline: none;
+            cursor: pointer;
+            max-width: 380px;
+        }
+
+        .search-box {
+            position: relative;
+            min-width: 240px;
+        }
+        .search-input {
+            width: 100%;
+            padding: 8px 14px 8px 34px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            color: var(--text-primary);
+            font-size: 0.85rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .search-input:focus { border-color: var(--primary); }
+        .search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); font-size: 0.8rem; opacity: 0.6; }
+
+        .nav-actions { display: flex; align-items: center; gap: 10px; }
+        .btn-action {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            cursor: pointer; font-size: 0.85rem; font-weight: 600;
+            display: inline-flex; align-items: center; gap: 6px;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
+        .btn-action:hover { border-color: var(--primary); color: var(--primary-light); transform: translateY(-1px); }
+
+        /* Hero Header */
+        .hero {
+            background: radial-gradient(circle at top right, rgba(99, 102, 241, 0.15), transparent 50%),
+                        radial-gradient(circle at bottom left, rgba(6, 182, 212, 0.1), transparent 50%);
+            border: 1px solid var(--border-accent);
+            border-radius: var(--radius-lg);
+            padding: 36px;
+            margin-bottom: 36px;
+            box-shadow: var(--shadow-glow);
+        }
+        .hero-badge-group { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+        .badge {
+            font-size: 0.72rem; font-weight: 700; padding: 4px 12px; border-radius: 20px;
+            letter-spacing: 0.03em; text-transform: uppercase;
+        }
+        .badge-primary { background: rgba(99, 102, 241, 0.2); color: var(--primary-light); border: 1px solid rgba(99, 102, 241, 0.4); }
+        .badge-accent { background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); }
+        .badge-warning { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.4); }
+
+        .hero-title {
+            font-size: 2rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 8px;
+            background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        [data-theme="light"] .hero-title {
+            background: linear-gradient(135deg, #0f172a 0%, #334155 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+
+        /* Typography & Content */
+        .content {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+        }
+
+        .content h1 { font-size: 1.8rem; font-weight: 800; margin: 32px 0 16px 0; color: var(--text-primary); border-bottom: 2px solid var(--border-accent); padding-bottom: 10px; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 30px 0 14px 0; color: var(--primary-light); border-bottom: 1px solid var(--border-color); padding-bottom: 8px; }
+        .content h3 { font-size: 1.15rem; font-weight: 700; margin: 24px 0 12px 0; color: var(--text-primary); }
+        .content h4 { font-size: 1rem; font-weight: 600; margin: 18px 0 8px 0; color: var(--text-secondary); }
+
+        .content p { margin-bottom: 16px; color: var(--text-secondary); font-size: 0.96rem; }
+        .content ul, .content ol { margin: 0 0 20px 24px; color: var(--text-secondary); font-size: 0.95rem; }
+        .content li { margin-bottom: 6px; }
+        .content blockquote {
+            border-left: 4px solid var(--primary);
+            padding: 12px 20px;
+            background: rgba(99, 102, 241, 0.06);
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            margin: 20px 0;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Tables */
+        .table-wrapper { overflow-x: auto; margin: 24px 0; border-radius: var(--radius-md); border: 1px solid var(--border-color); }
+        table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem; }
+        th {
+            background: rgba(31, 41, 55, 0.7); color: var(--text-primary);
+            font-weight: 700; padding: 12px 16px; border-bottom: 1px solid var(--border-color);
+            font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em;
+        }
+        [data-theme="light"] th { background: #f1f5f9; }
+        td { padding: 12px 16px; border-bottom: 1px solid var(--border-color); color: var(--text-secondary); }
+        tr:last-child td { border-bottom: none; }
+        tr:hover td { background: var(--bg-card-hover); color: var(--text-primary); }
+
+        /* Code Badges */
+        .code-tag {
+            font-family: var(--font-code); font-weight: 600; font-size: 0.82rem;
+            padding: 2px 8px; border-radius: 4px; background: rgba(99, 102, 241, 0.12);
+            color: var(--primary-light); border: 1px solid rgba(99, 102, 241, 0.25);
+        }
+        code {
+            font-family: var(--font-code); font-size: 0.85rem; padding: 2px 6px;
+            background: rgba(255, 255, 255, 0.06); border-radius: 4px; color: var(--primary-light);
+        }
+
+        .cat-badge { font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px; display: inline-block; }
+        .cat-mkwu { background: rgba(236, 72, 153, 0.15); color: #f472b6; border: 1px solid rgba(236, 72, 153, 0.3); }
+        .cat-fsti { background: rgba(139, 92, 246, 0.15); color: #c084fc; border: 1px solid rgba(139, 92, 246, 0.3); }
+        .cat-sti  { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
+        .cat-elektif { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+
+        /* Custom Alerts */
+        .custom-alert {
+            border-left: 4px solid var(--primary);
+            background: rgba(17, 24, 39, 0.6);
+            border: 1px solid var(--border-color);
+            border-left-width: 4px;
+            border-radius: var(--radius-md);
+            padding: 16px 20px;
+            margin: 24px 0;
+        }
+        .alert-important { border-left-color: var(--primary); background: rgba(99, 102, 241, 0.08); }
+        .alert-note { border-left-color: var(--secondary); background: rgba(6, 182, 212, 0.08); }
+        .alert-tip { border-left-color: var(--accent); background: rgba(16, 185, 129, 0.08); }
+        .alert-warning { border-left-color: var(--warning); background: rgba(245, 158, 11, 0.08); }
+        .alert-caution { border-left-color: var(--danger); background: rgba(239, 68, 68, 0.08); }
+        
+        .alert-header { font-weight: 700; font-size: 0.9rem; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
+        .alert-important .alert-header { color: var(--primary-light); }
+        .alert-note .alert-header { color: var(--secondary); }
+        .alert-tip .alert-header { color: var(--accent); }
+        .alert-warning .alert-header { color: var(--warning); }
+        .alert-caution .alert-header { color: var(--danger); }
+        .alert-content { color: var(--text-secondary); font-size: 0.92rem; }
+
+        /* ASCII Tables Box */
+        .ascii-table-box {
+            background: #090d16;
+            border: 1px solid var(--border-accent);
+            border-radius: var(--radius-md);
+            padding: 16px;
+            font-family: var(--font-code);
+            font-size: 0.8rem;
+            color: var(--primary-light);
+            overflow-x: auto;
+            margin: 24px 0;
+            white-space: pre;
+        }
+
+        /* Mermaid Box */
+        .mermaid-card {
+            background: rgba(17, 24, 39, 0.5);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 24px; margin: 24px 0;
+            text-align: center; overflow-x: auto;
+        }
+
+        /* Bottom Nav Links */
+        .doc-nav {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--border-color);
+        }
+        .nav-btn {
+            background: var(--bg-secondary); border: 1px solid var(--border-color);
+            color: var(--text-primary); padding: 10px 18px; border-radius: var(--radius-sm);
+            text-decoration: none; font-weight: 600; font-size: 0.88rem; transition: all 0.2s;
+        }
+        .nav-btn:hover { border-color: var(--primary); color: var(--primary-light); }
+
+        /* Footer */
+        .footer { margin-top: 60px; text-align: center; color: var(--text-muted); font-size: 0.85rem; }
+
+        @media print {
+            body { background: white; color: black; }
+            .navbar, .nav-actions, .doc-nav, .search-box { display: none; }
+            .hero, .content { border: 1px solid #ccc; box-shadow: none; background: white; padding: 20px; }
+            th { background: #eee !important; color: black !important; }
+            td { color: black !important; }
+            .code-tag { background: #f0f0f0; color: black; border: 1px solid #ccc; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <a href="index.html" class="brand">
+                <div class="brand-logo">STI</div>
+                <div class="brand-text">
+                    <h1>SISTEKIN — FSTI UWG</h1>
+                    <p>Buku Kurikulum OBE 2026</p>
+                </div>
+            </a>
+            
+            <select class="doc-select" onchange="window.location.href=this.value">
+                <option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
+<option value="002_FORMULASI_3_PEO_DAN_4_PROFIL_LULUSAN_SISTEKIN.html" selected>002 — Formulasi 3 PEO & 4 Profil Lulusan</option>
+<option value="003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.html" >003 — Standar 14 CPL & Pemetaan BoK APTIKOM</option>
+<option value="004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.html" >004 — Matriks Keterlacakan OBE VMTS-PEO-PL-CPL-MK</option>
+<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — Struktur Kurikulum 8 Semester & Peminatan</option>
+<option value="006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.html" >006 — Distribusi MK Peminatan & Panduan MBKM</option>
+<option value="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" >007 — Silabus 3-Tabel & CPMK 67 MK Portofolio</option>
+<option value="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" >008 — Sistem Asesmen OBE & Attainment CPL</option>
+<option value="009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.html" >009 — Pedoman Capstone & 4 Opsi TA Non-Skripsi</option>
+<option value="010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.html" >010 — Instrumen Tracer Study & Evaluasi PEO</option>
+<option value="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" >📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)</option>
+            </select>
+
+            
+    <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="globalTableSearch" class="search-input" placeholder="Cari dalam dokumen (kode, MK, istilah, tabel)...">
+    </div>
+    
+
+            <div class="nav-actions">
+                <a href="index.html" class="btn-action">🏠 Portal Dokumen</a>
+                <button class="btn-action" onclick="window.print()">🖨️ Cetak PDF</button>
+                <button class="btn-action" id="themeToggle">🌓 Tema</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-badge-group">
+                <span class="badge badge-primary">Kurikulum OBE 2026</span>
+                <span class="badge badge-accent">Permendikbudristek 53/2023</span>
+                <span class="badge badge-warning">FSTI UWG Malang</span>
+            </div>
+            <h1 class="hero-title">002 — Formulasi 3 PEO & 4 Profil Lulusan</h1>
+            <p style="color: var(--text-secondary); font-size: 0.95rem;">Dokumen Kurikulum OBE Definitif Program Studi Sistem dan Teknologi Informasi (S1)</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="content">
+            <h1 id="002-formulasi-3-program-educational-objectives-peo-dan-4-profil-lulusan-pl">002 — FORMULASI 3 PROGRAM EDUCATIONAL OBJECTIVES (PEO) DAN 4 PROFIL LULUSAN (PL)</h1>
+<h2 id="program-studi-sistem-dan-teknologi-informasi-s1-fakultas-sains-dan-teknologi-informasi-fsti-universitas-widyagama-malang">Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang</h2>
+<p><strong>Dokumen Revisi Definitif Kurikulum 2026</strong><br />
+<strong>Standar Rujukan:</strong> Standar LAM INFOKOM Kriteria 1 &amp; 9, Panduan Kurikulum OBE APTIKOM v2.0 (IS2020 &amp; IT2017), Standar Akreditasi Internasional IABEE (Kriteria 1), ACM/IEEE CC2020.</p>
+<hr />
+<h3 id="visualisasi-arsitektur-peleburan-profil-3-peo">VISUALISASI ARSITEKTUR: PELEBURAN PROFIL &amp; 3 PEO</h3>
+<div class="mermaid-card"><div class="mermaid">
+graph TD
+    subgraph PELEBURAN [&quot;KONSOLIDASI PROFIL LULUSAN (6 PL → 4 PL)&quot;]
+        PL1_OLD[&quot;PL-01: Intelligent IS Dev&quot;] &amp; PL6_OLD[&quot;PL-06: Data &amp; ML Eng&quot;] --&gt; PL1[&quot;PL-1: Intelligent IS &amp; Data/AI Engineer&quot;]
+        PL3_OLD[&quot;PL-03: Smart Sys Integrator&quot;] &amp; PL5_OLD[&quot;PL-05: Governance Analyst&quot;] --&gt; PL2[&quot;PL-2: Cloud Infra, Cybersecurity &amp; Smart Sys&quot;]
+        PL2_OLD[&quot;PL-02: UI/UX &amp; Platform Eng&quot;] --&gt; PL3[&quot;PL-3: UI/UX Designer &amp; Platform Engineer&quot;]
+        PL4_OLD[&quot;PL-04: Technopreneur&quot;] --&gt; PL4[&quot;PL-4: Digital Technopreneur &amp; Product Innovator&quot;]
+    end
+
+    subgraph PEO [&quot;3 PROGRAM EDUCATIONAL OBJECTIVES (3-5 TAHUN)&quot;]
+        PEO1[&quot;PEO-1: Professional Practice &amp; Systems Integration&quot;]
+        PEO2[&quot;PEO-2: Digital Innovation &amp; Technopreneurship&quot;]
+        PEO3[&quot;PEO-3: Advanced Study, Research &amp; Lifelong Learning&quot;]
+    end
+
+    PL1 &amp; PL2 &amp; PL3 --&gt; PEO1
+    PL3 &amp; PL4 --&gt; PEO2
+    PL1 &amp; PL2 &amp; PL3 &amp; PL4 --&gt; PEO3
+</div></div>
+
+<hr />
+<h2 id="1-sejarah-analisis-dan-alasan-penyatuan-profil-lulusan-dari-6-pl-menjadi-4-pl">1. SEJARAH, ANALISIS, DAN ALASAN PENYATUAN PROFIL LULUSAN (DARI 6 PL MENJADI 4 PL)</h2>
+<h3 id="11-latar-belakang-model-6-profil-lulusan-draf-awal-kurikulum-20252026">1.1 Latar Belakang Model 6 Profil Lulusan (Draf Awal Kurikulum 2025/2026)</h3>
+<p>Pada fase perancangan awal kurikulum SISTEKIN (Dokumen 008 pada arsip historis <code>KURIKULUM2026_ZCODE</code>>), dirumuskan 6 Profil Lulusan (<code>PL-01</code>> s.d. <code>PL-06</code>>):
+1. <code>PL-01</code>>: <em>Intelligent Information System Developer</em>
+2. <code>PL-02</code>>: <em>UI/UX Designer &amp; Digital Platform Engineer</em>
+3. <code>PL-03</code>>: <em>Smart System &amp; Technology Integrator</em>
+4. <code>PL-04</code>>: <em>Technopreneur</em>
+5. <code>PL-05</code>>: <em>Digital System &amp; Technology Governance Analyst</em>
+6. <code>PL-06</code>>: <em>Data Analyst &amp; Machine Learning Engineer</em></p>
+<p>Model 6 PL tersebut merupakan hasil dekonstruksi granular awal untuk memetakan seluruh kemungkinan peran okupasi di industri teknologi informasi.</p>
+<hr />
+<h3 id="12-analisis-kritis-kelemahan-model-6-pl-audit-asesor-lam-infokom-iabee">1.2 Analisis Kritis Kelemahan Model 6 PL (Audit Asesor LAM INFOKOM &amp; IABEE)</h3>
+<p>Berdasarkan audit kelayakan implementasi kurikulum OBE, ditemukan 4 kelemahan fundamental pada model 6 PL:</p>
+<ol>
+<li><strong>Risiko Fragmentasi Data Tracer Study (<em>Small Sample Bias</em>):</strong>
+   * Sesuai Standar LAM INFOKOM Kriteria 9 (Luaran dan Capaian Tridharma), ketercapaian Profil Lulusan dan PEO wajib dievaluasi melalui <em>Tracer Study</em>.
+   * Dengan 6 PL, pada angkatan-angkatan awal (jumlah mahasiswa <span class="arithmatex"><span class="MathJax_Preview">\pm 30-50</span><script type="math/tex">\pm 30-50</script></span> per tahun), jumlah lulusan yang mengisi tiap profil akan sangat sedikit (<span class="arithmatex"><span class="MathJax_Preview">3-5</span><script type="math/tex">3-5</script></span> orang per profil). Hal ini menimbulkan bias statistik yang tinggi dan menyulitkan evaluasi berkala mutu lulusan (PPEPP).</li>
+<li><strong>Tumpang Tindih Peran (<em>Role Overlapping</em>) di Industri Nyata:</strong>
+   * Di industri modern, peran <em>Data/ML Engineer</em> (<code>PL-06</code>>) dan <em>Intelligent IS Developer</em> (<code>PL-01</code>>) berada dalam satu kontinum rekayasa perangkat lunak cerdas. Memisahkannya ke dalam profil sarjana terpisah menciptakan ambiguitas kurikulum.
+   * Peran <em>Governance Analyst</em> (<code>PL-05</code>>) sangat erat berkaitan dengan arsitektur infrastruktur, cloud, dan ketahanan siber (<code>PL-03</code>>). Pemisahan tersebut membuat profil tata kelola terkesan teoritis tanpa penguasaan infrastruktur teknis.</li>
+<li><strong>Rekomendasi Standar Kurikulum APTIKOM &amp; IABEE:</strong>
+   * Panduan Kurikulum OBE APTIKOM v2.0 dan IABEE merekomendasikan sebuah program studi sarjana strata satu (S1) menetapkan <strong>3 hingga 5 Profil Lulusan inti</strong> (<em>sweet spot</em> 4 PL) agar profil lulusan memiliki fokus yang tajam, kredibel, dan mudah dikenali oleh <em>employers</em> (pengguna lulusan).</li>
+<li><strong>Penyelarasan Struktural 1:1 terhadap 3 Peminatan + 1 Pilar Kewirausahaan:</strong>
+   * Kurikulum SISTEKIN memiliki 3 Peminatan Spesialisasi (@ 18 SKS / 6 MK) dan 1 Pilar Capstone Technopreneurship. Model 4 PL menciptakan simetri sempurna: <strong>3 PL berbasis Peminatan Teknis + 1 PL berbasis Kewirausahaan Mandiri</strong>.</li>
+</ol>
+<hr />
+<h3 id="13-matriks-migrasi-dan-rekonsiliasi-peleburan-6-pl-4-pl">1.3 Matriks Migrasi dan Rekonsiliasi (Peleburan 6 PL → 4 PL)</h3>
+<p>Proses penyatuan profil ini dilakukan <strong>tanpa menghilangkan satu pun kompetensi/bahan kajian</strong>, melainkan mengkonsolidasikannya menjadi lebih kokoh dan selaras dengan kebutuhan industri terkini:</p>
+<div class="table-wrapper">
+<div class="table-title-header" style="background: rgba(99, 102, 241, 0.15); padding: 10px 16px; font-weight: 700; color: var(--primary-light); border: 1px solid var(--border-color); border-bottom: none; border-radius: var(--radius-md) var(--radius-md) 0 0; text-align: center;">MATRIKS REKONSILIASI &amp; PELEBURAN PROFIL LULUSAN SISTEKIN</div>
+<div class="table-wrapper"><table><thead><tr>
+<th>Kode</th>
+<th>Profil Lama (6 PL)</th>
+<th>Kode</th>
+<th>Profil Baru (4 PL)</th>
+<th>Rasionalisasi Integrasi</th>
+</tr></thead><tbody>
+<tr>
+<td>PL-01<br>PL-06</td>
+<td>Intelligent IS Dev<br>Data Analyst & ML Eng</td>
+<td>PL-1</td>
+<td>Intelligent Information<br>Systems & Data/AI<br>Engineer</td>
+<td>Menggabungkan rekayasa<br>perangkat lunak cerdas dan<br>pipeline data/MLOps.</td>
+</tr>
+<tr>
+<td>PL-03<br>PL-05</td>
+<td>Smart System Integrator<br>Governance Analyst</td>
+<td>PL-2</td>
+<td>Cloud Infrastructure,<br>Cybersecurity & Smart<br>Systems Integrator</td>
+<td>Mengintegrasikan infrastruk<br>tur cloud, IoT, keamanan<br>siber, dan tata kelola TI.</td>
+</tr>
+<tr>
+<td>PL-02</td>
+<td>UI/UX & Platform Eng</td>
+<td>PL-3</td>
+<td>UI/UX Designer &<br>Digital Platform<br>Engineer</td>
+<td>Mempertahankan keunggulan<br>rekayasa frontend, UI/UX,<br>dan arsitektur platform.</td>
+</tr>
+<tr>
+<td>PL-04</td>
+<td>Technopreneur</td>
+<td>PL-4</td>
+<td>Digital Technopreneur &<br>IT Product Innovator</td>
+<td>Mempertegas peran founder,<br>product owner, dan agile<br>startup innovator.</td>
+</tr>
+</tbody></table></div></div>
+
+<hr />
+<h2 id="2-formulasi-definitif-4-profil-lulusan-pl-sistekin-2026">2. FORMULASI DEFINITIF 4 PROFIL LULUSAN (PL) SISTEKIN 2026</h2>
+<div class="table-wrapper">
+<div class="table-title-header" style="background: rgba(99, 102, 241, 0.15); padding: 10px 16px; font-weight: 700; color: var(--primary-light); border: 1px solid var(--border-color); border-bottom: none; border-radius: var(--radius-md) var(--radius-md) 0 0; text-align: center;">4 PROFIL LULUSAN SISTEKIN (KKNI LEVEL 6)</div>
+<div class="table-wrapper"><table><thead><tr>
+<th>Kode</th>
+<th>Profil Lulusan</th>
+<th>Basis Peminatan</th>
+<th>CPL Khusus Utama</th>
+</tr></thead><tbody>
+<tr>
+<td>PL-1</td>
+<td>Intelligent Information Systems & Data/AI<br>Engineer</td>
+<td>P1: Integrated<br>Smart Systems</td>
+<td>• KK1 (AI & ML System)<br>• KK2 (Data & MLOps)</td>
+</tr>
+<tr>
+<td>PL-2</td>
+<td>Cloud Infrastructure, Cybersecurity &<br>Smart Systems Integrator</td>
+<td>P2: Cloud Infra &<br>Cybersecurity</td>
+<td>• KK3 (Cloud, IoT, Cyber)<br>• KK4 (IT Governance)</td>
+</tr>
+<tr>
+<td>PL-3</td>
+<td>UI/UX Designer & Digital Platform<br>Engineer</td>
+<td>P3: Digital Plat-<br>form Eng.</td>
+<td>• KK5 (UI/UX & Platform)<br>• P4  (Software & Web/Mob)</td>
+</tr>
+<tr>
+<td>PL-4</td>
+<td>Digital Technopreneur & IT Product<br>Innovator</td>
+<td>Lintas Peminatan /<br>Capstone Ecosystem</td>
+<td>• KK6 (Techno & Agile)<br>• S1, KU1, KU2, KU3</td>
+</tr>
+</tbody></table></div></div>
+
+<h3 id="rincian-deskripsi-dan-capaian-tiap-profil">Rincian Deskripsi dan Capaian Tiap Profil:</h3>
+<h4 id="1-pl-1-intelligent-information-systems-dataai-engineer">1. PL-1: Intelligent Information Systems &amp; Data/AI Engineer</h4>
+<ul>
+<li><strong>Deskripsi:</strong> Sarjana yang memiliki kemampuan menganalisis kebutuhan organisasi, merancang arsitektur sistem informasi cerdas terintegrasi, merekayasa pipeline data skala besar (<em>Data Engineering</em>), mengembangkan model pembelajaran mesin (<em>Machine Learning/Deep Learning</em>), serta menerapkan operasionalisasi model (<em>MLOps</em>) ke dalam aplikasi enterprise nyata.</li>
+<li><strong>Peran/Profesi Industri:</strong> <em>AI Software Developer, Data Engineer, Machine Learning Engineer, Business Intelligence Specialist, Intelligent System Analyst.</em></li>
+</ul>
+<h4 id="2-pl-2-cloud-infrastructure-cybersecurity-smart-systems-integrator">2. PL-2: Cloud Infrastructure, Cybersecurity &amp; Smart Systems Integrator</h4>
+<ul>
+<li><strong>Deskripsi:</strong> Sarjana yang memiliki kemampuan merancang, mengimplementasikan, dan mengelola infrastruktur komputasi awan (<em>Cloud Native/DevOps</em>), mengintegrasikan perangkat IoT dan sistem cerdas (<em>Smart City/Smart Campus</em>), mengamankan aset informasi melalui pertahanan siber (<em>Cybersecurity &amp; Vulnerability Assessment</em>), serta menegakkan tata kelola dan audit TI (<em>COBIT/ITIL/ISO 27001</em>).</li>
+<li><strong>Peran/Profesi Industri:</strong> <em>Cloud Architect/DevOps Engineer, Cybersecurity Analyst, Smart Systems/IoT Integrator, IT Infrastructure Engineer, IT Governance &amp; Audit Specialist.</em></li>
+</ul>
+<h4 id="3-pl-3-uiux-designer-digital-platform-engineer">3. PL-3: UI/UX Designer &amp; Digital Platform Engineer</h4>
+<ul>
+<li><strong>Deskripsi:</strong> Sarjana yang memiliki kemampuan merancang arsitektur interaksi dan pengalaman pengguna berbasis riset (<em>UI/UX Design</em>), merekayasa antarmuka modern (<em>Web &amp; Mobile Frontend</em>), membangun arsitektur layanan mikro (<em>Microservices</em>), serta mengintegrasikan platform digital terdistribusi skala besar untuk transformasi proses bisnis.</li>
+<li><strong>Peran/Profesi Industri:</strong> <em>UI/UX Designer, Frontend/Fullstack Platform Engineer, Mobile Application Engineer, Digital Experience Specialist, Solution Architect.</em></li>
+</ul>
+<h4 id="4-pl-4-digital-technopreneur-it-product-innovator">4. PL-4: Digital Technopreneur &amp; IT Product Innovator</h4>
+<ul>
+<li><strong>Deskripsi:</strong> Sarjana yang memiliki jiwa kewirausahaan teknologi, kemampuan mengidentifikasi celah pasar (<em>Market Validation</em>), merancang model bisnis inovatif (<em>Lean Startup</em>), membangun produk minimum yang layak (<em>MVP</em>), mengelola proyek TI menggunakan kerangka kerja <em>Agile/Scrum</em>, serta mendirikan dan memimpin usaha rintisan (<em>tech startup</em>) berbasis sistem cerdas.</li>
+<li><strong>Peran/Profesi Industri:</strong> <em>Tech Startup Founder, IT Product Manager, Agile Project Manager, Digital Transformation Consultant, Technology Business Specialist.</em></li>
+</ul>
+<hr />
+<h2 id="3-formulasi-3-program-educational-objectives-peo">3. FORMULASI 3 PROGRAM EDUCATIONAL OBJECTIVES (PEO)</h2>
+<p>Program Educational Objectives (PEO) menggambarkan pencapaian karier dan profesional yang diharapkan diraih oleh alumni SISTEKIN <strong>3 hingga 5 tahun setelah kelulusan</strong>:</p>
+<div class="table-wrapper">
+<div class="table-title-header" style="background: rgba(99, 102, 241, 0.15); padding: 10px 16px; font-weight: 700; color: var(--primary-light); border: 1px solid var(--border-color); border-bottom: none; border-radius: var(--radius-md) var(--radius-md) 0 0; text-align: center;">3 PROGRAM EDUCATIONAL OBJECTIVES (PEO) SISTEKIN</div>
+<div class="table-wrapper"><table><thead><tr>
+<th>Kode PEO</th>
+<th>Nomenklatur &amp; Pernyataan Formal Objektif Pendidikan (3–5 Tahun Pasca Kelulusan)</th>
+</tr></thead><tbody>
+<tr>
+<td>PEO-1</td>
+<td>PEO-1 — Professional Practice and Systems Integration<br>&quot;Dalam 3–5 tahun setelah lulus, alumni mampu berkarier secara profesional dalam<br>menganalisis, merancang, mengembangkan, mengintegrasikan, mengamankan, atau<br>mengelola sistem dan teknologi informasi cerdas sesuai kebutuhan organisasi,<br>industri, dan masyarakat.&quot;</td>
+</tr>
+<tr>
+<td>PEO-2</td>
+<td>PEO-2 — Digital Innovation and Technopreneurship<br>&quot;Dalam 3–5 tahun setelah lulus, alumni mampu menghasilkan inovasi, produk, layanan,<br>perbaikan proses, atau usaha digital yang relevan, etis, berkelanjutan, dan<br>memberikan nilai tambah bagi pengguna, organisasi, industri, atau masyarakat.&quot;</td>
+</tr>
+<tr>
+<td>PEO-3</td>
+<td>PEO-3 — Advanced Study, Research, and Lifelong Learning<br>&quot;Dalam 3–5 tahun setelah lulus, alumni mampu mengembangkan kompetensi melalui studi<br>lanjut (S2/S3), penelitian terapan, sertifikasi profesional, komunitas keilmuan,<br>atau pembelajaran sepanjang hayat serta menunjukkan kepemimpinan sesuai konteksnya.&quot;</td>
+</tr>
+</tbody></table></div></div>
+
+<h3 id="31-atribut-kepemimpinan-leadership-lintas-peo">3.1 Atribut Kepemimpinan (<em>Leadership</em>) Lintas-PEO</h3>
+<p>Dalam kerangka PEO SISTEKIN, <strong>kepemimpinan (<em>leadership</em>) bukan merupakan PEO terpisah</strong>, melainkan kompetensi esensial yang melekat pada seluruh jalur PEO:
+* Pada <strong>PEO-1 (Praktik Profesional):</strong> Memimpin tim teknis, memandu arsitektur proyek, atau memimpin inisiatif transformasi digital.
+* Pada <strong>PEO-2 (Technopreneurship):</strong> Memimpin perintisan startup, memvalidasi visi produk, dan memimpin tim lintas fungsi.
+* Pada <strong>PEO-3 (Akademisi/Riset):</strong> Memimpin kelompok kajian riset, laboratorium, publikasi ilmiah, atau menginisiasi proyek riset kolaboratif.</p>
+<hr />
+<h2 id="4-matriks-keterlacakan-strategis-vmts-3-peo-4-pl-14-cpl">4. MATRIKS KETERLACAKAN STRATEGIS: VMTS ↔ 3 PEO ↔ 4 PL ↔ 14 CPL</h2>
+<div class="table-wrapper">
+<div class="table-title-header" style="background: rgba(99, 102, 241, 0.15); padding: 10px 16px; font-weight: 700; color: var(--primary-light); border: 1px solid var(--border-color); border-bottom: none; border-radius: var(--radius-md) var(--radius-md) 0 0; text-align: center;">MATRIKS KETERLACAKAN STRATEGIS KURIKULUM OBE</div>
+<div class="table-wrapper"><table><thead><tr>
+<th>Pilar Utama VMTS&lt;br&gt;(Visi 2045)</th>
+<th>Target&lt;br&gt;PEO</th>
+<th>Profil Lulusan&lt;br&gt;Terkait (PL)</th>
+<th>Pasangan CPL Pendukung Utama&lt;br&gt;(14 CPL Terstandar)</th>
+</tr></thead><tbody>
+<tr>
+<td>AI & Smart Systems<br>Integration</td>
+<td>PEO-1<br>PEO-3</td>
+<td>PL-1 & PL-2</td>
+<td>• P1, P2 (Fondasi Matematika & Sistem)<br>• KK1 (Pengembangan AI & Smart Systems)<br>• KK2 (Rekayasa Data & MLOps)<br>• KK3 (Cloud, IoT & Keamanan Informasi)<br>• KK4 (Tata Kelola & Audit TI)</td>
+</tr>
+<tr>
+<td>Modern Platform &<br>Digital Experience</td>
+<td>PEO-1<br>PEO-2</td>
+<td>PL-3</td>
+<td>• P4 (Rekayasa Perangkat Lunak, Web & Mob)<br>• KK5 (UI/UX Design & Platform Engine)<br>• KU1, KU2 (Pemikiran Logis & Kerja Tim)</td>
+</tr>
+<tr>
+<td>Technopreneurship<br>& Kemandirian</td>
+<td>PEO-2<br>PEO-3</td>
+<td>PL-4<br>(Lintas Profil)</td>
+<td>• S1 (Etika, Nilai Luhur, Integritas)<br>• KU3 (Kemampuan Komunikasi & Presentasi)<br>• P3 (Manajemen Proyek TI & Inovasi)<br>• KK6 (Technopreneurship & Agile Startup)</td>
+</tr>
+</tbody></table></div></div>
+
+<hr />
+<h2 id="5-rencana-pengukuran-dan-evaluasi-peo-peo-measurement-plan-ppepp">5. RENCANA PENGUKURAN DAN EVALUASI PEO (PEO MEASUREMENT PLAN — PPEPP)</h2>
+<p>Sebagai program studi baru yang sedang bertumbuh, SISTEKIN menerapkan evaluasi PEO secara bertahap dan terencana:</p>
+<div class="table-wrapper">
+<div class="table-title-header" style="background: rgba(99, 102, 241, 0.15); padding: 10px 16px; font-weight: 700; color: var(--primary-light); border: 1px solid var(--border-color); border-bottom: none; border-radius: var(--radius-md) var(--radius-md) 0 0; text-align: center;">SIKLUS EVALUASI PEO BERBASIS PPEPP</div>
+<div class="table-wrapper"><table><thead><tr>
+<th>Periode / Tahap</th>
+<th>Fokus Evaluasi</th>
+<th>Instrumen &amp; Sumber Data</th>
+</tr></thead><tbody>
+<tr>
+<td>Setiap Semester</td>
+<td>Capaian CPL & CPMK</td>
+<td>Asesmen MK, Rubrik Penilaian, Portofolio Mahasiswa</td>
+</tr>
+<tr>
+<td>Setiap Tahun</td>
+<td>Relevansi Kurikulum</td>
+<td>FGD Industri, Advisory Board, Masukan Dosen/Mitra</td>
+</tr>
+<tr>
+<td>Saat Kelulusan</td>
+<td>Kesiapan Kerja (Day1)</td>
+<td>Exit Survey, Capaian Portofolio SKPI, Sertifikasi</td>
+</tr>
+<tr>
+<td>1 Tahun Pasca-Lulus</td>
+<td>Transisi Karier Awal</td>
+<td>Tracer Study Awal (Waktu Tunggu, Gaji Pertama)</td>
+</tr>
+<tr>
+<td>3–5 Tahun Pasca-<br>Lulus</td>
+<td>Ketercapaian PEO<br>Definitif</td>
+<td>Tracer Study PEO, Employer Survey (Survei Kepuasan<br>Pengguna Lulusan), Portofolio Usaha/Publikasi Alumni</td>
+</tr>
+</tbody></table></div></div>
+
+<hr />
+<p><em>Disahkan sebagai Dokumen Resmi 002 — Kurikulum OBE Revisi SISTEKIN 2026.</em><br />
+<strong>Tim Pengembang Kurikulum FSTI Universitas Widyagama Malang</strong></p>
+
+            <div class="doc-nav">
+                <div><a href="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" class="nav-btn">← Sebelumnya</a></div>
+                <div><a href="index.html" class="nav-btn">🏠 Index Utama</a></div>
+                <div><a href="003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.html" class="nav-btn">Selanjutnya →</a></div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p><strong>Dokumen Resmi Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
+            <p>Tim Pengembang Kurikulum FSTI — Universitas Widyagama Malang © 2026</p>
+        </footer>
+    </div>
+
+    <script>
+        // Mermaid Init
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'dark',
+            flowchart: { curve: 'basis', useMaxWidth: true }
+        });
+
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        let currentTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', currentTheme);
+
+        themeToggle.addEventListener('click', () => {
+            currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', currentTheme);
+            localStorage.setItem('theme', currentTheme);
+        });
+
+        // Live Table Search Filter
+        const searchInput = document.getElementById('globalTableSearch');
+        if (searchInput) {
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase().trim();
+                const rows = document.querySelectorAll('table tbody tr');
+                rows.forEach(row => {
+                    const text = row.innerText.toLowerCase();
+                    if (query === '' || text.includes(query)) {
+                        row.style.display = '';
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+            });
+        }
+    </script>
+</body>
+</html>

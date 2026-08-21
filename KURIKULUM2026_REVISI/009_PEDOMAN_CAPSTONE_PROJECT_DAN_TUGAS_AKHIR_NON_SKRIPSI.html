@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>009 — Pedoman Capstone & 4 Opsi TA Non-Skripsi | Kurikulum OBE SISTEKIN 2026</title>
+    <meta name="description" content="Dokumen Resmi Kurikulum OBE 2026 Program Studi Sistem dan Teknologi Informasi (S1) FSTI UWG Malang.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- KaTeX for LaTeX Math -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+
+    <!-- Mermaid JS for Flowcharts -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+
+    <style>
+        :root {
+            --bg-primary: #0b0f19;
+            --bg-secondary: #111827;
+            --bg-card: rgba(17, 24, 39, 0.75);
+            --bg-card-hover: rgba(31, 41, 55, 0.85);
+            --border-color: rgba(255, 255, 255, 0.1);
+            --border-accent: rgba(99, 102, 241, 0.35);
+            
+            --text-primary: #f9fafb;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+            
+            --primary: #6366f1;
+            --primary-light: #818cf8;
+            --secondary: #06b6d4;
+            --accent: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            
+            --mkwu-color: #ec4899;
+            --fsti-color: #8b5cf6;
+            --sti-color: #3b82f6;
+            --elektif-color: #10b981;
+            
+            --font-sans: 'Plus Jakarta Sans', 'Inter', sans-serif;
+            --font-code: 'Fira Code', monospace;
+            --shadow-glow: 0 0 30px rgba(99, 102, 241, 0.12);
+            --radius-lg: 16px;
+            --radius-md: 12px;
+            --radius-sm: 8px;
+        }
+
+        [data-theme="light"] {
+            --bg-primary: #f8fafc;
+            --bg-secondary: #ffffff;
+            --bg-card: rgba(255, 255, 255, 0.9);
+            --bg-card-hover: #ffffff;
+            --border-color: rgba(0, 0, 0, 0.08);
+            --border-accent: rgba(99, 102, 241, 0.25);
+            
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --text-muted: #94a3b8;
+            
+            --shadow-glow: 0 10px 30px rgba(99, 102, 241, 0.08);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            padding-bottom: 80px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Navbar */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(11, 15, 25, 0.85);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 14px 0;
+            margin-bottom: 32px;
+        }
+        [data-theme="light"] .navbar { background: rgba(248, 250, 252, 0.85); }
+
+        .navbar-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+        .brand-logo {
+            width: 40px; height: 40px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: var(--radius-sm);
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 800; color: white; font-size: 1.1rem;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+        }
+        .brand-text h1 { font-size: 1.05rem; font-weight: 700; color: var(--text-primary); }
+        .brand-text p { font-size: 0.75rem; color: var(--text-secondary); }
+
+        .doc-select {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            font-size: 0.85rem;
+            font-weight: 600;
+            outline: none;
+            cursor: pointer;
+            max-width: 380px;
+        }
+
+        .search-box {
+            position: relative;
+            min-width: 240px;
+        }
+        .search-input {
+            width: 100%;
+            padding: 8px 14px 8px 34px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            color: var(--text-primary);
+            font-size: 0.85rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .search-input:focus { border-color: var(--primary); }
+        .search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); font-size: 0.8rem; opacity: 0.6; }
+
+        .nav-actions { display: flex; align-items: center; gap: 10px; }
+        .btn-action {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            cursor: pointer; font-size: 0.85rem; font-weight: 600;
+            display: inline-flex; align-items: center; gap: 6px;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
+        .btn-action:hover { border-color: var(--primary); color: var(--primary-light); transform: translateY(-1px); }
+
+        /* Hero Header */
+        .hero {
+            background: radial-gradient(circle at top right, rgba(99, 102, 241, 0.15), transparent 50%),
+                        radial-gradient(circle at bottom left, rgba(6, 182, 212, 0.1), transparent 50%);
+            border: 1px solid var(--border-accent);
+            border-radius: var(--radius-lg);
+            padding: 36px;
+            margin-bottom: 36px;
+            box-shadow: var(--shadow-glow);
+        }
+        .hero-badge-group { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+        .badge {
+            font-size: 0.72rem; font-weight: 700; padding: 4px 12px; border-radius: 20px;
+            letter-spacing: 0.03em; text-transform: uppercase;
+        }
+        .badge-primary { background: rgba(99, 102, 241, 0.2); color: var(--primary-light); border: 1px solid rgba(99, 102, 241, 0.4); }
+        .badge-accent { background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); }
+        .badge-warning { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.4); }
+
+        .hero-title {
+            font-size: 2rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 8px;
+            background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        [data-theme="light"] .hero-title {
+            background: linear-gradient(135deg, #0f172a 0%, #334155 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+
+        /* Typography & Content */
+        .content {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+        }
+
+        .content h1 { font-size: 1.8rem; font-weight: 800; margin: 32px 0 16px 0; color: var(--text-primary); border-bottom: 2px solid var(--border-accent); padding-bottom: 10px; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 30px 0 14px 0; color: var(--primary-light); border-bottom: 1px solid var(--border-color); padding-bottom: 8px; }
+        .content h3 { font-size: 1.15rem; font-weight: 700; margin: 24px 0 12px 0; color: var(--text-primary); }
+        .content h4 { font-size: 1rem; font-weight: 600; margin: 18px 0 8px 0; color: var(--text-secondary); }
+
+        .content p { margin-bottom: 16px; color: var(--text-secondary); font-size: 0.96rem; }
+        .content ul, .content ol { margin: 0 0 20px 24px; color: var(--text-secondary); font-size: 0.95rem; }
+        .content li { margin-bottom: 6px; }
+        .content blockquote {
+            border-left: 4px solid var(--primary);
+            padding: 12px 20px;
+            background: rgba(99, 102, 241, 0.06);
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            margin: 20px 0;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Tables */
+        .table-wrapper { overflow-x: auto; margin: 24px 0; border-radius: var(--radius-md); border: 1px solid var(--border-color); }
+        table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem; }
+        th {
+            background: rgba(31, 41, 55, 0.7); color: var(--text-primary);
+            font-weight: 700; padding: 12px 16px; border-bottom: 1px solid var(--border-color);
+            font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em;
+        }
+        [data-theme="light"] th { background: #f1f5f9; }
+        td { padding: 12px 16px; border-bottom: 1px solid var(--border-color); color: var(--text-secondary); }
+        tr:last-child td { border-bottom: none; }
+        tr:hover td { background: var(--bg-card-hover); color: var(--text-primary); }
+
+        /* Code Badges */
+        .code-tag {
+            font-family: var(--font-code); font-weight: 600; font-size: 0.82rem;
+            padding: 2px 8px; border-radius: 4px; background: rgba(99, 102, 241, 0.12);
+            color: var(--primary-light); border: 1px solid rgba(99, 102, 241, 0.25);
+        }
+        code {
+            font-family: var(--font-code); font-size: 0.85rem; padding: 2px 6px;
+            background: rgba(255, 255, 255, 0.06); border-radius: 4px; color: var(--primary-light);
+        }
+
+        .cat-badge { font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px; display: inline-block; }
+        .cat-mkwu { background: rgba(236, 72, 153, 0.15); color: #f472b6; border: 1px solid rgba(236, 72, 153, 0.3); }
+        .cat-fsti { background: rgba(139, 92, 246, 0.15); color: #c084fc; border: 1px solid rgba(139, 92, 246, 0.3); }
+        .cat-sti  { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
+        .cat-elektif { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+
+        /* Custom Alerts */
+        .custom-alert {
+            border-left: 4px solid var(--primary);
+            background: rgba(17, 24, 39, 0.6);
+            border: 1px solid var(--border-color);
+            border-left-width: 4px;
+            border-radius: var(--radius-md);
+            padding: 16px 20px;
+            margin: 24px 0;
+        }
+        .alert-important { border-left-color: var(--primary); background: rgba(99, 102, 241, 0.08); }
+        .alert-note { border-left-color: var(--secondary); background: rgba(6, 182, 212, 0.08); }
+        .alert-tip { border-left-color: var(--accent); background: rgba(16, 185, 129, 0.08); }
+        .alert-warning { border-left-color: var(--warning); background: rgba(245, 158, 11, 0.08); }
+        .alert-caution { border-left-color: var(--danger); background: rgba(239, 68, 68, 0.08); }
+        
+        .alert-header { font-weight: 700; font-size: 0.9rem; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
+        .alert-important .alert-header { color: var(--primary-light); }
+        .alert-note .alert-header { color: var(--secondary); }
+        .alert-tip .alert-header { color: var(--accent); }
+        .alert-warning .alert-header { color: var(--warning); }
+        .alert-caution .alert-header { color: var(--danger); }
+        .alert-content { color: var(--text-secondary); font-size: 0.92rem; }
+
+        /* ASCII Tables Box */
+        .ascii-table-box {
+            background: #090d16;
+            border: 1px solid var(--border-accent);
+            border-radius: var(--radius-md);
+            padding: 16px;
+            font-family: var(--font-code);
+            font-size: 0.8rem;
+            color: var(--primary-light);
+            overflow-x: auto;
+            margin: 24px 0;
+            white-space: pre;
+        }
+
+        /* Mermaid Box */
+        .mermaid-card {
+            background: rgba(17, 24, 39, 0.5);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 24px; margin: 24px 0;
+            text-align: center; overflow-x: auto;
+        }
+
+        /* Bottom Nav Links */
+        .doc-nav {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--border-color);
+        }
+        .nav-btn {
+            background: var(--bg-secondary); border: 1px solid var(--border-color);
+            color: var(--text-primary); padding: 10px 18px; border-radius: var(--radius-sm);
+            text-decoration: none; font-weight: 600; font-size: 0.88rem; transition: all 0.2s;
+        }
+        .nav-btn:hover { border-color: var(--primary); color: var(--primary-light); }
+
+        /* Footer */
+        .footer { margin-top: 60px; text-align: center; color: var(--text-muted); font-size: 0.85rem; }
+
+        @media print {
+            body { background: white; color: black; }
+            .navbar, .nav-actions, .doc-nav, .search-box { display: none; }
+            .hero, .content { border: 1px solid #ccc; box-shadow: none; background: white; padding: 20px; }
+            th { background: #eee !important; color: black !important; }
+            td { color: black !important; }
+            .code-tag { background: #f0f0f0; color: black; border: 1px solid #ccc; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <a href="index.html" class="brand">
+                <div class="brand-logo">STI</div>
+                <div class="brand-text">
+                    <h1>SISTEKIN — FSTI UWG</h1>
+                    <p>Buku Kurikulum OBE 2026</p>
+                </div>
+            </a>
+            
+            <select class="doc-select" onchange="window.location.href=this.value">
+                <option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
+<option value="002_FORMULASI_3_PEO_DAN_4_PROFIL_LULUSAN_SISTEKIN.html" >002 — Formulasi 3 PEO & 4 Profil Lulusan</option>
+<option value="003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.html" >003 — Standar 14 CPL & Pemetaan BoK APTIKOM</option>
+<option value="004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.html" >004 — Matriks Keterlacakan OBE VMTS-PEO-PL-CPL-MK</option>
+<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — Struktur Kurikulum 8 Semester & Peminatan</option>
+<option value="006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.html" >006 — Distribusi MK Peminatan & Panduan MBKM</option>
+<option value="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" >007 — Silabus 3-Tabel & CPMK 67 MK Portofolio</option>
+<option value="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" >008 — Sistem Asesmen OBE & Attainment CPL</option>
+<option value="009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.html" selected>009 — Pedoman Capstone & 4 Opsi TA Non-Skripsi</option>
+<option value="010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.html" >010 — Instrumen Tracer Study & Evaluasi PEO</option>
+<option value="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" >📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)</option>
+            </select>
+
+            
+    <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="globalTableSearch" class="search-input" placeholder="Cari dalam dokumen (kode, MK, istilah, tabel)...">
+    </div>
+    
+
+            <div class="nav-actions">
+                <a href="index.html" class="btn-action">🏠 Portal Dokumen</a>
+                <button class="btn-action" onclick="window.print()">🖨️ Cetak PDF</button>
+                <button class="btn-action" id="themeToggle">🌓 Tema</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-badge-group">
+                <span class="badge badge-primary">Kurikulum OBE 2026</span>
+                <span class="badge badge-accent">Permendikbudristek 53/2023</span>
+                <span class="badge badge-warning">FSTI UWG Malang</span>
+            </div>
+            <h1 class="hero-title">009 — Pedoman Capstone & 4 Opsi TA Non-Skripsi</h1>
+            <p style="color: var(--text-secondary); font-size: 0.95rem;">Dokumen Kurikulum OBE Definitif Program Studi Sistem dan Teknologi Informasi (S1)</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="content">
+            <h1 id="009-pedoman-capstone-project-dan-opsi-tugas-akhir-non-skripsi">009 — PEDOMAN CAPSTONE PROJECT DAN OPSI TUGAS AKHIR NON-SKRIPSI</h1>
+<h2 id="program-studi-sistem-dan-teknologi-informasi-s1-fakultas-sains-dan-teknologi-informasi-fsti-universitas-widyagama-malang">Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang</h2>
+<p><strong>Dokumen Revisi Definitif Kurikulum 2026</strong><br />
+<strong>Standar Rujukan:</strong> Permendikbudristek No. 53 Tahun 2023 Pasal 19 (Fleksibilitas Tugas Akhir), Standar Akreditasi Internasional IABEE (Kriteria Capstone Design), LAM INFOKOM.</p>
+<hr />
+<h3 id="visualisasi-alur-capstone-4-opsi-ta-non-skripsi">VISUALISASI ALUR CAPSTONE &amp; 4 OPSI TA NON-SKRIPSI</h3>
+<div class="mermaid-card"><div class="mermaid">
+graph TD
+    subgraph CAPSTONE [&quot;CAPSTONE PROJECT FSTI (FST-610 - SEMESTER 7)&quot;]
+        C1[&quot;Formasi Tim Multidisiplin&quot;] --&gt; C2[&quot;Monev Progres 50% (UTS)&quot;]
+        C2 --&gt; C3[&quot;Demo Day &amp; Live Testing (UAS)&quot;]
+    end
+
+    subgraph TA_OPTIONS [&quot;4 OPSI SKEMA TUGAS AKHIR (SEMESTER 8)&quot;]
+        O1[&quot;Opsi A: Skripsi Riset Algoritma AI&quot;]
+        O2[&quot;Opsi B: Purwarupa Produk System/Platform&quot;]
+        O3[&quot;Opsi C: Publikasi Jurnal (SINTA 2 / Scopus)&quot;]
+        O4[&quot;Opsi D: Startup Digital MVP &amp; Validasi Pasar&quot;]
+    end
+
+    C3 --&gt; TA_OPTIONS
+</div></div>
+
+<hr />
+<h2 id="1-pedoman-capstone-project-fsti-fst-610-3-sks-semester-7">1. PEDOMAN CAPSTONE PROJECT FSTI (<span class="code-tag">FST-610</span>>, 3 SKS — SEMESTER 7)</h2>
+<h3 id="11-hakikat-dan-tujuan-capstone-project">1.1 Hakikat dan Tujuan Capstone Project</h3>
+<p>Capstone Project merupakan mata kuliah puncak (<em>culminating experience</em>) wajib fakultas yang mengintegrasikan seluruh kompetensi yang telah dipelajari mahasiswa selama masa studi:
+* Mahasiswa bekerja dalam <strong>tim multidisiplin (3–4 mahasiswa per tim)</strong>, dapat melibatkan mahasiswa antar prodi di lingkungan FSTI (SISTEKIN, Teknik Informatika, dll.).
+* Proyek berfokus pada penyelesaian permasalahan nyata industri, institusi pemerintah, atau UMKM dengan membangun solusi sistem dan teknologi informasi cerdas end-to-end.</p>
+<h3 id="12-tahapan-pelaksanaan-capstone-project">1.2 Tahapan Pelaksanaan Capstone Project</h3>
+<div class="table-wrapper">
+<div class="table-title-header" style="background: rgba(99, 102, 241, 0.15); padding: 10px 16px; font-weight: 700; color: var(--primary-light); border: 1px solid var(--border-color); border-bottom: none; border-radius: var(--radius-md) var(--radius-md) 0 0; text-align: center;">TAHAPAN SIKLUS CAPSTONE PROJECT FSTI</div>
+<div class="table-wrapper"><table><thead><tr>
+<th>Minggu 1–3   : Pembentukan Tim, Identifikasi Masalah Mitra, &amp; Proposal Capstone.&lt;br&gt;Minggu 4–6   : Analisis Kebutuhan, Riset UX, &amp; Perancangan Arsitektur Sistem Cerdas.&lt;br&gt;Minggu 7–11  : Pengembangan Sistem (Sprint 1–3: Coding, AI Integration, Cloud Deploy).&lt;br&gt;Minggu 12–13 : Pengujian Komprehensif (Unit Test, Usability Test, Security Testing).&lt;br&gt;Minggu 14–16 : Capstone Expo / Demo Day, Uji Kelayakan Mitra, &amp; Laporan Akhir.</th>
+</tr></thead><tbody>
+</tbody></table></div></div>
+
+<hr />
+<h2 id="2-opsi-bentuk-kelulusan-tugas-akhir-fst-714-6-sks-semester-8">2. OPSI BENTUK KELULUSAN TUGAS AKHIR (<span class="code-tag">FST-714</span>>, 6 SKS — SEMESTER 8)</h2>
+<p>Sesuai ketentuan <strong>Permendikbudristek No. 53 Tahun 2023</strong>, Program Studi SISTEKIN menyediakan <strong>4 Jalur Kelulusan Tugas Akhir</strong> yang setara (<em>equivalent</em>) berbobot <strong>6 SKS</strong>:</p>
+<div class="table-wrapper">
+<div class="table-title-header" style="background: rgba(99, 102, 241, 0.15); padding: 10px 16px; font-weight: 700; color: var(--primary-light); border: 1px solid var(--border-color); border-bottom: none; border-radius: var(--radius-md) var(--radius-md) 0 0; text-align: center;">4 OPSI JALUR TUGAS AKHIR SISTEKIN 2026</div>
+<div class="table-wrapper"><table><thead><tr>
+<th>Opsi</th>
+<th>Jalur Tugas Akhir</th>
+<th>Luaran Wajib (Deliverables)</th>
+<th>Target Profil Utama (PL)</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td>Skripsi Riset<br>Eksperimental</td>
+<td>Naskah Skripsi Ilmiah + Kode<br>Program Teruji + Uji Statistik</td>
+<td>• PL-1 (AI/Data Engineer)<br>• PEO-3 (Studi Lanjut/Riset)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Proyek Inovasi<br>Produk Industri</td>
+<td>Sistem Teruji Mitra (TRL ≥ 6) +<br>Laporan Teknis + Bukti HKI/Paten</td>
+<td>• PL-2 (Cloud/Cyber Integrator)<br>• PL-3 (Platform Engineer)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Tech Startup Mandiri<br>(Technopreneur Track)</td>
+<td>Produk MVP Tervalidasi + Naskah<br>Pitch Deck + Bukti Traksi Pasar</td>
+<td>• PL-4 (Digital Technopreneur)<br>• PEO-2 (Inovasi & Wirausaha)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Publikasi Jurnal<br>Ilmiah Bereputasi</td>
+<td>Artikel Terbit/Accepted di Jurnal<br>SINTA 1/2 atau Scopus/WoS Q1-Q4</td>
+<td>• Seluruh PL<br>• PEO-3 (Akademisi/Riset)</td>
+</tr>
+</tbody></table></div></div>
+
+<hr />
+<h3 id="rincian-kriteria-tiap-jalur">Rincian Kriteria Tiap Jalur:</h3>
+<h4 id="jalur-1-skripsi-riset-eksperimental-jalur-tradisional">Jalur 1: Skripsi Riset Eksperimental (Jalur Tradisional)</h4>
+<ul>
+<li>Fokus pada pengujian algoritma baru, komparasi kinerja model AI, perancangan metode komputasi cerdas, atau analisis keamanan siber mendalam.</li>
+<li>Luaran: Naskah laporan skripsi formal (Bab 1–5), repositori kode sumber, dan pengujian performa.</li>
+</ul>
+<h4 id="jalur-2-proyek-inovasi-produk-teruji-industri-jalur-rekayasa-terapan">Jalur 2: Proyek Inovasi Produk Teruji Industri (Jalur Rekayasa Terapan)</h4>
+<ul>
+<li>Fokus pada pembangunan sistem komprehensif yang diimplementasikan langsung pada mitra industri/pemerintah.</li>
+<li>Syarat: Memiliki Tingkat Kesiapterapan Teknologi (TKT/TRL) <span class="arithmatex"><span class="MathJax_Preview">\ge 6</span><script type="math/tex">\ge 6</script></span>, surat keterangan implementasi dari mitra, sertifikat pendaftaran Hak Cipta Perangkat Lunak (HKI), dan dokumentasi teknis sistem.</li>
+</ul>
+<h4 id="jalur-3-tech-startup-mandiri-jalur-technopreneurship">Jalur 3: Tech Startup Mandiri (Jalur Technopreneurship)</h4>
+<ul>
+<li>Fokus pada perintisan usaha rintisan teknologi berbasis AI/Smart Systems.</li>
+<li>Syarat: Produk digital MVP berfungsi penuh, bukti traksi pengguna (<em>user traction</em>) atau validasi pasar (<em>paying customers/MoU mitra</em>), dokumen <em>Lean Canvas</em> dan laporan bisnis, serta lolos inkubasi di Inkubator Bisnis Universitas / Program P2MW Kemendikbudristek.</li>
+</ul>
+<h4 id="jalur-4-publikasi-ilmiah-bereputasi-jalur-akselerasi-riset">Jalur 4: Publikasi Ilmiah Bereputasi (Jalur Akselerasi Riset)</h4>
+<ul>
+<li>Mahasiswa yang mempublikasikan hasil penelitiannya sebagai <strong>Penulis Pertama (<em>First Author</em>)</strong> dengan afiliasi Prodi SISTEKIN Universitas Widyagama Malang pada:</li>
+<li>Jurnal Internasional Bereputasi terindeks <strong>Scopus (Q1/Q2/Q3/Q4)</strong> atau <strong>Web of Science (WoS)</strong>; ATAU</li>
+<li>Jurnal Nasional Terakreditasi <strong>SINTA 1 atau SINTA 2</strong>.</li>
+<li>Mahasiswa jalur ini dibebaskan dari ujian sidang skripsi konvensional dan hanya melakukan presentasi seminar hasil untuk verifikasi kontribusi substansi.</li>
+</ul>
+<hr />
+<h2 id="3-rubrik-penilaian-tugas-akhir-sidang-kelulusan">3. RUBRIK PENILAIAN TUGAS AKHIR &amp; SIDANG KELULUSAN</h2>
+<div class="table-wrapper">
+<div class="table-title-header" style="background: rgba(99, 102, 241, 0.15); padding: 10px 16px; font-weight: 700; color: var(--primary-light); border: 1px solid var(--border-color); border-bottom: none; border-radius: var(--radius-md) var(--radius-md) 0 0; text-align: center;">RUBRIK ASESMEN SIDANG TUGAS AKHIR (6 SKS)</div>
+<div class="table-wrapper"><table><thead><tr>
+<th>Komponen Penilaian</th>
+<th>Bobot (%)</th>
+<th>CPL yang Dinilai</th>
+</tr></thead><tbody>
+<tr>
+<td>1. Orisinalitas Gagasan & Relevansi Visi SISTEKIN<br>2. Kedalaman Metodologi & Kebenaran Analisis Teknis<br>3. Kualitas Produk / Luaran (Sistem, Model AI, MVP)<br>4. Sistematika Penulisan & Kualitas Dokumentasi<br>5. Performa Presentasi & Kemampuan Mempertahankan</td>
+<td>15%<br>25%<br>30%<br>15%<br>15%</td>
+<td>KU1, P2<br>P1, P3, P4<br>KK1 / KK2 / KK3 / KK5/ KK6<br>KU2, S1<br>KU2, KU3</td>
+</tr>
+<tr>
+<td>TOTAL SKOR</td>
+<td>**100%**</td>
+<td>Kelulusan: Nilai ≥ 65 (B)</td>
+</tr>
+</tbody></table></div></div>
+
+<hr />
+<p><em>Disahkan sebagai Dokumen Resmi 009 — Kurikulum OBE Revisi SISTEKIN 2026.</em><br />
+<strong>Tim Pengembang Kurikulum FSTI Universitas Widyagama Malang</strong></p>
+
+            <div class="doc-nav">
+                <div><a href="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" class="nav-btn">← Sebelumnya</a></div>
+                <div><a href="index.html" class="nav-btn">🏠 Index Utama</a></div>
+                <div><a href="010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.html" class="nav-btn">Selanjutnya →</a></div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p><strong>Dokumen Resmi Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
+            <p>Tim Pengembang Kurikulum FSTI — Universitas Widyagama Malang © 2026</p>
+        </footer>
+    </div>
+
+    <script>
+        // Mermaid Init
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'dark',
+            flowchart: { curve: 'basis', useMaxWidth: true }
+        });
+
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        let currentTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', currentTheme);
+
+        themeToggle.addEventListener('click', () => {
+            currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', currentTheme);
+            localStorage.setItem('theme', currentTheme);
+        });
+
+        // Live Table Search Filter
+        const searchInput = document.getElementById('globalTableSearch');
+        if (searchInput) {
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase().trim();
+                const rows = document.querySelectorAll('table tbody tr');
+                rows.forEach(row => {
+                    const text = row.innerText.toLowerCase();
+                    if (query === '' || text.includes(query)) {
+                        row.style.display = '';
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+            });
+        }
+    </script>
+</body>
+</html>
