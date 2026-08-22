@@ -52,7 +52,7 @@
 ### 3.3 Indikator Kinerja KU3 (Keputusan Berbasis Data & Belajar Mandiri)
 | No | Indikator Kinerja | Bukti Ketercapaian |
 |:---:|---|---|
-| 1 | Mampu mengambil keputusan strategis dan operasional berdasarkan analisis data empiris dan metrik kuantitatif. | Analisis data pada MK Riset Operasi / Data Analytics. |
+| 1 | Mampu mengambil keputusan strategis dan operasional berdasarkan analisis data empiris dan metrik kuantitatif. | Analisis data pada MK Data Mining & Visualisasi / Decision Support Systems. |
 | 2 | Bertanggung jawab atas pencapaian hasil tim serta melakukan supervisi pekerjaan anggota kelompok secara adil. | Penilaian kepemimpinan (*Peer & Supervisor Assessment*). |
 | 3 | Menunjukkan kemampuan refleksi evaluasi diri dan kemandirian dalam mempelajari teknologi computing baru secara adaptif. | Catatan logbook mandiri dan sertifikasi kompetensi. |
 | 4 | Mendokumentasikan dan mengamankan artefak data rekayasa sistem secara sahih dan terkelola dengan baik. | Repositori GitHub/GitLab dan dokumentasi data proyek. |

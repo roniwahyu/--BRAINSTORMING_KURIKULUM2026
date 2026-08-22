@@ -269,7 +269,7 @@ Sebagai program studi baru yang sedang bertumbuh, SISTEKIN menerapkan evaluasi P
 | 27 | `STI-404` | Komputasi Awan (Cloud Computing) | 3 | Teori | Core STI | `STI-307`, `STI-305` |
 | 28 | `STI-405` | Dasar Keamanan Informasi | 2 | Teori | Core STI | `STI-307` |
 | 29 | `FST-408` | Probabilitas dan Statistika | 3 | Teori | FSTI | `STI-102` |
-| 30 | `FST-409` | Manajemen Sains & Riset Operasi | 2 | Teori | FSTI | `STI-202` |
+| 30 | `STI-403` | Pengantar NLP & Information Retrieval | 2 | +P | Core STI | `STI-302` |
 | 31 | `MKU-405` | Kewarganegaraan | 2 | Teori | MKWU | — |
 | 31.B | `MKU-406` | Agama II | 0 | Teori | MKWU | — (Kebijakan UWG, Sem 4) |
 | **SUBTOTAL** | — | **Total SKS Semester 4 (8 MK + 1 MK 0 SKS)** | **21** | — | — | **Kumulatif: 80 SKS** |
@@ -969,7 +969,7 @@ graph LR
 | 27 | `STI-404` | Komputasi Awan (Cloud) | 3 | | | | | | | **R** | | | | **R** | | | | PL-2 | PEO-1 | **R** |
 | 28 | `STI-405` | Dasar Keamanan Informasi | 2 | | | | | | | **R** | | | | **R** | | | | PL-2 | PEO-1 | **R** |
 | 29 | `FST-408` | Probabilitas & Statistika | 3 | | | | | **R** | | | | | | | | | | PL-1, PL-2 | PEO-1, PEO-3 | **R** |
-| 30 | `FST-409` | Manajemen Sains & Riset Op | 2 | | **R** | | | **R** | | | | | | | | | | PL-1, PL-4 | PEO-1, PEO-2 | **R** |
+| 30 | `STI-403` | Pengantar NLP & IR | 2 | | | | | | **R** | | | **R** | | | | | | PL-1 | PEO-1, PEO-3 | **R** |
 | 31 | `MKU-405` | Kewarganegaraan | 2 | **I** | | | | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **I** |
 
 ---
@@ -1095,13 +1095,13 @@ Matriks ini memetakan relasi langsung antara 19 Bahan Kajian Standar APTIKOM SI 
 | **BK-IS07** | *Systems Analysis and Design* | `STI-301`, `STI-304` | `FST-610`, `STC-02` | 4 MK | ✅ Sangat Kuat |
 | **BK-IS08** | *Project Management* | `STI-506`, `STC-06` | `FST-610`, `FST-612` | 4 MK | ✅ Sangat Kuat |
 | **BK-IS09** | *Business Process Management* | `STC-02` | `STI-301`, `STI-602` | 3 MK | ✅ Terpenuhi |
-| **BK-IS10** | *Applied Mathematics and Logic* | `STI-102`, `STI-103`, `STI-201`, `STI-202`, `FST-408`, `FST-409` | `STA-02` | 7 MK | ✅ Sangat Kuat |
+| **BK-IS10** | *Applied Mathematics and Logic* | `STI-102`, `STI-103`, `STI-201`, `STI-202`, `FST-408` | `STA-02` | 6 MK | ✅ Sangat Kuat |
 | **BK-IS11** | *Programming Fundamentals & OOP* | `FST-102`, `FST-203`, `FST-205` | `STI-306`, `STI-407` | 5 MK | ✅ Sangat Kuat |
 | **BK-IS12** | *Web and Mobile App Development* | `STI-306`, `STI-407`, `STI-505`, `STI-604` | `STC-03`, `STC-05` | 6 MK | ✅ Sangat Kuat |
 | **BK-IS13** | *Data Analytics and Business Intelligence* | `STI-402`, `STI-503`, `STA-01` | `STI-401`, `STA-04` | 5 MK | ✅ Sangat Kuat |
 | **BK-IS14** | *IT Audit and Compliance* | `STB-04`, `STB-03` | `FST-206`, `STB-05` | 4 MK | ✅ Terpenuhi |
 | **BK-IS15** | *Digital Innovation and Entrepreneurship* | `MKU-204`, `STI-701`, `FST-610` | `STC-06` | 4 MK | ✅ Sangat Kuat |
-| **BK-IS16** | *Artificial Intelligence & Intelligent Systems*| `STI-302`, `STI-601`, `STA-03`, `STA-05` | `STI-401`, `STA-06` | 6 MK | ✅ Sangat Kuat |
+| **BK-IS16** | *Artificial Intelligence & Intelligent Systems*| `STI-302`, `STI-403`, `STI-601`, `STA-03`, `STA-05` | `STI-401`, `STA-06` | 7 MK | ✅ Sangat Kuat |
 | **BK-IS17** | *Human-Computer Interaction & UX* | `STI-303`, `STC-01` | `STI-306`, `STI-505` | 4 MK | ✅ Sangat Kuat |
 | **BK-IS18** | *Machine Learning and Data Science* | `STI-401`, `STI-501`, `STA-04` | `STA-02`, `STA-06` | 5 MK | ✅ Sangat Kuat |
 | **BK-IS19** | *Cloud Architecture & DevOps* | `STI-404`, `STB-02` | `STI-604`, `STC-05` | 4 MK | ✅ Sangat Kuat |
@@ -1113,7 +1113,7 @@ Matriks ini memetakan relasi langsung antara 19 Bahan Kajian Standar APTIKOM SI 
 | Kode BoK IT | Nomenklatur Bahan Kajian Utama IT2017 | Mata Kuliah Pembina Primer (●) | Mata Kuliah Pembina Sekunder (○) | Total MK | Status Cakupan |
 |---|---|---|---|:---:|:---:|
 | **BK-IT01** | *Information Technology Fundamentals* | `FST-101`, `STI-101` | `FST-204` | 3 MK | ✅ Sangat Kuat |
-| **BK-IT02** | *Applied AI & Intelligent Technologies* | `STI-302`, `STI-401`, `STI-501`, `STI-601` | `STA-03..06` | 8 MK | ✅ Sangat Kuat |
+| **BK-IT02** | *Applied AI & Intelligent Technologies* | `STI-302`, `STI-401`, `STI-403`, `STI-501`, `STI-601` | `STA-03..06` | 9 MK | ✅ Sangat Kuat |
 | **BK-IT03** | *Networking & Communications* | `STI-307` | `STI-404`, `STI-504`, `STB-01` | 4 MK | ✅ Sangat Kuat |
 | **BK-IT04** | *Platform Technologies & Web/Mobile* | `STI-306`, `STI-407`, `STI-505`, `STI-604` | `STC-03..05` | 7 MK | ✅ Sangat Kuat |
 | **BK-IT05** | *Cloud Computing & Virtualization* | `STI-404`, `STB-02` | `STI-305`, `STC-05` | 4 MK | ✅ Sangat Kuat |
@@ -1169,7 +1169,7 @@ Sesuai Keputusan Menteri Pendidikan dan Kebudayaan No. 210/M/2023 tentang Indika
 | 27 | `STI-404` | Komputasi Awan (Cloud) | 3 | 20% | 45% | 35% | **65%** | ✅ Patuh IKU 7 |
 | 28 | `STI-405` | Dasar Keamanan Informasi | 2 | 25% | 30% | 45% | **55%** | ✅ Patuh IKU 7 |
 | 29 | `FST-408` | Probabilitas & Statistika | 3 | 20% | 10% | 70% | 30% | *MK Teori Dasar Sains* |
-| 30 | `FST-409` | Manajemen Sains & Riset Op | 2 | 30% | 20% | 50% | **50%** | ✅ Patuh IKU 7 |
+| 30 | `STI-403` | Pengantar NLP & IR | 2 | 20% | 45% | 35% | **65%** | ✅ Patuh IKU 7 |
 | 31 | `MKU-405` | Kewarganegaraan | 2 | 30% | 30% | 40% | **60%** | ✅ Patuh IKU 7 |
 | 32 | `STI-501` | Deep Learning & Neural Net | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
 | 33 | `STI-503` | Data Mining & Visualisasi | 3 | 20% | 45% | 35% | **65%** | ✅ Patuh IKU 7 |
@@ -2514,45 +2514,46 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 30. FST-409 — Manajemen Sains & Riset Operasi (Management Science & Operations Research)
+### 30. STI-403 — Pengantar NLP & Information Retrieval (Introduction to NLP & Information Retrieval)
 
 #### Tabel 30.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **FST-409 — Manajemen Sains & Riset Operasi** (*Management Science & Operations Research*) |
-| **Bobot SKS / Tipe** | **2 SKS** / Tipe: **Teori** (100m Kuliah + 120m Mandiri) |
-| **Semester / Rumpun MK** | **Semester 4** / Pemodelan Kuantitatif & Optimasi (FSTI) |
-| **Prasyarat Akademik** | `STI-102` Kalkulus |
-| **CPL yang Dibebankan** | `P1` (Pemodelan Matematis & Optimasi Linier), `KU1` (Pengambilan Keputusan) |
-| **Profil Lulusan (PL)** | `PL-1`, `PL-4` |
-| **Target PEO** | `PEO-1` (Professional Practice), `PEO-2` (Technopreneurship) |
+| **Kode & Nama Mata Kuliah** | **STI-403 — Pengantar NLP & Information Retrieval** (*Introduction to NLP & Information Retrieval*) |
+| **Bobot SKS / Tipe** | **2 SKS** / Tipe: **+P (Praktikum)** (50m Kuliah + 100m Lab Praktikum + 60m Mandiri) |
+| **Semester / Rumpun MK** | **Semester 4** / Rumpun AI, Data Science & Intelligent Systems (Core STI) |
+| **Prasyarat Akademik** | `STI-302` Sistem Cerdas (Kecerdasan Buatan) |
+| **CPL yang Dibebankan** | `KK1` (Perancangan Sistem Cerdas berbasis AI/NLP), `P2` (Konsep & Rekayasa SI Cerdas) |
+| **Profil Lulusan (PL)** | `PL-1` (Intelligent IS Developer & AI Engineer), `PL-4` (Digital Technopreneur) |
+| **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Advanced Study & Lifelong Learning) |
 
 #### Tabel 30.B: Formulasi CPMK (Format ABCD & Level Bloom)
 | Kode CPMK | Rumusan Capaian Pembelajaran Mata Kuliah (Format ABCD Eksplisit) | Level Bloom | CPL Didukung |
 |---|---|:---:|:---:|
-| **CPMK-1** | Mahasiswa (*A*) mampu **memformulasikan** masalah optimasi industri (*B*) ke dalam model matematis Pemrograman Linier (Linear Programming) (*C*) secara tepat (*D*). | **C3** | `P1` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **menyelesaikan** masalah Pemrograman Linier (*B*) menggunakan Metode Grafik dan Metode Simpleks (*C*) untuk mencapai solusi optimal maksimum/minimum (*D*). | **C3** | `P1` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **mengoptimalkan** masalah Transportasi, Penugasan, dan Teori Antrean (*B*) menggunakan algoritma optimasi riset operasi (*C*) dengan biaya minimum (*D*). | **C4** | `P1, KU1` |
+| **CPMK-1** | Mahasiswa (*A*) mampu **menerapkan tahapan pemrosesan awal teks** (*Text Preprocessing: tokenisasi, normalisasi, stopword removal, stemming/lemmatisasi*) (*B*) pada korpus teks bahasa alami (*C*) secara akurat (*D*). | **C3** | `KK1, P2` |
+| **CPMK-2** | Mahasiswa (*A*) mampu **menganalisis dan membangun model representasi teks serta sistem temu balik informasi** (*Information Retrieval: TF-IDF, Vector Space Model, BM25, Inverted Index*) (*B*) untuk pencarian dokumen relevan (*C*) dengan presisi dan recall terukur (*D*). | **C4** | `KK1, P2` |
+| **CPMK-3** | Mahasiswa (*A*) mampu **mengembangkan model klasifikasi teks dan analisis sentimen** (*B*) menggunakan teknik machine learning dan word embedding (*Word2Vec, FastText*) (*C*) dengan metrik F1-score optimal (*D*). | **C4** | `KK1, P2` |
+| **CPMK-4** | Mahasiswa (*A*) mampu **merancang purwarupa aplikasi pemrosesan bahasa alami atau mesin pencari cerdas** (*B*) dengan mengintegrasikan API/library NLP modern (*HuggingFace / spaCy / NLTK*) (*C*) sebagai solusi cerdas kebutuhan pengguna (*D*). | **C5** | `KK1, P2` |
 
 #### Tabel 30.C: Matriks Rencana Pembelajaran 16 Pertemuan (Sub-CPMK, Materi, Metode, Asesmen)
 | Mg | Sub-CPMK & Kemampuan Akhir | Pokok Bahasan (Bahan Kajian) | Bentuk & Metode Pembelajaran | Bentuk Asesmen & Bobot (%) |
 |:--:|---|---|---|---|
-| 1 | Mampu menguraikan metodologi pemodelan kuantitatif Riset Operasi (C2) | Pengantar Riset Operasi, Tahapan Problem Solving Kuantitatif | Kuliah & Diskusi (100m) | Aktivitas Formatif (Non-Graded) |
-| 2 | Mampu memformulasikan fungsi tujuan dan fungsi kendala Linier (C3) | Formulasi Pemrograman Linier: Variabel Keputusan & Kendala | Problem-Solving Class (100m) | Aktivitas Formatif (Non-Graded) |
-| 3 | Mampu menyelesaikan LP 2-variabel menggunakan Metode Grafik (C3) | Metode Grafik: Area Layak (*Feasible Region*) & Titik Sudut | Problem-Solving Class (100m) | Aktivitas Formatif (Non-Graded) |
-| **4** | **Mampu mengonversi bentuk standar LP dan tabel awal Simpleks (C3)** | **Metode Simpleks: Variabel Slack/Surplus, Tabel Awal Simpleks** | **Kuliah & Latihan (100m)** | **Tugas 1: Kuis & Problem Solving (Bobot: 20%)** |
-| 5 | Mampu melakukan iterasi baris pivot pada Metode Simpleks Maksimasi (C3) | Iterasi Simpleks: Kolom Pivot, Baris Pivot, Kondisi Optimal | Problem-Solving Workshop (100m) | Aktivitas Formatif (Non-Graded) |
-| 6 | Mampu menyelesaikan masalah Minimasi via Metode Big-M & Dua Fase (C3) | Kasus Khusus Simpleks: Metode Big-M & Metode Dua Fase | Problem-Solving Class (100m) | Aktivitas Formatif (Non-Graded) |
-| 7 | Mampu menganalisis Teori Dualitas dan Analisis Sensitivitas (C4) | Teori Dualitas: Primal-Dual Relationship & Nilai Bayangan (*Shadow Price*) | Case-Based Learning (100m) | Aktivitas Formatif (Non-Graded) |
-| **8** | **EVALUASI TENGAH SEMESTER (UTS)** | **Ujian Formulasi Pemrograman Linier, Metode Grafik, & Simpleks** | **Ujian Tertulis Terjadwal (100m)** | **UTS: Ujian Tertulis Terjadwal (Bobot: 30%)** |
-| 9 | Mampu menentukan solusi awal layak Model Transportasi (NWC, VAM) (C3) | Model Transportasi: Solusi Awal NWC, Least Cost, Vogel (VAM) | Problem-Solving Class (100m) | Aktivitas Formatif (Non-Graded) |
-| 10 | Mampu mengoptimalkan tabel transportasi via MODI & Stepping Stone (C4) | Uji Optimalitas Transportasi: Metode MODI & Stepping Stone | Problem-Solving Workshop (100m) | Aktivitas Formatif (Non-Graded) |
-| 11 | Mampu menyelesaikan Masalah Penugasan via Metode Hungarian (C3) | Assignment Problem: Algoritma Hungarian Minimasi & Maksimasi | Problem-Solving Class (100m) | Aktivitas Formatif (Non-Graded) |
-| **12** | **Mampu menganalisis struktur sistem antrean dan notasi Kendall (C4)** | **Teori Antrean: Struktur Sistem M/M/1 dan M/M/s Models** | **Ceramah & Latihan (100m)** | **Tugas 2: Studi Kasus / Paper Analisis (Bobot: 20%)** |
-| 13 | Mampu menghitung waktu tunggu dan panjang antrean rata-rata (C3) | Kinerja Antrean: Utilisasi Server, Waktu Tunggu Sistem (Wq, Ws) | Problem-Solving Class (100m) | Aktivitas Formatif (Non-Graded) |
-| 14 | Mampu menganalisis pengambilan keputusan dalam ketidakpastian (C4) | Teori Keputusan: Kriteria Maximax, Maximin, Minimax Regret | Case Method Class (100m) | Aktivitas Formatif (Non-Graded) |
-| 15 | Mampu menyelesaikan model optimasi via Python PuLP / SciPy (C4) | Pemrograman Optimasi Berbantuan Python PuLP Library | Demo & Lab Komputasi (100m) | Aktivitas Formatif (Non-Graded) |
-| **16** | **EVALUASI AKHIR SEMESTER (UAS)** | **Ujian Komprehensif Model Transportasi, Penugasan, Antrean, & Optimasi** | **Ujian Tertulis Akhir (100m)** | **UAS: Ujian Akhir Komprehensif (Bobot: 30%)** |
+| 1 | Mampu menguraikan arsitektur pemrosesan bahasa alami dan IR (C2) | Pengantar NLP & IR: Tantangan Teks Alami, Pipeline NLP | Kuliah & Demo (50m K + 100m Lab) | Aktivitas Formatif (Non-Graded) |
+| 2 | Mampu melakukan tokenisasi, case folding, dan regex cleaning (C3) | Text Preprocessing I: Tokenisasi Kata/Kalimat, Regex Cleaning | Lab Hands-On (50m K + 100m Lab) | Aktivitas Formatif (Non-Graded) |
+| 3 | Mampu menerapkan stemming dan stopword filtering teks Indonesia (C3) | Text Preprocessing II: Sastrawi Stemmer, Stopword Removal | Lab Hands-On (50m K + 100m Lab) | Aktivitas Formatif (Non-Graded) |
+| **4** | **Mampu mengonstruksi pipeline preprocessing teks utuh (C3)** | **Integrasi Pipeline Text Preprocessing Teks Berita & Medsos** | **Problem-Based Lab (150m)** | **Tugas 1: Praktikum Preprocessing Teks (Bobot: 20%)** |
+| 5 | Mampu memodelkan Bag-of-Words (BoW) dan N-Gram representasi (C3) | Representasi Teks Klasik: BoW Model, N-Gram Collocations | Kuliah & Lab (50m K + 100m Lab) | Aktivitas Formatif (Non-Graded) |
+| 6 | Mampu menghitung bobot Term Frequency - Inverse Document Freq (C3) | Pembobotan TF-IDF: Skema Log-Frequency & IDF Penalization | Lab Hands-On (50m K + 100m Lab) | Aktivitas Formatif (Non-Graded) |
+| 7 | Mampu membangun struktur Inverted Index untuk pencarian cepat (C4) | Information Retrieval: Inverted Index Architecture & Postings List | Case Method Lab (50m K + 100m Lab) | Aktivitas Formatif (Non-Graded) |
+| **8** | **EVALUASI TENGAH SEMESTER (UTS)** | **Ujian Praktikum: Konstruksi Inverted Index & Scoring BM25** | **Ujian Praktikum Lab (150m)** | **UTS: Ujian Praktikum Terjadwal (Bobot: 25%)** |
+| 9 | Mampu mengimplementasikan Vector Space Model & Cosine Similarity (C3) | Vector Space Model: Ranked Retrieval, Cosine Similarity Score | Lab Hands-On (50m K + 100m Lab) | Aktivitas Formatif (Non-Graded) |
+| 10 | Mampu mengukur performa IR (Precision, Recall, F1, MAP) (C4) | Evaluasi Sistem IR: Precision@K, Recall, MAP, NDCG Metric | Problem-Solving Lab (150m) | Aktivitas Formatif (Non-Graded) |
+| 11 | Mampu melatih Word Embedding via Word2Vec (Skip-Gram & CBOW) (C4) | Distribusi Semantik: Word2Vec, Embedding Space, Cosine Analogy | Lab Hands-On (50m K + 100m Lab) | Aktivitas Formatif (Non-Graded) |
+| **12** | **Mampu memodelkan Analisis Sentimen berbasis Machine Learning (C4)** | **Klasifikasi Teks: Naive Bayes & SVM untuk Sentiment Analysis** | **Team-Based Project (150m)** | **Tugas 2: PjBL Analisis Sentimen Medsos (Bobot: 25%)** |
+| 13 | Mampu mengekstraksi entitas teks via Named Entity Recognition (C4) | Information Extraction: POS Tagging & NER via spaCy/Stanza | Lab Hands-On (50m K + 100m Lab) | Aktivitas Formatif (Non-Graded) |
+| 14 | Mampu menguraikan konsep Language Modeling & N-gram Probabilitas (C3) | Language Modeling: Perplexity, N-gram Smoothing, Autocomplete | Kuliah & Diskusi (50m K + 100m Lab) | Aktivitas Formatif (Non-Graded) |
+| 15 | Mampu mengintegrasikan Pretrained Model via HuggingFace (C4) | Modern NLP Overview: Transformer Concept, HuggingFace Pipeline | Lab Komputasi (50m K + 100m Lab) | Aktivitas Formatif (Non-Graded) |
+| **16** | **EVALUASI AKHIR SEMESTER (UAS)** | **Presentasi & Demo Proyek Aplikasi NLP / Mesin Pencari Cerdas** | **Ujian Praktik / Demo PjBL (150m)** | **UAS: Proyek Akhir Sistem NLP/IR (Bobot: 30%)** |
 
 ---
 

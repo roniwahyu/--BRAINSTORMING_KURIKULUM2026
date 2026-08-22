@@ -106,8 +106,8 @@
 | 5 | MKU-405 | Kewarganegaraan | 4 | 2 | V |  |  |  |  |  |  |  |  |  |  |  |  |  | 1 |
 | 6 | MKU-406 | Agama II | 4 | 0 | V |  |  |  |  |  |  |  |  |  |  |  |  |  | 1 |
 | 7 | MKU-508 | Kewirausahaan II | 5 | 0 |  |  |  |  |  |  |  |  |  |  |  |  |  | V | 1 |
-| 8 | MKU-507 | KPM (Kuliah Pengabdian Kepada Masyarakat) | 5 | 3 | V |  | V |  |  |  |  |  |  |  |  |  |  |  | 2 |
-| B. MK FSTI - MATA KULIAH WAJIB FAKULTAS (14 MK / 38 SKS) | | | | | | | | | | | | | | | | | | | |
+| 8 | MKU-507 | KPM (Kuliah Pengabdian Kepada Masyarakat) | 5 | 3 | V |  | V |  |  |  |  |  |  |  |  |  |  |  | 2|
+| B. MK FSTI - MATA KULIAH WAJIB FAKULTAS (13 MK / 36 SKS) | | | | | | | | | | | | | | | | | | | |
 | 9 | FST-101 | Dasar Teknologi Digital | 1 | 2 |  |  |  |  |  | V |  |  |  |  |  |  |  |  | 1 |
 | 10 | FST-102 | Algoritma dan Pemrograman (+P) | 1 | 3 |  | V |  |  |  |  |  | V |  |  |  |  |  |  | 2 |
 | 11 | FST-203 | Struktur Data & Algoritma (+P) | 2 | 3 |  | V |  |  |  |  |  | V |  |  |  |  |  |  | 2 |
@@ -116,26 +116,26 @@
 | 14 | FST-206 | Etika dan Hukum Digital | 2 | 2 | V |  | V |  |  |  |  |  |  |  |  |  |  |  | 2 |
 | 15 | FST-207 | Basis Data (+P) | 2 | 3 |  |  |  |  |  | V |  | V |  |  |  |  |  |  | 2 |
 | 16 | FST-408 | Probabilitas dan Statistika | 4 | 3 |  |  |  |  | V |  |  | V |  |  |  |  |  |  | 2 |
-| 17 | FST-409 | Manajemen Sains & Riset Operasi | 4 | 2 |  |  | V |  |  |  |  |  |  |  |  |  |  |  | 1 |
-| 18 | FST-610 | Capstone Project FSTI (+P) | 7 | 3 | V | V | V | V |  |  |  |  | V | V | V | V | V | V | 10 |
-| 19 | FST-611 | Metodologi Penelitian | 6 | 2 |  | V | V | V |  |  |  |  |  |  |  |  |  |  | 3 |
-| 20 | FST-612 | Praktik Kerja Lapangan (+P) | 7 | 3 | V | V | V | V |  |  |  |  |  |  |  | V | V |  | 7 |
-| 21 | FST-613 | Pra-Skripsi / Seminar Proposal | 7 | 2 |  | V | V | V |  |  |  |  |  |  |  |  |  |  | 3 |
-| 22 | FST-714 | Skripsi / Tugas Akhir (+P) | 8 | 6 | V | V | V | V | V | V | V | V | V | V | V | V | V | V | 14 |
-| C. MK CORE STI - MATA KULIAH INTI PROGRAM STUDI (27 MK / 77 SKS) | | | | | | | | | | | | | | | | | | | |
-| 23 | STI-101 | Pengantar Sistem & Teknologi Informasi | 1 | 2 |  |  |  |  |  | V |  |  |  |  |  |  |  |  | 1 |
-| 24 | STI-102 | Kalkulus | 1 | 3 |  |  |  |  | V |  |  |  |  |  |  |  |  |  | 1 |
-| 25 | STI-103 | Logika Informatika | 1 | 3 |  | V |  |  | V |  |  |  |  |  |  |  |  |  | 2 |
-| 26 | STI-201 | Matematika Diskrit | 2 | 3 |  | V |  |  | V |  |  |  |  |  |  |  |  |  | 2 |
-| 27 | STI-202 | Aljabar Linear | 2 | 3 |  |  |  |  | V |  |  |  |  |  |  |  |  |  | 1 |
-| 28 | STI-301 | Analisis & Perancangan Sistem Informasi | 3 | 3 |  | V |  |  |  | V |  |  |  |  |  |  | V |  | 3 |
-| 29 | STI-302 | Sistem Cerdas | 3 | 2 |  |  |  |  |  | V |  |  | V |  |  |  |  |  | 2 |
-| 30 | STI-303 | UI/UX Design & Prototyping (+P) | 3 | 3 |  |  |  |  |  |  |  |  |  |  |  |  | V |  | 1 |
-| 31 | STI-304 | Rekayasa Perangkat Lunak | 3 | 3 |  |  |  |  |  |  |  | V |  |  |  |  | V | V | 3 |
-| 32 | STI-305 | Sistem Operasi | 3 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
-| 33 | STI-306 | Web Front End Development (+P) | 3 | 3 |  |  |  |  |  |  |  | V |  |  |  |  | V |  | 2 |
-| 34 | STI-307 | Jaringan Komputer (+P) | 3 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
-| 35 | STI-401 | Machine Learning (+P) | 4 | 3 |  |  |  |  |  | V |  |  | V | V |  |  |  |  | 3 |
+| 17 | FST-610 | Capstone Project FSTI (+P) | 7 | 3 | V | V | V | V |  |  |  |  | V | V | V | V | V | V | 10 |
+| 18 | FST-611 | Metodologi Penelitian | 6 | 2 |  | V | V | V |  |  |  |  |  |  |  |  |  |  | 3 |
+| 19 | FST-612 | Praktik Kerja Lapangan (+P) | 7 | 3 | V | V | V | V |  |  |  |  |  |  |  | M | M |  | 7 |
+| 20 | FST-613 | Pra-Skripsi / Seminar Proposal | 7 | 2 |  | V | V | V |  |  |  |  |  |  |  |  |  |  | 3 |
+| 21 | FST-714 | Skripsi / Tugas Akhir (+P) | 8 | 6 | V | V | V | V | V | V | V | V | V | V | V | V | V | V | 14 |
+| C. MK CORE STI - MATA KULIAH INTI PROGRAM STUDI (28 MK / 79 SKS) | | | | | | | | | | | | | | | | | | | |
+| 22 | STI-101 | Pengantar Sistem & Teknologi Informasi | 1 | 2 |  |  |  |  |  | V |  |  |  |  |  |  |  |  | 1 |
+| 23 | STI-102 | Kalkulus | 1 | 3 |  |  |  |  | V |  |  |  |  |  |  |  |  |  | 1 |
+| 24 | STI-103 | Logika Informatika | 1 | 3 |  | V |  |  | V |  |  |  |  |  |  |  |  |  | 2 |
+| 25 | STI-201 | Matematika Diskrit | 2 | 3 |  | V |  |  | V |  |  |  |  |  |  |  |  |  | 2 |
+| 26 | STI-202 | Aljabar Linear | 2 | 3 |  |  |  |  | V |  |  |  |  |  |  |  |  |  | 1 |
+| 27 | STI-301 | Analisis & Perancangan Sistem Informasi | 3 | 3 |  | V |  |  |  | V |  |  |  |  |  |  | V |  | 3 |
+| 28 | STI-302 | Sistem Cerdas | 3 | 2 |  |  |  |  |  | V |  |  | V |  |  |  |  |  | 2 |
+| 29 | STI-303 | UI/UX Design & Prototyping (+P) | 3 | 3 |  |  |  |  |  |  |  |  |  |  |  |  | V |  | 1 |
+| 30 | STI-304 | Rekayasa Perangkat Lunak | 3 | 3 |  |  |  |  |  |  |  | V |  |  |  |  | V | V | 3 |
+| 31 | STI-305 | Sistem Operasi | 3 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
+| 32 | STI-306 | Web Front End Development (+P) | 3 | 3 |  |  |  |  |  |  |  | V |  |  |  |  | V |  | 2 |
+| 33 | STI-307 | Jaringan Komputer (+P) | 3 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
+| 34 | STI-401 | Machine Learning (+P) | 4 | 3 |  |  |  |  |  | V |  |  | V | V |  |  |  |  | 3 |
+| 35 | STI-403 | Pengantar NLP & Information Retrieval (+P) | 4 | 2 |  |  |  |  |  | V |  |  | V |  |  |  |  |  | 2 |
 | 36 | STI-402 | Data Warehouse & Business Intelligence (+P) | 4 | 3 |  |  |  |  |  | V |  |  |  | V |  |  |  |  | 2 |
 | 37 | STI-404 | Komputasi Awan (Cloud Computing) | 4 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
 | 38 | STI-405 | Dasar Keamanan Informasi | 4 | 2 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
@@ -184,7 +184,7 @@
 | 1 | 8 MK | 19 SKS | 19 SKS | MKU-101 Agama I (2) / MKU-102 Pancasila (2) / MKU-103 Bahasa Indonesia (2) / FST-101 Dasar Teknologi Digital (2) / FST-102 Algoritma & Pemrograman (3) / STI-101 Pengantar SI & TI (2) / STI-102 Kalkulus (3) / STI-103 Logika Informatika (3) | S1, P1, P2, P4, KU1 | Fondasi komputer, coding, dan matematika |
 | 2 | 8 MK | 20 SKS | 39 SKS | STI-201 Matematika Diskrit (3) / STI-202 Aljabar Linear (3) / FST-203 Struktur Data & Algoritma (3) / FST-204 Pengantar AI & Data (2) / FST-205 Basic English (2) / FST-206 Etika & Hukum Digital (2) / FST-207 Basis Data (3) / MKU-204 Kewirausahaan I (2) | P1, P2, P4, KU1, KU2, KK1, KK6 | Tepat 20 SKS - Patuh Permendikbud 53/2023 |
 | 3 | 7 MK | 20 SKS | 59 SKS | STI-301 APSI (3) / STI-302 Sistem Cerdas (2) / STI-303 UI/UX Design (3) / STI-304 RPL (3) / STI-305 Sistem Operasi (3) / STI-306 Web Front End (3) / STI-307 Jaringan Komputer (3) | P2, P3, P4, KK1, KK3, KK5 | Fondasi sistem, jaringan, OS, dan UI/UX |
-| 4 | 8 MK | 21 SKS | 80 SKS | STI-401 Machine Learning (3) / STI-402 DW & BI (3) / STI-404 Cloud (3) / STI-405 Dasar Keamanan (2) / STI-407 Web Back End (3) / FST-408 Statistika (3) / FST-409 Manajemen Sains (2) / MKU-405 KWN (2) / MKU-406 Agama II (0) | P1, P2, P3, KK1, KK2, KK3, KU2 | STI-405 = 2 SKS Teori. MKU-406 = 0 SKS kebijakan UWG |
+| 4 | 8 MK | 21 SKS | 80 SKS | STI-401 Machine Learning (3) / STI-403 Pengantar NLP & IR (2) / STI-402 DW & BI (3) / STI-404 Cloud (3) / STI-405 Dasar Keamanan (2) / STI-407 Web Back End (3) / FST-408 Statistika (3) / MKU-405 KWN (2) / MKU-406 Agama II (0) | P1, P2, P3, KK1, KK2, KK3, KU1 | STI-405 = 2 SKS Teori. STI-403 = 2 SKS (+P). MKU-406 = 0 SKS kebijakan UWG |
 | 5 | 7 MK + 1x0SKS | 21 SKS | 101 SKS | STI-501 Deep Learning (3) / STI-503 Data Mining (3) / STI-504 IoT (3) / STI-505 Mobile App (3) / STI-506 Manpro TI (3) / MKU-507 KPM (3) / MK Pilihan 1 (3) / MKU-508 KWU II (0) | KK1, KK2, KK3, KK5, KK6, S1, KU | 6 MK Wajib (18 SKS) + 1 MK Pilihan (3 SKS). MKU-508 = 0 SKS kebijakan UWG |
 | 6 | 7 MK | 19 SKS | 120 SKS | STI-601 Integrasi AI (3) / STI-602 Smart City (2) / STI-603 Keamanan Lanjut (3) / STI-604 Digital Platform Eng (3) / FST-611 Metopel (2) / MK Pilihan 2 (3) / MK Pilihan 3 (3) | P2, P3, KK1, KK3, KK4, KK5, KU1-3 | STI-602 = 2 SKS Teori Non-Praktikum. MBKM maks. 20 SKS |
 | 7 | 7 MK | 20 SKS | 140 SKS | STI-701 Startup Digital (3) / FST-610 Capstone (3) / FST-612 PKL (3) / FST-613 Pra-Skripsi (2) / MK Pilihan 4 (3) / MK Pilihan 5 (3) / MK Pilihan 6 (3) | KK6, KK3, KK4, KU1-3, S1 | 4 MK Wajib (11 SKS) + 3 MK Pilihan (9 SKS). MBKM maks. 20 SKS |
@@ -228,7 +228,7 @@
 | STI-405 | Dasar Keamanan Informasi | 2 | 4 |  |  |  |  |  |  | R |  |  |  | R |  |  |  | 2 |
 | STI-407 | Web Back End Development | 3 | 4 |  | R |  |  |  |  |  | R |  |  |  |  |  |  | 2 |
 | FST-408 | Probabilitas dan Statistika | 3 | 4 |  |  |  |  | R |  |  | R |  |  |  |  |  |  | 2 |
-| FST-409 | Manajemen Sains & Riset Operasi | 2 | 4 |  |  | R |  |  |  |  |  |  |  |  |  |  |  | 1 |
+| STI-403 | Pengantar NLP & Information Retrieval | 2 | 4 |  |  |  |  |  | R |  |  | R |  |  |  |  |  | 2 |
 | STI-501 | Deep Learning & Neural Networks | 3 | 5 |  |  |  |  |  |  |  |  | M | M |  |  |  |  | 2 |
 | STI-503 | Data Mining & Visualisasi Data | 3 | 5 |  |  |  |  |  | M |  |  |  | M |  |  |  |  | 2 |
 | STI-504 | Internet of Things (IoT) | 3 | 5 |  |  |  |  |  |  | M |  |  |  | M |  |  |  | 2 |

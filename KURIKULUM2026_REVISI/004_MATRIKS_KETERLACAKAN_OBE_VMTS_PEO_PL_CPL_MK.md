@@ -94,7 +94,7 @@ graph LR
 | 27 | `STI-404` | Komputasi Awan (Cloud) | 3 | | | | | | | **R** | | | | **R** | | | | PL-2 | PEO-1 | **R** |
 | 28 | `STI-405` | Dasar Keamanan Informasi | 2 | | | | | | | **R** | | | | **R** | | | | PL-2 | PEO-1 | **R** |
 | 29 | `FST-408` | Probabilitas & Statistika | 3 | | | | | **R** | | | | | | | | | | PL-1, PL-2 | PEO-1, PEO-3 | **R** |
-| 30 | `FST-409` | Manajemen Sains & Riset Op | 2 | | **R** | | | **R** | | | | | | | | | | PL-1, PL-4 | PEO-1, PEO-2 | **R** |
+| 30 | `STI-403` | Pengantar NLP & IR | 2 | | | | | | **R** | | | **R** | | | | | | PL-1 | PEO-1, PEO-3 | **R** |
 | 31 | `MKU-405` | Kewarganegaraan | 2 | **I** | | | | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **I** |
 | 31.B | `MKU-406` | Agama II | 0 | **I** | | | | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **I** |
 
@@ -222,13 +222,13 @@ Matriks ini memetakan relasi langsung antara 19 Bahan Kajian Standar APTIKOM SI 
 | **BK-IS07** | *Systems Analysis and Design* | `STI-301`, `STI-304` | `FST-610`, `STC-02` | 4 MK | ✅ Sangat Kuat |
 | **BK-IS08** | *Project Management* | `STI-506`, `STC-06` | `FST-610`, `FST-612` | 4 MK | ✅ Sangat Kuat |
 | **BK-IS09** | *Business Process Management* | `STC-02` | `STI-301`, `STI-602` | 3 MK | ✅ Terpenuhi |
-| **BK-IS10** | *Applied Mathematics and Logic* | `STI-102`, `STI-103`, `STI-201`, `STI-202`, `FST-408`, `FST-409` | `STA-02` | 7 MK | ✅ Sangat Kuat |
+| **BK-IS10** | *Applied Mathematics and Logic* | `STI-102`, `STI-103`, `STI-201`, `STI-202`, `FST-408` | `STA-02` | 6 MK | ✅ Sangat Kuat |
 | **BK-IS11** | *Programming Fundamentals & OOP* | `FST-102`, `FST-203`, `FST-205` | `STI-306`, `STI-407` | 5 MK | ✅ Sangat Kuat |
 | **BK-IS12** | *Web and Mobile App Development* | `STI-306`, `STI-407`, `STI-505`, `STI-604` | `STC-03`, `STC-05` | 6 MK | ✅ Sangat Kuat |
 | **BK-IS13** | *Data Analytics and Business Intelligence* | `STI-402`, `STI-503`, `STA-01` | `STI-401`, `STA-04` | 5 MK | ✅ Sangat Kuat |
 | **BK-IS14** | *IT Audit and Compliance* | `STB-04`, `STB-03` | `FST-206`, `STB-05` | 4 MK | ✅ Terpenuhi |
 | **BK-IS15** | *Digital Innovation and Entrepreneurship* | `MKU-204`, `STI-701`, `FST-610` | `STC-06` | 4 MK | ✅ Sangat Kuat |
-| **BK-IS16** | *Artificial Intelligence & Intelligent Systems*| `STI-302`, `STI-601`, `STA-03`, `STA-05` | `STI-401`, `STA-06` | 6 MK | ✅ Sangat Kuat |
+| **BK-IS16** | *Artificial Intelligence & Intelligent Systems*| `STI-302`, `STI-403`, `STI-601`, `STA-03`, `STA-05` | `STI-401`, `STA-06` | 7 MK | ✅ Sangat Kuat |
 | **BK-IS17** | *Human-Computer Interaction & UX* | `STI-303`, `STC-01` | `STI-306`, `STI-505` | 4 MK | ✅ Sangat Kuat |
 | **BK-IS18** | *Machine Learning and Data Science* | `STI-401`, `STI-501`, `STA-04` | `STA-02`, `STA-06` | 5 MK | ✅ Sangat Kuat |
 | **BK-IS19** | *Cloud Architecture & DevOps* | `STI-404`, `STB-02` | `STI-604`, `STC-05` | 4 MK | ✅ Sangat Kuat |
@@ -240,7 +240,7 @@ Matriks ini memetakan relasi langsung antara 19 Bahan Kajian Standar APTIKOM SI 
 | Kode BoK IT | Nomenklatur Bahan Kajian Utama IT2017 | Mata Kuliah Pembina Primer (●) | Mata Kuliah Pembina Sekunder (○) | Total MK | Status Cakupan |
 |---|---|---|---|:---:|:---:|
 | **BK-IT01** | *Information Technology Fundamentals* | `FST-101`, `STI-101` | `FST-204` | 3 MK | ✅ Sangat Kuat |
-| **BK-IT02** | *Applied AI & Intelligent Technologies* | `STI-302`, `STI-401`, `STI-501`, `STI-601` | `STA-03..06` | 8 MK | ✅ Sangat Kuat |
+| **BK-IT02** | *Applied AI & Intelligent Technologies* | `STI-302`, `STI-401`, `STI-403`, `STI-501`, `STI-601` | `STA-03..06` | 9 MK | ✅ Sangat Kuat |
 | **BK-IT03** | *Networking & Communications* | `STI-307` | `STI-404`, `STI-504`, `STB-01` | 4 MK | ✅ Sangat Kuat |
 | **BK-IT04** | *Platform Technologies & Web/Mobile* | `STI-306`, `STI-407`, `STI-505`, `STI-604` | `STC-03..05` | 7 MK | ✅ Sangat Kuat |
 | **BK-IT05** | *Cloud Computing & Virtualization* | `STI-404`, `STB-02` | `STI-305`, `STC-05` | 4 MK | ✅ Sangat Kuat |
@@ -296,7 +296,7 @@ Sesuai Keputusan Menteri Pendidikan dan Kebudayaan No. 210/M/2023 tentang Indika
 | 27 | `STI-404` | Komputasi Awan (Cloud) | 3 | 20% | 45% | 35% | **65%** | ✅ Patuh IKU 7 |
 | 28 | `STI-405` | Dasar Keamanan Informasi | 2 | 25% | 30% | 45% | **55%** | ✅ Patuh IKU 7 |
 | 29 | `FST-408` | Probabilitas & Statistika | 3 | 20% | 10% | 70% | 30% | *MK Teori Dasar Sains* |
-| 30 | `FST-409` | Manajemen Sains & Riset Op | 2 | 30% | 20% | 50% | **50%** | ✅ Patuh IKU 7 |
+| 30 | `STI-403` | Pengantar NLP & IR | 2 | 20% | 45% | 35% | **65%** | ✅ Patuh IKU 7 |
 | 31 | `MKU-405` | Kewarganegaraan | 2 | 30% | 30% | 40% | **60%** | ✅ Patuh IKU 7 |
 | 32 | `STI-501` | Deep Learning & Neural Net | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
 | 33 | `STI-503` | Data Mining & Visualisasi | 3 | 20% | 45% | 35% | **65%** | ✅ Patuh IKU 7 |
