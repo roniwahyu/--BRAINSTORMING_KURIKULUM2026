@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>012 — Analisis Kritis Jalur Pondasi & Tree View Prasyarat | Kurikulum OBE SISTEKIN 2026</title>
+    <meta name="description" content="Dokumen Resmi Kurikulum OBE 2026 Program Studi Sistem dan Teknologi Informasi (S1) FSTI UWG Malang.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- KaTeX for LaTeX Math -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+
+    <!-- Mermaid JS for Flowcharts -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+
+    <style>
+        :root {
+            --bg-primary: #0b0f19;
+            --bg-secondary: #111827;
+            --bg-card: rgba(17, 24, 39, 0.75);
+            --bg-card-hover: rgba(31, 41, 55, 0.85);
+            --border-color: rgba(255, 255, 255, 0.1);
+            --border-accent: rgba(99, 102, 241, 0.35);
+            
+            --text-primary: #f9fafb;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+            
+            --primary: #6366f1;
+            --primary-light: #818cf8;
+            --secondary: #06b6d4;
+            --accent: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            
+            --mkwu-color: #ec4899;
+            --fsti-color: #8b5cf6;
+            --sti-color: #3b82f6;
+            --elektif-color: #10b981;
+            
+            --font-sans: 'Plus Jakarta Sans', 'Inter', sans-serif;
+            --font-code: 'Fira Code', monospace;
+            --shadow-glow: 0 0 30px rgba(99, 102, 241, 0.12);
+            --radius-lg: 16px;
+            --radius-md: 12px;
+            --radius-sm: 8px;
+        }
+
+        [data-theme="light"] {
+            --bg-primary: #f8fafc;
+            --bg-secondary: #ffffff;
+            --bg-card: rgba(255, 255, 255, 0.9);
+            --bg-card-hover: #ffffff;
+            --border-color: rgba(0, 0, 0, 0.08);
+            --border-accent: rgba(99, 102, 241, 0.25);
+            
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --text-muted: #94a3b8;
+            
+            --shadow-glow: 0 10px 30px rgba(99, 102, 241, 0.08);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            padding-bottom: 80px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Navbar */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(11, 15, 25, 0.85);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 14px 0;
+            margin-bottom: 32px;
+        }
+        [data-theme="light"] .navbar { background: rgba(248, 250, 252, 0.85); }
+
+        .navbar-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+        .brand-logo {
+            width: 40px; height: 40px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: var(--radius-sm);
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 800; color: white; font-size: 1.1rem;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+        }
+        .brand-text h1 { font-size: 1.05rem; font-weight: 700; color: var(--text-primary); }
+        .brand-text p { font-size: 0.75rem; color: var(--text-secondary); }
+
+        .doc-select {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            font-size: 0.85rem;
+            font-weight: 600;
+            outline: none;
+            cursor: pointer;
+            max-width: 380px;
+        }
+
+        .search-box {
+            position: relative;
+            min-width: 240px;
+        }
+        .search-input {
+            width: 100%;
+            padding: 8px 14px 8px 34px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            color: var(--text-primary);
+            font-size: 0.85rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .search-input:focus { border-color: var(--primary); }
+        .search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); font-size: 0.8rem; opacity: 0.6; }
+
+        .nav-actions { display: flex; align-items: center; gap: 10px; }
+        .btn-action {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            cursor: pointer; font-size: 0.85rem; font-weight: 600;
+            display: inline-flex; align-items: center; gap: 6px;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
+        .btn-action:hover { border-color: var(--primary); color: var(--primary-light); transform: translateY(-1px); }
+
+        /* Hero Header */
+        .hero {
+            background: radial-gradient(circle at top right, rgba(99, 102, 241, 0.15), transparent 50%),
+                        radial-gradient(circle at bottom left, rgba(6, 182, 212, 0.1), transparent 50%);
+            border: 1px solid var(--border-accent);
+            border-radius: var(--radius-lg);
+            padding: 36px;
+            margin-bottom: 36px;
+            box-shadow: var(--shadow-glow);
+        }
+        .hero-badge-group { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+        .badge {
+            font-size: 0.72rem; font-weight: 700; padding: 4px 12px; border-radius: 20px;
+            letter-spacing: 0.03em; text-transform: uppercase;
+        }
+        .badge-primary { background: rgba(99, 102, 241, 0.2); color: var(--primary-light); border: 1px solid rgba(99, 102, 241, 0.4); }
+        .badge-accent { background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); }
+        .badge-warning { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.4); }
+
+        .hero-title {
+            font-size: 2rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 8px;
+            background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        [data-theme="light"] .hero-title {
+            background: linear-gradient(135deg, #0f172a 0%, #334155 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+
+        /* Typography & Content */
+        .content {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+        }
+
+        .content h1 { font-size: 1.8rem; font-weight: 800; margin: 32px 0 16px 0; color: var(--text-primary); border-bottom: 2px solid var(--border-accent); padding-bottom: 10px; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 30px 0 14px 0; color: var(--primary-light); border-bottom: 1px solid var(--border-color); padding-bottom: 8px; }
+        .content h3 { font-size: 1.15rem; font-weight: 700; margin: 24px 0 12px 0; color: var(--text-primary); }
+        .content h4 { font-size: 1rem; font-weight: 600; margin: 18px 0 8px 0; color: var(--text-secondary); }
+
+        .content p { margin-bottom: 16px; color: var(--text-secondary); font-size: 0.96rem; }
+        .content ul, .content ol { margin: 0 0 20px 24px; color: var(--text-secondary); font-size: 0.95rem; }
+        .content li { margin-bottom: 6px; }
+        .content blockquote {
+            border-left: 4px solid var(--primary);
+            padding: 12px 20px;
+            background: rgba(99, 102, 241, 0.06);
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            margin: 20px 0;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Tables */
+        .table-wrapper { overflow-x: auto; margin: 24px 0; border-radius: var(--radius-md); border: 1px solid var(--border-color); }
+        table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem; }
+        th {
+            background: rgba(31, 41, 55, 0.7); color: var(--text-primary);
+            font-weight: 700; padding: 12px 16px; border-bottom: 1px solid var(--border-color);
+            font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em;
+        }
+        [data-theme="light"] th { background: #f1f5f9; }
+        td { padding: 12px 16px; border-bottom: 1px solid var(--border-color); color: var(--text-secondary); }
+        tr:last-child td { border-bottom: none; }
+        tr:hover td { background: var(--bg-card-hover); color: var(--text-primary); }
+
+        /* Code Badges */
+        .code-tag {
+            font-family: var(--font-code); font-weight: 600; font-size: 0.82rem;
+            padding: 2px 8px; border-radius: 4px; background: rgba(99, 102, 241, 0.12);
+            color: var(--primary-light); border: 1px solid rgba(99, 102, 241, 0.25);
+        }
+        code {
+            font-family: var(--font-code); font-size: 0.85rem; padding: 2px 6px;
+            background: rgba(255, 255, 255, 0.06); border-radius: 4px; color: var(--primary-light);
+        }
+
+        .cat-badge { font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px; display: inline-block; }
+        .cat-mkwu { background: rgba(236, 72, 153, 0.15); color: #f472b6; border: 1px solid rgba(236, 72, 153, 0.3); }
+        .cat-fsti { background: rgba(139, 92, 246, 0.15); color: #c084fc; border: 1px solid rgba(139, 92, 246, 0.3); }
+        .cat-sti  { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
+        .cat-elektif { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+
+        /* Custom Alerts */
+        .custom-alert {
+            border-left: 4px solid var(--primary);
+            background: rgba(17, 24, 39, 0.6);
+            border: 1px solid var(--border-color);
+            border-left-width: 4px;
+            border-radius: var(--radius-md);
+            padding: 16px 20px;
+            margin: 24px 0;
+        }
+        .alert-important { border-left-color: var(--primary); background: rgba(99, 102, 241, 0.08); }
+        .alert-note { border-left-color: var(--secondary); background: rgba(6, 182, 212, 0.08); }
+        .alert-tip { border-left-color: var(--accent); background: rgba(16, 185, 129, 0.08); }
+        .alert-warning { border-left-color: var(--warning); background: rgba(245, 158, 11, 0.08); }
+        .alert-caution { border-left-color: var(--danger); background: rgba(239, 68, 68, 0.08); }
+        
+        .alert-header { font-weight: 700; font-size: 0.9rem; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
+        .alert-important .alert-header { color: var(--primary-light); }
+        .alert-note .alert-header { color: var(--secondary); }
+        .alert-tip .alert-header { color: var(--accent); }
+        .alert-warning .alert-header { color: var(--warning); }
+        .alert-caution .alert-header { color: var(--danger); }
+        .alert-content { color: var(--text-secondary); font-size: 0.92rem; }
+
+        /* Mermaid Box */
+        .mermaid-card {
+            background: rgba(17, 24, 39, 0.5);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 24px; margin: 24px 0;
+            text-align: center; overflow-x: auto;
+        }
+
+        /* Bottom Nav Links */
+        .doc-nav {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--border-color);
+        }
+        .nav-btn {
+            background: var(--bg-secondary); border: 1px solid var(--border-color);
+            color: var(--text-primary); padding: 10px 18px; border-radius: var(--radius-sm);
+            text-decoration: none; font-weight: 600; font-size: 0.88rem; transition: all 0.2s;
+        }
+        .nav-btn:hover { border-color: var(--primary); color: var(--primary-light); }
+
+        /* Footer */
+        .footer { margin-top: 60px; text-align: center; color: var(--text-muted); font-size: 0.85rem; }
+
+        @media print {
+            body { background: white; color: black; }
+            .navbar, .nav-actions, .doc-nav, .search-box { display: none; }
+            .hero, .content { border: 1px solid #ccc; box-shadow: none; background: white; padding: 20px; }
+            th { background: #eee !important; color: black !important; }
+            td { color: black !important; }
+            .code-tag { background: #f0f0f0; color: black; border: 1px solid #ccc; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <a href="index.html" class="brand">
+                <div class="brand-logo">STI</div>
+                <div class="brand-text">
+                    <h1>SISTEKIN — FSTI UWG</h1>
+                    <p>Buku Kurikulum OBE 2026</p>
+                </div>
+            </a>
+            
+            <select class="doc-select" onchange="window.location.href=this.value">
+                <option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
+<option value="002_FORMULASI_3_PEO_DAN_4_PROFIL_LULUSAN_SISTEKIN.html" >002 — Formulasi 3 PEO & 4 Profil Lulusan</option>
+<option value="003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.html" >003 — Standar 14 CPL & Pemetaan BoK APTIKOM</option>
+<option value="004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.html" >004 — Matriks Keterlacakan OBE VMTS-PEO-PL-CPL-MK</option>
+<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — Struktur Kurikulum 8 Semester & Peminatan</option>
+<option value="006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.html" >006 — Distribusi MK Peminatan & Panduan MBKM</option>
+<option value="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" >007 — Silabus 3-Tabel & CPMK 67 MK Portofolio</option>
+<option value="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" >008 — Sistem Asesmen OBE & Attainment CPL</option>
+<option value="009_LANGKAH2_CPL_FORMAL.html" >009 — Ringkasan Langkah 2: CPL Formal</option>
+<option value="009A_CPL_SIKAP_SISTEKIN.html" >009A — Detail CPL Sikap (S1)</option>
+<option value="009B_CPL_KETERAMPILAN_UMUM_SISTEKIN.html" >009B — Detail CPL Keterampilan Umum (KU1-3)</option>
+<option value="009C_CPL_PENGETAHUAN_SISTEKIN.html" >009C — Detail CPL Pengetahuan (P1-4)</option>
+<option value="009D_CPL_KETERAMPILAN_KHUSUS_SISTEKIN.html" >009D — Detail CPL Keterampilan Khusus (KK1-6)</option>
+<option value="009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.html" >009E — Master Matriks Kompilasi 14 CPL & BoK</option>
+<option value="009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.html" >009 — Pedoman Capstone & 4 Opsi TA Non-Skripsi</option>
+<option value="010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.html" >010 — Instrumen Tracer Study & Evaluasi PEO</option>
+<option value="011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.html" >011 — 14 Sheet Matriks Implementasi OBE</option>
+<option value="012_ANALISIS_KRITIS_JALUR_PONDASI_DAN_TREE_PRASYARAT.html" selected>012 — Analisis Kritis Jalur Pondasi & Tree View Prasyarat</option>
+<option value="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" >📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)</option>
+            </select>
+
+            
+    <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="globalTableSearch" class="search-input" placeholder="Cari dalam dokumen (kode, MK, istilah, tabel)...">
+    </div>
+    
+
+            <div class="nav-actions">
+                <a href="index.html" class="btn-action">🏠 Portal Dokumen</a>
+                <button class="btn-action" onclick="window.print()">🖨️ Cetak PDF</button>
+                <button class="btn-action" id="themeToggle">🌓 Tema</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-badge-group">
+                <span class="badge badge-primary">Kurikulum OBE 2026</span>
+                <span class="badge badge-accent">Permendikbudristek 53/2023</span>
+                <span class="badge badge-warning">FSTI UWG Malang</span>
+            </div>
+            <h1 class="hero-title">012 — Analisis Kritis Jalur Pondasi & Tree View Prasyarat</h1>
+            <p style="color: var(--text-secondary); font-size: 0.95rem;">Dokumen Kurikulum OBE Definitif Program Studi Sistem dan Teknologi Informasi (S1)</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="content">
+            <h1 id="012-analisis-kritis-jalur-pondasi-dan-tree-view-prasyarat">012 — ANALISIS KRITIS JALUR PONDASI DAN TREE VIEW PRASYARAT</h1>
+<h2 id="program-studi-sistem-dan-teknologi-informasi-s1-fakultas-sains-dan-teknologi-informasi-fsti-universitas-widyagama-malang">Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang</h2>
+<p><strong>Dokumen Analisis Arsitektur Kurikulum &amp; Keterlacakan Prasyarat (Constructive Alignment)</strong><br />
+<strong>Standar Rujukan:</strong> SN-Dikti Permendikbudristek No. 53 Tahun 2023, Panduan Kurikulum OBE APTIKOM v2.0 (IS2020 &amp; IT2017), Standar IABEE &amp; LAM INFOKOM.</p>
+<hr />
+<h2 id="1-eksekutif-summary-hasil-audit-jalur-pondasi">1. EKSEKUTIF SUMMARY &amp; HASIL AUDIT JALUR PONDASI</h2>
+<p>Setelah dilakukan audit akademik mendalam terhadap <strong>55 Mata Kuliah Paket Wajib (146 SKS)</strong> dan <strong>18 Mata Kuliah Portofolio Elektif (54 SKS Ditawarkan)</strong>, seluruh mata kuliah tingkat lanjut di Semester 5, 6, dan 7 terbukti <strong>memiliki rantai fondasi (pedigree) yang kokoh, sekuensial, dan bebas dari mata kuliah tanpa fondasi (<em>zero orphan courses</em>)</strong>.</p>
+<p>Struktur kurikulum SISTEKIN 2026 dibangun di atas <strong>5 Jalur Pilar Keilmuan Utama</strong>:
+1. <strong>Pilar 1: AI, Data Science &amp; Intelligent Systems</strong> <em>(Flagship Track — PL-1 &amp; Peminatan 1)</em>
+2. <strong>Pilar 2: Cloud Infrastructure, Networks &amp; Cybersecurity</strong> <em>(Volume Track — PL-2 &amp; Peminatan 2)</em>
+3. <strong>Pilar 3: Software, Web/Mobile &amp; Digital Platform Engineering</strong> <em>(Niche Track — PL-3 &amp; Peminatan 3)</em>
+4. <strong>Pilar 4: IT Governance, Enterprise Architecture &amp; Systems Analysis</strong> <em>(Enterprise Track — PL-2 &amp; PL-3)</em>
+5. <strong>Pilar 5: Technopreneurship, Metodologi Riset, Capstone &amp; Skripsi Culmination</strong> <em>(Synthesizing Track — PL-4 &amp; Seluruh Lulusan)</em></p>
+<hr />
+<h2 id="2-diagram-alir-makro-keterlacakan-5-pilar-mermaid">2. DIAGRAM ALIR MAKRO KETERLACAKAN 5 PILAR (MERMAID)</h2>
+<div class="mermaid-card"><div class="mermaid">
+graph TD
+    subgraph P1 [&quot;PILAR 1: AI, DATA SCIENCE &amp; INTELLIGENT SYSTEMS&quot;]
+        S1_Math[&quot;Sem 1: Kalkulus &amp; Logika&quot;] --&gt; S2_Math[&quot;Sem 2: Aljabar Linear &amp; Matdis&quot;]
+        S1_Prog[&quot;Sem 1: Algoritma &amp; Pemrograman&quot;] --&gt; S2_DB[&quot;Sem 2: Basis Data &amp; Struktur Data&quot;]
+        S2_Math --&gt; S3_AI[&quot;Sem 3: Sistem Cerdas&quot;]
+        S2_DB --&gt; S4_ML[&quot;Sem 4: Machine Learning (+P)&quot;]
+        S3_AI --&gt; S4_NLP[&quot;Sem 4: Pengantar NLP &amp; IR (+P)&quot;]
+        S2_DB --&gt; S4_DW[&quot;Sem 4: Data Warehouse &amp; BI (+P)&quot;]
+        S4_ML --&gt; S5_DL[&quot;Sem 5: Deep Learning &amp; Neural Net (+P)&quot;]
+        S4_DW --&gt; S5_DM[&quot;Sem 5: Data Mining &amp; Visualisasi (+P)&quot;]
+        S4_ML --&gt; S5_STA01[&quot;Sem 5 (P1): Decision Support Systems (+P)&quot;]
+        S5_DL --&gt; S6_AI_Int[&quot;Sem 6: Integrasi Layanan Cerdas AI (+P)&quot;]
+        S4_NLP --&gt; S6_AI_Int
+        S3_AI --&gt; S6_STA03[&quot;Sem 6 (P1): Sistem Agen Cerdas (+P)&quot;]
+        S2_Math --&gt; S6_STA02[&quot;Sem 6 (P1): Komputasi Numerik (+P)&quot;]
+        S5_DL --&gt; S7_STA04[&quot;Sem 7 (P1): MLOps &amp; AI Pipeline (+P)&quot;]
+        S4_NLP --&gt; S7_STA05[&quot;Sem 7 (P1): Conversational AI &amp; LLM (+P)&quot;]
+        S5_DL --&gt; S7_STA06[&quot;Sem 7 (P1): Smart Surveillance &amp; Edge AI (+P)&quot;]
+    end
+
+    subgraph P2 [&quot;PILAR 2: CLOUD INFRASTRUCTURE &amp; CYBERSECURITY&quot;]
+        S1_STI[&quot;Sem 1: Pengantar STI&quot;] --&gt; S2_Etika[&quot;Sem 2: Etika &amp; Hukum Siber&quot;]
+        S1_Prog --&gt; S2_StrukDat[&quot;Sem 2: Struktur Data&quot;]
+        S2_StrukDat --&gt; S3_OS[&quot;Sem 3: Sistem Operasi&quot;]
+        S1_STI --&gt; S3_Net[&quot;Sem 3: Jaringan Komputer (+P)&quot;]
+        S3_OS --&gt; S4_Cloud[&quot;Sem 4: Komputasi Awan (Cloud)&quot;]
+        S3_Net --&gt; S4_Cloud
+        S3_Net --&gt; S4_Sec[&quot;Sem 4: Dasar Keamanan Informasi&quot;]
+        S3_Net --&gt; S5_IoT[&quot;Sem 5: Internet of Things (IoT) (+P)&quot;]
+        S3_OS --&gt; S5_IoT
+        S3_Net --&gt; S5_STB01[&quot;Sem 5 (P2): Keamanan Jaringan &amp; Forensik (+P)&quot;]
+        S4_Sec --&gt; S5_STB01
+        S4_Cloud --&gt; S6_STB02[&quot;Sem 6 (P2): Cloud Architecture &amp; DevOps (+P)&quot;]
+        S4_Sec --&gt; S6_STB03[&quot;Sem 6 (P2): Penetrasi Testing &amp; Red Team (+P)&quot;]
+        S4_Sec --&gt; S6_SecAdv[&quot;Sem 6: Keamanan Informasi Lanjut&quot;]
+        S5_IoT --&gt; S6_SmartCity[&quot;Sem 6: Smart City &amp; Pem. Digital&quot;]
+        S6_SecAdv --&gt; S7_STB05[&quot;Sem 7 (P2): Keamanan Cloud &amp; Kripto (+P)&quot;]
+        S6_STB02 --&gt; S7_STB06[&quot;Sem 7 (P2): Rekayasa Ketahanan SRE (+P)&quot;]
+        S3_OS --&gt; S7_STB04[&quot;Sem 7 (P2): IT Governance COBIT 2019&quot;]
+    end
+
+    subgraph P3 [&quot;PILAR 3: SOFTWARE &amp; DIGITAL PLATFORM ENGINEERING&quot;]
+        S1_Prog --&gt; S2_OOP[&quot;Sem 2: Pemrograman Berorientasi Objek&quot;]
+        S2_OOP --&gt; S3_APSI[&quot;Sem 3: Analisis &amp; Perancangan SI&quot;]
+        S2_OOP --&gt; S3_RPL[&quot;Sem 3: Rekayasa Perangkat Lunak&quot;]
+        S1_STI --&gt; S3_UIUX[&quot;Sem 3: UI/UX Design &amp; Prototyping (+P)&quot;]
+        S2_OOP --&gt; S3_WebFront[&quot;Sem 3: Web Front End Development (+P)&quot;]
+        S3_WebFront --&gt; S4_WebBack[&quot;Sem 4: Web Back End Development (+P)&quot;]
+        S2_DB --&gt; S4_WebBack
+        S3_UIUX --&gt; S5_STC01[&quot;Sem 5 (P3): UX Research &amp; Design System (+P)&quot;]
+        S4_WebBack --&gt; S5_Mobile[&quot;Sem 5: Pemrograman Mobile (+P)&quot;]
+        S3_WebFront --&gt; S5_Mobile
+        S4_WebBack --&gt; S6_Platform[&quot;Sem 6: Digital Platform Engineering (+P)&quot;]
+        S3_APSI --&gt; S6_STC02[&quot;Sem 6 (P3): Otomasi Proses Bisnis BPMN (+P)&quot;]
+        S4_WebBack --&gt; S6_STC03[&quot;Sem 6 (P3): Aplikasi Vertikal Industri (+P)&quot;]
+        S3_UIUX --&gt; S7_STC04[&quot;Sem 7 (P3): Spatial Computing &amp; XR (+P)&quot;]
+        S6_Platform --&gt; S7_STC05[&quot;Sem 7 (P3): Arsitektur SaaS Enterprise (+P)&quot;]
+    end
+
+    subgraph P5 [&quot;PILAR 5: SINTESIS CAPSTONE, RISET &amp; STARTUP&quot;]
+        S2_KWU[&quot;Sem 2: Kewirausahaan I&quot;] --&gt; S5_Manpro[&quot;Sem 5: Manajemen Proyek TI&quot;]
+        S3_APSI --&gt; S5_Manpro
+        S5_Manpro --&gt; S7_Capstone[&quot;Sem 7: Capstone Project FSTI (+P)&quot;]
+        S6_Platform --&gt; S7_Startup[&quot;Sem 7: Inovasi &amp; Startup Digital (+P)&quot;]
+        S2_KWU --&gt; S7_Startup
+        S4_ML --&gt; S6_Metpen[&quot;Sem 6: Metodologi Penelitian&quot;]
+        S6_Metpen --&gt; S7_Sempro[&quot;Sem 7: Pra-Skripsi / Sempro&quot;]
+        S7_Sempro --&gt; S8_Skripsi[&quot;Sem 8: Skripsi Murni / 4 Opsi Non-Skripsi (6 SKS)&quot;]
+        S7_Capstone --&gt; S8_Skripsi
+    end
+</div></div>
+
+<hr />
+<h2 id="3-pohon-silsilah-pembelajaran-detail-per-pilar-top-to-down-tree">3. POHON SILSILAH PEMBELAJARAN DETAIL PER PILAR (TOP-TO-DOWN TREE)</h2>
+<hr />
+<h3 id="pilar-1-ai-data-science-intelligent-systems-pl-1-p1">🌲 PILAR 1: AI, DATA SCIENCE &amp; INTELLIGENT SYSTEMS (PL-1 &amp; P1)</h3>
+<div class="highlight"><pre><span></span><code>[SEM 8]  FST-714 Skripsi / Tugas Akhir (Topik AI / Intelligent IS)
+   │
+[SEM 7]  ├── STA-05 Conversational AI &amp; LLM (+P) ──────────────┐
+         ├── STA-04 MLOps &amp; AI Pipeline (+P) ──────────────────┤
+         ├── STA-06 Smart Surveillance &amp; Vision Analytics ─────┤
+         │                                                     │
+[SEM 6]  ├── STI-601 Integrasi Layanan Cerdas AI (+P) ─────────┤
+         ├── STA-03 Sistem Agen Cerdas &amp; Multi-Agent (+P) ─────┤
+         ├── STA-02 Metode Komputasi Numerik Terapan (+P) ─────┤
+         │                                                     │
+[SEM 5]  ├── STI-501 Deep Learning &amp; Neural Networks (+P) ─────┴── STI-401 Machine Learning (+P) [SEM 4]
+         │                                                           │
+         ├── STI-503 Data Mining &amp; Visualisasi Data (+P) ────────────┼── STI-402 Data Warehouse &amp; BI [SEM 4]
+         │                                                           │
+         ├── STA-01 Decision Support Systems (+P) ───────────────────┼── STI-403 Pengantar NLP &amp; IR [SEM 4]
+         │                                                           │     │
+[SEM 4]  └── STI-401 Machine Learning (+P) ──────────────────────────┴─────┼── STI-302 Sistem Cerdas [SEM 3]
+               │                                                           │     │
+[SEM 3]        └── STI-302 Sistem Cerdas [SEM 3] ──────────────────────────┼─────┴── STI-201 Matdis &amp; STI-202 Aljabar [SEM 2]
+                     │                                                     │
+[SEM 2]              ├── STI-201 Matematika Diskrit ───────────────────────┼── STI-103 Logika Informatika [SEM 1]
+                     ├── STI-202 Aljabar Linear Terapan &amp; Matriks ─────────┼── STI-102 Kalkulus [SEM 1]
+                     ├── FST-207 Sistem Basis Data (+P) ───────────────────┼── STI-101 Algoritma &amp; Pemrograman [SEM 1]
+                     └── FST-208 Statistika Dasar ─────────────────────────┘
+</code></pre></div>
+<h4 id="analisis-kritis-justifikasi-pedagogis-pilar-1">🔍 Analisis Kritis &amp; Justifikasi Pedagogis Pilar 1:</h4>
+<ol>
+<li><strong>Peran Kunci <code>STI-403 Pengantar NLP &amp; IR</code> (Sem 4):</strong> Menjadi jembatan esensial untuk <code>STA-05 Conversational AI</code> (Sem 7) yang berbasis LLM/RAG. Tanpa fondasi tokenisasi, TF-IDF, vector space model, dan embedding di Sem 4, pemahaman generative AI di Sem 7 akan bersifat superficial.</li>
+<li><strong>Keterpaduan Deep Learning &amp; Machine Learning:</strong> <code>STI-401 Machine Learning</code> (Sem 4) mengajarkan <em>classical tabular &amp; loss minimization</em>, yang menjadi landasan wajib bagi <code>STI-501 Deep Learning</code> (Sem 5) yang memperdalam <em>backpropagation, CNN, RNN/LSTM, dan Attention Mechanism</em>.</li>
+<li><strong>MLOps sebagai Muara Rekayasa:</strong> <code>STA-04 MLOps</code> (Sem 7) mensintesis model machine learning dengan containerization dan pipeline deployment (menghubungkan pilar AI dengan pilar Cloud/DevOps).</li>
+</ol>
+<hr />
+<h3 id="pilar-2-cloud-infrastructure-cybersecurity-pl-2-p2">🌲 PILAR 2: CLOUD INFRASTRUCTURE &amp; CYBERSECURITY (PL-2 &amp; P2)</h3>
+<div class="highlight"><pre><span></span><code>[SEM 8]  FST-714 Skripsi / Tugas Akhir (Topik Cloud Native &amp; Cyber Resilience)
+   │
+[SEM 7]  ├── STB-04 IT Governance &amp; Compliance COBIT 2019 ────┐
+         ├── STB-05 Keamanan Cloud &amp; Kriptografi Terapan ──────┤
+         ├── STB-06 Rekayasa Ketahanan Sistem &amp; SRE (+P) ──────┤
+         │                                                     │
+[SEM 6]  ├── STB-02 Cloud Architecture &amp; DevOps (+P) ──────────┼── STI-404 Komputasi Awan (Cloud) [SEM 4]
+         ├── STB-03 Penetration Testing &amp; Red Teaming (+P) ────┤     │
+         ├── STI-603 Keamanan Informasi Lanjut ────────────────┤     │
+         │                                                     │     │
+[SEM 5]  ├── STI-504 Internet of Things (IoT) (+P) ────────────┼── STI-307 Jaringan Komputer [SEM 3]
+         ├── STB-01 Keamanan Jaringan &amp; Forensik Digital ──────┤     │
+         │                                                     │     │
+[SEM 4]  ├── STI-404 Komputasi Awan (Cloud Computing) ─────────┴─────┼── STI-305 Sistem Operasi [SEM 3]
+         └── STI-405 Dasar Keamanan Informasi ───────────────────────┘     │
+               │                                                           │
+[SEM 3]        ├── STI-307 Jaringan Komputer (+P) ─────────────────────────┼── STI-104 Pengantar STI [SEM 1]
+               └── STI-305 Sistem Operasi ─────────────────────────────────┴── STI-201 Struktur Data [SEM 2]
+                     │                                                          │
+[SEM 2]              ├── STI-205 Etika Profesi &amp; Hukum Siber ───────────────────┴── STI-101 Dasar Koding [SEM 1]
+[SEM 1]              └── STI-104 Pengantar Sistem dan Teknologi Informasi
+</code></pre></div>
+<h4 id="analisis-kritis-justifikasi-pedagogis-pilar-2">🔍 Analisis Kritis &amp; Justifikasi Pedagogis Pilar 2:</h4>
+<ol>
+<li><strong>Dwi-Fondasi Sem 3 (OS &amp; Jarkom):</strong> <code>STI-305 Sistem Operasi</code> (proses, memori, kernel, virtualisasi) dan <code>STI-307 Jaringan Komputer</code> (TCP/IP, subnetting, routing) diletakkan di semester yang sama untuk menjadi fondasi ganda bagi <code>STI-404 Cloud</code> dan <code>STI-405 Security</code>.</li>
+<li><strong>Kematangan Bertahap Cyber Defense:</strong> 
+   * Sem 2: Regulasi &amp; UU ITE (<span class="code-tag">STI-205</span>>)
+   * Sem 4: CIA Triad, Kripto Klasik, Risk (<span class="code-tag">STI-405</span>>)
+   * Sem 5: Wireshark, Packet Inspection, Autopsy (<code>STB-01</code>>)
+   * Sem 6: Ethical Hacking, OWASP Top 10, Kali Linux (<code>STB-03</code>> &amp; <span class="code-tag">STI-603</span>>)
+   * Sem 7: Zero-Trust Cloud &amp; GRC Enterprise (<code>STB-04</code>> &amp; <code>STB-05</code>>).</li>
+</ol>
+<hr />
+<h3 id="pilar-3-software-platform-uiux-engineering-pl-3-p3">🌲 PILAR 3: SOFTWARE, PLATFORM &amp; UI/UX ENGINEERING (PL-3 &amp; P3)</h3>
+<div class="highlight"><pre><span></span><code>[SEM 8]  FST-714 Skripsi / Tugas Akhir (Topik Enterprise Digital Platform &amp; SaaS)
+   │
+[SEM 7]  ├── STC-04 Spatial Computing &amp; XR Development (+P) ──┐
+         ├── STC-05 Arsitektur SaaS &amp; Multi-Tenancy (+P) ──────┤
+         ├── STC-06 Manajemen Produk Digital &amp; Growth ─────────┤
+         │                                                     │
+[SEM 6]  ├── STI-604 Digital Platform Engineering (+P) ────────┼── STI-407 Web Back End Development [SEM 4]
+         ├── STC-02 Rekayasa &amp; Otomasi Proses Bisnis BPMN ─────┤     │
+         ├── STC-03 Pengembangan Aplikasi Vertikal Industri ───┤     │
+         │                                                     │     │
+[SEM 5]  ├── STI-505 Pemrograman Aplikasi Mobile (+P) ─────────┼── STI-306 Web Front End Development [SEM 3]
+         ├── STC-01 Advanced UX Research &amp; Design System ──────┤     │
+         │                                                     │     │
+[SEM 4]  └── STI-407 Web Back End Development (+P) ────────────┴─────┼── STI-304 Rekayasa Perangkat Lunak [SEM 3]
+               │                                                     │     │
+[SEM 3]        ├── STI-306 Pemrograman Web Front-End (+P) ───────────┼── STI-303 UI/UX Design [SEM 3]
+               ├── STI-304 Rekayasa Perangkat Lunak ─────────────────┼── STI-301 Analisis &amp; Desain SI [SEM 3]
+               ├── STI-303 UI/UX Design &amp; Prototyping (+P) ──────────┤     │
+               └── STI-301 Analisis &amp; Perancangan SI ────────────────┴── FST-207 Sistem Basis Data [SEM 2]
+                     │                                                     │
+[SEM 2]              ├── STI-202 Pemrograman Berorientasi Objek (+P) ──────┴── STI-201 Struktur Data [SEM 2]
+                     └── FST-207 Sistem Basis Data (+P) ────────────────────── STI-101 Algoritma &amp; Pemrograman [SEM 1]
+</code></pre></div>
+<h4 id="analisis-kritis-justifikasi-pedagogis-pilar-3">🔍 Analisis Kritis &amp; Justifikasi Pedagogis Pilar 3:</h4>
+<ol>
+<li><strong>Pemisahan Front-End dan Back-End yang Rapi:</strong> 
+   * <code>STI-306 Web Front-End</code> di Semester 3 (HTML/CSS/JS, React/Vue, Component Lifecycle)
+   * <code>STI-407 Web Back-End</code> di Semester 4 (NodeJS/FastAPI, RESTful/GraphQL, ORM, Auth JWT)
+   * Terintegrasi menjadi <code>STI-505 Mobile App</code> di Sem 5 dan <code>STI-604 Platform Engineering</code> di Sem 6.</li>
+<li><strong>SaaS Architecture sebagai Puncak:</strong> <code>STC-05 SaaS Architecture</code> (Sem 7) mengajarkan multi-tenancy database, rate limiting, billing API, dan microservices scaling yang membutuhkan kematangan penuh dari Sem 1 hingga Sem 6.</li>
+</ol>
+<hr />
+<h3 id="pilar-4-5-sintesis-capstone-riset-technopreneurship">🌲 PILAR 4 &amp; 5: SINTESIS CAPSTONE, RISET &amp; TECHNOPRENEURSHIP</h3>
+<div class="highlight"><pre><span></span><code>[SEM 8]  FST-714 SKRIPSI / TUGAS AKHIR MURNI (6 SKS) ATAU 4 OPSI NON-SKRIPSI
+   │
+[SEM 7]  ├── FST-613 Pra-Skripsi / Seminar Proposal (2 SKS) ──┐
+         ├── FST-610 Capstone Project FSTI (3 SKS) ───────────┼── STI-506 Manajemen Proyek TI [SEM 5]
+         ├── FST-612 Praktik Kerja Lapangan / PKL (3 SKS) ────┤     │
+         ├── STI-701 Inovasi Teknologi &amp; Startup (3 SKS) ─────┼── FST-611 Metodologi Penelitian [SEM 6]
+         │                                                    │     │
+[SEM 6]  ├── FST-611 Metodologi Penelitian (2 SKS) ───────────┴── MKU-204 Kewirausahaan I [SEM 2]
+         └── STI-602 Smart City &amp; Pemerintahan Digital (2 SKS)
+               │
+[SEM 5]  ├── MKU-507 Kuliah Pengabdian Masyarakat / KPM (3 SKS)
+         └── STI-506 Manajemen Proyek TI (3 SKS)
+               │
+[SEM 2]  └── MKU-204 Kewirausahaan I (2 SKS)
+</code></pre></div>
+<hr />
+<h2 id="4-matriks-audit-validasi-kesiapan-prasyarat-sem-5-6-7">4. MATRIKS AUDIT VALIDASI KESIAPAN PRASYARAT (SEM 5, 6, 7)</h2>
+<p>Tabel berikut membuktikan bahwa <strong>100% mata kuliah pilihan dan wajib di Semester 5, 6, dan 7 memiliki mata kuliah fondasi pembina</strong>:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Smt</th>
+<th style="text-align: center;">Kode MK</th>
+<th>Nama Mata Kuliah</th>
+<th style="text-align: center;">SKS</th>
+<th style="text-align: center;">Tipe</th>
+<th>Prasyarat Wajib Formal</th>
+<th>Mata Kuliah Fondasi Penopang</th>
+<th style="text-align: center;">Status Jalur</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>5</strong></td>
+<td style="text-align: center;"><span class="code-tag">STI-501</span>></td>
+<td>Deep Learning &amp; Neural Networks</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-401</span>> Machine Learning</td>
+<td><span class="code-tag">STI-202</span>> Aljabar Linear, <span class="code-tag">FST-408</span>> Probstat</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>5</strong></td>
+<td style="text-align: center;"><span class="code-tag">STI-503</span>></td>
+<td>Data Mining &amp; Visualisasi Data</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-401</span>> ML, <span class="code-tag">STI-402</span>> DW/BI</td>
+<td><span class="code-tag">FST-207</span>> Basis Data, <span class="code-tag">STI-201</span>> Matdis</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>5</strong></td>
+<td style="text-align: center;"><span class="code-tag">STI-504</span>></td>
+<td>Internet of Things (IoT)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-307</span>> Jarkom, <span class="code-tag">STI-305</span>> OS</td>
+<td><span class="code-tag">STI-101</span>> Dasar Koding, <span class="code-tag">FST-101</span>> Digital</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>5</strong></td>
+<td style="text-align: center;"><span class="code-tag">STI-505</span>></td>
+<td>Pemrograman Aplikasi Mobile</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-306</span>> Front, <span class="code-tag">STI-407</span>> Back</td>
+<td><span class="code-tag">STI-303</span>> UI/UX Design &amp; Prototyping</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>5</strong></td>
+<td style="text-align: center;"><span class="code-tag">STI-506</span>></td>
+<td>Manajemen Proyek TI</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Teori</td>
+<td><span class="code-tag">STI-301</span>> APSI, <span class="code-tag">STI-304</span>> RPL</td>
+<td><span class="code-tag">MKU-204</span>> Kewirausahaan I</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>5</strong></td>
+<td style="text-align: center;"><code>STA-01</code>></td>
+<td>Decision Support Systems <em>(P1)</em></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-401</span>> Machine Learning</td>
+<td><span class="code-tag">FST-207</span>> Basis Data, <span class="code-tag">STI-302</span>> AI</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>5</strong></td>
+<td style="text-align: center;"><code>STB-01</code>></td>
+<td>Network Security &amp; Forensics <em>(P2)</em></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-307</span>> Jarkom, <span class="code-tag">STI-405</span>> Security</td>
+<td><span class="code-tag">STI-305</span>> Sistem Operasi</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>5</strong></td>
+<td style="text-align: center;"><code>STC-01</code>></td>
+<td>Advanced UX &amp; Design System <em>(P3)</em></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-303</span>> UI/UX Design</td>
+<td><span class="code-tag">STI-306</span>> Web Front-End</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>6</strong></td>
+<td style="text-align: center;"><span class="code-tag">STI-601</span>></td>
+<td>Integrasi Layanan Cerdas Berbasis AI</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-501</span>> DL, <span class="code-tag">STI-407</span>> Back End</td>
+<td><span class="code-tag">STI-403</span>> NLP &amp; IR, <span class="code-tag">STI-401</span>> ML</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>6</strong></td>
+<td style="text-align: center;"><span class="code-tag">STI-602</span>></td>
+<td>Smart City &amp; Pemerintahan Digital</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Teori</td>
+<td><span class="code-tag">STI-504</span>> IoT</td>
+<td><span class="code-tag">STI-301</span>> APSI, <span class="code-tag">STI-404</span>> Cloud</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>6</strong></td>
+<td style="text-align: center;"><span class="code-tag">STI-603</span>></td>
+<td>Keamanan Informasi Lanjut</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Teori</td>
+<td><span class="code-tag">STI-405</span>> Dasar Keamanan</td>
+<td><span class="code-tag">STI-307</span>> Jarkom, <code>STB-01</code>> NetSec</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>6</strong></td>
+<td style="text-align: center;"><span class="code-tag">STI-604</span>></td>
+<td>Digital Platform Engineering</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-407</span>> Web Back End</td>
+<td><span class="code-tag">STI-404</span>> Cloud, <span class="code-tag">STI-304</span>> RPL</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>6</strong></td>
+<td style="text-align: center;"><span class="code-tag">FST-611</span>></td>
+<td>Metodologi Penelitian</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Teori</td>
+<td><span class="arithmatex"><span class="MathJax_Preview">\ge 76\text{ SKS}</span><script type="math/tex">\ge 76\text{ SKS}</script></span> Selesai</td>
+<td><span class="code-tag">FST-408</span>> Probstat, <span class="code-tag">FST-208</span>> Stat Dasar</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>6</strong></td>
+<td style="text-align: center;"><code>STA-02</code>></td>
+<td>Computational Numerics <em>(P1)</em></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-202</span>> Aljabar, <span class="code-tag">STI-102</span>> Kalkulus</td>
+<td><span class="code-tag">FST-408</span>> Probabilitas &amp; Statistika</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>6</strong></td>
+<td style="text-align: center;"><code>STA-03</code>></td>
+<td>Intelligent Agent Systems <em>(P1)</em></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-302</span>> AI, <span class="code-tag">STI-401</span>> ML</td>
+<td><span class="code-tag">STI-201</span>> Matdis (Graph &amp; Logic)</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>6</strong></td>
+<td style="text-align: center;"><code>STB-02</code>></td>
+<td>Cloud Architecture &amp; DevOps <em>(P2)</em></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-404</span>> Cloud Computing</td>
+<td><span class="code-tag">STI-305</span>> OS, <span class="code-tag">STI-407</span>> Web Back End</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>6</strong></td>
+<td style="text-align: center;"><code>STB-03</code>></td>
+<td>Penetration Testing <em>(P2)</em></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-405</span>> Dasar Keamanan</td>
+<td><span class="code-tag">STI-307</span>> Jarkom, <code>STB-01</code>> NetSec</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>6</strong></td>
+<td style="text-align: center;"><code>STC-02</code>></td>
+<td>Otomasi Proses Bisnis BPMN <em>(P3)</em></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-301</span>> APSI</td>
+<td><span class="code-tag">STI-304</span>> Rekayasa Perangkat Lunak</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>6</strong></td>
+<td style="text-align: center;"><code>STC-03</code>></td>
+<td>Aplikasi Vertikal Industri <em>(P3)</em></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-407</span>> Back End, <span class="code-tag">STI-306</span>> Front</td>
+<td><span class="code-tag">STI-505</span>> Pemrograman Mobile</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>7</strong></td>
+<td style="text-align: center;"><span class="code-tag">STI-701</span>></td>
+<td>Inovasi Teknologi &amp; Startup Digital</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-604</span>> Platform, <span class="code-tag">MKU-204</span>> KWU</td>
+<td><span class="code-tag">STI-506</span>> Manajemen Proyek TI</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>7</strong></td>
+<td style="text-align: center;"><span class="code-tag">FST-610</span>></td>
+<td>Capstone Project FSTI</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Proyek</td>
+<td><span class="code-tag">STI-506</span>> Manpro, <span class="arithmatex"><span class="MathJax_Preview">\ge 100\text{ SKS}</span><script type="math/tex">\ge 100\text{ SKS}</script></span></td>
+<td>Seluruh MK Core STI Sem 1–6</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>7</strong></td>
+<td style="text-align: center;"><span class="code-tag">FST-612</span>></td>
+<td>Praktik Kerja Lapangan (PKL)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Magang</td>
+<td><span class="arithmatex"><span class="MathJax_Preview">\ge 100\text{ SKS}</span><script type="math/tex">\ge 100\text{ SKS}</script></span> Selesai</td>
+<td>Portofolio Praktikum Sem 1–6</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>7</strong></td>
+<td style="text-align: center;"><span class="code-tag">FST-613</span>></td>
+<td>Pra-Skripsi / Seminar Proposal</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Seminar</td>
+<td><span class="code-tag">FST-611</span>> Metpen, <span class="arithmatex"><span class="MathJax_Preview">\ge 100\text{ SKS}</span><script type="math/tex">\ge 100\text{ SKS}</script></span></td>
+<td>Proposal Penelitian &amp; Literatur Ilmiah</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>7</strong></td>
+<td style="text-align: center;"><code>STA-04</code>></td>
+<td>MLOps &amp; AI Pipeline <em>(P1)</em></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-501</span>> DL, <span class="code-tag">STI-404</span>> Cloud</td>
+<td><code>STA-01</code>> DSS, <span class="code-tag">STI-401</span>> ML</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>7</strong></td>
+<td style="text-align: center;"><code>STA-05</code>></td>
+<td>Conversational AI &amp; LLM <em>(P1)</em></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-403</span>> NLP &amp; IR, <span class="code-tag">STI-501</span>> DL</td>
+<td><span class="code-tag">STI-601</span>> Integrasi Layanan Cerdas AI</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>7</strong></td>
+<td style="text-align: center;"><code>STA-06</code>></td>
+<td>Smart Surveillance &amp; Edge AI <em>(P1)</em></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-501</span>> DL, <span class="code-tag">STI-504</span>> IoT</td>
+<td><span class="code-tag">STI-401</span>> Machine Learning</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>7</strong></td>
+<td style="text-align: center;"><code>STB-04</code>></td>
+<td>IT Governance COBIT 2019 <em>(P2)</em></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Teori</td>
+<td><span class="code-tag">STI-301</span>> APSI, <span class="code-tag">STI-205</span>> Etika</td>
+<td><span class="code-tag">STI-506</span>> Manajemen Proyek TI</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>7</strong></td>
+<td style="text-align: center;"><code>STB-05</code>></td>
+<td>Keamanan Cloud &amp; Kripto <em>(P2)</em></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-404</span>> Cloud, <span class="code-tag">STI-603</span>> Security</td>
+<td><span class="code-tag">STI-201</span>> Matdis (Number Theory/Kripto)</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>7</strong></td>
+<td style="text-align: center;"><code>STB-06</code>></td>
+<td>SRE &amp; Ketahanan Sistem <em>(P2)</em></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><code>STB-02</code>> DevOps, <span class="code-tag">STI-404</span>> Cloud</td>
+<td><span class="code-tag">STI-305</span>> Sistem Operasi</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>7</strong></td>
+<td style="text-align: center;"><code>STC-04</code>></td>
+<td>Spatial Computing &amp; XR <em>(P3)</em></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-303</span>> UI/UX, <span class="code-tag">STI-306</span>> Front</td>
+<td>Aljabar Linear 3D Transformation</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>7</strong></td>
+<td style="text-align: center;"><code>STC-05</code>></td>
+<td>Arsitektur SaaS Enterprise <em>(P3)</em></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-604</span>> Platform, <span class="code-tag">STI-404</span>> Cloud</td>
+<td><span class="code-tag">STI-407</span>> Web Back End Development</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>7</strong></td>
+<td style="text-align: center;"><code>STC-06</code>></td>
+<td>Manajemen Produk Digital <em>(P3)</em></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Teori</td>
+<td><span class="code-tag">STI-701</span>> Startup, <span class="code-tag">STI-303</span>> UI/UX</td>
+<td><span class="code-tag">MKU-204</span>> Kewirausahaan I</td>
+<td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="5-kesimpulan-audit-kelayakan-akreditasi">5. KESIMPULAN AUDIT KELAYAKAN AKREDITASI</h2>
+<ol>
+<li><strong>Constructive Alignment Terpenuhi:</strong> Kenaikan tingkat kognitif Taksonomi Bloom berjalan teratur dari <span class="arithmatex"><span class="MathJax_Preview">C_2-C_3</span><script type="math/tex">C_2-C_3</script></span> (Tahun 1) → <span class="arithmatex"><span class="MathJax_Preview">C_3-C_4</span><script type="math/tex">C_3-C_4</script></span> (Tahun 2) → <span class="arithmatex"><span class="MathJax_Preview">C_4-C_5</span><script type="math/tex">C_4-C_5</script></span> (Tahun 3) → <span class="arithmatex"><span class="MathJax_Preview">C_5-C_6</span><script type="math/tex">C_5-C_6</script></span> (Tahun 4 / Skripsi &amp; Capstone).</li>
+<li><strong>Kesesuaian dengan Kerangka IABEE / Seoul Accord:</strong> Matriks prasyarat ini menjamin terpenuhinya kriteria <em>Complex Engineering Problem Solving</em> di tingkat akhir karena mahasiswa telah menempuh seluruh fondasi matematika, komputasi, dan rekayasa pendukung.</li>
+<li><strong>Kesiapan MBKM:</strong> Mahasiswa yang mengambil program MBKM di Semester 6 atau 7 telah memiliki bekal kompetensi minimal 100 SKS yang solid pada ranah koding, basis data, jaringan, dan kecerdasan artifisial.</li>
+</ol>
+<hr />
+<p><em>Disahkan sebagai Dokumen Resmi 012 — Kurikulum OBE Revisi SISTEKIN 2026.</em><br />
+<strong>Tim Pengembang Kurikulum FSTI Universitas Widyagama Malang</strong></p>
+
+            <div class="doc-nav">
+                <div><a href="011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.html" class="nav-btn">← Sebelumnya</a></div>
+                <div><a href="index.html" class="nav-btn">🏠 Index Utama</a></div>
+                <div><a href="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" class="nav-btn">Selanjutnya →</a></div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p><strong>Dokumen Resmi Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
+            <p>Tim Pengembang Kurikulum FSTI — Universitas Widyagama Malang © 2026</p>
+        </footer>
+    </div>
+
+    <script>
+        // Mermaid Init
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'dark',
+            flowchart: { curve: 'basis', useMaxWidth: true }
+        });
+
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        let currentTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', currentTheme);
+
+        themeToggle.addEventListener('click', () => {
+            currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', currentTheme);
+            localStorage.setItem('theme', currentTheme);
+        });
+
+        // Live Table Search Filter
+        const searchInput = document.getElementById('globalTableSearch');
+        if (searchInput) {
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase().trim();
+                const rows = document.querySelectorAll('table tbody tr');
+                rows.forEach(row => {
+                    const text = row.innerText.toLowerCase();
+                    if (query === '' || text.includes(query)) {
+                        row.style.display = '';
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+            });
+        }
+    </script>
+</body>
+</html>
