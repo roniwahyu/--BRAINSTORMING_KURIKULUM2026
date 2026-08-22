@@ -277,20 +277,6 @@
         .alert-caution .alert-header { color: var(--danger); }
         .alert-content { color: var(--text-secondary); font-size: 0.92rem; }
 
-        /* ASCII Tables Box */
-        .ascii-table-box {
-            background: #090d16;
-            border: 1px solid var(--border-accent);
-            border-radius: var(--radius-md);
-            padding: 16px;
-            font-family: var(--font-code);
-            font-size: 0.8rem;
-            color: var(--primary-light);
-            overflow-x: auto;
-            margin: 24px 0;
-            white-space: pre;
-        }
-
         /* Mermaid Box */
         .mermaid-card {
             background: rgba(17, 24, 39, 0.5);
@@ -347,8 +333,15 @@
 <option value="006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.html" >006 — Distribusi MK Peminatan & Panduan MBKM</option>
 <option value="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" >007 — Silabus 3-Tabel & CPMK 67 MK Portofolio</option>
 <option value="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" >008 — Sistem Asesmen OBE & Attainment CPL</option>
+<option value="009_LANGKAH2_CPL_FORMAL.html" >009 — Ringkasan Langkah 2: CPL Formal</option>
+<option value="009A_CPL_SIKAP_SISTEKIN.html" >009A — Detail CPL Sikap (S1)</option>
+<option value="009B_CPL_KETERAMPILAN_UMUM_SISTEKIN.html" >009B — Detail CPL Keterampilan Umum (KU1-3)</option>
+<option value="009C_CPL_PENGETAHUAN_SISTEKIN.html" >009C — Detail CPL Pengetahuan (P1-4)</option>
+<option value="009D_CPL_KETERAMPILAN_KHUSUS_SISTEKIN.html" >009D — Detail CPL Keterampilan Khusus (KK1-6)</option>
+<option value="009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.html" >009E — Master Matriks Kompilasi 14 CPL & BoK</option>
 <option value="009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.html" >009 — Pedoman Capstone & 4 Opsi TA Non-Skripsi</option>
 <option value="010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.html" selected>010 — Instrumen Tracer Study & Evaluasi PEO</option>
+<option value="011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.html" >011 — 14 Sheet Matriks Implementasi OBE</option>
 <option value="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" >📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)</option>
             </select>
 
@@ -390,42 +383,38 @@
 </blockquote>
 <hr />
 <h3 id="visualisasi-peo-measurement-plan-stakeholder-feedback">VISUALISASI PEO MEASUREMENT PLAN &amp; STAKEHOLDER FEEDBACK</h3>
-<div class="mermaid-card"><div class="mermaid">
-graph TD
-    subgraph TIMELINE [&quot;PEO MEASUREMENT PLAN BERTAHAP&quot;]
-        T1[&quot;Tiap Semester: CPMK &amp; CPL (SIAKAD)&quot;] --&gt; T2[&quot;Tiap Tahun: FGD Industri &amp; Review RPS&quot;]
-        T2 --&gt; T3[&quot;Saat Kelulusan: Exit Survey &amp; SKPI Radar&quot;]
-        T3 --&gt; T4[&quot;1 Thn Pasca: Tracer Transisi Kerja Awal&quot;]
-        T4 --&gt; T5[&quot;3-5 Thn Pasca: Tracer PEO &amp; Employer Survey&quot;]
-    end
-
-    subgraph STAKEHOLDER [&quot;FEEDBACK LOOP STAKEHOLDER&quot;]
-        S1[&quot;Industrial FGD&quot;]
-        S2[&quot;Employer Needs Survey&quot;]
-        S3[&quot;Advisory Board Review&quot;]
-    end
-
-    STAKEHOLDER --&gt; T2
-    T5 --&gt; RTM[&quot;Rapat Tinjauan Manajemen (RTM) PPEPP&quot;]
-</div></div>
-
-<hr />
-<h2 id="1-audit-terminologi-landasan-konseptual-distinsi-peo">1. AUDIT TERMINOLOGI, LANDASAN KONSEPTUAL &amp; DISTINSI PEO</h2>
-<p>Untuk menjamin kepatuhan terhadap standar asesmen akreditasi internasional IABEE dan LAM INFOKOM, Program Studi SISTEKIN menegaskan distinsi terminologi kurikulum berikut:</p>
-<div class="table-wrapper">
-<div class="table-title-header" style="background: rgba(99, 102, 241, 0.15); padding: 10px 16px; font-weight: 700; color: var(--primary-light); border: 1px solid var(--border-color); border-bottom: none; border-radius: var(--radius-md) var(--radius-md) 0 0; text-align: center;">HIERARKI &amp; DISTINSI KONSEPTUAL OBE</div>
-<div class="table-wrapper"><table><thead><tr>
+<h3 id="hierarki-distinsi-konseptual-obe">HIERARKI &amp; DISTINSI KONSEPTUAL OBE</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
 <th>Konsep Kurikulum</th>
 <th>Rentang Waktu Pencapaian</th>
 <th>Subjek &amp; Fokus Evaluasi</th>
-</tr></thead><tbody>
-<tr>
-<td>**CPMK & Sub-CPMK**<br>**14 CPL**<br>**4 Profil Lulusan**<br>**3 PEO**</td>
-<td>Selama masa perkuliahan (Semester 1–8)<br>Pada saat penyelesaian studi / kelulusan<br>Peran/identitas profesi saat lulus<br>**3 hingga 5 tahun setelah kelulusan**</td>
-<td>Mahasiswa aktif per mata kuliah<br>Wisudawan (KKNI Level 6)<br>Kesiapan kerja lulusan awal<br>Alumni & Pengguna Lulusan</td>
 </tr>
-</tbody></table></div></div>
-
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK &amp; Sub-CPMK</strong></td>
+<td>Selama masa perkuliahan (Semester 1–8)</td>
+<td>Mahasiswa aktif per mata kuliah</td>
+</tr>
+<tr>
+<td><strong>14 CPL</strong></td>
+<td>Pada saat penyelesaian studi / kelulusan</td>
+<td>Wisudawan (KKNI Level 6)</td>
+</tr>
+<tr>
+<td><strong>4 Profil Lulusan</strong></td>
+<td>Peran/identitas profesi saat lulus</td>
+<td>Kesiapan kerja lulusan awal</td>
+</tr>
+<tr>
+<td><strong>3 PEO</strong></td>
+<td><strong>3 hingga 5 tahun setelah kelulusan</strong></td>
+<td>Alumni &amp; Pengguna Lulusan</td>
+</tr>
+</tbody>
+</table></div>
 <div class="custom-alert alert-note">
     <div class="alert-header"><span class="alert-icon">ℹ️</span> NOTE</div>
     <div class="alert-content">**Konteks Program Studi Baru:**  
@@ -434,26 +423,69 @@ Program Studi SISTEKIN baru beroperasi dan belum menghasilkan lulusan 3–5 tahu
 
 <hr />
 <h2 id="2-formulasi-3-peo-kepemimpinan-leadership-lintas-peo">2. FORMULASI 3 PEO &amp; KEPEMIMPINAN (<em>LEADERSHIP</em>) LINTAS-PEO</h2>
-<div class="table-wrapper">
-<div class="table-title-header" style="background: rgba(99, 102, 241, 0.15); padding: 10px 16px; font-weight: 700; color: var(--primary-light); border: 1px solid var(--border-color); border-bottom: none; border-radius: var(--radius-md) var(--radius-md) 0 0; text-align: center;">3 PROGRAM EDUCATIONAL OBJECTIVES (PEO) SISTEKIN</div>
-<div class="table-wrapper"><table><thead><tr>
+<h3 id="3-program-educational-objectives-peo-sistekin">3 PROGRAM EDUCATIONAL OBJECTIVES (PEO) SISTEKIN</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
 <th>Kode PEO</th>
 <th>Pernyataan Formal Objektif Pendidikan (3–5 Tahun Pasca Kelulusan)</th>
-</tr></thead><tbody>
+</tr>
+</thead>
+<tbody>
 <tr>
-<td>**PEO-1**</td>
-<td>**Professional Practice and Systems Integration**<br>&quot;Dalam 3–5 tahun setelah lulus, alumni mampu berkarier secara profesional dalam<br>menganalisis, merancang, mengembangkan, mengintegrasikan, mengamankan, atau<br>mengelola sistem dan teknologi informasi cerdas sesuai kebutuhan organisasi,<br>industri, dan masyarakat.&quot;</td>
+<td><strong>PEO-1</strong></td>
+<td><strong>Professional Practice and Systems Integration</strong></td>
 </tr>
 <tr>
-<td>**PEO-2**</td>
-<td>**Digital Innovation and Technopreneurship**<br>&quot;Dalam 3–5 tahun setelah lulus, alumni mampu menghasilkan inovasi, produk, layanan,<br>perbaikan proses, atau usaha digital yang relevan, etis, berkelanjutan, dan<br>memberikan nilai tambah bagi pengguna, organisasi, industri, atau masyarakat.&quot;</td>
+<td></td>
+<td>"Dalam 3–5 tahun setelah lulus, alumni mampu berkarier secara profesional dalam</td>
 </tr>
 <tr>
-<td>**PEO-3**</td>
-<td>**Advanced Study, Research, and Lifelong Learning**<br>&quot;Dalam 3–5 tahun setelah lulus, alumni mampu mengembangkan kompetensi melalui studi<br>lanjut (S2/S3), penelitian terapan, sertifikasi profesional, komunitas keilmuan,<br>atau pembelajaran sepanjang hayat serta menunjukkan kepemimpinan sesuai konteksnya.&quot;</td>
+<td></td>
+<td>menganalisis, merancang, mengembangkan, mengintegrasikan, mengamankan, atau</td>
 </tr>
-</tbody></table></div></div>
-
+<tr>
+<td></td>
+<td>mengelola sistem dan teknologi informasi cerdas sesuai kebutuhan organisasi,</td>
+</tr>
+<tr>
+<td></td>
+<td>industri, dan masyarakat."</td>
+</tr>
+<tr>
+<td><strong>PEO-2</strong></td>
+<td><strong>Digital Innovation and Technopreneurship</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>"Dalam 3–5 tahun setelah lulus, alumni mampu menghasilkan inovasi, produk, layanan,</td>
+</tr>
+<tr>
+<td></td>
+<td>perbaikan proses, atau usaha digital yang relevan, etis, berkelanjutan, dan</td>
+</tr>
+<tr>
+<td></td>
+<td>memberikan nilai tambah bagi pengguna, organisasi, industri, atau masyarakat."</td>
+</tr>
+<tr>
+<td><strong>PEO-3</strong></td>
+<td><strong>Advanced Study, Research, and Lifelong Learning</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>"Dalam 3–5 tahun setelah lulus, alumni mampu mengembangkan kompetensi melalui studi</td>
+</tr>
+<tr>
+<td></td>
+<td>lanjut (S2/S3), penelitian terapan, sertifikasi profesional, komunitas keilmuan,</td>
+</tr>
+<tr>
+<td></td>
+<td>atau pembelajaran sepanjang hayat serta menunjukkan kepemimpinan sesuai konteksnya."</td>
+</tr>
+</tbody>
+</table></div>
 <h3 id="atribut-kepemimpinan-leadership-lintas-peo-bukan-jalur-ke-4">Atribut Kepemimpinan (<em>Leadership</em>) Lintas-PEO (Bukan Jalur ke-4):</h3>
 <ul>
 <li><strong>Pada PEO-1 (Praktisi Profesional):</strong> Memimpin tim pengembang perangkat lunak, memandu arsitektur sistem enterprise, atau memimpin inisiatif transformasi digital institusi.</li>
@@ -609,52 +641,91 @@ Program Studi SISTEKIN baru beroperasi dan belum menghasilkan lulusan 3–5 tahu
 </table></div>
 <hr />
 <h2 id="4-peo-measurement-plan-rencana-pengukuran-bertahap-prodi-baru">4. PEO MEASUREMENT PLAN (RENCANA PENGUKURAN BERTAHAP PRODI BARU)</h2>
-<div class="table-wrapper">
-<div class="table-title-header" style="background: rgba(99, 102, 241, 0.15); padding: 10px 16px; font-weight: 700; color: var(--primary-light); border: 1px solid var(--border-color); border-bottom: none; border-radius: var(--radius-md) var(--radius-md) 0 0; text-align: center;">PEO MEASUREMENT PLAN BERTAHAP SISTEKIN (SIKLUS 5 TAHUN)</div>
-<div class="table-wrapper"><table><thead><tr>
+<h3 id="peo-measurement-plan-bertahap-sistekin-siklus-5-tahun">PEO MEASUREMENT PLAN BERTAHAP SISTEKIN (SIKLUS 5 TAHUN)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
 <th>Tahap Pengukuran</th>
 <th>Fokus Evaluasi</th>
 <th>Sumber Data &amp; Instrumen</th>
 <th>Target Provisional</th>
-</tr></thead><tbody>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>1. Setiap Semester</td>
-<td>Capaian CPMK & CPL<br>Mahasiswa Aktif</td>
-<td>Asesmen 4x MK, Rubrik Analitik,<br>Portofolio Nilai SIAKAD</td>
-<td>$\ge 80\%$ Mahasiswa<br>Lulus CPL $\ge 65.0$</td>
+<td>Capaian CPMK &amp; CPL</td>
+<td>Asesmen 4x MK, Rubrik Analitik,</td>
+<td><span class="arithmatex"><span class="MathJax_Preview">\ge 80\%</span><script type="math/tex">\ge 80\%</script></span> Mahasiswa</td>
+</tr>
+<tr>
+<td></td>
+<td>Mahasiswa Aktif</td>
+<td>Portofolio Nilai SIAKAD</td>
+<td>Lulus CPL <span class="arithmatex"><span class="MathJax_Preview">\ge 65.0</span><script type="math/tex">\ge 65.0</script></span></td>
 </tr>
 <tr>
 <td>2. Setiap Tahun</td>
-<td>Relevansi Kurikulum &<br>Kebutuhan Pasar</td>
-<td>FGD Industri, Advisory Board,<br>Survei Kebutuhan Stakeholder</td>
-<td>Skor Relevansi Mitra<br>$\ge 4.0 / 5.0$</td>
+<td>Relevansi Kurikulum &amp;</td>
+<td>FGD Industri, Advisory Board,</td>
+<td>Skor Relevansi Mitra</td>
+</tr>
+<tr>
+<td></td>
+<td>Kebutuhan Pasar</td>
+<td>Survei Kebutuhan Stakeholder</td>
+<td><span class="arithmatex"><span class="MathJax_Preview">\ge 4.0 / 5.0</span><script type="math/tex">\ge 4.0 / 5.0</script></span></td>
 </tr>
 <tr>
 <td>3. Saat Kelulusan</td>
-<td>Kesiapan Kerja Awal<br>(*Day-1 Readiness*)</td>
-<td>Exit Survey Wisudawan, Capaian<br>SKPI Radar CPL, Sertifikasi</td>
-<td>Waktu Tunggu $&lt; 3$ Bl<br>Sertifikasi $\ge 70\%$</td>
+<td>Kesiapan Kerja Awal</td>
+<td>Exit Survey Wisudawan, Capaian</td>
+<td>Waktu Tunggu <span class="arithmatex"><span class="MathJax_Preview">&lt; 3</span><script type="math/tex">< 3</script></span> Bl</td>
+</tr>
+<tr>
+<td></td>
+<td>(<em>Day-1 Readiness</em>)</td>
+<td>SKPI Radar CPL, Sertifikasi</td>
+<td>Sertifikasi <span class="arithmatex"><span class="MathJax_Preview">\ge 70\%</span><script type="math/tex">\ge 70\%</script></span></td>
 </tr>
 <tr>
 <td>4. 1 Thn Pascalulus</td>
-<td>Transisi Karier Awal<br>& Penyerapan Kerja</td>
-<td>Tracer Study Awal: Relevansi<br>Pekerjaan, Gaji Pertama</td>
-<td>Keselarasan Kerja<br>$\ge 75\%$</td>
+<td>Transisi Karier Awal</td>
+<td>Tracer Study Awal: Relevansi</td>
+<td>Keselarasan Kerja</td>
 </tr>
 <tr>
-<td>5. 3–5 Thn Pascalu<br>lus</td>
-<td>Ketercapaian 3 PEO<br>Definitif</td>
-<td>Tracer PEO Alumni, Employer<br>Satisfaction Survey (Atasan)</td>
-<td>$\ge 75\%$ Alumni<br>Kategori &quot;Tinggi/Baik</td>
+<td></td>
+<td>&amp; Penyerapan Kerja</td>
+<td>Pekerjaan, Gaji Pertama</td>
+<td><span class="arithmatex"><span class="MathJax_Preview">\ge 75\%</span><script type="math/tex">\ge 75\%</script></span></td>
+</tr>
+<tr>
+<td>5. 3–5 Thn Pascalu</td>
+<td>Ketercapaian 3 PEO</td>
+<td>Tracer PEO Alumni, Employer</td>
+<td><span class="arithmatex"><span class="MathJax_Preview">\ge 75\%</span><script type="math/tex">\ge 75\%</script></span> Alumni</td>
+</tr>
+<tr>
+<td>lus</td>
+<td>Definitif</td>
+<td>Satisfaction Survey (Atasan)</td>
+<td>Kategori "Tinggi/Baik</td>
 </tr>
 <tr>
 <td>6. Pasca-Evaluasi</td>
-<td>Perbaikan Kurikulum<br>Berkelanjutan</td>
-<td>RTM Fakultas, Root Cause<br>Analysis (RCA), RTL PPEPP</td>
-<td>Dokumen Kurikulum<br>Revisi Berkala (CQI)</td>
+<td>Perbaikan Kurikulum</td>
+<td>RTM Fakultas, Root Cause</td>
+<td>Dokumen Kurikulum</td>
 </tr>
-</tbody></table></div></div>
-
+<tr>
+<td></td>
+<td>Berkelanjutan</td>
+<td>Analysis (RCA), RTL PPEPP</td>
+<td>Revisi Berkala (CQI)</td>
+</tr>
+</tbody>
+</table></div>
 <hr />
 <h2 id="5-instrumen-kuesioner-tracer-study-alumni-evaluasi-35-tahun">5. INSTRUMEN KUESIONER TRACER STUDY ALUMNI (EVALUASI 3–5 TAHUN)</h2>
 <h3 id="bagian-a-identitas-keselarasan-okupasi-4-pl">BAGIAN A: Identitas &amp; Keselarasan Okupasi (4 PL)</h3>
@@ -776,30 +847,49 @@ Program Studi SISTEKIN baru beroperasi dan belum menghasilkan lulusan 3–5 tahu
 <hr />
 <h2 id="7-mekanisme-validasi-pemangku-kepentingan-stakeholder-validation-protocol">7. MEKANISME VALIDASI PEMANGKU KEPENTINGAN (<em>STAKEHOLDER VALIDATION PROTOCOL</em>)</h2>
 <p>Untuk menjamin keabsahan dan relevansi PEO sebelum dapat diukur melalui <em>Tracer Study</em>, Program Studi SISTEKIN menjalankan protokol validasi eksternal:</p>
-<div class="table-wrapper">
-<div class="table-title-header" style="background: rgba(99, 102, 241, 0.15); padding: 10px 16px; font-weight: 700; color: var(--primary-light); border: 1px solid var(--border-color); border-bottom: none; border-radius: var(--radius-md) var(--radius-md) 0 0; text-align: center;">PROTOKOL VALIDASI PEMANGKU KEPENTINGAN</div>
-<div class="table-wrapper"><table><thead><tr>
+<h3 id="protokol-validasi-pemangku-kepentingan">PROTOKOL VALIDASI PEMANGKU KEPENTINGAN</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
 <th>Saluran Validasi</th>
 <th>Deskripsi Pelaksanaan &amp; Luaran Bukti Fisik</th>
-</tr></thead><tbody>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>1. Industrial FGD</td>
-<td>Focus Group Discussion bersama praktisi DUDI, asosiasi profesi (APTIKOM/IAII)<br>Luaran: Berita Acara Rapat, Daftar Hadir, Catatan Masukan Industri.</td>
+<td>Focus Group Discussion bersama praktisi DUDI, asosiasi profesi (APTIKOM/IAII)</td>
 </tr>
 <tr>
-<td>2. Employer Needs<br>Survey</td>
-<td>Kuesioner analisis kebutuhan pasar kerja di kawasan Jawa Timur & Nasional.<br>Luaran: Dokumen Analisis Kebutuhan Pasar Tenaga Kerja Bidang STI.</td>
+<td></td>
+<td>Luaran: Berita Acara Rapat, Daftar Hadir, Catatan Masukan Industri.</td>
+</tr>
+<tr>
+<td>2. Employer Needs</td>
+<td>Kuesioner analisis kebutuhan pasar kerja di kawasan Jawa Timur &amp; Nasional.</td>
+</tr>
+<tr>
+<td>Survey</td>
+<td>Luaran: Dokumen Analisis Kebutuhan Pasar Tenaga Kerja Bidang STI.</td>
 </tr>
 <tr>
 <td>3. Advisory Board</td>
-<td>Dewan Pertimbangan Kurikulum FSTI (Guru Besar, Industri, Pemerintah Daerah).<br>Luaran: Lembar Rekomendasi Formal Arah Kurikulum dan PEO.</td>
+<td>Dewan Pertimbangan Kurikulum FSTI (Guru Besar, Industri, Pemerintah Daerah).</td>
+</tr>
+<tr>
+<td></td>
+<td>Luaran: Lembar Rekomendasi Formal Arah Kurikulum dan PEO.</td>
 </tr>
 <tr>
 <td>4. Benchmarking</td>
-<td>Studi komparasi kurikulum prodi STI bereputasi unggul nasional/internasional.<br>Luaran: Matriks Komparasi Standar Kurikulum CC2020/APTIKOM.</td>
+<td>Studi komparasi kurikulum prodi STI bereputasi unggul nasional/internasional.</td>
 </tr>
-</tbody></table></div></div>
-
+<tr>
+<td></td>
+<td>Luaran: Matriks Komparasi Standar Kurikulum CC2020/APTIKOM.</td>
+</tr>
+</tbody>
+</table></div>
 <hr />
 <h2 id="8-status-keabsahan-dokumen-peo-status-log">8. STATUS KEABSAHAN DOKUMEN PEO (STATUS LOG)</h2>
 <div class="table-wrapper"><table>
@@ -849,7 +939,7 @@ Program Studi SISTEKIN baru beroperasi dan belum menghasilkan lulusan 3–5 tahu
             <div class="doc-nav">
                 <div><a href="009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.html" class="nav-btn">← Sebelumnya</a></div>
                 <div><a href="index.html" class="nav-btn">🏠 Index Utama</a></div>
-                <div><a href="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" class="nav-btn">Selanjutnya →</a></div>
+                <div><a href="011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.html" class="nav-btn">Selanjutnya →</a></div>
             </div>
         </main>
 

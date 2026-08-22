@@ -275,12 +275,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 6. MKU-101 — Pendidikan Agama I (Religious Education I)
+### 6. MKU-101 — Agama I (Religious Education I)
 
 #### Tabel 6.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **MKU-101 — Pendidikan Agama I** (*Religious Education I*) |
+| **Kode & Nama Mata Kuliah** | **MKU-101 — Agama I** (*Religious Education I*) |
 | **Bobot SKS / Tipe** | **2 SKS** / Tipe: **Teori** (100m Kuliah + 120m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 1** / Mata Kuliah Wajib Umum (MKWU) |
 | **Prasyarat Akademik** | Tidak Ada |
@@ -316,12 +316,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 7. MKU-102 — Pendidikan Pancasila (Pancasila Education)
+### 7. MKU-102 — Pancasila (Pancasila Education)
 
 #### Tabel 7.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **MKU-102 — Pendidikan Pancasila** (*Pancasila Education*) |
+| **Kode & Nama Mata Kuliah** | **MKU-102 — Pancasila** (*Pancasila Education*) |
 | **Bobot SKS / Tipe** | **2 SKS** / Tipe: **Teori** (100m Kuliah + 120m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 1** / Mata Kuliah Wajib Umum (MKWU) |
 | **Prasyarat Akademik** | Tidak Ada |
@@ -338,7 +338,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 #### Tabel 7.C: Matriks Rencana Pembelajaran 16 Pertemuan (Sub-CPMK, Materi, Metode, Asesmen)
 | Mg | Sub-CPMK & Kemampuan Akhir | Pokok Bahasan (Bahan Kajian) | Bentuk & Metode Pembelajaran | Bentuk Asesmen & Bobot (%) |
 |:--:|---|---|---|---|
-| 1 | Mampu menguraikan urgensi Pendidikan Pancasila di perguruan tinggi (C2) | Pengantar Pendidikan Pancasila dan Landasan Yuridis | Kuliah & Diskusi (100m) | Aktivitas Formatif (Non-Graded) |
+| 1 | Mampu menguraikan urgensi Pancasila di perguruan tinggi (C2) | Pengantar Pancasila dan Landasan Yuridis | Kuliah & Diskusi (100m) | Aktivitas Formatif (Non-Graded) |
 | 2 | Mampu menganalisis Pancasila dalam arus sejarah bangsa Indonesia (C4) | Periode Pengusulan, Perumusan, & Pengesahan Pancasila | Ceramah & Analisis Dokumen (100m) | Aktivitas Formatif (Non-Graded) |
 | 3 | Mampu menganalisis Pancasila sebagai Dasar Negara RI (C4) | Pancasila sebagai Dasar Negara dan Sumber Segala Hukum | Case-Based Learning (100m) | Aktivitas Formatif (Non-Graded) |
 | **4** | **Mampu membandingkan Pancasila dengan ideologi besar dunia (C4)** | **Pancasila sebagai Ideologi Terbuka vs Liberalisme/Sosialisme** | **Diskusi Panel (100m)** | **Tugas 1: Kuis & Problem Solving (Bobot: 20%)** |
@@ -698,12 +698,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 16. MKU-202 — Kewirausahaan I (Entrepreneurship I)
+### 16. MKU-204 — Kewirausahaan I (Entrepreneurship I)
 
 #### Tabel 16.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **MKU-202 — Kewirausahaan I** (*Entrepreneurship I*) |
+| **Kode & Nama Mata Kuliah** | **MKU-204 — Kewirausahaan I** (*Entrepreneurship I*) |
 | **Bobot SKS / Tipe** | **2 SKS** / Tipe: **Teori** (100m Kuliah + 120m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 2** / Technopreneurship & Inovasi Bisnis (MKWU) |
 | **Prasyarat Akademik** | Tidak Ada |
@@ -1338,12 +1338,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 31. MKU-201 — Pendidikan Kewarganegaraan (KWN) (Civic Education)
+### 31. MKU-405 — Kewarganegaraan (Civic Education)
 
 #### Tabel 31.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **MKU-201 — Pendidikan Kewarganegaraan (KWN)** (*Civic Education*) |
+| **Kode & Nama Mata Kuliah** | **MKU-405 — Kewarganegaraan** (*Civic Education*) |
 | **Bobot SKS / Tipe** | **2 SKS** / Tipe: **Teori** (100m Kuliah + 120m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 4** / Mata Kuliah Wajib Umum (MKWU) |
 | **Prasyarat Akademik** | Tidak Ada |
@@ -1360,7 +1360,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 #### Tabel 31.C: Matriks Rencana Pembelajaran 16 Pertemuan (Sub-CPMK, Materi, Metode, Asesmen)
 | Mg | Sub-CPMK & Kemampuan Akhir | Pokok Bahasan (Bahan Kajian) | Bentuk & Metode Pembelajaran | Bentuk Asesmen & Bobot (%) |
 |:--:|---|---|---|---|
-| 1 | Mampu menguraikan hakikat pendidikan kewarganegaraan di PT (C2) | Urgensi Pendidikan Kewarganegaraan bagi Sarjana Komputasi | Kuliah & Diskusi (100m) | Aktivitas Formatif (Non-Graded) |
+| 1 | Mampu menguraikan hakikat pendidikan kewarganegaraan di PT (C2) | Urgensi Kewarganegaraan bagi Sarjana Komputasi | Kuliah & Diskusi (100m) | Aktivitas Formatif (Non-Graded) |
 | 2 | Mampu menganalisis Identitas Nasional sebagai karakter pembeda bangsa (C4) | Identitas Nasional Indonesia: Unsur Pembentuk & Bahasa Persatuan | Ceramah & Diskusi (100m) | Aktivitas Formatif (Non-Graded) |
 | 3 | Mampu menganalisis Integrasi Nasional dan tantangan disintegrasi (C4) | Integrasi Nasional: Bhinneka Tunggal Ika & Dinamika SARA | Case Method Class (100m) | Aktivitas Formatif (Non-Graded) |
 | **4** | **Mampu menganalisis UUD NRI 1945 sebagai hukum tertinggi negara (C4)** | **Konstitusi Indonesia: Sejarah Amandemen UUD 1945 & Hirarki Hukum** | **Ceramah & Analisis Dokumen (100m)** | **Tugas 1: Kuis & Problem Solving (Bobot: 20%)** |
@@ -1594,12 +1594,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 37. MKU-203 — KPM (Kuliah Pengabdian Masyarakat) (Community Service Program)
+### 37. MKU-507 — KPM (Kuliah Pengabdian Kepada Masyarakat) (Community Service Program)
 
 #### Tabel 37.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **MKU-203 — KPM (Kuliah Pengabdian Masyarakat)** (*Community Service Program*) |
+| **Kode & Nama Mata Kuliah** | **MKU-507 — KPM (Kuliah Pengabdian Kepada Masyarakat)** (*Community Service Program*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Praktik** (240 Menit Praktik Lapangan / Minggu) |
 | **Semester / Rumpun MK** | **Semester 5** / Pengabdian Masyarakat & Inovasi Sosial (MKWU) |
 | **Prasyarat Akademik** | Minimal Telah Menempuh 90 SKS |
@@ -1857,7 +1857,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STI-701 — Inovasi Teknologi dan Startup Digital** (*Tech Innovation and Digital Startup*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Technopreneurship & Inovasi Bisnis (Core STI) |
-| **Prasyarat Akademik** | `MKU-202` Kewirausahaan I |
+| **Prasyarat Akademik** | `MKU-204` Kewirausahaan I |
 | **CPL yang Dibebankan** | `KK6` (Inovasi Produk Digital, Lean Startup, Validasi MVP & Pitching) |
 | **Profil Lulusan (PL)** | `PL-4` (Digital Technopreneur & IT Product Innovator) |
 | **Target PEO** | `PEO-2` (Digital Innovation and Technopreneurship) |

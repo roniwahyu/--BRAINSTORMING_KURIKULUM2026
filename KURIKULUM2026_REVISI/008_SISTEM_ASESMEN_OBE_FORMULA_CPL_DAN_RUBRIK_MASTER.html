@@ -277,20 +277,6 @@
         .alert-caution .alert-header { color: var(--danger); }
         .alert-content { color: var(--text-secondary); font-size: 0.92rem; }
 
-        /* ASCII Tables Box */
-        .ascii-table-box {
-            background: #090d16;
-            border: 1px solid var(--border-accent);
-            border-radius: var(--radius-md);
-            padding: 16px;
-            font-family: var(--font-code);
-            font-size: 0.8rem;
-            color: var(--primary-light);
-            overflow-x: auto;
-            margin: 24px 0;
-            white-space: pre;
-        }
-
         /* Mermaid Box */
         .mermaid-card {
             background: rgba(17, 24, 39, 0.5);
@@ -347,8 +333,15 @@
 <option value="006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.html" >006 — Distribusi MK Peminatan & Panduan MBKM</option>
 <option value="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" >007 — Silabus 3-Tabel & CPMK 67 MK Portofolio</option>
 <option value="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" selected>008 — Sistem Asesmen OBE & Attainment CPL</option>
+<option value="009_LANGKAH2_CPL_FORMAL.html" >009 — Ringkasan Langkah 2: CPL Formal</option>
+<option value="009A_CPL_SIKAP_SISTEKIN.html" >009A — Detail CPL Sikap (S1)</option>
+<option value="009B_CPL_KETERAMPILAN_UMUM_SISTEKIN.html" >009B — Detail CPL Keterampilan Umum (KU1-3)</option>
+<option value="009C_CPL_PENGETAHUAN_SISTEKIN.html" >009C — Detail CPL Pengetahuan (P1-4)</option>
+<option value="009D_CPL_KETERAMPILAN_KHUSUS_SISTEKIN.html" >009D — Detail CPL Keterampilan Khusus (KK1-6)</option>
+<option value="009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.html" >009E — Master Matriks Kompilasi 14 CPL & BoK</option>
 <option value="009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.html" >009 — Pedoman Capstone & 4 Opsi TA Non-Skripsi</option>
 <option value="010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.html" >010 — Instrumen Tracer Study & Evaluasi PEO</option>
+<option value="011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.html" >011 — 14 Sheet Matriks Implementasi OBE</option>
 <option value="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" >📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)</option>
             </select>
 
@@ -390,34 +383,28 @@
 </blockquote>
 <hr />
 <h3 id="visualisasi-alur-hingga-asesmen-obe-siklus-ppepp">VISUALISASI ALUR HINGGA ASESMEN OBE &amp; SIKLUS PPEPP</h3>
-<div class="mermaid-card"><div class="mermaid">
-graph TD
-    subgraph ASESMEN_FLOW [&quot;PIPELINE PENGUKURAN CPL&quot;]
-        MK[&quot;Asesmen 4x MK (Tugas1, UTS, Tugas2, UAS)&quot;] --&gt; CPMK[&quot;Skor Attainment CPMK (Bloom C2-C6)&quot;]
-        CPMK --&gt; CPL_IND[&quot;Formula CPL Attainment Individu&quot;]
-        CPL_IND --&gt; RADAR[&quot;Radar Chart CPL pada SKPI Wisudawan&quot;]
-    end
-
-    subgraph PPEPP [&quot;SIKLUS CONTINUOUS QUALITY IMPROVEMENT (CQI)&quot;]
-        P1[&quot;Penetapan Baseline&quot;] --&gt; P2[&quot;Pelaksanaan RPS&quot;]
-        P2 --&gt; E[&quot;Evaluasi Attainment Cohort (Target ≥ 80%)&quot;]
-        E --&gt; P3[&quot;Pengendalian Gap (RCA &amp; RTM)&quot;]
-        P3 --&gt; P4[&quot;Peningkatan Kurikulum (CQI)&quot;]
-    end
-
-    CPL_IND --&gt; E
-</div></div>
-
-<hr />
-<h2 id="1-kerangka-asesmen-obe-sistekin-2026">1. KERANGKA ASESMEN OBE SISTEKIN 2026</h2>
-<p>Sistem penilaian pada Kurikulum OBE SISTEKIN berorientasi penuh pada pembuktian ketercapaian <strong>14 CPL</strong> secara langsung (<em>Direct Assessment</em>) melalui Capaian Pembelajaran Mata Kuliah (CPMK):</p>
-<div class="table-wrapper">
-<div class="table-title-header" style="background: rgba(99, 102, 241, 0.15); padding: 10px 16px; font-weight: 700; color: var(--primary-light); border: 1px solid var(--border-color); border-bottom: none; border-radius: var(--radius-md) var(--radius-md) 0 0; text-align: center;">SIKLUS ASESMEN BERBASIS LUARAN (OBE)</div>
-<div class="table-wrapper"><table><thead><tr>
-<th>1. Mata Kuliah merumuskan 3–4 CPMK (Bloom C2–C6) &amp; Sub-CPMK per pekan.&lt;br&gt;2. Instrumen Asesmen distandarisasi ke dalam 4 Titik Evaluasi Terstruktur.&lt;br&gt;3. Nilai Mahasiswa dihitung per CPMK menggunakan Rubrik Analitik Terstandar.&lt;br&gt;4. Skor Ketercapaian CPL dihitung menggunakan Formula Bobot Matriks MK ↔ CPL.&lt;br&gt;5. Analisis Gap &amp; Tindak Lanjut Perbaikan Berkelanjutan (PPEPP / CQI).</th>
-</tr></thead><tbody>
-</tbody></table></div></div>
-
+<h3 id="siklus-asesmen-berbasis-luaran-obe">SIKLUS ASESMEN BERBASIS LUARAN (OBE)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>1. Mata Kuliah merumuskan 3–4 CPMK (Bloom C2–C6) &amp; Sub-CPMK per pekan.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2. Instrumen Asesmen distandarisasi ke dalam 4 Titik Evaluasi Terstruktur.</td>
+</tr>
+<tr>
+<td>3. Nilai Mahasiswa dihitung per CPMK menggunakan Rubrik Analitik Terstandar.</td>
+</tr>
+<tr>
+<td>4. Skor Ketercapaian CPL dihitung menggunakan Formula Bobot Matriks MK ↔ CPL.</td>
+</tr>
+<tr>
+<td>5. Analisis Gap &amp; Tindak Lanjut Perbaikan Berkelanjutan (PPEPP / CQI).</td>
+</tr>
+</tbody>
+</table></div>
 <div class="custom-alert alert-important">
     <div class="alert-header"><span class="alert-icon">⚡</span> IMPORTANT</div>
     <div class="alert-content">**Kepatuhan IKU 7 (Indikator Kinerja Utama Kemendikbudristek):**  
@@ -664,7 +651,7 @@ Setiap mata kuliah keahlian dan praktikum wajib mengalokasikan **minimal 50% bob
             <div class="doc-nav">
                 <div><a href="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" class="nav-btn">← Sebelumnya</a></div>
                 <div><a href="index.html" class="nav-btn">🏠 Index Utama</a></div>
-                <div><a href="009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.html" class="nav-btn">Selanjutnya →</a></div>
+                <div><a href="009_LANGKAH2_CPL_FORMAL.html" class="nav-btn">Selanjutnya →</a></div>
             </div>
         </main>
 

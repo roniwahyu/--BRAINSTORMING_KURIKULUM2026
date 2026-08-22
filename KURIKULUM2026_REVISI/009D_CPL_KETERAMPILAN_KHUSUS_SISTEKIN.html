@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>009D — Detail CPL Keterampilan Khusus (KK1-6) | Kurikulum OBE SISTEKIN 2026</title>
+    <meta name="description" content="Dokumen Resmi Kurikulum OBE 2026 Program Studi Sistem dan Teknologi Informasi (S1) FSTI UWG Malang.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- KaTeX for LaTeX Math -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+
+    <!-- Mermaid JS for Flowcharts -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+
+    <style>
+        :root {
+            --bg-primary: #0b0f19;
+            --bg-secondary: #111827;
+            --bg-card: rgba(17, 24, 39, 0.75);
+            --bg-card-hover: rgba(31, 41, 55, 0.85);
+            --border-color: rgba(255, 255, 255, 0.1);
+            --border-accent: rgba(99, 102, 241, 0.35);
+            
+            --text-primary: #f9fafb;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+            
+            --primary: #6366f1;
+            --primary-light: #818cf8;
+            --secondary: #06b6d4;
+            --accent: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            
+            --mkwu-color: #ec4899;
+            --fsti-color: #8b5cf6;
+            --sti-color: #3b82f6;
+            --elektif-color: #10b981;
+            
+            --font-sans: 'Plus Jakarta Sans', 'Inter', sans-serif;
+            --font-code: 'Fira Code', monospace;
+            --shadow-glow: 0 0 30px rgba(99, 102, 241, 0.12);
+            --radius-lg: 16px;
+            --radius-md: 12px;
+            --radius-sm: 8px;
+        }
+
+        [data-theme="light"] {
+            --bg-primary: #f8fafc;
+            --bg-secondary: #ffffff;
+            --bg-card: rgba(255, 255, 255, 0.9);
+            --bg-card-hover: #ffffff;
+            --border-color: rgba(0, 0, 0, 0.08);
+            --border-accent: rgba(99, 102, 241, 0.25);
+            
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --text-muted: #94a3b8;
+            
+            --shadow-glow: 0 10px 30px rgba(99, 102, 241, 0.08);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            padding-bottom: 80px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Navbar */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(11, 15, 25, 0.85);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 14px 0;
+            margin-bottom: 32px;
+        }
+        [data-theme="light"] .navbar { background: rgba(248, 250, 252, 0.85); }
+
+        .navbar-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+        .brand-logo {
+            width: 40px; height: 40px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: var(--radius-sm);
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 800; color: white; font-size: 1.1rem;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+        }
+        .brand-text h1 { font-size: 1.05rem; font-weight: 700; color: var(--text-primary); }
+        .brand-text p { font-size: 0.75rem; color: var(--text-secondary); }
+
+        .doc-select {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            font-size: 0.85rem;
+            font-weight: 600;
+            outline: none;
+            cursor: pointer;
+            max-width: 380px;
+        }
+
+        .search-box {
+            position: relative;
+            min-width: 240px;
+        }
+        .search-input {
+            width: 100%;
+            padding: 8px 14px 8px 34px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            color: var(--text-primary);
+            font-size: 0.85rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .search-input:focus { border-color: var(--primary); }
+        .search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); font-size: 0.8rem; opacity: 0.6; }
+
+        .nav-actions { display: flex; align-items: center; gap: 10px; }
+        .btn-action {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            cursor: pointer; font-size: 0.85rem; font-weight: 600;
+            display: inline-flex; align-items: center; gap: 6px;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
+        .btn-action:hover { border-color: var(--primary); color: var(--primary-light); transform: translateY(-1px); }
+
+        /* Hero Header */
+        .hero {
+            background: radial-gradient(circle at top right, rgba(99, 102, 241, 0.15), transparent 50%),
+                        radial-gradient(circle at bottom left, rgba(6, 182, 212, 0.1), transparent 50%);
+            border: 1px solid var(--border-accent);
+            border-radius: var(--radius-lg);
+            padding: 36px;
+            margin-bottom: 36px;
+            box-shadow: var(--shadow-glow);
+        }
+        .hero-badge-group { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+        .badge {
+            font-size: 0.72rem; font-weight: 700; padding: 4px 12px; border-radius: 20px;
+            letter-spacing: 0.03em; text-transform: uppercase;
+        }
+        .badge-primary { background: rgba(99, 102, 241, 0.2); color: var(--primary-light); border: 1px solid rgba(99, 102, 241, 0.4); }
+        .badge-accent { background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); }
+        .badge-warning { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.4); }
+
+        .hero-title {
+            font-size: 2rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 8px;
+            background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        [data-theme="light"] .hero-title {
+            background: linear-gradient(135deg, #0f172a 0%, #334155 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+
+        /* Typography & Content */
+        .content {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+        }
+
+        .content h1 { font-size: 1.8rem; font-weight: 800; margin: 32px 0 16px 0; color: var(--text-primary); border-bottom: 2px solid var(--border-accent); padding-bottom: 10px; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 30px 0 14px 0; color: var(--primary-light); border-bottom: 1px solid var(--border-color); padding-bottom: 8px; }
+        .content h3 { font-size: 1.15rem; font-weight: 700; margin: 24px 0 12px 0; color: var(--text-primary); }
+        .content h4 { font-size: 1rem; font-weight: 600; margin: 18px 0 8px 0; color: var(--text-secondary); }
+
+        .content p { margin-bottom: 16px; color: var(--text-secondary); font-size: 0.96rem; }
+        .content ul, .content ol { margin: 0 0 20px 24px; color: var(--text-secondary); font-size: 0.95rem; }
+        .content li { margin-bottom: 6px; }
+        .content blockquote {
+            border-left: 4px solid var(--primary);
+            padding: 12px 20px;
+            background: rgba(99, 102, 241, 0.06);
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            margin: 20px 0;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Tables */
+        .table-wrapper { overflow-x: auto; margin: 24px 0; border-radius: var(--radius-md); border: 1px solid var(--border-color); }
+        table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem; }
+        th {
+            background: rgba(31, 41, 55, 0.7); color: var(--text-primary);
+            font-weight: 700; padding: 12px 16px; border-bottom: 1px solid var(--border-color);
+            font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em;
+        }
+        [data-theme="light"] th { background: #f1f5f9; }
+        td { padding: 12px 16px; border-bottom: 1px solid var(--border-color); color: var(--text-secondary); }
+        tr:last-child td { border-bottom: none; }
+        tr:hover td { background: var(--bg-card-hover); color: var(--text-primary); }
+
+        /* Code Badges */
+        .code-tag {
+            font-family: var(--font-code); font-weight: 600; font-size: 0.82rem;
+            padding: 2px 8px; border-radius: 4px; background: rgba(99, 102, 241, 0.12);
+            color: var(--primary-light); border: 1px solid rgba(99, 102, 241, 0.25);
+        }
+        code {
+            font-family: var(--font-code); font-size: 0.85rem; padding: 2px 6px;
+            background: rgba(255, 255, 255, 0.06); border-radius: 4px; color: var(--primary-light);
+        }
+
+        .cat-badge { font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px; display: inline-block; }
+        .cat-mkwu { background: rgba(236, 72, 153, 0.15); color: #f472b6; border: 1px solid rgba(236, 72, 153, 0.3); }
+        .cat-fsti { background: rgba(139, 92, 246, 0.15); color: #c084fc; border: 1px solid rgba(139, 92, 246, 0.3); }
+        .cat-sti  { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
+        .cat-elektif { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+
+        /* Custom Alerts */
+        .custom-alert {
+            border-left: 4px solid var(--primary);
+            background: rgba(17, 24, 39, 0.6);
+            border: 1px solid var(--border-color);
+            border-left-width: 4px;
+            border-radius: var(--radius-md);
+            padding: 16px 20px;
+            margin: 24px 0;
+        }
+        .alert-important { border-left-color: var(--primary); background: rgba(99, 102, 241, 0.08); }
+        .alert-note { border-left-color: var(--secondary); background: rgba(6, 182, 212, 0.08); }
+        .alert-tip { border-left-color: var(--accent); background: rgba(16, 185, 129, 0.08); }
+        .alert-warning { border-left-color: var(--warning); background: rgba(245, 158, 11, 0.08); }
+        .alert-caution { border-left-color: var(--danger); background: rgba(239, 68, 68, 0.08); }
+        
+        .alert-header { font-weight: 700; font-size: 0.9rem; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
+        .alert-important .alert-header { color: var(--primary-light); }
+        .alert-note .alert-header { color: var(--secondary); }
+        .alert-tip .alert-header { color: var(--accent); }
+        .alert-warning .alert-header { color: var(--warning); }
+        .alert-caution .alert-header { color: var(--danger); }
+        .alert-content { color: var(--text-secondary); font-size: 0.92rem; }
+
+        /* Mermaid Box */
+        .mermaid-card {
+            background: rgba(17, 24, 39, 0.5);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 24px; margin: 24px 0;
+            text-align: center; overflow-x: auto;
+        }
+
+        /* Bottom Nav Links */
+        .doc-nav {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--border-color);
+        }
+        .nav-btn {
+            background: var(--bg-secondary); border: 1px solid var(--border-color);
+            color: var(--text-primary); padding: 10px 18px; border-radius: var(--radius-sm);
+            text-decoration: none; font-weight: 600; font-size: 0.88rem; transition: all 0.2s;
+        }
+        .nav-btn:hover { border-color: var(--primary); color: var(--primary-light); }
+
+        /* Footer */
+        .footer { margin-top: 60px; text-align: center; color: var(--text-muted); font-size: 0.85rem; }
+
+        @media print {
+            body { background: white; color: black; }
+            .navbar, .nav-actions, .doc-nav, .search-box { display: none; }
+            .hero, .content { border: 1px solid #ccc; box-shadow: none; background: white; padding: 20px; }
+            th { background: #eee !important; color: black !important; }
+            td { color: black !important; }
+            .code-tag { background: #f0f0f0; color: black; border: 1px solid #ccc; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <a href="index.html" class="brand">
+                <div class="brand-logo">STI</div>
+                <div class="brand-text">
+                    <h1>SISTEKIN — FSTI UWG</h1>
+                    <p>Buku Kurikulum OBE 2026</p>
+                </div>
+            </a>
+            
+            <select class="doc-select" onchange="window.location.href=this.value">
+                <option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
+<option value="002_FORMULASI_3_PEO_DAN_4_PROFIL_LULUSAN_SISTEKIN.html" >002 — Formulasi 3 PEO & 4 Profil Lulusan</option>
+<option value="003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.html" >003 — Standar 14 CPL & Pemetaan BoK APTIKOM</option>
+<option value="004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.html" >004 — Matriks Keterlacakan OBE VMTS-PEO-PL-CPL-MK</option>
+<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — Struktur Kurikulum 8 Semester & Peminatan</option>
+<option value="006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.html" >006 — Distribusi MK Peminatan & Panduan MBKM</option>
+<option value="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" >007 — Silabus 3-Tabel & CPMK 67 MK Portofolio</option>
+<option value="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" >008 — Sistem Asesmen OBE & Attainment CPL</option>
+<option value="009_LANGKAH2_CPL_FORMAL.html" >009 — Ringkasan Langkah 2: CPL Formal</option>
+<option value="009A_CPL_SIKAP_SISTEKIN.html" >009A — Detail CPL Sikap (S1)</option>
+<option value="009B_CPL_KETERAMPILAN_UMUM_SISTEKIN.html" >009B — Detail CPL Keterampilan Umum (KU1-3)</option>
+<option value="009C_CPL_PENGETAHUAN_SISTEKIN.html" >009C — Detail CPL Pengetahuan (P1-4)</option>
+<option value="009D_CPL_KETERAMPILAN_KHUSUS_SISTEKIN.html" selected>009D — Detail CPL Keterampilan Khusus (KK1-6)</option>
+<option value="009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.html" >009E — Master Matriks Kompilasi 14 CPL & BoK</option>
+<option value="009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.html" >009 — Pedoman Capstone & 4 Opsi TA Non-Skripsi</option>
+<option value="010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.html" >010 — Instrumen Tracer Study & Evaluasi PEO</option>
+<option value="011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.html" >011 — 14 Sheet Matriks Implementasi OBE</option>
+<option value="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" >📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)</option>
+            </select>
+
+            
+    <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="globalTableSearch" class="search-input" placeholder="Cari dalam dokumen (kode, MK, istilah, tabel)...">
+    </div>
+    
+
+            <div class="nav-actions">
+                <a href="index.html" class="btn-action">🏠 Portal Dokumen</a>
+                <button class="btn-action" onclick="window.print()">🖨️ Cetak PDF</button>
+                <button class="btn-action" id="themeToggle">🌓 Tema</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-badge-group">
+                <span class="badge badge-primary">Kurikulum OBE 2026</span>
+                <span class="badge badge-accent">Permendikbudristek 53/2023</span>
+                <span class="badge badge-warning">FSTI UWG Malang</span>
+            </div>
+            <h1 class="hero-title">009D — Detail CPL Keterampilan Khusus (KK1-6)</h1>
+            <p style="color: var(--text-secondary); font-size: 0.95rem;">Dokumen Kurikulum OBE Definitif Program Studi Sistem dan Teknologi Informasi (S1)</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="content">
+            <h1 id="cpl-sistekin-kk-keterampilan-khusus">CPL SISTEKIN — KK (KETERAMPILAN KHUSUS)</h1>
+<p><strong>Status:</strong> Final — Berdasarkan BUKU_OBE APTIKOM, IS2020 (ACM/AIS) &amp; IT2017 (ACM/IEEE)<br />
+<strong>Institusi:</strong> Program Studi S1 Sistem dan Teknologi Informasi (SISTEKIN) — FSTI Universitas Widyagama Malang<br />
+<strong>Standar:</strong> SN-Dikti Permendikbudristek No. 53/2023, APTIKOM IS2020 &amp; IT2017<br />
+<strong>Ground Truth:</strong> Tepat 6 CPL Keterampilan Khusus (KK1 s.d. KK6 — terdistribusi 2 CPL per Peminatan) terpetakan ke 4 Profil Lulusan (PL-1 s.d. PL-4)  </p>
+<hr />
+<h2 id="1-rumusan-cpl-kk-6-cpl-2-per-peminatan">1. RUMUSAN CPL KK — 6 CPL (2 per Peminatan)</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode CPL</th>
+<th>Rumusan Capaian Pembelajaran Lulusan</th>
+<th>Basis Jalur Peminatan</th>
+<th>Profil Lulusan Utama</th>
+<th style="text-align: center;">Target Bloom</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>KK1</strong></td>
+<td>Mampu menganalisis, merancang, dan mengembangkan sistem informasi cerdas terintegrasi kecerdasan artifisial (AI/ML, NLP, Computer Vision, Smart Sys, DSS) guna memecahkan masalah kompleks organisasi dan industri.</td>
+<td><strong>P1: Integrated Smart Systems</strong></td>
+<td><strong>PL-1</strong> (AI Engineer &amp; IS Dev)</td>
+<td style="text-align: center;"><strong>C6 (Create)</strong></td>
+</tr>
+<tr>
+<td><strong>KK2</strong></td>
+<td>Mampu merekayasa pipeline data skala besar (<em>Data Engineering</em>), membangun model machine learning/deep learning, serta menerapkan MLOps untuk solusi analitik dan visualisasi data bisnis.</td>
+<td><strong>P1: Integrated Smart Systems</strong></td>
+<td><strong>PL-1</strong> (Data &amp; AI Specialist)</td>
+<td style="text-align: center;"><strong>C6 (Create)</strong></td>
+</tr>
+<tr>
+<td><strong>KK3</strong></td>
+<td>Mampu merancang, mengintegrasikan, dan mengelola infrastruktur komputasi awan (Cloud/DevOps), sistem sensor cerdas (IoT), dan ketahanan siber (<em>Cybersecurity</em>) secara andal, terukur, dan aman.</td>
+<td><strong>P2: Cloud Infrastructure &amp; Cybersecurity</strong></td>
+<td><strong>PL-2</strong> (Cloud &amp; Cyber Specialist)</td>
+<td style="text-align: center;"><strong>C6 (Create)</strong></td>
+</tr>
+<tr>
+<td><strong>KK4</strong></td>
+<td>Mampu merancang tata kelola TI (<em>IT Governance</em>), melakukan audit sistem informasi, serta memastikan kepatuhan terhadap standar industri dan manajemen risiko (COBIT, ITIL, ISO 27001).</td>
+<td><strong>P2: Cloud Infrastructure &amp; Cybersecurity</strong></td>
+<td><strong>PL-2</strong> (IT Auditor &amp; GRC)</td>
+<td style="text-align: center;"><strong>C5 (Evaluate)</strong></td>
+</tr>
+<tr>
+<td><strong>KK5</strong></td>
+<td>Mampu merancang pengalaman pengguna berbasis riset (UI/UX) serta merekayasa platform digital modern yang skalabel (<em>Microservices, Web/Mobile, API, SaaS, BPA</em>).</td>
+<td><strong>P3: Digital Platform Engineering</strong></td>
+<td><strong>PL-3</strong> (UI/UX &amp; Platform Eng)</td>
+<td style="text-align: center;"><strong>C6 (Create)</strong></td>
+</tr>
+<tr>
+<td><strong>KK6</strong></td>
+<td>Mampu merancang, memvalidasi model bisnis (<em>Lean Startup/MVP</em>), mengelola proyek agile, serta mendirikan usaha rintisan teknologi (<em>technopreneurship</em>) mandiri berbasis kebutuhan pasar.</td>
+<td><strong>P3: Digital Platform Engineering</strong></td>
+<td><strong>PL-4</strong> (Digital Technopreneur)</td>
+<td style="text-align: center;"><strong>C6 (Create)</strong></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="2-silsilah-sumber-asli-dari-it2017-is2020">2. SILSILAH SUMBER ASLI DARI IT2017 &amp; IS2020</h2>
+<h3 id="21-sumber-rujukan-it2017-aptikom-s1-ti">2.1 Sumber Rujukan IT2017 (APTIKOM S1 TI)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Deskripsi Asli Rujukan IT2017</th>
+<th style="text-align: center;">Integrasi ke CPL KK</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>KK1 (IT2017)</strong></td>
+<td>Mampu merancang, mengimplementasi, dan mengevaluasi solusi berbasis computing yang sesuai dengan kebutuhan dan solusi TI yang diusulkan menggunakan sarana modern.</td>
+<td style="text-align: center;"><strong>KK1</strong>, <strong>KK5</strong>, <strong>KK6</strong></td>
+</tr>
+<tr>
+<td><strong>KK2 (IT2017)</strong></td>
+<td>Mampu memilih, mengintegrasikan, dan mengadministrasikan infrastruktur teknologi informasi sebagai solusi komputasi kompleks.</td>
+<td style="text-align: center;"><strong>KK3</strong></td>
+</tr>
+<tr>
+<td><strong>KK3 (IT2017)</strong></td>
+<td>Mampu mengimplementasikan, mengelola, dan mengamankan sistem dan informasi yang didistribusikan melalui jaringan komputer untuk menjamin CIA triad.</td>
+<td style="text-align: center;"><strong>KK3</strong>, <strong>KK4</strong></td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="22-sumber-rujukan-is2020-aptikom-s1-si-cpl-k01-sd-k17">2.2 Sumber Rujukan IS2020 (APTIKOM S1 SI — CPL-K01 s.d. K17)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th>Kode</th>
+<th>Deskripsi Asli CPL-K IS2020</th>
+<th style="text-align: center;">Integrasi ke CPL KK</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td>CPL-K01</td>
+<td>Mampu membangun, mengelola, menggunakan dan mengamankan database relasional/enterprise.</td>
+<td style="text-align: center;"><strong>KK1</strong>, <strong>KK2</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td>CPL-K02</td>
+<td>Mampu merencanakan infrastruktur TI, arsitektur jaringan, layanan fisik dan cloud serta kontrol akses.</td>
+<td style="text-align: center;"><strong>KK3</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td>CPL-K03</td>
+<td>Mampu menerapkan metodologi pengembangan sistem informasi (OOAD, SDLC, Agile).</td>
+<td style="text-align: center;"><strong>KK5</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td>CPL-K04</td>
+<td>Mampu menerapkan logika, prinsip matematika, modularitas, struktur data pada aplikasi.</td>
+<td style="text-align: center;"><strong>KK5</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td>CPL-K05</td>
+<td>Mampu menerapkan kode etik dan keamanan dalam perancangan dan penggunaan sistem.</td>
+<td style="text-align: center;"><strong>KK3</strong>, <strong>KK4</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td>CPL-K06</td>
+<td>Mampu merencanakan, menerapkan, memelihara dan meningkatkan SI organisasi secara strategis.</td>
+<td style="text-align: center;"><strong>KK3</strong>, <strong>KK4</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td>CPL-K07</td>
+<td>Memiliki kemampuan memantau, mengevaluasi dan mengendalikan sumber daya SI (Audit SI).</td>
+<td style="text-align: center;"><strong>KK4</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td>CPL-K08</td>
+<td>Mampu membangun aplikasi nyata dalam sebuah proyek sistem informasi.</td>
+<td style="text-align: center;"><strong>KK5</strong>, <strong>KK6</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td>CPL-K09</td>
+<td>Mampu menerapkan paradigma pemrograman berorientasi objek lanjut.</td>
+<td style="text-align: center;"><strong>KK1</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td>CPL-K10</td>
+<td>Mampu menerapkan pemrograman web client/server yang aman.</td>
+<td style="text-align: center;"><strong>KK5</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td>CPL-K11</td>
+<td>Mampu menerapkan pemrograman aplikasi perangkat bergerak (mobile).</td>
+<td style="text-align: center;"><strong>KK5</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td>CPL-K12</td>
+<td>Mampu menerapkan konsep, metode dan teknik merancang UI/UX interaktif.</td>
+<td style="text-align: center;"><strong>KK5</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">13</td>
+<td>CPL-K13</td>
+<td>Memiliki kemampuan pengolahan data analitik, agregasi, dan visualisasi estetik.</td>
+<td style="text-align: center;"><strong>KK1</strong>, <strong>KK2</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td>CPL-K14</td>
+<td>Memiliki kemampuan analisis dan rekomendasi manajemen risiko TI organisasi.</td>
+<td style="text-align: center;"><strong>KK4</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">15</td>
+<td>CPL-K15</td>
+<td>Memiliki kemampuan pengelolaan bisnis berbasis teknologi informasi (Technopreneurship).</td>
+<td style="text-align: center;"><strong>KK6</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">16</td>
+<td>CPL-K16</td>
+<td>Memiliki kemampuan klasifikasi, klaster, regresi, AI prediktif, dan pemodelan machine learning.</td>
+<td style="text-align: center;"><strong>KK1</strong>, <strong>KK2</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">17</td>
+<td>CPL-K17</td>
+<td>Memiliki kemampuan menerapkan kriptografi dan keamanan digital terapan.</td>
+<td style="text-align: center;"><strong>KK3</strong></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="3-pemetaan-cpl-kk-body-of-knowledge-bok">3. PEMETAAN CPL KK → BODY OF KNOWLEDGE (BoK)</h2>
+<h3 id="31-bok-is2020-19-bahan-kajian">3.1 BoK IS2020 (19 Bahan Kajian)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th>Kode BK</th>
+<th>Nama Bahan Kajian IS2020</th>
+<th style="text-align: center;">CPL KK Terkait</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td>BK-IS01</td>
+<td>Foundations of Information Systems</td>
+<td style="text-align: center;">KK1, KK5</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td>BK-IS02</td>
+<td>Data and Information Management</td>
+<td style="text-align: center;">KK1, KK2</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td>BK-IS03</td>
+<td>IT Infrastructure and Networking</td>
+<td style="text-align: center;">KK3</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td>BK-IS04</td>
+<td>Enterprise Architecture</td>
+<td style="text-align: center;">KK4, KK5</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td>BK-IS05</td>
+<td>IS Management and Governance</td>
+<td style="text-align: center;">KK4</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td>BK-IS06</td>
+<td>Information Security and Risk Management</td>
+<td style="text-align: center;">KK3, KK4</td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td>BK-IS07</td>
+<td>Systems Analysis and Design</td>
+<td style="text-align: center;">KK1, KK5</td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td>BK-IS08</td>
+<td>Project Management</td>
+<td style="text-align: center;">KK6</td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td>BK-IS09</td>
+<td>Business Process Management</td>
+<td style="text-align: center;">KK4, KK5</td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td>BK-IS10</td>
+<td>Applied Mathematics and Logic</td>
+<td style="text-align: center;">KK1, KK2</td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td>BK-IS11</td>
+<td>Programming Fundamentals &amp; OOP</td>
+<td style="text-align: center;">KK1, KK5</td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td>BK-IS12</td>
+<td>Web and Mobile Application Development</td>
+<td style="text-align: center;">KK5</td>
+</tr>
+<tr>
+<td style="text-align: center;">13</td>
+<td>BK-IS13</td>
+<td>Data Analytics and Business Intelligence</td>
+<td style="text-align: center;">KK1, KK2</td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td>BK-IS14</td>
+<td>IT Audit and Compliance</td>
+<td style="text-align: center;">KK4</td>
+</tr>
+<tr>
+<td style="text-align: center;">15</td>
+<td>BK-IS15</td>
+<td>Digital Innovation and Entrepreneurship</td>
+<td style="text-align: center;">KK6</td>
+</tr>
+<tr>
+<td style="text-align: center;">16</td>
+<td>BK-IS16</td>
+<td>Artificial Intelligence &amp; Intelligent Systems</td>
+<td style="text-align: center;">KK1, KK2</td>
+</tr>
+<tr>
+<td style="text-align: center;">17</td>
+<td>BK-IS17</td>
+<td>Human-Computer Interaction &amp; UX</td>
+<td style="text-align: center;">KK5</td>
+</tr>
+<tr>
+<td style="text-align: center;">18</td>
+<td>BK-IS18</td>
+<td>Machine Learning and Data Science</td>
+<td style="text-align: center;">KK1, KK2</td>
+</tr>
+<tr>
+<td style="text-align: center;">19</td>
+<td>BK-IS19</td>
+<td>Cloud Architecture &amp; DevOps</td>
+<td style="text-align: center;">KK3</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="32-bok-it2017-14-bahan-kajian-utama">3.2 BoK IT2017 (14 Bahan Kajian Utama)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th>Kode BK</th>
+<th>Nama Bahan Kajian IT2017</th>
+<th style="text-align: center;">CPL KK Terkait</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td>BK-IT01</td>
+<td>Information Technology Fundamentals</td>
+<td style="text-align: center;">KK3</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td>BK-IT02</td>
+<td>Applied AI &amp; Intelligent Technologies</td>
+<td style="text-align: center;">KK1</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td>BK-IT03</td>
+<td>Networking &amp; Communications</td>
+<td style="text-align: center;">KK3</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td>BK-IT04</td>
+<td>Platform Technologies &amp; Web/Mobile</td>
+<td style="text-align: center;">KK5</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td>BK-IT05</td>
+<td>Cloud Computing &amp; Virtualization</td>
+<td style="text-align: center;">KK3</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td>BK-IT06</td>
+<td>Cybersecurity Principles &amp; Defense</td>
+<td style="text-align: center;">KK3, KK4</td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td>BK-IT07</td>
+<td>System Integration and Architecture</td>
+<td style="text-align: center;">KK3, KK5</td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td>BK-IT08</td>
+<td>IT Service Management &amp; Governance</td>
+<td style="text-align: center;">KK4</td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td>BK-IT09</td>
+<td>Data Analytics &amp; Information Visualization</td>
+<td style="text-align: center;">KK1, KK2</td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td>BK-IT10</td>
+<td>User Experience &amp; Interaction Design</td>
+<td style="text-align: center;">KK5</td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td>BK-IT11</td>
+<td>Software Development Practices</td>
+<td style="text-align: center;">KK5</td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td>BK-IT12</td>
+<td>IT Risk Management and Compliance</td>
+<td style="text-align: center;">KK4</td>
+</tr>
+<tr>
+<td style="text-align: center;">13</td>
+<td>BK-IT13</td>
+<td>Technology Entrepreneurship</td>
+<td style="text-align: center;">KK6</td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td>BK-IT14</td>
+<td>IoT and Embedded Smart Systems</td>
+<td style="text-align: center;">KK1, KK3</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="4-indikator-kinerja-ketuntasan-per-cpl-kk">4. INDIKATOR KINERJA KETUNTASAN PER CPL KK</h2>
+<h3 id="kk1-sistem-informasi-cerdas-berbasis-aiml-peminatan-p1">KK1: Sistem Informasi Cerdas Berbasis AI/ML (Peminatan P1)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th>Indikator Kinerja</th>
+<th>Bukti Ketercapaian</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td>Mampu menganalisis kebutuhan solusi cerdas berbasis AI/ML untuk proses bisnis organisasi.</td>
+<td>Laporan Analisis Kebutuhan Sistem Cerdas (STI-302 / STI-601).</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td>Mampu merancang arsitektur sistem cerdas (NLP, Computer Vision, DSS, Conversational AI).</td>
+<td>Dokumen Desain Arsitektur AI (STA-01 / STA-05).</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td>Mampu mengembangkan prototipe aplikasi terintegrasi API inferensi AI secara fungsional.</td>
+<td>Repositori Kode Sumber dan Prototipe Aplikasi Cerdas (STI-601).</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td>Mampu menguji dan mengevaluasi akurasi, efisiensi, dan keandalan model AI pada sistem.</td>
+<td>Laporan Uji Kinerja &amp; Evaluasi Interoperabilitas AI.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="kk2-rekayasa-data-mlops-peminatan-p1">KK2: Rekayasa Data &amp; MLOps (Peminatan P1)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th>Indikator Kinerja</th>
+<th>Bukti Ketercapaian</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td>Mampu membangun pipeline akuisisi, praproses, dan transformasi data (ETL/ELT).</td>
+<td>Pipeline Data dengan Pandas/PySpark (STI-402 / STI-503).</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td>Mampu melatih dan mengoptimasi model Machine Learning / Deep Learning.</td>
+<td>Model ML terlatih dengan evaluasi Confusion Matrix / F1-Score (STI-401 / STI-501).</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td>Mampu membangun dashboard Business Intelligence dan visualisasi data interaktif.</td>
+<td>Dashboard BI interaktif di Tableau / Power BI / Streamlit (STI-402 / STI-503).</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td>Mampu menerapkan pipeline MLOps untuk automasi deployment model AI (<em>Continuous Training</em>).</td>
+<td>Pipeline CI/CD MLOps menggunakan MLflow / Docker (STA-04).</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="kk3-cloud-infrastructure-iot-cyber-defense-peminatan-p2">KK3: Cloud Infrastructure, IoT &amp; Cyber Defense (Peminatan P2)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th>Indikator Kinerja</th>
+<th>Bukti Ketercapaian</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td>Mampu merancang dan mengelola arsitektur cloud terdistribusi (AWS/GCP/Azure).</td>
+<td>Topologi Cloud dan Konfigurasi Layanan IaaS/PaaS (STI-404 / STB-02).</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td>Mampu mengimplementasikan sistem IoT berbasis mikrokontroler dan protokol MQTT/CoAP.</td>
+<td>Purwarupa Perangkat Keras ESP32 + Dashboard Telemetri (STI-504).</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td>Mampu menerapkan otomasi infrastruktur (CI/CD, Docker container, Kubernetes, Terraform).</td>
+<td>Pipeline CI/CD GitHub Actions &amp; Skrip IaC (STB-02).</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td>Mampu mengonfigurasi sistem pertahanan siber (Firewall, IDS/IPS, enkripsi SSL/TLS).</td>
+<td>Laporan Konfigurasi Keamanan Jaringan (STI-603 / STB-01).</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="kk4-it-governance-risk-management-security-audit-peminatan-p2">KK4: IT Governance, Risk Management &amp; Security Audit (Peminatan P2)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th>Indikator Kinerja</th>
+<th>Bukti Ketercapaian</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td>Mampu menyusun kerangka kerja tata kelola TI berbasis standar COBIT 2019 / ITIL 4.</td>
+<td>Dokumen Desain Tata Kelola TI Organisasi (STB-04 / STB-05).</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td>Mampu melakukan audit keamanan sistem informasi dan simulasi penetration testing beretika.</td>
+<td>Laporan Hasil Audit Keamanan &amp; Uji Penetrasi (STI-603 / STB-01).</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td>Mampu menyusun peta risiko TI (<em>Risk Register</em>) dan rencana mitigasi (ISO 27001 / ISO 31000).</td>
+<td>Dokumen Manajemen Risiko &amp; Rencana Keberlangsungan Bisnis (STB-03).</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td>Mampu mengevaluasi keselarasan strategis investasi TI terhadap tujuan bisnis organisasi.</td>
+<td>Laporan Evaluasi Enterprise Architecture TOGAF (STB-06).</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="kk5-uxui-design-digital-platform-engineering-peminatan-p3">KK5: UX/UI Design &amp; Digital Platform Engineering (Peminatan P3)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th>Indikator Kinerja</th>
+<th>Bukti Ketercapaian</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td>Mampu melakukan riset pengguna (<em>UX Research</em>), pemetaan persona, dan perancangan <em>User Journey</em>.</td>
+<td>Dokumen Riset UX dan <em>Empathy Map</em> (STI-303 / STC-01).</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td>Mampu membangun prototipe UI interaktif <em>high-fidelity</em> berstandar <em>Design System</em>.</td>
+<td>Prototipe Figma Interaktif dengan <em>Auto-Layout</em> &amp; Variabel (STI-303).</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td>Mampu membangun aplikasi web frontend modern (SPA/SSR) dan backend API microservices.</td>
+<td>Aplikasi Full-Stack Web di React/Vue/NodeJS/Go (STI-306 / STI-407 / STI-604).</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td>Mampu merekayasa aplikasi mobile multiplatform dan sistem arsitektur multi-tenant SaaS.</td>
+<td>Aplikasi Mobile Flutter/React Native &amp; Arsitektur SaaS (STI-505 / STC-05).</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="kk6-digital-technopreneurship-agile-project-management-peminatan-p3">KK6: Digital Technopreneurship &amp; Agile Project Management (Peminatan P3)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th>Indikator Kinerja</th>
+<th>Bukti Ketercapaian</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td>Mampu memvalidasi problem-solution fit dan merancang model bisnis inovatif (<em>Lean Canvas</em>).</td>
+<td>Dokumen <em>Business Model Canvas</em> &amp; Riset Validasi Pasar (STI-701 / MKU-204).</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td>Mampu membangun dan meluncurkan produk minimum layak (<em>Minimum Viable Product / MVP</em>).</td>
+<td>Rilis MVP Digital yang teruji kepada pengguna awal (STI-701).</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td>Mampu mengelola proyek rekayasa perangkat lunak menggunakan kerangka kerja Scrum/Agile.</td>
+<td>Manajemen <em>Product Backlog</em>, <em>Sprint</em>, dan <em>Burndown Chart</em> di Jira/Trello (STI-506).</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td>Mampu menyusun <em>Pitch Deck</em> profesional dan mempresentasikan proposal bisnis ke calon investor.</td>
+<td>Dokumen <em>Pitch Deck</em> dan Presentasi <em>Demo Day</em> (STI-701 / STC-06).</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="5-pemetaan-cpl-kk-4-profil-lulusan-pl">5. PEMETAAN CPL KK → 4 PROFIL LULUSAN (PL)</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Profil Lulusan</th>
+<th>Nomenklatur Profil Lulusan</th>
+<th style="text-align: center;">KK1</th>
+<th style="text-align: center;">KK2</th>
+<th style="text-align: center;">KK3</th>
+<th style="text-align: center;">KK4</th>
+<th style="text-align: center;">KK5</th>
+<th style="text-align: center;">KK6</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>PL-1</strong></td>
+<td>Intelligent IS Developer &amp; AI Engineer</td>
+<td style="text-align: center;">⭐⭐⭐</td>
+<td style="text-align: center;">⭐⭐⭐</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">⭐</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td><strong>PL-2</strong></td>
+<td>Cloud Infrastructure, Cybersecurity &amp; Smart Systems Integrator</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">⭐⭐⭐</td>
+<td style="text-align: center;">⭐⭐⭐</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td><strong>PL-3</strong></td>
+<td>UI/UX Designer &amp; Digital Platform Engineer</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">⭐⭐⭐</td>
+<td style="text-align: center;">⭐⭐</td>
+</tr>
+<tr>
+<td><strong>PL-4</strong></td>
+<td>Digital Technopreneur &amp; IT Product Innovator</td>
+<td style="text-align: center;">⭐</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">⭐⭐</td>
+<td style="text-align: center;">⭐⭐⭐</td>
+</tr>
+</tbody>
+</table></div>
+<p><em>Keterangan Bobot:</em><br />
+<em> <code>⭐⭐⭐</code> : Kompetensi Utama (</em>Major Specialty<em>)<br />
+</em> <code>⭐⭐</code> : Kompetensi Pendukung Kuat (<em>Strong Supporting</em>)<br />
+<em> <code>⭐</code> : Kompetensi Penunjang (</em>Complementary*)  </p>
+<hr />
+<p><em>Disahkan sebagai Dokumen Resmi 009D — Kurikulum OBE Revisi SISTEKIN 2026.</em><br />
+<strong>Fakultas Sains dan Teknologi Informasi (FSTI) — Universitas Widyagama Malang</strong></p>
+
+            <div class="doc-nav">
+                <div><a href="009C_CPL_PENGETAHUAN_SISTEKIN.html" class="nav-btn">← Sebelumnya</a></div>
+                <div><a href="index.html" class="nav-btn">🏠 Index Utama</a></div>
+                <div><a href="009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.html" class="nav-btn">Selanjutnya →</a></div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p><strong>Dokumen Resmi Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
+            <p>Tim Pengembang Kurikulum FSTI — Universitas Widyagama Malang © 2026</p>
+        </footer>
+    </div>
+
+    <script>
+        // Mermaid Init
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'dark',
+            flowchart: { curve: 'basis', useMaxWidth: true }
+        });
+
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        let currentTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', currentTheme);
+
+        themeToggle.addEventListener('click', () => {
+            currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', currentTheme);
+            localStorage.setItem('theme', currentTheme);
+        });
+
+        // Live Table Search Filter
+        const searchInput = document.getElementById('globalTableSearch');
+        if (searchInput) {
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase().trim();
+                const rows = document.querySelectorAll('table tbody tr');
+                rows.forEach(row => {
+                    const text = row.innerText.toLowerCase();
+                    if (query === '' || text.includes(query)) {
+                        row.style.display = '';
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+            });
+        }
+    </script>
+</body>
+</html>

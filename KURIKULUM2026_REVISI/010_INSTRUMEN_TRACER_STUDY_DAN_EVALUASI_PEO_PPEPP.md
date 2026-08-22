@@ -9,43 +9,14 @@
 
 ### VISUALISASI PEO MEASUREMENT PLAN & STAKEHOLDER FEEDBACK
 
-```mermaid
-graph TD
-    subgraph TIMELINE ["PEO MEASUREMENT PLAN BERTAHAP"]
-        T1["Tiap Semester: CPMK & CPL (SIAKAD)"] --> T2["Tiap Tahun: FGD Industri & Review RPS"]
-        T2 --> T3["Saat Kelulusan: Exit Survey & SKPI Radar"]
-        T3 --> T4["1 Thn Pasca: Tracer Transisi Kerja Awal"]
-        T4 --> T5["3-5 Thn Pasca: Tracer PEO & Employer Survey"]
-    end
+### HIERARKI & DISTINSI KONSEPTUAL OBE
 
-    subgraph STAKEHOLDER ["FEEDBACK LOOP STAKEHOLDER"]
-        S1["Industrial FGD"]
-        S2["Employer Needs Survey"]
-        S3["Advisory Board Review"]
-    end
-
-    STAKEHOLDER --> T2
-    T5 --> RTM["Rapat Tinjauan Manajemen (RTM) PPEPP"]
-```
-
----
-
-## 1. AUDIT TERMINOLOGI, LANDASAN KONSEPTUAL & DISTINSI PEO
-
-Untuk menjamin kepatuhan terhadap standar asesmen akreditasi internasional IABEE dan LAM INFOKOM, Program Studi SISTEKIN menegaskan distinsi terminologi kurikulum berikut:
-
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                             HIERARKI & DISTINSI KONSEPTUAL OBE                                  │
-├──────────────────────┬──────────────────────────────────────────┬────────────────────────────────┤
-│ Konsep Kurikulum     │ Rentang Waktu Pencapaian                 │ Subjek & Fokus Evaluasi        │
-├──────────────────────┼──────────────────────────────────────────┼────────────────────────────────┤
-│ **CPMK & Sub-CPMK**  │ Selama masa perkuliahan (Semester 1–8)   │ Mahasiswa aktif per mata kuliah│
-│ **14 CPL**           │ Pada saat penyelesaian studi / kelulusan │ Wisudawan (KKNI Level 6)       │
-│ **4 Profil Lulusan** │ Peran/identitas profesi saat lulus       │ Kesiapan kerja lulusan awal    │
-│ **3 PEO**            │ **3 hingga 5 tahun setelah kelulusan**   │ Alumni & Pengguna Lulusan      │
-└──────────────────────┴──────────────────────────────────────────┴────────────────────────────────┘
-```
+| Konsep Kurikulum | Rentang Waktu Pencapaian | Subjek & Fokus Evaluasi |
+| --- | --- | --- |
+| **CPMK & Sub-CPMK** | Selama masa perkuliahan (Semester 1–8) | Mahasiswa aktif per mata kuliah |
+| **14 CPL** | Pada saat penyelesaian studi / kelulusan | Wisudawan (KKNI Level 6) |
+| **4 Profil Lulusan** | Peran/identitas profesi saat lulus | Kesiapan kerja lulusan awal |
+| **3 PEO** | **3 hingga 5 tahun setelah kelulusan** | Alumni & Pengguna Lulusan |
 
 > [!NOTE]
 > **Konteks Program Studi Baru:**  
@@ -55,29 +26,23 @@ Untuk menjamin kepatuhan terhadap standar asesmen akreditasi internasional IABEE
 
 ## 2. FORMULASI 3 PEO & KEPEMIMPINAN (*LEADERSHIP*) LINTAS-PEO
 
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                        3 PROGRAM EDUCATIONAL OBJECTIVES (PEO) SISTEKIN                          │
-├──────────┬──────────────────────────────────────────────────────────────────────────────────────┤
-│ Kode PEO │ Pernyataan Formal Objektif Pendidikan (3–5 Tahun Pasca Kelulusan)                    │
-├──────────┼──────────────────────────────────────────────────────────────────────────────────────┤
-│ **PEO-1**│ **Professional Practice and Systems Integration**                                    │
-│          │ "Dalam 3–5 tahun setelah lulus, alumni mampu berkarier secara profesional dalam      │
-│          │ menganalisis, merancang, mengembangkan, mengintegrasikan, mengamankan, atau          │
-│          │ mengelola sistem dan teknologi informasi cerdas sesuai kebutuhan organisasi,         │
-│          │ industri, dan masyarakat."                                                           │
-├──────────┼──────────────────────────────────────────────────────────────────────────────────────┤
-│ **PEO-2**│ **Digital Innovation and Technopreneurship**                                         │
-│          │ "Dalam 3–5 tahun setelah lulus, alumni mampu menghasilkan inovasi, produk, layanan,  │
-│          │ perbaikan proses, atau usaha digital yang relevan, etis, berkelanjutan, dan          │
-│          │ memberikan nilai tambah bagi pengguna, organisasi, industri, atau masyarakat."       │
-├──────────┼──────────────────────────────────────────────────────────────────────────────────────┤
-│ **PEO-3**│ **Advanced Study, Research, and Lifelong Learning**                                  │
-│          │ "Dalam 3–5 tahun setelah lulus, alumni mampu mengembangkan kompetensi melalui studi  │
-│          │ lanjut (S2/S3), penelitian terapan, sertifikasi profesional, komunitas keilmuan,     │
-│          │ atau pembelajaran sepanjang hayat serta menunjukkan kepemimpinan sesuai konteksnya." │
-└──────────┴──────────────────────────────────────────────────────────────────────────────────────┘
-```
+### 3 PROGRAM EDUCATIONAL OBJECTIVES (PEO) SISTEKIN
+
+| Kode PEO | Pernyataan Formal Objektif Pendidikan (3–5 Tahun Pasca Kelulusan) |
+| --- | --- |
+| **PEO-1** | **Professional Practice and Systems Integration** |
+|  | "Dalam 3–5 tahun setelah lulus, alumni mampu berkarier secara profesional dalam |
+|  | menganalisis, merancang, mengembangkan, mengintegrasikan, mengamankan, atau |
+|  | mengelola sistem dan teknologi informasi cerdas sesuai kebutuhan organisasi, |
+|  | industri, dan masyarakat." |
+| **PEO-2** | **Digital Innovation and Technopreneurship** |
+|  | "Dalam 3–5 tahun setelah lulus, alumni mampu menghasilkan inovasi, produk, layanan, |
+|  | perbaikan proses, atau usaha digital yang relevan, etis, berkelanjutan, dan |
+|  | memberikan nilai tambah bagi pengguna, organisasi, industri, atau masyarakat." |
+| **PEO-3** | **Advanced Study, Research, and Lifelong Learning** |
+|  | "Dalam 3–5 tahun setelah lulus, alumni mampu mengembangkan kompetensi melalui studi |
+|  | lanjut (S2/S3), penelitian terapan, sertifikasi profesional, komunitas keilmuan, |
+|  | atau pembelajaran sepanjang hayat serta menunjukkan kepemimpinan sesuai konteksnya." |
 
 ### Atribut Kepemimpinan (*Leadership*) Lintas-PEO (Bukan Jalur ke-4):
 * **Pada PEO-1 (Praktisi Profesional):** Memimpin tim pengembang perangkat lunak, memandu arsitektur sistem enterprise, atau memimpin inisiatif transformasi digital institusi.
@@ -127,31 +92,22 @@ Untuk menjamin kepatuhan terhadap standar asesmen akreditasi internasional IABEE
 
 ## 4. PEO MEASUREMENT PLAN (RENCANA PENGUKURAN BERTAHAP PRODI BARU)
 
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                   PEO MEASUREMENT PLAN BERTAHAP SISTEKIN (SIKLUS 5 TAHUN)                        │
-├───────────────────┬──────────────────────┬────────────────────────────────┬──────────────────────┤
-│ Tahap Pengukuran  │ Fokus Evaluasi       │ Sumber Data & Instrumen        │ Target Provisional   │
-├───────────────────┼──────────────────────┼────────────────────────────────┼──────────────────────┤
-│ 1. Setiap Semester│ Capaian CPMK & CPL   │ Asesmen 4x MK, Rubrik Analitik,│ $\ge 80\%$ Mahasiswa │
-│                   │ Mahasiswa Aktif      │ Portofolio Nilai SIAKAD        │ Lulus CPL $\ge 65.0$ │
-├───────────────────┼──────────────────────┼────────────────────────────────┼──────────────────────┤
-│ 2. Setiap Tahun   │ Relevansi Kurikulum &│ FGD Industri, Advisory Board,  │ Skor Relevansi Mitra │
-│                   │ Kebutuhan Pasar      │ Survei Kebutuhan Stakeholder   │ $\ge 4.0 / 5.0$      │
-├───────────────────┼──────────────────────┼────────────────────────────────┼──────────────────────┤
-│ 3. Saat Kelulusan │ Kesiapan Kerja Awal  │ Exit Survey Wisudawan, Capaian │ Waktu Tunggu $< 3$ Bl│
-│                   │ (*Day-1 Readiness*)  │ SKPI Radar CPL, Sertifikasi    │ Sertifikasi $\ge 70\%$│
-├───────────────────┼──────────────────────┼────────────────────────────────┼──────────────────────┤
-│ 4. 1 Thn Pascalulus│ Transisi Karier Awal │ Tracer Study Awal: Relevansi   │ Keselarasan Kerja    │
-│                   │ & Penyerapan Kerja   │ Pekerjaan, Gaji Pertama        │ $\ge 75\%$           │
-├───────────────────┼──────────────────────┼────────────────────────────────┼──────────────────────┤
-│ 5. 3–5 Thn Pascalu│ Ketercapaian 3 PEO   │ Tracer PEO Alumni, Employer    │ $\ge 75\%$ Alumni    │
-│    lus            │ Definitif            │ Satisfaction Survey (Atasan)   │ Kategori "Tinggi/Baik│
-├───────────────────┼──────────────────────┼────────────────────────────────┼──────────────────────┤
-│ 6. Pasca-Evaluasi │ Perbaikan Kurikulum  │ RTM Fakultas, Root Cause       │ Dokumen Kurikulum    │
-│                   │ Berkelanjutan        │ Analysis (RCA), RTL PPEPP      │ Revisi Berkala (CQI) │
-└───────────────────┴──────────────────────┴────────────────────────────────┴──────────────────────┘
-```
+### PEO MEASUREMENT PLAN BERTAHAP SISTEKIN (SIKLUS 5 TAHUN)
+
+| Tahap Pengukuran | Fokus Evaluasi | Sumber Data & Instrumen | Target Provisional |
+| --- | --- | --- | --- |
+| 1. Setiap Semester | Capaian CPMK & CPL | Asesmen 4x MK, Rubrik Analitik, | $\ge 80\%$ Mahasiswa |
+|  | Mahasiswa Aktif | Portofolio Nilai SIAKAD | Lulus CPL $\ge 65.0$ |
+| 2. Setiap Tahun | Relevansi Kurikulum & | FGD Industri, Advisory Board, | Skor Relevansi Mitra |
+|  | Kebutuhan Pasar | Survei Kebutuhan Stakeholder | $\ge 4.0 / 5.0$ |
+| 3. Saat Kelulusan | Kesiapan Kerja Awal | Exit Survey Wisudawan, Capaian | Waktu Tunggu $< 3$ Bl |
+|  | (*Day-1 Readiness*) | SKPI Radar CPL, Sertifikasi | Sertifikasi $\ge 70\%$ |
+| 4. 1 Thn Pascalulus | Transisi Karier Awal | Tracer Study Awal: Relevansi | Keselarasan Kerja |
+|  | & Penyerapan Kerja | Pekerjaan, Gaji Pertama | $\ge 75\%$ |
+| 5. 3–5 Thn Pascalu | Ketercapaian 3 PEO | Tracer PEO Alumni, Employer | $\ge 75\%$ Alumni |
+| lus | Definitif | Satisfaction Survey (Atasan) | Kategori "Tinggi/Baik |
+| 6. Pasca-Evaluasi | Perbaikan Kurikulum | RTM Fakultas, Root Cause | Dokumen Kurikulum |
+|  | Berkelanjutan | Analysis (RCA), RTL PPEPP | Revisi Berkala (CQI) |
 
 ---
 
@@ -207,25 +163,18 @@ Formulir ini diisi oleh Atasan Langsung / Pimpinan HRD tempat alumni SISTEKIN be
 
 Untuk menjamin keabsahan dan relevansi PEO sebelum dapat diukur melalui *Tracer Study*, Program Studi SISTEKIN menjalankan protokol validasi eksternal:
 
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                         PROTOKOL VALIDASI PEMANGKU KEPENTINGAN                                   │
-├───────────────────┬──────────────────────────────────────────────────────────────────────────────┤
-│ Saluran Validasi  │ Deskripsi Pelaksanaan & Luaran Bukti Fisik                                   │
-├───────────────────┼──────────────────────────────────────────────────────────────────────────────┤
-│ 1. Industrial FGD │ Focus Group Discussion bersama praktisi DUDI, asosiasi profesi (APTIKOM/IAII)│
-│                   │ Luaran: Berita Acara Rapat, Daftar Hadir, Catatan Masukan Industri.          │
-├───────────────────┼──────────────────────────────────────────────────────────────────────────────┤
-│ 2. Employer Needs │ Kuesioner analisis kebutuhan pasar kerja di kawasan Jawa Timur & Nasional.   │
-│    Survey         │ Luaran: Dokumen Analisis Kebutuhan Pasar Tenaga Kerja Bidang STI.             │
-├───────────────────┼──────────────────────────────────────────────────────────────────────────────┤
-│ 3. Advisory Board │ Dewan Pertimbangan Kurikulum FSTI (Guru Besar, Industri, Pemerintah Daerah). │
-│                   │ Luaran: Lembar Rekomendasi Formal Arah Kurikulum dan PEO.                    │
-├───────────────────┼──────────────────────────────────────────────────────────────────────────────┤
-│ 4. Benchmarking   │ Studi komparasi kurikulum prodi STI bereputasi unggul nasional/internasional.│
-│                   │ Luaran: Matriks Komparasi Standar Kurikulum CC2020/APTIKOM.                  │
-└───────────────────┴──────────────────────────────────────────────────────────────────────────────┘
-```
+### PROTOKOL VALIDASI PEMANGKU KEPENTINGAN
+
+| Saluran Validasi | Deskripsi Pelaksanaan & Luaran Bukti Fisik |
+| --- | --- |
+| 1. Industrial FGD | Focus Group Discussion bersama praktisi DUDI, asosiasi profesi (APTIKOM/IAII) |
+|  | Luaran: Berita Acara Rapat, Daftar Hadir, Catatan Masukan Industri. |
+| 2. Employer Needs | Kuesioner analisis kebutuhan pasar kerja di kawasan Jawa Timur & Nasional. |
+| Survey | Luaran: Dokumen Analisis Kebutuhan Pasar Tenaga Kerja Bidang STI. |
+| 3. Advisory Board | Dewan Pertimbangan Kurikulum FSTI (Guru Besar, Industri, Pemerintah Daerah). |
+|  | Luaran: Lembar Rekomendasi Formal Arah Kurikulum dan PEO. |
+| 4. Benchmarking | Studi komparasi kurikulum prodi STI bereputasi unggul nasional/internasional. |
+|  | Luaran: Matriks Komparasi Standar Kurikulum CC2020/APTIKOM. |
 
 ---
 

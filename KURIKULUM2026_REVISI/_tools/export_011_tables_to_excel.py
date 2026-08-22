@@ -16,8 +16,11 @@ import io
 import os
 import re
 
-# Pastikan UTF-8 untuk output console Windows
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+if not isinstance(sys.stdout, io.TextIOWrapper) or sys.stdout.encoding != 'utf-8':
+    try:
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    except Exception:
+        pass
 
 try:
     import openpyxl
@@ -252,9 +255,9 @@ def convert():
         (11, "  ✓  CPL: 14 (S1, KU1-3, P1-4, KK1-6)", False, 11, 'FFF2CC', '7F6000'),
         (12, "  ✓  Paket Ditempuh: 55 MK / 146 SKS", False, 11, 'FFF2CC', '7F6000'),
         (13, "  ✓  Portofolio Ditawarkan: 67 MK / 182 SKS", False, 11, 'FFF2CC', '7F6000'),
-        (14, "  ✓  STI-405 Dasar Keamanan Informasi = 2 SKS (Teori)", False, 11, 'FFF2CC', '7F6000'),
-        (15, "  ✓  STI-602 Smart City & Pemerintahan Digital = 2 SKS (Teori)", False, 11, 'FFF2CC', '7F6000'),
-        (16, "  ✓  MKU-401A Agama II & MKU-402 Kewirausahaan II = 0 SKS (Kebijakan UWG)", False, 11, 'FFF2CC', '7F6000'),
+        (15, "  ✓  STI-405 Dasar Keamanan Informasi = 2 SKS & STI-602 Smart City = 2 SKS", False, 11, 'FFF2CC', '7F6000'),
+        (16, "  ✓  MKU-406 Agama II & MKU-508 Kewirausahaan II = 0 SKS (Kebijakan UWG)", False, 11, 'FFF2CC', '7F6000'),
+        (17, "  ✓  Skema 4x Asesmen Baku per MK (Tugas 1 [20%], UTS [25-30%], Tugas 2 [20-25%], UAS [30%])", False, 11, 'FFF2CC', '7F6000'),
     ]
 
     for r, val, bold, sz, bg, fg in cover_rows:
@@ -295,13 +298,13 @@ def convert():
     try:
         wb.save(DEST_XLSX)
         print(f"\n[SUKSES] Excel berhasil digenerate:\n  -> {DEST_XLSX}")
+        return True
     except PermissionError:
-        print(f"\n[PERINGATAN] File Excel sedang dibuka di aplikasi lain (Microsoft Excel / WPS).")
-        print(f"Silakan tutup file '{os.path.basename(DEST_XLSX)}' terlebih dahulu, lalu jalankan script ini kembali.")
-        sys.exit(1)
+        print(f"\n[PERINGATAN] File Excel '{os.path.basename(DEST_XLSX)}' sedang dibuka di aplikasi lain.")
+        return False
     except Exception as e:
         print(f"\n[ERROR] Gagal menyimpan file: {e}")
-        sys.exit(1)
+        return False
 
 if __name__ == '__main__':
     convert()

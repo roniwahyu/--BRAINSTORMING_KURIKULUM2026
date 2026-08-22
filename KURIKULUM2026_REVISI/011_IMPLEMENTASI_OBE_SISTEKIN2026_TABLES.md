@@ -102,11 +102,11 @@
 | 1 | MKU-101 | Agama I | 1 | 2 | V |  |  |  |  |  |  |  |  |  |  |  |  |  | 1 |
 | 2 | MKU-102 | Pancasila | 1 | 2 | V |  |  |  |  |  |  |  |  |  |  |  |  |  | 1 |
 | 3 | MKU-103 | Bahasa Indonesia | 1 | 2 |  |  | V |  |  |  |  |  |  |  |  |  |  |  | 1 |
-| 4 | MKU-202 | Kewirausahaan I | 2 | 2 |  |  |  |  |  |  |  |  |  |  |  |  |  | V | 1 |
-| 5 | MKU-201 | Pendidikan Kewarganegaraan | 4 | 2 | V |  |  |  |  |  |  |  |  |  |  |  |  |  | 1 |
-| 6 | MKU-401A | Agama II | 4 | 0 | V |  |  |  |  |  |  |  |  |  |  |  |  |  | 1 |
-| 7 | MKU-402 | Kewirausahaan II | 5 | 0 |  |  |  |  |  |  |  |  |  |  |  |  |  | V | 1 |
-| 8 | MKU-203 | KPM (Kuliah Pengabdian Masyarakat) | 5 | 3 | V |  | V |  |  |  |  |  |  |  |  |  |  |  | 2 |
+| 4 | MKU-204 | Kewirausahaan I | 2 | 2 |  |  |  |  |  |  |  |  |  |  |  |  |  | V | 1 |
+| 5 | MKU-405 | Kewarganegaraan | 4 | 2 | V |  |  |  |  |  |  |  |  |  |  |  |  |  | 1 |
+| 6 | MKU-406 | Agama II | 4 | 0 | V |  |  |  |  |  |  |  |  |  |  |  |  |  | 1 |
+| 7 | MKU-508 | Kewirausahaan II | 5 | 0 |  |  |  |  |  |  |  |  |  |  |  |  |  | V | 1 |
+| 8 | MKU-507 | KPM (Kuliah Pengabdian Kepada Masyarakat) | 5 | 3 | V |  | V |  |  |  |  |  |  |  |  |  |  |  | 2 |
 | B. MK FSTI - MATA KULIAH WAJIB FAKULTAS (14 MK / 38 SKS) | | | | | | | | | | | | | | | | | | | |
 | 9 | FST-101 | Dasar Teknologi Digital | 1 | 2 |  |  |  |  |  | V |  |  |  |  |  |  |  |  | 1 |
 | 10 | FST-102 | Algoritma dan Pemrograman (+P) | 1 | 3 |  | V |  |  |  |  |  | V |  |  |  |  |  |  | 2 |
@@ -182,10 +182,10 @@
 | Semester | Jumlah MK | Total SKS | SKS Kumulatif | Daftar Mata Kuliah (SKS) | CPL Dominan | Catatan |
 |---|---|---|---|---|---|---|
 | 1 | 8 MK | 19 SKS | 19 SKS | MKU-101 Agama I (2) / MKU-102 Pancasila (2) / MKU-103 Bahasa Indonesia (2) / FST-101 Dasar Teknologi Digital (2) / FST-102 Algoritma & Pemrograman (3) / STI-101 Pengantar SI & TI (2) / STI-102 Kalkulus (3) / STI-103 Logika Informatika (3) | S1, P1, P2, P4, KU1 | Fondasi komputer, coding, dan matematika |
-| 2 | 8 MK | 20 SKS | 39 SKS | STI-201 Matematika Diskrit (3) / STI-202 Aljabar Linear (3) / FST-203 Struktur Data & Algoritma (3) / FST-204 Pengantar AI & Data (2) / FST-205 Basic English (2) / FST-206 Etika & Hukum Digital (2) / FST-207 Basis Data (3) / MKU-202 Kewirausahaan I (2) | P1, P2, P4, KU1, KU2, KK1, KK6 | Tepat 20 SKS - Patuh Permendikbud 53/2023 |
+| 2 | 8 MK | 20 SKS | 39 SKS | STI-201 Matematika Diskrit (3) / STI-202 Aljabar Linear (3) / FST-203 Struktur Data & Algoritma (3) / FST-204 Pengantar AI & Data (2) / FST-205 Basic English (2) / FST-206 Etika & Hukum Digital (2) / FST-207 Basis Data (3) / MKU-204 Kewirausahaan I (2) | P1, P2, P4, KU1, KU2, KK1, KK6 | Tepat 20 SKS - Patuh Permendikbud 53/2023 |
 | 3 | 7 MK | 20 SKS | 59 SKS | STI-301 APSI (3) / STI-302 Sistem Cerdas (2) / STI-303 UI/UX Design (3) / STI-304 RPL (3) / STI-305 Sistem Operasi (3) / STI-306 Web Front End (3) / STI-307 Jaringan Komputer (3) | P2, P3, P4, KK1, KK3, KK5 | Fondasi sistem, jaringan, OS, dan UI/UX |
-| 4 | 8 MK | 21 SKS | 80 SKS | STI-401 Machine Learning (3) / STI-402 DW & BI (3) / STI-404 Cloud (3) / STI-405 Dasar Keamanan (2) / STI-407 Web Back End (3) / FST-408 Statistika (3) / FST-409 Manajemen Sains (2) / MKU-201 KWN (2) / MKU-401A Agama II (0) | P1, P2, P3, KK1, KK2, KK3, KU2 | STI-405 = 2 SKS Teori. MKU-401A = 0 SKS kebijakan UWG |
-| 5 | 7 MK + 1x0SKS | 21 SKS | 101 SKS | STI-501 Deep Learning (3) / STI-503 Data Mining (3) / STI-504 IoT (3) / STI-505 Mobile App (3) / STI-506 Manpro TI (3) / MKU-203 KPM (3) / MK Pilihan 1 (3) / MKU-402 KWU II (0) | KK1, KK2, KK3, KK5, KK6, S1, KU | 6 MK Wajib (18 SKS) + 1 MK Pilihan (3 SKS). MKU-402 = 0 SKS kebijakan UWG |
+| 4 | 8 MK | 21 SKS | 80 SKS | STI-401 Machine Learning (3) / STI-402 DW & BI (3) / STI-404 Cloud (3) / STI-405 Dasar Keamanan (2) / STI-407 Web Back End (3) / FST-408 Statistika (3) / FST-409 Manajemen Sains (2) / MKU-405 KWN (2) / MKU-406 Agama II (0) | P1, P2, P3, KK1, KK2, KK3, KU2 | STI-405 = 2 SKS Teori. MKU-406 = 0 SKS kebijakan UWG |
+| 5 | 7 MK + 1x0SKS | 21 SKS | 101 SKS | STI-501 Deep Learning (3) / STI-503 Data Mining (3) / STI-504 IoT (3) / STI-505 Mobile App (3) / STI-506 Manpro TI (3) / MKU-507 KPM (3) / MK Pilihan 1 (3) / MKU-508 KWU II (0) | KK1, KK2, KK3, KK5, KK6, S1, KU | 6 MK Wajib (18 SKS) + 1 MK Pilihan (3 SKS). MKU-508 = 0 SKS kebijakan UWG |
 | 6 | 7 MK | 19 SKS | 120 SKS | STI-601 Integrasi AI (3) / STI-602 Smart City (2) / STI-603 Keamanan Lanjut (3) / STI-604 Digital Platform Eng (3) / FST-611 Metopel (2) / MK Pilihan 2 (3) / MK Pilihan 3 (3) | P2, P3, KK1, KK3, KK4, KK5, KU1-3 | STI-602 = 2 SKS Teori Non-Praktikum. MBKM maks. 20 SKS |
 | 7 | 7 MK | 20 SKS | 140 SKS | STI-701 Startup Digital (3) / FST-610 Capstone (3) / FST-612 PKL (3) / FST-613 Pra-Skripsi (2) / MK Pilihan 4 (3) / MK Pilihan 5 (3) / MK Pilihan 6 (3) | KK6, KK3, KK4, KU1-3, S1 | 4 MK Wajib (11 SKS) + 3 MK Pilihan (9 SKS). MBKM maks. 20 SKS |
 | 8 | 1 MK | 6 SKS | 146 SKS | FST-714 Skripsi / Tugas Akhir (6) | S1, KU1-3, seluruh P & KK | Skripsi Murni (6 SKS) / 4 Opsi Non-Skripsi ekuivalen 6 SKS |
@@ -207,7 +207,7 @@
 | STI-101 | Pengantar Sistem & TI | 2 | 1 |  |  |  |  |  | I |  |  |  |  |  |  |  |  | 1 |
 | STI-102 | Kalkulus | 3 | 1 |  |  |  |  | I |  |  |  |  |  |  |  |  |  | 1 |
 | STI-103 | Logika Informatika | 3 | 1 |  | I |  |  | I |  |  |  |  |  |  |  |  |  | 2 |
-| MKU-202 | Kewirausahaan I | 2 | 2 |  |  |  |  |  |  |  |  |  |  |  |  |  | I | 1 |
+| MKU-204 | Kewirausahaan I | 2 | 2 |  |  |  |  |  |  |  |  |  |  |  |  |  | I | 1 |
 | STI-201 | Matematika Diskrit | 3 | 2 |  | R |  |  | R |  |  |  |  |  |  |  |  |  | 2 |
 | STI-202 | Aljabar Linear | 3 | 2 |  |  |  |  | R |  |  |  |  |  |  |  |  |  | 1 |
 | FST-203 | Struktur Data & Algoritma | 3 | 2 |  | R |  |  |  |  |  | R |  |  |  |  |  |  | 2 |
@@ -234,7 +234,7 @@
 | STI-504 | Internet of Things (IoT) | 3 | 5 |  |  |  |  |  |  | M |  |  |  | M |  |  |  | 2 |
 | STI-505 | Pemrograman Aplikasi Mobile | 3 | 5 |  |  |  |  |  |  |  | M |  |  |  |  | M |  | 2 |
 | STI-506 | Manajemen Proyek TI | 3 | 5 |  |  |  |  |  |  |  |  |  |  |  |  |  | M | 1 |
-| MKU-203 | KPM / KKN Digital | 3 | 5 | M |  | M |  |  |  |  |  |  |  |  |  |  |  | 2 |
+| MKU-507 | KPM / KKN Digital | 3 | 5 | M |  | M |  |  |  |  |  |  |  |  |  |  |  | 2 |
 | STI-601 | Integrasi Layanan Cerdas Berbasis AI | 3 | 6 |  |  |  |  |  | M |  |  | M |  |  |  |  |  | 2 |
 | STI-602 | Smart City & Pemerintahan Digital | 2 | 6 |  |  |  |  |  |  | M |  |  |  | M |  |  |  | 2 |
 | STI-603 | Keamanan Informasi Lanjut | 3 | 6 |  |  |  |  |  |  | M |  |  |  | M | M |  |  | 3 |
@@ -375,9 +375,9 @@
 
 | Kode CPL | Fokus CPL | Jml MK Pendukung | MK Pengukur Level M (Utama) | Target (%) | Capaian Aktual (%) | Status |
 |---|---|---|---|---|---|---|
-| S1 | Sikap & etika profesional digital | 9 | FST-610 Capstone, FST-612 PKL, MKU-203 KPM, FST-714 Skripsi | 75 |  | Belum ada data |
+| S1 | Sikap & etika profesional digital | 9 | FST-610 Capstone, FST-612 PKL, MKU-507 KPM, FST-714 Skripsi | 75 |  | Belum ada data |
 | KU1 | Pemikiran logis, kritis & inovatif | 12 | FST-610 Capstone, FST-611 Metpen, FST-612 PKL, FST-613 Sempro, FST-714 Skripsi | 70 |  | Belum ada data |
-| KU2 | Komunikasi efektif & networking | 11 | FST-610 Capstone, FST-611 Metpen, MKU-203 KPM, FST-714 Skripsi | 70 |  | Belum ada data |
+| KU2 | Komunikasi efektif & networking | 11 | FST-610 Capstone, FST-611 Metpen, MKU-507 KPM, FST-714 Skripsi | 70 |  | Belum ada data |
 | KU3 | Pengambilan keputusan & manajemen diri | 6 | FST-610 Capstone, FST-611 Metpen, FST-612 PKL, FST-613 Sempro, FST-714 Skripsi | 75 |  | Belum ada data |
 | P1 | Fondasi sains & matematika komputasi | 9 | STI-202 Aljabar Linear, FST-408 Statistika, FST-714 Skripsi | 65 |  | Belum ada data |
 | P2 | Sistem informasi & metodologi SI | 15 | STI-401 Machine Learning, STI-601 Integrasi AI, STI-503 Data Mining, FST-714 Skripsi | 70 |  | Belum ada data |
@@ -420,7 +420,7 @@
 | 4 | Sheet 9-12 adalah template implementasi asesmen. CPL program sah dihitung setelah data nilai aktual semester berjalan terintegrasi ke SIAKAD. |
 | 5 | Sistem asesmen OBE lengkap (Formula CPL Attainment, 4 Rubrik Analitik Master, Siklus PPEPP/CQI, Radar SKPI) tersedia pada Dok. 008 dan 009. |
 | 6 | STI-405 (Dasar Keamanan Informasi) = 2 SKS Teori (Sem 4). STI-602 (Smart City & Pemerintahan Digital) = 2 SKS Teori Non-Praktikum (Sem 6). |
-| 7 | MKU-401A (Agama II) dan MKU-402 (Kewirausahaan II) = 0 SKS kebijakan UWG; tercatat di transkrip namun tidak dihitung dalam beban SKS kelulusan. |
+| 7 | MKU-406 (Agama II) dan MKU-508 (Kewirausahaan II) = 0 SKS kebijakan UWG; tercatat di transkrip namun tidak dihitung dalam beban SKS kelulusan. |
 
 ---
 

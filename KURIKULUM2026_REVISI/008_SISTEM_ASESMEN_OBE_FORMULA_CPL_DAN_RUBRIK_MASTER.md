@@ -9,41 +9,14 @@
 
 ### VISUALISASI ALUR HINGGA ASESMEN OBE & SIKLUS PPEPP
 
-```mermaid
-graph TD
-    subgraph ASESMEN_FLOW ["PIPELINE PENGUKURAN CPL"]
-        MK["Asesmen 4x MK (Tugas1, UTS, Tugas2, UAS)"] --> CPMK["Skor Attainment CPMK (Bloom C2-C6)"]
-        CPMK --> CPL_IND["Formula CPL Attainment Individu"]
-        CPL_IND --> RADAR["Radar Chart CPL pada SKPI Wisudawan"]
-    end
+### SIKLUS ASESMEN BERBASIS LUARAN (OBE)
 
-    subgraph PPEPP ["SIKLUS CONTINUOUS QUALITY IMPROVEMENT (CQI)"]
-        P1["Penetapan Baseline"] --> P2["Pelaksanaan RPS"]
-        P2 --> E["Evaluasi Attainment Cohort (Target ≥ 80%)"]
-        E --> P3["Pengendalian Gap (RCA & RTM)"]
-        P3 --> P4["Peningkatan Kurikulum (CQI)"]
-    end
-
-    CPL_IND --> E
-```
-
----
-
-## 1. KERANGKA ASESMEN OBE SISTEKIN 2026
-
-Sistem penilaian pada Kurikulum OBE SISTEKIN berorientasi penuh pada pembuktian ketercapaian **14 CPL** secara langsung (*Direct Assessment*) melalui Capaian Pembelajaran Mata Kuliah (CPMK):
-
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────┐
-│                         SIKLUS ASESMEN BERBASIS LUARAN (OBE)                             │
-├──────────────────────────────────────────────────────────────────────────────────────────┤
-│ 1. Mata Kuliah merumuskan 3–4 CPMK (Bloom C2–C6) & Sub-CPMK per pekan.                   │
-│ 2. Instrumen Asesmen distandarisasi ke dalam 4 Titik Evaluasi Terstruktur.               │
-│ 3. Nilai Mahasiswa dihitung per CPMK menggunakan Rubrik Analitik Terstandar.             │
-│ 4. Skor Ketercapaian CPL dihitung menggunakan Formula Bobot Matriks MK ↔ CPL.            │
-│ 5. Analisis Gap & Tindak Lanjut Perbaikan Berkelanjutan (PPEPP / CQI).                   │
-└──────────────────────────────────────────────────────────────────────────────────────────┘
-```
+| 1. Mata Kuliah merumuskan 3–4 CPMK (Bloom C2–C6) & Sub-CPMK per pekan. |
+| --- |
+| 2. Instrumen Asesmen distandarisasi ke dalam 4 Titik Evaluasi Terstruktur. |
+| 3. Nilai Mahasiswa dihitung per CPMK menggunakan Rubrik Analitik Terstandar. |
+| 4. Skor Ketercapaian CPL dihitung menggunakan Formula Bobot Matriks MK ↔ CPL. |
+| 5. Analisis Gap & Tindak Lanjut Perbaikan Berkelanjutan (PPEPP / CQI). |
 
 > [!IMPORTANT]
 > **Kepatuhan IKU 7 (Indikator Kinerja Utama Kemendikbudristek):**  

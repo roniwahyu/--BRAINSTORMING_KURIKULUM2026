@@ -1,0 +1,4442 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>011 — 14 Sheet Matriks Implementasi OBE | Kurikulum OBE SISTEKIN 2026</title>
+    <meta name="description" content="Dokumen Resmi Kurikulum OBE 2026 Program Studi Sistem dan Teknologi Informasi (S1) FSTI UWG Malang.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- KaTeX for LaTeX Math -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+
+    <!-- Mermaid JS for Flowcharts -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+
+    <style>
+        :root {
+            --bg-primary: #0b0f19;
+            --bg-secondary: #111827;
+            --bg-card: rgba(17, 24, 39, 0.75);
+            --bg-card-hover: rgba(31, 41, 55, 0.85);
+            --border-color: rgba(255, 255, 255, 0.1);
+            --border-accent: rgba(99, 102, 241, 0.35);
+            
+            --text-primary: #f9fafb;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+            
+            --primary: #6366f1;
+            --primary-light: #818cf8;
+            --secondary: #06b6d4;
+            --accent: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            
+            --mkwu-color: #ec4899;
+            --fsti-color: #8b5cf6;
+            --sti-color: #3b82f6;
+            --elektif-color: #10b981;
+            
+            --font-sans: 'Plus Jakarta Sans', 'Inter', sans-serif;
+            --font-code: 'Fira Code', monospace;
+            --shadow-glow: 0 0 30px rgba(99, 102, 241, 0.12);
+            --radius-lg: 16px;
+            --radius-md: 12px;
+            --radius-sm: 8px;
+        }
+
+        [data-theme="light"] {
+            --bg-primary: #f8fafc;
+            --bg-secondary: #ffffff;
+            --bg-card: rgba(255, 255, 255, 0.9);
+            --bg-card-hover: #ffffff;
+            --border-color: rgba(0, 0, 0, 0.08);
+            --border-accent: rgba(99, 102, 241, 0.25);
+            
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --text-muted: #94a3b8;
+            
+            --shadow-glow: 0 10px 30px rgba(99, 102, 241, 0.08);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            padding-bottom: 80px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Navbar */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(11, 15, 25, 0.85);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 14px 0;
+            margin-bottom: 32px;
+        }
+        [data-theme="light"] .navbar { background: rgba(248, 250, 252, 0.85); }
+
+        .navbar-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+        .brand-logo {
+            width: 40px; height: 40px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: var(--radius-sm);
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 800; color: white; font-size: 1.1rem;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+        }
+        .brand-text h1 { font-size: 1.05rem; font-weight: 700; color: var(--text-primary); }
+        .brand-text p { font-size: 0.75rem; color: var(--text-secondary); }
+
+        .doc-select {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            font-size: 0.85rem;
+            font-weight: 600;
+            outline: none;
+            cursor: pointer;
+            max-width: 380px;
+        }
+
+        .search-box {
+            position: relative;
+            min-width: 240px;
+        }
+        .search-input {
+            width: 100%;
+            padding: 8px 14px 8px 34px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            color: var(--text-primary);
+            font-size: 0.85rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .search-input:focus { border-color: var(--primary); }
+        .search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); font-size: 0.8rem; opacity: 0.6; }
+
+        .nav-actions { display: flex; align-items: center; gap: 10px; }
+        .btn-action {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            cursor: pointer; font-size: 0.85rem; font-weight: 600;
+            display: inline-flex; align-items: center; gap: 6px;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
+        .btn-action:hover { border-color: var(--primary); color: var(--primary-light); transform: translateY(-1px); }
+
+        /* Hero Header */
+        .hero {
+            background: radial-gradient(circle at top right, rgba(99, 102, 241, 0.15), transparent 50%),
+                        radial-gradient(circle at bottom left, rgba(6, 182, 212, 0.1), transparent 50%);
+            border: 1px solid var(--border-accent);
+            border-radius: var(--radius-lg);
+            padding: 36px;
+            margin-bottom: 36px;
+            box-shadow: var(--shadow-glow);
+        }
+        .hero-badge-group { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+        .badge {
+            font-size: 0.72rem; font-weight: 700; padding: 4px 12px; border-radius: 20px;
+            letter-spacing: 0.03em; text-transform: uppercase;
+        }
+        .badge-primary { background: rgba(99, 102, 241, 0.2); color: var(--primary-light); border: 1px solid rgba(99, 102, 241, 0.4); }
+        .badge-accent { background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); }
+        .badge-warning { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.4); }
+
+        .hero-title {
+            font-size: 2rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 8px;
+            background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        [data-theme="light"] .hero-title {
+            background: linear-gradient(135deg, #0f172a 0%, #334155 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+
+        /* Typography & Content */
+        .content {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+        }
+
+        .content h1 { font-size: 1.8rem; font-weight: 800; margin: 32px 0 16px 0; color: var(--text-primary); border-bottom: 2px solid var(--border-accent); padding-bottom: 10px; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 30px 0 14px 0; color: var(--primary-light); border-bottom: 1px solid var(--border-color); padding-bottom: 8px; }
+        .content h3 { font-size: 1.15rem; font-weight: 700; margin: 24px 0 12px 0; color: var(--text-primary); }
+        .content h4 { font-size: 1rem; font-weight: 600; margin: 18px 0 8px 0; color: var(--text-secondary); }
+
+        .content p { margin-bottom: 16px; color: var(--text-secondary); font-size: 0.96rem; }
+        .content ul, .content ol { margin: 0 0 20px 24px; color: var(--text-secondary); font-size: 0.95rem; }
+        .content li { margin-bottom: 6px; }
+        .content blockquote {
+            border-left: 4px solid var(--primary);
+            padding: 12px 20px;
+            background: rgba(99, 102, 241, 0.06);
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            margin: 20px 0;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Tables */
+        .table-wrapper { overflow-x: auto; margin: 24px 0; border-radius: var(--radius-md); border: 1px solid var(--border-color); }
+        table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem; }
+        th {
+            background: rgba(31, 41, 55, 0.7); color: var(--text-primary);
+            font-weight: 700; padding: 12px 16px; border-bottom: 1px solid var(--border-color);
+            font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em;
+        }
+        [data-theme="light"] th { background: #f1f5f9; }
+        td { padding: 12px 16px; border-bottom: 1px solid var(--border-color); color: var(--text-secondary); }
+        tr:last-child td { border-bottom: none; }
+        tr:hover td { background: var(--bg-card-hover); color: var(--text-primary); }
+
+        /* Code Badges */
+        .code-tag {
+            font-family: var(--font-code); font-weight: 600; font-size: 0.82rem;
+            padding: 2px 8px; border-radius: 4px; background: rgba(99, 102, 241, 0.12);
+            color: var(--primary-light); border: 1px solid rgba(99, 102, 241, 0.25);
+        }
+        code {
+            font-family: var(--font-code); font-size: 0.85rem; padding: 2px 6px;
+            background: rgba(255, 255, 255, 0.06); border-radius: 4px; color: var(--primary-light);
+        }
+
+        .cat-badge { font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px; display: inline-block; }
+        .cat-mkwu { background: rgba(236, 72, 153, 0.15); color: #f472b6; border: 1px solid rgba(236, 72, 153, 0.3); }
+        .cat-fsti { background: rgba(139, 92, 246, 0.15); color: #c084fc; border: 1px solid rgba(139, 92, 246, 0.3); }
+        .cat-sti  { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
+        .cat-elektif { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+
+        /* Custom Alerts */
+        .custom-alert {
+            border-left: 4px solid var(--primary);
+            background: rgba(17, 24, 39, 0.6);
+            border: 1px solid var(--border-color);
+            border-left-width: 4px;
+            border-radius: var(--radius-md);
+            padding: 16px 20px;
+            margin: 24px 0;
+        }
+        .alert-important { border-left-color: var(--primary); background: rgba(99, 102, 241, 0.08); }
+        .alert-note { border-left-color: var(--secondary); background: rgba(6, 182, 212, 0.08); }
+        .alert-tip { border-left-color: var(--accent); background: rgba(16, 185, 129, 0.08); }
+        .alert-warning { border-left-color: var(--warning); background: rgba(245, 158, 11, 0.08); }
+        .alert-caution { border-left-color: var(--danger); background: rgba(239, 68, 68, 0.08); }
+        
+        .alert-header { font-weight: 700; font-size: 0.9rem; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
+        .alert-important .alert-header { color: var(--primary-light); }
+        .alert-note .alert-header { color: var(--secondary); }
+        .alert-tip .alert-header { color: var(--accent); }
+        .alert-warning .alert-header { color: var(--warning); }
+        .alert-caution .alert-header { color: var(--danger); }
+        .alert-content { color: var(--text-secondary); font-size: 0.92rem; }
+
+        /* Mermaid Box */
+        .mermaid-card {
+            background: rgba(17, 24, 39, 0.5);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 24px; margin: 24px 0;
+            text-align: center; overflow-x: auto;
+        }
+
+        /* Bottom Nav Links */
+        .doc-nav {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--border-color);
+        }
+        .nav-btn {
+            background: var(--bg-secondary); border: 1px solid var(--border-color);
+            color: var(--text-primary); padding: 10px 18px; border-radius: var(--radius-sm);
+            text-decoration: none; font-weight: 600; font-size: 0.88rem; transition: all 0.2s;
+        }
+        .nav-btn:hover { border-color: var(--primary); color: var(--primary-light); }
+
+        /* Footer */
+        .footer { margin-top: 60px; text-align: center; color: var(--text-muted); font-size: 0.85rem; }
+
+        @media print {
+            body { background: white; color: black; }
+            .navbar, .nav-actions, .doc-nav, .search-box { display: none; }
+            .hero, .content { border: 1px solid #ccc; box-shadow: none; background: white; padding: 20px; }
+            th { background: #eee !important; color: black !important; }
+            td { color: black !important; }
+            .code-tag { background: #f0f0f0; color: black; border: 1px solid #ccc; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <a href="index.html" class="brand">
+                <div class="brand-logo">STI</div>
+                <div class="brand-text">
+                    <h1>SISTEKIN — FSTI UWG</h1>
+                    <p>Buku Kurikulum OBE 2026</p>
+                </div>
+            </a>
+            
+            <select class="doc-select" onchange="window.location.href=this.value">
+                <option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
+<option value="002_FORMULASI_3_PEO_DAN_4_PROFIL_LULUSAN_SISTEKIN.html" >002 — Formulasi 3 PEO & 4 Profil Lulusan</option>
+<option value="003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.html" >003 — Standar 14 CPL & Pemetaan BoK APTIKOM</option>
+<option value="004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.html" >004 — Matriks Keterlacakan OBE VMTS-PEO-PL-CPL-MK</option>
+<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — Struktur Kurikulum 8 Semester & Peminatan</option>
+<option value="006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.html" >006 — Distribusi MK Peminatan & Panduan MBKM</option>
+<option value="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" >007 — Silabus 3-Tabel & CPMK 67 MK Portofolio</option>
+<option value="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" >008 — Sistem Asesmen OBE & Attainment CPL</option>
+<option value="009_LANGKAH2_CPL_FORMAL.html" >009 — Ringkasan Langkah 2: CPL Formal</option>
+<option value="009A_CPL_SIKAP_SISTEKIN.html" >009A — Detail CPL Sikap (S1)</option>
+<option value="009B_CPL_KETERAMPILAN_UMUM_SISTEKIN.html" >009B — Detail CPL Keterampilan Umum (KU1-3)</option>
+<option value="009C_CPL_PENGETAHUAN_SISTEKIN.html" >009C — Detail CPL Pengetahuan (P1-4)</option>
+<option value="009D_CPL_KETERAMPILAN_KHUSUS_SISTEKIN.html" >009D — Detail CPL Keterampilan Khusus (KK1-6)</option>
+<option value="009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.html" >009E — Master Matriks Kompilasi 14 CPL & BoK</option>
+<option value="009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.html" >009 — Pedoman Capstone & 4 Opsi TA Non-Skripsi</option>
+<option value="010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.html" >010 — Instrumen Tracer Study & Evaluasi PEO</option>
+<option value="011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.html" selected>011 — 14 Sheet Matriks Implementasi OBE</option>
+<option value="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" >📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)</option>
+            </select>
+
+            
+    <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="globalTableSearch" class="search-input" placeholder="Cari dalam dokumen (kode, MK, istilah, tabel)...">
+    </div>
+    
+
+            <div class="nav-actions">
+                <a href="index.html" class="btn-action">🏠 Portal Dokumen</a>
+                <button class="btn-action" onclick="window.print()">🖨️ Cetak PDF</button>
+                <button class="btn-action" id="themeToggle">🌓 Tema</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-badge-group">
+                <span class="badge badge-primary">Kurikulum OBE 2026</span>
+                <span class="badge badge-accent">Permendikbudristek 53/2023</span>
+                <span class="badge badge-warning">FSTI UWG Malang</span>
+            </div>
+            <h1 class="hero-title">011 — 14 Sheet Matriks Implementasi OBE</h1>
+            <p style="color: var(--text-secondary); font-size: 0.95rem;">Dokumen Kurikulum OBE Definitif Program Studi Sistem dan Teknologi Informasi (S1)</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="content">
+            <h1 id="implementasi-modul-obe-s1-sistem-dan-teknologi-informasi-uwg-2026">IMPLEMENTASI MODUL OBE — S1 SISTEM DAN TEKNOLOGI INFORMASI UWG 2026</h1>
+<h2 id="program-studi-sistem-dan-teknologi-informasi-sistekin">Program Studi Sistem dan Teknologi Informasi (SISTEKIN)</h2>
+<h2 id="fakultas-sains-dan-teknologi-informasi-fsti-universitas-widyagama-malang">Fakultas Sains dan Teknologi Informasi (FSTI) — Universitas Widyagama Malang</h2>
+<p><strong>Versi Dokumen:</strong> Revisi Final 2026 (Kurikulum KPT-OBE SISTEKIN)<br />
+<strong>Standar:</strong> Permendikbudristek No. 53/2023 | APTIKOM OBE IS2020/IT2017 | LAM INFOKOM<br />
+<strong>Total Sheet:</strong> 14<br />
+<strong>Catatan Export:</strong> File ini dioptimalkan untuk ekspor ke Excel, Word, dan PDF. Setiap Sheet merupakan satu lembar/tab tersendiri.</p>
+<hr />
+<h2 id="sheet-1-cek-list-kesiapan-obe">Sheet 1: Cek List Kesiapan OBE</h2>
+<blockquote>
+<p>SELF ASSESSMENT KESIAPAN IMPLEMENTASI MODUL OBE - S1 SISTEM DAN TEKNOLOGI INFORMASI 2026</p>
+</blockquote>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Aspek</th>
+<th>Kriteria / Pertanyaan Kesiapan</th>
+<th>Status</th>
+<th>Catatan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Kurikulum OBE</td>
+<td>Profil lulusan tersedia dan menggambarkan peran lulusan.</td>
+<td>Ya</td>
+<td>4 Profil Lulusan (PL-1 s.d. PL-4) telah dirumuskan (Dok. 002).</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Kurikulum OBE</td>
+<td>Jumlah profil lulusan &gt;= 3 dan mencakup bekerja/wirausaha.</td>
+<td>Ya</td>
+<td>4 PL, termasuk Digital Technopreneur (PL-4).</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Kurikulum OBE</td>
+<td>Profil lulusan disajikan dengan kode, nama, deskripsi, dan profesi.</td>
+<td>Ya</td>
+<td>Tersedia pada Sheet 2 dan Dok. 002.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Kurikulum OBE</td>
+<td>CPL prodi tersedia dan dirumuskan dengan KKO + konten + konteks.</td>
+<td>Ya</td>
+<td>14 CPL (S1, KU1-3, P1-4, KK1-6) pada Dok. 003.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Kurikulum OBE</td>
+<td>Jumlah CPL berada pada rentang 10-15.</td>
+<td>Ya</td>
+<td>Jumlah CPL = 14 (SN-Dikti + APTIKOM IS2020/IT2017).</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Kurikulum OBE</td>
+<td>Semua CPL dipetakan ke Profil Lulusan.</td>
+<td>Ya</td>
+<td>Tersedia pada Sheet 4 dan Dok. 004.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Kurikulum OBE</td>
+<td>Setiap PL ditopang minimal 3 CPL.</td>
+<td>Ya</td>
+<td>Seluruh PL ditopang min. 8 CPL.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Kurikulum OBE</td>
+<td>Semua mata kuliah dipetakan terhadap CPL.</td>
+<td>Ya</td>
+<td>55 MK (paket) dan 67 MK (portofolio) dipetakan pada Sheet 5 (Dok. 004).</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Kurikulum OBE</td>
+<td>Struktur mata kuliah per semester dan total SKS tersedia.</td>
+<td>Ya</td>
+<td>55 MK / 146 SKS paket ditempuh; 67 MK / 182 SKS portofolio; 8 semester (Dok. 005).</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Kurikulum OBE</td>
+<td>Peta pemenuhan CPL oleh mata kuliah (level I-R-M) tersedia.</td>
+<td>Ya</td>
+<td>Tersedia pada Sheet 7 (Dok. 004).</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Kurikulum OBE</td>
+<td>Bahan Kajian (BK) telah difinalkan dan dipetakan CPL-BK-MK.</td>
+<td>Ya</td>
+<td>19 BK IS2020 + 14 BK IT2017 dipetakan penuh (Dok. 003).</td>
+</tr>
+<tr>
+<td>12</td>
+<td>OBLT</td>
+<td>Setiap mata kuliah memiliki RPS berbasis CPL/CPMK/Sub-CPMK.</td>
+<td>Ya</td>
+<td>CPMK dan Sub-CPMK seluruh 67 MK tersedia pada Dok. 007.</td>
+</tr>
+<tr>
+<td>13</td>
+<td>OBLT</td>
+<td>Metode pembelajaran selaras dengan CPMK dan asesmen.</td>
+<td>Ya</td>
+<td>Case Method + PjBL &gt;= 60% sesuai IKU 7; diverifikasi Dok. 008.</td>
+</tr>
+<tr>
+<td>14</td>
+<td>OBLAE</td>
+<td>Rencana evaluasi dan bobot penilaian setiap MK tersedia.</td>
+<td>Ya</td>
+<td>Skema 4x Asesmen (T1=20%, UTS=25-30%, T2=20-25%, UAS=30%) pada Dok. 007 &amp; 008.</td>
+</tr>
+<tr>
+<td>15</td>
+<td>OBLAE</td>
+<td>Capaian CPMK dan CPL dihitung dari data nilai aktual mahasiswa.</td>
+<td>Belum</td>
+<td>Memerlukan data hasil asesmen aktual implementasi kurikulum baru.</td>
+</tr>
+<tr>
+<td>16</td>
+<td>OBLAE</td>
+<td>Analisis ketercapaian dan continuous improvement dilakukan berkala.</td>
+<td>Belum</td>
+<td>Siklus PPEPP/CQI dirancang pada Dok. 010; dijalankan setelah implementasi.</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Dokumen</td>
+<td>Landasan, tracer study, PEO/Tujuan Pendidikan, dan referensi kurikulum terdokumentasi.</td>
+<td>Ya</td>
+<td>VMTS 2045, SWOT, 4 PL + 3 PEO terdokumentasi penuh (Dok. 001, 002).</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="sheet-2-profil-lulusan-4-pl">Sheet 2: Profil Lulusan (4 PL)</h2>
+<blockquote>
+<p>PROFIL LULUSAN - S1 SISTEM DAN TEKNOLOGI INFORMASI 2026 (Dok. 002)</p>
+</blockquote>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Kode PL</th>
+<th>Nama Profil Lulusan</th>
+<th>Deskripsi Profil Lulusan</th>
+<th>Profesi / Bidang Karier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>PL-1</td>
+<td>Intelligent IS Developer &amp; AI Engineer</td>
+<td>Lulusan mampu merancang dan mengembangkan sistem informasi berbasis AI yang terintegrasi, andal, dan adaptif sesuai kebutuhan bisnis dan organisasi, mencakup rekayasa data, model ML, dan integrasi layanan cerdas.</td>
+<td>AI Application Developer; Intelligent Enterprise Developer; Software Engineer (AI/ML); Data Scientist; MLOps Specialist</td>
+</tr>
+<tr>
+<td>2</td>
+<td>PL-2</td>
+<td>Cloud Infrastructure, Cybersecurity &amp; Smart Systems Integrator</td>
+<td>Lulusan mampu mengintegrasikan infrastruktur cloud, IoT, dan keamanan informasi menjadi sistem cerdas yang aman, andal, dan sesuai standar GRC (COBIT/ITIL/ISO 27001).</td>
+<td>Cloud Systems Integrator; IoT Solutions Architect; Smart City Engineer; IT Auditor; Cybersecurity GRC Specialist</td>
+</tr>
+<tr>
+<td>3</td>
+<td>PL-3</td>
+<td>UI/UX Designer &amp; Digital Platform Engineer</td>
+<td>Lulusan mampu merancang pengalaman pengguna (UX) yang inklusif dan membangun platform digital skalabel berbasis web, mobile, microservices, dan proses bisnis terotomasi.</td>
+<td>Full-Stack Platform Engineer; UX/Product Engineer; Mobile Lead Developer; Digital Product Manager</td>
+</tr>
+<tr>
+<td>4</td>
+<td>PL-4</td>
+<td>Digital Technopreneur &amp; IT Product Innovator</td>
+<td>Lulusan mampu mengembangkan usaha dan inovasi digital berbasis kebutuhan pasar dan masyarakat secara kreatif, etis, dan berkelanjutan, termasuk memimpin tim dan mengelola proyek TI skala startup.</td>
+<td>Tech Startup Founder; SaaS Product Owner; Digital Product Manager; IT Project Manager</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="sheet-3-cpl-prodi-14-cpl">Sheet 3: CPL Prodi (14 CPL)</h2>
+<blockquote>
+<p>CAPAIAN PEMBELAJARAN LULUSAN (CPL) - 14 OUTCOMES (S1 + KU1-3 + P1-4 + KK1-6)
+CPL dirumuskan sesuai SN-Dikti + APTIKOM IS2020/IT2017. Sumber: Dok. 003.</p>
+</blockquote>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Kode CPL</th>
+<th>Kategori</th>
+<th>Rumusan CPL</th>
+<th>Fokus / Domain</th>
+<th>PL Terkait</th>
+<th>Sumber</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>S1</td>
+<td>Sikap</td>
+<td>Bertakwa kepada Tuhan Yang Maha Esa, menginternalisasi nilai, norma, dan etika digital, menjunjung tinggi kejujuran dan profesionalisme, bekerja sama secara produktif dalam tim lintas disiplin, serta menunjukkan sikap tanggung jawab atas pekerjaan di bidang keahliannya secara mandiri</td>
+<td>Sikap &amp; etika profesional</td>
+<td>PL-1 s.d. PL-4</td>
+<td>SN-Dikti (S1-S10)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>KU1</td>
+<td>Keterampilan Umum</td>
+<td>Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam menganalisis permasalahan computing serta mengkaji implikasi pengembangan teknologi sesuai kaidah ilmiah</td>
+<td>Analisis &amp; inovasi computing</td>
+<td>PL-1, PL-2</td>
+<td>SN-Dikti KU1, KU3</td>
+</tr>
+<tr>
+<td>3</td>
+<td>KU2</td>
+<td>Keterampilan Umum</td>
+<td>Mampu mengkomunikasikan gagasan, analisis, dan solusi teknis secara efektif secara lisan dan tulisan, serta memelihara dan mengembangkan jaringan kerja profesional</td>
+<td>Komunikasi &amp; networking profesional</td>
+<td>PL-3, PL-4</td>
+<td>SN-Dikti KU4, KU6</td>
+</tr>
+<tr>
+<td>4</td>
+<td>KU3</td>
+<td>Keterampilan Umum</td>
+<td>Mampu mengambil keputusan tepat berdasarkan analisis informasi dan data, bertanggungjawab atas hasil kerja kelompok, melakukan evaluasi diri, serta mengelola pembelajaran secara mandiri</td>
+<td>Pengambilan keputusan &amp; manajemen diri</td>
+<td>PL-3, PL-4</td>
+<td>SN-Dikti KU2, KU5, KU7-9</td>
+</tr>
+<tr>
+<td>5</td>
+<td>P1</td>
+<td>Pengetahuan</td>
+<td>Mempunyai pengetahuan dasar sains dan matematika (kalkulus, statistika, aljabar linear, matematika diskrit, logika) sebagai fondasi ilmu komputasi dan pemecahan masalah computing yang kompleks</td>
+<td>Fondasi sains &amp; matematika komputasi</td>
+<td>PL-1, PL-2</td>
+<td>IT2017, IS2020 CPL-P01, P05</td>
+</tr>
+<tr>
+<td>6</td>
+<td>P2</td>
+<td>Pengetahuan</td>
+<td>Memahami konsep dasar sistem informasi, metodologi pengembangan sistem, analisis dan desain sistem, serta peran SI dalam mengelola data dan memberikan rekomendasi keputusan organisasi</td>
+<td>Sistem informasi &amp; metodologi SI</td>
+<td>PL-1, PL-3</td>
+<td>IS2020 CPL-P01, P04, P09, P16</td>
+</tr>
+<tr>
+<td>7</td>
+<td>P3</td>
+<td>Pengetahuan</td>
+<td>Memahami konsep infrastruktur TI, arsitektur jaringan, cloud, keamanan informasi, tata kelola TI, etika digital, dan prinsip manajemen proyek</td>
+<td>Infrastruktur TI &amp; keamanan</td>
+<td>PL-2</td>
+<td>IS2020 CPL-P03, P06, P07, P08</td>
+</tr>
+<tr>
+<td>8</td>
+<td>P4</td>
+<td>Pengetahuan</td>
+<td>Memahami konsep pengelolaan data, basis data, analitik data, visualisasi data, pemrograman web dan mobile, serta UI/UX untuk pengembangan solusi digital</td>
+<td>Platform digital &amp; pengembangan aplikasi</td>
+<td>PL-1, PL-3</td>
+<td>IS2020 CPL-P02, P10-P14</td>
+</tr>
+<tr>
+<td>9</td>
+<td>KK1</td>
+<td>Keterampilan Khusus (P1)</td>
+<td>Mampu menganalisis, merancang, dan mengembangkan sistem informasi cerdas berbasis AI/ML untuk solusi bisnis dan organisasi</td>
+<td>AI/ML integration ke SI bisnis</td>
+<td>PL-1</td>
+<td>IS2020 K01, K09, K13, K16</td>
+</tr>
+<tr>
+<td>10</td>
+<td>KK2</td>
+<td>Keterampilan Khusus (P1)</td>
+<td>Mampu mengumpulkan, memproses, dan menganalisis data serta membangun model machine learning untuk solusi bisnis (data engineering, BI, MLOps)</td>
+<td>Data engineering &amp; ML pipeline</td>
+<td>PL-1</td>
+<td>IS2020 K01, K13, K16</td>
+</tr>
+<tr>
+<td>11</td>
+<td>KK3</td>
+<td>Keterampilan Khusus (P2)</td>
+<td>Mampu mengintegrasikan dan mengelola infrastruktur cloud, menerapkan keamanan siber, serta menjalankan praktik DevOps (CI/CD, containerization, IaC)</td>
+<td>Cloud, IoT &amp; infrastruktur terintegrasi</td>
+<td>PL-2</td>
+<td>IT2017 KK2-3, IS2020 K02, K05, K06</td>
+</tr>
+<tr>
+<td>12</td>
+<td>KK4</td>
+<td>Keterampilan Khusus (P2)</td>
+<td>Mampu menerapkan tata kelola TI, melakukan audit keamanan, dan memastikan kepatuhan terhadap regulasi dan standar industri (COBIT, ITIL, ISO)</td>
+<td>Audit, GRC &amp; tata kelola TI</td>
+<td>PL-2</td>
+<td>IS2020 K05, K06, K07, K14</td>
+</tr>
+<tr>
+<td>13</td>
+<td>KK5</td>
+<td>Keterampilan Khusus (P3)</td>
+<td>Mampu merancang dan mengimplementasikan antarmuka pengguna (UX/UI) yang efektif serta platform digital yang skalabel (microservices, SaaS, cloud-native, API)</td>
+<td>Platform digital skalabel &amp; UI/UX</td>
+<td>PL-3</td>
+<td>IT2017 KK1, IS2020 K03, K04, K08, K10-12</td>
+</tr>
+<tr>
+<td>14</td>
+<td>KK6</td>
+<td>Keterampilan Khusus (P3)</td>
+<td>Mampu merancang dan mengelola proyek startup teknologi informasi cerdas dengan model bisnis berkelanjutan (lean startup, MVP, scaling, digital entrepreneurship)</td>
+<td>Manajemen proyek &amp; technopreneurship</td>
+<td>PL-4</td>
+<td>IS2020 K08, K15</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="sheet-4-matriks-cpl-profil-lulusan">Sheet 4: Matriks CPL - Profil Lulusan</h2>
+<blockquote>
+<p>MATRIKS KETERKAITAN 14 CPL - 4 PROFIL LULUSAN (Dok. 004)</p>
+</blockquote>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Kode CPL</th>
+<th>Rumusan CPL (Ringkas)</th>
+<th>PL-1</th>
+<th>PL-2</th>
+<th>PL-3</th>
+<th>PL-4</th>
+<th>Jumlah PL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>S1</td>
+<td>Sikap &amp; etika profesional digital</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>4</td>
+</tr>
+<tr>
+<td>2</td>
+<td>KU1</td>
+<td>Pemikiran logis, kritis &amp; inovatif computing</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>4</td>
+</tr>
+<tr>
+<td>3</td>
+<td>KU2</td>
+<td>Komunikasi efektif lisan/tulisan &amp; networking</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>4</td>
+</tr>
+<tr>
+<td>4</td>
+<td>KU3</td>
+<td>Pengambilan keputusan &amp; manajemen diri</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>4</td>
+</tr>
+<tr>
+<td>5</td>
+<td>P1</td>
+<td>Fondasi sains &amp; matematika komputasi</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>4</td>
+</tr>
+<tr>
+<td>6</td>
+<td>P2</td>
+<td>Sistem informasi &amp; metodologi SI</td>
+<td>V</td>
+<td></td>
+<td>V</td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>7</td>
+<td>P3</td>
+<td>Infrastruktur TI &amp; keamanan</td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>8</td>
+<td>P4</td>
+<td>Platform digital &amp; pengembangan aplikasi</td>
+<td>V</td>
+<td></td>
+<td>V</td>
+<td>V</td>
+<td>3</td>
+</tr>
+<tr>
+<td>9</td>
+<td>KK1</td>
+<td>AI/ML integration ke SI bisnis</td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>10</td>
+<td>KK2</td>
+<td>Data engineering &amp; ML pipeline</td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>11</td>
+<td>KK3</td>
+<td>Cloud, IoT &amp; infrastruktur terintegrasi</td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>12</td>
+<td>KK4</td>
+<td>Audit, GRC &amp; tata kelola TI</td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>13</td>
+<td>KK5</td>
+<td>Platform digital skalabel &amp; UI/UX</td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>14</td>
+<td>KK6</td>
+<td>Manajemen proyek &amp; technopreneurship</td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Jumlah CPL per PL</td>
+<td></td>
+<td></td>
+<td>10</td>
+<td>9</td>
+<td>9</td>
+<td>8</td>
+<td>Kriteria: min. 3 CPL/PL - terpenuhi</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="sheet-5-matriks-cpl-mata-kuliah-67-mk-portofolio">Sheet 5: Matriks CPL - Mata Kuliah (67 MK Portofolio)</h2>
+<blockquote>
+<p>MATRIKS PEMETAAN CPL - MATA KULIAH (55 MK PAKET / 146 SKS - PORTOFOLIO 67 MK / 182 SKS)
+V = CPL dibebankan dan diases pada MK tersebut. Sumber: Dok. 004.</p>
+</blockquote>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Kode MK</th>
+<th>Nama Mata Kuliah</th>
+<th>Smt</th>
+<th>SKS</th>
+<th>S1</th>
+<th>KU1</th>
+<th>KU2</th>
+<th>KU3</th>
+<th>P1</th>
+<th>P2</th>
+<th>P3</th>
+<th>P4</th>
+<th>KK1</th>
+<th>KK2</th>
+<th>KK3</th>
+<th>KK4</th>
+<th>KK5</th>
+<th>KK6</th>
+<th>Jml CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A. MKWU - MATA KULIAH WAJIB UMUM (8 MK / 13 SKS)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td>MKU-101</td>
+<td>Agama I</td>
+<td>1</td>
+<td>2</td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>MKU-102</td>
+<td>Pancasila</td>
+<td>1</td>
+<td>2</td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>MKU-103</td>
+<td>Bahasa Indonesia</td>
+<td>1</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>4</td>
+<td>MKU-204</td>
+<td>Kewirausahaan I</td>
+<td>2</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td>1</td>
+</tr>
+<tr>
+<td>5</td>
+<td>MKU-405</td>
+<td>Kewarganegaraan</td>
+<td>4</td>
+<td>2</td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>6</td>
+<td>MKU-406</td>
+<td>Agama II</td>
+<td>4</td>
+<td>0</td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>7</td>
+<td>MKU-508</td>
+<td>Kewirausahaan II</td>
+<td>5</td>
+<td>0</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td>1</td>
+</tr>
+<tr>
+<td>8</td>
+<td>MKU-507</td>
+<td>KPM (Kuliah Pengabdian Kepada Masyarakat)</td>
+<td>5</td>
+<td>3</td>
+<td>V</td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>B. MK FSTI - MATA KULIAH WAJIB FAKULTAS (14 MK / 38 SKS)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>FST-101</td>
+<td>Dasar Teknologi Digital</td>
+<td>1</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>10</td>
+<td>FST-102</td>
+<td>Algoritma dan Pemrograman (+P)</td>
+<td>1</td>
+<td>3</td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>11</td>
+<td>FST-203</td>
+<td>Struktur Data &amp; Algoritma (+P)</td>
+<td>2</td>
+<td>3</td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>12</td>
+<td>FST-204</td>
+<td>Pengantar AI &amp; Data</td>
+<td>2</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>13</td>
+<td>FST-205</td>
+<td>Basic English</td>
+<td>2</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>14</td>
+<td>FST-206</td>
+<td>Etika dan Hukum Digital</td>
+<td>2</td>
+<td>2</td>
+<td>V</td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>15</td>
+<td>FST-207</td>
+<td>Basis Data (+P)</td>
+<td>2</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>16</td>
+<td>FST-408</td>
+<td>Probabilitas dan Statistika</td>
+<td>4</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>17</td>
+<td>FST-409</td>
+<td>Manajemen Sains &amp; Riset Operasi</td>
+<td>4</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>18</td>
+<td>FST-610</td>
+<td>Capstone Project FSTI (+P)</td>
+<td>7</td>
+<td>3</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>10</td>
+</tr>
+<tr>
+<td>19</td>
+<td>FST-611</td>
+<td>Metodologi Penelitian</td>
+<td>6</td>
+<td>2</td>
+<td></td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+</tr>
+<tr>
+<td>20</td>
+<td>FST-612</td>
+<td>Praktik Kerja Lapangan (+P)</td>
+<td>7</td>
+<td>3</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td>V</td>
+<td></td>
+<td>7</td>
+</tr>
+<tr>
+<td>21</td>
+<td>FST-613</td>
+<td>Pra-Skripsi / Seminar Proposal</td>
+<td>7</td>
+<td>2</td>
+<td></td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+</tr>
+<tr>
+<td>22</td>
+<td>FST-714</td>
+<td>Skripsi / Tugas Akhir (+P)</td>
+<td>8</td>
+<td>6</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>V</td>
+<td>14</td>
+</tr>
+<tr>
+<td>C. MK CORE STI - MATA KULIAH INTI PROGRAM STUDI (27 MK / 77 SKS)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>23</td>
+<td>STI-101</td>
+<td>Pengantar Sistem &amp; Teknologi Informasi</td>
+<td>1</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>24</td>
+<td>STI-102</td>
+<td>Kalkulus</td>
+<td>1</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>25</td>
+<td>STI-103</td>
+<td>Logika Informatika</td>
+<td>1</td>
+<td>3</td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>26</td>
+<td>STI-201</td>
+<td>Matematika Diskrit</td>
+<td>2</td>
+<td>3</td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>27</td>
+<td>STI-202</td>
+<td>Aljabar Linear</td>
+<td>2</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>28</td>
+<td>STI-301</td>
+<td>Analisis &amp; Perancangan Sistem Informasi</td>
+<td>3</td>
+<td>3</td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td>3</td>
+</tr>
+<tr>
+<td>29</td>
+<td>STI-302</td>
+<td>Sistem Cerdas</td>
+<td>3</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>30</td>
+<td>STI-303</td>
+<td>UI/UX Design &amp; Prototyping (+P)</td>
+<td>3</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>31</td>
+<td>STI-304</td>
+<td>Rekayasa Perangkat Lunak</td>
+<td>3</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td>V</td>
+<td>3</td>
+</tr>
+<tr>
+<td>32</td>
+<td>STI-305</td>
+<td>Sistem Operasi</td>
+<td>3</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>33</td>
+<td>STI-306</td>
+<td>Web Front End Development (+P)</td>
+<td>3</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>34</td>
+<td>STI-307</td>
+<td>Jaringan Komputer (+P)</td>
+<td>3</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>35</td>
+<td>STI-401</td>
+<td>Machine Learning (+P)</td>
+<td>4</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td>V</td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+</tr>
+<tr>
+<td>36</td>
+<td>STI-402</td>
+<td>Data Warehouse &amp; Business Intelligence (+P)</td>
+<td>4</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>37</td>
+<td>STI-404</td>
+<td>Komputasi Awan (Cloud Computing)</td>
+<td>4</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>38</td>
+<td>STI-405</td>
+<td>Dasar Keamanan Informasi</td>
+<td>4</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>39</td>
+<td>STI-407</td>
+<td>Web Back End Development (+P)</td>
+<td>4</td>
+<td>3</td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>40</td>
+<td>STI-501</td>
+<td>Deep Learning &amp; Neural Networks (+P)</td>
+<td>5</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>41</td>
+<td>STI-503</td>
+<td>Data Mining &amp; Visualisasi Data (+P)</td>
+<td>5</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>42</td>
+<td>STI-504</td>
+<td>Internet of Things (IoT) (+P)</td>
+<td>5</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>43</td>
+<td>STI-505</td>
+<td>Pemrograman Aplikasi Mobile (+P)</td>
+<td>5</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>44</td>
+<td>STI-506</td>
+<td>Manajemen Proyek Teknologi Informasi</td>
+<td>5</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td>1</td>
+</tr>
+<tr>
+<td>45</td>
+<td>STI-601</td>
+<td>Integrasi Layanan Cerdas Berbasis AI (+P)</td>
+<td>6</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>46</td>
+<td>STI-602</td>
+<td>Smart City &amp; Pemerintahan Digital</td>
+<td>6</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>47</td>
+<td>STI-603</td>
+<td>Keamanan Informasi Lanjut</td>
+<td>6</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td>V</td>
+<td></td>
+<td></td>
+<td>3</td>
+</tr>
+<tr>
+<td>48</td>
+<td>STI-604</td>
+<td>Digital Platform Engineering (+P)</td>
+<td>6</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>49</td>
+<td>STI-701</td>
+<td>Inovasi Teknologi &amp; Startup Digital (+P)</td>
+<td>7</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td>1</td>
+</tr>
+<tr>
+<td>D. MK PILIHAN P1: INTEGRATED SMART SYSTEMS (6 MK / 18 SKS)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>50</td>
+<td>STA-01</td>
+<td>Decision Support Systems (+P)</td>
+<td>5-7</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>51</td>
+<td>STA-02</td>
+<td>Computational Methods &amp; Numerics (+P)</td>
+<td>5-7</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>52</td>
+<td>STA-03</td>
+<td>Intelligent Agent Systems (+P)</td>
+<td>5-7</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>53</td>
+<td>STA-04</td>
+<td>MLOps and AI Pipeline (+P)</td>
+<td>5-7</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>54</td>
+<td>STA-05</td>
+<td>Conversational AI &amp; Intelligent Assistant (+P)</td>
+<td>5-7</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>55</td>
+<td>STA-06</td>
+<td>Smart Surveillance &amp; IoT Analytics (+P)</td>
+<td>5-7</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>E. MK PILIHAN P2: CLOUD INFRASTRUCTURE &amp; CYBERSECURITY (6 MK / 18 SKS)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>56</td>
+<td>STB-01</td>
+<td>Network Security &amp; Digital Forensics (+P)</td>
+<td>5-7</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td>V</td>
+<td></td>
+<td></td>
+<td>3</td>
+</tr>
+<tr>
+<td>57</td>
+<td>STB-02</td>
+<td>Cloud Architecture &amp; DevOps (+P)</td>
+<td>5-7</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>58</td>
+<td>STB-03</td>
+<td>Cybersecurity Risk Management</td>
+<td>5-7</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td>V</td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>59</td>
+<td>STB-04</td>
+<td>IT Governance &amp; Compliance (COBIT 2019)</td>
+<td>5-7</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>60</td>
+<td>STB-05</td>
+<td>IT Service Management (ITIL 4)</td>
+<td>5-7</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>61</td>
+<td>STB-06</td>
+<td>Enterprise Architecture (TOGAF)</td>
+<td>5-7</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>F. MK PILIHAN P3: DIGITAL PLATFORM ENGINEERING (6 MK / 18 SKS)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>62</td>
+<td>STC-01</td>
+<td>User Experience Research &amp; Design (+P)</td>
+<td>5-7</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>63</td>
+<td>STC-02</td>
+<td>Rekayasa &amp; Otomasi Proses Bisnis (+P)</td>
+<td>5-7</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>64</td>
+<td>STC-03</td>
+<td>Rekayasa Aplikasi Industri Vertikal (+P)</td>
+<td>5-7</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>65</td>
+<td>STC-04</td>
+<td>Immersive Media &amp; XR Development (+P)</td>
+<td>5-7</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>66</td>
+<td>STC-05</td>
+<td>SaaS Architecture &amp; Multi-Tenancy (+P)</td>
+<td>5-7</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>67</td>
+<td>STC-06</td>
+<td>Digital Product Management &amp; Agile</td>
+<td>5-7</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>V</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Jumlah MK Pendukung tiap CPL</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>9</td>
+<td>12</td>
+<td>11</td>
+<td>6</td>
+<td>9</td>
+<td>15</td>
+<td>12</td>
+<td>12</td>
+<td>11</td>
+<td>7</td>
+<td>12</td>
+<td>7</td>
+<td>14</td>
+<td>8</td>
+<td>Seluruh 14 CPL dicakup minimal 1 MK</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="sheet-6-organisasi-mata-kuliah-per-semester">Sheet 6: Organisasi Mata Kuliah Per Semester</h2>
+<blockquote>
+<p>ORGANISASI MATA KULIAH - KURIKULUM SISTEKIN 2026 (Dok. 005)
+Paket Ditempuh: 55 MK / 146 SKS | Portofolio Ditawarkan: 67 MK / 182 SKS</p>
+</blockquote>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Semester</th>
+<th>Jumlah MK</th>
+<th>Total SKS</th>
+<th>SKS Kumulatif</th>
+<th>Daftar Mata Kuliah (SKS)</th>
+<th>CPL Dominan</th>
+<th>Catatan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>8 MK</td>
+<td>19 SKS</td>
+<td>19 SKS</td>
+<td>MKU-101 Agama I (2) / MKU-102 Pancasila (2) / MKU-103 Bahasa Indonesia (2) / FST-101 Dasar Teknologi Digital (2) / FST-102 Algoritma &amp; Pemrograman (3) / STI-101 Pengantar SI &amp; TI (2) / STI-102 Kalkulus (3) / STI-103 Logika Informatika (3)</td>
+<td>S1, P1, P2, P4, KU1</td>
+<td>Fondasi komputer, coding, dan matematika</td>
+</tr>
+<tr>
+<td>2</td>
+<td>8 MK</td>
+<td>20 SKS</td>
+<td>39 SKS</td>
+<td>STI-201 Matematika Diskrit (3) / STI-202 Aljabar Linear (3) / FST-203 Struktur Data &amp; Algoritma (3) / FST-204 Pengantar AI &amp; Data (2) / FST-205 Basic English (2) / FST-206 Etika &amp; Hukum Digital (2) / FST-207 Basis Data (3) / MKU-204 Kewirausahaan I (2)</td>
+<td>P1, P2, P4, KU1, KU2, KK1, KK6</td>
+<td>Tepat 20 SKS - Patuh Permendikbud 53/2023</td>
+</tr>
+<tr>
+<td>3</td>
+<td>7 MK</td>
+<td>20 SKS</td>
+<td>59 SKS</td>
+<td>STI-301 APSI (3) / STI-302 Sistem Cerdas (2) / STI-303 UI/UX Design (3) / STI-304 RPL (3) / STI-305 Sistem Operasi (3) / STI-306 Web Front End (3) / STI-307 Jaringan Komputer (3)</td>
+<td>P2, P3, P4, KK1, KK3, KK5</td>
+<td>Fondasi sistem, jaringan, OS, dan UI/UX</td>
+</tr>
+<tr>
+<td>4</td>
+<td>8 MK</td>
+<td>21 SKS</td>
+<td>80 SKS</td>
+<td>STI-401 Machine Learning (3) / STI-402 DW &amp; BI (3) / STI-404 Cloud (3) / STI-405 Dasar Keamanan (2) / STI-407 Web Back End (3) / FST-408 Statistika (3) / FST-409 Manajemen Sains (2) / MKU-405 KWN (2) / MKU-406 Agama II (0)</td>
+<td>P1, P2, P3, KK1, KK2, KK3, KU2</td>
+<td>STI-405 = 2 SKS Teori. MKU-406 = 0 SKS kebijakan UWG</td>
+</tr>
+<tr>
+<td>5</td>
+<td>7 MK + 1x0SKS</td>
+<td>21 SKS</td>
+<td>101 SKS</td>
+<td>STI-501 Deep Learning (3) / STI-503 Data Mining (3) / STI-504 IoT (3) / STI-505 Mobile App (3) / STI-506 Manpro TI (3) / MKU-507 KPM (3) / MK Pilihan 1 (3) / MKU-508 KWU II (0)</td>
+<td>KK1, KK2, KK3, KK5, KK6, S1, KU</td>
+<td>6 MK Wajib (18 SKS) + 1 MK Pilihan (3 SKS). MKU-508 = 0 SKS kebijakan UWG</td>
+</tr>
+<tr>
+<td>6</td>
+<td>7 MK</td>
+<td>19 SKS</td>
+<td>120 SKS</td>
+<td>STI-601 Integrasi AI (3) / STI-602 Smart City (2) / STI-603 Keamanan Lanjut (3) / STI-604 Digital Platform Eng (3) / FST-611 Metopel (2) / MK Pilihan 2 (3) / MK Pilihan 3 (3)</td>
+<td>P2, P3, KK1, KK3, KK4, KK5, KU1-3</td>
+<td>STI-602 = 2 SKS Teori Non-Praktikum. MBKM maks. 20 SKS</td>
+</tr>
+<tr>
+<td>7</td>
+<td>7 MK</td>
+<td>20 SKS</td>
+<td>140 SKS</td>
+<td>STI-701 Startup Digital (3) / FST-610 Capstone (3) / FST-612 PKL (3) / FST-613 Pra-Skripsi (2) / MK Pilihan 4 (3) / MK Pilihan 5 (3) / MK Pilihan 6 (3)</td>
+<td>KK6, KK3, KK4, KU1-3, S1</td>
+<td>4 MK Wajib (11 SKS) + 3 MK Pilihan (9 SKS). MBKM maks. 20 SKS</td>
+</tr>
+<tr>
+<td>8</td>
+<td>1 MK</td>
+<td>6 SKS</td>
+<td>146 SKS</td>
+<td>FST-714 Skripsi / Tugas Akhir (6)</td>
+<td>S1, KU1-3, seluruh P &amp; KK</td>
+<td>Skripsi Murni (6 SKS) / 4 Opsi Non-Skripsi ekuivalen 6 SKS</td>
+</tr>
+<tr>
+<td>TOTAL</td>
+<td>55 MK</td>
+<td>146 SKS</td>
+<td>146 SKS</td>
+<td>49 MK Wajib (128 SKS) + 6 MK Pilihan Peminatan (18 SKS, Sem 5-7) = 55 MK / 146 SKS</td>
+<td></td>
+<td>Portofolio: 67 MK / 182 SKS. Syarat Lulus Min. 144 SKS (Permendikbud 53/2023)</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="sheet-7-peta-pemenuhan-cpl-level-i-r-m">Sheet 7: Peta Pemenuhan CPL (Level I-R-M)</h2>
+<blockquote>
+<p>PETA PEMENUHAN CPL OLEH MATA KULIAH - LEVEL I/R/M (Dok. 004)
+Legenda: I = Introduced (C2-C3), R = Reinforced (C3-C4, diperkuat &amp; dipraktikkan), M = Mastered (C5-C6, dikuasai &amp; diases portofolio)</p>
+</blockquote>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode MK</th>
+<th>Nama Mata Kuliah</th>
+<th>SKS</th>
+<th>Smt</th>
+<th>S1</th>
+<th>KU1</th>
+<th>KU2</th>
+<th>KU3</th>
+<th>P1</th>
+<th>P2</th>
+<th>P3</th>
+<th>P4</th>
+<th>KK1</th>
+<th>KK2</th>
+<th>KK3</th>
+<th>KK4</th>
+<th>KK5</th>
+<th>KK6</th>
+<th>Jml CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MKU-101</td>
+<td>Agama I</td>
+<td>2</td>
+<td>1</td>
+<td>I</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>MKU-102</td>
+<td>Pancasila</td>
+<td>2</td>
+<td>1</td>
+<td>I</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>MKU-103</td>
+<td>Bahasa Indonesia</td>
+<td>2</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td>I</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>FST-101</td>
+<td>Dasar Teknologi Digital</td>
+<td>2</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>I</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>FST-102</td>
+<td>Algoritma dan Pemrograman</td>
+<td>3</td>
+<td>1</td>
+<td></td>
+<td>I</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>I</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>STI-101</td>
+<td>Pengantar Sistem &amp; TI</td>
+<td>2</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>I</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>STI-102</td>
+<td>Kalkulus</td>
+<td>3</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>I</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>STI-103</td>
+<td>Logika Informatika</td>
+<td>3</td>
+<td>1</td>
+<td></td>
+<td>I</td>
+<td></td>
+<td></td>
+<td>I</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>MKU-204</td>
+<td>Kewirausahaan I</td>
+<td>2</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>I</td>
+<td>1</td>
+</tr>
+<tr>
+<td>STI-201</td>
+<td>Matematika Diskrit</td>
+<td>3</td>
+<td>2</td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>STI-202</td>
+<td>Aljabar Linear</td>
+<td>3</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>FST-203</td>
+<td>Struktur Data &amp; Algoritma</td>
+<td>3</td>
+<td>2</td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>FST-204</td>
+<td>Pengantar AI &amp; Data</td>
+<td>2</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>I</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>FST-205</td>
+<td>Basic English</td>
+<td>2</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td>I</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>FST-206</td>
+<td>Etika dan Hukum Digital</td>
+<td>2</td>
+<td>2</td>
+<td>R</td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>FST-207</td>
+<td>Basis Data</td>
+<td>3</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td>I</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>STI-301</td>
+<td>Analisis &amp; Perancangan SI</td>
+<td>3</td>
+<td>3</td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td>3</td>
+</tr>
+<tr>
+<td>STI-302</td>
+<td>Sistem Cerdas</td>
+<td>2</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>STI-303</td>
+<td>UI/UX Design &amp; Prototyping</td>
+<td>3</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>STI-304</td>
+<td>Rekayasa Perangkat Lunak</td>
+<td>3</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td>R</td>
+<td>3</td>
+</tr>
+<tr>
+<td>STI-305</td>
+<td>Sistem Operasi</td>
+<td>3</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>STI-306</td>
+<td>Web Front End Development</td>
+<td>3</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>STI-307</td>
+<td>Jaringan Komputer</td>
+<td>3</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>STI-401</td>
+<td>Machine Learning</td>
+<td>3</td>
+<td>4</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td>R</td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+</tr>
+<tr>
+<td>STI-402</td>
+<td>Data Warehouse &amp; BI</td>
+<td>3</td>
+<td>4</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>STI-404</td>
+<td>Komputasi Awan (Cloud Computing)</td>
+<td>3</td>
+<td>4</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>STI-405</td>
+<td>Dasar Keamanan Informasi</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>STI-407</td>
+<td>Web Back End Development</td>
+<td>3</td>
+<td>4</td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>FST-408</td>
+<td>Probabilitas dan Statistika</td>
+<td>3</td>
+<td>4</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>FST-409</td>
+<td>Manajemen Sains &amp; Riset Operasi</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+<td>R</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>STI-501</td>
+<td>Deep Learning &amp; Neural Networks</td>
+<td>3</td>
+<td>5</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>M</td>
+<td>M</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>STI-503</td>
+<td>Data Mining &amp; Visualisasi Data</td>
+<td>3</td>
+<td>5</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>M</td>
+<td></td>
+<td></td>
+<td></td>
+<td>M</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>STI-504</td>
+<td>Internet of Things (IoT)</td>
+<td>3</td>
+<td>5</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>M</td>
+<td></td>
+<td></td>
+<td></td>
+<td>M</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>STI-505</td>
+<td>Pemrograman Aplikasi Mobile</td>
+<td>3</td>
+<td>5</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>M</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>M</td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>STI-506</td>
+<td>Manajemen Proyek TI</td>
+<td>3</td>
+<td>5</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>M</td>
+<td>1</td>
+</tr>
+<tr>
+<td>MKU-507</td>
+<td>KPM / KKN Digital</td>
+<td>3</td>
+<td>5</td>
+<td>M</td>
+<td></td>
+<td>M</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>STI-601</td>
+<td>Integrasi Layanan Cerdas Berbasis AI</td>
+<td>3</td>
+<td>6</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>M</td>
+<td></td>
+<td></td>
+<td>M</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>STI-602</td>
+<td>Smart City &amp; Pemerintahan Digital</td>
+<td>2</td>
+<td>6</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>M</td>
+<td></td>
+<td></td>
+<td></td>
+<td>M</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>STI-603</td>
+<td>Keamanan Informasi Lanjut</td>
+<td>3</td>
+<td>6</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>M</td>
+<td></td>
+<td></td>
+<td></td>
+<td>M</td>
+<td>M</td>
+<td></td>
+<td></td>
+<td>3</td>
+</tr>
+<tr>
+<td>STI-604</td>
+<td>Digital Platform Engineering</td>
+<td>3</td>
+<td>6</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>M</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>M</td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>FST-611</td>
+<td>Metodologi Penelitian</td>
+<td>2</td>
+<td>6</td>
+<td></td>
+<td>M</td>
+<td>M</td>
+<td>M</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+</tr>
+<tr>
+<td>STI-701</td>
+<td>Inovasi Teknologi &amp; Startup Digital</td>
+<td>3</td>
+<td>7</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>M</td>
+<td>1</td>
+</tr>
+<tr>
+<td>FST-610</td>
+<td>Capstone Project FSTI</td>
+<td>3</td>
+<td>7</td>
+<td>M</td>
+<td>M</td>
+<td>M</td>
+<td>M</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>M</td>
+<td>M</td>
+<td>M</td>
+<td>M</td>
+<td>M</td>
+<td>M</td>
+<td>10</td>
+</tr>
+<tr>
+<td>FST-612</td>
+<td>Praktik Kerja Lapangan (PKL)</td>
+<td>3</td>
+<td>7</td>
+<td>M</td>
+<td>M</td>
+<td>M</td>
+<td>M</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>M</td>
+<td>M</td>
+<td></td>
+<td>7</td>
+</tr>
+<tr>
+<td>FST-613</td>
+<td>Pra-Skripsi / Seminar Proposal</td>
+<td>2</td>
+<td>7</td>
+<td></td>
+<td>M</td>
+<td>M</td>
+<td>M</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+</tr>
+<tr>
+<td>FST-714</td>
+<td>Skripsi / Tugas Akhir</td>
+<td>6</td>
+<td>8</td>
+<td>M</td>
+<td>M</td>
+<td>M</td>
+<td>M</td>
+<td>M</td>
+<td>M</td>
+<td>M</td>
+<td>M</td>
+<td>M</td>
+<td>M</td>
+<td>M</td>
+<td>M</td>
+<td>M</td>
+<td>M</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Jumlah I</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>Jumlah R</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>4</td>
+<td>2</td>
+<td>0</td>
+<td>3</td>
+<td>7</td>
+<td>7</td>
+<td>7</td>
+<td>3</td>
+<td>3</td>
+<td>5</td>
+<td>1</td>
+<td>6</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td>Jumlah M</td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+<td>4</td>
+<td>4</td>
+<td>4</td>
+<td>1</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>4</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>4</td>
+<td>3</td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="sheet-8-penurunan-cpl-ke-cpmk-sub-cpmk-6-mk-penciri">Sheet 8: Penurunan CPL ke CPMK &amp; Sub-CPMK (6 MK Penciri)</h2>
+<blockquote>
+<p>PENURUNAN CPL -&gt; CPMK -&gt; SUB-CPMK -&gt; EVALUASI - 6 MK PENCIRI SISTEKIN 2026 (Dok. 007)</p>
+</blockquote>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode MK</th>
+<th>Nama Mata Kuliah</th>
+<th>PL Utama</th>
+<th>CPMK</th>
+<th>Rumusan CPMK</th>
+<th>Sub-CPMK</th>
+<th>Rumusan Sub-CPMK</th>
+<th>CPL</th>
+<th>Metode Evaluasi</th>
+<th>Bobot (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>STI-601</td>
+<td>Integrasi Layanan Cerdas Berbasis AI</td>
+<td>PL-1</td>
+<td>CPMK1</td>
+<td>Menganalisis kebutuhan integrasi layanan cerdas dan data pada suatu kasus organisasi.</td>
+<td>Sub-CPMK1.1</td>
+<td>Mengidentifikasi kebutuhan pengguna, sumber data, dan batasan sistem cerdas.</td>
+<td>P2</td>
+<td>Tugas 1 (studi kasus + analisis)</td>
+<td>20</td>
+</tr>
+<tr>
+<td>STI-601</td>
+<td>Integrasi Layanan Cerdas Berbasis AI</td>
+<td>PL-1</td>
+<td>CPMK1</td>
+<td>Menganalisis kebutuhan integrasi layanan cerdas dan data pada suatu kasus organisasi.</td>
+<td>Sub-CPMK1.2</td>
+<td>Menyusun arsitektur konseptual layanan AI dan aliran data (AI data flow).</td>
+<td>KK1</td>
+<td>UTS (studi kasus + kuis)</td>
+<td>30</td>
+</tr>
+<tr>
+<td>STI-601</td>
+<td>Integrasi Layanan Cerdas Berbasis AI</td>
+<td>PL-1</td>
+<td>CPMK2</td>
+<td>Merancang dan membangun prototipe layanan cerdas berbasis AI yang terintegrasi.</td>
+<td>Sub-CPMK2.1</td>
+<td>Mengembangkan API/model layanan cerdas dan mekanisme integrasi (REST/gRPC).</td>
+<td>KK1</td>
+<td>Tugas 2 (project PjBL)</td>
+<td>20</td>
+</tr>
+<tr>
+<td>STI-601</td>
+<td>Integrasi Layanan Cerdas Berbasis AI</td>
+<td>PL-1</td>
+<td>CPMK3</td>
+<td>Mengevaluasi kualitas, interoperabilitas, dan kinerja solusi cerdas.</td>
+<td>Sub-CPMK3.1</td>
+<td>Menguji interoperabilitas layanan dan mempresentasikan hasil evaluasi sistem.</td>
+<td>KK1</td>
+<td>UAS (uji sistem + presentasi)</td>
+<td>30</td>
+</tr>
+<tr>
+<td>STI-401</td>
+<td>Machine Learning (+P)</td>
+<td>PL-1</td>
+<td>CPMK1</td>
+<td>Menerapkan alur kerja rekayasa data ML (EDA, Cleaning, Encoding, Scaling).</td>
+<td>Sub-CPMK1.1</td>
+<td>Melakukan EDA dan pembersihan dataset dengan Pandas &amp; NumPy.</td>
+<td>P2</td>
+<td>Tugas 1 (praktikum lab)</td>
+<td>20</td>
+</tr>
+<tr>
+<td>STI-401</td>
+<td>Machine Learning (+P)</td>
+<td>PL-1</td>
+<td>CPMK2</td>
+<td>Mengonstruksi model Supervised &amp; Unsupervised Learning.</td>
+<td>Sub-CPMK2.1</td>
+<td>Membangun Logistic Regression, Decision Tree, Random Forest, K-Means (scikit-learn).</td>
+<td>KK1</td>
+<td>UTS (praktikum + studi kasus)</td>
+<td>25</td>
+</tr>
+<tr>
+<td>STI-401</td>
+<td>Machine Learning (+P)</td>
+<td>PL-1</td>
+<td>CPMK3</td>
+<td>Mengevaluasi performa model dan membangun API inferensi (ML Deployment).</td>
+<td>Sub-CPMK3.1</td>
+<td>Serialisasi model dan REST API inferensi menggunakan FastAPI/Streamlit.</td>
+<td>KK1</td>
+<td>Tugas 2 (project PjBL tim)</td>
+<td>25</td>
+</tr>
+<tr>
+<td>STI-401</td>
+<td>Machine Learning (+P)</td>
+<td>PL-1</td>
+<td>CPMK4</td>
+<td>Menerapkan prinsip keandalan, keamanan, dan dokumentasi sistem ML profesional.</td>
+<td>Sub-CPMK4.1</td>
+<td>Menyusun model card, dokumentasi teknis, dan presentasi solusi ML ke stakeholder.</td>
+<td>KK2</td>
+<td>UAS (presentasi + laporan)</td>
+<td>30</td>
+</tr>
+<tr>
+<td>STI-504</td>
+<td>Internet of Things (+P)</td>
+<td>PL-2</td>
+<td>CPMK1</td>
+<td>Menganalisis kebutuhan dan arsitektur sistem IoT (sensor-edge-cloud).</td>
+<td>Sub-CPMK1.1</td>
+<td>Mengidentifikasi sensor, aktuator, protokol MQTT/CoAP, dan kebutuhan konektivitas.</td>
+<td>P3</td>
+<td>Tugas 1 + Studi kasus</td>
+<td>20</td>
+</tr>
+<tr>
+<td>STI-504</td>
+<td>Internet of Things (+P)</td>
+<td>PL-2</td>
+<td>CPMK2</td>
+<td>Mengembangkan prototipe IoT yang terhubung dengan layanan cloud.</td>
+<td>Sub-CPMK2.1</td>
+<td>Akuisisi data sensor ESP32/Arduino via MQTT dan integrasi platform cloud.</td>
+<td>KK3</td>
+<td>UTS + UAS (praktikum hardware + PjBL)</td>
+<td>50</td>
+</tr>
+<tr>
+<td>STI-504</td>
+<td>Internet of Things (+P)</td>
+<td>PL-2</td>
+<td>CPMK3</td>
+<td>Menguji keandalan dan keamanan dasar sistem IoT.</td>
+<td>Sub-CPMK3.1</td>
+<td>Pengujian konektivitas, latensi, ketahanan, dan dokumentasi hasilnya.</td>
+<td>P3</td>
+<td>Tugas 2 (uji sistem + laporan)</td>
+<td>30</td>
+</tr>
+<tr>
+<td>STI-303</td>
+<td>UI/UX Design &amp; Prototyping (+P)</td>
+<td>PL-3</td>
+<td>CPMK1</td>
+<td>Melakukan riset pengguna dan merumuskan problem statement.</td>
+<td>Sub-CPMK1.1</td>
+<td>Merumuskan Problem Statement dan How-Might-We dari wawancara/observasi pengguna.</td>
+<td>KK5</td>
+<td>Tugas 1 (studi kasus UX)</td>
+<td>20</td>
+</tr>
+<tr>
+<td>STI-303</td>
+<td>UI/UX Design &amp; Prototyping (+P)</td>
+<td>PL-3</td>
+<td>CPMK2</td>
+<td>Mengembangkan purwarupa interaktif high-fidelity menggunakan Figma.</td>
+<td>Sub-CPMK2.1</td>
+<td>Atomic Design Components, Auto-Layout, dan interaksi mikro di Figma.</td>
+<td>KK5</td>
+<td>UTS + Tugas 2 (praktikum Figma)</td>
+<td>50</td>
+</tr>
+<tr>
+<td>STI-303</td>
+<td>UI/UX Design &amp; Prototyping (+P)</td>
+<td>PL-3</td>
+<td>CPMK3</td>
+<td>Mengevaluasi usability prototype dengan pengujian pengguna berbasis metrik.</td>
+<td>Sub-CPMK3.1</td>
+<td>Usability testing dan laporan UX dengan rekomendasi perbaikan.</td>
+<td>KK5</td>
+<td>UAS (project evaluasi)</td>
+<td>30</td>
+</tr>
+<tr>
+<td>STI-604</td>
+<td>Digital Platform Engineering (+P)</td>
+<td>PL-3</td>
+<td>CPMK1</td>
+<td>Merancang arsitektur microservices dan API gateway untuk platform digital skalabel.</td>
+<td>Sub-CPMK1.1</td>
+<td>Implementasi microservices menggunakan Docker dan API Gateway.</td>
+<td>P4</td>
+<td>Tugas 1 + Lab hands-on</td>
+<td>20</td>
+</tr>
+<tr>
+<td>STI-604</td>
+<td>Digital Platform Engineering (+P)</td>
+<td>PL-3</td>
+<td>CPMK2</td>
+<td>Membangun pipeline CI/CD dan Infrastructure as Code untuk deployment otomatis.</td>
+<td>Sub-CPMK2.1</td>
+<td>CI/CD pipeline menggunakan GitHub Actions dan Terraform/Ansible.</td>
+<td>KK5</td>
+<td>UTS + Tugas 2 (Project DevOps PjBL)</td>
+<td>50</td>
+</tr>
+<tr>
+<td>STI-604</td>
+<td>Digital Platform Engineering (+P)</td>
+<td>PL-3</td>
+<td>CPMK3</td>
+<td>Mengevaluasi kinerja dan skalabilitas platform digital dengan load testing.</td>
+<td>Sub-CPMK3.1</td>
+<td>Load testing menggunakan k6/JMeter dan analisis metrik performa.</td>
+<td>KK5</td>
+<td>UAS (Project evaluasi)</td>
+<td>30</td>
+</tr>
+<tr>
+<td>STI-603</td>
+<td>Keamanan Informasi Lanjut</td>
+<td>PL-2</td>
+<td>CPMK1</td>
+<td>Menganalisis teknik serangan lanjutan dan mensimulasikan penetration testing dasar.</td>
+<td>Sub-CPMK1.1</td>
+<td>Simulasi serangan OWASP Top 10 dengan Metasploit/Burp Suite.</td>
+<td>P3</td>
+<td>Tugas 1 + Lab penetration testing</td>
+<td>20</td>
+</tr>
+<tr>
+<td>STI-603</td>
+<td>Keamanan Informasi Lanjut</td>
+<td>PL-2</td>
+<td>CPMK2</td>
+<td>Melakukan digital forensics analysis terhadap sistem file dan log jaringan.</td>
+<td>Sub-CPMK2.1</td>
+<td>Analisis artefak digital dan rekonstruksi kronologi insiden keamanan.</td>
+<td>KK3</td>
+<td>UTS + Tugas 2 (Lab forensik)</td>
+<td>50</td>
+</tr>
+<tr>
+<td>STI-603</td>
+<td>Keamanan Informasi Lanjut</td>
+<td>PL-2</td>
+<td>CPMK3</td>
+<td>Menyusun kebijakan keamanan informasi organisasi berbasis ISO 27001.</td>
+<td>Sub-CPMK3.1</td>
+<td>IS Policy Framework dan Risk Register mitigasi berbasis studi kasus.</td>
+<td>KK4</td>
+<td>UAS (Project kebijakan)</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Validasi Bobot</td>
+<td>STI-601: 100% OK</td>
+<td>STI-401: 100% OK</td>
+<td>STI-504: 100% OK</td>
+<td>STI-303: 100% OK</td>
+<td>STI-604: 100% OK</td>
+<td>STI-603: 100% OK</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="sheet-9-template-evaluasi-obe-sti-601-integrasi-ai">Sheet 9: Template Evaluasi OBE - STI-601 (Integrasi AI)</h2>
+<blockquote>
+<p>TEMPLATE EVALUASI OBE - STI-601 Integrasi Layanan Cerdas Berbasis AI
+CPL: P2, KK1 | Target Ketercapaian CPL = 75%
+Skema Asesmen: Tugas 1=20% (Pk.4), UTS=30% (Pk.8), Tugas 2=20% (Pk.12), UAS=30% (Pk.16)</p>
+</blockquote>
+<p>| No | NIM | Nama Mahasiswa | Tugas 1 (20%) | UTS (30%) | Tugas 2 (20%) | UAS (30%) | Nilai Akhir | CPMK1 (%) | CPMK2 (%) | CPMK3 (%) | Status CPL |
+|---||---||---||---||---||---||---||---||---||---||---||---||
+| 1 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 2 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 3 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 4 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 5 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 10 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 15 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 20 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 25 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 30 |  |  |  |   |   |   |   |   |   |   |   |   |
+| Ringkasan Kelas | Rata-rata Nilai Akhir | | Target CPL | 75% ||  |  |  |  |  |  |
+| % Mahasiswa &gt;= 75 | | CPMK1-3 ||  |  |  |  |  |  |  |</p>
+<hr />
+<h2 id="sheet-10-template-evaluasi-obe-sti-401-machine-learning">Sheet 10: Template Evaluasi OBE - STI-401 (Machine Learning)</h2>
+<blockquote>
+<p>TEMPLATE EVALUASI OBE - STI-401 Machine Learning (+P)
+CPL: P2, KK1, KK2 | Target Ketercapaian CPL = 75%
+Skema Asesmen: Tugas 1=20% (Pk.4), UTS=25% (Pk.8), Tugas 2=25% (Pk.12), UAS=30% (Pk.16)</p>
+</blockquote>
+<p>| No | NIM | Nama Mahasiswa | Tugas 1 (20%) | UTS (25%) | Tugas 2 (25%) | UAS (30%) | Nilai Akhir | CPMK1 (%) | CPMK2 (%) | CPMK3 (%) | CPMK4 (%) | Status CPL |
+|---||---||---||---||---||---||---||---||---||---||---||---||---||
+| 1 |  |  |  |   |   |   |   |   |   |   |   |   |   |
+| 2 |  |  |  |   |   |   |   |   |   |   |   |   |   |
+| 3 |  |  |  |   |   |   |   |   |   |   |   |   |   |
+| 4 |  |  |  |   |   |   |   |   |   |   |   |   |   |
+| 5 |  |  |  |   |   |   |   |   |   |   |   |   |   |
+| 10 |  |  |  |   |   |   |   |   |   |   |   |   |   |
+| 15 |  |  |  |   |   |   |   |   |   |   |   |   |   |
+| 20 |  |  |  |   |   |   |   |   |   |   |   |   |   |
+| 25 |  |  |  |   |   |   |   |   |   |   |   |   |   |
+| 30 |  |  |  |   |   |   |   |   |   |   |   |   |   |
+| Ringkasan Kelas | Rata-rata Nilai Akhir | | Target CPL | 75% ||  |  |  |  |  |  |  |
+| % Mahasiswa &gt;= 75 | | CPMK1-4 ||  |  |  |  |  |  |  |  |</p>
+<hr />
+<h2 id="sheet-11-template-evaluasi-obe-sti-303-uiux">Sheet 11: Template Evaluasi OBE - STI-303 (UI/UX)</h2>
+<blockquote>
+<p>TEMPLATE EVALUASI OBE - STI-303 UI/UX Design &amp; Prototyping (+P)
+CPL: KK5 | Target Ketercapaian CPL = 75%
+Skema Asesmen: Tugas 1=20% (Pk.4), UTS=25% (Pk.8), Tugas 2=25% (Pk.12), UAS=30% (Pk.16)</p>
+</blockquote>
+<p>| No | NIM | Nama Mahasiswa | Tugas 1 (20%) | UTS (25%) | Tugas 2 (25%) | UAS (30%) | Nilai Akhir | CPMK1 (%) | CPMK2 (%) | CPMK3 (%) | Status CPL |
+|---||---||---||---||---||---||---||---||---||---||---||---||
+| 1 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 2 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 3 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 4 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 5 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 10 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 15 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 20 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 25 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 30 |  |  |  |   |   |   |   |   |   |   |   |   |
+| Ringkasan Kelas | Rata-rata Nilai Akhir | | Target CPL | 75% ||  |  |  |  |  |  |
+| % Mahasiswa &gt;= 75 | | CPMK1-3 ||  |  |  |  |  |  |  |</p>
+<hr />
+<h2 id="sheet-12-template-evaluasi-obe-sti-603-keamanan">Sheet 12: Template Evaluasi OBE - STI-603 (Keamanan)</h2>
+<blockquote>
+<p>TEMPLATE EVALUASI OBE - STI-603 Keamanan Informasi Lanjut
+CPL: P3, KK3, KK4 | Target Ketercapaian CPL = 75%
+Skema Asesmen: Tugas 1=20% (Pk.4), UTS=30% (Pk.8), Tugas 2=20% (Pk.12), UAS=30% (Pk.16)</p>
+</blockquote>
+<p>| No | NIM | Nama Mahasiswa | Tugas 1 (20%) | UTS (30%) | Tugas 2 (20%) | UAS (30%) | Nilai Akhir | CPMK1 (%) | CPMK2 (%) | CPMK3 (%) | Status CPL |
+|---||---||---||---||---||---||---||---||---||---||---||---||
+| 1 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 2 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 3 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 4 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 5 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 10 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 15 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 20 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 25 |  |  |  |   |   |   |   |   |   |   |   |   |
+| 30 |  |  |  |   |   |   |   |   |   |   |   |   |
+| Ringkasan Kelas | Rata-rata Nilai Akhir | | Target CPL | 75% ||  |  |  |  |  |  |
+| % Mahasiswa &gt;= 75 | | CPMK1-3 ||  |  |  |  |  |  |  |</p>
+<hr />
+<h2 id="sheet-13-rekapitulasi-ketercapaian-cpl-program-studi">Sheet 13: Rekapitulasi Ketercapaian CPL Program Studi</h2>
+<blockquote>
+<p>TEMPLATE REKAPITULASI KETERCAPAIAN CPL PROGRAM STUDI SISTEKIN 2026 (Dok. 008)
+Formula: CPL_Attainment(CPLx) = rata-rata bobot nilai seluruh MK pengukur level M untuk CPLx.
+Target minimal dapat disesuaikan prodi; standar dasar nasional IKU 7 &gt;= 50%.</p>
+</blockquote>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode CPL</th>
+<th>Fokus CPL</th>
+<th>Jml MK Pendukung</th>
+<th>MK Pengukur Level M (Utama)</th>
+<th>Target (%)</th>
+<th>Capaian Aktual (%)</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S1</td>
+<td>Sikap &amp; etika profesional digital</td>
+<td>9</td>
+<td>FST-610 Capstone, FST-612 PKL, MKU-507 KPM, FST-714 Skripsi</td>
+<td>75</td>
+<td></td>
+<td>Belum ada data</td>
+</tr>
+<tr>
+<td>KU1</td>
+<td>Pemikiran logis, kritis &amp; inovatif</td>
+<td>12</td>
+<td>FST-610 Capstone, FST-611 Metpen, FST-612 PKL, FST-613 Sempro, FST-714 Skripsi</td>
+<td>70</td>
+<td></td>
+<td>Belum ada data</td>
+</tr>
+<tr>
+<td>KU2</td>
+<td>Komunikasi efektif &amp; networking</td>
+<td>11</td>
+<td>FST-610 Capstone, FST-611 Metpen, MKU-507 KPM, FST-714 Skripsi</td>
+<td>70</td>
+<td></td>
+<td>Belum ada data</td>
+</tr>
+<tr>
+<td>KU3</td>
+<td>Pengambilan keputusan &amp; manajemen diri</td>
+<td>6</td>
+<td>FST-610 Capstone, FST-611 Metpen, FST-612 PKL, FST-613 Sempro, FST-714 Skripsi</td>
+<td>75</td>
+<td></td>
+<td>Belum ada data</td>
+</tr>
+<tr>
+<td>P1</td>
+<td>Fondasi sains &amp; matematika komputasi</td>
+<td>9</td>
+<td>STI-202 Aljabar Linear, FST-408 Statistika, FST-714 Skripsi</td>
+<td>65</td>
+<td></td>
+<td>Belum ada data</td>
+</tr>
+<tr>
+<td>P2</td>
+<td>Sistem informasi &amp; metodologi SI</td>
+<td>15</td>
+<td>STI-401 Machine Learning, STI-601 Integrasi AI, STI-503 Data Mining, FST-714 Skripsi</td>
+<td>70</td>
+<td></td>
+<td>Belum ada data</td>
+</tr>
+<tr>
+<td>P3</td>
+<td>Infrastruktur TI &amp; keamanan</td>
+<td>12</td>
+<td>STI-504 IoT, STI-602 Smart City, STI-603 Keamanan Lanjut, FST-714 Skripsi</td>
+<td>70</td>
+<td></td>
+<td>Belum ada data</td>
+</tr>
+<tr>
+<td>P4</td>
+<td>Platform digital &amp; pengembangan aplikasi</td>
+<td>12</td>
+<td>STI-505 Mobile, STI-604 Platform Eng, FST-714 Skripsi</td>
+<td>70</td>
+<td></td>
+<td>Belum ada data</td>
+</tr>
+<tr>
+<td>KK1</td>
+<td>AI/ML integration ke SI bisnis</td>
+<td>11</td>
+<td>STI-501 Deep Learning, STI-601 Integrasi AI, FST-610 Capstone</td>
+<td>75</td>
+<td></td>
+<td>Belum ada data</td>
+</tr>
+<tr>
+<td>KK2</td>
+<td>Data engineering &amp; ML pipeline</td>
+<td>7</td>
+<td>STI-501 Deep Learning, STI-503 Data Mining, STA-04 MLOps</td>
+<td>75</td>
+<td></td>
+<td>Belum ada data</td>
+</tr>
+<tr>
+<td>KK3</td>
+<td>Cloud, IoT &amp; infrastruktur terintegrasi</td>
+<td>12</td>
+<td>STI-504 IoT, STI-602 Smart City, STB-02 Cloud DevOps, FST-714 Skripsi</td>
+<td>75</td>
+<td></td>
+<td>Belum ada data</td>
+</tr>
+<tr>
+<td>KK4</td>
+<td>Audit, GRC &amp; tata kelola TI</td>
+<td>7</td>
+<td>STI-603 Keamanan Lanjut, STB-04 COBIT, FST-612 PKL</td>
+<td>70</td>
+<td></td>
+<td>Belum ada data</td>
+</tr>
+<tr>
+<td>KK5</td>
+<td>Platform digital skalabel &amp; UI/UX</td>
+<td>14</td>
+<td>STI-303 UI/UX, STI-505 Mobile, STI-604 Platform Eng, STC-01 UXR, FST-610 Capstone</td>
+<td>75</td>
+<td></td>
+<td>Belum ada data</td>
+</tr>
+<tr>
+<td>KK6</td>
+<td>Manajemen proyek &amp; technopreneurship</td>
+<td>8</td>
+<td>STI-506 Manpro, STI-701 Startup, STC-06 Digital Product Mgmt</td>
+<td>75</td>
+<td></td>
+<td>Belum ada data</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="sheet-14-ringkasan-implementasi-obe">Sheet 14: Ringkasan Implementasi OBE</h2>
+<blockquote>
+<p>RINGKASAN IMPLEMENTASI MODUL OBE - S1 SISTEM DAN TEKNOLOGI INFORMASI 2026</p>
+</blockquote>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Indikator Utama</th>
+<th>Nilai</th>
+<th></th>
+<th>Kode CPL</th>
+<th>Jml MK Pendukung</th>
+<th>Jml PL Terkait</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Profil Lulusan (PL)</td>
+<td>4</td>
+<td></td>
+<td>S1</td>
+<td>9</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Program Educational Objectives (PEO)</td>
+<td>3</td>
+<td></td>
+<td>KU1</td>
+<td>12</td>
+<td>4</td>
+</tr>
+<tr>
+<td>CPL (Capaian Pembelajaran Lulusan)</td>
+<td>14</td>
+<td></td>
+<td>KU2</td>
+<td>11</td>
+<td>4</td>
+</tr>
+<tr>
+<td>MK Wajib (Paket Ditempuh)</td>
+<td>49 MK</td>
+<td></td>
+<td>KU3</td>
+<td>6</td>
+<td>4</td>
+</tr>
+<tr>
+<td>MK Elektif Ditempuh (1 dari 3 Peminatan)</td>
+<td>6 MK</td>
+<td></td>
+<td>P1</td>
+<td>9</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Total MK Paket Ditempuh</td>
+<td>55 MK</td>
+<td></td>
+<td>P2</td>
+<td>15</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Total SKS Paket Ditempuh (Syarat Lulus)</td>
+<td>146 SKS</td>
+<td></td>
+<td>P3</td>
+<td>12</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Total MK Portofolio Ditawarkan</td>
+<td>67 MK</td>
+<td></td>
+<td>P4</td>
+<td>12</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Total SKS Portofolio Ditawarkan</td>
+<td>182 SKS</td>
+<td></td>
+<td>KK1</td>
+<td>11</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Peminatan Spesialisasi</td>
+<td>3</td>
+<td></td>
+<td>KK2</td>
+<td>7</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Semester</td>
+<td>8</td>
+<td></td>
+<td>KK3</td>
+<td>12</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Syarat Lulus Minimal (Permendikbud 53/2023)</td>
+<td>144 SKS</td>
+<td></td>
+<td>KK4</td>
+<td>7</td>
+<td>1</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>KK5</td>
+<td>14</td>
+<td>1</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>KK6</td>
+<td>8</td>
+<td>1</td>
+</tr>
+</tbody>
+</table></div>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>Catatan Validasi Akademik</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>14 CPL (S1, KU1-3, P1-4, KK1-6) disusun dari 4 PL sesuai SN-Dikti + APTIKOM IS2020/IT2017; terverifikasi penuh pada Dok. 002, 003, dan 004.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Pemetaan CPL-MK dan level I/R/M didasarkan Dok. 004; konsistensi terhadap CPMK dan Sub-CPMK telah divalidasi pada Dok. 007.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>19 BK IS2020 + 14 BK IT2017 dipetakan ke CPL dan MK secara penuh (Dok. 003). Kepatuhan IKU 7 (Case Method + PjBL &gt;= 60%) terverifikasi di Dok. 008.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Sheet 9-12 adalah template implementasi asesmen. CPL program sah dihitung setelah data nilai aktual semester berjalan terintegrasi ke SIAKAD.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Sistem asesmen OBE lengkap (Formula CPL Attainment, 4 Rubrik Analitik Master, Siklus PPEPP/CQI, Radar SKPI) tersedia pada Dok. 008 dan 009.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>STI-405 (Dasar Keamanan Informasi) = 2 SKS Teori (Sem 4). STI-602 (Smart City &amp; Pemerintahan Digital) = 2 SKS Teori Non-Praktikum (Sem 6).</td>
+</tr>
+<tr>
+<td>7</td>
+<td>MKU-406 (Agama II) dan MKU-508 (Kewirausahaan II) = 0 SKS kebijakan UWG; tercatat di transkrip namun tidak dihitung dalam beban SKS kelulusan.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<p><em>Dokumen ini merupakan Single Source of Truth Kurikulum OBE SISTEKIN 2026.</em><br />
+<em>Disusun sesuai Permendikbudristek No. 53/2023, Panduan OBE APTIKOM IS2020/IT2017, dan Standar LAM INFOKOM.</em><br />
+<strong>Tim Penyusun Kurikulum Prodi Sistem dan Teknologi Informasi - FSTI Universitas Widyagama Malang</strong></p>
+
+            <div class="doc-nav">
+                <div><a href="010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.html" class="nav-btn">← Sebelumnya</a></div>
+                <div><a href="index.html" class="nav-btn">🏠 Index Utama</a></div>
+                <div><a href="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" class="nav-btn">Selanjutnya →</a></div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p><strong>Dokumen Resmi Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
+            <p>Tim Pengembang Kurikulum FSTI — Universitas Widyagama Malang © 2026</p>
+        </footer>
+    </div>
+
+    <script>
+        // Mermaid Init
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'dark',
+            flowchart: { curve: 'basis', useMaxWidth: true }
+        });
+
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        let currentTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', currentTheme);
+
+        themeToggle.addEventListener('click', () => {
+            currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', currentTheme);
+            localStorage.setItem('theme', currentTheme);
+        });
+
+        // Live Table Search Filter
+        const searchInput = document.getElementById('globalTableSearch');
+        if (searchInput) {
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase().trim();
+                const rows = document.querySelectorAll('table tbody tr');
+                rows.forEach(row => {
+                    const text = row.innerText.toLowerCase();
+                    if (query === '' || text.includes(query)) {
+                        row.style.display = '';
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+            });
+        }
+    </script>
+</body>
+</html>

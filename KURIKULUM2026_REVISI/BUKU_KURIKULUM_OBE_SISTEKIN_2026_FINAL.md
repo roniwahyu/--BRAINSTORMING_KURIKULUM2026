@@ -4,211 +4,17 @@
 
 ---
 
-```
-                                    FAKULTAS SAINS DAN TEKNOLOGI INFORMASI
-                                         UNIVERSITAS WIDYAGAMA MALANG
-                                                    2026
-```
+### SIKLUS DESAIN & IMPLEMENTASI KURIKULUM OBE
 
----
-
-## LEMBAR PENGESAHAN DOKUMEN KURIKULUM
-
-**Naskah Buku Kurikulum Program Studi Sistem dan Teknologi Informasi (S1)**  
-Fakultas Sains dan Teknologi Informasi (FSTI) — Universitas Widyagama Malang  
-Tahun Akademik 2026/2027 s.d. 2030/2031  
-
-Telah diperiksa, divalidasi, dan disetujui untuk diberlakukan secara resmi berdasarkan Keputusan Rektor Universitas Widyagama Malang.
-
-| Jabatan | Nama & Gelar | Tanda Tangan | Tanggal |
-|---|---|:---:|:---:|
-| **Ketua Tim Pengembang Kurikulum** | Dr. Roni Wahyu, S.Kom., M.T. | _________________ | 20 Agustus 2026 |
-| **Ketua Program Studi SISTEKIN** | Dr. Roni Wahyu, S.Kom., M.T. | _________________ | 20 Agustus 2026 |
-| **Dekan Fakultas Sains & Teknologi Informasi** | Prof. Dr. Ir. H. M. Dachlan, M.T. | _________________ | 21 Agustus 2026 |
-| **Ketua Lembaga Penjaminan Mutu (LPM)** | Dr. Ir. Rita Damayanti, M.P. | _________________ | 22 Agustus 2026 |
-| **Rektor Universitas Widyagama Malang** | Prof. Dr. Ir. Sukamto, M.S. | _________________ | 25 Agustus 2026 |
-
----
-
-## SURAT KEPUTUSAN REKTOR UNIVERSITAS WIDYAGAMA MALANG
-**Nomor: 088/SK-REK/UWG/VIII/2026**
-**TENTANG**
-**PEMBERLAKUAN BUKU KURIKULUM BERBASIS OUTCOME-BASED EDUCATION (KPT-OBE) 2026 PROGRAM STUDI SISTEM DAN TEKNOLOGI INFORMASI FAKULTAS SAINS DAN TEKNOLOGI INFORMASI**
-
-**Menimbang:**
-1. Bahwa dalam rangka peningkatan mutu lulusan yang berdaya saing global, berintegritas, dan adaptif terhadap perkembangan teknologi kecerdasan artifisial (*AI*) dan platform digital, diperlukan kurikulum yang adaptif dan terstandar.
-2. Bahwa telah selesainya proses evaluasi, penyelarasan, dan rekonstruksi kurikulum berbasis *Outcome-Based Education* (OBE) mengacu pada Standar Nasional Pendidikan Tinggi (Permendikbudristek No. 53 Tahun 2023) dan Standar Kurikulum APTIKOM v2.0 (IS2020 & IT2017).
-3. Bahwa berdasarkan pertimbangan sebagaimana dimaksud pada butir 1 dan 2, perlu menetapkan Keputusan Rektor tentang Pemberlakuan Kurikulum KPT-OBE SISTEKIN 2026.
-
-**Mengingat:**
-1. Undang-Undang Republik Indonesia Nomor 12 Tahun 2012 tentang Pendidikan Tinggi.
-2. Peraturan Presiden Nomor 8 Tahun 2012 tentang Kerangka Kualifikasi Nasional Indonesia (KKNI).
-3. Permendikbudristek Republik Indonesia Nomor 53 Tahun 2023 tentang Penjaminan Mutu Pendidikan Tinggi.
-4. Panduan Penyusunan Kurikulum Pendidikan Tinggi (KPT) Direktorat Jenderal Pendidikan Tinggi Kemendikbudristek.
-5. Panduan Kurikulum OBE Asosiasi Pendidikan Tinggi Informatika dan Komputer (APTIKOM v2.0 Tahun 2024).
-6. Statuta Universitas Widyagama Malang.
-
-**MEMUTUSKAN:**
-* **Menetapkan:** KEPUTUSAN REKTOR UNIVERSITAS WIDYAGAMA MALANG TENTANG PEMBERLAKUAN BUKU KURIKULUM KPT-OBE 2026 PROGRAM STUDI SISTEM DAN TEKNOLOGI INFORMASI (S1).
-* **KESATU:** Memberlakukan Naskah Buku Kurikulum KPT-OBE 2026 Program Studi SISTEKIN dengan beban studi kelulusan **146 SKS (55 Mata Kuliah)** dalam portofolio yang ditawarkan sebesar **182 SKS (67 Mata Kuliah)** terhitung mulai Tahun Akademik Ganjil 2026/2027.
-* **KEDUA:** Kurikulum ini menjadi acuan tunggal bagi perencanaan, pelaksanaan, asesmen luaran, dan penjaminan mutu PPEPP pembelajaran di lingkungan Program Studi SISTEKIN.
-* **KETIGA:** Keputusan ini berlaku sejak tanggal ditetapkan, dengan ketentuan apabila terdapat kekeliruan akan diperbaiki sebagaimana mestinya.
-
-Ditetapkan di: Malang  
-Pada tanggal: 25 Agustus 2026  
-**Rektor Universitas Widyagama Malang,**  
-
-*(Cap & Tanda Tangan)*  
-**Prof. Dr. Ir. Sukamto, M.S.**
-
----
-
-## KATA PENGANTAR
-
-Puji syukur kehadirat Tuhan Yang Maha Esa atas tersusunnya **Buku Kurikulum Berbasis Outcome-Based Education (KPT-OBE) Tahun 2026 Program Studi Sistem dan Teknologi Informasi (SISTEKIN)**, Fakultas Sains dan Teknologi Informasi (FSTI), Universitas Widyagama Malang.
-
-Kurikulum 2026 ini dirancang sebagai lompatan strategis (*quantum leap*) untuk menjawab dinamika industri 4.0 dan era kecerdasan artifisial generatif. Kurikulum ini secara tegas menetapkan *Distinctive Positioning* SISTEKIN sebagai **Program Studi Integrator Sistem dan Teknologi Cerdas terapan (*Applied AI & Smart Systems Integration*) serta Technopreneurship**, memadukan kekuatan rekayasa komputasi awan, ketahanan siber (*Cybersecurity*), dan platform digital modern.
-
-Penyusunan kurikulum ini telah mengadopsi secara penuh regulasi **Permendikbudristek No. 53 Tahun 2023** mengenai fleksibilitas skema kelulusan (termasuk 4 opsi Tugas Akhir non-skripsi dan pengakuan 20 SKS MBKM), standar kurikulum **APTIKOM v2.0 (IS2020 dan IT2017)**, serta kriteria akreditasi **LAM INFOKOM dan IABEE**.
-
-Penghargaan dan ucapan terima kasih yang setinggi-tingginya kami sampaikan kepada Tim Pengembang Kurikulum, Pimpinan Fakultas, Lembaga Penjaminan Mutu, para pakar industri, dewan alumni, serta seluruh civitas akademika atas dedikasi dan kerja kerasnya. Semoga kurikulum ini melahirkan sarjana SISTEKIN yang berkarakter luhur, profesional, inovatif, dan berdaya saing global.
-
-Malang, 20 Agustus 2026  
-**Dekan Fakultas Sains dan Teknologi Informasi,**  
-**Prof. Dr. Ir. H. M. Dachlan, M.T.**
-
----
-
-## TIM PENYUSUN DAN PENGEMBANG KURIKULUM
-
-**Pengarah:**
-* Prof. Dr. Ir. Sukamto, M.S. (Rektor Universitas Widyagama Malang)
-* Dr. Ir. Rita Damayanti, M.P. (Ketua Lembaga Penjaminan Mutu)
-
-**Penanggung Jawab:**
-* Prof. Dr. Ir. H. M. Dachlan, M.T. (Dekan Fakultas Sains dan Teknologi Informasi)
-* Dr. Roni Wahyu, S.Kom., M.T. (Ketua Program Studi SISTEKIN)
-
-**Tim Inti Pengembang Kurikulum (Task Force OBE):**
-1. **Dr. Roni Wahyu, S.Kom., M.T.** (Ketua Tim / Spesialis Rekayasa Sistem Cerdas & AI)
-2. **Ir. Fachrudin, M.Kom.** (Sekretaris Tim / Spesialis Infrastruktur Cloud & Cyber)
-3. **M. Syahroni, S.T., M.Kom.** (Anggota / Spesialis Platform Engineering & UI/UX)
-4. **Novita Rahmawati, S.Kom., M.M.** (Anggota / Spesialis Technopreneurship & Manajemen TI)
-5. **Ahmad Dahlan, S.Kom., M.Cs.** (Anggota / Spesialis Data Science & MLOps)
-
-**Advisory Board / Mitra Industri & Profesi:**
-* Dewan Pengurus Pusat APTIKOM (Bidang Kurikulum Sistem Informasi & Teknologi Informasi)
-* Asesor LAM INFOKOM
-* Pimpinan PT. Telkom Indonesia Digital Hub Malang
-* Founder & CTO Startup Komunitas Malang Digital Creative
-
----
-
-## DAFTAR ISI NASKAH BUKU KURIKULUM
-
-* **LEMBAR PENGESAHAN DOKUMEN KURIKULUM**
-* **SURAT KEPUTUSAN REKTOR UNIVERSITAS WIDYAGAMA MALANG**
-* **KATA PENGANTAR**
-* **TIM PENYUSUN DAN PENGEMBANG KURIKULUM**
-* **DAFTAR ISI**
-* **BAB I: PENDAHULUAN DAN LANDASAN KURIKULUM**
-  * 1.1 Latar Belakang dan Urgensi Kurikulum 2026
-  * 1.2 Landasan Yuridis, Filosofis, Sosiologis, dan Pedagogis
-  * 1.3 Siklus Pengembangan Kurikulum Berbasis Luaran (*Outcome-Based Education - OBE*)
-* **BAB II: VISI, MISI, TUJUAN, DAN POSITIONING STRATEGIS**
-  * 2.1 Visi Keilmuan SISTEKIN 2045
-  * 2.2 Misi, Tujuan, dan Sasaran Mutu (Milestone 2026–2045)
-  * 2.3 Analisis Lingkungan Strategis (SWOT & PESTLE)
-  * 2.4 *Distinctive Positioning* Program Studi SISTEKIN
-* **BAB III: PROFIL LULUSAN (PL) DAN PROGRAM EDUCATIONAL OBJECTIVES (PEO)**
-  * 3.1 Rasionalisasi Penyatuan Profil Lulusan (Model 4 PL Role-Based)
-  * 3.2 Formulasi 4 Profil Lulusan SISTEKIN (KKNI Level 6)
-  * 3.3 Formulasi 3 Program Educational Objectives (PEO 3–5 Tahun)
-  * 3.4 Atribut Kepemimpinan (*Leadership*) Lintas-PEO
-* **BAB IV: CAPAIAN PEMBELAJARAN LULUSAN (CPL) DAN BODY OF KNOWLEDGE (BoK)**
-  * 4.1 Formulasi 14 CPL Terstandar (Sikap, Umum, Pengetahuan, Khusus)
-  * 4.2 Genealogi dan Penelusuran Sumber Asli CPL (IS2020, IT2017, SN-Dikti)
-  * 4.3 Matriks Pemenuhan 19 BoK IS2020 dan 14 BoK Utama IT2017
-  * 4.4 Indikator Kinerja CPL (*Performance Indicators*) dan Taksonomi Bloom
-  * 4.5 Matriks Keterlacakan Makro OBE (VMTS ↔ PEO ↔ PL ↔ CPL ↔ MK)
-* **BAB V: STRUKTUR KURIKULUM 8 SEMESTER DAN PEMINATAN**
-  * 5.1 Rekapitulasi Beban Studi (146 SKS Paket / 182 SKS Portofolio)
-  * 5.2 Sebaran Mata Kuliah Semester 1 s.d. Semester 8
-  * 5.3 Paket 3 Peminatan Keahlian (@ 18 SKS / 6 MK)
-  * 5.4 Peta Jalur Pembelajaran (*Curriculum Prerequisite Flowchart*)
-* **BAB VI: PROGRAM MBKM, CAPSTONE PROJECT, DAN TUGAS AKHIR NON-SKRIPSI**
-  * 6.1 Implementasi MBKM 20 SKS & Skema Konversi Ekuivalensi
-  * 6.2 Pedoman Pelaksanaan *Capstone Project FSTI* (FST-610)
-  * 6.3 4 Opsi Tugas Akhir Non-Skripsi (Permendikbudristek No. 53/2023)
-* **BAB VII: SISTEM ASESMEN OBE, FORMULA CPL, DAN PENJAMINAN MUTU**
-  * 7.1 Skema Baku 4x Titik Evaluasi Terstruktur Mata Kuliah
-  * 7.2 Kepatuhan IKU 7 ($\ge 50\%$ Case Method & PjBL)
-  * 7.3 Formula Matematis Ketercapaian CPMK, CPL Mahasiswa, dan CPL Kohor
-  * 7.4 Master 4 Rubrik Analitik Penilaian OBE Terstandar
-  * 7.5 Portofolio Radar Capaian CPL pada SKPI Wisudawan
-  * 7.6 PEO Measurement Plan dan Siklus Penjaminan Mutu PPEPP / CQI
-* **BAB VIII: TATA KELOLA, SUMBER DAYA, DAN ATURAN PERALIHAN (EKUIVALENSI)**
-  * 8.1 Tata Kelola Program Studi dan Kualifikasi Dosen
-  * 8.2 Sarana Laboratorium dan Infrastruktur Komputasi Cerdas
-  * 8.3 Ketentuan dan Aturan Peralihan Kurikulum 2025 ke 2026
-  * 8.4 Matriks Ekuivalensi Mata Kuliah Kurikulum 2025 $
-ightarrow$ 2026
-* **LAMPIRAN-LAMPIRAN:**
-  * **Lampiran 1:** Master Tabel Keterlacakan I-R-M 14 CPL $	imes$ 55 Mata Kuliah
-  * **Lampiran 2:** Master Portofolio Silabus 3-Tabel Lengkap Seluruh 67 Mata Kuliah (CPMK ABCD & 16 Pertemuan)
-  * **Lampiran 3:** Instrumen Kuesioner Tracer Study Alumni (3–5 Tahun) & Employer Satisfaction Survey
-
----
-
-# BAB I: PENDAHULUAN DAN LANDASAN KURIKULUM
-
-## 1.1 Latar Belakang dan Urgensi Kurikulum 2026
-Perkembangan pesat teknologi informasi, integrasi kecerdasan artifisial terapan (*Applied AI*), komputasi awan skala besar (*Cloud Computing*), ancaman keamanan siber (*Cybersecurity*), dan pertumbuhan ekonomi digital menuntut transformasi mendasar pada pendidikan tinggi bidang komputasi. Program Studi Sarjana (S1) Sistem dan Teknologi Informasi (SISTEKIN) Fakultas Sains dan Teknologi Informasi Universitas Widyagama Malang hadir untuk menjembatani kesenjangan antara teori komputasi saintifik dengan implementasi platform enterprise nyata di dunia industri.
-
-Kurikulum 2026 dirancang melalui pendekatan *Outcome-Based Education* (OBE) yang berorientasi pada profil luaran lulusan yang terukur, relevan dengan kebutuhan pasar global, serta selaras dengan pilar pembangunan nasional menuju Indonesia Emas 2045.
-
----
-
-## 1.2 Landasan Yuridis, Filosofis, Sosiologis, dan Pedagogis
-
-### 1.2.1 Landasan Yuridis
-Penyusunan kurikulum ini didasarkan pada peraturan perundang-undangan Republik Indonesia:
-1. **Undang-Undang Republik Indonesia Nomor 12 Tahun 2012** tentang Pendidikan Tinggi.
-2. **Peraturan Presiden Republik Indonesia Nomor 8 Tahun 2012** tentang Kerangka Kualifikasi Nasional Indonesia (KKNI Level 6).
-3. **Permendikbudristek Republik Indonesia Nomor 53 Tahun 2023** tentang Penjaminan Mutu Pendidikan Tinggi (Fleksibilitas SKS, Pembelajaran Kolaboratif IKU 7, Opsi Tugas Akhir Bebas Skripsi, dan Program MBKM).
-4. **Panduan Kurikulum OBE Asosiasi Pendidikan Tinggi Informatika dan Komputer (APTIKOM v2.0 Tahun 2024)** untuk Program Studi Sistem Informasi (IS2020) dan Teknologi Informasi (IT2017).
-5. **Standar Akreditasi Lembaga Akreditasi Mandiri Informatika dan Komputer (LAM INFOKOM)** Kriteria 1 s.d. Kriteria 9.
-6. **Indonesian Accreditation Board for Engineering Education (IABEE)** Criteria for Computing and Information Programs.
-7. **Statuta dan Rencana Strategis Universitas Widyagama Malang 2026–2045**.
-
-### 1.2.2 Landasan Filosofis
-Mengembangkan insan akademik yang bertakwa kepada Tuhan Yang Maha Esa, berintegritas moral, menjunjung tinggi etika profesi teknologi informasi, berpikiran kritis-inovatif, mandiri, serta mendedikasikan keahlian teknologi untuk kemaslahatan masyarakat (*Technopreneurship for Humanity*).
-
-### 1.2.3 Landasan Sosiologis
-Merespons kebutuhan nyata transformasi digital pada sektor UMKM, industri manufaktur, layanan publik cerdas (*Smart City*), serta ekosistem *startup* digital di tingkat regional Jawa Timur maupun nasional, guna memperkuat kemandirian ekonomi digital bangsa.
-
-### 1.2.4 Landasan Pedagogis
-Menerapkan paradigma *Student-Centered Learning* (SCL) berbasis *Case-Based Learning* dan *Project-Based Learning* (PjBL). Proses pembelajaran dirancang konstruktivistik dengan taksonomi Bloom ranah kognitif tingkat tinggi (C4 *Analyze*, C5 *Evaluate*, C6 *Create*) serta psikomotorik presisi-artikulasi (P3–P4).
-
----
-
-## 1.3 Siklus Pengembangan Kurikulum Berbasis Luaran (*Outcome-Based Education - OBE*)
-Pengembangan Kurikulum SISTEKIN 2026 mengikuti siklus baku OBE yang terintegrasi penuh:
-
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────┐
-│                         SIKLUS DESAIN & IMPLEMENTASI KURIKULUM OBE                       │
-├──────────────────────────────────────────────────────────────────────────────────────────┤
-│ 1. Analisis Kebutuhan Stakeholder (DUDI, Asosiasi APTIKOM, Alumni, Pemerintah).          │
-│ 2. Perumusan VMTS 2045 & Distinctive Positioning Program Studi.                          │
-│ 3. Perumusan 3 Program Educational Objectives (PEO) & 4 Profil Lulusan (PL).             │
-│ 4. Perumusan 14 Capaian Pembelajaran Lulusan (CPL) berbasis SN-Dikti, IS2020 & IT2017.   │
-│ 5. Pemetaan CPL ke 19 BoK IS2020 & 14 BoK IT2017 serta Penyusunan Struktur 8 Semester.  │
-│ 6. Perancangan 67 MK Portofolio, CPMK (ABCD Bloom C2-C6), dan Skema 4x Asesmen Baku.    │
-│ 7. Pelaksanaan Pembelajaran Kolaboratif (IKU 7: Case Method & PjBL) + MBKM 20 SKS.       │
-│ 8. Pengukuran Ketercapaian CPL & PEO serta Siklus Perbaikan Mutu PPEPP / CQI.            │
-└──────────────────────────────────────────────────────────────────────────────────────────┘
-```
+| 1. Analisis Kebutuhan Stakeholder (DUDI, Asosiasi APTIKOM, Alumni, Pemerintah). |
+| --- |
+| 2. Perumusan VMTS 2045 & Distinctive Positioning Program Studi. |
+| 3. Perumusan 3 Program Educational Objectives (PEO) & 4 Profil Lulusan (PL). |
+| 4. Perumusan 14 Capaian Pembelajaran Lulusan (CPL) berbasis SN-Dikti, IS2020 & IT2017. |
+| 5. Pemetaan CPL ke 19 BoK IS2020 & 14 BoK IT2017 serta Penyusunan Struktur 8 Semester. |
+| 6. Perancangan 67 MK Portofolio, CPMK (ABCD Bloom C2-C6), dan Skema 4x Asesmen Baku. |
+| 7. Pelaksanaan Pembelajaran Kolaboratif (IKU 7: Case Method & PjBL) + MBKM 20 SKS. |
+| 8. Pengukuran Ketercapaian CPL & PEO serta Siklus Perbaikan Mutu PPEPP / CQI. |
 
 ---
 
@@ -224,228 +30,39 @@ Pengembangan Kurikulum SISTEKIN 2026 mengikuti siklus baku OBE yang terintegrasi
 
 ### PETA PIKIRAN (MINDMAP) VMTS 2045 & POSITIONING PRODI
 
-```mermaid
-mindmap
-  root((SISTEKIN 2045))
-    AI & Smart Systems
-      Applied Artificial Intelligence
-      Machine Learning & Deep Learning
-      Edge AI & Sensor Systems
-    Technopreneurship
-      Digital Startup Validation
-      Lean MVP Development
-      Product Management
-    Distinctive Positioning
-      Teknik Informatika: Riset Algoritma AI Murni
-      Sistem Informasi: Manajemen & Proses Bisnis
-      Bisnis Digital: Model Bisnis & Marketing
-      SISTEKIN: Integrator AI ke Sistem & Platform Nyata
-```
+### MATRIKS REKONSILIASI & PELEBURAN PROFIL LULUSAN SISTEKIN
 
-
-```mermaid
-graph TD
-    subgraph VMTS ["VISI KEILMUAN SISTEKIN 2045"]
-        V1["Sistem & Teknologi Informasi Cerdas"]
-        V2["Integrasi Artificial Intelligence (Applied AI)"]
-        V3["Technopreneurship Berbasis Kebutuhan Industri"]
-    end
-
-    subgraph POS ["DISTINCTIVE POSITIONING LESTARI"]
-        TI["Teknik Informatika<br/>(Riset Algoritma AI Murni)"]
-        SI["Sistem Informasi<br/>(Manajemen & Proses Bisnis)"]
-        BD["Bisnis Digital<br/>(Model Bisnis & Pemasaran)"]
-        ST["SISTEKIN UWG<br/>(Integrator AI ke Sistem & Platform Nyata)"]
-    end
-
-    VMTS --> ST
-    TI -. "Komponen Algoritma" .-> ST
-    SI -. "Analisis Kebutuhan Bisnis" .-> ST
-    BD -. "Validasi Pasar Technopreneur" .-> ST
-```
-
----
-
-## 1. VISI, MISI, TUJUAN, DAN STRATEGI (VMTS)
-
-### 1.1 Visi Keilmuan Program Studi SISTEKIN (Tahun 2045)
-> **"Menjadi Program Studi Sistem dan Teknologi Informasi yang bermutu, mandiri, bermartabat, dan berwawasan global, serta unggul dalam pengembangan sistem dan teknologi informasi cerdas terintegrasi kecerdasan artifisial, serta technopreneurship berbasis kebutuhan masyarakat dan industri pada tahun 2045."**
-
-### 1.2 Misi Program Studi SISTEKIN
-1. **Pendidikan Berstandar OBE:** Menyelenggarakan pendidikan sarjana yang berkualitas internasional di bidang sistem dan teknologi informasi dengan fokus pada integrasi sistem cerdas (*AI & Smart Systems*) dan kewirausahaan teknologi (*Technopreneurship*).
-2. **Penelitian Terapan Transformatif:** Mengembangkan riset inovatif dan solutif yang mengintegrasikan kecerdasan artifisial, infrastruktur komputasi awan, ketahanan siber, dan rekayasa platform digital untuk memecahkan permasalahan nyata di masyarakat dan industri.
-3. **Pengabdian kepada Masyarakat (PkM) Tepat Guna:** Menerapkan hasil rekayasa teknologi dan sistem informasi cerdas untuk memberdayakan UMKM, institusi lokal, dan masyarakat guna mendukung transformasi digital nasional.
-4. **Ekosistem Technopreneurship & Tata Kelola:** Membangun kemitraan strategis dengan industri global, komunitas open-source, dan ekosistem startup guna menumbuhkan budaya inovasi mandiri dan tata kelola program studi yang kredibel (Good University Governance).
-
-### 1.3 Tujuan Strategis (Goals)
-1. Menghasilkan lulusan yang menguasai kompetensi terintegrasi antara sistem informasi, infrastruktur teknologi informasi, dan rekayasa AI aplikatif dengan daya saing global.
-2. Menghasilkan produk riset terapan dan publikasi ilmiah bereputasi yang berorientasi pada pemecahan masalah industri dan masyarakat cerdas (*Smart Society*).
-3. Melahirkan inovator dan wirausahawan digital (*tech founders*) yang mampu menciptakan lapangan kerja mandiri melalui produk berbasis sistem cerdas.
-4. Membangun jejaring kolaborasi tri-dharma dengan industri nasional dan internasional serta asosiasi profesi (APTIKOM, IEEE, ACM).
-
----
-
-## 2. DISTINCTIVE POSITIONING (KEKHASAN DAN KEUNGGULAN STRATEGIS)
-
-Program Studi Sistem dan Teknologi Informasi (SISTEKIN) FSTI Universitas Widyagama Malang memiliki posisi pembeda (*unique positioning*) yang tegas dibandingkan program studi serumpun lainnya di bidang *computing*:
-
-| Program Studi | Fokus Utama Keilmuan & Peran Kompetensi |
-|---|---|
-| **Teknik Informatika / Ilmu Komputer** | Teori komputasi, algoritma fundamental murni, arsitektur internal perangkat keras, serta riset model matematika kecerdasan buatan. |
-| **SISTEKIN (Sistem & Teknologi Informasi)** | **PEREKAYASA & PENGINTEGRASI SISTEM CERDAS NYATA (AI Integrator):** Mengintegrasikan model AI, infrastruktur cloud & IoT, keamanan siber, dan platform digital ke dalam proses bisnis dan organisasi dengan semangat kemandirian Technopreneurship. |
-| **Bisnis Digital / Manajemen** | Strategi pemasaran digital, model finansial, operasional bisnis, dan manajemen e-commerce (tanpa fokus pada rekayasa kode/infra). |
-
-### Karakteristik "AI & Smart Systems Integrator":
-* Lulusan SISTEKIN bukan hanya menjadi *consumer* perangkat lunak, tetapi **pembangun solusi (*solution builder*)** yang menghubungkan model Machine Learning / Deep Learning dengan arsitektur komputasi awan, sensor IoT, antarmuka pengguna interaktif, dan tata kelola keamanan informasi yang tangguh.
-* Setiap lulusan dibekali fondasi *technopreneurship* terstruktur melalui ekosistem Capstone Project dan inkubasi inovasi sejak semester awal.
-
----
-
-## 3. ENVIRONMENTAL SCANNING & ANALISIS SWOT (LAM INFOKOM KRITERIA 1)
-| STRENGTHS (Kekuatan Internal) | WEAKNESSES (Kelemahan Internal) |
-|---|---|
-| 1. Kurikulum modern berbasis OBE terkini (APTIKOM v2.0, IS2020, IT2017).<br>2. Visi keilmuan yang sangat fokus dan relevan: AI Integration & Technopreneurship.<br>3. Paket SKS terstruktur (146 SKS / 55 MK) dengan 3 peminatan seimbang.<br>4. Adanya pilar Capstone & opsi Tugas Akhir non-skripsi. | 1. Status program studi baru yang belum memiliki rekam jejak alumni (*tracer study*).<br>2. Kebutuhan peningkatan kapasitas dosen dalam sertifikasi industri bertaraf global.<br>3. Fasilitas laboratorium spesialisasi cerdas yang sedang dalam proses akselerasi. |
-| **OPPORTUNITIES (Peluang Eksternal)** | **THREATS (Ancaman Eksternal)** |
-| 1. Lonjakan kebutuhan industri terhadap Data/AI Engineer & Cloud Architect.<br>2. Kebijakan Permendikbudristek 53/2023 yang memberi fleksibilitas MBKM & TA.<br>3. Kemitraan strategis Malang Raya sebagai kota pendidikan & hub digital. | 1. Kecepatan disrupsi teknologi AI generatif yang dapat mengusir kurikulum usang.<br>2. Persaingan ketat dengan prodi TI/SI konvensional dari PTN/PTS mapan.<br>3. Standar kompetensi industri yang menuntut penguasaan sertifikasi internasional. |
-
-### Strategi Transformasi Matriks SWOT:
-* **Strategi S-O (Maxi-Maxi):** Mengkapitalisasi visi *AI Integrator* dan kurikulum fleksibel 146 SKS untuk menarik talenta mahasiswa dan menjalin kemitraan MBKM dengan industri teknologi nasional.
-* **Strategi W-O (Mini-Maxi):** Memanfaatkan kemitraan industri global (Google, AWS, Microsoft, Oracle Academy) untuk sertifikasi dosen dan mahasiswa guna menutup kelemahan usia prodi.
-* **Strategi S-T (Maxi-Mini):** Memastikan ekosistem *PjBL (Project-based Learning)* dan *Capstone Project* menghasilkan portofolio nyata yang melampaui kemampuan lulusan konvensional di pasar kerja.
-* **Strategi W-T (Mini-Mini):** Menetapkan sistem penjaminan mutu PPEPP yang ketat sejak tahun pertama agar setiap luaran mata kuliah terukur secara objektif sesuai standar akreditasi LAM INFOKOM.
-
----
-
-## 4. KESIMPULAN DAN ARAH DOKUMEN REVISI
-
-Analisis VMTS dan posisi strategis ini menjadi landasan formal bagi:
-1. **Formulasi 3 PEO Berbasis Peran** (*Professional, Technopreneur, Lifelong Learner*).
-2. **Formulasi 4 Profil Lulusan (PL)** yang terintegrasi penuh dengan 3 Peminatan dan Ekosistem Capstone.
-3. **Penyelarasan 14 CPL Formal** sesuai Body of Knowledge APTIKOM IS2020 & IT2017.
-
----
-*Disahkan sebagai Dokumen Resmi 001 — Kurikulum OBE Revisi SISTEKIN 2026.*  
-**Tim Pengembang Kurikulum FSTI Universitas Widyagama Malang**
-
-
----
-
-# BAB III: PROFIL LULUSAN (PL) DAN PROGRAM EDUCATIONAL OBJECTIVES (PEO)
-
-# 002 — FORMULASI 3 PROGRAM EDUCATIONAL OBJECTIVES (PEO) DAN 4 PROFIL LULUSAN (PL)
-## Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang
-
-**Dokumen Revisi Definitif Kurikulum 2026**  
-**Standar Rujukan:** Standar LAM INFOKOM Kriteria 1 & 9, Panduan Kurikulum OBE APTIKOM v2.0 (IS2020 & IT2017), Standar Akreditasi Internasional IABEE (Kriteria 1), ACM/IEEE CC2020.
-
----
-
-### VISUALISASI ARSITEKTUR: PELEBURAN PROFIL & 3 PEO
-
-```mermaid
-graph TD
-    subgraph PELEBURAN ["KONSOLIDASI PROFIL LULUSAN (6 PL → 4 PL)"]
-        PL1_OLD["PL-01: Intelligent IS Dev"] & PL6_OLD["PL-06: Data & ML Eng"] --> PL1["PL-1: Intelligent IS & Data/AI Engineer"]
-        PL3_OLD["PL-03: Smart Sys Integrator"] & PL5_OLD["PL-05: Governance Analyst"] --> PL2["PL-2: Cloud Infra, Cybersecurity & Smart Sys"]
-        PL2_OLD["PL-02: UI/UX & Platform Eng"] --> PL3["PL-3: UI/UX Designer & Platform Engineer"]
-        PL4_OLD["PL-04: Technopreneur"] --> PL4["PL-4: Digital Technopreneur & Product Innovator"]
-    end
-
-    subgraph PEO ["3 PROGRAM EDUCATIONAL OBJECTIVES (3-5 TAHUN)"]
-        PEO1["PEO-1: Professional Practice & Systems Integration"]
-        PEO2["PEO-2: Digital Innovation & Technopreneurship"]
-        PEO3["PEO-3: Advanced Study, Research & Lifelong Learning"]
-    end
-
-    PL1 & PL2 & PL3 --> PEO1
-    PL3 & PL4 --> PEO2
-    PL1 & PL2 & PL3 & PL4 --> PEO3
-```
-
----
-
-## 1. SEJARAH, ANALISIS, DAN ALASAN PENYATUAN PROFIL LULUSAN (DARI 6 PL MENJADI 4 PL)
-
-### 1.1 Latar Belakang Model 6 Profil Lulusan (Draf Awal Kurikulum 2025/2026)
-Pada fase perancangan awal kurikulum SISTEKIN (Dokumen 008 pada arsip historis `KURIKULUM2026_ZCODE`), dirumuskan 6 Profil Lulusan (`PL-01` s.d. `PL-06`):
-1. `PL-01`: *Intelligent Information System Developer*
-2. `PL-02`: *UI/UX Designer & Digital Platform Engineer*
-3. `PL-03`: *Smart System & Technology Integrator*
-4. `PL-04`: *Technopreneur*
-5. `PL-05`: *Digital System & Technology Governance Analyst*
-6. `PL-06`: *Data Analyst & Machine Learning Engineer*
-
-Model 6 PL tersebut merupakan hasil dekonstruksi granular awal untuk memetakan seluruh kemungkinan peran okupasi di industri teknologi informasi.
-
----
-
-### 1.2 Analisis Kritis Kelemahan Model 6 PL (Audit Asesor LAM INFOKOM & IABEE)
-Berdasarkan audit kelayakan implementasi kurikulum OBE, ditemukan 4 kelemahan fundamental pada model 6 PL:
-
-1. **Risiko Fragmentasi Data Tracer Study (*Small Sample Bias*):**
-   * Sesuai Standar LAM INFOKOM Kriteria 9 (Luaran dan Capaian Tridharma), ketercapaian Profil Lulusan dan PEO wajib dievaluasi melalui *Tracer Study*.
-   * Dengan 6 PL, pada angkatan-angkatan awal (jumlah mahasiswa $\pm 30-50$ per tahun), jumlah lulusan yang mengisi tiap profil akan sangat sedikit ($3-5$ orang per profil). Hal ini menimbulkan bias statistik yang tinggi dan menyulitkan evaluasi berkala mutu lulusan (PPEPP).
-2. **Tumpang Tindih Peran (*Role Overlapping*) di Industri Nyata:**
-   * Di industri modern, peran *Data/ML Engineer* (`PL-06`) dan *Intelligent IS Developer* (`PL-01`) berada dalam satu kontinum rekayasa perangkat lunak cerdas. Memisahkannya ke dalam profil sarjana terpisah menciptakan ambiguitas kurikulum.
-   * Peran *Governance Analyst* (`PL-05`) sangat erat berkaitan dengan arsitektur infrastruktur, cloud, dan ketahanan siber (`PL-03`). Pemisahan tersebut membuat profil tata kelola terkesan teoritis tanpa penguasaan infrastruktur teknis.
-3. **Rekomendasi Standar Kurikulum APTIKOM & IABEE:**
-   * Panduan Kurikulum OBE APTIKOM v2.0 dan IABEE merekomendasikan sebuah program studi sarjana strata satu (S1) menetapkan **3 hingga 5 Profil Lulusan inti** (*sweet spot* 4 PL) agar profil lulusan memiliki fokus yang tajam, kredibel, dan mudah dikenali oleh *employers* (pengguna lulusan).
-4. **Penyelarasan Struktural 1:1 terhadap 3 Peminatan + 1 Pilar Kewirausahaan:**
-   * Kurikulum SISTEKIN memiliki 3 Peminatan Spesialisasi (@ 18 SKS / 6 MK) dan 1 Pilar Capstone Technopreneurship. Model 4 PL menciptakan simetri sempurna: **3 PL berbasis Peminatan Teknis + 1 PL berbasis Kewirausahaan Mandiri**.
-
----
-
-### 1.3 Matriks Migrasi dan Rekonsiliasi (Peleburan 6 PL → 4 PL)
-
-Proses penyatuan profil ini dilakukan **tanpa menghilangkan satu pun kompetensi/bahan kajian**, melainkan mengkonsolidasikannya menjadi lebih kokoh dan selaras dengan kebutuhan industri terkini:
-
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                   MATRIKS REKONSILIASI & PELEBURAN PROFIL LULUSAN SISTEKIN                       │
-├────────┬─────────────────────────┬────────┬─────────────────────────┬────────────────────────────┤
-│ Kode   │ Profil Lama (6 PL)      │ Kode   │ Profil Baru (4 PL)      │ Rasionalisasi Integrasi    │
-├────────┼─────────────────────────┼────────┼─────────────────────────┼────────────────────────────┤
-│ PL-01  │ Intelligent IS Dev      │ PL-1   │ Intelligent Information │ Menggabungkan rekayasa     │
-│ PL-06  │ Data Analyst & ML Eng   │        │ Systems & Data/AI       │ perangkat lunak cerdas dan │
-│        │                         │        │ Engineer                │ pipeline data/MLOps.       │
-├────────┼─────────────────────────┼────────┼─────────────────────────┼────────────────────────────┤
-│ PL-03  │ Smart System Integrator │ PL-2   │ Cloud Infrastructure,   │ Mengintegrasikan infrastruk│
-│ PL-05  │ Governance Analyst      │        │ Cybersecurity & Smart   │ tur cloud, IoT, keamanan   │
-│        │                         │        │ Systems Integrator      │ siber, dan tata kelola TI. │
-├────────┼─────────────────────────┼────────┼─────────────────────────┼────────────────────────────┤
-│ PL-02  │ UI/UX & Platform Eng    │ PL-3   │ UI/UX Designer &        │ Mempertahankan keunggulan  │
-│        │                         │        │ Digital Platform        │ rekayasa frontend, UI/UX,  │
-│        │                         │        │ Engineer                │ dan arsitektur platform.   │
-├────────┼─────────────────────────┼────────┼─────────────────────────┼────────────────────────────┤
-│ PL-04  │ Technopreneur           │ PL-4   │ Digital Technopreneur & │ Mempertegas peran founder, │
-│        │                         │        │ IT Product Innovator    │ product owner, dan agile   │
-│        │                         │        │                         │ startup innovator.         │
-└────────┴─────────────────────────┴────────┴─────────────────────────┴────────────────────────────┘
-```
+| Kode | Profil Lama (6 PL) | Kode | Profil Baru (4 PL) | Rasionalisasi Integrasi |
+| --- | --- | --- | --- | --- |
+| PL-01 | Intelligent IS Dev | PL-1 | Intelligent Information | Menggabungkan rekayasa |
+| PL-06 | Data Analyst & ML Eng |  | Systems & Data/AI | perangkat lunak cerdas dan |
+|  |  |  | Engineer | pipeline data/MLOps. |
+| PL-03 | Smart System Integrator | PL-2 | Cloud Infrastructure, | Mengintegrasikan infrastruk |
+| PL-05 | Governance Analyst |  | Cybersecurity & Smart | tur cloud, IoT, keamanan |
+|  |  |  | Systems Integrator | siber, dan tata kelola TI. |
+| PL-02 | UI/UX & Platform Eng | PL-3 | UI/UX Designer & | Mempertahankan keunggulan |
+|  |  |  | Digital Platform | rekayasa frontend, UI/UX, |
+|  |  |  | Engineer | dan arsitektur platform. |
+| PL-04 | Technopreneur | PL-4 | Digital Technopreneur & | Mempertegas peran founder, |
+|  |  |  | IT Product Innovator | product owner, dan agile |
+|  |  |  |  | startup innovator. |
 
 ---
 
 ## 2. FORMULASI DEFINITIF 4 PROFIL LULUSAN (PL) SISTEKIN 2026
 
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                             4 PROFIL LULUSAN SISTEKIN (KKNI LEVEL 6)                             │
-├──────┬───────────────────────────────────────────┬───────────────────┬───────────────────────────┤
-│ Kode │ Profil Lulusan                            │ Basis Peminatan   │ CPL Khusus Utama          │
-├──────┼───────────────────────────────────────────┼───────────────────┼───────────────────────────┤
-│ PL-1 │ Intelligent Information Systems & Data/AI │ P1: Integrated    │ • KK1 (AI & ML System)    │
-│      │ Engineer                                  │     Smart Systems │ • KK2 (Data & MLOps)      │
-├──────┼───────────────────────────────────────────┼───────────────────┼───────────────────────────┤
-│ PL-2 │ Cloud Infrastructure, Cybersecurity &     │ P2: Cloud Infra & │ • KK3 (Cloud, IoT, Cyber) │
-│      │ Smart Systems Integrator                  │     Cybersecurity │ • KK4 (IT Governance)     │
-├──────┼───────────────────────────────────────────┼───────────────────┼───────────────────────────┤
-│ PL-3 │ UI/UX Designer & Digital Platform         │ P3: Digital Plat- │ • KK5 (UI/UX & Platform)  │
-│      │ Engineer                                  │     form Eng.     │ • P4  (Software & Web/Mob)│
-├──────┼───────────────────────────────────────────┼───────────────────┼───────────────────────────┤
-│ PL-4 │ Digital Technopreneur & IT Product        │ Lintas Peminatan /│ • KK6 (Techno & Agile)    │
-│      │ Innovator                                 │ Capstone Ecosystem│ • S1, KU1, KU2, KU3       │
-└──────┴───────────────────────────────────────────┴───────────────────┴───────────────────────────┘
-```
+### 4 PROFIL LULUSAN SISTEKIN (KKNI LEVEL 6)
+
+| Kode | Profil Lulusan | Basis Peminatan | CPL Khusus Utama |
+| --- | --- | --- | --- |
+| PL-1 | Intelligent Information Systems & Data/AI | P1: Integrated | • KK1 (AI & ML System) |
+|  | Engineer | Smart Systems | • KK2 (Data & MLOps) |
+| PL-2 | Cloud Infrastructure, Cybersecurity & | P2: Cloud Infra & | • KK3 (Cloud, IoT, Cyber) |
+|  | Smart Systems Integrator | Cybersecurity | • KK4 (IT Governance) |
+| PL-3 | UI/UX Designer & Digital Platform | P3: Digital Plat- | • KK5 (UI/UX & Platform) |
+|  | Engineer | form Eng. | • P4  (Software & Web/Mob) |
+| PL-4 | Digital Technopreneur & IT Product | Lintas Peminatan / | • KK6 (Techno & Agile) |
+|  | Innovator | Capstone Ecosystem | • S1, KU1, KU2, KU3 |
 
 ### Rincian Deskripsi dan Capaian Tiap Profil:
 
@@ -471,29 +88,23 @@ Proses penyatuan profil ini dilakukan **tanpa menghilangkan satu pun kompetensi/
 
 Program Educational Objectives (PEO) menggambarkan pencapaian karier dan profesional yang diharapkan diraih oleh alumni SISTEKIN **3 hingga 5 tahun setelah kelulusan**:
 
-```
-┌─────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                        3 PROGRAM EDUCATIONAL OBJECTIVES (PEO) SISTEKIN                          │
-├──────────┬──────────────────────────────────────────────────────────────────────────────────────┤
-│ Kode PEO │ Nomenklatur & Pernyataan Formal Objektif Pendidikan (3–5 Tahun Pasca Kelulusan)      │
-├──────────┼──────────────────────────────────────────────────────────────────────────────────────┤
-│ PEO-1    │ PEO-1 — Professional Practice and Systems Integration                                │
-│          │ "Dalam 3–5 tahun setelah lulus, alumni mampu berkarier secara profesional dalam      │
-│          │ menganalisis, merancang, mengembangkan, mengintegrasikan, mengamankan, atau          │
-│          │ mengelola sistem dan teknologi informasi cerdas sesuai kebutuhan organisasi,         │
-│          │ industri, dan masyarakat."                                                           │
-├──────────┼──────────────────────────────────────────────────────────────────────────────────────┤
-│ PEO-2    │ PEO-2 — Digital Innovation and Technopreneurship                                     │
-│          │ "Dalam 3–5 tahun setelah lulus, alumni mampu menghasilkan inovasi, produk, layanan,  │
-│          │ perbaikan proses, atau usaha digital yang relevan, etis, berkelanjutan, dan          │
-│          │ memberikan nilai tambah bagi pengguna, organisasi, industri, atau masyarakat."       │
-├──────────┼──────────────────────────────────────────────────────────────────────────────────────┤
-│ PEO-3    │ PEO-3 — Advanced Study, Research, and Lifelong Learning                              │
-│          │ "Dalam 3–5 tahun setelah lulus, alumni mampu mengembangkan kompetensi melalui studi  │
-│          │ lanjut (S2/S3), penelitian terapan, sertifikasi profesional, komunitas keilmuan,     │
-│          │ atau pembelajaran sepanjang hayat serta menunjukkan kepemimpinan sesuai konteksnya." │
-└──────────┴──────────────────────────────────────────────────────────────────────────────────────┘
-```
+### 3 PROGRAM EDUCATIONAL OBJECTIVES (PEO) SISTEKIN
+
+| Kode PEO | Nomenklatur & Pernyataan Formal Objektif Pendidikan (3–5 Tahun Pasca Kelulusan) |
+| --- | --- |
+| PEO-1 | PEO-1 — Professional Practice and Systems Integration |
+|  | "Dalam 3–5 tahun setelah lulus, alumni mampu berkarier secara profesional dalam |
+|  | menganalisis, merancang, mengembangkan, mengintegrasikan, mengamankan, atau |
+|  | mengelola sistem dan teknologi informasi cerdas sesuai kebutuhan organisasi, |
+|  | industri, dan masyarakat." |
+| PEO-2 | PEO-2 — Digital Innovation and Technopreneurship |
+|  | "Dalam 3–5 tahun setelah lulus, alumni mampu menghasilkan inovasi, produk, layanan, |
+|  | perbaikan proses, atau usaha digital yang relevan, etis, berkelanjutan, dan |
+|  | memberikan nilai tambah bagi pengguna, organisasi, industri, atau masyarakat." |
+| PEO-3 | PEO-3 — Advanced Study, Research, and Lifelong Learning |
+|  | "Dalam 3–5 tahun setelah lulus, alumni mampu mengembangkan kompetensi melalui studi |
+|  | lanjut (S2/S3), penelitian terapan, sertifikasi profesional, komunitas keilmuan, |
+|  | atau pembelajaran sepanjang hayat serta menunjukkan kepemimpinan sesuai konteksnya." |
 
 ### 3.1 Atribut Kepemimpinan (*Leadership*) Lintas-PEO
 Dalam kerangka PEO SISTEKIN, **kepemimpinan (*leadership*) bukan merupakan PEO terpisah**, melainkan kompetensi esensial yang melekat pada seluruh jalur PEO:
@@ -505,29 +116,23 @@ Dalam kerangka PEO SISTEKIN, **kepemimpinan (*leadership*) bukan merupakan PEO t
 
 ## 4. MATRIKS KETERLACAKAN STRATEGIS: VMTS ↔ 3 PEO ↔ 4 PL ↔ 14 CPL
 
-```
-┌─────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                        MATRIKS KETERLACAKAN STRATEGIS KURIKULUM OBE                             │
-├─────────────────────┬──────────┬───────────────────┬────────────────────────────────────────────┤
-│ Pilar Utama VMTS    │ Target   │ Profil Lulusan    │ Pasangan CPL Pendukung Utama               │
-│ (Visi 2045)         │ PEO      │ Terkait (PL)      │ (14 CPL Terstandar)                        │
-├─────────────────────┼──────────┼───────────────────┼────────────────────────────────────────────┤
-│ AI & Smart Systems  │ PEO-1    │ PL-1 & PL-2       │ • P1, P2 (Fondasi Matematika & Sistem)     │
-│ Integration         │ PEO-3    │                   │ • KK1 (Pengembangan AI & Smart Systems)    │
-│                     │          │                   │ • KK2 (Rekayasa Data & MLOps)              │
-│                     │          │                   │ • KK3 (Cloud, IoT & Keamanan Informasi)    │
-│                     │          │                   │ • KK4 (Tata Kelola & Audit TI)             │
-├─────────────────────┼──────────┼───────────────────┼────────────────────────────────────────────┤
-│ Modern Platform &   │ PEO-1    │ PL-3              │ • P4 (Rekayasa Perangkat Lunak, Web & Mob) │
-│ Digital Experience  │ PEO-2    │                   │ • KK5 (UI/UX Design & Platform Engine)     │
-│                     │          │                   │ • KU1, KU2 (Pemikiran Logis & Kerja Tim)   │
-├─────────────────────┼──────────┼───────────────────┼────────────────────────────────────────────┤
-│ Technopreneurship   │ PEO-2    │ PL-4              │ • S1 (Etika, Nilai Luhur, Integritas)      │
-│ & Kemandirian       │ PEO-3    │ (Lintas Profil)   │ • KU3 (Kemampuan Komunikasi & Presentasi)  │
-│                     │          │                   │ • P3 (Manajemen Proyek TI & Inovasi)       │
-│                     │          │                   │ • KK6 (Technopreneurship & Agile Startup)  │
-└─────────────────────┴──────────┴───────────────────┴────────────────────────────────────────────┘
-```
+### MATRIKS KETERLACAKAN STRATEGIS KURIKULUM OBE
+
+| Pilar Utama VMTS | Target | Profil Lulusan | Pasangan CPL Pendukung Utama |
+| --- | --- | --- | --- |
+| (Visi 2045) | PEO | Terkait (PL) | (14 CPL Terstandar) |
+| AI & Smart Systems | PEO-1 | PL-1 & PL-2 | • P1, P2 (Fondasi Matematika & Sistem) |
+| Integration | PEO-3 |  | • KK1 (Pengembangan AI & Smart Systems) |
+|  |  |  | • KK2 (Rekayasa Data & MLOps) |
+|  |  |  | • KK3 (Cloud, IoT & Keamanan Informasi) |
+|  |  |  | • KK4 (Tata Kelola & Audit TI) |
+| Modern Platform & | PEO-1 | PL-3 | • P4 (Rekayasa Perangkat Lunak, Web & Mob) |
+| Digital Experience | PEO-2 |  | • KK5 (UI/UX Design & Platform Engine) |
+|  |  |  | • KU1, KU2 (Pemikiran Logis & Kerja Tim) |
+| Technopreneurship | PEO-2 | PL-4 | • S1 (Etika, Nilai Luhur, Integritas) |
+| & Kemandirian | PEO-3 | (Lintas Profil) | • KU3 (Kemampuan Komunikasi & Presentasi) |
+|  |  |  | • P3 (Manajemen Proyek TI & Inovasi) |
+|  |  |  | • KK6 (Technopreneurship & Agile Startup) |
 
 ---
 
@@ -535,24 +140,16 @@ Dalam kerangka PEO SISTEKIN, **kepemimpinan (*leadership*) bukan merupakan PEO t
 
 Sebagai program studi baru yang sedang bertumbuh, SISTEKIN menerapkan evaluasi PEO secara bertahap dan terencana:
 
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                            SIKLUS EVALUASI PEO BERBASIS PPEPP                                    │
-├───────────────────┬──────────────────────┬───────────────────────────────────────────────────────┤
-│ Periode / Tahap   │ Fokus Evaluasi       │ Instrumen & Sumber Data                               │
-├───────────────────┼──────────────────────┼───────────────────────────────────────────────────────┤
-│ Setiap Semester   │ Capaian CPL & CPMK   │ Asesmen MK, Rubrik Penilaian, Portofolio Mahasiswa    │
-├───────────────────┼──────────────────────┼───────────────────────────────────────────────────────┤
-│ Setiap Tahun      │ Relevansi Kurikulum  │ FGD Industri, Advisory Board, Masukan Dosen/Mitra     │
-├───────────────────┼──────────────────────┼───────────────────────────────────────────────────────┤
-│ Saat Kelulusan    │ Kesiapan Kerja (Day1)│ Exit Survey, Capaian Portofolio SKPI, Sertifikasi     │
-├───────────────────┼──────────────────────┼───────────────────────────────────────────────────────┤
-│ 1 Tahun Pasca-Lulus│ Transisi Karier Awal │ Tracer Study Awal (Waktu Tunggu, Gaji Pertama)        │
-├───────────────────┼──────────────────────┼───────────────────────────────────────────────────────┤
-│ 3–5 Tahun Pasca-  │ Ketercapaian PEO     │ Tracer Study PEO, Employer Survey (Survei Kepuasan    │
-│ Lulus             │ Definitif            │ Pengguna Lulusan), Portofolio Usaha/Publikasi Alumni  │
-└───────────────────┴──────────────────────┴───────────────────────────────────────────────────────┘
-```
+### SIKLUS EVALUASI PEO BERBASIS PPEPP
+
+| Periode / Tahap | Fokus Evaluasi | Instrumen & Sumber Data |
+| --- | --- | --- |
+| Setiap Semester | Capaian CPL & CPMK | Asesmen MK, Rubrik Penilaian, Portofolio Mahasiswa |
+| Setiap Tahun | Relevansi Kurikulum | FGD Industri, Advisory Board, Masukan Dosen/Mitra |
+| Saat Kelulusan | Kesiapan Kerja (Day1) | Exit Survey, Capaian Portofolio SKPI, Sertifikasi |
+| 1 Tahun Pasca-Lulus | Transisi Karier Awal | Tracer Study Awal (Waktu Tunggu, Gaji Pertama) |
+| 3–5 Tahun Pasca- | Ketercapaian PEO | Tracer Study PEO, Employer Survey (Survei Kepuasan |
+| Lulus | Definitif | Pengguna Lulusan), Portofolio Usaha/Publikasi Alumni |
 
 ---
 *Disahkan sebagai Dokumen Resmi 002 — Kurikulum OBE Revisi SISTEKIN 2026.*  
@@ -574,281 +171,28 @@ Sebagai program studi baru yang sedang bertumbuh, SISTEKIN menerapkan evaluasi P
 
 ### VISUALISASI SILSILAH GENEALOGI 14 CPL & BOK APTIKOM
 
-```mermaid
-graph TD
-    subgraph KATEGORI ["14 CAPAIAN PEMBELAJARAN LULUSAN (CPL)"]
-        S["Sikap (S1)"]
-        KU["Keterampilan Umum (KU1 - KU3)"]
-        P["Pengetahuan (P1 - P4)"]
-        KK["Keterampilan Khusus (KK1 - KK6)"]
-    end
+### ALUR PERJALANAN AKADEMIK MAHASISWA (JOURNEY)
 
-    subgraph RUJUKAN ["STANDAR RUJUKAN NASIONAL & INTERNASIONAL"]
-        SNDIKTI["SN-Dikti Permendikbudristek 53/2023"]
-        IS2020["APTIKOM IS2020 (19 Bahan Kajian)"]
-        IT2017["APTIKOM IT2017 (14/27 Bahan Kajian)"]
-    end
-
-    SNDIKTI --> S & KU
-    IS2020 --> P & KK
-    IT2017 --> P & KK
-```
-
----
-
-## 1. LANDASAN DAN PRINSIP PERUMUSAN CPL
-
-Perumusan Capaian Pembelajaran Lulusan (CPL) Program Studi SISTEKIN 2026 didasarkan pada prinsip *Outcome-Based Education* (OBE) yang mengintegrasikan:
-1. **Standar Nasional Pendidikan Tinggi (SN-Dikti - Permendikbudristek No. 53/2023):** Kategori Sikap (S) dan Keterampilan Umum (KU).
-2. **Standar Asosiasi Pendidikan Tinggi Informatika dan Komputer (APTIKOM v2.0 - 2024):** Standar Capaian Pembelajaran Bidang Sistem Informasi (IS2020) dan Teknologi Informasi (IT2017).
-3. **Kebutuhan Dunia Usaha / Dunia Industri (DUDI) & KKNI Level 6 (Sarjana):** Penguasaan teknologi cerdas (*Applied Artificial Intelligence*), komputasi awan (*Cloud & DevOps*), keamanan informasi (*Cybersecurity*), platform digital terdistribusi, serta technopreneurship.
-
-Formulasi CPL SISTEKIN ditetapkan tepat berjumlah **14 CPL** yang terbagi dalam 4 ranah kompetensi:
-* **Sikap (S):** 1 CPL (`S1`)
-* **Keterampilan Umum (KU):** 3 CPL (`KU1`, `KU2`, `KU3`)
-* **Pengetahuan (P):** 4 CPL (`P1`, `P2`, `P3`, `P4`)
-* **Keterampilan Khusus (KK):** 6 CPL (`KK1`, `KK2`, `KK3`, `KK4`, `KK5`, `KK6` — terdistribusi 2 CPL per jalur peminatan)
-
----
-
-## 2. GENEALOGI & PELACAKAN SUMBER ASAL 14 CPL
-
-Untuk menjamin akuntabilitas kurikulum pada audit akreditasi **LAM INFOKOM / IABEE**, berikut adalah silsilah (*genealogy trace*) integrasi sumber rujukan baku ke dalam 14 CPL SISTEKIN:
-
-### 2.1 Genealogi CPL Sikap (S)
-| Kode CPL | Rumusan CPL SISTEKIN 2026 | Sumber Rujukan SN-Dikti | Sumber Rujukan APTIKOM IS2020 |
-|---|---|---|---|
-| **S1** | Bertakwa kepada Tuhan Yang Maha Esa, menginternalisasi nilai, norma, etika digital dan hukum profesi, menjunjung tinggi kejujuran dan integritas, mampu bekerja sama secara produktif dalam tim lintas disiplin, serta menunjukkan sikap tanggung jawab atas pekerjaan di bidang keahliannya secara mandiri. | SN-Dikti Sikap Butir 1 s.d. 10 (Ketuhanan, Kemanusiaan, Nasionalisme, Etika, Hukum, Tanggung Jawab) | CPL-S01 (Etika Profesi), CPL-S02 (Integritas), CPL-S03 (Kerja Tim), CPL-S04 s.d. CPL-S08 |
-
-### 2.2 Genealogi CPL Keterampilan Umum (KU)
-| Kode CPL | Rumusan CPL SISTEKIN 2026 | Sumber Rujukan SN-Dikti | Sumber Rujukan APTIKOM IS2020 |
-|---|---|---|---|
-| **KU1** | Mampu menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam menganalisis permasalahan komputasi serta mengkaji implikasi pengembangan atau implementasi iptek sesuai kaidah, tata cara, dan etika ilmiah. | SN-Dikti KU Butir 1 & 3 (Pemikiran Logis, Kritis & Kajian Implikasi Iptek) | CPL-KU01 (Analisis Logis & Problem Solving Ilmiah) |
-| **KU2** | Mampu mengomunikasikan gagasan, rancangan arsitektur, dan solusi teknis secara efektif baik lisan maupun tulisan, serta memelihara dan mengembangkan jaringan kerja kolaboratif dengan pemangku kepentingan industri. | SN-Dikti KU Butir 4 & 6 (Penyusunan Deskripsi Saintifik & Jaringan Kerja) | CPL-KU02 (Komunikasi Efektif), CPL-KU04 (Pengembangan Jejaring Profesional) |
-| **KU3** | Mampu mengambil keputusan yang tepat berdasarkan analisis data dan informasi, bertanggung jawab atas pencapaian hasil kerja kelompok, melakukan evaluasi diri, serta mengelola pembelajaran mandiri sepanjang hayat (*lifelong learning*). | SN-Dikti KU Butir 2, 5, 7, 8, 9 (Pengambilan Keputusan, Evaluasi Diri, Belajar Mandiri) | CPL-KU03 (Pengambilan Keputusan Berbasis Data), CPL-KU05 s.d. KU08 (Lifelong Learning) |
-
-### 2.3 Genealogi CPL Pengetahuan (P) dari APTIKOM IS2020 & IT2017
-| Kode CPL | Rumusan CPL SISTEKIN 2026 | Rujukan APTIKOM IS2020 (CPL-P01 s.d. P17) | Rujukan APTIKOM IT2017 | Domain Pengetahuan |
-|---|---|---|---|---|
-| **P1** | Menguasai konsep dasar sains, matematika terapan (kalkulus, aljabar linear, statistika, matematika diskrit, logika) sebagai fondasi pemecahan masalah rekayasa sistem informasi dan komputasi cerdas yang kompleks. | • **CPL-P05:** Dasar logika, prinsip matematika, linearitas/non-linearitas struktur data. | • **P1 (IT2017):** Pengetahuan matematika dan computing untuk problem kompleks. | Fondasi Matematika & Sains Komputasi |
-| **P2** | Menguasai konsep teoretis sistem informasi, analisis & perancangan sistem, arsitektur enterprise, metodologi pengembangan perangkat lunak, serta proses bisnis organisasi untuk transformasi digital. | • **CPL-P01:** Konsep dasar & peran SI.<br/>• **CPL-P04:** Metodologi SDLC, OOAD, Agile.<br/>• **CPL-P09:** Rekomendasi kebutuhan bisnis.<br/>• **CPL-P16:** Pemodelan proses bisnis. | • **P2 (IT2017):** Menganalisis dan mendefinisikan problem computing kompleks. | Rekayasa Sistem Informasi & Proses Bisnis |
-| **P3** | Menguasai prinsip dan konsep infrastruktur TI, jaringan komputer, komputasi awan (*cloud*), keamanan informasi & siber, tata kelola TI, serta manajemen proyek sistem dan teknologi informasi. | • **CPL-P03:** Infrastruktur TI, jaringan, cloud.<br/>• **CPL-P06:** Etika & hukum siber.<br/>• **CPL-P07:** Perencanaan strategis & tata kelola.<br/>• **CPL-P08:** Manajemen proyek TI. | • **P2 (IT2017):** Solusi pendekatan infrastruktur teknologi informasi. | Infrastruktur, Cloud, Cyber & Governance |
-| **P4** | Menguasai prinsip rekayasa perangkat lunak modern (web, mobile, distributed), manajemen basis data relasional/NoSQL, rekayasa data & visualisasi, serta prinsip desain interaksi pengalaman pengguna (UI/UX). | • **CPL-P02:** Basis data & struktur data.<br/>• **CPL-P10:** Analisis data organisasi.<br/>• **CPL-P11:** Data mining & visualisasi.<br/>• **CPL-P12:** Pemrograman Web client/server.<br/>• **CPL-P13:** Pemrograman Mobile.<br/>• **CPL-P14:** Desain UI/UX. | • **P1 (IT2017):** Konsep software stack modern dan rekayasa platform. | Rekayasa Perangkat Lunak, Data & Platform |
-
-### 2.4 Genealogi CPL Keterampilan Khusus (KK) dari APTIKOM IS2020 & IT2017
-| Kode CPL | Rumusan CPL SISTEKIN 2026 | Jalur Peminatan | Rujukan APTIKOM IS2020 (CPL-K01 s.d. K17) | Rujukan APTIKOM IT2017 (KK1 s.d. KK3) |
-|---|---|---|---|---|
-| **KK1** | Mampu menganalisis, merancang, dan mengembangkan sistem informasi cerdas terintegrasi kecerdasan artifisial (AI/ML, NLP, Computer Vision, Smart Sys, DSS) guna memecahkan masalah kompleks organisasi dan industri. | **P1: Integrated Smart Systems** | • **CPL-K01:** Pengelolaan basis data relasional/AI.<br/>• **CPL-K09:** Paradigma OOP lanjut.<br/>• **CPL-K13:** Pengolahan data analitik.<br/>• **CPL-K16:** Klasifikasi, klaster, regresi, AI prediktif. | • **KK1 (IT2017):** Solusi computing modern & teknologi cerdas. |
-| **KK2** | Mampu merekayasa pipeline data skala besar (*Data Engineering*), membangun model machine learning/deep learning, serta menerapkan MLOps untuk solusi analitik dan visualisasi data bisnis. | **P1: Integrated Smart Systems** | • **CPL-K01:** Pengelolaan database enterprise.<br/>• **CPL-K13:** Visualisasi data efektif & estetik.<br/>• **CPL-K16:** Machine learning terapan & data mining. | • **KK1 (IT2017):** Rekayasa algoritma data modern. |
-| **KK3** | Mampu merancang, mengintegrasikan, dan mengelola infrastruktur komputasi awan (Cloud/DevOps), sistem sensor cerdas (IoT), dan ketahanan siber (*Cybersecurity*) secara andal, terukur, dan aman. | **P2: Cloud Infrastructure & Cybersecurity** | • **CPL-K02:** Infrastruktur jaringan & cloud.<br/>• **CPL-K05:** Etika keamanan sistem.<br/>• **CPL-K06:** Pemeliharaan infrastruktur TI.<br/>• **CPL-K17:** Kriptografi & proteksi digital. | • **KK2 (IT2017):** Administrasi infrastruktur TI.<br/>• **KK3 (IT2017):** Keamanan sistem jaringan terdistribusi. |
-| **KK4** | Mampu merancang tata kelola TI (*IT Governance*), melakukan audit sistem informasi, serta memastikan kepatuhan terhadap standar industri dan manajemen risiko (COBIT, ITIL, ISO 27001). | **P2: Cloud Infrastructure & Cybersecurity** | • **CPL-K05:** Kepatuhan etika & regulasi.<br/>• **CPL-K06:** Keselarasan strategis TI.<br/>• **CPL-K07:** Evaluasi & audit sumber daya SI.<br/>• **CPL-K14:** Manajemen risiko TI. | • **KK3 (IT2017):** Audit kepatuhan & manajemen integritas sistem. |
-| **KK5** | Mampu merancang pengalaman pengguna berbasis riset (UI/UX) serta merekayasa platform digital modern yang skalabel (*Microservices, Web/Mobile, API, SaaS, BPA*). | **P3: Digital Platform Engineering** | • **CPL-K03:** SDLC & pemodelan sistem.<br/>• **CPL-K04:** Struktur data terapan.<br/>• **CPL-K08:** Pembangunan aplikasi proyek SI.<br/>• **CPL-K10:** Aplikasi Web client/server.<br/>• **CPL-K11:** Aplikasi Mobile.<br/>• **CPL-K12:** Perancangan UI/UX interaktif. | • **KK1 (IT2017):** Implementasi platform computing modern. |
-| **KK6** | Mampu merancang, memvalidasi model bisnis (*Lean Startup/MVP*), mengelola proyek agile, serta mendirikan usaha rintisan teknologi (*technopreneurship*) mandiri berbasis kebutuhan pasar. | **P3: Digital Platform Engineering** | • **CPL-K08:** Eksekusi proyek SI terpadu.<br/>• **CPL-K15:** Pengelolaan bisnis berbasis TI (Technopreneurship). | • **KK1 (IT2017):** Inovasi produk komputasi terapan. |
-
----
-
-## 3. INDIKATOR KINERJA CPL (PERFORMANCE INDICATORS) & LEVEL BLOOM
-
-Setiap CPL diturunkan ke dalam **Indikator Kinerja (IK/PI)** terukur dengan penentuan target Level Taksonomi Bloom minimum untuk kelulusan:
-
-| Kode CPL | Deskripsi Singkat Ranah | Target Bloom | Indikator Kinerja Kualitatif & Kuantitatif (Performance Indicators) |
-|---|---|:---:|---|
-| **S1** | Sikap, Etika Digital & Kerja Tim | **A3 (Valuing)** | • Menunjukkan integritas akademik (bebas plagiasi Turnitin <20%).<br/>• Mematuhi kode etik profesi IT dan UU ITE/PDP.<br/>• Mampu berkontribusi aktif dan memimpin dalam tim proyek multidisiplin. |
-| **KU1** | Pemikiran Kritis & Formulasi Ilmiah | **C4 (Analyze)** | • Mampu mengidentifikasi kesenjangan riset (*research gap*) dari literatur bereputasi.<br/>• Mampu memformulasikan masalah komputasi kompleks dengan metode ilmiah teruji. |
-| **KU2** | Komunikasi Teknis & Disseminasi | **C5 (Evaluate)** | • Mampu menyajikan presentasi teknis di hadapan pemangku kepentingan secara persuasif.<br/>• Mampu menulis artikel ilmiah/laporan rekayasa sesuai format standar (IEEE/ACM). |
-| **KU3** | Pengambilan Keputusan & Lifelong Learning | **C5 (Evaluate)** | • Mampu mengambil keputusan strategis berdasarkan analisis bukti data kuantitatif.<br/>• Menunjukkan kemampuan belajar mandiri dalam menguasai teknologi baru secara adaptif. |
-| **P1** | Fondasi Matematika & Sains Komputasi | **C3 (Apply)** | • Mampu menyelesaikan kalkulasi kalkulus, matriks aljabar linear, dan logika diskrit.<br/>• Mampu menerapkan teori probabilitas, statistika inferensial, dan optimasi pada komputasi. |
-| **P2** | Teori SI, Proses Bisnis & SDLC | **C4 (Analyze)** | • Mampu memodelkan alur proses bisnis organisasi dengan standar BPMN 2.0.<br/>• Menguasai metodologi pengembangan Waterfall, Agile Scrum, dan SDLC enterprise. |
-| **P3** | Infrastruktur, Jaringan, Cloud & Cyber | **C4 (Analyze)** | • Menguasai arsitektur TCP/IP, model layanan Cloud (IaaS/PaaS/SaaS), dan prinsip CIA Triad.<br/>• Menguasai kerangka kerja tata kelola TI (COBIT/ITIL) dan standar keamanan ISO 27001. |
-| **P4** | Rekayasa Software, Database & UI/UX | **C4 (Analyze)** | • Menguasai prinsip normalisasi basis data, SQL/NoSQL, dan RESTful API architecture.<br/>• Menguasai prinsip desain antarmuka responsif, usability heuristic, dan arsitektur microservices. |
-| **KK1** | Rekayasa Sistem Cerdas & Model AI | **C6 (Create)** | • Mampu membangun model ML/DL menggunakan framework Python/PyTorch.<br/>• Mampu mengintegrasikan layanan inferensi AI (NLP/LLM/Vision) ke aplikasi nyata. |
-| **KK2** | Rekayasa Data, ETL, MLOps & BI | **C6 (Create)** | • Mampu merancang skema Data Warehouse dan pipeline ETL otomatis.<br/>• Mampu membangun dashboard Business Intelligence dan pipeline continuous training MLOps. |
-| **KK3** | Cloud Infrastructure, IoT & Cyber Defense | **C6 (Create)** | • Mampu mengorkestrasi kontainer Docker/Kubernetes dan provisi IaC (Terraform).<br/>• Mampu merancang purwarupa IoT telemetri MQTT dan mengonfigurasi pertahanan firewall/NIDS. |
-| **KK4** | IT Governance, Risk & Security Audit | **C5 (Evaluate)** | • Mampu menyusun dokumen mitigasi risiko siber (NIST CSF / ISO 27005) dan BCP/DRP.<br/>• Mampu melakukan audit kapabilitas proses COBIT 2019 dan simulasi penetration testing beretika. |
-| **KK5** | Digital Platform & Full-Stack Engineering | **C6 (Create)** | • Mampu merancang sistem desain UI/UX di Figma berstandar aksesibilitas WCAG.<br/>• Mampu membangun aplikasi web/mobile full-stack skalabel berbasis SPA dan backend microservices. |
-| **KK6** | Technopreneurship, Lean MVP & Agile PM | **C6 (Create)** | • Mampu memvalidasi problem-solution fit pasar dan membangun produk minimum layak (MVP).<br/>• Mampu menyusun pitch deck investor dan mengelola backlog produk via Jira/Scrum. |
-
----
-
-## 4. MATRIKS SILANG CPL ↔ 19 BAHAN KAJIAN (BoK) IS2020 (APTIKOM v2.0)
-
-Berikut adalah matriks cross-tabulation pemenuhan 19 Bahan Kajian Standar APTIKOM S1 Sistem Informasi (IS2020) terhadap 14 CPL SISTEKIN:
-
-| Kode Bahan Kajian (BoK) | Nomenklatur Bahan Kajian IS2020 | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 |
-|---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **BK-IS01** | *Foundations of Information Systems* | | | | | | ✅ | | | ✅ | | | | ✅ | |
-| **BK-IS02** | *Data and Information Management* | | | | | | | | ✅ | ✅ | ✅ | | | | |
-| **BK-IS03** | *IT Infrastructure and Networking* | | | | | | | ✅ | | | | ✅ | | | |
-| **BK-IS04** | *Enterprise Architecture* | | | | | | ✅ | | | | | | | ✅ | |
-| **BK-IS05** | *IS Management and Governance* | | | | | | | ✅ | | | | | ✅ | | |
-| **BK-IS06** | *Information Security and Risk Management* | | | | | | | ✅ | | | | ✅ | ✅ | | |
-| **BK-IS07** | *Systems Analysis and Design* | | | | | | ✅ | | ✅ | ✅ | | | | ✅ | |
-| **BK-IS08** | *Project Management* | | | | | | | ✅ | | | | | | | ✅ |
-| **BK-IS09** | *Business Process Management* | | | | | | ✅ | | | | | | ✅ | | |
-| **BK-IS10** | *Applied Mathematics and Logic* | | | | | ✅ | | | | ✅ | ✅ | | | | |
-| **BK-IS11** | *Programming Fundamentals & Object-Oriented* | | | | | ✅ | | | ✅ | ✅ | | | | | |
-| **BK-IS12** | *Web and Mobile Application Development* | | | | | | | | ✅ | | | | | ✅ | |
-| **BK-IS13** | *Data Analytics and Business Intelligence* | | | | | | | | ✅ | ✅ | ✅ | | | | |
-| **BK-IS14** | *IT Audit and Compliance* | | | | | | | ✅ | | | | | ✅ | | |
-| **BK-IS15** | *Digital Innovation and Entrepreneurship* | | | | | | | | | | | | | | ✅ |
-| **BK-IS16** | *Artificial Intelligence & Intelligent Systems* | | | | | | ✅ | | | ✅ | ✅ | | | | |
-| **BK-IS17** | *Human-Computer Interaction & UX* | | | | | | | | ✅ | | | | | ✅ | |
-| **BK-IS18** | *Machine Learning and Data Science* | | | | | ✅ | | | | ✅ | ✅ | | | | |
-| **BK-IS19** | *Cloud Architecture & DevOps* | | | | | | | ✅ | | | | ✅ | | | |
-
----
-
-## 5. MATRIKS SILANG CPL ↔ 14 BAHAN KAJIAN UTAMA (BoK) IT2017 (APTIKOM)
-
-Berikut adalah matriks cross-tabulation pemenuhan 14 Bahan Kajian Utama Standar APTIKOM S1 Teknologi Informasi (IT2017/CC2020) terhadap 14 CPL SISTEKIN:
-
-| Kode Bahan Kajian (BoK) | Nomenklatur Bahan Kajian Utama IT2017 | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 |
-|---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **BK-IT01** | *Information Technology Fundamentals* | | | | | | | ✅ | | | | ✅ | | | |
-| **BK-IT02** | *Applied AI & Intelligent Technologies* | | | | | | | | | ✅ | | | | | |
-| **BK-IT03** | *Networking & Communications* | | | | | | | ✅ | | | | ✅ | | | |
-| **BK-IT04** | *Platform Technologies & Web/Mobile* | | | | | | | | ✅ | | | | | ✅ | |
-| **BK-IT05** | *Cloud Computing & Virtualization* | | | | | | | ✅ | | | | ✅ | | | |
-| **BK-IT06** | *Cybersecurity Principles & Defense* | | | | | | | ✅ | | | | ✅ | ✅ | | |
-| **BK-IT07** | *System Integration and Architecture* | | | | | | | ✅ | | | | ✅ | | ✅ | |
-| **BK-IT08** | *IT Service Management & Governance* | | | | | | | ✅ | | | | | ✅ | | |
-| **BK-IT09** | *Data Analytics & Information Visualization* | | | | | | | | ✅ | | ✅ | | | | |
-| **BK-IT10** | *User Experience & Interaction Design* | | | | | | | | ✅ | | | | | ✅ | |
-| **BK-IT11** | *Software Development Practices* | | | | | | | | ✅ | | | | | ✅ | |
-| **BK-IT12** | *IT Risk Management and Compliance* | | | | | | | | | | | | ✅ | | |
-| **BK-IT13** | *Technology Entrepreneurship* | | | | | | | | | | | | | | ✅ |
-| **BK-IT14** | *IoT and Embedded Smart Systems* | | | | | | | | | ✅ | | ✅ | | | |
-
----
-
-## 6. MATRIKS PEMETAAN CPL ↔ 4 PROFIL LULUSAN (PL)
-
-| Profil Lulusan SISTEKIN 2026 | Peminatan Terkait | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **PL-1: Intelligent IS Developer & AI Engineer** | P1 | ⭐ | ⭐ | ⭐ | ⭐ | ⭐ | ⭐ | | ⭐ | ⭐⭐⭐ | ⭐⭐⭐ | | | ⭐ | |
-| **PL-2: Cloud & Cybersecurity Specialist** | P2 | ⭐ | ⭐ | ⭐ | ⭐ | ⭐ | | ⭐ | | | | ⭐⭐⭐ | ⭐⭐⭐ | | |
-| **PL-3: UI/UX & Digital Platform Engineer** | P3 | ⭐ | ⭐ | ⭐ | ⭐ | | ⭐ | | ⭐ | | | | | ⭐⭐⭐ | ⭐⭐ |
-| **PL-4: IT Project Manager & Technopreneur** | P3 / P1 / P2 | ⭐ | ⭐ | ⭐ | ⭐ | | ⭐ | ⭐ | ⭐ | ⭐ | | | | ⭐⭐ | ⭐⭐⭐ |
-
-*Keterangan Bobot:*  
-* `⭐⭐⭐` : Kompetensi Inti / Spesialisasi Utama (*Major Competency*)  
-* `⭐⭐` : Kompetensi Pendukung Kuat (*Supporting Competency*)  
-* `⭐` : Kompetensi Fondasi Bersama (*Foundational Competency*)  
-
----
-
-## 7. MATRIKS PEMETAAN CPL ↔ 3 PROGRAM EDUCATIONAL OBJECTIVES (PEO)
-
-| Kode PEO | Nomenklatur Program Educational Objectives (3–5 Tahun) | CPL Sikap & Umum | CPL Pengetahuan | CPL Keterampilan Khusus |
-|---|---|---|---|---|
-| **PEO-1** | **PEO-1 — Professional Practice and Systems Integration**<br/>Lulusan menunjukkan keunggulan profesional dalam merancang, mengintegrasikan, dan mengelola sistem informasi cerdas, infrastruktur cloud, atau platform digital enterprise. | `S1`, `KU1`, `KU2`, `KU3` | `P1`, `P2`, `P3`, `P4` | `KK1`, `KK2`, `KK3`, `KK4`, `KK5` |
-| **PEO-2** | **PEO-2 — Digital Innovation and Technopreneurship**<br/>Lulusan mampu memimpin inovasi digital, menginisiasi usaha rintisan teknologi (*technopreneurship*), atau mengelola proyek transformasi digital yang memberikan dampak ekonomi dan sosial. | `S1`, `KU1`, `KU2`, `KU3` | `P2`, `P3`, `P4` | `KK6`, `KK5`, `KK1` |
-| **PEO-3** | **PEO-3 — Advanced Study, Research, and Lifelong Learning**<br/>Lulusan mampu melanjutkan studi ke jenjang pascasarjana, melakukan riset terapan di bidang sains komputasi/AI, serta adaptif mengembangkan diri sepanjang hayat. | `S1`, `KU1`, `KU2`, `KU3` | `P1`, `P2`, `P3`, `P4` | `KK1`, `KK2`, `KK3`, `KK4`, `KK5`, `KK6` |
-
----
-
-## 8. KESIMPULAN & REKOMENDASI AUDIT AKREDITASI
-
-Dengan tersusunnya dokumen komprehensif ini:
-1. **Validitas Standar:** Formulasi 14 CPL telah memenuhi 100% amanat SN-Dikti Permendikbudristek No. 53/2023 dan Standar APTIKOM v2.0 (IS2020 + IT2017).
-2. **Keterlacakan Sempurna (*Traceability*):** Setiap CPL memiliki silsilah rujukan asli yang eksplisit, indikator kinerja terukur, pemetaan taksonomi Bloom, serta matriks silang lengkap terhadap 19 BoK IS, 14 BoK IT, 4 Profil Lulusan, dan 3 PEO.
-3. **Kesiapan Naskah KPT:** Dokumen ini siap menjadi Bab IV definitif pada Buku Kurikulum KPT-OBE SISTEKIN 2026.
-
----
-*Disahkan sebagai Dokumen Resmi 003 — Kurikulum OBE Revisi SISTEKIN 2026.*  
-**Fakultas Sains dan Teknologi Informasi (FSTI) — Universitas Widyagama Malang**
-
-
----
-
-# BAB V: STRUKTUR KURIKULUM 8 SEMESTER DAN DISTRIBUSI PEMINATAN
-
-# 005 — STRUKTUR KURIKULUM 8 SEMESTER DAN PEMINATAN
-## Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang
-
-**Dokumen Revisi Definitif Kurikulum 2026**  
-**Standar Rujukan:** Permendikbudristek No. 53 Tahun 2023, Panduan Kurikulum OBE APTIKOM v2.0 (IS2020 & IT2017), Standar IABEE & LAM INFOKOM.
-
----
-
-### VISUALISASI STRUKTUR 8 SEMESTER & ALUR PRASYARAT
-
-```mermaid
-graph TD
-    subgraph S12 ["TAHAP FONDASI (SEM 1-2: MAX 20 SKS)"]
-        S1["Sem 1 (19 SKS): Dasar Koding, Logika, Kalkulus"] --> S2["Sem 2 (20 SKS): Basis Data, OOP, Matdis, Aljabar"]
-    end
-
-    subgraph S34 ["TAHAP PENGUATAN INTI (SEM 3-4)"]
-        S2 --> S3["Sem 3 (19 SKS): APSI, RPL, OS, Jaringan, UI/UX"]
-        S3 --> S4["Sem 4 (20 SKS): ML, DW-BI, Cloud, Security, Web BE"]
-    end
-
-    subgraph S58 ["TAHAP SPESIALISASI & CAPSTONE (SEM 5-8)"]
-        S4 --> S5["Sem 5 (19 SKS): Deep Learning, IoT, Mobile, Peminatan 1"]
-        S5 --> S6["Sem 6 (18 SKS): Smart City, Platform Eng, Peminatan 2-3"]
-        S6 --> S7["Sem 7 (18 SKS): Capstone FSTI, PKL, Pra-Skripsi, Peminatan 4-6"]
-        S7 --> S8["Sem 8 (6 SKS): Skripsi Murni / Opsi Non-Skripsi"]
-    end
-```
-
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                           ALUR PERJALANAN AKADEMIK MAHASISWA (JOURNEY)                           │
-├─────────────────┬─────────────────┬─────────────────┬─────────────────┬──────────────────────────┤
-│ Tahun 1 (Sem 1-2)│ Tahun 2 (Sem 3-4)│ Tahun 3 (Sem 5-6)│ Tahun 4 (Sem 7) │ Tahun 4 (Sem 8)          │
-├─────────────────┼─────────────────┼─────────────────┼─────────────────┼──────────────────────────┤
-│ Fondasi Sains & │ Rekayasa Core   │ Spesialisasi    │ Capstone Project│ Skripsi Murni /          │
-│ Pemrograman     │ Sistem & Cloud  │ Peminatan & AI  │ & PKL Industri  │ 4 Opsi Non-Skripsi       │
-└─────────────────┴─────────────────┴─────────────────┴─────────────────┴──────────────────────────┘
-```
+| Tahun 1 (Sem 1-2) | Tahun 2 (Sem 3-4) | Tahun 3 (Sem 5-6) | Tahun 4 (Sem 7) | Tahun 4 (Sem 8) |
+| --- | --- | --- | --- | --- |
+| Fondasi Sains & | Rekayasa Core | Spesialisasi | Capstone Project | Skripsi Murni / |
+| Pemrograman | Sistem & Cloud | Peminatan & AI | & PKL Industri | 4 Opsi Non-Skripsi |
 
 
 
 
 
 
-```mermaid
-graph TD
-    subgraph SEM12 ["TAHAP FONDASI (SEM 1-2: MAX 20 SKS)"]
-        S1["Sem 1 (19 SKS): Dasar Koding, Logika, Kalkulus"] --> S2["Sem 2 (20 SKS): Basis Data, OOP, Matdis, Aljabar"]
-    end
+### REKAPITULASI KOMPOSISI KURIKULUM 2026
 
-    subgraph SEM34 ["TAHAP PENGUATAN INTI (SEM 3-4)"]
-        S2 --> S3["Sem 3 (19 SKS): APSI, RPL, OS, Jaringan, UI/UX"]
-        S3 --> S4["Sem 4 (20 SKS): ML, DW-BI, Cloud, Security, Web BE"]
-    end
-
-    subgraph SEM58 ["TAHAP SPESIALISASI & CAPSTONE (SEM 5-8)"]
-        S4 --> S5["Sem 5 (19 SKS): Deep Learning, IoT, Mobile, Peminatan 1"]
-        S5 --> S6["Sem 6 (18 SKS): Smart City, Platform Eng, Peminatan 2-3"]
-        S6 --> S7["Sem 7 (18 SKS): Capstone FSTI, PKL, Pra-Skripsi, Peminatan 4-6"]
-        S7 --> S8["Sem 8 (6 SKS): Skripsi Murni / Opsi Non-Skripsi"]
-    end
-```
-
----
-
-## 1. REKAPITULASI DAN DISTRIBUSI BEBAN STUDI
-
-Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket wajib kelulusan mahasiswa sebesar **146 SKS** yang terdistribusi ke dalam **55 Mata Kuliah**:
-
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                             REKAPITULASI KOMPOSISI KURIKULUM 2026                                │
-├───────────────────────────────────────────┬──────────────┬───────────────┬───────────────────────┤
-│ Komponen Mata Kuliah                      │ Jumlah MK    │ Total SKS     │ Persentase Beban      │
-├───────────────────────────────────────────┼──────────────┼───────────────┼───────────────────────┤
-│ Mata Kuliah Wajib Umum (MKWU)             │ 8 MK         │ 13 SKS        │ 8,8%                  │
-│ Mata Kuliah Wajib Fakultas (FSTI)         │ 14 MK        │ 38 SKS        │ 25,9%                 │
-│ Mata Kuliah Inti Program Studi (Core STI) │ 27 MK        │ 77 SKS        │ 53,1%                 │
-│ Mata Kuliah Pilihan Peminatan (Elektif)   │ 6 MK         │ 18 SKS        │ 12,2%                 │
-├───────────────────────────────────────────┼──────────────┼───────────────┼───────────────────────┤
-│ TOTAL PAKET DITEMPUH MAHASISWA            │ 55 MK        │ 146 SKS       │ 100,0%                │
-├───────────────────────────────────────────┼──────────────┼───────────────┼───────────────────────┤
-│ Portofolio MK Ditawarkan (SIAKAD)         │ 67 MK        │ 182 SKS       │ 18 MK Elektif         │
-└───────────────────────────────────────────┴──────────────┴───────────────┴───────────────────────┘
-```
+| Komponen Mata Kuliah | Jumlah MK | Total SKS | Persentase Beban |
+| --- | --- | --- | --- |
+| Mata Kuliah Wajib Umum (MKWU) | 8 MK | 13 SKS | 8,8% |
+| Mata Kuliah Wajib Fakultas (FSTI) | 14 MK | 38 SKS | 25,9% |
+| Mata Kuliah Inti Program Studi (Core STI) | 27 MK | 77 SKS | 53,1% |
+| Mata Kuliah Pilihan Peminatan (Elektif) | 6 MK | 18 SKS | 12,2% |
+| TOTAL PAKET DITEMPUH MAHASISWA | 55 MK | 146 SKS | 100,0% |
+| Portofolio MK Ditawarkan (SIAKAD) | 67 MK | 182 SKS | 18 MK Elektif |
 
 > [!IMPORTANT]
 > **Kepatuhan Regulasi Nasional & Akreditasi:**
@@ -860,24 +204,19 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 
 ## 2. STRUKTUR KURIKULUM 8 SEMESTER (55 MK / 146 SKS)
 
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                               SEBARAN 8 SEMESTER KURIKULUM SISTEKIN                              │
-├──────────┬──────────────────────┬─────────┬──────────┬───────────────────────────────────────────┤
-│ Semester │ Fokus Pembelajaran   │ Jml MK  │ Jml SKS  │ Karakteristik Kurikulum                   │
-├──────────┼──────────────────────┼─────────┼──────────┼───────────────────────────────────────────┤
-│ Sem 1    │ Fondasi Sains & MKWU │ 8 MK    │ 19 SKS   │ Sains, Algoritma Dasar, Logika, Agama     │
-│ Sem 2    │ Data, Mat & Etika    │ 8 MK    │ 20 SKS   │ Struktur Data, Basis Data, Matdis, Etika  │
-│ Sem 3    │ RPL, UI/UX & Infra   │ 7 MK    │ 20 SKS   │ APSI, RPL, Web Front, Jarkom, OS, Cerdas  │
-│ Sem 4    │ AI/ML, Cloud & Sec   │ 8 MK    │ 21 SKS   │ Machine Learning, DW/BI, Web Back, Cloud  │
-│ Sem 5    │ Deep Learning & IoT  │ 7 MK    │ 21 SKS   │ Deep Learning, IoT, Mobile, KPM, P1-1     │
-│ Sem 6    │ AI Integrasi & Plat. │ 7 MK    │ 20 SKS   │ Smart AI, Smart City, Platform, Metopel   │
-│ Sem 7    │ Capstone, PKL & Sem. │ 7 MK    │ 20 SKS   │ Startup, Capstone FSTI, PKL, Pra-Skripsi  │
-│ Sem 8    │ Skripsi Mandiri      │ 1 MK    │ 6 SKS    │ Skripsi / Tugas Akhir Murni               │
-├──────────┴──────────────────────┼─────────┼──────────┼───────────────────────────────────────────┤
-│ TOTAL PAKET DITEMPUH            │ 55 MK   │ 146 SKS  │ Paket Lulus Tepat Waktu (4 Tahun)         │
-└─────────────────────────────────┴─────────┴──────────┴───────────────────────────────────────────┘
-```
+### SEBARAN 8 SEMESTER KURIKULUM SISTEKIN
+
+| Semester | Fokus Pembelajaran | Jml MK | Jml SKS | Karakteristik Kurikulum |
+| --- | --- | --- | --- | --- |
+| Sem 1 | Fondasi Sains & MKWU | 8 MK | 19 SKS | Sains, Algoritma Dasar, Logika, Agama |
+| Sem 2 | Data, Mat & Etika | 8 MK | 20 SKS | Struktur Data, Basis Data, Matdis, Etika |
+| Sem 3 | RPL, UI/UX & Infra | 7 MK | 20 SKS | APSI, RPL, Web Front, Jarkom, OS, Cerdas |
+| Sem 4 | AI/ML, Cloud & Sec | 8 MK | 21 SKS | Machine Learning, DW/BI, Web Back, Cloud |
+| Sem 5 | Deep Learning & IoT | 7 MK | 21 SKS | Deep Learning, IoT, Mobile, KPM, P1-1 |
+| Sem 6 | AI Integrasi & Plat. | 7 MK | 20 SKS | Smart AI, Smart City, Platform, Metopel |
+| Sem 7 | Capstone, PKL & Sem. | 7 MK | 20 SKS | Startup, Capstone FSTI, PKL, Pra-Skripsi |
+| Sem 8 | Skripsi Mandiri | 1 MK | 6 SKS | Skripsi / Tugas Akhir Murni |
+| TOTAL PAKET DITEMPUH | 55 MK | 146 SKS | Paket Lulus Tepat Waktu (4 Tahun) |  |
 
 ---
 
@@ -891,8 +230,8 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 | 3 | `STI-101` | Pengantar Sistem & Teknologi Informasi | 2 | Teori | Core STI | — |
 | 4 | `STI-102` | Kalkulus | 3 | Teori | Core STI | — |
 | 5 | `STI-103` | Logika Informatika | 3 | Teori | Core STI | — |
-| 6 | `MKU-101` | Pendidikan Agama I | 2 | Teori | MKWU | — |
-| 7 | `MKU-102` | Pendidikan Pancasila | 2 | Teori | MKWU | — |
+| 6 | `MKU-101` | Agama I | 2 | Teori | MKWU | — |
+| 7 | `MKU-102` | Pancasila | 2 | Teori | MKWU | — |
 | 8 | `MKU-103` | Bahasa Indonesia | 2 | Teori | MKWU | — |
 | **SUBTOTAL** | — | **Total SKS Semester 1 (8 MK)** | **19** | — | — | **Kumulatif: 19 SKS** |
 
@@ -906,7 +245,7 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 | 13 | `FST-205` | Pemrograman Lanjut | 2 | +P | FSTI | `FST-102` |
 | 14 | `FST-206` | Etika Profesi & Hukum Digital | 2 | Teori | FSTI | — |
 | 15 | `FST-207` | Sistem Basis Data | 3 | +P | FSTI | — |
-| 16 | `MKU-202` | Kewirausahaan I | 2 | Teori | MKWU | — |
+| 16 | `MKU-204` | Kewirausahaan I | 2 | Teori | MKWU | — |
 | **SUBTOTAL** | — | **Total SKS Semester 2 (8 MK)** | **20** | — | — | **Kumulatif: 39 SKS** |
 
 ### SEMESTER 3 (20 SKS)
@@ -931,8 +270,9 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 | 28 | `STI-405` | Dasar Keamanan Informasi | 2 | Teori | Core STI | `STI-307` |
 | 29 | `FST-408` | Probabilitas dan Statistika | 3 | Teori | FSTI | `STI-102` |
 | 30 | `FST-409` | Manajemen Sains & Riset Operasi | 2 | Teori | FSTI | `STI-202` |
-| 31 | `MKU-201` | Pendidikan Kewarganegaraan (KWN) | 2 | Teori | MKWU | — |
-| **SUBTOTAL** | — | **Total SKS Semester 4 (8 MK)** | **21** | — | — | **Kumulatif: 80 SKS** |
+| 31 | `MKU-405` | Kewarganegaraan | 2 | Teori | MKWU | — |
+| 31.B | `MKU-406` | Agama II | 0 | Teori | MKWU | — (Kebijakan UWG, Sem 4) |
+| **SUBTOTAL** | — | **Total SKS Semester 4 (8 MK + 1 MK 0 SKS)** | **21** | — | — | **Kumulatif: 80 SKS** |
 
 ### SEMESTER 5 (21 SKS)
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
@@ -942,9 +282,9 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 | 34 | `STI-504` | Internet of Things (IoT) | 3 | +P | Core STI | `STI-307`, `STI-305` |
 | 35 | `STI-505` | Pemrograman Aplikasi Mobile | 3 | +P | Core STI | `STI-306`, `STI-407` |
 | 36 | `STI-506` | Manajemen Proyek TI | 3 | Teori | Core STI | `STI-301`, `STI-304` |
-| 37 | `MKU-203` | KPM (Kuliah Pengabdian Masyarakat) | 3 | Praktik | MKWU | $\ge 80\text{ SKS}$ |
+| 37 | `MKU-507` | KPM (Kuliah Pengabdian Kepada Masyarakat) | 3 | Praktik | MKWU | $\ge 80\text{ SKS}$ |
 | 38 | `STA/B/C` | **MK Pilihan Peminatan 1** | 3 | Elektif | Peminatan | Prasyarat Peminatan |
-| 38.B | `MKU-402` | Kewirausahaan II | 0 | Teori | MKWU | — (Kebijakan UWG, Sem 5) |
+| 38.B | `MKU-508` | Kewirausahaan II | 0 | Teori | MKWU | — (Kebijakan UWG, Sem 5) |
 | **SUBTOTAL** | — | **Total SKS Semester 5 (7 MK + 1 MK 0 SKS)** | **21** | — | — | **Kumulatif: 101 SKS** |
 
 ### SEMESTER 6 (20 SKS)
@@ -962,7 +302,7 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 ### SEMESTER 7 (20 SKS)
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
-| 46 | `STI-701` | Inovasi Teknologi dan Startup Digital | 3 | +P | Core STI | `STI-604`, `MKU-202` |
+| 46 | `STI-701` | Inovasi Teknologi dan Startup Digital | 3 | +P | Core STI | `STI-604`, `MKU-204` |
 | 47 | `FST-610` | Capstone Project FSTI | 3 | Proyek | FSTI | `STI-506`, $\ge 100\text{ SKS}$ |
 | 48 | `FST-612` | Praktik Kerja Lapangan (PKL) | 3 | Magang | FSTI | $\ge 100\text{ SKS}$ |
 | 49 | `FST-613` | Pra-Skripsi / Seminar Proposal | 2 | Seminar | FSTI | `FST-611`, $\ge 100\text{ SKS}$ |
@@ -981,22 +321,17 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 
 ### 3.1 REKAPITULASI & MATRIKS KALKULASI SKS AKUMULATIF SEMESTER 1 – 8
 
-```
-┌──────────┬───────────┬──────────────┬────────────────┬───────────┬──────────────────────────────────────────┐
-│ Semester │ Jumlah MK │ Beban SKS    │ SKS Kumulatif  │ Persentase│ Tahapan Akademik & Karakteristik         │
-├──────────┼───────────┼──────────────┼────────────────┼───────────┼──────────────────────────────────────────┤
-│ Sem 1    │ 8 MK      │ 19 SKS       │ 19 SKS         │ 12,9%     │ Tahap Fondasi Sains, Algoritma & Logika  │
-│ Sem 2    │ 8 MK      │ 20 SKS       │ 39 SKS         │ 13,6%     │ Tahap Fondasi Data, Matdis & OOP         │
-│ Sem 3    │ 7 MK      │ 20 SKS       │ 59 SKS         │ 13,6%     │ Tahap Penguatan Core RPL, OS & Jaringan  │
-│ Sem 4    │ 8 MK      │ 21 SKS       │ 80 SKS         │ 14,3%     │ Tahap Penguatan Core AI/ML, DW & Cloud   │
-│ Sem 5    │ 7 MK      │ 21 SKS       │ 101 SKS        │ 14,3%     │ Tahap Spesialisasi Deep Learning & IoT   │
-│ Sem 6    │ 7 MK      │ 20 SKS       │ 121 SKS        │ 13,6%     │ Tahap Spesialisasi MBKM & Platform Eng   │
-│ Sem 7    │ 7 MK      │ 20 SKS       │ 141 SKS        │ 13,6%     │ Tahap Integrasi Capstone, PKL & Sempro   │
-│ Sem 8    │ 1 MK      │ 6 SKS        │ 146 SKS        │ 4,1%      │ Tahap Penyelesaian Skripsi / Non-Skripsi │
-├──────────┼───────────┼──────────────┼────────────────┼───────────┼──────────────────────────────────────────┤
-│ TOTAL    │ 55 MK     │ 146 SKS      │ 146 SKS        │ 100,0%    │ Paket Lulus Tepat Waktu (4 Tahun)        │
-└──────────┴───────────┴──────────────┴────────────────┴───────────┴──────────────────────────────────────────┘
-```
+| Semester | Jumlah MK | Beban SKS | SKS Kumulatif | Persentase | Tahapan Akademik & Karakteristik |
+| --- | --- | --- | --- | --- | --- |
+| Sem 1 | 8 MK | 19 SKS | 19 SKS | 12,9% | Tahap Fondasi Sains, Algoritma & Logika |
+| Sem 2 | 8 MK | 20 SKS | 39 SKS | 13,6% | Tahap Fondasi Data, Matdis & OOP |
+| Sem 3 | 7 MK | 20 SKS | 59 SKS | 13,6% | Tahap Penguatan Core RPL, OS & Jaringan |
+| Sem 4 | 8 MK | 21 SKS | 80 SKS | 14,3% | Tahap Penguatan Core AI/ML, DW & Cloud |
+| Sem 5 | 7 MK | 21 SKS | 101 SKS | 14,3% | Tahap Spesialisasi Deep Learning & IoT |
+| Sem 6 | 7 MK | 20 SKS | 121 SKS | 13,6% | Tahap Spesialisasi MBKM & Platform Eng |
+| Sem 7 | 7 MK | 20 SKS | 141 SKS | 13,6% | Tahap Integrasi Capstone, PKL & Sempro |
+| Sem 8 | 1 MK | 6 SKS | 146 SKS | 4,1% | Tahap Penyelesaian Skripsi / Non-Skripsi |
+| TOTAL | 55 MK | 146 SKS | 146 SKS | 100,0% | Paket Lulus Tepat Waktu (4 Tahun) |
 
 ---
 
@@ -1004,34 +339,28 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 
 Mahasiswa memilih 1 paket peminatan penuh (ditempuh 1 MK di Sem 5, 2 MK di Sem 6, dan 3 MK di Sem 7):
 
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                            3 PEMINATAN SPESIALISASI KEAHLIAN SISTEKIN                            │
-├──────────────────────┬──────────────────────┬────────────────────────────────────────────────────┤
-│ Peminatan            │ Basis Profil (PL)    │ Mata Kuliah Pilihan (@ 3 SKS)                      │
-├──────────────────────┼──────────────────────┼────────────────────────────────────────────────────┤
-│ P1: Integrated Smart │ PL-1: Intelligent IS │ 1. STA-01 Decision Support Systems (+P, Sem 5)     │
-│     Systems          │       & Data/AI Eng  │ 2. STA-02 Computational Methods & Numerics(+P, S6) │
-│     (Flagship)       │                      │ 3. STA-03 Intelligent Agent Systems (+P, Sem 6)    │
-│                      │                      │ 4. STA-04 MLOps and AI Pipeline (+P, Sem 7)        │
-│                      │                      │ 5. STA-05 Conversational AI & Assistant (+P, Sem 7)│
-│                      │                      │ 6. STA-06 Smart Surveillance & IoT Analytics (+P,S7│
-├──────────────────────┼──────────────────────┼────────────────────────────────────────────────────┤
-│ P2: Cloud Infra &    │ PL-2: Cloud, Cyber & │ 1. STB-01 Network Security & Digital Forensics(+P,5│
-│     Cybersecurity    │       Smart Sys Int. │ 2. STB-02 Cloud Architecture & DevOps (+P, Sem 6)  │
-│     (Volume)         │                      │ 3. STB-03 Cybersecurity Risk Management (Teori, S6)│
-│                      │                      │ 4. STB-04 IT Governance & Compliance COBIT2019(T,S7│
-│                      │                      │ 5. STB-05 IT Service Management ITIL 4 (Teori, S7) │
-│                      │                      │ 6. STB-06 Enterprise Architecture TOGAF (Teori, S7)│
-├──────────────────────┼──────────────────────┼────────────────────────────────────────────────────┤
-│ P3: Digital Platform │ PL-3: UI/UX Designer │ 1. STC-01 UX Research & Design (+P, Sem 5)         │
-│     Engineering      │       & Platform Eng │ 2. STC-02 Rekayasa & Otomasi Proses Bisnis (+P, S6)│
-│     (Niche & Techno) │                      │ 3. STC-03 Rekayasa Aplikasi Industri Vertikal(+P,S6│
-│                      │                      │ 4. STC-04 Immersive Media & XR Development (+P, S7)│
-│                      │                      │ 5. STC-05 SaaS Architecture & Multi-Tenancy (+P,S7)│
-│                      │                      │ 6. STC-06 Digital Product Management (Teori, Sem 7)│
-└──────────────────────┴──────────────────────┴────────────────────────────────────────────────────┘
-```
+### 3 PEMINATAN SPESIALISASI KEAHLIAN SISTEKIN
+
+| Peminatan | Basis Profil (PL) | Mata Kuliah Pilihan (@ 3 SKS) |
+| --- | --- | --- |
+| P1: Integrated Smart | PL-1: Intelligent IS | 1. STA-01 Decision Support Systems (+P, Sem 5) |
+| Systems | & Data/AI Eng | 2. STA-02 Computational Methods & Numerics(+P, S6) |
+| (Flagship) |  | 3. STA-03 Intelligent Agent Systems (+P, Sem 6) |
+|  |  | 4. STA-04 MLOps and AI Pipeline (+P, Sem 7) |
+|  |  | 5. STA-05 Conversational AI & Assistant (+P, Sem 7) |
+|  |  | 6. STA-06 Smart Surveillance & IoT Analytics (+P,S7 |
+| P2: Cloud Infra & | PL-2: Cloud, Cyber & | 1. STB-01 Network Security & Digital Forensics(+P,5 |
+| Cybersecurity | Smart Sys Int. | 2. STB-02 Cloud Architecture & DevOps (+P, Sem 6) |
+| (Volume) |  | 3. STB-03 Cybersecurity Risk Management (Teori, S6) |
+|  |  | 4. STB-04 IT Governance & Compliance COBIT2019(T,S7 |
+|  |  | 5. STB-05 IT Service Management ITIL 4 (Teori, S7) |
+|  |  | 6. STB-06 Enterprise Architecture TOGAF (Teori, S7) |
+| P3: Digital Platform | PL-3: UI/UX Designer | 1. STC-01 UX Research & Design (+P, Sem 5) |
+| Engineering | & Platform Eng | 2. STC-02 Rekayasa & Otomasi Proses Bisnis (+P, S6) |
+| (Niche & Techno) |  | 3. STC-03 Rekayasa Aplikasi Industri Vertikal(+P,S6 |
+|  |  | 4. STC-04 Immersive Media & XR Development (+P, S7) |
+|  |  | 5. STC-05 SaaS Architecture & Multi-Tenancy (+P,S7) |
+|  |  | 6. STC-06 Digital Product Management (Teori, Sem 7) |
 
 ---
 *Disahkan sebagai Dokumen Resmi 005 — Kurikulum OBE Revisi SISTEKIN 2026.*  
@@ -1050,137 +379,24 @@ Mahasiswa memilih 1 paket peminatan penuh (ditempuh 1 MK di Sem 5, 2 MK di Sem 6
 
 ### VISUALISASI 3 PEMINATAN & JALUR MBKM 20 SKS
 
-```mermaid
-graph TD
-    subgraph PEMINATAN ["3 PAKET PEMINATAN SEIMBANG (@ 18 SKS / 6 MK)"]
-        P1["P1: Integrated Smart Systems<br/>(AI/ML, MLOps, Agent, NLP, Vision)"]
-        P2["P2: Cloud Infra & Cybersecurity<br/>(DevOps, Security, COBIT, ITIL, TOGAF)"]
-        P3["P3: Digital Platform Engineering<br/>(UX Research, BPA, SaaS, Agile Product)"]
-    end
+### SKEMA EKUIVALENSI MBKM 20 SKS
 
-    subgraph MBKM ["KONVERSI 20 SKS MBKM (SEMESTER 6-7)"]
-        M1["Magang Industri / Studio"]
-        M2["Studi Independen Bersertifikat"]
-        M3["Riset / Kemanusiaan / Wirausaha"]
-    end
-
-    M1 & M2 & M3 -. "Ekuivalensi SKS" .-> P1 & P2 & P3
-```
-
----
-
-## 1. PANDUAN UMUM PEMILIHAN PEMINATAN (18 SKS / 6 MK)
-
-Program Studi Sistem dan Teknologi Informasi menyediakan **3 Peminatan Keahlian Terstruktur** yang masing-masing berbobot **6 Mata Kuliah (18 SKS)**:
-* Mahasiswa menentukan pilihan peminatan pada akhir Semester 4 setelah lulus mata kuliah fondasi dasar.
-* Penempuhan mata kuliah peminatan didistribusikan secara bertahap:
-  * **Semester 5:** 1 Mata Kuliah Peminatan (3 SKS)
-  * **Semester 6:** 2 Mata Kuliah Peminatan (6 SKS)
-  * **Semester 7:** 3 Mata Kuliah Peminatan (9 SKS)
-
----
-
-## 2. RINCIAN SILABUS & DESKRIPSI 18 MATA KULIAH PEMINATAN
-
-### 2.1 Peminatan 1: Integrated Smart Systems (Kecerdasan Artifisial Terintegrasi)
-Basis Profil: **PL-1 (Intelligent Information Systems & Data/AI Engineer)**
-
-1. **`STA-01` Sistem Pendukung Keputusan Cerdas (3 SKS — Semester 5, +P)**  
-   * **CPL:** KK1 | **Prasyarat:** `STI-202`, `STI-302`
-   * **Deskripsi:** Konsep multi-criteria decision making (MCDM), metode AHP, TOPSIS, PROMETHEE, integrasi Fuzzy Logic, serta pembangunan dashboard DSS berbasis web.
-2. **`STA-02` Metode Komputasi Numerik Terapan (3 SKS — Semester 6, +P)**  
-   * **CPL:** KK2 | **Prasyarat:** `STI-102`, `STI-202`
-   * **Deskripsi:** Solusi persamaan non-linear, interpolasi, optimasi numerik gradient descent, integrasi numerik untuk pemodelan algoritma AI dan simulasi sistem.
-3. **`STA-03` Sistem Agen Cerdas & Multi-Agent (3 SKS — Semester 6, +P)**  
-   * **CPL:** KK1 | **Prasyarat:** `STI-401`
-   * **Deskripsi:** Arsitektur autonomous agent, multi-agent communication protocols (FIPA-ACL), Reinforcement Learning (Q-learning, PPO), dan implementasi swarm intelligence.
-4. **`STA-04` MLOps & AI Pipeline Engineering (3 SKS — Semester 7, +P)**  
-   * **CPL:** KK2 | **Prasyarat:** `STI-501`
-   * **Deskripsi:** Siklus hidup operasionalisasi machine learning (MLOps), automated data validation, tracking eksperimen (MLflow, Weights & Biases), model registry, CI/CD pipeline deployment model AI.
-5. **`STA-05` Conversational AI & Intelligent Assistant (3 SKS — Semester 7, +P)**  
-   * **CPL:** KK1 | **Prasyarat:** `STI-501`
-   * **Deskripsi:** Large Language Models (LLM), fine-tuning teknik LoRA/QLoRA, Retrieval-Augmented Generation (RAG), framework LangChain & LlamaIndex, serta perancangan asisten cerdas enterprise.
-6. **`STA-06` Smart Surveillance & Edge AI Analytics (3 SKS — Semester 7, +P)**  
-   * **CPL:** KK1, KK3 | **Prasyarat:** `STI-501`, `STI-504`
-   * **Deskripsi:** Computer vision real-time (YOLO, OpenCV), optimasi inferensi model untuk perangkat Edge (TensorRT, Edge TPU, Jetson Nano), streaming video analytics untuk smart campus dan industri.
-
----
-
-### 2.2 Peminatan 2: Cloud Infrastructure & Cybersecurity (Infrastruktur Awan & Keamanan Siber)
-Basis Profil: **PL-2 (Cloud Infrastructure, Cybersecurity & Smart Systems Integrator)**
-
-1. **`STB-01` Network Security and Digital Forensics (3 SKS — Semester 5, +P)**  
-   * **CPL:** P3, KK3, KK4 | **Prasyarat:** `STI-307`, `STI-405`
-   * **Deskripsi:** Network packet analysis (Wireshark, Zeek), intrusion detection/prevention systems (Snort/Suricata), rantai bukti forensik digital, analisis artefak disk/memori (Autopsy, Volatility).
-2. **`STB-02` Cloud Architecture & DevOps (3 SKS — Semester 6, +P)**  
-   * **CPL:** P3, KK3 | **Prasyarat:** `STI-404`
-   * **Deskripsi:** Container orchestration dengan Kubernetes, Infrastructure as Code (Terraform / Ansible), CI/CD automation pipeline, dan arsitektur cloud native berskala enterprise.
-3. **`STB-03` Cybersecurity Risk Management (3 SKS — Semester 6, Teori)**  
-   * **CPL:** KK3, KK4 | **Prasyarat:** `STI-405`
-   * **Deskripsi:** Penilaian risiko keamanan siber menggunakan standar ISO/IEC 27005 dan NIST CSF, penyusunan Business Continuity Plan (BCP), dan Disaster Recovery Plan (DRP).
-4. **`STB-04` IT Governance & Compliance (COBIT 2019) (3 SKS — Semester 7, Teori)**  
-   * **CPL:** KK4 | **Prasyarat:** `STI-405`
-   * **Deskripsi:** Kerangka kerja COBIT 2019 (Domain EDM, APO, BAI, DSS, MEA), pengukuran kapabilitas proses (Capability Level), audit tata kelola TI, dan kepatuhan regulasi UU PDP.
-5. **`STB-05` IT Service Management (ITIL 4) (3 SKS — Semester 7, Teori)**  
-   * **CPL:** P3, KK3 | **Prasyarat:** `STI-404`
-   * **Deskripsi:** Kerangka kerja ITIL 4 Service Value System (SVS), perancangan Service Catalog, pengelolaan Service Level Agreement (SLA), Incident, Problem, dan Change Management.
-6. **`STB-06` Enterprise Architecture (TOGAF) (3 SKS — Semester 7, Teori)**  
-   * **CPL:** P3, KK4 | **Prasyarat:** `STI-301`
-   * **Deskripsi:** Perancangan cetak biru enterprise architecture menggunakan TOGAF ADM (Business, Data, Application, Technology Architecture) dan pemodelan standar ArchiMate.
-
----
-
-### 2.3 Peminatan 3: Digital Platform Engineering (Rekayasa Platform & Produk Digital)
-Basis Profil: **PL-3 (UI/UX Designer & Digital Platform Engineer)**
-
-1. **`STC-01` User Experience Research & Design (3 SKS — Semester 5, +P)**  
-   * **CPL:** KK5 | **Prasyarat:** `STI-303`
-   * **Deskripsi:** Riset pengguna kuantitatif & kualitatif, usability testing, eye-tracking simulation, pembangunan enterprise design system tokens (Figma, Storybook), micro-interactions.
-2. **`STC-02` Rekayasa & Otomasi Proses Bisnis (BPA) (3 SKS — Semester 6, +P)**  
-   * **CPL:** KK5, KK6 | **Prasyarat:** `STI-301`
-   * **Deskripsi:** Pemodelan proses bisnis BPMN 2.0, Process Mining untuk analisis log transaksi, workflow orchestration engine (Camunda/Temporal), dan Robotic Process Automation (RPA).
-3. **`STC-03` Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech) (3 SKS — Semester 6, +P)**  
-   * **CPL:** KK5 | **Prasyarat:** `STI-407`, `STI-505`
-   * **Deskripsi:** Domain-Driven Design (DDD) untuk solusi vertikal: FinTech (Payment Gateway, Core Banking API, Ledger) dan EdTech (LMS Architecture, SCORM/xAPI interoperability).
-4. **`STC-04` Immersive Media & XR Development (3 SKS — Semester 7, +P)**  
-   * **CPL:** KK5 | **Prasyarat:** `STI-303`, `STI-306`
-   * **Deskripsi:** WebXR, pemodelan 3D interaktif (Three.js), Augmented Reality (AR) mobile development, interaksi spasial, dan antarmuka komputasi spasial imersif.
-5. **`STC-05` SaaS Architecture & Multi-Tenancy (3 SKS — Semester 7, +P)**  
-   * **CPL:** KK5, KK6 | **Prasyarat:** `STI-604`
-   * **Deskripsi:** Arsitektur SaaS multi-tenant (Database-per-tenant vs Shared-schema), subscription billing engine (Stripe API), micro-frontends, dan distributed caching.
-6. **`STC-06` Digital Product Management & Agile Practices (3 SKS — Semester 7, Teori)**  
-   * **CPL:** KK6 | **Prasyarat:** `STI-506`, `MKU-202`
-   * **Deskripsi:** Product lifecycle, Product Roadmap & OKRs, backlog prioritization (RICE, Kano, MoSCoW), A/B testing, product-led growth (PLG), dan fasilitasi ritual Agile/Scrum.
-
----
-
-## 3. PANDUAN IMPLEMENTASI MBKM (MERDEKA BELAJAR KAMPUS MERDEKA)
-
-Kurikulum SISTEKIN 2026 menyediakan fleksibilitas penempuhan hingga **20 SKS MBKM per semester** pada **Semester 6 dan/atau Semester 7**:
-
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                               SKEMA EKUIVALENSI MBKM 20 SKS                                      │
-├───────────────────────┬──────────┬───────────────────────────────┬───────────────────────────────┤
-│ Jalur MBKM            │ Semester │ Paket MK yang Dikonversi      │ Total SKS Dikonversi          │
-├───────────────────────┼──────────┼───────────────────────────────┼───────────────────────────────┤
-│ Magang Industri       │ Sem 6    │ • MK Pilihan Peminatan 2 (3)  │ **20 SKS**                    │
-│ Bersertifikat (MSIB)  │          │ • MK Pilihan Peminatan 3 (3)  │                               │
-│                       │          │ • STI-601 Integrasi AI (3)    │                               │
-│                       │          │ • STI-604 Platform Eng (3)    │                               │
-│                       │          │ • STI-602 Smart City (3)      │                               │
-│                       │          │ • STI-603 Keamanan Lanjut (3) │                               │
-│                       │          │ • FST-611 Metopel (2)         │                               │
-├───────────────────────┼──────────┼───────────────────────────────┼───────────────────────────────┤
-│ Magang Industri /     │ Sem 7    │ • MK Pilihan Peminatan 4 (3)  │ **20 SKS**                    │
-│ Studi Independen /    │          │ • MK Pilihan Peminatan 5 (3)  │                               │
-│ Wirausaha Merdeka     │          │ • MK Pilihan Peminatan 6 (3)  │                               │
-│                       │          │ • STI-701 Startup Digital (3) │                               │
-│                       │          │ • FST-610 Capstone FSTI (3)   │                               │
-│                       │          │ • FST-612 PKL Industri (3)    │                               │
-│                       │          │ • FST-613 Pra-Skripsi (2)     │                               │
-└───────────────────────┴──────────┴───────────────────────────────┴───────────────────────────────┘
-```
+| Jalur MBKM | Semester | Paket MK yang Dikonversi | Total SKS Dikonversi |
+| --- | --- | --- | --- |
+| Magang Industri | Sem 6 | • MK Pilihan Peminatan 2 (3) | **20 SKS** |
+| Bersertifikat (MSIB) |  | • MK Pilihan Peminatan 3 (3) |  |
+|  |  | • STI-601 Integrasi AI (3) |  |
+|  |  | • STI-604 Platform Eng (3) |  |
+|  |  | • STI-602 Smart City (3) |  |
+|  |  | • STI-603 Keamanan Lanjut (3) |  |
+|  |  | • FST-611 Metopel (2) |  |
+| Magang Industri / | Sem 7 | • MK Pilihan Peminatan 4 (3) | **20 SKS** |
+| Studi Independen / |  | • MK Pilihan Peminatan 5 (3) |  |
+| Wirausaha Merdeka |  | • MK Pilihan Peminatan 6 (3) |  |
+|  |  | • STI-701 Startup Digital (3) |  |
+|  |  | • FST-610 Capstone FSTI (3) |  |
+|  |  | • FST-612 PKL Industri (3) |  |
+|  |  | • FST-613 Pra-Skripsi (2) |  |
 
 ---
 *Disahkan sebagai Dokumen Resmi 006 — Kurikulum OBE Revisi SISTEKIN 2026.*  
@@ -1201,44 +417,14 @@ Kurikulum SISTEKIN 2026 menyediakan fleksibilitas penempuhan hingga **20 SKS MBK
 
 ### VISUALISASI ALUR CAPSTONE & 4 OPSI TA NON-SKRIPSI
 
-```mermaid
-graph TD
-    subgraph CAPSTONE ["CAPSTONE PROJECT FSTI (FST-610 - SEMESTER 7)"]
-        C1["Formasi Tim Multidisiplin"] --> C2["Monev Progres 50% (UTS)"]
-        C2 --> C3["Demo Day & Live Testing (UAS)"]
-    end
+### TAHAPAN SIKLUS CAPSTONE PROJECT FSTI
 
-    subgraph TA_OPTIONS ["4 OPSI SKEMA TUGAS AKHIR (SEMESTER 8)"]
-        O1["Opsi A: Skripsi Riset Algoritma AI"]
-        O2["Opsi B: Purwarupa Produk System/Platform"]
-        O3["Opsi C: Publikasi Jurnal (SINTA 2 / Scopus)"]
-        O4["Opsi D: Startup Digital MVP & Validasi Pasar"]
-    end
-
-    C3 --> TA_OPTIONS
-```
-
----
-
-## 1. PEDOMAN CAPSTONE PROJECT FSTI (`FST-610`, 3 SKS — SEMESTER 7)
-
-### 1.1 Hakikat dan Tujuan Capstone Project
-Capstone Project merupakan mata kuliah puncak (*culminating experience*) wajib fakultas yang mengintegrasikan seluruh kompetensi yang telah dipelajari mahasiswa selama masa studi:
-* Mahasiswa bekerja dalam **tim multidisiplin (3–4 mahasiswa per tim)**, dapat melibatkan mahasiswa antar prodi di lingkungan FSTI (SISTEKIN, Teknik Informatika, dll.).
-* Proyek berfokus pada penyelesaian permasalahan nyata industri, institusi pemerintah, atau UMKM dengan membangun solusi sistem dan teknologi informasi cerdas end-to-end.
-
-### 1.2 Tahapan Pelaksanaan Capstone Project
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────┐
-│                         TAHAPAN SIKLUS CAPSTONE PROJECT FSTI                             │
-├──────────────────────────────────────────────────────────────────────────────────────────┤
-│ Minggu 1–3   : Pembentukan Tim, Identifikasi Masalah Mitra, & Proposal Capstone.         │
-│ Minggu 4–6   : Analisis Kebutuhan, Riset UX, & Perancangan Arsitektur Sistem Cerdas.     │
-│ Minggu 7–11  : Pengembangan Sistem (Sprint 1–3: Coding, AI Integration, Cloud Deploy).   │
-│ Minggu 12–13 : Pengujian Komprehensif (Unit Test, Usability Test, Security Testing).     │
-│ Minggu 14–16 : Capstone Expo / Demo Day, Uji Kelayakan Mitra, & Laporan Akhir.           │
-└──────────────────────────────────────────────────────────────────────────────────────────┘
-```
+| Minggu 1–3   : Pembentukan Tim, Identifikasi Masalah Mitra, & Proposal Capstone. |
+| --- |
+| Minggu 4–6   : Analisis Kebutuhan, Riset UX, & Perancangan Arsitektur Sistem Cerdas. |
+| Minggu 7–11  : Pengembangan Sistem (Sprint 1–3: Coding, AI Integration, Cloud Deploy). |
+| Minggu 12–13 : Pengujian Komprehensif (Unit Test, Usability Test, Security Testing). |
+| Minggu 14–16 : Capstone Expo / Demo Day, Uji Kelayakan Mitra, & Laporan Akhir. |
 
 ---
 
@@ -1246,25 +432,18 @@ Capstone Project merupakan mata kuliah puncak (*culminating experience*) wajib f
 
 Sesuai ketentuan **Permendikbudristek No. 53 Tahun 2023**, Program Studi SISTEKIN menyediakan **4 Jalur Kelulusan Tugas Akhir** yang setara (*equivalent*) berbobot **6 SKS**:
 
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                             4 OPSI JALUR TUGAS AKHIR SISTEKIN 2026                               │
-├──────┬───────────────────────┬──────────────────────────────────┬────────────────────────────────┤
-│ Opsi │ Jalur Tugas Akhir     │ Luaran Wajib (Deliverables)      │ Target Profil Utama (PL)       │
-├──────┼───────────────────────┼──────────────────────────────────┼────────────────────────────────┤
-│ 1    │ Skripsi Riset         │ Naskah Skripsi Ilmiah + Kode     │ • PL-1 (AI/Data Engineer)      │
-│      │ Eksperimental         │ Program Teruji + Uji Statistik   │ • PEO-3 (Studi Lanjut/Riset)   │
-├──────┼───────────────────────┼──────────────────────────────────┼────────────────────────────────┤
-│ 2    │ Proyek Inovasi        │ Sistem Teruji Mitra (TRL ≥ 6) +  │ • PL-2 (Cloud/Cyber Integrator)│
-│      │ Produk Industri       │ Laporan Teknis + Bukti HKI/Paten │ • PL-3 (Platform Engineer)     │
-├──────┼───────────────────────┼──────────────────────────────────┼────────────────────────────────┤
-│ 3    │ Tech Startup Mandiri  │ Produk MVP Tervalidasi + Naskah  │ • PL-4 (Digital Technopreneur) │
-│      │ (Technopreneur Track) │ Pitch Deck + Bukti Traksi Pasar  │ • PEO-2 (Inovasi & Wirausaha)  │
-├──────┼───────────────────────┼──────────────────────────────────┼────────────────────────────────┤
-│ 4    │ Publikasi Jurnal      │ Artikel Terbit/Accepted di Jurnal│ • Seluruh PL                   │
-│      │ Ilmiah Bereputasi     │ SINTA 1/2 atau Scopus/WoS Q1-Q4  │ • PEO-3 (Akademisi/Riset)      │
-└──────┴───────────────────────┴──────────────────────────────────┴────────────────────────────────┘
-```
+### 4 OPSI JALUR TUGAS AKHIR SISTEKIN 2026
+
+| Opsi | Jalur Tugas Akhir | Luaran Wajib (Deliverables) | Target Profil Utama (PL) |
+| --- | --- | --- | --- |
+| 1 | Skripsi Riset | Naskah Skripsi Ilmiah + Kode | • PL-1 (AI/Data Engineer) |
+|  | Eksperimental | Program Teruji + Uji Statistik | • PEO-3 (Studi Lanjut/Riset) |
+| 2 | Proyek Inovasi | Sistem Teruji Mitra (TRL ≥ 6) + | • PL-2 (Cloud/Cyber Integrator) |
+|  | Produk Industri | Laporan Teknis + Bukti HKI/Paten | • PL-3 (Platform Engineer) |
+| 3 | Tech Startup Mandiri | Produk MVP Tervalidasi + Naskah | • PL-4 (Digital Technopreneur) |
+|  | (Technopreneur Track) | Pitch Deck + Bukti Traksi Pasar | • PEO-2 (Inovasi & Wirausaha) |
+| 4 | Publikasi Jurnal | Artikel Terbit/Accepted di Jurnal | • Seluruh PL |
+|  | Ilmiah Bereputasi | SINTA 1/2 atau Scopus/WoS Q1-Q4 | • PEO-3 (Akademisi/Riset) |
 
 ---
 
@@ -1292,21 +471,16 @@ Sesuai ketentuan **Permendikbudristek No. 53 Tahun 2023**, Program Studi SISTEKI
 
 ## 3. RUBRIK PENILAIAN TUGAS AKHIR & SIDANG KELULUSAN
 
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                         RUBRIK ASESMEN SIDANG TUGAS AKHIR (6 SKS)                                │
-├───────────────────────────────────────────────────────┬──────────────┬───────────────────────────┤
-│ Komponen Penilaian                                    │ Bobot (%)    │ CPL yang Dinilai          │
-├───────────────────────────────────────────────────────┼──────────────┼───────────────────────────┤
-│ 1. Orisinalitas Gagasan & Relevansi Visi SISTEKIN     │ 15%          │ KU1, P2                   │
-│ 2. Kedalaman Metodologi & Kebenaran Analisis Teknis   │ 25%          │ P1, P3, P4                │
-│ 3. Kualitas Produk / Luaran (Sistem, Model AI, MVP)   │ 30%          │ KK1 / KK2 / KK3 / KK5/ KK6│
-│ 4. Sistematika Penulisan & Kualitas Dokumentasi       │ 15%          │ KU2, S1                   │
-│ 5. Performa Presentasi & Kemampuan Mempertahankan     │ 15%          │ KU2, KU3                  │
-├───────────────────────────────────────────────────────┼──────────────┼───────────────────────────┤
-│ TOTAL SKOR                                            │ **100%**     │ Kelulusan: Nilai ≥ 65 (B) │
-└───────────────────────────────────────────────────────┴──────────────┴───────────────────────────┘
-```
+### RUBRIK ASESMEN SIDANG TUGAS AKHIR (6 SKS)
+
+| Komponen Penilaian | Bobot (%) | CPL yang Dinilai |
+| --- | --- | --- |
+| 1. Orisinalitas Gagasan & Relevansi Visi SISTEKIN | 15% | KU1, P2 |
+| 2. Kedalaman Metodologi & Kebenaran Analisis Teknis | 25% | P1, P3, P4 |
+| 3. Kualitas Produk / Luaran (Sistem, Model AI, MVP) | 30% | KK1 / KK2 / KK3 / KK5/ KK6 |
+| 4. Sistematika Penulisan & Kualitas Dokumentasi | 15% | KU2, S1 |
+| 5. Performa Presentasi & Kemampuan Mempertahankan | 15% | KU2, KU3 |
+| TOTAL SKOR | **100%** | Kelulusan: Nilai ≥ 65 (B) |
 
 ---
 *Disahkan sebagai Dokumen Resmi 009 — Kurikulum OBE Revisi SISTEKIN 2026.*  
@@ -1328,41 +502,14 @@ Sesuai ketentuan **Permendikbudristek No. 53 Tahun 2023**, Program Studi SISTEKI
 
 ### VISUALISASI ALUR HINGGA ASESMEN OBE & SIKLUS PPEPP
 
-```mermaid
-graph TD
-    subgraph ASESMEN_FLOW ["PIPELINE PENGUKURAN CPL"]
-        MK["Asesmen 4x MK (Tugas1, UTS, Tugas2, UAS)"] --> CPMK["Skor Attainment CPMK (Bloom C2-C6)"]
-        CPMK --> CPL_IND["Formula CPL Attainment Individu"]
-        CPL_IND --> RADAR["Radar Chart CPL pada SKPI Wisudawan"]
-    end
+### SIKLUS ASESMEN BERBASIS LUARAN (OBE)
 
-    subgraph PPEPP ["SIKLUS CONTINUOUS QUALITY IMPROVEMENT (CQI)"]
-        P1["Penetapan Baseline"] --> P2["Pelaksanaan RPS"]
-        P2 --> E["Evaluasi Attainment Cohort (Target ≥ 80%)"]
-        E --> P3["Pengendalian Gap (RCA & RTM)"]
-        P3 --> P4["Peningkatan Kurikulum (CQI)"]
-    end
-
-    CPL_IND --> E
-```
-
----
-
-## 1. KERANGKA ASESMEN OBE SISTEKIN 2026
-
-Sistem penilaian pada Kurikulum OBE SISTEKIN berorientasi penuh pada pembuktian ketercapaian **14 CPL** secara langsung (*Direct Assessment*) melalui Capaian Pembelajaran Mata Kuliah (CPMK):
-
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────┐
-│                         SIKLUS ASESMEN BERBASIS LUARAN (OBE)                             │
-├──────────────────────────────────────────────────────────────────────────────────────────┤
-│ 1. Mata Kuliah merumuskan 3–4 CPMK (Bloom C2–C6) & Sub-CPMK per pekan.                   │
-│ 2. Instrumen Asesmen distandarisasi ke dalam 4 Titik Evaluasi Terstruktur.               │
-│ 3. Nilai Mahasiswa dihitung per CPMK menggunakan Rubrik Analitik Terstandar.             │
-│ 4. Skor Ketercapaian CPL dihitung menggunakan Formula Bobot Matriks MK ↔ CPL.            │
-│ 5. Analisis Gap & Tindak Lanjut Perbaikan Berkelanjutan (PPEPP / CQI).                   │
-└──────────────────────────────────────────────────────────────────────────────────────────┘
-```
+| 1. Mata Kuliah merumuskan 3–4 CPMK (Bloom C2–C6) & Sub-CPMK per pekan. |
+| --- |
+| 2. Instrumen Asesmen distandarisasi ke dalam 4 Titik Evaluasi Terstruktur. |
+| 3. Nilai Mahasiswa dihitung per CPMK menggunakan Rubrik Analitik Terstandar. |
+| 4. Skor Ketercapaian CPL dihitung menggunakan Formula Bobot Matriks MK ↔ CPL. |
+| 5. Analisis Gap & Tindak Lanjut Perbaikan Berkelanjutan (PPEPP / CQI). |
 
 > [!IMPORTANT]
 > **Kepatuhan IKU 7 (Indikator Kinerja Utama Kemendikbudristek):**  
@@ -1468,91 +615,14 @@ $$\% Cohort\_Attainment_{CPL_x} = \left( \frac{\text{Jumlah Mahasiswa dengan } A
 
 Hasil ketercapaian 14 CPL mahasiswa selama 8 semester akan dicetak sebagai **Portofolio Capaian OBE (Radar Chart CPL)** pada lampiran resmi SKPI lulusan:
 
-```
-                  S1 (Sikap & Etika)
-                        [100]
-                     /    |    \
-             KK6 [85]     |     [90] KU1 (Berpikir Kritis)
-            /             |             \
-      KK5 [92]            |              [88] KU2 (Komunikasi)
-     /                    |                    \
-   KK4 [80]               |                     [85] KU3 (Manajemen Mandiri)
-   |                      |                      |
-   KK3 [88]           SISTEKIN                   | P1 (Sains & Mat) [82]
-   |                   ALUMNI                    |
-   KK2 [94]           OBE RADAR                  | P2 (Konsep SI) [90]
-     \                    |                    /
-      KK1 [95]            |              [88] P3 (Infra & Security)
-            \             |             /
-             [92] P4 (RPL & Data Platform)
-```
+### HIERARKI & DISTINSI KONSEPTUAL OBE
 
----
-
-## 6. SIKLUS CONTINUOUS QUALITY IMPROVEMENT (CQI) — PPEPP
-
-Apabila terdapat $CPL_x$ yang belum memenuhi ambang batas target prodi ($\ge 80\%$), Program Studi menjalankan siklus perbaikan PPEPP:
-1. **Penetapan (P):** Meninjau ulang target baseline CPL.
-2. **Pelaksanaan (P):** Mengajar sesuai RPS terstandar OBE.
-3. **Evaluasi (E):** Mengukur CPL pada akhir semester via Rapat Tinjauan Kurikulum.
-4. **Pengendalian (P):** Melakukan *Root Cause Analysis* (RCA) pada MK yang mengalami anomali nilai.
-5. **Peningkatan (P):** Memperbaiki modul praktikum, memberikan pelatihan dosen, atau memperbarui studi kasus industri pada semester berikutnya.
-
----
-*Disahkan sebagai Dokumen Resmi 008 — Kurikulum OBE Revisi SISTEKIN 2026.*  
-**Tim Pengembang Kurikulum FSTI Universitas Widyagama Malang**
-
-
----
-
-# 010 — INSTRUMEN TRACER STUDY, PEO MEASUREMENT PLAN, DAN SISTEM EVALUASI PPEPP
-## Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang
-
-> **Dokumen Revisi Definitif Kurikulum 2026**  
-> **Status:** Master Panduan Pengukuran PEO, Validasi Stakeholder & Siklus Penjaminan Mutu PPEPP  
-> **Standar Rujukan:** Standar LAM INFOKOM Kriteria 1 (VMTS) & Kriteria 9 (Luaran dan Capaian Tridharma), Standar Akreditasi Internasional IABEE (Kriteria 1: PEO Assessment & CQI), Permendikbudristek No. 53 Tahun 2023.
-
----
-
-### VISUALISASI PEO MEASUREMENT PLAN & STAKEHOLDER FEEDBACK
-
-```mermaid
-graph TD
-    subgraph TIMELINE ["PEO MEASUREMENT PLAN BERTAHAP"]
-        T1["Tiap Semester: CPMK & CPL (SIAKAD)"] --> T2["Tiap Tahun: FGD Industri & Review RPS"]
-        T2 --> T3["Saat Kelulusan: Exit Survey & SKPI Radar"]
-        T3 --> T4["1 Thn Pasca: Tracer Transisi Kerja Awal"]
-        T4 --> T5["3-5 Thn Pasca: Tracer PEO & Employer Survey"]
-    end
-
-    subgraph STAKEHOLDER ["FEEDBACK LOOP STAKEHOLDER"]
-        S1["Industrial FGD"]
-        S2["Employer Needs Survey"]
-        S3["Advisory Board Review"]
-    end
-
-    STAKEHOLDER --> T2
-    T5 --> RTM["Rapat Tinjauan Manajemen (RTM) PPEPP"]
-```
-
----
-
-## 1. AUDIT TERMINOLOGI, LANDASAN KONSEPTUAL & DISTINSI PEO
-
-Untuk menjamin kepatuhan terhadap standar asesmen akreditasi internasional IABEE dan LAM INFOKOM, Program Studi SISTEKIN menegaskan distinsi terminologi kurikulum berikut:
-
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                             HIERARKI & DISTINSI KONSEPTUAL OBE                                  │
-├──────────────────────┬──────────────────────────────────────────┬────────────────────────────────┤
-│ Konsep Kurikulum     │ Rentang Waktu Pencapaian                 │ Subjek & Fokus Evaluasi        │
-├──────────────────────┼──────────────────────────────────────────┼────────────────────────────────┤
-│ **CPMK & Sub-CPMK**  │ Selama masa perkuliahan (Semester 1–8)   │ Mahasiswa aktif per mata kuliah│
-│ **14 CPL**           │ Pada saat penyelesaian studi / kelulusan │ Wisudawan (KKNI Level 6)       │
-│ **4 Profil Lulusan** │ Peran/identitas profesi saat lulus       │ Kesiapan kerja lulusan awal    │
-│ **3 PEO**            │ **3 hingga 5 tahun setelah kelulusan**   │ Alumni & Pengguna Lulusan      │
-└──────────────────────┴──────────────────────────────────────────┴────────────────────────────────┘
-```
+| Konsep Kurikulum | Rentang Waktu Pencapaian | Subjek & Fokus Evaluasi |
+| --- | --- | --- |
+| **CPMK & Sub-CPMK** | Selama masa perkuliahan (Semester 1–8) | Mahasiswa aktif per mata kuliah |
+| **14 CPL** | Pada saat penyelesaian studi / kelulusan | Wisudawan (KKNI Level 6) |
+| **4 Profil Lulusan** | Peran/identitas profesi saat lulus | Kesiapan kerja lulusan awal |
+| **3 PEO** | **3 hingga 5 tahun setelah kelulusan** | Alumni & Pengguna Lulusan |
 
 > [!NOTE]
 > **Konteks Program Studi Baru:**  
@@ -1562,29 +632,23 @@ Untuk menjamin kepatuhan terhadap standar asesmen akreditasi internasional IABEE
 
 ## 2. FORMULASI 3 PEO & KEPEMIMPINAN (*LEADERSHIP*) LINTAS-PEO
 
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                        3 PROGRAM EDUCATIONAL OBJECTIVES (PEO) SISTEKIN                          │
-├──────────┬──────────────────────────────────────────────────────────────────────────────────────┤
-│ Kode PEO │ Pernyataan Formal Objektif Pendidikan (3–5 Tahun Pasca Kelulusan)                    │
-├──────────┼──────────────────────────────────────────────────────────────────────────────────────┤
-│ **PEO-1**│ **Professional Practice and Systems Integration**                                    │
-│          │ "Dalam 3–5 tahun setelah lulus, alumni mampu berkarier secara profesional dalam      │
-│          │ menganalisis, merancang, mengembangkan, mengintegrasikan, mengamankan, atau          │
-│          │ mengelola sistem dan teknologi informasi cerdas sesuai kebutuhan organisasi,         │
-│          │ industri, dan masyarakat."                                                           │
-├──────────┼──────────────────────────────────────────────────────────────────────────────────────┤
-│ **PEO-2**│ **Digital Innovation and Technopreneurship**                                         │
-│          │ "Dalam 3–5 tahun setelah lulus, alumni mampu menghasilkan inovasi, produk, layanan,  │
-│          │ perbaikan proses, atau usaha digital yang relevan, etis, berkelanjutan, dan          │
-│          │ memberikan nilai tambah bagi pengguna, organisasi, industri, atau masyarakat."       │
-├──────────┼──────────────────────────────────────────────────────────────────────────────────────┤
-│ **PEO-3**│ **Advanced Study, Research, and Lifelong Learning**                                  │
-│          │ "Dalam 3–5 tahun setelah lulus, alumni mampu mengembangkan kompetensi melalui studi  │
-│          │ lanjut (S2/S3), penelitian terapan, sertifikasi profesional, komunitas keilmuan,     │
-│          │ atau pembelajaran sepanjang hayat serta menunjukkan kepemimpinan sesuai konteksnya." │
-└──────────┴──────────────────────────────────────────────────────────────────────────────────────┘
-```
+### 3 PROGRAM EDUCATIONAL OBJECTIVES (PEO) SISTEKIN
+
+| Kode PEO | Pernyataan Formal Objektif Pendidikan (3–5 Tahun Pasca Kelulusan) |
+| --- | --- |
+| **PEO-1** | **Professional Practice and Systems Integration** |
+|  | "Dalam 3–5 tahun setelah lulus, alumni mampu berkarier secara profesional dalam |
+|  | menganalisis, merancang, mengembangkan, mengintegrasikan, mengamankan, atau |
+|  | mengelola sistem dan teknologi informasi cerdas sesuai kebutuhan organisasi, |
+|  | industri, dan masyarakat." |
+| **PEO-2** | **Digital Innovation and Technopreneurship** |
+|  | "Dalam 3–5 tahun setelah lulus, alumni mampu menghasilkan inovasi, produk, layanan, |
+|  | perbaikan proses, atau usaha digital yang relevan, etis, berkelanjutan, dan |
+|  | memberikan nilai tambah bagi pengguna, organisasi, industri, atau masyarakat." |
+| **PEO-3** | **Advanced Study, Research, and Lifelong Learning** |
+|  | "Dalam 3–5 tahun setelah lulus, alumni mampu mengembangkan kompetensi melalui studi |
+|  | lanjut (S2/S3), penelitian terapan, sertifikasi profesional, komunitas keilmuan, |
+|  | atau pembelajaran sepanjang hayat serta menunjukkan kepemimpinan sesuai konteksnya." |
 
 ### Atribut Kepemimpinan (*Leadership*) Lintas-PEO (Bukan Jalur ke-4):
 * **Pada PEO-1 (Praktisi Profesional):** Memimpin tim pengembang perangkat lunak, memandu arsitektur sistem enterprise, atau memimpin inisiatif transformasi digital institusi.
@@ -1634,31 +698,22 @@ Untuk menjamin kepatuhan terhadap standar asesmen akreditasi internasional IABEE
 
 ## 4. PEO MEASUREMENT PLAN (RENCANA PENGUKURAN BERTAHAP PRODI BARU)
 
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                   PEO MEASUREMENT PLAN BERTAHAP SISTEKIN (SIKLUS 5 TAHUN)                        │
-├───────────────────┬──────────────────────┬────────────────────────────────┬──────────────────────┤
-│ Tahap Pengukuran  │ Fokus Evaluasi       │ Sumber Data & Instrumen        │ Target Provisional   │
-├───────────────────┼──────────────────────┼────────────────────────────────┼──────────────────────┤
-│ 1. Setiap Semester│ Capaian CPMK & CPL   │ Asesmen 4x MK, Rubrik Analitik,│ $\ge 80\%$ Mahasiswa │
-│                   │ Mahasiswa Aktif      │ Portofolio Nilai SIAKAD        │ Lulus CPL $\ge 65.0$ │
-├───────────────────┼──────────────────────┼────────────────────────────────┼──────────────────────┤
-│ 2. Setiap Tahun   │ Relevansi Kurikulum &│ FGD Industri, Advisory Board,  │ Skor Relevansi Mitra │
-│                   │ Kebutuhan Pasar      │ Survei Kebutuhan Stakeholder   │ $\ge 4.0 / 5.0$      │
-├───────────────────┼──────────────────────┼────────────────────────────────┼──────────────────────┤
-│ 3. Saat Kelulusan │ Kesiapan Kerja Awal  │ Exit Survey Wisudawan, Capaian │ Waktu Tunggu $< 3$ Bl│
-│                   │ (*Day-1 Readiness*)  │ SKPI Radar CPL, Sertifikasi    │ Sertifikasi $\ge 70\%$│
-├───────────────────┼──────────────────────┼────────────────────────────────┼──────────────────────┤
-│ 4. 1 Thn Pascalulus│ Transisi Karier Awal │ Tracer Study Awal: Relevansi   │ Keselarasan Kerja    │
-│                   │ & Penyerapan Kerja   │ Pekerjaan, Gaji Pertama        │ $\ge 75\%$           │
-├───────────────────┼──────────────────────┼────────────────────────────────┼──────────────────────┤
-│ 5. 3–5 Thn Pascalu│ Ketercapaian 3 PEO   │ Tracer PEO Alumni, Employer    │ $\ge 75\%$ Alumni    │
-│    lus            │ Definitif            │ Satisfaction Survey (Atasan)   │ Kategori "Tinggi/Baik│
-├───────────────────┼──────────────────────┼────────────────────────────────┼──────────────────────┤
-│ 6. Pasca-Evaluasi │ Perbaikan Kurikulum  │ RTM Fakultas, Root Cause       │ Dokumen Kurikulum    │
-│                   │ Berkelanjutan        │ Analysis (RCA), RTL PPEPP      │ Revisi Berkala (CQI) │
-└───────────────────┴──────────────────────┴────────────────────────────────┴──────────────────────┘
-```
+### PEO MEASUREMENT PLAN BERTAHAP SISTEKIN (SIKLUS 5 TAHUN)
+
+| Tahap Pengukuran | Fokus Evaluasi | Sumber Data & Instrumen | Target Provisional |
+| --- | --- | --- | --- |
+| 1. Setiap Semester | Capaian CPMK & CPL | Asesmen 4x MK, Rubrik Analitik, | $\ge 80\%$ Mahasiswa |
+|  | Mahasiswa Aktif | Portofolio Nilai SIAKAD | Lulus CPL $\ge 65.0$ |
+| 2. Setiap Tahun | Relevansi Kurikulum & | FGD Industri, Advisory Board, | Skor Relevansi Mitra |
+|  | Kebutuhan Pasar | Survei Kebutuhan Stakeholder | $\ge 4.0 / 5.0$ |
+| 3. Saat Kelulusan | Kesiapan Kerja Awal | Exit Survey Wisudawan, Capaian | Waktu Tunggu $< 3$ Bl |
+|  | (*Day-1 Readiness*) | SKPI Radar CPL, Sertifikasi | Sertifikasi $\ge 70\%$ |
+| 4. 1 Thn Pascalulus | Transisi Karier Awal | Tracer Study Awal: Relevansi | Keselarasan Kerja |
+|  | & Penyerapan Kerja | Pekerjaan, Gaji Pertama | $\ge 75\%$ |
+| 5. 3–5 Thn Pascalu | Ketercapaian 3 PEO | Tracer PEO Alumni, Employer | $\ge 75\%$ Alumni |
+| lus | Definitif | Satisfaction Survey (Atasan) | Kategori "Tinggi/Baik |
+| 6. Pasca-Evaluasi | Perbaikan Kurikulum | RTM Fakultas, Root Cause | Dokumen Kurikulum |
+|  | Berkelanjutan | Analysis (RCA), RTL PPEPP | Revisi Berkala (CQI) |
 
 ---
 
@@ -1714,25 +769,18 @@ Formulir ini diisi oleh Atasan Langsung / Pimpinan HRD tempat alumni SISTEKIN be
 
 Untuk menjamin keabsahan dan relevansi PEO sebelum dapat diukur melalui *Tracer Study*, Program Studi SISTEKIN menjalankan protokol validasi eksternal:
 
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                         PROTOKOL VALIDASI PEMANGKU KEPENTINGAN                                   │
-├───────────────────┬──────────────────────────────────────────────────────────────────────────────┤
-│ Saluran Validasi  │ Deskripsi Pelaksanaan & Luaran Bukti Fisik                                   │
-├───────────────────┼──────────────────────────────────────────────────────────────────────────────┤
-│ 1. Industrial FGD │ Focus Group Discussion bersama praktisi DUDI, asosiasi profesi (APTIKOM/IAII)│
-│                   │ Luaran: Berita Acara Rapat, Daftar Hadir, Catatan Masukan Industri.          │
-├───────────────────┼──────────────────────────────────────────────────────────────────────────────┤
-│ 2. Employer Needs │ Kuesioner analisis kebutuhan pasar kerja di kawasan Jawa Timur & Nasional.   │
-│    Survey         │ Luaran: Dokumen Analisis Kebutuhan Pasar Tenaga Kerja Bidang STI.             │
-├───────────────────┼──────────────────────────────────────────────────────────────────────────────┤
-│ 3. Advisory Board │ Dewan Pertimbangan Kurikulum FSTI (Guru Besar, Industri, Pemerintah Daerah). │
-│                   │ Luaran: Lembar Rekomendasi Formal Arah Kurikulum dan PEO.                    │
-├───────────────────┼──────────────────────────────────────────────────────────────────────────────┤
-│ 4. Benchmarking   │ Studi komparasi kurikulum prodi STI bereputasi unggul nasional/internasional.│
-│                   │ Luaran: Matriks Komparasi Standar Kurikulum CC2020/APTIKOM.                  │
-└───────────────────┴──────────────────────────────────────────────────────────────────────────────┘
-```
+### PROTOKOL VALIDASI PEMANGKU KEPENTINGAN
+
+| Saluran Validasi | Deskripsi Pelaksanaan & Luaran Bukti Fisik |
+| --- | --- |
+| 1. Industrial FGD | Focus Group Discussion bersama praktisi DUDI, asosiasi profesi (APTIKOM/IAII) |
+|  | Luaran: Berita Acara Rapat, Daftar Hadir, Catatan Masukan Industri. |
+| 2. Employer Needs | Kuesioner analisis kebutuhan pasar kerja di kawasan Jawa Timur & Nasional. |
+| Survey | Luaran: Dokumen Analisis Kebutuhan Pasar Tenaga Kerja Bidang STI. |
+| 3. Advisory Board | Dewan Pertimbangan Kurikulum FSTI (Guru Besar, Industri, Pemerintah Daerah). |
+|  | Luaran: Lembar Rekomendasi Formal Arah Kurikulum dan PEO. |
+| 4. Benchmarking | Studi komparasi kurikulum prodi STI bereputasi unggul nasional/internasional. |
+|  | Luaran: Matriks Komparasi Standar Kurikulum CC2020/APTIKOM. |
 
 ---
 
@@ -1811,9 +859,9 @@ ightarrow$ Kurikulum 2026
 | `STI-307` | Jaringan Komputer | 3 | `STI-307` | Jaringan Komputer (Digeser ke Sem 3) | 3 | Ekuivalen Penuh |
 | `STI-404` | Komputasi Awan (Cloud) | 3 | `STI-404` | Komputasi Awan (Cloud) | 3 | Ekuivalen Penuh |
 | `STI-405` | Keamanan Informasi Dasar | 2 | `STI-405` | Dasar Keamanan Informasi | 2 | Ekuivalen Penuh |
-| `MKU-201` | Pendidikan Kewarganegaraan | 2 | `MKU-201` | Kewarganegaraan (Digeser ke Sem 4) | 2 | Ekuivalen Penuh |
+| `MKU-405` | Kewarganegaraan | 2 | `MKU-405` | Kewarganegaraan (Digeser ke Sem 4) | 2 | Ekuivalen Penuh |
 | `FST-206` | Etika Profesi | 2 | `FST-206` | Etika Profesi & Hukum Digital (Sem 2)| 2 | Ekuivalen Penuh |
-| `MKU-202` | Kewirausahaan I | 2 | `MKU-202` | Kewirausahaan I (Sem 2) | 2 | Ekuivalen Penuh |
+| `MKU-204` | Kewirausahaan I | 2 | `MKU-204` | Kewirausahaan I (Sem 2) | 2 | Ekuivalen Penuh |
 | `STI-601` | AI Terapan & Layanan Cerdas | 3 | `STI-601` | Integrasi Layanan Cerdas AI (Sem 6) | 3 | Ekuivalen Penuh |
 | `FST-610` | Capstone Project FSTI | 3 | `FST-610` | Capstone Project FSTI (Sem 7) | 3 | Ekuivalen Penuh |
 
@@ -1890,8 +938,8 @@ graph LR
 | 3 | `STI-101` | Pengantar Sistem & TI | 2 | | | | | | **I** | | | | | | | | | Seluruh PL | PEO-1, PEO-2 | **I** |
 | 4 | `STI-102` | Kalkulus | 3 | | | | | **I** | | | | | | | | | | PL-1, PL-2 | PEO-1, PEO-3 | **I** |
 | 5 | `STI-103` | Logika Informatika | 3 | | **I** | | | **I** | | | | | | | | | | PL-1, PL-2 | PEO-1, PEO-3 | **I** |
-| 6 | `MKU-101` | Pendidikan Agama I | 2 | **I** | | | | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **I** |
-| 7 | `MKU-102` | Pendidikan Pancasila | 2 | **I** | | | | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **I** |
+| 6 | `MKU-101` | Agama I | 2 | **I** | | | | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **I** |
+| 7 | `MKU-102` | Pancasila | 2 | **I** | | | | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **I** |
 | 8 | `MKU-103` | Bahasa Indonesia | 2 | | | **I** | | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **I** |
 | 9 | `STI-201` | Matematika Diskrit | 3 | | | | | **I** | | | | | | | | | | PL-1, PL-2 | PEO-1, PEO-3 | **I** |
 | 10 | `STI-202` | Aljabar Linear & Matriks | 3 | | | | | **I** | | | | | | | | | | PL-1, PL-2 | PEO-1, PEO-3 | **I** |
@@ -1900,7 +948,7 @@ graph LR
 | 13 | `FST-205` | Pemrograman Lanjut (OOP) | 2 | | | | | | | | **I** | | | | | | | PL-1, PL-3 | PEO-1 | **I** |
 | 14 | `FST-206` | Etika Profesi & Hukum Dig. | 2 | **I** | | | **I** | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2 | **I** |
 | 15 | `FST-207` | Sistem Basis Data | 3 | | | | | | **I** | | **I** | | | | | | | PL-1, PL-3 | PEO-1 | **I** |
-| 16 | `MKU-202` | Kewirausahaan I | 2 | | | | | | | | | | | | | | | **I** | PL-4 | PEO-2 | **I** |
+| 16 | `MKU-204` | Kewirausahaan I | 2 | | | | | | | | | | | | | | | **I** | PL-4 | PEO-2 | **I** |
 
 ---
 
@@ -1922,7 +970,7 @@ graph LR
 | 28 | `STI-405` | Dasar Keamanan Informasi | 2 | | | | | | | **R** | | | | **R** | | | | PL-2 | PEO-1 | **R** |
 | 29 | `FST-408` | Probabilitas & Statistika | 3 | | | | | **R** | | | | | | | | | | PL-1, PL-2 | PEO-1, PEO-3 | **R** |
 | 30 | `FST-409` | Manajemen Sains & Riset Op | 2 | | **R** | | | **R** | | | | | | | | | | PL-1, PL-4 | PEO-1, PEO-2 | **R** |
-| 31 | `MKU-201` | Pend. Kewarganegaraan(KWN) | 2 | **I** | | | | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **I** |
+| 31 | `MKU-405` | Kewarganegaraan | 2 | **I** | | | | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **I** |
 
 ---
 
@@ -1935,7 +983,7 @@ graph LR
 | 34 | `STI-504` | Internet of Things (IoT) | 3 | | | | | | | **R** | | | | **R** | | | | PL-2 | PEO-1 | **R** |
 | 35 | `STI-505` | Pemrograman Aplikasi Mobile| 3 | | | | | | | | **R** | | | | | **R** | | PL-3 | PEO-1, PEO-2 | **R** |
 | 36 | `STI-506` | Manajemen Proyek TI | 3 | | | | | | | | | | | | | | **R** | PL-4 | PEO-1, PEO-2 | **R** |
-| 37 | `MKU-203` | KPM (Pengabdian Masy.) | 3 | **M** | | | **M** | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **M** |
+| 37 | `MKU-507` | KPM (Kuliah Pengabdian Kepada Masyarakat) | 3 | **M** | | | **M** | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **M** |
 | 38 | `STA/B/C` | **MK Pilihan Peminatan 1** | 3 | | | | | | | | | * | * | * | * | * | * | PL-1..3 | PEO-1..3 | **R** |
 | 39 | `STI-601` | Integrasi Layanan Cerdas AI | 3 | | | | | | **M** | | | **M** | | | | | | PL-1 | PEO-1, PEO-3 | **M** |
 | 40 | `STI-602` | Smart City & Pem. Digital | 2 | | | | | | | **M** | | | | **M** | | | | PL-2 | PEO-1 | **M** |
@@ -2052,7 +1100,7 @@ Matriks ini memetakan relasi langsung antara 19 Bahan Kajian Standar APTIKOM SI 
 | **BK-IS12** | *Web and Mobile App Development* | `STI-306`, `STI-407`, `STI-505`, `STI-604` | `STC-03`, `STC-05` | 6 MK | ✅ Sangat Kuat |
 | **BK-IS13** | *Data Analytics and Business Intelligence* | `STI-402`, `STI-503`, `STA-01` | `STI-401`, `STA-04` | 5 MK | ✅ Sangat Kuat |
 | **BK-IS14** | *IT Audit and Compliance* | `STB-04`, `STB-03` | `FST-206`, `STB-05` | 4 MK | ✅ Terpenuhi |
-| **BK-IS15** | *Digital Innovation and Entrepreneurship* | `MKU-202`, `STI-701`, `FST-610` | `STC-06` | 4 MK | ✅ Sangat Kuat |
+| **BK-IS15** | *Digital Innovation and Entrepreneurship* | `MKU-204`, `STI-701`, `FST-610` | `STC-06` | 4 MK | ✅ Sangat Kuat |
 | **BK-IS16** | *Artificial Intelligence & Intelligent Systems*| `STI-302`, `STI-601`, `STA-03`, `STA-05` | `STI-401`, `STA-06` | 6 MK | ✅ Sangat Kuat |
 | **BK-IS17** | *Human-Computer Interaction & UX* | `STI-303`, `STC-01` | `STI-306`, `STI-505` | 4 MK | ✅ Sangat Kuat |
 | **BK-IS18** | *Machine Learning and Data Science* | `STI-401`, `STI-501`, `STA-04` | `STA-02`, `STA-06` | 5 MK | ✅ Sangat Kuat |
@@ -2076,7 +1124,7 @@ Matriks ini memetakan relasi langsung antara 19 Bahan Kajian Standar APTIKOM SI 
 | **BK-IT10** | *User Experience & Interaction Design* | `STI-303`, `STC-01` | `STI-306`, `STC-04` | 4 MK | ✅ Sangat Kuat |
 | **BK-IT11** | *Software Development Practices* | `STI-304`, `STI-407`, `STI-604` | `FST-205`, `STC-05` | 5 MK | ✅ Sangat Kuat |
 | **BK-IT12** | *IT Risk Management and Compliance* | `STB-03`, `STB-04` | `FST-206` | 3 MK | ✅ Terpenuhi |
-| **BK-IT13** | *Technology Entrepreneurship* | `MKU-202`, `STI-701`, `FST-610` | `STC-06` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT13** | *Technology Entrepreneurship* | `MKU-204`, `STI-701`, `FST-610` | `STC-06` | 4 MK | ✅ Sangat Kuat |
 | **BK-IT14** | *IoT and Embedded Smart Systems* | `STI-504`, `STA-06` | `STI-305`, `STI-307` | 4 MK | ✅ Sangat Kuat |
 
 ---
@@ -2097,8 +1145,8 @@ Sesuai Keputusan Menteri Pendidikan dan Kebudayaan No. 210/M/2023 tentang Indika
 | 3 | `STI-101` | Pengantar Sistem & TI | 2 | 30% | 20% | 50% | **50%** | ✅ Patuh IKU 7 |
 | 4 | `STI-102` | Kalkulus | 3 | 20% | 0% | 80% | 20% | *MK Teori Dasar Sains* |
 | 5 | `STI-103` | Logika Informatika | 3 | 20% | 0% | 80% | 20% | *MK Teori Dasar Sains* |
-| 6 | `MKU-101` | Pendidikan Agama I | 2 | 30% | 30% | 40% | **60%** | ✅ Patuh IKU 7 |
-| 7 | `MKU-102` | Pendidikan Pancasila | 2 | 30% | 30% | 40% | **60%** | ✅ Patuh IKU 7 |
+| 6 | `MKU-101` | Agama I | 2 | 30% | 30% | 40% | **60%** | ✅ Patuh IKU 7 |
+| 7 | `MKU-102` | Pancasila | 2 | 30% | 30% | 40% | **60%** | ✅ Patuh IKU 7 |
 | 8 | `MKU-103` | Bahasa Indonesia | 2 | 20% | 40% | 40% | **60%** | ✅ Patuh IKU 7 |
 | 9 | `STI-201` | Matematika Diskrit | 3 | 20% | 0% | 80% | 20% | *MK Teori Dasar Sains* |
 | 10 | `STI-202` | Aljabar Linear & Matriks | 3 | 20% | 0% | 80% | 20% | *MK Teori Dasar Sains* |
@@ -2107,7 +1155,7 @@ Sesuai Keputusan Menteri Pendidikan dan Kebudayaan No. 210/M/2023 tentang Indika
 | 13 | `FST-205` | Pemrograman Lanjut (OOP) | 2 | 20% | 45% | 35% | **65%** | ✅ Patuh IKU 7 |
 | 14 | `FST-206` | Etika Profesi & Hukum Dig. | 2 | 40% | 20% | 40% | **60%** | ✅ Patuh IKU 7 |
 | 15 | `FST-207` | Sistem Basis Data | 3 | 20% | 45% | 35% | **65%** | ✅ Patuh IKU 7 |
-| 16 | `MKU-202` | Kewirausahaan I | 2 | 30% | 40% | 30% | **70%** | ✅ Patuh IKU 7 |
+| 16 | `MKU-204` | Kewirausahaan I | 2 | 30% | 40% | 30% | **70%** | ✅ Patuh IKU 7 |
 | 17 | `STI-301` | Analisis & Perancangan SI | 3 | 30% | 40% | 30% | **70%** | ✅ Patuh IKU 7 |
 | 18 | `STI-302` | Sistem Cerdas | 2 | 25% | 35% | 40% | **60%** | ✅ Patuh IKU 7 |
 | 19 | `STI-303` | UI/UX Design & Prototyping | 3 | 20% | 55% | 25% | **75%** | ✅ Patuh IKU 7 |
@@ -2122,13 +1170,13 @@ Sesuai Keputusan Menteri Pendidikan dan Kebudayaan No. 210/M/2023 tentang Indika
 | 28 | `STI-405` | Dasar Keamanan Informasi | 2 | 25% | 30% | 45% | **55%** | ✅ Patuh IKU 7 |
 | 29 | `FST-408` | Probabilitas & Statistika | 3 | 20% | 10% | 70% | 30% | *MK Teori Dasar Sains* |
 | 30 | `FST-409` | Manajemen Sains & Riset Op | 2 | 30% | 20% | 50% | **50%** | ✅ Patuh IKU 7 |
-| 31 | `MKU-201` | Kewarganegaraan | 2 | 30% | 30% | 40% | **60%** | ✅ Patuh IKU 7 |
+| 31 | `MKU-405` | Kewarganegaraan | 2 | 30% | 30% | 40% | **60%** | ✅ Patuh IKU 7 |
 | 32 | `STI-501` | Deep Learning & Neural Net | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
 | 33 | `STI-503` | Data Mining & Visualisasi | 3 | 20% | 45% | 35% | **65%** | ✅ Patuh IKU 7 |
 | 34 | `STI-504` | Internet of Things (IoT) | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
 | 35 | `STI-505` | Pemrograman Mobile | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
 | 36 | `STI-506` | Manajemen Proyek TI | 3 | 30% | 45% | 25% | **75%** | ✅ Patuh IKU 7 |
-| 37 | `MKU-203` | KPM (Pengabdian Masy.) | 3 | 20% | 70% | 10% | **90%** | ✅ Patuh IKU 7 |
+| 37 | `MKU-507` | KPM (Kuliah Pengabdian Kepada Masyarakat) | 3 | 20% | 70% | 10% | **90%** | ✅ Patuh IKU 7 |
 | 38 | `STA/B/C` | MK Pilihan Peminatan 1 | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
 | 39 | `STI-601` | Integrasi Layanan Cerdas AI| 3 | 20% | 55% | 25% | **75%** | ✅ Patuh IKU 7 |
 | 40 | `STI-602` | Smart City & Pem. Digital | 2 | 35% | 35% | 30% | **70%** | ✅ Patuh IKU 7 |
@@ -2445,12 +1493,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 6. MKU-101 — Pendidikan Agama I (Religious Education I)
+### 6. MKU-101 — Agama I (Religious Education I)
 
 #### Tabel 6.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **MKU-101 — Pendidikan Agama I** (*Religious Education I*) |
+| **Kode & Nama Mata Kuliah** | **MKU-101 — Agama I** (*Religious Education I*) |
 | **Bobot SKS / Tipe** | **2 SKS** / Tipe: **Teori** (100m Kuliah + 120m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 1** / Mata Kuliah Wajib Umum (MKWU) |
 | **Prasyarat Akademik** | Tidak Ada |
@@ -2486,12 +1534,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 7. MKU-102 — Pendidikan Pancasila (Pancasila Education)
+### 7. MKU-102 — Pancasila (Pancasila Education)
 
 #### Tabel 7.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **MKU-102 — Pendidikan Pancasila** (*Pancasila Education*) |
+| **Kode & Nama Mata Kuliah** | **MKU-102 — Pancasila** (*Pancasila Education*) |
 | **Bobot SKS / Tipe** | **2 SKS** / Tipe: **Teori** (100m Kuliah + 120m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 1** / Mata Kuliah Wajib Umum (MKWU) |
 | **Prasyarat Akademik** | Tidak Ada |
@@ -2508,7 +1556,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 #### Tabel 7.C: Matriks Rencana Pembelajaran 16 Pertemuan (Sub-CPMK, Materi, Metode, Asesmen)
 | Mg | Sub-CPMK & Kemampuan Akhir | Pokok Bahasan (Bahan Kajian) | Bentuk & Metode Pembelajaran | Bentuk Asesmen & Bobot (%) |
 |:--:|---|---|---|---|
-| 1 | Mampu menguraikan urgensi Pendidikan Pancasila di perguruan tinggi (C2) | Pengantar Pendidikan Pancasila dan Landasan Yuridis | Kuliah & Diskusi (100m) | Aktivitas Formatif (Non-Graded) |
+| 1 | Mampu menguraikan urgensi Pancasila di perguruan tinggi (C2) | Pengantar Pancasila dan Landasan Yuridis | Kuliah & Diskusi (100m) | Aktivitas Formatif (Non-Graded) |
 | 2 | Mampu menganalisis Pancasila dalam arus sejarah bangsa Indonesia (C4) | Periode Pengusulan, Perumusan, & Pengesahan Pancasila | Ceramah & Analisis Dokumen (100m) | Aktivitas Formatif (Non-Graded) |
 | 3 | Mampu menganalisis Pancasila sebagai Dasar Negara RI (C4) | Pancasila sebagai Dasar Negara dan Sumber Segala Hukum | Case-Based Learning (100m) | Aktivitas Formatif (Non-Graded) |
 | **4** | **Mampu membandingkan Pancasila dengan ideologi besar dunia (C4)** | **Pancasila sebagai Ideologi Terbuka vs Liberalisme/Sosialisme** | **Diskusi Panel (100m)** | **Tugas 1: Kuis & Problem Solving (Bobot: 20%)** |
@@ -2868,12 +1916,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 16. MKU-202 — Kewirausahaan I (Entrepreneurship I)
+### 16. MKU-204 — Kewirausahaan I (Entrepreneurship I)
 
 #### Tabel 16.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **MKU-202 — Kewirausahaan I** (*Entrepreneurship I*) |
+| **Kode & Nama Mata Kuliah** | **MKU-204 — Kewirausahaan I** (*Entrepreneurship I*) |
 | **Bobot SKS / Tipe** | **2 SKS** / Tipe: **Teori** (100m Kuliah + 120m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 2** / Technopreneurship & Inovasi Bisnis (MKWU) |
 | **Prasyarat Akademik** | Tidak Ada |
@@ -3508,12 +2556,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 31. MKU-201 — Pendidikan Kewarganegaraan (KWN) (Civic Education)
+### 31. MKU-405 — Kewarganegaraan (Civic Education)
 
 #### Tabel 31.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **MKU-201 — Pendidikan Kewarganegaraan (KWN)** (*Civic Education*) |
+| **Kode & Nama Mata Kuliah** | **MKU-405 — Kewarganegaraan** (*Civic Education*) |
 | **Bobot SKS / Tipe** | **2 SKS** / Tipe: **Teori** (100m Kuliah + 120m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 4** / Mata Kuliah Wajib Umum (MKWU) |
 | **Prasyarat Akademik** | Tidak Ada |
@@ -3530,7 +2578,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 #### Tabel 31.C: Matriks Rencana Pembelajaran 16 Pertemuan (Sub-CPMK, Materi, Metode, Asesmen)
 | Mg | Sub-CPMK & Kemampuan Akhir | Pokok Bahasan (Bahan Kajian) | Bentuk & Metode Pembelajaran | Bentuk Asesmen & Bobot (%) |
 |:--:|---|---|---|---|
-| 1 | Mampu menguraikan hakikat pendidikan kewarganegaraan di PT (C2) | Urgensi Pendidikan Kewarganegaraan bagi Sarjana Komputasi | Kuliah & Diskusi (100m) | Aktivitas Formatif (Non-Graded) |
+| 1 | Mampu menguraikan hakikat pendidikan kewarganegaraan di PT (C2) | Urgensi Kewarganegaraan bagi Sarjana Komputasi | Kuliah & Diskusi (100m) | Aktivitas Formatif (Non-Graded) |
 | 2 | Mampu menganalisis Identitas Nasional sebagai karakter pembeda bangsa (C4) | Identitas Nasional Indonesia: Unsur Pembentuk & Bahasa Persatuan | Ceramah & Diskusi (100m) | Aktivitas Formatif (Non-Graded) |
 | 3 | Mampu menganalisis Integrasi Nasional dan tantangan disintegrasi (C4) | Integrasi Nasional: Bhinneka Tunggal Ika & Dinamika SARA | Case Method Class (100m) | Aktivitas Formatif (Non-Graded) |
 | **4** | **Mampu menganalisis UUD NRI 1945 sebagai hukum tertinggi negara (C4)** | **Konstitusi Indonesia: Sejarah Amandemen UUD 1945 & Hirarki Hukum** | **Ceramah & Analisis Dokumen (100m)** | **Tugas 1: Kuis & Problem Solving (Bobot: 20%)** |
@@ -3764,12 +2812,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 37. MKU-203 — KPM (Kuliah Pengabdian Masyarakat) (Community Service Program)
+### 37. MKU-507 — KPM (Kuliah Pengabdian Kepada Masyarakat) (Community Service Program)
 
 #### Tabel 37.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **MKU-203 — KPM (Kuliah Pengabdian Masyarakat)** (*Community Service Program*) |
+| **Kode & Nama Mata Kuliah** | **MKU-507 — KPM (Kuliah Pengabdian Kepada Masyarakat)** (*Community Service Program*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Praktik** (240 Menit Praktik Lapangan / Minggu) |
 | **Semester / Rumpun MK** | **Semester 5** / Pengabdian Masyarakat & Inovasi Sosial (MKWU) |
 | **Prasyarat Akademik** | Minimal Telah Menempuh 90 SKS |
@@ -4027,7 +3075,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STI-701 — Inovasi Teknologi dan Startup Digital** (*Tech Innovation and Digital Startup*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Technopreneurship & Inovasi Bisnis (Core STI) |
-| **Prasyarat Akademik** | `MKU-202` Kewirausahaan I |
+| **Prasyarat Akademik** | `MKU-204` Kewirausahaan I |
 | **CPL yang Dibebankan** | `KK6` (Inovasi Produk Digital, Lean Startup, Validasi MVP & Pitching) |
 | **Profil Lulusan (PL)** | `PL-4` (Digital Technopreneur & IT Product Innovator) |
 | **Target PEO** | `PEO-2` (Digital Innovation and Technopreneurship) |

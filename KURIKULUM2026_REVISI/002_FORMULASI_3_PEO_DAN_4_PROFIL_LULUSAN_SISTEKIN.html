@@ -277,20 +277,6 @@
         .alert-caution .alert-header { color: var(--danger); }
         .alert-content { color: var(--text-secondary); font-size: 0.92rem; }
 
-        /* ASCII Tables Box */
-        .ascii-table-box {
-            background: #090d16;
-            border: 1px solid var(--border-accent);
-            border-radius: var(--radius-md);
-            padding: 16px;
-            font-family: var(--font-code);
-            font-size: 0.8rem;
-            color: var(--primary-light);
-            overflow-x: auto;
-            margin: 24px 0;
-            white-space: pre;
-        }
-
         /* Mermaid Box */
         .mermaid-card {
             background: rgba(17, 24, 39, 0.5);
@@ -347,8 +333,15 @@
 <option value="006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.html" >006 — Distribusi MK Peminatan & Panduan MBKM</option>
 <option value="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" >007 — Silabus 3-Tabel & CPMK 67 MK Portofolio</option>
 <option value="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" >008 — Sistem Asesmen OBE & Attainment CPL</option>
+<option value="009_LANGKAH2_CPL_FORMAL.html" >009 — Ringkasan Langkah 2: CPL Formal</option>
+<option value="009A_CPL_SIKAP_SISTEKIN.html" >009A — Detail CPL Sikap (S1)</option>
+<option value="009B_CPL_KETERAMPILAN_UMUM_SISTEKIN.html" >009B — Detail CPL Keterampilan Umum (KU1-3)</option>
+<option value="009C_CPL_PENGETAHUAN_SISTEKIN.html" >009C — Detail CPL Pengetahuan (P1-4)</option>
+<option value="009D_CPL_KETERAMPILAN_KHUSUS_SISTEKIN.html" >009D — Detail CPL Keterampilan Khusus (KK1-6)</option>
+<option value="009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.html" >009E — Master Matriks Kompilasi 14 CPL & BoK</option>
 <option value="009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.html" >009 — Pedoman Capstone & 4 Opsi TA Non-Skripsi</option>
 <option value="010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.html" >010 — Instrumen Tracer Study & Evaluasi PEO</option>
+<option value="011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.html" >011 — 14 Sheet Matriks Implementasi OBE</option>
 <option value="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" >📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)</option>
             </select>
 
@@ -387,130 +380,167 @@
 <strong>Standar Rujukan:</strong> Standar LAM INFOKOM Kriteria 1 &amp; 9, Panduan Kurikulum OBE APTIKOM v2.0 (IS2020 &amp; IT2017), Standar Akreditasi Internasional IABEE (Kriteria 1), ACM/IEEE CC2020.</p>
 <hr />
 <h3 id="visualisasi-arsitektur-peleburan-profil-3-peo">VISUALISASI ARSITEKTUR: PELEBURAN PROFIL &amp; 3 PEO</h3>
-<div class="mermaid-card"><div class="mermaid">
-graph TD
-    subgraph PELEBURAN [&quot;KONSOLIDASI PROFIL LULUSAN (6 PL → 4 PL)&quot;]
-        PL1_OLD[&quot;PL-01: Intelligent IS Dev&quot;] &amp; PL6_OLD[&quot;PL-06: Data &amp; ML Eng&quot;] --&gt; PL1[&quot;PL-1: Intelligent IS &amp; Data/AI Engineer&quot;]
-        PL3_OLD[&quot;PL-03: Smart Sys Integrator&quot;] &amp; PL5_OLD[&quot;PL-05: Governance Analyst&quot;] --&gt; PL2[&quot;PL-2: Cloud Infra, Cybersecurity &amp; Smart Sys&quot;]
-        PL2_OLD[&quot;PL-02: UI/UX &amp; Platform Eng&quot;] --&gt; PL3[&quot;PL-3: UI/UX Designer &amp; Platform Engineer&quot;]
-        PL4_OLD[&quot;PL-04: Technopreneur&quot;] --&gt; PL4[&quot;PL-4: Digital Technopreneur &amp; Product Innovator&quot;]
-    end
-
-    subgraph PEO [&quot;3 PROGRAM EDUCATIONAL OBJECTIVES (3-5 TAHUN)&quot;]
-        PEO1[&quot;PEO-1: Professional Practice &amp; Systems Integration&quot;]
-        PEO2[&quot;PEO-2: Digital Innovation &amp; Technopreneurship&quot;]
-        PEO3[&quot;PEO-3: Advanced Study, Research &amp; Lifelong Learning&quot;]
-    end
-
-    PL1 &amp; PL2 &amp; PL3 --&gt; PEO1
-    PL3 &amp; PL4 --&gt; PEO2
-    PL1 &amp; PL2 &amp; PL3 &amp; PL4 --&gt; PEO3
-</div></div>
-
-<hr />
-<h2 id="1-sejarah-analisis-dan-alasan-penyatuan-profil-lulusan-dari-6-pl-menjadi-4-pl">1. SEJARAH, ANALISIS, DAN ALASAN PENYATUAN PROFIL LULUSAN (DARI 6 PL MENJADI 4 PL)</h2>
-<h3 id="11-latar-belakang-model-6-profil-lulusan-draf-awal-kurikulum-20252026">1.1 Latar Belakang Model 6 Profil Lulusan (Draf Awal Kurikulum 2025/2026)</h3>
-<p>Pada fase perancangan awal kurikulum SISTEKIN (Dokumen 008 pada arsip historis <code>KURIKULUM2026_ZCODE</code>>), dirumuskan 6 Profil Lulusan (<code>PL-01</code>> s.d. <code>PL-06</code>>):
-1. <code>PL-01</code>>: <em>Intelligent Information System Developer</em>
-2. <code>PL-02</code>>: <em>UI/UX Designer &amp; Digital Platform Engineer</em>
-3. <code>PL-03</code>>: <em>Smart System &amp; Technology Integrator</em>
-4. <code>PL-04</code>>: <em>Technopreneur</em>
-5. <code>PL-05</code>>: <em>Digital System &amp; Technology Governance Analyst</em>
-6. <code>PL-06</code>>: <em>Data Analyst &amp; Machine Learning Engineer</em></p>
-<p>Model 6 PL tersebut merupakan hasil dekonstruksi granular awal untuk memetakan seluruh kemungkinan peran okupasi di industri teknologi informasi.</p>
-<hr />
-<h3 id="12-analisis-kritis-kelemahan-model-6-pl-audit-asesor-lam-infokom-iabee">1.2 Analisis Kritis Kelemahan Model 6 PL (Audit Asesor LAM INFOKOM &amp; IABEE)</h3>
-<p>Berdasarkan audit kelayakan implementasi kurikulum OBE, ditemukan 4 kelemahan fundamental pada model 6 PL:</p>
-<ol>
-<li><strong>Risiko Fragmentasi Data Tracer Study (<em>Small Sample Bias</em>):</strong>
-   * Sesuai Standar LAM INFOKOM Kriteria 9 (Luaran dan Capaian Tridharma), ketercapaian Profil Lulusan dan PEO wajib dievaluasi melalui <em>Tracer Study</em>.
-   * Dengan 6 PL, pada angkatan-angkatan awal (jumlah mahasiswa <span class="arithmatex"><span class="MathJax_Preview">\pm 30-50</span><script type="math/tex">\pm 30-50</script></span> per tahun), jumlah lulusan yang mengisi tiap profil akan sangat sedikit (<span class="arithmatex"><span class="MathJax_Preview">3-5</span><script type="math/tex">3-5</script></span> orang per profil). Hal ini menimbulkan bias statistik yang tinggi dan menyulitkan evaluasi berkala mutu lulusan (PPEPP).</li>
-<li><strong>Tumpang Tindih Peran (<em>Role Overlapping</em>) di Industri Nyata:</strong>
-   * Di industri modern, peran <em>Data/ML Engineer</em> (<code>PL-06</code>>) dan <em>Intelligent IS Developer</em> (<code>PL-01</code>>) berada dalam satu kontinum rekayasa perangkat lunak cerdas. Memisahkannya ke dalam profil sarjana terpisah menciptakan ambiguitas kurikulum.
-   * Peran <em>Governance Analyst</em> (<code>PL-05</code>>) sangat erat berkaitan dengan arsitektur infrastruktur, cloud, dan ketahanan siber (<code>PL-03</code>>). Pemisahan tersebut membuat profil tata kelola terkesan teoritis tanpa penguasaan infrastruktur teknis.</li>
-<li><strong>Rekomendasi Standar Kurikulum APTIKOM &amp; IABEE:</strong>
-   * Panduan Kurikulum OBE APTIKOM v2.0 dan IABEE merekomendasikan sebuah program studi sarjana strata satu (S1) menetapkan <strong>3 hingga 5 Profil Lulusan inti</strong> (<em>sweet spot</em> 4 PL) agar profil lulusan memiliki fokus yang tajam, kredibel, dan mudah dikenali oleh <em>employers</em> (pengguna lulusan).</li>
-<li><strong>Penyelarasan Struktural 1:1 terhadap 3 Peminatan + 1 Pilar Kewirausahaan:</strong>
-   * Kurikulum SISTEKIN memiliki 3 Peminatan Spesialisasi (@ 18 SKS / 6 MK) dan 1 Pilar Capstone Technopreneurship. Model 4 PL menciptakan simetri sempurna: <strong>3 PL berbasis Peminatan Teknis + 1 PL berbasis Kewirausahaan Mandiri</strong>.</li>
-</ol>
-<hr />
-<h3 id="13-matriks-migrasi-dan-rekonsiliasi-peleburan-6-pl-4-pl">1.3 Matriks Migrasi dan Rekonsiliasi (Peleburan 6 PL → 4 PL)</h3>
-<p>Proses penyatuan profil ini dilakukan <strong>tanpa menghilangkan satu pun kompetensi/bahan kajian</strong>, melainkan mengkonsolidasikannya menjadi lebih kokoh dan selaras dengan kebutuhan industri terkini:</p>
-<div class="table-wrapper">
-<div class="table-title-header" style="background: rgba(99, 102, 241, 0.15); padding: 10px 16px; font-weight: 700; color: var(--primary-light); border: 1px solid var(--border-color); border-bottom: none; border-radius: var(--radius-md) var(--radius-md) 0 0; text-align: center;">MATRIKS REKONSILIASI &amp; PELEBURAN PROFIL LULUSAN SISTEKIN</div>
-<div class="table-wrapper"><table><thead><tr>
+<h3 id="matriks-rekonsiliasi-peleburan-profil-lulusan-sistekin">MATRIKS REKONSILIASI &amp; PELEBURAN PROFIL LULUSAN SISTEKIN</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
 <th>Kode</th>
 <th>Profil Lama (6 PL)</th>
 <th>Kode</th>
 <th>Profil Baru (4 PL)</th>
 <th>Rasionalisasi Integrasi</th>
-</tr></thead><tbody>
+</tr>
+</thead>
+<tbody>
 <tr>
-<td>PL-01<br>PL-06</td>
-<td>Intelligent IS Dev<br>Data Analyst & ML Eng</td>
+<td>PL-01</td>
+<td>Intelligent IS Dev</td>
 <td>PL-1</td>
-<td>Intelligent Information<br>Systems & Data/AI<br>Engineer</td>
-<td>Menggabungkan rekayasa<br>perangkat lunak cerdas dan<br>pipeline data/MLOps.</td>
+<td>Intelligent Information</td>
+<td>Menggabungkan rekayasa</td>
 </tr>
 <tr>
-<td>PL-03<br>PL-05</td>
-<td>Smart System Integrator<br>Governance Analyst</td>
+<td>PL-06</td>
+<td>Data Analyst &amp; ML Eng</td>
+<td></td>
+<td>Systems &amp; Data/AI</td>
+<td>perangkat lunak cerdas dan</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>Engineer</td>
+<td>pipeline data/MLOps.</td>
+</tr>
+<tr>
+<td>PL-03</td>
+<td>Smart System Integrator</td>
 <td>PL-2</td>
-<td>Cloud Infrastructure,<br>Cybersecurity & Smart<br>Systems Integrator</td>
-<td>Mengintegrasikan infrastruk<br>tur cloud, IoT, keamanan<br>siber, dan tata kelola TI.</td>
+<td>Cloud Infrastructure,</td>
+<td>Mengintegrasikan infrastruk</td>
+</tr>
+<tr>
+<td>PL-05</td>
+<td>Governance Analyst</td>
+<td></td>
+<td>Cybersecurity &amp; Smart</td>
+<td>tur cloud, IoT, keamanan</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>Systems Integrator</td>
+<td>siber, dan tata kelola TI.</td>
 </tr>
 <tr>
 <td>PL-02</td>
-<td>UI/UX & Platform Eng</td>
+<td>UI/UX &amp; Platform Eng</td>
 <td>PL-3</td>
-<td>UI/UX Designer &<br>Digital Platform<br>Engineer</td>
-<td>Mempertahankan keunggulan<br>rekayasa frontend, UI/UX,<br>dan arsitektur platform.</td>
+<td>UI/UX Designer &amp;</td>
+<td>Mempertahankan keunggulan</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>Digital Platform</td>
+<td>rekayasa frontend, UI/UX,</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>Engineer</td>
+<td>dan arsitektur platform.</td>
 </tr>
 <tr>
 <td>PL-04</td>
 <td>Technopreneur</td>
 <td>PL-4</td>
-<td>Digital Technopreneur &<br>IT Product Innovator</td>
-<td>Mempertegas peran founder,<br>product owner, dan agile<br>startup innovator.</td>
+<td>Digital Technopreneur &amp;</td>
+<td>Mempertegas peran founder,</td>
 </tr>
-</tbody></table></div></div>
-
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>IT Product Innovator</td>
+<td>product owner, dan agile</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>startup innovator.</td>
+</tr>
+</tbody>
+</table></div>
 <hr />
 <h2 id="2-formulasi-definitif-4-profil-lulusan-pl-sistekin-2026">2. FORMULASI DEFINITIF 4 PROFIL LULUSAN (PL) SISTEKIN 2026</h2>
-<div class="table-wrapper">
-<div class="table-title-header" style="background: rgba(99, 102, 241, 0.15); padding: 10px 16px; font-weight: 700; color: var(--primary-light); border: 1px solid var(--border-color); border-bottom: none; border-radius: var(--radius-md) var(--radius-md) 0 0; text-align: center;">4 PROFIL LULUSAN SISTEKIN (KKNI LEVEL 6)</div>
-<div class="table-wrapper"><table><thead><tr>
+<h3 id="4-profil-lulusan-sistekin-kkni-level-6">4 PROFIL LULUSAN SISTEKIN (KKNI LEVEL 6)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
 <th>Kode</th>
 <th>Profil Lulusan</th>
 <th>Basis Peminatan</th>
 <th>CPL Khusus Utama</th>
-</tr></thead><tbody>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>PL-1</td>
-<td>Intelligent Information Systems & Data/AI<br>Engineer</td>
-<td>P1: Integrated<br>Smart Systems</td>
-<td>• KK1 (AI & ML System)<br>• KK2 (Data & MLOps)</td>
+<td>Intelligent Information Systems &amp; Data/AI</td>
+<td>P1: Integrated</td>
+<td>• KK1 (AI &amp; ML System)</td>
+</tr>
+<tr>
+<td></td>
+<td>Engineer</td>
+<td>Smart Systems</td>
+<td>• KK2 (Data &amp; MLOps)</td>
 </tr>
 <tr>
 <td>PL-2</td>
-<td>Cloud Infrastructure, Cybersecurity &<br>Smart Systems Integrator</td>
-<td>P2: Cloud Infra &<br>Cybersecurity</td>
-<td>• KK3 (Cloud, IoT, Cyber)<br>• KK4 (IT Governance)</td>
+<td>Cloud Infrastructure, Cybersecurity &amp;</td>
+<td>P2: Cloud Infra &amp;</td>
+<td>• KK3 (Cloud, IoT, Cyber)</td>
+</tr>
+<tr>
+<td></td>
+<td>Smart Systems Integrator</td>
+<td>Cybersecurity</td>
+<td>• KK4 (IT Governance)</td>
 </tr>
 <tr>
 <td>PL-3</td>
-<td>UI/UX Designer & Digital Platform<br>Engineer</td>
-<td>P3: Digital Plat-<br>form Eng.</td>
-<td>• KK5 (UI/UX & Platform)<br>• P4  (Software & Web/Mob)</td>
+<td>UI/UX Designer &amp; Digital Platform</td>
+<td>P3: Digital Plat-</td>
+<td>• KK5 (UI/UX &amp; Platform)</td>
+</tr>
+<tr>
+<td></td>
+<td>Engineer</td>
+<td>form Eng.</td>
+<td>• P4  (Software &amp; Web/Mob)</td>
 </tr>
 <tr>
 <td>PL-4</td>
-<td>Digital Technopreneur & IT Product<br>Innovator</td>
-<td>Lintas Peminatan /<br>Capstone Ecosystem</td>
-<td>• KK6 (Techno & Agile)<br>• S1, KU1, KU2, KU3</td>
+<td>Digital Technopreneur &amp; IT Product</td>
+<td>Lintas Peminatan /</td>
+<td>• KK6 (Techno &amp; Agile)</td>
 </tr>
-</tbody></table></div></div>
-
+<tr>
+<td></td>
+<td>Innovator</td>
+<td>Capstone Ecosystem</td>
+<td>• S1, KU1, KU2, KU3</td>
+</tr>
+</tbody>
+</table></div>
 <h3 id="rincian-deskripsi-dan-capaian-tiap-profil">Rincian Deskripsi dan Capaian Tiap Profil:</h3>
 <h4 id="1-pl-1-intelligent-information-systems-dataai-engineer">1. PL-1: Intelligent Information Systems &amp; Data/AI Engineer</h4>
 <ul>
@@ -535,26 +565,69 @@ graph TD
 <hr />
 <h2 id="3-formulasi-3-program-educational-objectives-peo">3. FORMULASI 3 PROGRAM EDUCATIONAL OBJECTIVES (PEO)</h2>
 <p>Program Educational Objectives (PEO) menggambarkan pencapaian karier dan profesional yang diharapkan diraih oleh alumni SISTEKIN <strong>3 hingga 5 tahun setelah kelulusan</strong>:</p>
-<div class="table-wrapper">
-<div class="table-title-header" style="background: rgba(99, 102, 241, 0.15); padding: 10px 16px; font-weight: 700; color: var(--primary-light); border: 1px solid var(--border-color); border-bottom: none; border-radius: var(--radius-md) var(--radius-md) 0 0; text-align: center;">3 PROGRAM EDUCATIONAL OBJECTIVES (PEO) SISTEKIN</div>
-<div class="table-wrapper"><table><thead><tr>
+<h3 id="3-program-educational-objectives-peo-sistekin">3 PROGRAM EDUCATIONAL OBJECTIVES (PEO) SISTEKIN</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
 <th>Kode PEO</th>
 <th>Nomenklatur &amp; Pernyataan Formal Objektif Pendidikan (3–5 Tahun Pasca Kelulusan)</th>
-</tr></thead><tbody>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>PEO-1</td>
-<td>PEO-1 — Professional Practice and Systems Integration<br>&quot;Dalam 3–5 tahun setelah lulus, alumni mampu berkarier secara profesional dalam<br>menganalisis, merancang, mengembangkan, mengintegrasikan, mengamankan, atau<br>mengelola sistem dan teknologi informasi cerdas sesuai kebutuhan organisasi,<br>industri, dan masyarakat.&quot;</td>
+<td>PEO-1 — Professional Practice and Systems Integration</td>
+</tr>
+<tr>
+<td></td>
+<td>"Dalam 3–5 tahun setelah lulus, alumni mampu berkarier secara profesional dalam</td>
+</tr>
+<tr>
+<td></td>
+<td>menganalisis, merancang, mengembangkan, mengintegrasikan, mengamankan, atau</td>
+</tr>
+<tr>
+<td></td>
+<td>mengelola sistem dan teknologi informasi cerdas sesuai kebutuhan organisasi,</td>
+</tr>
+<tr>
+<td></td>
+<td>industri, dan masyarakat."</td>
 </tr>
 <tr>
 <td>PEO-2</td>
-<td>PEO-2 — Digital Innovation and Technopreneurship<br>&quot;Dalam 3–5 tahun setelah lulus, alumni mampu menghasilkan inovasi, produk, layanan,<br>perbaikan proses, atau usaha digital yang relevan, etis, berkelanjutan, dan<br>memberikan nilai tambah bagi pengguna, organisasi, industri, atau masyarakat.&quot;</td>
+<td>PEO-2 — Digital Innovation and Technopreneurship</td>
+</tr>
+<tr>
+<td></td>
+<td>"Dalam 3–5 tahun setelah lulus, alumni mampu menghasilkan inovasi, produk, layanan,</td>
+</tr>
+<tr>
+<td></td>
+<td>perbaikan proses, atau usaha digital yang relevan, etis, berkelanjutan, dan</td>
+</tr>
+<tr>
+<td></td>
+<td>memberikan nilai tambah bagi pengguna, organisasi, industri, atau masyarakat."</td>
 </tr>
 <tr>
 <td>PEO-3</td>
-<td>PEO-3 — Advanced Study, Research, and Lifelong Learning<br>&quot;Dalam 3–5 tahun setelah lulus, alumni mampu mengembangkan kompetensi melalui studi<br>lanjut (S2/S3), penelitian terapan, sertifikasi profesional, komunitas keilmuan,<br>atau pembelajaran sepanjang hayat serta menunjukkan kepemimpinan sesuai konteksnya.&quot;</td>
+<td>PEO-3 — Advanced Study, Research, and Lifelong Learning</td>
 </tr>
-</tbody></table></div></div>
-
+<tr>
+<td></td>
+<td>"Dalam 3–5 tahun setelah lulus, alumni mampu mengembangkan kompetensi melalui studi</td>
+</tr>
+<tr>
+<td></td>
+<td>lanjut (S2/S3), penelitian terapan, sertifikasi profesional, komunitas keilmuan,</td>
+</tr>
+<tr>
+<td></td>
+<td>atau pembelajaran sepanjang hayat serta menunjukkan kepemimpinan sesuai konteksnya."</td>
+</tr>
+</tbody>
+</table></div>
 <h3 id="31-atribut-kepemimpinan-leadership-lintas-peo">3.1 Atribut Kepemimpinan (<em>Leadership</em>) Lintas-PEO</h3>
 <p>Dalam kerangka PEO SISTEKIN, <strong>kepemimpinan (<em>leadership</em>) bukan merupakan PEO terpisah</strong>, melainkan kompetensi esensial yang melekat pada seluruh jalur PEO:
 * Pada <strong>PEO-1 (Praktik Profesional):</strong> Memimpin tim teknis, memandu arsitektur proyek, atau memimpin inisiatif transformasi digital.
@@ -562,47 +635,113 @@ graph TD
 * Pada <strong>PEO-3 (Akademisi/Riset):</strong> Memimpin kelompok kajian riset, laboratorium, publikasi ilmiah, atau menginisiasi proyek riset kolaboratif.</p>
 <hr />
 <h2 id="4-matriks-keterlacakan-strategis-vmts-3-peo-4-pl-14-cpl">4. MATRIKS KETERLACAKAN STRATEGIS: VMTS ↔ 3 PEO ↔ 4 PL ↔ 14 CPL</h2>
-<div class="table-wrapper">
-<div class="table-title-header" style="background: rgba(99, 102, 241, 0.15); padding: 10px 16px; font-weight: 700; color: var(--primary-light); border: 1px solid var(--border-color); border-bottom: none; border-radius: var(--radius-md) var(--radius-md) 0 0; text-align: center;">MATRIKS KETERLACAKAN STRATEGIS KURIKULUM OBE</div>
-<div class="table-wrapper"><table><thead><tr>
-<th>Pilar Utama VMTS&lt;br&gt;(Visi 2045)</th>
-<th>Target&lt;br&gt;PEO</th>
-<th>Profil Lulusan&lt;br&gt;Terkait (PL)</th>
-<th>Pasangan CPL Pendukung Utama&lt;br&gt;(14 CPL Terstandar)</th>
-</tr></thead><tbody>
+<h3 id="matriks-keterlacakan-strategis-kurikulum-obe">MATRIKS KETERLACAKAN STRATEGIS KURIKULUM OBE</h3>
+<div class="table-wrapper"><table>
+<thead>
 <tr>
-<td>AI & Smart Systems<br>Integration</td>
-<td>PEO-1<br>PEO-3</td>
-<td>PL-1 & PL-2</td>
-<td>• P1, P2 (Fondasi Matematika & Sistem)<br>• KK1 (Pengembangan AI & Smart Systems)<br>• KK2 (Rekayasa Data & MLOps)<br>• KK3 (Cloud, IoT & Keamanan Informasi)<br>• KK4 (Tata Kelola & Audit TI)</td>
+<th>Pilar Utama VMTS</th>
+<th>Target</th>
+<th>Profil Lulusan</th>
+<th>Pasangan CPL Pendukung Utama</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>(Visi 2045)</td>
+<td>PEO</td>
+<td>Terkait (PL)</td>
+<td>(14 CPL Terstandar)</td>
 </tr>
 <tr>
-<td>Modern Platform &<br>Digital Experience</td>
-<td>PEO-1<br>PEO-2</td>
+<td>AI &amp; Smart Systems</td>
+<td>PEO-1</td>
+<td>PL-1 &amp; PL-2</td>
+<td>• P1, P2 (Fondasi Matematika &amp; Sistem)</td>
+</tr>
+<tr>
+<td>Integration</td>
+<td>PEO-3</td>
+<td></td>
+<td>• KK1 (Pengembangan AI &amp; Smart Systems)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>• KK2 (Rekayasa Data &amp; MLOps)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>• KK3 (Cloud, IoT &amp; Keamanan Informasi)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>• KK4 (Tata Kelola &amp; Audit TI)</td>
+</tr>
+<tr>
+<td>Modern Platform &amp;</td>
+<td>PEO-1</td>
 <td>PL-3</td>
-<td>• P4 (Rekayasa Perangkat Lunak, Web & Mob)<br>• KK5 (UI/UX Design & Platform Engine)<br>• KU1, KU2 (Pemikiran Logis & Kerja Tim)</td>
+<td>• P4 (Rekayasa Perangkat Lunak, Web &amp; Mob)</td>
 </tr>
 <tr>
-<td>Technopreneurship<br>& Kemandirian</td>
-<td>PEO-2<br>PEO-3</td>
-<td>PL-4<br>(Lintas Profil)</td>
-<td>• S1 (Etika, Nilai Luhur, Integritas)<br>• KU3 (Kemampuan Komunikasi & Presentasi)<br>• P3 (Manajemen Proyek TI & Inovasi)<br>• KK6 (Technopreneurship & Agile Startup)</td>
+<td>Digital Experience</td>
+<td>PEO-2</td>
+<td></td>
+<td>• KK5 (UI/UX Design &amp; Platform Engine)</td>
 </tr>
-</tbody></table></div></div>
-
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>• KU1, KU2 (Pemikiran Logis &amp; Kerja Tim)</td>
+</tr>
+<tr>
+<td>Technopreneurship</td>
+<td>PEO-2</td>
+<td>PL-4</td>
+<td>• S1 (Etika, Nilai Luhur, Integritas)</td>
+</tr>
+<tr>
+<td>&amp; Kemandirian</td>
+<td>PEO-3</td>
+<td>(Lintas Profil)</td>
+<td>• KU3 (Kemampuan Komunikasi &amp; Presentasi)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>• P3 (Manajemen Proyek TI &amp; Inovasi)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>• KK6 (Technopreneurship &amp; Agile Startup)</td>
+</tr>
+</tbody>
+</table></div>
 <hr />
 <h2 id="5-rencana-pengukuran-dan-evaluasi-peo-peo-measurement-plan-ppepp">5. RENCANA PENGUKURAN DAN EVALUASI PEO (PEO MEASUREMENT PLAN — PPEPP)</h2>
 <p>Sebagai program studi baru yang sedang bertumbuh, SISTEKIN menerapkan evaluasi PEO secara bertahap dan terencana:</p>
-<div class="table-wrapper">
-<div class="table-title-header" style="background: rgba(99, 102, 241, 0.15); padding: 10px 16px; font-weight: 700; color: var(--primary-light); border: 1px solid var(--border-color); border-bottom: none; border-radius: var(--radius-md) var(--radius-md) 0 0; text-align: center;">SIKLUS EVALUASI PEO BERBASIS PPEPP</div>
-<div class="table-wrapper"><table><thead><tr>
+<h3 id="siklus-evaluasi-peo-berbasis-ppepp">SIKLUS EVALUASI PEO BERBASIS PPEPP</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
 <th>Periode / Tahap</th>
 <th>Fokus Evaluasi</th>
 <th>Instrumen &amp; Sumber Data</th>
-</tr></thead><tbody>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>Setiap Semester</td>
-<td>Capaian CPL & CPMK</td>
+<td>Capaian CPL &amp; CPMK</td>
 <td>Asesmen MK, Rubrik Penilaian, Portofolio Mahasiswa</td>
 </tr>
 <tr>
@@ -621,12 +760,17 @@ graph TD
 <td>Tracer Study Awal (Waktu Tunggu, Gaji Pertama)</td>
 </tr>
 <tr>
-<td>3–5 Tahun Pasca-<br>Lulus</td>
-<td>Ketercapaian PEO<br>Definitif</td>
-<td>Tracer Study PEO, Employer Survey (Survei Kepuasan<br>Pengguna Lulusan), Portofolio Usaha/Publikasi Alumni</td>
+<td>3–5 Tahun Pasca-</td>
+<td>Ketercapaian PEO</td>
+<td>Tracer Study PEO, Employer Survey (Survei Kepuasan</td>
 </tr>
-</tbody></table></div></div>
-
+<tr>
+<td>Lulus</td>
+<td>Definitif</td>
+<td>Pengguna Lulusan), Portofolio Usaha/Publikasi Alumni</td>
+</tr>
+</tbody>
+</table></div>
 <hr />
 <p><em>Disahkan sebagai Dokumen Resmi 002 — Kurikulum OBE Revisi SISTEKIN 2026.</em><br />
 <strong>Tim Pengembang Kurikulum FSTI Universitas Widyagama Malang</strong></p>

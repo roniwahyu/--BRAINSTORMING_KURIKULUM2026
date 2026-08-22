@@ -8,44 +8,14 @@
 
 ### VISUALISASI ALUR CAPSTONE & 4 OPSI TA NON-SKRIPSI
 
-```mermaid
-graph TD
-    subgraph CAPSTONE ["CAPSTONE PROJECT FSTI (FST-610 - SEMESTER 7)"]
-        C1["Formasi Tim Multidisiplin"] --> C2["Monev Progres 50% (UTS)"]
-        C2 --> C3["Demo Day & Live Testing (UAS)"]
-    end
+### TAHAPAN SIKLUS CAPSTONE PROJECT FSTI
 
-    subgraph TA_OPTIONS ["4 OPSI SKEMA TUGAS AKHIR (SEMESTER 8)"]
-        O1["Opsi A: Skripsi Riset Algoritma AI"]
-        O2["Opsi B: Purwarupa Produk System/Platform"]
-        O3["Opsi C: Publikasi Jurnal (SINTA 2 / Scopus)"]
-        O4["Opsi D: Startup Digital MVP & Validasi Pasar"]
-    end
-
-    C3 --> TA_OPTIONS
-```
-
----
-
-## 1. PEDOMAN CAPSTONE PROJECT FSTI (`FST-610`, 3 SKS — SEMESTER 7)
-
-### 1.1 Hakikat dan Tujuan Capstone Project
-Capstone Project merupakan mata kuliah puncak (*culminating experience*) wajib fakultas yang mengintegrasikan seluruh kompetensi yang telah dipelajari mahasiswa selama masa studi:
-* Mahasiswa bekerja dalam **tim multidisiplin (3–4 mahasiswa per tim)**, dapat melibatkan mahasiswa antar prodi di lingkungan FSTI (SISTEKIN, Teknik Informatika, dll.).
-* Proyek berfokus pada penyelesaian permasalahan nyata industri, institusi pemerintah, atau UMKM dengan membangun solusi sistem dan teknologi informasi cerdas end-to-end.
-
-### 1.2 Tahapan Pelaksanaan Capstone Project
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────┐
-│                         TAHAPAN SIKLUS CAPSTONE PROJECT FSTI                             │
-├──────────────────────────────────────────────────────────────────────────────────────────┤
-│ Minggu 1–3   : Pembentukan Tim, Identifikasi Masalah Mitra, & Proposal Capstone.         │
-│ Minggu 4–6   : Analisis Kebutuhan, Riset UX, & Perancangan Arsitektur Sistem Cerdas.     │
-│ Minggu 7–11  : Pengembangan Sistem (Sprint 1–3: Coding, AI Integration, Cloud Deploy).   │
-│ Minggu 12–13 : Pengujian Komprehensif (Unit Test, Usability Test, Security Testing).     │
-│ Minggu 14–16 : Capstone Expo / Demo Day, Uji Kelayakan Mitra, & Laporan Akhir.           │
-└──────────────────────────────────────────────────────────────────────────────────────────┘
-```
+| Minggu 1–3   : Pembentukan Tim, Identifikasi Masalah Mitra, & Proposal Capstone. |
+| --- |
+| Minggu 4–6   : Analisis Kebutuhan, Riset UX, & Perancangan Arsitektur Sistem Cerdas. |
+| Minggu 7–11  : Pengembangan Sistem (Sprint 1–3: Coding, AI Integration, Cloud Deploy). |
+| Minggu 12–13 : Pengujian Komprehensif (Unit Test, Usability Test, Security Testing). |
+| Minggu 14–16 : Capstone Expo / Demo Day, Uji Kelayakan Mitra, & Laporan Akhir. |
 
 ---
 
@@ -53,25 +23,18 @@ Capstone Project merupakan mata kuliah puncak (*culminating experience*) wajib f
 
 Sesuai ketentuan **Permendikbudristek No. 53 Tahun 2023**, Program Studi SISTEKIN menyediakan **4 Jalur Kelulusan Tugas Akhir** yang setara (*equivalent*) berbobot **6 SKS**:
 
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                             4 OPSI JALUR TUGAS AKHIR SISTEKIN 2026                               │
-├──────┬───────────────────────┬──────────────────────────────────┬────────────────────────────────┤
-│ Opsi │ Jalur Tugas Akhir     │ Luaran Wajib (Deliverables)      │ Target Profil Utama (PL)       │
-├──────┼───────────────────────┼──────────────────────────────────┼────────────────────────────────┤
-│ 1    │ Skripsi Riset         │ Naskah Skripsi Ilmiah + Kode     │ • PL-1 (AI/Data Engineer)      │
-│      │ Eksperimental         │ Program Teruji + Uji Statistik   │ • PEO-3 (Studi Lanjut/Riset)   │
-├──────┼───────────────────────┼──────────────────────────────────┼────────────────────────────────┤
-│ 2    │ Proyek Inovasi        │ Sistem Teruji Mitra (TRL ≥ 6) +  │ • PL-2 (Cloud/Cyber Integrator)│
-│      │ Produk Industri       │ Laporan Teknis + Bukti HKI/Paten │ • PL-3 (Platform Engineer)     │
-├──────┼───────────────────────┼──────────────────────────────────┼────────────────────────────────┤
-│ 3    │ Tech Startup Mandiri  │ Produk MVP Tervalidasi + Naskah  │ • PL-4 (Digital Technopreneur) │
-│      │ (Technopreneur Track) │ Pitch Deck + Bukti Traksi Pasar  │ • PEO-2 (Inovasi & Wirausaha)  │
-├──────┼───────────────────────┼──────────────────────────────────┼────────────────────────────────┤
-│ 4    │ Publikasi Jurnal      │ Artikel Terbit/Accepted di Jurnal│ • Seluruh PL                   │
-│      │ Ilmiah Bereputasi     │ SINTA 1/2 atau Scopus/WoS Q1-Q4  │ • PEO-3 (Akademisi/Riset)      │
-└──────┴───────────────────────┴──────────────────────────────────┴────────────────────────────────┘
-```
+### 4 OPSI JALUR TUGAS AKHIR SISTEKIN 2026
+
+| Opsi | Jalur Tugas Akhir | Luaran Wajib (Deliverables) | Target Profil Utama (PL) |
+| --- | --- | --- | --- |
+| 1 | Skripsi Riset | Naskah Skripsi Ilmiah + Kode | • PL-1 (AI/Data Engineer) |
+|  | Eksperimental | Program Teruji + Uji Statistik | • PEO-3 (Studi Lanjut/Riset) |
+| 2 | Proyek Inovasi | Sistem Teruji Mitra (TRL ≥ 6) + | • PL-2 (Cloud/Cyber Integrator) |
+|  | Produk Industri | Laporan Teknis + Bukti HKI/Paten | • PL-3 (Platform Engineer) |
+| 3 | Tech Startup Mandiri | Produk MVP Tervalidasi + Naskah | • PL-4 (Digital Technopreneur) |
+|  | (Technopreneur Track) | Pitch Deck + Bukti Traksi Pasar | • PEO-2 (Inovasi & Wirausaha) |
+| 4 | Publikasi Jurnal | Artikel Terbit/Accepted di Jurnal | • Seluruh PL |
+|  | Ilmiah Bereputasi | SINTA 1/2 atau Scopus/WoS Q1-Q4 | • PEO-3 (Akademisi/Riset) |
 
 ---
 
@@ -99,21 +62,16 @@ Sesuai ketentuan **Permendikbudristek No. 53 Tahun 2023**, Program Studi SISTEKI
 
 ## 3. RUBRIK PENILAIAN TUGAS AKHIR & SIDANG KELULUSAN
 
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                         RUBRIK ASESMEN SIDANG TUGAS AKHIR (6 SKS)                                │
-├───────────────────────────────────────────────────────┬──────────────┬───────────────────────────┤
-│ Komponen Penilaian                                    │ Bobot (%)    │ CPL yang Dinilai          │
-├───────────────────────────────────────────────────────┼──────────────┼───────────────────────────┤
-│ 1. Orisinalitas Gagasan & Relevansi Visi SISTEKIN     │ 15%          │ KU1, P2                   │
-│ 2. Kedalaman Metodologi & Kebenaran Analisis Teknis   │ 25%          │ P1, P3, P4                │
-│ 3. Kualitas Produk / Luaran (Sistem, Model AI, MVP)   │ 30%          │ KK1 / KK2 / KK3 / KK5/ KK6│
-│ 4. Sistematika Penulisan & Kualitas Dokumentasi       │ 15%          │ KU2, S1                   │
-│ 5. Performa Presentasi & Kemampuan Mempertahankan     │ 15%          │ KU2, KU3                  │
-├───────────────────────────────────────────────────────┼──────────────┼───────────────────────────┤
-│ TOTAL SKOR                                            │ **100%**     │ Kelulusan: Nilai ≥ 65 (B) │
-└───────────────────────────────────────────────────────┴──────────────┴───────────────────────────┘
-```
+### RUBRIK ASESMEN SIDANG TUGAS AKHIR (6 SKS)
+
+| Komponen Penilaian | Bobot (%) | CPL yang Dinilai |
+| --- | --- | --- |
+| 1. Orisinalitas Gagasan & Relevansi Visi SISTEKIN | 15% | KU1, P2 |
+| 2. Kedalaman Metodologi & Kebenaran Analisis Teknis | 25% | P1, P3, P4 |
+| 3. Kualitas Produk / Luaran (Sistem, Model AI, MVP) | 30% | KK1 / KK2 / KK3 / KK5/ KK6 |
+| 4. Sistematika Penulisan & Kualitas Dokumentasi | 15% | KU2, S1 |
+| 5. Performa Presentasi & Kemampuan Mempertahankan | 15% | KU2, KU3 |
+| TOTAL SKOR | **100%** | Kelulusan: Nilai ≥ 65 (B) |
 
 ---
 *Disahkan sebagai Dokumen Resmi 009 — Kurikulum OBE Revisi SISTEKIN 2026.*  
