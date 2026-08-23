@@ -108,16 +108,16 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 
 ---
 
-### SEMESTER 3 (20 SKS) — Penguatan Core RPL, OS & Jaringan Komputer
+### SEMESTER 3 (20 SKS) — Penguatan Core RPL, OS, Jarkom & UI/UX
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
-| 17 | `STI-301` | Analisis dan Perancangan Sistem Informasi | 3 | Teori | Core STI | `STI-104`, `FST-207` |
-| 18 | `STI-302` | Kecerdasan Buatan (Artificial Intelligence) | 3 | +P | Core STI | `STI-201`, `STI-202` |
-| 19 | `STI-303` | Desain Pengalaman Pengguna (UI/UX Design) | 3 | +P | Core STI | `STI-104` |
-| 20 | `STI-304` | Rekayasa Perangkat Lunak | 3 | Teori | Core STI | `STI-202` |
-| 21 | `STI-305` | Sistem Operasi | 3 | Teori | Core STI | `STI-201` |
-| 22 | `STI-306` | Pemrograman Web Front-End | 2 | +P | Core STI | `STI-202` |
-| 23 | `STI-307` | Jaringan Komputer | 3 | +P | Core STI | `STI-104` |
+| 17 | `STI-301` | Analisis dan Perancangan Sistem Informasi | 3 | Teori | Core STI | `STI-101`, `FST-207` |
+| 18 | `STI-302` | Sistem Cerdas | 2 | Teori | Core STI | `STI-201`, `FST-204` |
+| 19 | `STI-303` | UI/UX Design & Prototyping | 3 | +P | Core STI | `FST-101` |
+| 20 | `STI-304` | Rekayasa Perangkat Lunak | 3 | Teori | Core STI | `FST-203` |
+| 21 | `STI-305` | Sistem Operasi | 3 | Teori | Core STI | `STI-103` |
+| 22 | `STI-306` | Web Front End Development | 3 | +P | Core STI | `FST-102` |
+| 23 | `STI-307` | Jaringan Komputer | 3 | +P | Core STI | `STI-103` |
 | **SUBTOTAL** | — | **Total SKS Semester 3 (7 MK)** | **20** | — | — | **Kumulatif: 59 SKS** |
 
 ---
