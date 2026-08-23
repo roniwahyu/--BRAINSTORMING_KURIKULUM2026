@@ -248,7 +248,7 @@ Tabel berikut membuktikan bahwa **100% mata kuliah pilihan dan wajib di Semester
 | **6** | `STI-602` | Smart City & Pemerintahan Digital | 2 | Teori | `STI-504` IoT | `STI-301` APSI, `STI-404` Cloud | 🟢 **Sangat Kuat** |
 | **6** | `STI-603` | Keamanan Informasi Lanjut | 3 | Teori | `STI-405` Dasar Keamanan | `STI-307` Jarkom, `STB-01` NetSec | 🟢 **Sangat Kuat** |
 | **6** | `STI-604` | Digital Platform Engineering | 3 | +P | `STI-407` Web Back End | `STI-404` Cloud, `STI-304` RPL | 🟢 **Sangat Kuat** |
-| **6** | `FST-611` | Metodologi Penelitian | 2 | Teori | $\ge 76\text{ SKS}$ Selesai | `FST-408` Probstat, `FST-208` Stat Dasar | 🟢 **Sangat Kuat** |
+| **6** | `FST-611` | Metodologi Penelitian | 2 | Teori | $\ge 76\text{ SKS}$ Selesai | `FST-408` Probabilitas & Statistika | 🟢 **Sangat Kuat** |
 | **6** | `STA-02` | Computational Numerics *(P1)* | 3 | +P | `STI-202` Aljabar, `STI-102` Kalkulus | `FST-408` Probabilitas & Statistika | 🟢 **Sangat Kuat** |
 | **6** | `STA-03` | Intelligent Agent Systems *(P1)* | 3 | +P | `STI-302` AI, `STI-401` ML | `STI-201` Matdis (Graph & Logic) | 🟢 **Sangat Kuat** |
 | **6** | `STB-02` | Cloud Architecture & DevOps *(P2)* | 3 | +P | `STI-404` Cloud Computing | `STI-305` OS, `STI-407` Web Back End | 🟢 **Sangat Kuat** |
@@ -262,7 +262,7 @@ Tabel berikut membuktikan bahwa **100% mata kuliah pilihan dan wajib di Semester
 | **7** | `STA-04` | MLOps & AI Pipeline *(P1)* | 3 | +P | `STI-501` DL, `STI-404` Cloud | `STA-01` DSS, `STI-401` ML | 🟢 **Sangat Kuat** |
 | **7** | `STA-05` | Conversational AI & LLM *(P1)* | 3 | +P | `STI-403` NLP & IR, `STI-501` DL | `STI-601` Integrasi Layanan Cerdas AI | 🟢 **Sangat Kuat** |
 | **7** | `STA-06` | Smart Surveillance & Edge AI *(P1)*| 3 | +P | `STI-501` DL, `STI-504` IoT | `STI-401` Machine Learning | 🟢 **Sangat Kuat** |
-| **7** | `STB-04` | IT Governance COBIT 2019 *(P2)* | 3 | Teori | `STI-301` APSI, `STI-205` Etika | `STI-506` Manajemen Proyek TI | 🟢 **Sangat Kuat** |
+| **7** | `STB-04` | IT Governance COBIT 2019 *(P2)* | 3 | Teori | `STI-301` APSI, `FST-206` Etika | `STI-506` Manajemen Proyek TI | 🟢 **Sangat Kuat** |
 | **7** | `STB-05` | Keamanan Cloud & Kripto *(P2)* | 3 | +P | `STI-404` Cloud, `STI-603` Security | `STI-201` Matdis (Number Theory/Kripto) | 🟢 **Sangat Kuat** |
 | **7** | `STB-06` | SRE & Ketahanan Sistem *(P2)* | 3 | +P | `STB-02` DevOps, `STI-404` Cloud | `STI-305` Sistem Operasi | 🟢 **Sangat Kuat** |
 | **7** | `STC-04` | Spatial Computing & XR *(P3)* | 3 | +P | `STI-303` UI/UX, `STI-306` Front | Aljabar Linear 3D Transformation | 🟢 **Sangat Kuat** |
