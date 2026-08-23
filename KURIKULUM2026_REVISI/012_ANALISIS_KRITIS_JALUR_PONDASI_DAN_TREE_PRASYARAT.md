@@ -103,10 +103,10 @@ graph TD
 ### 🌲 PILAR 1: AI, DATA SCIENCE & INTELLIGENT SYSTEMS (PL-1 & P1)
 
 ```text
-[SEM 8]  FST-714 Skripsi / Tugas Akhir (Topik AI / Intelligent IS)
+[SEM 8]  FST-714 Skripsi / Tugas Akhir (Topik AI / Data Science / Intelligent Systems)
    │
-[SEM 7]  ├── STA-05 Conversational AI & LLM (+P) ──────────────┐
-         ├── STA-04 MLOps & AI Pipeline (+P) ──────────────────┤
+[SEM 7]  ├── STA-04 MLOps & AI Model Deployment (+P) ─────────┐
+         ├── STA-05 Natural Language Processing & LLM (+P) ────┤
          ├── STA-06 Smart Surveillance & Vision Analytics ─────┤
          │                                                     │
 [SEM 6]  ├── STI-601 Integrasi Layanan Cerdas AI (+P) ─────────┤
@@ -123,10 +123,10 @@ graph TD
                │                                                           │     │
 [SEM 3]        └── STI-302 Sistem Cerdas [SEM 3] ──────────────────────────┼─────┴── STI-201 Matdis & STI-202 Aljabar [SEM 2]
                      │                                                     │
-[SEM 2]              ├── STI-201 Matematika Diskrit ───────────────────────┼── STI-103 Logika Informatika [SEM 1]
+[SEM 2]              ├── STI-201 Matematika Diskrit dan Logika ────────────┼── STI-103 Arsitektur & Organisasi STI [SEM 1]
                      ├── STI-202 Aljabar Linear Terapan & Matriks ─────────┼── STI-102 Kalkulus [SEM 1]
-                     ├── FST-207 Sistem Basis Data (+P) ───────────────────┼── STI-101 Algoritma & Pemrograman [SEM 1]
-                     └── FST-208 Statistika Dasar ─────────────────────────┘
+                     ├── FST-207 Sistem Basis Data (+P) ───────────────────┼── FST-102 Algoritma & Pemrograman [SEM 1]
+                     └── FST-408 Statistika & Probabilitas ────────────────┘
 ```
 
 #### 🔍 Analisis Kritis & Justifikasi Pedagogis Pilar 1:
@@ -155,17 +155,17 @@ graph TD
 [SEM 4]  ├── STI-404 Komputasi Awan (Cloud Computing) ─────────┴─────┼── STI-305 Sistem Operasi [SEM 3]
          └── STI-405 Dasar Keamanan Informasi ───────────────────────┘     │
                │                                                           │
-[SEM 3]        ├── STI-307 Jaringan Komputer (+P) ─────────────────────────┼── STI-104 Pengantar STI [SEM 1]
-               └── STI-305 Sistem Operasi ─────────────────────────────────┴── STI-201 Struktur Data [SEM 2]
+[SEM 3]        ├── STI-307 Jaringan Komputer (+P) ─────────────────────────┼── STI-103 Arsitektur & Organisasi STI [SEM 1]
+               └── STI-305 Sistem Operasi ─────────────────────────────────┴── STI-103 Arsitektur & Organisasi STI [SEM 1]
                      │                                                          │
-[SEM 2]              ├── STI-205 Etika Profesi & Hukum Siber ───────────────────┴── STI-101 Dasar Koding [SEM 1]
-[SEM 1]              └── STI-104 Pengantar Sistem dan Teknologi Informasi
+[SEM 2]              ├── FST-206 Etika Profesi & Hukum Digital ─────────────────┴── FST-101 Dasar Teknologi Digital [SEM 1]
+[SEM 1]              └── STI-103 Arsitektur dan Organisasi Sistem Teknologi Informasi
 ```
 
 #### 🔍 Analisis Kritis & Justifikasi Pedagogis Pilar 2:
-1. **Dwi-Fondasi Sem 3 (OS & Jarkom):** `STI-305 Sistem Operasi` (proses, memori, kernel, virtualisasi) dan `STI-307 Jaringan Komputer` (TCP/IP, subnetting, routing) diletakkan di semester yang sama untuk menjadi fondasi ganda bagi `STI-404 Cloud` dan `STI-405 Security`.
+1. **Dwi-Fondasi Sem 3 (OS & Jarkom):** `STI-305 Sistem Operasi` (proses, memori, kernel, virtualisasi) dan `STI-307 Jaringan Komputer` (TCP/IP, subnetting, routing) berakar langsung dari `STI-103 Arsitektur dan Organisasi Sistem Teknologi Informasi` di Sem 1, dan menjadi fondasi ganda bagi `STI-404 Cloud` dan `STI-405 Security`.
 2. **Kematangan Bertahap Cyber Defense:** 
-   * Sem 2: Regulasi & UU ITE (`STI-205`)
+   * Sem 2: Regulasi & UU ITE (`FST-206`)
    * Sem 4: CIA Triad, Kripto Klasik, Risk (`STI-405`)
    * Sem 5: Wireshark, Packet Inspection, Autopsy (`STB-01`)
    * Sem 6: Ethical Hacking, OWASP Top 10, Kali Linux (`STB-03` & `STI-603`)

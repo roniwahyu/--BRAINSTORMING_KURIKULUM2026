@@ -78,32 +78,32 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 
 ## 3. STRUKTUR DETAIL MATA KULIAH PER SEMESTER
 
-### SEMESTER 1 (19 SKS) — Fondasi Sains, Algoritma & MKWU
+### SEMESTER 1 (19 SKS) — Fondasi Sains, Algoritma, Arsitektur STI & MKWU
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
-| 1 | `STI-101` | Algoritma dan Pemrograman | 3 | +P | Core STI | — |
-| 2 | `STI-102` | Kalkulus dan Aljabar Linier | 3 | Teori | Core STI | — |
-| 3 | `STI-103` | Logika Informatika dan Matematika Diskrit | 3 | Teori | Core STI | — |
-| 4 | `STI-104` | Pengantar Sistem dan Teknologi Informasi | 2 | Teori | Core STI | — |
-| 5 | `MKU-101` | Agama I | 2 | Teori | MKWU | — |
-| 6 | `MKU-102` | Pancasila | 2 | Teori | MKWU | — |
-| 7 | `MKU-103` | Bahasa Indonesia | 2 | Teori | MKWU | — |
-| 8 | `MKU-104` | Bahasa Inggris Komunikasi Saintifik | 2 | Teori | MKWU | — |
+| 1 | `FST-101` | Dasar Teknologi Digital | 2 | Teori | FSTI | — |
+| 2 | `FST-102` | Algoritma dan Pemrograman | 3 | +P | FSTI | — |
+| 3 | `STI-101` | Pengantar Sistem dan Teknologi Informasi | 2 | Teori | Core STI | — |
+| 4 | `STI-102` | Kalkulus | 3 | Teori | Core STI | — |
+| 5 | `STI-103` | Arsitektur dan Organisasi Sistem Teknologi Informasi | 3 | Teori | Core STI | — |
+| 6 | `MKU-101` | Agama I | 2 | Teori | MKWU | — |
+| 7 | `MKU-102` | Pancasila | 2 | Teori | MKWU | — |
+| 8 | `MKU-103` | Bahasa Indonesia | 2 | Teori | MKWU | — |
 | **SUBTOTAL** | — | **Total SKS Semester 1 (8 MK)** | **19** | — | — | **Kumulatif: 19 SKS** |
 
 ---
 
-### SEMESTER 2 (20 SKS) — Fondasi Data, Matdis, OOP & Etika
+### SEMESTER 2 (20 SKS) — Fondasi Data, Matdis & Logika, Aljabar & Etika
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
-| 9 | `STI-201` | Struktur Data dan Algoritma Lanjut | 3 | +P | Core STI | `STI-101` |
-| 10 | `STI-202` | Pemrograman Berorientasi Objek | 3 | +P | Core STI | `STI-101` |
-| 11 | `FST-207` | Sistem Basis Data | 3 | +P | FSTI | `STI-101` |
-| 12 | `STI-203` | Matematika Diskrit Lanjut | 2 | Teori | Core STI | `STI-103` |
-| 13 | `STI-204` | Aljabar Linear Terapan & Matriks | 2 | Teori | Core STI | `STI-102` |
-| 14 | `STI-205` | Etika Profesi & Hukum Siber | 2 | Teori | Core STI | — |
-| 15 | `MKU-204` | Kewirausahaan I | 2 | Teori | MKWU | — |
-| 16 | `FST-208` | Statistika Dasar | 3 | Teori | FSTI | `STI-102` |
+| 9 | `STI-201` | Matematika Diskrit dan Logika | 3 | Teori | Core STI | `STI-103` |
+| 10 | `STI-202` | Aljabar Linear dan Matriks | 3 | Teori | Core STI | `STI-102` |
+| 11 | `FST-203` | Struktur Data dan Algoritma | 3 | +P | FSTI | `FST-102` |
+| 12 | `FST-204` | Pengantar Kecerdasan Artifisial & Data | 2 | Teori | FSTI | `FST-101` |
+| 13 | `FST-205` | Basic English for IT | 2 | Teori | FSTI | — |
+| 14 | `FST-206` | Etika Profesi & Hukum Digital | 2 | Teori | FSTI | — |
+| 15 | `FST-207` | Sistem Basis Data | 3 | +P | FSTI | `FST-102` |
+| 16 | `MKU-204` | Kewirausahaan I | 2 | Teori | MKWU | — |
 | **SUBTOTAL** | — | **Total SKS Semester 2 (8 MK)** | **20** | — | — | **Kumulatif: 39 SKS** |
 
 ---

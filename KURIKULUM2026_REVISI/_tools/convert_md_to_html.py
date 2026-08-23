@@ -25,6 +25,10 @@ DOC_FILES = [
     ("010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.md", "010 — Instrumen Tracer Study & Evaluasi PEO"),
     ("011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.md", "011 — 14 Sheet Matriks Implementasi OBE"),
     ("012_ANALISIS_KRITIS_JALUR_PONDASI_DAN_TREE_PRASYARAT.md", "012 — Analisis Kritis Jalur Pondasi & Tree View Prasyarat"),
+    ("013_REKOMENDASI_SOLUSI_DAN_MITIGASI_KELEMAHAN_KURIKULUM.md", "013 — Rekomendasi Solusi & Mitigasi Kelemahan Kurikulum"),
+    ("014_ANALISIS_KRITIS_PEMANGKASAN_SKS_TEORI_SEM4_SEM5.md", "014 — Analisis Kritis Pemangkasan SKS Teori Sem 4 & 5"),
+    ("015_SIMULASI_AKSELERASI_KELULUSAN_7_SEMESTER.md", "015 — Panduan & Simulasi Akselerasi 7 Semester (Fast-Track)"),
+    ("016_ANALISIS_BoK_APTIKOM_REDUNDANSI_DAN_PIPELINE_AI.md", "016 — Analisis BoK APTIKOM, Audit Redundansi & Pipeline AI"),
     ("BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md", "📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)")
 ]
 

@@ -62,11 +62,11 @@ graph LR
 | 2 | `FST-102` | Algoritma & Pemrograman | 3 | | **I** | | | | | | **I** | | | | | | | PL-1, PL-3, PL-4 | PEO-1, PEO-3 | **I** |
 | 3 | `STI-101` | Pengantar Sistem & TI | 2 | | | | | | **I** | | | | | | | | | Seluruh PL | PEO-1, PEO-2 | **I** |
 | 4 | `STI-102` | Kalkulus | 3 | | | | | **I** | | | | | | | | | | PL-1, PL-2 | PEO-1, PEO-3 | **I** |
-| 5 | `STI-103` | Logika Informatika | 3 | | **I** | | | **I** | | | | | | | | | | PL-1, PL-2 | PEO-1, PEO-3 | **I** |
+| 5 | `STI-103` | Arsitektur & Org. Sistem TI | 3 | | **I** | | | **I** | | **I** | | | | | | | | PL-1, PL-2 | PEO-1, PEO-3 | **I** |
 | 6 | `MKU-101` | Agama I | 2 | **I** | | | | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **I** |
 | 7 | `MKU-102` | Pancasila | 2 | **I** | | | | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **I** |
 | 8 | `MKU-103` | Bahasa Indonesia | 2 | | | **I** | | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **I** |
-| 9 | `STI-201` | Matematika Diskrit | 3 | | | | | **I** | | | | | | | | | | PL-1, PL-2 | PEO-1, PEO-3 | **I** |
+| 9 | `STI-201` | Matematika Diskrit & Logika | 3 | | **I** | | | **I** | | | | | | | | | | PL-1, PL-2 | PEO-1, PEO-3 | **I** |
 | 10 | `STI-202` | Aljabar Linear & Matriks | 3 | | | | | **I** | | | | | | | | | | PL-1, PL-2 | PEO-1, PEO-3 | **I** |
 | 11 | `FST-203` | Struktur Data & Algoritma | 3 | | | | | | | | **I** | | | | | | | PL-1, PL-3 | PEO-1, PEO-3 | **I** |
 | 12 | `FST-204` | Organisasi & Arsitektur Kom | 2 | | | | | | | **I** | | | | | | | | PL-2 | PEO-1 | **I** |
@@ -215,14 +215,14 @@ Matriks ini memetakan relasi langsung antara 19 Bahan Kajian Standar APTIKOM SI 
 |---|---|---|---|:---:|:---:|
 | **BK-IS01** | *Foundations of Information Systems* | `STI-101`, `FST-101` | `STI-301` | 3 MK | ✅ Sangat Kuat |
 | **BK-IS02** | *Data and Information Management* | `FST-207`, `STI-402`, `STI-503` | `STA-01`, `STA-04` | 5 MK | ✅ Sangat Kuat |
-| **BK-IS03** | *IT Infrastructure and Networking* | `STI-307`, `STI-404`, `STI-305` | `STB-01`, `STB-02`, `STI-504` | 6 MK | ✅ Sangat Kuat |
+| **BK-IS03** | *IT Infrastructure and Networking* | `STI-103`, `STI-307`, `STI-404`, `STI-305` | `STB-01`, `STB-02`, `STI-504` | 7 MK | ✅ Sangat Kuat |
 | **BK-IS04** | *Enterprise Architecture* | `STB-06` | `STI-301`, `STI-604` | 3 MK | ✅ Terpenuhi |
 | **BK-IS05** | *IS Management and Governance* | `STB-04`, `STB-05` | `STI-506`, `STB-03` | 4 MK | ✅ Terpenuhi |
 | **BK-IS06** | *Information Security and Risk Management* | `STI-405`, `STI-603`, `STB-01`, `STB-03` | `FST-206` | 5 MK | ✅ Sangat Kuat |
 | **BK-IS07** | *Systems Analysis and Design* | `STI-301`, `STI-304` | `FST-610`, `STC-02` | 4 MK | ✅ Sangat Kuat |
 | **BK-IS08** | *Project Management* | `STI-506`, `STC-06` | `FST-610`, `FST-612` | 4 MK | ✅ Sangat Kuat |
 | **BK-IS09** | *Business Process Management* | `STC-02` | `STI-301`, `STI-602` | 3 MK | ✅ Terpenuhi |
-| **BK-IS10** | *Applied Mathematics and Logic* | `STI-102`, `STI-103`, `STI-201`, `STI-202`, `FST-408` | `STA-02` | 6 MK | ✅ Sangat Kuat |
+| **BK-IS10** | *Applied Mathematics and Logic* | `STI-102`, `STI-201`, `STI-202`, `FST-408` | `STA-02` | 5 MK | ✅ Sangat Kuat |
 | **BK-IS11** | *Programming Fundamentals & OOP* | `FST-102`, `FST-203`, `FST-205` | `STI-306`, `STI-407` | 5 MK | ✅ Sangat Kuat |
 | **BK-IS12** | *Web and Mobile App Development* | `STI-306`, `STI-407`, `STI-505`, `STI-604` | `STC-03`, `STC-05` | 6 MK | ✅ Sangat Kuat |
 | **BK-IS13** | *Data Analytics and Business Intelligence* | `STI-402`, `STI-503`, `STA-01` | `STI-401`, `STA-04` | 5 MK | ✅ Sangat Kuat |
@@ -271,11 +271,11 @@ Sesuai Keputusan Menteri Pendidikan dan Kebudayaan No. 210/M/2023 tentang Indika
 | 2 | `FST-102` | Algoritma & Pemrograman | 3 | 20% | 40% | 40% | **60%** | ✅ Patuh IKU 7 |
 | 3 | `STI-101` | Pengantar Sistem & TI | 2 | 30% | 20% | 50% | **50%** | ✅ Patuh IKU 7 |
 | 4 | `STI-102` | Kalkulus | 3 | 20% | 0% | 80% | 20% | *MK Teori Dasar Sains* |
-| 5 | `STI-103` | Logika Informatika | 3 | 20% | 0% | 80% | 20% | *MK Teori Dasar Sains* |
-| 6 | `MKU-101` | Agama I | 2 | 30% | 30% | 40% | **60%** | ✅ Patuh IKU 7 |
-| 7 | `MKU-102` | Pancasila | 2 | 30% | 30% | 40% | **60%** | ✅ Patuh IKU 7 |
-| 8 | `MKU-103` | Bahasa Indonesia | 2 | 20% | 40% | 40% | **60%** | ✅ Patuh IKU 7 |
-| 9 | `STI-201` | Matematika Diskrit | 3 | 20% | 0% | 80% | 20% | *MK Teori Dasar Sains* |
+| 5 | `STI-103` | Arsitektur & Org. Sistem TI | 3 | 20% | 0% | 80% | 20% | *MK Teori Sistem & Hardware* |
+| 6 | `MKU-101` | Agama I | 2 | 20% | 0% | 80% | 20% | *MK Teori Dasar Sikap* |
+| 7 | `MKU-102` | Pancasila | 2 | 20% | 0% | 80% | 20% | *MK Teori Dasar Sikap* |
+| 8 | `MKU-103` | Bahasa Indonesia | 2 | 30% | 20% | 50% | 50% | *MK Keterampilan Komunikasi* |
+| 9 | `STI-201` | Matematika Diskrit & Logika | 3 | 20% | 0% | 80% | 20% | *MK Teori Dasar Sains* |
 | 10 | `STI-202` | Aljabar Linear & Matriks | 3 | 20% | 0% | 80% | 20% | *MK Teori Dasar Sains* |
 | 11 | `FST-203` | Struktur Data & Algoritma | 3 | 20% | 40% | 40% | **60%** | ✅ Patuh IKU 7 |
 | 12 | `FST-204` | Organisasi & Arsitektur Kom | 2 | 20% | 30% | 50% | **50%** | ✅ Patuh IKU 7 |

@@ -124,8 +124,8 @@
 | C. MK CORE STI - MATA KULIAH INTI PROGRAM STUDI (28 MK / 79 SKS) | | | | | | | | | | | | | | | | | | | |
 | 22 | STI-101 | Pengantar Sistem & Teknologi Informasi | 1 | 2 |  |  |  |  |  | V |  |  |  |  |  |  |  |  | 1 |
 | 23 | STI-102 | Kalkulus | 1 | 3 |  |  |  |  | V |  |  |  |  |  |  |  |  |  | 1 |
-| 24 | STI-103 | Logika Informatika | 1 | 3 |  | V |  |  | V |  |  |  |  |  |  |  |  |  | 2 |
-| 25 | STI-201 | Matematika Diskrit | 2 | 3 |  | V |  |  | V |  |  |  |  |  |  |  |  |  | 2 |
+| 24 | STI-103 | Arsitektur & Organisasi Sistem TI | 1 | 3 |  | V |  |  | V |  | V |  |  |  |  |  |  |  | 3 |
+| 25 | STI-201 | Matematika Diskrit dan Logika | 2 | 3 |  | V |  |  | V |  |  |  |  |  |  |  |  |  | 2 |
 | 26 | STI-202 | Aljabar Linear | 2 | 3 |  |  |  |  | V |  |  |  |  |  |  |  |  |  | 1 |
 | 27 | STI-301 | Analisis & Perancangan Sistem Informasi | 3 | 3 |  | V |  |  |  | V |  |  |  |  |  |  | V |  | 3 |
 | 28 | STI-302 | Sistem Cerdas | 3 | 2 |  |  |  |  |  | V |  |  | V |  |  |  |  |  | 2 |
@@ -181,8 +181,8 @@
 
 | Semester | Jumlah MK | Total SKS | SKS Kumulatif | Daftar Mata Kuliah (SKS) | CPL Dominan | Catatan |
 |---|---|---|---|---|---|---|
-| 1 | 8 MK | 19 SKS | 19 SKS | MKU-101 Agama I (2) / MKU-102 Pancasila (2) / MKU-103 Bahasa Indonesia (2) / FST-101 Dasar Teknologi Digital (2) / FST-102 Algoritma & Pemrograman (3) / STI-101 Pengantar SI & TI (2) / STI-102 Kalkulus (3) / STI-103 Logika Informatika (3) | S1, P1, P2, P4, KU1 | Fondasi komputer, coding, dan matematika |
-| 2 | 8 MK | 20 SKS | 39 SKS | STI-201 Matematika Diskrit (3) / STI-202 Aljabar Linear (3) / FST-203 Struktur Data & Algoritma (3) / FST-204 Pengantar AI & Data (2) / FST-205 Basic English (2) / FST-206 Etika & Hukum Digital (2) / FST-207 Basis Data (3) / MKU-204 Kewirausahaan I (2) | P1, P2, P4, KU1, KU2, KK1, KK6 | Tepat 20 SKS - Patuh Permendikbud 53/2023 |
+| 1 | 8 MK | 19 SKS | 19 SKS | MKU-101 Agama I (2) / MKU-102 Pancasila (2) / MKU-103 Bahasa Indonesia (2) / FST-101 Dasar Teknologi Digital (2) / FST-102 Algoritma & Pemrograman (3) / STI-101 Pengantar SI & TI (2) / STI-102 Kalkulus (3) / STI-103 Arsitektur & Organisasi Sistem TI (3) | S1, P1, P2, P3, P4, KU1 | Fondasi komputer, coding, arsitektur hardware, dan sains |
+| 2 | 8 MK | 20 SKS | 39 SKS | STI-201 Matematika Diskrit dan Logika (3) / STI-202 Aljabar Linear (3) / FST-203 Struktur Data & Algoritma (3) / FST-204 Pengantar AI & Data (2) / FST-205 Basic English (2) / FST-206 Etika & Hukum Digital (2) / FST-207 Basis Data (3) / MKU-204 Kewirausahaan I (2) | P1, P2, P4, KU1, KU2, KK1, KK6 | Tepat 20 SKS - Patuh Permendikbud 53/2023 |
 | 3 | 7 MK | 20 SKS | 59 SKS | STI-301 APSI (3) / STI-302 Sistem Cerdas (2) / STI-303 UI/UX Design (3) / STI-304 RPL (3) / STI-305 Sistem Operasi (3) / STI-306 Web Front End (3) / STI-307 Jaringan Komputer (3) | P2, P3, P4, KK1, KK3, KK5 | Fondasi sistem, jaringan, OS, dan UI/UX |
 | 4 | 8 MK | 21 SKS | 80 SKS | STI-401 Machine Learning (3) / STI-403 Pengantar NLP & IR (2) / STI-402 DW & BI (3) / STI-404 Cloud (3) / STI-405 Dasar Keamanan (2) / STI-407 Web Back End (3) / FST-408 Statistika (3) / MKU-405 KWN (2) / MKU-406 Agama II (0) | P1, P2, P3, KK1, KK2, KK3, KU1 | STI-405 = 2 SKS Teori. STI-403 = 2 SKS (+P). MKU-406 = 0 SKS kebijakan UWG |
 | 5 | 7 MK + 1x0SKS | 21 SKS | 101 SKS | STI-501 Deep Learning (3) / STI-503 Data Mining (3) / STI-504 IoT (3) / STI-505 Mobile App (3) / STI-506 Manpro TI (3) / MKU-507 KPM (3) / MK Pilihan 1 (3) / MKU-508 KWU II (0) | KK1, KK2, KK3, KK5, KK6, S1, KU | 6 MK Wajib (18 SKS) + 1 MK Pilihan (3 SKS). MKU-508 = 0 SKS kebijakan UWG |
@@ -206,9 +206,9 @@
 | FST-102 | Algoritma dan Pemrograman | 3 | 1 |  | I |  |  |  |  |  | I |  |  |  |  |  |  | 2 |
 | STI-101 | Pengantar Sistem & TI | 2 | 1 |  |  |  |  |  | I |  |  |  |  |  |  |  |  | 1 |
 | STI-102 | Kalkulus | 3 | 1 |  |  |  |  | I |  |  |  |  |  |  |  |  |  | 1 |
-| STI-103 | Logika Informatika | 3 | 1 |  | I |  |  | I |  |  |  |  |  |  |  |  |  | 2 |
+| STI-103 | Arsitektur & Organisasi Sistem TI | 3 | 1 |  | I |  |  | I |  | I |  |  |  |  |  |  |  | 3 |
 | MKU-204 | Kewirausahaan I | 2 | 2 |  |  |  |  |  |  |  |  |  |  |  |  |  | I | 1 |
-| STI-201 | Matematika Diskrit | 3 | 2 |  | R |  |  | R |  |  |  |  |  |  |  |  |  | 2 |
+| STI-201 | Matematika Diskrit dan Logika | 3 | 2 |  | R |  |  | R |  |  |  |  |  |  |  |  |  | 2 |
 | STI-202 | Aljabar Linear | 3 | 2 |  |  |  |  | R |  |  |  |  |  |  |  |  |  | 1 |
 | FST-203 | Struktur Data & Algoritma | 3 | 2 |  | R |  |  |  |  |  | R |  |  |  |  |  |  | 2 |
 | FST-204 | Pengantar AI & Data | 2 | 2 |  |  |  |  |  |  |  |  | I |  |  |  |  |  | 1 |

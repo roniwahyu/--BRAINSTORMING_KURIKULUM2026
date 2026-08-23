@@ -232,46 +232,46 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 5. STI-103 — Logika Informatika (Informatics Logic)
+### 5. STI-103 — Arsitektur dan Organisasi Sistem Teknologi Informasi (Architecture and Organization of Information Technology Systems)
 
 #### Tabel 5.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-103 — Logika Informatika** (*Informatics Logic*) |
+| **Kode & Nama Mata Kuliah** | **STI-103 — Arsitektur dan Organisasi Sistem Teknologi Informasi** (*Architecture and Organization of Information Technology Systems*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
-| **Semester / Rumpun MK** | **Semester 1** / Komputasi Cerdas & Teori Bahasa (Core STI) |
-| **Prasyarat Akademik** | Tidak Ada |
-| **CPL yang Dibebankan** | `P1` (Fondasi Logika Komputasi), `KU1` (Penalaran Formal Kritis) |
-| **Profil Lulusan (PL)** | `PL-1`, `PL-2` |
-| **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |
+| **Semester / Rumpun MK** | **Semester 1** / Infrastruktur, Sistem & Komputasi Awan (Core STI) |
+| **Prasyarat Akademik** | Tidak Ada (Fondasi Sistem Tingkat Pertama) |
+| **CPL yang Dibebankan** | `P1` (Representasi Data Biner & Logika), `P3` (Arsitektur Perangkat Keras, Virtualisasi & Infrastruktur TI), `KU1` (Pemikiran Logis Rekayasa Sistem) |
+| **Profil Lulusan (PL)** | `PL-1` (Intelligent IS & AI Engineer), `PL-2` (Cloud Infrastructure & Cybersecurity Integrator) |
+| **Target PEO** | `PEO-1` (Professional Practice & Systems Integration), `PEO-3` (Research & Lifelong Learning) |
 
 #### Tabel 5.B: Formulasi CPMK (Format ABCD & Level Bloom)
 | Kode CPMK | Rumusan Capaian Pembelajaran Mata Kuliah (Format ABCD Eksplisit) | Level Bloom | CPL Didukung |
 |---|---|:---:|:---:|
-| **CPMK-1** | Mahasiswa (*A*) mampu **mengonstruksi** tabel kebenaran dan ekuivalensi logika proposisi (*B*) dari pernyataan bahasa alami (*C*) secara akurat dan konsisten (*D*). | **C3** | `P1` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **mentransformasikan** formula logika ke bentuk normal standar CNF dan DNF (*B*) menggunakan hukum-hukum logika formal (*C*) dengan struktur klausa yang valid (*D*). | **C3** | `P1` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **merumuskan** ekspresi logika predikat orde pertama (FOL) dengan kuantor universal dan eksistensial (*B*) pada domain relasi objek kompleks (*C*) secara tepat (*D*). | **C4** | `P1, KU1` |
-| **CPMK-4** | Mahasiswa (*A*) mampu **membuktikan** validitas argumen inferensi (*B*) menggunakan metode Resolusi dan aturan inferensi formal (*C*) sebagai landasan sistem penalaran AI (*D*). | **C5** | `KU1` |
+| **CPMK-1** | Mahasiswa (*A*) mampu **menerapkan** representasi data biner, heksadesimal, floating point IEEE 754, dan siklus eksekusi instruksi Von Neumann (*B*) pada arsitektur prosesor (*C*) secara tepat dan akurat (*D*). | **C3** | `P1, P3` |
+| **CPMK-2** | Mahasiswa (*A*) mampu **menganalisis** rancangan rangkaian logika kombinasional dan sekuensial (*B*) menggunakan gerbang logika biner dan flip-flop (*C*) sebagai dasar operasi Arithmetic Logic Unit (ALU) (*D*). | **C4** | `P1, KU1` |
+| **CPMK-3** | Mahasiswa (*A*) mampu **membandingkan** karakteristik arsitektur prosesor CISC (x86_64) vs RISC (ARM64 / RISC-V), hirarki memori cache L1/L2/L3, dan akselerator komputasi GPU/NPU (*B*) dalam skenario beban kerja komputasi nyata (*C*) secara kritis (*D*). | **C4** | `P3, KU1` |
+| **CPMK-4** | Mahasiswa (*A*) mampu **mengevaluasi** mekanisme bus sistem, interupsi I/O, abstraksi virtualisasi hardware (Hypervisor), dan organisasi server data center (*B*) untuk mendukung infrastruktur cloud modern (*C*) secara komprehensif (*D*). | **C5** | `P3, KU1` |
 
 #### Tabel 5.C: Matriks Rencana Pembelajaran 16 Pertemuan (Sub-CPMK, Materi, Metode, Asesmen)
 | Mg | Sub-CPMK & Kemampuan Akhir | Pokok Bahasan (Bahan Kajian) | Bentuk & Metode Pembelajaran | Bentuk Asesmen & Bobot (%) |
 |:--:|---|---|---|---|
-| 1 | Mampu membedakan proposisi, nilai kebenaran, operator dasar (C2) | Pengantar Logika Matematika, Proposisi Atomik & Majemuk | Kuliah & Latihan (150m) | Aktivitas Formatif (Non-Graded) |
-| 2 | Mampu menyusun tabel kebenaran proposisi majemuk & tautologi (C3) | Tabel Kebenaran, Tautologi, Kontradiksi, Kontingensi | Problem-Solving Class (150m) | Aktivitas Formatif (Non-Graded) |
-| 3 | Mampu membuktikan ekuivalensi logis dengan hukum-hukum logika (C3) | Hukum Aljabar Proposisi dan Ekuivalensi Logis | Case-Based Learning (150m) | Aktivitas Formatif (Non-Graded) |
-| **4** | **Mampu mengonversi formula logika ke bentuk CNF dan DNF (C3)** | **Bentuk Normal Konjungtif (CNF) & Disjungtif (DNF)** | **Problem-Solving (150m)** | **Tugas 1: Kuis & Problem Solving (Bobot: 20%)** |
-| 5 | Mampu menerapkan aturan inferensi Modus Ponens & Tollens (C3) | Aturan Inferensi: Modus Ponens, Tollens, Silogisme | Kuliah & Diskusi (150m) | Aktivitas Formatif (Non-Graded) |
-| 6 | Mampu membuktikan validitas argumen via tabel & pohon semantik (C4) | Pembuktian Validitas Argumen Proposisional | Problem-Based Class (150m) | Aktivitas Formatif (Non-Graded) |
-| 7 | Mampu menerapkan metode Resolusi Proposisional (C4) | Prinsip Resolusi, Klausa Horn, dan Refutation Proof | Case Method Workshop (150m) | Aktivitas Formatif (Non-Graded) |
-| **8** | **EVALUASI TENGAH SEMESTER (UTS)** | **Ujian Tertulis Logika Proposisi, CNF/DNF, & Resolusi Dasar** | **Ujian Tertulis Terjadwal (150m)** | **UTS: Ujian Tertulis Terjadwal (Bobot: 30%)** |
-| 9 | Mampu menguraikan predikat, term, fungsi, dan semesta wacana (C2) | Logika Predikat Orde Pertama (First-Order Logic / FOL) | Kuliah & Latihan (150m) | Aktivitas Formatif (Non-Graded) |
-| 10 | Mampu merumuskan kuantor Universal dan Eksistensial (C3) | Kuantor Tunggal, Negasi Kuantor, dan Translasi Kalimat | Problem-Solving Class (150m) | Aktivitas Formatif (Non-Graded) |
-| 11 | Mampu menganalisis kuantor bertingkat (Nested Quantifiers) (C4) | Kuantor Jamak dan Interpretasi Domain Relasi | Case-Based Learning (150m) | Aktivitas Formatif (Non-Graded) |
-| **12** | **Mampu mengubah formula FOL ke Bentuk Klausa Standar (C3)** | **Skolemization dan Prenex Normal Form (PNF)** | **Kuliah & Latihan Soal (150m)** | **Tugas 2: Studi Kasus / Paper Analisis (Bobot: 20%)** |
-| 13 | Mampu melakukan proses Unifikasi pada logika predikat (C4) | Algoritma Unifikasi dan Most General Unifier (MGU) | Problem-Solving (150m) | Aktivitas Formatif (Non-Graded) |
-| 14 | Mampu membuktikan teorema dengan Resolusi FOL (C5) | Resolusi pada Logika Predikat dan Refutation Tree | Case Method Class (150m) | Aktivitas Formatif (Non-Graded) |
-| 15 | Mampu memodelkan rule base pada basis penalaran AI Prolog (C4) | Pemrograman Logika: Pengantar Prolog Syntax & Query | Demo & Lab Komputasi (150m) | Aktivitas Formatif (Non-Graded) |
-| **16** | **EVALUASI AKHIR SEMESTER (UAS)** | **Ujian Komprehensif Logika Predikat, Unifikasi, & Resolusi FOL** | **Ujian Tertulis Akhir (150m)** | **UAS: Ujian Akhir Komprehensif (Bobot: 30%)** |
+| 1 | Mampu menguraikan model Von Neumann dan evolusi arsitektur komputer (C2) | Arsitektur Komputer Modern, Model Von Neumann, dan Komponen Utama | Kuliah & Diskusi (150m) | Aktivitas Formatif (Non-Graded) |
+| 2 | Mampu mengonversi bilangan biner, oktal, heksadesimal, dan komplemen dua (C3) | Representasi Data Komputasi: Integer Biner, Two's Complement | Problem-Solving Class (150m) | Aktivitas Formatif (Non-Graded) |
+| 3 | Mampu menghitung representasi floating point standar IEEE 754 (C3) | Format Floating Point IEEE 754 (Single & Double Precision) | Case-Based Learning (150m) | Aktivitas Formatif (Non-Graded) |
+| **4** | **Mampu merancang rangkaian logika kombinasional ALU dasar (C4)** | **Gerbang Logika, Half/Full Adder, Multiplexer, dan Decoder** | **Problem-Based (150m)** | **Tugas 1: Kuis & Problem Solving Logika Biner (Bobot: 20%)** |
+| 5 | Mampu menganalisis rangkaian sekuensial, flip-flop, dan register (C4) | Rangkaian Sekuensial: RS, D, JK Flip-Flop, Register, Counter | Kuliah & Latihan (150m) | Aktivitas Formatif (Non-Graded) |
+| 6 | Mampu menguraikan struktur internal CPU (ALU, Control Unit, Register Set) (C2) | Organisasi Prosesor: Datapath, Control Unit, dan Register Bank | Problem-Solving Class (150m) | Aktivitas Formatif (Non-Graded) |
+| 7 | Mampu menganalisis siklus instruksi Fetch-Decode-Execute dan Addressing Modes (C4) | Siklus Instruksi Mesin, Mode Pengalamatan, dan Format Instruksi | Case Method Workshop (150m) | Aktivitas Formatif (Non-Graded) |
+| **8** | **EVALUASI TENGAH SEMESTER (UTS)** | **Ujian Tertulis Representasi Biner, Logika Digital, & Datapath CPU** | **Ujian Tertulis Terjadwal (150m)** | **UTS: Ujian Tertulis Terjadwal (Bobot: 30%)** |
+| 9 | Mampu membedakan arsitektur instruksi CISC (x86) vs RISC (ARM64 / RISC-V) (C4) | Arsitektur Set Instruksi: CISC vs RISC, Karakteristik ARM64 & RISC-V | Kuliah Interaktif (150m) | Aktivitas Formatif (Non-Graded) |
+| 10 | Mampu menganalisis prinsip kerja Pipelining instruksi dan hazard (C4) | Instruksi Pipelining, Data Hazard, Control Hazard, Branch Prediction | Problem-Solving Class (150m) | Aktivitas Formatif (Non-Graded) |
+| 11 | Mampu mengevaluasi hirarki memori, prinsip lokalitas, dan Cache L1/L2/L3 (C4) | Hirarki Memori: Cache Mapping (Direct, Associative), Hit/Miss Ratio | Case-Based Learning (150m) | Aktivitas Formatif (Non-Graded) |
+| **12** | **Mampu menganalisis arsitektur akselerator paralel GPU & NPU untuk AI (C4)** | **Komputasi Paralel: Perbedaan CPU Multicore vs GPU Tensor Cores vs NPU** | **Kuliah & Analisis Kasus (150m)** | **Tugas 2: Studi Kasus Arsitektur Hardware AI & Server (Bobot: 20%)** |
+| 13 | Mampu menganalisis memori utama (RAM DDR4/DDR5) dan Virtual Memory (C4) | Memori Utama, Paging, Page Table, dan Memory Management Unit (MMU) | Problem-Solving (150m) | Aktivitas Formatif (Non-Graded) |
+| 14 | Mampu menguraikan sistem I/O, Bus standar (PCIe, NVMe), dan Interrupt Handling (C3) | Subistem I/O: Programmed I/O, Interrupt-Driven I/O, Direct Memory Access (DMA) | Case Method Class (150m) | Aktivitas Formatif (Non-Graded) |
+| 15 | Mampu mengevaluasi virtualisasi hardware (Intel VT-x) & arsitektur server data center (C5) | Virtualisasi Perangkat Keras, Hypervisor Type 1/2, Arsitektur Server Cloud | Demo & Studi Kasus (150m) | Aktivitas Formatif (Non-Graded) |
+| **16** | **EVALUASI AKHIR SEMESTER (UAS)** | **Ujian Komprehensif Arsitektur Prosesor, Cache, GPU AI, & Virtualisasi** | **Ujian Tertulis Akhir (150m)** | **UAS: Ujian Akhir Komprehensif (Bobot: 30%)** |
 
 ---
 
@@ -399,44 +399,44 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 9. STI-201 — Matematika Diskrit (Discrete Mathematics)
+### 9. STI-201 — Matematika Diskrit dan Logika (Discrete Mathematics and Logic)
 
 #### Tabel 9.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-201 — Matematika Diskrit** (*Discrete Mathematics*) |
+| **Kode & Nama Mata Kuliah** | **STI-201 — Matematika Diskrit dan Logika** (*Discrete Mathematics and Logic*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 2** / Matematika & Sains Komputasi (Core STI) |
-| **Prasyarat Akademik** | `STI-103` Logika Informatika |
-| **CPL yang Dibebankan** | `P1` (Fondasi Struktur Diskrit, Teori Graf & Komputasi) |
+| **Prasyarat Akademik** | `STI-103` Arsitektur dan Organisasi Sistem Teknologi Informasi |
+| **CPL yang Dibebankan** | `P1` (Fondasi Struktur Diskrit, Logika Komputasi & Graf), `KU1` (Penalaran Formal Kritis) |
 | **Profil Lulusan (PL)** | `PL-1`, `PL-2` |
-| **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |
+| **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research & Lifelong Learning) |
 
 #### Tabel 9.B: Formulasi CPMK (Format ABCD & Level Bloom)
 | Kode CPMK | Rumusan Capaian Pembelajaran Mata Kuliah (Format ABCD Eksplisit) | Level Bloom | CPL Didukung |
 |---|---|:---:|:---:|
-| **CPMK-1** | Mahasiswa (*A*) mampu **membuktikan** pernyataan matematika dan kebenaran algoritma (*B*) menggunakan metode induksi matematika (*C*) dengan runtutan formal yang valid (*D*). | **C3** | `P1` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **menerapkan** konsep relasi ekuivalensi, himpunan terurut parsial (Poset), dan kombinatorika (*B*) pada pemodelan struktur data komputasi (*C*) secara tepat (*D*). | **C3** | `P1` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **menganalisis** struktur Graf dan Pohon (Tree) (*B*) menggunakan matriks representasi dan algoritma penelusuran lintasan (*C*) untuk optimasi jaringan komputer/data (*D*). | **C4** | `P1` |
-| **CPMK-4** | Mahasiswa (*A*) mampu **mengonstruksi** model otomata berhingga (Finite State Automata / FSA) (*B*) untuk pengenalan pola bahasa formal dan transisi status sistem (*C*) secara akurat (*D*). | **C4** | `P1` |
+| **CPMK-1** | Mahasiswa (*A*) mampu **membuktikan** validitas argumen inferensi logika proposisi/predikat dan kebenaran algoritma (*B*) menggunakan tabel kebenaran, hukum aljabar logika, dan metode induksi matematika (*C*) secara runtut dan valid (*D*). | **C3** | `P1, KU1` |
+| **CPMK-2** | Mahasiswa (*A*) mampu **menerapkan** konsep relasi ekuivalensi, himpunan terurut parsial (Poset), aljabar Boolean, dan kombinatorika (*B*) pada pemodelan struktur data dan logika query basis data (*C*) secara tepat (*D*). | **C3** | `P1` |
+| **CPMK-3** | Mahasiswa (*A*) mampu **menganalisis** struktur Graf dan Pohon (Tree) (*B*) menggunakan matriks representasi (Adjacency Matrix) dan algoritma penelusuran lintasan (*C*) untuk optimasi jaringan data/komputer (*D*). | **C4** | `P1, KU1` |
+| **CPMK-4** | Mahasiswa (*A*) mampu **mengonstruksi** model otomata berhingga (Finite State Automata / FSA: DFA dan NFA) (*B*) untuk pengenalan pola bahasa formal dan transisi status sistem komputasi (*C*) secara akurat (*D*). | **C4** | `P1` |
 
 #### Tabel 9.C: Matriks Rencana Pembelajaran 16 Pertemuan (Sub-CPMK, Materi, Metode, Asesmen)
 | Mg | Sub-CPMK & Kemampuan Akhir | Pokok Bahasan (Bahan Kajian) | Bentuk & Metode Pembelajaran | Bentuk Asesmen & Bobot (%) |
 |:--:|---|---|---|---|
-| 1 | Mampu mengoperasikan aljabar himpunan dan hukum himpunan (C3) | Teori Himpunan Lanjut, Operasi Biner, Diagram Venn | Kuliah & Latihan (150m) | Aktivitas Formatif (Non-Graded) |
-| 2 | Mampu menganalisis relasi biner, matriks relasi, relasi ekuivalen (C4) | Relasi Biner, Sifat Relasi, dan Partisi Himpunan | Problem-Solving Class (150m) | Aktivitas Formatif (Non-Graded) |
-| 3 | Mampu membedakan fungsi injektif, surjektif, bijektif, dan invers (C2) | Teori Fungsi Matematika dan Komposisi Fungsi | Ceramah & Latihan (150m) | Aktivitas Formatif (Non-Graded) |
-| **4** | **Mampu membuktikan teorema dengan Induksi Matematika Biasa & Kuat (C3)** | **Induksi Matematika dan Program Correctness** | **Problem-Based Learning (150m)** | **Tugas 1: Kuis & Problem Solving (Bobot: 20%)** |
-| 5 | Mampu menghitung permutasi, kombinasi, dan kaidah pencacahan (C3) | Kombinatorika Dasar: Kaidah Penjumlahan & Perkalian | Problem-Solving Class (150m) | Aktivitas Formatif (Non-Graded) |
-| 6 | Mampu menerapkan Prinsip Sarang Merpati & Teorema Binomial (C3) | Pigeonhole Principle dan Koefisien Binomial | Case-Based Learning (150m) | Aktivitas Formatif (Non-Graded) |
+| 1 | Mampu memformulasikan logika proposisi, tabel kebenaran, dan ekuivalensi (C3) | Logika Proposisional, Tabel Kebenaran, Tautologi, Hukum Logika | Kuliah & Latihan (150m) | Aktivitas Formatif (Non-Graded) |
+| 2 | Mampu menganalisis logika predikat, kuantor universal & eksistensial (C4) | Logika Predikat Orde Pertama (FOL) dan Kuantor Logika | Problem-Solving Class (150m) | Aktivitas Formatif (Non-Graded) |
+| 3 | Mampu membuktikan validitas argumen via Modus Ponens/Tollens & Resolusi (C4) | Aturan Inferensi Formal dan Prinsip Resolusi Logika | Case-Based Learning (150m) | Aktivitas Formatif (Non-Graded) |
+| **4** | **Mampu membuktikan teorema dengan Induksi Matematika Biasa & Kuat (C3)** | **Induksi Matematika dan Verifikasi Kebenaran Algoritma** | **Problem-Based (150m)** | **Tugas 1: Kuis & Problem Solving Logika/Induksi (Bobot: 20%)** |
+| 5 | Mampu mengoperasikan aljabar himpunan, relasi biner, dan fungsi (C3) | Teori Himpunan, Relasi Ekuivalensi, Partisi, dan Sifat Fungsi | Problem-Solving Class (150m) | Aktivitas Formatif (Non-Graded) |
+| 6 | Mampu menghitung permutasi, kombinasi, dan kaidah pencacahan (C3) | Kombinatorika Dasar: Kaidah Penjumlahan, Perkalian, Pigeonhole | Case-Based Learning (150m) | Aktivitas Formatif (Non-Graded) |
 | 7 | Mampu menyelesaikan relasi rekurensi linier homogen (C3) | Relasi Rekurensi dan Metode Akar Karakteristik | Problem-Solving Workshop (150m) | Aktivitas Formatif (Non-Graded) |
-| **8** | **EVALUASI TENGAH SEMESTER (UTS)** | **Ujian Tertulis Himpunan, Relasi, Induksi, & Kombinatorika** | **Ujian Tertulis Terjadwal (150m)** | **UTS: Ujian Tertulis Terjadwal (Bobot: 30%)** |
-| 9 | Mampu mengidentifikasi terminologi graf dan graf khusus (C2) | Pengantar Teori Graf: Derajat Simpul, Graf Isomorfik | Kuliah & Visualisasi (150m) | Aktivitas Formatif (Non-Graded) |
-| 10 | Mampu merepresentasikan graf via Adjacency Matrix & List (C3) | Representasi Graf dalam Memori Komputer | Problem-Solving Class (150m) | Aktivitas Formatif (Non-Graded) |
+| **8** | **EVALUASI TENGAH SEMESTER (UTS)** | **Ujian Tertulis Logika Formal, Induksi, Relasi, & Kombinatorika** | **Ujian Tertulis Terjadwal (150m)** | **UTS: Ujian Tertulis Terjadwal (Bobot: 30%)** |
+| 9 | Mampu mengidentifikasi terminologi graf, derajat simpul, graf isomorfik (C2) | Pengantar Teori Graf, Graf Sederhana, Graf Bipartit | Kuliah & Visualisasi (150m) | Aktivitas Formatif (Non-Graded) |
+| 10 | Mampu merepresentasikan graf via Adjacency Matrix & Adjacency List (C3) | Representasi Graf dalam Memori Komputer & Algoritma Traversal | Problem-Solving Class (150m) | Aktivitas Formatif (Non-Graded) |
 | 11 | Mampu menganalisis Lintasan Euler dan Sirkuit Hamilton (C4) | Lintasan/Sirkuit Euler & Hamilton pada Topologi Jaringan | Case-Based Learning (150m) | Aktivitas Formatif (Non-Graded) |
-| **12** | **Mampu menerapkan Algoritma Dijkstra dan Floyd-Warshall (C4)** | **Algoritma Lintasan Terpendek (Shortest Path)** | **Problem-Based Class (150m)** | **Tugas 2: Studi Kasus / Paper Analisis (Bobot: 20%)** |
+| **12** | **Mampu menerapkan Algoritma Dijkstra dan Floyd-Warshall (C4)** | **Algoritma Lintasan Terpendek (Shortest Path)** | **Problem-Based Class (150m)** | **Tugas 2: Studi Kasus Pemodelan Graf Jaringan (Bobot: 20%)** |
 | 13 | Mampu menganalisis Pohon Merentang Minimum Kruskal & Prim (C4) | Teori Pohon (Tree) & Minimum Spanning Tree (MST) | Case Method Workshop (150m) | Aktivitas Formatif (Non-Graded) |
-| 14 | Mampu menerapkan Pewarnaan Graf (Graph Coloring) (C4) | Pewarnaan Graf, Bilangan Kromatik, dan Alokasi Register | Problem-Solving Class (150m) | Aktivitas Formatif (Non-Graded) |
+| 14 | Mampu menerapkan Pewarnaan Graf (Graph Coloring) pada penjadwalan (C4) | Pewarnaan Graf, Bilangan Kromatik, dan Alokasi Register/Jadwal | Problem-Solving Class (150m) | Aktivitas Formatif (Non-Graded) |
 | 15 | Mampu merancang Deterministic & Nondeterministic Finite Automata (C4) | Bahasa Formal, Gramatika, DFA dan NFA Pengantar | Demo & Problem Solving (150m) | Aktivitas Formatif (Non-Graded) |
 | **16** | **EVALUASI AKHIR SEMESTER (UAS)** | **Ujian Komprehensif Teori Graf, Pohon MST, & Finite Automata** | **Ujian Tertulis Akhir (150m)** | **UAS: Ujian Akhir Komprehensif (Bobot: 30%)** |
 
@@ -791,7 +791,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STI-302 — Sistem Cerdas** (*Intelligent Systems*) |
 | **Bobot SKS / Tipe** | **2 SKS** / Tipe: **Teori** (100m Kuliah + 120m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 3** / Sistem Cerdas & Sains Data (Core STI) |
-| **Prasyarat Akademik** | `STI-103` Logika Informatika |
+| **Prasyarat Akademik** | `STI-201` Matematika Diskrit dan Logika, `FST-204` Pengantar AI & Data |
 | **CPL yang Dibebankan** | `P2` (Representasi Pengetahuan & Penalaran AI), `KK1` (Sistem Cerdas Bisnis) |
 | **Profil Lulusan (PL)** | `PL-1` (Intelligent IS Dev) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |

@@ -54,9 +54,9 @@
 ### 3.1 Indikator Kinerja P1 (Fondasi Sains & Matematika Komputasi)
 | No | Indikator Kinerja | Bukti Ketercapaian |
 |:---:|---|---|
-| 1 | Mampu menghitung kalkulus diferensial/integral, matriks aljabar linear, dan logika proposisional. | Ujian Teori Kalkulus, Aljabar Linear, Logika Informatika. |
+| 1 | Mampu menghitung kalkulus diferensial/integral, matriks aljabar linear, dan logika proposisional. | Ujian Teori Kalkulus, Aljabar Linear, Matematika Diskrit dan Logika. |
 | 2 | Mampu menerapkan teori probabilitas dan statistika inferensial pada pemodelan komputasi data. | Laporan Analisis Probabilitas & Statistika. |
-| 3 | Mampu mengaplikasikan struktur matematika diskrit (graf, tree, relasi) pada algoritma komputasi. | Ujian Praktikum Struktur Data & Matematika Diskrit. |
+| 3 | Mampu mengaplikasikan struktur matematika diskrit (graf, tree, relasi) pada algoritma komputasi. | Ujian Praktikum Struktur Data & Matematika Diskrit dan Logika. |
 
 ### 3.2 Indikator Kinerja P2 (Sistem Informasi & Proses Bisnis)
 | No | Indikator Kinerja | Bukti Ketercapaian |
