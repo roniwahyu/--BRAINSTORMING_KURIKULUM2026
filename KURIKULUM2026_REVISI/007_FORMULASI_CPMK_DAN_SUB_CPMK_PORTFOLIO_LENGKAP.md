@@ -1517,7 +1517,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STI-505 — Pemrograman Aplikasi Mobile** (*Mobile Application Development*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 5** / Rekayasa Perangkat Lunak & Platform (Core STI) |
-| **Prasyarat Akademik** | `STI-205` Pemrograman Lanjut & `STI-306` Web Frontend |
+| **Prasyarat Akademik** | `FST-203` Struktur Data & Algoritma, `STI-306` Web Front End Development |
 | **CPL yang Dibebankan** | `P4` (Arsitektur Mobile Multi-Platform), `KK5` (State Management BLoC & API Integrasi) |
 | **Profil Lulusan (PL)** | `PL-3` (UI/UX Designer & Platform Engineer) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-2` (Technopreneurship) |
