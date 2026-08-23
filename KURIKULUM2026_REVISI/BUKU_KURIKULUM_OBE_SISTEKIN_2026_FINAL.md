@@ -839,8 +839,7 @@ Untuk menjamin hak akademik mahasiswa yang telah menempuh kurikulum 2025, diberl
 
 ---
 
-## 8.4 Matriks Ekuivalensi Mata Kuliah Kurikulum 2025 $
-ightarrow$ Kurikulum 2026
+## 8.4 Matriks Ekuivalensi Mata Kuliah Kurikulum 2025 $\rightarrow$ Kurikulum 2026
 
 | Kode Lama | Nama MK Kurikulum 2025 | SKS | Kode Baru | Nama MK Kurikulum 2026 | SKS | Status Ekuivalensi |
 |:---:|---|:---:|:---:|---|:---:|---|
@@ -871,7 +870,7 @@ ightarrow$ Kurikulum 2026
 
 ---
 
-# LAMPIRAN 1: MASTER MATRIKS KETERLACAKAN OBE (I-R-M 14 CPL $	imes$ 55 MATA KULIAH)
+# LAMPIRAN 1: MASTER MATRIKS KETERLACAKAN OBE (I-R-M 14 CPL $\times$ 55 MATA KULIAH)
 
 # 004 — MATRIKS KETERLACAKAN LENGKAP OBE: VMTS ↔ 3 PEO ↔ 4 PL ↔ 14 CPL ↔ 55 MATA KULIAH
 ## Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang

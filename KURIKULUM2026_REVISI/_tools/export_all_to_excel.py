@@ -347,6 +347,7 @@ def main():
         "015_SIMULASI_AKSELERASI_KELULUSAN_7_SEMESTER.md",
         "016_ANALISIS_BoK_APTIKOM_REDUNDANSI_DAN_PIPELINE_AI.md",
         "017_AUDIT_FORENSIK_ZERO_REDUNDANCY_DAN_ZERO_GAP.md",
+        "018_PANDUAN_RUBRIK_KLASTER_DAN_MODEL_ASESMEN_OBE_DOSEN.md",
     ]
     
     print("\n1. Mengonversi Masing-Masing Dokumen Kurikulum ke Excel Individu:")

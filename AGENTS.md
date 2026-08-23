@@ -101,6 +101,7 @@ KURIKULUM2026_REVISI/
 ├── 015_SIMULASI_AKSELERASI_KELULUSAN_7_SEMESTER.md (Panduan & Simulasi Studi Akselerasi 3.5 Tahun / 146 SKS)
 ├── 016_ANALISIS_BoK_APTIKOM_REDUNDANSI_DAN_PIPELINE_AI.md (Audit BoK APTIKOM & 5-Stage Pipeline AI)
 ├── 017_AUDIT_FORENSIK_ZERO_REDUNDANCY_DAN_ZERO_GAP.md ⭐ (Audit Forensik Zero Redundancy & Zero Gap 5 Domain)
+├── 018_PANDUAN_RUBRIK_KLASTER_DAN_MODEL_ASESMEN_OBE_DOSEN.md ⭐ (Panduan Master 4 Klaster Rubrik & Model Asesmen Dosen)
 ├── BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md ⭐ (Naskah Utuh Lengkap Buku Kurikulum Bab 1-8 + Silabus)
 ├── GENERATE_EXCEL_011.bat (Trigger Batch Sekali Klik untuk Re-generate Excel)
 ├── GENERATE_HTML.bat (Trigger Batch Sekali Klik untuk Re-generate Seluruh File HTML & Portal)
