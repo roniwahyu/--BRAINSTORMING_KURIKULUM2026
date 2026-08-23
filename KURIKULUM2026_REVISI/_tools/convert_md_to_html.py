@@ -29,6 +29,7 @@ DOC_FILES = [
     ("014_ANALISIS_KRITIS_PEMANGKASAN_SKS_TEORI_SEM4_SEM5.md", "014 — Analisis Kritis Pemangkasan SKS Teori Sem 4 & 5"),
     ("015_SIMULASI_AKSELERASI_KELULUSAN_7_SEMESTER.md", "015 — Panduan & Simulasi Akselerasi 7 Semester (Fast-Track)"),
     ("016_ANALISIS_BoK_APTIKOM_REDUNDANSI_DAN_PIPELINE_AI.md", "016 — Analisis BoK APTIKOM, Audit Redundansi & Pipeline AI"),
+    ("017_AUDIT_FORENSIK_ZERO_REDUNDANCY_DAN_ZERO_GAP.md", "017 — Audit Forensik Zero Redundancy & Zero Gap 5 Domain"),
     ("BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md", "📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)")
 ]
 

@@ -95,13 +95,21 @@ KURIKULUM2026_REVISI/
 ├── 010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.md (Instrumen Tracer Study & Evaluasi PEO Siklus PPEPP)
 ├── 011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.md ⭐ (14 Sheet Matriks Terpadu, Exportable ke Excel/Word/PDF)
 ├── 011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.xlsx (Output Workbook 15 Tab Berformat Rapi)
+├── 012_ANALISIS_KRITIS_JALUR_PONDASI_DAN_TREE_PRASYARAT.md (Analisis Jalur Pondasi & Diagram Tree Prasyarat)
+├── 013_REKOMENDASI_SOLUSI_DAN_MITIGASI_KELEMAHAN_KURIKULUM.md (6 Strategi Solusi & Mitigasi Beban)
+├── 014_ANALISIS_KRITIS_PEMANGKASAN_SKS_TEORI_SEM4_SEM5.md (Rasionalisasi SKS Teori & Batas Kewenangan MK FSTI)
+├── 015_SIMULASI_AKSELERASI_KELULUSAN_7_SEMESTER.md (Panduan & Simulasi Studi Akselerasi 3.5 Tahun / 146 SKS)
+├── 016_ANALISIS_BoK_APTIKOM_REDUNDANSI_DAN_PIPELINE_AI.md (Audit BoK APTIKOM & 5-Stage Pipeline AI)
+├── 017_AUDIT_FORENSIK_ZERO_REDUNDANCY_DAN_ZERO_GAP.md ⭐ (Audit Forensik Zero Redundancy & Zero Gap 5 Domain)
+├── BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md ⭐ (Naskah Utuh Lengkap Buku Kurikulum Bab 1-8 + Silabus)
 ├── GENERATE_EXCEL_011.bat (Trigger Batch Sekali Klik untuk Re-generate Excel)
 ├── GENERATE_HTML.bat (Trigger Batch Sekali Klik untuk Re-generate Seluruh File HTML & Portal)
 ├── START_LIVE_WATCHER.bat (Trigger Background Watcher untuk Auto-update Excel saat file .md disimpan)
 ├── index.html (Portal Navigasi Interaktif Seluruh Dokumen Kurikulum 2026)
 └── _tools/
     ├── convert_md_to_html.py (Engine Konversi Markdown ke HTML Modern & Interaktif)
-    ├── export_011_tables_to_excel.py (Engine Konversi Multi-Sheet Python)
+    ├── export_all_to_excel.py (Engine Konversi Multi-Sheet Python)
+    ├── verify_zero_discrepancy.py (Engine Verifikasi Sinkronisasi 24 File)
     └── watch_and_auto_export.py (Engine Live Watcher)
 ```
 
@@ -111,11 +119,10 @@ KURIKULUM2026_REVISI/
 
 **Status Saat Ini:** 
 - **Fase Makro OBE:** VMTS ↔ 3 PEO ↔ 4 PL ↔ 14 CPL ↔ 19 BoK IS2020 & 14/27 BoK IT2017 ↔ Struktur 8 Semester (146 SKS paket ditempuh / 182 SKS portofolio ditawarkan) ↔ 3 Peminatan Seimbang (@ 18 SKS) telah **100% tuntas dan terverifikasi di Dokumen 001–006**.
-- **Fase Mikro OBE & Silabus 3-Tabel:** Formulasi Identitas MK, CPMK berbasis ABCD & Taksonomi Bloom (C2–C6), serta Matriks 16 Pertemuan dengan Skema 4x Asesmen (Tugas 1 [20%], UTS [25-30%], Tugas 2 [20-25%], UAS [30%]) untuk **seluruh 67 MK portofolio** telah **100% tuntas di Dokumen 007 (355 KB)**.
+- **Fase Mikro OBE & Silabus 3-Tabel:** Formulasi Identitas MK, CPMK berbasis ABCD & Taksonomi Bloom (C2–C6), serta Matriks 16 Pertemuan dengan Skema 4x Asesmen (Tugas 1 [20%], UTS [25-30%], Tugas 2 [20-25%], UAS [30%]) untuk **seluruh 67 MK portofolio** telah **100% tuntas di Dokumen 007 (361 KB)**.
 - **Fase Asesmen, Tugas Akhir, & Penjaminan Mutu:** Sistem Asesmen OBE (IKU 7 $\ge 50\%$, Formula Ketercapaian CPL, 4 Rubrik Analitik Master), Pedoman Capstone & 4 Opsi TA Non-Skripsi, serta Instrumen Tracer Study PEO telah **100% tuntas di Dokumen 008, 009, dan 010**.
-
-**Langkah Kerja Selanjutnya (Kompilasi Naskah Akhir):**
-1. **Penyusunan Naskah Utuh Buku Kurikulum KPT-OBE SISTEKIN 2026:** Mengompilasi seluruh dokumen 001 s.d. 010 menjadi naskah definitif `BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md` (Bab 1 s.d. Bab 8 + Lampiran Lengkap) untuk pengesahan Surat Keputusan (SK) Rektor.
+- **Fase Audit Kritis & Akselerasi:** Kunci konsensus `STI-103 Arsitektur & Organisasi Sistem TI` dan `STI-201 Matematika Diskrit dan Logika`, Solusi Mitigasi (013), Simulasi Fast-Track 7 Semester (015), Pipeline AI (016), dan Audit Forensik Zero Redundancy & Zero Gap (017) telah **100% tuntas dan terverifikasi di Dokumen 012–017**.
+- **Fase Naskah Buku Kurikulum Final:** Naskah utuh komprehensif Bab 1 s.d. Bab 8 (`BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md`, 445 KB) telah selesai dan 100% selaras dengan seluruh dokumen pendukung.
 
 ---
 
