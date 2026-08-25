@@ -11,7 +11,7 @@
 | 2. Perumusan VMTS 2045 & Distinctive Positioning Program Studi. |
 | 3. Perumusan 3 Program Educational Objectives (PEO) & 4 Profil Lulusan (PL). |
 | 4. Perumusan 14 Capaian Pembelajaran Lulusan (CPL) berbasis SN-Dikti, IS2020 & IT2017. |
-| 5. Pemetaan CPL ke 19 BoK IS2020 & 14 BoK IT2017 serta Penyusunan Struktur 8 Semester. |
+| 5. Pemetaan CPL ke 21 BoK IS2020 & 15 BoK IT2017 serta Penyusunan Struktur 8 Semester. |
 | 6. Perancangan 67 MK Portofolio, CPMK (ABCD Bloom C2-C6), dan Skema 4x Asesmen Baku. |
 | 7. Pelaksanaan Pembelajaran Kolaboratif (IKU 7: Case Method & PjBL) + MBKM 20 SKS. |
 | 8. Pengukuran Ketercapaian CPL & PEO serta Siklus Perbaikan Mutu PPEPP / CQI. |
@@ -1075,13 +1075,13 @@ graph LR
 
 ## 6. MATRIKS 2-DIMENSI: BAHAN KAJIAN (BoK IS2020 & IT2017) ↔ MATA KULIAH (STANDAR APTIKOM TABEL 6)
 
-Matriks ini memetakan relasi langsung antara 19 Bahan Kajian Standar APTIKOM SI (IS2020) dan 14 Bahan Kajian Utama Standar APTIKOM TI (IT2017) terhadap mata kuliah pembina:
+Matriks ini memetakan relasi langsung antara 21 Bahan Kajian Standar APTIKOM SI (IS2020) dan 15 Bahan Kajian Utama Standar APTIKOM TI (IT2017) terhadap mata kuliah pembina:
 
 * **Keterangan Notasi:**  
   * `●` : **Bahan Kajian Primer (Core BoK)** — Topik utama yang mendominasi $\ge 60\%$ bahan ajar mata kuliah.  
   * `○` : **Bahan Kajian Sekunder (Supporting BoK)** — Topik pendukung yang diintegrasikan dalam proyek/praktikum ($\pm 20-40\%$).  
 
-### TABEL 6.1: PEMETAAN 19 BAHAN KAJIAN IS2020 (APTIKOM v2.0) ↔ MATA KULIAH
+### TABEL 6.1: PEMETAAN 21 BAHAN KAJIAN IS2020 (APTIKOM v2.0) ↔ MATA KULIAH
 
 | Kode BoK IS | Nomenklatur Bahan Kajian IS2020 | Mata Kuliah Pembina Primer (●) | Mata Kuliah Pembina Sekunder (○) | Total MK | Status Cakupan |
 |---|---|---|---|:---:|:---:|
@@ -1104,10 +1104,12 @@ Matriks ini memetakan relasi langsung antara 19 Bahan Kajian Standar APTIKOM SI 
 | **BK-IS17** | *Human-Computer Interaction & UX* | `STI-303`, `STC-01` | `STI-306`, `STI-505` | 4 MK | ✅ Sangat Kuat |
 | **BK-IS18** | *Machine Learning and Data Science* | `STI-401`, `STI-501`, `STA-04` | `STA-02`, `STA-06` | 5 MK | ✅ Sangat Kuat |
 | **BK-IS19** | *Cloud Architecture & DevOps* | `STI-404`, `STB-02` | `STI-604`, `STC-05` | 4 MK | ✅ Sangat Kuat |
+| **BK-IS20** | *Ethics, Use and Implications for Society* | `FST-206` | `STI-405`, `STI-602`, `STB-04` | 4 MK | ✅ Terpenuhi |
+| **BK-IS21** | *Internship and Professional Practice* | `FST-612` | `MKU-507`, `FST-610` | 3 MK | ✅ Terpenuhi |
 
 ---
 
-### TABEL 6.2: PEMETAAN 14 BAHAN KAJIAN UTAMA IT2017 (APTIKOM) ↔ MATA KULIAH
+### TABEL 6.2: PEMETAAN 15 BAHAN KAJIAN UTAMA IT2017 (APTIKOM) ↔ MATA KULIAH
 
 | Kode BoK IT | Nomenklatur Bahan Kajian Utama IT2017 | Mata Kuliah Pembina Primer (●) | Mata Kuliah Pembina Sekunder (○) | Total MK | Status Cakupan |
 |---|---|---|---|:---:|:---:|
@@ -1125,6 +1127,10 @@ Matriks ini memetakan relasi langsung antara 19 Bahan Kajian Standar APTIKOM SI 
 | **BK-IT12** | *IT Risk Management and Compliance* | `STB-03`, `STB-04` | `FST-206` | 3 MK | ✅ Terpenuhi |
 | **BK-IT13** | *Technology Entrepreneurship* | `MKU-204`, `STI-701`, `FST-610` | `STC-06` | 4 MK | ✅ Sangat Kuat |
 | **BK-IT14** | *IoT and Embedded Smart Systems* | `STI-504`, `STA-06` | `STI-305`, `STI-307` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT15** | *Global Professional Practice* | `FST-205`, `FST-612` | `FST-206`, `MKU-507` | 4 MK | ✅ Terpenuhi |
+
+> [!NOTE]
+> **Kepatuhan Adopsi BK Kompetensi Utama.** `BK-IS20`, `BK-IS21`, dan `BK-IT15` ditetapkan untuk memenuhi INSTRUKSI Panduan OBE APTIKOM SI v2.0 yang mewajibkan adopsi **11 BK kompetensi utama** (`BK09 Ethics, use and implications for society`; `BK10 Internship`, referensi **IABEE**) dan Panduan OBE Prodi TI 2023 yang mewajibkan adopsi **14 BK penciri utama** (`BK08 Praktek Profesional Global`). Ketiga Bahan Kajian ini menaungi ranah Sikap dan Keterampilan Umum yang sebelumnya tidak memiliki BK pengampu eksplisit.
 
 ---
 

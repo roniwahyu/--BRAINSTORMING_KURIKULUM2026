@@ -3,7 +3,7 @@
 **Status:** Final — Ringkasan Komprehensif 14 CPL SISTEKIN  
 **Institusi:** Program Studi S1 Sistem dan Teknologi Informasi (SISTEKIN) — FSTI Universitas Widyagama Malang  
 **Standar:** SN-Dikti Permendikbudristek No. 53/2023, APTIKOM IS2020 & IT2017  
-**Ground Truth:** Tepat 14 CPL, 4 Profil Lulusan (PL-1 s.d. PL-4), 3 PEO, 3 Peminatan @ 18 SKS, 19 BoK IS2020 & 14 BoK IT2017  
+**Ground Truth:** Tepat 14 CPL, 4 Profil Lulusan (PL-1 s.d. PL-4), 3 PEO, 3 Peminatan @ 18 SKS, 21 BoK IS2020 & 15 BoK IT2017  
 
 ---
 
@@ -28,7 +28,7 @@
 
 ---
 
-## 2. MATRIKS SILANG CPL ↔ 19 BAHAN KAJIAN (BoK) IS2020 (APTIKOM v2.0)
+## 2. MATRIKS SILANG CPL ↔ 21 BAHAN KAJIAN (BoK) IS2020 (APTIKOM v2.0)
 
 | Kode BK | Nama Bahan Kajian IS2020 | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 |
 |---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -51,10 +51,12 @@
 | **BK-IS17** | Human-Computer Interaction & UX | | | | | | | | ✅ | | | | | ✅ | |
 | **BK-IS18** | Machine Learning and Data Science | | | | | ✅ | | | | ✅ | ✅ | | | | |
 | **BK-IS19** | Cloud Architecture & DevOps | | | | | | | ✅ | | | | ✅ | | | |
+| **BK-IS20** | Ethics, Use and Implications for Society | ✅ | | | ✅ | | | ✅ | | | | | ✅ | | |
+| **BK-IS21** | Internship and Professional Practice | ✅ | ✅ | ✅ | ✅ | | | | | | | | | | |
 
 ---
 
-## 3. MATRIKS SILANG CPL ↔ 14 BAHAN KAJIAN UTAMA (BoK) IT2017 (APTIKOM)
+## 3. MATRIKS SILANG CPL ↔ 15 BAHAN KAJIAN UTAMA (BoK) IT2017 (APTIKOM)
 
 | Kode BK | Nama Bahan Kajian Utama IT2017 | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 |
 |---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -72,6 +74,10 @@
 | **BK-IT12** | IT Risk Management and Compliance | | | | | | | | | | | | ✅ | | |
 | **BK-IT13** | Technology Entrepreneurship | | | | | | | | | | | | | | ✅ |
 | **BK-IT14** | IoT and Embedded Smart Systems | | | | | | | | | ✅ | | ✅ | | | |
+| **BK-IT15** | Global Professional Practice | ✅ | ✅ | ✅ | ✅ | | | | | | | | | | |
+
+> [!NOTE]
+> **Kepatuhan Adopsi BK Kompetensi Utama.** `BK-IS20`, `BK-IS21`, dan `BK-IT15` merupakan Bahan Kajian **kompetensi/penciri utama** yang wajib diadopsi menurut INSTRUKSI Panduan OBE APTIKOM SI v2.0 (`BK09 Ethics`, `BK10 Internship`) dan Panduan OBE Prodi TI 2023 (`BK08 Praktek Profesional Global`). Ketiganya membina ranah **Sikap (`S1`)** dan **Keterampilan Umum (`KU1`–`KU3`)** yang sebelumnya tidak memiliki Bahan Kajian pengampu eksplisit.
 
 ---
 

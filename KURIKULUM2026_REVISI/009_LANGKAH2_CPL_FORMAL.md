@@ -35,8 +35,8 @@
 | **Sikap (S)** | [009A_CPL_SIKAP_SISTEKIN.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/009A_CPL_SIKAP_SISTEKIN.md) | S1 — 5 Komponen, 6 Indikator Kinerja, Pemetaan ke 4 PL & 3 Peminatan, Silsilah SN-Dikti S1–S10. |
 | **Keterampilan Umum (KU)** | [009B_CPL_KETERAMPILAN_UMUM_SISTEKIN.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/009B_CPL_KETERAMPILAN_UMUM_SISTEKIN.md) | KU1–KU3 — Pemikiran Kritis, Komunikasi, Kemandirian, Indikator Kinerja, Silsilah SN-Dikti KU1–KU9. |
 | **Pengetahuan (P)** | [009C_CPL_PENGETAHUAN_SISTEKIN.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/009C_CPL_PENGETAHUAN_SISTEKIN.md) | P1–P4 — Sains/Matematika, SI, Infra/GRC, Platform/Data, Silsilah IS2020 (P01–P17) & IT2017 (P1–P2). |
-| **Keterampilan Khusus (KK)** | [009D_CPL_KETERAMPILAN_KHUSUS_SISTEKIN.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/009D_CPL_KETERAMPILAN_KHUSUS_SISTEKIN.md) | KK1–KK6 — AI, Data, Cloud/IoT, GRC, Platform UI/UX, Startup, Pemetaan 19 BoK IS2020 & 14 BoK IT2017. |
-| **Ringkasan & Master BoK** | [009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.md) | Kompilasi Master Matriks 14 CPL ↔ 19 BoK IS ↔ 14 BoK IT ↔ 4 PL ↔ 3 Peminatan ↔ VMTS 2045. |
+| **Keterampilan Khusus (KK)** | [009D_CPL_KETERAMPILAN_KHUSUS_SISTEKIN.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/009D_CPL_KETERAMPILAN_KHUSUS_SISTEKIN.md) | KK1–KK6 — AI, Data, Cloud/IoT, GRC, Platform UI/UX, Startup, Pemetaan 21 BoK IS2020 & 15 BoK IT2017. |
+| **Ringkasan & Master BoK** | [009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.md) | Kompilasi Master Matriks 14 CPL ↔ 21 BoK IS ↔ 15 BoK IT ↔ 4 PL ↔ 3 Peminatan ↔ VMTS 2045. |
 
 ---
 
@@ -70,7 +70,7 @@
 | **Kategori Keterampilan Umum (KU)** | Standar SN-Dikti (KU1–KU9) | 3 CPL (**KU1, KU2, KU3**) terintegrasi | ✅ Terpenuhi |
 | **Kategori Pengetahuan (P)** | Standar Domain IS2020 & IT2017 | 4 CPL (**P1, P2, P3, P4**) | ✅ Terpenuhi |
 | **Kategori Keterampilan Khusus (KK)** | 2 CPL per Jalur Peminatan Spesialisasi | 6 CPL (**KK1 s.d. KK6**) @ 2 per peminatan | ✅ Terpenuhi |
-| **Keterlacakan Bahan Kajian (BoK)** | Wajib memetakan BoK asosiasi | 19 BoK IS2020 + 14 BoK IT2017 terpetakan penuh | ✅ Terpenuhi |
+| **Keterlacakan Bahan Kajian (BoK)** | Wajib memetakan BoK asosiasi | 21 BoK IS2020 + 15 BoK IT2017 terpetakan penuh, mencakup seluruh BK kompetensi utama wajib | ✅ Terpenuhi |
 | **Keterlacakan Profil Lulusan (PL)** | Minimal 3 CPL per PL | Tiap PL ditopang oleh 8 s.d. 10 CPL | ✅ Terpenuhi |
 | **Kesesuaian Taksonomi Bloom** | C2 s.d. C6 / A3 | Seluruh CPL memiliki target Bloom yang jelas | ✅ Terpenuhi |
 
@@ -82,7 +82,7 @@
 graph TD
     PL["PROFIL LULUSAN (PL-1 s.d. PL-4)<br/>& PEO (PEO-1 s.d. PEO-3)"]
     CPL["14 CAPAIAN PEMBELAJARAN LULUSAN (CPL)<br/>S1 | KU1-3 | P1-4 | KK1-6"]
-    BOK["BODY OF KNOWLEDGE (BoK)<br/>19 BoK IS2020 + 14 BoK IT2017"]
+    BOK["BODY OF KNOWLEDGE (BoK)<br/>21 BoK IS2020 + 15 BoK IT2017"]
     MK["STRUKTUR MATA KULIAH (55 MK / 146 SKS)<br/>Level Penguasaan: I - R - M"]
     CPMK["CPMK (Capaian Pembelajaran MK)<br/>Format ABCD + KKO Bloom C2-C6"]
     SUBCPMK["SUB-CPMK (Unit Kemampuan Mingguan)<br/>16 Pertemuan + 4x Titik Asesmen Baku"]
@@ -105,8 +105,8 @@ graph TD
 | Standar Rujukan | Lembaga / Penerbit | Fokus Rujukan pada Kurikulum SISTEKIN |
 |---|---|---|
 | **Permendikbudristek No. 53/2023** | Kemendikbudristek RI | Standar Penjaminan Mutu, Fleksibilitas MBKM, Beban Min. 144 SKS, Opsi TA Non-Skripsi. |
-| **IS2020** | ACM / AIS / APTIKOM SI v2.0 | Standar Kurikulum Sistem Informasi, 17 CPL-P, 17 CPL-K, dan 19 Bahan Kajian. |
-| **IT2017 / CC2020** | ACM / IEEE / APTIKOM TI 2023 | Standar Kurikulum Teknologi Informasi, Infrastruktur, Cloud, Cybersecurity, dan IoT. |
+| **IS2020** | ACM / AIS / APTIKOM SI v2.0 | Standar Kurikulum Sistem Informasi: 17 CPL-P, 17 CPL-K, dan 19 Bahan Kajian master (11 kompetensi utama wajib diadopsi + 1 umum + 7 pendukung). |
+| **IT2017 / CC2020** | ACM / IEEE / APTIKOM TI 2023 | Standar Kurikulum Teknologi Informasi: 27 Bahan Kajian master (14 penciri utama wajib diadopsi + 13 penciri pendukung), Infrastruktur, Cloud, Cybersecurity, IoT, dan Praktek Profesional Global. |
 | **KKNI Level 6 & SKKNI** | BNSP / Kemnaker RI | Deskriptor Kualifikasi Sarjana Terapan dan Sertifikasi Profesi Bidang Komputasi. |
 | **LAM INFOKOM & IABEE** | Lembaga Akreditasi Mandiri | Kriteria Akreditasi OBE, Keterlacakan Matriks, Ketercapaian CPL (*CQI/PPEPP*). |
 
@@ -118,7 +118,7 @@ graph TD
 |---|---|---|
 | [001_ANALISIS_VMTS...md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.md) | Analisis VMTS & Positioning | Visi Keilmuan 2045, Analisis SWOT & Diferensiasi Prodi. |
 | [002_FORMULASI_3_PEO...md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/002_FORMULASI_3_PEO_DAN_4_PROFIL_LULUSAN_SISTEKIN.md) | Formulasi 3 PEO & 4 PL | 3 PEO & 4 Profil Lulusan Role-Based + Indikator Kinerja. |
-| [003_STANDAR_14_CPL...md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.md) | Standar 14 CPL & BoK | Detail 14 CPL, Genealogi Sumber, 19 BoK IS & 14 BoK IT. |
+| [003_STANDAR_14_CPL...md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.md) | Standar 14 CPL & BoK | Detail 14 CPL, Genealogi Sumber, 21 BoK IS & 15 BoK IT. |
 | [004_MATRIKS_KETERLACAKAN...md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.md) | Matriks Keterlacakan OBE | Matriks Makro VMTS ↔ PEO ↔ PL ↔ CPL ↔ MK (Level I-R-M). |
 | [005_STRUKTUR_KURIKULUM...md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md) | Struktur Kurikulum 8 Semester | Paket 55 MK / 146 SKS Ditempuh (Portofolio 67 MK / 182 SKS). |
 | [006_DISTRIBUSI_PEMINATAN...md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.md) | Distribusi Peminatan & MBKM | 3 Peminatan @ 18 SKS & Panduan Ekuivalensi 20 SKS MBKM. |

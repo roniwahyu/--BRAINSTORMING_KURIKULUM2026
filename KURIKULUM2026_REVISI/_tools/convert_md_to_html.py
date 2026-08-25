@@ -31,6 +31,9 @@ DOC_FILES = [
     ("016_ANALISIS_BoK_APTIKOM_REDUNDANSI_DAN_PIPELINE_AI.md", "016 — Analisis BoK APTIKOM, Audit Redundansi & Pipeline AI"),
     ("017_AUDIT_FORENSIK_ZERO_REDUNDANCY_DAN_ZERO_GAP.md", "017 — Audit Forensik Zero Redundancy & Zero Gap 5 Domain"),
     ("018_PANDUAN_RUBRIK_KLASTER_DAN_MODEL_ASESMEN_OBE_DOSEN.md", "018 — Panduan Master Rubrik Klaster & Model Asesmen Dosen"),
+    ("020_TEMPLATE_BUKU_KURIKULUM_KPT_OBE_APTIKOM.md", "020 — Template Buku Kurikulum KPT-OBE & Analisis Gap"),
+    ("021_PANDUAN_KPT2024_DIKTI_FULLTEXT.md", "021 — Panduan KPT 2024 Belmawa Dikti (Teks Lengkap)"),
+    ("022_AUDIT_KELENGKAPAN_KOMPONEN_VS_TEMPLATE_KPT_OBE.md", "022 — Audit Kelengkapan Komponen vs Template KPT-OBE"),
     ("BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md", "📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)")
 ]
 

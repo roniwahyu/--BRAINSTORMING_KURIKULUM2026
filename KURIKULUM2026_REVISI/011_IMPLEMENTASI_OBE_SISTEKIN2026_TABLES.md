@@ -24,7 +24,7 @@
 | 8 | Kurikulum OBE | Semua mata kuliah dipetakan terhadap CPL. | Ya | 55 MK (paket) dan 67 MK (portofolio) dipetakan pada Sheet 5 (Dok. 004). |
 | 9 | Kurikulum OBE | Struktur mata kuliah per semester dan total SKS tersedia. | Ya | 55 MK / 146 SKS paket ditempuh; 67 MK / 182 SKS portofolio; 8 semester (Dok. 005). |
 | 10 | Kurikulum OBE | Peta pemenuhan CPL oleh mata kuliah (level I-R-M) tersedia. | Ya | Tersedia pada Sheet 7 (Dok. 004). |
-| 11 | Kurikulum OBE | Bahan Kajian (BK) telah difinalkan dan dipetakan CPL-BK-MK. | Ya | 19 BK IS2020 + 14 BK IT2017 dipetakan penuh (Dok. 003). |
+| 11 | Kurikulum OBE | Bahan Kajian (BK) telah difinalkan dan dipetakan CPL-BK-MK. | Ya | 21 BK IS2020 + 15 BK IT2017 dipetakan penuh, mencakup 11 BK kompetensi utama IS2020 & 14 BK penciri utama IT2017 yang wajib diadopsi (Dok. 003). |
 | 12 | OBLT | Setiap mata kuliah memiliki RPS berbasis CPL/CPMK/Sub-CPMK. | Ya | CPMK dan Sub-CPMK seluruh 67 MK tersedia pada Dok. 007. |
 | 13 | OBLT | Metode pembelajaran selaras dengan CPMK dan asesmen. | Ya | Case Method + PjBL >= 60% sesuai IKU 7; diverifikasi Dok. 008. |
 | 14 | OBLAE | Rencana evaluasi dan bobot penilaian setiap MK tersedia. | Ya | Skema 4x Asesmen (T1=20%, UTS=25-30%, T2=20-25%, UAS=30%) pada Dok. 007 & 008. |
@@ -416,7 +416,7 @@
 |---|---|
 | 1 | 14 CPL (S1, KU1-3, P1-4, KK1-6) disusun dari 4 PL sesuai SN-Dikti + APTIKOM IS2020/IT2017; terverifikasi penuh pada Dok. 002, 003, dan 004. |
 | 2 | Pemetaan CPL-MK dan level I/R/M didasarkan Dok. 004; konsistensi terhadap CPMK dan Sub-CPMK telah divalidasi pada Dok. 007. |
-| 3 | 19 BK IS2020 + 14 BK IT2017 dipetakan ke CPL dan MK secara penuh (Dok. 003). Kepatuhan IKU 7 (Case Method + PjBL >= 60%) terverifikasi di Dok. 008. |
+| 3 | 21 BK IS2020 + 15 BK IT2017 dipetakan ke CPL dan MK secara penuh (Dok. 003). Termasuk BK-IS20 (Ethics), BK-IS21 (Internship), dan BK-IT15 (Global Professional Practice) sebagai pemenuhan adopsi BK kompetensi utama wajib. Kepatuhan IKU 7 (Case Method + PjBL >= 60%) terverifikasi di Dok. 008. |
 | 4 | Sheet 9-12 adalah template implementasi asesmen. CPL program sah dihitung setelah data nilai aktual semester berjalan terintegrasi ke SIAKAD. |
 | 5 | Sistem asesmen OBE lengkap (Formula CPL Attainment, 4 Rubrik Analitik Master, Siklus PPEPP/CQI, Radar SKPI) tersedia pada Dok. 008 dan 009. |
 | 6 | STI-405 (Dasar Keamanan Informasi) = 2 SKS Teori (Sem 4). STI-602 (Smart City & Pemerintahan Digital) = 2 SKS Teori Non-Praktikum (Sem 6). |

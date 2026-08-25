@@ -54,7 +54,7 @@
 
 ## 3. PEMETAAN CPL KK → BODY OF KNOWLEDGE (BoK)
 
-### 3.1 BoK IS2020 (19 Bahan Kajian)
+### 3.1 BoK IS2020 (21 Bahan Kajian)
 | No | Kode BK | Nama Bahan Kajian IS2020 | CPL KK Terkait |
 |:---:|---|---|:---:|
 | 1 | BK-IS01 | Foundations of Information Systems | KK1, KK5 |
@@ -76,8 +76,13 @@
 | 17 | BK-IS17 | Human-Computer Interaction & UX | KK5 |
 | 18 | BK-IS18 | Machine Learning and Data Science | KK1, KK2 |
 | 19 | BK-IS19 | Cloud Architecture & DevOps | KK3 |
+| 20 | BK-IS20 | Ethics, Use and Implications for Society | KK4 |
+| 21 | BK-IS21 | Internship and Professional Practice | — *(membina `S1` & `KU1`–`KU3`)* |
 
-### 3.2 BoK IT2017 (14 Bahan Kajian Utama)
+> [!NOTE]
+> `BK-IS20` dan `BK-IS21` adalah BK kompetensi **utama** IS2020 yang wajib diadopsi. `BK-IS21` tidak membina CPL Keterampilan Khusus secara langsung karena sasarannya adalah ranah Sikap dan Keterampilan Umum — pemetaan lengkapnya terdapat pada Dokumen `003` §4 dan `009A`/`009B`.
+
+### 3.2 BoK IT2017 (15 Bahan Kajian Utama)
 | No | Kode BK | Nama Bahan Kajian IT2017 | CPL KK Terkait |
 |:---:|---|---|:---:|
 | 1 | BK-IT01 | Information Technology Fundamentals | KK3 |
@@ -94,6 +99,10 @@
 | 12 | BK-IT12 | IT Risk Management and Compliance | KK4 |
 | 13 | BK-IT13 | Technology Entrepreneurship | KK6 |
 | 14 | BK-IT14 | IoT and Embedded Smart Systems | KK1, KK3 |
+| 15 | BK-IT15 | Global Professional Practice | — *(membina `S1` & `KU1`–`KU3`)* |
+
+> [!NOTE]
+> `BK-IT15` adalah BK **penciri utama** IT2017 yang wajib diadopsi (`BK08 Praktek Profesional Global`). Sebagaimana `BK-IS21`, sasarannya adalah ranah Sikap dan Keterampilan Umum, bukan Keterampilan Khusus.
 
 ---
 

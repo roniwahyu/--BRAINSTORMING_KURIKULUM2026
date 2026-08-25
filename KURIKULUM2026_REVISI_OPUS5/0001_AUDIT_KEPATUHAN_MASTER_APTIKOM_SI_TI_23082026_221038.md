@@ -10,6 +10,30 @@
 
 ---
 
+> [!IMPORTANT]
+> ## STATUS DOKUMEN — DIPERBARUI 23 Agustus 2026, 23:05 WIB
+>
+> Dokumen ini adalah **potret kondisi pada 22:10:38 WIB**. Setelah audit ini disusun, **Jalur A dieksekusi** (lihat `0002_LAPORAN_PELAKSANAAN_JALUR_A_PERBAIKAN_BoK_DAN_CAPSTONE_23082026_225830.md`) sehingga **3 dari 7 deviasi telah teratasi**.
+>
+> | Kode | Temuan | Status di dokumen ini | **Status aktual** |
+> |:---:|---|:---:|:---:|
+> | **C-2** | 2 dari 11 BK Utama [SI] tanpa padanan | DEVIASI | ✅ **TERATASI** — `BK-IS20` *Ethics* & `BK-IS21` *Internship* ditambahkan |
+> | **C-3** | 1 dari 14 BK Penciri Utama [TI] tanpa padanan | DEVIASI | ✅ **TERATASI** — `BK-IT15` *Global Professional Practice* ditambahkan |
+> | **C-8** | Kriteria capstone 4 dari 7 terpenuhi | DEVIASI | ✅ **TERATASI** — 7 dari 7 kini dinyatakan di `009` §1 |
+> | — | Redaksi klaim "14/27 Bahan Kajian" | Tidak akurat | ✅ **DIPERBAIKI** — `003:24` |
+> | **C-4** | Kodifikasi CPMK tanpa jejak CPL | DEVIASI | ⏳ **MASIH BERLAKU** — terverifikasi ulang: 226 kode tetap format `CPMK-n`, 0 kode format `CPMK011` |
+> | **C-5** | Kriteria SMART tidak diterapkan | DEVIASI | ⏳ **MASIH BERLAKU** — terverifikasi ulang: 0 hit `specific.*measurable` |
+> | **C-6** | Sub-CPMK tanpa kodifikasi | DEVIASI | ⏳ **MASIH BERLAKU** — terverifikasi ulang: 0 kode `Sub-CPMK-n` |
+> | **C-7** | Struktur 12 bagian buku tidak diikuti | DEVIASI | ⏳ **MASIH BERLAKU** — terverifikasi ulang: 5 heading BAB, Visi 2045 & rumusan CPL tetap 0 hit |
+>
+> **Rekapitulasi aktual: 14 PATUH · 4 DEVIASI · 6 DI LUAR MASTER.**
+>
+> Angka Bahan Kajian SISTEKIN yang berlaku sekarang adalah **21 BK-IS** dan **15 BK-IT** (sebelumnya 19 dan 14). Setiap penyebutan "19 BK-IS" atau "14 BK-IT" dalam badan dokumen ini merujuk kondisi sebelum perbaikan dan **dipertahankan apa adanya** sebagai rekaman diagnostik — bukan kekeliruan yang perlu dikoreksi.
+>
+> Bagian yang tetap berlaku penuh tanpa perubahan: **Bagian A** (baseline normatif master), **C-1**, **C-9** s.d. **C-13**, **Bagian D** (batas audit).
+
+---
+
 ## KONVENSI PELAPORAN
 
 | Verdикt | Arti |
@@ -34,13 +58,13 @@ Satu temuan bersifat substantif terhadap keilmuan: dari 11 Bahan Kajian kompeten
 | No | Temuan | Verdикt |
 |:---:|---|:---:|
 | C-1 | Jumlah CPL, PL, peminatan, SKS, MKWK | **PATUH** (5 aspek) |
-| C-2 | 2 dari 11 BK Utama [SI] tanpa padanan | **DEVIASI** |
-| C-3 | 1 dari 14 BK Penciri Utama [TI] tanpa padanan | **DEVIASI** |
-| C-4 | Kodifikasi CPMK tanpa jejak CPL | **DEVIASI** |
-| C-5 | Kriteria SMART tidak diterapkan | **DEVIASI** |
-| C-6 | Sub-CPMK tanpa kodifikasi & tanpa tabel pemetaan | **DEVIASI** |
-| C-7 | Struktur 12 bagian buku tidak diikuti | **DEVIASI** |
-| C-8 | Kriteria capstone [SI] tidak lengkap dipenuhi | **DEVIASI** |
+| C-2 | 2 dari 11 BK Utama [SI] tanpa padanan | ~~DEVIASI~~ → ✅ **TERATASI** |
+| C-3 | 1 dari 14 BK Penciri Utama [TI] tanpa padanan | ~~DEVIASI~~ → ✅ **TERATASI** |
+| C-4 | Kodifikasi CPMK tanpa jejak CPL | **DEVIASI** ⏳ |
+| C-5 | Kriteria SMART tidak diterapkan | **DEVIASI** ⏳ |
+| C-6 | Sub-CPMK tanpa kodifikasi & tanpa tabel pemetaan | **DEVIASI** ⏳ |
+| C-7 | Struktur 12 bagian buku tidak diikuti | **DEVIASI** ⏳ |
+| C-8 | Kriteria capstone [SI] tidak lengkap dipenuhi | ~~DEVIASI~~ → ✅ **TERATASI** |
 | C-9 | Genealogi CPL-P01..P17 / CPL-K01..K17 | **PATUH** |
 | C-10 | Formula ketercapaian CPL | **DI LUAR MASTER** |
 | C-11 | Skema 4 titik asesmen & IKU 7 | **DI LUAR MASTER** |
@@ -179,7 +203,9 @@ Kewajiban penetapan: "Program studi **harus menentukan** MK yang memenuhi kriter
 
 Catatan: `FST-714` Skripsi 6 SKS berada di luar rentang "umumnya 2 atau 3 SKS", tetapi [TI] mencontohkan "MK25 Tugas Akhir | 6" (baris 3743–3752), sehingga 6 SKS untuk TA justru selaras dengan contoh master.
 
-## C-2. Dua dari Sebelas BK Kompetensi Utama [SI] Tanpa Padanan — **DEVIASI**
+## C-2. Dua dari Sebelas BK Kompetensi Utama [SI] Tanpa Padanan — ~~**DEVIASI**~~ → ✅ **TERATASI (Jalur A)**
+
+> **Status:** Temuan ini telah ditindaklanjuti. `BK-IS20` *Ethics, Use and Implications for Society* dan `BK-IS21` *Internship and Professional Practice* kini ada di `003`, `004`, `009D`, `009E`, `011`, dan Buku Final. Uraian di bawah adalah rekaman kondisi **sebelum** perbaikan.
 
 [SI] baris 736 menetapkan kata **"mengadopsi"** untuk 11 BK kompetensi utama. Pemetaan 19 BK-IS SISTEKIN (`003:114-132`) terhadap 11 BK wajib tersebut:
 
@@ -220,7 +246,9 @@ Jadi deviasinya bukan kekosongan kurikuler, melainkan **ketiadaan entri Bahan Ka
 
 **Catatan lanjutan.** BK12 *Research Methodology* (kategori **Umum** pada [SI], baris 761) juga tidak memiliki padanan entri BK di SISTEKIN, meski MK `FST-611` Metodologi Penelitian ada. Karena kategorinya "Umum" dan bukan "Utama", ini tidak masuk hitungan deviasi terhadap kata "mengadopsi 11 BK kompetensi utama".
 
-## C-3. Satu dari Empat Belas BK Penciri Utama [TI] Tanpa Padanan — **DEVIASI**
+## C-3. Satu dari Empat Belas BK Penciri Utama [TI] Tanpa Padanan — ~~**DEVIASI**~~ → ✅ **TERATASI (Jalur A)**
+
+> **Status:** Temuan ini telah ditindaklanjuti. `BK-IT15` *Global Professional Practice* kini ada di seluruh dokumen BK. Uraian di bawah adalah rekaman kondisi **sebelum** perbaikan.
 
 [TI] baris 1486 menetapkan **"mengadopsi 14 BK Penciri Utama"**. Pemetaan 14 BK-IT SISTEKIN (`003:142-155`):
 
@@ -247,7 +275,7 @@ Jadi deviasinya bukan kekosongan kurikuler, melainkan **ketiadaan entri Bahan Ka
 
 **Klaim "14/27" perlu dikoreksi redaksinya.** `003:24` menuliskan `IT2017["APTIKOM IT2017 (14/27 Bahan Kajian)"]`. Angka 27 memang benar sebagai total BK [TI] (BK01–BK27, terverifikasi [TI] baris 1496–2004). Namun frasa "14/27" mengimplikasikan bahwa 14 BK yang diambil adalah subset dari 27 — padahal nama dan cakupan 14 BK-IT SISTEKIN **tidak identik** dengan BK01–BK14 [TI]. Redaksi yang akurat: "14 BK-IT SISTEKIN, dirumuskan ulang dari 27 BK IT2017/CC2020".
 
-## C-4. Kodifikasi CPMK Tidak Membawa Jejak CPL — **DEVIASI**
+## C-4. Kodifikasi CPMK Tidak Membawa Jejak CPL — **DEVIASI** ⏳ *(masih berlaku, terverifikasi ulang 23:05)*
 
 Ini deviasi terhadap aturan yang **kedua master tulis identik dan normatif**.
 
@@ -272,7 +300,7 @@ Tidak ada satu pun kode berformat `CPMK011` (3 digit). Seluruh 226 kode memakai 
 
 **Catatan angka.** Sebaran 65/65/62/34 mengonfirmasi temuan dokumen 019 (P1-1): 31 MK tidak memiliki 4 CPMK. Di sini relevansinya berbeda — bukan soal jumlah, tetapi bahwa penomoran lokal 1..n membuat ketiadaan CPMK-4 tampak sebagai "kurang satu nomor", sedangkan dengan format master ketiadaannya akan langsung terbaca sebagai CPL mana yang tidak diases.
 
-## C-5. Kriteria SMART Tidak Diterapkan — **DEVIASI**
+## C-5. Kriteria SMART Tidak Diterapkan — **DEVIASI** ⏳ *(masih berlaku, terverifikasi ulang 23:05)*
 
 | Master | Aturan | Baris |
 |---|---|:---:|
@@ -297,7 +325,7 @@ Deviasinya bukan pada pemakaian Bloom — master tidak melarangnya — melainkan
 
 ---
 
-## C-6. Sub-CPMK Tanpa Kodifikasi dan Tanpa Tabel Pemetaan — **DEVIASI**
+## C-6. Sub-CPMK Tanpa Kodifikasi dan Tanpa Tabel Pemetaan — **DEVIASI** ⏳ *(masih berlaku, terverifikasi ulang 23:05)*
 
 [SI] baris 1269 (INSTRUKSI, normatif): *"Program Studi **membuat Sub-CPMK** dari masing-masing CPMK yang ditetapkan seperti pada **Tabel 15**."* Tabel 15 [SI] (baris 1271–1313) berbentuk pemetaan eksplisit CPMK → Sub-CPMK dengan kode.
 
@@ -319,7 +347,7 @@ Struktur aktual (`007:85-92`): kolom kedua Tabel C berjudul "Sub-CPMK & Kemampua
 
 Karena master **tidak mengatur jumlah** Sub-CPMK per CPMK, banyaknya rumusan (16 per MK, satu per pekan) bukan deviasi. Deviasinya murni pada kodifikasi dan tabel pemetaan.
 
-## C-7. Struktur 12 Bagian Buku Kurikulum Tidak Diikuti — **DEVIASI**
+## C-7. Struktur 12 Bagian Buku Kurikulum Tidak Diikuti — **DEVIASI** ⏳ *(masih berlaku, terverifikasi ulang 23:05)*
 
 Kedua master memakai kata **"menyusun… dengan mengikuti struktur"** ([SI] 374) dan menetapkan 12 bagian. Uji keberadaan setiap bagian pada `BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md` (4.044 baris), memakai pencarian judul **dan** pencarian substansi:
 
@@ -360,7 +388,9 @@ Jadi dua bagian yang master tempatkan sebagai inti Standar Kompetensi Lulusan �
 
 **Catatan proporsionalitas.** Master menyediakan struktur sebagai kerangka; prodi boleh menamai bab berbeda. Yang menjadikan ini deviasi bukan perbedaan nama, melainkan **tiga bagian wajib yang tidak memiliki representasi sama sekali** (Matriks dan Peta Kurikulum, Standar Kompetensi Lulusan, Asesmen Pembelajaran sebagai bagian tersendiri) ditambah **dua bagian yang ada judulnya tetapi kosong isinya** (VMTS, rumusan CPL).
 
-## C-8. Kriteria Capstone [SI] Tidak Lengkap Dipenuhi — **DEVIASI**
+## C-8. Kriteria Capstone [SI] Tidak Lengkap Dipenuhi — ~~**DEVIASI**~~ → ✅ **TERATASI (Jalur A)**
+
+> **Status:** Temuan ini telah ditindaklanjuti. Dokumen `009` kini memuat §1 normatif dengan tabel pemenuhan 7 dari 7 kriteria dan tabel 7 atribut *complex computing problem*. Uraian di bawah adalah rekaman kondisi **sebelum** perbaikan.
 
 [SI] baris 1047–1065 menetapkan 7 kriteria; baris 828 menyatakan prodi **"wajib menyatakan"** MK yang memenuhinya. Uji terhadap `009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.md` (78 baris) dan `FST-610` Capstone Project FSTI (3 SKS, Sem 7):
 
@@ -468,13 +498,13 @@ Ini juga menjelaskan mengapa temuan C-2 dan C-3 penting: kekuatan SISTEKIN dalam
 | C-1g | Batas Sem 3+ | ≤24 SKS | Normatif | maks 21 | **PATUH** |
 | C-1h | MKWK 4 wajib | Wajib UU 12/2012 | Normatif | Lengkap, 2 tahun pertama | **PATUH** |
 | C-1i | Bobot SKS per MK | Umumnya 2–3 | Anjuran | 2–3 (TA 6) | **PATUH** |
-| C-2 | Adopsi 11 BK Utama [SI] | "mengadopsi 11" | **Normatif** | 9 dari 11 | **DEVIASI** |
-| C-3 | Adopsi 14 BK Penciri Utama [TI] | "mengadopsi 14" | **Normatif** | 13 dari 14, 3 ganda | **DEVIASI** |
+| C-2 | Adopsi 11 BK Utama [SI] | "mengadopsi 11" | **Normatif** | ~~9 dari 11~~ → **11 dari 11** | ✅ **PATUH** *(Jalur A)* |
+| C-3 | Adopsi 14 BK Penciri Utama [TI] | "mengadopsi 14" | **Normatif** | ~~13 dari 14~~ → **14 dari 14** | ✅ **PATUH** *(Jalur A)* |
 | C-4 | Kodifikasi CPMK | `CPMK011` (kode CPL + urut) | **Normatif, 2 master** | `CPMK-n` lokal | **DEVIASI** |
 | C-5 | Kriteria SMART | 5 kriteria | **Normatif, 2 master** | Tidak diterapkan (0 hit) | **DEVIASI** |
 | C-6 | Sub-CPMK berkode + Tabel 15 | INSTRUKSI [SI] 1269 | **Normatif** | Naratif, tanpa kode/tabel | **DEVIASI** |
 | C-7 | Struktur 12 bagian buku | "mengikuti struktur" | **Normatif** | 3 bagian absen, 2 kosong isi | **DEVIASI** |
-| C-8 | 7 kriteria capstone | "wajib menyatakan" | **Normatif** | 4 dari 7 terpenuhi | **DEVIASI** |
+| C-8 | 7 kriteria capstone | "wajib menyatakan" | **Normatif** | ~~4 dari 7~~ → **7 dari 7** | ✅ **PATUH** *(Jalur A)* |
 | C-9 | Genealogi CPL-P/CPL-K | "dapat mengadopsi" | Izin | Diterapkan | **PATUH** |
 | C-10 | Formula ketercapaian CPL | Kebijakan prodi | Diserahkan | SKS-weighted, ambang 65/80% | **DI LUAR MASTER** |
 | C-11a | Total bobot per MK = 100 | Normatif | **Normatif** | 100% pada 65/65 MK | **PATUH** |
@@ -485,7 +515,9 @@ Ini juga menjelaskan mengapa temuan C-2 dan C-3 penting: kekuatan SISTEKIN dalam
 | C-13 | Penambahan BK penciri khas | "dapat menambah" | Izin | 8 BK tambahan | **PATUH** |
 | — | Opsi TA non-skripsi | Tidak diatur | — | 4 opsi | **DI LUAR MASTER** |
 
-**Rekapitulasi:** 11 PATUH · 7 DEVIASI · 6 DI LUAR MASTER.
+**Rekapitulasi saat audit disusun (22:10):** 11 PATUH · 7 DEVIASI · 6 DI LUAR MASTER.
+
+**Rekapitulasi aktual setelah Jalur A (23:05):** **14 PATUH · 4 DEVIASI · 6 DI LUAR MASTER.** Deviasi yang tersisa: C-4, C-5, C-6, C-7.
 
 ## C.2 Bobot Deviasi Berdasarkan Sifat Aturan yang Dilanggar
 

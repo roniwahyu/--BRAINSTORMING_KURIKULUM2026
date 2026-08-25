@@ -20,8 +20,8 @@ graph TD
 
     subgraph RUJUKAN ["STANDAR RUJUKAN NASIONAL & INTERNASIONAL"]
         SNDIKTI["SN-Dikti Permendikbudristek 53/2023"]
-        IS2020["APTIKOM IS2020 (19 Bahan Kajian)"]
-        IT2017["APTIKOM IT2017 (14/27 Bahan Kajian)"]
+        IS2020["APTIKOM IS2020 (21 Bahan Kajian)"]
+        IT2017["APTIKOM IT2017 (15 BK, dirumuskan dari 27 BK)"]
     end
 
     SNDIKTI --> S & KU
@@ -105,9 +105,9 @@ Setiap CPL diturunkan ke dalam **Indikator Kinerja (IK/PI)** terukur dengan pene
 
 ---
 
-## 4. MATRIKS SILANG CPL ↔ 19 BAHAN KAJIAN (BoK) IS2020 (APTIKOM v2.0)
+## 4. MATRIKS SILANG CPL ↔ 21 BAHAN KAJIAN (BoK) IS2020 (APTIKOM v2.0)
 
-Berikut adalah matriks cross-tabulation pemenuhan 19 Bahan Kajian Standar APTIKOM S1 Sistem Informasi (IS2020) terhadap 14 CPL SISTEKIN:
+Berikut adalah matriks cross-tabulation pemenuhan 21 Bahan Kajian Standar APTIKOM S1 Sistem Informasi (IS2020) terhadap 14 CPL SISTEKIN. Dari 21 Bahan Kajian ini, **11 di antaranya merupakan BK kompetensi utama yang wajib diadopsi** menurut INSTRUKSI Panduan OBE APTIKOM SI v2.0, dan 10 sisanya merupakan BK pendukung serta BK penciri khas Prodi SISTEKIN:
 
 | Kode Bahan Kajian (BoK) | Nomenklatur Bahan Kajian IS2020 | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 |
 |---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -130,12 +130,18 @@ Berikut adalah matriks cross-tabulation pemenuhan 19 Bahan Kajian Standar APTIKO
 | **BK-IS17** | *Human-Computer Interaction & UX* | | | | | | | | ✅ | | | | | ✅ | |
 | **BK-IS18** | *Machine Learning and Data Science* | | | | | ✅ | | | | ✅ | ✅ | | | | |
 | **BK-IS19** | *Cloud Architecture & DevOps* | | | | | | | ✅ | | | | ✅ | | | |
+| **BK-IS20** | *Ethics, Use and Implications for Society* | ✅ | | | ✅ | | | ✅ | | | | | ✅ | | |
+| **BK-IS21** | *Internship and Professional Practice* | ✅ | ✅ | ✅ | ✅ | | | | | | | | | | |
+
+> [!NOTE]
+> **Kepatuhan Adopsi BK Kompetensi Utama IS2020.** `BK-IS20` dan `BK-IS21` ditetapkan untuk memenuhi INSTRUKSI Panduan OBE APTIKOM SI v2.0 yang mewajibkan Program Studi **mengadopsi 11 BK kompetensi utama**, yaitu `BK09 Ethics, use and implications for society` (referensi IS2020) dan `BK10 Internship` (referensi **IABEE**). Kedua BK ini sebelumnya belum memiliki entri tersendiri meskipun mata kuliah pembinanya telah tersedia (`FST-206` dan `FST-612`).
+> `BK-IS20` sekaligus menjadi Bahan Kajian pertama yang membina **CPL Sikap (`S1`)** secara langsung, dan `BK-IS21` menjadi wadah formal capaian Keterampilan Umum melalui pengalaman kerja profesional.
 
 ---
 
-## 5. MATRIKS SILANG CPL ↔ 14 BAHAN KAJIAN UTAMA (BoK) IT2017 (APTIKOM)
+## 5. MATRIKS SILANG CPL ↔ 15 BAHAN KAJIAN UTAMA (BoK) IT2017 (APTIKOM)
 
-Berikut adalah matriks cross-tabulation pemenuhan 14 Bahan Kajian Utama Standar APTIKOM S1 Teknologi Informasi (IT2017/CC2020) terhadap 14 CPL SISTEKIN:
+Berikut adalah matriks cross-tabulation pemenuhan 15 Bahan Kajian Utama Standar APTIKOM S1 Teknologi Informasi (IT2017/CC2020) terhadap 14 CPL SISTEKIN:
 
 | Kode Bahan Kajian (BoK) | Nomenklatur Bahan Kajian Utama IT2017 | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 |
 |---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -153,6 +159,11 @@ Berikut adalah matriks cross-tabulation pemenuhan 14 Bahan Kajian Utama Standar 
 | **BK-IT12** | *IT Risk Management and Compliance* | | | | | | | | | | | | ✅ | | |
 | **BK-IT13** | *Technology Entrepreneurship* | | | | | | | | | | | | | | ✅ |
 | **BK-IT14** | *IoT and Embedded Smart Systems* | | | | | | | | | ✅ | | ✅ | | | |
+| **BK-IT15** | *Global Professional Practice* | ✅ | ✅ | ✅ | ✅ | | | | | | | | | | |
+
+> [!NOTE]
+> **Kepatuhan Adopsi BK Penciri Utama IT2017.** `BK-IT15` ditetapkan untuk memenuhi ketentuan Panduan Kurikulum OBE Prodi S1 Teknologi Informasi 2023 yang mewajibkan Program Studi **mengadopsi 14 BK Penciri Utama**, yaitu `BK08 Praktek Profesional Global` (referensi IT-2017) yang sebelumnya belum memiliki entri padanan.
+> Bahan Kajian ini membina kesiapan lulusan bekerja pada lingkungan profesional lintas negara dan lintas budaya, dan dibina oleh `FST-205` Basic English for IT (komunikasi teknis berbahasa Inggris), `FST-206` Etika Profesi & Hukum Digital, `MKU-507` Kuliah Pengabdian kepada Masyarakat, serta `FST-612` Praktik Kerja Lapangan.
 
 ---
 
@@ -186,7 +197,7 @@ Berikut adalah matriks cross-tabulation pemenuhan 14 Bahan Kajian Utama Standar 
 
 Dengan tersusunnya dokumen komprehensif ini:
 1. **Validitas Standar:** Formulasi 14 CPL telah memenuhi 100% amanat SN-Dikti Permendikbudristek No. 53/2023 dan Standar APTIKOM v2.0 (IS2020 + IT2017).
-2. **Keterlacakan Sempurna (*Traceability*):** Setiap CPL memiliki silsilah rujukan asli yang eksplisit, indikator kinerja terukur, pemetaan taksonomi Bloom, serta matriks silang lengkap terhadap 19 BoK IS, 14 BoK IT, 4 Profil Lulusan, dan 3 PEO.
+2. **Keterlacakan Sempurna (*Traceability*):** Setiap CPL memiliki silsilah rujukan asli yang eksplisit, indikator kinerja terukur, pemetaan taksonomi Bloom, serta matriks silang lengkap terhadap 21 BoK IS, 15 BoK IT, 4 Profil Lulusan, dan 3 PEO.
 3. **Kesiapan Naskah KPT:** Dokumen ini siap menjadi Bab IV definitif pada Buku Kurikulum KPT-OBE SISTEKIN 2026.
 
 ---

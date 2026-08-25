@@ -184,7 +184,7 @@ Ekosistem kurikulum telah diuji menggunakan dua engine audit independen berbasis
 2. **Indikator Kinerja Utama (IKU 7 Kemendikbudristek):**
    * Persentase mata kuliah dengan metode *Case Method* atau *Team-Based Project* mencapai **$\ge 50\%$**, didukung oleh 4x titik asesmen baku per mata kuliah.
 3. **Standar LAM INFOKOM & APTIKOM:**
-   * Keterlacakan penuh: `VMTS 2045` $\rightarrow$ `3 PEO` $\rightarrow$ `4 PL` $\rightarrow$ `14 CPL` $\rightarrow$ `19 BoK IS2020 & 14 BoK IT2017` $\rightarrow$ `55 MK Paket / 67 MK Portofolio`.
+   * Keterlacakan penuh: `VMTS 2045` $\rightarrow$ `3 PEO` $\rightarrow$ `4 PL` $\rightarrow$ `14 CPL` $\rightarrow$ `21 BoK IS2020 & 15 BoK IT2017` $\rightarrow$ `55 MK Paket / 67 MK Portofolio`.
 
 ---
 
