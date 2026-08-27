@@ -348,6 +348,7 @@ def main():
         "016_ANALISIS_BoK_APTIKOM_REDUNDANSI_DAN_PIPELINE_AI.md",
         "017_AUDIT_FORENSIK_ZERO_REDUNDANCY_DAN_ZERO_GAP.md",
         "018_PANDUAN_RUBRIK_KLASTER_DAN_MODEL_ASESMEN_OBE_DOSEN.md",
+        "024_MATRIKS_EKIVALENSI_KURIKULUM2025_KE_KURIKULUM2026.md",
     ]
     
     print("\n1. Mengonversi Masing-Masing Dokumen Kurikulum ke Excel Individu:")

@@ -102,6 +102,7 @@ KURIKULUM2026_REVISI/
 ├── 016_ANALISIS_BoK_APTIKOM_REDUNDANSI_DAN_PIPELINE_AI.md (Audit BoK APTIKOM & 5-Stage Pipeline AI)
 ├── 017_AUDIT_FORENSIK_ZERO_REDUNDANCY_DAN_ZERO_GAP.md ⭐ (Audit Forensik Zero Redundancy & Zero Gap 5 Domain)
 ├── 018_PANDUAN_RUBRIK_KLASTER_DAN_MODEL_ASESMEN_OBE_DOSEN.md ⭐ (Panduan Master 4 Klaster Rubrik & Model Asesmen Dosen)
+├── 024_MATRIKS_EKIVALENSI_KURIKULUM2025_KE_KURIKULUM2026.md ⭐ (Ekivalensi 56 MK K2025 → K2026, 5 Kategori E1-E5, 4 Klaster Peleburan, Tabel Entri SIAKAD)
 ├── BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md ⭐ (Naskah Utuh Lengkap Buku Kurikulum Bab 1-8 + Silabus)
 ├── GENERATE_EXCEL_011.bat (Trigger Batch Sekali Klik untuk Re-generate Excel)
 ├── GENERATE_HTML.bat (Trigger Batch Sekali Klik untuk Re-generate Seluruh File HTML & Portal)
@@ -124,6 +125,7 @@ KURIKULUM2026_REVISI/
 - **Fase Asesmen, Tugas Akhir, & Penjaminan Mutu:** Sistem Asesmen OBE (IKU 7 $\ge 50\%$, Formula Ketercapaian CPL, 4 Rubrik Analitik Master), Pedoman Capstone & 4 Opsi TA Non-Skripsi, serta Instrumen Tracer Study PEO telah **100% tuntas di Dokumen 008, 009, dan 010**.
 - **Fase Audit Kritis & Akselerasi:** Kunci konsensus `STI-103 Arsitektur & Organisasi Sistem TI` dan `STI-201 Matematika Diskrit dan Logika`, Solusi Mitigasi (013), Simulasi Fast-Track 7 Semester (015), Pipeline AI (016), dan Audit Forensik Zero Redundancy & Zero Gap (017) telah **100% tuntas dan terverifikasi di Dokumen 012–017**.
 - **Fase Naskah Buku Kurikulum Final:** Naskah utuh komprehensif Bab 1 s.d. Bab 8 (`BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md`, 445 KB) telah selesai dan 100% selaras dengan seluruh dokumen pendukung.
+- **Fase Ekivalensi & Transisi Kurikulum:** Matriks ekivalensi 56 MK Kurikulum 2025 (SIAKAD, 146 SKS) ke Kurikulum 2026 telah **100% tuntas di Dokumen 024**, mencakup 5 kategori penyetaraan (E1 Penuh 34 MK, E2 Bersyarat 11 MK, E3 Gabungan 8 MK, E4 Pecah 1 MK, E5 Tanpa Padanan 2 MK), 4 klaster peleburan MK (G-1 s.d. G-4, efisiensi −7 SKS), peringatan kolisi kode `STI-102`/`STI-103`, 18 MK baru K2026 (5 MK wajib / 14 SKS + 13 MK elektif), simulasi pengakuan SKS per jalur peminatan (P1/P2 = 120 SKS diakui, P3 = 117 SKS), serta tabel siap impor `mk_ekivalensi` SIAKAD (57 baris konversi).
 
 ---
 
