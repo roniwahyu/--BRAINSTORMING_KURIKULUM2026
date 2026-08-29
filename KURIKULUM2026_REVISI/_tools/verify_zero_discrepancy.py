@@ -13,6 +13,9 @@ EXEMPT = {
     "016_ANALISIS_BoK_APTIKOM_REDUNDANSI_DAN_PIPELINE_AI.md",
     "017_AUDIT_FORENSIK_ZERO_REDUNDANCY_DAN_ZERO_GAP.md",
     "019_AUDIT_KRITIS_KESELARASAN_FOLDER_REVISI_23082026_212923.md",
+    # Matriks ekivalensi: kolom "Kurikulum 2025" wajib memuat nomenklatur lama
+    # (STI-103 Logika Informatika) sebagai sisi asal konversi.
+    "024_MATRIKS_EKIVALENSI_KURIKULUM2025_KE_KURIKULUM2026.md",
 }
 
 print(f"Auditing {len(md_files)} markdown files in KURIKULUM2026_REVISI...")

@@ -2,9 +2,18 @@
 ## Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang
 
 **Dokumen Revisi Definitif Kurikulum 2026**
-**Sumber Data Kurikulum Lama:** `KURIKULUM2025/Laporan Daftar Kurikulum Prodi Sistekin.pdf` (Laporan SIAKAD, Kurikulum 2025, 56 MK / 146 SKS, dicetak 05 Agustus 2026)
+**Sumber Data Kurikulum Lama (GROUND TRUTH TUNGGAL):** `KURIKULUM2025/Laporan Daftar Kurikulum Prodi Sistekin.pdf` — Laporan resmi SIAKAD Universitas Widyagama Malang, Kurikulum 2025, **56 MK / 146 SKS**, 3 halaman, dicetak 05 Agustus 2026 oleh Syahroni Wahyu Iriananda, S.Kom., M.T. (`siakad.widyagama.ac.id/siakad/rep_kurikulumprodi`)
 **Sumber Data Kurikulum Baru:** Dokumen 005 (Struktur 8 Semester), Dokumen 006 (Peminatan & MBKM), Dokumen 011 (Matriks CPL–MK 67 MK Portofolio)
 **Standar Rujukan:** Permendikbudristek No. 53 Tahun 2023 (Pasal 24 tentang Pengakuan Hasil Belajar), Panduan KPT 2024 Ditjen Diktiristek, Panduan Kurikulum OBE APTIKOM v2.0.
+
+> [!IMPORTANT]
+> **Kaidah Ground Truth Kurikulum 2025.** Seluruh atribut mata kuliah Kurikulum 2025 pada dokumen ini — nomor urut, kode, nama, bobot SKS, nilai minimal, dan penempatan semester — **wajib bersumber langsung** dari PDF Laporan SIAKAD di atas. Tidak ada atribut K2025 yang boleh diturunkan dari dokumen antara, catatan rapat, ataupun ingatan penyusun. Setiap perubahan pada Bagian 3 dan Bagian 8 wajib divalidasi ulang dengan menjalankan:
+>
+> ```
+> python _tools/verify_k2025_ground_truth.py
+> ```
+>
+> Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit code 1) bila ditemukan penyimpangan pada 8 butir uji: integritas ekstraksi PDF, header sebaran SKS per semester, kecocokan baris demi baris (nomor urut, nama, SKS), penempatan semester asal, Zero Orphan, neraca kategori E1–E5, validitas kode target K2026, serta presisi semester MK elektif peminatan.
 
 ---
 
@@ -22,10 +31,21 @@ Kurikulum 2025 (K2025) memuat **56 Mata Kuliah / 146 SKS** yang seluruhnya berst
 | MK K2025 ekuivalen pecah (E4) | 1 MK | 3 SKS | `STI-101` (3 SKS) dipecah menjadi `STI-101` (2) + `FST-101` (2) |
 | MK K2025 tanpa padanan (E5) | 2 MK | 6 SKS | `STI-423` Game Design & Gamifikasi, `STI-638` Intelligent Signal Processing |
 | **TOTAL MK KURIKULUM 2025** | **56 MK** | **146 SKS** | **Seluruh MK lama terpetakan (Zero Orphan)** |
-| MK K2026 memiliki padanan K2025 | 49 MK | — | 73,1% dari 67 MK portofolio |
+| MK K2026 memiliki padanan K2025 | 49 MK | — | 73,1% dari 67 MK portofolio (rincian per semester: Bagian 3A) |
 | MK K2026 **BARU** tanpa padanan | 18 MK | — | 5 MK wajib paket (14 SKS) + 13 MK elektif peminatan |
 | **SKS diakui bagi lulusan penuh K2025** | — | **117–120 SKS** | Bergantung peminatan: P1/P2 = 120 SKS, P3 = 117 SKS |
 | **Defisit yang wajib ditempuh** | — | **26–29 SKS** | 14 SKS MK wajib baru + 12–15 SKS elektif peminatan |
+
+### STRUKTUR DOKUMEN INI (PETA NAVIGASI)
+
+Matriks disusun dua arah agar dapat dipakai oleh dua pengguna berbeda:
+
+| Kebutuhan Pengguna | Bagian yang Dibuka | Titik Tolak |
+|---|---|---|
+| Operator SIAKAD: "MK lama ini dikonversi ke mana?" | **Bagian 3** (matriks maju) dan **Bagian 8** (format entri basis data) | 56 MK Kurikulum 2025 |
+| Dosen Penasihat Akademik: "MK baru ini bisa diakui dari MK lama apa? Apa yang wajib ditempuh mahasiswa saya?" | **Bagian 3A** (matriks rekognisi arah balik per semester) | 67 MK portofolio Kurikulum 2026 |
+| Ketua Program Studi: "Berapa beban tambahan mahasiswa transisi?" | **Bagian 7** (simulasi pengakuan per skenario & tahap studi) | Paket 146 SKS Kurikulum 2026 |
+| Tim Penjaminan Mutu: "Apakah pemetaan ini dapat dipertanggungjawabkan?" | **Bagian 9** (audit keterlacakan 17 butir) | PDF Laporan SIAKAD |
 
 > [!IMPORTANT]
 > **Tiga temuan kritis yang wajib ditindaklanjuti sebelum entri SIAKAD:**
@@ -49,6 +69,25 @@ Kurikulum 2025 (K2025) memuat **56 Mata Kuliah / 146 SKS** yang seluruhnya berst
 ---
 
 ## 3. MATRIKS EKIVALENSI UTAMA (ARAH K2025 → K2026)
+
+> [!NOTE]
+> **Kolom 1–4 (No, Kode K2025, Nama MK Kurikulum 2025, SKS) adalah kutipan verbatim PDF Laporan SIAKAD.** Nomor urut mengikuti penomoran 1–56 pada laporan asli; nama mata kuliah dan bobot SKS tidak dimodifikasi. Kolom 5 dan seterusnya merupakan hasil pemetaan tim kurikulum ke Kurikulum 2026.
+
+### 3.0 REKAPITULASI GROUND TRUTH KURIKULUM 2025 (LAPORAN SIAKAD)
+
+| Semester | Jumlah MK | Beban SKS | SKS Kumulatif | Status MK |
+|:---:|:---:|:---:|:---:|:---:|
+| Sem 1 | 7 MK | 18 SKS | 18 SKS | Seluruhnya Wajib |
+| Sem 2 | 7 MK | 18 SKS | 36 SKS | Seluruhnya Wajib |
+| Sem 3 | 8 MK | 20 SKS | 56 SKS | Seluruhnya Wajib |
+| Sem 4 | 9 MK | 20 SKS | 76 SKS | Seluruhnya Wajib (termasuk `MKU-406` 0 SKS) |
+| Sem 5 | 9 MK | 21 SKS | 97 SKS | Seluruhnya Wajib (termasuk `MKU-508` 0 SKS) |
+| Sem 6 | 7 MK | 21 SKS | 118 SKS | Seluruhnya Wajib |
+| Sem 7 | 7 MK | 20 SKS | 138 SKS | Seluruhnya Wajib |
+| Sem 8 | 2 MK | 8 SKS | 146 SKS | Seluruhnya Wajib |
+| **TOTAL** | **56 MK** | **146 SKS** | **146 SKS** | **Tanpa MK pilihan / peminatan** |
+
+> Kurikulum 2025 **tidak mengenal mata kuliah pilihan**: kolom "Wajib/Pilihan" pada laporan SIAKAD bernilai `Wajib` untuk seluruh 56 MK, dan kolom "Paket?" bernilai `Tidak`. Nilai minimal kelulusan seluruh MK adalah **C**. Inilah dasar mengapa skema 3 peminatan pada K2026 sepenuhnya merupakan struktur baru.
 
 ### 3.1 EKIVALENSI MK SEMESTER 1 KURIKULUM 2025 (18 SKS)
 
@@ -84,8 +123,8 @@ Kurikulum 2025 (K2025) memuat **56 Mata Kuliah / 146 SKS** yang seluruhnya berst
 | 18 | `STI-313` | Keamanan Informasi Dasar | 2 | `STI-405` | Dasar Keamanan Informasi | 2 | 4 | **E1** | Nama dan SKS setara; posisi bergeser Sem 3 → Sem 4 |
 | 19 | `STI-314` | Interaksi Manusia dan Komputer | 3 | `STI-303` | UI/UX Design & Prototyping (+P) | 3 | 3 | **E3** | Dilebur bersama `STI-635` Desain & Evaluasi Antarmuka Pengguna — lihat klaster G-3 |
 | 20 | `STI-315` | Etika dan Hukum TI | 2 | `FST-206` | Etika Profesi & Hukum Digital | 2 | 2 | **E1** | Cakupan diperluas ke etika AI & pelindungan data pribadi; SKS setara |
-| 21 | `STI-316` | Multimedia Interaktif | 2 | `STC-04` | Immersive Media & XR Development (+P) | 3 | 5–7 | **E3** | Dilebur bersama `STI-531` Augmented Reality dan Virtual Reality — lihat klaster G-4. Padanan berada pada **MK elektif Peminatan P3**, bukan MK wajib: diakui hanya bila mahasiswa memilih Peminatan P3, jika tidak dihitung sebagai kredit bebas |
-| 22 | `STI-317` | Metode Komputasi dan Numerik | 2 | `STA-02` | Computational Methods & Numerics (+P) | 3 | 5–7 | **E2** | Padanan berada pada **MK elektif Peminatan P1**. Diakui hanya bila mahasiswa memilih Peminatan P1; jika tidak, dihitung sebagai kredit bebas. Defisit 1 SKS + komponen praktikum → uji penyetaraan |
+| 21 | `STI-316` | Multimedia Interaktif | 2 | `STC-04` | Immersive Media & XR Development (+P) | 3 | 7 | **E3** | Dilebur bersama `STI-531` Augmented Reality dan Virtual Reality — lihat klaster G-4. Padanan berada pada **MK elektif Peminatan P3 (Sem 7)**, bukan MK wajib: diakui hanya bila mahasiswa memilih Peminatan P3, jika tidak dihitung sebagai kredit bebas |
+| 22 | `STI-317` | Metode Komputasi dan Numerik | 2 | `STA-02` | Computational Methods & Numerics (+P) | 3 | 6 | **E2** | Padanan berada pada **MK elektif Peminatan P1 (Sem 6)**. Diakui hanya bila mahasiswa memilih Peminatan P1; jika tidak, dihitung sebagai kredit bebas. Defisit 1 SKS + komponen praktikum → uji penyetaraan |
 
 ### 3.4 EKIVALENSI MK SEMESTER 4 KURIKULUM 2025 (20 SKS)
 
@@ -111,16 +150,16 @@ Kurikulum 2025 (K2025) memuat **56 Mata Kuliah / 146 SKS** yang seluruhnya berst
 | 35 | `STI-526` | Internet of Things (+P) | 3 | `STI-504` | Internet of Things (IoT) (+P) | 3 | 5 | **E1** | Nama, SKS, dan semester identik |
 | 36 | `STI-527` | Sistem Informasi Berbasis Cloud | 2 | `STI-404` | Komputasi Awan (Cloud Computing) | 3 | 4 | **E2** | SKS naik 2 → 3 dan orientasi bergeser dari pemanfaatan SI berbasis cloud ke arsitektur layanan cloud (IaaS/PaaS/SaaS) → wajib tugas penyetaraan |
 | 37 | `STI-528` | Text Mining dan NLP | 2 | `STI-403` | Pengantar NLP & Information Retrieval (+P) | 2 | 4 | **E1** | Konten inti setara; **catatan:** apabila mahasiswa telah lulus `STI-528`, maka `STI-420` Semantic Web (baris 27) tidak lagi dapat diklaim untuk MK yang sama dan dialihkan menjadi kredit bebas |
-| 38 | `STI-529` | Keamanan Jaringan dan Forensik Digital (+P) | 3 | `STB-01` | Network Security & Digital Forensics (+P) | 3 | 5–7 | **E1** | Padanan pada **MK elektif Peminatan P2**. Diakui penuh bila mahasiswa memilih Peminatan P2; jika tidak, dihitung sebagai kredit bebas |
+| 38 | `STI-529` | Keamanan Jaringan dan Forensik Digital (+P) | 3 | `STB-01` | Network Security & Digital Forensics (+P) | 3 | 5 | **E1** | Padanan pada **MK elektif Peminatan P2 (Sem 5)**. Diakui penuh bila mahasiswa memilih Peminatan P2; jika tidak, dihitung sebagai kredit bebas |
 | 39 | `STI-530` | Data Warehouse dan Business Intelligence (+P) | 3 | `STI-402` | Data Warehouse & Business Intelligence (+P) | 3 | 4 | **E1** | Nama dan SKS identik; posisi bergeser Sem 5 → Sem 4 |
-| 40 | `STI-531` | Augmented Reality dan Virtual Reality (+P) | 2 | `STC-04` | Immersive Media & XR Development (+P) | 3 | 5–7 | **E3** | Dilebur bersama `STI-316` Multimedia Interaktif — lihat klaster G-4. Padanan berada pada MK elektif Peminatan P3 |
+| 40 | `STI-531` | Augmented Reality dan Virtual Reality (+P) | 2 | `STC-04` | Immersive Media & XR Development (+P) | 3 | 7 | **E3** | Dilebur bersama `STI-316` Multimedia Interaktif — lihat klaster G-4. Padanan berada pada MK elektif Peminatan P3 (Sem 7) |
 
 ### 3.6 EKIVALENSI MK SEMESTER 6 KURIKULUM 2025 (21 SKS)
 
 | No | Kode K2025 | Nama MK Kurikulum 2025 | SKS | Kode K2026 | Nama MK Kurikulum 2026 (Revisi) | SKS | Smt | Kat | Catatan Penyetaraan |
 |:---:|:---:|---|:---:|:---:|---|:---:|:---:|:---:|---|
 | 41 | `STI-632` | Rekayasa Perangkat Lunak | 3 | `STI-304` | Rekayasa Perangkat Lunak | 3 | 3 | **E1** | Nama dan SKS identik; posisi bergeser Sem 6 → Sem 3 (penguatan fondasi rekayasa lebih dini) |
-| 42 | `STI-633` | Sistem Pendukung Keputusan | 3 | `STA-01` | Decision Support Systems (+P) | 3 | 5–7 | **E1** | Padanan pada **MK elektif Peminatan P1**. Diakui penuh bila mahasiswa memilih Peminatan P1; jika tidak, dihitung sebagai kredit bebas |
+| 42 | `STI-633` | Sistem Pendukung Keputusan | 3 | `STA-01` | Decision Support Systems (+P) | 3 | 5 | **E1** | Padanan pada **MK elektif Peminatan P1 (Sem 5)**. Diakui penuh bila mahasiswa memilih Peminatan P1; jika tidak, dihitung sebagai kredit bebas |
 | 43 | `STI-634` | Pengolahan Citra Digital dan Vision (+P) | 3 | `STI-501` | Deep Learning & Neural Networks (+P) | 3 | 5 | **E2** | K2026 mengintegrasikan computer vision ke dalam kerangka deep learning (CNN). Overlap ± 65% → wajib uji penyetaraan pada komponen arsitektur jaringan saraf & pelatihan model |
 | 44 | `STI-635` | Desain dan Evaluasi Antarmuka Pengguna (UI/UX) (+P) | 3 | `STI-303` | UI/UX Design & Prototyping (+P) | 3 | 3 | **E3** | Dilebur bersama `STI-314` Interaksi Manusia dan Komputer — lihat klaster G-3 |
 | 45 | `STI-636` | Machine Learning (+P) | 3 | `STI-401` | Machine Learning (+P) | 3 | 4 | **E1** | Nama dan SKS identik; posisi bergeser Sem 6 → Sem 4 |
@@ -137,7 +176,7 @@ Kurikulum 2025 (K2025) memuat **56 Mata Kuliah / 146 SKS** yang seluruhnya berst
 | 51 | `STI-740` | Penambangan Data dan Visualisasi (+P) | 3 | `STI-503` | Data Mining & Visualisasi Data (+P) | 3 | 5 | **E3** | Dilebur bersama `STI-208` Visualisasi Data dan Dashboard Interaktif — lihat klaster G-2 |
 | 52 | `STI-741` | Integrasi Layanan Cerdas Berbasis AI | 3 | `STI-601` | Integrasi Layanan Cerdas Berbasis AI (+P) | 3 | 6 | **E2** | Nama dan SKS identik, namun MK baru **berpraktikum** (MK penciri prodi) → wajib praktikum penyetaraan (integrasi API model AI ke aplikasi nyata) |
 | 53 | `STI-742` | Inovasi Teknologi dan Startup Digital | 3 | `STI-701` | Inovasi Teknologi dan Startup Digital (+P) | 3 | 7 | **E2** | Nama dan SKS identik, namun MK baru **berpraktikum** (validasi produk & pitching) → wajib praktikum penyetaraan. **Catatan:** apabila mahasiswa telah lulus `STI-742`, maka `STI-422` E-Commerce (baris 29) dialihkan menjadi kredit bebas |
-| 54 | `STI-743` | Audit dan Tata Kelola Sistem Informasi | 3 | `STB-04` | IT Governance & Compliance (COBIT 2019) | 3 | 5–7 | **E1** | Padanan pada **MK elektif Peminatan P2**. Diakui penuh bila mahasiswa memilih Peminatan P2; jika tidak, dihitung sebagai kredit bebas |
+| 54 | `STI-743` | Audit dan Tata Kelola Sistem Informasi | 3 | `STB-04` | IT Governance & Compliance (COBIT 2019) | 3 | 7 | **E1** | Padanan pada **MK elektif Peminatan P2 (Sem 7)**. Diakui penuh bila mahasiswa memilih Peminatan P2; jika tidak, dihitung sebagai kredit bebas |
 
 ### 3.8 EKIVALENSI MK SEMESTER 8 KURIKULUM 2025 (8 SKS)
 
@@ -156,6 +195,135 @@ Kurikulum 2025 (K2025) memuat **56 Mata Kuliah / 146 SKS** yang seluruhnya berst
 | E4 — Ekuivalen Pecah | 1 MK | 3 SKS | ✅ |
 | E5 — Tanpa Padanan | 2 MK | 6 SKS | ✅ |
 | **TOTAL** | **56 MK** | **146 SKS** | ✅ **Cocok dengan Laporan SIAKAD K2025** |
+
+---
+
+## 3A. MATRIKS REKOGNISI ARAH BALIK (K2026 ← K2025) — PENYAMAAN VERSI PER SEMESTER
+
+Bagian 3 memetakan **dari** Kurikulum 2025 (perspektif MK lama: "ke mana MK saya dikonversi?"). Bagian ini memetakan arah sebaliknya, **ke** Kurikulum 2026 (perspektif struktur baru: "MK ini bisa direkognisi dari MK lama yang mana?"), sehingga Dosen Penasihat Akademik dapat menyusun Kartu Rencana Studi mahasiswa transisi langsung per semester tanpa membaca ulang seluruh matriks.
+
+### 3A.1 REKAPITULASI KELENGKAPAN REKOGNISI PORTOFOLIO 67 MK
+
+| Status Rekognisi | Jumlah MK | Total SKS | Persentase Portofolio |
+|---|:---:|:---:|:---:|
+| MK K2026 dapat direkognisi dari K2025 | 49 MK | 129 SKS | 70,9% |
+| MK K2026 **baru** — wajib ditempuh (tidak dapat direkognisi) | 18 MK | 53 SKS | 29,1% |
+| **TOTAL PORTOFOLIO KURIKULUM 2026** | **67 MK** | **182 SKS** | **100,0%** |
+
+Dari 49 MK yang dapat direkognisi, **43 MK** memiliki satu MK asal tunggal dan **6 MK** memiliki dua MK asal (4 klaster peleburan E3 ditambah 2 kasus klaim ganda).
+
+### 3A.2 MATRIKS REKOGNISI PAKET WAJIB PER SEMESTER (49 MK / 128 SKS)
+
+Kolom "Asal K2025" adalah MK yang **harus sudah lulus** (nilai ≥ C) agar MK K2026 dapat direkognisi.
+
+#### SEMESTER 1 — Diakui 16 SKS, Defisit 3 SKS
+
+| Kode K2026 | Nama Mata Kuliah | SKS | Kat | Asal K2025 | Tindakan Akademik |
+|:---:|---|:---:|:---:|:---:|---|
+| `MKU-101` | Agama I | 2 | E1 | `MKU-101` | Alih nilai langsung |
+| `MKU-102` | Pancasila | 2 | E1 | `MKU-102` | Alih nilai langsung |
+| `MKU-103` | Bahasa Indonesia | 2 | E1 | `MKU-103` | Alih nilai langsung |
+| `STI-101` | Pengantar Sistem dan Teknologi Informasi | 2 | E4 | `STI-101` (3 SKS) | Alih nilai langsung (sisi pertama pemecahan) |
+| `FST-101` | Dasar Teknologi Digital | 2 | E4 | `STI-101` (3 SKS) | **Uji penyetaraan** (sisi kedua pemecahan) |
+| `FST-102` | Algoritma dan Pemrograman (+P) | 3 | E1 | `STI-102` | Alih nilai langsung — **awas kolisi kode** |
+| `STI-102` | Kalkulus | 3 | E1 | `STI-104` (4 SKS) | Alih nilai; 1 SKS jadi kredit bebas |
+| `STI-103` | Arsitektur dan Organisasi Sistem TI | 3 | **B** | — | **WAJIB TEMPUH** — gap fondasi K2025 |
+
+#### SEMESTER 2 — Diakui 18 SKS, Defisit 2 SKS
+
+| Kode K2026 | Nama Mata Kuliah | SKS | Kat | Asal K2025 | Tindakan Akademik |
+|:---:|---|:---:|:---:|:---:|---|
+| `STI-201` | Matematika Diskrit dan Logika | 3 | E3/G-1 | `STI-103` + `STI-205` | Rata-rata berbobot 2 MK lama |
+| `STI-202` | Aljabar Linear dan Matriks | 3 | E1 | `STI-209` (4 SKS) | Alih nilai; 1 SKS jadi kredit bebas |
+| `FST-203` | Struktur Data dan Algoritma (+P) | 3 | E2 | `STI-207` | **Praktikum penyetaraan** |
+| `FST-204` | Pengantar Kecerdasan Artifisial & Data | 2 | **B** | — | **WAJIB TEMPUH** — pintu masuk pipeline AI |
+| `FST-205` | Basic English for IT | 2 | E1 | `MFT-201` | Alih nilai langsung |
+| `FST-206` | Etika Profesi & Hukum Digital | 2 | E1 | `STI-315` | Alih nilai langsung |
+| `FST-207` | Sistem Basis Data (+P) | 3 | E1 | `STI-206` | Alih nilai langsung |
+| `MKU-204` | Kewirausahaan I | 2 | E1 | `MKU-204` | Alih nilai langsung |
+
+#### SEMESTER 3 — Diakui 17 SKS, Defisit 3 SKS
+
+| Kode K2026 | Nama Mata Kuliah | SKS | Kat | Asal K2025 | Tindakan Akademik |
+|:---:|---|:---:|:---:|:---:|---|
+| `STI-301` | Analisis dan Perancangan Sistem Informasi | 3 | E1 | `STI-310` | Alih nilai langsung |
+| `STI-302` | Sistem Cerdas | 2 | E1 | `STI-418` | Alih nilai langsung |
+| `STI-303` | UI/UX Design & Prototyping (+P) | 3 | E3/G-3 | `STI-314` + `STI-635` | Rata-rata berbobot 2 MK lama |
+| `STI-304` | Rekayasa Perangkat Lunak | 3 | E1 | `STI-632` | Alih nilai langsung |
+| `STI-305` | Sistem Operasi | 3 | E1 | `STI-311` | Alih nilai langsung |
+| `STI-306` | Web Front End Development (+P) | 3 | E2 | `STI-312` | **Uji penyetaraan** (pemisahan front/back end) |
+| `STI-307` | Jaringan Komputer (+P) | 3 | **B** | — | **WAJIB TEMPUH** — prasyarat Cloud, IoT, Keamanan |
+
+#### SEMESTER 4 — Diakui 21 SKS, Defisit 0 SKS ✅
+
+| Kode K2026 | Nama Mata Kuliah | SKS | Kat | Asal K2025 | Tindakan Akademik |
+|:---:|---|:---:|:---:|:---:|---|
+| `STI-401` | Machine Learning (+P) | 3 | E1 | `STI-636` | Alih nilai langsung |
+| `STI-402` | Data Warehouse & Business Intelligence (+P) | 3 | E1 | `STI-530` | Alih nilai langsung |
+| `STI-403` | Pengantar NLP & Information Retrieval (+P) | 2 | E1 | `STI-528` | Alih nilai; `STI-420` → kredit bebas |
+| `STI-404` | Komputasi Awan (Cloud Computing) | 3 | E2 | `STI-527` (2 SKS) | **Tugas penyetaraan** 1 SKS |
+| `STI-405` | Dasar Keamanan Informasi | 2 | E1 | `STI-313` | Alih nilai langsung |
+| `STI-407` | Web Back End Development (+P) | 3 | E1 | `STI-525` | Alih nilai langsung |
+| `FST-408` | Probabilitas dan Statistika | 3 | E1 | `STI-424` | Alih nilai langsung |
+| `MKU-405` | Kewarganegaraan | 2 | E1 | `MKU-405` | Alih nilai langsung |
+| `MKU-406` | Agama II | 0 | E1 | `MKU-406` | Alih nilai langsung |
+
+#### SEMESTER 5 — Diakui 18 SKS Paket + 3 SKS Elektif, Defisit 0 SKS Paket ✅
+
+| Kode K2026 | Nama Mata Kuliah | SKS | Kat | Asal K2025 | Tindakan Akademik |
+|:---:|---|:---:|:---:|:---:|---|
+| `STI-501` | Deep Learning & Neural Networks (+P) | 3 | E2 | `STI-634` | **Uji penyetaraan** (CNN & pelatihan model) |
+| `STI-503` | Data Mining & Visualisasi Data (+P) | 3 | E3/G-2 | `STI-208` + `STI-740` | Rata-rata berbobot 2 MK lama |
+| `STI-504` | Internet of Things (IoT) (+P) | 3 | E1 | `STI-526` | Alih nilai langsung |
+| `STI-505` | Pemrograman Aplikasi Mobile (+P) | 3 | E1 | `STI-419` | Alih nilai langsung |
+| `STI-506` | Manajemen Proyek TI | 3 | E2 | `STI-421` (2 SKS) | **Tugas penyetaraan** 1 SKS |
+| `MKU-507` | Kuliah Pengabdian Kepada Masyarakat (KPM) | 3 | E1 | `MKU-507` | Alih nilai langsung |
+| `MKU-508` | Kewirausahaan II | 0 | E1 | `MKU-508` | Alih nilai langsung |
+| *Elektif* | **MK Peminatan 1** | 3 | — | Lihat Bagian 6.3 | Bergantung jalur peminatan |
+
+#### SEMESTER 6 — Diakui 10 SKS Paket + 6 SKS Elektif, Defisit 3 SKS Paket
+
+| Kode K2026 | Nama Mata Kuliah | SKS | Kat | Asal K2025 | Tindakan Akademik |
+|:---:|---|:---:|:---:|:---:|---|
+| `STI-601` | Integrasi Layanan Cerdas Berbasis AI (+P) | 3 | E2 | `STI-741` | **Praktikum penyetaraan** (MK penciri prodi) |
+| `STI-602` | Smart City & Pemerintahan Digital | 2 | E1 | `STI-637` (3 SKS) | Alih nilai; 1 SKS jadi kredit bebas |
+| `STI-603` | Keamanan Informasi Lanjut | 3 | **B** | — | **WAJIB TEMPUH** — jenjang keamanan lanjut |
+| `STI-604` | Digital Platform Engineering (+P) | 3 | E2 | `STI-739` | **Uji penyetaraan** (reorientasi platform) |
+| `FST-611` | Metodologi Penelitian | 2 | E1 | `MFT-002` | Alih nilai langsung |
+| *Elektif* | **MK Peminatan 2 & 3** | 6 | — | Lihat Bagian 6.3 | Bergantung jalur peminatan |
+
+#### SEMESTER 7 — Diakui 8 SKS Paket + 9 SKS Elektif, Defisit 3 SKS Paket
+
+| Kode K2026 | Nama Mata Kuliah | SKS | Kat | Asal K2025 | Tindakan Akademik |
+|:---:|---|:---:|:---:|:---:|---|
+| `STI-701` | Inovasi Teknologi dan Startup Digital (+P) | 3 | E2 | `STI-742` | **Praktikum penyetaraan**; `STI-422` → kredit bebas |
+| `FST-610` | Capstone Project FSTI (+P) | 3 | **B** | — | **WAJIB TEMPUH** — wahana asesmen 10 dari 14 CPL |
+| `FST-612` | Praktik Kerja Lapangan (PKL) | 3 | E1 | `MFT-003` | Alih nilai langsung |
+| `FST-613` | Pra-Skripsi / Seminar Proposal | 2 | E1 | `STI-844` | Alih nilai langsung |
+| *Elektif* | **MK Peminatan 4, 5 & 6** | 9 | — | Lihat Bagian 6.3 | Bergantung jalur peminatan |
+
+#### SEMESTER 8 — Diakui 6 SKS, Defisit 0 SKS ✅
+
+| Kode K2026 | Nama Mata Kuliah | SKS | Kat | Asal K2025 | Tindakan Akademik |
+|:---:|---|:---:|:---:|:---:|---|
+| `FST-714` | Skripsi / Tugas Akhir | 6 | E1 | `MFT-004` | Alih nilai langsung; tersedia 4 opsi non-skripsi |
+
+### 3A.3 NERACA REKOGNISI PAKET WAJIB PER SEMESTER
+
+| Semester | SKS Paket K2026 | Diakui dari K2025 | Defisit | MK Wajib Baru | Persentase Diakui |
+|:---:|:---:|:---:|:---:|---|:---:|
+| Sem 1 | 19 | 16 | 3 | `STI-103` | 84,2% |
+| Sem 2 | 20 | 18 | 2 | `FST-204` | 90,0% |
+| Sem 3 | 20 | 17 | 3 | `STI-307` | 85,0% |
+| Sem 4 | 21 | 21 | 0 | — | **100%** |
+| Sem 5 | 18 (tanpa elektif) | 18 | 0 | — | **100%** |
+| Sem 6 | 13 (tanpa elektif) | 10 | 3 | `STI-603` | 76,9% |
+| Sem 7 | 11 (tanpa elektif) | 8 | 3 | `FST-610` | 72,7% |
+| Sem 8 | 6 | 6 | 0 | — | **100%** |
+| **TOTAL PAKET WAJIB** | **128** | **114** | **14** | **5 MK** | **89,1%** |
+
+> [!IMPORTANT]
+> **Semester 1 dan 3 adalah titik kritis penyisipan.** Dua dari tiga MK wajib baru (`STI-103` Arsitektur & Organisasi STI di Sem 1, dan `STI-307` Jaringan Komputer di Sem 3) merupakan **prasyarat berantai** bagi MK di semester berikutnya: `STI-103` menjadi prasyarat `STI-201`, `STI-305`, dan `STI-307`; sedangkan `STI-307` menjadi prasyarat `STI-404` Cloud, `STI-405` Keamanan, `STI-504` IoT, dan `STB-01` Network Security. Bagi mahasiswa transisi yang telah melewati Semester 3, kedua MK ini **wajib disisipkan paling lambat pada Semester 5** agar tidak memblokir MK lanjutan.
 
 ---
 
@@ -225,6 +393,26 @@ Terdapat **4 kode mata kuliah** yang dipakai untuk MK berbeda pada K2025 dan K20
 | **P2: Cloud Infrastructure & Cybersecurity** | `STB-02` Cloud Architecture & DevOps, `STB-03` Cybersecurity Risk Management, `STB-05` IT Service Management ITIL 4, `STB-06` Enterprise Architecture TOGAF | 4 | `STB-01` ← `STI-529` Keamanan Jaringan; `STB-04` ← `STI-743` Audit & Tata Kelola SI |
 | **P3: Digital Platform Engineering** | `STC-01` UX Research & Design, `STC-02` Rekayasa & Otomasi Proses Bisnis, `STC-03` Rekayasa Aplikasi Industri Vertikal, `STC-05` SaaS Architecture & Multi-Tenancy, `STC-06` Digital Product Management & Agile | 5 | `STC-04` ← `STI-316` + `STI-531` (klaster G-4) |
 | **TOTAL** | — | **13** | **5 MK elektif memiliki padanan** |
+
+### 6.3 EKIVALENSI MK PEMINATAN MENURUT SEMESTER DEFINITIF (SEM 5–6–7)
+
+Kolom **Smt** pada Bagian 3 kini merujuk semester definitif Dokumen 005 (pola tetap 1 MK di Sem 5, 2 MK di Sem 6, 3 MK di Sem 7 untuk setiap peminatan), bukan lagi rentang generik "Sem 5–7". Tabel berikut memetakan asal-usul K2025 dan prasyarat K2026 setiap MK elektif pada posisi semesternya.
+
+| Smt | P1 — Integrated Smart Systems | Asal K2025 | P2 — Cloud Infra & Cybersecurity | Asal K2025 | P3 — Digital Platform Engineering | Asal K2025 |
+|:---:|---|---|---|---|---|---|
+| **5** | `STA-01` Decision Support Systems | `STI-633` SPK (**E1**) | `STB-01` Network Security & Digital Forensics | `STI-529` Keamanan Jaringan (**E1**) | `STC-01` UX Research & Design | — (**B**) |
+| **6** | `STA-02` Computational Methods & Numerics | `STI-317` Metode Komputasi (**E2**) | `STB-02` Cloud Architecture & DevOps | — (**B**) | `STC-02` Rekayasa & Otomasi Proses Bisnis | — (**B**) |
+| **6** | `STA-03` Intelligent Agent Systems | — (**B**) | `STB-03` Cybersecurity Risk Management | — (**B**) | `STC-03` Rekayasa Aplikasi Industri Vertikal | — (**B**) |
+| **7** | `STA-04` MLOps and AI Pipeline | — (**B**) | `STB-04` IT Governance & Compliance COBIT 2019 | `STI-743` Audit & Tata Kelola SI (**E1**) | `STC-04` Immersive Media & XR Development | `STI-316` + `STI-531` (**E3**/G-4) |
+| **7** | `STA-05` Conversational AI & Assistant | — (**B**) | `STB-05` IT Service Management ITIL 4 | — (**B**) | `STC-05` SaaS Architecture & Multi-Tenancy | — (**B**) |
+| **7** | `STA-06` Smart Surveillance & IoT Analytics | — (**B**) | `STB-06` Enterprise Architecture TOGAF | — (**B**) | `STC-06` Digital Product Management & Agile | — (**B**) |
+| **SKS diakui** | **6 SKS** (1 E1 + 1 E2) | — | **6 SKS** (2 E1) | — | **3 SKS** (1 E3) | — |
+| **SKS defisit** | **12 SKS** (4 MK baru) | — | **12 SKS** (4 MK baru) | — | **15 SKS** (5 MK baru) | — |
+
+> [!IMPORTANT]
+> **Konsekuensi bagi mahasiswa transisi:** pengakuan MK elektif **bergantung pada peminatan yang dipilih**. MK K2025 yang berpadanan ke elektif di luar peminatan terpilih otomatis menjadi kredit bebas. Contoh: mahasiswa yang telah lulus `STI-633` SPK namun memilih Peminatan P2 tidak dapat mengklaim `STA-01`; 3 SKS tersebut dicatat sebagai kredit bebas.
+>
+> **Prasyarat elektif wajib dicek terpisah.** Empat MK elektif memiliki prasyarat pada MK wajib **baru** K2026 yang belum ditempuh mahasiswa transisi: `STB-01` membutuhkan `STI-307` Jaringan Komputer (MK baru), sedangkan `STA-04` membutuhkan `STI-601` yang berada pada semester yang sama sehingga perlu ditetapkan sebagai prasyarat lunak (concurrent) atau dihapus.
 
 ---
 
@@ -349,7 +537,82 @@ Format satu baris per pasangan konversi, siap diimpor ke tabel `mk_ekivalensi` S
 | `STI-844` | 2 | `FST-613` | 2 | E1 | C | Tidak |
 
 > [!NOTE]
-> **Aturan klaim ganda (double claim):** Dua pasangan konversi bermuara pada MK baru yang sama, yaitu `STI-420`/`STI-528` → `STI-403`, dan `STI-422`/`STI-742` → `STI-701`. Untuk setiap pasangan tersebut, hanya **satu** MK lama yang dapat diklaim; MK lama sisanya otomatis dialihkan menjadi kredit bebas. Prioritas klaim diberikan kepada pasangan berkategori **E1**.
+> **Aturan klaim ganda (double claim).** Dua pasangan konversi bermuara pada MK baru yang sama. Untuk setiap pasangan, hanya **satu** MK lama dapat diklaim; sisanya dialihkan menjadi kredit bebas. Urutan penentuan prioritas bersifat berjenjang:
+>
+> 1. **Kategori lebih kuat menang** — pasangan berkategori E1 mengalahkan E2.
+> 2. **Bila kategori sama, kemiripan capaian pembelajaran yang lebih tinggi menang** (ditetapkan Tim Kurikulum).
+>
+> | MK Baru | Asal K2025 | Kategori | Klaim Diprioritaskan | Dialihkan ke Kredit Bebas | Dasar Penentuan |
+> |:---:|---|:---:|:---:|:---:|---|
+> | `STI-403` | `STI-528` Text Mining dan NLP | **E1** | ✅ `STI-528` | `STI-420` (2 SKS) | Jenjang 1: E1 mengalahkan E2 |
+> | `STI-403` | `STI-420` Semantic Web dan Ontologi | E2 | — | — | — |
+> | `STI-701` | `STI-742` Inovasi Teknologi dan Startup Digital | **E2** | ✅ `STI-742` | `STI-422` (3 SKS) | Jenjang 2: nama & capaian identik dengan MK baru, sedangkan `STI-422` hanya beririsan ± 65% |
+> | `STI-701` | `STI-422` E-Commerce dan Digital Business | E2 | — | — | — |
+>
+> Konsekuensi: setiap mahasiswa kehilangan **5 SKS** dari 146 SKS lamanya akibat klaim ganda (2 SKS dari `STI-420` + 3 SKS dari `STI-422`), yang tercatat sebagai kredit bebas pada transkrip.
+
+> [!WARNING]
+> **Enam baris konversi bermuara ke MK elektif peminatan** (`STA-01`, `STA-02`, `STB-01`, `STB-04`, `STC-04`), sehingga **tidak dapat dikonversi otomatis** oleh SIAKAD. Baris-baris ini wajib diberi flag `butuh_peminatan = TRUE` dan hanya dieksekusi setelah mahasiswa menetapkan pilihan peminatan pada Semester 5.
+
+| Kode Lama | SKS Lama | Kode Baru | SKS Baru | Smt Baru | Peminatan | Kat | Syarat Eksekusi |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|---|
+| `STI-633` | 3 | `STA-01` | 3 | 5 | **P1** | E1 | Hanya bila mahasiswa memilih P1 |
+| `STI-317` | 2 | `STA-02` | 3 | 6 | **P1** | E2 | Hanya bila memilih P1 + uji penyetaraan |
+| `STI-529` | 3 | `STB-01` | 3 | 5 | **P2** | E1 | Hanya bila mahasiswa memilih P2 |
+| `STI-743` | 3 | `STB-04` | 3 | 7 | **P2** | E1 | Hanya bila mahasiswa memilih P2 |
+| `STI-316` | 2 | `STC-04` | 3 | 7 | **P3** | E3/G-4 | Hanya bila memilih P3 (klaster G-4) |
+| `STI-531` | 2 | `STC-04` | 3 | 7 | **P3** | E3/G-4 | Hanya bila memilih P3 (klaster G-4) |
+
+---
+
+## 9. VERIFIKASI SILANG DOKUMEN (AUDIT KETERLACAKAN)
+
+Verifikasi dijalankan secara terprogram oleh `_tools/verify_k2025_ground_truth.py`, yang membaca PDF Laporan SIAKAD K2025 **secara langsung** (bukan salinan atau ringkasan) dan membandingkannya dengan dokumen definitif K2026. Skrip mencakup 11 kelompok uji dan menghasilkan 17 butir verifikasi.
+
+| # | Butir Verifikasi | Sumber Pembanding | Hasil |
+|:---:|---|---|:---:|
+| 1 | Jumlah MK K2025 = 56 MK | PDF Laporan SIAKAD, 3 halaman | ✅ **56 MK** |
+| 2 | Total SKS K2025 = 146 SKS | PDF Laporan SIAKAD | ✅ **146 SKS** |
+| 3 | Sebaran SKS per semester (18-18-20-20-21-21-20-8) | PDF Laporan SIAKAD | ✅ 8/8 semester cocok |
+| 4 | Status seluruh MK = Wajib, Paket = Tidak, Nilai Min = C | PDF Laporan SIAKAD | ✅ Konsisten |
+| 5 | Header seksi 3.1–3.8 sesuai sebaran PDF | Bagian 3 vs PDF | ✅ 8/8 header cocok |
+| 6 | Nomor urut, nama MK, dan SKS tiap baris = PDF | Bagian 3 (56 baris) vs PDF | ✅ **0 ketidakcocokan** |
+| 7 | Setiap baris berada di seksi semester asal yang benar | Bagian 3 vs kolom Semester PDF | ✅ **0 baris salah seksi** |
+| 8 | Seluruh 56 MK K2025 terpetakan (Zero Orphan) | Bagian 8 vs PDF | ✅ **0 MK terlantar** |
+| 9 | Tidak ada kode K2025 fiktif | Bagian 8 vs PDF | ✅ **0 kode fiktif** |
+| 10 | SKS lama tiap baris konversi = PDF | Bagian 8 vs PDF | ✅ **0 ketidakcocokan** |
+| 11 | Neraca kategori E1–E5 = 34/11/8/1/2 MK = 146 SKS | Bagian 8 vs Bagian 1 & 3.9 | ✅ Konsisten |
+| 12 | Seluruh 49 kode target K2026 valid | Bagian 8 vs Dok 005 & 007 | ✅ **0 kode target fiktif** |
+| 13 | Simulasi pengakuan SKS: P1 = P2 = 120, P3 = 117 | Rekalkulasi dari Bagian 8 | ✅ Cocok dengan Bagian 7.1 |
+| 14 | Semester MK elektif = semester definitif Dok 005 | Bagian 3 & 6.3 vs Dok 005 §4 | ✅ **0 tidak presisi** |
+| 15 | Neraca rekognisi arah balik = 114 diakui / 14 defisit SKS | Bagian 3A.3 vs Dok 005 & Bagian 8 | ✅ Cocok, 8/8 semester |
+| 16 | Portofolio 67 MK: 49 dapat direkognisi, 18 baru | Bagian 3A.1 vs Dok 005 & 007 | ✅ **67 = 49 + 18** |
+| 17 | Aturan klaim ganda tuntas (tidak ambigu) | Bagian 8 vs kaidah berjenjang | ✅ 2/2 kasus terselesaikan |
+
+### 9.1 CATATAN KOLISI KODE PADA AUDIT OTOMATIS
+
+Sebelas kode dipakai pada kedua kurikulum (`MKU-101`, `MKU-102`, `MKU-103`, `MKU-204`, `MKU-405`, `MKU-406`, `MKU-507`, `MKU-508`, `STI-101`, `STI-102`, `STI-103`). Audit otomatis karena itu **membatasi pemeriksaan atribut K2025 pada Bagian 3 dan Bagian 8 saja** — dua bagian yang secara definisi memuat sisi K2025 — dan tidak menandai kemunculan kode yang sama di bagian lain sebagai galat. Tiga kode di antaranya berisiko tinggi dan telah dirinci pada Bagian 5: `STI-102` (Algoritma & Pemrograman → Kalkulus), `STI-103` (Logika Informatika → Arsitektur & Organisasi STI), dan `STI-101` (SKS berubah 3 → 2).
+
+### 9.2 SUMBER K2025 SEKUNDER YANG TELAH DIREKONSILIASI
+
+| Berkas | Peran | Status Rekonsiliasi |
+|---|---|:---:|
+| `KURIKULUM2025/Laporan Daftar Kurikulum Prodi Sistekin.pdf` | **Ground truth tunggal** atribut MK (kode, nama, SKS, semester) | ✅ Rujukan primer |
+| `KURIKULUM2025/obe_pdf_extract/Implementasi_Modul_OBE_SISTEKIN2025_TABLES.md` | Sumber CPL/CPMK & IRM K2025 | ✅ 56/56 kode cocok, 0 konflik SKS |
+| `KURIKULUM2025/Implementasi_MODUL_OBE_SISTEKIN2025.pdf` | Dokumen modul OBE K2025 | ✅ Selaras (via ekstraksi di atas) |
+| `KURIKULUM2025/Notulensi Rapat VMTS & Kurikulum ... .pdf` | Notulensi rapat | ⚠️ **Bukan** ground truth atribut MK |
+
+### 9.3 KONSISTENSI DUA ARAH MATRIKS (BIDIRECTIONAL BALANCE)
+
+Matriks ini menyediakan dua perspektif atas satu himpunan pemetaan yang sama. Keduanya wajib berjumlah sama:
+
+| Perspektif | Bagian | Titik Tolak | Neraca |
+|---|:---:|---|---|
+| **Maju** (K2025 → K2026) | Bagian 3 & 8 | 56 MK / 146 SKS Kurikulum 2025 | Seluruh 56 MK terpetakan: 34 E1 + 11 E2 + 8 E3 + 1 E4 + 2 E5 |
+| **Balik** (K2026 ← K2025) | Bagian 3A | 67 MK / 182 SKS portofolio Kurikulum 2026 | 49 MK dapat direkognisi + 18 MK baru wajib ditempuh |
+| **Titik temu** | Bagian 7 | Paket 146 SKS Kurikulum 2026 | 120 SKS diakui (P1/P2) atau 117 SKS (P3); defisit 26 atau 29 SKS |
+
+Ketiga baris di atas telah diverifikasi saling konsisten secara terprogram (butir 11, 13, 15, dan 16 pada tabel 9). Perbedaan angka antar perspektif bukan inkonsistensi, melainkan konsekuensi dari tiga mekanisme yang sudah terdokumentasi: rasionalisasi SKS (Kalkulus 4→3, Aljabar Linear 4→3, Smart City 3→2), peleburan empat klaster E3 (−7 SKS), dan aturan klaim ganda (−5 SKS).
 
 ---
 *Disahkan sebagai Dokumen Resmi 024 — Kurikulum OBE Revisi SISTEKIN 2026.*

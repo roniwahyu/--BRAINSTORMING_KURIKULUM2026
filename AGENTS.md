@@ -71,6 +71,8 @@ Gunakan prompt bertahap ini. Tiap langkah harus menunggu konfirmasi user sebelum
 3. **Beban SKS:** Paket ditempuh mahasiswa adalah **146 SKS / 55 MK** (syarat lulus minimal nasional 144 SKS — Permendikbud 53/2023). Portofolio ditawarkan **182 SKS / 67 MK** (18 MK elektif ditawarkan, diambil 6 MK / 18 SKS).
 4. **Skema Asesmen:** Tepat **4x Titik Asesmen Baku** per mata kuliah (Tugas 1 [20%], UTS [25-30%], Tugas 2 [20-25%], UAS [30%]).
 5. **Folder `KURIKULUM2026_REVISI/`** adalah **single source of truth definitif** untuk penyusunan Naskah Buku Kurikulum KPT-OBE SISTEKIN 2026.
+6. **Ground Truth Kurikulum 2025 (WAJIB):** Seluruh atribut MK Kurikulum 2025 — nomor urut, kode, nama, SKS, semester, nilai minimal — **HARUS** bersumber langsung dari `KURIKULUM2025/Laporan Daftar Kurikulum Prodi Sistekin.pdf` (Laporan resmi SIAKAD, dicetak 05 Agustus 2026). Ground truth: **56 MK / 146 SKS**, sebaran **18-18-20-20-21-21-20-8**, **seluruh MK berstatus Wajib** (K2025 tidak punya MK pilihan/peminatan), kolom Paket = `Tidak`, nilai minimal = `C`. Jangan pernah menurunkan data K2025 dari ingatan, dokumen antara, atau notulensi rapat. Validasi: `python _tools/verify_k2025_ground_truth.py`.
+7. **Kolisi kode K2025 ↔ K2026:** 11 kode dipakai di kedua kurikulum. Tiga berisiko tinggi: `STI-102` (K2025 Algoritma & Pemrograman → K2026 **Kalkulus**), `STI-103` (K2025 Logika Informatika → K2026 **Arsitektur & Organisasi STI**), `STI-101` (SKS berubah 3 → 2). Selalu sebutkan tahun kurikulum saat merujuk ketiga kode ini.
 
 ---
 
@@ -103,6 +105,8 @@ KURIKULUM2026_REVISI/
 ├── 017_AUDIT_FORENSIK_ZERO_REDUNDANCY_DAN_ZERO_GAP.md ⭐ (Audit Forensik Zero Redundancy & Zero Gap 5 Domain)
 ├── 018_PANDUAN_RUBRIK_KLASTER_DAN_MODEL_ASESMEN_OBE_DOSEN.md ⭐ (Panduan Master 4 Klaster Rubrik & Model Asesmen Dosen)
 ├── 024_MATRIKS_EKIVALENSI_KURIKULUM2025_KE_KURIKULUM2026.md ⭐ (Ekivalensi 56 MK K2025 → K2026, 5 Kategori E1-E5, 4 Klaster Peleburan, Tabel Entri SIAKAD)
+├── 024_RINGKAS_EKIVALENSI_UNTUK_AWAM.xlsx ⭐ (8 Sheet Berwarna untuk Pembaca Non-Teknis: legenda status, 2 arah konversi, neraca per semester)
+├── 024_RINGKAS_EKIVALENSI_UNTUK_AWAM.docx ⭐ (9 Tabel Lanskap Siap Cetak & Edar untuk Rapat Prodi / Sosialisasi Mahasiswa)
 ├── BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md ⭐ (Naskah Utuh Lengkap Buku Kurikulum Bab 1-8 + Silabus)
 ├── GENERATE_EXCEL_011.bat (Trigger Batch Sekali Klik untuk Re-generate Excel)
 ├── GENERATE_HTML.bat (Trigger Batch Sekali Klik untuk Re-generate Seluruh File HTML & Portal)
@@ -111,8 +115,23 @@ KURIKULUM2026_REVISI/
 └── _tools/
     ├── convert_md_to_html.py (Engine Konversi Markdown ke HTML Modern & Interaktif)
     ├── export_all_to_excel.py (Engine Konversi Multi-Sheet Python)
+    ├── export_024_awam.py ⭐ (Eksporter Dokumen 024 ke XLSX 8-Sheet & DOCX 9-Tabel untuk Pembaca Non-Teknis)
+    ├── verify_k2025_ground_truth.py ⭐ (Verifikator 11 Kelompok Uji / 17 Butir: Rujukan K2025 vs PDF Laporan SIAKAD)
     ├── verify_zero_discrepancy.py (Engine Verifikasi Sinkronisasi 24 File)
     └── watch_and_auto_export.py (Engine Live Watcher)
+```
+
+### Sumber Ground Truth Kurikulum 2025 (`KURIKULUM2025/`)
+
+```
+KURIKULUM2025/
+├── Laporan Daftar Kurikulum Prodi Sistekin.pdf ⭐⭐ (GROUND TRUTH TUNGGAL — Laporan SIAKAD,
+│      56 MK / 146 SKS, sebaran 18-18-20-20-21-21-20-8, seluruhnya Wajib, nilai min C)
+├── Implementasi_MODUL_OBE_SISTEKIN2025.pdf (Modul OBE K2025 — sumber CPL/CPMK lama)
+├── Implementasi_Modul_OBE_S1_SISTEKIN_UWG_2025.xlsx (Workbook OBE K2025)
+├── Notulensi Rapat VMTS & Kurikulum Program Studi SIST 090626.pdf (Notulensi — BUKAN ground truth MK)
+├── [IA - UPPS] ... INSTRUMEN PEMENUHAN SYARAT MINIMUM AKREDITASI ... .pdf (Instrumen akreditasi)
+└── obe_pdf_extract/ (Hasil ekstraksi Modul OBE 2025: 56/56 kode cocok, 0 konflik SKS)
 ```
 
 ---
@@ -125,7 +144,10 @@ KURIKULUM2026_REVISI/
 - **Fase Asesmen, Tugas Akhir, & Penjaminan Mutu:** Sistem Asesmen OBE (IKU 7 $\ge 50\%$, Formula Ketercapaian CPL, 4 Rubrik Analitik Master), Pedoman Capstone & 4 Opsi TA Non-Skripsi, serta Instrumen Tracer Study PEO telah **100% tuntas di Dokumen 008, 009, dan 010**.
 - **Fase Audit Kritis & Akselerasi:** Kunci konsensus `STI-103 Arsitektur & Organisasi Sistem TI` dan `STI-201 Matematika Diskrit dan Logika`, Solusi Mitigasi (013), Simulasi Fast-Track 7 Semester (015), Pipeline AI (016), dan Audit Forensik Zero Redundancy & Zero Gap (017) telah **100% tuntas dan terverifikasi di Dokumen 012–017**.
 - **Fase Naskah Buku Kurikulum Final:** Naskah utuh komprehensif Bab 1 s.d. Bab 8 (`BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md`, 445 KB) telah selesai dan 100% selaras dengan seluruh dokumen pendukung.
-- **Fase Ekivalensi & Transisi Kurikulum:** Matriks ekivalensi 56 MK Kurikulum 2025 (SIAKAD, 146 SKS) ke Kurikulum 2026 telah **100% tuntas di Dokumen 024**, mencakup 5 kategori penyetaraan (E1 Penuh 34 MK, E2 Bersyarat 11 MK, E3 Gabungan 8 MK, E4 Pecah 1 MK, E5 Tanpa Padanan 2 MK), 4 klaster peleburan MK (G-1 s.d. G-4, efisiensi −7 SKS), peringatan kolisi kode `STI-102`/`STI-103`, 18 MK baru K2026 (5 MK wajib / 14 SKS + 13 MK elektif), simulasi pengakuan SKS per jalur peminatan (P1/P2 = 120 SKS diakui, P3 = 117 SKS), serta tabel siap impor `mk_ekivalensi` SIAKAD (57 baris konversi).
+- **Fase Ekivalensi & Transisi Kurikulum:** Matriks ekivalensi 56 MK Kurikulum 2025 ke Kurikulum 2026 telah **100% tuntas di Dokumen 024**, mencakup 5 kategori penyetaraan (E1 Penuh 34 MK, E2 Bersyarat 11 MK, E3 Gabungan 8 MK, E4 Pecah 1 MK, E5 Tanpa Padanan 2 MK), 4 klaster peleburan MK (G-1 s.d. G-4, efisiensi −7 SKS), peringatan kolisi kode `STI-102`/`STI-103`, 18 MK baru K2026 (5 MK wajib / 14 SKS + 13 MK elektif), simulasi pengakuan SKS per jalur peminatan (P1/P2 = 120 SKS diakui, P3 = 117 SKS), serta tabel siap impor `mk_ekivalensi` SIAKAD (57 baris konversi).
+- **Fase Verifikasi Ground Truth K2025:** Dokumen 024 telah **diaudit terprogram terhadap PDF Laporan SIAKAD** (`_tools/verify_k2025_ground_truth.py`, 11 kelompok uji) dan **LULUS 17 butir verifikasi**: 56 MK / 146 SKS, sebaran 8 semester, nomor urut & nama & SKS tiap baris identik PDF (0 ketidakcocokan), 0 baris salah seksi semester, Zero Orphan, 0 kode fiktif, neraca E1–E5 = 146 SKS, 49 kode target K2026 valid, simulasi SKS 120/120/117 terkonfirmasi, semester MK elektif presisi, neraca rekognisi arah balik 114 diakui / 14 defisit SKS, portofolio 67 MK = 49 direkognisi + 18 baru, serta 2/2 kasus klaim ganda tuntas.
+- **Fase Penyamaan Versi & Rekognisi Dua Arah:** Dokumen 024 kini memuat **Bagian 3A Matriks Rekognisi Arah Balik (K2026 ← K2025)** — 8 tabel per semester yang menyatakan untuk setiap MK Kurikulum 2026: SKS, kategori ekivalensi, MK asal K2025, dan tindakan akademik (alih nilai langsung / uji penyetaraan / wajib tempuh). Neraca paket wajib: **114 dari 128 SKS diakui (89,1%), defisit 14 SKS pada 5 MK baru**. Semester 4, 5, dan 8 terekognisi 100%; titik kritis penyisipan ada di Sem 1 (`STI-103`) dan Sem 3 (`STI-307`) karena keduanya prasyarat berantai. Ditambahkan pula peta navigasi dokumen per peran pengguna, aturan klaim ganda berjenjang 2 tingkat (menuntaskan ambiguitas `STI-422` vs `STI-742` yang keduanya E2), dan Bagian 9.3 konsistensi dua arah matriks.
+- **Fase Diseminasi untuk Pembaca Non-Teknis:** Dokumen 024 diterbitkan ulang dalam format ramah-awam via `_tools/export_024_awam.py`, menerjemahkan kode kategori E1–E5/B menjadi kalimat tindakan lugas (Diakui penuh / Diakui bersyarat / Digabung / Dipecah / Tidak ada padanan / Kalah prioritas / Wajib ditempuh) dengan pewarnaan konsisten. Keluaran: **XLSX 8 sheet** (Baca Ini Dulu, 2 arah konversi, neraca per semester, MK wajib baru, MK peminatan, klaster peleburan, sumber data — berheader beku & berfilter) dan **DOCX 9 tabel lanskap** siap cetak untuk rapat prodi dan sosialisasi mahasiswa. Kedua berkas dibangkitkan langsung dari PDF SIAKAD + Dok 005/007/024, bukan disalin manual.
 
 ---
 

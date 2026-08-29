@@ -390,9 +390,19 @@
             <h1 id="024-matriks-ekivalensi-mata-kuliah-kurikulum-2025-kurikulum-2026-revisi">024 — MATRIKS EKIVALENSI MATA KULIAH KURIKULUM 2025 → KURIKULUM 2026 (REVISI)</h1>
 <h2 id="program-studi-sistem-dan-teknologi-informasi-s1-fakultas-sains-dan-teknologi-informasi-fsti-universitas-widyagama-malang">Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang</h2>
 <p><strong>Dokumen Revisi Definitif Kurikulum 2026</strong>
-<strong>Sumber Data Kurikulum Lama:</strong> <code>KURIKULUM2025/Laporan Daftar Kurikulum Prodi Sistekin.pdf</code> (Laporan SIAKAD, Kurikulum 2025, 56 MK / 146 SKS, dicetak 05 Agustus 2026)
+<strong>Sumber Data Kurikulum Lama (GROUND TRUTH TUNGGAL):</strong> <code>KURIKULUM2025/Laporan Daftar Kurikulum Prodi Sistekin.pdf</code> — Laporan resmi SIAKAD Universitas Widyagama Malang, Kurikulum 2025, <strong>56 MK / 146 SKS</strong>, 3 halaman, dicetak 05 Agustus 2026 oleh Syahroni Wahyu Iriananda, S.Kom., M.T. (<code>siakad.widyagama.ac.id/siakad/rep_kurikulumprodi</code>)
 <strong>Sumber Data Kurikulum Baru:</strong> Dokumen 005 (Struktur 8 Semester), Dokumen 006 (Peminatan &amp; MBKM), Dokumen 011 (Matriks CPL–MK 67 MK Portofolio)
 <strong>Standar Rujukan:</strong> Permendikbudristek No. 53 Tahun 2023 (Pasal 24 tentang Pengakuan Hasil Belajar), Panduan KPT 2024 Ditjen Diktiristek, Panduan Kurikulum OBE APTIKOM v2.0.</p>
+<div class="custom-alert alert-important">
+    <div class="alert-header"><span class="alert-icon">⚡</span> IMPORTANT</div>
+    <div class="alert-content">**Kaidah Ground Truth Kurikulum 2025.** Seluruh atribut mata kuliah Kurikulum 2025 pada dokumen ini — nomor urut, kode, nama, bobot SKS, nilai minimal, dan penempatan semester — **wajib bersumber langsung** dari PDF Laporan SIAKAD di atas. Tidak ada atribut K2025 yang boleh diturunkan dari dokumen antara, catatan rapat, ataupun ingatan penyusun. Setiap perubahan pada Bagian 3 dan Bagian 8 wajib divalidasi ulang dengan menjalankan:
+
+<div class="highlight"><pre><span></span><code>python _tools/verify_k2025_ground_truth.py
+</code></pre></div>
+
+Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit code 1) bila ditemukan penyimpangan pada 8 butir uji: integritas ekstraksi PDF, header sebaran SKS per semester, kecocokan baris demi baris (nomor urut, nama, SKS), penempatan semester asal, Zero Orphan, neraca kategori E1–E5, validitas kode target K2026, serta presisi semester MK elektif peminatan.</div>
+</div>
+
 <hr />
 <h2 id="1-ringkasan-eksekutif">1. RINGKASAN EKSEKUTIF</h2>
 <p>Kurikulum 2025 (K2025) memuat <strong>56 Mata Kuliah / 146 SKS</strong> yang seluruhnya berstatus wajib tanpa skema peminatan. Kurikulum 2026 Revisi (K2026) memuat <strong>55 Mata Kuliah / 146 SKS paket ditempuh</strong> dari <strong>portofolio 67 MK / 182 SKS</strong>, dengan 3 paket peminatan @ 18 SKS, jalur MBKM 20 SKS, dan 4 opsi Tugas Akhir non-skripsi.</p>
@@ -447,7 +457,7 @@
 <td>MK K2026 memiliki padanan K2025</td>
 <td style="text-align: center;">49 MK</td>
 <td style="text-align: center;">—</td>
-<td>73,1% dari 67 MK portofolio</td>
+<td>73,1% dari 67 MK portofolio (rincian per semester: Bagian 3A)</td>
 </tr>
 <tr>
 <td>MK K2026 <strong>BARU</strong> tanpa padanan</td>
@@ -466,6 +476,39 @@
 <td style="text-align: center;">—</td>
 <td style="text-align: center;"><strong>26–29 SKS</strong></td>
 <td>14 SKS MK wajib baru + 12–15 SKS elektif peminatan</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="struktur-dokumen-ini-peta-navigasi">STRUKTUR DOKUMEN INI (PETA NAVIGASI)</h3>
+<p>Matriks disusun dua arah agar dapat dipakai oleh dua pengguna berbeda:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kebutuhan Pengguna</th>
+<th>Bagian yang Dibuka</th>
+<th>Titik Tolak</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Operator SIAKAD: "MK lama ini dikonversi ke mana?"</td>
+<td><strong>Bagian 3</strong> (matriks maju) dan <strong>Bagian 8</strong> (format entri basis data)</td>
+<td>56 MK Kurikulum 2025</td>
+</tr>
+<tr>
+<td>Dosen Penasihat Akademik: "MK baru ini bisa diakui dari MK lama apa? Apa yang wajib ditempuh mahasiswa saya?"</td>
+<td><strong>Bagian 3A</strong> (matriks rekognisi arah balik per semester)</td>
+<td>67 MK portofolio Kurikulum 2026</td>
+</tr>
+<tr>
+<td>Ketua Program Studi: "Berapa beban tambahan mahasiswa transisi?"</td>
+<td><strong>Bagian 7</strong> (simulasi pengakuan per skenario &amp; tahap studi)</td>
+<td>Paket 146 SKS Kurikulum 2026</td>
+</tr>
+<tr>
+<td>Tim Penjaminan Mutu: "Apakah pemetaan ini dapat dipertanggungjawabkan?"</td>
+<td><strong>Bagian 9</strong> (audit keterlacakan 17 butir)</td>
+<td>PDF Laporan SIAKAD</td>
 </tr>
 </tbody>
 </table></div>
@@ -529,6 +572,91 @@
 </table></div>
 <hr />
 <h2 id="3-matriks-ekivalensi-utama-arah-k2025-k2026">3. MATRIKS EKIVALENSI UTAMA (ARAH K2025 → K2026)</h2>
+<div class="custom-alert alert-note">
+    <div class="alert-header"><span class="alert-icon">ℹ️</span> NOTE</div>
+    <div class="alert-content">**Kolom 1–4 (No, Kode K2025, Nama MK Kurikulum 2025, SKS) adalah kutipan verbatim PDF Laporan SIAKAD.** Nomor urut mengikuti penomoran 1–56 pada laporan asli; nama mata kuliah dan bobot SKS tidak dimodifikasi. Kolom 5 dan seterusnya merupakan hasil pemetaan tim kurikulum ke Kurikulum 2026.</div>
+</div>
+
+<h3 id="30-rekapitulasi-ground-truth-kurikulum-2025-laporan-siakad">3.0 REKAPITULASI GROUND TRUTH KURIKULUM 2025 (LAPORAN SIAKAD)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Semester</th>
+<th style="text-align: center;">Jumlah MK</th>
+<th style="text-align: center;">Beban SKS</th>
+<th style="text-align: center;">SKS Kumulatif</th>
+<th style="text-align: center;">Status MK</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Sem 1</td>
+<td style="text-align: center;">7 MK</td>
+<td style="text-align: center;">18 SKS</td>
+<td style="text-align: center;">18 SKS</td>
+<td style="text-align: center;">Seluruhnya Wajib</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sem 2</td>
+<td style="text-align: center;">7 MK</td>
+<td style="text-align: center;">18 SKS</td>
+<td style="text-align: center;">36 SKS</td>
+<td style="text-align: center;">Seluruhnya Wajib</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sem 3</td>
+<td style="text-align: center;">8 MK</td>
+<td style="text-align: center;">20 SKS</td>
+<td style="text-align: center;">56 SKS</td>
+<td style="text-align: center;">Seluruhnya Wajib</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sem 4</td>
+<td style="text-align: center;">9 MK</td>
+<td style="text-align: center;">20 SKS</td>
+<td style="text-align: center;">76 SKS</td>
+<td style="text-align: center;">Seluruhnya Wajib (termasuk <span class="code-tag">MKU-406</span>> 0 SKS)</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sem 5</td>
+<td style="text-align: center;">9 MK</td>
+<td style="text-align: center;">21 SKS</td>
+<td style="text-align: center;">97 SKS</td>
+<td style="text-align: center;">Seluruhnya Wajib (termasuk <span class="code-tag">MKU-508</span>> 0 SKS)</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sem 6</td>
+<td style="text-align: center;">7 MK</td>
+<td style="text-align: center;">21 SKS</td>
+<td style="text-align: center;">118 SKS</td>
+<td style="text-align: center;">Seluruhnya Wajib</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sem 7</td>
+<td style="text-align: center;">7 MK</td>
+<td style="text-align: center;">20 SKS</td>
+<td style="text-align: center;">138 SKS</td>
+<td style="text-align: center;">Seluruhnya Wajib</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sem 8</td>
+<td style="text-align: center;">2 MK</td>
+<td style="text-align: center;">8 SKS</td>
+<td style="text-align: center;">146 SKS</td>
+<td style="text-align: center;">Seluruhnya Wajib</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TOTAL</strong></td>
+<td style="text-align: center;"><strong>56 MK</strong></td>
+<td style="text-align: center;"><strong>146 SKS</strong></td>
+<td style="text-align: center;"><strong>146 SKS</strong></td>
+<td style="text-align: center;"><strong>Tanpa MK pilihan / peminatan</strong></td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p>Kurikulum 2025 <strong>tidak mengenal mata kuliah pilihan</strong>: kolom "Wajib/Pilihan" pada laporan SIAKAD bernilai <code>Wajib</code>> untuk seluruh 56 MK, dan kolom "Paket?" bernilai <code>Tidak</code>>. Nilai minimal kelulusan seluruh MK adalah <strong>C</strong>. Inilah dasar mengapa skema 3 peminatan pada K2026 sepenuhnya merupakan struktur baru.</p>
+</blockquote>
 <h3 id="31-ekivalensi-mk-semester-1-kurikulum-2025-18-sks">3.1 EKIVALENSI MK SEMESTER 1 KURIKULUM 2025 (18 SKS)</h3>
 <div class="table-wrapper"><table>
 <thead>
@@ -832,9 +960,9 @@
 <td style="text-align: center;"><code>STC-04</code>></td>
 <td>Immersive Media &amp; XR Development (+P)</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">5–7</td>
+<td style="text-align: center;">7</td>
 <td style="text-align: center;"><strong>E3</strong></td>
-<td>Dilebur bersama <span class="code-tag">STI-531</span>> Augmented Reality dan Virtual Reality — lihat klaster G-4. Padanan berada pada <strong>MK elektif Peminatan P3</strong>, bukan MK wajib: diakui hanya bila mahasiswa memilih Peminatan P3, jika tidak dihitung sebagai kredit bebas</td>
+<td>Dilebur bersama <span class="code-tag">STI-531</span>> Augmented Reality dan Virtual Reality — lihat klaster G-4. Padanan berada pada <strong>MK elektif Peminatan P3 (Sem 7)</strong>, bukan MK wajib: diakui hanya bila mahasiswa memilih Peminatan P3, jika tidak dihitung sebagai kredit bebas</td>
 </tr>
 <tr>
 <td style="text-align: center;">22</td>
@@ -844,9 +972,9 @@
 <td style="text-align: center;"><code>STA-02</code>></td>
 <td>Computational Methods &amp; Numerics (+P)</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">5–7</td>
+<td style="text-align: center;">6</td>
 <td style="text-align: center;"><strong>E2</strong></td>
-<td>Padanan berada pada <strong>MK elektif Peminatan P1</strong>. Diakui hanya bila mahasiswa memilih Peminatan P1; jika tidak, dihitung sebagai kredit bebas. Defisit 1 SKS + komponen praktikum → uji penyetaraan</td>
+<td>Padanan berada pada <strong>MK elektif Peminatan P1 (Sem 6)</strong>. Diakui hanya bila mahasiswa memilih Peminatan P1; jika tidak, dihitung sebagai kredit bebas. Defisit 1 SKS + komponen praktikum → uji penyetaraan</td>
 </tr>
 </tbody>
 </table></div>
@@ -1074,9 +1202,9 @@
 <td style="text-align: center;"><code>STB-01</code>></td>
 <td>Network Security &amp; Digital Forensics (+P)</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">5–7</td>
+<td style="text-align: center;">5</td>
 <td style="text-align: center;"><strong>E1</strong></td>
-<td>Padanan pada <strong>MK elektif Peminatan P2</strong>. Diakui penuh bila mahasiswa memilih Peminatan P2; jika tidak, dihitung sebagai kredit bebas</td>
+<td>Padanan pada <strong>MK elektif Peminatan P2 (Sem 5)</strong>. Diakui penuh bila mahasiswa memilih Peminatan P2; jika tidak, dihitung sebagai kredit bebas</td>
 </tr>
 <tr>
 <td style="text-align: center;">39</td>
@@ -1098,9 +1226,9 @@
 <td style="text-align: center;"><code>STC-04</code>></td>
 <td>Immersive Media &amp; XR Development (+P)</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">5–7</td>
+<td style="text-align: center;">7</td>
 <td style="text-align: center;"><strong>E3</strong></td>
-<td>Dilebur bersama <span class="code-tag">STI-316</span>> Multimedia Interaktif — lihat klaster G-4. Padanan berada pada MK elektif Peminatan P3</td>
+<td>Dilebur bersama <span class="code-tag">STI-316</span>> Multimedia Interaktif — lihat klaster G-4. Padanan berada pada MK elektif Peminatan P3 (Sem 7)</td>
 </tr>
 </tbody>
 </table></div>
@@ -1141,9 +1269,9 @@
 <td style="text-align: center;"><code>STA-01</code>></td>
 <td>Decision Support Systems (+P)</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">5–7</td>
+<td style="text-align: center;">5</td>
 <td style="text-align: center;"><strong>E1</strong></td>
-<td>Padanan pada <strong>MK elektif Peminatan P1</strong>. Diakui penuh bila mahasiswa memilih Peminatan P1; jika tidak, dihitung sebagai kredit bebas</td>
+<td>Padanan pada <strong>MK elektif Peminatan P1 (Sem 5)</strong>. Diakui penuh bila mahasiswa memilih Peminatan P1; jika tidak, dihitung sebagai kredit bebas</td>
 </tr>
 <tr>
 <td style="text-align: center;">43</td>
@@ -1304,9 +1432,9 @@
 <td style="text-align: center;"><code>STB-04</code>></td>
 <td>IT Governance &amp; Compliance (COBIT 2019)</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">5–7</td>
+<td style="text-align: center;">7</td>
 <td style="text-align: center;"><strong>E1</strong></td>
-<td>Padanan pada <strong>MK elektif Peminatan P2</strong>. Diakui penuh bila mahasiswa memilih Peminatan P2; jika tidak, dihitung sebagai kredit bebas</td>
+<td>Padanan pada <strong>MK elektif Peminatan P2 (Sem 7)</strong>. Diakui penuh bila mahasiswa memilih Peminatan P2; jika tidak, dihitung sebagai kredit bebas</td>
 </tr>
 </tbody>
 </table></div>
@@ -1402,6 +1530,671 @@
 </tr>
 </tbody>
 </table></div>
+<hr />
+<h2 id="3a-matriks-rekognisi-arah-balik-k2026-k2025-penyamaan-versi-per-semester">3A. MATRIKS REKOGNISI ARAH BALIK (K2026 ← K2025) — PENYAMAAN VERSI PER SEMESTER</h2>
+<p>Bagian 3 memetakan <strong>dari</strong> Kurikulum 2025 (perspektif MK lama: "ke mana MK saya dikonversi?"). Bagian ini memetakan arah sebaliknya, <strong>ke</strong> Kurikulum 2026 (perspektif struktur baru: "MK ini bisa direkognisi dari MK lama yang mana?"), sehingga Dosen Penasihat Akademik dapat menyusun Kartu Rencana Studi mahasiswa transisi langsung per semester tanpa membaca ulang seluruh matriks.</p>
+<h3 id="3a1-rekapitulasi-kelengkapan-rekognisi-portofolio-67-mk">3A.1 REKAPITULASI KELENGKAPAN REKOGNISI PORTOFOLIO 67 MK</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Status Rekognisi</th>
+<th style="text-align: center;">Jumlah MK</th>
+<th style="text-align: center;">Total SKS</th>
+<th style="text-align: center;">Persentase Portofolio</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MK K2026 dapat direkognisi dari K2025</td>
+<td style="text-align: center;">49 MK</td>
+<td style="text-align: center;">129 SKS</td>
+<td style="text-align: center;">70,9%</td>
+</tr>
+<tr>
+<td>MK K2026 <strong>baru</strong> — wajib ditempuh (tidak dapat direkognisi)</td>
+<td style="text-align: center;">18 MK</td>
+<td style="text-align: center;">53 SKS</td>
+<td style="text-align: center;">29,1%</td>
+</tr>
+<tr>
+<td><strong>TOTAL PORTOFOLIO KURIKULUM 2026</strong></td>
+<td style="text-align: center;"><strong>67 MK</strong></td>
+<td style="text-align: center;"><strong>182 SKS</strong></td>
+<td style="text-align: center;"><strong>100,0%</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>Dari 49 MK yang dapat direkognisi, <strong>43 MK</strong> memiliki satu MK asal tunggal dan <strong>6 MK</strong> memiliki dua MK asal (4 klaster peleburan E3 ditambah 2 kasus klaim ganda).</p>
+<h3 id="3a2-matriks-rekognisi-paket-wajib-per-semester-49-mk-128-sks">3A.2 MATRIKS REKOGNISI PAKET WAJIB PER SEMESTER (49 MK / 128 SKS)</h3>
+<p>Kolom "Asal K2025" adalah MK yang <strong>harus sudah lulus</strong> (nilai ≥ C) agar MK K2026 dapat direkognisi.</p>
+<h4 id="semester-1-diakui-16-sks-defisit-3-sks">SEMESTER 1 — Diakui 16 SKS, Defisit 3 SKS</h4>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Kode K2026</th>
+<th>Nama Mata Kuliah</th>
+<th style="text-align: center;">SKS</th>
+<th style="text-align: center;">Kat</th>
+<th style="text-align: center;">Asal K2025</th>
+<th>Tindakan Akademik</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="code-tag">MKU-101</span>></td>
+<td>Agama I</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">MKU-101</span>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">MKU-102</span>></td>
+<td>Pancasila</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">MKU-102</span>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">MKU-103</span>></td>
+<td>Bahasa Indonesia</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">MKU-103</span>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-101</span>></td>
+<td>Pengantar Sistem dan Teknologi Informasi</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">E4</td>
+<td style="text-align: center;"><span class="code-tag">STI-101</span>> (3 SKS)</td>
+<td>Alih nilai langsung (sisi pertama pemecahan)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">FST-101</span>></td>
+<td>Dasar Teknologi Digital</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">E4</td>
+<td style="text-align: center;"><span class="code-tag">STI-101</span>> (3 SKS)</td>
+<td><strong>Uji penyetaraan</strong> (sisi kedua pemecahan)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">FST-102</span>></td>
+<td>Algoritma dan Pemrograman (+P)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">STI-102</span>></td>
+<td>Alih nilai langsung — <strong>awas kolisi kode</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-102</span>></td>
+<td>Kalkulus</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">STI-104</span>> (4 SKS)</td>
+<td>Alih nilai; 1 SKS jadi kredit bebas</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-103</span>></td>
+<td>Arsitektur dan Organisasi Sistem TI</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><strong>B</strong></td>
+<td style="text-align: center;">—</td>
+<td><strong>WAJIB TEMPUH</strong> — gap fondasi K2025</td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="semester-2-diakui-18-sks-defisit-2-sks">SEMESTER 2 — Diakui 18 SKS, Defisit 2 SKS</h4>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Kode K2026</th>
+<th>Nama Mata Kuliah</th>
+<th style="text-align: center;">SKS</th>
+<th style="text-align: center;">Kat</th>
+<th style="text-align: center;">Asal K2025</th>
+<th>Tindakan Akademik</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-201</span>></td>
+<td>Matematika Diskrit dan Logika</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E3/G-1</td>
+<td style="text-align: center;"><span class="code-tag">STI-103</span>> + <span class="code-tag">STI-205</span>></td>
+<td>Rata-rata berbobot 2 MK lama</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-202</span>></td>
+<td>Aljabar Linear dan Matriks</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">STI-209</span>> (4 SKS)</td>
+<td>Alih nilai; 1 SKS jadi kredit bebas</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">FST-203</span>></td>
+<td>Struktur Data dan Algoritma (+P)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E2</td>
+<td style="text-align: center;"><span class="code-tag">STI-207</span>></td>
+<td><strong>Praktikum penyetaraan</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">FST-204</span>></td>
+<td>Pengantar Kecerdasan Artifisial &amp; Data</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><strong>B</strong></td>
+<td style="text-align: center;">—</td>
+<td><strong>WAJIB TEMPUH</strong> — pintu masuk pipeline AI</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">FST-205</span>></td>
+<td>Basic English for IT</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><code>MFT-201</code>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">FST-206</span>></td>
+<td>Etika Profesi &amp; Hukum Digital</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">STI-315</span>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">FST-207</span>></td>
+<td>Sistem Basis Data (+P)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">STI-206</span>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">MKU-204</span>></td>
+<td>Kewirausahaan I</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">MKU-204</span>></td>
+<td>Alih nilai langsung</td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="semester-3-diakui-17-sks-defisit-3-sks">SEMESTER 3 — Diakui 17 SKS, Defisit 3 SKS</h4>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Kode K2026</th>
+<th>Nama Mata Kuliah</th>
+<th style="text-align: center;">SKS</th>
+<th style="text-align: center;">Kat</th>
+<th style="text-align: center;">Asal K2025</th>
+<th>Tindakan Akademik</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-301</span>></td>
+<td>Analisis dan Perancangan Sistem Informasi</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">STI-310</span>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-302</span>></td>
+<td>Sistem Cerdas</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">STI-418</span>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-303</span>></td>
+<td>UI/UX Design &amp; Prototyping (+P)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E3/G-3</td>
+<td style="text-align: center;"><span class="code-tag">STI-314</span>> + <span class="code-tag">STI-635</span>></td>
+<td>Rata-rata berbobot 2 MK lama</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-304</span>></td>
+<td>Rekayasa Perangkat Lunak</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">STI-632</span>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-305</span>></td>
+<td>Sistem Operasi</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">STI-311</span>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-306</span>></td>
+<td>Web Front End Development (+P)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E2</td>
+<td style="text-align: center;"><span class="code-tag">STI-312</span>></td>
+<td><strong>Uji penyetaraan</strong> (pemisahan front/back end)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-307</span>></td>
+<td>Jaringan Komputer (+P)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><strong>B</strong></td>
+<td style="text-align: center;">—</td>
+<td><strong>WAJIB TEMPUH</strong> — prasyarat Cloud, IoT, Keamanan</td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="semester-4-diakui-21-sks-defisit-0-sks">SEMESTER 4 — Diakui 21 SKS, Defisit 0 SKS ✅</h4>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Kode K2026</th>
+<th>Nama Mata Kuliah</th>
+<th style="text-align: center;">SKS</th>
+<th style="text-align: center;">Kat</th>
+<th style="text-align: center;">Asal K2025</th>
+<th>Tindakan Akademik</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-401</span>></td>
+<td>Machine Learning (+P)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">STI-636</span>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-402</span>></td>
+<td>Data Warehouse &amp; Business Intelligence (+P)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">STI-530</span>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-403</span>></td>
+<td>Pengantar NLP &amp; Information Retrieval (+P)</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">STI-528</span>></td>
+<td>Alih nilai; <span class="code-tag">STI-420</span>> → kredit bebas</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-404</span>></td>
+<td>Komputasi Awan (Cloud Computing)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E2</td>
+<td style="text-align: center;"><span class="code-tag">STI-527</span>> (2 SKS)</td>
+<td><strong>Tugas penyetaraan</strong> 1 SKS</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-405</span>></td>
+<td>Dasar Keamanan Informasi</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">STI-313</span>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-407</span>></td>
+<td>Web Back End Development (+P)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">STI-525</span>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">FST-408</span>></td>
+<td>Probabilitas dan Statistika</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">STI-424</span>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">MKU-405</span>></td>
+<td>Kewarganegaraan</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">MKU-405</span>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">MKU-406</span>></td>
+<td>Agama II</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">MKU-406</span>></td>
+<td>Alih nilai langsung</td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="semester-5-diakui-18-sks-paket-3-sks-elektif-defisit-0-sks-paket">SEMESTER 5 — Diakui 18 SKS Paket + 3 SKS Elektif, Defisit 0 SKS Paket ✅</h4>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Kode K2026</th>
+<th>Nama Mata Kuliah</th>
+<th style="text-align: center;">SKS</th>
+<th style="text-align: center;">Kat</th>
+<th style="text-align: center;">Asal K2025</th>
+<th>Tindakan Akademik</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-501</span>></td>
+<td>Deep Learning &amp; Neural Networks (+P)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E2</td>
+<td style="text-align: center;"><span class="code-tag">STI-634</span>></td>
+<td><strong>Uji penyetaraan</strong> (CNN &amp; pelatihan model)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-503</span>></td>
+<td>Data Mining &amp; Visualisasi Data (+P)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E3/G-2</td>
+<td style="text-align: center;"><span class="code-tag">STI-208</span>> + <span class="code-tag">STI-740</span>></td>
+<td>Rata-rata berbobot 2 MK lama</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-504</span>></td>
+<td>Internet of Things (IoT) (+P)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">STI-526</span>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-505</span>></td>
+<td>Pemrograman Aplikasi Mobile (+P)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">STI-419</span>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-506</span>></td>
+<td>Manajemen Proyek TI</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E2</td>
+<td style="text-align: center;"><span class="code-tag">STI-421</span>> (2 SKS)</td>
+<td><strong>Tugas penyetaraan</strong> 1 SKS</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">MKU-507</span>></td>
+<td>Kuliah Pengabdian Kepada Masyarakat (KPM)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">MKU-507</span>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">MKU-508</span>></td>
+<td>Kewirausahaan II</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">MKU-508</span>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Elektif</em></td>
+<td><strong>MK Peminatan 1</strong></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">Lihat Bagian 6.3</td>
+<td>Bergantung jalur peminatan</td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="semester-6-diakui-10-sks-paket-6-sks-elektif-defisit-3-sks-paket">SEMESTER 6 — Diakui 10 SKS Paket + 6 SKS Elektif, Defisit 3 SKS Paket</h4>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Kode K2026</th>
+<th>Nama Mata Kuliah</th>
+<th style="text-align: center;">SKS</th>
+<th style="text-align: center;">Kat</th>
+<th style="text-align: center;">Asal K2025</th>
+<th>Tindakan Akademik</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-601</span>></td>
+<td>Integrasi Layanan Cerdas Berbasis AI (+P)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E2</td>
+<td style="text-align: center;"><span class="code-tag">STI-741</span>></td>
+<td><strong>Praktikum penyetaraan</strong> (MK penciri prodi)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-602</span>></td>
+<td>Smart City &amp; Pemerintahan Digital</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">STI-637</span>> (3 SKS)</td>
+<td>Alih nilai; 1 SKS jadi kredit bebas</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-603</span>></td>
+<td>Keamanan Informasi Lanjut</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><strong>B</strong></td>
+<td style="text-align: center;">—</td>
+<td><strong>WAJIB TEMPUH</strong> — jenjang keamanan lanjut</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-604</span>></td>
+<td>Digital Platform Engineering (+P)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E2</td>
+<td style="text-align: center;"><span class="code-tag">STI-739</span>></td>
+<td><strong>Uji penyetaraan</strong> (reorientasi platform)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">FST-611</span>></td>
+<td>Metodologi Penelitian</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><code>MFT-002</code>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Elektif</em></td>
+<td><strong>MK Peminatan 2 &amp; 3</strong></td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">Lihat Bagian 6.3</td>
+<td>Bergantung jalur peminatan</td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="semester-7-diakui-8-sks-paket-9-sks-elektif-defisit-3-sks-paket">SEMESTER 7 — Diakui 8 SKS Paket + 9 SKS Elektif, Defisit 3 SKS Paket</h4>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Kode K2026</th>
+<th>Nama Mata Kuliah</th>
+<th style="text-align: center;">SKS</th>
+<th style="text-align: center;">Kat</th>
+<th style="text-align: center;">Asal K2025</th>
+<th>Tindakan Akademik</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-701</span>></td>
+<td>Inovasi Teknologi dan Startup Digital (+P)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E2</td>
+<td style="text-align: center;"><span class="code-tag">STI-742</span>></td>
+<td><strong>Praktikum penyetaraan</strong>; <span class="code-tag">STI-422</span>> → kredit bebas</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">FST-610</span>></td>
+<td>Capstone Project FSTI (+P)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><strong>B</strong></td>
+<td style="text-align: center;">—</td>
+<td><strong>WAJIB TEMPUH</strong> — wahana asesmen 10 dari 14 CPL</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">FST-612</span>></td>
+<td>Praktik Kerja Lapangan (PKL)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><code>MFT-003</code>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">FST-613</span>></td>
+<td>Pra-Skripsi / Seminar Proposal</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><span class="code-tag">STI-844</span>></td>
+<td>Alih nilai langsung</td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Elektif</em></td>
+<td><strong>MK Peminatan 4, 5 &amp; 6</strong></td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">Lihat Bagian 6.3</td>
+<td>Bergantung jalur peminatan</td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="semester-8-diakui-6-sks-defisit-0-sks">SEMESTER 8 — Diakui 6 SKS, Defisit 0 SKS ✅</h4>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Kode K2026</th>
+<th>Nama Mata Kuliah</th>
+<th style="text-align: center;">SKS</th>
+<th style="text-align: center;">Kat</th>
+<th style="text-align: center;">Asal K2025</th>
+<th>Tindakan Akademik</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="code-tag">FST-714</span>></td>
+<td>Skripsi / Tugas Akhir</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">E1</td>
+<td style="text-align: center;"><code>MFT-004</code>></td>
+<td>Alih nilai langsung; tersedia 4 opsi non-skripsi</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="3a3-neraca-rekognisi-paket-wajib-per-semester">3A.3 NERACA REKOGNISI PAKET WAJIB PER SEMESTER</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Semester</th>
+<th style="text-align: center;">SKS Paket K2026</th>
+<th style="text-align: center;">Diakui dari K2025</th>
+<th style="text-align: center;">Defisit</th>
+<th>MK Wajib Baru</th>
+<th style="text-align: center;">Persentase Diakui</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Sem 1</td>
+<td style="text-align: center;">19</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: center;">3</td>
+<td><span class="code-tag">STI-103</span>></td>
+<td style="text-align: center;">84,2%</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sem 2</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">18</td>
+<td style="text-align: center;">2</td>
+<td><span class="code-tag">FST-204</span>></td>
+<td style="text-align: center;">90,0%</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sem 3</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">17</td>
+<td style="text-align: center;">3</td>
+<td><span class="code-tag">STI-307</span>></td>
+<td style="text-align: center;">85,0%</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sem 4</td>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">0</td>
+<td>—</td>
+<td style="text-align: center;"><strong>100%</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">Sem 5</td>
+<td style="text-align: center;">18 (tanpa elektif)</td>
+<td style="text-align: center;">18</td>
+<td style="text-align: center;">0</td>
+<td>—</td>
+<td style="text-align: center;"><strong>100%</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">Sem 6</td>
+<td style="text-align: center;">13 (tanpa elektif)</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">3</td>
+<td><span class="code-tag">STI-603</span>></td>
+<td style="text-align: center;">76,9%</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sem 7</td>
+<td style="text-align: center;">11 (tanpa elektif)</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">3</td>
+<td><span class="code-tag">FST-610</span>></td>
+<td style="text-align: center;">72,7%</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sem 8</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">0</td>
+<td>—</td>
+<td style="text-align: center;"><strong>100%</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TOTAL PAKET WAJIB</strong></td>
+<td style="text-align: center;"><strong>128</strong></td>
+<td style="text-align: center;"><strong>114</strong></td>
+<td style="text-align: center;"><strong>14</strong></td>
+<td><strong>5 MK</strong></td>
+<td style="text-align: center;"><strong>89,1%</strong></td>
+</tr>
+</tbody>
+</table></div>
+<div class="custom-alert alert-important">
+    <div class="alert-header"><span class="alert-icon">⚡</span> IMPORTANT</div>
+    <div class="alert-content">**Semester 1 dan 3 adalah titik kritis penyisipan.** Dua dari tiga MK wajib baru (`STI-103` Arsitektur & Organisasi STI di Sem 1, dan `STI-307` Jaringan Komputer di Sem 3) merupakan **prasyarat berantai** bagi MK di semester berikutnya: `STI-103` menjadi prasyarat `STI-201`, `STI-305`, dan `STI-307`; sedangkan `STI-307` menjadi prasyarat `STI-404` Cloud, `STI-405` Keamanan, `STI-504` IoT, dan `STB-01` Network Security. Bagi mahasiswa transisi yang telah melewati Semester 3, kedua MK ini **wajib disisipkan paling lambat pada Semester 5** agar tidak memblokir MK lanjutan.</div>
+</div>
+
 <hr />
 <h2 id="4-empat-klaster-peleburan-mata-kuliah-kategori-e3">4. EMPAT KLASTER PELEBURAN MATA KULIAH (KATEGORI E3)</h2>
 <p>Peleburan dilakukan untuk menghapus redundansi materi yang teridentifikasi pada Audit Forensik Zero Redundancy (Dok. 017) dan Audit BoK APTIKOM (Dok. 016).</p>
@@ -1671,6 +2464,102 @@
 </tr>
 </tbody>
 </table></div>
+<h3 id="63-ekivalensi-mk-peminatan-menurut-semester-definitif-sem-567">6.3 EKIVALENSI MK PEMINATAN MENURUT SEMESTER DEFINITIF (SEM 5–6–7)</h3>
+<p>Kolom <strong>Smt</strong> pada Bagian 3 kini merujuk semester definitif Dokumen 005 (pola tetap 1 MK di Sem 5, 2 MK di Sem 6, 3 MK di Sem 7 untuk setiap peminatan), bukan lagi rentang generik "Sem 5–7". Tabel berikut memetakan asal-usul K2025 dan prasyarat K2026 setiap MK elektif pada posisi semesternya.</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Smt</th>
+<th>P1 — Integrated Smart Systems</th>
+<th>Asal K2025</th>
+<th>P2 — Cloud Infra &amp; Cybersecurity</th>
+<th>Asal K2025</th>
+<th>P3 — Digital Platform Engineering</th>
+<th>Asal K2025</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>5</strong></td>
+<td><code>STA-01</code>> Decision Support Systems</td>
+<td><span class="code-tag">STI-633</span>> SPK (<strong>E1</strong>)</td>
+<td><code>STB-01</code>> Network Security &amp; Digital Forensics</td>
+<td><span class="code-tag">STI-529</span>> Keamanan Jaringan (<strong>E1</strong>)</td>
+<td><code>STC-01</code>> UX Research &amp; Design</td>
+<td>— (<strong>B</strong>)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>6</strong></td>
+<td><code>STA-02</code>> Computational Methods &amp; Numerics</td>
+<td><span class="code-tag">STI-317</span>> Metode Komputasi (<strong>E2</strong>)</td>
+<td><code>STB-02</code>> Cloud Architecture &amp; DevOps</td>
+<td>— (<strong>B</strong>)</td>
+<td><code>STC-02</code>> Rekayasa &amp; Otomasi Proses Bisnis</td>
+<td>— (<strong>B</strong>)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>6</strong></td>
+<td><code>STA-03</code>> Intelligent Agent Systems</td>
+<td>— (<strong>B</strong>)</td>
+<td><code>STB-03</code>> Cybersecurity Risk Management</td>
+<td>— (<strong>B</strong>)</td>
+<td><code>STC-03</code>> Rekayasa Aplikasi Industri Vertikal</td>
+<td>— (<strong>B</strong>)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>7</strong></td>
+<td><code>STA-04</code>> MLOps and AI Pipeline</td>
+<td>— (<strong>B</strong>)</td>
+<td><code>STB-04</code>> IT Governance &amp; Compliance COBIT 2019</td>
+<td><span class="code-tag">STI-743</span>> Audit &amp; Tata Kelola SI (<strong>E1</strong>)</td>
+<td><code>STC-04</code>> Immersive Media &amp; XR Development</td>
+<td><span class="code-tag">STI-316</span>> + <span class="code-tag">STI-531</span>> (<strong>E3</strong>/G-4)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>7</strong></td>
+<td><code>STA-05</code>> Conversational AI &amp; Assistant</td>
+<td>— (<strong>B</strong>)</td>
+<td><code>STB-05</code>> IT Service Management ITIL 4</td>
+<td>— (<strong>B</strong>)</td>
+<td><code>STC-05</code>> SaaS Architecture &amp; Multi-Tenancy</td>
+<td>— (<strong>B</strong>)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>7</strong></td>
+<td><code>STA-06</code>> Smart Surveillance &amp; IoT Analytics</td>
+<td>— (<strong>B</strong>)</td>
+<td><code>STB-06</code>> Enterprise Architecture TOGAF</td>
+<td>— (<strong>B</strong>)</td>
+<td><code>STC-06</code>> Digital Product Management &amp; Agile</td>
+<td>— (<strong>B</strong>)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>SKS diakui</strong></td>
+<td><strong>6 SKS</strong> (1 E1 + 1 E2)</td>
+<td>—</td>
+<td><strong>6 SKS</strong> (2 E1)</td>
+<td>—</td>
+<td><strong>3 SKS</strong> (1 E3)</td>
+<td>—</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>SKS defisit</strong></td>
+<td><strong>12 SKS</strong> (4 MK baru)</td>
+<td>—</td>
+<td><strong>12 SKS</strong> (4 MK baru)</td>
+<td>—</td>
+<td><strong>15 SKS</strong> (5 MK baru)</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div>
+<div class="custom-alert alert-important">
+    <div class="alert-header"><span class="alert-icon">⚡</span> IMPORTANT</div>
+    <div class="alert-content">**Konsekuensi bagi mahasiswa transisi:** pengakuan MK elektif **bergantung pada peminatan yang dipilih**. MK K2025 yang berpadanan ke elektif di luar peminatan terpilih otomatis menjadi kredit bebas. Contoh: mahasiswa yang telah lulus `STI-633` SPK namun memilih Peminatan P2 tidak dapat mengklaim `STA-01`; 3 SKS tersebut dicatat sebagai kredit bebas.
+
+**Prasyarat elektif wajib dicek terpisah.** Empat MK elektif memiliki prasyarat pada MK wajib **baru** K2026 yang belum ditempuh mahasiswa transisi: `STB-01` membutuhkan `STI-307` Jaringan Komputer (MK baru), sedangkan `STA-04` membutuhkan `STI-601` yang berada pada semester yang sama sehingga perlu ditetapkan sebagai prasyarat lunak (concurrent) atau dihapus.</div>
+</div>
+
 <hr />
 <h2 id="7-simulasi-pengakuan-sks-bagi-mahasiswa-transisi">7. SIMULASI PENGAKUAN SKS BAGI MAHASISWA TRANSISI</h2>
 <h3 id="71-skenario-a-mahasiswa-telah-lulus-seluruh-146-sks-kurikulum-2025">7.1 SKENARIO A — MAHASISWA TELAH LULUS SELURUH 146 SKS KURIKULUM 2025</h3>
@@ -2436,9 +3325,284 @@
 </table></div>
 <div class="custom-alert alert-note">
     <div class="alert-header"><span class="alert-icon">ℹ️</span> NOTE</div>
-    <div class="alert-content">**Aturan klaim ganda (double claim):** Dua pasangan konversi bermuara pada MK baru yang sama, yaitu `STI-420`/`STI-528` → `STI-403`, dan `STI-422`/`STI-742` → `STI-701`. Untuk setiap pasangan tersebut, hanya **satu** MK lama yang dapat diklaim; MK lama sisanya otomatis dialihkan menjadi kredit bebas. Prioritas klaim diberikan kepada pasangan berkategori **E1**.</div>
+    <div class="alert-content">**Aturan klaim ganda (double claim).** Dua pasangan konversi bermuara pada MK baru yang sama. Untuk setiap pasangan, hanya **satu** MK lama dapat diklaim; sisanya dialihkan menjadi kredit bebas. Urutan penentuan prioritas bersifat berjenjang:
+
+1. **Kategori lebih kuat menang** — pasangan berkategori E1 mengalahkan E2.
+2. **Bila kategori sama, kemiripan capaian pembelajaran yang lebih tinggi menang** (ditetapkan Tim Kurikulum).
+
+| MK Baru | Asal K2025 | Kategori | Klaim Diprioritaskan | Dialihkan ke Kredit Bebas | Dasar Penentuan |
+|:---:|---|:---:|:---:|:---:|---|
+| `STI-403` | `STI-528` Text Mining dan NLP | **E1** | ✅ `STI-528` | `STI-420` (2 SKS) | Jenjang 1: E1 mengalahkan E2 |
+| `STI-403` | `STI-420` Semantic Web dan Ontologi | E2 | — | — | — |
+| `STI-701` | `STI-742` Inovasi Teknologi dan Startup Digital | **E2** | ✅ `STI-742` | `STI-422` (3 SKS) | Jenjang 2: nama & capaian identik dengan MK baru, sedangkan `STI-422` hanya beririsan ± 65% |
+| `STI-701` | `STI-422` E-Commerce dan Digital Business | E2 | — | — | — |
+
+Konsekuensi: setiap mahasiswa kehilangan **5 SKS** dari 146 SKS lamanya akibat klaim ganda (2 SKS dari `STI-420` + 3 SKS dari `STI-422`), yang tercatat sebagai kredit bebas pada transkrip.
+
+[!WARNING]
+**Enam baris konversi bermuara ke MK elektif peminatan** (`STA-01`, `STA-02`, `STB-01`, `STB-04`, `STC-04`), sehingga **tidak dapat dikonversi otomatis** oleh SIAKAD. Baris-baris ini wajib diberi flag `butuh_peminatan = TRUE` dan hanya dieksekusi setelah mahasiswa menetapkan pilihan peminatan pada Semester 5.</div>
 </div>
 
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Kode Lama</th>
+<th style="text-align: center;">SKS Lama</th>
+<th style="text-align: center;">Kode Baru</th>
+<th style="text-align: center;">SKS Baru</th>
+<th style="text-align: center;">Smt Baru</th>
+<th style="text-align: center;">Peminatan</th>
+<th style="text-align: center;">Kat</th>
+<th>Syarat Eksekusi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-633</span>></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><code>STA-01</code>></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><strong>P1</strong></td>
+<td style="text-align: center;">E1</td>
+<td>Hanya bila mahasiswa memilih P1</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-317</span>></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><code>STA-02</code>></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;"><strong>P1</strong></td>
+<td style="text-align: center;">E2</td>
+<td>Hanya bila memilih P1 + uji penyetaraan</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-529</span>></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><code>STB-01</code>></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><strong>P2</strong></td>
+<td style="text-align: center;">E1</td>
+<td>Hanya bila mahasiswa memilih P2</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-743</span>></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><code>STB-04</code>></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;"><strong>P2</strong></td>
+<td style="text-align: center;">E1</td>
+<td>Hanya bila mahasiswa memilih P2</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-316</span>></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><code>STC-04</code>></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;"><strong>P3</strong></td>
+<td style="text-align: center;">E3/G-4</td>
+<td>Hanya bila memilih P3 (klaster G-4)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-531</span>></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><code>STC-04</code>></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;"><strong>P3</strong></td>
+<td style="text-align: center;">E3/G-4</td>
+<td>Hanya bila memilih P3 (klaster G-4)</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="9-verifikasi-silang-dokumen-audit-keterlacakan">9. VERIFIKASI SILANG DOKUMEN (AUDIT KETERLACAKAN)</h2>
+<p>Verifikasi dijalankan secara terprogram oleh <code>_tools/verify_k2025_ground_truth.py</code>, yang membaca PDF Laporan SIAKAD K2025 <strong>secara langsung</strong> (bukan salinan atau ringkasan) dan membandingkannya dengan dokumen definitif K2026. Skrip mencakup 11 kelompok uji dan menghasilkan 17 butir verifikasi.</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">#</th>
+<th>Butir Verifikasi</th>
+<th>Sumber Pembanding</th>
+<th style="text-align: center;">Hasil</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td>Jumlah MK K2025 = 56 MK</td>
+<td>PDF Laporan SIAKAD, 3 halaman</td>
+<td style="text-align: center;">✅ <strong>56 MK</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td>Total SKS K2025 = 146 SKS</td>
+<td>PDF Laporan SIAKAD</td>
+<td style="text-align: center;">✅ <strong>146 SKS</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td>Sebaran SKS per semester (18-18-20-20-21-21-20-8)</td>
+<td>PDF Laporan SIAKAD</td>
+<td style="text-align: center;">✅ 8/8 semester cocok</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td>Status seluruh MK = Wajib, Paket = Tidak, Nilai Min = C</td>
+<td>PDF Laporan SIAKAD</td>
+<td style="text-align: center;">✅ Konsisten</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td>Header seksi 3.1–3.8 sesuai sebaran PDF</td>
+<td>Bagian 3 vs PDF</td>
+<td style="text-align: center;">✅ 8/8 header cocok</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td>Nomor urut, nama MK, dan SKS tiap baris = PDF</td>
+<td>Bagian 3 (56 baris) vs PDF</td>
+<td style="text-align: center;">✅ <strong>0 ketidakcocokan</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td>Setiap baris berada di seksi semester asal yang benar</td>
+<td>Bagian 3 vs kolom Semester PDF</td>
+<td style="text-align: center;">✅ <strong>0 baris salah seksi</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td>Seluruh 56 MK K2025 terpetakan (Zero Orphan)</td>
+<td>Bagian 8 vs PDF</td>
+<td style="text-align: center;">✅ <strong>0 MK terlantar</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td>Tidak ada kode K2025 fiktif</td>
+<td>Bagian 8 vs PDF</td>
+<td style="text-align: center;">✅ <strong>0 kode fiktif</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td>SKS lama tiap baris konversi = PDF</td>
+<td>Bagian 8 vs PDF</td>
+<td style="text-align: center;">✅ <strong>0 ketidakcocokan</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td>Neraca kategori E1–E5 = 34/11/8/1/2 MK = 146 SKS</td>
+<td>Bagian 8 vs Bagian 1 &amp; 3.9</td>
+<td style="text-align: center;">✅ Konsisten</td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td>Seluruh 49 kode target K2026 valid</td>
+<td>Bagian 8 vs Dok 005 &amp; 007</td>
+<td style="text-align: center;">✅ <strong>0 kode target fiktif</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">13</td>
+<td>Simulasi pengakuan SKS: P1 = P2 = 120, P3 = 117</td>
+<td>Rekalkulasi dari Bagian 8</td>
+<td style="text-align: center;">✅ Cocok dengan Bagian 7.1</td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td>Semester MK elektif = semester definitif Dok 005</td>
+<td>Bagian 3 &amp; 6.3 vs Dok 005 §4</td>
+<td style="text-align: center;">✅ <strong>0 tidak presisi</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">15</td>
+<td>Neraca rekognisi arah balik = 114 diakui / 14 defisit SKS</td>
+<td>Bagian 3A.3 vs Dok 005 &amp; Bagian 8</td>
+<td style="text-align: center;">✅ Cocok, 8/8 semester</td>
+</tr>
+<tr>
+<td style="text-align: center;">16</td>
+<td>Portofolio 67 MK: 49 dapat direkognisi, 18 baru</td>
+<td>Bagian 3A.1 vs Dok 005 &amp; 007</td>
+<td style="text-align: center;">✅ <strong>67 = 49 + 18</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">17</td>
+<td>Aturan klaim ganda tuntas (tidak ambigu)</td>
+<td>Bagian 8 vs kaidah berjenjang</td>
+<td style="text-align: center;">✅ 2/2 kasus terselesaikan</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="91-catatan-kolisi-kode-pada-audit-otomatis">9.1 CATATAN KOLISI KODE PADA AUDIT OTOMATIS</h3>
+<p>Sebelas kode dipakai pada kedua kurikulum (<span class="code-tag">MKU-101</span>>, <span class="code-tag">MKU-102</span>>, <span class="code-tag">MKU-103</span>>, <span class="code-tag">MKU-204</span>>, <span class="code-tag">MKU-405</span>>, <span class="code-tag">MKU-406</span>>, <span class="code-tag">MKU-507</span>>, <span class="code-tag">MKU-508</span>>, <span class="code-tag">STI-101</span>>, <span class="code-tag">STI-102</span>>, <span class="code-tag">STI-103</span>>). Audit otomatis karena itu <strong>membatasi pemeriksaan atribut K2025 pada Bagian 3 dan Bagian 8 saja</strong> — dua bagian yang secara definisi memuat sisi K2025 — dan tidak menandai kemunculan kode yang sama di bagian lain sebagai galat. Tiga kode di antaranya berisiko tinggi dan telah dirinci pada Bagian 5: <span class="code-tag">STI-102</span>> (Algoritma &amp; Pemrograman → Kalkulus), <span class="code-tag">STI-103</span>> (Logika Informatika → Arsitektur &amp; Organisasi STI), dan <span class="code-tag">STI-101</span>> (SKS berubah 3 → 2).</p>
+<h3 id="92-sumber-k2025-sekunder-yang-telah-direkonsiliasi">9.2 SUMBER K2025 SEKUNDER YANG TELAH DIREKONSILIASI</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Berkas</th>
+<th>Peran</th>
+<th style="text-align: center;">Status Rekonsiliasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>KURIKULUM2025/Laporan Daftar Kurikulum Prodi Sistekin.pdf</code></td>
+<td><strong>Ground truth tunggal</strong> atribut MK (kode, nama, SKS, semester)</td>
+<td style="text-align: center;">✅ Rujukan primer</td>
+</tr>
+<tr>
+<td><code>KURIKULUM2025/obe_pdf_extract/Implementasi_Modul_OBE_SISTEKIN2025_TABLES.md</code></td>
+<td>Sumber CPL/CPMK &amp; IRM K2025</td>
+<td style="text-align: center;">✅ 56/56 kode cocok, 0 konflik SKS</td>
+</tr>
+<tr>
+<td><code>KURIKULUM2025/Implementasi_MODUL_OBE_SISTEKIN2025.pdf</code></td>
+<td>Dokumen modul OBE K2025</td>
+<td style="text-align: center;">✅ Selaras (via ekstraksi di atas)</td>
+</tr>
+<tr>
+<td><code>KURIKULUM2025/Notulensi Rapat VMTS &amp; Kurikulum ... .pdf</code></td>
+<td>Notulensi rapat</td>
+<td style="text-align: center;">⚠️ <strong>Bukan</strong> ground truth atribut MK</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="93-konsistensi-dua-arah-matriks-bidirectional-balance">9.3 KONSISTENSI DUA ARAH MATRIKS (BIDIRECTIONAL BALANCE)</h3>
+<p>Matriks ini menyediakan dua perspektif atas satu himpunan pemetaan yang sama. Keduanya wajib berjumlah sama:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Perspektif</th>
+<th style="text-align: center;">Bagian</th>
+<th>Titik Tolak</th>
+<th>Neraca</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Maju</strong> (K2025 → K2026)</td>
+<td style="text-align: center;">Bagian 3 &amp; 8</td>
+<td>56 MK / 146 SKS Kurikulum 2025</td>
+<td>Seluruh 56 MK terpetakan: 34 E1 + 11 E2 + 8 E3 + 1 E4 + 2 E5</td>
+</tr>
+<tr>
+<td><strong>Balik</strong> (K2026 ← K2025)</td>
+<td style="text-align: center;">Bagian 3A</td>
+<td>67 MK / 182 SKS portofolio Kurikulum 2026</td>
+<td>49 MK dapat direkognisi + 18 MK baru wajib ditempuh</td>
+</tr>
+<tr>
+<td><strong>Titik temu</strong></td>
+<td style="text-align: center;">Bagian 7</td>
+<td>Paket 146 SKS Kurikulum 2026</td>
+<td>120 SKS diakui (P1/P2) atau 117 SKS (P3); defisit 26 atau 29 SKS</td>
+</tr>
+</tbody>
+</table></div>
+<p>Ketiga baris di atas telah diverifikasi saling konsisten secara terprogram (butir 11, 13, 15, dan 16 pada tabel 9). Perbedaan angka antar perspektif bukan inkonsistensi, melainkan konsekuensi dari tiga mekanisme yang sudah terdokumentasi: rasionalisasi SKS (Kalkulus 4→3, Aljabar Linear 4→3, Smart City 3→2), peleburan empat klaster E3 (−7 SKS), dan aturan klaim ganda (−5 SKS).</p>
 <hr />
 <p><em>Disahkan sebagai Dokumen Resmi 024 — Kurikulum OBE Revisi SISTEKIN 2026.</em>
 <strong>Tim Pengembang Kurikulum FSTI Universitas Widyagama Malang</strong></p>
