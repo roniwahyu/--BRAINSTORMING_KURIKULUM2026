@@ -4,8 +4,16 @@
 **Dokumen Revisi Definitif Kurikulum 2026**
 **Objek Analisis:** Dokumen 024 (Matriks Ekivalensi K2025 → K2026), khusus kategori **E5 — Tanpa Padanan**
 **Sumber Verifikasi:** `KURIKULUM2025/Laporan Daftar Kurikulum Prodi Sistekin.pdf` (ground truth K2025), Dokumen 007 (Silabus 67 MK Portofolio), Dokumen 003/009C/009D (14 CPL), Dokumen 016 & 017 (Audit BoK & Zero Redundancy), `KURIKULUM2025/obe_pdf_extract/Implementasi_Modul_OBE_SISTEKIN2025_TABLES.md` (Matriks CPL–MK K2025)
-**Metode:** Pemindaian kata kunci terprogram atas 65 blok silabus MK pada Dokumen 007, dibandingkan dengan pernyataan naratif Dokumen 024.
+**Metode:** Pemindaian kata kunci terprogram atas 65 blok silabus MK pada Dokumen 007, uji ambang overlap terhadap definisi operasional E2, dan rekalkulasi neraca SKS; dibandingkan dengan pernyataan naratif Dokumen 024.
 **Tanggal Analisis:** 29 Agustus 2026
+
+---
+
+## 0. JAWABAN RINGKAS
+
+**Tidak ada mata kuliah Kurikulum 2026 yang layak menjadi ekivalen bagi `STI-423` maupun `STI-638`.** Lima kandidat diuji terhadap ambang E2 (overlap konten 60–85% menurut Bagian 2 Dokumen 024); overlap tertinggi hanya **6,2%**. Karena itu status **E5 (Tanpa Padanan) dipertahankan** dan kedua MK tetap diakui sebagai kredit bebas 3 SKS.
+
+Yang perlu diperbaiki adalah **catatan penyerapannya**, yang saat ini menunjuk mata kuliah yang tidak memuat materi tersebut. Rumusan pengganti tersedia pada Bagian 6.1 dan tidak mengubah satu pun angka konsensus.
 
 ---
 
@@ -120,44 +128,85 @@ Tidak ada CPL Kurikulum 2025 yang menjadi yatim akibat penghapusan ini.
 
 ---
 
-## 5. REKOMENDASI PERBAIKAN — SELURUH MK TARGET TERSEDIA DI KURIKULUM2026_REVISI
+## 5. UJI KELAYAKAN EKIVALENSI: APAKAH KEDUA MK DAPAT DINAIKKAN DARI E5 KE E2?
 
-### 5.1 UNTUK `STI-423` GAME DESIGN DAN GAMIFIKASI SOSIAL
+Sebelum merekomendasikan MK pengganti, kelayakannya diuji terhadap **definisi operasional E2 pada Bagian 2 Dokumen 024**: *"Overlap konten 60–85%"*. Overlap diukur sebagai proporsi pekan pada Matriks 16 Pertemuan MK K2026 yang memuat materi topik terkait.
 
-| Opsi | Tindakan | MK Target | Konsekuensi |
-|:---:|---|---|---|
-| **A** *(minimal, tanpa ubah silabus)* | Ganti rujukan penyerapan dari `STC-01`/`STC-04` menjadi `STC-03` | `STC-03` Rekayasa Aplikasi Industri Vertikal (3 SKS, **Sem 6**, Peminatan **P3**) | Akurat secara faktual, tetapi cakupan hanya 1 pekan pada domain EdTech. Perlu dinyatakan jujur sebagai "singgungan", bukan "penyerapan" |
-| **B** *(substantif, mengubah silabus)* | Tambahkan pokok bahasan desain perilaku & gamifikasi pada `STC-01` | `STC-01` User Experience Research & Design (3 SKS, **Sem 5**, Peminatan **P3**) | CPL `P4` (Arsitektur Informasi & Aksesibilitas) dan `KK5` (Riset UX) paling dekat dengan desain perilaku pengguna; silabus sudah memuat `onboarding`. Menuntut revisi Dokumen 007 dan persetujuan Tim Kurikulum |
+### 5.1 HASIL UJI AMBANG OVERLAP
 
-### 5.2 UNTUK `STI-638` INTELLIGENT SIGNAL PROCESSING
+| Topik MK Dihapus | Kandidat MK K2026 | Pekan Termuat | Overlap | Status Ambang E2 (60–85%) |
+|---|:---:|:---:|:---:|:---:|
+| Gamifikasi (`STI-423`) | `STC-03` Rekayasa Aplikasi Industri Vertikal | 1 dari 16 (Pekan 9) | **6,2%** | ❌ Gagal |
+| Gamifikasi (`STI-423`) | `STC-01` UX Research & Design | 0 dari 16 | **0,0%** | ❌ Gagal |
+| Pengolahan sinyal (`STI-638`) | `STA-06` Smart Surveillance & IoT Analytics | 0 dari 16 | **0,0%** | ❌ Gagal |
+| Pengolahan sinyal (`STI-638`) | `STI-501` Deep Learning & Neural Networks | 0 dari 16 | **0,0%** | ❌ Gagal |
+| Pengolahan sinyal (`STI-638`) | `STI-504` Internet of Things | 0 dari 16 | **0,0%** | ❌ Gagal |
 
-| Opsi | Tindakan | MK Target | Konsekuensi |
-|:---:|---|---|---|
-| **A** *(minimal, tanpa ubah silabus)* | Ganti rujukan `STA-06` menjadi `STI-504`; pertahankan `STI-501` khusus untuk komponen deret waktu | `STI-504` Internet of Things (3 SKS, **Sem 5**, **paket wajib**) — memuat sensor, telemetri, MQTT | Prapemrosesan dan penapisan data sensor adalah tempat yang wajar. Rujukan `STI-501` dipersempit redaksinya menjadi "deret waktu (LSTM/GRU)", bukan "ekstraksi fitur sinyal" |
-| **B** *(substantif, mengubah silabus)* | Tambahkan pokok bahasan prapemrosesan sinyal sensor pada `STI-504` | `STI-504` Internet of Things | Menuntut revisi Dokumen 007 |
+**Kesimpulan uji:** tidak ada satu pun kandidat yang memenuhi ambang E2. Overlap tertinggi hanya 6,2%, jauh di bawah batas bawah 60%.
 
-### 5.3 UNTUK TEMUAN 3 (SITASI TANPA DASAR)
+### 5.2 SIMULASI DAMPAK BILA E5 DIPAKSA MENJADI E2
 
-Hapus sitasi "Dok. 016" pada baris 47 Dokumen 024, **atau** tambahkan pembahasan `STI-423` dan `STI-638` ke Dokumen 016/017 agar sitasi menjadi sah. Pilihan pertama lebih ringkas; pilihan kedua lebih kuat untuk kepentingan asesmen LAM INFOKOM.
+Untuk menunjukkan konsekuensinya secara terukur, dilakukan rekalkulasi seandainya `STI-423` → `STC-03` dan `STI-638` → `STA-06` dinaikkan menjadi E2:
 
-### 5.4 CATATAN LINGKUP YANG PERLU KEPUTUSAN PRODI
+| Indikator Konsensus | Kondisi Sekarang (E5) | Bila Dipaksa E2 | Perubahan |
+|---|:---:|:---:|:---:|
+| Neraca kategori E2 | 11 MK / 29 SKS | 13 MK / 35 SKS | +2 MK |
+| Neraca kategori E5 | 2 MK / 6 SKS | **0 MK / 0 SKS** | −2 MK |
+| SKS diakui jalur P1 | 120 SKS | 123 SKS | +3 |
+| SKS diakui jalur P2 | 120 SKS | 120 SKS | 0 |
+| SKS diakui jalur P3 | 117 SKS | 120 SKS | +3 |
+| Defisit jalur P1 / P2 / P3 | 26 / 26 / 29 SKS | 23 / 26 / 26 SKS | berubah |
 
-Apabila prodi menghendaki **pengolahan sinyal benar-benar tercakup** (bukan hanya dinyatakan terserap), perlu dicatat bahwa **tidak ada satu pun dari 67 MK portofolio yang saat ini memuatnya**. Hal ini tidak dapat diselesaikan dengan menyunting catatan ekivalensi dan merupakan keputusan lingkup kurikulum yang berada pada kewenangan Rapat Tim Kurikulum.
+> [!WARNING]
+> **Menaikkan status ke E2 akan mengubah angka konsensus yang sudah final** pada `AGENTS.md` dan Dokumen 024 (neraca E1–E5, serta simulasi "P1/P2 = 120 SKS, P3 = 117 SKS"), sementara dasar substantifnya tidak terpenuhi (overlap 0–6,2%). Selain itu, pengakuan menjadi tidak setara antar jalur: jalur P2 tidak memperoleh tambahan apa pun karena kedua MK pengganti berada di peminatan P1 dan P3.
 
 ---
 
-## 6. STATUS TINDAK LANJUT
+## 6. REKOMENDASI
+
+### 6.1 REKOMENDASI UTAMA — PERTAHANKAN STATUS E5, PERBAIKI CATATAN PENYERAPAN
+
+Berdasarkan uji ambang pada Bagian 5, **status E5 untuk kedua mata kuliah dipertahankan**. Yang diperbaiki adalah catatan penyerapan yang salah alamat, bukan kategorinya.
+
+| MK Dihapus | Catatan Sekarang (keliru) | Usulan Catatan Perbaikan |
+|:---:|---|---|
+| `STI-423` Game Design dan Gamifikasi Sosial | "Unsur gamifikasi terserap parsial pada `STC-01` UX Research & `STC-04` XR" | "**Dihapus** dari K2026 (di luar positioning "Integrator AI"; ranah *game development* menjadi kewenangan Prodi TI). Materi gamifikasi **tidak diserap sebagai penyetaraan**; hanya disinggung sebagai satu pokok bahasan pada `STC-03` Pekan 9 (Gamifikasi Pembelajaran domain EdTech), sehingga **tidak memenuhi ambang E2**. Diakui sebagai kredit bebas 3 SKS. Mahasiswa yang berminat melanjutkan tema ini dapat mengambilnya sebagai topik Tugas Akhir Opsi 2 (Proyek Inovasi Produk Industri) atau Opsi 3 (Tech Startup Mandiri)." |
+| `STI-638` Intelligent Signal Processing | "bertumpang dengan ranah riset algoritma Prodi TI, Dok. 016. Unsur ekstraksi fitur sinyal terserap parsial pada `STI-501` Deep Learning & `STA-06` Smart Surveillance" | "**Dihapus** dari K2026 (pengolahan sinyal digital merupakan ranah riset algoritma, bukan integrasi sistem). Materi pengolahan sinyal **tidak tercakup** pada MK K2026 mana pun; `STI-501` hanya memuat pemodelan deret waktu melalui LSTM/GRU dan `Feature Extraction` dalam konteks *transfer learning vision*, sehingga **tidak memenuhi ambang E2**. Diakui sebagai kredit bebas 3 SKS. Analitik data sensor tingkat aplikatif tersedia pada `STI-504` IoT dan `STA-06` Smart Surveillance & IoT Analytics, namun bukan sebagai penyetaraan." |
+
+Rumusan ini memenuhi tiga syarat sekaligus: jujur secara faktual, tidak mengubah angka konsensus mana pun, dan tetap memberi arah bagi mahasiswa yang menanyakan kelanjutan tema tersebut.
+
+### 6.2 REKOMENDASI KEDUA — HAPUS SITASI YANG TIDAK DAPAT DILACAK
+
+Hapus frasa "Dok. 016" pada catatan `STI-638`, karena kedua MK ini tidak pernah dibahas di Dokumen 016 maupun 017 (Temuan 3). Alternatifnya, tambahkan pembahasan keduanya ke Dokumen 017 sebagai butir *scoping decision* — pilihan ini lebih kuat untuk kepentingan asesmen LAM INFOKOM karena penghapusan MK akan ditanyakan asesor.
+
+### 6.3 OPSI LANJUTAN BILA PRODI MENGHENDAKI MATERI TETAP TERCAKUP
+
+Kedua opsi berikut **bukan** ekivalensi, melainkan perluasan cakupan kurikulum. Keduanya menuntut revisi Dokumen 007 dan persetujuan Rapat Tim Kurikulum.
+
+| Topik | MK Penampung Paling Layak | Dasar Kelayakan | Konsekuensi |
+|---|---|---|---|
+| Gamifikasi & desain perilaku | `STC-01` UX Research & Design (3 SKS, Sem 5, P3) | CPL `P4` (Arsitektur Informasi & Aksesibilitas) dan `KK5` (Riset UX) adalah CPL terdekat dengan desain perilaku pengguna; silabus telah memuat `Micro-Interactions Design` (Pekan 12) dan `onboarding` (Pekan 13) yang bertetangga secara konseptual | Menambah pokok bahasan pada Pekan 12 atau 13; tidak menambah SKS |
+| Prapemrosesan sinyal sensor | `STI-504` Internet of Things (3 SKS, Sem 5, paket wajib) | Satu-satunya MK yang memuat sensor, telemetri, dan MQTT sekaligus, dan berstatus **paket wajib** sehingga menjangkau seluruh mahasiswa tanpa bergantung peminatan | Menambah pokok bahasan penapisan & normalisasi data sensor; tidak menambah SKS |
+
+> [!NOTE]
+> Bila opsi 6.3 dijalankan, status kedua MK lama **tetap E5**. Perluasan cakupan tidak otomatis menciptakan hak penyetaraan, karena penyetaraan menuntut kesetaraan capaian pembelajaran, bukan sekadar kehadiran topik.
+
+---
+
+## 7. STATUS TINDAK LANJUT
 
 | No | Butir | Status |
 |:---:|---|:---:|
 | 1 | Analisis dan verifikasi terprogram | ✅ Selesai |
-| 2 | Perbaikan catatan baris 30 Dokumen 024 (`STI-423`) | ⏸️ Menunggu keputusan Opsi A atau B |
-| 3 | Perbaikan catatan baris 47 Dokumen 024 (`STI-638`) | ⏸️ Menunggu keputusan Opsi A atau B |
-| 4 | Penanganan sitasi "Dok. 016" tanpa dasar | ⏸️ Menunggu keputusan |
-| 5 | Keputusan lingkup pengolahan sinyal | ⏸️ Kewenangan Rapat Tim Kurikulum |
+| 2 | Uji ambang E2 atas 5 kandidat MK pengganti | ✅ Selesai — seluruhnya gagal ambang |
+| 3 | Perbaikan catatan `STI-423` pada Bagian 3.4 Dokumen 024 | ⏸️ Menunggu persetujuan (rumusan siap, Bagian 6.1) |
+| 4 | Perbaikan catatan `STI-638` pada Bagian 3.6 Dokumen 024 | ⏸️ Menunggu persetujuan (rumusan siap, Bagian 6.1) |
+| 5 | Penghapusan sitasi "Dok. 016" yang tidak dapat dilacak | ⏸️ Menunggu persetujuan |
+| 6 | Perluasan cakupan gamifikasi pada `STC-01` | ⏸️ Kewenangan Rapat Tim Kurikulum |
+| 7 | Perluasan cakupan sinyal sensor pada `STI-504` | ⏸️ Kewenangan Rapat Tim Kurikulum |
 
-> [!NOTE]
-> Dokumen 024 **belum diubah**. Analisis ini disimpan sebagai temuan untuk dibahas terlebih dahulu, sesuai kaidah bahwa perubahan atas konsensus kurikulum memerlukan persetujuan Tim Pengembang.
+> [!IMPORTANT]
+> **Dokumen 024 belum diubah.** Angka konsensus tetap: E1 34 MK / E2 11 MK / E3 8 MK / E4 1 MK / **E5 2 MK**, dengan simulasi pengakuan P1 = P2 = 120 SKS dan P3 = 117 SKS. Rekomendasi Bagian 6.1 dan 6.2 bersifat perbaikan redaksi dan **tidak mengubah satu pun angka tersebut**.
 
 ---
 *Disahkan sebagai Dokumen Resmi 026 — Kurikulum OBE Revisi SISTEKIN 2026.*

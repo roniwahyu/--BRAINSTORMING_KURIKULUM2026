@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>026 — Analisis Kritis MK Dihapus & Rekomendasi Pengganti | Kurikulum OBE SISTEKIN 2026</title>
+    <meta name="description" content="Dokumen Resmi Kurikulum OBE 2026 Program Studi Sistem dan Teknologi Informasi (S1) FSTI UWG Malang.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- KaTeX for LaTeX Math -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+
+    <!-- Mermaid JS for Flowcharts -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+
+    <style>
+        :root {
+            --bg-primary: #0b0f19;
+            --bg-secondary: #111827;
+            --bg-card: rgba(17, 24, 39, 0.75);
+            --bg-card-hover: rgba(31, 41, 55, 0.85);
+            --border-color: rgba(255, 255, 255, 0.1);
+            --border-accent: rgba(99, 102, 241, 0.35);
+            
+            --text-primary: #f9fafb;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+            
+            --primary: #6366f1;
+            --primary-light: #818cf8;
+            --secondary: #06b6d4;
+            --accent: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            
+            --mkwu-color: #ec4899;
+            --fsti-color: #8b5cf6;
+            --sti-color: #3b82f6;
+            --elektif-color: #10b981;
+            
+            --font-sans: 'Plus Jakarta Sans', 'Inter', sans-serif;
+            --font-code: 'Fira Code', monospace;
+            --shadow-glow: 0 0 30px rgba(99, 102, 241, 0.12);
+            --radius-lg: 16px;
+            --radius-md: 12px;
+            --radius-sm: 8px;
+        }
+
+        [data-theme="light"] {
+            --bg-primary: #f8fafc;
+            --bg-secondary: #ffffff;
+            --bg-card: rgba(255, 255, 255, 0.9);
+            --bg-card-hover: #ffffff;
+            --border-color: rgba(0, 0, 0, 0.08);
+            --border-accent: rgba(99, 102, 241, 0.25);
+            
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --text-muted: #94a3b8;
+            
+            --shadow-glow: 0 10px 30px rgba(99, 102, 241, 0.08);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            padding-bottom: 80px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Navbar */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(11, 15, 25, 0.85);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 14px 0;
+            margin-bottom: 32px;
+        }
+        [data-theme="light"] .navbar { background: rgba(248, 250, 252, 0.85); }
+
+        .navbar-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+        .brand-logo {
+            width: 40px; height: 40px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: var(--radius-sm);
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 800; color: white; font-size: 1.1rem;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+        }
+        .brand-text h1 { font-size: 1.05rem; font-weight: 700; color: var(--text-primary); }
+        .brand-text p { font-size: 0.75rem; color: var(--text-secondary); }
+
+        .doc-select {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            font-size: 0.85rem;
+            font-weight: 600;
+            outline: none;
+            cursor: pointer;
+            max-width: 380px;
+        }
+
+        .search-box {
+            position: relative;
+            min-width: 240px;
+        }
+        .search-input {
+            width: 100%;
+            padding: 8px 14px 8px 34px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            color: var(--text-primary);
+            font-size: 0.85rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .search-input:focus { border-color: var(--primary); }
+        .search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); font-size: 0.8rem; opacity: 0.6; }
+
+        .nav-actions { display: flex; align-items: center; gap: 10px; }
+        .btn-action {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            cursor: pointer; font-size: 0.85rem; font-weight: 600;
+            display: inline-flex; align-items: center; gap: 6px;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
+        .btn-action:hover { border-color: var(--primary); color: var(--primary-light); transform: translateY(-1px); }
+
+        /* Hero Header */
+        .hero {
+            background: radial-gradient(circle at top right, rgba(99, 102, 241, 0.15), transparent 50%),
+                        radial-gradient(circle at bottom left, rgba(6, 182, 212, 0.1), transparent 50%);
+            border: 1px solid var(--border-accent);
+            border-radius: var(--radius-lg);
+            padding: 36px;
+            margin-bottom: 36px;
+            box-shadow: var(--shadow-glow);
+        }
+        .hero-badge-group { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+        .badge {
+            font-size: 0.72rem; font-weight: 700; padding: 4px 12px; border-radius: 20px;
+            letter-spacing: 0.03em; text-transform: uppercase;
+        }
+        .badge-primary { background: rgba(99, 102, 241, 0.2); color: var(--primary-light); border: 1px solid rgba(99, 102, 241, 0.4); }
+        .badge-accent { background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); }
+        .badge-warning { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.4); }
+
+        .hero-title {
+            font-size: 2rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 8px;
+            background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        [data-theme="light"] .hero-title {
+            background: linear-gradient(135deg, #0f172a 0%, #334155 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+
+        /* Typography & Content */
+        .content {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+        }
+
+        .content h1 { font-size: 1.8rem; font-weight: 800; margin: 32px 0 16px 0; color: var(--text-primary); border-bottom: 2px solid var(--border-accent); padding-bottom: 10px; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 30px 0 14px 0; color: var(--primary-light); border-bottom: 1px solid var(--border-color); padding-bottom: 8px; }
+        .content h3 { font-size: 1.15rem; font-weight: 700; margin: 24px 0 12px 0; color: var(--text-primary); }
+        .content h4 { font-size: 1rem; font-weight: 600; margin: 18px 0 8px 0; color: var(--text-secondary); }
+
+        .content p { margin-bottom: 16px; color: var(--text-secondary); font-size: 0.96rem; }
+        .content ul, .content ol { margin: 0 0 20px 24px; color: var(--text-secondary); font-size: 0.95rem; }
+        .content li { margin-bottom: 6px; }
+        .content blockquote {
+            border-left: 4px solid var(--primary);
+            padding: 12px 20px;
+            background: rgba(99, 102, 241, 0.06);
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            margin: 20px 0;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Tables */
+        .table-wrapper { overflow-x: auto; margin: 24px 0; border-radius: var(--radius-md); border: 1px solid var(--border-color); }
+        table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem; }
+        th {
+            background: rgba(31, 41, 55, 0.7); color: var(--text-primary);
+            font-weight: 700; padding: 12px 16px; border-bottom: 1px solid var(--border-color);
+            font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em;
+        }
+        [data-theme="light"] th { background: #f1f5f9; }
+        td { padding: 12px 16px; border-bottom: 1px solid var(--border-color); color: var(--text-secondary); }
+        tr:last-child td { border-bottom: none; }
+        tr:hover td { background: var(--bg-card-hover); color: var(--text-primary); }
+
+        /* Code Badges */
+        .code-tag {
+            font-family: var(--font-code); font-weight: 600; font-size: 0.82rem;
+            padding: 2px 8px; border-radius: 4px; background: rgba(99, 102, 241, 0.12);
+            color: var(--primary-light); border: 1px solid rgba(99, 102, 241, 0.25);
+        }
+        code {
+            font-family: var(--font-code); font-size: 0.85rem; padding: 2px 6px;
+            background: rgba(255, 255, 255, 0.06); border-radius: 4px; color: var(--primary-light);
+        }
+
+        .cat-badge { font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px; display: inline-block; }
+        .cat-mkwu { background: rgba(236, 72, 153, 0.15); color: #f472b6; border: 1px solid rgba(236, 72, 153, 0.3); }
+        .cat-fsti { background: rgba(139, 92, 246, 0.15); color: #c084fc; border: 1px solid rgba(139, 92, 246, 0.3); }
+        .cat-sti  { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
+        .cat-elektif { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+
+        /* Custom Alerts */
+        .custom-alert {
+            border-left: 4px solid var(--primary);
+            background: rgba(17, 24, 39, 0.6);
+            border: 1px solid var(--border-color);
+            border-left-width: 4px;
+            border-radius: var(--radius-md);
+            padding: 16px 20px;
+            margin: 24px 0;
+        }
+        .alert-important { border-left-color: var(--primary); background: rgba(99, 102, 241, 0.08); }
+        .alert-note { border-left-color: var(--secondary); background: rgba(6, 182, 212, 0.08); }
+        .alert-tip { border-left-color: var(--accent); background: rgba(16, 185, 129, 0.08); }
+        .alert-warning { border-left-color: var(--warning); background: rgba(245, 158, 11, 0.08); }
+        .alert-caution { border-left-color: var(--danger); background: rgba(239, 68, 68, 0.08); }
+        
+        .alert-header { font-weight: 700; font-size: 0.9rem; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
+        .alert-important .alert-header { color: var(--primary-light); }
+        .alert-note .alert-header { color: var(--secondary); }
+        .alert-tip .alert-header { color: var(--accent); }
+        .alert-warning .alert-header { color: var(--warning); }
+        .alert-caution .alert-header { color: var(--danger); }
+        .alert-content { color: var(--text-secondary); font-size: 0.92rem; }
+
+        /* Mermaid Box */
+        .mermaid-card {
+            background: rgba(17, 24, 39, 0.5);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 24px; margin: 24px 0;
+            text-align: center; overflow-x: auto;
+        }
+
+        /* Bottom Nav Links */
+        .doc-nav {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--border-color);
+        }
+        .nav-btn {
+            background: var(--bg-secondary); border: 1px solid var(--border-color);
+            color: var(--text-primary); padding: 10px 18px; border-radius: var(--radius-sm);
+            text-decoration: none; font-weight: 600; font-size: 0.88rem; transition: all 0.2s;
+        }
+        .nav-btn:hover { border-color: var(--primary); color: var(--primary-light); }
+
+        /* Footer */
+        .footer { margin-top: 60px; text-align: center; color: var(--text-muted); font-size: 0.85rem; }
+
+        @media print {
+            body { background: white; color: black; }
+            .navbar, .nav-actions, .doc-nav, .search-box { display: none; }
+            .hero, .content { border: 1px solid #ccc; box-shadow: none; background: white; padding: 20px; }
+            th { background: #eee !important; color: black !important; }
+            td { color: black !important; }
+            .code-tag { background: #f0f0f0; color: black; border: 1px solid #ccc; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <a href="index.html" class="brand">
+                <div class="brand-logo">STI</div>
+                <div class="brand-text">
+                    <h1>SISTEKIN — FSTI UWG</h1>
+                    <p>Buku Kurikulum OBE 2026</p>
+                </div>
+            </a>
+            
+            <select class="doc-select" onchange="window.location.href=this.value">
+                <option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
+<option value="002_FORMULASI_3_PEO_DAN_4_PROFIL_LULUSAN_SISTEKIN.html" >002 — Formulasi 3 PEO & 4 Profil Lulusan</option>
+<option value="003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.html" >003 — Standar 14 CPL & Pemetaan BoK APTIKOM</option>
+<option value="004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.html" >004 — Matriks Keterlacakan OBE VMTS-PEO-PL-CPL-MK</option>
+<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — Struktur Kurikulum 8 Semester & Peminatan</option>
+<option value="006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.html" >006 — Distribusi MK Peminatan & Panduan MBKM</option>
+<option value="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" >007 — Silabus 3-Tabel & CPMK 67 MK Portofolio</option>
+<option value="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" >008 — Sistem Asesmen OBE & Attainment CPL</option>
+<option value="009_LANGKAH2_CPL_FORMAL.html" >009 — Ringkasan Langkah 2: CPL Formal</option>
+<option value="009A_CPL_SIKAP_SISTEKIN.html" >009A — Detail CPL Sikap (S1)</option>
+<option value="009B_CPL_KETERAMPILAN_UMUM_SISTEKIN.html" >009B — Detail CPL Keterampilan Umum (KU1-3)</option>
+<option value="009C_CPL_PENGETAHUAN_SISTEKIN.html" >009C — Detail CPL Pengetahuan (P1-4)</option>
+<option value="009D_CPL_KETERAMPILAN_KHUSUS_SISTEKIN.html" >009D — Detail CPL Keterampilan Khusus (KK1-6)</option>
+<option value="009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.html" >009E — Master Matriks Kompilasi 14 CPL & BoK</option>
+<option value="009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.html" >009 — Pedoman Capstone & 4 Opsi TA Non-Skripsi</option>
+<option value="010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.html" >010 — Instrumen Tracer Study & Evaluasi PEO</option>
+<option value="011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.html" >011 — 14 Sheet Matriks Implementasi OBE</option>
+<option value="012_ANALISIS_KRITIS_JALUR_PONDASI_DAN_TREE_PRASYARAT.html" >012 — Analisis Kritis Jalur Pondasi & Tree View Prasyarat</option>
+<option value="013_REKOMENDASI_SOLUSI_DAN_MITIGASI_KELEMAHAN_KURIKULUM.html" >013 — Rekomendasi Solusi & Mitigasi Kelemahan Kurikulum</option>
+<option value="014_ANALISIS_KRITIS_PEMANGKASAN_SKS_TEORI_SEM4_SEM5.html" >014 — Analisis Kritis Pemangkasan SKS Teori Sem 4 & 5</option>
+<option value="015_SIMULASI_AKSELERASI_KELULUSAN_7_SEMESTER.html" >015 — Panduan & Simulasi Akselerasi 7 Semester (Fast-Track)</option>
+<option value="016_ANALISIS_BoK_APTIKOM_REDUNDANSI_DAN_PIPELINE_AI.html" >016 — Analisis BoK APTIKOM, Audit Redundansi & Pipeline AI</option>
+<option value="017_AUDIT_FORENSIK_ZERO_REDUNDANCY_DAN_ZERO_GAP.html" >017 — Audit Forensik Zero Redundancy & Zero Gap 5 Domain</option>
+<option value="018_PANDUAN_RUBRIK_KLASTER_DAN_MODEL_ASESMEN_OBE_DOSEN.html" >018 — Panduan Master Rubrik Klaster & Model Asesmen Dosen</option>
+<option value="020_TEMPLATE_BUKU_KURIKULUM_KPT_OBE_APTIKOM.html" >020 — Template Buku Kurikulum KPT-OBE & Analisis Gap</option>
+<option value="021_PANDUAN_KPT2024_DIKTI_FULLTEXT.html" >021 — Panduan KPT 2024 Belmawa Dikti (Teks Lengkap)</option>
+<option value="022_AUDIT_KELENGKAPAN_KOMPONEN_VS_TEMPLATE_KPT_OBE.html" >022 — Audit Kelengkapan Komponen vs Template KPT-OBE</option>
+<option value="023_BUKU_KPT_SISTEKIN_2026_STRUKTUR_KPT2024.html" >023 — 📘 BUKU KPT SISTEKIN 2026 (Struktur 12 Bab KPT 2024)</option>
+<option value="024_MATRIKS_EKIVALENSI_KURIKULUM2025_KE_KURIKULUM2026.html" >024 — Matriks Ekivalensi MK Kurikulum 2025 → 2026</option>
+<option value="025_REKOMENDASI_PENGEMBANGAN_MK_PEMINATAN_DAN_CROSS_TRACK_2027.html" >025 — Rekomendasi Pool MK Peminatan & Cross-Track 2027</option>
+<option value="026_ANALISIS_KRITIS_MK_DIHAPUS_DAN_REKOMENDASI_PENGGANTI.html" selected>026 — Analisis Kritis MK Dihapus & Rekomendasi Pengganti</option>
+<option value="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" >📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)</option>
+            </select>
+
+            
+    <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="globalTableSearch" class="search-input" placeholder="Cari dalam dokumen (kode, MK, istilah, tabel)...">
+    </div>
+    
+
+            <div class="nav-actions">
+                <a href="index.html" class="btn-action">🏠 Portal Dokumen</a>
+                <button class="btn-action" onclick="window.print()">🖨️ Cetak PDF</button>
+                <button class="btn-action" id="themeToggle">🌓 Tema</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-badge-group">
+                <span class="badge badge-primary">Kurikulum OBE 2026</span>
+                <span class="badge badge-accent">Permendikbudristek 53/2023</span>
+                <span class="badge badge-warning">FSTI UWG Malang</span>
+            </div>
+            <h1 class="hero-title">026 — Analisis Kritis MK Dihapus & Rekomendasi Pengganti</h1>
+            <p style="color: var(--text-secondary); font-size: 0.95rem;">Dokumen Kurikulum OBE Definitif Program Studi Sistem dan Teknologi Informasi (S1)</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="content">
+            <h1 id="026-analisis-kritis-hasil-dokumen-024-verifikasi-klaim-penyerapan-mata-kuliah-yang-dihapus">026 — ANALISIS KRITIS HASIL DOKUMEN 024: VERIFIKASI KLAIM PENYERAPAN MATA KULIAH YANG DIHAPUS</h1>
+<h2 id="program-studi-sistem-dan-teknologi-informasi-s1-fakultas-sains-dan-teknologi-informasi-fsti-universitas-widyagama-malang">Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang</h2>
+<p><strong>Dokumen Revisi Definitif Kurikulum 2026</strong>
+<strong>Objek Analisis:</strong> Dokumen 024 (Matriks Ekivalensi K2025 → K2026), khusus kategori <strong>E5 — Tanpa Padanan</strong>
+<strong>Sumber Verifikasi:</strong> <code>KURIKULUM2025/Laporan Daftar Kurikulum Prodi Sistekin.pdf</code> (ground truth K2025), Dokumen 007 (Silabus 67 MK Portofolio), Dokumen 003/009C/009D (14 CPL), Dokumen 016 &amp; 017 (Audit BoK &amp; Zero Redundancy), <code>KURIKULUM2025/obe_pdf_extract/Implementasi_Modul_OBE_SISTEKIN2025_TABLES.md</code> (Matriks CPL–MK K2025)
+<strong>Metode:</strong> Pemindaian kata kunci terprogram atas 65 blok silabus MK pada Dokumen 007, uji ambang overlap terhadap definisi operasional E2, dan rekalkulasi neraca SKS; dibandingkan dengan pernyataan naratif Dokumen 024.
+<strong>Tanggal Analisis:</strong> 29 Agustus 2026</p>
+<hr />
+<h2 id="0-jawaban-ringkas">0. JAWABAN RINGKAS</h2>
+<p><strong>Tidak ada mata kuliah Kurikulum 2026 yang layak menjadi ekivalen bagi <span class="code-tag">STI-423</span>> maupun <span class="code-tag">STI-638</span>>.</strong> Lima kandidat diuji terhadap ambang E2 (overlap konten 60–85% menurut Bagian 2 Dokumen 024); overlap tertinggi hanya <strong>6,2%</strong>. Karena itu status <strong>E5 (Tanpa Padanan) dipertahankan</strong> dan kedua MK tetap diakui sebagai kredit bebas 3 SKS.</p>
+<p>Yang perlu diperbaiki adalah <strong>catatan penyerapannya</strong>, yang saat ini menunjuk mata kuliah yang tidak memuat materi tersebut. Rumusan pengganti tersedia pada Bagian 6.1 dan tidak mengubah satu pun angka konsensus.</p>
+<hr />
+<h2 id="1-ruang-lingkup-dan-batas-analisis">1. RUANG LINGKUP DAN BATAS ANALISIS</h2>
+<p>Analisis ini <strong>hanya</strong> menguji 2 mata kuliah Kurikulum 2025 berkategori <strong>E5 (Tanpa Padanan)</strong>, yaitu mata kuliah yang dihapus tanpa MK pengganti pada Kurikulum 2026:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Kode K2025</th>
+<th>Nama Mata Kuliah</th>
+<th style="text-align: center;">SKS</th>
+<th style="text-align: center;">Smt</th>
+<th>Perlakuan Dok 024</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-423</span>></td>
+<td>Game Design dan Gamifikasi Sosial (+P)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+<td>Dihapus, diakui sebagai kredit bebas 3 SKS</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-638</span>></td>
+<td>Intelligent Signal Processing</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">6</td>
+<td>Dihapus, diakui sebagai kredit bebas 3 SKS</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Yang TIDAK dicakup analisis ini:</strong> kategori E1 (34 MK), E2 (11 MK), E3 (8 MK), dan E4 (1 MK). Keempat kategori tersebut telah diverifikasi terpisah oleh <code>_tools/verify_k2025_ground_truth.py</code> pada aspek atribut MK, neraca SKS, dan Zero Orphan — bukan pada aspek kebenaran substansi materi.</p>
+<hr />
+<h2 id="2-temuan">2. TEMUAN</h2>
+<h3 id="21-temuan-1-klaim-penyerapan-gamifikasi-tidak-terbukti">2.1 TEMUAN 1 — KLAIM PENYERAPAN GAMIFIKASI TIDAK TERBUKTI</h3>
+<p><strong>Pernyataan Dokumen 024</strong> (Bagian 3.4, baris 30):</p>
+<blockquote>
+<p>"<strong>Dihapus</strong> dari K2026 (di luar positioning "Integrator AI"). Unsur gamifikasi terserap parsial pada <code>STC-01</code>> UX Research &amp; <code>STC-04</code>> XR. Diakui sebagai kredit bebas 3 SKS"</p>
+</blockquote>
+<p><strong>Pengujian:</strong> pemindaian 11 kata kunci (<code>gamifikas</code>>, <code>gamification</code>>, <code>game</code>>, <code>permainan</code>>, <code>poin</code>>, <code>leaderboard</code>>, <code>badge</code>>, <code>reward</code>>, <code>level</code>>, <code>player</code>>, <code>pemain</code>>) pada blok silabus lengkap <code>STC-01</code>> dan <code>STC-04</code>> di Dokumen 007.</p>
+<p><strong>Hasil:</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">MK yang Diklaim Menyerap</th>
+<th>Kemunculan Kata Kunci Gamifikasi</th>
+<th style="text-align: center;">Status Klaim</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>STC-01</code>> User Experience Research &amp; Design</td>
+<td><strong>Nol.</strong> Kata <code>level</code>> muncul 4× pada konteks "Level Bloom" (2×) dan "WCAG 2.1 Level AAA" (2×)</td>
+<td style="text-align: center;">❌ <strong>Tidak terbukti</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>STC-04</code>> Immersive Media &amp; XR Development</td>
+<td><strong>Nol.</strong> Kata <code>level</code>> muncul 3× pada konteks "Level Bloom" (2×) dan "Level of Detail (LOD)" (1×)</td>
+<td style="text-align: center;">❌ <strong>Tidak terbukti</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Pemindaian menyeluruh 67 MK portofolio</strong> menunjukkan satu-satunya jangkar gamifikasi berada pada MK yang <strong>tidak disebut</strong> Dokumen 024:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">MK Sebenarnya</th>
+<th style="text-align: center;">Lokasi</th>
+<th>Kutipan Pokok Bahasan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>STC-03</code>> Rekayasa Aplikasi Industri Vertikal (FinTech &amp; EdTech)</td>
+<td style="text-align: center;">Pekan 9</td>
+<td>"Domain EdTech: Arsitektur LMS Modern, Kursus Daring, <strong>Gamifikasi Pembelajaran</strong>"</td>
+</tr>
+</tbody>
+</table></div>
+<p>Cakupannya adalah <strong>satu sub-pokok bahasan dalam satu pekan</strong>, bukan penyerapan setara MK 3 SKS.</p>
+<hr />
+<h3 id="22-temuan-2-klaim-penyerapan-pengolahan-sinyal-sebagian-tidak-terbukti">2.2 TEMUAN 2 — KLAIM PENYERAPAN PENGOLAHAN SINYAL SEBAGIAN TIDAK TERBUKTI</h3>
+<p><strong>Pernyataan Dokumen 024</strong> (Bagian 3.6, baris 47):</p>
+<blockquote>
+<p>"<strong>Dihapus</strong> dari K2026 (bertumpang dengan ranah riset algoritma Prodi TI, Dok. 016). Unsur ekstraksi fitur sinyal terserap parsial pada <span class="code-tag">STI-501</span>> Deep Learning &amp; <code>STA-06</code>> Smart Surveillance. Diakui sebagai kredit bebas 3 SKS"</p>
+</blockquote>
+<p><strong>Pengujian:</strong> pemindaian 14 kata kunci (<code>sinyal</code>>, <code>signal</code>>, <code>fourier</code>>, <code>fft</code>>, <code>wavelet</code>>, <code>filter digital</code>, <code>spektral</code>>, <code>spektrum</code>>, <code>frekuensi</code>>, <code>audio</code>>, <code>ekstraksi fitur</code>, <code>feature extraction</code>, <code>time series</code>, <code>deret waktu</code>).</p>
+<p><strong>Hasil:</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">MK yang Diklaim Menyerap</th>
+<th>Temuan</th>
+<th style="text-align: center;">Status Klaim</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-501</span>> Deep Learning &amp; Neural Networks</td>
+<td><code>Feature Extraction</code> 1× (Pekan 7: <em>"Transfer Learning: Feature Extraction vs Fine-Tuning Model Vision"</em>), <code>Time Series</code> 1× (Pekan 12: <em>"Gated Architectures: LSTM Cells, GRU Cells untuk Time Series"</em>)</td>
+<td style="text-align: center;">⚠️ <strong>Sebagian</strong> — konteks vision &amp; deret waktu, bukan pengolahan sinyal</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>STA-06</code>> Smart Surveillance and IoT Analytics</td>
+<td><strong>Nol</strong> dari 14 kata kunci. Seluruh 16 pekan murni <em>computer vision</em>: YOLOv8, ByteTrack, RetinaFace, TensorRT, Edge AI</td>
+<td style="text-align: center;">❌ <strong>Tidak terbukti</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Pemindaian menyeluruh 67 MK portofolio</strong> untuk <code>pengolahan sinyal</code>, <code>signal processing</code>, <code>fourier</code>>, <code>wavelet</code>>, <code>spektral</code>>, dan <code>frekuensi sinyal</code>: <strong>tidak ditemukan sama sekali</strong>.</p>
+<hr />
+<h3 id="23-temuan-3-rujukan-justifikasi-penghapusan-tidak-dapat-diverifikasi">2.3 TEMUAN 3 — RUJUKAN JUSTIFIKASI PENGHAPUSAN TIDAK DAPAT DIVERIFIKASI</h3>
+<p>Dokumen 024 mendasarkan penghapusan <span class="code-tag">STI-638</span>> pada <em>"bertumpang dengan ranah riset algoritma Prodi TI, </em><em>Dok. 016</em><em>"</em>.</p>
+<p><strong>Pengujian:</strong> pencarian <span class="code-tag">STI-423</span>>, <span class="code-tag">STI-638</span>>, <code>gamifikas</code>>, dan <code>signal</code>> pada Dokumen 016 (Audit BoK APTIKOM &amp; Pipeline AI) dan Dokumen 017 (Audit Forensik Zero Redundancy &amp; Zero Gap).</p>
+<p><strong>Hasil:</strong> <strong>nol kemunculan pada kedua dokumen.</strong> Kedua mata kuliah ini tidak pernah dibahas dalam audit mana pun, sehingga sitasi "Dok. 016" pada baris 47 tidak memiliki dasar yang dapat dilacak.</p>
+<hr />
+<h2 id="3-verifikasi-sisi-capaian-pembelajaran-penghapusan-dapat-dipertanggungjawabkan">3. VERIFIKASI SISI CAPAIAN PEMBELAJARAN — PENGHAPUSAN DAPAT DIPERTANGGUNGJAWABKAN</h2>
+<p>Berbeda dari klaim penyerapan, <strong>keputusan menghapus kedua MK itu sendiri konsisten</strong> dengan penyempitan cakupan CPL.</p>
+<h3 id="31-perbandingan-rumusan-cpl">3.1 PERBANDINGAN RUMUSAN CPL</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kurikulum</th>
+<th>Rumusan CPL Terkait</th>
+<th style="text-align: center;">Menyebut Gamifikasi / Sinyal?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>K2025</strong> <code>CPL04</code>></td>
+<td>"Mampu merancang dan mengevaluasi antarmuka, pengalaman pengguna, <strong>gamifikasi</strong>, dan <strong>multimedia interaktif</strong> ..."</td>
+<td style="text-align: center;">✅ Eksplisit</td>
+</tr>
+<tr>
+<td><strong>K2026</strong> 14 CPL (S1, KU1–3, P1–4, KK1–6)</td>
+<td>Pemindaian <code>gamifikas</code>>, <code>sinyal</code>>, <code>signal</code>>, <code>multimedia</code>> pada Dok 003, 009C, dan 009D</td>
+<td style="text-align: center;">❌ <strong>Tidak disebut sama sekali</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>Penghapusan kedua MK <strong>selaras</strong> dengan hilangnya kedua ranah tersebut dari rumusan 14 CPL Kurikulum 2026. Ini keputusan lingkup (<em>scoping</em>) yang sah, bukan kesenjangan capaian pembelajaran.</p>
+<h3 id="32-kedua-mk-bukan-pengampu-tunggal-di-k2025">3.2 KEDUA MK BUKAN PENGAMPU TUNGGAL DI K2025</h3>
+<p>Berdasarkan Matriks CPL–MK Kurikulum 2025 (Modul OBE 2025):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">MK Dihapus</th>
+<th style="text-align: center;">CPL yang Diampu di K2025</th>
+<th style="text-align: center;">Jumlah MK K2025 Lain yang Juga Mengampu CPL Sama</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-423</span>></td>
+<td style="text-align: center;"><code>CPL04</code>>, <code>CPL08</code>></td>
+<td style="text-align: center;"><strong>17 MK</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-638</span>></td>
+<td style="text-align: center;"><code>CPL03</code>>, <code>CPL05</code>>, <code>CPL09</code>></td>
+<td style="text-align: center;"><strong>31 MK</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>Tidak ada CPL Kurikulum 2025 yang menjadi yatim akibat penghapusan ini.</p>
+<hr />
+<h2 id="4-ringkasan-status-klaim">4. RINGKASAN STATUS KLAIM</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">#</th>
+<th>Klaim Dokumen 024</th>
+<th style="text-align: center;">Status</th>
+<th>Dampak</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td>Gamifikasi terserap pada <code>STC-01</code>></td>
+<td style="text-align: center;">❌ Tidak terbukti</td>
+<td>Salah alamat rujukan</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td>Gamifikasi terserap pada <code>STC-04</code>></td>
+<td style="text-align: center;">❌ Tidak terbukti</td>
+<td>Salah alamat rujukan</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td>Ekstraksi fitur sinyal terserap pada <span class="code-tag">STI-501</span>></td>
+<td style="text-align: center;">⚠️ Sebagian, konteks berbeda</td>
+<td>Perlu penajaman redaksi</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td>Ekstraksi fitur sinyal terserap pada <code>STA-06</code>></td>
+<td style="text-align: center;">❌ Tidak terbukti</td>
+<td>Salah alamat rujukan</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td>Penghapusan <span class="code-tag">STI-638</span>> berdasar Dok. 016</td>
+<td style="text-align: center;">❌ Tidak dapat diverifikasi</td>
+<td>Sitasi tanpa dasar</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td>Penghapusan konsisten dengan cakupan 14 CPL</td>
+<td style="text-align: center;">✅ Terbukti</td>
+<td>—</td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td>Tidak ada CPL K2025 yang yatim</td>
+<td style="text-align: center;">✅ Terbukti</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Pokok masalah bukan kesenjangan capaian pembelajaran, melainkan klaim penyerapan yang salah alamat.</strong> Risiko praktisnya: mahasiswa atau Dosen Penasihat Akademik yang menanyakan "materi Game Design saya diserap ke mana?" akan diarahkan ke <code>STC-01</code>> atau <code>STC-04</code>> yang tidak memuatnya.</p>
+<hr />
+<h2 id="5-uji-kelayakan-ekivalensi-apakah-kedua-mk-dapat-dinaikkan-dari-e5-ke-e2">5. UJI KELAYAKAN EKIVALENSI: APAKAH KEDUA MK DAPAT DINAIKKAN DARI E5 KE E2?</h2>
+<p>Sebelum merekomendasikan MK pengganti, kelayakannya diuji terhadap <strong>definisi operasional E2 pada Bagian 2 Dokumen 024</strong>: <em>"Overlap konten 60–85%"</em>. Overlap diukur sebagai proporsi pekan pada Matriks 16 Pertemuan MK K2026 yang memuat materi topik terkait.</p>
+<h3 id="51-hasil-uji-ambang-overlap">5.1 HASIL UJI AMBANG OVERLAP</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Topik MK Dihapus</th>
+<th style="text-align: center;">Kandidat MK K2026</th>
+<th style="text-align: center;">Pekan Termuat</th>
+<th style="text-align: center;">Overlap</th>
+<th style="text-align: center;">Status Ambang E2 (60–85%)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gamifikasi (<span class="code-tag">STI-423</span>>)</td>
+<td style="text-align: center;"><code>STC-03</code>> Rekayasa Aplikasi Industri Vertikal</td>
+<td style="text-align: center;">1 dari 16 (Pekan 9)</td>
+<td style="text-align: center;"><strong>6,2%</strong></td>
+<td style="text-align: center;">❌ Gagal</td>
+</tr>
+<tr>
+<td>Gamifikasi (<span class="code-tag">STI-423</span>>)</td>
+<td style="text-align: center;"><code>STC-01</code>> UX Research &amp; Design</td>
+<td style="text-align: center;">0 dari 16</td>
+<td style="text-align: center;"><strong>0,0%</strong></td>
+<td style="text-align: center;">❌ Gagal</td>
+</tr>
+<tr>
+<td>Pengolahan sinyal (<span class="code-tag">STI-638</span>>)</td>
+<td style="text-align: center;"><code>STA-06</code>> Smart Surveillance &amp; IoT Analytics</td>
+<td style="text-align: center;">0 dari 16</td>
+<td style="text-align: center;"><strong>0,0%</strong></td>
+<td style="text-align: center;">❌ Gagal</td>
+</tr>
+<tr>
+<td>Pengolahan sinyal (<span class="code-tag">STI-638</span>>)</td>
+<td style="text-align: center;"><span class="code-tag">STI-501</span>> Deep Learning &amp; Neural Networks</td>
+<td style="text-align: center;">0 dari 16</td>
+<td style="text-align: center;"><strong>0,0%</strong></td>
+<td style="text-align: center;">❌ Gagal</td>
+</tr>
+<tr>
+<td>Pengolahan sinyal (<span class="code-tag">STI-638</span>>)</td>
+<td style="text-align: center;"><span class="code-tag">STI-504</span>> Internet of Things</td>
+<td style="text-align: center;">0 dari 16</td>
+<td style="text-align: center;"><strong>0,0%</strong></td>
+<td style="text-align: center;">❌ Gagal</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Kesimpulan uji:</strong> tidak ada satu pun kandidat yang memenuhi ambang E2. Overlap tertinggi hanya 6,2%, jauh di bawah batas bawah 60%.</p>
+<h3 id="52-simulasi-dampak-bila-e5-dipaksa-menjadi-e2">5.2 SIMULASI DAMPAK BILA E5 DIPAKSA MENJADI E2</h3>
+<p>Untuk menunjukkan konsekuensinya secara terukur, dilakukan rekalkulasi seandainya <span class="code-tag">STI-423</span>> → <code>STC-03</code>> dan <span class="code-tag">STI-638</span>> → <code>STA-06</code>> dinaikkan menjadi E2:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Indikator Konsensus</th>
+<th style="text-align: center;">Kondisi Sekarang (E5)</th>
+<th style="text-align: center;">Bila Dipaksa E2</th>
+<th style="text-align: center;">Perubahan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Neraca kategori E2</td>
+<td style="text-align: center;">11 MK / 29 SKS</td>
+<td style="text-align: center;">13 MK / 35 SKS</td>
+<td style="text-align: center;">+2 MK</td>
+</tr>
+<tr>
+<td>Neraca kategori E5</td>
+<td style="text-align: center;">2 MK / 6 SKS</td>
+<td style="text-align: center;"><strong>0 MK / 0 SKS</strong></td>
+<td style="text-align: center;">−2 MK</td>
+</tr>
+<tr>
+<td>SKS diakui jalur P1</td>
+<td style="text-align: center;">120 SKS</td>
+<td style="text-align: center;">123 SKS</td>
+<td style="text-align: center;">+3</td>
+</tr>
+<tr>
+<td>SKS diakui jalur P2</td>
+<td style="text-align: center;">120 SKS</td>
+<td style="text-align: center;">120 SKS</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr>
+<td>SKS diakui jalur P3</td>
+<td style="text-align: center;">117 SKS</td>
+<td style="text-align: center;">120 SKS</td>
+<td style="text-align: center;">+3</td>
+</tr>
+<tr>
+<td>Defisit jalur P1 / P2 / P3</td>
+<td style="text-align: center;">26 / 26 / 29 SKS</td>
+<td style="text-align: center;">23 / 26 / 26 SKS</td>
+<td style="text-align: center;">berubah</td>
+</tr>
+</tbody>
+</table></div>
+<div class="custom-alert alert-warning">
+    <div class="alert-header"><span class="alert-icon">⚠️</span> WARNING</div>
+    <div class="alert-content">**Menaikkan status ke E2 akan mengubah angka konsensus yang sudah final** pada `AGENTS.md` dan Dokumen 024 (neraca E1–E5, serta simulasi "P1/P2 = 120 SKS, P3 = 117 SKS"), sementara dasar substantifnya tidak terpenuhi (overlap 0–6,2%). Selain itu, pengakuan menjadi tidak setara antar jalur: jalur P2 tidak memperoleh tambahan apa pun karena kedua MK pengganti berada di peminatan P1 dan P3.</div>
+</div>
+
+<hr />
+<h2 id="6-rekomendasi">6. REKOMENDASI</h2>
+<h3 id="61-rekomendasi-utama-pertahankan-status-e5-perbaiki-catatan-penyerapan">6.1 REKOMENDASI UTAMA — PERTAHANKAN STATUS E5, PERBAIKI CATATAN PENYERAPAN</h3>
+<p>Berdasarkan uji ambang pada Bagian 5, <strong>status E5 untuk kedua mata kuliah dipertahankan</strong>. Yang diperbaiki adalah catatan penyerapan yang salah alamat, bukan kategorinya.</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">MK Dihapus</th>
+<th>Catatan Sekarang (keliru)</th>
+<th>Usulan Catatan Perbaikan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-423</span>> Game Design dan Gamifikasi Sosial</td>
+<td>"Unsur gamifikasi terserap parsial pada <code>STC-01</code>> UX Research &amp; <code>STC-04</code>> XR"</td>
+<td>"<strong>Dihapus</strong> dari K2026 (di luar positioning "Integrator AI"; ranah <em>game development</em> menjadi kewenangan Prodi TI). Materi gamifikasi <strong>tidak diserap sebagai penyetaraan</strong>; hanya disinggung sebagai satu pokok bahasan pada <code>STC-03</code>> Pekan 9 (Gamifikasi Pembelajaran domain EdTech), sehingga <strong>tidak memenuhi ambang E2</strong>. Diakui sebagai kredit bebas 3 SKS. Mahasiswa yang berminat melanjutkan tema ini dapat mengambilnya sebagai topik Tugas Akhir Opsi 2 (Proyek Inovasi Produk Industri) atau Opsi 3 (Tech Startup Mandiri)."</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="code-tag">STI-638</span>> Intelligent Signal Processing</td>
+<td>"bertumpang dengan ranah riset algoritma Prodi TI, Dok. 016. Unsur ekstraksi fitur sinyal terserap parsial pada <span class="code-tag">STI-501</span>> Deep Learning &amp; <code>STA-06</code>> Smart Surveillance"</td>
+<td>"<strong>Dihapus</strong> dari K2026 (pengolahan sinyal digital merupakan ranah riset algoritma, bukan integrasi sistem). Materi pengolahan sinyal <strong>tidak tercakup</strong> pada MK K2026 mana pun; <span class="code-tag">STI-501</span>> hanya memuat pemodelan deret waktu melalui LSTM/GRU dan <code>Feature Extraction</code> dalam konteks <em>transfer learning vision</em>, sehingga <strong>tidak memenuhi ambang E2</strong>. Diakui sebagai kredit bebas 3 SKS. Analitik data sensor tingkat aplikatif tersedia pada <span class="code-tag">STI-504</span>> IoT dan <code>STA-06</code>> Smart Surveillance &amp; IoT Analytics, namun bukan sebagai penyetaraan."</td>
+</tr>
+</tbody>
+</table></div>
+<p>Rumusan ini memenuhi tiga syarat sekaligus: jujur secara faktual, tidak mengubah angka konsensus mana pun, dan tetap memberi arah bagi mahasiswa yang menanyakan kelanjutan tema tersebut.</p>
+<h3 id="62-rekomendasi-kedua-hapus-sitasi-yang-tidak-dapat-dilacak">6.2 REKOMENDASI KEDUA — HAPUS SITASI YANG TIDAK DAPAT DILACAK</h3>
+<p>Hapus frasa "Dok. 016" pada catatan <span class="code-tag">STI-638</span>>, karena kedua MK ini tidak pernah dibahas di Dokumen 016 maupun 017 (Temuan 3). Alternatifnya, tambahkan pembahasan keduanya ke Dokumen 017 sebagai butir <em>scoping decision</em> — pilihan ini lebih kuat untuk kepentingan asesmen LAM INFOKOM karena penghapusan MK akan ditanyakan asesor.</p>
+<h3 id="63-opsi-lanjutan-bila-prodi-menghendaki-materi-tetap-tercakup">6.3 OPSI LANJUTAN BILA PRODI MENGHENDAKI MATERI TETAP TERCAKUP</h3>
+<p>Kedua opsi berikut <strong>bukan</strong> ekivalensi, melainkan perluasan cakupan kurikulum. Keduanya menuntut revisi Dokumen 007 dan persetujuan Rapat Tim Kurikulum.</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Topik</th>
+<th>MK Penampung Paling Layak</th>
+<th>Dasar Kelayakan</th>
+<th>Konsekuensi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gamifikasi &amp; desain perilaku</td>
+<td><code>STC-01</code>> UX Research &amp; Design (3 SKS, Sem 5, P3)</td>
+<td>CPL <span class="code-tag">P4</span>> (Arsitektur Informasi &amp; Aksesibilitas) dan <code>KK5</code>> (Riset UX) adalah CPL terdekat dengan desain perilaku pengguna; silabus telah memuat <code>Micro-Interactions Design</code> (Pekan 12) dan <code>onboarding</code>> (Pekan 13) yang bertetangga secara konseptual</td>
+<td>Menambah pokok bahasan pada Pekan 12 atau 13; tidak menambah SKS</td>
+</tr>
+<tr>
+<td>Prapemrosesan sinyal sensor</td>
+<td><span class="code-tag">STI-504</span>> Internet of Things (3 SKS, Sem 5, paket wajib)</td>
+<td>Satu-satunya MK yang memuat sensor, telemetri, dan MQTT sekaligus, dan berstatus <strong>paket wajib</strong> sehingga menjangkau seluruh mahasiswa tanpa bergantung peminatan</td>
+<td>Menambah pokok bahasan penapisan &amp; normalisasi data sensor; tidak menambah SKS</td>
+</tr>
+</tbody>
+</table></div>
+<div class="custom-alert alert-note">
+    <div class="alert-header"><span class="alert-icon">ℹ️</span> NOTE</div>
+    <div class="alert-content">Bila opsi 6.3 dijalankan, status kedua MK lama **tetap E5**. Perluasan cakupan tidak otomatis menciptakan hak penyetaraan, karena penyetaraan menuntut kesetaraan capaian pembelajaran, bukan sekadar kehadiran topik.</div>
+</div>
+
+<hr />
+<h2 id="7-status-tindak-lanjut">7. STATUS TINDAK LANJUT</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th>Butir</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td>Analisis dan verifikasi terprogram</td>
+<td style="text-align: center;">✅ Selesai</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td>Uji ambang E2 atas 5 kandidat MK pengganti</td>
+<td style="text-align: center;">✅ Selesai — seluruhnya gagal ambang</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td>Perbaikan catatan <span class="code-tag">STI-423</span>> pada Bagian 3.4 Dokumen 024</td>
+<td style="text-align: center;">⏸️ Menunggu persetujuan (rumusan siap, Bagian 6.1)</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td>Perbaikan catatan <span class="code-tag">STI-638</span>> pada Bagian 3.6 Dokumen 024</td>
+<td style="text-align: center;">⏸️ Menunggu persetujuan (rumusan siap, Bagian 6.1)</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td>Penghapusan sitasi "Dok. 016" yang tidak dapat dilacak</td>
+<td style="text-align: center;">⏸️ Menunggu persetujuan</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td>Perluasan cakupan gamifikasi pada <code>STC-01</code>></td>
+<td style="text-align: center;">⏸️ Kewenangan Rapat Tim Kurikulum</td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td>Perluasan cakupan sinyal sensor pada <span class="code-tag">STI-504</span>></td>
+<td style="text-align: center;">⏸️ Kewenangan Rapat Tim Kurikulum</td>
+</tr>
+</tbody>
+</table></div>
+<div class="custom-alert alert-important">
+    <div class="alert-header"><span class="alert-icon">⚡</span> IMPORTANT</div>
+    <div class="alert-content">**Dokumen 024 belum diubah.** Angka konsensus tetap: E1 34 MK / E2 11 MK / E3 8 MK / E4 1 MK / **E5 2 MK**, dengan simulasi pengakuan P1 = P2 = 120 SKS dan P3 = 117 SKS. Rekomendasi Bagian 6.1 dan 6.2 bersifat perbaikan redaksi dan **tidak mengubah satu pun angka tersebut**.</div>
+</div>
+
+<hr />
+<p><em>Disahkan sebagai Dokumen Resmi 026 — Kurikulum OBE Revisi SISTEKIN 2026.</em>
+<strong>Tim Pengembang Kurikulum FSTI Universitas Widyagama Malang</strong></p>
+
+            <div class="doc-nav">
+                <div><a href="025_REKOMENDASI_PENGEMBANGAN_MK_PEMINATAN_DAN_CROSS_TRACK_2027.html" class="nav-btn">← Sebelumnya</a></div>
+                <div><a href="index.html" class="nav-btn">🏠 Index Utama</a></div>
+                <div><a href="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" class="nav-btn">Selanjutnya →</a></div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p><strong>Dokumen Resmi Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
+            <p>Tim Pengembang Kurikulum FSTI — Universitas Widyagama Malang © 2026</p>
+        </footer>
+    </div>
+
+    <script>
+        // Mermaid Init
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'dark',
+            flowchart: { curve: 'basis', useMaxWidth: true }
+        });
+
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        let currentTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', currentTheme);
+
+        themeToggle.addEventListener('click', () => {
+            currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', currentTheme);
+            localStorage.setItem('theme', currentTheme);
+        });
+
+        // Live Table Search Filter
+        const searchInput = document.getElementById('globalTableSearch');
+        if (searchInput) {
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase().trim();
+                const rows = document.querySelectorAll('table tbody tr');
+                rows.forEach(row => {
+                    const text = row.innerText.toLowerCase();
+                    if (query === '' || text.includes(query)) {
+                        row.style.display = '';
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+            });
+        }
+    </script>
+</body>
+</html>
