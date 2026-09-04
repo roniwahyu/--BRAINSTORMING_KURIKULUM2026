@@ -125,31 +125,31 @@
 | 22 | STI-101 | Pengantar Sistem & Teknologi Informasi | 1 | 2 |  |  |  |  |  | V |  |  |  |  |  |  |  |  | 1 |
 | 23 | STI-102 | Kalkulus | 1 | 3 |  |  |  |  | V |  |  |  |  |  |  |  |  |  | 1 |
 | 24 | STI-103 | Arsitektur & Organisasi Sistem TI | 1 | 3 |  | V |  |  | V |  | V |  |  |  |  |  |  |  | 3 |
-| 25 | STI-201 | Matematika Diskrit dan Logika | 2 | 3 |  | V |  |  | V |  |  |  |  |  |  |  |  |  | 2 |
-| 26 | STI-202 | Aljabar Linear | 2 | 3 |  |  |  |  | V |  |  |  |  |  |  |  |  |  | 1 |
-| 27 | STI-301 | Analisis & Perancangan Sistem Informasi | 3 | 3 |  | V |  |  |  | V |  |  |  |  |  |  | V |  | 3 |
-| 28 | STI-302 | Sistem Cerdas | 3 | 2 |  |  |  |  |  | V |  |  | V |  |  |  |  |  | 2 |
-| 29 | STI-303 | UI/UX Design & Prototyping (+P) | 3 | 3 |  |  |  |  |  |  |  |  |  |  |  |  | V |  | 1 |
-| 30 | STI-304 | Rekayasa Perangkat Lunak | 3 | 3 |  |  |  |  |  |  |  | V |  |  |  |  | V | V | 3 |
-| 31 | STI-305 | Sistem Operasi | 3 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
-| 32 | STI-306 | Web Front End Development (+P) | 3 | 3 |  |  |  |  |  |  |  | V |  |  |  |  | V |  | 2 |
-| 33 | STI-307 | Jaringan Komputer (+P) | 3 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
-| 34 | STI-401 | Machine Learning (+P) | 4 | 3 |  |  |  |  |  | V |  |  | V | V |  |  |  |  | 3 |
-| 35 | STI-403 | Pengantar NLP & Information Retrieval (+P) | 4 | 2 |  |  |  |  |  | V |  |  | V |  |  |  |  |  | 2 |
-| 36 | STI-402 | Data Warehouse & Business Intelligence (+P) | 4 | 3 |  |  |  |  |  | V |  |  |  | V |  |  |  |  | 2 |
-| 37 | STI-404 | Komputasi Awan (Cloud Computing) | 4 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
-| 38 | STI-405 | Dasar Keamanan Informasi | 4 | 2 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
-| 39 | STI-407 | Web Back End Development (+P) | 4 | 3 |  | V |  |  |  |  |  | V |  |  |  |  |  |  | 2 |
-| 40 | STI-501 | Deep Learning & Neural Networks (+P) | 5 | 3 |  |  |  |  |  |  |  |  | V | V |  |  |  |  | 2 |
-| 41 | STI-503 | Data Mining & Visualisasi Data (+P) | 5 | 3 |  |  |  |  |  | V |  |  |  | V |  |  |  |  | 2 |
-| 42 | STI-504 | Internet of Things (IoT) (+P) | 5 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
-| 43 | STI-505 | Pemrograman Aplikasi Mobile (+P) | 5 | 3 |  |  |  |  |  |  |  | V |  |  |  |  | V |  | 2 |
-| 44 | STI-506 | Manajemen Proyek Teknologi Informasi | 5 | 3 |  |  |  |  |  |  |  |  |  |  |  |  |  | V | 1 |
-| 45 | STI-601 | Integrasi Layanan Cerdas Berbasis AI (+P) | 6 | 3 |  |  |  |  |  | V |  |  | V |  |  |  |  |  | 2 |
-| 46 | STI-602 | Smart City & Pemerintahan Digital | 6 | 2 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
-| 47 | STI-603 | Keamanan Informasi Lanjut | 6 | 3 |  |  |  |  |  |  | V |  |  |  | V | V |  |  | 3 |
-| 48 | STI-604 | Digital Platform Engineering (+P) | 6 | 3 |  |  |  |  |  |  |  | V |  |  |  |  | V |  | 2 |
-| 49 | STI-701 | Inovasi Teknologi & Startup Digital (+P) | 7 | 3 |  |  |  |  |  |  |  |  |  |  |  |  |  | V | 1 |
+| 25 | STI-204 | Matematika Diskrit dan Logika | 2 | 3 |  | V |  |  | V |  |  |  |  |  |  |  |  |  | 2 |
+| 26 | STI-205 | Aljabar Linear | 2 | 3 |  |  |  |  | V |  |  |  |  |  |  |  |  |  | 1 |
+| 27 | STI-306 | Analisis & Perancangan Sistem Informasi | 3 | 3 |  | V |  |  |  | V |  |  |  |  |  |  | V |  | 3 |
+| 28 | STI-307 | Sistem Cerdas | 3 | 2 |  |  |  |  |  | V |  |  | V |  |  |  |  |  | 2 |
+| 29 | STI-308 | UI/UX Design & Prototyping (+P) | 3 | 3 |  |  |  |  |  |  |  |  |  |  |  |  | V |  | 1 |
+| 30 | STI-309 | Rekayasa Perangkat Lunak | 3 | 3 |  |  |  |  |  |  |  | V |  |  |  |  | V | V | 3 |
+| 31 | STI-310 | Sistem Operasi | 3 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
+| 32 | STI-311 | Web Front End Development (+P) | 3 | 3 |  |  |  |  |  |  |  | V |  |  |  |  | V |  | 2 |
+| 33 | STI-312 | Jaringan Komputer (+P) | 3 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
+| 34 | STI-413 | Machine Learning (+P) | 4 | 3 |  |  |  |  |  | V |  |  | V | V |  |  |  |  | 3 |
+| 35 | STI-414 | Pengantar NLP & Information Retrieval (+P) | 4 | 2 |  |  |  |  |  | V |  |  | V |  |  |  |  |  | 2 |
+| 36 | STI-415 | Data Warehouse & Business Intelligence (+P) | 4 | 3 |  |  |  |  |  | V |  |  |  | V |  |  |  |  | 2 |
+| 37 | STI-417 | Komputasi Awan (Cloud Computing) | 4 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
+| 38 | STI-418 | Dasar Keamanan Informasi | 4 | 2 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
+| 39 | STI-416 | Web Back End Development (+P) | 4 | 3 |  | V |  |  |  |  |  | V |  |  |  |  |  |  | 2 |
+| 40 | STI-519 | Deep Learning & Neural Networks (+P) | 5 | 3 |  |  |  |  |  |  |  |  | V | V |  |  |  |  | 2 |
+| 41 | STI-520 | Data Mining & Visualisasi Data (+P) | 5 | 3 |  |  |  |  |  | V |  |  |  | V |  |  |  |  | 2 |
+| 42 | STI-521 | Internet of Things (IoT) (+P) | 5 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
+| 43 | STI-522 | Pemrograman Aplikasi Mobile (+P) | 5 | 3 |  |  |  |  |  |  |  | V |  |  |  |  | V |  | 2 |
+| 44 | STI-523 | Manajemen Proyek Teknologi Informasi | 5 | 3 |  |  |  |  |  |  |  |  |  |  |  |  |  | V | 1 |
+| 45 | STI-624 | Integrasi Layanan Cerdas Berbasis AI (+P) | 6 | 3 |  |  |  |  |  | V |  |  | V |  |  |  |  |  | 2 |
+| 46 | STI-625 | Smart City & Pemerintahan Digital | 6 | 2 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
+| 47 | STI-626 | Keamanan Informasi Lanjut | 6 | 3 |  |  |  |  |  |  | V |  |  |  | V | V |  |  | 3 |
+| 48 | STI-627 | Digital Platform Engineering (+P) | 6 | 3 |  |  |  |  |  |  |  | V |  |  |  |  | V |  | 2 |
+| 49 | STI-728 | Inovasi Teknologi & Startup Digital (+P) | 7 | 3 |  |  |  |  |  |  |  |  |  |  |  |  |  | V | 1 |
 | D. MK PILIHAN P1: INTEGRATED SMART SYSTEMS (6 MK / 18 SKS) | | | | | | | | | | | | | | | | | | | |
 | 50 | STA-01 | Decision Support Systems (+P) | 5-7 | 3 |  |  |  |  |  | V |  |  | V |  |  |  |  |  | 2 |
 | 51 | STA-02 | Computational Methods & Numerics (+P) | 5-7 | 3 |  |  |  |  | V |  |  |  |  | V |  |  |  |  | 2 |
@@ -182,12 +182,12 @@
 | Semester | Jumlah MK | Total SKS | SKS Kumulatif | Daftar Mata Kuliah (SKS) | CPL Dominan | Catatan |
 |---|---|---|---|---|---|---|
 | 1 | 8 MK | 19 SKS | 19 SKS | MKU-101 Agama I (2) / MKU-102 Pancasila (2) / MKU-103 Bahasa Indonesia (2) / FST-101 Dasar Teknologi Digital (2) / FST-102 Algoritma & Pemrograman (3) / STI-101 Pengantar SI & TI (2) / STI-102 Kalkulus (3) / STI-103 Arsitektur & Organisasi Sistem TI (3) | S1, P1, P2, P3, P4, KU1 | Fondasi komputer, coding, arsitektur hardware, dan sains |
-| 2 | 8 MK | 20 SKS | 39 SKS | STI-201 Matematika Diskrit dan Logika (3) / STI-202 Aljabar Linear (3) / FST-203 Struktur Data & Algoritma (3) / FST-204 Pengantar AI & Data (2) / FST-205 Basic English (2) / FST-206 Etika & Hukum Digital (2) / FST-207 Basis Data (3) / MKU-204 Kewirausahaan I (2) | P1, P2, P4, KU1, KU2, KK1, KK6 | Tepat 20 SKS - Patuh Permendikbud 53/2023 |
-| 3 | 7 MK | 20 SKS | 59 SKS | STI-301 APSI (3) / STI-302 Sistem Cerdas (2) / STI-303 UI/UX Design (3) / STI-304 RPL (3) / STI-305 Sistem Operasi (3) / STI-306 Web Front End (3) / STI-307 Jaringan Komputer (3) | P2, P3, P4, KK1, KK3, KK5 | Fondasi sistem, jaringan, OS, dan UI/UX |
-| 4 | 8 MK | 21 SKS | 80 SKS | STI-401 Machine Learning (3) / STI-403 Pengantar NLP & IR (2) / STI-402 DW & BI (3) / STI-404 Cloud (3) / STI-405 Dasar Keamanan (2) / STI-407 Web Back End (3) / FST-408 Statistika (3) / MKU-405 KWN (2) / MKU-406 Agama II (0) | P1, P2, P3, KK1, KK2, KK3, KU1 | STI-405 = 2 SKS Teori. STI-403 = 2 SKS (+P). MKU-406 = 0 SKS kebijakan UWG |
-| 5 | 7 MK + 1x0SKS | 21 SKS | 101 SKS | STI-501 Deep Learning (3) / STI-503 Data Mining (3) / STI-504 IoT (3) / STI-505 Mobile App (3) / STI-506 Manpro TI (3) / MKU-507 KPM (3) / MK Pilihan 1 (3) / MKU-508 KWU II (0) | KK1, KK2, KK3, KK5, KK6, S1, KU | 6 MK Wajib (18 SKS) + 1 MK Pilihan (3 SKS). MKU-508 = 0 SKS kebijakan UWG |
-| 6 | 7 MK | 19 SKS | 120 SKS | STI-601 Integrasi AI (3) / STI-602 Smart City (2) / STI-603 Keamanan Lanjut (3) / STI-604 Digital Platform Eng (3) / FST-611 Metopel (2) / MK Pilihan 2 (3) / MK Pilihan 3 (3) | P2, P3, KK1, KK3, KK4, KK5, KU1-3 | STI-602 = 2 SKS Teori Non-Praktikum. MBKM maks. 20 SKS |
-| 7 | 7 MK | 20 SKS | 140 SKS | STI-701 Startup Digital (3) / FST-610 Capstone (3) / FST-612 PKL (3) / FST-613 Pra-Skripsi (2) / MK Pilihan 4 (3) / MK Pilihan 5 (3) / MK Pilihan 6 (3) | KK6, KK3, KK4, KU1-3, S1 | 4 MK Wajib (11 SKS) + 3 MK Pilihan (9 SKS). MBKM maks. 20 SKS |
+| 2 | 8 MK | 20 SKS | 39 SKS | STI-204 Matematika Diskrit dan Logika (3) / STI-205 Aljabar Linear (3) / FST-203 Struktur Data & Algoritma (3) / FST-204 Pengantar AI & Data (2) / FST-205 Basic English (2) / FST-206 Etika & Hukum Digital (2) / FST-207 Basis Data (3) / MKU-204 Kewirausahaan I (2) | P1, P2, P4, KU1, KU2, KK1, KK6 | Tepat 20 SKS - Patuh Permendikbud 53/2023 |
+| 3 | 7 MK | 20 SKS | 59 SKS | STI-306 APSI (3) / STI-307 Sistem Cerdas (2) / STI-308 UI/UX Design (3) / STI-309 RPL (3) / STI-310 Sistem Operasi (3) / STI-311 Web Front End (3) / STI-312 Jaringan Komputer (3) | P2, P3, P4, KK1, KK3, KK5 | Fondasi sistem, jaringan, OS, dan UI/UX |
+| 4 | 8 MK | 21 SKS | 80 SKS | STI-413 Machine Learning (3) / STI-414 Pengantar NLP & IR (2) / STI-415 DW & BI (3) / STI-417 Cloud (3) / STI-418 Dasar Keamanan (2) / STI-416 Web Back End (3) / FST-408 Statistika (3) / MKU-405 KWN (2) / MKU-406 Agama II (0) | P1, P2, P3, KK1, KK2, KK3, KU1 | STI-418 = 2 SKS Teori. STI-414 = 2 SKS (+P). MKU-406 = 0 SKS kebijakan UWG |
+| 5 | 7 MK + 1x0SKS | 21 SKS | 101 SKS | STI-519 Deep Learning (3) / STI-520 Data Mining (3) / STI-521 IoT (3) / STI-522 Mobile App (3) / STI-523 Manpro TI (3) / MKU-507 KPM (3) / MK Pilihan 1 (3) / MKU-508 KWU II (0) | KK1, KK2, KK3, KK5, KK6, S1, KU | 6 MK Wajib (18 SKS) + 1 MK Pilihan (3 SKS). MKU-508 = 0 SKS kebijakan UWG |
+| 6 | 7 MK | 19 SKS | 120 SKS | STI-624 Integrasi AI (3) / STI-625 Smart City (2) / STI-626 Keamanan Lanjut (3) / STI-627 Digital Platform Eng (3) / FST-611 Metopel (2) / MK Pilihan 2 (3) / MK Pilihan 3 (3) | P2, P3, KK1, KK3, KK4, KK5, KU1-3 | STI-625 = 2 SKS Teori Non-Praktikum. MBKM maks. 20 SKS |
+| 7 | 7 MK | 20 SKS | 140 SKS | STI-728 Startup Digital (3) / FST-610 Capstone (3) / FST-612 PKL (3) / FST-613 Pra-Skripsi (2) / MK Pilihan 4 (3) / MK Pilihan 5 (3) / MK Pilihan 6 (3) | KK6, KK3, KK4, KU1-3, S1 | 4 MK Wajib (11 SKS) + 3 MK Pilihan (9 SKS). MBKM maks. 20 SKS |
 | 8 | 1 MK | 6 SKS | 146 SKS | FST-714 Skripsi / Tugas Akhir (6) | S1, KU1-3, seluruh P & KK | Skripsi Murni (6 SKS) / 4 Opsi Non-Skripsi ekuivalen 6 SKS |
 | TOTAL | 55 MK | 146 SKS | 146 SKS | 49 MK Wajib (128 SKS) + 6 MK Pilihan Peminatan (18 SKS, Sem 5-7) = 55 MK / 146 SKS |  | Portofolio: 67 MK / 182 SKS. Syarat Lulus Min. 144 SKS (Permendikbud 53/2023) |
 
@@ -208,39 +208,39 @@
 | STI-102 | Kalkulus | 3 | 1 |  |  |  |  | I |  |  |  |  |  |  |  |  |  | 1 |
 | STI-103 | Arsitektur & Organisasi Sistem TI | 3 | 1 |  | I |  |  | I |  | I |  |  |  |  |  |  |  | 3 |
 | MKU-204 | Kewirausahaan I | 2 | 2 |  |  |  |  |  |  |  |  |  |  |  |  |  | I | 1 |
-| STI-201 | Matematika Diskrit dan Logika | 3 | 2 |  | R |  |  | R |  |  |  |  |  |  |  |  |  | 2 |
-| STI-202 | Aljabar Linear | 3 | 2 |  |  |  |  | R |  |  |  |  |  |  |  |  |  | 1 |
+| STI-204 | Matematika Diskrit dan Logika | 3 | 2 |  | R |  |  | R |  |  |  |  |  |  |  |  |  | 2 |
+| STI-205 | Aljabar Linear | 3 | 2 |  |  |  |  | R |  |  |  |  |  |  |  |  |  | 1 |
 | FST-203 | Struktur Data & Algoritma | 3 | 2 |  | R |  |  |  |  |  | R |  |  |  |  |  |  | 2 |
 | FST-204 | Pengantar AI & Data | 2 | 2 |  |  |  |  |  |  |  |  | I |  |  |  |  |  | 1 |
 | FST-205 | Basic English | 2 | 2 |  |  | I |  |  |  |  |  |  |  |  |  |  |  | 1 |
 | FST-206 | Etika dan Hukum Digital | 2 | 2 | R |  | R |  |  |  |  |  |  |  |  |  |  |  | 2 |
 | FST-207 | Basis Data | 3 | 2 |  |  |  |  |  | R |  | I |  |  |  |  |  |  | 2 |
-| STI-301 | Analisis & Perancangan SI | 3 | 3 |  | R |  |  |  | R |  |  |  |  |  |  | R |  | 3 |
-| STI-302 | Sistem Cerdas | 2 | 3 |  |  |  |  |  | R |  |  | R |  |  |  |  |  | 2 |
-| STI-303 | UI/UX Design & Prototyping | 3 | 3 |  |  |  |  |  |  |  |  |  |  |  |  | R |  | 1 |
-| STI-304 | Rekayasa Perangkat Lunak | 3 | 3 |  |  |  |  |  |  |  | R |  |  |  |  | R | R | 3 |
-| STI-305 | Sistem Operasi | 3 | 3 |  |  |  |  |  |  | R |  |  |  | R |  |  |  | 2 |
-| STI-306 | Web Front End Development | 3 | 3 |  |  |  |  |  |  |  | R |  |  |  |  | R |  | 2 |
-| STI-307 | Jaringan Komputer | 3 | 3 |  |  |  |  |  |  | R |  |  |  | R |  |  |  | 2 |
-| STI-401 | Machine Learning | 3 | 4 |  |  |  |  |  | R |  |  | R | R |  |  |  |  | 3 |
-| STI-402 | Data Warehouse & BI | 3 | 4 |  |  |  |  |  | R |  |  |  | R |  |  |  |  | 2 |
-| STI-404 | Komputasi Awan (Cloud Computing) | 3 | 4 |  |  |  |  |  |  | R |  |  |  | R |  |  |  | 2 |
-| STI-405 | Dasar Keamanan Informasi | 2 | 4 |  |  |  |  |  |  | R |  |  |  | R |  |  |  | 2 |
-| STI-407 | Web Back End Development | 3 | 4 |  | R |  |  |  |  |  | R |  |  |  |  |  |  | 2 |
+| STI-306 | Analisis & Perancangan SI | 3 | 3 |  | R |  |  |  | R |  |  |  |  |  |  | R |  | 3 |
+| STI-307 | Sistem Cerdas | 2 | 3 |  |  |  |  |  | R |  |  | R |  |  |  |  |  | 2 |
+| STI-308 | UI/UX Design & Prototyping | 3 | 3 |  |  |  |  |  |  |  |  |  |  |  |  | R |  | 1 |
+| STI-309 | Rekayasa Perangkat Lunak | 3 | 3 |  |  |  |  |  |  |  | R |  |  |  |  | R | R | 3 |
+| STI-310 | Sistem Operasi | 3 | 3 |  |  |  |  |  |  | R |  |  |  | R |  |  |  | 2 |
+| STI-311 | Web Front End Development | 3 | 3 |  |  |  |  |  |  |  | R |  |  |  |  | R |  | 2 |
+| STI-312 | Jaringan Komputer | 3 | 3 |  |  |  |  |  |  | R |  |  |  | R |  |  |  | 2 |
+| STI-413 | Machine Learning | 3 | 4 |  |  |  |  |  | R |  |  | R | R |  |  |  |  | 3 |
+| STI-415 | Data Warehouse & BI | 3 | 4 |  |  |  |  |  | R |  |  |  | R |  |  |  |  | 2 |
+| STI-417 | Komputasi Awan (Cloud Computing) | 3 | 4 |  |  |  |  |  |  | R |  |  |  | R |  |  |  | 2 |
+| STI-418 | Dasar Keamanan Informasi | 2 | 4 |  |  |  |  |  |  | R |  |  |  | R |  |  |  | 2 |
+| STI-416 | Web Back End Development | 3 | 4 |  | R |  |  |  |  |  | R |  |  |  |  |  |  | 2 |
 | FST-408 | Probabilitas dan Statistika | 3 | 4 |  |  |  |  | R |  |  | R |  |  |  |  |  |  | 2 |
-| STI-403 | Pengantar NLP & Information Retrieval | 2 | 4 |  |  |  |  |  | R |  |  | R |  |  |  |  |  | 2 |
-| STI-501 | Deep Learning & Neural Networks | 3 | 5 |  |  |  |  |  |  |  |  | M | M |  |  |  |  | 2 |
-| STI-503 | Data Mining & Visualisasi Data | 3 | 5 |  |  |  |  |  | M |  |  |  | M |  |  |  |  | 2 |
-| STI-504 | Internet of Things (IoT) | 3 | 5 |  |  |  |  |  |  | M |  |  |  | M |  |  |  | 2 |
-| STI-505 | Pemrograman Aplikasi Mobile | 3 | 5 |  |  |  |  |  |  |  | M |  |  |  |  | M |  | 2 |
-| STI-506 | Manajemen Proyek TI | 3 | 5 |  |  |  |  |  |  |  |  |  |  |  |  |  | M | 1 |
+| STI-414 | Pengantar NLP & Information Retrieval | 2 | 4 |  |  |  |  |  | R |  |  | R |  |  |  |  |  | 2 |
+| STI-519 | Deep Learning & Neural Networks | 3 | 5 |  |  |  |  |  |  |  |  | M | M |  |  |  |  | 2 |
+| STI-520 | Data Mining & Visualisasi Data | 3 | 5 |  |  |  |  |  | M |  |  |  | M |  |  |  |  | 2 |
+| STI-521 | Internet of Things (IoT) | 3 | 5 |  |  |  |  |  |  | M |  |  |  | M |  |  |  | 2 |
+| STI-522 | Pemrograman Aplikasi Mobile | 3 | 5 |  |  |  |  |  |  |  | M |  |  |  |  | M |  | 2 |
+| STI-523 | Manajemen Proyek TI | 3 | 5 |  |  |  |  |  |  |  |  |  |  |  |  |  | M | 1 |
 | MKU-507 | KPM / KKN Digital | 3 | 5 | M |  | M |  |  |  |  |  |  |  |  |  |  |  | 2 |
-| STI-601 | Integrasi Layanan Cerdas Berbasis AI | 3 | 6 |  |  |  |  |  | M |  |  | M |  |  |  |  |  | 2 |
-| STI-602 | Smart City & Pemerintahan Digital | 2 | 6 |  |  |  |  |  |  | M |  |  |  | M |  |  |  | 2 |
-| STI-603 | Keamanan Informasi Lanjut | 3 | 6 |  |  |  |  |  |  | M |  |  |  | M | M |  |  | 3 |
-| STI-604 | Digital Platform Engineering | 3 | 6 |  |  |  |  |  |  |  | M |  |  |  |  | M |  | 2 |
+| STI-624 | Integrasi Layanan Cerdas Berbasis AI | 3 | 6 |  |  |  |  |  | M |  |  | M |  |  |  |  |  | 2 |
+| STI-625 | Smart City & Pemerintahan Digital | 2 | 6 |  |  |  |  |  |  | M |  |  |  | M |  |  |  | 2 |
+| STI-626 | Keamanan Informasi Lanjut | 3 | 6 |  |  |  |  |  |  | M |  |  |  | M | M |  |  | 3 |
+| STI-627 | Digital Platform Engineering | 3 | 6 |  |  |  |  |  |  |  | M |  |  |  |  | M |  | 2 |
 | FST-611 | Metodologi Penelitian | 2 | 6 |  | M | M | M |  |  |  |  |  |  |  |  |  |  | 3 |
-| STI-701 | Inovasi Teknologi & Startup Digital | 3 | 7 |  |  |  |  |  |  |  |  |  |  |  |  |  | M | 1 |
+| STI-728 | Inovasi Teknologi & Startup Digital | 3 | 7 |  |  |  |  |  |  |  |  |  |  |  |  |  | M | 1 |
 | FST-610 | Capstone Project FSTI | 3 | 7 | M | M | M | M |  |  |  |  | M | M | M | M | M | M | 10 |
 | FST-612 | Praktik Kerja Lapangan (PKL) | 3 | 7 | M | M | M | M |  |  |  |  |  |  |  | M | M |  | 7 |
 | FST-613 | Pra-Skripsi / Seminar Proposal | 2 | 7 |  | M | M | M |  |  |  |  |  |  |  |  |  |  | 3 |
@@ -256,32 +256,32 @@
 
 | Kode MK | Nama Mata Kuliah | PL Utama | CPMK | Rumusan CPMK | Sub-CPMK | Rumusan Sub-CPMK | CPL | Metode Evaluasi | Bobot (%) |
 |---|---|---|---|---|---|---|---|---|---|
-| STI-601 | Integrasi Layanan Cerdas Berbasis AI | PL-1 | CPMK1 | Menganalisis kebutuhan integrasi layanan cerdas dan data pada suatu kasus organisasi. | Sub-CPMK1.1 | Mengidentifikasi kebutuhan pengguna, sumber data, dan batasan sistem cerdas. | P2 | Tugas 1 (studi kasus + analisis) | 20 |
-| STI-601 | Integrasi Layanan Cerdas Berbasis AI | PL-1 | CPMK1 | Menganalisis kebutuhan integrasi layanan cerdas dan data pada suatu kasus organisasi. | Sub-CPMK1.2 | Menyusun arsitektur konseptual layanan AI dan aliran data (AI data flow). | KK1 | UTS (studi kasus + kuis) | 30 |
-| STI-601 | Integrasi Layanan Cerdas Berbasis AI | PL-1 | CPMK2 | Merancang dan membangun prototipe layanan cerdas berbasis AI yang terintegrasi. | Sub-CPMK2.1 | Mengembangkan API/model layanan cerdas dan mekanisme integrasi (REST/gRPC). | KK1 | Tugas 2 (project PjBL) | 20 |
-| STI-601 | Integrasi Layanan Cerdas Berbasis AI | PL-1 | CPMK3 | Mengevaluasi kualitas, interoperabilitas, dan kinerja solusi cerdas. | Sub-CPMK3.1 | Menguji interoperabilitas layanan dan mempresentasikan hasil evaluasi sistem. | KK1 | UAS (uji sistem + presentasi) | 30 |
-| STI-401 | Machine Learning (+P) | PL-1 | CPMK1 | Menerapkan alur kerja rekayasa data ML (EDA, Cleaning, Encoding, Scaling). | Sub-CPMK1.1 | Melakukan EDA dan pembersihan dataset dengan Pandas & NumPy. | P2 | Tugas 1 (praktikum lab) | 20 |
-| STI-401 | Machine Learning (+P) | PL-1 | CPMK2 | Mengonstruksi model Supervised & Unsupervised Learning. | Sub-CPMK2.1 | Membangun Logistic Regression, Decision Tree, Random Forest, K-Means (scikit-learn). | KK1 | UTS (praktikum + studi kasus) | 25 |
-| STI-401 | Machine Learning (+P) | PL-1 | CPMK3 | Mengevaluasi performa model dan membangun API inferensi (ML Deployment). | Sub-CPMK3.1 | Serialisasi model dan REST API inferensi menggunakan FastAPI/Streamlit. | KK1 | Tugas 2 (project PjBL tim) | 25 |
-| STI-401 | Machine Learning (+P) | PL-1 | CPMK4 | Menerapkan prinsip keandalan, keamanan, dan dokumentasi sistem ML profesional. | Sub-CPMK4.1 | Menyusun model card, dokumentasi teknis, dan presentasi solusi ML ke stakeholder. | KK2 | UAS (presentasi + laporan) | 30 |
-| STI-504 | Internet of Things (+P) | PL-2 | CPMK1 | Menganalisis kebutuhan dan arsitektur sistem IoT (sensor-edge-cloud). | Sub-CPMK1.1 | Mengidentifikasi sensor, aktuator, protokol MQTT/CoAP, dan kebutuhan konektivitas. | P3 | Tugas 1 + Studi kasus | 20 |
-| STI-504 | Internet of Things (+P) | PL-2 | CPMK2 | Mengembangkan prototipe IoT yang terhubung dengan layanan cloud. | Sub-CPMK2.1 | Akuisisi data sensor ESP32/Arduino via MQTT dan integrasi platform cloud. | KK3 | UTS + UAS (praktikum hardware + PjBL) | 50 |
-| STI-504 | Internet of Things (+P) | PL-2 | CPMK3 | Menguji keandalan dan keamanan dasar sistem IoT. | Sub-CPMK3.1 | Pengujian konektivitas, latensi, ketahanan, dan dokumentasi hasilnya. | P3 | Tugas 2 (uji sistem + laporan) | 30 |
-| STI-303 | UI/UX Design & Prototyping (+P) | PL-3 | CPMK1 | Melakukan riset pengguna dan merumuskan problem statement. | Sub-CPMK1.1 | Merumuskan Problem Statement dan How-Might-We dari wawancara/observasi pengguna. | KK5 | Tugas 1 (studi kasus UX) | 20 |
-| STI-303 | UI/UX Design & Prototyping (+P) | PL-3 | CPMK2 | Mengembangkan purwarupa interaktif high-fidelity menggunakan Figma. | Sub-CPMK2.1 | Atomic Design Components, Auto-Layout, dan interaksi mikro di Figma. | KK5 | UTS + Tugas 2 (praktikum Figma) | 50 |
-| STI-303 | UI/UX Design & Prototyping (+P) | PL-3 | CPMK3 | Mengevaluasi usability prototype dengan pengujian pengguna berbasis metrik. | Sub-CPMK3.1 | Usability testing dan laporan UX dengan rekomendasi perbaikan. | KK5 | UAS (project evaluasi) | 30 |
-| STI-604 | Digital Platform Engineering (+P) | PL-3 | CPMK1 | Merancang arsitektur microservices dan API gateway untuk platform digital skalabel. | Sub-CPMK1.1 | Implementasi microservices menggunakan Docker dan API Gateway. | P4 | Tugas 1 + Lab hands-on | 20 |
-| STI-604 | Digital Platform Engineering (+P) | PL-3 | CPMK2 | Membangun pipeline CI/CD dan Infrastructure as Code untuk deployment otomatis. | Sub-CPMK2.1 | CI/CD pipeline menggunakan GitHub Actions dan Terraform/Ansible. | KK5 | UTS + Tugas 2 (Project DevOps PjBL) | 50 |
-| STI-604 | Digital Platform Engineering (+P) | PL-3 | CPMK3 | Mengevaluasi kinerja dan skalabilitas platform digital dengan load testing. | Sub-CPMK3.1 | Load testing menggunakan k6/JMeter dan analisis metrik performa. | KK5 | UAS (Project evaluasi) | 30 |
-| STI-603 | Keamanan Informasi Lanjut | PL-2 | CPMK1 | Menganalisis teknik serangan lanjutan dan mensimulasikan penetration testing dasar. | Sub-CPMK1.1 | Simulasi serangan OWASP Top 10 dengan Metasploit/Burp Suite. | P3 | Tugas 1 + Lab penetration testing | 20 |
-| STI-603 | Keamanan Informasi Lanjut | PL-2 | CPMK2 | Melakukan digital forensics analysis terhadap sistem file dan log jaringan. | Sub-CPMK2.1 | Analisis artefak digital dan rekonstruksi kronologi insiden keamanan. | KK3 | UTS + Tugas 2 (Lab forensik) | 50 |
-| STI-603 | Keamanan Informasi Lanjut | PL-2 | CPMK3 | Menyusun kebijakan keamanan informasi organisasi berbasis ISO 27001. | Sub-CPMK3.1 | IS Policy Framework dan Risk Register mitigasi berbasis studi kasus. | KK4 | UAS (Project kebijakan) | 30 |
-| Validasi Bobot | STI-601: 100% OK | STI-401: 100% OK | STI-504: 100% OK | STI-303: 100% OK | STI-604: 100% OK | STI-603: 100% OK | | | |
+| STI-624 | Integrasi Layanan Cerdas Berbasis AI | PL-1 | CPMK1 | Menganalisis kebutuhan integrasi layanan cerdas dan data pada suatu kasus organisasi. | Sub-CPMK1.1 | Mengidentifikasi kebutuhan pengguna, sumber data, dan batasan sistem cerdas. | P2 | Tugas 1 (studi kasus + analisis) | 20 |
+| STI-624 | Integrasi Layanan Cerdas Berbasis AI | PL-1 | CPMK1 | Menganalisis kebutuhan integrasi layanan cerdas dan data pada suatu kasus organisasi. | Sub-CPMK1.2 | Menyusun arsitektur konseptual layanan AI dan aliran data (AI data flow). | KK1 | UTS (studi kasus + kuis) | 30 |
+| STI-624 | Integrasi Layanan Cerdas Berbasis AI | PL-1 | CPMK2 | Merancang dan membangun prototipe layanan cerdas berbasis AI yang terintegrasi. | Sub-CPMK2.1 | Mengembangkan API/model layanan cerdas dan mekanisme integrasi (REST/gRPC). | KK1 | Tugas 2 (project PjBL) | 20 |
+| STI-624 | Integrasi Layanan Cerdas Berbasis AI | PL-1 | CPMK3 | Mengevaluasi kualitas, interoperabilitas, dan kinerja solusi cerdas. | Sub-CPMK3.1 | Menguji interoperabilitas layanan dan mempresentasikan hasil evaluasi sistem. | KK1 | UAS (uji sistem + presentasi) | 30 |
+| STI-413 | Machine Learning (+P) | PL-1 | CPMK1 | Menerapkan alur kerja rekayasa data ML (EDA, Cleaning, Encoding, Scaling). | Sub-CPMK1.1 | Melakukan EDA dan pembersihan dataset dengan Pandas & NumPy. | P2 | Tugas 1 (praktikum lab) | 20 |
+| STI-413 | Machine Learning (+P) | PL-1 | CPMK2 | Mengonstruksi model Supervised & Unsupervised Learning. | Sub-CPMK2.1 | Membangun Logistic Regression, Decision Tree, Random Forest, K-Means (scikit-learn). | KK1 | UTS (praktikum + studi kasus) | 25 |
+| STI-413 | Machine Learning (+P) | PL-1 | CPMK3 | Mengevaluasi performa model dan membangun API inferensi (ML Deployment). | Sub-CPMK3.1 | Serialisasi model dan REST API inferensi menggunakan FastAPI/Streamlit. | KK1 | Tugas 2 (project PjBL tim) | 25 |
+| STI-413 | Machine Learning (+P) | PL-1 | CPMK4 | Menerapkan prinsip keandalan, keamanan, dan dokumentasi sistem ML profesional. | Sub-CPMK4.1 | Menyusun model card, dokumentasi teknis, dan presentasi solusi ML ke stakeholder. | KK2 | UAS (presentasi + laporan) | 30 |
+| STI-521 | Internet of Things (+P) | PL-2 | CPMK1 | Menganalisis kebutuhan dan arsitektur sistem IoT (sensor-edge-cloud). | Sub-CPMK1.1 | Mengidentifikasi sensor, aktuator, protokol MQTT/CoAP, dan kebutuhan konektivitas. | P3 | Tugas 1 + Studi kasus | 20 |
+| STI-521 | Internet of Things (+P) | PL-2 | CPMK2 | Mengembangkan prototipe IoT yang terhubung dengan layanan cloud. | Sub-CPMK2.1 | Akuisisi data sensor ESP32/Arduino via MQTT dan integrasi platform cloud. | KK3 | UTS + UAS (praktikum hardware + PjBL) | 50 |
+| STI-521 | Internet of Things (+P) | PL-2 | CPMK3 | Menguji keandalan dan keamanan dasar sistem IoT. | Sub-CPMK3.1 | Pengujian konektivitas, latensi, ketahanan, dan dokumentasi hasilnya. | P3 | Tugas 2 (uji sistem + laporan) | 30 |
+| STI-308 | UI/UX Design & Prototyping (+P) | PL-3 | CPMK1 | Melakukan riset pengguna dan merumuskan problem statement. | Sub-CPMK1.1 | Merumuskan Problem Statement dan How-Might-We dari wawancara/observasi pengguna. | KK5 | Tugas 1 (studi kasus UX) | 20 |
+| STI-308 | UI/UX Design & Prototyping (+P) | PL-3 | CPMK2 | Mengembangkan purwarupa interaktif high-fidelity menggunakan Figma. | Sub-CPMK2.1 | Atomic Design Components, Auto-Layout, dan interaksi mikro di Figma. | KK5 | UTS + Tugas 2 (praktikum Figma) | 50 |
+| STI-308 | UI/UX Design & Prototyping (+P) | PL-3 | CPMK3 | Mengevaluasi usability prototype dengan pengujian pengguna berbasis metrik. | Sub-CPMK3.1 | Usability testing dan laporan UX dengan rekomendasi perbaikan. | KK5 | UAS (project evaluasi) | 30 |
+| STI-627 | Digital Platform Engineering (+P) | PL-3 | CPMK1 | Merancang arsitektur microservices dan API gateway untuk platform digital skalabel. | Sub-CPMK1.1 | Implementasi microservices menggunakan Docker dan API Gateway. | P4 | Tugas 1 + Lab hands-on | 20 |
+| STI-627 | Digital Platform Engineering (+P) | PL-3 | CPMK2 | Membangun pipeline CI/CD dan Infrastructure as Code untuk deployment otomatis. | Sub-CPMK2.1 | CI/CD pipeline menggunakan GitHub Actions dan Terraform/Ansible. | KK5 | UTS + Tugas 2 (Project DevOps PjBL) | 50 |
+| STI-627 | Digital Platform Engineering (+P) | PL-3 | CPMK3 | Mengevaluasi kinerja dan skalabilitas platform digital dengan load testing. | Sub-CPMK3.1 | Load testing menggunakan k6/JMeter dan analisis metrik performa. | KK5 | UAS (Project evaluasi) | 30 |
+| STI-626 | Keamanan Informasi Lanjut | PL-2 | CPMK1 | Menganalisis teknik serangan lanjutan dan mensimulasikan penetration testing dasar. | Sub-CPMK1.1 | Simulasi serangan OWASP Top 10 dengan Metasploit/Burp Suite. | P3 | Tugas 1 + Lab penetration testing | 20 |
+| STI-626 | Keamanan Informasi Lanjut | PL-2 | CPMK2 | Melakukan digital forensics analysis terhadap sistem file dan log jaringan. | Sub-CPMK2.1 | Analisis artefak digital dan rekonstruksi kronologi insiden keamanan. | KK3 | UTS + Tugas 2 (Lab forensik) | 50 |
+| STI-626 | Keamanan Informasi Lanjut | PL-2 | CPMK3 | Menyusun kebijakan keamanan informasi organisasi berbasis ISO 27001. | Sub-CPMK3.1 | IS Policy Framework dan Risk Register mitigasi berbasis studi kasus. | KK4 | UAS (Project kebijakan) | 30 |
+| Validasi Bobot | STI-624: 100% OK | STI-413: 100% OK | STI-521: 100% OK | STI-308: 100% OK | STI-627: 100% OK | STI-626: 100% OK | | | |
 
 ---
 
-## Sheet 9: Template Evaluasi OBE - STI-601 (Integrasi AI)
-> TEMPLATE EVALUASI OBE - STI-601 Integrasi Layanan Cerdas Berbasis AI
+## Sheet 9: Template Evaluasi OBE - STI-624 (Integrasi AI)
+> TEMPLATE EVALUASI OBE - STI-624 Integrasi Layanan Cerdas Berbasis AI
 > CPL: P2, KK1 | Target Ketercapaian CPL = 75%
 > Skema Asesmen: Tugas 1=20% (Pk.4), UTS=30% (Pk.8), Tugas 2=20% (Pk.12), UAS=30% (Pk.16)
 
@@ -302,8 +302,8 @@
 
 ---
 
-## Sheet 10: Template Evaluasi OBE - STI-401 (Machine Learning)
-> TEMPLATE EVALUASI OBE - STI-401 Machine Learning (+P)
+## Sheet 10: Template Evaluasi OBE - STI-413 (Machine Learning)
+> TEMPLATE EVALUASI OBE - STI-413 Machine Learning (+P)
 > CPL: P2, KK1, KK2 | Target Ketercapaian CPL = 75%
 > Skema Asesmen: Tugas 1=20% (Pk.4), UTS=25% (Pk.8), Tugas 2=25% (Pk.12), UAS=30% (Pk.16)
 
@@ -324,8 +324,8 @@
 
 ---
 
-## Sheet 11: Template Evaluasi OBE - STI-303 (UI/UX)
-> TEMPLATE EVALUASI OBE - STI-303 UI/UX Design & Prototyping (+P)
+## Sheet 11: Template Evaluasi OBE - STI-308 (UI/UX)
+> TEMPLATE EVALUASI OBE - STI-308 UI/UX Design & Prototyping (+P)
 > CPL: KK5 | Target Ketercapaian CPL = 75%
 > Skema Asesmen: Tugas 1=20% (Pk.4), UTS=25% (Pk.8), Tugas 2=25% (Pk.12), UAS=30% (Pk.16)
 
@@ -346,8 +346,8 @@
 
 ---
 
-## Sheet 12: Template Evaluasi OBE - STI-603 (Keamanan)
-> TEMPLATE EVALUASI OBE - STI-603 Keamanan Informasi Lanjut
+## Sheet 12: Template Evaluasi OBE - STI-626 (Keamanan)
+> TEMPLATE EVALUASI OBE - STI-626 Keamanan Informasi Lanjut
 > CPL: P3, KK3, KK4 | Target Ketercapaian CPL = 75%
 > Skema Asesmen: Tugas 1=20% (Pk.4), UTS=30% (Pk.8), Tugas 2=20% (Pk.12), UAS=30% (Pk.16)
 
@@ -379,16 +379,16 @@
 | KU1 | Pemikiran logis, kritis & inovatif | 12 | FST-610 Capstone, FST-611 Metpen, FST-612 PKL, FST-613 Sempro, FST-714 Skripsi | 70 |  | Belum ada data |
 | KU2 | Komunikasi efektif & networking | 11 | FST-610 Capstone, FST-611 Metpen, MKU-507 KPM, FST-714 Skripsi | 70 |  | Belum ada data |
 | KU3 | Pengambilan keputusan & manajemen diri | 6 | FST-610 Capstone, FST-611 Metpen, FST-612 PKL, FST-613 Sempro, FST-714 Skripsi | 75 |  | Belum ada data |
-| P1 | Fondasi sains & matematika komputasi | 9 | STI-202 Aljabar Linear, FST-408 Statistika, FST-714 Skripsi | 65 |  | Belum ada data |
-| P2 | Sistem informasi & metodologi SI | 15 | STI-401 Machine Learning, STI-601 Integrasi AI, STI-503 Data Mining, FST-714 Skripsi | 70 |  | Belum ada data |
-| P3 | Infrastruktur TI & keamanan | 12 | STI-504 IoT, STI-602 Smart City, STI-603 Keamanan Lanjut, FST-714 Skripsi | 70 |  | Belum ada data |
-| P4 | Platform digital & pengembangan aplikasi | 12 | STI-505 Mobile, STI-604 Platform Eng, FST-714 Skripsi | 70 |  | Belum ada data |
-| KK1 | AI/ML integration ke SI bisnis | 11 | STI-501 Deep Learning, STI-601 Integrasi AI, FST-610 Capstone | 75 |  | Belum ada data |
-| KK2 | Data engineering & ML pipeline | 7 | STI-501 Deep Learning, STI-503 Data Mining, STA-04 MLOps | 75 |  | Belum ada data |
-| KK3 | Cloud, IoT & infrastruktur terintegrasi | 12 | STI-504 IoT, STI-602 Smart City, STB-02 Cloud DevOps, FST-714 Skripsi | 75 |  | Belum ada data |
-| KK4 | Audit, GRC & tata kelola TI | 7 | STI-603 Keamanan Lanjut, STB-04 COBIT, FST-612 PKL | 70 |  | Belum ada data |
-| KK5 | Platform digital skalabel & UI/UX | 14 | STI-303 UI/UX, STI-505 Mobile, STI-604 Platform Eng, STC-01 UXR, FST-610 Capstone | 75 |  | Belum ada data |
-| KK6 | Manajemen proyek & technopreneurship | 8 | STI-506 Manpro, STI-701 Startup, STC-06 Digital Product Mgmt | 75 |  | Belum ada data |
+| P1 | Fondasi sains & matematika komputasi | 9 | STI-205 Aljabar Linear, FST-408 Statistika, FST-714 Skripsi | 65 |  | Belum ada data |
+| P2 | Sistem informasi & metodologi SI | 15 | STI-413 Machine Learning, STI-624 Integrasi AI, STI-520 Data Mining, FST-714 Skripsi | 70 |  | Belum ada data |
+| P3 | Infrastruktur TI & keamanan | 12 | STI-521 IoT, STI-625 Smart City, STI-626 Keamanan Lanjut, FST-714 Skripsi | 70 |  | Belum ada data |
+| P4 | Platform digital & pengembangan aplikasi | 12 | STI-522 Mobile, STI-627 Platform Eng, FST-714 Skripsi | 70 |  | Belum ada data |
+| KK1 | AI/ML integration ke SI bisnis | 11 | STI-519 Deep Learning, STI-624 Integrasi AI, FST-610 Capstone | 75 |  | Belum ada data |
+| KK2 | Data engineering & ML pipeline | 7 | STI-519 Deep Learning, STI-520 Data Mining, STA-04 MLOps | 75 |  | Belum ada data |
+| KK3 | Cloud, IoT & infrastruktur terintegrasi | 12 | STI-521 IoT, STI-625 Smart City, STB-02 Cloud DevOps, FST-714 Skripsi | 75 |  | Belum ada data |
+| KK4 | Audit, GRC & tata kelola TI | 7 | STI-626 Keamanan Lanjut, STB-04 COBIT, FST-612 PKL | 70 |  | Belum ada data |
+| KK5 | Platform digital skalabel & UI/UX | 14 | STI-308 UI/UX, STI-522 Mobile, STI-627 Platform Eng, STC-01 UXR, FST-610 Capstone | 75 |  | Belum ada data |
+| KK6 | Manajemen proyek & technopreneurship | 8 | STI-523 Manpro, STI-728 Startup, STC-06 Digital Product Mgmt | 75 |  | Belum ada data |
 
 ---
 
@@ -419,7 +419,7 @@
 | 3 | 21 BK IS2020 + 15 BK IT2017 dipetakan ke CPL dan MK secara penuh (Dok. 003). Termasuk BK-IS20 (Ethics), BK-IS21 (Internship), dan BK-IT15 (Global Professional Practice) sebagai pemenuhan adopsi BK kompetensi utama wajib. Kepatuhan IKU 7 (Case Method + PjBL >= 60%) terverifikasi di Dok. 008. |
 | 4 | Sheet 9-12 adalah template implementasi asesmen. CPL program sah dihitung setelah data nilai aktual semester berjalan terintegrasi ke SIAKAD. |
 | 5 | Sistem asesmen OBE lengkap (Formula CPL Attainment, 4 Rubrik Analitik Master, Siklus PPEPP/CQI, Radar SKPI) tersedia pada Dok. 008 dan 009. |
-| 6 | STI-405 (Dasar Keamanan Informasi) = 2 SKS Teori (Sem 4). STI-602 (Smart City & Pemerintahan Digital) = 2 SKS Teori Non-Praktikum (Sem 6). |
+| 6 | STI-418 (Dasar Keamanan Informasi) = 2 SKS Teori (Sem 4). STI-625 (Smart City & Pemerintahan Digital) = 2 SKS Teori Non-Praktikum (Sem 6). |
 | 7 | MKU-406 (Agama II) dan MKU-508 (Kewirausahaan II) = 0 SKS kebijakan UWG; tercatat di transkrip namun tidak dihitung dalam beban SKS kelulusan. |
 
 ---

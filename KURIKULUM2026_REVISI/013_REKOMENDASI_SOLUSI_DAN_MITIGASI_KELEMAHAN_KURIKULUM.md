@@ -56,13 +56,13 @@ Menerapkan kebijakan **Proyek Terpadu Antar-Mata Kuliah (*Cross-Course Joint Pro
 ├──────────────────────────────────────┬───────────────────────────────────────────────────────────┤
 │ Pasangan MK Terintegrasi             │ Bentuk Artefak Proyek Bersama                             │
 ├──────────────────────────────────────┼───────────────────────────────────────────────────────────┤
-│ STI-407 (Web Back End Development)   │ 1 Sistem Back-End API (NodeJS/FastAPI) yang membaca data  │
+│ STI-416 (Web Back End Development)   │ 1 Sistem Back-End API (NodeJS/FastAPI) yang membaca data  │
 │                   +                  │ analitik dari skema Data Warehouse (PostgreSQL/BigQuery)  │
-│ STI-402 (Data Warehouse & BI)        │ dan menyajikan endpoint dashboard teragregasi.            │
+│ STI-415 (Data Warehouse & BI)        │ dan menyajikan endpoint dashboard teragregasi.            │
 ├──────────────────────────────────────┼───────────────────────────────────────────────────────────┤
-│ STI-401 (Machine Learning)           │ 1 Pipeline Analitik AI di mana model klasifikasi/regresi │
+│ STI-413 (Machine Learning)           │ 1 Pipeline Analitik AI di mana model klasifikasi/regresi │
 │                   +                  │ diterapkan pada data teks yang telah diproses oleh modul  │
-│ STI-403 (Pengantar NLP & IR)         │ preprocessing dan TF-IDF/Embedding.                       │
+│ STI-414 (Pengantar NLP & IR)         │ preprocessing dan TF-IDF/Embedding.                       │
 └──────────────────────────────────────┴───────────────────────────────────────────────────────────┘
 ```
 
@@ -72,13 +72,13 @@ Menerapkan kebijakan **Proyek Terpadu Antar-Mata Kuliah (*Cross-Course Joint Pro
 ├──────────────────────────────────────┬───────────────────────────────────────────────────────────┤
 │ Pasangan MK Terintegrasi             │ Bentuk Artefak Proyek Bersama                             │
 ├──────────────────────────────────────┼───────────────────────────────────────────────────────────┤
-│ STI-504 (Internet of Things)         │ 1 Aplikasi Mobile (Flutter/React Native) yang berfungsi   │
+│ STI-521 (Internet of Things)         │ 1 Aplikasi Mobile (Flutter/React Native) yang berfungsi   │
 │                   +                  │ sebagai antarmuka pemantauan sensor IoT secara real-time  │
-│ STI-505 (Pemrograman Mobile)         │ via protokol MQTT/WebSocket.                              │
+│ STI-522 (Pemrograman Mobile)         │ via protokol MQTT/WebSocket.                              │
 ├──────────────────────────────────────┼───────────────────────────────────────────────────────────┤
-│ STI-501 (Deep Learning)              │ 1 Proyek Data Science Terintegrasi: ekstraksi fitur &     │
+│ STI-519 (Deep Learning)              │ 1 Proyek Data Science Terintegrasi: ekstraksi fitur &     │
 │                   +                  │ klastering data, dilanjutkan klasifikasi citra/sinyal     │
-│ STI-503 (Data Mining & Visualisasi)  │ menggunakan Convolutional Neural Networks (CNN).          │
+│ STI-520 (Data Mining & Visualisasi)  │ menggunakan Convolutional Neural Networks (CNN).          │
 ├──────────────────────────────────────┼───────────────────────────────────────────────────────────┤
 │ MKU-507 (KPM 3 SKS) Tematik          │ Produk IoT atau Mobile dari perkuliahan langsung dibawa   │
 │                                      │ dan diimplementasikan pada desa mitra/UMKM KPM binaan.    │
@@ -92,12 +92,12 @@ Menerapkan kebijakan **Proyek Terpadu Antar-Mata Kuliah (*Cross-Course Joint Pro
 ### 💡 SOLUSI 2: Mengatasi *Single Point of Failure (SPOF)* Prasyarat Koding
 
 #### A. Identifikasi Masalah:
-Rantai linier `STI-101 Algoritma` $\rightarrow$ `STI-202 OOP` $\rightarrow$ `STI-306 Front-End` $\rightarrow$ `STI-407 Back-End` $\rightarrow$ `STI-604 Platform` berisiko menunda kelulusan mahasiswa 1–2 tahun jika gagal di semester awal.
+Rantai linier `STI-101 Algoritma` $\rightarrow$ `STI-205 OOP` $\rightarrow$ `STI-311 Front-End` $\rightarrow$ `STI-416 Back-End` $\rightarrow$ `STI-627 Platform` berisiko menunda kelulusan mahasiswa 1–2 tahun jika gagal di semester awal.
 
 #### B. Solusi Operasional:
 1. **Penerapan Kebijakan Dual Prerequisite (Hard vs Soft Prerequisite):**
    * **Hard Prerequisite (Nilai $\ge C$):** Hanya berlaku untuk transisi dari `STI-101 Algoritma` ke `FST-203 Struktur Data` dan `FST-205 OOP`.
-   * **Soft / Advisory Prerequisite (Pernah Menempuh, Nilai $\ge D$):** Untuk MK lanjutan tingkat menengah (misal dari `STI-306 Web Front` ke `STI-407 Web Back` atau `STI-401 ML` ke `STI-501 Deep Learning`), mahasiswa yang mendapat nilai D diizinkan mengambil MK lanjutan secara paralel (*concurrent enrollment*) sambil mengulang ujian perbaikan.
+   * **Soft / Advisory Prerequisite (Pernah Menempuh, Nilai $\ge D$):** Untuk MK lanjutan tingkat menengah (misal dari `STI-311 Web Front` ke `STI-416 Web Back` atau `STI-413 ML` ke `STI-519 Deep Learning`), mahasiswa yang mendapat nilai D diizinkan mengambil MK lanjutan secara paralel (*concurrent enrollment*) sambil mengulang ujian perbaikan.
 2. **Penyelenggaraan Semester Antara / Remedial Bootcamp Khusus (Juli–Agustus):**
    * Fakultas secara rutin membuka Semester Antara dengan masa intensif 8 pekan khusus untuk 4 mata kuliah gerbang (*gateway courses*): `Algoritma & Pemrograman`, `OOP`, `Struktur Data`, dan `Matematika Diskrit`.
 
@@ -120,7 +120,7 @@ Menyusun **Paket Ekuivalensi Matriks MBKM 20 SKS Baku**:
 │ Proyek Rekayasa Teknis│  9  │ 3 MK Pilihan Peminatan (STA/B/C)│ Logbook, Source Code & Demo      │
 │ Kinerja Profesional   │  3  │ FST-612 Praktik Kerja Lapangan  │ Lembar Evaluasi Mentor Industri  │
 │ Capstone Produk Nyata │  3  │ FST-610 Capstone Project FSTI   │ Laporan Teknis Sistem Terpasang  │
-│ Inovasi Proses Bisnis │  3  │ STI-701 Inovasi & Startup Dig.  │ Kajian Value Proposition & MVP   │
+│ Inovasi Proses Bisnis │  3  │ STI-728 Inovasi & Startup Dig.  │ Kajian Value Proposition & MVP   │
 │ Proposal Proyek Akhir │  2  │ FST-613 Pra-Skripsi / Sempro    │ Draft Proposal Skripsi Industri  │
 ├───────────────────────┼:---:┼─────────────────────────────────┴──────────────────────────────────┤
 │ TOTAL KONVERSI        │ 20  │ 100% SKS Semester 7 Terkonversi Penuh Tanpa Kuliah di Kampus       │
@@ -189,7 +189,7 @@ Penawaran 18 MK elektif (3 peminatan @ 6 MK) berisiko menghasilkan kelas kecil (
    * Perkuliahan tatap muka di kelas dikurangi menjadi 4x pertemuan utama (awal, tengah, dan akhir semester).
    * Sisa pertemuan dipenuhi melalui modul video pembelajaran mandiri pendek (10–15 menit) dan kuis refleksi di LMS.
 2. **Portfolio-Based Clearance untuk Kewirausahaan II:**
-   * Mahasiswa tidak diuji teori tertulis, melainkan cukup mengunggah *Pitch Deck* atau *Business Model Canvas (BMC)* yang selaras dengan proposal yang mereka susun di `STI-506 Manajemen Proyek TI` atau `STI-701 Inovasi Startup`.
+   * Mahasiswa tidak diuji teori tertulis, melainkan cukup mengunggah *Pitch Deck* atau *Business Model Canvas (BMC)* yang selaras dengan proposal yang mereka susun di `STI-523 Manajemen Proyek TI` atau `STI-728 Inovasi Startup`.
 
 ---
 

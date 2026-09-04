@@ -66,8 +66,8 @@ graph LR
 | 6 | `MKU-101` | Agama I | 2 | **I** | | | | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **I** |
 | 7 | `MKU-102` | Pancasila | 2 | **I** | | | | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **I** |
 | 8 | `MKU-103` | Bahasa Indonesia | 2 | | | **I** | | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **I** |
-| 9 | `STI-201` | Matematika Diskrit & Logika | 3 | | **I** | | | **I** | | | | | | | | | | PL-1, PL-2 | PEO-1, PEO-3 | **I** |
-| 10 | `STI-202` | Aljabar Linear & Matriks | 3 | | | | | **I** | | | | | | | | | | PL-1, PL-2 | PEO-1, PEO-3 | **I** |
+| 9 | `STI-204` | Matematika Diskrit & Logika | 3 | | **I** | | | **I** | | | | | | | | | | PL-1, PL-2 | PEO-1, PEO-3 | **I** |
+| 10 | `STI-205` | Aljabar Linear & Matriks | 3 | | | | | **I** | | | | | | | | | | PL-1, PL-2 | PEO-1, PEO-3 | **I** |
 | 11 | `FST-203` | Struktur Data & Algoritma | 3 | | | | | | | | **I** | | | | | | | PL-1, PL-3 | PEO-1, PEO-3 | **I** |
 | 12 | `FST-204` | Organisasi & Arsitektur Kom | 2 | | | | | | | **I** | | | | | | | | PL-2 | PEO-1 | **I** |
 | 13 | `FST-205` | Pemrograman Lanjut (OOP) | 2 | | | | | | | | **I** | | | | | | | PL-1, PL-3 | PEO-1 | **I** |
@@ -81,20 +81,20 @@ graph LR
 
 | No | Kode MK | Nama Mata Kuliah | SKS | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 | Target PL | Target PEO | Status IRM |
 |:---:|:---:|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 17 | `STI-301` | Analisis & Perancangan SI | 3 | | **R** | | | | **R** | | | | | | | | | PL-1, PL-3 | PEO-1 | **R** |
-| 18 | `STI-302` | Sistem Cerdas | 2 | | | | | | **R** | | | **R** | | | | | | PL-1 | PEO-1, PEO-3 | **R** |
-| 19 | `STI-303` | UI/UX Design & Prototyping | 3 | | | | | | | | | | | | | **R** | | PL-3 | PEO-1, PEO-2 | **R** |
-| 20 | `STI-304` | Rekayasa Perangkat Lunak | 3 | | | | | | | | **R** | | | | | **R** | | PL-1, PL-3 | PEO-1 | **R** |
-| 21 | `STI-305` | Sistem Operasi | 3 | | | | | | | **R** | | | | **R** | | | | PL-2 | PEO-1 | **R** |
-| 22 | `STI-306` | Web Front End Development | 3 | | | | | | | | **R** | | | | | **R** | | PL-3 | PEO-1, PEO-2 | **R** |
-| 23 | `STI-307` | Jaringan Komputer | 3 | | | | | | | **R** | | | | **R** | | | | PL-2 | PEO-1 | **R** |
-| 24 | `STI-401` | Machine Learning | 3 | | | | | | **R** | | | **R** | | | | | | PL-1 | PEO-1, PEO-3 | **R** |
-| 25 | `STI-402` | Data Warehouse & BI | 3 | | | | | | **R** | | | | **R** | | | | | PL-1 | PEO-1 | **R** |
-| 26 | `STI-407` | Web Back End Development | 3 | | | | | | | | **R** | | | | | **R** | | PL-3 | PEO-1, PEO-2 | **R** |
-| 27 | `STI-404` | Komputasi Awan (Cloud) | 3 | | | | | | | **R** | | | | **R** | | | | PL-2 | PEO-1 | **R** |
-| 28 | `STI-405` | Dasar Keamanan Informasi | 2 | | | | | | | **R** | | | | **R** | | | | PL-2 | PEO-1 | **R** |
+| 17 | `STI-306` | Analisis & Perancangan SI | 3 | | **R** | | | | **R** | | | | | | | | | PL-1, PL-3 | PEO-1 | **R** |
+| 18 | `STI-307` | Sistem Cerdas | 2 | | | | | | **R** | | | **R** | | | | | | PL-1 | PEO-1, PEO-3 | **R** |
+| 19 | `STI-308` | UI/UX Design & Prototyping | 3 | | | | | | | | | | | | | **R** | | PL-3 | PEO-1, PEO-2 | **R** |
+| 20 | `STI-309` | Rekayasa Perangkat Lunak | 3 | | | | | | | | **R** | | | | | **R** | | PL-1, PL-3 | PEO-1 | **R** |
+| 21 | `STI-310` | Sistem Operasi | 3 | | | | | | | **R** | | | | **R** | | | | PL-2 | PEO-1 | **R** |
+| 22 | `STI-311` | Web Front End Development | 3 | | | | | | | | **R** | | | | | **R** | | PL-3 | PEO-1, PEO-2 | **R** |
+| 23 | `STI-312` | Jaringan Komputer | 3 | | | | | | | **R** | | | | **R** | | | | PL-2 | PEO-1 | **R** |
+| 24 | `STI-413` | Machine Learning | 3 | | | | | | **R** | | | **R** | | | | | | PL-1 | PEO-1, PEO-3 | **R** |
+| 25 | `STI-415` | Data Warehouse & BI | 3 | | | | | | **R** | | | | **R** | | | | | PL-1 | PEO-1 | **R** |
+| 26 | `STI-416` | Web Back End Development | 3 | | | | | | | | **R** | | | | | **R** | | PL-3 | PEO-1, PEO-2 | **R** |
+| 27 | `STI-417` | Komputasi Awan (Cloud) | 3 | | | | | | | **R** | | | | **R** | | | | PL-2 | PEO-1 | **R** |
+| 28 | `STI-418` | Dasar Keamanan Informasi | 2 | | | | | | | **R** | | | | **R** | | | | PL-2 | PEO-1 | **R** |
 | 29 | `FST-408` | Probabilitas & Statistika | 3 | | | | | **R** | | | | | | | | | | PL-1, PL-2 | PEO-1, PEO-3 | **R** |
-| 30 | `STI-403` | Pengantar NLP & IR | 2 | | | | | | **R** | | | **R** | | | | | | PL-1 | PEO-1, PEO-3 | **R** |
+| 30 | `STI-414` | Pengantar NLP & IR | 2 | | | | | | **R** | | | **R** | | | | | | PL-1 | PEO-1, PEO-3 | **R** |
 | 31 | `MKU-405` | Kewarganegaraan | 2 | **I** | | | | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **I** |
 | 31.B | `MKU-406` | Agama II | 0 | **I** | | | | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **I** |
 
@@ -104,18 +104,18 @@ graph LR
 
 | No | Kode MK | Nama Mata Kuliah | SKS | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 | Target PL | Target PEO | Status IRM |
 |:---:|:---:|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 32 | `STI-501` | Deep Learning & Neural Net | 3 | | | | | | | | | **R** | **R** | | | | | PL-1 | PEO-1, PEO-3 | **R** |
-| 33 | `STI-503` | Data Mining & Visualisasi | 3 | | | | | | **R** | | | | **R** | | | | | PL-1 | PEO-1 | **R** |
-| 34 | `STI-504` | Internet of Things (IoT) | 3 | | | | | | | **R** | | | | **R** | | | | PL-2 | PEO-1 | **R** |
-| 35 | `STI-505` | Pemrograman Aplikasi Mobile| 3 | | | | | | | | **R** | | | | | **R** | | PL-3 | PEO-1, PEO-2 | **R** |
-| 36 | `STI-506` | Manajemen Proyek TI | 3 | | | | | | | | | | | | | | **R** | PL-4 | PEO-1, PEO-2 | **R** |
+| 32 | `STI-519` | Deep Learning & Neural Net | 3 | | | | | | | | | **R** | **R** | | | | | PL-1 | PEO-1, PEO-3 | **R** |
+| 33 | `STI-520` | Data Mining & Visualisasi | 3 | | | | | | **R** | | | | **R** | | | | | PL-1 | PEO-1 | **R** |
+| 34 | `STI-521` | Internet of Things (IoT) | 3 | | | | | | | **R** | | | | **R** | | | | PL-2 | PEO-1 | **R** |
+| 35 | `STI-522` | Pemrograman Aplikasi Mobile| 3 | | | | | | | | **R** | | | | | **R** | | PL-3 | PEO-1, PEO-2 | **R** |
+| 36 | `STI-523` | Manajemen Proyek TI | 3 | | | | | | | | | | | | | | **R** | PL-4 | PEO-1, PEO-2 | **R** |
 | 37 | `MKU-507` | KPM (Kuliah Pengabdian Kepada Masyarakat) | 3 | **M** | | | **M** | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **M** |
 | 38 | `STA/B/C` | **MK Pilihan Peminatan 1** | 3 | | | | | | | | | * | * | * | * | * | * | PL-1..3 | PEO-1..3 | **R** |
 | 38.B | `MKU-508` | Kewirausahaan II | 0 | | | | | | | | | | | | | | **R** | PL-4 | PEO-2 | **R** |
-| 39 | `STI-601` | Integrasi Layanan Cerdas AI | 3 | | | | | | **M** | | | **M** | | | | | | PL-1 | PEO-1, PEO-3 | **M** |
-| 40 | `STI-602` | Smart City & Pem. Digital | 2 | | | | | | | **M** | | | | **M** | | | | PL-2 | PEO-1 | **M** |
-| 41 | `STI-603` | Keamanan Informasi Lanjut | 3 | | | | | | | **M** | | | | **M** | **M** | | | PL-2 | PEO-1 | **M** |
-| 42 | `STI-604` | Digital Platform Engineering| 3 | | | | | | | | **M** | | | | | **M** | | PL-3 | PEO-1, PEO-2 | **M** |
+| 39 | `STI-624` | Integrasi Layanan Cerdas AI | 3 | | | | | | **M** | | | **M** | | | | | | PL-1 | PEO-1, PEO-3 | **M** |
+| 40 | `STI-625` | Smart City & Pem. Digital | 2 | | | | | | | **M** | | | | **M** | | | | PL-2 | PEO-1 | **M** |
+| 41 | `STI-626` | Keamanan Informasi Lanjut | 3 | | | | | | | **M** | | | | **M** | **M** | | | PL-2 | PEO-1 | **M** |
+| 42 | `STI-627` | Digital Platform Engineering| 3 | | | | | | | | **M** | | | | | **M** | | PL-3 | PEO-1, PEO-2 | **M** |
 | 43 | `FST-611` | Metodologi Penelitian | 2 | | **M** | **M** | | | | | | | | | | | | Seluruh PL | PEO-3 | **M** |
 | 44 | `STA/B/C` | **MK Pilihan Peminatan 2** | 3 | | | | | | | | | * | * | * | * | * | * | PL-1..3 | PEO-1..3 | **M** |
 | 45 | `STA/B/C` | **MK Pilihan Peminatan 3** | 3 | | | | | | | | | * | * | * | * | * | * | PL-1..3 | PEO-1..3 | **M** |
@@ -126,7 +126,7 @@ graph LR
 
 | No | Kode MK | Nama Mata Kuliah | SKS | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 | Target PL | Target PEO | Status IRM |
 |:---:|:---:|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 46 | `STI-701` | Inovasi & Startup Digital | 3 | | | | | | | | | | | | | | **M** | PL-4 | PEO-2 | **M** |
+| 46 | `STI-728` | Inovasi & Startup Digital | 3 | | | | | | | | | | | | | | **M** | PL-4 | PEO-2 | **M** |
 | 47 | `FST-610` | Capstone Project FSTI | 3 | **M** | **M** | **M** | **M** | | | | | **M** | **M** | **M** | **M** | **M** | **M** | Seluruh PL | PEO-1, PEO-2 | **M** |
 | 48 | `FST-612` | Praktik Kerja Lapangan(PKL) | 3 | **M** | **M** | **M** | **M** | | | | | **M** | **M** | **M** | **M** | **M** | **M** | Seluruh PL | PEO-1, PEO-2 | **M** |
 | 49 | `FST-613` | Pra-Skripsi / Sempro | 2 | | **M** | **M** | | | | | | | | | | | | Seluruh PL | PEO-1, PEO-3 | **M** |
@@ -213,26 +213,26 @@ Matriks ini memetakan relasi langsung antara 21 Bahan Kajian Standar APTIKOM SI 
 
 | Kode BoK IS | Nomenklatur Bahan Kajian IS2020 | Mata Kuliah Pembina Primer (●) | Mata Kuliah Pembina Sekunder (○) | Total MK | Status Cakupan |
 |---|---|---|---|:---:|:---:|
-| **BK-IS01** | *Foundations of Information Systems* | `STI-101`, `FST-101` | `STI-301` | 3 MK | ✅ Sangat Kuat |
-| **BK-IS02** | *Data and Information Management* | `FST-207`, `STI-402`, `STI-503` | `STA-01`, `STA-04` | 5 MK | ✅ Sangat Kuat |
-| **BK-IS03** | *IT Infrastructure and Networking* | `STI-103`, `STI-307`, `STI-404`, `STI-305` | `STB-01`, `STB-02`, `STI-504` | 7 MK | ✅ Sangat Kuat |
-| **BK-IS04** | *Enterprise Architecture* | `STB-06` | `STI-301`, `STI-604` | 3 MK | ✅ Terpenuhi |
-| **BK-IS05** | *IS Management and Governance* | `STB-04`, `STB-05` | `STI-506`, `STB-03` | 4 MK | ✅ Terpenuhi |
-| **BK-IS06** | *Information Security and Risk Management* | `STI-405`, `STI-603`, `STB-01`, `STB-03` | `FST-206` | 5 MK | ✅ Sangat Kuat |
-| **BK-IS07** | *Systems Analysis and Design* | `STI-301`, `STI-304` | `FST-610`, `STC-02` | 4 MK | ✅ Sangat Kuat |
-| **BK-IS08** | *Project Management* | `STI-506`, `STC-06` | `FST-610`, `FST-612` | 4 MK | ✅ Sangat Kuat |
-| **BK-IS09** | *Business Process Management* | `STC-02` | `STI-301`, `STI-602` | 3 MK | ✅ Terpenuhi |
-| **BK-IS10** | *Applied Mathematics and Logic* | `STI-102`, `STI-201`, `STI-202`, `FST-408` | `STA-02` | 5 MK | ✅ Sangat Kuat |
-| **BK-IS11** | *Programming Fundamentals & OOP* | `FST-102`, `FST-203`, `FST-205` | `STI-306`, `STI-407` | 5 MK | ✅ Sangat Kuat |
-| **BK-IS12** | *Web and Mobile App Development* | `STI-306`, `STI-407`, `STI-505`, `STI-604` | `STC-03`, `STC-05` | 6 MK | ✅ Sangat Kuat |
-| **BK-IS13** | *Data Analytics and Business Intelligence* | `STI-402`, `STI-503`, `STA-01` | `STI-401`, `STA-04` | 5 MK | ✅ Sangat Kuat |
+| **BK-IS01** | *Foundations of Information Systems* | `STI-101`, `FST-101` | `STI-306` | 3 MK | ✅ Sangat Kuat |
+| **BK-IS02** | *Data and Information Management* | `FST-207`, `STI-415`, `STI-520` | `STA-01`, `STA-04` | 5 MK | ✅ Sangat Kuat |
+| **BK-IS03** | *IT Infrastructure and Networking* | `STI-103`, `STI-312`, `STI-417`, `STI-310` | `STB-01`, `STB-02`, `STI-521` | 7 MK | ✅ Sangat Kuat |
+| **BK-IS04** | *Enterprise Architecture* | `STB-06` | `STI-306`, `STI-627` | 3 MK | ✅ Terpenuhi |
+| **BK-IS05** | *IS Management and Governance* | `STB-04`, `STB-05` | `STI-523`, `STB-03` | 4 MK | ✅ Terpenuhi |
+| **BK-IS06** | *Information Security and Risk Management* | `STI-418`, `STI-626`, `STB-01`, `STB-03` | `FST-206` | 5 MK | ✅ Sangat Kuat |
+| **BK-IS07** | *Systems Analysis and Design* | `STI-306`, `STI-309` | `FST-610`, `STC-02` | 4 MK | ✅ Sangat Kuat |
+| **BK-IS08** | *Project Management* | `STI-523`, `STC-06` | `FST-610`, `FST-612` | 4 MK | ✅ Sangat Kuat |
+| **BK-IS09** | *Business Process Management* | `STC-02` | `STI-306`, `STI-625` | 3 MK | ✅ Terpenuhi |
+| **BK-IS10** | *Applied Mathematics and Logic* | `STI-102`, `STI-204`, `STI-205`, `FST-408` | `STA-02` | 5 MK | ✅ Sangat Kuat |
+| **BK-IS11** | *Programming Fundamentals & OOP* | `FST-102`, `FST-203`, `FST-205` | `STI-311`, `STI-416` | 5 MK | ✅ Sangat Kuat |
+| **BK-IS12** | *Web and Mobile App Development* | `STI-311`, `STI-416`, `STI-522`, `STI-627` | `STC-03`, `STC-05` | 6 MK | ✅ Sangat Kuat |
+| **BK-IS13** | *Data Analytics and Business Intelligence* | `STI-415`, `STI-520`, `STA-01` | `STI-413`, `STA-04` | 5 MK | ✅ Sangat Kuat |
 | **BK-IS14** | *IT Audit and Compliance* | `STB-04`, `STB-03` | `FST-206`, `STB-05` | 4 MK | ✅ Terpenuhi |
-| **BK-IS15** | *Digital Innovation and Entrepreneurship* | `MKU-204`, `STI-701`, `FST-610` | `STC-06` | 4 MK | ✅ Sangat Kuat |
-| **BK-IS16** | *Artificial Intelligence & Intelligent Systems*| `STI-302`, `STI-403`, `STI-601`, `STA-03`, `STA-05` | `STI-401`, `STA-06` | 7 MK | ✅ Sangat Kuat |
-| **BK-IS17** | *Human-Computer Interaction & UX* | `STI-303`, `STC-01` | `STI-306`, `STI-505` | 4 MK | ✅ Sangat Kuat |
-| **BK-IS18** | *Machine Learning and Data Science* | `STI-401`, `STI-501`, `STA-04` | `STA-02`, `STA-06` | 5 MK | ✅ Sangat Kuat |
-| **BK-IS19** | *Cloud Architecture & DevOps* | `STI-404`, `STB-02` | `STI-604`, `STC-05` | 4 MK | ✅ Sangat Kuat |
-| **BK-IS20** | *Ethics, Use and Implications for Society* | `FST-206` | `STI-405`, `STI-602`, `STB-04` | 4 MK | ✅ Terpenuhi |
+| **BK-IS15** | *Digital Innovation and Entrepreneurship* | `MKU-204`, `STI-728`, `FST-610` | `STC-06` | 4 MK | ✅ Sangat Kuat |
+| **BK-IS16** | *Artificial Intelligence & Intelligent Systems*| `STI-307`, `STI-414`, `STI-624`, `STA-03`, `STA-05` | `STI-413`, `STA-06` | 7 MK | ✅ Sangat Kuat |
+| **BK-IS17** | *Human-Computer Interaction & UX* | `STI-308`, `STC-01` | `STI-311`, `STI-522` | 4 MK | ✅ Sangat Kuat |
+| **BK-IS18** | *Machine Learning and Data Science* | `STI-413`, `STI-519`, `STA-04` | `STA-02`, `STA-06` | 5 MK | ✅ Sangat Kuat |
+| **BK-IS19** | *Cloud Architecture & DevOps* | `STI-417`, `STB-02` | `STI-627`, `STC-05` | 4 MK | ✅ Sangat Kuat |
+| **BK-IS20** | *Ethics, Use and Implications for Society* | `FST-206` | `STI-418`, `STI-625`, `STB-04` | 4 MK | ✅ Terpenuhi |
 | **BK-IS21** | *Internship and Professional Practice* | `FST-612` | `MKU-507`, `FST-610` | 3 MK | ✅ Terpenuhi |
 
 > [!NOTE]
@@ -245,19 +245,19 @@ Matriks ini memetakan relasi langsung antara 21 Bahan Kajian Standar APTIKOM SI 
 | Kode BoK IT | Nomenklatur Bahan Kajian Utama IT2017 | Mata Kuliah Pembina Primer (●) | Mata Kuliah Pembina Sekunder (○) | Total MK | Status Cakupan |
 |---|---|---|---|:---:|:---:|
 | **BK-IT01** | *Information Technology Fundamentals* | `FST-101`, `STI-101` | `FST-204` | 3 MK | ✅ Sangat Kuat |
-| **BK-IT02** | *Applied AI & Intelligent Technologies* | `STI-302`, `STI-401`, `STI-403`, `STI-501`, `STI-601` | `STA-03..06` | 9 MK | ✅ Sangat Kuat |
-| **BK-IT03** | *Networking & Communications* | `STI-307` | `STI-404`, `STI-504`, `STB-01` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT04** | *Platform Technologies & Web/Mobile* | `STI-306`, `STI-407`, `STI-505`, `STI-604` | `STC-03..05` | 7 MK | ✅ Sangat Kuat |
-| **BK-IT05** | *Cloud Computing & Virtualization* | `STI-404`, `STB-02` | `STI-305`, `STC-05` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT06** | *Cybersecurity Principles & Defense* | `STI-405`, `STI-603`, `STB-01` | `STB-03` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT07** | *System Integration and Architecture* | `STI-601`, `STI-604`, `FST-610` | `STB-06`, `STC-02` | 5 MK | ✅ Sangat Kuat |
-| **BK-IT08** | *IT Service Management & Governance* | `STB-04`, `STB-05` | `STI-506` | 3 MK | ✅ Terpenuhi |
-| **BK-IT09** | *Data Analytics & Information Visualization*| `STI-402`, `STI-503` | `STA-01`, `STA-04` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT10** | *User Experience & Interaction Design* | `STI-303`, `STC-01` | `STI-306`, `STC-04` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT11** | *Software Development Practices* | `STI-304`, `STI-407`, `STI-604` | `FST-205`, `STC-05` | 5 MK | ✅ Sangat Kuat |
+| **BK-IT02** | *Applied AI & Intelligent Technologies* | `STI-307`, `STI-413`, `STI-414`, `STI-519`, `STI-624` | `STA-03..06` | 9 MK | ✅ Sangat Kuat |
+| **BK-IT03** | *Networking & Communications* | `STI-312` | `STI-417`, `STI-521`, `STB-01` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT04** | *Platform Technologies & Web/Mobile* | `STI-311`, `STI-416`, `STI-522`, `STI-627` | `STC-03..05` | 7 MK | ✅ Sangat Kuat |
+| **BK-IT05** | *Cloud Computing & Virtualization* | `STI-417`, `STB-02` | `STI-310`, `STC-05` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT06** | *Cybersecurity Principles & Defense* | `STI-418`, `STI-626`, `STB-01` | `STB-03` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT07** | *System Integration and Architecture* | `STI-624`, `STI-627`, `FST-610` | `STB-06`, `STC-02` | 5 MK | ✅ Sangat Kuat |
+| **BK-IT08** | *IT Service Management & Governance* | `STB-04`, `STB-05` | `STI-523` | 3 MK | ✅ Terpenuhi |
+| **BK-IT09** | *Data Analytics & Information Visualization*| `STI-415`, `STI-520` | `STA-01`, `STA-04` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT10** | *User Experience & Interaction Design* | `STI-308`, `STC-01` | `STI-311`, `STC-04` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT11** | *Software Development Practices* | `STI-309`, `STI-416`, `STI-627` | `FST-205`, `STC-05` | 5 MK | ✅ Sangat Kuat |
 | **BK-IT12** | *IT Risk Management and Compliance* | `STB-03`, `STB-04` | `FST-206` | 3 MK | ✅ Terpenuhi |
-| **BK-IT13** | *Technology Entrepreneurship* | `MKU-204`, `STI-701`, `FST-610` | `STC-06` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT14** | *IoT and Embedded Smart Systems* | `STI-504`, `STA-06` | `STI-305`, `STI-307` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT13** | *Technology Entrepreneurship* | `MKU-204`, `STI-728`, `FST-610` | `STC-06` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT14** | *IoT and Embedded Smart Systems* | `STI-521`, `STA-06` | `STI-310`, `STI-312` | 4 MK | ✅ Sangat Kuat |
 | **BK-IT15** | *Global Professional Practice* | `FST-205`, `FST-612` | `FST-206`, `MKU-507` | 4 MK | ✅ Terpenuhi |
 
 > [!NOTE]
@@ -284,45 +284,45 @@ Sesuai Keputusan Menteri Pendidikan dan Kebudayaan No. 210/M/2023 tentang Indika
 | 6 | `MKU-101` | Agama I | 2 | 20% | 0% | 80% | 20% | *MK Teori Dasar Sikap* |
 | 7 | `MKU-102` | Pancasila | 2 | 20% | 0% | 80% | 20% | *MK Teori Dasar Sikap* |
 | 8 | `MKU-103` | Bahasa Indonesia | 2 | 30% | 20% | 50% | 50% | *MK Keterampilan Komunikasi* |
-| 9 | `STI-201` | Matematika Diskrit & Logika | 3 | 20% | 0% | 80% | 20% | *MK Teori Dasar Sains* |
-| 10 | `STI-202` | Aljabar Linear & Matriks | 3 | 20% | 0% | 80% | 20% | *MK Teori Dasar Sains* |
+| 9 | `STI-204` | Matematika Diskrit & Logika | 3 | 20% | 0% | 80% | 20% | *MK Teori Dasar Sains* |
+| 10 | `STI-205` | Aljabar Linear & Matriks | 3 | 20% | 0% | 80% | 20% | *MK Teori Dasar Sains* |
 | 11 | `FST-203` | Struktur Data & Algoritma | 3 | 20% | 40% | 40% | **60%** | ✅ Patuh IKU 7 |
 | 12 | `FST-204` | Organisasi & Arsitektur Kom | 2 | 20% | 30% | 50% | **50%** | ✅ Patuh IKU 7 |
 | 13 | `FST-205` | Pemrograman Lanjut (OOP) | 2 | 20% | 45% | 35% | **65%** | ✅ Patuh IKU 7 |
 | 14 | `FST-206` | Etika Profesi & Hukum Dig. | 2 | 40% | 20% | 40% | **60%** | ✅ Patuh IKU 7 |
 | 15 | `FST-207` | Sistem Basis Data | 3 | 20% | 45% | 35% | **65%** | ✅ Patuh IKU 7 |
 | 16 | `MKU-204` | Kewirausahaan I | 2 | 30% | 40% | 30% | **70%** | ✅ Patuh IKU 7 |
-| 17 | `STI-301` | Analisis & Perancangan SI | 3 | 30% | 40% | 30% | **70%** | ✅ Patuh IKU 7 |
-| 18 | `STI-302` | Sistem Cerdas | 2 | 25% | 35% | 40% | **60%** | ✅ Patuh IKU 7 |
-| 19 | `STI-303` | UI/UX Design & Prototyping | 3 | 20% | 55% | 25% | **75%** | ✅ Patuh IKU 7 |
-| 20 | `STI-304` | Rekayasa Perangkat Lunak | 3 | 20% | 55% | 25% | **75%** | ✅ Patuh IKU 7 |
-| 21 | `STI-305` | Sistem Operasi | 3 | 20% | 35% | 45% | **55%** | ✅ Patuh IKU 7 |
-| 22 | `STI-306` | Web Front End Development | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
-| 23 | `STI-307` | Jaringan Komputer | 3 | 20% | 35% | 45% | **55%** | ✅ Patuh IKU 7 |
-| 24 | `STI-401` | Machine Learning | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
-| 25 | `STI-402` | Data Warehouse & BI | 3 | 25% | 45% | 30% | **70%** | ✅ Patuh IKU 7 |
-| 26 | `STI-407` | Web Back End Development | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
-| 27 | `STI-404` | Komputasi Awan (Cloud) | 3 | 20% | 45% | 35% | **65%** | ✅ Patuh IKU 7 |
-| 28 | `STI-405` | Dasar Keamanan Informasi | 2 | 25% | 30% | 45% | **55%** | ✅ Patuh IKU 7 |
+| 17 | `STI-306` | Analisis & Perancangan SI | 3 | 30% | 40% | 30% | **70%** | ✅ Patuh IKU 7 |
+| 18 | `STI-307` | Sistem Cerdas | 2 | 25% | 35% | 40% | **60%** | ✅ Patuh IKU 7 |
+| 19 | `STI-308` | UI/UX Design & Prototyping | 3 | 20% | 55% | 25% | **75%** | ✅ Patuh IKU 7 |
+| 20 | `STI-309` | Rekayasa Perangkat Lunak | 3 | 20% | 55% | 25% | **75%** | ✅ Patuh IKU 7 |
+| 21 | `STI-310` | Sistem Operasi | 3 | 20% | 35% | 45% | **55%** | ✅ Patuh IKU 7 |
+| 22 | `STI-311` | Web Front End Development | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
+| 23 | `STI-312` | Jaringan Komputer | 3 | 20% | 35% | 45% | **55%** | ✅ Patuh IKU 7 |
+| 24 | `STI-413` | Machine Learning | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
+| 25 | `STI-415` | Data Warehouse & BI | 3 | 25% | 45% | 30% | **70%** | ✅ Patuh IKU 7 |
+| 26 | `STI-416` | Web Back End Development | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
+| 27 | `STI-417` | Komputasi Awan (Cloud) | 3 | 20% | 45% | 35% | **65%** | ✅ Patuh IKU 7 |
+| 28 | `STI-418` | Dasar Keamanan Informasi | 2 | 25% | 30% | 45% | **55%** | ✅ Patuh IKU 7 |
 | 29 | `FST-408` | Probabilitas & Statistika | 3 | 20% | 10% | 70% | 30% | *MK Teori Dasar Sains* |
-| 30 | `STI-403` | Pengantar NLP & IR | 2 | 20% | 45% | 35% | **65%** | ✅ Patuh IKU 7 |
+| 30 | `STI-414` | Pengantar NLP & IR | 2 | 20% | 45% | 35% | **65%** | ✅ Patuh IKU 7 |
 | 31 | `MKU-405` | Kewarganegaraan | 2 | 30% | 30% | 40% | **60%** | ✅ Patuh IKU 7 |
-| 32 | `STI-501` | Deep Learning & Neural Net | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
-| 33 | `STI-503` | Data Mining & Visualisasi | 3 | 20% | 45% | 35% | **65%** | ✅ Patuh IKU 7 |
-| 34 | `STI-504` | Internet of Things (IoT) | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
-| 35 | `STI-505` | Pemrograman Mobile | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
-| 36 | `STI-506` | Manajemen Proyek TI | 3 | 30% | 45% | 25% | **75%** | ✅ Patuh IKU 7 |
+| 32 | `STI-519` | Deep Learning & Neural Net | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
+| 33 | `STI-520` | Data Mining & Visualisasi | 3 | 20% | 45% | 35% | **65%** | ✅ Patuh IKU 7 |
+| 34 | `STI-521` | Internet of Things (IoT) | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
+| 35 | `STI-522` | Pemrograman Mobile | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
+| 36 | `STI-523` | Manajemen Proyek TI | 3 | 30% | 45% | 25% | **75%** | ✅ Patuh IKU 7 |
 | 37 | `MKU-507` | KPM (Kuliah Pengabdian Kepada Masyarakat) | 3 | 20% | 70% | 10% | **90%** | ✅ Patuh IKU 7 |
 | 38 | `STA/B/C` | MK Pilihan Peminatan 1 | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
 | 38.B | `MKU-508` | Kewirausahaan II | 0 | 30% | 40% | 30% | **70%** | *MKWU 0 SKS (Sem 5)* |
-| 39 | `STI-601` | Integrasi Layanan Cerdas AI| 3 | 20% | 55% | 25% | **75%** | ✅ Patuh IKU 7 |
-| 40 | `STI-602` | Smart City & Pem. Digital | 2 | 35% | 35% | 30% | **70%** | ✅ Patuh IKU 7 |
-| 41 | `STI-603` | Keamanan Informasi Lanjut | 3 | 30% | 40% | 30% | **70%** | ✅ Patuh IKU 7 |
-| 42 | `STI-604` | Digital Platform Engineering| 3 | 20% | 55% | 25% | **75%** | ✅ Patuh IKU 7 |
+| 39 | `STI-624` | Integrasi Layanan Cerdas AI| 3 | 20% | 55% | 25% | **75%** | ✅ Patuh IKU 7 |
+| 40 | `STI-625` | Smart City & Pem. Digital | 2 | 35% | 35% | 30% | **70%** | ✅ Patuh IKU 7 |
+| 41 | `STI-626` | Keamanan Informasi Lanjut | 3 | 30% | 40% | 30% | **70%** | ✅ Patuh IKU 7 |
+| 42 | `STI-627` | Digital Platform Engineering| 3 | 20% | 55% | 25% | **75%** | ✅ Patuh IKU 7 |
 | 43 | `FST-611` | Metodologi Penelitian | 2 | 30% | 40% | 30% | **70%** | ✅ Patuh IKU 7 |
 | 44 | `STA/B/C` | MK Pilihan Peminatan 2 | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
 | 45 | `STA/B/C` | MK Pilihan Peminatan 3 | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
-| 46 | `STI-701` | Inovasi & Startup Digital | 3 | 20% | 60% | 20% | **80%** | ✅ Patuh IKU 7 |
+| 46 | `STI-728` | Inovasi & Startup Digital | 3 | 20% | 60% | 20% | **80%** | ✅ Patuh IKU 7 |
 | 47 | `FST-610` | Capstone Project FSTI | 3 | 0% | 85% | 15% | **85%** | ✅ Patuh IKU 7 |
 | 48 | `FST-612` | Praktik Kerja Lapangan(PKL)| 3 | 0% | 85% | 15% | **85%** | ✅ Patuh IKU 7 |
 | 49 | `FST-613` | Pra-Skripsi / Sempro | 2 | 30% | 50% | 20% | **80%** | ✅ Patuh IKU 7 |

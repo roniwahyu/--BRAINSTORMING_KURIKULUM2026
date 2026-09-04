@@ -410,8 +410,8 @@ Mata kuliah yang memenuhi kriteria **capstone**: `FST-610` Capstone Project FSTI
 
 Untuk mencegah tumpang tindih materi antar mata kuliah — temuan yang sering muncul dalam audit akreditasi — dilakukan audit forensik pada lima domain keilmuan (Dokumen 016, 017). Dua hasil kunci:
 
-1. **Pipeline pembelajaran AI berjenjang lima tahap** tanpa tumpang tindih, dengan demarkasi tegas antara `FST-204` (literasi Gen-AI, *bird's-eye view*) dan `STI-302` (Symbolic & Fuzzy AI), serta antara `STI-401` Machine Learning (predictive modeling) dan `STI-503` Data Mining (BI & analytics).
-2. **Konsolidasi fondasi arsitektur dan logika**: `STI-103` Arsitektur dan Organisasi Sistem Teknologi Informasi (3 SKS, Sem 1) dan `STI-201` Matematika Diskrit dan Logika (3 SKS, Sem 2) yang mengintegrasikan logika proposisi dan aljabar boolean bebas redundansi.
+1. **Pipeline pembelajaran AI berjenjang lima tahap** tanpa tumpang tindih, dengan demarkasi tegas antara `FST-204` (literasi Gen-AI, *bird's-eye view*) dan `STI-307` (Symbolic & Fuzzy AI), serta antara `STI-413` Machine Learning (predictive modeling) dan `STI-520` Data Mining (BI & analytics).
+2. **Konsolidasi fondasi arsitektur dan logika**: `STI-103` Arsitektur dan Organisasi Sistem Teknologi Informasi (3 SKS, Sem 1) dan `STI-204` Matematika Diskrit dan Logika (3 SKS, Sem 2) yang mengintegrasikan logika proposisi dan aljabar boolean bebas redundansi.
 
 > **⚠️ Perlu resolusi.** Dokumen 019 temuan P0-1 mencatat **tabrakan kode mata kuliah aktif** pada `FST-204` dan `FST-205`. Kode mata kuliah harus unik sebelum bab ini dan Bab VII difinalkan.
 
@@ -481,9 +481,9 @@ Penataan kunci yang menjadi konsensus final:
 | Semester | SKS | Penanda Struktural |
 |:---:|:---:|---|
 | 1 | 19 | Fondasi: `STI-103` Arsitektur & Organisasi Sistem TI |
-| 2 | 20 | `STI-201` Matematika Diskrit & Logika; Etika & Hukum Digital; Kewirausahaan I |
-| 3 | — | Fondasi sistem: `STI-305` Sistem Operasi, `STI-307` Jaringan Komputer |
-| 4 | 21 | Cloud; `STI-405` Dasar Keamanan Informasi (2 SKS); Kewarganegaraan |
+| 2 | 20 | `STI-204` Matematika Diskrit & Logika; Etika & Hukum Digital; Kewirausahaan I |
+| 3 | — | Fondasi sistem: `STI-310` Sistem Operasi, `STI-312` Jaringan Komputer |
+| 4 | 21 | Cloud; `STI-418` Dasar Keamanan Informasi (2 SKS); Kewarganegaraan |
 | 5 | — | KPM (3 SKS); Kewirausahaan II; Peminatan MK-1 |
 | 6 | 19 | Platform Engineering; Smart City & Pemerintahan Digital (2 SKS); Peminatan MK-2 & 3 |
 | 7 | — | `FST-610` Capstone FSTI (3); `FST-612` PKL (3); `FST-613` Pra-Skripsi (2); Peminatan MK-4, 5, 6 |
@@ -573,7 +573,7 @@ Analisis pembelajaran dilakukan untuk mengidentifikasi kemampuan akhir tiap taha
 
 Setiap mata kuliah wajib memiliki **diagram analisis pembelajaran** dengan **garis *entry behavior*** yang memisahkan kemampuan prasyarat (sudah dimiliki) dari kemampuan yang akan dibangun. Contoh acuan: Lampiran A KPT 2024 (mata kuliah Metode Penelitian).
 
-**Rencana pemenuhan:** diagram dibuat bertahap, dimulai dari mata kuliah penciri utama (`STI-601` Integrasi AI, `STI-401` Machine Learning, `STI-303` UI/UX, `STI-603` Keamanan Lanjut, `FST-610` Capstone), kemudian diperluas ke seluruh mata kuliah.
+**Rencana pemenuhan:** diagram dibuat bertahap, dimulai dari mata kuliah penciri utama (`STI-624` Integrasi AI, `STI-413` Machine Learning, `STI-308` UI/UX, `STI-626` Keamanan Lanjut, `FST-610` Capstone), kemudian diperluas ke seluruh mata kuliah.
 
 ## IX.5 Format Rencana Pembelajaran Semester (RPS)
 
@@ -734,8 +734,8 @@ Prinsip konversi untuk seluruh bentuk: kegiatan dikonversikan ke mata kuliah yan
 
 | Jalur | Semester | Paket MK Dikonversi | Total |
 |---|:---:|---|:---:|
-| Magang Industri Bersertifikat (MSIB) | 6 | Peminatan MK-2 & MK-3 (6), `STI-601` Integrasi AI (3), `STI-604` Platform Eng (3), `STI-602` Smart City (3), `STI-603` Keamanan Lanjut (3), `FST-611` Metopel (2) | 20 SKS |
-| Magang / Studi Independen / Wirausaha Merdeka | 7 | Peminatan MK-4, 5, 6 (9), `STI-701` Startup Digital (3), `FST-610` Capstone (3), `FST-612` PKL (3), `FST-613` Pra-Skripsi (2) | 20 SKS |
+| Magang Industri Bersertifikat (MSIB) | 6 | Peminatan MK-2 & MK-3 (6), `STI-624` Integrasi AI (3), `STI-627` Platform Eng (3), `STI-625` Smart City (3), `STI-626` Keamanan Lanjut (3), `FST-611` Metopel (2) | 20 SKS |
+| Magang / Studi Independen / Wirausaha Merdeka | 7 | Peminatan MK-4, 5, 6 (9), `STI-728` Startup Digital (3), `FST-610` Capstone (3), `FST-612` PKL (3), `FST-613` Pra-Skripsi (2) | 20 SKS |
 
 ## X.4 Rekognisi Kredit dalam Transkrip dan SKPI
 
@@ -842,7 +842,7 @@ Setiap program studi memiliki karakteristik proses pembelajaran tersendiri, sehi
 **[PERLU DATA UPPS + keputusan Prodi]** Uraian yang perlu ditulis:
 
 - Latar belakang pendidikan menengah yang diterima (SMA IPA/IPS, SMK rumpun TIK, MA, atau setara).
-- Kompetensi awal minimal yang diasumsikan kurikulum — khususnya matematika dasar dan logika, karena `STI-103` dan `STI-201` pada Semester 1–2 berdiri di atasnya.
+- Kompetensi awal minimal yang diasumsikan kurikulum — khususnya matematika dasar dan logika, karena `STI-103` dan `STI-204` pada Semester 1–2 berdiri di atasnya.
 - Kemampuan bahasa Inggris minimal, mengingat sebagian rujukan pustaka dan standar (IS2020, IT2017, CC2020) berbahasa Inggris.
 - Ketentuan bagi mahasiswa dengan kebutuhan khusus, sejalan dengan prinsip inklusif Pasal 14.
 

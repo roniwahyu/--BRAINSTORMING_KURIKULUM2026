@@ -399,12 +399,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 9. STI-201 — Matematika Diskrit dan Logika (Discrete Mathematics and Logic)
+### 9. STI-204 — Matematika Diskrit dan Logika (Discrete Mathematics and Logic)
 
 #### Tabel 9.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-201 — Matematika Diskrit dan Logika** (*Discrete Mathematics and Logic*) |
+| **Kode & Nama Mata Kuliah** | **STI-204 — Matematika Diskrit dan Logika** (*Discrete Mathematics and Logic*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 2** / Matematika & Sains Komputasi (Core STI) |
 | **Prasyarat Akademik** | `STI-103` Arsitektur dan Organisasi Sistem Teknologi Informasi |
@@ -442,12 +442,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 10. STI-202 — Aljabar Linear dan Matriks (Linear Algebra and Matrices)
+### 10. STI-205 — Aljabar Linear dan Matriks (Linear Algebra and Matrices)
 
 #### Tabel 10.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-202 — Aljabar Linear dan Matriks** (*Linear Algebra and Matrices*) |
+| **Kode & Nama Mata Kuliah** | **STI-205 — Aljabar Linear dan Matriks** (*Linear Algebra and Matrices*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 2** / Matematika & Sains Komputasi (Core STI) |
 | **Prasyarat Akademik** | `STI-102` Kalkulus |
@@ -740,12 +740,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 17. STI-301 — Analisis & Perancangan Sistem Informasi (Systems Analysis and Design)
+### 17. STI-306 — Analisis & Perancangan Sistem Informasi (Systems Analysis and Design)
 
 #### Tabel 17.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-301 — Analisis & Perancangan Sistem Informasi** (*Systems Analysis and Design*) |
+| **Kode & Nama Mata Kuliah** | **STI-306 — Analisis & Perancangan Sistem Informasi** (*Systems Analysis and Design*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 3** / Sistem Informasi & Tata Kelola (Core STI) |
 | **Prasyarat Akademik** | `STI-101` Pengantar Sistem & TI |
@@ -783,15 +783,15 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 18. STI-302 — Sistem Cerdas (Intelligent Systems)
+### 18. STI-307 — Sistem Cerdas (Intelligent Systems)
 
 #### Tabel 18.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-302 — Sistem Cerdas** (*Intelligent Systems*) |
+| **Kode & Nama Mata Kuliah** | **STI-307 — Sistem Cerdas** (*Intelligent Systems*) |
 | **Bobot SKS / Tipe** | **2 SKS** / Tipe: **Teori** (100m Kuliah + 120m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 3** / Sistem Cerdas & Sains Data (Core STI) |
-| **Prasyarat Akademik** | `STI-201` Matematika Diskrit dan Logika, `FST-204` Pengantar AI & Data |
+| **Prasyarat Akademik** | `STI-204` Matematika Diskrit dan Logika, `FST-204` Pengantar AI & Data |
 | **CPL yang Dibebankan** | `P2` (Representasi Pengetahuan & Penalaran AI), `KK1` (Sistem Cerdas Bisnis) |
 | **Profil Lulusan (PL)** | `PL-1` (Intelligent IS Dev) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |
@@ -825,12 +825,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 19. STI-303 — UI/UX Design & Prototyping (UI/UX Design & Prototyping)
+### 19. STI-308 — UI/UX Design & Prototyping (UI/UX Design & Prototyping)
 
 #### Tabel 19.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-303 — UI/UX Design & Prototyping** (*UI/UX Design & Prototyping*) |
+| **Kode & Nama Mata Kuliah** | **STI-308 — UI/UX Design & Prototyping** (*UI/UX Design & Prototyping*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 3** / Interaksi Manusia Komputer & Platform (Core STI) |
 | **Prasyarat Akademik** | Tidak Ada |
@@ -868,12 +868,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 20. STI-304 — Rekayasa Perangkat Lunak (Software Engineering)
+### 20. STI-309 — Rekayasa Perangkat Lunak (Software Engineering)
 
 #### Tabel 20.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-304 — Rekayasa Perangkat Lunak** (*Software Engineering*) |
+| **Kode & Nama Mata Kuliah** | **STI-309 — Rekayasa Perangkat Lunak** (*Software Engineering*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 3** / Rekayasa Perangkat Lunak & Platform (Core STI) |
 | **Prasyarat Akademik** | `FST-205` Pemrograman Lanjut |
@@ -911,12 +911,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 21. STI-305 — Sistem Operasi (Operating Systems)
+### 21. STI-310 — Sistem Operasi (Operating Systems)
 
 #### Tabel 21.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-305 — Sistem Operasi** (*Operating Systems*) |
+| **Kode & Nama Mata Kuliah** | **STI-310 — Sistem Operasi** (*Operating Systems*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 3** / Sistem Komputer & Infrastruktur (Core STI) |
 | **Prasyarat Akademik** | `FST-204` Organisasi & Arsitektur Komputer |
@@ -953,12 +953,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 22. STI-306 — Web Front End Development (Web Front End Development)
+### 22. STI-311 — Web Front End Development (Web Front End Development)
 
 #### Tabel 22.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-306 — Web Front End Development** (*Web Front End Development*) |
+| **Kode & Nama Mata Kuliah** | **STI-311 — Web Front End Development** (*Web Front End Development*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 3** / Rekayasa Perangkat Lunak & Platform (Core STI) |
 | **Prasyarat Akademik** | `FST-102` Algoritma dan Pemrograman |
@@ -996,12 +996,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 23. STI-307 — Jaringan Komputer (Computer Networks)
+### 23. STI-312 — Jaringan Komputer (Computer Networks)
 
 #### Tabel 23.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-307 — Jaringan Komputer** (*Computer Networks*) |
+| **Kode & Nama Mata Kuliah** | **STI-312 — Jaringan Komputer** (*Computer Networks*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 3** / Sistem Komputer & Infrastruktur (Core STI) |
 | **Prasyarat Akademik** | `FST-101` Dasar Teknologi Digital |
@@ -1039,12 +1039,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 24. STI-401 — Machine Learning (Machine Learning)
+### 24. STI-413 — Machine Learning (Machine Learning)
 
 #### Tabel 24.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-401 — Machine Learning** (*Machine Learning*) |
+| **Kode & Nama Mata Kuliah** | **STI-413 — Machine Learning** (*Machine Learning*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 4** / Sistem Cerdas & Sains Data (Core STI) |
 | **Prasyarat Akademik** | `FST-207` Sistem Basis Data & `FST-408` Probabilitas |
@@ -1082,12 +1082,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 25. STI-402 — Data Warehouse & Business Intelligence (Data Warehouse & Business Intelligence)
+### 25. STI-415 — Data Warehouse & Business Intelligence (Data Warehouse & Business Intelligence)
 
 #### Tabel 25.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-402 — Data Warehouse & Business Intelligence** (*Data Warehouse & Business Intelligence*) |
+| **Kode & Nama Mata Kuliah** | **STI-415 — Data Warehouse & Business Intelligence** (*Data Warehouse & Business Intelligence*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 4** / Manajemen Data & Informasi (Core STI) |
 | **Prasyarat Akademik** | `FST-207` Sistem Basis Data |
@@ -1125,15 +1125,15 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 26. STI-407 — Web Back End Development (Web Back End Development)
+### 26. STI-416 — Web Back End Development (Web Back End Development)
 
 #### Tabel 26.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-407 — Web Back End Development** (*Web Back End Development*) |
+| **Kode & Nama Mata Kuliah** | **STI-416 — Web Back End Development** (*Web Back End Development*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 4** / Rekayasa Perangkat Lunak & Platform (Core STI) |
-| **Prasyarat Akademik** | `STI-306` Web Front End Development |
+| **Prasyarat Akademik** | `STI-311` Web Front End Development |
 | **CPL yang Dibebankan** | `P4` (Arsitektur RESTful API & Keamanan Server), `KK5` (Backend Engineering & ORM) |
 | **Profil Lulusan (PL)** | `PL-3` (UI/UX & Platform Engineer) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-2` (Technopreneurship) |
@@ -1168,15 +1168,15 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 27. STI-404 — Komputasi Awan (Cloud Computing) (Cloud Computing)
+### 27. STI-417 — Komputasi Awan (Cloud Computing) (Cloud Computing)
 
 #### Tabel 27.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-404 — Komputasi Awan (Cloud Computing)** (*Cloud Computing*) |
+| **Kode & Nama Mata Kuliah** | **STI-417 — Komputasi Awan (Cloud Computing)** (*Cloud Computing*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 4** / Sistem Komputer & Infrastruktur (Core STI) |
-| **Prasyarat Akademik** | `STI-305` Sistem Operasi & `STI-307` Jaringan Komputer |
+| **Prasyarat Akademik** | `STI-310` Sistem Operasi & `STI-312` Jaringan Komputer |
 | **CPL yang Dibebankan** | `P3` (Arsitektur Cloud & Virtualisasi), `KK3` (Orkestrasi Kontainer & Skalabilitas) |
 | **Profil Lulusan (PL)** | `PL-2` (Cloud & Cyber Specialist) |
 | **Target PEO** | `PEO-1` (Professional Practice) |
@@ -1211,15 +1211,15 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 28. STI-405 — Dasar Keamanan Informasi (Fundamentals of Information Security)
+### 28. STI-418 — Dasar Keamanan Informasi (Fundamentals of Information Security)
 
 #### Tabel 28.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-405 — Dasar Keamanan Informasi** (*Fundamentals of Information Security*) |
+| **Kode & Nama Mata Kuliah** | **STI-418 — Dasar Keamanan Informasi** (*Fundamentals of Information Security*) |
 | **Bobot SKS / Tipe** | **2 SKS** / Tipe: **Teori** (100m Kuliah + 120m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 4** / Sistem Komputer & Infrastruktur (Core STI) |
-| **Prasyarat Akademik** | `STI-307` Jaringan Komputer |
+| **Prasyarat Akademik** | `STI-312` Jaringan Komputer |
 | **CPL yang Dibebankan** | `P3` (Prinsip Keamanan CIA & Kriptografi), `KK3` (Mitigasi Kerentanan Sistem) |
 | **Profil Lulusan (PL)** | `PL-2` (Cloud Infrastructure & Cybersecurity) |
 | **Target PEO** | `PEO-1` (Professional Practice) |
@@ -1296,15 +1296,15 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 30. STI-403 — Pengantar NLP & Information Retrieval (Introduction to NLP & Information Retrieval)
+### 30. STI-414 — Pengantar NLP & Information Retrieval (Introduction to NLP & Information Retrieval)
 
 #### Tabel 30.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-403 — Pengantar NLP & Information Retrieval** (*Introduction to NLP & Information Retrieval*) |
+| **Kode & Nama Mata Kuliah** | **STI-414 — Pengantar NLP & Information Retrieval** (*Introduction to NLP & Information Retrieval*) |
 | **Bobot SKS / Tipe** | **2 SKS** / Tipe: **+P (Praktikum)** (50m Kuliah + 100m Lab Praktikum + 60m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 4** / Rumpun AI, Data Science & Intelligent Systems (Core STI) |
-| **Prasyarat Akademik** | `STI-302` Sistem Cerdas (Kecerdasan Buatan) |
+| **Prasyarat Akademik** | `STI-307` Sistem Cerdas (Kecerdasan Buatan) |
 | **CPL yang Dibebankan** | `KK1` (Perancangan Sistem Cerdas berbasis AI/NLP), `P2` (Konsep & Rekayasa SI Cerdas) |
 | **Profil Lulusan (PL)** | `PL-1` (Intelligent IS Developer & AI Engineer), `PL-4` (Digital Technopreneur) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Advanced Study & Lifelong Learning) |
@@ -1380,15 +1380,15 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 32. STI-501 — Deep Learning & Neural Networks (Deep Learning & Neural Networks)
+### 32. STI-519 — Deep Learning & Neural Networks (Deep Learning & Neural Networks)
 
 #### Tabel 32.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-501 — Deep Learning & Neural Networks** (*Deep Learning & Neural Networks*) |
+| **Kode & Nama Mata Kuliah** | **STI-519 — Deep Learning & Neural Networks** (*Deep Learning & Neural Networks*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 5** / Sistem Cerdas & Sains Data (Core STI) |
-| **Prasyarat Akademik** | `STI-401` Machine Learning |
+| **Prasyarat Akademik** | `STI-413` Machine Learning |
 | **CPL yang Dibebankan** | `KK1` (Pemodelan Deep Learning Vision & NLP), `KK2` (Rekayasa Dataset Citra & Teks) |
 | **Profil Lulusan (PL)** | `PL-1` (Intelligent IS Dev / Deep Learning Engineer) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |
@@ -1423,15 +1423,15 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 33. STI-503 — Data Mining & Visualisasi Data (Data Mining & Data Visualization)
+### 33. STI-520 — Data Mining & Visualisasi Data (Data Mining & Data Visualization)
 
 #### Tabel 33.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-503 — Data Mining & Visualisasi Data** (*Data Mining & Data Visualization*) |
+| **Kode & Nama Mata Kuliah** | **STI-520 — Data Mining & Visualisasi Data** (*Data Mining & Data Visualization*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 5** / Sistem Cerdas & Sains Data (Core STI) |
-| **Prasyarat Akademik** | `STI-402` Data Warehouse & BI |
+| **Prasyarat Akademik** | `STI-415` Data Warehouse & BI |
 | **CPL yang Dibebankan** | `P2` (Analitik Pola Bisnis), `KK2` (Algoritma Asosiasi, Klastering & Data Storytelling) |
 | **Profil Lulusan (PL)** | `PL-1` (Intelligent IS Dev / Data Analyst) |
 | **Target PEO** | `PEO-1` (Professional Practice) |
@@ -1466,15 +1466,15 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 34. STI-504 — Internet of Things (IoT) (Internet of Things)
+### 34. STI-521 — Internet of Things (IoT) (Internet of Things)
 
 #### Tabel 34.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-504 — Internet of Things (IoT)** (*Internet of Things*) |
+| **Kode & Nama Mata Kuliah** | **STI-521 — Internet of Things (IoT)** (*Internet of Things*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 5** / Sistem Komputer & Infrastruktur (Core STI) |
-| **Prasyarat Akademik** | `STI-305` Sistem Operasi & `STI-307` Jaringan Komputer |
+| **Prasyarat Akademik** | `STI-310` Sistem Operasi & `STI-312` Jaringan Komputer |
 | **CPL yang Dibebankan** | `P3` (Protokol Komunikasi IoT & Telemetri), `KK3` (Perangkat Keras ESP32, MQTT & Cloud IoT) |
 | **Profil Lulusan (PL)** | `PL-2` (Smart Systems Integrator) |
 | **Target PEO** | `PEO-1` (Professional Practice) |
@@ -1509,15 +1509,15 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 35. STI-505 — Pemrograman Aplikasi Mobile (Mobile Application Development)
+### 35. STI-522 — Pemrograman Aplikasi Mobile (Mobile Application Development)
 
 #### Tabel 35.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-505 — Pemrograman Aplikasi Mobile** (*Mobile Application Development*) |
+| **Kode & Nama Mata Kuliah** | **STI-522 — Pemrograman Aplikasi Mobile** (*Mobile Application Development*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 5** / Rekayasa Perangkat Lunak & Platform (Core STI) |
-| **Prasyarat Akademik** | `FST-203` Struktur Data & Algoritma, `STI-306` Web Front End Development |
+| **Prasyarat Akademik** | `FST-203` Struktur Data & Algoritma, `STI-311` Web Front End Development |
 | **CPL yang Dibebankan** | `P4` (Arsitektur Mobile Multi-Platform), `KK5` (State Management BLoC & API Integrasi) |
 | **Profil Lulusan (PL)** | `PL-3` (UI/UX Designer & Platform Engineer) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-2` (Technopreneurship) |
@@ -1552,15 +1552,15 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 36. STI-506 — Manajemen Proyek TI (IT Project Management)
+### 36. STI-523 — Manajemen Proyek TI (IT Project Management)
 
 #### Tabel 36.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-506 — Manajemen Proyek TI** (*IT Project Management*) |
+| **Kode & Nama Mata Kuliah** | **STI-523 — Manajemen Proyek TI** (*IT Project Management*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 5** / Sistem Informasi & Tata Kelola (Core STI) |
-| **Prasyarat Akademik** | `STI-301` Analisis & Perancangan SI |
+| **Prasyarat Akademik** | `STI-306` Analisis & Perancangan SI |
 | **CPL yang Dibebankan** | `KK6` (Perencanaan Ruang Lingkup, Penjadwalan & Pengendalian Biaya Proyek TI) |
 | **Profil Lulusan (PL)** | `PL-4` (IT Project Manager & Technopreneur) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-2` (Technopreneurship) |
@@ -1637,15 +1637,15 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 38. STI-601 — Integrasi Layanan Cerdas Berbasis AI (AI-Based Smart Services Integration)
+### 38. STI-624 — Integrasi Layanan Cerdas Berbasis AI (AI-Based Smart Services Integration)
 
 #### Tabel 38.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-601 — Integrasi Layanan Cerdas Berbasis AI** (*AI-Based Smart Services Integration*) |
+| **Kode & Nama Mata Kuliah** | **STI-624 — Integrasi Layanan Cerdas Berbasis AI** (*AI-Based Smart Services Integration*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Sistem Cerdas & Sains Data (Core STI) |
-| **Prasyarat Akademik** | `STI-501` Deep Learning & Neural Networks |
+| **Prasyarat Akademik** | `STI-519` Deep Learning & Neural Networks |
 | **CPL yang Dibebankan** | `P2` (Arsitektur AI-as-a-Service), `KK1` (Model Serving, RAG, & Vektor Database) |
 | **Profil Lulusan (PL)** | `PL-1` (Intelligent Information Systems Developer) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |
@@ -1680,12 +1680,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 39. STI-602 — Smart City & Pemerintahan Digital (Smart City & Digital Governance)
+### 39. STI-625 — Smart City & Pemerintahan Digital (Smart City & Digital Governance)
 
 #### Tabel 39.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-602 — Smart City & Pemerintahan Digital** (*Smart City & Digital Governance*) |
+| **Kode & Nama Mata Kuliah** | **STI-625 — Smart City & Pemerintahan Digital** (*Smart City & Digital Governance*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Sistem Informasi & Tata Kelola (Core STI) |
 | **Prasyarat Akademik** | `STI-101` Pengantar Sistem & TI |
@@ -1723,15 +1723,15 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 40. STI-603 — Keamanan Informasi Lanjut (Advanced Information Security)
+### 40. STI-626 — Keamanan Informasi Lanjut (Advanced Information Security)
 
 #### Tabel 40.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-603 — Keamanan Informasi Lanjut** (*Advanced Information Security*) |
+| **Kode & Nama Mata Kuliah** | **STI-626 — Keamanan Informasi Lanjut** (*Advanced Information Security*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Sistem Komputer & Infrastruktur (Core STI) |
-| **Prasyarat Akademik** | `STI-405` Dasar Keamanan Informasi |
+| **Prasyarat Akademik** | `STI-418` Dasar Keamanan Informasi |
 | **CPL yang Dibebankan** | `P3` (Audit Keamanan ISO 27001), `KK3` (Manajemen Risiko Siber), `KK4` (Uji Penetrasi Sistem) |
 | **Profil Lulusan (PL)** | `PL-2` (Cybersecurity Specialist & Penetration Tester) |
 | **Target PEO** | `PEO-1` (Professional Practice) |
@@ -1765,15 +1765,15 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 41. STI-604 — Digital Platform Engineering (Digital Platform Engineering)
+### 41. STI-627 — Digital Platform Engineering (Digital Platform Engineering)
 
 #### Tabel 41.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-604 — Digital Platform Engineering** (*Digital Platform Engineering*) |
+| **Kode & Nama Mata Kuliah** | **STI-627 — Digital Platform Engineering** (*Digital Platform Engineering*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Rekayasa Perangkat Lunak & Platform (Core STI) |
-| **Prasyarat Akademik** | `STI-407` Web Back End Development |
+| **Prasyarat Akademik** | `STI-416` Web Back End Development |
 | **CPL yang Dibebankan** | `P4` (Arsitektur Microservices & Event Streaming), `KK5` (Platform Engineering & CI/CD Pipeline) |
 | **Profil Lulusan (PL)** | `PL-3` (UI/UX Designer & Digital Platform Engineer) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-2` (Technopreneurship) |
@@ -1850,12 +1850,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 43. STI-701 — Inovasi Teknologi dan Startup Digital (Tech Innovation and Digital Startup)
+### 43. STI-728 — Inovasi Teknologi dan Startup Digital (Tech Innovation and Digital Startup)
 
 #### Tabel 43.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-701 — Inovasi Teknologi dan Startup Digital** (*Tech Innovation and Digital Startup*) |
+| **Kode & Nama Mata Kuliah** | **STI-728 — Inovasi Teknologi dan Startup Digital** (*Tech Innovation and Digital Startup*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Technopreneurship & Inovasi Bisnis (Core STI) |
 | **Prasyarat Akademik** | `MKU-204` Kewirausahaan I |
@@ -2071,7 +2071,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STA-01 — Decision Support Systems** (*Decision Support Systems*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 5** / Peminatan 1: Integrated Smart Systems |
-| **Prasyarat Akademik** | `STI-302` Sistem Cerdas |
+| **Prasyarat Akademik** | `STI-307` Sistem Cerdas |
 | **CPL yang Dibebankan** | `P2` (Teori Pengambilan Keputusan), `KK1` (Sistem Cerdas Bisnis), `KK2` (Analitik Multi-Kriteria) |
 | **Profil Lulusan (PL)** | `PL-1` (Intelligent IS Developer) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |
@@ -2113,7 +2113,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STA-02 — Computational Methods and Numerics** (*Computational Methods and Numerics*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Peminatan 1: Integrated Smart Systems |
-| **Prasyarat Akademik** | `STI-102` Kalkulus & `STI-202` Aljabar Linear |
+| **Prasyarat Akademik** | `STI-102` Kalkulus & `STI-205` Aljabar Linear |
 | **CPL yang Dibebankan** | `P1` (Analisis Galat & Metode Numerik), `KK1` (Algoritma Optimasi Komputasi AI) |
 | **Profil Lulusan (PL)** | `PL-1` (Intelligent IS Dev / ML Engineer) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |
@@ -2156,7 +2156,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STA-03 — Intelligent Agent Systems** (*Intelligent Agent Systems*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Peminatan 1: Integrated Smart Systems |
-| **Prasyarat Akademik** | `STI-302` Sistem Cerdas |
+| **Prasyarat Akademik** | `STI-307` Sistem Cerdas |
 | **CPL yang Dibebankan** | `P2` (Arsitektur BDI & Multi-Agent), `KK1` (Reinforcement Learning & Agen Otonom) |
 | **Profil Lulusan (PL)** | `PL-1` (Intelligent Information Systems Developer) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |
@@ -2199,7 +2199,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STA-04 — MLOps and AI Pipeline** (*MLOps and AI Pipeline*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 1: Integrated Smart Systems |
-| **Prasyarat Akademik** | `STI-401` Machine Learning & `STI-601` Integrasi AI |
+| **Prasyarat Akademik** | `STI-413` Machine Learning & `STI-624` Integrasi AI |
 | **CPL yang Dibebankan** | `P4` (Pipeline Otomasi ML), `KK1` (Continuous Training & Model Registry), `KK2` (Pelacakan Data) |
 | **Profil Lulusan (PL)** | `PL-1` (MLOps Engineer / Data Architect) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |
@@ -2241,7 +2241,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STA-05 — Conversational AI and Intelligent Assistant** (*Conversational AI & Intelligent Assistant*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 1: Integrated Smart Systems |
-| **Prasyarat Akademik** | `STI-501` Deep Learning & Neural Networks |
+| **Prasyarat Akademik** | `STI-519` Deep Learning & Neural Networks |
 | **CPL yang Dibebankan** | `P2` (Arsitektur Bahasa Alami Modern), `KK1` (Prompt Engineering, RAG & LLM Agents) |
 | **Profil Lulusan (PL)** | `PL-1` (AI Engineer / Conversational Designer) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-2` (Technopreneurship) |
@@ -2284,7 +2284,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STA-06 — Smart Surveillance and IoT Analytics** (*Smart Surveillance and IoT Analytics*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 1: Integrated Smart Systems |
-| **Prasyarat Akademik** | `STI-501` Deep Learning & `STI-504` IoT |
+| **Prasyarat Akademik** | `STI-519` Deep Learning & `STI-521` IoT |
 | **CPL yang Dibebankan** | `P3` (Edge AI & Video Analytics), `KK1` (Computer Vision Real-Time), `KK3` (Integrasi Sensor & CCTV) |
 | **Profil Lulusan (PL)** | `PL-1`, `PL-2` (Smart Systems Integrator) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |
@@ -2327,7 +2327,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STB-01 — Network Security and Digital Forensics** (*Network Security and Digital Forensics*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 5** / Peminatan 2: Cloud Infrastructure & Cybersecurity |
-| **Prasyarat Akademik** | `STI-307` Jaringan Komputer & `STI-405` Keamanan |
+| **Prasyarat Akademik** | `STI-312` Jaringan Komputer & `STI-418` Keamanan |
 | **CPL yang Dibebankan** | `P3` (Pertahanan Jaringan & IDS/IPS), `KK3` (Hardening Sistem), `KK4` (Forensik Digital & Bukti Siber) |
 | **Profil Lulusan (PL)** | `PL-2` (Cybersecurity Specialist & SOC Analyst) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |
@@ -2369,7 +2369,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STB-02 — Cloud Architecture & DevOps** (*Cloud Architecture & DevOps*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Peminatan 2: Cloud Infrastructure & Cybersecurity |
-| **Prasyarat Akademik** | `STI-404` Komputasi Awan (Cloud Computing) |
+| **Prasyarat Akademik** | `STI-417` Komputasi Awan (Cloud Computing) |
 | **CPL yang Dibebankan** | `P3` (Infrastruktur Cloud Native), `P4` (Automasi CI/CD & IaC), `KK3` (Orkestrasi Kubernetes & GitOps) |
 | **Profil Lulusan (PL)** | `PL-2` (Cloud Solutions Architect / DevOps Engineer) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |
@@ -2411,7 +2411,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STB-03 — Cybersecurity Risk Management** (*Cybersecurity Risk Management*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Peminatan 2: Cloud Infrastructure & Cybersecurity |
-| **Prasyarat Akademik** | `STI-405` Dasar Keamanan Informasi |
+| **Prasyarat Akademik** | `STI-418` Dasar Keamanan Informasi |
 | **CPL yang Dibebankan** | `P3` (Kerangka Kerja Risiko NIST & ISO 27005), `KK4` (Penilaian Risiko Kuantitatif & BCP/DRP) |
 | **Profil Lulusan (PL)** | `PL-2` (Cybersecurity Specialist / Information Security Officer) |
 | **Target PEO** | `PEO-1` (Professional Practice) |
@@ -2537,7 +2537,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STB-06 — Enterprise Architecture (TOGAF)** (*Enterprise Architecture (TOGAF)*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 2: Cloud Infrastructure & Cybersecurity |
-| **Prasyarat Akademik** | `STI-301` Analisis & Perancangan SI |
+| **Prasyarat Akademik** | `STI-306` Analisis & Perancangan SI |
 | **CPL yang Dibebankan** | `P2` (Arsitektur Bisnis & Data), `P3` (Arsitektur Teknologi), `KK4` (Pemodelan ArchiMate & TOGAF ADM) |
 | **Profil Lulusan (PL)** | `PL-2`, `PL-4` (Enterprise Architect & Solution Architect) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-2` (Technopreneurship) |
@@ -2579,7 +2579,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STC-01 — User Experience Research & Design** (*User Experience Research & Design*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 5** / Peminatan 3: Digital Platform Engineering |
-| **Prasyarat Akademik** | `STI-303` UI/UX Design & Prototyping |
+| **Prasyarat Akademik** | `STI-308` UI/UX Design & Prototyping |
 | **CPL yang Dibebankan** | `P4` (Arsitektur Informasi & Aksesibilitas), `KK5` (Riset UX Kuantitatif/Kualitatif & A/B Testing) |
 | **Profil Lulusan (PL)** | `PL-3` (UI/UX Researcher & Product Designer) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-2` (Technopreneurship) |
@@ -2621,7 +2621,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STC-02 — Rekayasa & Otomasi Proses Bisnis (BPA)** (*Business Process Automation*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Peminatan 3: Digital Platform Engineering |
-| **Prasyarat Akademik** | `STI-301` Analisis & Perancangan SI |
+| **Prasyarat Akademik** | `STI-306` Analisis & Perancangan SI |
 | **CPL yang Dibebankan** | `P2` (Pemodelan Proses Bisnis Lanjut), `P4` (Otomasi REST & Orkestrasi), `KK5` (Camunda Workflow Engine & Bot RPA) |
 | **Profil Lulusan (PL)** | `PL-3` (Digital Platform Engineer / BPA Specialist) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-2` (Technopreneurship) |
@@ -2663,7 +2663,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STC-03 — Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech)** (*Vertical Industry Application Engineering*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Peminatan 3: Digital Platform Engineering |
-| **Prasyarat Akademik** | `STI-407` Web Back End Development |
+| **Prasyarat Akademik** | `STI-416` Web Back End Development |
 | **CPL yang Dibebankan** | `P4` (Arsitektur Spesifik Domain), `KK5` (Payment Gateway, Buku Besar Digital, Standar SCORM/xAPI) |
 | **Profil Lulusan (PL)** | `PL-3` (Digital Platform Engineer / Vertical Domain Architect) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-2` (Technopreneurship) |
@@ -2705,7 +2705,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STC-04 — Immersive Media & XR Development** (*Immersive Media & XR Development*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 3: Digital Platform Engineering |
-| **Prasyarat Akademik** | `STI-306` Web Front End Development |
+| **Prasyarat Akademik** | `STI-311` Web Front End Development |
 | **CPL yang Dibebankan** | `P4` (Grafika Komputer & WebXR), `KK5` (Augmented Reality & Virtual Reality) |
 | **Profil Lulusan (PL)** | `PL-3` (XR Developer & Spatial Computing Engineer) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |
@@ -2747,7 +2747,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STC-05 — SaaS Architecture & Multi-Tenancy** (*SaaS Architecture & Multi-Tenancy*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 3: Digital Platform Engineering |
-| **Prasyarat Akademik** | `STI-407` Web Back End Development |
+| **Prasyarat Akademik** | `STI-416` Web Back End Development |
 | **CPL yang Dibebankan** | `P4` (Arsitektur Multi-Tenancy), `KK5` (Row-Level Security, Subscription Engine & Micro-Frontends) |
 | **Profil Lulusan (PL)** | `PL-3` (SaaS Solution Architect / Lead Platform Engineer) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-2` (Technopreneurship) |
@@ -2789,7 +2789,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STC-06 — Digital Product Management & Agile Practices** (*Digital Product Management & Agile*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 3: Digital Platform Engineering |
-| **Prasyarat Akademik** | `STI-506` Manajemen Proyek TI |
+| **Prasyarat Akademik** | `STI-523` Manajemen Proyek TI |
 | **CPL yang Dibebankan** | `P2` (Strategi Produk Digital & OKRs), `KK6` (Product Discovery, PRD, RICE Prioritization & Go-To-Market) |
 | **Profil Lulusan (PL)** | `PL-3`, `PL-4` (Digital Product Manager & CPO) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-2` (Technopreneurship) |

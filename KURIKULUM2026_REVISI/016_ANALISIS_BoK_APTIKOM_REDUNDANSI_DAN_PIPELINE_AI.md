@@ -13,7 +13,7 @@ Dalam upaya menyusun kurikulum OBE Program Studi Sistem dan Teknologi Informasi 
 Dokumen ini mendokumentasikan hasil analisis kritis terhadap:
 1. **Identifikasi Autentik Struktur Bersama FSTI (39 SKS / 14 MK)** berdasarkan data ground truth fakultas.
 2. **Audit Redundansi 4 Klaster Mata Kuliah** berdasarkan topik silabus baku APTIKOM IS2020 dan IT2017.
-3. **Penajaman Posisi `STI-302 Sistem Cerdas` (Symbolic & Fuzzy AI)** versus **`FST-204 Pengantar AI & Data` (Literasi GenAI & LLM)**.
+3. **Penajaman Posisi `STI-307 Sistem Cerdas` (Symbolic & Fuzzy AI)** versus **`FST-204 Pengantar AI & Data` (Literasi GenAI & LLM)**.
 4. **Blueprint Pipa Tangga Pembelajaran AI Berjenjang (*Zero-Overlap 5-Stage AI Pipeline*)** dari Semester 2 hingga Semester 6.
 
 ---
@@ -63,23 +63,23 @@ Berikut adalah hasil komparasi rinci per topik (*topic-by-topic cross examinatio
 │ No │ Mata Kuliah di SISTEKIN     │ Kode & Topik BoK APTIKOM  │ Bukti Redundansi / Tumpang Tindih                │
 ├────┼─────────────────────────────┼───────────────────────────┼──────────────────────────────────────────────────┤
 │ 1  │ • STI-103 Logika Inf (3 SKS)│ BK-IS10:                  │ • APTIKOM IS2020 & IT2017 TIDAK PERNAH memisahkan│
-│    │ • STI-201 Matdis (3 SKS)    │ Applied Mathematics       │   Logika Informatika dan Matematika Diskrit.     │
+│    │ • STI-204 Matdis (3 SKS)    │ Applied Mathematics       │   Logika Informatika dan Matematika Diskrit.     │
 │    │                             │ and Logic                 │ • Seluruh materi logika proposisi, predikat, &   │
 │    │                             │                           │   aljabar boolean adalah Bab 1-3 Matdis.         │
 │    │                             │                           │   ➔ Tumpang tindih: 40-50% materi berulang.      │
 ├────┼─────────────────────────────┼───────────────────────────┼──────────────────────────────────────────────────┤
 │ 2  │ • FST-204 Pengantar AI (3)  │ BK-IS16 / BK-IT02:        │ • FST-204 adalah literasi global & GenAI,        │
-│    │ • STI-302 Sistem Cerdas (2) │ AI & Intelligent Systems  │   sedangkan STI-302 difokuskan pada Symbolic AI  │
+│    │ • STI-307 Sistem Cerdas (2) │ AI & Intelligent Systems  │   sedangkan STI-307 difokuskan pada Symbolic AI  │
 │    │                             │                           │   dan Logika Fuzzy (FLC) untuk IoT & DSS.        │
 │    │                             │                           │   ➔ Bebas tumpang tindih jika RPS dispesifikasi. │
 ├────┼─────────────────────────────┼───────────────────────────┼──────────────────────────────────────────────────┤
-│ 3  │ • STI-401 Machine Learn (3) │ BK-IS13 (BI & Analytics)  │ • APTIKOM membagi analitik data secara tegas:    │
-│    │ • STI-402 DW & BI (3 SKS)   │            vs             │   1. BI & Data Analytics (DW/Dashboard = STI-402)│
-│    │ • STI-503 Data Mining (3 SKS│ BK-IS18 (Machine Learning)│   2. Predictive Modeling (ML/DL = STI-401/501).  │
-│    │                             │                           │ • STI-503 harus difokuskan pada Visualisasi Data │
+│ 3  │ • STI-413 Machine Learn (3) │ BK-IS13 (BI & Analytics)  │ • APTIKOM membagi analitik data secara tegas:    │
+│    │ • STI-415 DW & BI (3 SKS)   │            vs             │   1. BI & Data Analytics (DW/Dashboard = STI-415)│
+│    │ • STI-520 Data Mining (3 SKS│ BK-IS18 (Machine Learning)│   2. Predictive Modeling (ML/DL = STI-413/501).  │
+│    │                             │                           │ • STI-520 harus difokuskan pada Visualisasi Data │
 │    │                             │                           │   Bisnis dan Exploratory Data Analysis (EDA).    │
 ├────┼─────────────────────────────┼───────────────────────────┼──────────────────────────────────────────────────┤
-│ 4  │ • STI-603 Keamanan Lanjut(3)│ BK-IS06 / BK-IT06:        │ • STI-603 di Wajib Prodi mengajarkan ISO 27001 & │
+│ 4  │ • STI-626 Keamanan Lanjut(3)│ BK-IS06 / BK-IT06:        │ • STI-626 di Wajib Prodi mengajarkan ISO 27001 & │
 │    │ • STB-03 Cyber Risk Mgmt (3)│ Information Security and  │   Risk Assessment Framework.                     │
 │    │                             │ Risk Management           │ • STB-03 di Peminatan 2 direposisi menjadi Cloud │
 │    │                             │                           │   Security & DevSecOps agar berbasis teknis lab. │
@@ -88,15 +88,15 @@ Berikut adalah hasil komparasi rinci per topik (*topic-by-topic cross examinatio
 
 ---
 
-## 4. PENAJAMAN PERAN: `FST-204` (BIRD'S-EYE VIEW GEN-AI) VS `STI-302` (SYMBOLIC & FUZZY AI)
+## 4. PENAJAMAN PERAN: `FST-204` (BIRD'S-EYE VIEW GEN-AI) VS `STI-307` (SYMBOLIC & FUZZY AI)
 
 Untuk menjamin tidak adanya tumpang tindih antara mata kuliah bersama fakultas dan mata kuliah program studi, ditetapkan demarkasi kurikulum yang tegas:
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│              DEMARKASI SILABUS: FST-204 (FAKULTAS) VS STI-302 (CORE PRODI)                       │
+│              DEMARKASI SILABUS: FST-204 (FAKULTAS) VS STI-307 (CORE PRODI)                       │
 ├──────────────────────────────────────────────────┬───────────────────────────────────────────────┤
-│ FST-204: PENGANTAR AI & DATA (3 SKS, SEM 2)      │ STI-302: SISTEM CERDAS (2 SKS, SEM 3)         │
+│ FST-204: PENGANTAR AI & DATA (3 SKS, SEM 2)      │ STI-307: SISTEM CERDAS (2 SKS, SEM 3)         │
 │ (Fokus: Literasi Global, Generative AI & Data)   │ (Fokus: Symbolic Reasoning & Fuzzy Systems)   │
 ├──────────────────────────────────────────────────┼───────────────────────────────────────────────┤
 │ • Bird's-Eye View Lanskap AI & Sains Data        │ • Heuristic Search Algorithms (A*, Minimax)   │
@@ -115,26 +115,26 @@ Program Studi SISTEKIN mengimplementasikan kurikulum kecerdasan artifisial terin
 
 ```
                                ┌─────────────────────────────────────────────────┐
-                               │ SEMESTER 6: STI-601 Integrasi Layanan Cerdas AI │
+                               │ SEMESTER 6: STI-624 Integrasi Layanan Cerdas AI │
                                │ • API AI/LLM Microservices • Web/Mobile Deploy  │
                                └────────────────────────▲────────────────────────┘
                                                         │
                                ┌────────────────────────┴────────────────────────┐
-                               │ SEMESTER 5: STI-501 Deep Learning (+P)          │
+                               │ SEMESTER 5: STI-519 Deep Learning (+P)          │
                                │ • Computer Vision • CNN • PyTorch Architecture  │
                                └────────────────────────▲────────────────────────┘
                                                         │
                  ┌──────────────────────────────────────┴──────────────────────────────────────┐
                  │                                                                             │
   ┌──────────────┴──────────────────────────────┐               ┌──────────────────────────────┴──────────────┐
-  │ SEMESTER 4: STI-401 Machine Learning (+P)   │               │ SEMESTER 4: STI-403 Pengantar NLP & IR (+P) │
+  │ SEMESTER 4: STI-413 Machine Learning (+P)   │               │ SEMESTER 4: STI-414 Pengantar NLP & IR (+P) │
   │ • Statistical AI • Scikit-Learn • Regresi/Tree│               │ • Text Preprocessing • TF-IDF • Vector Space│
   └──────────────▲──────────────────────────────┘               └────────────────────────▲────────────────────┘
                  │                                                                       │
                  └──────────────────────────────────────┬────────────────────────────────┘
                                                         │
                                ┌────────────────────────┴────────────────────────┐
-                               │ SEMESTER 3: STI-302 Sistem Cerdas (2 SKS)       │
+                               │ SEMESTER 3: STI-307 Sistem Cerdas (2 SKS)       │
                                │ • Symbolic AI • Rule-Based • Fuzzy Logic Engine │
                                └────────────────────────▲────────────────────────┘
                                                         │
@@ -148,7 +148,7 @@ Program Studi SISTEKIN mengimplementasikan kurikulum kecerdasan artifisial terin
 
 ## 6. REKOMENDASI FORMAL TINDAK LANJUT KURIKULUM
 
-1. **Penggabungan Logika ke Matematika Diskrit:** Menyatukan `STI-103 Logika Informatika` ke dalam **`STI-201 Matematika Diskrit & Logika (3 SKS)`** untuk merampingkan rumpun sains komputasi.
+1. **Penggabungan Logika ke Matematika Diskrit:** Menyatukan `STI-103 Logika Informatika` ke dalam **`STI-204 Matematika Diskrit & Logika (3 SKS)`** untuk merampingkan rumpun sains komputasi.
 2. **Kesesuaian 100% dengan FSTI:** Mengunci 14 mata kuliah FSTI (39 SKS) termasuk **`FST-409 English for IT Professionals (2 SKS)`** sebagai pilar internasionalisasi lulusan.
 3. **Pengesahan Pipa AI:** Menjadikan Pipa Tangga AI 5-Tahap ini sebagai keunggulan diferensiasi (*flagship distinctive positioning*) Program Studi SISTEKIN Universitas Widyagama Malang.
 

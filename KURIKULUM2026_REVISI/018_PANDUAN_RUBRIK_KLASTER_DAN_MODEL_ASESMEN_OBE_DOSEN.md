@@ -51,7 +51,7 @@ Seluruh 67 mata kuliah portofolio SISTEKIN 2026 wajib menerapkan skema evaluasi 
 Dosen pengampu menentukan klaster mata kuliah yang diampu, lalu menerapkan rubrik evaluasi yang bersesuaian:
 
 ### KLASTER 1 (K-1): SAINS DASAR & TEORI FORMAL
-*Daftar MK: `STI-102 Kalkulus`, `STI-103 Arsitektur & Org. STI`, `STI-201 Matematika Diskrit & Logika`, `STI-202 Aljabar Linear`, `STI-405 Dasar Keamanan Informasi`, `FST-408 Probabilitas & Statistika`, `FST-611 Metodologi Penelitian`.*
+*Daftar MK: `STI-102 Kalkulus`, `STI-103 Arsitektur & Org. STI`, `STI-204 Matematika Diskrit & Logika`, `STI-205 Aljabar Linear`, `STI-418 Dasar Keamanan Informasi`, `FST-408 Probabilitas & Statistika`, `FST-611 Metodologi Penelitian`.*
 
 * **Bobot Asesmen:** Tugas 1 (20%) | UTS (30%) | Tugas 2 (20%) | UAS (30%)
 * **Bentuk Asesmen:** Kuis Analitik, Ujian Tertulis Uraian, Paper Analisis Teorema, Ujian Akhir Komprehensif.
@@ -65,7 +65,7 @@ Dosen pengampu menentukan klaster mata kuliah yang diampu, lalu menerapkan rubri
 ---
 
 ### KLASTER 2 (K-2): REKAYASA PERANGKAT LUNAK & DATA
-*Daftar MK: `FST-102 Algoritma`, `FST-203 Struktur Data`, `FST-207 Basis Data`, `STI-306 Web Front-End`, `STI-407 Web Back-End`, `STI-505 Mobile App`, `STI-402 DW & BI`, `STI-604 Platform Engineering`.*
+*Daftar MK: `FST-102 Algoritma`, `FST-203 Struktur Data`, `FST-207 Basis Data`, `STI-311 Web Front-End`, `STI-416 Web Back-End`, `STI-522 Mobile App`, `STI-415 DW & BI`, `STI-627 Platform Engineering`.*
 
 * **Bobot Asesmen:** Tugas 1 (20%) | UTS (25%) | Tugas 2 (25%) | UAS (30%)
 * **Bentuk Asesmen:** Coding Challenge/Schema Design, Lab Hands-on Exam, Team Mini-Project (Sprint 1), Final App Showcase & Repositori Git.
@@ -80,7 +80,7 @@ Dosen pengampu menentukan klaster mata kuliah yang diampu, lalu menerapkan rubri
 ---
 
 ### KLASTER 3 (K-3): KECERDASAN ARTIFISIAL, CLOUD & CYBERSECURITY
-*Daftar MK: `STI-302 AI`, `STI-401 Machine Learning`, `STI-403 NLP & IR`, `STI-501 Deep Learning`, `STI-504 IoT`, `STI-404 Cloud Computing`, `STI-601 Integrasi AI`, `STI-603 Keamanan Lanjut`, seluruh MK Pilihan `STA` dan `STB`.*
+*Daftar MK: `STI-307 AI`, `STI-413 Machine Learning`, `STI-414 NLP & IR`, `STI-519 Deep Learning`, `STI-521 IoT`, `STI-417 Cloud Computing`, `STI-624 Integrasi AI`, `STI-626 Keamanan Lanjut`, seluruh MK Pilihan `STA` dan `STB`.*
 
 * **Bobot Asesmen:** Tugas 1 (20%) | UTS (25%) | Tugas 2 (25%) | UAS (30%)
 * **Bentuk Asesmen:** Data Pipeline Prep & Environment, Model Training/Security Audit, Hyperparameter Tuning & Penetration Testing, End-to-End Smart Service Showcase.
@@ -95,7 +95,7 @@ Dosen pengampu menentukan klaster mata kuliah yang diampu, lalu menerapkan rubri
 ---
 
 ### KLASTER 4 (K-4): SINTESIS, MANAJEMEN, STARTUP & CAPSTONE
-*Daftar MK: `STI-301 APSI`, `STI-304 RPL`, `STI-506 Manpro TI`, `STI-602 Smart City`, `STI-701 Startup Digital`, `FST-610 Capstone Project`, `FST-612 PKL`, `FST-613 Pra-Skripsi`, `FST-714 Skripsi`.*
+*Daftar MK: `STI-306 APSI`, `STI-309 RPL`, `STI-523 Manpro TI`, `STI-625 Smart City`, `STI-728 Startup Digital`, `FST-610 Capstone Project`, `FST-612 PKL`, `FST-613 Pra-Skripsi`, `FST-714 Skripsi`.*
 
 * **Bobot Asesmen:** Tugas 1 (20%) | UTS (30%) | Tugas 2 (20%) | UAS (30%)
 * **Bentuk Asesmen:** Problem Discovery & SRS Document, Architecture Design & Interactive Prototype, MVP Testing & UAT, Final Product Pitching & Defense.
@@ -117,7 +117,7 @@ Dosen dapat langsung menyalin template berikut ke Excel atau Google Sheets kelas
 ================================================================================================================
                     LEMBAR ASESMEN OBE CEPAT (SPEED GRADING) - SISTEKIN UWG
 ================================================================================================================
-Mata Kuliah : [STI-401] Machine Learning (3 SKS)                   Semester / Kelas : 4 / A
+Mata Kuliah : [STI-413] Machine Learning (3 SKS)                   Semester / Kelas : 4 / A
 Klaster     : K-3 (AI, Cloud & Cybersecurity)                     Dosen Pengampu   : [Nama Dosen]
 ----------------------------------------------------------------------------------------------------------------
 No | NIM        | NAMA MAHASISWA   | TUGAS 1 (20%) | UTS (25%) | TUGAS 2 (25%) | UAS (30%) | AKHIR | GRADE |

@@ -171,7 +171,7 @@ ELEKTIF_JALUR = {"STA": "P1 Integrated Smart Systems",
                  "STB": "P2 Cloud Infrastructure & Cybersecurity",
                  "STC": "P3 Digital Platform Engineering"}
 # Aturan klaim ganda berjenjang (lihat Bagian 8 Dokumen 024)
-KLAIM_MENANG = {"STI-403": "STI-528", "STI-701": "STI-742"}
+KLAIM_MENANG = {"STI-414": "STI-528", "STI-728": "STI-742"}
 
 
 def siapkan_data():
@@ -404,7 +404,7 @@ def tulis_xlsx(data):
         wb.create_sheet("5. Wajib Ditempuh"),
         "LIMA MATA KULIAH YANG WAJIB DITEMPUH SEMUA MAHASISWA TRANSISI",
         "Kelima mata kuliah ini belum pernah ada pada Kurikulum 2025, sehingga tidak dapat diakui "
-        "dari nilai lama. Dua di antaranya (STI-103 dan STI-307) menjadi prasyarat mata kuliah lain, "
+        "dari nilai lama. Dua di antaranya (STI-103 dan STI-312) menjadi prasyarat mata kuliah lain, "
         "sehingga harus disisipkan lebih awal.",
         ["Smt", "Kode", "Nama Mata Kuliah", "SKS", "Kelompok"],
         wajib_baru, [6, 11, 54, 6, 16], wrap_cols=(3,),
@@ -609,7 +609,7 @@ def tulis_docx(data):
     judul_bab(doc, "Tabel 2. Lima mata kuliah yang wajib ditempuh semua mahasiswa transisi")
     paragraf(doc, "Kelima mata kuliah berikut belum pernah ada pada Kurikulum 2025 sehingga tidak "
                   "dapat diakui dari nilai lama. Dua di antaranya, yaitu STI-103 Arsitektur dan "
-                  "Organisasi Sistem Teknologi Informasi serta STI-307 Jaringan Komputer, menjadi "
+                  "Organisasi Sistem Teknologi Informasi serta STI-312 Jaringan Komputer, menjadi "
                   "prasyarat bagi mata kuliah lain. Keduanya harus disisipkan paling lambat pada "
                   "Semester 5 agar tidak menghambat mata kuliah lanjutan.", size=9.5)
     tabel_docx(doc, ["Smt", "Kode", "Nama Mata Kuliah", "SKS", "Kelompok"],

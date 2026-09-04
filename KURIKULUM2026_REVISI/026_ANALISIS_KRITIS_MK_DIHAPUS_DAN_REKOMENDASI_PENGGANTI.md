@@ -61,7 +61,7 @@ Cakupannya adalah **satu sub-pokok bahasan dalam satu pekan**, bukan penyerapan 
 
 **Pernyataan Dokumen 024** (Bagian 3.6, baris 47):
 
-> "**Dihapus** dari K2026 (bertumpang dengan ranah riset algoritma Prodi TI, Dok. 016). Unsur ekstraksi fitur sinyal terserap parsial pada `STI-501` Deep Learning & `STA-06` Smart Surveillance. Diakui sebagai kredit bebas 3 SKS"
+> "**Dihapus** dari K2026 (bertumpang dengan ranah riset algoritma Prodi TI, Dok. 016). Unsur ekstraksi fitur sinyal terserap parsial pada `STI-519` Deep Learning & `STA-06` Smart Surveillance. Diakui sebagai kredit bebas 3 SKS"
 
 **Pengujian:** pemindaian 14 kata kunci (`sinyal`, `signal`, `fourier`, `fft`, `wavelet`, `filter digital`, `spektral`, `spektrum`, `frekuensi`, `audio`, `ekstraksi fitur`, `feature extraction`, `time series`, `deret waktu`).
 
@@ -69,7 +69,7 @@ Cakupannya adalah **satu sub-pokok bahasan dalam satu pekan**, bukan penyerapan 
 
 | MK yang Diklaim Menyerap | Temuan | Status Klaim |
 |:---:|---|:---:|
-| `STI-501` Deep Learning & Neural Networks | `Feature Extraction` 1× (Pekan 7: *"Transfer Learning: Feature Extraction vs Fine-Tuning Model Vision"*), `Time Series` 1× (Pekan 12: *"Gated Architectures: LSTM Cells, GRU Cells untuk Time Series"*) | ⚠️ **Sebagian** — konteks vision & deret waktu, bukan pengolahan sinyal |
+| `STI-519` Deep Learning & Neural Networks | `Feature Extraction` 1× (Pekan 7: *"Transfer Learning: Feature Extraction vs Fine-Tuning Model Vision"*), `Time Series` 1× (Pekan 12: *"Gated Architectures: LSTM Cells, GRU Cells untuk Time Series"*) | ⚠️ **Sebagian** — konteks vision & deret waktu, bukan pengolahan sinyal |
 | `STA-06` Smart Surveillance and IoT Analytics | **Nol** dari 14 kata kunci. Seluruh 16 pekan murni *computer vision*: YOLOv8, ByteTrack, RetinaFace, TensorRT, Edge AI | ❌ **Tidak terbukti** |
 
 **Pemindaian menyeluruh 67 MK portofolio** untuk `pengolahan sinyal`, `signal processing`, `fourier`, `wavelet`, `spektral`, dan `frekuensi sinyal`: **tidak ditemukan sama sekali**.
@@ -118,7 +118,7 @@ Tidak ada CPL Kurikulum 2025 yang menjadi yatim akibat penghapusan ini.
 |:---:|---|:---:|---|
 | 1 | Gamifikasi terserap pada `STC-01` | ❌ Tidak terbukti | Salah alamat rujukan |
 | 2 | Gamifikasi terserap pada `STC-04` | ❌ Tidak terbukti | Salah alamat rujukan |
-| 3 | Ekstraksi fitur sinyal terserap pada `STI-501` | ⚠️ Sebagian, konteks berbeda | Perlu penajaman redaksi |
+| 3 | Ekstraksi fitur sinyal terserap pada `STI-519` | ⚠️ Sebagian, konteks berbeda | Perlu penajaman redaksi |
 | 4 | Ekstraksi fitur sinyal terserap pada `STA-06` | ❌ Tidak terbukti | Salah alamat rujukan |
 | 5 | Penghapusan `STI-638` berdasar Dok. 016 | ❌ Tidak dapat diverifikasi | Sitasi tanpa dasar |
 | 6 | Penghapusan konsisten dengan cakupan 14 CPL | ✅ Terbukti | — |
@@ -139,8 +139,8 @@ Sebelum merekomendasikan MK pengganti, kelayakannya diuji terhadap **definisi op
 | Gamifikasi (`STI-423`) | `STC-03` Rekayasa Aplikasi Industri Vertikal | 1 dari 16 (Pekan 9) | **6,2%** | ❌ Gagal |
 | Gamifikasi (`STI-423`) | `STC-01` UX Research & Design | 0 dari 16 | **0,0%** | ❌ Gagal |
 | Pengolahan sinyal (`STI-638`) | `STA-06` Smart Surveillance & IoT Analytics | 0 dari 16 | **0,0%** | ❌ Gagal |
-| Pengolahan sinyal (`STI-638`) | `STI-501` Deep Learning & Neural Networks | 0 dari 16 | **0,0%** | ❌ Gagal |
-| Pengolahan sinyal (`STI-638`) | `STI-504` Internet of Things | 0 dari 16 | **0,0%** | ❌ Gagal |
+| Pengolahan sinyal (`STI-638`) | `STI-519` Deep Learning & Neural Networks | 0 dari 16 | **0,0%** | ❌ Gagal |
+| Pengolahan sinyal (`STI-638`) | `STI-521` Internet of Things | 0 dari 16 | **0,0%** | ❌ Gagal |
 
 **Kesimpulan uji:** tidak ada satu pun kandidat yang memenuhi ambang E2. Overlap tertinggi hanya 6,2%, jauh di bawah batas bawah 60%.
 
@@ -171,7 +171,7 @@ Berdasarkan uji ambang pada Bagian 5, **status E5 untuk kedua mata kuliah dipert
 | MK Dihapus | Catatan Sekarang (keliru) | Usulan Catatan Perbaikan |
 |:---:|---|---|
 | `STI-423` Game Design dan Gamifikasi Sosial | "Unsur gamifikasi terserap parsial pada `STC-01` UX Research & `STC-04` XR" | "**Dihapus** dari K2026 (di luar positioning "Integrator AI"; ranah *game development* menjadi kewenangan Prodi TI). Materi gamifikasi **tidak diserap sebagai penyetaraan**; hanya disinggung sebagai satu pokok bahasan pada `STC-03` Pekan 9 (Gamifikasi Pembelajaran domain EdTech), sehingga **tidak memenuhi ambang E2**. Diakui sebagai kredit bebas 3 SKS. Mahasiswa yang berminat melanjutkan tema ini dapat mengambilnya sebagai topik Tugas Akhir Opsi 2 (Proyek Inovasi Produk Industri) atau Opsi 3 (Tech Startup Mandiri)." |
-| `STI-638` Intelligent Signal Processing | "bertumpang dengan ranah riset algoritma Prodi TI, Dok. 016. Unsur ekstraksi fitur sinyal terserap parsial pada `STI-501` Deep Learning & `STA-06` Smart Surveillance" | "**Dihapus** dari K2026 (pengolahan sinyal digital merupakan ranah riset algoritma, bukan integrasi sistem). Materi pengolahan sinyal **tidak tercakup** pada MK K2026 mana pun; `STI-501` hanya memuat pemodelan deret waktu melalui LSTM/GRU dan `Feature Extraction` dalam konteks *transfer learning vision*, sehingga **tidak memenuhi ambang E2**. Diakui sebagai kredit bebas 3 SKS. Analitik data sensor tingkat aplikatif tersedia pada `STI-504` IoT dan `STA-06` Smart Surveillance & IoT Analytics, namun bukan sebagai penyetaraan." |
+| `STI-638` Intelligent Signal Processing | "bertumpang dengan ranah riset algoritma Prodi TI, Dok. 016. Unsur ekstraksi fitur sinyal terserap parsial pada `STI-519` Deep Learning & `STA-06` Smart Surveillance" | "**Dihapus** dari K2026 (pengolahan sinyal digital merupakan ranah riset algoritma, bukan integrasi sistem). Materi pengolahan sinyal **tidak tercakup** pada MK K2026 mana pun; `STI-519` hanya memuat pemodelan deret waktu melalui LSTM/GRU dan `Feature Extraction` dalam konteks *transfer learning vision*, sehingga **tidak memenuhi ambang E2**. Diakui sebagai kredit bebas 3 SKS. Analitik data sensor tingkat aplikatif tersedia pada `STI-521` IoT dan `STA-06` Smart Surveillance & IoT Analytics, namun bukan sebagai penyetaraan." |
 
 Rumusan ini memenuhi tiga syarat sekaligus: jujur secara faktual, tidak mengubah angka konsensus mana pun, dan tetap memberi arah bagi mahasiswa yang menanyakan kelanjutan tema tersebut.
 
@@ -186,7 +186,7 @@ Kedua opsi berikut **bukan** ekivalensi, melainkan perluasan cakupan kurikulum. 
 | Topik | MK Penampung Paling Layak | Dasar Kelayakan | Konsekuensi |
 |---|---|---|---|
 | Gamifikasi & desain perilaku | `STC-01` UX Research & Design (3 SKS, Sem 5, P3) | CPL `P4` (Arsitektur Informasi & Aksesibilitas) dan `KK5` (Riset UX) adalah CPL terdekat dengan desain perilaku pengguna; silabus telah memuat `Micro-Interactions Design` (Pekan 12) dan `onboarding` (Pekan 13) yang bertetangga secara konseptual | Menambah pokok bahasan pada Pekan 12 atau 13; tidak menambah SKS |
-| Prapemrosesan sinyal sensor | `STI-504` Internet of Things (3 SKS, Sem 5, paket wajib) | Satu-satunya MK yang memuat sensor, telemetri, dan MQTT sekaligus, dan berstatus **paket wajib** sehingga menjangkau seluruh mahasiswa tanpa bergantung peminatan | Menambah pokok bahasan penapisan & normalisasi data sensor; tidak menambah SKS |
+| Prapemrosesan sinyal sensor | `STI-521` Internet of Things (3 SKS, Sem 5, paket wajib) | Satu-satunya MK yang memuat sensor, telemetri, dan MQTT sekaligus, dan berstatus **paket wajib** sehingga menjangkau seluruh mahasiswa tanpa bergantung peminatan | Menambah pokok bahasan penapisan & normalisasi data sensor; tidak menambah SKS |
 
 > [!NOTE]
 > Bila opsi 6.3 dijalankan, status kedua MK lama **tetap E5**. Perluasan cakupan tidak otomatis menciptakan hak penyetaraan, karena penyetaraan menuntut kesetaraan capaian pembelajaran, bukan sekadar kehadiran topik.
@@ -203,7 +203,7 @@ Kedua opsi berikut **bukan** ekivalensi, melainkan perluasan cakupan kurikulum. 
 | 4 | Perbaikan catatan `STI-638` pada Bagian 3.6 Dokumen 024 | ⏸️ Menunggu persetujuan (rumusan siap, Bagian 6.1) |
 | 5 | Penghapusan sitasi "Dok. 016" yang tidak dapat dilacak | ⏸️ Menunggu persetujuan |
 | 6 | Perluasan cakupan gamifikasi pada `STC-01` | ⏸️ Kewenangan Rapat Tim Kurikulum |
-| 7 | Perluasan cakupan sinyal sensor pada `STI-504` | ⏸️ Kewenangan Rapat Tim Kurikulum |
+| 7 | Perluasan cakupan sinyal sensor pada `STI-521` | ⏸️ Kewenangan Rapat Tim Kurikulum |
 
 > [!IMPORTANT]
 > **Dokumen 024 belum diubah.** Angka konsensus tetap: E1 34 MK / E2 11 MK / E3 8 MK / E4 1 MK / **E5 2 MK**, dengan simulasi pengakuan P1 = P2 = 120 SKS dan P3 = 117 SKS. Rekomendasi Bagian 6.1 dan 6.2 bersifat perbaikan redaksi dan **tidak mengubah satu pun angka tersebut**.

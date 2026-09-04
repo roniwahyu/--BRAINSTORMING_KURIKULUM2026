@@ -62,11 +62,11 @@ Setiap rumpun keilmuan memiliki batas kewenangan dan kedalaman silabus (*learnin
 
 | Pasangan MK Berdekatan | Titik Kritis Redundansi (Jika Tak Dibatasi) | Batasan Demarkasi Definitif (Buku Kurikulum 2026) | Bukti Dokumen (*Evidence*) |
 |---|---|---|---|
-| **`STI-401 Machine Learning`** (Sem 4)<br>vs<br>**`STI-501 Deep Learning`** (Sem 5) | Pengulangan materi regresi linier, decision tree, dan perceptron dasar. | **`STI-401`** fokus pada **Tabular & Classical ML**: Scikit-Learn, Feature Engineering, SVM, Random Forest, K-Means, XGBoost.<br>**`STI-501`** fokus murni pada **Deep Representations & Unstructured Data**: PyTorch/TensorFlow, Backpropagation, CNN (Vision), RNN/LSTM (Sequential), Attention Mechanism/Transformer. | `007` Bagian 24 & 32 |
-| **`STI-402 Data Warehouse & BI`** (Sem 4)<br>vs<br>**`STI-503 Data Mining & Visualisasi`** (Sem 5) | Tumpang tindih pembersihan data (*data cleaning*) dan pembuatan grafik/dashboard. | **`STI-402`** berfokus pada **Arsitektur Data Enterprise**: Star Schema, Snowflake, ETL Pipeline, OLAP Cube, SSAS, Dashboard Eksekutif PowerBI/Tableau.<br>**`STI-503`** berfokus pada **Eksplorasi Pola Tersembunyi**: Algoritma Apriori/FP-Growth (Association Rules), Outlier Detection, Advanced Clustering, Dimensionality Reduction (PCA/t-SNE). | `007` Bagian 26 & 34 |
-| **`STI-306 Web Front End`** (Sem 3)<br>vs<br>**`STI-407 Web Back End`** (Sem 4)<br>vs<br>**`STI-604 Digital Platform Eng.`** (Sem 6) | Pengulangan pembuatan website monolitik sederhana (*CRUD Web*). | **`STI-306`** (Client-Side): HTML5, CSS Modern, JavaScript ES6+, React/Vue, DOM Manipulation, Responsive UI.<br>**`STI-407`** (Server-Side): RESTful API, NodeJS/Go/Python, JWT Authentication, ORM, Database Transactions, Redis Caching.<br>**`STI-604`** (Distributed Systems): Event-Driven Architecture, Message Broker (RabbitMQ/Kafka), API Gateway, Docker Containerization, CI/CD Pipeline. | `007` Bagian 22, 29, 42 |
-| **`STI-405 Dasar Keamanan`** (Sem 4)<br>vs<br>**`STI-603 Keamanan Lanjut`** (Sem 6)<br>vs<br>**`STB-01 Keamanan Jaringan`** (Sem 5) | Pengulangan konsep dasar CIA Triad dan antivirus/firewall. | **`STI-405`** (Teori Dasar): CIA Triad, Kriptografi Simetris/Asimetris Klasik (RSA/AES), Manajemen Risiko ISO 27001.<br>**`STB-01`** (Network Layer): Wireshark Packet Analysis, Snort IDS/IPS, VPN Tunnels, Digital Forensics Disk/Memory (Autopsy).<br>**`STI-603` / `STB-03`** (Application & Offensive): OWASP Top 10, Penetration Testing (BurpSuite, Kali Linux), Reverse Engineering, Web Exploit Mitigation. | `007` Bagian 28, 41 & `006` STB-01/03 |
-| **`STI-103 Arsitektur & Org. STI`** (Sem 1)<br>vs<br>**`STI-201 Matdis & Logika`** (Sem 2) | Pemisahan redundan antara Logika Proposisi dan Matematika Diskrit. | Logika Informatika lama **dilebur penuh** ke dalam **`STI-201 Matematika Diskrit dan Logika (3 SKS)`**.<br>Slot Semester 1 dimanfaatkan untuk **`STI-103 Arsitektur dan Organisasi Sistem TI (3 SKS)`** sebagai fondasi hardware/cloud tanpa redundansi. | `007` Bagian 5 & 9 |
+| **`STI-413 Machine Learning`** (Sem 4)<br>vs<br>**`STI-519 Deep Learning`** (Sem 5) | Pengulangan materi regresi linier, decision tree, dan perceptron dasar. | **`STI-413`** fokus pada **Tabular & Classical ML**: Scikit-Learn, Feature Engineering, SVM, Random Forest, K-Means, XGBoost.<br>**`STI-519`** fokus murni pada **Deep Representations & Unstructured Data**: PyTorch/TensorFlow, Backpropagation, CNN (Vision), RNN/LSTM (Sequential), Attention Mechanism/Transformer. | `007` Bagian 24 & 32 |
+| **`STI-415 Data Warehouse & BI`** (Sem 4)<br>vs<br>**`STI-520 Data Mining & Visualisasi`** (Sem 5) | Tumpang tindih pembersihan data (*data cleaning*) dan pembuatan grafik/dashboard. | **`STI-415`** berfokus pada **Arsitektur Data Enterprise**: Star Schema, Snowflake, ETL Pipeline, OLAP Cube, SSAS, Dashboard Eksekutif PowerBI/Tableau.<br>**`STI-520`** berfokus pada **Eksplorasi Pola Tersembunyi**: Algoritma Apriori/FP-Growth (Association Rules), Outlier Detection, Advanced Clustering, Dimensionality Reduction (PCA/t-SNE). | `007` Bagian 26 & 34 |
+| **`STI-311 Web Front End`** (Sem 3)<br>vs<br>**`STI-416 Web Back End`** (Sem 4)<br>vs<br>**`STI-627 Digital Platform Eng.`** (Sem 6) | Pengulangan pembuatan website monolitik sederhana (*CRUD Web*). | **`STI-311`** (Client-Side): HTML5, CSS Modern, JavaScript ES6+, React/Vue, DOM Manipulation, Responsive UI.<br>**`STI-416`** (Server-Side): RESTful API, NodeJS/Go/Python, JWT Authentication, ORM, Database Transactions, Redis Caching.<br>**`STI-627`** (Distributed Systems): Event-Driven Architecture, Message Broker (RabbitMQ/Kafka), API Gateway, Docker Containerization, CI/CD Pipeline. | `007` Bagian 22, 29, 42 |
+| **`STI-418 Dasar Keamanan`** (Sem 4)<br>vs<br>**`STI-626 Keamanan Lanjut`** (Sem 6)<br>vs<br>**`STB-01 Keamanan Jaringan`** (Sem 5) | Pengulangan konsep dasar CIA Triad dan antivirus/firewall. | **`STI-418`** (Teori Dasar): CIA Triad, Kriptografi Simetris/Asimetris Klasik (RSA/AES), Manajemen Risiko ISO 27001.<br>**`STB-01`** (Network Layer): Wireshark Packet Analysis, Snort IDS/IPS, VPN Tunnels, Digital Forensics Disk/Memory (Autopsy).<br>**`STI-626` / `STB-03`** (Application & Offensive): OWASP Top 10, Penetration Testing (BurpSuite, Kali Linux), Reverse Engineering, Web Exploit Mitigation. | `007` Bagian 28, 41 & `006` STB-01/03 |
+| **`STI-103 Arsitektur & Org. STI`** (Sem 1)<br>vs<br>**`STI-204 Matdis & Logika`** (Sem 2) | Pemisahan redundan antara Logika Proposisi dan Matematika Diskrit. | Logika Informatika lama **dilebur penuh** ke dalam **`STI-204 Matematika Diskrit dan Logika (3 SKS)`**.<br>Slot Semester 1 dimanfaatkan untuk **`STI-103 Arsitektur dan Organisasi Sistem TI (3 SKS)`** sebagai fondasi hardware/cloud tanpa redundansi. | `007` Bagian 5 & 9 |
 
 ---
 
@@ -81,35 +81,35 @@ graph TD
         F102["FST-102 Algoritma & Pemrograman (3 SKS)"]
         S102["STI-102 Kalkulus (3 SKS)"]
         S103["STI-103 Arsitektur & Org. STI (3 SKS)"]
-        S201["STI-201 Matdis & Logika (3 SKS)"]
-        S202["STI-202 Aljabar Linear (3 SKS)"]
+        S201["STI-204 Matdis & Logika (3 SKS)"]
+        S202["STI-205 Aljabar Linear (3 SKS)"]
         F203["FST-203 Struktur Data (3 SKS)"]
         F204["FST-204 Pengantar AI & Data (2 SKS)"]
         F207["FST-207 Sistem Basis Data (3 SKS)"]
     end
 
     subgraph S3_S4 ["SEMESTER 3 & 4: PENGUATAN SISTEM & AI"]
-        S301["STI-301 APSI (3 SKS)"]
-        S302["STI-302 Sistem Cerdas (2 SKS)"]
-        S304["STI-304 Rekayasa Perangkat Lunak (3 SKS)"]
-        S305["STI-305 Sistem Operasi (3 SKS)"]
-        S307["STI-307 Jaringan Komputer (3 SKS)"]
-        S401["STI-401 Machine Learning (3 SKS)"]
-        S404["STI-404 Komputasi Awan (3 SKS)"]
-        S405["STI-405 Dasar Keamanan Info (2 SKS)"]
+        S301["STI-306 APSI (3 SKS)"]
+        S302["STI-307 Sistem Cerdas (2 SKS)"]
+        S304["STI-309 Rekayasa Perangkat Lunak (3 SKS)"]
+        S305["STI-310 Sistem Operasi (3 SKS)"]
+        S307["STI-312 Jaringan Komputer (3 SKS)"]
+        S401["STI-413 Machine Learning (3 SKS)"]
+        S404["STI-417 Komputasi Awan (3 SKS)"]
+        S405["STI-418 Dasar Keamanan Info (2 SKS)"]
     end
 
     subgraph S5_S6 ["SEMESTER 5 & 6: SINTESIS & INTEGRASI"]
-        S501["STI-501 Deep Learning (3 SKS)"]
-        S504["STI-504 Internet of Things (3 SKS)"]
-        S506["STI-506 Manajemen Proyek TI (3 SKS)"]
-        S601["STI-601 Integrasi Layanan AI (3 SKS)"]
-        S604["STI-604 Digital Platform Eng. (3 SKS)"]
+        S501["STI-519 Deep Learning (3 SKS)"]
+        S504["STI-521 Internet of Things (3 SKS)"]
+        S506["STI-523 Manajemen Proyek TI (3 SKS)"]
+        S601["STI-624 Integrasi Layanan AI (3 SKS)"]
+        S604["STI-627 Digital Platform Eng. (3 SKS)"]
     end
 
     subgraph S7_S8 ["SEMESTER 7 & 8: PRODUKSI & CAPSTONE"]
         F610["FST-610 Capstone Project FSTI (3 SKS)"]
-        S701["STI-701 Startup Digital (3 SKS)"]
+        S701["STI-728 Startup Digital (3 SKS)"]
         F714["FST-714 Skripsi / Opsi Non-Skripsi (6 SKS)"]
     end
 
@@ -136,13 +136,13 @@ Dalam audit forensik menyeluruh, kami mengidentifikasi dan menyelesaikan 7 titik
 
 | No | Dokumen & Baris | Nomenklatur Awal (Laten) | Nomenklatur Definitif (Tersinkronisasi) | Justifikasi Pedagogis & Logika Prasyarat |
 |:--:|---|---|---|---|
-| 1 | `005` : Baris 114 | `STI-301 APSI` $\leftarrow$ `STI-104` | `STI-301 APSI` $\leftarrow$ **`STI-101`** Pengantar SI & TI, `FST-207` Basis Data | Memastikan fondasi analisis sistem merujuk pada Pengantar SI & TI Sem 1. |
-| 2 | `005` : Baris 116 | `STI-303 UI/UX` $\leftarrow$ `STI-104` | `STI-303 UI/UX` $\leftarrow$ **`FST-101`** Dasar Teknologi Digital | UI/UX berfondasi pada pemahaman interaksi teknologi digital modern. |
-| 3 | `005` : Baris 120 | `STI-307 Jarkom` $\leftarrow$ `STI-104` | `STI-307 Jarkom` $\leftarrow$ **`STI-103`** Arsitektur & Organisasi Sistem TI | Jaringan komputer memerlukan pemahaman datapath, bus biner, dan arsitektur hardware Sem 1. |
-| 4 | `007` : Baris 1520 | `STI-505 Mobile` $\leftarrow$ `STI-205` | `STI-505 Mobile` $\leftarrow$ **`FST-203`** Struktur Data, `STI-306` Web Front-End | Pemrograman Mobile membutuhkan pemahaman struktur data OOP dan state UI frontend. |
+| 1 | `005` : Baris 114 | `STI-306 APSI` $\leftarrow$ `STI-104` | `STI-306 APSI` $\leftarrow$ **`STI-101`** Pengantar SI & TI, `FST-207` Basis Data | Memastikan fondasi analisis sistem merujuk pada Pengantar SI & TI Sem 1. |
+| 2 | `005` : Baris 116 | `STI-308 UI/UX` $\leftarrow$ `STI-104` | `STI-308 UI/UX` $\leftarrow$ **`FST-101`** Dasar Teknologi Digital | UI/UX berfondasi pada pemahaman interaksi teknologi digital modern. |
+| 3 | `005` : Baris 120 | `STI-312 Jarkom` $\leftarrow$ `STI-104` | `STI-312 Jarkom` $\leftarrow$ **`STI-103`** Arsitektur & Organisasi Sistem TI | Jaringan komputer memerlukan pemahaman datapath, bus biner, dan arsitektur hardware Sem 1. |
+| 4 | `007` : Baris 1520 | `STI-522 Mobile` $\leftarrow$ `STI-205` | `STI-522 Mobile` $\leftarrow$ **`FST-203`** Struktur Data, `STI-311` Web Front-End | Pemrograman Mobile membutuhkan pemahaman struktur data OOP dan state UI frontend. |
 | 5 | `012` : Baris 251 | `FST-611 Metpen` $\leftarrow$ `FST-208` | `FST-611 Metpen` $\leftarrow$ **`FST-408`** Probabilitas & Statistika (Sem 4) | Menghilangkan rujukan usang `FST-208` dan menyelaraskan ke Probstat Sem 4. |
 | 6 | `012` : Baris 265 | `STB-04 COBIT` $\leftarrow$ `STI-205` | `STB-04 COBIT` $\leftarrow$ **`FST-206`** Etika Profesi & Hukum Digital (Sem 2) | Tata kelola COBIT 2019 mensyaratkan etika profesi & hukum siber Sem 2. |
-| 7 | `BUKU_FINAL` : 2738 | `STI-505 Mobile` $\leftarrow$ `STI-205` | `STI-505 Mobile` $\leftarrow$ **`FST-203`** Struktur Data, `STI-306` Web Front-End | Sinkronisasi penuh silabus lampiran Bab 7. |
+| 7 | `BUKU_FINAL` : 2738 | `STI-522 Mobile` $\leftarrow$ `STI-205` | `STI-522 Mobile` $\leftarrow$ **`FST-203`** Struktur Data, `STI-311` Web Front-End | Sinkronisasi penuh silabus lampiran Bab 7. |
 
 ---
 
@@ -161,7 +161,7 @@ Ekosistem kurikulum telah diuji menggunakan dua engine audit independen berbasis
 
 [ENGINE 2] _tools/verify_zero_discrepancy.py:
   • Cakupan Audit        : Seluruh 25 File Markdown di KURIKULUM2026_REVISI/
-  • Parameter Uji        : Zero Old Names, STI-103 ArKom, STI-201 Matdis Logika, CPL-IRM
+  • Parameter Uji        : Zero Old Names, STI-103 ArKom, STI-204 Matdis Logika, CPL-IRM
   • Hasil Eksekusi       : 100% PERFECT ALIGNMENT [STATUS: PASSED]
 
 [ENGINE 3] _tools/convert_md_to_html.py:

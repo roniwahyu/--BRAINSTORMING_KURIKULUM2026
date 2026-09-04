@@ -65,8 +65,8 @@ Sesuai dengan **Permendikbudristek No. 53 Tahun 2023 tentang Penjaminan Mutu Pen
 
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat Formal |
 |:---:|:---:|---|:---:|:---:|:---:|---|
-| 9 | `STI-201` | Matematika Diskrit dan Logika | 3 | Teori | Core STI | `STI-103` Arsitektur & Organisasi STI |
-| 10 | `STI-202` | Aljabar Linear dan Matriks | 3 | Teori | Core STI | `STI-102` Kalkulus |
+| 9 | `STI-204` | Matematika Diskrit dan Logika | 3 | Teori | Core STI | `STI-103` Arsitektur & Organisasi STI |
+| 10 | `STI-205` | Aljabar Linear dan Matriks | 3 | Teori | Core STI | `STI-102` Kalkulus |
 | 11 | `FST-203` | Struktur Data dan Algoritma | 3 | +P | FSTI | `FST-102` Algoritma |
 | 12 | `FST-204` | Pengantar AI & Sains Data | 2 | Teori | FSTI | `FST-101` Teknologi Digital |
 | 13 | `FST-205` | Basic English for IT | 2 | Teori | FSTI | — |
@@ -78,37 +78,37 @@ Sesuai dengan **Permendikbudristek No. 53 Tahun 2023 tentang Penjaminan Mutu Pen
 ---
 
 ### 🔹 SEMESTER 3 (23 SKS — Membuka Akselerasi Mengambil MK Ganjil Sem 5)
-*Fokus: Menempuh 20 SKS Core Semester 3 + **Maju Mengambil 1 MK Ganjil Semester 5** (`STI-506 Manajemen Proyek TI`).*
+*Fokus: Menempuh 20 SKS Core Semester 3 + **Maju Mengambil 1 MK Ganjil Semester 5** (`STI-523 Manajemen Proyek TI`).*
 
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Justifikasi Keterpenuhan Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
-| 17 | `STI-301` | Analisis & Perancangan SI | 3 | Teori | Core STI | `FST-207` Basis Data |
-| 18 | `STI-302` | Sistem Cerdas | 2 | Teori | Core STI | `FST-204` AI Dasar, `STI-201` Matdis |
-| 19 | `STI-303` | UI/UX Design & Prototyping | 3 | +P | Core STI | `FST-101` Teknologi Digital |
-| 20 | `STI-304` | Rekayasa Perangkat Lunak | 3 | Teori | Core STI | `FST-205` Basic English / OOP |
-| 21 | `STI-305` | Sistem Operasi | 3 | Teori | Core STI | `FST-203` Struktur Data |
-| 22 | `STI-306` | Web Front End Development | 3 | +P | Core STI | `FST-102` Algoritma |
-| 23 | `STI-307` | Jaringan Komputer | 3 | +P | Core STI | `FST-101` Teknologi Digital |
-| **24**| **`STI-506`**| **Manajemen Proyek TI (Maju dari Sem 5)** | **3** | **Teori** | **Core STI** | **Akselerasi: Menempuh paralel dengan APSI & RPL (Kapasitas SKS Memenuhi) ✅** |
+| 17 | `STI-306` | Analisis & Perancangan SI | 3 | Teori | Core STI | `FST-207` Basis Data |
+| 18 | `STI-307` | Sistem Cerdas | 2 | Teori | Core STI | `FST-204` AI Dasar, `STI-204` Matdis |
+| 19 | `STI-308` | UI/UX Design & Prototyping | 3 | +P | Core STI | `FST-101` Teknologi Digital |
+| 20 | `STI-309` | Rekayasa Perangkat Lunak | 3 | Teori | Core STI | `FST-205` Basic English / OOP |
+| 21 | `STI-310` | Sistem Operasi | 3 | Teori | Core STI | `FST-203` Struktur Data |
+| 22 | `STI-311` | Web Front End Development | 3 | +P | Core STI | `FST-102` Algoritma |
+| 23 | `STI-312` | Jaringan Komputer | 3 | +P | Core STI | `FST-101` Teknologi Digital |
+| **24**| **`STI-523`**| **Manajemen Proyek TI (Maju dari Sem 5)** | **3** | **Teori** | **Core STI** | **Akselerasi: Menempuh paralel dengan APSI & RPL (Kapasitas SKS Memenuhi) ✅** |
 | **SUBTOTAL** | — | **Total SKS Semester 3 (8 Mata Kuliah)** | **23** | — | — | **Kumulatif: 62 SKS** |
 
 ---
 
 ### 🔹 SEMESTER 4 (23 SKS — Akselerasi Mengambil MK Genap Sem 6)
-*Fokus: Penguatan Core AI/ML, NLP, Cloud, Data Warehouse + **Maju Mengambil 1 MK Genap Sem 6** (`STI-602 Smart City & Pem. Digital`).*
+*Fokus: Penguatan Core AI/ML, NLP, Cloud, Data Warehouse + **Maju Mengambil 1 MK Genap Sem 6** (`STI-625 Smart City & Pem. Digital`).*
 
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Justifikasi Keterpenuhan Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
-| 25 | `STI-401` | Machine Learning | 3 | +P | Core STI | `STI-202` Aljabar, `STI-302` Sistem Cerdas |
-| 26 | `STI-403` | Pengantar NLP & Information Retrieval | 2 | +P | Core STI | `STI-302` Sistem Cerdas |
-| 27 | `STI-402` | Data Warehouse & Business Intelligence | 3 | +P | Core STI | `FST-207` Basis Data |
-| 28 | `STI-407` | Web Back End Development | 3 | +P | Core STI | `FST-207` Basis Data, `STI-306` Front End |
-| 29 | `STI-404` | Komputasi Awan (Cloud Computing) | 3 | Teori | Core STI | `STI-307` Jarkom, `STI-305` OS |
-| 30 | `STI-405` | Dasar Keamanan Informasi | 2 | Teori | Core STI | `STI-307` Jaringan Komputer |
+| 25 | `STI-413` | Machine Learning | 3 | +P | Core STI | `STI-205` Aljabar, `STI-307` Sistem Cerdas |
+| 26 | `STI-414` | Pengantar NLP & Information Retrieval | 2 | +P | Core STI | `STI-307` Sistem Cerdas |
+| 27 | `STI-415` | Data Warehouse & Business Intelligence | 3 | +P | Core STI | `FST-207` Basis Data |
+| 28 | `STI-416` | Web Back End Development | 3 | +P | Core STI | `FST-207` Basis Data, `STI-311` Front End |
+| 29 | `STI-417` | Komputasi Awan (Cloud Computing) | 3 | Teori | Core STI | `STI-312` Jarkom, `STI-310` OS |
+| 30 | `STI-418` | Dasar Keamanan Informasi | 2 | Teori | Core STI | `STI-312` Jaringan Komputer |
 | 31 | `FST-408` | Probabilitas dan Statistika | 3 | Teori | FSTI | `STI-102` Kalkulus |
 | 32 | `MKU-405` | Kewarganegaraan | 2 | Teori | MKWU | — |
 | 32.B| `MKU-406` | Agama II | 0 | Teori | MKWU | — (Kebijakan UWG, Sem 4) |
-| **33**| **`STI-602`**| **Smart City & Pem. Digital (Maju dari Sem 6)** | **2** | **Teori** | **Core STI** | **Akselerasi: Materi Konseptual Pemerintahan Digital Terpenuhi ✅** |
+| **33**| **`STI-625`**| **Smart City & Pem. Digital (Maju dari Sem 6)** | **2** | **Teori** | **Core STI** | **Akselerasi: Materi Konseptual Pemerintahan Digital Terpenuhi ✅** |
 | **SUBTOTAL** | — | **Total SKS Semester 4 (8 MK + 1 MK 0 SKS)** | **23** | — | — | **Kumulatif: 85 SKS** |
 
 > 📌 **Milestone Penting:** Di akhir Semester 4, mahasiswa telah mengumpulkan **85 SKS**, sehingga secara sah melampaui syarat minimal pendaftaran KPM ($\ge 80\text{ SKS}$).
@@ -120,14 +120,14 @@ Sesuai dengan **Permendikbudristek No. 53 Tahun 2023 tentang Penjaminan Mutu Pen
 
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Justifikasi Keterpenuhan Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
-| 34 | `STI-501` | Deep Learning & Neural Networks | 3 | +P | Core STI | `STI-401` Machine Learning |
-| 35 | `STI-503` | Data Mining & Visualisasi Data | 3 | +P | Core STI | `STI-401` ML, `STI-402` DW/BI |
-| 36 | `STI-504` | Internet of Things (IoT) | 3 | +P | Core STI | `STI-307` Jarkom, `STI-305` OS |
-| 37 | `STI-505` | Pemrograman Aplikasi Mobile | 3 | +P | Core STI | `STI-306` Front, `STI-407` Back End |
+| 34 | `STI-519` | Deep Learning & Neural Networks | 3 | +P | Core STI | `STI-413` Machine Learning |
+| 35 | `STI-520` | Data Mining & Visualisasi Data | 3 | +P | Core STI | `STI-413` ML, `STI-415` DW/BI |
+| 36 | `STI-521` | Internet of Things (IoT) | 3 | +P | Core STI | `STI-312` Jarkom, `STI-310` OS |
+| 37 | `STI-522` | Pemrograman Aplikasi Mobile | 3 | +P | Core STI | `STI-311` Front, `STI-416` Back End |
 | 38 | `STA/B/C` | **MK Pilihan Peminatan 1** | 3 | Elektif| Peminatan | Pilihan Paket Peminatan 1 (P1/P2/P3) |
 | 39 | `MKU-507` | Kuliah Pengabdian Masyarakat (KPM) | 3 | Praktik| MKWU | Syarat $\ge 80\text{ SKS}$ (Sudah 85 SKS ✅) |
 | 39.B| `MKU-508` | Kewirausahaan II | 0 | Teori | MKWU | — (Kebijakan UWG, Sem 5) |
-| **40**| **`STI-701`**| **Inovasi Startup Digital (Maju dari Sem 7)** | **3** | **+P** | **Core STI** | **Akselerasi: MKU-204 KWU I Selesai ✅** |
+| **40**| **`STI-728`**| **Inovasi Startup Digital (Maju dari Sem 7)** | **3** | **+P** | **Core STI** | **Akselerasi: MKU-204 KWU I Selesai ✅** |
 | **41**| **`FST-612`**| **Praktik Kerja Lapangan (Maju dari Sem 7)** | **3** | **Magang**| **FSTI** | **Akselerasi: Menempuh Magang Libur Semester / Reguler ($\ge 80\text{ SKS}$) ✅** |
 | **SUBTOTAL** | — | **Total SKS Semester 5 (7 MK + 1 MK 0 SKS)** | **24** | — | — | **Kumulatif: 109 SKS** |
 
@@ -140,13 +140,13 @@ Sesuai dengan **Permendikbudristek No. 53 Tahun 2023 tentang Penjaminan Mutu Pen
 
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Justifikasi Keterpenuhan Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
-| 42 | `STI-601` | Integrasi Layanan Cerdas AI | 3 | +P | Core STI | `STI-501` Deep Learning, `STI-407` Back End |
-| 43 | `STI-603` | Keamanan Informasi Lanjut | 3 | Teori | Core STI | `STI-405` Dasar Keamanan Informasi |
-| 44 | `STI-604` | Digital Platform Engineering | 3 | +P | Core STI | `STI-407` Web Back End Development |
+| 42 | `STI-624` | Integrasi Layanan Cerdas AI | 3 | +P | Core STI | `STI-519` Deep Learning, `STI-416` Back End |
+| 43 | `STI-626` | Keamanan Informasi Lanjut | 3 | Teori | Core STI | `STI-418` Dasar Keamanan Informasi |
+| 44 | `STI-627` | Digital Platform Engineering | 3 | +P | Core STI | `STI-416` Web Back End Development |
 | 45 | `FST-611` | Metodologi Penelitian | 2 | Teori | FSTI | Syarat $\ge 76\text{ SKS}$ (Sudah 109 SKS ✅) |
 | 46 | `STA/B/C` | **MK Pilihan Peminatan 2** | 3 | Elektif| Peminatan | Pilihan Paket Peminatan 2 (P1/P2/P3) |
 | 47 | `STA/B/C` | **MK Pilihan Peminatan 3** | 3 | Elektif| Peminatan | Pilihan Paket Peminatan 3 (P1/P2/P3) |
-| **48**| **`FST-610`**| **Capstone Project FSTI (Maju dari Sem 7)** | **3** | **Proyek**| **FSTI** | **Akselerasi: STI-506 Manpro Selesai, Syarat $\ge 100\text{ SKS}$ Terpenuhi ✅** |
+| **48**| **`FST-610`**| **Capstone Project FSTI (Maju dari Sem 7)** | **3** | **Proyek**| **FSTI** | **Akselerasi: STI-523 Manpro Selesai, Syarat $\ge 100\text{ SKS}$ Terpenuhi ✅** |
 | **49**| **`FST-613`**| **Pra-Skripsi / Sempro (Maju dari Sem 7)** | **2** | **Seminar**| **FSTI** | **Akselerasi: Paralel Metpen, Syarat $\ge 100\text{ SKS}$ Terpenuhi ✅** |
 | **SUBTOTAL** | — | **Total SKS Semester 6 (8 Mata Kuliah)** | **22** | — | — | **Kumulatif: 131 SKS** |
 
@@ -184,7 +184,7 @@ Sesuai dengan **Permendikbudristek No. 53 Tahun 2023 tentang Penjaminan Mutu Pen
 ├──────────────────────────────┼:------------:┼:----------------:┼:------------:┼:----------------:┤
 │ MKU-507 KPM (Semester 5)     │ >= 80 SKS    │ 85 SKS           │ Smt 4 Lulus  │ 🟢 MEMENUHI      │
 │ FST-612 PKL (Semester 5)     │ >= 80 SKS    │ 85 SKS           │ MK Dasar OK  │ 🟢 MEMENUHI      │
-│ FST-610 Capstone (Semester 6)│ >= 100 SKS   │ 109 SKS          │ STI-506 OK   │ 🟢 MEMENUHI      │
+│ FST-610 Capstone (Semester 6)│ >= 100 SKS   │ 109 SKS          │ STI-523 OK   │ 🟢 MEMENUHI      │
 │ FST-613 Pra-Skripsi (Sem 6)  │ >= 100 SKS   │ 109 SKS          │ FST-611 OK   │ 🟢 MEMENUHI      │
 │ FST-714 Skripsi (Semester 7) │ >= 120 SKS   │ 131 SKS          │ FST-613 OK   │ 🟢 MEMENUHI      │
 └──────────────────────────────┴──────────────┴──────────────────┴──────────────┴──────────────────┘

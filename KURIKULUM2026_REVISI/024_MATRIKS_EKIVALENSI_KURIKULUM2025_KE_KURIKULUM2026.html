@@ -356,6 +356,8 @@
 <option value="024_MATRIKS_EKIVALENSI_KURIKULUM2025_KE_KURIKULUM2026.html" selected>024 — Matriks Ekivalensi MK Kurikulum 2025 → 2026</option>
 <option value="025_REKOMENDASI_PENGEMBANGAN_MK_PEMINATAN_DAN_CROSS_TRACK_2027.html" >025 — Rekomendasi Pool MK Peminatan & Cross-Track 2027</option>
 <option value="026_ANALISIS_KRITIS_MK_DIHAPUS_DAN_REKOMENDASI_PENGGANTI.html" >026 — Analisis Kritis MK Dihapus & Rekomendasi Pengganti</option>
+<option value="027_RENCANA_RESTRUKTURISASI_KODE_MK_CORE_STI_KONTINU.html" >027 — Rencana Aksi Restrukturisasi Kode Core STI Kontinu</option>
+<option value="028_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_CORE_STI.html" >028 — Dev Report & Dev Log Restrukturisasi Kode Core STI</option>
 <option value="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" >📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)</option>
             </select>
 
@@ -517,7 +519,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
     <div class="alert-header"><span class="alert-icon">⚡</span> IMPORTANT</div>
     <div class="alert-content">**Tiga temuan kritis yang wajib ditindaklanjuti sebelum entri SIAKAD:**
 1. **Kolisi kode MK:** kode `STI-102` dan `STI-103` dipakai untuk mata kuliah yang **berbeda** di K2025 dan K2026 (lihat Bagian 5). Tanpa pemisahan tahun kurikulum di basis data SIAKAD, konversi KHS akan salah petakan.
-2. **Gap fondasi K2025:** K2025 **tidak memiliki** mata kuliah Jaringan Komputer maupun Arsitektur/Organisasi Komputer. Keduanya menjadi MK baru wajib (`STI-307`, `STI-103`) dan berstatus prasyarat bagi Cloud, IoT, dan Keamanan pada K2026.
+2. **Gap fondasi K2025:** K2025 **tidak memiliki** mata kuliah Jaringan Komputer maupun Arsitektur/Organisasi Komputer. Keduanya menjadi MK baru wajib (`STI-312`, `STI-103`) dan berstatus prasyarat bagi Cloud, IoT, dan Keamanan pada K2026.
 3. **Perubahan prefiks fakultas:** MK berkode `MFT-xxx` pada K2025 bermigrasi ke prefiks `FST-xxx` pada K2026 (Bahasa Inggris, Metodologi Penelitian, PKL, Skripsi).</div>
 </div>
 
@@ -740,7 +742,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-103</span>></td>
 <td>Logika Informatika</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">STI-201</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-204</span>></td>
 <td>Matematika Diskrit dan Logika</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">2</td>
@@ -807,7 +809,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-205</span>></td>
 <td>Matematika Diskrit</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">STI-201</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-204</span>></td>
 <td>Matematika Diskrit dan Logika</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">2</td>
@@ -843,7 +845,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-208</span>></td>
 <td>Visualisasi Data dan Dashboard Interaktif (+P)</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">STI-503</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-520</span>></td>
 <td>Data Mining &amp; Visualisasi Data (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">5</td>
@@ -855,7 +857,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-209</span>></td>
 <td>Aljabar Linear</td>
 <td style="text-align: center;">4</td>
-<td style="text-align: center;"><span class="code-tag">STI-202</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-205</span>></td>
 <td>Aljabar Linear dan Matriks</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">2</td>
@@ -886,7 +888,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-310</span>></td>
 <td>Analisis dan Perancangan Sistem Informasi</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-301</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-306</span>></td>
 <td>Analisis dan Perancangan Sistem Informasi</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">3</td>
@@ -898,7 +900,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-311</span>></td>
 <td>Sistem Operasi</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-305</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-310</span>></td>
 <td>Sistem Operasi</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">3</td>
@@ -910,19 +912,19 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-312</span>></td>
 <td>Pemrograman Web (+P)</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-306</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-311</span>></td>
 <td>Web Front End Development (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"><strong>E2</strong></td>
-<td>K2026 memisahkan front end dan back end. <span class="code-tag">STI-312</span>> diakui sebagai <span class="code-tag">STI-306</span>>; mahasiswa <strong>tetap wajib</strong> menempuh <span class="code-tag">STI-407</span>> Web Back End Development (3 SKS)</td>
+<td>K2026 memisahkan front end dan back end. <span class="code-tag">STI-312</span>> diakui sebagai <span class="code-tag">STI-311</span>>; mahasiswa <strong>tetap wajib</strong> menempuh <span class="code-tag">STI-416</span>> Web Back End Development (3 SKS)</td>
 </tr>
 <tr>
 <td style="text-align: center;">18</td>
 <td style="text-align: center;"><span class="code-tag">STI-313</span>></td>
 <td>Keamanan Informasi Dasar</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">STI-405</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-418</span>></td>
 <td>Dasar Keamanan Informasi</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">4</td>
@@ -934,7 +936,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-314</span>></td>
 <td>Interaksi Manusia dan Komputer</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-303</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-308</span>></td>
 <td>UI/UX Design &amp; Prototyping (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">3</td>
@@ -1025,7 +1027,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-418</span>></td>
 <td>Sistem Cerdas</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">STI-302</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-307</span>></td>
 <td>Sistem Cerdas</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">3</td>
@@ -1037,7 +1039,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-419</span>></td>
 <td>Mobile Application Development (+P)</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-505</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-522</span>></td>
 <td>Pemrograman Aplikasi Mobile (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">5</td>
@@ -1049,7 +1051,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-420</span>></td>
 <td>Semantic Web dan Ontologi</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">STI-403</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-414</span>></td>
 <td>Pengantar NLP &amp; Information Retrieval (+P)</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">4</td>
@@ -1061,7 +1063,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-421</span>></td>
 <td>Manajemen Proyek TI</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">STI-506</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-523</span>></td>
 <td>Manajemen Proyek Teknologi Informasi</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">5</td>
@@ -1073,7 +1075,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-422</span>></td>
 <td>E-Commerce dan Digital Business</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-701</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-728</span>></td>
 <td>Inovasi Teknologi dan Startup Digital (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">7</td>
@@ -1152,7 +1154,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-525</span>></td>
 <td>Pemrograman Lanjut dan API (+P)</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-407</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-416</span>></td>
 <td>Web Back End Development (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">4</td>
@@ -1164,7 +1166,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-526</span>></td>
 <td>Internet of Things (+P)</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-504</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-521</span>></td>
 <td>Internet of Things (IoT) (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">5</td>
@@ -1176,7 +1178,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-527</span>></td>
 <td>Sistem Informasi Berbasis Cloud</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">STI-404</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-417</span>></td>
 <td>Komputasi Awan (Cloud Computing)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">4</td>
@@ -1188,7 +1190,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-528</span>></td>
 <td>Text Mining dan NLP</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">STI-403</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-414</span>></td>
 <td>Pengantar NLP &amp; Information Retrieval (+P)</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">4</td>
@@ -1212,7 +1214,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-530</span>></td>
 <td>Data Warehouse dan Business Intelligence (+P)</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-402</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-415</span>></td>
 <td>Data Warehouse &amp; Business Intelligence (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">4</td>
@@ -1255,7 +1257,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-632</span>></td>
 <td>Rekayasa Perangkat Lunak</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-304</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-309</span>></td>
 <td>Rekayasa Perangkat Lunak</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">3</td>
@@ -1279,7 +1281,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-634</span>></td>
 <td>Pengolahan Citra Digital dan Vision (+P)</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-501</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-519</span>></td>
 <td>Deep Learning &amp; Neural Networks (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">5</td>
@@ -1291,7 +1293,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-635</span>></td>
 <td>Desain dan Evaluasi Antarmuka Pengguna (UI/UX) (+P)</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-303</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-308</span>></td>
 <td>UI/UX Design &amp; Prototyping (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">3</td>
@@ -1303,7 +1305,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-636</span>></td>
 <td>Machine Learning (+P)</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-401</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-413</span>></td>
 <td>Machine Learning (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">4</td>
@@ -1315,7 +1317,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-637</span>></td>
 <td>Smart City dan Sistem Pemerintahan Digital</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-602</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-625</span>></td>
 <td>Smart City &amp; Pemerintahan Digital</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">6</td>
@@ -1332,7 +1334,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;"><strong>E5</strong></td>
-<td><strong>Dihapus</strong> dari K2026 (bertumpang dengan ranah riset algoritma Prodi TI, Dok. 016). Unsur ekstraksi fitur sinyal terserap parsial pada <span class="code-tag">STI-501</span>> Deep Learning &amp; <code>STA-06</code>> Smart Surveillance. Diakui sebagai kredit bebas 3 SKS</td>
+<td><strong>Dihapus</strong> dari K2026 (bertumpang dengan ranah riset algoritma Prodi TI, Dok. 016). Unsur ekstraksi fitur sinyal terserap parsial pada <span class="code-tag">STI-519</span>> Deep Learning &amp; <code>STA-06</code>> Smart Surveillance. Diakui sebagai kredit bebas 3 SKS</td>
 </tr>
 </tbody>
 </table></div>
@@ -1382,7 +1384,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-739</span>></td>
 <td>Platform Literasi dan Edukasi Digital (+P)</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-604</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-627</span>></td>
 <td>Digital Platform Engineering (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">6</td>
@@ -1394,7 +1396,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-740</span>></td>
 <td>Penambangan Data dan Visualisasi (+P)</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-503</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-520</span>></td>
 <td>Data Mining &amp; Visualisasi Data (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">5</td>
@@ -1406,7 +1408,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-741</span>></td>
 <td>Integrasi Layanan Cerdas Berbasis AI</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-601</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-624</span>></td>
 <td>Integrasi Layanan Cerdas Berbasis AI (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">6</td>
@@ -1418,7 +1420,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><span class="code-tag">STI-742</span>></td>
 <td>Inovasi Teknologi dan Startup Digital</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-701</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-728</span>></td>
 <td>Inovasi Teknologi dan Startup Digital (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">7</td>
@@ -1661,7 +1663,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-201</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-204</span>></td>
 <td>Matematika Diskrit dan Logika</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E3/G-1</td>
@@ -1669,7 +1671,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td>Rata-rata berbobot 2 MK lama</td>
 </tr>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-202</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-205</span>></td>
 <td>Aljabar Linear dan Matriks</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E1</td>
@@ -1740,7 +1742,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-301</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-306</span>></td>
 <td>Analisis dan Perancangan Sistem Informasi</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E1</td>
@@ -1748,7 +1750,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td>Alih nilai langsung</td>
 </tr>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-302</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-307</span>></td>
 <td>Sistem Cerdas</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">E1</td>
@@ -1756,7 +1758,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td>Alih nilai langsung</td>
 </tr>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-303</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-308</span>></td>
 <td>UI/UX Design &amp; Prototyping (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E3/G-3</td>
@@ -1764,7 +1766,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td>Rata-rata berbobot 2 MK lama</td>
 </tr>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-304</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-309</span>></td>
 <td>Rekayasa Perangkat Lunak</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E1</td>
@@ -1772,7 +1774,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td>Alih nilai langsung</td>
 </tr>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-305</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-310</span>></td>
 <td>Sistem Operasi</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E1</td>
@@ -1780,7 +1782,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td>Alih nilai langsung</td>
 </tr>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-306</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-311</span>></td>
 <td>Web Front End Development (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E2</td>
@@ -1788,7 +1790,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td><strong>Uji penyetaraan</strong> (pemisahan front/back end)</td>
 </tr>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-307</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-312</span>></td>
 <td>Jaringan Komputer (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"><strong>B</strong></td>
@@ -1811,7 +1813,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-401</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-413</span>></td>
 <td>Machine Learning (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E1</td>
@@ -1819,7 +1821,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td>Alih nilai langsung</td>
 </tr>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-402</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-415</span>></td>
 <td>Data Warehouse &amp; Business Intelligence (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E1</td>
@@ -1827,7 +1829,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td>Alih nilai langsung</td>
 </tr>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-403</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-414</span>></td>
 <td>Pengantar NLP &amp; Information Retrieval (+P)</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">E1</td>
@@ -1835,7 +1837,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td>Alih nilai; <span class="code-tag">STI-420</span>> → kredit bebas</td>
 </tr>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-404</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-417</span>></td>
 <td>Komputasi Awan (Cloud Computing)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E2</td>
@@ -1843,7 +1845,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td><strong>Tugas penyetaraan</strong> 1 SKS</td>
 </tr>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-405</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-418</span>></td>
 <td>Dasar Keamanan Informasi</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">E1</td>
@@ -1851,7 +1853,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td>Alih nilai langsung</td>
 </tr>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-407</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-416</span>></td>
 <td>Web Back End Development (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E1</td>
@@ -1898,7 +1900,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-501</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-519</span>></td>
 <td>Deep Learning &amp; Neural Networks (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E2</td>
@@ -1906,7 +1908,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td><strong>Uji penyetaraan</strong> (CNN &amp; pelatihan model)</td>
 </tr>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-503</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-520</span>></td>
 <td>Data Mining &amp; Visualisasi Data (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E3/G-2</td>
@@ -1914,7 +1916,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td>Rata-rata berbobot 2 MK lama</td>
 </tr>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-504</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-521</span>></td>
 <td>Internet of Things (IoT) (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E1</td>
@@ -1922,7 +1924,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td>Alih nilai langsung</td>
 </tr>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-505</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-522</span>></td>
 <td>Pemrograman Aplikasi Mobile (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E1</td>
@@ -1930,7 +1932,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td>Alih nilai langsung</td>
 </tr>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-506</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-523</span>></td>
 <td>Manajemen Proyek TI</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E2</td>
@@ -1977,7 +1979,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-601</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-624</span>></td>
 <td>Integrasi Layanan Cerdas Berbasis AI (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E2</td>
@@ -1985,7 +1987,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td><strong>Praktikum penyetaraan</strong> (MK penciri prodi)</td>
 </tr>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-602</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-625</span>></td>
 <td>Smart City &amp; Pemerintahan Digital</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">E1</td>
@@ -1993,7 +1995,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td>Alih nilai; 1 SKS jadi kredit bebas</td>
 </tr>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-603</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-626</span>></td>
 <td>Keamanan Informasi Lanjut</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"><strong>B</strong></td>
@@ -2001,7 +2003,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td><strong>WAJIB TEMPUH</strong> — jenjang keamanan lanjut</td>
 </tr>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-604</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-627</span>></td>
 <td>Digital Platform Engineering (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E2</td>
@@ -2040,7 +2042,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-701</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-728</span>></td>
 <td>Inovasi Teknologi dan Startup Digital (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E2</td>
@@ -2138,7 +2140,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;">20</td>
 <td style="text-align: center;">17</td>
 <td style="text-align: center;">3</td>
-<td><span class="code-tag">STI-307</span>></td>
+<td><span class="code-tag">STI-312</span>></td>
 <td style="text-align: center;">85,0%</td>
 </tr>
 <tr>
@@ -2162,7 +2164,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;">13 (tanpa elektif)</td>
 <td style="text-align: center;">10</td>
 <td style="text-align: center;">3</td>
-<td><span class="code-tag">STI-603</span>></td>
+<td><span class="code-tag">STI-626</span>></td>
 <td style="text-align: center;">76,9%</td>
 </tr>
 <tr>
@@ -2193,7 +2195,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 </table></div>
 <div class="custom-alert alert-important">
     <div class="alert-header"><span class="alert-icon">⚡</span> IMPORTANT</div>
-    <div class="alert-content">**Semester 1 dan 3 adalah titik kritis penyisipan.** Dua dari tiga MK wajib baru (`STI-103` Arsitektur & Organisasi STI di Sem 1, dan `STI-307` Jaringan Komputer di Sem 3) merupakan **prasyarat berantai** bagi MK di semester berikutnya: `STI-103` menjadi prasyarat `STI-201`, `STI-305`, dan `STI-307`; sedangkan `STI-307` menjadi prasyarat `STI-404` Cloud, `STI-405` Keamanan, `STI-504` IoT, dan `STB-01` Network Security. Bagi mahasiswa transisi yang telah melewati Semester 3, kedua MK ini **wajib disisipkan paling lambat pada Semester 5** agar tidak memblokir MK lanjutan.</div>
+    <div class="alert-content">**Semester 1 dan 3 adalah titik kritis penyisipan.** Dua dari tiga MK wajib baru (`STI-103` Arsitektur & Organisasi STI di Sem 1, dan `STI-312` Jaringan Komputer di Sem 3) merupakan **prasyarat berantai** bagi MK di semester berikutnya: `STI-103` menjadi prasyarat `STI-204`, `STI-310`, dan `STI-312`; sedangkan `STI-312` menjadi prasyarat `STI-417` Cloud, `STI-418` Keamanan, `STI-521` IoT, dan `STB-01` Network Security. Bagi mahasiswa transisi yang telah melewati Semester 3, kedua MK ini **wajib disisipkan paling lambat pada Semester 5** agar tidak memblokir MK lanjutan.</div>
 </div>
 
 <hr />
@@ -2217,7 +2219,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><strong>G-1</strong></td>
 <td><span class="code-tag">STI-103</span>> Logika Informatika (2) + <span class="code-tag">STI-205</span>> Matematika Diskrit (2)</td>
 <td style="text-align: center;">4</td>
-<td><span class="code-tag">STI-201</span>> Matematika Diskrit dan Logika</td>
+<td><span class="code-tag">STI-204</span>> Matematika Diskrit dan Logika</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">−1</td>
 <td>Logika proposisi dan aljabar Boolean adalah subbagian kanonik Matematika Diskrit (BK-IS10). Pemisahan menimbulkan pengulangan materi ± 40%</td>
@@ -2226,16 +2228,16 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;"><strong>G-2</strong></td>
 <td><span class="code-tag">STI-208</span>> Visualisasi Data &amp; Dashboard Interaktif (2) + <span class="code-tag">STI-740</span>> Penambangan Data dan Visualisasi (3)</td>
 <td style="text-align: center;">5</td>
-<td><span class="code-tag">STI-503</span>> Data Mining &amp; Visualisasi Data</td>
+<td><span class="code-tag">STI-520</span>> Data Mining &amp; Visualisasi Data</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">−2</td>
-<td>Visualisasi tanpa didahului penambangan data menyebabkan MK Sem 2 mengajarkan alat tanpa substansi analitik. Digabung pada Sem 5 setelah <span class="code-tag">STI-401</span>> Machine Learning</td>
+<td>Visualisasi tanpa didahului penambangan data menyebabkan MK Sem 2 mengajarkan alat tanpa substansi analitik. Digabung pada Sem 5 setelah <span class="code-tag">STI-413</span>> Machine Learning</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>G-3</strong></td>
 <td><span class="code-tag">STI-314</span>> Interaksi Manusia dan Komputer (3) + <span class="code-tag">STI-635</span>> Desain &amp; Evaluasi Antarmuka Pengguna UI/UX (3)</td>
 <td style="text-align: center;">6</td>
-<td><span class="code-tag">STI-303</span>> UI/UX Design &amp; Prototyping</td>
+<td><span class="code-tag">STI-308</span>> UI/UX Design &amp; Prototyping</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">−3</td>
 <td>Dua MK mengampu BK yang sama (BK-IS13 / BK-IT09) dengan overlap ± 70%. Materi riset pengguna lanjutan dipindahkan ke elektif <code>STC-01</code>> UX Research &amp; Design</td>
@@ -2256,7 +2258,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td><strong>4 MK Kurikulum 2026</strong></td>
 <td style="text-align: center;"><strong>12 SKS</strong></td>
 <td style="text-align: center;"><strong>−7 SKS</strong></td>
-<td>Efisiensi 7 SKS direalokasi ke <span class="code-tag">STI-103</span>> Arsitektur STI, <span class="code-tag">STI-307</span>> Jaringan Komputer, dan <span class="code-tag">FST-204</span>> Pengantar AI &amp; Data</td>
+<td>Efisiensi 7 SKS direalokasi ke <span class="code-tag">STI-103</span>> Arsitektur STI, <span class="code-tag">STI-312</span>> Jaringan Komputer, dan <span class="code-tag">FST-204</span>> Pengantar AI &amp; Data</td>
 </tr>
 </tbody>
 </table></div>
@@ -2329,7 +2331,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td><strong>Arsitektur dan Organisasi Sistem Teknologi Informasi</strong></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">🔴 <strong>Tinggi</strong></td>
-<td>Logika Informatika K2025 dipetakan ke <span class="code-tag">STI-201</span>> (klaster G-1). <span class="code-tag">STI-103</span>> K2026 adalah <strong>MK baru</strong> yang wajib ditempuh</td>
+<td>Logika Informatika K2025 dipetakan ke <span class="code-tag">STI-204</span>> (klaster G-1). <span class="code-tag">STI-103</span>> K2026 adalah <strong>MK baru</strong> yang wajib ditempuh</td>
 </tr>
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-101</span>></td>
@@ -2341,10 +2343,10 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td>Nama sama, SKS berbeda (3 → 2). Pemetaan E4: <span class="code-tag">STI-101</span>> (2) + <span class="code-tag">FST-101</span>> (2)</td>
 </tr>
 <tr>
-<td style="text-align: center;"><span class="code-tag">STI-405</span>>/<span class="code-tag">STI-313</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-418</span>>/<span class="code-tag">STI-313</span>></td>
 <td>Keamanan Informasi Dasar (<span class="code-tag">STI-313</span>>)</td>
 <td style="text-align: center;">2</td>
-<td>Dasar Keamanan Informasi (<span class="code-tag">STI-405</span>>)</td>
+<td>Dasar Keamanan Informasi (<span class="code-tag">STI-418</span>>)</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">🟢 <strong>Rendah</strong></td>
 <td>Kode berbeda, tidak berkolisi. Dicatat sebagai perubahan penomoran murni</td>
@@ -2379,20 +2381,20 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">1</td>
 <td style="text-align: center;">Core STI</td>
-<td><strong>Gap fondasi kritis K2025.</strong> K2025 tidak mengajarkan organisasi komputer, hierarki memori, maupun representasi data tingkat mesin (BK-IS03 / BK-IT05). Menjadi prasyarat <span class="code-tag">STI-305</span>> Sistem Operasi dan <span class="code-tag">STI-307</span>> Jaringan Komputer</td>
+<td><strong>Gap fondasi kritis K2025.</strong> K2025 tidak mengajarkan organisasi komputer, hierarki memori, maupun representasi data tingkat mesin (BK-IS03 / BK-IT05). Menjadi prasyarat <span class="code-tag">STI-310</span>> Sistem Operasi dan <span class="code-tag">STI-312</span>> Jaringan Komputer</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">STI-307</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-312</span>></td>
 <td>Jaringan Komputer (+P)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">Core STI</td>
-<td><strong>Gap fondasi kritis K2025.</strong> K2025 melompat langsung ke <span class="code-tag">STI-529</span>> Keamanan Jaringan tanpa MK jaringan komputer dasar. Prasyarat wajib bagi Cloud (<span class="code-tag">STI-404</span>>), IoT (<span class="code-tag">STI-504</span>>), dan Keamanan (<span class="code-tag">STI-405</span>>)</td>
+<td><strong>Gap fondasi kritis K2025.</strong> K2025 melompat langsung ke <span class="code-tag">STI-529</span>> Keamanan Jaringan tanpa MK jaringan komputer dasar. Prasyarat wajib bagi Cloud (<span class="code-tag">STI-417</span>>), IoT (<span class="code-tag">STI-521</span>>), dan Keamanan (<span class="code-tag">STI-418</span>>)</td>
 </tr>
 <tr>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-603</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-626</span>></td>
 <td>Keamanan Informasi Lanjut</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">6</td>
@@ -2558,7 +2560,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
     <div class="alert-header"><span class="alert-icon">⚡</span> IMPORTANT</div>
     <div class="alert-content">**Konsekuensi bagi mahasiswa transisi:** pengakuan MK elektif **bergantung pada peminatan yang dipilih**. MK K2025 yang berpadanan ke elektif di luar peminatan terpilih otomatis menjadi kredit bebas. Contoh: mahasiswa yang telah lulus `STI-633` SPK namun memilih Peminatan P2 tidak dapat mengklaim `STA-01`; 3 SKS tersebut dicatat sebagai kredit bebas.
 
-**Prasyarat elektif wajib dicek terpisah.** Empat MK elektif memiliki prasyarat pada MK wajib **baru** K2026 yang belum ditempuh mahasiswa transisi: `STB-01` membutuhkan `STI-307` Jaringan Komputer (MK baru), sedangkan `STA-04` membutuhkan `STI-601` yang berada pada semester yang sama sehingga perlu ditetapkan sebagai prasyarat lunak (concurrent) atau dihapus.</div>
+**Prasyarat elektif wajib dicek terpisah.** Empat MK elektif memiliki prasyarat pada MK wajib **baru** K2026 yang belum ditempuh mahasiswa transisi: `STB-01` membutuhkan `STI-312` Jaringan Komputer (MK baru), sedangkan `STA-04` membutuhkan `STI-624` yang berada pada semester yang sama sehingga perlu ditetapkan sebagai prasyarat lunak (concurrent) atau dihapus.</div>
 </div>
 
 <hr />
@@ -2594,7 +2596,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td style="text-align: center;">79</td>
 <td style="text-align: center;"><strong>70</strong></td>
 <td style="text-align: center;">9</td>
-<td><span class="code-tag">STI-103</span>> (3), <span class="code-tag">STI-307</span>> (3), <span class="code-tag">STI-603</span>> (3)</td>
+<td><span class="code-tag">STI-103</span>> (3), <span class="code-tag">STI-312</span>> (3), <span class="code-tag">STI-626</span>> (3)</td>
 </tr>
 <tr>
 <td>MK Elektif Peminatan P1 (6 MK)</td>
@@ -2635,7 +2637,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 </table></div>
 <div class="custom-alert alert-note">
     <div class="alert-header"><span class="alert-icon">ℹ️</span> NOTE</div>
-    <div class="alert-content">**Rincian status pengakuan (jalur P1/P2):** Dari 114 SKS MK wajib yang diakui, **24 SKS berstatus bersyarat (E2)** dan mensyaratkan uji penyetaraan, yaitu `FST-203`, `STI-306`, `STI-404`, `STI-501`, `STI-506`, `STI-601`, `STI-604`, dan `STI-701`. Pada jalur P1 terdapat tambahan 3 SKS bersyarat (`STA-02`), sedangkan `FST-101` (2 SKS) bersyarat melalui skema E4.</div>
+    <div class="alert-content">**Rincian status pengakuan (jalur P1/P2):** Dari 114 SKS MK wajib yang diakui, **24 SKS berstatus bersyarat (E2)** dan mensyaratkan uji penyetaraan, yaitu `FST-203`, `STI-311`, `STI-417`, `STI-519`, `STI-523`, `STI-624`, `STI-627`, dan `STI-728`. Pada jalur P1 terdapat tambahan 3 SKS bersyarat (`STA-02`), sedangkan `FST-101` (2 SKS) bersyarat melalui skema E4.</div>
 </div>
 
 <h3 id="711-neraca-sks-kurikulum-2025-setelah-konversi-146-sks">7.1.1 NERACA SKS KURIKULUM 2025 SETELAH KONVERSI (146 SKS)</h3>
@@ -2710,21 +2712,21 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <td><strong>Telah selesai Sem 1–2</strong></td>
 <td style="text-align: center;">36 SKS</td>
 <td style="text-align: center;">± 31 SKS</td>
-<td><span class="code-tag">STI-103</span>> (3), <span class="code-tag">FST-204</span>> (2), <span class="code-tag">STI-307</span>> (3)</td>
+<td><span class="code-tag">STI-103</span>> (3), <span class="code-tag">FST-204</span>> (2), <span class="code-tag">STI-312</span>> (3)</td>
 <td><strong>Migrasi penuh ke K2026.</strong> Sisipkan 3 MK baru secara bertahap pada Sem 3–4 (maksimum +3 SKS per semester) agar beban per semester tetap ≤ 22 SKS</td>
 </tr>
 <tr>
 <td><strong>Telah selesai Sem 3–4</strong></td>
 <td style="text-align: center;">76 SKS</td>
 <td style="text-align: center;">± 66 SKS</td>
-<td><span class="code-tag">STI-103</span>> (3), <span class="code-tag">STI-307</span>> (3), <span class="code-tag">FST-204</span>> (2), <span class="code-tag">FST-610</span>> (3)</td>
-<td><strong>Migrasi selektif.</strong> <span class="code-tag">STI-103</span>> dan <span class="code-tag">STI-307</span>> wajib pada Sem 5 karena menjadi prasyarat Cloud, IoT, dan Keamanan; <span class="code-tag">FST-610</span>> Capstone pada Sem 7</td>
+<td><span class="code-tag">STI-103</span>> (3), <span class="code-tag">STI-312</span>> (3), <span class="code-tag">FST-204</span>> (2), <span class="code-tag">FST-610</span>> (3)</td>
+<td><strong>Migrasi selektif.</strong> <span class="code-tag">STI-103</span>> dan <span class="code-tag">STI-312</span>> wajib pada Sem 5 karena menjadi prasyarat Cloud, IoT, dan Keamanan; <span class="code-tag">FST-610</span>> Capstone pada Sem 7</td>
 </tr>
 <tr>
 <td><strong>Telah selesai Sem 5–6</strong></td>
 <td style="text-align: center;">118 SKS</td>
 <td style="text-align: center;">± 106 SKS</td>
-<td><span class="code-tag">FST-610</span>> (3) dan <span class="code-tag">STI-603</span>> (3) atau ekuivalen</td>
+<td><span class="code-tag">FST-610</span>> (3) dan <span class="code-tag">STI-626</span>> (3) atau ekuivalen</td>
 <td><strong>Tetap pada K2025</strong> dengan penyisipan <span class="code-tag">FST-610</span>> Capstone Project FSTI sebagai pengganti 3 SKS MK pilihan. Migrasi penuh tidak efisien karena defisit melampaui 24 SKS</td>
 </tr>
 <tr>
@@ -2947,7 +2949,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-103</span>></td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">STI-201</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-204</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E3/G-1</td>
 <td style="text-align: center;">C</td>
@@ -2956,7 +2958,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-205</span>></td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">STI-201</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-204</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E3/G-1</td>
 <td style="text-align: center;">C</td>
@@ -2992,7 +2994,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-208</span>></td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">STI-503</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-520</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E3/G-2</td>
 <td style="text-align: center;">C</td>
@@ -3001,7 +3003,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-740</span>></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-503</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-520</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E3/G-2</td>
 <td style="text-align: center;">C</td>
@@ -3010,7 +3012,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-209</span>></td>
 <td style="text-align: center;">4</td>
-<td style="text-align: center;"><span class="code-tag">STI-202</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-205</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E1</td>
 <td style="text-align: center;">C</td>
@@ -3019,7 +3021,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-310</span>></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-301</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-306</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E1</td>
 <td style="text-align: center;">C</td>
@@ -3028,7 +3030,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-311</span>></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-305</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-310</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E1</td>
 <td style="text-align: center;">C</td>
@@ -3037,7 +3039,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-312</span>></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-306</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-311</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E2</td>
 <td style="text-align: center;">C</td>
@@ -3046,7 +3048,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-313</span>></td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">STI-405</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-418</span>></td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">E1</td>
 <td style="text-align: center;">C</td>
@@ -3055,7 +3057,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-314</span>></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-303</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-308</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E3/G-3</td>
 <td style="text-align: center;">C</td>
@@ -3064,7 +3066,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-635</span>></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-303</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-308</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E3/G-3</td>
 <td style="text-align: center;">C</td>
@@ -3109,7 +3111,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-418</span>></td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">STI-302</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-307</span>></td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">E1</td>
 <td style="text-align: center;">C</td>
@@ -3118,7 +3120,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-419</span>></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-505</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-522</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E1</td>
 <td style="text-align: center;">C</td>
@@ -3127,7 +3129,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-420</span>></td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">STI-403</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-414</span>></td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">E2</td>
 <td style="text-align: center;">C</td>
@@ -3136,7 +3138,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-421</span>></td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">STI-506</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-523</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E2</td>
 <td style="text-align: center;">C</td>
@@ -3145,7 +3147,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-422</span>></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-701</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-728</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E2</td>
 <td style="text-align: center;">C</td>
@@ -3172,7 +3174,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-525</span>></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-407</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-416</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E1</td>
 <td style="text-align: center;">C</td>
@@ -3181,7 +3183,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-526</span>></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-504</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-521</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E1</td>
 <td style="text-align: center;">C</td>
@@ -3190,7 +3192,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-527</span>></td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">STI-404</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-417</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E2</td>
 <td style="text-align: center;">C</td>
@@ -3199,7 +3201,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-528</span>></td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">STI-403</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-414</span>></td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">E1</td>
 <td style="text-align: center;">C</td>
@@ -3217,7 +3219,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-530</span>></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-402</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-415</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E1</td>
 <td style="text-align: center;">C</td>
@@ -3226,7 +3228,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-632</span>></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-304</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-309</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E1</td>
 <td style="text-align: center;">C</td>
@@ -3244,7 +3246,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-634</span>></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-501</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-519</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E2</td>
 <td style="text-align: center;">C</td>
@@ -3253,7 +3255,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-636</span>></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-401</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-413</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E1</td>
 <td style="text-align: center;">C</td>
@@ -3262,7 +3264,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-637</span>></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-602</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-625</span>></td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">E1</td>
 <td style="text-align: center;">C</td>
@@ -3280,7 +3282,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-739</span>></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-604</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-627</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E2</td>
 <td style="text-align: center;">C</td>
@@ -3289,7 +3291,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-741</span>></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-601</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-624</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E2</td>
 <td style="text-align: center;">C</td>
@@ -3298,7 +3300,7 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 <tr>
 <td style="text-align: center;"><span class="code-tag">STI-742</span>></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-701</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-728</span>></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">E2</td>
 <td style="text-align: center;">C</td>
@@ -3333,10 +3335,10 @@ Skrip tersebut membaca PDF SIAKAD secara langsung dan menggagalkan proses (exit 
 
 | MK Baru | Asal K2025 | Kategori | Klaim Diprioritaskan | Dialihkan ke Kredit Bebas | Dasar Penentuan |
 |:---:|---|:---:|:---:|:---:|---|
-| `STI-403` | `STI-528` Text Mining dan NLP | **E1** | ✅ `STI-528` | `STI-420` (2 SKS) | Jenjang 1: E1 mengalahkan E2 |
-| `STI-403` | `STI-420` Semantic Web dan Ontologi | E2 | — | — | — |
-| `STI-701` | `STI-742` Inovasi Teknologi dan Startup Digital | **E2** | ✅ `STI-742` | `STI-422` (3 SKS) | Jenjang 2: nama & capaian identik dengan MK baru, sedangkan `STI-422` hanya beririsan ± 65% |
-| `STI-701` | `STI-422` E-Commerce dan Digital Business | E2 | — | — | — |
+| `STI-414` | `STI-528` Text Mining dan NLP | **E1** | ✅ `STI-528` | `STI-420` (2 SKS) | Jenjang 1: E1 mengalahkan E2 |
+| `STI-414` | `STI-420` Semantic Web dan Ontologi | E2 | — | — | — |
+| `STI-728` | `STI-742` Inovasi Teknologi dan Startup Digital | **E2** | ✅ `STI-742` | `STI-422` (3 SKS) | Jenjang 2: nama & capaian identik dengan MK baru, sedangkan `STI-422` hanya beririsan ± 65% |
+| `STI-728` | `STI-422` E-Commerce dan Digital Business | E2 | — | — | — |
 
 Konsekuensi: setiap mahasiswa kehilangan **5 SKS** dari 146 SKS lamanya akibat klaim ganda (2 SKS dari `STI-420` + 3 SKS dari `STI-422`), yang tercatat sebagai kredit bebas pada transkrip.
 

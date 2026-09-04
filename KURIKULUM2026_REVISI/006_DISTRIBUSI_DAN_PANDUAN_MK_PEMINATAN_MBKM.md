@@ -14,15 +14,15 @@
 | --- | --- | --- | --- |
 | Magang Industri | Sem 6 | • MK Pilihan Peminatan 2 (3) | **20 SKS** |
 | Bersertifikat (MSIB) |  | • MK Pilihan Peminatan 3 (3) |  |
-|  |  | • STI-601 Integrasi AI (3) |  |
-|  |  | • STI-604 Platform Eng (3) |  |
-|  |  | • STI-602 Smart City (3) |  |
-|  |  | • STI-603 Keamanan Lanjut (3) |  |
+|  |  | • STI-624 Integrasi AI (3) |  |
+|  |  | • STI-627 Platform Eng (3) |  |
+|  |  | • STI-625 Smart City (3) |  |
+|  |  | • STI-626 Keamanan Lanjut (3) |  |
 |  |  | • FST-611 Metopel (2) |  |
 | Magang Industri / | Sem 7 | • MK Pilihan Peminatan 4 (3) | **20 SKS** |
 | Studi Independen / |  | • MK Pilihan Peminatan 5 (3) |  |
 | Wirausaha Merdeka |  | • MK Pilihan Peminatan 6 (3) |  |
-|  |  | • STI-701 Startup Digital (3) |  |
+|  |  | • STI-728 Startup Digital (3) |  |
 |  |  | • FST-610 Capstone FSTI (3) |  |
 |  |  | • FST-612 PKL Industri (3) |  |
 |  |  | • FST-613 Pra-Skripsi (2) |  |

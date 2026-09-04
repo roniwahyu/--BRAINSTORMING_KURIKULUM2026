@@ -38,11 +38,11 @@ for fpath in md_files:
                     print(f"[DISCREPANCY] {fname}:{line_num} -> Found STI-103 with old name: {line.strip()}")
                     errors += 1
 
-        # Check STI-201 naming
-        if "STI-201" in line:
+        # Check STI-204 naming
+        if "STI-204" in line:
             if "Matematika Diskrit" in line and "Logika" not in line and not any(k in line for k in ["(Lama)", "Matematika Diskrit (Lama)", "Matematika Diskrit lama"]):
                 if fname not in EXEMPT:
-                    print(f"[DISCREPANCY] {fname}:{line_num} -> Found STI-201 without Logika: {line.strip()}")
+                    print(f"[DISCREPANCY] {fname}:{line_num} -> Found STI-204 without Logika: {line.strip()}")
                     errors += 1
 
 if errors == 0:

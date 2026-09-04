@@ -22,19 +22,19 @@
 
 ## 🔧 Perubahan Bobot SKS Mata Kuliah
 
-### **STI-405: Dasar Keamanan Informasi**
+### **STI-418: Dasar Keamanan Informasi**
 - **Semester:** 4
 - **Perubahan:** `3 SKS` → **`2 SKS`**
 - **Jenis:** Teori (Non-+P)
 - **Rasional:** Materi foundational cybersecurity dapat dipadatkan dengan metode flipped classroom; alokasi 2 SKS cukup untuk kompetensi CPL P3, KK3
 - **Dampak:** Semester 4 Total: 22 SKS → **21 SKS**
 
-### **STI-602: Smart City & Pemerintahan Digital**
+### **STI-625: Smart City & Pemerintahan Digital**
 - **Semester:** 6
 - **Perubahan:** `3 SKS` → **`2 SKS`**
 - **Jenis:** Teori (Non-+P)
 - **Focus:** SPBE Architecture & Urban Governance (non-implementasi prototyping)
-- **Rasional:** Fokus ke konseptual framework SPBE, Smart City Architecture, dan Digital Government Policy (tanpa hands-on IoT prototyping yang sudah dicakup STI-504)
+- **Rasional:** Fokus ke konseptual framework SPBE, Smart City Architecture, dan Digital Government Policy (tanpa hands-on IoT prototyping yang sudah dicakup STI-521)
 - **Dampak:** Semester 6 Total: 20 SKS → **19 SKS**
 
 ---
@@ -55,7 +55,7 @@
 
 **Catatan:**  
 - Semester 1 & 2: Maksimal 20 SKS (Patuh Permendikbudristek No. 53/2023)
-- Semester 4 & 6: Penyesuaian SKS akibat optimasi STI-405 & STI-602
+- Semester 4 & 6: Penyesuaian SKS akibat optimasi STI-418 & STI-625
 - Total Paket **memenuhi & melampaui** syarat lulus minimal nasional 144 SKS
 
 ---
@@ -129,12 +129,12 @@
    - Mengganti semua kemunculan `79 SKS` → `77 SKS`
 
 2. **Context-Aware MK SKS Update:**
-   - STI-405: Hanya di kolom **Nama MK** (bukan di kolom prasyarat)
-   - STI-602: Hanya untuk **Smart City** (bukan Data Mining/Data Warehouse dengan kode berbeda)
+   - STI-418: Hanya di kolom **Nama MK** (bukan di kolom prasyarat)
+   - STI-625: Hanya untuk **Smart City** (bukan Data Mining/Data Warehouse dengan kode berbeda)
 
 3. **Line-by-Line Pattern Matching:**
-   - Regex pattern: `| STI-405 | ... | 3 |` → `| STI-405 | ... | 2 |`
-   - Regex pattern: `| STI-602 | ... | 3 |` → `| STI-602 | ... | 2 |`
+   - Regex pattern: `| STI-418 | ... | 3 |` → `| STI-418 | ... | 2 |`
+   - Regex pattern: `| STI-625 | ... | 3 |` → `| STI-625 | ... | 2 |`
 
 4. **Automated Python Scripts:**
    - Scan 54 file `.md` di folder `REVISI` & `ZCODE`
@@ -176,7 +176,7 @@ Mahasiswa menempuh **1 paket penuh** (6 MK / 18 SKS) dari 18 MK elektif yang dit
 - [x] Semua dokumen `.md` di folder `REVISI` & `ZCODE` tersinkronisasi
 - [x] Total SKS Paket: **146 SKS / 55 MK** (ground truth final)
 - [x] Total SKS Portofolio: **182 SKS / 67 MK**
-- [x] STI-405 & STI-602 @ **2 SKS** (verified di 54 file)
+- [x] STI-418 & STI-625 @ **2 SKS** (verified di 54 file)
 - [x] Tidak ada nilai SKS outdated tersisa (0 occurrences)
 - [x] File `AGENTS.md` & root documentation terupdate
 - [x] HTML portal `index.html` & individual `.html` files regenerated
@@ -190,7 +190,7 @@ Mahasiswa menempuh **1 paket penuh** (6 MK / 18 SKS) dari 18 MK elektif yang dit
 
 1. **Folder `KURIKULUM2026_REVISI/` adalah Single Source of Truth definitif** untuk penyusunan Naskah Buku Kurikulum KPT-OBE SISTEKIN 2026 yang akan diajukan ke SK Rektor.
 
-2. **Perubahan STI-405 & STI-602** telah diselaraskan di:
+2. **Perubahan STI-418 & STI-625** telah diselaraskan di:
    - Tabel Struktur 8 Semester
    - Matriks Keterlacakan CPL ↔ MK
    - Silabus 3-Tabel (CPMK, Sub-CPMK, 16 Pertemuan)

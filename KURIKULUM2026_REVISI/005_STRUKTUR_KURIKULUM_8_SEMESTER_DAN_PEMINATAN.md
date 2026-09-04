@@ -96,8 +96,8 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 ### SEMESTER 2 (20 SKS) — Fondasi Data, Matdis & Logika, Aljabar & Etika
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
-| 9 | `STI-201` | Matematika Diskrit dan Logika | 3 | Teori | Core STI | `STI-103` |
-| 10 | `STI-202` | Aljabar Linear dan Matriks | 3 | Teori | Core STI | `STI-102` |
+| 9 | `STI-204` | Matematika Diskrit dan Logika | 3 | Teori | Core STI | `STI-103` |
+| 10 | `STI-205` | Aljabar Linear dan Matriks | 3 | Teori | Core STI | `STI-102` |
 | 11 | `FST-203` | Struktur Data dan Algoritma | 3 | +P | FSTI | `FST-102` |
 | 12 | `FST-204` | Pengantar Kecerdasan Artifisial & Data | 2 | Teori | FSTI | `FST-101` |
 | 13 | `FST-205` | Basic English for IT | 2 | Teori | FSTI | — |
@@ -111,13 +111,13 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 ### SEMESTER 3 (20 SKS) — Penguatan Core RPL, OS, Jarkom & UI/UX
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
-| 17 | `STI-301` | Analisis dan Perancangan Sistem Informasi | 3 | Teori | Core STI | `STI-101`, `FST-207` |
-| 18 | `STI-302` | Sistem Cerdas | 2 | Teori | Core STI | `STI-201`, `FST-204` |
-| 19 | `STI-303` | UI/UX Design & Prototyping | 3 | +P | Core STI | `FST-101` |
-| 20 | `STI-304` | Rekayasa Perangkat Lunak | 3 | Teori | Core STI | `FST-203` |
-| 21 | `STI-305` | Sistem Operasi | 3 | Teori | Core STI | `STI-103` |
-| 22 | `STI-306` | Web Front End Development | 3 | +P | Core STI | `FST-102` |
-| 23 | `STI-307` | Jaringan Komputer | 3 | +P | Core STI | `STI-103` |
+| 17 | `STI-306` | Analisis dan Perancangan Sistem Informasi | 3 | Teori | Core STI | `STI-101`, `FST-207` |
+| 18 | `STI-307` | Sistem Cerdas | 2 | Teori | Core STI | `STI-204`, `FST-204` |
+| 19 | `STI-308` | UI/UX Design & Prototyping | 3 | +P | Core STI | `FST-101` |
+| 20 | `STI-309` | Rekayasa Perangkat Lunak | 3 | Teori | Core STI | `FST-203` |
+| 21 | `STI-310` | Sistem Operasi | 3 | Teori | Core STI | `STI-103` |
+| 22 | `STI-311` | Web Front End Development | 3 | +P | Core STI | `FST-102` |
+| 23 | `STI-312` | Jaringan Komputer | 3 | +P | Core STI | `STI-103` |
 | **SUBTOTAL** | — | **Total SKS Semester 3 (7 MK)** | **20** | — | — | **Kumulatif: 59 SKS** |
 
 ---
@@ -125,12 +125,12 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 ### SEMESTER 4 (21 SKS) — Penguatan Core AI/ML, NLP, DW & Cloud
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
-| 24 | `STI-401` | Machine Learning | 3 | +P | Core STI | `STI-202`, `STI-302` |
-| 25 | `STI-403` | Pengantar NLP & Information Retrieval | 2 | +P | Core STI | `STI-302` |
-| 26 | `STI-402` | Data Warehouse & Business Intelligence | 3 | +P | Core STI | `FST-207` |
-| 27 | `STI-407` | Web Back End Development | 3 | +P | Core STI | `FST-207`, `STI-306` |
-| 28 | `STI-404` | Komputasi Awan (Cloud Computing) | 3 | Teori | Core STI | `STI-307`, `STI-305` |
-| 29 | `STI-405` | Dasar Keamanan Informasi | 2 | Teori | Core STI | `STI-307` |
+| 24 | `STI-413` | Machine Learning | 3 | +P | Core STI | `STI-205`, `STI-307` |
+| 25 | `STI-414` | Pengantar NLP & Information Retrieval | 2 | +P | Core STI | `STI-307` |
+| 26 | `STI-415` | Data Warehouse & Business Intelligence | 3 | +P | Core STI | `FST-207` |
+| 27 | `STI-416` | Web Back End Development | 3 | +P | Core STI | `FST-207`, `STI-311` |
+| 28 | `STI-417` | Komputasi Awan (Cloud Computing) | 3 | Teori | Core STI | `STI-312`, `STI-310` |
+| 29 | `STI-418` | Dasar Keamanan Informasi | 2 | Teori | Core STI | `STI-312` |
 | 30 | `FST-408` | Probabilitas dan Statistika | 3 | Teori | FSTI | `STI-102` |
 | 31 | `MKU-405` | Kewarganegaraan | 2 | Teori | MKWU | — |
 | 31.B | `MKU-406` | Agama II | 0 | Teori | MKWU | — (Kebijakan UWG, Sem 4) |
@@ -141,11 +141,11 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 ### SEMESTER 5 (21 SKS) — Tahap Spesialisasi Deep Learning, IoT & Peminatan 1
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
-| 32 | `STI-501` | Deep Learning & Neural Networks | 3 | +P | Core STI | `STI-401` |
-| 33 | `STI-503` | Data Mining & Visualisasi Data | 3 | +P | Core STI | `STI-401`, `STI-402` |
-| 34 | `STI-504` | Internet of Things (IoT) | 3 | +P | Core STI | `STI-307`, `STI-305` |
-| 35 | `STI-505` | Pemrograman Aplikasi Mobile | 3 | +P | Core STI | `STI-306`, `STI-407` |
-| 36 | `STI-506` | Manajemen Proyek TI | 3 | Teori | Core STI | `STI-301`, `STI-304` |
+| 32 | `STI-519` | Deep Learning & Neural Networks | 3 | +P | Core STI | `STI-413` |
+| 33 | `STI-520` | Data Mining & Visualisasi Data | 3 | +P | Core STI | `STI-413`, `STI-415` |
+| 34 | `STI-521` | Internet of Things (IoT) | 3 | +P | Core STI | `STI-312`, `STI-310` |
+| 35 | `STI-522` | Pemrograman Aplikasi Mobile | 3 | +P | Core STI | `STI-311`, `STI-416` |
+| 36 | `STI-523` | Manajemen Proyek TI | 3 | Teori | Core STI | `STI-306`, `STI-309` |
 | 37 | `MKU-507` | Kuliah Pengabdian Kepada Masyarakat (KPM) | 3 | Praktik | MKWU | $\ge 80\text{ SKS}$ |
 | 38 | `STA/B/C` | **MK Pilihan Peminatan 1** | 3 | Elektif | Peminatan | Prasyarat Peminatan |
 | 38.B | `MKU-508` | Kewirausahaan II | 0 | Teori | MKWU | — (Kebijakan UWG, Sem 5) |
@@ -156,10 +156,10 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 ### SEMESTER 6 (19 SKS) — Tahap Spesialisasi MBKM & Platform Engineering
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
-| 39 | `STI-601` | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | Core STI | `STI-501`, `STI-407` |
-| 40 | `STI-602` | Smart City & Pemerintahan Digital | 2 | Teori | Core STI | `STI-504` |
-| 41 | `STI-603` | Keamanan Informasi Lanjut | 3 | Teori | Core STI | `STI-405` |
-| 42 | `STI-604` | Digital Platform Engineering | 3 | +P | Core STI | `STI-407` |
+| 39 | `STI-624` | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | Core STI | `STI-519`, `STI-416` |
+| 40 | `STI-625` | Smart City & Pemerintahan Digital | 2 | Teori | Core STI | `STI-521` |
+| 41 | `STI-626` | Keamanan Informasi Lanjut | 3 | Teori | Core STI | `STI-418` |
+| 42 | `STI-627` | Digital Platform Engineering | 3 | +P | Core STI | `STI-416` |
 | 43 | `FST-611` | Metodologi Penelitian | 2 | Teori | FSTI | $\ge 76\text{ SKS}$ |
 | 44 | `STA/B/C` | **MK Pilihan Peminatan 2** | 3 | Elektif | Peminatan | Prasyarat Peminatan |
 | 45 | `STA/B/C` | **MK Pilihan Peminatan 3** | 3 | Elektif | Peminatan | Prasyarat Peminatan |
@@ -170,8 +170,8 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 ### SEMESTER 7 (20 SKS) — Tahap Integrasi Capstone, PKL & Pra-Skripsi
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
-| 46 | `STI-701` | Inovasi Teknologi dan Startup Digital | 3 | +P | Core STI | `STI-604`, `MKU-204` |
-| 47 | `FST-610` | Capstone Project FSTI | 3 | Proyek | FSTI | `STI-506`, $\ge 100\text{ SKS}$ |
+| 46 | `STI-728` | Inovasi Teknologi dan Startup Digital | 3 | +P | Core STI | `STI-627`, `MKU-204` |
+| 47 | `FST-610` | Capstone Project FSTI | 3 | Proyek | FSTI | `STI-523`, $\ge 100\text{ SKS}$ |
 | 48 | `FST-612` | Praktik Kerja Lapangan (PKL) | 3 | Magang | FSTI | $\ge 100\text{ SKS}$ |
 | 49 | `FST-613` | Pra-Skripsi / Seminar Proposal | 2 | Seminar | FSTI | `FST-611`, $\ge 100\text{ SKS}$ |
 | 50 | `STA/B/C` | **MK Pilihan Peminatan 4** | 3 | Elektif | Peminatan | Prasyarat Peminatan |
