@@ -111,6 +111,7 @@ KURIKULUM2026_REVISI/
 ├── 026_ANALISIS_KRITIS_MK_DIHAPUS_DAN_REKOMENDASI_PENGGANTI.md ⭐ (Audit Klaim Penyerapan 2 MK Kategori E5, Uji Ambang E2 atas 5 Kandidat, Rumusan Catatan Pengganti — BELUM diterapkan ke Dok 024)
 ├── 027_RENCANA_RESTRUKTURISASI_KODE_MK_CORE_STI_KONTINU.md ⭐ (Rencana Aksi & Mapping Standarisasi Kode Berkesinambungan STI-101 s.d. STI-728)
 ├── 028_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_CORE_STI.md ⭐ (Dev Report & Dev Log Restrukturisasi Kode MK Core STI Kontinu)
+├── 029_TABEL_VERIFIKASI_KODE_MK_BARU.md ⭐ (Tabel Verifikasi Kode MK Baru Core STI Sem 1 & 3 dari Lembar Kerja)
 ├── BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md ⭐ (Naskah Utuh Lengkap Buku Kurikulum Bab 1-8 + Silabus)
 ├── GENERATE_EXCEL_011.bat (Trigger Batch Sekali Klik untuk Re-generate Excel)
 ├── GENERATE_HTML.bat (Trigger Batch Sekali Klik untuk Re-generate Seluruh File HTML & Portal)

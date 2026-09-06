@@ -40,6 +40,7 @@ DOC_FILES = [
     ("026_ANALISIS_KRITIS_MK_DIHAPUS_DAN_REKOMENDASI_PENGGANTI.md", "026 — Analisis Kritis MK Dihapus & Rekomendasi Pengganti"),
     ("027_RENCANA_RESTRUKTURISASI_KODE_MK_CORE_STI_KONTINU.md", "027 — Rencana Aksi Restrukturisasi Kode Core STI Kontinu"),
     ("028_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_CORE_STI.md", "028 — Dev Report & Dev Log Restrukturisasi Kode Core STI"),
+    ("029_TABEL_VERIFIKASI_KODE_MK_BARU.md", "029 — Tabel Verifikasi Kode MK Baru (Core STI Sem 1 & 3)"),
     ("BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md", "📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)")
 ]
 
