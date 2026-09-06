@@ -58,7 +58,25 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 
 ---
 
-### 1.1 KELOMPOK MATA KULIAH WAJIB FAKULTAS (FSTI) (13 MK / 36 SKS)
+### 1.1 KELOMPOK MATA KULIAH WAJIB UMUM (MKWU) (8 MK / 13 SKS)
+
+Mata kuliah wajib nasional dan universitas yang membina sikap, karakter kebangsaan, nilai religius, kewirausahaan, serta pengabdian masyarakat (SN-Dikti & Kebijakan UWG):
+
+| No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Semester | Prasyarat | Catatan / Kebijakan |
+|:---:|:---:|---|:---:|:---:|:---:|---|---|
+| 1 | `MKU-101` | Agama I | 2 | Teori | Sem 1 | — | Wajib Nasional SN-Dikti |
+| 2 | `MKU-102` | Pancasila | 2 | Teori | Sem 1 | — | Wajib Nasional SN-Dikti |
+| 3 | `MKU-103` | Bahasa Indonesia | 2 | Teori | Sem 1 | — | Wajib Nasional SN-Dikti |
+| 4 | `MKU-204` | Kewirausahaan I | 2 | Teori | Sem 2 | — | Muatan Unggulan Universitas |
+| 5 | `MKU-405` | Kewarganegaraan | 2 | Teori | Sem 4 | — | Wajib Nasional SN-Dikti |
+| 6 | `MKU-406` | Agama II | 0 | Teori | Sem 4 | — | Muatan Khusus Kebijakan UWG |
+| 7 | `MKU-507` | Kuliah Pengabdian Kepada Masyarakat (KPM) | 3 | Praktik | Sem 5 | $\ge 80\text{ SKS}$ | Wajib Universitas / MBKM |
+| 8 | `MKU-508` | Kewirausahaan II | 0 | Teori | Sem 5 | — | Muatan Khusus Kebijakan UWG |
+| **TOTAL** | — | **8 Mata Kuliah Wajib Umum** | **13** | — | — | **8,9% Beban Kurikulum** | **6 Berbobot SKS + 2 Khusus UWG (0 SKS)** |
+
+---
+
+### 1.2 KELOMPOK MATA KULIAH WAJIB FAKULTAS (FSTI) (13 MK / 36 SKS)
 
 Mata kuliah bersama tingkat fakultas yang membekali fondasi sains komputer dasar, rekayasa perangkat lunak dasar, basis data, kecerdasan artifisial, etika profesi, metodologi penelitian, serta tugas akhir sarjana:
 
@@ -81,7 +99,7 @@ Mata kuliah bersama tingkat fakultas yang membekali fondasi sains komputer dasar
 
 ---
 
-### 1.2 KELOMPOK MATA KULIAH INTI PROGRAM STUDI (CORE STI) (28 MK / 79 SKS)
+### 1.3 KELOMPOK MATA KULIAH INTI PROGRAM STUDI (CORE STI) (28 MK / 79 SKS)
 
 Mata kuliah keahlian inti Sistem dan Teknologi Informasi yang membina 14 CPL Program Studi dengan skema penomoran berkesinambungan (`STI-101` s.d. `STI-728`):
 
