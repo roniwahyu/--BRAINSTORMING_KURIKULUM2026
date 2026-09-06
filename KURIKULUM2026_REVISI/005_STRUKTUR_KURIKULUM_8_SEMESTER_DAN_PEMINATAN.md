@@ -58,6 +58,67 @@ Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) menetapkan paket waj
 
 ---
 
+### 1.1 KELOMPOK MATA KULIAH WAJIB FAKULTAS (FSTI) (13 MK / 36 SKS)
+
+Mata kuliah bersama tingkat fakultas yang membekali fondasi sains komputer dasar, rekayasa perangkat lunak dasar, basis data, kecerdasan artifisial, etika profesi, metodologi penelitian, serta tugas akhir sarjana:
+
+| No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Semester | Prasyarat |
+|:---:|:---:|---|:---:|:---:|:---:|---|
+| 1 | `FST-101` | Dasar Teknologi Digital | 2 | Teori | Sem 1 | — |
+| 2 | `FST-102` | Algoritma dan Pemrograman | 3 | +P | Sem 1 | — |
+| 3 | `FST-203` | Struktur Data dan Algoritma | 3 | +P | Sem 2 | `FST-102` |
+| 4 | `FST-204` | Pengantar Kecerdasan Artifisial & Data | 2 | Teori | Sem 2 | `FST-101` |
+| 5 | `FST-205` | Basic English for IT | 2 | Teori | Sem 2 | — |
+| 6 | `FST-206` | Etika Profesi & Hukum Digital | 2 | Teori | Sem 2 | — |
+| 7 | `FST-207` | Sistem Basis Data | 3 | +P | Sem 2 | `FST-102` |
+| 8 | `FST-408` | Probabilitas dan Statistika | 3 | Teori | Sem 4 | `STI-102` |
+| 9 | `FST-611` | Metodologi Penelitian | 2 | Teori | Sem 6 | $\ge 76\text{ SKS}$ |
+| 10 | `FST-610` | Capstone Project FSTI | 3 | Proyek | Sem 7 | `STI-523`, $\ge 100\text{ SKS}$ |
+| 11 | `FST-612` | Praktik Kerja Lapangan (PKL) | 3 | Magang | Sem 7 | $\ge 100\text{ SKS}$ |
+| 12 | `FST-613` | Pra-Skripsi / Seminar Proposal | 2 | Seminar | Sem 7 | `FST-611`, $\ge 100\text{ SKS}$ |
+| 13 | `FST-714` | Skripsi / Tugas Akhir | 6 | Mandiri | Sem 8 | `FST-613`, $\ge 120\text{ SKS}$ |
+| **TOTAL** | — | **13 Mata Kuliah Wajib Fakultas** | **36** | — | — | **24,7% Beban Kurikulum** |
+
+---
+
+### 1.2 KELOMPOK MATA KULIAH INTI PROGRAM STUDI (CORE STI) (28 MK / 79 SKS)
+
+Mata kuliah keahlian inti Sistem dan Teknologi Informasi yang membina 14 CPL Program Studi dengan skema penomoran berkesinambungan (`STI-101` s.d. `STI-728`):
+
+| No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Semester | Prasyarat |
+|:---:|:---:|---|:---:|:---:|:---:|---|
+| 1 | `STI-101` | Pengantar Sistem dan Teknologi Informasi | 2 | Teori | Sem 1 | — |
+| 2 | `STI-102` | Kalkulus | 3 | Teori | Sem 1 | — |
+| 3 | `STI-103` | Arsitektur dan Organisasi Sistem Teknologi Informasi | 3 | Teori | Sem 1 | — |
+| 4 | `STI-204` | Matematika Diskrit dan Logika | 3 | Teori | Sem 2 | `STI-103` |
+| 5 | `STI-205` | Aljabar Linear dan Matriks | 3 | Teori | Sem 2 | `STI-102` |
+| 6 | `STI-306` | Analisis dan Perancangan Sistem Informasi | 3 | Teori | Sem 3 | `STI-101`, `FST-207` |
+| 7 | `STI-307` | Sistem Cerdas | 2 | Teori | Sem 3 | `STI-204`, `FST-204` |
+| 8 | `STI-308` | UI/UX Design & Prototyping | 3 | +P | Sem 3 | `FST-101` |
+| 9 | `STI-309` | Rekayasa Perangkat Lunak | 3 | Teori | Sem 3 | `FST-203` |
+| 10 | `STI-310` | Sistem Operasi | 3 | Teori | Sem 3 | `STI-103` |
+| 11 | `STI-311` | Web Front End Development | 3 | +P | Sem 3 | `FST-102` |
+| 12 | `STI-312` | Jaringan Komputer | 3 | +P | Sem 3 | `STI-103` |
+| 13 | `STI-413` | Machine Learning | 3 | +P | Sem 4 | `STI-205`, `STI-307` |
+| 14 | `STI-414` | Pengantar NLP & Information Retrieval | 2 | +P | Sem 4 | `STI-307` |
+| 15 | `STI-415` | Data Warehouse & Business Intelligence | 3 | +P | Sem 4 | `FST-207` |
+| 16 | `STI-416` | Web Back End Development | 3 | +P | Sem 4 | `FST-207`, `STI-311` |
+| 17 | `STI-417` | Komputasi Awan (Cloud Computing) | 3 | Teori | Sem 4 | `STI-312`, `STI-310` |
+| 18 | `STI-418` | Dasar Keamanan Informasi | 2 | Teori | Sem 4 | `STI-312` |
+| 19 | `STI-519` | Deep Learning & Neural Networks | 3 | +P | Sem 5 | `STI-413` |
+| 20 | `STI-520` | Data Mining & Visualisasi Data | 3 | +P | Sem 5 | `STI-413`, `STI-415` |
+| 21 | `STI-521` | Internet of Things (IoT) | 3 | +P | Sem 5 | `STI-312`, `STI-310` |
+| 22 | `STI-522` | Pemrograman Aplikasi Mobile | 3 | +P | Sem 5 | `STI-311`, `STI-416` |
+| 23 | `STI-523` | Manajemen Proyek TI | 3 | Teori | Sem 5 | `STI-306`, `STI-309` |
+| 24 | `STI-624` | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | Sem 6 | `STI-519`, `STI-416` |
+| 25 | `STI-625` | Smart City & Pemerintahan Digital | 2 | Teori | Sem 6 | `STI-521` |
+| 26 | `STI-626` | Keamanan Informasi Lanjut | 3 | Teori | Sem 6 | `STI-418` |
+| 27 | `STI-627` | Digital Platform Engineering | 3 | +P | Sem 6 | `STI-416` |
+| 28 | `STI-728` | Inovasi Teknologi dan Startup Digital | 3 | +P | Sem 7 | `STI-627`, `MKU-204` |
+| **TOTAL** | — | **28 Mata Kuliah Inti Program Studi** | **79** | — | — | **54,1% Beban Kurikulum** |
+
+---
+
 ## 2. SEBARAN 8 SEMESTER KURIKULUM SISTEKIN (55 MK / 146 SKS)
 
 ### SEBARAN 8 SEMESTER KURIKULUM SISTEKIN
