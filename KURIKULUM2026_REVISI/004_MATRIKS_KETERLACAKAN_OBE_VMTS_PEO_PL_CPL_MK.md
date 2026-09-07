@@ -104,7 +104,7 @@ graph LR
 
 | No | Kode MK | Nama Mata Kuliah | SKS | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 | Target PL | Target PEO | Status IRM |
 |:---:|:---:|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 32 | `STI-519` | Deep Learning & Neural Net | 3 | | | | | | | | | **R** | **R** | | | | | PL-1 | PEO-1, PEO-3 | **R** |
+| 32 | `STI-519` | Keamanan Informasi Lanjut | 3 | | | | | | | **M** | | | | **M** | **M** | | | PL-2 | PEO-1 | **M** |
 | 33 | `STI-520` | Data Mining & Visualisasi | 3 | | | | | | **R** | | | | **R** | | | | | PL-1 | PEO-1 | **R** |
 | 34 | `STI-521` | Internet of Things (IoT) | 3 | | | | | | | **R** | | | | **R** | | | | PL-2 | PEO-1 | **R** |
 | 35 | `STI-522` | Pemrograman Aplikasi Mobile| 3 | | | | | | | | **R** | | | | | **R** | | PL-3 | PEO-1, PEO-2 | **R** |
@@ -114,7 +114,7 @@ graph LR
 | 38.B | `MKU-508` | Kewirausahaan II | 0 | | | | | | | | | | | | | | **R** | PL-4 | PEO-2 | **R** |
 | 39 | `STI-624` | Integrasi Layanan Cerdas AI | 3 | | | | | | **M** | | | **M** | | | | | | PL-1 | PEO-1, PEO-3 | **M** |
 | 40 | `STI-625` | Smart City & Pem. Digital | 2 | | | | | | | **M** | | | | **M** | | | | PL-2 | PEO-1 | **M** |
-| 41 | `STI-626` | Keamanan Informasi Lanjut | 3 | | | | | | | **M** | | | | **M** | **M** | | | PL-2 | PEO-1 | **M** |
+| 41 | `STI-626` | Deep Learning & Neural Net | 3 | | | | | | | | | **R** | **R** | | | | | PL-1 | PEO-1, PEO-3 | **R** |
 | 42 | `STI-627` | Digital Platform Engineering| 3 | | | | | | | | **M** | | | | | **M** | | PL-3 | PEO-1, PEO-2 | **M** |
 | 43 | `FST-611` | Metodologi Penelitian | 2 | | **M** | **M** | | | | | | | | | | | | Seluruh PL | PEO-3 | **M** |
 | 44 | `STA/B/C` | **MK Pilihan Peminatan 2** | 3 | | | | | | | | | * | * | * | * | * | * | PL-1..3 | PEO-1..3 | **M** |
@@ -218,7 +218,7 @@ Matriks ini memetakan relasi langsung antara 21 Bahan Kajian Standar APTIKOM SI 
 | **BK-IS03** | *IT Infrastructure and Networking* | `STI-103`, `STI-312`, `STI-417`, `STI-310` | `STB-01`, `STB-02`, `STI-521` | 7 MK | ✅ Sangat Kuat |
 | **BK-IS04** | *Enterprise Architecture* | `STB-06` | `STI-306`, `STI-627` | 3 MK | ✅ Terpenuhi |
 | **BK-IS05** | *IS Management and Governance* | `STB-04`, `STB-05` | `STI-523`, `STB-03` | 4 MK | ✅ Terpenuhi |
-| **BK-IS06** | *Information Security and Risk Management* | `STI-418`, `STI-626`, `STB-01`, `STB-03` | `FST-206` | 5 MK | ✅ Sangat Kuat |
+| **BK-IS06** | *Information Security and Risk Management* | `STI-418`, `STI-519`, `STB-01`, `STB-03` | `FST-206` | 5 MK | ✅ Sangat Kuat |
 | **BK-IS07** | *Systems Analysis and Design* | `STI-306`, `STI-309` | `FST-610`, `STC-02` | 4 MK | ✅ Sangat Kuat |
 | **BK-IS08** | *Project Management* | `STI-523`, `STC-06` | `FST-610`, `FST-612` | 4 MK | ✅ Sangat Kuat |
 | **BK-IS09** | *Business Process Management* | `STC-02` | `STI-306`, `STI-625` | 3 MK | ✅ Terpenuhi |
@@ -230,7 +230,7 @@ Matriks ini memetakan relasi langsung antara 21 Bahan Kajian Standar APTIKOM SI 
 | **BK-IS15** | *Digital Innovation and Entrepreneurship* | `MKU-204`, `STI-728`, `FST-610` | `STC-06` | 4 MK | ✅ Sangat Kuat |
 | **BK-IS16** | *Artificial Intelligence & Intelligent Systems*| `STI-307`, `STI-414`, `STI-624`, `STA-03`, `STA-05` | `STI-413`, `STA-06` | 7 MK | ✅ Sangat Kuat |
 | **BK-IS17** | *Human-Computer Interaction & UX* | `STI-308`, `STC-01` | `STI-311`, `STI-522` | 4 MK | ✅ Sangat Kuat |
-| **BK-IS18** | *Machine Learning and Data Science* | `STI-413`, `STI-519`, `STA-04` | `STA-02`, `STA-06` | 5 MK | ✅ Sangat Kuat |
+| **BK-IS18** | *Machine Learning and Data Science* | `STI-413`, `STI-626`, `STA-04` | `STA-02`, `STA-06` | 5 MK | ✅ Sangat Kuat |
 | **BK-IS19** | *Cloud Architecture & DevOps* | `STI-417`, `STB-02` | `STI-627`, `STC-05` | 4 MK | ✅ Sangat Kuat |
 | **BK-IS20** | *Ethics, Use and Implications for Society* | `FST-206` | `STI-418`, `STI-625`, `STB-04` | 4 MK | ✅ Terpenuhi |
 | **BK-IS21** | *Internship and Professional Practice* | `FST-612` | `MKU-507`, `FST-610` | 3 MK | ✅ Terpenuhi |
@@ -245,11 +245,11 @@ Matriks ini memetakan relasi langsung antara 21 Bahan Kajian Standar APTIKOM SI 
 | Kode BoK IT | Nomenklatur Bahan Kajian Utama IT2017 | Mata Kuliah Pembina Primer (●) | Mata Kuliah Pembina Sekunder (○) | Total MK | Status Cakupan |
 |---|---|---|---|:---:|:---:|
 | **BK-IT01** | *Information Technology Fundamentals* | `FST-101`, `STI-101` | `FST-204` | 3 MK | ✅ Sangat Kuat |
-| **BK-IT02** | *Applied AI & Intelligent Technologies* | `STI-307`, `STI-413`, `STI-414`, `STI-519`, `STI-624` | `STA-03..06` | 9 MK | ✅ Sangat Kuat |
+| **BK-IT02** | *Applied AI & Intelligent Technologies* | `STI-307`, `STI-413`, `STI-414`, `STI-626`, `STI-624` | `STA-03..06` | 9 MK | ✅ Sangat Kuat |
 | **BK-IT03** | *Networking & Communications* | `STI-312` | `STI-417`, `STI-521`, `STB-01` | 4 MK | ✅ Sangat Kuat |
 | **BK-IT04** | *Platform Technologies & Web/Mobile* | `STI-311`, `STI-416`, `STI-522`, `STI-627` | `STC-03..05` | 7 MK | ✅ Sangat Kuat |
 | **BK-IT05** | *Cloud Computing & Virtualization* | `STI-417`, `STB-02` | `STI-310`, `STC-05` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT06** | *Cybersecurity Principles & Defense* | `STI-418`, `STI-626`, `STB-01` | `STB-03` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT06** | *Cybersecurity Principles & Defense* | `STI-418`, `STI-519`, `STB-01` | `STB-03` | 4 MK | ✅ Sangat Kuat |
 | **BK-IT07** | *System Integration and Architecture* | `STI-624`, `STI-627`, `FST-610` | `STB-06`, `STC-02` | 5 MK | ✅ Sangat Kuat |
 | **BK-IT08** | *IT Service Management & Governance* | `STB-04`, `STB-05` | `STI-523` | 3 MK | ✅ Terpenuhi |
 | **BK-IT09** | *Data Analytics & Information Visualization*| `STI-415`, `STI-520` | `STA-01`, `STA-04` | 4 MK | ✅ Sangat Kuat |
@@ -307,7 +307,7 @@ Sesuai Keputusan Menteri Pendidikan dan Kebudayaan No. 210/M/2023 tentang Indika
 | 29 | `FST-408` | Probabilitas & Statistika | 3 | 20% | 10% | 70% | 30% | *MK Teori Dasar Sains* |
 | 30 | `STI-414` | Pengantar NLP & IR | 2 | 20% | 45% | 35% | **65%** | ✅ Patuh IKU 7 |
 | 31 | `MKU-405` | Kewarganegaraan | 2 | 30% | 30% | 40% | **60%** | ✅ Patuh IKU 7 |
-| 32 | `STI-519` | Deep Learning & Neural Net | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
+| 32 | `STI-519` | Keamanan Informasi Lanjut | 3 | 30% | 40% | 30% | **70%** | ✅ Patuh IKU 7 |
 | 33 | `STI-520` | Data Mining & Visualisasi | 3 | 20% | 45% | 35% | **65%** | ✅ Patuh IKU 7 |
 | 34 | `STI-521` | Internet of Things (IoT) | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
 | 35 | `STI-522` | Pemrograman Mobile | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
@@ -317,7 +317,7 @@ Sesuai Keputusan Menteri Pendidikan dan Kebudayaan No. 210/M/2023 tentang Indika
 | 38.B | `MKU-508` | Kewirausahaan II | 0 | 30% | 40% | 30% | **70%** | *MKWU 0 SKS (Sem 5)* |
 | 39 | `STI-624` | Integrasi Layanan Cerdas AI| 3 | 20% | 55% | 25% | **75%** | ✅ Patuh IKU 7 |
 | 40 | `STI-625` | Smart City & Pem. Digital | 2 | 35% | 35% | 30% | **70%** | ✅ Patuh IKU 7 |
-| 41 | `STI-626` | Keamanan Informasi Lanjut | 3 | 30% | 40% | 30% | **70%** | ✅ Patuh IKU 7 |
+| 41 | `STI-626` | Deep Learning & Neural Net | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
 | 42 | `STI-627` | Digital Platform Engineering| 3 | 20% | 55% | 25% | **75%** | ✅ Patuh IKU 7 |
 | 43 | `FST-611` | Metodologi Penelitian | 2 | 30% | 40% | 30% | **70%** | ✅ Patuh IKU 7 |
 | 44 | `STA/B/C` | MK Pilihan Peminatan 2 | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |

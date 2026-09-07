@@ -120,7 +120,7 @@
 | No | Indikator Kinerja | Bukti Ketercapaian |
 |:---:|---|---|
 | 1 | Mampu membangun pipeline akuisisi, praproses, dan transformasi data (ETL/ELT). | Pipeline Data dengan Pandas/PySpark (STI-415 / STI-520). |
-| 2 | Mampu melatih dan mengoptimasi model Machine Learning / Deep Learning. | Model ML terlatih dengan evaluasi Confusion Matrix / F1-Score (STI-413 / STI-519). |
+| 2 | Mampu melatih dan mengoptimasi model Machine Learning / Deep Learning. | Model ML terlatih dengan evaluasi Confusion Matrix / F1-Score (STI-413 / STI-626). |
 | 3 | Mampu membangun dashboard Business Intelligence dan visualisasi data interaktif. | Dashboard BI interaktif di Tableau / Power BI / Streamlit (STI-415 / STI-520). |
 | 4 | Mampu menerapkan pipeline MLOps untuk automasi deployment model AI (*Continuous Training*). | Pipeline CI/CD MLOps menggunakan MLflow / Docker (STA-04). |
 

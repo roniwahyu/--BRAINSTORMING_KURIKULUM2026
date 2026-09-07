@@ -573,7 +573,7 @@ Analisis pembelajaran dilakukan untuk mengidentifikasi kemampuan akhir tiap taha
 
 Setiap mata kuliah wajib memiliki **diagram analisis pembelajaran** dengan **garis *entry behavior*** yang memisahkan kemampuan prasyarat (sudah dimiliki) dari kemampuan yang akan dibangun. Contoh acuan: Lampiran A KPT 2024 (mata kuliah Metode Penelitian).
 
-**Rencana pemenuhan:** diagram dibuat bertahap, dimulai dari mata kuliah penciri utama (`STI-624` Integrasi AI, `STI-413` Machine Learning, `STI-308` UI/UX, `STI-626` Keamanan Lanjut, `FST-610` Capstone), kemudian diperluas ke seluruh mata kuliah.
+**Rencana pemenuhan:** diagram dibuat bertahap, dimulai dari mata kuliah penciri utama (`STI-624` Integrasi AI, `STI-413` Machine Learning, `STI-308` UI/UX, `STI-519` Keamanan Lanjut, `FST-610` Capstone), kemudian diperluas ke seluruh mata kuliah.
 
 ## IX.5 Format Rencana Pembelajaran Semester (RPS)
 
@@ -734,7 +734,7 @@ Prinsip konversi untuk seluruh bentuk: kegiatan dikonversikan ke mata kuliah yan
 
 | Jalur | Semester | Paket MK Dikonversi | Total |
 |---|:---:|---|:---:|
-| Magang Industri Bersertifikat (MSIB) | 6 | Peminatan MK-2 & MK-3 (6), `STI-624` Integrasi AI (3), `STI-627` Platform Eng (3), `STI-625` Smart City (3), `STI-626` Keamanan Lanjut (3), `FST-611` Metopel (2) | 20 SKS |
+| Magang Industri Bersertifikat (MSIB) | 6 | Peminatan MK-2 & MK-3 (6), `STI-624` Integrasi AI (3), `STI-627` Platform Eng (3), `STI-625` Smart City (3), `STI-519` Keamanan Lanjut (3), `FST-611` Metopel (2) | 20 SKS |
 | Magang / Studi Independen / Wirausaha Merdeka | 7 | Peminatan MK-4, 5, 6 (9), `STI-728` Startup Digital (3), `FST-610` Capstone (3), `FST-612` PKL (3), `FST-613` Pra-Skripsi (2) | 20 SKS |
 
 ## X.4 Rekognisi Kredit dalam Transkrip dan SKPI

@@ -17,7 +17,7 @@
 |  |  | • STI-624 Integrasi AI (3) |  |
 |  |  | • STI-627 Platform Eng (3) |  |
 |  |  | • STI-625 Smart City (3) |  |
-|  |  | • STI-626 Keamanan Lanjut (3) |  |
+|  |  | • STI-519 Keamanan Lanjut (3) |  |
 |  |  | • FST-611 Metopel (2) |  |
 | Magang Industri / | Sem 7 | • MK Pilihan Peminatan 4 (3) | **20 SKS** |
 | Studi Independen / |  | • MK Pilihan Peminatan 5 (3) |  |

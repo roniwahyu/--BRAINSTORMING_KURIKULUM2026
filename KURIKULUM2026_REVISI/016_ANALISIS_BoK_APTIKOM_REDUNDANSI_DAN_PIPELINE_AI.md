@@ -79,7 +79,7 @@ Berikut adalah hasil komparasi rinci per topik (*topic-by-topic cross examinatio
 │    │                             │                           │ • STI-520 harus difokuskan pada Visualisasi Data │
 │    │                             │                           │   Bisnis dan Exploratory Data Analysis (EDA).    │
 ├────┼─────────────────────────────┼───────────────────────────┼──────────────────────────────────────────────────┤
-│ 4  │ • STI-626 Keamanan Lanjut(3)│ BK-IS06 / BK-IT06:        │ • STI-626 di Wajib Prodi mengajarkan ISO 27001 & │
+│ 4  │ • STI-519 Keamanan Lanjut(3)│ BK-IS06 / BK-IT06:        │ • STI-626 di Wajib Prodi mengajarkan ISO 27001 & │
 │    │ • STB-03 Cyber Risk Mgmt (3)│ Information Security and  │   Risk Assessment Framework.                     │
 │    │                             │ Risk Management           │ • STB-03 di Peminatan 2 direposisi menjadi Cloud │
 │    │                             │                           │   Security & DevSecOps agar berbasis teknis lab. │
@@ -120,7 +120,7 @@ Program Studi SISTEKIN mengimplementasikan kurikulum kecerdasan artifisial terin
                                └────────────────────────▲────────────────────────┘
                                                         │
                                ┌────────────────────────┴────────────────────────┐
-                               │ SEMESTER 5: STI-519 Deep Learning (+P)          │
+                               │ SEMESTER 5: STI-626 Deep Learning (+P)          │
                                │ • Computer Vision • CNN • PyTorch Architecture  │
                                └────────────────────────▲────────────────────────┘
                                                         │

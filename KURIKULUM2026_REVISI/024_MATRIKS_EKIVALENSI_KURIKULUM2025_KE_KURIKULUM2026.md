@@ -268,11 +268,11 @@ Kolom "Asal K2025" adalah MK yang **harus sudah lulus** (nilai ≥ C) agar MK K2
 | `MKU-405` | Kewarganegaraan | 2 | E1 | `MKU-405` | Alih nilai langsung |
 | `MKU-406` | Agama II | 0 | E1 | `MKU-406` | Alih nilai langsung |
 
-#### SEMESTER 5 — Diakui 18 SKS Paket + 3 SKS Elektif, Defisit 0 SKS Paket ✅
+#### SEMESTER 5 — Diakui 15 SKS Paket + 3 SKS Elektif, Defisit 3 SKS Paket
 
 | Kode K2026 | Nama Mata Kuliah | SKS | Kat | Asal K2025 | Tindakan Akademik |
 |:---:|---|:---:|:---:|:---:|---|
-| `STI-519` | Deep Learning & Neural Networks (+P) | 3 | E2 | `STI-634` | **Uji penyetaraan** (CNN & pelatihan model) |
+| `STI-519` | Keamanan Informasi Lanjut | 3 | **B** | — | **WAJIB TEMPUH** — jenjang keamanan lanjut |
 | `STI-520` | Data Mining & Visualisasi Data (+P) | 3 | E3/G-2 | `STI-208` + `STI-740` | Rata-rata berbobot 2 MK lama |
 | `STI-521` | Internet of Things (IoT) (+P) | 3 | E1 | `STI-526` | Alih nilai langsung |
 | `STI-522` | Pemrograman Aplikasi Mobile (+P) | 3 | E1 | `STI-419` | Alih nilai langsung |
@@ -281,13 +281,13 @@ Kolom "Asal K2025" adalah MK yang **harus sudah lulus** (nilai ≥ C) agar MK K2
 | `MKU-508` | Kewirausahaan II | 0 | E1 | `MKU-508` | Alih nilai langsung |
 | *Elektif* | **MK Peminatan 1** | 3 | — | Lihat Bagian 6.3 | Bergantung jalur peminatan |
 
-#### SEMESTER 6 — Diakui 10 SKS Paket + 6 SKS Elektif, Defisit 3 SKS Paket
+#### SEMESTER 6 — Diakui 13 SKS Paket + 6 SKS Elektif, Defisit 0 SKS Paket ✅
 
 | Kode K2026 | Nama Mata Kuliah | SKS | Kat | Asal K2025 | Tindakan Akademik |
 |:---:|---|:---:|:---:|:---:|---|
 | `STI-624` | Integrasi Layanan Cerdas Berbasis AI (+P) | 3 | E2 | `STI-741` | **Praktikum penyetaraan** (MK penciri prodi) |
 | `STI-625` | Smart City & Pemerintahan Digital | 2 | E1 | `STI-637` (3 SKS) | Alih nilai; 1 SKS jadi kredit bebas |
-| `STI-626` | Keamanan Informasi Lanjut | 3 | **B** | — | **WAJIB TEMPUH** — jenjang keamanan lanjut |
+| `STI-626` | Deep Learning & Neural Networks (+P) | 3 | E2 | `STI-634` | **Uji penyetaraan** (CNN & pelatihan model) |
 | `STI-627` | Digital Platform Engineering (+P) | 3 | E2 | `STI-739` | **Uji penyetaraan** (reorientasi platform) |
 | `FST-611` | Metodologi Penelitian | 2 | E1 | `MFT-002` | Alih nilai langsung |
 | *Elektif* | **MK Peminatan 2 & 3** | 6 | — | Lihat Bagian 6.3 | Bergantung jalur peminatan |
@@ -316,8 +316,8 @@ Kolom "Asal K2025" adalah MK yang **harus sudah lulus** (nilai ≥ C) agar MK K2
 | Sem 2 | 20 | 18 | 2 | `FST-204` | 90,0% |
 | Sem 3 | 20 | 17 | 3 | `STI-312` | 85,0% |
 | Sem 4 | 21 | 21 | 0 | — | **100%** |
-| Sem 5 | 18 (tanpa elektif) | 18 | 0 | — | **100%** |
-| Sem 6 | 13 (tanpa elektif) | 10 | 3 | `STI-626` | 76,9% |
+| Sem 5 | 18 (tanpa elektif) | 15 | 3 | `STI-519` | 83,3% |
+| Sem 6 | 13 (tanpa elektif) | 13 | 0 | — | **100%** |
 | Sem 7 | 11 (tanpa elektif) | 8 | 3 | `FST-610` | 72,7% |
 | Sem 8 | 6 | 6 | 0 | — | **100%** |
 | **TOTAL PAKET WAJIB** | **128** | **114** | **14** | **5 MK** | **89,1%** |
@@ -424,7 +424,7 @@ Kolom **Smt** pada Bagian 3 kini merujuk semester definitif Dokumen 005 (pola te
 |---|:---:|:---:|:---:|---|
 | MKWU (8 MK) | 13 | **13** | 0 | — |
 | MK Wajib FSTI (13 MK) | 36 | **31** | 5 | `FST-204` (2), `FST-610` (3) |
-| MK Inti Core STI (28 MK) | 79 | **70** | 9 | `STI-103` (3), `STI-312` (3), `STI-626` (3) |
+| MK Inti Core STI (28 MK) | 79 | **70** | 9 | `STI-103` (3), `STI-312` (3), `STI-519` (3) |
 | MK Elektif Peminatan P1 (6 MK) | 18 | **6** | 12 | `STA-03`, `STA-04`, `STA-05`, `STA-06` |
 | MK Elektif Peminatan P2 (6 MK) | 18 | **6** | 12 | `STB-02`, `STB-03`, `STB-05`, `STB-06` |
 | MK Elektif Peminatan P3 (6 MK) | 18 | **3** | 15 | `STC-01`, `STC-02`, `STC-03`, `STC-05`, `STC-06` |
@@ -432,7 +432,7 @@ Kolom **Smt** pada Bagian 3 kini merujuk semester definitif Dokumen 005 (pola te
 | **TOTAL (jalur P3)** | **146** | **117** | **29** | Setara **1 semester penuh (21 SKS) + 8 SKS** |
 
 > [!NOTE]
-> **Rincian status pengakuan (jalur P1/P2):** Dari 114 SKS MK wajib yang diakui, **24 SKS berstatus bersyarat (E2)** dan mensyaratkan uji penyetaraan, yaitu `FST-203`, `STI-311`, `STI-417`, `STI-519`, `STI-523`, `STI-624`, `STI-627`, dan `STI-728`. Pada jalur P1 terdapat tambahan 3 SKS bersyarat (`STA-02`), sedangkan `FST-101` (2 SKS) bersyarat melalui skema E4.
+> **Rincian status pengakuan (jalur P1/P2):** Dari 114 SKS MK wajib yang diakui, **24 SKS berstatus bersyarat (E2)** dan mensyaratkan uji penyetaraan, yaitu `FST-203`, `STI-311`, `STI-417`, `STI-626`, `STI-523`, `STI-624`, `STI-627`, dan `STI-728`. Pada jalur P1 terdapat tambahan 3 SKS bersyarat (`STA-02`), sedangkan `FST-101` (2 SKS) bersyarat melalui skema E4.
 
 ### 7.1.1 NERACA SKS KURIKULUM 2025 SETELAH KONVERSI (146 SKS)
 
@@ -451,7 +451,7 @@ Kolom **Smt** pada Bagian 3 kini merujuk semester definitif Dokumen 005 (pola te
 |---|:---:|:---:|---|---|
 | **Telah selesai Sem 1–2** | 36 SKS | ± 31 SKS | `STI-103` (3), `FST-204` (2), `STI-312` (3) | **Migrasi penuh ke K2026.** Sisipkan 3 MK baru secara bertahap pada Sem 3–4 (maksimum +3 SKS per semester) agar beban per semester tetap ≤ 22 SKS |
 | **Telah selesai Sem 3–4** | 76 SKS | ± 66 SKS | `STI-103` (3), `STI-312` (3), `FST-204` (2), `FST-610` (3) | **Migrasi selektif.** `STI-103` dan `STI-312` wajib pada Sem 5 karena menjadi prasyarat Cloud, IoT, dan Keamanan; `FST-610` Capstone pada Sem 7 |
-| **Telah selesai Sem 5–6** | 118 SKS | ± 106 SKS | `FST-610` (3) dan `STI-626` (3) atau ekuivalen | **Tetap pada K2025** dengan penyisipan `FST-610` Capstone Project FSTI sebagai pengganti 3 SKS MK pilihan. Migrasi penuh tidak efisien karena defisit melampaui 24 SKS |
+| **Telah selesai Sem 5–6** | 118 SKS | ± 106 SKS | `FST-610` (3) dan `STI-519` (3) atau ekuivalen | **Tetap pada K2025** dengan penyisipan `FST-610` Capstone Project FSTI sebagai pengganti 3 SKS MK pilihan. Migrasi penuh tidak efisien karena defisit melampaui 24 SKS |
 | **Sedang menempuh Sem 7–8** | ≥ 138 SKS | ≥ 126 SKS | — | **Tetap pada K2025 hingga lulus.** Diberikan akses opsional pada 4 opsi Tugas Akhir non-skripsi (Dok. 009) sebagai ekuivalen `MFT-004` Skripsi 6 SKS |
 
 > [!NOTE]
@@ -526,7 +526,7 @@ Format satu baris per pasangan konversi, siap diimpor ke tabel `mk_ekivalensi` S
 | `STI-530` | 3 | `STI-415` | 3 | E1 | C | Tidak |
 | `STI-632` | 3 | `STI-309` | 3 | E1 | C | Tidak |
 | `STI-633` | 3 | `STA-01` | 3 | E1 | C | Tidak |
-| `STI-634` | 3 | `STI-519` | 3 | E2 | C | **Ya** |
+| `STI-634` | 3 | `STI-626` | 3 | E2 | C | **Ya** |
 | `STI-636` | 3 | `STI-413` | 3 | E1 | C | Tidak |
 | `STI-637` | 3 | `STI-625` | 2 | E1 | C | Tidak |
 | `STI-638` | 3 | — | — | E5 | — | Kredit Bebas |

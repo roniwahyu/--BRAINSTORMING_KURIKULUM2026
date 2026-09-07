@@ -277,7 +277,7 @@ Sebagai program studi baru yang sedang bertumbuh, SISTEKIN menerapkan evaluasi P
 ### SEMESTER 5 (21 SKS)
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
-| 32 | `STI-519` | Deep Learning & Neural Networks | 3 | +P | Core STI | `STI-413` |
+| 32 | `STI-519` | Keamanan Informasi Lanjut | 3 | Teori | Core STI | `STI-418` |
 | 33 | `STI-520` | Data Mining & Visualisasi Data | 3 | +P | Core STI | `STI-413`, `STI-415` |
 | 34 | `STI-521` | Internet of Things (IoT) | 3 | +P | Core STI | `STI-312`, `STI-310` |
 | 35 | `STI-522` | Pemrograman Aplikasi Mobile | 3 | +P | Core STI | `STI-311`, `STI-416` |
@@ -290,9 +290,9 @@ Sebagai program studi baru yang sedang bertumbuh, SISTEKIN menerapkan evaluasi P
 ### SEMESTER 6 (20 SKS)
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
-| 39 | `STI-624` | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | Core STI | `STI-519`, `STI-416` |
+| 39 | `STI-624` | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | Core STI | `STI-413`, `STI-416` |
 | 40 | `STI-625` | Smart City & Pemerintahan Digital | 2 | +P | Core STI | `STI-521` |
-| 41 | `STI-626` | Keamanan Informasi Lanjut | 3 | Teori | Core STI | `STI-418` |
+| 41 | `STI-626` | Deep Learning & Neural Networks | 3 | +P | Core STI | `STI-413` |
 | 42 | `STI-627` | Digital Platform Engineering | 3 | +P | Core STI | `STI-416` |
 | 43 | `FST-611` | Metodologi Penelitian | 2 | Teori | FSTI | $\ge 76\text{ SKS}$ |
 | 44 | `STA/B/C` | **MK Pilihan Peminatan 2** | 3 | Elektif | Peminatan | Prasyarat Peminatan |
@@ -2603,46 +2603,45 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 32. STI-519 — Deep Learning & Neural Networks (Deep Learning & Neural Networks)
+### 32. STI-519 — Keamanan Informasi Lanjut (Advanced Information Security)
 
 #### Tabel 32.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-519 — Deep Learning & Neural Networks** (*Deep Learning & Neural Networks*) |
-| **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
-| **Semester / Rumpun MK** | **Semester 5** / Sistem Cerdas & Sains Data (Core STI) |
-| **Prasyarat Akademik** | `STI-413` Machine Learning |
-| **CPL yang Dibebankan** | `KK1` (Pemodelan Deep Learning Vision & NLP), `KK2` (Rekayasa Dataset Citra & Teks) |
-| **Profil Lulusan (PL)** | `PL-1` (Intelligent IS Dev / Deep Learning Engineer) |
-| **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |
+| **Kode & Nama Mata Kuliah** | **STI-519 — Keamanan Informasi Lanjut** (*Advanced Information Security*) |
+| **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
+| **Semester / Rumpun MK** | **Semester 5** / Sistem Komputer & Infrastruktur (Core STI) |
+| **Prasyarat Akademik** | `STI-418` Dasar Keamanan Informasi |
+| **CPL yang Dibebankan** | `P3` (Audit Keamanan ISO 27001), `KK3` (Manajemen Risiko Siber), `KK4` (Uji Penetrasi Sistem) |
+| **Profil Lulusan (PL)** | `PL-2` (Cybersecurity Specialist & Penetration Tester) |
+| **Target PEO** | `PEO-1` (Professional Practice) |
 
 #### Tabel 32.B: Formulasi CPMK (Format ABCD & Level Bloom)
 | Kode CPMK | Rumusan Capaian Pembelajaran Mata Kuliah (Format ABCD Eksplisit) | Level Bloom | CPL Didukung |
 |---|---|:---:|:---:|
-| **CPMK-1** | Mahasiswa (*A*) mampu **mengonstruksi** arsitektur Multi-Layer Perceptron (MLP) dan mengimplementasikan algoritma Backpropagation (*B*) menggunakan framework PyTorch (*C*) secara matematis dan modular (*D*). | **C3** | `KK1` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **merancang, melatih, dan mengevaluasi** model Convolutional Neural Networks (CNN) dan arsitektur transfer learning (ResNet, VGG) (*B*) untuk klasifikasi citra medis/industri (*C*) dengan akurasi terukur (*D*). | **C5** | `KK1, KK2` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **mengonstruksi** model sekuensial (LSTM, GRU, Transformer Self-Attention) (*B*) untuk pemrosesan bahasa alami atau prediksi runtun waktu (*C*) dengan konvergensi loss yang stabil (*D*). | **C5** | `KK1` |
-| **CPMK-4** | Mahasiswa (*A*) mampu **membangun** aplikasi deep learning terpadu (*B*) dengan teknik regularisasi (Dropout, Batch Normalization) dan optimasi akselerasi GPU (*C*) secara andal (*D*). | **C6** | `KK1` |
+| **CPMK-1** | Mahasiswa (*A*) mampu **merancang dan mengeksekusi** tahapan uji penetrasi keamanan (*Penetration Testing*) (*B*) sesuai standar PTES dan MITRE ATT&CK (*C*) dengan etika *Red Teaming* profesional (*D*). | **C4** | `KK4` |
+| **CPMK-2** | Mahasiswa (*A*) mampu **melakukan** audit sistem manajemen keamanan informasi (*B*) berdasarkan klausul dan kontrol keamanan ISO/IEC 27001:2022 (*C*) dalam bentuk dokumen Statement of Applicability (SoA) (*D*). | **C4** | `P3, KK3` |
+| **CPMK-3** | Mahasiswa (*A*) mampu **menyusun** rencana tanggap insiden (*Incident Response Plan*) dan melakukan analisis forensik digital dasar (*B*) pada kasus insiden kebocoran data (*C*) secara terstruktur (*D*). | **C5** | `KK3, KK4` |
 
 #### Tabel 32.C: Matriks Rencana Pembelajaran 16 Pertemuan (Sub-CPMK, Materi, Metode, Asesmen)
 | Mg | Sub-CPMK & Kemampuan Akhir | Pokok Bahasan (Bahan Kajian) | Bentuk & Metode Pembelajaran | Bentuk Asesmen & Bobot (%) |
 |:--:|---|---|---|---|
-| 1 | Mampu menguraikan paradigma Deep Learning, autograd PyTorch, dan GPU CUDA (C2) | Pengantar Deep Learning, PyTorch Tensors, Autograd Engine, CUDA | Kuliah (100m) + Lab Setup (170m) | Praktikum Formatif (Non-Graded) |
-| 2 | Mampu mengonstruksi Multi-Layer Perceptron (MLP) dan fungsi aktivasi ReLU/GELU (C3) | Arsitektur MLP Feedforward, Hidden Layers, Loss Functions (MSE/Cross-Entropy) | Case Method + Lab Coding (270m) | Praktikum Formatif (Non-Graded) |
-| 3 | Mampu menerapkan Backpropagation dan optimizer AdamW/SGD (C3) | Matematika Gradien, Algoritma Backpropagation, Optimizer Tuning | Problem-Solving Class (270m) | Praktikum Formatif (Non-Graded) |
-| **4** | **Mampu menerapkan regularisasi Dropout, Batch Normalization, Weight Decay (C3)** | **Regularisasi Jaringan Saraf: Mengatasi Overfitting & Vanishing Gradient** | **Kuliah + Lab Hands-on (270m)** | **Tugas 1: Milestone Proyek 1 / Modul Lab (Bobot: 20%)** |
-| 5 | Mampu mengonstruksi lapisan konvolusi 2D, kernel filter, stride, padding (C3) | Convolutional Neural Networks (CNN): Operasi Konvolusi & Pooling | Case Method + Lab Coding (270m) | Praktikum Formatif (Non-Graded) |
-| 6 | Mampu menerapkan arsitektur klasik VGG-16, ResNet (Residual Connections) (C4) | Arsitektur Modern CNN: VGG, ResNet, MobileNet untuk Edge | Case Method + Lab Coding (270m) | Praktikum Formatif (Non-Graded) |
-| 7 | Mampu menerapkan Transfer Learning dan Fine-Tuning pada model vision (C4) | Transfer Learning: Feature Extraction vs Fine-Tuning Model Vision | Kuliah + Lab Hands-on (270m) | Praktikum Formatif (Non-Graded) |
-| **8** | **EVALUASI TENGAH SEMESTER (UTS)** | **Ujian Koding Terjadwal PyTorch CNN & Transfer Learning Vision** | **Live Coding Lab Test (170m)** | **UTS: Evaluasi Proyek Awal 50% / Ujian Praktik (Bobot: 25%)** |
-| 9 | Mampu menguraikan konsep Object Detection YOLO dan Anchor Boxes (C2) | Pengantar Computer Vision Lanjut: Arsitektur Deteksi Objek YOLO | Ceramah & Demo (270m) | Praktikum Formatif (Non-Graded) |
-| 10 | Mampu memodelkan data sekuensial menggunakan Recurrent Neural Networks (C3) | Data Sekuensial: Simple RNN & Analisis Vanishing/Exploding Gradient | Kuliah + Lab Hands-on (270m) | Praktikum Formatif (Non-Graded) |
-| 11 | Mampu mengonstruksi Long Short-Term Memory (LSTM) dan Gated Recurrent Unit (C4) | Gated Architectures: LSTM Cells, GRU Cells untuk Time Series | Case Method + Lab Coding (270m) | Praktikum Formatif (Non-Graded) |
-| **12** | **Mampu menganalisis mekanisme Self-Attention dan Multi-Head Attention (C4)** | **Mekanisme Perhatian: Scaled Dot-Product Attention & Positional Encoding** | **Problem-Solving Class (270m)** | **Tugas 2: Milestone Proyek 2 / Integrasi Sistem (Bobot: 25%)** |
-| 13 | Mampu menguraikan arsitektur Transformer dan Vision Transformer (ViT) (C2) | Transformer Architecture: Encoder-Decoder Stack & HuggingFace Intro | Ceramah & Demo (270m) | Praktikum Formatif (Non-Graded) |
-| 14 | Mampu menguraikan Generative AI: Variational Autoencoder (VAE) & GANs (C2) | Generative Models: VAE Latent Space & GANs Adversarial Training | Ceramah Interaktif (270m) | Praktikum Formatif (Non-Graded) |
-| 15 | Mampu menyajikan proyek tim deep learning terpadu dan analisis kurva loss (C6) | PjBL Deep Learning Project Sprint: Evaluasi Metrik & Visualisasi Laten | PjBL Studio (270m) | Praktikum Formatif (Non-Graded) |
-| **16** | **EVALUASI AKHIR SEMESTER (UAS)** | **Sidang Demonstrasi Produk Aplikasi Deep Learning & Ujian Portofolio** | **Demo Day & Defense (170m)** | **UAS: Evaluasi Proyek Akhir / Demo Day & Portofolio (Bobot: 30%)** |
+| 1 | Mampu menguraikan etika Red Teaming dan metodologi standar PTES (C2) | Pengantar Penetration Testing, Standar PTES, Hukum & Etika Ethical Hacking | Kuliah & Diskusi (150m) | Aktivitas Formatif (Non-Graded) |
+| 2 | Mampu melakukan Reconnaissance dan OSINT (Shodan, Harvester, WHOIS) (C3) | Fase Pengumpulan Informasi: OSINT, DNS Enumeration, Shodan Recon | Case Method Workshop (150m) | Aktivitas Formatif (Non-Graded) |
+| 3 | Mampu melakukan Network Scanning lanjutan menggunakan Nmap Scripting Engine (C4) | Advanced Scanning: Nmap NSE Scripts, Firewall/IDS Evasion | Lab Hands-on (150m) | Aktivitas Formatif (Non-Graded) |
+| **4** | **Mampu mengeksploitasi kerentanan web tingkat lanjut: SQLi Blind & Time-Based (C4)** | **Web Exploitation: Blind SQL Injection via Sqlmap & Manual Payload** | **Lab Hands-on (150m)** | **Tugas 1: Kuis & Problem Solving (Bobot: 20%)** |
+| 5 | Mampu mengeksploitasi kerentanan SSRF, IDOR, dan Remote Code Execution (C4) | Web Exploitation: SSRF, IDOR, File Inclusion, Remote Code Execution (RCE) | Case Method Class (150m) | Aktivitas Formatif (Non-Graded) |
+| 6 | Mampu mengoperasikan Metasploit Framework dan payload msfvenom (C3) | System Exploitation: Metasploit Framework, Meterpreter, Privilege Escalation | Lab Hands-on (150m) | Aktivitas Formatif (Non-Graded) |
+| 7 | Mampu menganalisis taktik Lateral Movement dan Credential Dumping (C4) | Post-Exploitation: Mimikatz, Lateral Movement, MITRE ATT&CK Matrix | Case-Based Learning (150m) | Aktivitas Formatif (Non-Graded) |
+| **8** | **EVALUASI TENGAH SEMESTER (UTS)** | **Ujian Praktik Penetration Testing & Analisis Laporan Kerentanan** | **Ujian Praktik Lab Terjadwal (150m)** | **UTS: Ujian Tertulis Terjadwal (Bobot: 30%)** |
+| 9 | Mampu menguraikan struktur standar ISO/IEC 27001:2022 Klausul 4-10 (C2) | Standar ISO/IEC 27001:2022: Konteks Organisasi, Kepemimpinan, Operasi | Ceramah & Telaah Dokumen (150m) | Aktivitas Formatif (Non-Graded) |
+| 10 | Mampu menganalisis 93 kontrol keamanan Annex A ISO/IEC 27001:2022 (C4) | Kontrol Keamanan Annex A: Organisasional, Orang, Fisik, Teknologi | Case Method Class (150m) | Aktivitas Formatif (Non-Graded) |
+| 11 | Mampu menyusun dokumen Statement of Applicability (SoA) & Gap Analysis (C4) | Audit Keamanan: Penyusunan Dokumen SoA & Analisis Kesenjangan Sistem | Workshop Audit (150m) | Aktivitas Formatif (Non-Graded) |
+| **12** | **Mampu menganalisis risiko keamanan siber berbasis ISO 27005 & NIST SP 800-30 (C4)** | **Manajemen Risiko Siber: Risk Assessment, Risk Treatment Plan (RTP)** | **Problem-Solving Class (150m)** | **Tugas 2: Studi Kasus / Paper Analisis (Bobot: 20%)** |
+| 13 | Mampu merancang prosedur kerja Computer Security Incident Response Team (C5) | Manajemen Insiden Siber: CSIRT Workflow, Triase Insiden, Kontaimen | Case Method Class (150m) | Aktivitas Formatif (Non-Graded) |
+| 14 | Mampu mengekstraksi artefak forensik digital RAM via Volatility Framework (C4) | Digital Forensics Dasar: Analisis Memori RAM Volatil & Ekstraksi Bukti | Lab Forensik (150m) | Aktivitas Formatif (Non-Graded) |
+| 15 | Mampu menyusun Dokumen Kebijakan Keamanan Informasi (ISMS Policy) (C5) | Penyusunan Kebijakan Keamanan Organisasi & Simulasi Audit Eksternal | Presentasi Kelompok (150m) | Aktivitas Formatif (Non-Graded) |
+| **16** | **EVALUASI AKHIR SEMESTER (UAS)** | **Evaluasi Komprehensif Laporan Uji Penetrasi Profesional & Naskah Audit ISO 27001** | **Evaluasi Portofolio Naskah (150m)** | **UAS: Ujian Akhir Komprehensif (Bobot: 30%)** |
 
 ---
 
@@ -2868,7 +2867,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STI-624 — Integrasi Layanan Cerdas Berbasis AI** (*AI-Based Smart Services Integration*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Sistem Cerdas & Sains Data (Core STI) |
-| **Prasyarat Akademik** | `STI-519` Deep Learning & Neural Networks |
+| **Prasyarat Akademik** | `STI-413` Machine Learning & `STI-416` Web Back End Development |
 | **CPL yang Dibebankan** | `P2` (Arsitektur AI-as-a-Service), `KK1` (Model Serving, RAG, & Vektor Database) |
 | **Profil Lulusan (PL)** | `PL-1` (Intelligent Information Systems Developer) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |
@@ -2946,45 +2945,46 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 40. STI-626 — Keamanan Informasi Lanjut (Advanced Information Security)
+### 40. STI-626 — Deep Learning & Neural Networks (Deep Learning & Neural Networks)
 
 #### Tabel 40.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-626 — Keamanan Informasi Lanjut** (*Advanced Information Security*) |
-| **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
-| **Semester / Rumpun MK** | **Semester 6** / Sistem Komputer & Infrastruktur (Core STI) |
-| **Prasyarat Akademik** | `STI-418` Dasar Keamanan Informasi |
-| **CPL yang Dibebankan** | `P3` (Audit Keamanan ISO 27001), `KK3` (Manajemen Risiko Siber), `KK4` (Uji Penetrasi Sistem) |
-| **Profil Lulusan (PL)** | `PL-2` (Cybersecurity Specialist & Penetration Tester) |
-| **Target PEO** | `PEO-1` (Professional Practice) |
+| **Kode & Nama Mata Kuliah** | **STI-626 — Deep Learning & Neural Networks** (*Deep Learning & Neural Networks*) |
+| **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
+| **Semester / Rumpun MK** | **Semester 6** / Sistem Cerdas & Sains Data (Core STI) |
+| **Prasyarat Akademik** | `STI-413` Machine Learning |
+| **CPL yang Dibebankan** | `KK1` (Pemodelan Deep Learning Vision & NLP), `KK2` (Rekayasa Dataset Citra & Teks) |
+| **Profil Lulusan (PL)** | `PL-1` (Intelligent IS Dev / Deep Learning Engineer) |
+| **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |
 
 #### Tabel 40.B: Formulasi CPMK (Format ABCD & Level Bloom)
 | Kode CPMK | Rumusan Capaian Pembelajaran Mata Kuliah (Format ABCD Eksplisit) | Level Bloom | CPL Didukung |
 |---|---|:---:|:---:|
-| **CPMK-1** | Mahasiswa (*A*) mampu **merancang dan mengeksekusi** tahapan uji penetrasi keamanan (*Penetration Testing*) (*B*) sesuai standar PTES dan MITRE ATT&CK (*C*) dengan etika *Red Teaming* profesional (*D*). | **C4** | `KK4` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **melakukan** audit sistem manajemen keamanan informasi (*B*) berdasarkan klausul dan kontrol keamanan ISO/IEC 27001:2022 (*C*) dalam bentuk dokumen Statement of Applicability (SoA) (*D*). | **C4** | `P3, KK3` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **menyusun** rencana tanggap insiden (*Incident Response Plan*) dan melakukan analisis forensik digital dasar (*B*) pada kasus insiden kebocoran data (*C*) secara terstruktur (*D*). | **C5** | `KK3, KK4` |
+| **CPMK-1** | Mahasiswa (*A*) mampu **mengonstruksi** arsitektur Multi-Layer Perceptron (MLP) dan mengimplementasikan algoritma Backpropagation (*B*) menggunakan framework PyTorch (*C*) secara matematis dan modular (*D*). | **C3** | `KK1` |
+| **CPMK-2** | Mahasiswa (*A*) mampu **merancang, melatih, dan mengevaluasi** model Convolutional Neural Networks (CNN) dan arsitektur transfer learning (ResNet, VGG) (*B*) untuk klasifikasi citra medis/industri (*C*) dengan akurasi terukur (*D*). | **C5** | `KK1, KK2` |
+| **CPMK-3** | Mahasiswa (*A*) mampu **mengonstruksi** model sekuensial (LSTM, GRU, Transformer Self-Attention) (*B*) untuk pemrosesan bahasa alami atau prediksi runtun waktu (*C*) dengan konvergensi loss yang stabil (*D*). | **C5** | `KK1` |
+| **CPMK-4** | Mahasiswa (*A*) mampu **membangun** aplikasi deep learning terpadu (*B*) dengan teknik regularisasi (Dropout, Batch Normalization) dan optimasi akselerasi GPU (*C*) secara andal (*D*). | **C6** | `KK1` |
 
 #### Tabel 40.C: Matriks Rencana Pembelajaran 16 Pertemuan (Sub-CPMK, Materi, Metode, Asesmen)
 | Mg | Sub-CPMK & Kemampuan Akhir | Pokok Bahasan (Bahan Kajian) | Bentuk & Metode Pembelajaran | Bentuk Asesmen & Bobot (%) |
 |:--:|---|---|---|---|
-| 1 | Mampu menguraikan etika Red Teaming dan metodologi standar PTES (C2) | Pengantar Penetration Testing, Standar PTES, Hukum & Etika Ethical Hacking | Kuliah & Diskusi (150m) | Aktivitas Formatif (Non-Graded) |
-| 2 | Mampu melakukan Reconnaissance dan OSINT (Shodan, Harvester, WHOIS) (C3) | Fase Pengumpulan Informasi: OSINT, DNS Enumeration, Shodan Recon | Case Method Workshop (150m) | Aktivitas Formatif (Non-Graded) |
-| 3 | Mampu melakukan Network Scanning lanjutan menggunakan Nmap Scripting Engine (C4) | Advanced Scanning: Nmap NSE Scripts, Firewall/IDS Evasion | Lab Hands-on (150m) | Aktivitas Formatif (Non-Graded) |
-| **4** | **Mampu mengeksploitasi kerentanan web tingkat lanjut: SQLi Blind & Time-Based (C4)** | **Web Exploitation: Blind SQL Injection via Sqlmap & Manual Payload** | **Lab Hands-on (150m)** | **Tugas 1: Kuis & Problem Solving (Bobot: 20%)** |
-| 5 | Mampu mengeksploitasi kerentanan SSRF, IDOR, dan Remote Code Execution (C4) | Web Exploitation: SSRF, IDOR, File Inclusion, Remote Code Execution (RCE) | Case Method Class (150m) | Aktivitas Formatif (Non-Graded) |
-| 6 | Mampu mengoperasikan Metasploit Framework dan payload msfvenom (C3) | System Exploitation: Metasploit Framework, Meterpreter, Privilege Escalation | Lab Hands-on (150m) | Aktivitas Formatif (Non-Graded) |
-| 7 | Mampu menganalisis taktik Lateral Movement dan Credential Dumping (C4) | Post-Exploitation: Mimikatz, Lateral Movement, MITRE ATT&CK Matrix | Case-Based Learning (150m) | Aktivitas Formatif (Non-Graded) |
-| **8** | **EVALUASI TENGAH SEMESTER (UTS)** | **Ujian Praktik Penetration Testing & Analisis Laporan Kerentanan** | **Ujian Praktik Lab Terjadwal (150m)** | **UTS: Ujian Tertulis Terjadwal (Bobot: 30%)** |
-| 9 | Mampu menguraikan struktur standar ISO/IEC 27001:2022 Klausul 4-10 (C2) | Standar ISO/IEC 27001:2022: Konteks Organisasi, Kepemimpinan, Operasi | Ceramah & Telaah Dokumen (150m) | Aktivitas Formatif (Non-Graded) |
-| 10 | Mampu menganalisis 93 kontrol keamanan Annex A ISO/IEC 27001:2022 (C4) | Kontrol Keamanan Annex A: Organisasional, Orang, Fisik, Teknologi | Case Method Class (150m) | Aktivitas Formatif (Non-Graded) |
-| 11 | Mampu menyusun dokumen Statement of Applicability (SoA) & Gap Analysis (C4) | Audit Keamanan: Penyusunan Dokumen SoA & Analisis Kesenjangan Sistem | Workshop Audit (150m) | Aktivitas Formatif (Non-Graded) |
-| **12** | **Mampu menganalisis risiko keamanan siber berbasis ISO 27005 & NIST SP 800-30 (C4)** | **Manajemen Risiko Siber: Risk Assessment, Risk Treatment Plan (RTP)** | **Problem-Solving Class (150m)** | **Tugas 2: Studi Kasus / Paper Analisis (Bobot: 20%)** |
-| 13 | Mampu merancang prosedur kerja Computer Security Incident Response Team (C5) | Manajemen Insiden Siber: CSIRT Workflow, Triase Insiden, Kontaimen | Case Method Class (150m) | Aktivitas Formatif (Non-Graded) |
-| 14 | Mampu mengekstraksi artefak forensik digital RAM via Volatility Framework (C4) | Digital Forensics Dasar: Analisis Memori RAM Volatil & Ekstraksi Bukti | Lab Forensik (150m) | Aktivitas Formatif (Non-Graded) |
-| 15 | Mampu menyusun Dokumen Kebijakan Keamanan Informasi (ISMS Policy) (C5) | Penyusunan Kebijakan Keamanan Organisasi & Simulasi Audit Eksternal | Presentasi Kelompok (150m) | Aktivitas Formatif (Non-Graded) |
-| **16** | **EVALUASI AKHIR SEMESTER (UAS)** | **Evaluasi Komprehensif Laporan Uji Penetrasi Profesional & Naskah Audit ISO 27001** | **Evaluasi Portofolio Naskah (150m)** | **UAS: Ujian Akhir Komprehensif (Bobot: 30%)** |
+| 1 | Mampu menguraikan paradigma Deep Learning, autograd PyTorch, dan GPU CUDA (C2) | Pengantar Deep Learning, PyTorch Tensors, Autograd Engine, CUDA | Kuliah (100m) + Lab Setup (170m) | Praktikum Formatif (Non-Graded) |
+| 2 | Mampu mengonstruksi Multi-Layer Perceptron (MLP) dan fungsi aktivasi ReLU/GELU (C3) | Arsitektur MLP Feedforward, Hidden Layers, Loss Functions (MSE/Cross-Entropy) | Case Method + Lab Coding (270m) | Praktikum Formatif (Non-Graded) |
+| 3 | Mampu menerapkan Backpropagation dan optimizer AdamW/SGD (C3) | Matematika Gradien, Algoritma Backpropagation, Optimizer Tuning | Problem-Solving Class (270m) | Praktikum Formatif (Non-Graded) |
+| **4** | **Mampu menerapkan regularisasi Dropout, Batch Normalization, Weight Decay (C3)** | **Regularisasi Jaringan Saraf: Mengatasi Overfitting & Vanishing Gradient** | **Kuliah + Lab Hands-on (270m)** | **Tugas 1: Milestone Proyek 1 / Modul Lab (Bobot: 20%)** |
+| 5 | Mampu mengonstruksi lapisan konvolusi 2D, kernel filter, stride, padding (C3) | Convolutional Neural Networks (CNN): Operasi Konvolusi & Pooling | Case Method + Lab Coding (270m) | Praktikum Formatif (Non-Graded) |
+| 6 | Mampu menerapkan arsitektur klasik VGG-16, ResNet (Residual Connections) (C4) | Arsitektur Modern CNN: VGG, ResNet, MobileNet untuk Edge | Case Method + Lab Coding (270m) | Praktikum Formatif (Non-Graded) |
+| 7 | Mampu menerapkan Transfer Learning dan Fine-Tuning pada model vision (C4) | Transfer Learning: Feature Extraction vs Fine-Tuning Model Vision | Kuliah + Lab Hands-on (270m) | Praktikum Formatif (Non-Graded) |
+| **8** | **EVALUASI TENGAH SEMESTER (UTS)** | **Ujian Koding Terjadwal PyTorch CNN & Transfer Learning Vision** | **Live Coding Lab Test (170m)** | **UTS: Evaluasi Proyek Awal 50% / Ujian Praktik (Bobot: 25%)** |
+| 9 | Mampu menguraikan konsep Object Detection YOLO dan Anchor Boxes (C2) | Pengantar Computer Vision Lanjut: Arsitektur Deteksi Objek YOLO | Ceramah & Demo (270m) | Praktikum Formatif (Non-Graded) |
+| 10 | Mampu memodelkan data sekuensial menggunakan Recurrent Neural Networks (C3) | Data Sekuensial: Simple RNN & Analisis Vanishing/Exploding Gradient | Kuliah + Lab Hands-on (270m) | Praktikum Formatif (Non-Graded) |
+| 11 | Mampu mengonstruksi Long Short-Term Memory (LSTM) dan Gated Recurrent Unit (C4) | Gated Architectures: LSTM Cells, GRU Cells untuk Time Series | Case Method + Lab Coding (270m) | Praktikum Formatif (Non-Graded) |
+| **12** | **Mampu menganalisis mekanisme Self-Attention dan Multi-Head Attention (C4)** | **Mekanisme Perhatian: Scaled Dot-Product Attention & Positional Encoding** | **Problem-Solving Class (270m)** | **Tugas 2: Milestone Proyek 2 / Integrasi Sistem (Bobot: 25%)** |
+| 13 | Mampu menguraikan arsitektur Transformer dan Vision Transformer (ViT) (C2) | Transformer Architecture: Encoder-Decoder Stack & HuggingFace Intro | Ceramah & Demo (270m) | Praktikum Formatif (Non-Graded) |
+| 14 | Mampu menguraikan Generative AI: Variational Autoencoder (VAE) & GANs (C2) | Generative Models: VAE Latent Space & GANs Adversarial Training | Ceramah Interaktif (270m) | Praktikum Formatif (Non-Graded) |
+| 15 | Mampu menyajikan proyek tim deep learning terpadu dan analisis kurva loss (C6) | PjBL Deep Learning Project Sprint: Evaluasi Metrik & Visualisasi Laten | PjBL Studio (270m) | Praktikum Formatif (Non-Graded) |
+| **16** | **EVALUASI AKHIR SEMESTER (UAS)** | **Sidang Demonstrasi Produk Aplikasi Deep Learning & Ujian Portofolio** | **Demo Day & Defense (170m)** | **UAS: Evaluasi Proyek Akhir / Demo Day & Portofolio (Bobot: 30%)** |
 
 ---
 
@@ -3464,7 +3464,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STA-05 — Conversational AI and Intelligent Assistant** (*Conversational AI & Intelligent Assistant*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 1: Integrated Smart Systems |
-| **Prasyarat Akademik** | `STI-519` Deep Learning & Neural Networks |
+| **Prasyarat Akademik** | `STI-413` Machine Learning & `STI-416` Web Back End Development |
 | **CPL yang Dibebankan** | `P2` (Arsitektur Bahasa Alami Modern), `KK1` (Prompt Engineering, RAG & LLM Agents) |
 | **Profil Lulusan (PL)** | `PL-1` (AI Engineer / Conversational Designer) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-2` (Technopreneurship) |
@@ -3507,7 +3507,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STA-06 — Smart Surveillance and IoT Analytics** (*Smart Surveillance and IoT Analytics*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 1: Integrated Smart Systems |
-| **Prasyarat Akademik** | `STI-519` Deep Learning & `STI-521` IoT |
+| **Prasyarat Akademik** | `STI-626` Deep Learning & `STI-521` IoT |
 | **CPL yang Dibebankan** | `P3` (Edge AI & Video Analytics), `KK1` (Computer Vision Real-Time), `KK3` (Integrasi Sensor & CCTV) |
 | **Profil Lulusan (PL)** | `PL-1`, `PL-2` (Smart Systems Integrator) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |

@@ -66,11 +66,11 @@ Seluruh usulan mata kuliah pilihan tambahan dirancang **bebas redundansi** (*Zer
 | **6** | `STA-02` | Computational Methods & Numerics | 3 | +P | `STI-205` Aljabar Linear | BK-IS10 (Mathematical Found.) | Eksis 2026 |
 | **6** | `STA-03` | Intelligent Agent Systems | 3 | +P | `STI-307` Sistem Cerdas | BK-IS15 / BK-IT10 (AI Systems) | Eksis 2026 |
 | **6** | `STA-09` | Big Data Engineering & Stream Analytics | 3 | +P | `STI-415` DW/BI, `STI-520` | BK-IS02 / BK-IT09 (Big Data) | **Usulan 2027** |
-| **6** | `STA-10` | Edge AI & Embedded Machine Learning | 3 | +P | `STI-521` IoT, `STI-519` DL | BK-IT06 / BK-IT10 (Edge AI) | **Usulan 2027** |
-| **7** | `STA-04` | MLOps and AI Pipeline | 3 | +P | `STI-519` DL, `STI-417` Cloud | BK-IT07 / BK-IT10 (MLOps) | Eksis 2026 |
-| **7** | `STA-05` | Conversational AI & Intelligent Assistant | 3 | +P | `STI-414` NLP, `STI-519` DL | BK-IS15 / BK-IT10 (NLP/GenAI) | Eksis 2026 |
+| **6** | `STA-10` | Edge AI & Embedded Machine Learning | 3 | +P | `STI-521` IoT, `STI-626` DL | BK-IT06 / BK-IT10 (Edge AI) | **Usulan 2027** |
+| **7** | `STA-04` | MLOps and AI Pipeline | 3 | +P | `STI-626` DL, `STI-417` Cloud | BK-IT07 / BK-IT10 (MLOps) | Eksis 2026 |
+| **7** | `STA-05` | Conversational AI & Intelligent Assistant | 3 | +P | `STI-414` NLP, `STI-626` DL | BK-IS15 / BK-IT10 (NLP/GenAI) | Eksis 2026 |
 | **7** | `STA-06` | Smart Surveillance & IoT Analytics | 3 | +P | `STI-521` IoT, `STA-07` CV | BK-IT06 / BK-IT10 (IoT Vision) | Eksis 2026 |
-| **7** | `STA-11` | Generative AI Engineering & LLM App | 3 | +P | `STI-414` NLP, `STI-519` DL | BK-IT10 (GenAI Engineering) | **Usulan 2027** |
+| **7** | `STA-11` | Generative AI Engineering & LLM App | 3 | +P | `STI-414` NLP, `STI-626` DL | BK-IT10 (GenAI Engineering) | **Usulan 2027** |
 | **7** | `STA-12` | Autonomous Systems & Robot Navigation | 3 | +P | `STI-521` IoT, `STA-07` CV | BK-IT06 / BK-IT10 (Robotics) | **Usulan 2027** |
 
 ---

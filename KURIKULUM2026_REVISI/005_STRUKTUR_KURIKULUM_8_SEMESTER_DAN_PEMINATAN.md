@@ -123,14 +123,14 @@ Mata kuliah keahlian inti Sistem dan Teknologi Informasi yang membina 14 CPL Pro
 | 16 | `STI-416` | Web Back End Development | 3 | +P | Sem 4 | `FST-207`, `STI-311` |
 | 17 | `STI-417` | Komputasi Awan (Cloud Computing) | 3 | Teori | Sem 4 | `STI-312`, `STI-310` |
 | 18 | `STI-418` | Dasar Keamanan Informasi | 2 | Teori | Sem 4 | `STI-312` |
-| 19 | `STI-519` | Deep Learning & Neural Networks | 3 | +P | Sem 5 | `STI-413` |
+| 19 | `STI-519` | Keamanan Informasi Lanjut | 3 | Teori | Sem 5 | `STI-418` |
 | 20 | `STI-520` | Data Mining & Visualisasi Data | 3 | +P | Sem 5 | `STI-413`, `STI-415` |
 | 21 | `STI-521` | Internet of Things (IoT) | 3 | +P | Sem 5 | `STI-312`, `STI-310` |
 | 22 | `STI-522` | Pemrograman Aplikasi Mobile | 3 | +P | Sem 5 | `STI-311`, `STI-416` |
 | 23 | `STI-523` | Manajemen Proyek TI | 3 | Teori | Sem 5 | `STI-306`, `STI-309` |
-| 24 | `STI-624` | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | Sem 6 | `STI-519`, `STI-416` |
+| 24 | `STI-624` | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | Sem 6 | `STI-413`, `STI-416` |
 | 25 | `STI-625` | Smart City & Pemerintahan Digital | 2 | Teori | Sem 6 | `STI-521` |
-| 26 | `STI-626` | Keamanan Informasi Lanjut | 3 | Teori | Sem 6 | `STI-418` |
+| 26 | `STI-626` | Deep Learning & Neural Networks | 3 | +P | Sem 6 | `STI-413` |
 | 27 | `STI-627` | Digital Platform Engineering | 3 | +P | Sem 6 | `STI-416` |
 | 28 | `STI-728` | Inovasi Teknologi dan Startup Digital | 3 | +P | Sem 7 | `STI-627`, `MKU-204` |
 | **TOTAL** | — | **28 Mata Kuliah Inti Program Studi** | **79** | — | — | **54,1% Beban Kurikulum** |
@@ -220,7 +220,7 @@ Mata kuliah keahlian inti Sistem dan Teknologi Informasi yang membina 14 CPL Pro
 ### SEMESTER 5 (21 SKS) — Tahap Spesialisasi Deep Learning, IoT & Peminatan 1
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
-| 32 | `STI-519` | Deep Learning & Neural Networks | 3 | +P | Core STI | `STI-413` |
+| 32 | `STI-519` | Keamanan Informasi Lanjut | 3 | Teori | Core STI | `STI-418` |
 | 33 | `STI-520` | Data Mining & Visualisasi Data | 3 | +P | Core STI | `STI-413`, `STI-415` |
 | 34 | `STI-521` | Internet of Things (IoT) | 3 | +P | Core STI | `STI-312`, `STI-310` |
 | 35 | `STI-522` | Pemrograman Aplikasi Mobile | 3 | +P | Core STI | `STI-311`, `STI-416` |
@@ -235,9 +235,9 @@ Mata kuliah keahlian inti Sistem dan Teknologi Informasi yang membina 14 CPL Pro
 ### SEMESTER 6 (19 SKS) — Tahap Spesialisasi MBKM & Platform Engineering
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
-| 39 | `STI-624` | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | Core STI | `STI-519`, `STI-416` |
+| 39 | `STI-624` | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | Core STI | `STI-413`, `STI-416` |
 | 40 | `STI-625` | Smart City & Pemerintahan Digital | 2 | Teori | Core STI | `STI-521` |
-| 41 | `STI-626` | Keamanan Informasi Lanjut | 3 | Teori | Core STI | `STI-418` |
+| 41 | `STI-626` | Deep Learning & Neural Networks | 3 | +P | Core STI | `STI-413` |
 | 42 | `STI-627` | Digital Platform Engineering | 3 | +P | Core STI | `STI-416` |
 | 43 | `FST-611` | Metodologi Penelitian | 2 | Teori | FSTI | $\ge 76\text{ SKS}$ |
 | 44 | `STA/B/C` | **MK Pilihan Peminatan 2** | 3 | Elektif | Peminatan | Prasyarat Peminatan |

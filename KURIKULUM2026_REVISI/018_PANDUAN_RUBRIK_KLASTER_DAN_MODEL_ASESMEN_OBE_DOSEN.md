@@ -80,7 +80,7 @@ Dosen pengampu menentukan klaster mata kuliah yang diampu, lalu menerapkan rubri
 ---
 
 ### KLASTER 3 (K-3): KECERDASAN ARTIFISIAL, CLOUD & CYBERSECURITY
-*Daftar MK: `STI-307 AI`, `STI-413 Machine Learning`, `STI-414 NLP & IR`, `STI-519 Deep Learning`, `STI-521 IoT`, `STI-417 Cloud Computing`, `STI-624 Integrasi AI`, `STI-626 Keamanan Lanjut`, seluruh MK Pilihan `STA` dan `STB`.*
+*Daftar MK: `STI-307 AI`, `STI-413 Machine Learning`, `STI-414 NLP & IR`, `STI-626 Deep Learning`, `STI-521 IoT`, `STI-417 Cloud Computing`, `STI-624 Integrasi AI`, `STI-519 Keamanan Lanjut`, seluruh MK Pilihan `STA` dan `STB`.*
 
 * **Bobot Asesmen:** Tugas 1 (20%) | UTS (25%) | Tugas 2 (25%) | UAS (30%)
 * **Bentuk Asesmen:** Data Pipeline Prep & Environment, Model Training/Security Audit, Hyperparameter Tuning & Penetration Testing, End-to-End Smart Service Showcase.

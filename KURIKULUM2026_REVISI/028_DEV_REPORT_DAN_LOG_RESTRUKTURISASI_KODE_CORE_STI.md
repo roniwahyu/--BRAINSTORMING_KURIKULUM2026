@@ -71,14 +71,14 @@ $$\mathbf{STI\text{-}[Semester][Nomor\ Urut\ Kumulatif\ 2\ Digit]}$$
 | **4** | 16 | `STI-407` | **`STI-416`** | Web Back End Development | 3 | `FST-207`, `STI-306` | `FST-207`, **`STI-311`** |
 | **4** | 17 | `STI-404` | **`STI-417`** | Komputasi Awan (Cloud Computing) | 3 | `STI-307`, `STI-305` | **`STI-312`**, **`STI-310`** |
 | **4** | 18 | `STI-405` | **`STI-418`** | Dasar Keamanan Informasi | 2 | `STI-307` | **`STI-312`** |
-| **5** | 19 | `STI-501` | **`STI-519`** | Deep Learning & Neural Networks | 3 | `STI-401` | **`STI-413`** |
+| **5** | 19 | `STI-501` | **`STI-519`** | Keamanan Informasi Lanjut | 3 | `STI-405` | **`STI-418`** |
 | **5** | 20 | `STI-503` | **`STI-520`** | Data Mining & Visualisasi Data | 3 | `STI-401`, `STI-402` | **`STI-413`**, **`STI-415`** |
 | **5** | 21 | `STI-504` | **`STI-521`** | Internet of Things (IoT) | 3 | `STI-307`, `STI-305` | **`STI-312`**, **`STI-310`** |
 | **5** | 22 | `STI-505` | **`STI-522`** | Pemrograman Aplikasi Mobile | 3 | `STI-306`, `STI-407` | **`STI-311`**, **`STI-416`** |
 | **5** | 23 | `STI-506` | **`STI-523`** | Manajemen Proyek TI | 3 | `STI-301`, `STI-304` | **`STI-306`**, **`STI-309`** |
-| **6** | 24 | `STI-601` | **`STI-624`** | Integrasi Layanan Cerdas Berbasis AI | 3 | `STI-501`, `STI-407` | **`STI-519`**, **`STI-416`** |
+| **6** | 24 | `STI-601` | **`STI-624`** | Integrasi Layanan Cerdas Berbasis AI | 3 | `STI-501`, `STI-407` | **`STI-413`**, **`STI-416`** |
 | **6** | 25 | `STI-602` | **`STI-625`** | Smart City & Pemerintahan Digital | 2 | `STI-504` | **`STI-521`** |
-| **6** | 26 | `STI-603` | **`STI-626`** | Keamanan Informasi Lanjut | 3 | `STI-405` | **`STI-418`** |
+| **6** | 26 | `STI-603` | **`STI-626`** | Deep Learning & Neural Networks | 3 | `STI-401` | **`STI-413`** |
 | **6** | 27 | `STI-604` | **`STI-627`** | Digital Platform Engineering | 3 | `STI-407` | **`STI-416`** |
 | **7** | 28 | `STI-701` | **`STI-728`** | Inovasi Teknologi dan Startup Digital | 3 | `STI-604`, `MKU-204` | **`STI-627`**, `MKU-204` |
 
@@ -151,7 +151,7 @@ Eksekusi dijalankan via engine Python `_tools/execute_core_sti_migration.py` men
 * **Status:** **LULUS 11/11 KELOMPOK UJI**
 * **Validasi Target K2026:**
   - Kode target unik: 49 MK valid (0 kode tidak dikenal di Dok 005/007).
-  - Neraca rekognisi arah balik: Paket wajib K2026 = 49 MK / 128 SKS (114 SKS diakui, 14 SKS defisit MK baru: `STI-103`, `FST-204`, `STI-312`, `STI-626`, `FST-610`).
+  - Neraca rekognisi arah balik: Paket wajib K2026 = 49 MK / 128 SKS (114 SKS diakui, 14 SKS defisit MK baru: `STI-103`, `FST-204`, `STI-312`, `STI-519`, `FST-610`).
   - Ketuntasan klaim ganda: `STI-414` (menang `STI-528`), `STI-728` (menang `STI-742`).
 
 #### 6.3 Re-generasi Berkas Excel & Word Master

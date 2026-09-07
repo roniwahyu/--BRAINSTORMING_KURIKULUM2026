@@ -493,7 +493,7 @@ graph TD
          ├── STA-03 Sistem Agen Cerdas &amp; Multi-Agent (+P) ─────┤
          ├── STA-02 Metode Komputasi Numerik Terapan (+P) ─────┤
          │                                                     │
-[SEM 5]  ├── STI-519 Deep Learning &amp; Neural Networks (+P) ─────┴── STI-413 Machine Learning (+P) [SEM 4]
+[SEM 6]  ├── STI-626 Deep Learning &amp; Neural Networks (+P) ─────┴── STI-413 Machine Learning (+P) [SEM 4]
          │                                                           │
          ├── STI-520 Data Mining &amp; Visualisasi Data (+P) ────────────┼── STI-415 Data Warehouse &amp; BI [SEM 4]
          │                                                           │
@@ -511,7 +511,7 @@ graph TD
 <h4 id="analisis-kritis-justifikasi-pedagogis-pilar-1">🔍 Analisis Kritis &amp; Justifikasi Pedagogis Pilar 1:</h4>
 <ol>
 <li><strong>Peran Kunci <code>STI-414 Pengantar NLP &amp; IR</code> (Sem 4):</strong> Menjadi jembatan esensial untuk <code>STA-05 Conversational AI</code> (Sem 7) yang berbasis LLM/RAG. Tanpa fondasi tokenisasi, TF-IDF, vector space model, dan embedding di Sem 4, pemahaman generative AI di Sem 7 akan bersifat superficial.</li>
-<li><strong>Keterpaduan Deep Learning &amp; Machine Learning:</strong> <code>STI-413 Machine Learning</code> (Sem 4) mengajarkan <em>classical tabular &amp; loss minimization</em>, yang menjadi landasan wajib bagi <code>STI-519 Deep Learning</code> (Sem 5) yang memperdalam <em>backpropagation, CNN, RNN/LSTM, dan Attention Mechanism</em>.</li>
+<li><strong>Keterpaduan Deep Learning &amp; Machine Learning:</strong> <code>STI-413 Machine Learning</code> (Sem 4) mengajarkan <em>classical tabular &amp; loss minimization</em>, yang menjadi landasan wajib bagi <code>STI-626 Deep Learning</code> (Sem 6) yang memperdalam <em>backpropagation, CNN, RNN/LSTM, dan Attention Mechanism</em>.</li>
 <li><strong>MLOps sebagai Muara Rekayasa:</strong> <code>STA-04 MLOps</code> (Sem 7) mensintesis model machine learning dengan containerization dan pipeline deployment (menghubungkan pilar AI dengan pilar Cloud/DevOps).</li>
 </ol>
 <hr />
@@ -524,7 +524,7 @@ graph TD
          │                                                     │
 [SEM 6]  ├── STB-02 Cloud Architecture &amp; DevOps (+P) ──────────┼── STI-417 Komputasi Awan (Cloud) [SEM 4]
          ├── STB-03 Penetration Testing &amp; Red Teaming (+P) ────┤     │
-         ├── STI-626 Keamanan Informasi Lanjut ────────────────┤     │
+         ├── STI-519 Keamanan Informasi Lanjut ────────────────┤     │
          │                                                     │     │
 [SEM 5]  ├── STI-521 Internet of Things (IoT) (+P) ────────────┼── STI-312 Jaringan Komputer [SEM 3]
          ├── STB-01 Keamanan Jaringan &amp; Forensik Digital ──────┤     │
@@ -545,7 +545,7 @@ graph TD
    * Sem 2: Regulasi &amp; UU ITE (<span class="code-tag">FST-206</span>>)
    * Sem 4: CIA Triad, Kripto Klasik, Risk (<span class="code-tag">STI-418</span>>)
    * Sem 5: Wireshark, Packet Inspection, Autopsy (<code>STB-01</code>>)
-   * Sem 6: Ethical Hacking, OWASP Top 10, Kali Linux (<code>STB-03</code>> &amp; <span class="code-tag">STI-626</span>>)
+   * Sem 5: Keamanan Lanjut (<span class="code-tag">STI-519</span>>), Sem 6: Ethical Hacking (<code>STB-03</code>>)
    * Sem 7: Zero-Trust Cloud &amp; GRC Enterprise (<code>STB-04</code>> &amp; <code>STB-05</code>>).</li>
 </ol>
 <hr />
@@ -618,11 +618,11 @@ graph TD
 <tr>
 <td style="text-align: center;"><strong>5</strong></td>
 <td style="text-align: center;"><span class="code-tag">STI-519</span>></td>
-<td>Deep Learning &amp; Neural Networks</td>
+<td>Keamanan Informasi Lanjut</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">+P</td>
-<td><span class="code-tag">STI-413</span>> Machine Learning</td>
-<td><span class="code-tag">STI-205</span>> Aljabar Linear, <span class="code-tag">FST-408</span>> Probstat</td>
+<td style="text-align: center;">Teori</td>
+<td><span class="code-tag">STI-418</span>> Dasar Keamanan</td>
+<td><span class="code-tag">STI-312</span>> Jarkom, <code>STB-01</code>> NetSec</td>
 <td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
 </tr>
 <tr>
@@ -701,8 +701,8 @@ graph TD
 <td>Integrasi Layanan Cerdas Berbasis AI</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">+P</td>
-<td><span class="code-tag">STI-519</span>> DL, <span class="code-tag">STI-416</span>> Back End</td>
-<td><span class="code-tag">STI-414</span>> NLP &amp; IR, <span class="code-tag">STI-413</span>> ML</td>
+<td><span class="code-tag">STI-413</span>> ML, <span class="code-tag">STI-416</span>> Back End</td>
+<td><span class="code-tag">STI-414</span>> NLP &amp; IR, <span class="code-tag">STI-307</span>> Cerdas</td>
 <td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
 </tr>
 <tr>
@@ -718,11 +718,11 @@ graph TD
 <tr>
 <td style="text-align: center;"><strong>6</strong></td>
 <td style="text-align: center;"><span class="code-tag">STI-626</span>></td>
-<td>Keamanan Informasi Lanjut</td>
+<td>Deep Learning &amp; Neural Networks</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">Teori</td>
-<td><span class="code-tag">STI-418</span>> Dasar Keamanan</td>
-<td><span class="code-tag">STI-312</span>> Jarkom, <code>STB-01</code>> NetSec</td>
+<td style="text-align: center;">+P</td>
+<td><span class="code-tag">STI-413</span>> Machine Learning</td>
+<td><span class="code-tag">STI-205</span>> Aljabar Linear, <span class="code-tag">FST-408</span>> Probstat</td>
 <td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
 </tr>
 <tr>
@@ -851,7 +851,7 @@ graph TD
 <td>MLOps &amp; AI Pipeline <em>(P1)</em></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">+P</td>
-<td><span class="code-tag">STI-519</span>> DL, <span class="code-tag">STI-417</span>> Cloud</td>
+<td><span class="code-tag">STI-626</span>> DL, <span class="code-tag">STI-417</span>> Cloud</td>
 <td><code>STA-01</code>> DSS, <span class="code-tag">STI-413</span>> ML</td>
 <td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
 </tr>
@@ -861,7 +861,7 @@ graph TD
 <td>Conversational AI &amp; LLM <em>(P1)</em></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">+P</td>
-<td><span class="code-tag">STI-414</span>> NLP &amp; IR, <span class="code-tag">STI-519</span>> DL</td>
+<td><span class="code-tag">STI-414</span>> NLP &amp; IR, <span class="code-tag">STI-626</span>> DL</td>
 <td><span class="code-tag">STI-624</span>> Integrasi Layanan Cerdas AI</td>
 <td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
 </tr>
@@ -871,7 +871,7 @@ graph TD
 <td>Smart Surveillance &amp; Edge AI <em>(P1)</em></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">+P</td>
-<td><span class="code-tag">STI-519</span>> DL, <span class="code-tag">STI-521</span>> IoT</td>
+<td><span class="code-tag">STI-626</span>> DL, <span class="code-tag">STI-521</span>> IoT</td>
 <td><span class="code-tag">STI-413</span>> Machine Learning</td>
 <td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
 </tr>
@@ -891,7 +891,7 @@ graph TD
 <td>Keamanan Cloud &amp; Kripto <em>(P2)</em></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">+P</td>
-<td><span class="code-tag">STI-417</span>> Cloud, <span class="code-tag">STI-626</span>> Security</td>
+<td><span class="code-tag">STI-417</span>> Cloud, <span class="code-tag">STI-519</span>> Security</td>
 <td><span class="code-tag">STI-204</span>> Matdis (Number Theory/Kripto)</td>
 <td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
 </tr>

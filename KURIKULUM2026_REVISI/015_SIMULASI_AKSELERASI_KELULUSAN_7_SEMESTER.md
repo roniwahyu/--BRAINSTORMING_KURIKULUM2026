@@ -140,7 +140,7 @@ Sesuai dengan **Permendikbudristek No. 53 Tahun 2023 tentang Penjaminan Mutu Pen
 
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Justifikasi Keterpenuhan Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
-| 42 | `STI-624` | Integrasi Layanan Cerdas AI | 3 | +P | Core STI | `STI-519` Deep Learning, `STI-416` Back End |
+| 42 | `STI-624` | Integrasi Layanan Cerdas AI | 3 | +P | Core STI | `STI-626` Deep Learning, `STI-416` Back End |
 | 43 | `STI-626` | Keamanan Informasi Lanjut | 3 | Teori | Core STI | `STI-418` Dasar Keamanan Informasi |
 | 44 | `STI-627` | Digital Platform Engineering | 3 | +P | Core STI | `STI-416` Web Back End Development |
 | 45 | `FST-611` | Metodologi Penelitian | 2 | Teori | FSTI | Syarat $\ge 76\text{ SKS}$ (Sudah 109 SKS ✅) |
