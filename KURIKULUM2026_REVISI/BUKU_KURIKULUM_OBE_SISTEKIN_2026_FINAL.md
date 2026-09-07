@@ -287,17 +287,17 @@ Sebagai program studi baru yang sedang bertumbuh, SISTEKIN menerapkan evaluasi P
 | 38.B | `MKU-508` | Kewirausahaan II | 0 | Teori | MKWU | — (Kebijakan UWG, Sem 5) |
 | **SUBTOTAL** | — | **Total SKS Semester 5 (7 MK + 1 MK 0 SKS)** | **21** | — | — | **Kumulatif: 101 SKS** |
 
-### SEMESTER 6 (20 SKS)
+### SEMESTER 6 (19 SKS)
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
 | 39 | `STI-624` | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | Core STI | `STI-413`, `STI-416` |
-| 40 | `STI-625` | Smart City & Pemerintahan Digital | 2 | +P | Core STI | `STI-521` |
+| 40 | `STI-625` | Smart City & Pemerintahan Digital | 2 | Teori | Core STI | `STI-521` |
 | 41 | `STI-626` | Deep Learning & Neural Networks | 3 | +P | Core STI | `STI-413` |
 | 42 | `STI-627` | Digital Platform Engineering | 3 | +P | Core STI | `STI-416` |
 | 43 | `FST-611` | Metodologi Penelitian | 2 | Teori | FSTI | $\ge 76\text{ SKS}$ |
 | 44 | `STA/B/C` | **MK Pilihan Peminatan 2** | 3 | Elektif | Peminatan | Prasyarat Peminatan |
 | 45 | `STA/B/C` | **MK Pilihan Peminatan 3** | 3 | Elektif | Peminatan | Prasyarat Peminatan |
-| **SUBTOTAL** | — | **Total SKS Semester 6 (7 MK)** | **20** | — | — | **Kumulatif: 121 SKS** |
+| **SUBTOTAL** | — | **Total SKS Semester 6 (7 MK)** | **19** | — | — | **Kumulatif: 120 SKS** |
 
 ### SEMESTER 7 (20 SKS)
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
@@ -309,7 +309,7 @@ Sebagai program studi baru yang sedang bertumbuh, SISTEKIN menerapkan evaluasi P
 | 50 | `STA/B/C` | **MK Pilihan Peminatan 4** | 3 | Elektif | Peminatan | Prasyarat Peminatan |
 | 51 | `STA/B/C` | **MK Pilihan Peminatan 5** | 3 | Elektif | Peminatan | Prasyarat Peminatan |
 | 52 | `STA/B/C` | **MK Pilihan Peminatan 6** | 3 | Elektif | Peminatan | Prasyarat Peminatan |
-| **SUBTOTAL** | — | **Total SKS Semester 7 (7 MK)** | **20** | — | — | **Kumulatif: 141 SKS** |
+| **SUBTOTAL** | — | **Total SKS Semester 7 (7 MK)** | **20** | — | — | **Kumulatif: 140 SKS** |
 
 ### SEMESTER 8 (6 SKS)
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
@@ -327,9 +327,9 @@ Sebagai program studi baru yang sedang bertumbuh, SISTEKIN menerapkan evaluasi P
 | Sem 2 | 8 MK | 20 SKS | 39 SKS | 13,6% | Tahap Fondasi Data, Matdis & OOP |
 | Sem 3 | 7 MK | 20 SKS | 59 SKS | 13,6% | Tahap Penguatan Core RPL, OS & Jaringan |
 | Sem 4 | 8 MK | 21 SKS | 80 SKS | 14,3% | Tahap Penguatan Core AI/ML, DW & Cloud |
-| Sem 5 | 7 MK | 21 SKS | 101 SKS | 14,3% | Tahap Spesialisasi Deep Learning & IoT |
-| Sem 6 | 7 MK | 20 SKS | 121 SKS | 13,6% | Tahap Spesialisasi MBKM & Platform Eng |
-| Sem 7 | 7 MK | 20 SKS | 141 SKS | 13,6% | Tahap Integrasi Capstone, PKL & Sempro |
+| Sem 5 | 7 MK | 21 SKS | 101 SKS | 14,4% | Tahap Spesialisasi Keamanan Lanjut & IoT |
+| Sem 6 | 7 MK | 19 SKS | 120 SKS | 13,0% | Tahap Spesialisasi Deep Learning & Platform Eng |
+| Sem 7 | 7 MK | 20 SKS | 140 SKS | 13,7% | Tahap Integrasi Capstone, PKL & Sempro |
 | Sem 8 | 1 MK | 6 SKS | 146 SKS | 4,1% | Tahap Penyelesaian Skripsi / Non-Skripsi |
 | TOTAL | 55 MK | 146 SKS | 146 SKS | 100,0% | Paket Lulus Tepat Waktu (4 Tahun) |
 
@@ -387,7 +387,7 @@ Mahasiswa memilih 1 paket peminatan penuh (ditempuh 1 MK di Sem 5, 2 MK di Sem 6
 | Bersertifikat (MSIB) |  | • MK Pilihan Peminatan 3 (3) |  |
 |  |  | • STI-624 Integrasi AI (3) |  |
 |  |  | • STI-627 Platform Eng (3) |  |
-|  |  | • STI-625 Smart City (3) |  |
+|  |  | • STI-625 Smart City (2) |  |
 |  |  | • STI-626 Keamanan Lanjut (3) |  |
 |  |  | • FST-611 Metopel (2) |  |
 | Magang Industri / | Sem 7 | • MK Pilihan Peminatan 4 (3) | **20 SKS** |
@@ -2908,9 +2908,9 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
 | **Kode & Nama Mata Kuliah** | **STI-625 — Smart City & Pemerintahan Digital** (*Smart City & Digital Governance*) |
-| **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
+| **Bobot SKS / Tipe** | **2 SKS** / Tipe: **Teori** (100m Kuliah + 120m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Sistem Informasi & Tata Kelola (Core STI) |
-| **Prasyarat Akademik** | `STI-101` Pengantar Sistem & TI |
+| **Prasyarat Akademik** | `STI-521` Internet of Things (IoT) |
 | **CPL yang Dibebankan** | `P3` (Infrastruktur Kota Cerdas & Arsitektur SPBE), `KK3` (Integrasi GIS & Telemetri Perkotaan) |
 | **Profil Lulusan (PL)** | `PL-2` (Smart Systems Integrator), `PL-4` |
 | **Target PEO** | `PEO-1` (Professional Practice) |
@@ -2933,7 +2933,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | 5 | Mampu membangun visualisasi peta web menggunakan pustaka Leaflet.js (C3) | Web GIS Development: Integrasi Leaflet.js, OpenStreetMap, Custom Markers | Case Method + Lab Coding (270m) | Praktikum Formatif (Non-Graded) |
 | 6 | Mampu memetakan data fasilitas perkotaan dan visualisasi poligon zonasi (C4) | GIS Spatial Analysis: Choropleth Maps, Heatmaps Kepadatan Penduduk | Kuliah + Lab Hands-on (270m) | Praktikum Formatif (Non-Graded) |
 | 7 | Mampu menghubungkan sensor IoT lingkungan perkotaan ke dasbor Web GIS (C4) | Sensor Integration: Data Kualitas Udara, Banjir, Traffic CCTV ke Peta | Case Method + Lab Coding (270m) | Praktikum Formatif (Non-Graded) |
-| **8** | **EVALUASI TENGAH SEMESTER (UTS)** | **Ujian Analisis Domain SPBE & Koding Pemetaan Spasial Web GIS** | **Ujian Tertulis & Lab (170m)** | **UTS: Evaluasi Proyek Awal 50% / Ujian Praktik (Bobot: 25%)** |
+| **8** | **EVALUASI TENGAH SEMESTER (UTS)** | **Ujian Analisis Domain SPBE & Arsitektur Layanan Smart City** | **Ujian Tertulis / Case Analysis (100m)** | **UTS: Ujian Tertulis Teori (Bobot: 30%)** |
 | 9 | Mampu menganalisis arsitektur Smart Mobility & Intelligent Transport System (C4) | Smart Mobility: Rute Optimasi Angkutan Umum, Real-Time Fleet Tracking | Case-Based Learning (270m) | Praktikum Formatif (Non-Graded) |
 | 10 | Mampu merancang portal partisipasi publik pengaduan warga cerdas (C4) | Smart Citizen Participation: Sistem Aduan Warga Berbasis Geotagging | Case Method + Lab Coding (270m) | Praktikum Formatif (Non-Graded) |
 | 11 | Mampu menganalisis sistem Smart Energy & Pengelolaan Sampah Cerdas (C4) | Smart Environment: Monitoring Konsumsi Energi Publik & Smart Waste | Ceramah & Diskusi (270m) | Praktikum Formatif (Non-Graded) |

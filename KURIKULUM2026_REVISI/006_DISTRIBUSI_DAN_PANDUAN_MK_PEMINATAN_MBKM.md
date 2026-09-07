@@ -16,7 +16,7 @@
 | Bersertifikat (MSIB) |  | • MK Pilihan Peminatan 3 (3) |  |
 |  |  | • STI-624 Integrasi AI (3) |  |
 |  |  | • STI-627 Platform Eng (3) |  |
-|  |  | • STI-625 Smart City (3) |  |
+|  |  | • STI-625 Smart City (2) |  |
 |  |  | • STI-519 Keamanan Lanjut (3) |  |
 |  |  | • FST-611 Metopel (2) |  |
 | Magang Industri / | Sem 7 | • MK Pilihan Peminatan 4 (3) | **20 SKS** |

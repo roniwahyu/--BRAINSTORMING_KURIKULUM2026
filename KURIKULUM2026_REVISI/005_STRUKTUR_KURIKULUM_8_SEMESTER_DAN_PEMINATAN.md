@@ -20,8 +20,8 @@ graph TD
     end
 
     subgraph S58 ["TAHAP SPESIALISASI & CAPSTONE (SEM 5-8)"]
-        S4 --> S5["Sem 5 (21 SKS): Deep Learning, IoT, Mobile, KPM, Peminatan 1"]
-        S5 --> S6["Sem 6 (19 SKS): Smart AI, Smart City 2 SKS, Platform Eng, Peminatan 2-3"]
+        S4 --> S5["Sem 5 (21 SKS): Keamanan Lanjut, IoT, Mobile, KPM, Peminatan 1"]
+        S5 --> S6["Sem 6 (19 SKS): Deep Learning, Smart AI, Smart City 2 SKS, Platform Eng, Peminatan 2-3"]
         S6 --> S7["Sem 7 (20 SKS): Startup, Capstone FSTI, PKL, Pra-Skripsi, Peminatan 4-6"]
         S7 --> S8["Sem 8 (6 SKS): Skripsi Murni / 4 Opsi Non-Skripsi"]
     end
@@ -147,8 +147,8 @@ Mata kuliah keahlian inti Sistem dan Teknologi Informasi yang membina 14 CPL Pro
 | **Sem 2** | Data, Matdis & Etika | 8 MK | 20 SKS | Struktur Data, Basis Data, Matdis, Etika |
 | **Sem 3** | RPL, UI/UX & Infra | 7 MK | 20 SKS | APSI, RPL, Web Front, Jarkom, OS, Cerdas |
 | **Sem 4** | AI/ML, NLP, Cloud & Keamanan | 8 MK | 21 SKS | ML, NLP/IR, DW/BI, Web Back, Cloud, Probstat |
-| **Sem 5** | Deep Learning & IoT | 7 MK | 21 SKS | Deep Learning, IoT, Mobile, KPM, Peminatan 1 |
-| **Sem 6** | AI Integrasi & Platform | 7 MK | 19 SKS | Smart AI, Smart City, Platform, Metopel |
+| **Sem 5** | Keamanan Lanjut & IoT | 7 MK | 21 SKS | Keamanan Lanjut, Data Mining, IoT, Mobile, KPM, Peminatan 1 |
+| **Sem 6** | Deep Learning & Platform | 7 MK | 19 SKS | Integrasi AI, Smart City, Deep Learning, Platform Eng, Metopen |
 | **Sem 7** | Capstone, PKL & Sempro | 7 MK | 20 SKS | Startup, Capstone FSTI, PKL, Pra-Skripsi |
 | **Sem 8** | Skripsi Mandiri | 1 MK | 6 SKS | Skripsi Murni / 4 Opsi Non-Skripsi |
 | **TOTAL** | **Paket Lulus Tepat Waktu** | **55 MK** | **146 SKS** | **Standar Sarjana S1 Komputasi** |
@@ -217,7 +217,7 @@ Mata kuliah keahlian inti Sistem dan Teknologi Informasi yang membina 14 CPL Pro
 
 ---
 
-### SEMESTER 5 (21 SKS) — Tahap Spesialisasi Deep Learning, IoT & Peminatan 1
+### SEMESTER 5 (21 SKS) — Tahap Spesialisasi Keamanan Lanjut, IoT & Peminatan 1
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
 | 32 | `STI-519` | Keamanan Informasi Lanjut | 3 | Teori | Core STI | `STI-418` |
@@ -232,7 +232,7 @@ Mata kuliah keahlian inti Sistem dan Teknologi Informasi yang membina 14 CPL Pro
 
 ---
 
-### SEMESTER 6 (19 SKS) — Tahap Spesialisasi MBKM & Platform Engineering
+### SEMESTER 6 (19 SKS) — Tahap Spesialisasi Deep Learning, Platform Engineering & MBKM
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
 | 39 | `STI-624` | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | Core STI | `STI-413`, `STI-416` |
@@ -276,8 +276,8 @@ Mata kuliah keahlian inti Sistem dan Teknologi Informasi yang membina 14 CPL Pro
 | **Sem 2** | 8 MK | 20 SKS | 39 SKS | 13,7% | Tahap Fondasi Data, Matdis & OOP |
 | **Sem 3** | 7 MK | 20 SKS | 59 SKS | 13,7% | Tahap Penguatan Core RPL, OS & Jaringan |
 | **Sem 4** | 8 MK | 21 SKS | 80 SKS | 14,4% | Tahap Penguatan Core AI/ML, NLP & Cloud |
-| **Sem 5** | 7 MK | 21 SKS | 101 SKS | 14,4% | Tahap Spesialisasi Deep Learning & IoT |
-| **Sem 6** | 7 MK | 19 SKS | 120 SKS | 13,0% | Tahap Spesialisasi MBKM & Platform Eng |
+| **Sem 5** | 7 MK | 21 SKS | 101 SKS | 14,4% | Tahap Spesialisasi Keamanan Lanjut & IoT |
+| **Sem 6** | 7 MK | 19 SKS | 120 SKS | 13,0% | Tahap Spesialisasi Deep Learning & Platform Eng |
 | **Sem 7** | 7 MK | 20 SKS | 140 SKS | 13,7% | Tahap Integrasi Capstone, PKL & Sempro |
 | **Sem 8** | 1 MK | 6 SKS | 146 SKS | 4,1% | Tahap Penyelesaian Skripsi / Non-Skripsi |
 | **TOTAL** | **55 MK** | **146 SKS** | **146 SKS** | **100,0%** | **Paket Lulus Tepat Waktu (4 Tahun)** |

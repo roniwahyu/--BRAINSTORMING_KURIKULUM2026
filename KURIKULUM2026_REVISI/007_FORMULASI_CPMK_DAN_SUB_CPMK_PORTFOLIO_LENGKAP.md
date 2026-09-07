@@ -1685,9 +1685,9 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
 | **Kode & Nama Mata Kuliah** | **STI-625 — Smart City & Pemerintahan Digital** (*Smart City & Digital Governance*) |
-| **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
+| **Bobot SKS / Tipe** | **2 SKS** / Tipe: **Teori** (100m Kuliah + 120m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Sistem Informasi & Tata Kelola (Core STI) |
-| **Prasyarat Akademik** | `STI-101` Pengantar Sistem & TI |
+| **Prasyarat Akademik** | `STI-521` Internet of Things (IoT) |
 | **CPL yang Dibebankan** | `P3` (Infrastruktur Kota Cerdas & Arsitektur SPBE), `KK3` (Integrasi GIS & Telemetri Perkotaan) |
 | **Profil Lulusan (PL)** | `PL-2` (Smart Systems Integrator), `PL-4` |
 | **Target PEO** | `PEO-1` (Professional Practice) |
@@ -1710,7 +1710,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | 5 | Mampu membangun visualisasi peta web menggunakan pustaka Leaflet.js (C3) | Web GIS Development: Integrasi Leaflet.js, OpenStreetMap, Custom Markers | Case Method + Lab Coding (270m) | Praktikum Formatif (Non-Graded) |
 | 6 | Mampu memetakan data fasilitas perkotaan dan visualisasi poligon zonasi (C4) | GIS Spatial Analysis: Choropleth Maps, Heatmaps Kepadatan Penduduk | Kuliah + Lab Hands-on (270m) | Praktikum Formatif (Non-Graded) |
 | 7 | Mampu menghubungkan sensor IoT lingkungan perkotaan ke dasbor Web GIS (C4) | Sensor Integration: Data Kualitas Udara, Banjir, Traffic CCTV ke Peta | Case Method + Lab Coding (270m) | Praktikum Formatif (Non-Graded) |
-| **8** | **EVALUASI TENGAH SEMESTER (UTS)** | **Ujian Analisis Domain SPBE & Koding Pemetaan Spasial Web GIS** | **Ujian Tertulis & Lab (170m)** | **UTS: Evaluasi Proyek Awal 50% / Ujian Praktik (Bobot: 25%)** |
+| **8** | **EVALUASI TENGAH SEMESTER (UTS)** | **Ujian Analisis Domain SPBE & Arsitektur Layanan Smart City** | **Ujian Tertulis / Case Analysis (100m)** | **UTS: Ujian Tertulis Teori (Bobot: 30%)** |
 | 9 | Mampu menganalisis arsitektur Smart Mobility & Intelligent Transport System (C4) | Smart Mobility: Rute Optimasi Angkutan Umum, Real-Time Fleet Tracking | Case-Based Learning (270m) | Praktikum Formatif (Non-Graded) |
 | 10 | Mampu merancang portal partisipasi publik pengaduan warga cerdas (C4) | Smart Citizen Participation: Sistem Aduan Warga Berbasis Geotagging | Case Method + Lab Coding (270m) | Praktikum Formatif (Non-Graded) |
 | 11 | Mampu menganalisis sistem Smart Energy & Pengelolaan Sampah Cerdas (C4) | Smart Environment: Monitoring Konsumsi Energi Publik & Smart Waste | Ceramah & Diskusi (270m) | Praktikum Formatif (Non-Graded) |

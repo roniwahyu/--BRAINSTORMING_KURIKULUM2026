@@ -734,7 +734,7 @@ Prinsip konversi untuk seluruh bentuk: kegiatan dikonversikan ke mata kuliah yan
 
 | Jalur | Semester | Paket MK Dikonversi | Total |
 |---|:---:|---|:---:|
-| Magang Industri Bersertifikat (MSIB) | 6 | Peminatan MK-2 & MK-3 (6), `STI-624` Integrasi AI (3), `STI-627` Platform Eng (3), `STI-625` Smart City (3), `STI-519` Keamanan Lanjut (3), `FST-611` Metopel (2) | 20 SKS |
+| Magang Industri Bersertifikat (MSIB) | 6 | Peminatan MK-2 & MK-3 (6), `STI-624` Integrasi AI (3), `STI-627` Platform Eng (3), `STI-625` Smart City (2), `STI-519` Keamanan Lanjut (3), `FST-611` Metopel (2) | 20 SKS |
 | Magang / Studi Independen / Wirausaha Merdeka | 7 | Peminatan MK-4, 5, 6 (9), `STI-728` Startup Digital (3), `FST-610` Capstone (3), `FST-612` PKL (3), `FST-613` Pra-Skripsi (2) | 20 SKS |
 
 ## X.4 Rekognisi Kredit dalam Transkrip dan SKPI
