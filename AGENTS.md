@@ -112,6 +112,7 @@ KURIKULUM2026_REVISI/
 ├── 027_RENCANA_RESTRUKTURISASI_KODE_MK_CORE_STI_KONTINU.md ⭐ (Rencana Aksi & Mapping Standarisasi Kode Berkesinambungan STI-101 s.d. STI-728)
 ├── 028_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_CORE_STI.md ⭐ (Dev Report & Dev Log Restrukturisasi Kode MK Core STI Kontinu)
 ├── 029_TABEL_VERIFIKASI_KODE_MK_BARU.md ⭐ (Tabel Verifikasi Kode MK Baru Core STI Sem 1 & 3 dari Lembar Kerja)
+├── 030_JUSTIFIKASI_AKADEMIS_DAN_BoK_STA02_COMPUTATIONAL_METHODS_SEBAGAI_MK_PILIHAN.md ⭐ (Justifikasi Akademis & Audit BoK Penetapan STA-02 Komputasi Numerik sebagai MK Pilihan P1)
 ├── BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md ⭐ (Naskah Utuh Lengkap Buku Kurikulum Bab 1-8 + Silabus)
 ├── GENERATE_EXCEL_011.bat (Trigger Batch Sekali Klik untuk Re-generate Excel)
 ├── GENERATE_HTML.bat (Trigger Batch Sekali Klik untuk Re-generate Seluruh File HTML & Portal)
