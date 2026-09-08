@@ -137,6 +137,34 @@ Mata kuliah keahlian inti Sistem dan Teknologi Informasi yang membina 14 CPL Pro
 
 ---
 
+### 1.4 KELOMPOK MATA KULIAH PILIHAN PEMINATAN (ELEKTIF) (18 MK DITAWARKAN / 18 SKS DITEMPUH)
+
+Mata kuliah keahlian spesialisasi yang ditawarkan dalam 3 jalur peminatan (*Integrated Smart Systems*, *Cloud Infrastructure & Cybersecurity*, dan *Digital Platform Engineering*). Setiap mahasiswa menempuh **1 paket peminatan penuh (6 MK / 18 SKS)** yang terdistribusi secara terstruktur pada Semester 5 (1 MK / 3 SKS), Semester 6 (2 MK / 6 SKS), dan Semester 7 (3 MK / 9 SKS):
+
+| No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Semester | Prasyarat | Jalur Peminatan |
+|:---:|:---:|---|:---:|:---:|:---:|---|---|
+| 1 | `STA-01` | Decision Support Systems | 3 | +P | Sem 5 | `STI-307` | P1: Integrated Smart Systems |
+| 2 | `STA-02` | Computational Methods and Numerics | 3 | +P | Sem 6 | `STI-102`, `STI-205` | P1: Integrated Smart Systems |
+| 3 | `STA-03` | Intelligent Agent Systems | 3 | +P | Sem 6 | `STI-307` | P1: Integrated Smart Systems |
+| 4 | `STA-04` | MLOps and AI Pipeline | 3 | +P | Sem 7 | `STI-413`, `STI-624` | P1: Integrated Smart Systems |
+| 5 | `STA-05` | Conversational AI and Intelligent Assistant | 3 | +P | Sem 7 | `STI-413`, `STI-416` | P1: Integrated Smart Systems |
+| 6 | `STA-06` | Smart Surveillance and IoT Analytics | 3 | +P | Sem 7 | `STI-626`, `STI-521` | P1: Integrated Smart Systems |
+| 7 | `STB-01` | Network Security and Digital Forensics | 3 | +P | Sem 5 | `STI-312`, `STI-418` | P2: Cloud Infra & Cybersecurity |
+| 8 | `STB-02` | Cloud Architecture & DevOps | 3 | +P | Sem 6 | `STI-417` | P2: Cloud Infra & Cybersecurity |
+| 9 | `STB-03` | Cybersecurity Risk Management | 3 | Teori | Sem 6 | `STI-418` | P2: Cloud Infra & Cybersecurity |
+| 10 | `STB-04` | IT Governance & Compliance (COBIT 2019) | 3 | Teori | Sem 7 | `STI-101` | P2: Cloud Infra & Cybersecurity |
+| 11 | `STB-05` | IT Service Management (ITIL 4) | 3 | Teori | Sem 7 | `STI-101` | P2: Cloud Infra & Cybersecurity |
+| 12 | `STB-06` | Enterprise Architecture (TOGAF) | 3 | Teori | Sem 7 | `STI-306` | P2: Cloud Infra & Cybersecurity |
+| 13 | `STC-01` | User Experience Research & Design | 3 | +P | Sem 5 | `STI-308` | P3: Digital Platform Engineering |
+| 14 | `STC-02` | Rekayasa & Otomasi Proses Bisnis (BPA) | 3 | +P | Sem 6 | `STI-306` | P3: Digital Platform Engineering |
+| 15 | `STC-03` | Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech) | 3 | +P | Sem 6 | `STI-416` | P3: Digital Platform Engineering |
+| 16 | `STC-04` | Immersive Media & XR Development | 3 | +P | Sem 7 | `STI-311` | P3: Digital Platform Engineering |
+| 17 | `STC-05` | SaaS Architecture & Multi-Tenancy | 3 | +P | Sem 7 | `STI-416` | P3: Digital Platform Engineering |
+| 18 | `STC-06` | Digital Product Management & Agile Practices | 3 | Teori | Sem 7 | `STI-523` | P3: Digital Platform Engineering |
+| **TOTAL** | — | **18 Mata Kuliah Pilihan Ditawarkan (Portofolio SIAKAD)** | **54** | — | — | **Ditempuh 6 MK (18 SKS) per Mahasiswa** | **3 Jalur Peminatan Seimbang** |
+
+---
+
 ## 2. SEBARAN 8 SEMESTER KURIKULUM SISTEKIN (55 MK / 146 SKS)
 
 ### SEBARAN 8 SEMESTER KURIKULUM SISTEKIN
@@ -230,6 +258,12 @@ Mata kuliah keahlian inti Sistem dan Teknologi Informasi yang membina 14 CPL Pro
 | 38.B | `MKU-508` | Kewirausahaan II | 0 | Teori | MKWU | — (Kebijakan UWG, Sem 5) |
 | **SUBTOTAL** | — | **Total SKS Semester 5 (7 MK + 1 MK 0 SKS)** | **21** | — | — | **Kumulatif: 101 SKS** |
 
+> [!NOTE]
+> **Daftar Pilihan Mata Kuliah Peminatan 1 (Semester 5 — Ambil 1 MK / 3 SKS sesuai jalur):**
+> * **Peminatan 1 (Smart Systems):** `STA-01` Decision Support Systems (+P, 3 SKS, Prasyarat: `STI-307`)
+> * **Peminatan 2 (Cloud & Cyber):** `STB-01` Network Security and Digital Forensics (+P, 3 SKS, Prasyarat: `STI-312`, `STI-418`)
+> * **Peminatan 3 (Platform Eng):** `STC-01` User Experience Research & Design (+P, 3 SKS, Prasyarat: `STI-308`)
+
 ---
 
 ### SEMESTER 6 (19 SKS) — Tahap Spesialisasi Deep Learning, Platform Engineering & MBKM
@@ -244,6 +278,12 @@ Mata kuliah keahlian inti Sistem dan Teknologi Informasi yang membina 14 CPL Pro
 | 45 | `STA/B/C` | **MK Pilihan Peminatan 3** | 3 | Elektif | Peminatan | Prasyarat Peminatan |
 | **SUBTOTAL** | — | **Total SKS Semester 6 (7 MK)** | **19** | — | — | **Kumulatif: 120 SKS** |
 
+> [!NOTE]
+> **Daftar Pilihan Mata Kuliah Peminatan 2 & 3 (Semester 6 — Ambil 2 MK / 6 SKS sesuai jalur):**
+> * **Peminatan 1 (Smart Systems):** `STA-02` Computational Methods and Numerics (+P, 3 SKS) & `STA-03` Intelligent Agent Systems (+P, 3 SKS)
+> * **Peminatan 2 (Cloud & Cyber):** `STB-02` Cloud Architecture & DevOps (+P, 3 SKS) & `STB-03` Cybersecurity Risk Management (Teori, 3 SKS)
+> * **Peminatan 3 (Platform Eng):** `STC-02` Rekayasa & Otomasi Proses Bisnis (+P, 3 SKS) & `STC-03` Rekayasa Aplikasi Industri Vertikal (+P, 3 SKS)
+
 ---
 
 ### SEMESTER 7 (20 SKS) — Tahap Integrasi Capstone, PKL & Pra-Skripsi
@@ -257,6 +297,12 @@ Mata kuliah keahlian inti Sistem dan Teknologi Informasi yang membina 14 CPL Pro
 | 51 | `STA/B/C` | **MK Pilihan Peminatan 5** | 3 | Elektif | Peminatan | Prasyarat Peminatan |
 | 52 | `STA/B/C` | **MK Pilihan Peminatan 6** | 3 | Elektif | Peminatan | Prasyarat Peminatan |
 | **SUBTOTAL** | — | **Total SKS Semester 7 (7 MK)** | **20** | — | — | **Kumulatif: 140 SKS** |
+
+> [!NOTE]
+> **Daftar Pilihan Mata Kuliah Peminatan 4, 5 & 6 (Semester 7 — Ambil 3 MK / 9 SKS sesuai jalur):**
+> * **Peminatan 1 (Smart Systems):** `STA-04` MLOps and AI Pipeline (+P, 3 SKS), `STA-05` Conversational AI and Intelligent Assistant (+P, 3 SKS), `STA-06` Smart Surveillance and IoT Analytics (+P, 3 SKS)
+> * **Peminatan 2 (Cloud & Cyber):** `STB-04` IT Governance & Compliance COBIT 2019 (Teori, 3 SKS), `STB-05` IT Service Management ITIL 4 (Teori, 3 SKS), `STB-06` Enterprise Architecture TOGAF (Teori, 3 SKS)
+> * **Peminatan 3 (Platform Eng):** `STC-04` Immersive Media & XR Development (+P, 3 SKS), `STC-05` SaaS Architecture & Multi-Tenancy (+P, 3 SKS), `STC-06` Digital Product Management & Agile Practices (Teori, 3 SKS)
 
 ---
 
@@ -295,6 +341,44 @@ Mahasiswa memilih 1 paket peminatan penuh (ditempuh 1 MK di Sem 5, 2 MK di Sem 6
 | **P1: Integrated Smart Systems** *(Flagship)* | **PL-1:** Intelligent IS & Data/AI Engineer | 1. `STA-01` Decision Support Systems (+P, Sem 5)<br>2. `STA-02` Computational Methods & Numerics (+P, Sem 6)<br>3. `STA-03` Intelligent Agent Systems (+P, Sem 6)<br>4. `STA-04` MLOps and AI Pipeline (+P, Sem 7)<br>5. `STA-05` Conversational AI & Assistant (+P, Sem 7)<br>6. `STA-06` Smart Surveillance & IoT Analytics (+P, Sem 7) |
 | **P2: Cloud Infrastructure & Cybersecurity** *(Volume)* | **PL-2:** Cloud, Cyber & Smart Systems Integrator | 1. `STB-01` Network Security & Digital Forensics (+P, Sem 5)<br>2. `STB-02` Cloud Architecture & DevOps (+P, Sem 6)<br>3. `STB-03` Cybersecurity Risk Management (Teori, Sem 6)<br>4. `STB-04` IT Governance & Compliance COBIT 2019 (Teori, Sem 7)<br>5. `STB-05` IT Service Management ITIL 4 (Teori, Sem 7)<br>6. `STB-06` Enterprise Architecture TOGAF (Teori, Sem 7) |
 | **P3: Digital Platform Engineering** *(Niche & Techno)* | **PL-3:** UI/UX Designer & Platform Engineer | 1. `STC-01` UX Research & Design (+P, Sem 5)<br>2. `STC-02` Rekayasa & Otomasi Proses Bisnis (+P, Sem 6)<br>3. `STC-03` Rekayasa Aplikasi Industri Vertikal (+P, Sem 6)<br>4. `STC-04` Immersive Media & XR Development (+P, Sem 7)<br>5. `STC-05` SaaS Architecture & Multi-Tenancy (+P, Sem 7)<br>6. `STC-06` Digital Product Management (Teori, Sem 7) |
+
+
+### 4.1 PEMINATAN 1: INTEGRATED SMART SYSTEMS (FLAGSHIP — 6 MK / 18 SKS)
+Fokus keahlian: Rekayasa sistem berbasis AI, machine learning pipelines, deep learning vision & language, agen cerdas, serta analitik IoT terintegrasi (Profil Lulusan: `PL-1`).
+
+| No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Semester | Prasyarat Akademik | Bahan Kajian Utama |
+|:---:|:---:|---|:---:|:---:|:---:|---|---|
+| 1 | `STA-01` | Decision Support Systems | 3 | +P | Sem 5 | `STI-307` Sistem Cerdas | BK-IS17 Business Analytics, AHP/TOPSIS |
+| 2 | `STA-02` | Computational Methods and Numerics | 3 | +P | Sem 6 | `STI-102`, `STI-205` Aljabar Linear | BK-IS10 / BK-IT01 Komputasi Saintifik |
+| 3 | `STA-03` | Intelligent Agent Systems | 3 | +P | Sem 6 | `STI-307` Sistem Cerdas | BK-IT02 Multi-Agent Systems, Reinforcement |
+| 4 | `STA-04` | MLOps and AI Pipeline | 3 | +P | Sem 7 | `STI-413`, `STI-624` Integrasi AI | BK-IS18 Machine Learning Engineering |
+| 5 | `STA-05` | Conversational AI and Intelligent Assistant | 3 | +P | Sem 7 | `STI-413`, `STI-416` Web Back End | BK-IT02 LLM, RAG Architecture, Prompt Eng |
+| 6 | `STA-06` | Smart Surveillance and IoT Analytics | 3 | +P | Sem 7 | `STI-626`, `STI-521` IoT | BK-IT02 Video Analytics, Edge AI, Vision |
+
+### 4.2 PEMINATAN 2: CLOUD INFRASTRUCTURE & CYBERSECURITY (VOLUME — 6 MK / 18 SKS)
+Fokus keahlian: Arsitektur cloud computing, otomatisasi DevOps, tata kelola keamanan siber, manajemen risiko, forensik digital, dan enterprise architecture (Profil Lulusan: `PL-2`).
+
+| No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Semester | Prasyarat Akademik | Bahan Kajian Utama |
+|:---:|:---:|---|:---:|:---:|:---:|---|---|
+| 1 | `STB-01` | Network Security and Digital Forensics | 3 | +P | Sem 5 | `STI-312`, `STI-418` Dasar Keamanan | BK-IT06 Cyber Defense, Forensik Jaringan |
+| 2 | `STB-02` | Cloud Architecture & DevOps | 3 | +P | Sem 6 | `STI-417` Komputasi Awan | BK-IT05 Cloud Systems, CI/CD, Kubernetes |
+| 3 | `STB-03` | Cybersecurity Risk Management | 3 | Teori | Sem 6 | `STI-418` Dasar Keamanan Informasi | BK-IS06 Risk Management, ISO 27005, NIST |
+| 4 | `STB-04` | IT Governance & Compliance (COBIT 2019) | 3 | Teori | Sem 7 | `STI-101` Pengantar Sistem & TI | BK-IS07 IT Governance, COBIT 2019 Focus |
+| 5 | `STB-05` | IT Service Management (ITIL 4) | 3 | Teori | Sem 7 | `STI-101` Pengantar Sistem & TI | BK-IS08 Service Management, ITIL 4 Foundation |
+| 6 | `STB-06` | Enterprise Architecture (TOGAF) | 3 | Teori | Sem 7 | `STI-306` Analisis & Perancangan SI | BK-IS04 Enterprise Architecture, TOGAF Standard |
+
+### 4.3 PEMINATAN 3: DIGITAL PLATFORM ENGINEERING (NICHE & TECHNO — 6 MK / 18 SKS)
+Fokus keahlian: Rekayasa antarmuka pengguna interaktif (UI/UX research), otomasi proses bisnis, arsitektur multi-tenant SaaS, media imersif XR, dan manajemen produk digital agile (Profil Lulusan: `PL-3` & `PL-4`).
+
+| No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Semester | Prasyarat Akademik | Bahan Kajian Utama |
+|:---:|:---:|---|:---:|:---:|:---:|---|---|
+| 1 | `STC-01` | User Experience Research & Design | 3 | +P | Sem 5 | `STI-308` UI/UX Design & Prototyping | BK-IS13 Human-Centered Design, Usability |
+| 2 | `STC-02` | Rekayasa & Otomasi Proses Bisnis (BPA) | 3 | +P | Sem 6 | `STI-306` Analisis & Perancangan SI | BK-IS09 Business Process, Workflow & RPA |
+| 3 | `STC-03` | Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech) | 3 | +P | Sem 6 | `STI-416` Web Back End Development | BK-IS05 Application Domains, Microservices |
+| 4 | `STC-04` | Immersive Media & XR Development | 3 | +P | Sem 7 | `STI-311` Web Front End Development | BK-IT14 Computer Graphics, Unity/WebXR |
+| 5 | `STC-05` | SaaS Architecture & Multi-Tenancy | 3 | +P | Sem 7 | `STI-416` Web Back End Development | BK-IT08 Distributed Systems, Multi-Tenancy |
+| 6 | `STC-06` | Digital Product Management & Agile Practices | 3 | Teori | Sem 7 | `STI-523` Manajemen Proyek TI | BK-IS14 Product Management, Scrum, Lean |
+
 
 ---
 *Disahkan sebagai Dokumen Resmi 005 — Kurikulum OBE Revisi SISTEKIN 2026.*  
