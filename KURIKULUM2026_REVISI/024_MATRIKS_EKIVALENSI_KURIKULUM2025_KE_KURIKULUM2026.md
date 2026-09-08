@@ -160,11 +160,11 @@ Matriks disusun dua arah agar dapat dipakai oleh dua pengguna berbeda:
 |:---:|:---:|---|:---:|:---:|---|:---:|:---:|:---:|---|
 | 41 | `STI-632` | Rekayasa Perangkat Lunak | 3 | `STI-309` | Rekayasa Perangkat Lunak | 3 | 3 | **E1** | Nama dan SKS identik; posisi bergeser Sem 6 → Sem 3 (penguatan fondasi rekayasa lebih dini) |
 | 42 | `STI-633` | Sistem Pendukung Keputusan | 3 | `STA-01` | Decision Support Systems (+P) | 3 | 5 | **E1** | Padanan pada **MK elektif Peminatan P1 (Sem 5)**. Diakui penuh bila mahasiswa memilih Peminatan P1; jika tidak, dihitung sebagai kredit bebas |
-| 43 | `STI-634` | Pengolahan Citra Digital dan Vision (+P) | 3 | `STI-519` | Deep Learning & Neural Networks (+P) | 3 | 5 | **E2** | K2026 mengintegrasikan computer vision ke dalam kerangka deep learning (CNN). Overlap ± 65% → wajib uji penyetaraan pada komponen arsitektur jaringan saraf & pelatihan model |
+| 43 | `STI-634` | Pengolahan Citra Digital dan Vision (+P) | 3 | `STI-626` | Deep Learning & Neural Networks (+P) | 3 | 6 | **E2** | K2026 mengintegrasikan computer vision ke dalam kerangka deep learning (CNN). Overlap ± 65% → wajib uji penyetaraan pada komponen arsitektur jaringan saraf & pelatihan model |
 | 44 | `STI-635` | Desain dan Evaluasi Antarmuka Pengguna (UI/UX) (+P) | 3 | `STI-308` | UI/UX Design & Prototyping (+P) | 3 | 3 | **E3** | Dilebur bersama `STI-314` Interaksi Manusia dan Komputer — lihat klaster G-3 |
 | 45 | `STI-636` | Machine Learning (+P) | 3 | `STI-413` | Machine Learning (+P) | 3 | 4 | **E1** | Nama dan SKS identik; posisi bergeser Sem 6 → Sem 4 |
 | 46 | `STI-637` | Smart City dan Sistem Pemerintahan Digital | 3 | `STI-625` | Smart City & Pemerintahan Digital | 2 | 6 | **E1** | SKS diturunkan 3 → 2 (rasionalisasi Dok. 014). Selisih 1 SKS menjadi kredit bebas |
-| 47 | `STI-638` | Intelligent Signal Processing | 3 | — | *Tidak ada padanan* | — | — | **E5** | **Dihapus** dari K2026 (bertumpang dengan ranah riset algoritma Prodi TI, Dok. 016). Unsur ekstraksi fitur sinyal terserap parsial pada `STI-519` Deep Learning & `STA-06` Smart Surveillance. Diakui sebagai kredit bebas 3 SKS |
+| 47 | `STI-638` | Intelligent Signal Processing | 3 | — | *Tidak ada padanan* | — | — | **E5** | **Dihapus** dari K2026 (bertumpang dengan ranah riset algoritma Prodi TI, Dok. 016). Unsur ekstraksi fitur sinyal terserap parsial pada `STI-626` Deep Learning & `STA-06` Smart Surveillance. Diakui sebagai kredit bebas 3 SKS |
 
 ### 3.7 EKIVALENSI MK SEMESTER 7 KURIKULUM 2025 (20 SKS)
 
@@ -380,7 +380,7 @@ Terdapat **4 kode mata kuliah** yang dipakai untuk MK berbeda pada K2025 dan K20
 |:---:|:---:|---|:---:|:---:|:---:|---|
 | 1 | `STI-103` | Arsitektur dan Organisasi Sistem Teknologi Informasi | 3 | 1 | Core STI | **Gap fondasi kritis K2025.** K2025 tidak mengajarkan organisasi komputer, hierarki memori, maupun representasi data tingkat mesin (BK-IS03 / BK-IT05). Menjadi prasyarat `STI-310` Sistem Operasi dan `STI-312` Jaringan Komputer |
 | 2 | `STI-312` | Jaringan Komputer (+P) | 3 | 3 | Core STI | **Gap fondasi kritis K2025.** K2025 melompat langsung ke `STI-529` Keamanan Jaringan tanpa MK jaringan komputer dasar. Prasyarat wajib bagi Cloud (`STI-417`), IoT (`STI-521`), dan Keamanan (`STI-418`) |
-| 3 | `STI-626` | Keamanan Informasi Lanjut | 3 | 6 | Core STI | Penguatan jenjang keamanan bertingkat (dasar Sem 4 → lanjut Sem 6) untuk memenuhi CPL KK4 (audit, GRC & tata kelola TI) pada jalur wajib, tidak hanya elektif |
+| 3 | `STI-519` | Keamanan Informasi Lanjut | 3 | 5 | Core STI | Penguatan jenjang keamanan bertingkat (dasar Sem 4 → lanjut Sem 5) untuk memenuhi CPL KK4 (audit, GRC & tata kelola TI) pada jalur wajib, tidak hanya elektif |
 | 4 | `FST-204` | Pengantar Kecerdasan Artifisial & Data | 2 | 2 | FSTI | Pintu masuk pipeline AI 5 tahap (Dok. 016). K2025 baru menyentuh AI pada Sem 4 (`STI-418` Sistem Cerdas) tanpa MK pengantar konseptual |
 | 5 | `FST-610` | Capstone Project FSTI (+P) | 3 | 7 | FSTI | **Wahana asesmen terintegrasi 10 dari 14 CPL** (Dok. 011 Sheet 5). K2025 tidak memiliki proyek integratif selain Skripsi |
 | **TOTAL** | — | **MK Wajib Baru** | **14** | — | — | **Defisit minimum bagi seluruh mahasiswa transisi** |

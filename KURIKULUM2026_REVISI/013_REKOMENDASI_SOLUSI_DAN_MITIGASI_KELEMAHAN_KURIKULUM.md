@@ -76,9 +76,9 @@ Menerapkan kebijakan **Proyek Terpadu Antar-Mata Kuliah (*Cross-Course Joint Pro
 │                   +                  │ sebagai antarmuka pemantauan sensor IoT secara real-time  │
 │ STI-522 (Pemrograman Mobile)         │ via protokol MQTT/WebSocket.                              │
 ├──────────────────────────────────────┼───────────────────────────────────────────────────────────┤
-│ STI-519 (Deep Learning)              │ 1 Proyek Data Science Terintegrasi: ekstraksi fitur &     │
-│                   +                  │ klastering data, dilanjutkan klasifikasi citra/sinyal     │
-│ STI-520 (Data Mining & Visualisasi)  │ menggunakan Convolutional Neural Networks (CNN).          │
+│ STI-519 (Keamanan Informasi Lanjut)  │ 1 Proyek Hardening & Audit Keamanan: analisis kerentanan  │
+│                   +                  │ dan pengamanan endpoints/protokol komunikasi pada         │
+│ STI-521 (Internet of Things)         │ infrastruktur IoT perkotaan dan mobile.                   │
 ├──────────────────────────────────────┼───────────────────────────────────────────────────────────┤
 │ MKU-507 (KPM 3 SKS) Tematik          │ Produk IoT atau Mobile dari perkuliahan langsung dibawa   │
 │                                      │ dan diimplementasikan pada desa mitra/UMKM KPM binaan.    │
