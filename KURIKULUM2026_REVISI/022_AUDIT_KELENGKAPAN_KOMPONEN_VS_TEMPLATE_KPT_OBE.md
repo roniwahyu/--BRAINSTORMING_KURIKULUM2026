@@ -108,7 +108,8 @@ Audit keselarasan sebelumnya (Dok. 019, 81 KB) mencatat temuan yang **belum dive
 | P1-5 | Matriks CPL↔PL punya 3 versi, PEO↔CPL punya 2 versi | Butir V |
 | P2-1 | Silabus memuat 65 MK, bukan 67 | Butir IX |
 
-Catatan angka: Dok. 005 menyatakan komposisi 13 MK FSTI / 36 SKS dan 28 MK Core STI / 79 SKS, sementara Dok. 007 §2 menyatakan 14 MK FSTI / 38 SKS dan 27 MK Core STI / 77 SKS. Total portofolio sama (67 MK / 182 SKS) tetapi **pembagian internalnya berbeda** — inkonsistensi ini harus diselesaikan sebelum naskah final dirakit, karena akan tampak sebagai kontradiksi antar-tabel di mata asesor.
+Catatan angka: Dok. 005 menyatakan komposisi 13 MK FSTI / 36 SKS dan 28 MK Core STI / 79 SKS, sementara dokumen lain (sebelum Sep 2026) §2 menyatakan 14 MK FSTI / 38 SKS dan 27 MK Core STI / 77 SKS. Total portofolio sama (67 MK / 182 SKS) tetapi **pembagian internalnya berbeda** — inkonsistensi ini harus diselesaikan sebelum naskah final dirakit, karena akan tampak sebagai kontradiksi antar-tabel di mata asesor.
+**✅ RESOLVED:** Inkonsistensi telah diselesaikan. Dokumen 005 ditetapkan sebagai ground truth: **13 MK FSTI / 36 SKS** dan **28 MK Core STI / 79 SKS**.
 
 ---
 
@@ -119,7 +120,7 @@ Catatan angka: Dok. 005 menyatakan komposisi 13 MK FSTI / 36 SKS dan 28 MK Core 
 1. **Tulis Bagian III / Landasan Perancangan** (5 landasan: filosofis, sosiologis, psikologis, historis, yuridis). Sumber tersedia lengkap di `021_...FULLTEXT.md` Bagian A.2 dan panduan APTIKOM Bagian C. Estimasi: 1 dokumen baru, ± 6–8 halaman.
 2. **Tulis Butir XII / Tata Cara Penerimaan Mahasiswa per Tahapan Kurikulum.** Wajib per Permendikbudristek 53/2023 Pasal 44 huruf h. Perlu koordinasi dengan kebijakan PMB Universitas.
 3. **Konsolidasikan Tabel A / Identitas Program Studi** — lengkapi Peringkat Akreditasi, Gelar Lulusan (S.Kom. atau lainnya), Website, Email. Data ini harus dikonfirmasi ke UPPS, tidak boleh diasumsikan.
-4. **Selesaikan inkonsistensi angka SKS** antara Dok. 005 dan Dok. 007 §2 (13 vs 14 MK FSTI; 28 vs 27 MK Core STI), lalu **rakit ulang Bab I, III, V** ke naskah final.
+4. **✅ DONE:** Inkonsistensi angka SKS antara Dok. 005 dan Dok. 007 telah diselesaikan (Sep 2026). Ground truth: Dok. 005 (13 MK FSTI / 36 SKS; 28 MK Core STI / 79 SKS). ~~Selesaikan inkonsistensi angka SKS antara Dok. 005 dan Dok. 007~~ §2 (13 vs 14 MK FSTI; 28 vs 27 MK Core STI), lalu **rakit ulang Bab I, III, V** ke naskah final.
 
 ### Prioritas 2 — Kelengkapan format wajib
 

@@ -450,8 +450,8 @@ KPT 2024 membedakan dua jalur, dan SISTEKIN menggunakan **keduanya**:
 > | Komponen | Versi Dokumen 005 | Versi Dokumen 007 §2 |
 > |---|:---:|:---:|
 > | MKWU | 8 MK / 13 SKS | 8 MK / 13 SKS |
-> | MK Wajib Fakultas (FSTI) | **13 MK / 36 SKS** | **14 MK / 38 SKS** |
-> | MK Inti Prodi (Core STI) | **28 MK / 79 SKS** | **27 MK / 77 SKS** |
+> | MK Wajib Fakultas (FSTI) | **13 MK / 36 SKS** | ✅ **Diselaraskan Sep 2026** |
+> | MK Inti Prodi (Core STI) | **28 MK / 79 SKS** | ✅ **Diselaraskan Sep 2026** |
 > | MK Pilihan Peminatan | 6 MK / 18 SKS | 6 MK / 18 SKS |
 > | **Total paket ditempuh** | **55 MK / 146 SKS** | **55 MK / 146 SKS** |
 > | Portofolio ditawarkan | 67 MK / 182 SKS | 67 MK / 182 SKS |
@@ -918,7 +918,7 @@ Naskah ini menyediakan kerangka 12 bab lengkap. Untuk menjadikannya buku kurikul
 
 Merakit naskah di atas data yang masih bertentangan hanya memindahkan masalah ke dokumen yang lebih besar. Empat hal yang harus ditutup:
 
-1. **Komposisi SKS** — tetapkan versi resmi antara Dokumen 005 (13 MK FSTI / 36 SKS + 28 Core STI / 79 SKS) dan Dokumen 007 §2 (14 MK / 38 SKS + 27 MK / 77 SKS). Konsensus `AGENTS.md` mendukung versi Dokumen 005.
+1. **✅ RESOLVED (Sep 2026): Komposisi SKS** — Dokumen 005 ditetapkan sebagai ground truth: **13 MK FSTI / 36 SKS** + **28 MK Core STI / 79 SKS**. Semua dokumen lain telah diselaraskan.
 2. **Tabrakan kode mata kuliah** `FST-204` dan `FST-205` (Dokumen 019 P0-1).
 3. **Matriks CPL↔PL (3 versi) dan PEO↔CPL (2 versi)** — tetapkan Dokumen 003 sebagai master, sinkronkan sisanya (Dokumen 019 P1-5).
 4. **Rantai prasyarat** — selaraskan Dokumen 007 ke Dokumen 005 pada 19 mata kuliah (Dokumen 019 P1-2).

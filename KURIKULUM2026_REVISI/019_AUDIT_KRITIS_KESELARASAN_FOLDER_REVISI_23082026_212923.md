@@ -282,6 +282,7 @@ Hasil ini **identik** dengan `005:46-50`, membuktikan dokumen 005 benar dan Buku
 
 ```
 Klaim Buku Final : 14 MK + 27 MK = 41 MK ; 38 SKS + 77 SKS = 115 SKS
+**✅ RESOLVED (Sep 2026):** Dokumen 005 ditetapkan sebagai ground truth. Angka final: FSTI = 13 MK / 36 SKS, Core STI = 28 MK / 79 SKS. Semua dokumen lain telah diselaraskan.
 Nilai sebenarnya : 13 MK + 28 MK = 41 MK ; 36 SKS + 79 SKS = 115 SKS
 ```
 

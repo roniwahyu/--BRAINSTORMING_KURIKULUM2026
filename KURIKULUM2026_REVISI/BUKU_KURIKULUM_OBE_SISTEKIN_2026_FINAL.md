@@ -188,8 +188,8 @@ Sebagai program studi baru yang sedang bertumbuh, SISTEKIN menerapkan evaluasi P
 | Komponen Mata Kuliah | Jumlah MK | Total SKS | Persentase Beban |
 | --- | --- | --- | --- |
 | Mata Kuliah Wajib Umum (MKWU) | 8 MK | 13 SKS | 8,8% |
-| Mata Kuliah Wajib Fakultas (FSTI) | 14 MK | 38 SKS | 25,9% |
-| Mata Kuliah Inti Program Studi (Core STI) | 27 MK | 77 SKS | 53,1% |
+| Mata Kuliah Wajib Fakultas (FSTI) | 13 MK | 36 SKS | 24,7% |
+| Mata Kuliah Inti Program Studi (Core STI) | 28 MK | 79 SKS | 54,1% |
 | Mata Kuliah Pilihan Peminatan (Elektif) | 6 MK | 18 SKS | 12,2% |
 | TOTAL PAKET DITEMPUH MAHASISWA | 55 MK | 146 SKS | 100,0% |
 | Portofolio MK Ditawarkan (SIAKAD) | 67 MK | 182 SKS | 18 MK Elektif |
@@ -1329,8 +1329,8 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | Rumpun / Kategori | Jumlah MK | Bobot SKS | Distribusi Semester | Keterangan |
 |---|:---:|:---:|:---:|---|
 | **Mata Kuliah Wajib Umum (MKWU)** | 8 MK | 13 SKS | Sem 1, 2, 4, 5 | S1, KU1, KU2, KU3 |
-| **Mata Kuliah Dasar Fakultas (FSTI)** | 14 MK | 38 SKS | Sem 1, 2, 4, 6, 7, 8 | Fondasi Matematika, Sains, Capstone, PKL, Skripsi |
-| **Mata Kuliah Inti Program Studi (STI)** | 27 MK | 77 SKS | Sem 1, 2, 3, 4, 5, 6, 7 | Core IS/IT BoK (Komputasi, Cloud, AI, Security) |
+| **Mata Kuliah Dasar Fakultas (FSTI)** | 13 MK | 36 SKS | Sem 1, 2, 4, 6, 7, 8 | Fondasi Matematika, Sains, Capstone, PKL, Skripsi |
+| **Mata Kuliah Inti Program Studi (STI)** | 28 MK | 79 SKS | Sem 1, 2, 3, 4, 5, 6, 7 | Core IS/IT BoK (Komputasi, Cloud, AI, Security) |
 | **Mata Kuliah Peminatan 1 (Smart Systems)** | 6 MK | 18 SKS Ditawarkan | Sem 5 (1 MK), Sem 6 (2 MK), Sem 7 (3 MK) | Pilihan Jalur P1 (Ambil 6 MK / 18 SKS) |
 | **Mata Kuliah Peminatan 2 (Cloud & Cyber)** | 6 MK | 18 SKS Ditawarkan | Sem 5 (1 MK), Sem 6 (2 MK), Sem 7 (3 MK) | Pilihan Jalur P2 (Ambil 6 MK / 18 SKS) |
 | **Mata Kuliah Peminatan 3 (Platform Eng)** | 6 MK | 18 SKS Ditawarkan | Sem 5 (1 MK), Sem 6 (2 MK), Sem 7 (3 MK) | Pilihan Jalur P3 (Ambil 6 MK / 18 SKS) |
