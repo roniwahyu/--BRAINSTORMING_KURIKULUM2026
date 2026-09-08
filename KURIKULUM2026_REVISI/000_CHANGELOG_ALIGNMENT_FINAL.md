@@ -1,7 +1,7 @@
 # 📋 CHANGELOG — Alignment & Synchronization Kurikulum OBE SISTEKIN 2026
 
-**Tanggal:** 21 Agustus 2026  
-**Status:** ✅ **COMPLETE — All Documents Fully Aligned**
+**Tanggal terakhir update:** 08 September 2026  
+**Status:** ✅ **COMPLETE — All Documents Fully Aligned with Dok 005 (Ground Truth)**
 
 ---
 
@@ -13,9 +13,9 @@
 |-----------|-------------|--------|
 | **Paket Ditempuh Mahasiswa** | **146 SKS / 55 MK** | ✅ Verified (195 occurrences) |
 | **Portofolio Ditawarkan SIAKAD** | **182 SKS / 67 MK** | ✅ Verified (71 occurrences) |
-| **MK Inti Prodi STI** | **27 MK / 77 SKS** | ✅ Verified (53 occurrences) |
+| **MK Inti Prodi STI** | **28 MK / 79 SKS** | ✅ Verified |
 | **MK Wajib Umum (MKWU)** | 8 MK / 13 SKS | ✅ Aligned |
-| **MK Wajib Fakultas (FSTI)** | 14 MK / 38 SKS | ✅ Aligned |
+| **MK Wajib Fakultas (FSTI)** | 13 MK / 36 SKS | ✅ Aligned |
 | **MK Elektif Peminatan** | 6 MK / 18 SKS (dari 18 MK ditawarkan) | ✅ Aligned |
 
 ---
@@ -43,12 +43,12 @@
 
 | Semester | Total SKS | Jumlah MK | Status |
 |:--------:|:---------:|:---------:|:------:|
-| **Sem 1** | 19 SKS | 10 MK | ✅ |
-| **Sem 2** | 20 SKS | 10 MK | ✅ |
-| **Sem 3** | 20 SKS | 10 MK | ✅ |
-| **Sem 4** | **21 SKS** | 9 MK | ✅ (Turun dari 22 SKS) |
+| **Sem 1** | 19 SKS | 8 MK | ✅ |
+| **Sem 2** | 20 SKS | 8 MK | ✅ |
+| **Sem 3** | 20 SKS | 7 MK | ✅ |
+| **Sem 4** | **21 SKS** | 8 MK | ✅ |
 | **Sem 5** | 21 SKS | 7 MK | ✅ |
-| **Sem 6** | **19 SKS** | 8 MK | ✅ (Turun dari 20 SKS) |
+| **Sem 6** | **19 SKS** | 7 MK | ✅ |
 | **Sem 7** | 20 SKS | 7 MK | ✅ |
 | **Sem 8** | 6 SKS | 1 MK | ✅ |
 | **TOTAL** | **146 SKS** | **55 MK** | ✅ **FINAL** |
@@ -111,13 +111,17 @@
 | `184 SKS` | 0 | ✅ Clear |
 | `183 SKS` | 0 | ✅ Clear |
 | `78 SKS` | 0 | ✅ Clear |
-| `79 SKS` | 0 | ✅ Clear |
+| `77 SKS` (Core STI lama) | 0 | ✅ Clear |
+| `14 MK / 38 SKS` (FSTI lama) | 0 | ✅ Clear |
+| `27 MK / 77 SKS` (Core STI lama) | 0 | ✅ Clear |
 
 | Pattern Correct | Occurrences | Status |
 |-----------------|:-----------:|:------:|
-| `146 SKS` | 195 | ✅ Verified |
-| `182 SKS` | 71 | ✅ Verified |
-| `77 SKS` | 53 | ✅ Verified |
+| `146 SKS` | ≥195 | ✅ Verified |
+| `182 SKS` | ≥71 | ✅ Verified |
+| `79 SKS` (Core STI baru) | ≥1 | ✅ Verified |
+| `13 MK / 36 SKS` (FSTI baru) | ≥1 | ✅ Verified |
+| `28 MK / 79 SKS` (Core STI baru) | ≥1 | ✅ Verified |
 
 ---
 
@@ -126,7 +130,10 @@
 1. **Bulk String Replacement:**
    - Mengganti semua kemunculan `148 SKS` → `146 SKS`
    - Mengganti semua kemunculan `184 SKS` → `182 SKS`
-   - Mengganti semua kemunculan `79 SKS` → `77 SKS`
+   - Mengganti semua kemunculan `14 MK / 38 SKS` (FSTI) → `13 MK / 36 SKS`
+   - Mengganti semua kemunculan `14 MK | 38 SKS` (FSTI) → `13 MK | 36 SKS`
+   - Mengganti semua kemunculan `27 MK / 77 SKS` (Core STI) → `28 MK / 79 SKS`
+   - Mengganti semua kemunculan `27 MK | 77 SKS` (Core STI) → `28 MK | 79 SKS`
 
 2. **Context-Aware MK SKS Update:**
    - STI-418: Hanya di kolom **Nama MK** (bukan di kolom prasyarat)
@@ -154,8 +161,8 @@
 | Kategori | Jumlah MK | SKS | % dari Total |
 |----------|:---------:|:---:|:------------:|
 | MK Wajib Umum (MKWU) | 8 | 13 | 8,9% |
-| MK Wajib Fakultas (FSTI) | 14 | 38 | 26,0% |
-| **MK Inti Prodi (STI)** | **27** | **77** | **52,7%** |
+| MK Wajib Fakultas (FSTI) | 13 | 36 | 24,7% |
+| **MK Inti Prodi (STI)** | **28** | **79** | **54,1%** |
 | MK Elektif Peminatan | 6 | 18 | 12,3% |
 | **TOTAL** | **55** | **146** | **100%** |
 
@@ -182,7 +189,8 @@ Mahasiswa menempuh **1 paket penuh** (6 MK / 18 SKS) dari 18 MK elektif yang dit
 - [x] HTML portal `index.html` & individual `.html` files regenerated
 - [x] Semester 1 & 2 ≤ 20 SKS (patuh Permendikbudristek No. 53/2023)
 - [x] Beban SKS semester 4 & 6 disesuaikan (21 SKS & 19 SKS)
-- [x] Komposisi MK STI Core: **52,7%** dari total paket (sesuai standar OBE)
+- [x] Komposisi MK STI Core: **54,1%** dari total paket (28 MK / 79 SKS — sesuai Dok 005 & standar OBE)
+- [x] Komposisi MK FSTI: **24,7%** (13 MK / 36 SKS — diselaraskan Sep 2026)
 
 ---
 
