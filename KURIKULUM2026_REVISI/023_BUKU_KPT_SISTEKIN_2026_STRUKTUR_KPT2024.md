@@ -4,17 +4,19 @@
 
 ### Program Sarjana (S1) — Jenjang KKNI Level 6
 
-**Fakultas Sains dan Teknologi Informasi (FSTI)**
+**Fakultas Sains dan Teknologi Informasi (FSTI)**  
 **Universitas Widyagama Malang**
 
 **Tahun 2026**
 
 ---
 
-**Disusun mengikuti:**
+**Disusun mengikuti:**  
 Buku Panduan Penyusunan Kurikulum Pendidikan Tinggi (KPT) 2024 Edisi V — Direktorat Pembelajaran dan Kemahasiswaan, Direktorat Jenderal Pendidikan Tinggi, Riset, dan Teknologi, Kemendikbudristek.
 
-**Struktur naskah:** 12 butir dokumen kurikulum (Bab I–XII) sesuai Permendikbudristek No. 53 Tahun 2023 Pasal 44 dan KPT 2024 hlm. 30–31.
+**Struktur naskah ganda:**  
+- **12 butir dokumen kurikulum (Bab I–XII)** sesuai Permendikbudristek No. 53 Tahun 2023 Pasal 44 dan KPT 2024 hlm. 30–31  
+- **12 Bagian A–L** sesuai template Panduan Kurikulum OBE/KKNI/SKKNI APTIKOM v2.0 (2024)
 
 **Standar disiplin yang diacu:**
 - Panduan Kurikulum OBE/KKNI/SKKNI APTIKOM Program Studi Sarjana Sistem Informasi v2.0 (2024) — berbasis IS2020
@@ -39,29 +41,33 @@ Buku Panduan Penyusunan Kurikulum Pendidikan Tinggi (KPT) 2024 Edisi V — Direk
 
 ## DAFTAR ISI
 
-| Bab | Judul | Status | Sumber Konten |
-|:---:|---|:---:|---|
-| **I** | Identitas Program Studi | ⚠️ PERLU DATA UPPS | Dok. 001 + data resmi UPPS |
-| **II** | Evaluasi Kurikulum dan Tracer Study | ⚠️ PERLU LENGKAP | Dok. 001, 010, 019 |
-| **III** | Landasan Perancangan dan Pengembangan Kurikulum | ✅ BARU | Ditulis di naskah ini |
-| **IV** | Visi, Misi, Tujuan, Strategi, dan University Value | ✅ TERISI | Dok. 001, 002 |
-| **V** | Rumusan Standar Kompetensi Lulusan (Profil Lulusan & CPL) | ✅ TERISI | Dok. 002, 003, 009A–009E |
-| **VI** | Penetapan Bahan Kajian | ✅ TERISI | Dok. 003, 016 |
-| **VII** | Pembentukan Mata Kuliah dan Penentuan Bobot SKS | ✅ TERISI | Dok. 004, 005 |
-| **VIII** | Matriks, Peta Kurikulum, dan Masa Tempuh | ✅ TERISI | Dok. 004, 005, 011, 012, 015 |
-| **IX** | Modalitas Pembelajaran, RPS, dan Asesmen | ⚠️ PERLU LENGKAP | Dok. 007, 008, 018 |
-| **X** | Rencana Implementasi Hak Belajar Maksimum 3 Semester di Luar Prodi | ⚠️ PERLU LENGKAP | Dok. 006, 009 |
-| **XI** | Manajemen dan Mekanisme Pelaksanaan Kurikulum | ⚠️ PERLU LENGKAP | Dok. 008, 010, 013 |
-| **XII** | Tata Cara Penerimaan Mahasiswa pada Berbagai Tahapan Kurikulum | ✅ BARU | Ditulis di naskah ini |
-| **Lampiran 1** | Master Matriks Keterlacakan OBE (I-R-M, 14 CPL × 55 MK) | ✅ TERISI | Dok. 004 |
-| **Lampiran 2** | Portofolio Silabus 3-Tabel 67 Mata Kuliah | ✅ TERISI | Dok. 007 |
-| **Lampiran 3** | Instrumen Tracer Study dan Survei Pengguna Lulusan | ✅ TERISI | Dok. 010 |
-| **Lampiran 4** | Rubrik Master Asesmen OBE | ⚠️ PERLU LENGKAP | Dok. 008, 018 |
-| **Lampiran 5** | Contoh RPS Lengkap Format KPT 2024 | ⚠️ PERLU LENGKAP | Dok. 007 + kolom baru |
+| Bagian APTIKOM | Bab KPT 2024 | Judul | Status | Sumber Konten |
+|:---:|:---:|---|:---:|---|
+| **A** | **I** | Identitas Program Studi | ⚠️ PERLU DATA UPPS | Dok. 001 + data resmi UPPS |
+| **B** | **II** | Evaluasi Kurikulum dan Tracer Study | ⚠️ PERLU LENGKAP | Dok. 001, 010, 019 |
+| **C** | **III** | Landasan Perancangan dan Pengembangan Kurikulum | ✅ TERISI | Ditulis di naskah ini |
+| **D** | **IV** | Visi, Misi, Tujuan, Strategi, dan University Value | ✅ TERISI | Dok. 001, 002 |
+| **E** | **V** | Rumusan Standar Kompetensi Lulusan (Profil Lulusan & CPL) | ✅ TERISI | Dok. 002, 003, 009A–009E |
+| **F** | **VI** | Penetapan Bahan Kajian | ✅ TERISI | Dok. 003, 016 |
+| **G** | **VII** | Pembentukan Mata Kuliah dan Penentuan Bobot SKS | ✅ TERISI | Dok. 004, 005 |
+| **H** | **VIII** | Matriks, Peta Kurikulum, dan Masa Tempuh | ✅ TERISI | Dok. 004, 005, 011, 012, 015 |
+| **I** | **IX** *(sebagian)* | Rencana Pembelajaran Semester (RPS) | ⚠️ PERLU LENGKAP | Dok. 007, 008, 018 |
+| **J** | **IX** *(sebagian)* | Asesmen Pembelajaran | ✅ TERISI | Dok. 008, 018 |
+| **K** | **X** | Rencana Implementasi Hak Belajar Maks. 3 Semester di Luar Prodi | ⚠️ PERLU LENGKAP | Dok. 006, 009 |
+| **L** | **XI** | Manajemen dan Mekanisme Pelaksanaan Kurikulum | ✅ TERISI | Dok. 008, 010, 013 |
+| *(suplemen)* | **XII** | Tata Cara Penerimaan Mahasiswa pada Berbagai Tahapan Kurikulum | ✅ BARU | Ditulis di naskah ini |
+| **Lampiran 1** | — | Master Matriks Keterlacakan OBE (I-R-M, 14 CPL × 55 MK) | ✅ TERISI | Dok. 004 |
+| **Lampiran 2** | — | Portofolio Silabus 3-Tabel 67 Mata Kuliah | ✅ TERISI | Dok. 007 |
+| **Lampiran 3** | — | Instrumen Tracer Study dan Survei Pengguna Lulusan | ✅ TERISI | Dok. 010 |
+| **Lampiran 4** | — | Rubrik Master Asesmen OBE | ⚠️ PERLU LENGKAP | Dok. 008, 018 |
+| **Lampiran 5** | — | Contoh Format RPS Lengkap KPT 2024 (template 8 kolom) | ⚠️ PERLU LENGKAP | Dok. 007 + kolom baru |
+
+> **Keterangan pemetaan.** Template APTIKOM (Bagian A–L) dan KPT 2024 (Butir I–XII) adalah satu kerangka yang sama diekspresikan dengan nomenklatur berbeda. Satu pengecualian: **Butir XII KPT 2024** (Tata Cara Penerimaan Mahasiswa) tidak memiliki padanan di template APTIKOM — ini adalah butir tambahan wajib berdasarkan Permendikbudristek 53/2023 Pasal 44 huruf h.
 
 ---
 
-# BAB I — IDENTITAS PROGRAM STUDI
+# BAGIAN A — IDENTITAS PROGRAM STUDI
+*(KPT 2024 Butir I | APTIKOM Bagian A)*
 
 **Status: ⚠️ PERLU DATA UPPS**
 
@@ -88,7 +94,8 @@ Rujukan: KPT 2024 butir I; APTIKOM Tabel A.
 
 ---
 
-# BAB II — EVALUASI KURIKULUM DAN TRACER STUDY
+# BAGIAN B — EVALUASI KURIKULUM DAN TRACER STUDY
+*(KPT 2024 Butir II | APTIKOM Bagian B)*
 
 **Status: ⚠️ PERLU LENGKAP**
 
@@ -140,7 +147,8 @@ Rumusan CPL prodi dibandingkan terhadap tiga acuan: **deskriptor KKNI** jenjang 
 
 ---
 
-# BAB III — LANDASAN PERANCANGAN DAN PENGEMBANGAN KURIKULUM
+# BAGIAN C — LANDASAN PERANCANGAN DAN PENGEMBANGAN KURIKULUM
+*(KPT 2024 Butir III | APTIKOM Bagian C)*
 
 **Status: ✅ BARU — ditulis pada naskah ini (sebelumnya tidak ada di folder REVISI)**
 
@@ -246,7 +254,8 @@ Landasan yuridis adalah dasar hukum yang menjadi rujukan pada tahapan perancanga
 
 ---
 
-# BAB IV — VISI, MISI, TUJUAN, STRATEGI, DAN UNIVERSITY VALUE
+# BAGIAN D — VISI, MISI, TUJUAN, STRATEGI, DAN UNIVERSITY VALUE
+*(KPT 2024 Butir IV | APTIKOM Bagian D)*
 
 **Status: ✅ TERISI** — sumber: Dokumen 001, 002.
 
@@ -307,7 +316,8 @@ Uraian indikator dan rencana pengukuran tiap PEO: Dokumen 002 §3 dan Dokumen 01
 
 ---
 
-# BAB V — RUMUSAN STANDAR KOMPETENSI LULUSAN
+# BAGIAN E — RUMUSAN STANDAR KOMPETENSI LULUSAN (SKL)
+*(KPT 2024 Butir V | APTIKOM Bagian E)*
 
 **Status: ✅ TERISI** — sumber: Dokumen 002, 003, 009A–009E.
 
@@ -372,7 +382,8 @@ Setiap Profil Lulusan ditopang minimal 8 CPL, memenuhi kriteria minimal 3 CPL pe
 
 ---
 
-# BAB VI — PENETAPAN BAHAN KAJIAN
+# BAGIAN F — PENETAPAN BAHAN KAJIAN
+*(KPT 2024 Butir VI | APTIKOM Bagian F)*
 
 **Status: ✅ TERISI** — sumber: Dokumen 003, 016.
 
@@ -417,7 +428,8 @@ Untuk mencegah tumpang tindih materi antar mata kuliah — temuan yang sering mu
 
 ---
 
-# BAB VII — PEMBENTUKAN MATA KULIAH DAN PENENTUAN BOBOT SKS
+# BAGIAN G — PEMBENTUKAN MATA KULIAH DAN PENENTUAN BOBOT SKS
+*(KPT 2024 Butir VII | APTIKOM Bagian G)*
 
 **Status: ✅ TERISI** — sumber: Dokumen 004, 005.
 
@@ -466,7 +478,8 @@ KPT 2024 membedakan dua jalur, dan SISTEKIN menggunakan **keduanya**:
 
 ---
 
-# BAB VIII — MATRIKS, PETA KURIKULUM, DAN MASA TEMPUH
+# BAGIAN H — MATRIKS, PETA KURIKULUM, DAN MASA TEMPUH
+*(KPT 2024 Butir VIII | APTIKOM Bagian H)*
 
 **Status: ✅ TERISI** — sumber: Dokumen 004, 005, 011, 012, 015.
 
@@ -523,7 +536,10 @@ Program akselerasi tidak mengurangi beban SKS maupun jumlah mata kuliah; percepa
 
 ---
 
-# BAB IX — MODALITAS PEMBELAJARAN, RPS, DAN ASESMEN
+# BAGIAN I — RENCANA PEMBELAJARAN SEMESTER (RPS)
+*(KPT 2024 Butir IX (sebagian) | APTIKOM Bagian I)*
+
+**Catatan:** KPT 2024 memperluas butir ini menjadi "Modalitas Pembelajaran" yang mencakup gaya belajar, metode SCL, dan blended learning — lebih luas dari sekadar RPS. Asesmen Pembelajaran dipisah menjadi **Bagian J** sesuai template APTIKOM.
 
 **Status: ⚠️ PERLU LENGKAP** — sumber: Dokumen 007, 008, 018.
 
@@ -627,7 +643,10 @@ Metode yang digunakan, dengan target **IKU 7 ≥ 50%** mata kuliah menerapkan pe
 
 Rekapitulasi kepatuhan IKU 7 dan metode per mata kuliah: Dokumen 004 §7.
 
-## IX.7 Asesmen Pembelajaran
+# BAGIAN J — ASESMEN PEMBELAJARAN
+*(KPT 2024 Butir IX (sebagian) | APTIKOM Bagian J)*
+
+> **Catatan pemetaan.** KPT 2024 menyatukan Asesmen ke dalam butir IX ("Modalitas Pembelajaran"). Template APTIKOM memisahkannya sebagai Bagian J tersendiri. Naskah ini mengikuti template APTIKOM yang lebih terstruktur.
 
 ### IX.7.1 Prinsip Penilaian
 
@@ -692,7 +711,8 @@ KPT 2024 butir IX mensyaratkan penyertaan perangkat berikut untuk seluruh mata k
 
 ---
 
-# BAB X — RENCANA IMPLEMENTASI HAK BELAJAR MAKSIMUM 3 SEMESTER DI LUAR PROGRAM STUDI
+# BAGIAN K — RENCANA IMPLEMENTASI HAK BELAJAR MAKSIMUM 3 SEMESTER DI LUAR PROGRAM STUDI
+*(KPT 2024 Butir X | APTIKOM Bagian K)*
 
 **Status: ⚠️ PERLU LENGKAP** — sumber: Dokumen 006, 009.
 
@@ -765,7 +785,8 @@ Empat opsi tugas akhir non-skripsi beserta ekuivalensi SKS dan rubrik penilaian 
 
 ---
 
-# BAB XI — MANAJEMEN DAN MEKANISME PELAKSANAAN KURIKULUM
+# BAGIAN L — MANAJEMEN DAN MEKANISME PELAKSANAAN KURIKULUM
+*(KPT 2024 Butir XI | APTIKOM Bagian L)*
 
 **Status: ⚠️ PERLU LENGKAP** — sumber: Dokumen 008 §6, 010 §9, 013 §4.
 
@@ -827,7 +848,8 @@ Sumber daya laboratorium, tata kelola program studi, dan aturan peralihan dari k
 
 ---
 
-# BAB XII — TATA CARA PENERIMAAN MAHASISWA PADA BERBAGAI TAHAPAN KURIKULUM
+# SUPLEMEN — TATA CARA PENERIMAAN MAHASISWA PADA BERBAGAI TAHAPAN KURIKULUM
+*(KPT 2024 Butir XII — tidak ada padanan di template APTIKOM A–L, wajib per Permendikbudristek 53/2023 Pasal 44 huruf h)*
 
 **Status: ✅ BARU — kerangka ditulis pada naskah ini; isi memerlukan koordinasi dengan kebijakan PMB Universitas**
 
