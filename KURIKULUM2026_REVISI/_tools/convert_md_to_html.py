@@ -54,6 +54,8 @@ DOC_FILES = [
     ("040_LAMPIRAN_RAKIT_BUKU_KPT.md", "040 — Lampiran Rakit Buku KPT SISTEKIN 2026"),
     ("041_LAMPIRAN_BARU_BUKU_KPT.md", "041 — Lampiran Baru Buku KPT SISTEKIN 2026"),
     ("042_LAPORAN_AUDIT_KESELARASAN_KURIKULUM_DAN_BOUNDARY_OF_TOPICS.md", "042 — Laporan Audit Mutu & Keselarasan Kurikulum vs Dokumen 005"),
+    ("043_MATRIKS_CPL_CPMK_BoK_DAN_BOUNDARY_GUARDRAILS.md", "043 — Matriks CPL, CPMK, BoK, dan Boundary Guardrails (Core & Peminatan)"),
+    ("044_DEV_REPORT_DAN_LOG_PENYUSUNAN_MATRIKS_CPL_CPMK_BoK_GUARDRAILS.md", "044 — Dev Report & Log Penyusunan Matriks CPL, CPMK, BoK, dan Boundary Guardrails"),
     ("BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md", "📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)")
 ]
 
