@@ -63,28 +63,28 @@ CANONICAL_COURSES = {
     "STI-728": ("Pengembangan Startup Digital", 3, 7, "Core STI"),
 
     # Peminatan 1: Integrated Smart Systems (6 MK / 18 SKS)
-    "STA-01": ("Decision Support Systems", 3, 5, "Peminatan 1"),
-    "STA-02": ("Metode Komputasi Numerik Terapan", 3, 6, "Peminatan 1"),
-    "STA-03": ("Sistem Agen Cerdas & Multi-Agent", 3, 6, "Peminatan 1"),
-    "STA-04": ("MLOps & AI Model Deployment", 3, 7, "Peminatan 1"),
-    "STA-05": ("Natural Language Processing & LLM", 3, 7, "Peminatan 1"),
-    "STA-06": ("Smart Surveillance & Vision Analytics", 3, 7, "Peminatan 1"),
+    "STA-501": ("Decision Support Systems", 3, 5, "Peminatan 1"),
+    "STA-601": ("Metode Komputasi Numerik Terapan", 3, 6, "Peminatan 1"),
+    "STA-602": ("Sistem Agen Cerdas & Multi-Agent", 3, 6, "Peminatan 1"),
+    "STA-701": ("MLOps & AI Model Deployment", 3, 7, "Peminatan 1"),
+    "STA-702": ("Natural Language Processing & LLM", 3, 7, "Peminatan 1"),
+    "STA-703": ("Smart Surveillance & Vision Analytics", 3, 7, "Peminatan 1"),
 
     # Peminatan 2: Cloud Infrastructure & Cybersecurity (6 MK / 18 SKS)
-    "STB-01": ("Keamanan Jaringan & Forensik Digital", 3, 5, "Peminatan 2"),
-    "STB-02": ("Cloud Architecture & DevOps", 3, 6, "Peminatan 2"),
-    "STB-03": ("Penetration Testing & Red Teaming", 3, 6, "Peminatan 2"),
-    "STB-04": ("IT Governance & Compliance COBIT 2019", 3, 7, "Peminatan 2"),
-    "STB-05": ("Keamanan Cloud & Kriptografi Terapan", 3, 7, "Peminatan 2"),
-    "STB-06": ("Rekayasa Ketahanan Sistem & SRE", 3, 7, "Peminatan 2"),
+    "STB-501": ("Keamanan Jaringan & Forensik Digital", 3, 5, "Peminatan 2"),
+    "STB-601": ("Cloud Architecture & DevOps", 3, 6, "Peminatan 2"),
+    "STB-602": ("Penetration Testing & Red Teaming", 3, 6, "Peminatan 2"),
+    "STB-701": ("IT Governance & Compliance COBIT 2019", 3, 7, "Peminatan 2"),
+    "STB-702": ("Keamanan Cloud & Kriptografi Terapan", 3, 7, "Peminatan 2"),
+    "STB-703": ("Rekayasa Ketahanan Sistem & SRE", 3, 7, "Peminatan 2"),
 
     # Peminatan 3: Digital Platform Engineering (6 MK / 18 SKS)
-    "STC-01": ("Interaksi Manusia & Komputer Lanjut", 3, 5, "Peminatan 3"),
-    "STC-02": ("Enterprise Architecture Frameworks", 3, 6, "Peminatan 3"),
-    "STC-03": ("Pengembangan Aplikasi Cross-Platform", 3, 6, "Peminatan 3"),
-    "STC-04": ("Digital Business Ecosystems & Platform Strategy", 3, 7, "Peminatan 3"),
-    "STC-05": ("Cloud-Native Application Development", 3, 7, "Peminatan 3"),
-    "STC-06": ("Product Management & Growth Hacking", 3, 7, "Peminatan 3"),
+    "STC-501": ("Interaksi Manusia & Komputer Lanjut", 3, 5, "Peminatan 3"),
+    "STC-601": ("Enterprise Architecture Frameworks", 3, 6, "Peminatan 3"),
+    "STC-602": ("Pengembangan Aplikasi Cross-Platform", 3, 6, "Peminatan 3"),
+    "STC-701": ("Digital Business Ecosystems & Platform Strategy", 3, 7, "Peminatan 3"),
+    "STC-702": ("Cloud-Native Application Development", 3, 7, "Peminatan 3"),
+    "STC-703": ("Product Management & Growth Hacking", 3, 7, "Peminatan 3"),
 }
 
 print(f"Total Canonical Courses: {len(CANONICAL_COURSES)} MK")

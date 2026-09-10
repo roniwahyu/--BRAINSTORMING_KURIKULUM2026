@@ -80,8 +80,8 @@ Berikut adalah hasil komparasi rinci per topik (*topic-by-topic cross examinatio
 │    │                             │                           │   Bisnis dan Exploratory Data Analysis (EDA).    │
 ├────┼─────────────────────────────┼───────────────────────────┼──────────────────────────────────────────────────┤
 │ 4  │ • STI-519 Keamanan Lanjut(3)│ BK-IS06 / BK-IT06:        │ • STI-626 di Wajib Prodi mengajarkan ISO 27001 & │
-│    │ • STB-03 Cyber Risk Mgmt (3)│ Information Security and  │   Risk Assessment Framework.                     │
-│    │                             │ Risk Management           │ • STB-03 di Peminatan 2 direposisi menjadi Cloud │
+│    │ • STB-602 Cyber Risk Mgmt (3)│ Information Security and  │   Risk Assessment Framework.                     │
+│    │                             │ Risk Management           │ • STB-602 di Peminatan 2 direposisi menjadi Cloud │
 │    │                             │                           │   Security & DevSecOps agar berbasis teknis lab. │
 └────┴─────────────────────────────┴───────────────────────────┴──────────────────────────────────────────────────┘
 ```

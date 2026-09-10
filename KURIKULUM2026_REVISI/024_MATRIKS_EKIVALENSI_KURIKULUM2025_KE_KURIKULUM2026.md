@@ -123,8 +123,8 @@ Matriks disusun dua arah agar dapat dipakai oleh dua pengguna berbeda:
 | 18 | `STI-313` | Keamanan Informasi Dasar | 2 | `STI-418` | Dasar Keamanan Informasi | 2 | 4 | **E1** | Nama dan SKS setara; posisi bergeser Sem 3 → Sem 4 |
 | 19 | `STI-314` | Interaksi Manusia dan Komputer | 3 | `STI-308` | UI/UX Design & Prototyping (+P) | 3 | 3 | **E3** | Dilebur bersama `STI-635` Desain & Evaluasi Antarmuka Pengguna — lihat klaster G-3 |
 | 20 | `STI-315` | Etika dan Hukum TI | 2 | `FST-206` | Etika Profesi & Hukum Digital | 2 | 2 | **E1** | Cakupan diperluas ke etika AI & pelindungan data pribadi; SKS setara |
-| 21 | `STI-316` | Multimedia Interaktif | 2 | `STC-04` | Immersive Media & XR Development (+P) | 3 | 7 | **E3** | Dilebur bersama `STI-531` Augmented Reality dan Virtual Reality — lihat klaster G-4. Padanan berada pada **MK elektif Peminatan P3 (Sem 7)**, bukan MK wajib: diakui hanya bila mahasiswa memilih Peminatan P3, jika tidak dihitung sebagai kredit bebas |
-| 22 | `STI-317` | Metode Komputasi dan Numerik | 2 | `STA-02` | Computational Methods & Numerics (+P) | 3 | 6 | **E2** | Padanan berada pada **MK elektif Peminatan P1 (Sem 6)**. Diakui hanya bila mahasiswa memilih Peminatan P1; jika tidak, dihitung sebagai kredit bebas. Defisit 1 SKS + komponen praktikum → uji penyetaraan |
+| 21 | `STI-316` | Multimedia Interaktif | 2 | `STC-701` | Immersive Media & XR Development (+P) | 3 | 7 | **E3** | Dilebur bersama `STI-531` Augmented Reality dan Virtual Reality — lihat klaster G-4. Padanan berada pada **MK elektif Peminatan P3 (Sem 7)**, bukan MK wajib: diakui hanya bila mahasiswa memilih Peminatan P3, jika tidak dihitung sebagai kredit bebas |
+| 22 | `STI-317` | Metode Komputasi dan Numerik | 2 | `STA-601` | Computational Methods & Numerics (+P) | 3 | 6 | **E2** | Padanan berada pada **MK elektif Peminatan P1 (Sem 6)**. Diakui hanya bila mahasiswa memilih Peminatan P1; jika tidak, dihitung sebagai kredit bebas. Defisit 1 SKS + komponen praktikum → uji penyetaraan |
 
 ### 3.4 EKIVALENSI MK SEMESTER 4 KURIKULUM 2025 (20 SKS)
 
@@ -137,7 +137,7 @@ Matriks disusun dua arah agar dapat dipakai oleh dua pengguna berbeda:
 | 27 | `STI-420` | Semantic Web dan Ontologi | 2 | `STI-414` | Pengantar NLP & Information Retrieval (+P) | 2 | 4 | **E2** | Reorientasi materi: ontologi/RDF → NLP & temu kembali informasi. Overlap ± 60% (representasi pengetahuan & pengindeksan semantik) → wajib uji penyetaraan |
 | 28 | `STI-421` | Manajemen Proyek TI | 2 | `STI-523` | Manajemen Proyek Teknologi Informasi | 3 | 5 | **E2** | SKS naik 2 → 3 (penambahan praktik alat manajemen proyek Agile) → wajib tugas penyetaraan 1 SKS |
 | 29 | `STI-422` | E-Commerce dan Digital Business | 3 | `STI-728` | Inovasi Teknologi dan Startup Digital (+P) | 3 | 7 | **E2** | Reorientasi dari model bisnis e-commerce ke inovasi produk & startup (penegasan batas dengan Prodi Bisnis Digital). Overlap ± 65% → wajib uji penyetaraan |
-| 30 | `STI-423` | Game Design dan Gamifikasi Sosial (+P) | 3 | — | *Tidak ada padanan* | — | — | **E5** | **Dihapus** dari K2026 (di luar positioning "Integrator AI"). Unsur gamifikasi terserap parsial pada `STC-01` UX Research & `STC-04` XR. Diakui sebagai kredit bebas 3 SKS |
+| 30 | `STI-423` | Game Design dan Gamifikasi Sosial (+P) | 3 | — | *Tidak ada padanan* | — | — | **E5** | **Dihapus** dari K2026 (di luar positioning "Integrator AI"). Unsur gamifikasi terserap parsial pada `STC-501` UX Research & `STC-701` XR. Diakui sebagai kredit bebas 3 SKS |
 | 31 | `STI-424` | Probabilitas dan Statistika | 3 | `FST-408` | Probabilitas dan Statistika | 3 | 4 | **E1** | Konten dan SKS identik; **kode berubah** `STI-424` → `FST-408` |
 
 ### 3.5 EKIVALENSI MK SEMESTER 5 KURIKULUM 2025 (21 SKS)
@@ -150,21 +150,21 @@ Matriks disusun dua arah agar dapat dipakai oleh dua pengguna berbeda:
 | 35 | `STI-526` | Internet of Things (+P) | 3 | `STI-521` | Internet of Things (IoT) (+P) | 3 | 5 | **E1** | Nama, SKS, dan semester identik |
 | 36 | `STI-527` | Sistem Informasi Berbasis Cloud | 2 | `STI-417` | Komputasi Awan (Cloud Computing) | 3 | 4 | **E2** | SKS naik 2 → 3 dan orientasi bergeser dari pemanfaatan SI berbasis cloud ke arsitektur layanan cloud (IaaS/PaaS/SaaS) → wajib tugas penyetaraan |
 | 37 | `STI-528` | Text Mining dan NLP | 2 | `STI-414` | Pengantar NLP & Information Retrieval (+P) | 2 | 4 | **E1** | Konten inti setara; **catatan:** apabila mahasiswa telah lulus `STI-528`, maka `STI-420` Semantic Web (baris 27) tidak lagi dapat diklaim untuk MK yang sama dan dialihkan menjadi kredit bebas |
-| 38 | `STI-529` | Keamanan Jaringan dan Forensik Digital (+P) | 3 | `STB-01` | Network Security & Digital Forensics (+P) | 3 | 5 | **E1** | Padanan pada **MK elektif Peminatan P2 (Sem 5)**. Diakui penuh bila mahasiswa memilih Peminatan P2; jika tidak, dihitung sebagai kredit bebas |
+| 38 | `STI-529` | Keamanan Jaringan dan Forensik Digital (+P) | 3 | `STB-501` | Network Security & Digital Forensics (+P) | 3 | 5 | **E1** | Padanan pada **MK elektif Peminatan P2 (Sem 5)**. Diakui penuh bila mahasiswa memilih Peminatan P2; jika tidak, dihitung sebagai kredit bebas |
 | 39 | `STI-530` | Data Warehouse dan Business Intelligence (+P) | 3 | `STI-415` | Data Warehouse & Business Intelligence (+P) | 3 | 4 | **E1** | Nama dan SKS identik; posisi bergeser Sem 5 → Sem 4 |
-| 40 | `STI-531` | Augmented Reality dan Virtual Reality (+P) | 2 | `STC-04` | Immersive Media & XR Development (+P) | 3 | 7 | **E3** | Dilebur bersama `STI-316` Multimedia Interaktif — lihat klaster G-4. Padanan berada pada MK elektif Peminatan P3 (Sem 7) |
+| 40 | `STI-531` | Augmented Reality dan Virtual Reality (+P) | 2 | `STC-701` | Immersive Media & XR Development (+P) | 3 | 7 | **E3** | Dilebur bersama `STI-316` Multimedia Interaktif — lihat klaster G-4. Padanan berada pada MK elektif Peminatan P3 (Sem 7) |
 
 ### 3.6 EKIVALENSI MK SEMESTER 6 KURIKULUM 2025 (21 SKS)
 
 | No | Kode K2025 | Nama MK Kurikulum 2025 | SKS | Kode K2026 | Nama MK Kurikulum 2026 (Revisi) | SKS | Smt | Kat | Catatan Penyetaraan |
 |:---:|:---:|---|:---:|:---:|---|:---:|:---:|:---:|---|
 | 41 | `STI-632` | Rekayasa Perangkat Lunak | 3 | `STI-309` | Rekayasa Perangkat Lunak | 3 | 3 | **E1** | Nama dan SKS identik; posisi bergeser Sem 6 → Sem 3 (penguatan fondasi rekayasa lebih dini) |
-| 42 | `STI-633` | Sistem Pendukung Keputusan | 3 | `STA-01` | Decision Support Systems (+P) | 3 | 5 | **E1** | Padanan pada **MK elektif Peminatan P1 (Sem 5)**. Diakui penuh bila mahasiswa memilih Peminatan P1; jika tidak, dihitung sebagai kredit bebas |
+| 42 | `STI-633` | Sistem Pendukung Keputusan | 3 | `STA-501` | Decision Support Systems (+P) | 3 | 5 | **E1** | Padanan pada **MK elektif Peminatan P1 (Sem 5)**. Diakui penuh bila mahasiswa memilih Peminatan P1; jika tidak, dihitung sebagai kredit bebas |
 | 43 | `STI-634` | Pengolahan Citra Digital dan Vision (+P) | 3 | `STI-626` | Deep Learning & Neural Networks (+P) | 3 | 6 | **E2** | K2026 mengintegrasikan computer vision ke dalam kerangka deep learning (CNN). Overlap ± 65% → wajib uji penyetaraan pada komponen arsitektur jaringan saraf & pelatihan model |
 | 44 | `STI-635` | Desain dan Evaluasi Antarmuka Pengguna (UI/UX) (+P) | 3 | `STI-308` | UI/UX Design & Prototyping (+P) | 3 | 3 | **E3** | Dilebur bersama `STI-314` Interaksi Manusia dan Komputer — lihat klaster G-3 |
 | 45 | `STI-636` | Machine Learning (+P) | 3 | `STI-413` | Machine Learning (+P) | 3 | 4 | **E1** | Nama dan SKS identik; posisi bergeser Sem 6 → Sem 4 |
 | 46 | `STI-637` | Smart City dan Sistem Pemerintahan Digital | 3 | `STI-625` | Smart City & Pemerintahan Digital | 2 | 6 | **E1** | SKS diturunkan 3 → 2 (rasionalisasi Dok. 014). Selisih 1 SKS menjadi kredit bebas |
-| 47 | `STI-638` | Intelligent Signal Processing | 3 | — | *Tidak ada padanan* | — | — | **E5** | **Dihapus** dari K2026 (bertumpang dengan ranah riset algoritma Prodi TI, Dok. 016). Unsur ekstraksi fitur sinyal terserap parsial pada `STI-626` Deep Learning & `STA-06` Smart Surveillance. Diakui sebagai kredit bebas 3 SKS |
+| 47 | `STI-638` | Intelligent Signal Processing | 3 | — | *Tidak ada padanan* | — | — | **E5** | **Dihapus** dari K2026 (bertumpang dengan ranah riset algoritma Prodi TI, Dok. 016). Unsur ekstraksi fitur sinyal terserap parsial pada `STI-626` Deep Learning & `STA-703` Smart Surveillance. Diakui sebagai kredit bebas 3 SKS |
 
 ### 3.7 EKIVALENSI MK SEMESTER 7 KURIKULUM 2025 (20 SKS)
 
@@ -176,7 +176,7 @@ Matriks disusun dua arah agar dapat dipakai oleh dua pengguna berbeda:
 | 51 | `STI-740` | Penambangan Data dan Visualisasi (+P) | 3 | `STI-520` | Data Mining & Visualisasi Data (+P) | 3 | 5 | **E3** | Dilebur bersama `STI-208` Visualisasi Data dan Dashboard Interaktif — lihat klaster G-2 |
 | 52 | `STI-741` | Integrasi Layanan Cerdas Berbasis AI | 3 | `STI-624` | Integrasi Layanan Cerdas Berbasis AI (+P) | 3 | 6 | **E2** | Nama dan SKS identik, namun MK baru **berpraktikum** (MK penciri prodi) → wajib praktikum penyetaraan (integrasi API model AI ke aplikasi nyata) |
 | 53 | `STI-742` | Inovasi Teknologi dan Startup Digital | 3 | `STI-728` | Inovasi Teknologi dan Startup Digital (+P) | 3 | 7 | **E2** | Nama dan SKS identik, namun MK baru **berpraktikum** (validasi produk & pitching) → wajib praktikum penyetaraan. **Catatan:** apabila mahasiswa telah lulus `STI-742`, maka `STI-422` E-Commerce (baris 29) dialihkan menjadi kredit bebas |
-| 54 | `STI-743` | Audit dan Tata Kelola Sistem Informasi | 3 | `STB-04` | IT Governance & Compliance (COBIT 2019) | 3 | 7 | **E1** | Padanan pada **MK elektif Peminatan P2 (Sem 7)**. Diakui penuh bila mahasiswa memilih Peminatan P2; jika tidak, dihitung sebagai kredit bebas |
+| 54 | `STI-743` | Audit dan Tata Kelola Sistem Informasi | 3 | `STB-701` | IT Governance & Compliance (COBIT 2019) | 3 | 7 | **E1** | Padanan pada **MK elektif Peminatan P2 (Sem 7)**. Diakui penuh bila mahasiswa memilih Peminatan P2; jika tidak, dihitung sebagai kredit bebas |
 
 ### 3.8 EKIVALENSI MK SEMESTER 8 KURIKULUM 2025 (8 SKS)
 
@@ -323,7 +323,7 @@ Kolom "Asal K2025" adalah MK yang **harus sudah lulus** (nilai ≥ C) agar MK K2
 | **TOTAL PAKET WAJIB** | **128** | **114** | **14** | **5 MK** | **89,1%** |
 
 > [!IMPORTANT]
-> **Semester 1 dan 3 adalah titik kritis penyisipan.** Dua dari tiga MK wajib baru (`STI-103` Arsitektur & Organisasi STI di Sem 1, dan `STI-312` Jaringan Komputer di Sem 3) merupakan **prasyarat berantai** bagi MK di semester berikutnya: `STI-103` menjadi prasyarat `STI-204`, `STI-310`, dan `STI-312`; sedangkan `STI-312` menjadi prasyarat `STI-417` Cloud, `STI-418` Keamanan, `STI-521` IoT, dan `STB-01` Network Security. Bagi mahasiswa transisi yang telah melewati Semester 3, kedua MK ini **wajib disisipkan paling lambat pada Semester 5** agar tidak memblokir MK lanjutan.
+> **Semester 1 dan 3 adalah titik kritis penyisipan.** Dua dari tiga MK wajib baru (`STI-103` Arsitektur & Organisasi STI di Sem 1, dan `STI-312` Jaringan Komputer di Sem 3) merupakan **prasyarat berantai** bagi MK di semester berikutnya: `STI-103` menjadi prasyarat `STI-204`, `STI-310`, dan `STI-312`; sedangkan `STI-312` menjadi prasyarat `STI-417` Cloud, `STI-418` Keamanan, `STI-521` IoT, dan `STB-501` Network Security. Bagi mahasiswa transisi yang telah melewati Semester 3, kedua MK ini **wajib disisipkan paling lambat pada Semester 5** agar tidak memblokir MK lanjutan.
 
 ---
 
@@ -337,8 +337,8 @@ Peleburan dilakukan untuk menghapus redundansi materi yang teridentifikasi pada 
 |:---:|---|:---:|---|:---:|:---:|---|
 | **G-1** | `STI-103` Logika Informatika (2) + `STI-205` Matematika Diskrit (2) | 4 | `STI-204` Matematika Diskrit dan Logika | 3 | −1 | Logika proposisi dan aljabar Boolean adalah subbagian kanonik Matematika Diskrit (BK-IS10). Pemisahan menimbulkan pengulangan materi ± 40% |
 | **G-2** | `STI-208` Visualisasi Data & Dashboard Interaktif (2) + `STI-740` Penambangan Data dan Visualisasi (3) | 5 | `STI-520` Data Mining & Visualisasi Data | 3 | −2 | Visualisasi tanpa didahului penambangan data menyebabkan MK Sem 2 mengajarkan alat tanpa substansi analitik. Digabung pada Sem 5 setelah `STI-413` Machine Learning |
-| **G-3** | `STI-314` Interaksi Manusia dan Komputer (3) + `STI-635` Desain & Evaluasi Antarmuka Pengguna UI/UX (3) | 6 | `STI-308` UI/UX Design & Prototyping | 3 | −3 | Dua MK mengampu BK yang sama (BK-IS13 / BK-IT09) dengan overlap ± 70%. Materi riset pengguna lanjutan dipindahkan ke elektif `STC-01` UX Research & Design |
-| **G-4** | `STI-316` Multimedia Interaktif (2) + `STI-531` Augmented Reality dan Virtual Reality (2) | 4 | `STC-04` Immersive Media & XR Development | 3 | −1 | Multimedia interaktif merupakan prasyarat inheren pengembangan XR. Dipindahkan ke elektif Peminatan P3 karena bukan kompetensi inti "Integrator AI" |
+| **G-3** | `STI-314` Interaksi Manusia dan Komputer (3) + `STI-635` Desain & Evaluasi Antarmuka Pengguna UI/UX (3) | 6 | `STI-308` UI/UX Design & Prototyping | 3 | −3 | Dua MK mengampu BK yang sama (BK-IS13 / BK-IT09) dengan overlap ± 70%. Materi riset pengguna lanjutan dipindahkan ke elektif `STC-501` UX Research & Design |
+| **G-4** | `STI-316` Multimedia Interaktif (2) + `STI-531` Augmented Reality dan Virtual Reality (2) | 4 | `STC-701` Immersive Media & XR Development | 3 | −1 | Multimedia interaktif merupakan prasyarat inheren pengembangan XR. Dipindahkan ke elektif Peminatan P3 karena bukan kompetensi inti "Integrator AI" |
 | **TOTAL** | **8 MK Kurikulum 2025** | **19 SKS** | **4 MK Kurikulum 2026** | **12 SKS** | **−7 SKS** | Efisiensi 7 SKS direalokasi ke `STI-103` Arsitektur STI, `STI-312` Jaringan Komputer, dan `FST-204` Pengantar AI & Data |
 
 ### 4.2 ATURAN KONVERSI NILAI UNTUK KLASTER PELEBURAN
@@ -389,9 +389,9 @@ Terdapat **4 kode mata kuliah** yang dipakai untuk MK berbeda pada K2025 dan K20
 
 | Peminatan | MK Elektif Baru (Tanpa Padanan K2025) | Jml | MK Elektif dengan Padanan K2025 |
 |---|---|:---:|---|
-| **P1: Integrated Smart Systems** | `STA-03` Intelligent Agent Systems, `STA-04` MLOps and AI Pipeline, `STA-05` Conversational AI & Intelligent Assistant, `STA-06` Smart Surveillance & IoT Analytics | 4 | `STA-01` ← `STI-633` SPK; `STA-02` ← `STI-317` Metode Komputasi (E2) |
-| **P2: Cloud Infrastructure & Cybersecurity** | `STB-02` Cloud Architecture & DevOps, `STB-03` Cybersecurity Risk Management, `STB-05` IT Service Management ITIL 4, `STB-06` Enterprise Architecture TOGAF | 4 | `STB-01` ← `STI-529` Keamanan Jaringan; `STB-04` ← `STI-743` Audit & Tata Kelola SI |
-| **P3: Digital Platform Engineering** | `STC-01` UX Research & Design, `STC-02` Rekayasa & Otomasi Proses Bisnis, `STC-03` Rekayasa Aplikasi Industri Vertikal, `STC-05` SaaS Architecture & Multi-Tenancy, `STC-06` Digital Product Management & Agile | 5 | `STC-04` ← `STI-316` + `STI-531` (klaster G-4) |
+| **P1: Integrated Smart Systems** | `STA-602` Intelligent Agent Systems, `STA-701` MLOps and AI Pipeline, `STA-702` Conversational AI & Intelligent Assistant, `STA-703` Smart Surveillance & IoT Analytics | 4 | `STA-501` ← `STI-633` SPK; `STA-601` ← `STI-317` Metode Komputasi (E2) |
+| **P2: Cloud Infrastructure & Cybersecurity** | `STB-601` Cloud Architecture & DevOps, `STB-602` Cybersecurity Risk Management, `STB-702` IT Service Management ITIL 4, `STB-703` Enterprise Architecture TOGAF | 4 | `STB-501` ← `STI-529` Keamanan Jaringan; `STB-701` ← `STI-743` Audit & Tata Kelola SI |
+| **P3: Digital Platform Engineering** | `STC-501` UX Research & Design, `STC-601` Rekayasa & Otomasi Proses Bisnis, `STC-602` Rekayasa Aplikasi Industri Vertikal, `STC-702` SaaS Architecture & Multi-Tenancy, `STC-703` Digital Product Management & Agile | 5 | `STC-701` ← `STI-316` + `STI-531` (klaster G-4) |
 | **TOTAL** | — | **13** | **5 MK elektif memiliki padanan** |
 
 ### 6.3 EKIVALENSI MK PEMINATAN MENURUT SEMESTER DEFINITIF (SEM 5–6–7)
@@ -400,19 +400,19 @@ Kolom **Smt** pada Bagian 3 kini merujuk semester definitif Dokumen 005 (pola te
 
 | Smt | P1 — Integrated Smart Systems | Asal K2025 | P2 — Cloud Infra & Cybersecurity | Asal K2025 | P3 — Digital Platform Engineering | Asal K2025 |
 |:---:|---|---|---|---|---|---|
-| **5** | `STA-01` Decision Support Systems | `STI-633` SPK (**E1**) | `STB-01` Network Security & Digital Forensics | `STI-529` Keamanan Jaringan (**E1**) | `STC-01` UX Research & Design | — (**B**) |
-| **6** | `STA-02` Computational Methods & Numerics | `STI-317` Metode Komputasi (**E2**) | `STB-02` Cloud Architecture & DevOps | — (**B**) | `STC-02` Rekayasa & Otomasi Proses Bisnis | — (**B**) |
-| **6** | `STA-03` Intelligent Agent Systems | — (**B**) | `STB-03` Cybersecurity Risk Management | — (**B**) | `STC-03` Rekayasa Aplikasi Industri Vertikal | — (**B**) |
-| **7** | `STA-04` MLOps and AI Pipeline | — (**B**) | `STB-04` IT Governance & Compliance COBIT 2019 | `STI-743` Audit & Tata Kelola SI (**E1**) | `STC-04` Immersive Media & XR Development | `STI-316` + `STI-531` (**E3**/G-4) |
-| **7** | `STA-05` Conversational AI & Assistant | — (**B**) | `STB-05` IT Service Management ITIL 4 | — (**B**) | `STC-05` SaaS Architecture & Multi-Tenancy | — (**B**) |
-| **7** | `STA-06` Smart Surveillance & IoT Analytics | — (**B**) | `STB-06` Enterprise Architecture TOGAF | — (**B**) | `STC-06` Digital Product Management & Agile | — (**B**) |
+| **5** | `STA-501` Decision Support Systems | `STI-633` SPK (**E1**) | `STB-501` Network Security & Digital Forensics | `STI-529` Keamanan Jaringan (**E1**) | `STC-501` UX Research & Design | — (**B**) |
+| **6** | `STA-601` Computational Methods & Numerics | `STI-317` Metode Komputasi (**E2**) | `STB-601` Cloud Architecture & DevOps | — (**B**) | `STC-601` Rekayasa & Otomasi Proses Bisnis | — (**B**) |
+| **6** | `STA-602` Intelligent Agent Systems | — (**B**) | `STB-602` Cybersecurity Risk Management | — (**B**) | `STC-602` Rekayasa Aplikasi Industri Vertikal | — (**B**) |
+| **7** | `STA-701` MLOps and AI Pipeline | — (**B**) | `STB-701` IT Governance & Compliance COBIT 2019 | `STI-743` Audit & Tata Kelola SI (**E1**) | `STC-701` Immersive Media & XR Development | `STI-316` + `STI-531` (**E3**/G-4) |
+| **7** | `STA-702` Conversational AI & Assistant | — (**B**) | `STB-702` IT Service Management ITIL 4 | — (**B**) | `STC-702` SaaS Architecture & Multi-Tenancy | — (**B**) |
+| **7** | `STA-703` Smart Surveillance & IoT Analytics | — (**B**) | `STB-703` Enterprise Architecture TOGAF | — (**B**) | `STC-703` Digital Product Management & Agile | — (**B**) |
 | **SKS diakui** | **6 SKS** (1 E1 + 1 E2) | — | **6 SKS** (2 E1) | — | **3 SKS** (1 E3) | — |
 | **SKS defisit** | **12 SKS** (4 MK baru) | — | **12 SKS** (4 MK baru) | — | **15 SKS** (5 MK baru) | — |
 
 > [!IMPORTANT]
-> **Konsekuensi bagi mahasiswa transisi:** pengakuan MK elektif **bergantung pada peminatan yang dipilih**. MK K2025 yang berpadanan ke elektif di luar peminatan terpilih otomatis menjadi kredit bebas. Contoh: mahasiswa yang telah lulus `STI-633` SPK namun memilih Peminatan P2 tidak dapat mengklaim `STA-01`; 3 SKS tersebut dicatat sebagai kredit bebas.
+> **Konsekuensi bagi mahasiswa transisi:** pengakuan MK elektif **bergantung pada peminatan yang dipilih**. MK K2025 yang berpadanan ke elektif di luar peminatan terpilih otomatis menjadi kredit bebas. Contoh: mahasiswa yang telah lulus `STI-633` SPK namun memilih Peminatan P2 tidak dapat mengklaim `STA-501`; 3 SKS tersebut dicatat sebagai kredit bebas.
 >
-> **Prasyarat elektif wajib dicek terpisah.** Empat MK elektif memiliki prasyarat pada MK wajib **baru** K2026 yang belum ditempuh mahasiswa transisi: `STB-01` membutuhkan `STI-312` Jaringan Komputer (MK baru), sedangkan `STA-04` membutuhkan `STI-624` yang berada pada semester yang sama sehingga perlu ditetapkan sebagai prasyarat lunak (concurrent) atau dihapus.
+> **Prasyarat elektif wajib dicek terpisah.** Empat MK elektif memiliki prasyarat pada MK wajib **baru** K2026 yang belum ditempuh mahasiswa transisi: `STB-501` membutuhkan `STI-312` Jaringan Komputer (MK baru), sedangkan `STA-701` membutuhkan `STI-624` yang berada pada semester yang sama sehingga perlu ditetapkan sebagai prasyarat lunak (concurrent) atau dihapus.
 
 ---
 
@@ -425,14 +425,14 @@ Kolom **Smt** pada Bagian 3 kini merujuk semester definitif Dokumen 005 (pola te
 | MKWU (8 MK) | 13 | **13** | 0 | — |
 | MK Wajib FSTI (13 MK) | 36 | **31** | 5 | `FST-204` (2), `FST-610` (3) |
 | MK Inti Core STI (28 MK) | 79 | **70** | 9 | `STI-103` (3), `STI-312` (3), `STI-519` (3) |
-| MK Elektif Peminatan P1 (6 MK) | 18 | **6** | 12 | `STA-03`, `STA-04`, `STA-05`, `STA-06` |
-| MK Elektif Peminatan P2 (6 MK) | 18 | **6** | 12 | `STB-02`, `STB-03`, `STB-05`, `STB-06` |
-| MK Elektif Peminatan P3 (6 MK) | 18 | **3** | 15 | `STC-01`, `STC-02`, `STC-03`, `STC-05`, `STC-06` |
+| MK Elektif Peminatan P1 (6 MK) | 18 | **6** | 12 | `STA-602`, `STA-701`, `STA-702`, `STA-703` |
+| MK Elektif Peminatan P2 (6 MK) | 18 | **6** | 12 | `STB-601`, `STB-602`, `STB-702`, `STB-703` |
+| MK Elektif Peminatan P3 (6 MK) | 18 | **3** | 15 | `STC-501`, `STC-601`, `STC-602`, `STC-702`, `STC-703` |
 | **TOTAL (jalur P1 atau P2)** | **146** | **120** | **26** | Setara **1 semester penuh** |
 | **TOTAL (jalur P3)** | **146** | **117** | **29** | Setara **1 semester penuh (21 SKS) + 8 SKS** |
 
 > [!NOTE]
-> **Rincian status pengakuan (jalur P1/P2):** Dari 114 SKS MK wajib yang diakui, **24 SKS berstatus bersyarat (E2)** dan mensyaratkan uji penyetaraan, yaitu `FST-203`, `STI-311`, `STI-417`, `STI-626`, `STI-523`, `STI-624`, `STI-627`, dan `STI-728`. Pada jalur P1 terdapat tambahan 3 SKS bersyarat (`STA-02`), sedangkan `FST-101` (2 SKS) bersyarat melalui skema E4.
+> **Rincian status pengakuan (jalur P1/P2):** Dari 114 SKS MK wajib yang diakui, **24 SKS berstatus bersyarat (E2)** dan mensyaratkan uji penyetaraan, yaitu `FST-203`, `STI-311`, `STI-417`, `STI-626`, `STI-523`, `STI-624`, `STI-627`, dan `STI-728`. Pada jalur P1 terdapat tambahan 3 SKS bersyarat (`STA-601`), sedangkan `FST-101` (2 SKS) bersyarat melalui skema E4.
 
 ### 7.1.1 NERACA SKS KURIKULUM 2025 SETELAH KONVERSI (146 SKS)
 
@@ -508,9 +508,9 @@ Format satu baris per pasangan konversi, siap diimpor ke tabel `mk_ekivalensi` S
 | `STI-314` | 3 | `STI-308` | 3 | E3/G-3 | C | Bersyarat |
 | `STI-635` | 3 | `STI-308` | 3 | E3/G-3 | C | Bersyarat |
 | `STI-315` | 2 | `FST-206` | 2 | E1 | C | Tidak |
-| `STI-316` | 2 | `STC-04` | 3 | E3/G-4 | C | Bersyarat |
-| `STI-531` | 2 | `STC-04` | 3 | E3/G-4 | C | Bersyarat |
-| `STI-317` | 2 | `STA-02` | 3 | E2 | C | **Ya** |
+| `STI-316` | 2 | `STC-701` | 3 | E3/G-4 | C | Bersyarat |
+| `STI-531` | 2 | `STC-701` | 3 | E3/G-4 | C | Bersyarat |
+| `STI-317` | 2 | `STA-601` | 3 | E2 | C | **Ya** |
 | `STI-418` | 2 | `STI-307` | 2 | E1 | C | Tidak |
 | `STI-419` | 3 | `STI-522` | 3 | E1 | C | Tidak |
 | `STI-420` | 2 | `STI-414` | 2 | E2 | C | **Ya** |
@@ -522,10 +522,10 @@ Format satu baris per pasangan konversi, siap diimpor ke tabel `mk_ekivalensi` S
 | `STI-526` | 3 | `STI-521` | 3 | E1 | C | Tidak |
 | `STI-527` | 2 | `STI-417` | 3 | E2 | C | **Ya** |
 | `STI-528` | 2 | `STI-414` | 2 | E1 | C | Tidak |
-| `STI-529` | 3 | `STB-01` | 3 | E1 | C | Tidak |
+| `STI-529` | 3 | `STB-501` | 3 | E1 | C | Tidak |
 | `STI-530` | 3 | `STI-415` | 3 | E1 | C | Tidak |
 | `STI-632` | 3 | `STI-309` | 3 | E1 | C | Tidak |
-| `STI-633` | 3 | `STA-01` | 3 | E1 | C | Tidak |
+| `STI-633` | 3 | `STA-501` | 3 | E1 | C | Tidak |
 | `STI-634` | 3 | `STI-626` | 3 | E2 | C | **Ya** |
 | `STI-636` | 3 | `STI-413` | 3 | E1 | C | Tidak |
 | `STI-637` | 3 | `STI-625` | 2 | E1 | C | Tidak |
@@ -533,7 +533,7 @@ Format satu baris per pasangan konversi, siap diimpor ke tabel `mk_ekivalensi` S
 | `STI-739` | 3 | `STI-627` | 3 | E2 | C | **Ya** |
 | `STI-741` | 3 | `STI-624` | 3 | E2 | C | **Ya** |
 | `STI-742` | 3 | `STI-728` | 3 | E2 | C | **Ya** |
-| `STI-743` | 3 | `STB-04` | 3 | E1 | C | Tidak |
+| `STI-743` | 3 | `STB-701` | 3 | E1 | C | Tidak |
 | `STI-844` | 2 | `FST-613` | 2 | E1 | C | Tidak |
 
 > [!NOTE]
@@ -552,16 +552,16 @@ Format satu baris per pasangan konversi, siap diimpor ke tabel `mk_ekivalensi` S
 > Konsekuensi: setiap mahasiswa kehilangan **5 SKS** dari 146 SKS lamanya akibat klaim ganda (2 SKS dari `STI-420` + 3 SKS dari `STI-422`), yang tercatat sebagai kredit bebas pada transkrip.
 
 > [!WARNING]
-> **Enam baris konversi bermuara ke MK elektif peminatan** (`STA-01`, `STA-02`, `STB-01`, `STB-04`, `STC-04`), sehingga **tidak dapat dikonversi otomatis** oleh SIAKAD. Baris-baris ini wajib diberi flag `butuh_peminatan = TRUE` dan hanya dieksekusi setelah mahasiswa menetapkan pilihan peminatan pada Semester 5.
+> **Enam baris konversi bermuara ke MK elektif peminatan** (`STA-501`, `STA-601`, `STB-501`, `STB-701`, `STC-701`), sehingga **tidak dapat dikonversi otomatis** oleh SIAKAD. Baris-baris ini wajib diberi flag `butuh_peminatan = TRUE` dan hanya dieksekusi setelah mahasiswa menetapkan pilihan peminatan pada Semester 5.
 
 | Kode Lama | SKS Lama | Kode Baru | SKS Baru | Smt Baru | Peminatan | Kat | Syarat Eksekusi |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|---|
-| `STI-633` | 3 | `STA-01` | 3 | 5 | **P1** | E1 | Hanya bila mahasiswa memilih P1 |
-| `STI-317` | 2 | `STA-02` | 3 | 6 | **P1** | E2 | Hanya bila memilih P1 + uji penyetaraan |
-| `STI-529` | 3 | `STB-01` | 3 | 5 | **P2** | E1 | Hanya bila mahasiswa memilih P2 |
-| `STI-743` | 3 | `STB-04` | 3 | 7 | **P2** | E1 | Hanya bila mahasiswa memilih P2 |
-| `STI-316` | 2 | `STC-04` | 3 | 7 | **P3** | E3/G-4 | Hanya bila memilih P3 (klaster G-4) |
-| `STI-531` | 2 | `STC-04` | 3 | 7 | **P3** | E3/G-4 | Hanya bila memilih P3 (klaster G-4) |
+| `STI-633` | 3 | `STA-501` | 3 | 5 | **P1** | E1 | Hanya bila mahasiswa memilih P1 |
+| `STI-317` | 2 | `STA-601` | 3 | 6 | **P1** | E2 | Hanya bila memilih P1 + uji penyetaraan |
+| `STI-529` | 3 | `STB-501` | 3 | 5 | **P2** | E1 | Hanya bila mahasiswa memilih P2 |
+| `STI-743` | 3 | `STB-701` | 3 | 7 | **P2** | E1 | Hanya bila mahasiswa memilih P2 |
+| `STI-316` | 2 | `STC-701` | 3 | 7 | **P3** | E3/G-4 | Hanya bila memilih P3 (klaster G-4) |
+| `STI-531` | 2 | `STC-701` | 3 | 7 | **P3** | E3/G-4 | Hanya bila memilih P3 (klaster G-4) |
 
 ---
 

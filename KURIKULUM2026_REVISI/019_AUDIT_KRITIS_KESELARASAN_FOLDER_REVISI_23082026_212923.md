@@ -374,24 +374,24 @@ Namun hanya **34 dari 65 MK** yang benar-benar memiliki 4 CPMK. Pada **31 MK (47
 
 | No | Kode | Baris di 007 | No | Kode | Baris di 007 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | `FST-101` | 65 | 15 | `STA-01` | 2066 |
-| 2 | `STI-101` | 150 | 16 | `STA-04` | 2194 |
-| 3 | `MKU-103` | 360 | 17 | `STB-01` | 2322 |
-| 4 | `FST-204` | 531 | 18 | `STB-02` | 2364 |
-| 5 | `FST-206` | 616 | 19 | `STB-03` | 2406 |
-| 6 | `MKU-204` | 701 | 20 | `STB-04` | 2448 |
-| 7 | `STI-307` | 786 | 21 | `STB-05` | 2490 |
-| 8 | `STI-310` | 914 | 22 | `STB-06` | 2532 |
-| 9 | `STI-418` | 1214 | 23 | `STC-01` | 2574 |
-| 10 | `MKU-507` | 1598 | 24 | `STC-02` | 2616 |
-| 11 | `STI-626` | 1726 | 25 | `STC-03` | 2658 |
-| 12 | `FST-611` | 1811 | 26 | `STC-04` | 2700 |
-| 13 | `FST-612` | 1939 | 27 | `STC-05` | 2742 |
-| 14 | `FST-613` | 1981 | 28 | `STC-06` | 2784 |
+| 1 | `FST-101` | 65 | 15 | `STA-501` | 2066 |
+| 2 | `STI-101` | 150 | 16 | `STA-701` | 2194 |
+| 3 | `MKU-103` | 360 | 17 | `STB-501` | 2322 |
+| 4 | `FST-204` | 531 | 18 | `STB-601` | 2364 |
+| 5 | `FST-206` | 616 | 19 | `STB-602` | 2406 |
+| 6 | `MKU-204` | 701 | 20 | `STB-701` | 2448 |
+| 7 | `STI-307` | 786 | 21 | `STB-702` | 2490 |
+| 8 | `STI-310` | 914 | 22 | `STB-703` | 2532 |
+| 9 | `STI-418` | 1214 | 23 | `STC-501` | 2574 |
+| 10 | `MKU-507` | 1598 | 24 | `STC-601` | 2616 |
+| 11 | `STI-626` | 1726 | 25 | `STC-602` | 2658 |
+| 12 | `FST-611` | 1811 | 26 | `STC-701` | 2700 |
+| 13 | `FST-612` | 1939 | 27 | `STC-702` | 2742 |
+| 14 | `FST-613` | 1981 | 28 | `STC-703` | 2784 |
 
 ### Pola Temuan yang Perlu Diperhatikan
 
-**Seluruh 6 MK peminatan P2 (`STB-01` s.d. `STB-06`) dan seluruh 6 MK peminatan P3 (`STC-01` s.d. `STC-06`) hanya memiliki 3 CPMK**, sementara peminatan P1 (`STA`) memiliki 4 CPMK pada 4 dari 6 MK-nya.
+**Seluruh 6 MK peminatan P2 (`STB-501` s.d. `STB-703`) dan seluruh 6 MK peminatan P3 (`STC-501` s.d. `STC-703`) hanya memiliki 3 CPMK**, sementara peminatan P1 (`STA`) memiliki 4 CPMK pada 4 dari 6 MK-nya.
 
 Ini menciptakan **ketidaksetaraan kedalaman asesmen antar peminatan**, padahal `AGENTS.md` menegaskan ketiga peminatan harus "seimbang" (masing-masing 6 MK / 18 SKS). Kesetaraan SKS terpenuhi, tetapi kesetaraan granularitas CPMK tidak.
 
@@ -749,7 +749,7 @@ Untuk memastikan angka 67 memang benar sebagai ground truth:
 
 ```
 MK non-elektif berkode di struktur (termasuk MKU-406 & MKU-508) = 49 MK
-MK elektif ditawarkan (STA-01..06, STB-01..06, STC-01..06)      = 18 MK
+MK elektif ditawarkan (STA-501..703, STB-501..703, STC-501..703)      = 18 MK
                                                           Total = 67 MK ✅
 
 Silabus aktual: 47 MK non-elektif + 18 MK elektif               = 65 MK
@@ -1021,9 +1021,9 @@ Pemakaian ranah afektif `A3` pada MKWU dapat dipertahankan. Yang perlu dikoreksi
 
 | Jenis | Detail | Volume |
 |---|---|:---:|
-| Perbedaan kosmetik `007` vs `005` | `&` vs `and`, tanda kurung, urutan akronim: `MKU-507`, `STA-02/05/06`, `STB-01/04/05/06`, `STC-01` | 9 MK |
-| Nama Inggris ditulis dua kali di heading | Contoh `007:2448`: `### 57. STB-04 — IT Governance & Compliance (COBIT 2019) (IT Governance & Compliance (COBIT 2019))` | 10 MK peminatan |
-| Perlu dicermati | `STC-06`: `007` "Digital Product Management **& Agile Practices**" vs `005` "Digital Product Management" (narasi `005` memang menyebut Agile, jadi ini pemendekan di `005`) | 1 MK |
+| Perbedaan kosmetik `007` vs `005` | `&` vs `and`, tanda kurung, urutan akronim: `MKU-507`, `STA-601/05/06`, `STB-501/04/05/06`, `STC-501` | 9 MK |
+| Nama Inggris ditulis dua kali di heading | Contoh `007:2448`: `### 57. STB-701 — IT Governance & Compliance (COBIT 2019) (IT Governance & Compliance (COBIT 2019))` | 10 MK peminatan |
+| Perlu dicermati | `STC-703`: `007` "Digital Product Management **& Agile Practices**" vs `005` "Digital Product Management" (narasi `005` memang menyebut Agile, jadi ini pemendekan di `005`) | 1 MK |
 
 ### P2-6g. Artefak Sementara di Folder
 

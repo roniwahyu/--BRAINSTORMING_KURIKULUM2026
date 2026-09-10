@@ -2063,12 +2063,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 48. STA-01 — Decision Support Systems (Decision Support Systems)
+### 48. STA-501 — Decision Support Systems (Decision Support Systems)
 
 #### Tabel 48.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STA-01 — Decision Support Systems** (*Decision Support Systems*) |
+| **Kode & Nama Mata Kuliah** | **STA-501 — Decision Support Systems** (*Decision Support Systems*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 5** / Peminatan 1: Integrated Smart Systems |
 | **Prasyarat Akademik** | `STI-307` Sistem Cerdas |
@@ -2105,12 +2105,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 49. STA-02 — Computational Methods and Numerics (Computational Methods and Numerics)
+### 49. STA-601 — Computational Methods and Numerics (Computational Methods and Numerics)
 
 #### Tabel 49.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STA-02 — Computational Methods and Numerics** (*Computational Methods and Numerics*) |
+| **Kode & Nama Mata Kuliah** | **STA-601 — Computational Methods and Numerics** (*Computational Methods and Numerics*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Peminatan 1: Integrated Smart Systems |
 | **Prasyarat Akademik** | `STI-102` Kalkulus & `STI-205` Aljabar Linear |
@@ -2148,12 +2148,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 50. STA-03 — Intelligent Agent Systems (Intelligent Agent Systems)
+### 50. STA-602 — Intelligent Agent Systems (Intelligent Agent Systems)
 
 #### Tabel 50.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STA-03 — Intelligent Agent Systems** (*Intelligent Agent Systems*) |
+| **Kode & Nama Mata Kuliah** | **STA-602 — Intelligent Agent Systems** (*Intelligent Agent Systems*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Peminatan 1: Integrated Smart Systems |
 | **Prasyarat Akademik** | `STI-307` Sistem Cerdas |
@@ -2191,12 +2191,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 51. STA-04 — MLOps and AI Pipeline (MLOps and AI Pipeline)
+### 51. STA-701 — MLOps and AI Pipeline (MLOps and AI Pipeline)
 
 #### Tabel 51.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STA-04 — MLOps and AI Pipeline** (*MLOps and AI Pipeline*) |
+| **Kode & Nama Mata Kuliah** | **STA-701 — MLOps and AI Pipeline** (*MLOps and AI Pipeline*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 1: Integrated Smart Systems |
 | **Prasyarat Akademik** | `STI-413` Machine Learning & `STI-624` Integrasi AI |
@@ -2233,12 +2233,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 52. STA-05 — Conversational AI and Intelligent Assistant (Conversational AI & Intelligent Assistant)
+### 52. STA-702 — Conversational AI and Intelligent Assistant (Conversational AI & Intelligent Assistant)
 
 #### Tabel 52.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STA-05 — Conversational AI and Intelligent Assistant** (*Conversational AI & Intelligent Assistant*) |
+| **Kode & Nama Mata Kuliah** | **STA-702 — Conversational AI and Intelligent Assistant** (*Conversational AI & Intelligent Assistant*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 1: Integrated Smart Systems |
 | **Prasyarat Akademik** | `STI-413` Machine Learning & `STI-416` Web Back End Development |
@@ -2276,12 +2276,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 53. STA-06 — Smart Surveillance and IoT Analytics (Smart Surveillance and IoT Analytics)
+### 53. STA-703 — Smart Surveillance and IoT Analytics (Smart Surveillance and IoT Analytics)
 
 #### Tabel 53.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STA-06 — Smart Surveillance and IoT Analytics** (*Smart Surveillance and IoT Analytics*) |
+| **Kode & Nama Mata Kuliah** | **STA-703 — Smart Surveillance and IoT Analytics** (*Smart Surveillance and IoT Analytics*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 1: Integrated Smart Systems |
 | **Prasyarat Akademik** | `STI-626` Deep Learning & `STI-521` IoT |
@@ -2319,12 +2319,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 54. STB-01 — Network Security and Digital Forensics (Network Security and Digital Forensics)
+### 54. STB-501 — Network Security and Digital Forensics (Network Security and Digital Forensics)
 
 #### Tabel 54.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STB-01 — Network Security and Digital Forensics** (*Network Security and Digital Forensics*) |
+| **Kode & Nama Mata Kuliah** | **STB-501 — Network Security and Digital Forensics** (*Network Security and Digital Forensics*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 5** / Peminatan 2: Cloud Infrastructure & Cybersecurity |
 | **Prasyarat Akademik** | `STI-312` Jaringan Komputer & `STI-418` Keamanan |
@@ -2361,12 +2361,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 55. STB-02 — Cloud Architecture & DevOps (Cloud Architecture & DevOps)
+### 55. STB-601 — Cloud Architecture & DevOps (Cloud Architecture & DevOps)
 
 #### Tabel 55.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STB-02 — Cloud Architecture & DevOps** (*Cloud Architecture & DevOps*) |
+| **Kode & Nama Mata Kuliah** | **STB-601 — Cloud Architecture & DevOps** (*Cloud Architecture & DevOps*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Peminatan 2: Cloud Infrastructure & Cybersecurity |
 | **Prasyarat Akademik** | `STI-417` Komputasi Awan (Cloud Computing) |
@@ -2403,12 +2403,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 56. STB-03 — Cybersecurity Risk Management (Cybersecurity Risk Management)
+### 56. STB-602 — Cybersecurity Risk Management (Cybersecurity Risk Management)
 
 #### Tabel 56.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STB-03 — Cybersecurity Risk Management** (*Cybersecurity Risk Management*) |
+| **Kode & Nama Mata Kuliah** | **STB-602 — Cybersecurity Risk Management** (*Cybersecurity Risk Management*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Peminatan 2: Cloud Infrastructure & Cybersecurity |
 | **Prasyarat Akademik** | `STI-418` Dasar Keamanan Informasi |
@@ -2445,12 +2445,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 57. STB-04 — IT Governance & Compliance (COBIT 2019) (IT Governance & Compliance (COBIT 2019))
+### 57. STB-701 — IT Governance & Compliance (COBIT 2019) (IT Governance & Compliance (COBIT 2019))
 
 #### Tabel 57.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STB-04 — IT Governance & Compliance (COBIT 2019)** (*IT Governance & Compliance (COBIT 2019)*) |
+| **Kode & Nama Mata Kuliah** | **STB-701 — IT Governance & Compliance (COBIT 2019)** (*IT Governance & Compliance (COBIT 2019)*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 2: Cloud Infrastructure & Cybersecurity |
 | **Prasyarat Akademik** | `STI-101` Pengantar Sistem & TI |
@@ -2487,12 +2487,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 58. STB-05 — IT Service Management (ITIL 4) (IT Service Management (ITIL 4))
+### 58. STB-702 — IT Service Management (ITIL 4) (IT Service Management (ITIL 4))
 
 #### Tabel 58.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STB-05 — IT Service Management (ITIL 4)** (*IT Service Management (ITIL 4)*) |
+| **Kode & Nama Mata Kuliah** | **STB-702 — IT Service Management (ITIL 4)** (*IT Service Management (ITIL 4)*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 2: Cloud Infrastructure & Cybersecurity |
 | **Prasyarat Akademik** | `STI-101` Pengantar Sistem & TI |
@@ -2529,12 +2529,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 59. STB-06 — Enterprise Architecture (TOGAF) (Enterprise Architecture (TOGAF))
+### 59. STB-703 — Enterprise Architecture (TOGAF) (Enterprise Architecture (TOGAF))
 
 #### Tabel 59.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STB-06 — Enterprise Architecture (TOGAF)** (*Enterprise Architecture (TOGAF)*) |
+| **Kode & Nama Mata Kuliah** | **STB-703 — Enterprise Architecture (TOGAF)** (*Enterprise Architecture (TOGAF)*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 2: Cloud Infrastructure & Cybersecurity |
 | **Prasyarat Akademik** | `STI-306` Analisis & Perancangan SI |
@@ -2571,12 +2571,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 60. STC-01 — User Experience Research & Design (User Experience Research & Design)
+### 60. STC-501 — User Experience Research & Design (User Experience Research & Design)
 
 #### Tabel 60.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STC-01 — User Experience Research & Design** (*User Experience Research & Design*) |
+| **Kode & Nama Mata Kuliah** | **STC-501 — User Experience Research & Design** (*User Experience Research & Design*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 5** / Peminatan 3: Digital Platform Engineering |
 | **Prasyarat Akademik** | `STI-308` UI/UX Design & Prototyping |
@@ -2613,12 +2613,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 61. STC-02 — Rekayasa & Otomasi Proses Bisnis (BPA) (Business Process Automation)
+### 61. STC-601 — Rekayasa & Otomasi Proses Bisnis (BPA) (Business Process Automation)
 
 #### Tabel 61.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STC-02 — Rekayasa & Otomasi Proses Bisnis (BPA)** (*Business Process Automation*) |
+| **Kode & Nama Mata Kuliah** | **STC-601 — Rekayasa & Otomasi Proses Bisnis (BPA)** (*Business Process Automation*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Peminatan 3: Digital Platform Engineering |
 | **Prasyarat Akademik** | `STI-306` Analisis & Perancangan SI |
@@ -2655,12 +2655,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 62. STC-03 — Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech) (Vertical Industry Application Engineering)
+### 62. STC-602 — Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech) (Vertical Industry Application Engineering)
 
 #### Tabel 62.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STC-03 — Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech)** (*Vertical Industry Application Engineering*) |
+| **Kode & Nama Mata Kuliah** | **STC-602 — Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech)** (*Vertical Industry Application Engineering*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Peminatan 3: Digital Platform Engineering |
 | **Prasyarat Akademik** | `STI-416` Web Back End Development |
@@ -2697,12 +2697,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 63. STC-04 — Immersive Media & XR Development (Immersive Media & XR Development)
+### 63. STC-701 — Immersive Media & XR Development (Immersive Media & XR Development)
 
 #### Tabel 63.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STC-04 — Immersive Media & XR Development** (*Immersive Media & XR Development*) |
+| **Kode & Nama Mata Kuliah** | **STC-701 — Immersive Media & XR Development** (*Immersive Media & XR Development*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 3: Digital Platform Engineering |
 | **Prasyarat Akademik** | `STI-311` Web Front End Development |
@@ -2739,12 +2739,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 64. STC-05 — SaaS Architecture & Multi-Tenancy (SaaS Architecture & Multi-Tenancy)
+### 64. STC-702 — SaaS Architecture & Multi-Tenancy (SaaS Architecture & Multi-Tenancy)
 
 #### Tabel 64.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STC-05 — SaaS Architecture & Multi-Tenancy** (*SaaS Architecture & Multi-Tenancy*) |
+| **Kode & Nama Mata Kuliah** | **STC-702 — SaaS Architecture & Multi-Tenancy** (*SaaS Architecture & Multi-Tenancy*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 3: Digital Platform Engineering |
 | **Prasyarat Akademik** | `STI-416` Web Back End Development |
@@ -2781,12 +2781,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 65. STC-06 — Digital Product Management & Agile Practices (Digital Product Management & Agile)
+### 65. STC-703 — Digital Product Management & Agile Practices (Digital Product Management & Agile)
 
 #### Tabel 65.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STC-06 — Digital Product Management & Agile Practices** (*Digital Product Management & Agile*) |
+| **Kode & Nama Mata Kuliah** | **STC-703 — Digital Product Management & Agile Practices** (*Digital Product Management & Agile*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 3: Digital Platform Engineering |
 | **Prasyarat Akademik** | `STI-523` Manajemen Proyek TI |

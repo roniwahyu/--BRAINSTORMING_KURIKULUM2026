@@ -95,7 +95,7 @@ def muat_k2026():
             k26[kode] = dict(nama=nama.strip(), sks=int(sks), tipe=tipe.strip(),
                              kelompok=kat.strip(), sem=s)
     for m in re.finditer(
-        r"\*\*Kode & Nama Mata Kuliah\*\* \| \*\*(ST[ABC]-\d\d) — ([^*]+?)\*\*.*?"
+        r"\*\*Kode & Nama Mata Kuliah\*\* \| \*\*(ST[ABC]-\d{2,3}) — ([^*]+?)\*\*.*?"
         r"\n\| \*\*Bobot SKS / Tipe\*\* \| \*\*(\d+) SKS\*\* / Tipe: \*\*([^*]+)\*\*.*?"
         r"\n\| \*\*Semester / Rumpun MK\*\* \| \*\*Semester (\d)\*\* / (Peminatan \d[^|]*?) \|"
         r"\n\| \*\*Prasyarat Akademik\*\* \| ([^|]+?) \|", d007, re.S,

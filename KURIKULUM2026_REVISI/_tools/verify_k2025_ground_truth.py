@@ -210,11 +210,11 @@ def main():
     print("\n[8] SEMESTER MK ELEKTIF PEMINATAN vs DOKUMEN 005")
     definitif = {
         c: int(s)
-        for c, s in re.findall(r"`(ST[ABC]-\d\d)`[^<|]*?\((?:\+P|Teori), Sem (\d)\)", d005)
+        for c, s in re.findall(r"`(ST[ABC]-\d{2,3})`[^<|]*?\((?:\+P|Teori), Sem (\d)\)", d005)
     }
     beda_sem = []
     for m in re.finditer(
-        r"^\| \d+ \| `([A-Z]{3}-\d{3})` \|[^|]*\|[^|]*\| `(ST[ABC]-\d\d)` \|[^|]*\|[^|]*\| ([^|]+?) \|",
+        r"^\| \d+ \| `([A-Z]{3}-\d{3})` \|[^|]*\|[^|]*\| `(ST[ABC]-\d{2,3})` \|[^|]*\|[^|]*\| ([^|]+?) \|",
         doc, re.M,
     ):
         lama, baru, smt = m.group(1), m.group(2), m.group(3).strip()
@@ -276,7 +276,7 @@ def main():
     print("\n[10] KELENGKAPAN REKOGNISI PORTOFOLIO 67 MK")
     elektif = {
         c: int(s)
-        for c, s in re.findall(r"`(ST[ABC]-\d\d)`[^<|]*?\((?:\+P|Teori), Sem (\d)\)", d005)
+        for c, s in re.findall(r"`(ST[ABC]-\d{2,3})`[^<|]*?\((?:\+P|Teori), Sem (\d)\)", d005)
     }
     portofolio = set(paket) | set(elektif)
     punya = {c for c in portofolio if c in berasal}

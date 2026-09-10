@@ -105,19 +105,19 @@ graph TD
 ```text
 [SEM 8]  FST-714 Skripsi / Tugas Akhir (Topik AI / Data Science / Intelligent Systems)
    │
-[SEM 7]  ├── STA-04 MLOps & AI Model Deployment (+P) ─────────┐
-         ├── STA-05 Natural Language Processing & LLM (+P) ────┤
-         ├── STA-06 Smart Surveillance & Vision Analytics ─────┤
+[SEM 7]  ├── STA-701 MLOps & AI Model Deployment (+P) ─────────┐
+         ├── STA-702 Natural Language Processing & LLM (+P) ────┤
+         ├── STA-703 Smart Surveillance & Vision Analytics ─────┤
          │                                                     │
 [SEM 6]  ├── STI-624 Integrasi Layanan Cerdas AI (+P) ─────────┤
-         ├── STA-03 Sistem Agen Cerdas & Multi-Agent (+P) ─────┤
-         ├── STA-02 Metode Komputasi Numerik Terapan (+P) ─────┤
+         ├── STA-602 Sistem Agen Cerdas & Multi-Agent (+P) ─────┤
+         ├── STA-601 Metode Komputasi Numerik Terapan (+P) ─────┤
          │                                                     │
 [SEM 6]  ├── STI-626 Deep Learning & Neural Networks (+P) ─────┴── STI-413 Machine Learning (+P) [SEM 4]
          │                                                           │
          ├── STI-520 Data Mining & Visualisasi Data (+P) ────────────┼── STI-415 Data Warehouse & BI [SEM 4]
          │                                                           │
-         ├── STA-01 Decision Support Systems (+P) ───────────────────┼── STI-414 Pengantar NLP & IR [SEM 4]
+         ├── STA-501 Decision Support Systems (+P) ───────────────────┼── STI-414 Pengantar NLP & IR [SEM 4]
          │                                                           │     │
 [SEM 4]  └── STI-413 Machine Learning (+P) ──────────────────────────┴─────┼── STI-307 Sistem Cerdas [SEM 3]
                │                                                           │     │
@@ -130,9 +130,9 @@ graph TD
 ```
 
 #### 🔍 Analisis Kritis & Justifikasi Pedagogis Pilar 1:
-1. **Peran Kunci `STI-414 Pengantar NLP & IR` (Sem 4):** Menjadi jembatan esensial untuk `STA-05 Conversational AI` (Sem 7) yang berbasis LLM/RAG. Tanpa fondasi tokenisasi, TF-IDF, vector space model, dan embedding di Sem 4, pemahaman generative AI di Sem 7 akan bersifat superficial.
+1. **Peran Kunci `STI-414 Pengantar NLP & IR` (Sem 4):** Menjadi jembatan esensial untuk `STA-702 Conversational AI` (Sem 7) yang berbasis LLM/RAG. Tanpa fondasi tokenisasi, TF-IDF, vector space model, dan embedding di Sem 4, pemahaman generative AI di Sem 7 akan bersifat superficial.
 2. **Keterpaduan Deep Learning & Machine Learning:** `STI-413 Machine Learning` (Sem 4) mengajarkan *classical tabular & loss minimization*, yang menjadi landasan wajib bagi `STI-626 Deep Learning` (Sem 6) yang memperdalam *backpropagation, CNN, RNN/LSTM, dan Attention Mechanism*.
-3. **MLOps sebagai Muara Rekayasa:** `STA-04 MLOps` (Sem 7) mensintesis model machine learning dengan containerization dan pipeline deployment (menghubungkan pilar AI dengan pilar Cloud/DevOps).
+3. **MLOps sebagai Muara Rekayasa:** `STA-701 MLOps` (Sem 7) mensintesis model machine learning dengan containerization dan pipeline deployment (menghubungkan pilar AI dengan pilar Cloud/DevOps).
 
 ---
 
@@ -141,16 +141,16 @@ graph TD
 ```text
 [SEM 8]  FST-714 Skripsi / Tugas Akhir (Topik Cloud Native & Cyber Resilience)
    │
-[SEM 7]  ├── STB-04 IT Governance & Compliance COBIT 2019 ────┐
-         ├── STB-05 Keamanan Cloud & Kriptografi Terapan ──────┤
-         ├── STB-06 Rekayasa Ketahanan Sistem & SRE (+P) ──────┤
+[SEM 7]  ├── STB-701 IT Governance & Compliance COBIT 2019 ────┐
+         ├── STB-702 Keamanan Cloud & Kriptografi Terapan ──────┤
+         ├── STB-703 Rekayasa Ketahanan Sistem & SRE (+P) ──────┤
          │                                                     │
-[SEM 6]  ├── STB-02 Cloud Architecture & DevOps (+P) ──────────┼── STI-417 Komputasi Awan (Cloud) [SEM 4]
-         ├── STB-03 Penetration Testing & Red Teaming (+P) ────┤     │
+[SEM 6]  ├── STB-601 Cloud Architecture & DevOps (+P) ──────────┼── STI-417 Komputasi Awan (Cloud) [SEM 4]
+         ├── STB-602 Penetration Testing & Red Teaming (+P) ────┤     │
          ├── STI-519 Keamanan Informasi Lanjut ────────────────┤     │
          │                                                     │     │
 [SEM 5]  ├── STI-521 Internet of Things (IoT) (+P) ────────────┼── STI-312 Jaringan Komputer [SEM 3]
-         ├── STB-01 Keamanan Jaringan & Forensik Digital ──────┤     │
+         ├── STB-501 Keamanan Jaringan & Forensik Digital ──────┤     │
          │                                                     │     │
 [SEM 4]  ├── STI-417 Komputasi Awan (Cloud Computing) ─────────┴─────┼── STI-310 Sistem Operasi [SEM 3]
          └── STI-418 Dasar Keamanan Informasi ───────────────────────┘     │
@@ -167,9 +167,9 @@ graph TD
 2. **Kematangan Bertahap Cyber Defense:** 
    * Sem 2: Regulasi & UU ITE (`FST-206`)
    * Sem 4: CIA Triad, Kripto Klasik, Risk (`STI-418`)
-   * Sem 5: Wireshark, Packet Inspection, Autopsy (`STB-01`)
-   * Sem 5: Keamanan Lanjut (`STI-519`), Sem 6: Ethical Hacking (`STB-03`)
-   * Sem 7: Zero-Trust Cloud & GRC Enterprise (`STB-04` & `STB-05`).
+   * Sem 5: Wireshark, Packet Inspection, Autopsy (`STB-501`)
+   * Sem 5: Keamanan Lanjut (`STI-519`), Sem 6: Ethical Hacking (`STB-602`)
+   * Sem 7: Zero-Trust Cloud & GRC Enterprise (`STB-701` & `STB-702`).
 
 ---
 
@@ -178,16 +178,16 @@ graph TD
 ```text
 [SEM 8]  FST-714 Skripsi / Tugas Akhir (Topik Enterprise Digital Platform & SaaS)
    │
-[SEM 7]  ├── STC-04 Spatial Computing & XR Development (+P) ──┐
-         ├── STC-05 Arsitektur SaaS & Multi-Tenancy (+P) ──────┤
-         ├── STC-06 Manajemen Produk Digital & Growth ─────────┤
+[SEM 7]  ├── STC-701 Spatial Computing & XR Development (+P) ──┐
+         ├── STC-702 Arsitektur SaaS & Multi-Tenancy (+P) ──────┤
+         ├── STC-703 Manajemen Produk Digital & Growth ─────────┤
          │                                                     │
 [SEM 6]  ├── STI-627 Digital Platform Engineering (+P) ────────┼── STI-416 Web Back End Development [SEM 4]
-         ├── STC-02 Rekayasa & Otomasi Proses Bisnis BPMN ─────┤     │
-         ├── STC-03 Pengembangan Aplikasi Vertikal Industri ───┤     │
+         ├── STC-601 Rekayasa & Otomasi Proses Bisnis BPMN ─────┤     │
+         ├── STC-602 Pengembangan Aplikasi Vertikal Industri ───┤     │
          │                                                     │     │
 [SEM 5]  ├── STI-522 Pemrograman Aplikasi Mobile (+P) ─────────┼── STI-311 Web Front End Development [SEM 3]
-         ├── STC-01 Advanced UX Research & Design System ──────┤     │
+         ├── STC-501 Advanced UX Research & Design System ──────┤     │
          │                                                     │     │
 [SEM 4]  └── STI-416 Web Back End Development (+P) ────────────┴─────┼── STI-309 Rekayasa Perangkat Lunak [SEM 3]
                │                                                     │     │
@@ -205,7 +205,7 @@ graph TD
    * `STI-311 Web Front-End` di Semester 3 (HTML/CSS/JS, React/Vue, Component Lifecycle)
    * `STI-416 Web Back-End` di Semester 4 (NodeJS/FastAPI, RESTful/GraphQL, ORM, Auth JWT)
    * Terintegrasi menjadi `STI-522 Mobile App` di Sem 5 dan `STI-627 Platform Engineering` di Sem 6.
-2. **SaaS Architecture sebagai Puncak:** `STC-05 SaaS Architecture` (Sem 7) mengajarkan multi-tenancy database, rate limiting, billing API, dan microservices scaling yang membutuhkan kematangan penuh dari Sem 1 hingga Sem 6.
+2. **SaaS Architecture sebagai Puncak:** `STC-702 SaaS Architecture` (Sem 7) mengajarkan multi-tenancy database, rate limiting, billing API, dan microservices scaling yang membutuhkan kematangan penuh dari Sem 1 hingga Sem 6.
 
 ---
 
@@ -236,38 +236,38 @@ Tabel berikut membuktikan bahwa **100% mata kuliah pilihan dan wajib di Semester
 
 | Smt | Kode MK | Nama Mata Kuliah | SKS | Tipe | Prasyarat Wajib Formal | Mata Kuliah Fondasi Penopang | Status Jalur |
 |:---:|:---:|---|:---:|:---:|---|---|:---:|
-| **5** | `STI-519` | Keamanan Informasi Lanjut | 3 | Teori | `STI-418` Dasar Keamanan | `STI-312` Jarkom, `STB-01` NetSec | 🟢 **Sangat Kuat** |
+| **5** | `STI-519` | Keamanan Informasi Lanjut | 3 | Teori | `STI-418` Dasar Keamanan | `STI-312` Jarkom, `STB-501` NetSec | 🟢 **Sangat Kuat** |
 | **5** | `STI-520` | Data Mining & Visualisasi Data | 3 | +P | `STI-413` ML, `STI-415` DW/BI | `FST-207` Basis Data, `STI-204` Matdis | 🟢 **Sangat Kuat** |
 | **5** | `STI-521` | Internet of Things (IoT) | 3 | +P | `STI-312` Jarkom, `STI-310` OS | `STI-101` Dasar Koding, `FST-101` Digital | 🟢 **Sangat Kuat** |
 | **5** | `STI-522` | Pemrograman Aplikasi Mobile | 3 | +P | `STI-311` Front, `STI-416` Back | `STI-308` UI/UX Design & Prototyping | 🟢 **Sangat Kuat** |
 | **5** | `STI-523` | Manajemen Proyek TI | 3 | Teori | `STI-306` APSI, `STI-309` RPL | `MKU-204` Kewirausahaan I | 🟢 **Sangat Kuat** |
-| **5** | `STA-01` | Decision Support Systems *(P1)* | 3 | +P | `STI-413` Machine Learning | `FST-207` Basis Data, `STI-307` AI | 🟢 **Sangat Kuat** |
-| **5** | `STB-01` | Network Security & Forensics *(P2)*| 3 | +P | `STI-312` Jarkom, `STI-418` Security | `STI-310` Sistem Operasi | 🟢 **Sangat Kuat** |
-| **5** | `STC-01` | Advanced UX & Design System *(P3)* | 3 | +P | `STI-308` UI/UX Design | `STI-311` Web Front-End | 🟢 **Sangat Kuat** |
+| **5** | `STA-501` | Decision Support Systems *(P1)* | 3 | +P | `STI-413` Machine Learning | `FST-207` Basis Data, `STI-307` AI | 🟢 **Sangat Kuat** |
+| **5** | `STB-501` | Network Security & Forensics *(P2)*| 3 | +P | `STI-312` Jarkom, `STI-418` Security | `STI-310` Sistem Operasi | 🟢 **Sangat Kuat** |
+| **5** | `STC-501` | Advanced UX & Design System *(P3)* | 3 | +P | `STI-308` UI/UX Design | `STI-311` Web Front-End | 🟢 **Sangat Kuat** |
 | **6** | `STI-624` | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | `STI-413` ML, `STI-416` Back End | `STI-414` NLP & IR, `STI-307` Cerdas | 🟢 **Sangat Kuat** |
 | **6** | `STI-625` | Smart City & Pemerintahan Digital | 2 | Teori | `STI-521` IoT | `STI-306` APSI, `STI-417` Cloud | 🟢 **Sangat Kuat** |
 | **6** | `STI-626` | Deep Learning & Neural Networks | 3 | +P | `STI-413` Machine Learning | `STI-205` Aljabar Linear, `FST-408` Probstat | 🟢 **Sangat Kuat** |
 | **6** | `STI-627` | Digital Platform Engineering | 3 | +P | `STI-416` Web Back End | `STI-417` Cloud, `STI-309` RPL | 🟢 **Sangat Kuat** |
 | **6** | `FST-611` | Metodologi Penelitian | 2 | Teori | $\ge 76\text{ SKS}$ Selesai | `FST-408` Probabilitas & Statistika | 🟢 **Sangat Kuat** |
-| **6** | `STA-02` | Computational Numerics *(P1)* | 3 | +P | `STI-205` Aljabar, `STI-102` Kalkulus | `FST-408` Probabilitas & Statistika | 🟢 **Sangat Kuat** |
-| **6** | `STA-03` | Intelligent Agent Systems *(P1)* | 3 | +P | `STI-307` AI, `STI-413` ML | `STI-204` Matdis (Graph & Logic) | 🟢 **Sangat Kuat** |
-| **6** | `STB-02` | Cloud Architecture & DevOps *(P2)* | 3 | +P | `STI-417` Cloud Computing | `STI-310` OS, `STI-416` Web Back End | 🟢 **Sangat Kuat** |
-| **6** | `STB-03` | Penetration Testing *(P2)* | 3 | +P | `STI-418` Dasar Keamanan | `STI-312` Jarkom, `STB-01` NetSec | 🟢 **Sangat Kuat** |
-| **6** | `STC-02` | Otomasi Proses Bisnis BPMN *(P3)* | 3 | +P | `STI-306` APSI | `STI-309` Rekayasa Perangkat Lunak | 🟢 **Sangat Kuat** |
-| **6** | `STC-03` | Aplikasi Vertikal Industri *(P3)* | 3 | +P | `STI-416` Back End, `STI-311` Front | `STI-522` Pemrograman Mobile | 🟢 **Sangat Kuat** |
+| **6** | `STA-601` | Computational Numerics *(P1)* | 3 | +P | `STI-205` Aljabar, `STI-102` Kalkulus | `FST-408` Probabilitas & Statistika | 🟢 **Sangat Kuat** |
+| **6** | `STA-602` | Intelligent Agent Systems *(P1)* | 3 | +P | `STI-307` AI, `STI-413` ML | `STI-204` Matdis (Graph & Logic) | 🟢 **Sangat Kuat** |
+| **6** | `STB-601` | Cloud Architecture & DevOps *(P2)* | 3 | +P | `STI-417` Cloud Computing | `STI-310` OS, `STI-416` Web Back End | 🟢 **Sangat Kuat** |
+| **6** | `STB-602` | Penetration Testing *(P2)* | 3 | +P | `STI-418` Dasar Keamanan | `STI-312` Jarkom, `STB-501` NetSec | 🟢 **Sangat Kuat** |
+| **6** | `STC-601` | Otomasi Proses Bisnis BPMN *(P3)* | 3 | +P | `STI-306` APSI | `STI-309` Rekayasa Perangkat Lunak | 🟢 **Sangat Kuat** |
+| **6** | `STC-602` | Aplikasi Vertikal Industri *(P3)* | 3 | +P | `STI-416` Back End, `STI-311` Front | `STI-522` Pemrograman Mobile | 🟢 **Sangat Kuat** |
 | **7** | `STI-728` | Inovasi Teknologi & Startup Digital | 3 | +P | `STI-627` Platform, `MKU-204` KWU | `STI-523` Manajemen Proyek TI | 🟢 **Sangat Kuat** |
 | **7** | `FST-610` | Capstone Project FSTI | 3 | Proyek | `STI-523` Manpro, $\ge 100\text{ SKS}$ | Seluruh MK Core STI Sem 1–6 | 🟢 **Sangat Kuat** |
 | **7** | `FST-612` | Praktik Kerja Lapangan (PKL) | 3 | Magang | $\ge 100\text{ SKS}$ Selesai | Portofolio Praktikum Sem 1–6 | 🟢 **Sangat Kuat** |
 | **7** | `FST-613` | Pra-Skripsi / Seminar Proposal | 2 | Seminar | `FST-611` Metpen, $\ge 100\text{ SKS}$ | Proposal Penelitian & Literatur Ilmiah | 🟢 **Sangat Kuat** |
-| **7** | `STA-04` | MLOps & AI Pipeline *(P1)* | 3 | +P | `STI-626` DL, `STI-417` Cloud | `STA-01` DSS, `STI-413` ML | 🟢 **Sangat Kuat** |
-| **7** | `STA-05` | Conversational AI & LLM *(P1)* | 3 | +P | `STI-414` NLP & IR, `STI-626` DL | `STI-624` Integrasi Layanan Cerdas AI | 🟢 **Sangat Kuat** |
-| **7** | `STA-06` | Smart Surveillance & Edge AI *(P1)*| 3 | +P | `STI-626` DL, `STI-521` IoT | `STI-413` Machine Learning | 🟢 **Sangat Kuat** |
-| **7** | `STB-04` | IT Governance COBIT 2019 *(P2)* | 3 | Teori | `STI-306` APSI, `FST-206` Etika | `STI-523` Manajemen Proyek TI | 🟢 **Sangat Kuat** |
-| **7** | `STB-05` | Keamanan Cloud & Kripto *(P2)* | 3 | +P | `STI-417` Cloud, `STI-519` Security | `STI-204` Matdis (Number Theory/Kripto) | 🟢 **Sangat Kuat** |
-| **7** | `STB-06` | SRE & Ketahanan Sistem *(P2)* | 3 | +P | `STB-02` DevOps, `STI-417` Cloud | `STI-310` Sistem Operasi | 🟢 **Sangat Kuat** |
-| **7** | `STC-04` | Spatial Computing & XR *(P3)* | 3 | +P | `STI-308` UI/UX, `STI-311` Front | Aljabar Linear 3D Transformation | 🟢 **Sangat Kuat** |
-| **7** | `STC-05` | Arsitektur SaaS Enterprise *(P3)* | 3 | +P | `STI-627` Platform, `STI-417` Cloud | `STI-416` Web Back End Development | 🟢 **Sangat Kuat** |
-| **7** | `STC-06` | Manajemen Produk Digital *(P3)* | 3 | Teori | `STI-728` Startup, `STI-308` UI/UX | `MKU-204` Kewirausahaan I | 🟢 **Sangat Kuat** |
+| **7** | `STA-701` | MLOps & AI Pipeline *(P1)* | 3 | +P | `STI-626` DL, `STI-417` Cloud | `STA-501` DSS, `STI-413` ML | 🟢 **Sangat Kuat** |
+| **7** | `STA-702` | Conversational AI & LLM *(P1)* | 3 | +P | `STI-414` NLP & IR, `STI-626` DL | `STI-624` Integrasi Layanan Cerdas AI | 🟢 **Sangat Kuat** |
+| **7** | `STA-703` | Smart Surveillance & Edge AI *(P1)*| 3 | +P | `STI-626` DL, `STI-521` IoT | `STI-413` Machine Learning | 🟢 **Sangat Kuat** |
+| **7** | `STB-701` | IT Governance COBIT 2019 *(P2)* | 3 | Teori | `STI-306` APSI, `FST-206` Etika | `STI-523` Manajemen Proyek TI | 🟢 **Sangat Kuat** |
+| **7** | `STB-702` | Keamanan Cloud & Kripto *(P2)* | 3 | +P | `STI-417` Cloud, `STI-519` Security | `STI-204` Matdis (Number Theory/Kripto) | 🟢 **Sangat Kuat** |
+| **7** | `STB-703` | SRE & Ketahanan Sistem *(P2)* | 3 | +P | `STB-601` DevOps, `STI-417` Cloud | `STI-310` Sistem Operasi | 🟢 **Sangat Kuat** |
+| **7** | `STC-701` | Spatial Computing & XR *(P3)* | 3 | +P | `STI-308` UI/UX, `STI-311` Front | Aljabar Linear 3D Transformation | 🟢 **Sangat Kuat** |
+| **7** | `STC-702` | Arsitektur SaaS Enterprise *(P3)* | 3 | +P | `STI-627` Platform, `STI-417` Cloud | `STI-416` Web Back End Development | 🟢 **Sangat Kuat** |
+| **7** | `STC-703` | Manajemen Produk Digital *(P3)* | 3 | Teori | `STI-728` Startup, `STI-308` UI/UX | `MKU-204` Kewirausahaan I | 🟢 **Sangat Kuat** |
 
 ---
 

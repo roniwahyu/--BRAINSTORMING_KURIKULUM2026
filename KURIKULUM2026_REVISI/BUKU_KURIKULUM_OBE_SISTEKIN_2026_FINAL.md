@@ -289,9 +289,9 @@ Sebagai program studi baru yang sedang bertumbuh, SISTEKIN menerapkan evaluasi P
 
 > [!NOTE]
 > **Daftar Pilihan Mata Kuliah Peminatan 1 (Semester 5 — Ambil 1 MK / 3 SKS sesuai jalur):**
-> * **Peminatan 1 (Smart Systems):** `STA-01` Decision Support Systems (+P, 3 SKS, Prasyarat: `STI-307`)
-> * **Peminatan 2 (Cloud & Cyber):** `STB-01` Network Security and Digital Forensics (+P, 3 SKS, Prasyarat: `STI-312`, `STI-418`)
-> * **Peminatan 3 (Platform Eng):** `STC-01` User Experience Research & Design (+P, 3 SKS, Prasyarat: `STI-308`)
+> * **Peminatan 1 (Smart Systems):** `STA-501` Decision Support Systems (+P, 3 SKS, Prasyarat: `STI-307`)
+> * **Peminatan 2 (Cloud & Cyber):** `STB-501` Network Security and Digital Forensics (+P, 3 SKS, Prasyarat: `STI-312`, `STI-418`)
+> * **Peminatan 3 (Platform Eng):** `STC-501` User Experience Research & Design (+P, 3 SKS, Prasyarat: `STI-308`)
 
 ### SEMESTER 6 (19 SKS)
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
@@ -307,9 +307,9 @@ Sebagai program studi baru yang sedang bertumbuh, SISTEKIN menerapkan evaluasi P
 
 > [!NOTE]
 > **Daftar Pilihan Mata Kuliah Peminatan 2 & 3 (Semester 6 — Ambil 2 MK / 6 SKS sesuai jalur):**
-> * **Peminatan 1 (Smart Systems):** `STA-02` Computational Methods and Numerics (+P, 3 SKS) & `STA-03` Intelligent Agent Systems (+P, 3 SKS)
-> * **Peminatan 2 (Cloud & Cyber):** `STB-02` Cloud Architecture & DevOps (+P, 3 SKS) & `STB-03` Cybersecurity Risk Management (Teori, 3 SKS)
-> * **Peminatan 3 (Platform Eng):** `STC-02` Rekayasa & Otomasi Proses Bisnis (+P, 3 SKS) & `STC-03` Rekayasa Aplikasi Industri Vertikal (+P, 3 SKS)
+> * **Peminatan 1 (Smart Systems):** `STA-601` Computational Methods and Numerics (+P, 3 SKS) & `STA-602` Intelligent Agent Systems (+P, 3 SKS)
+> * **Peminatan 2 (Cloud & Cyber):** `STB-601` Cloud Architecture & DevOps (+P, 3 SKS) & `STB-602` Cybersecurity Risk Management (Teori, 3 SKS)
+> * **Peminatan 3 (Platform Eng):** `STC-601` Rekayasa & Otomasi Proses Bisnis (+P, 3 SKS) & `STC-602` Rekayasa Aplikasi Industri Vertikal (+P, 3 SKS)
 
 ### SEMESTER 7 (20 SKS)
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
@@ -325,9 +325,9 @@ Sebagai program studi baru yang sedang bertumbuh, SISTEKIN menerapkan evaluasi P
 
 > [!NOTE]
 > **Daftar Pilihan Mata Kuliah Peminatan 4, 5 & 6 (Semester 7 — Ambil 3 MK / 9 SKS sesuai jalur):**
-> * **Peminatan 1 (Smart Systems):** `STA-04` MLOps and AI Pipeline (+P, 3 SKS), `STA-05` Conversational AI and Intelligent Assistant (+P, 3 SKS), `STA-06` Smart Surveillance and IoT Analytics (+P, 3 SKS)
-> * **Peminatan 2 (Cloud & Cyber):** `STB-04` IT Governance & Compliance COBIT 2019 (Teori, 3 SKS), `STB-05` IT Service Management ITIL 4 (Teori, 3 SKS), `STB-06` Enterprise Architecture TOGAF (Teori, 3 SKS)
-> * **Peminatan 3 (Platform Eng):** `STC-04` Immersive Media & XR Development (+P, 3 SKS), `STC-05` SaaS Architecture & Multi-Tenancy (+P, 3 SKS), `STC-06` Digital Product Management & Agile Practices (Teori, 3 SKS)
+> * **Peminatan 1 (Smart Systems):** `STA-701` MLOps and AI Pipeline (+P, 3 SKS), `STA-702` Conversational AI and Intelligent Assistant (+P, 3 SKS), `STA-703` Smart Surveillance and IoT Analytics (+P, 3 SKS)
+> * **Peminatan 2 (Cloud & Cyber):** `STB-701` IT Governance & Compliance COBIT 2019 (Teori, 3 SKS), `STB-702` IT Service Management ITIL 4 (Teori, 3 SKS), `STB-703` Enterprise Architecture TOGAF (Teori, 3 SKS)
+> * **Peminatan 3 (Platform Eng):** `STC-701` Immersive Media & XR Development (+P, 3 SKS), `STC-702` SaaS Architecture & Multi-Tenancy (+P, 3 SKS), `STC-703` Digital Product Management & Agile Practices (Teori, 3 SKS)
 
 ### SEMESTER 8 (6 SKS)
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
@@ -361,24 +361,24 @@ Mahasiswa memilih 1 paket peminatan penuh (ditempuh 1 MK di Sem 5, 2 MK di Sem 6
 
 | Peminatan | Basis Profil (PL) | Mata Kuliah Pilihan (@ 3 SKS) |
 | --- | --- | --- |
-| P1: Integrated Smart | PL-1: Intelligent IS | 1. STA-01 Decision Support Systems (+P, Sem 5) |
-| Systems | & Data/AI Eng | 2. STA-02 Computational Methods & Numerics(+P, S6) |
-| (Flagship) |  | 3. STA-03 Intelligent Agent Systems (+P, Sem 6) |
-|  |  | 4. STA-04 MLOps and AI Pipeline (+P, Sem 7) |
-|  |  | 5. STA-05 Conversational AI & Assistant (+P, Sem 7) |
-|  |  | 6. STA-06 Smart Surveillance & IoT Analytics (+P,S7 |
-| P2: Cloud Infra & | PL-2: Cloud, Cyber & | 1. STB-01 Network Security & Digital Forensics(+P,5 |
-| Cybersecurity | Smart Sys Int. | 2. STB-02 Cloud Architecture & DevOps (+P, Sem 6) |
-| (Volume) |  | 3. STB-03 Cybersecurity Risk Management (Teori, S6) |
-|  |  | 4. STB-04 IT Governance & Compliance COBIT2019(T,S7 |
-|  |  | 5. STB-05 IT Service Management ITIL 4 (Teori, S7) |
-|  |  | 6. STB-06 Enterprise Architecture TOGAF (Teori, S7) |
-| P3: Digital Platform | PL-3: UI/UX Designer | 1. STC-01 UX Research & Design (+P, Sem 5) |
-| Engineering | & Platform Eng | 2. STC-02 Rekayasa & Otomasi Proses Bisnis (+P, S6) |
-| (Niche & Techno) |  | 3. STC-03 Rekayasa Aplikasi Industri Vertikal(+P,S6 |
-|  |  | 4. STC-04 Immersive Media & XR Development (+P, S7) |
-|  |  | 5. STC-05 SaaS Architecture & Multi-Tenancy (+P,S7) |
-|  |  | 6. STC-06 Digital Product Management (Teori, Sem 7) |
+| P1: Integrated Smart | PL-1: Intelligent IS | 1. STA-501 Decision Support Systems (+P, Sem 5) |
+| Systems | & Data/AI Eng | 2. STA-601 Computational Methods & Numerics(+P, S6) |
+| (Flagship) |  | 3. STA-602 Intelligent Agent Systems (+P, Sem 6) |
+|  |  | 4. STA-701 MLOps and AI Pipeline (+P, Sem 7) |
+|  |  | 5. STA-702 Conversational AI & Assistant (+P, Sem 7) |
+|  |  | 6. STA-703 Smart Surveillance & IoT Analytics (+P,S7 |
+| P2: Cloud Infra & | PL-2: Cloud, Cyber & | 1. STB-501 Network Security & Digital Forensics(+P,5 |
+| Cybersecurity | Smart Sys Int. | 2. STB-601 Cloud Architecture & DevOps (+P, Sem 6) |
+| (Volume) |  | 3. STB-602 Cybersecurity Risk Management (Teori, S6) |
+|  |  | 4. STB-701 IT Governance & Compliance COBIT2019(T,S7 |
+|  |  | 5. STB-702 IT Service Management ITIL 4 (Teori, S7) |
+|  |  | 6. STB-703 Enterprise Architecture TOGAF (Teori, S7) |
+| P3: Digital Platform | PL-3: UI/UX Designer | 1. STC-501 UX Research & Design (+P, Sem 5) |
+| Engineering | & Platform Eng | 2. STC-601 Rekayasa & Otomasi Proses Bisnis (+P, S6) |
+| (Niche & Techno) |  | 3. STC-602 Rekayasa Aplikasi Industri Vertikal(+P,S6 |
+|  |  | 4. STC-701 Immersive Media & XR Development (+P, S7) |
+|  |  | 5. STC-702 SaaS Architecture & Multi-Tenancy (+P,S7) |
+|  |  | 6. STC-703 Digital Product Management (Teori, Sem 7) |
 
 
 ### 4.1 PEMINATAN 1: INTEGRATED SMART SYSTEMS (FLAGSHIP — 6 MK / 18 SKS)
@@ -386,36 +386,36 @@ Fokus keahlian: Rekayasa sistem berbasis AI, machine learning pipelines, deep le
 
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Semester | Prasyarat Akademik | Bahan Kajian Utama |
 |:---:|:---:|---|:---:|:---:|:---:|---|---|
-| 1 | `STA-01` | Decision Support Systems | 3 | +P | Sem 5 | `STI-307` Sistem Cerdas | BK-IS17 Business Analytics, AHP/TOPSIS |
-| 2 | `STA-02` | Computational Methods and Numerics | 3 | +P | Sem 6 | `STI-102`, `STI-205` Aljabar Linear | BK-IS10 / BK-IT01 Komputasi Saintifik |
-| 3 | `STA-03` | Intelligent Agent Systems | 3 | +P | Sem 6 | `STI-307` Sistem Cerdas | BK-IT02 Multi-Agent Systems, Reinforcement |
-| 4 | `STA-04` | MLOps and AI Pipeline | 3 | +P | Sem 7 | `STI-413`, `STI-624` Integrasi AI | BK-IS18 Machine Learning Engineering |
-| 5 | `STA-05` | Conversational AI and Intelligent Assistant | 3 | +P | Sem 7 | `STI-413`, `STI-416` Web Back End | BK-IT02 LLM, RAG Architecture, Prompt Eng |
-| 6 | `STA-06` | Smart Surveillance and IoT Analytics | 3 | +P | Sem 7 | `STI-626`, `STI-521` IoT | BK-IT02 Video Analytics, Edge AI, Vision |
+| 1 | `STA-501` | Decision Support Systems | 3 | +P | Sem 5 | `STI-307` Sistem Cerdas | BK-IS17 Business Analytics, AHP/TOPSIS |
+| 2 | `STA-601` | Computational Methods and Numerics | 3 | +P | Sem 6 | `STI-102`, `STI-205` Aljabar Linear | BK-IS10 / BK-IT01 Komputasi Saintifik |
+| 3 | `STA-602` | Intelligent Agent Systems | 3 | +P | Sem 6 | `STI-307` Sistem Cerdas | BK-IT02 Multi-Agent Systems, Reinforcement |
+| 4 | `STA-701` | MLOps and AI Pipeline | 3 | +P | Sem 7 | `STI-413`, `STI-624` Integrasi AI | BK-IS18 Machine Learning Engineering |
+| 5 | `STA-702` | Conversational AI and Intelligent Assistant | 3 | +P | Sem 7 | `STI-413`, `STI-416` Web Back End | BK-IT02 LLM, RAG Architecture, Prompt Eng |
+| 6 | `STA-703` | Smart Surveillance and IoT Analytics | 3 | +P | Sem 7 | `STI-626`, `STI-521` IoT | BK-IT02 Video Analytics, Edge AI, Vision |
 
 ### 4.2 PEMINATAN 2: CLOUD INFRASTRUCTURE & CYBERSECURITY (VOLUME — 6 MK / 18 SKS)
 Fokus keahlian: Arsitektur cloud computing, otomatisasi DevOps, tata kelola keamanan siber, manajemen risiko, forensik digital, dan enterprise architecture (Profil Lulusan: `PL-2`).
 
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Semester | Prasyarat Akademik | Bahan Kajian Utama |
 |:---:|:---:|---|:---:|:---:|:---:|---|---|
-| 1 | `STB-01` | Network Security and Digital Forensics | 3 | +P | Sem 5 | `STI-312`, `STI-418` Dasar Keamanan | BK-IT06 Cyber Defense, Forensik Jaringan |
-| 2 | `STB-02` | Cloud Architecture & DevOps | 3 | +P | Sem 6 | `STI-417` Komputasi Awan | BK-IT05 Cloud Systems, CI/CD, Kubernetes |
-| 3 | `STB-03` | Cybersecurity Risk Management | 3 | Teori | Sem 6 | `STI-418` Dasar Keamanan Informasi | BK-IS06 Risk Management, ISO 27005, NIST |
-| 4 | `STB-04` | IT Governance & Compliance (COBIT 2019) | 3 | Teori | Sem 7 | `STI-101` Pengantar Sistem & TI | BK-IS07 IT Governance, COBIT 2019 Focus |
-| 5 | `STB-05` | IT Service Management (ITIL 4) | 3 | Teori | Sem 7 | `STI-101` Pengantar Sistem & TI | BK-IS08 Service Management, ITIL 4 Foundation |
-| 6 | `STB-06` | Enterprise Architecture (TOGAF) | 3 | Teori | Sem 7 | `STI-306` Analisis & Perancangan SI | BK-IS04 Enterprise Architecture, TOGAF Standard |
+| 1 | `STB-501` | Network Security and Digital Forensics | 3 | +P | Sem 5 | `STI-312`, `STI-418` Dasar Keamanan | BK-IT06 Cyber Defense, Forensik Jaringan |
+| 2 | `STB-601` | Cloud Architecture & DevOps | 3 | +P | Sem 6 | `STI-417` Komputasi Awan | BK-IT05 Cloud Systems, CI/CD, Kubernetes |
+| 3 | `STB-602` | Cybersecurity Risk Management | 3 | Teori | Sem 6 | `STI-418` Dasar Keamanan Informasi | BK-IS06 Risk Management, ISO 27005, NIST |
+| 4 | `STB-701` | IT Governance & Compliance (COBIT 2019) | 3 | Teori | Sem 7 | `STI-101` Pengantar Sistem & TI | BK-IS07 IT Governance, COBIT 2019 Focus |
+| 5 | `STB-702` | IT Service Management (ITIL 4) | 3 | Teori | Sem 7 | `STI-101` Pengantar Sistem & TI | BK-IS08 Service Management, ITIL 4 Foundation |
+| 6 | `STB-703` | Enterprise Architecture (TOGAF) | 3 | Teori | Sem 7 | `STI-306` Analisis & Perancangan SI | BK-IS04 Enterprise Architecture, TOGAF Standard |
 
 ### 4.3 PEMINATAN 3: DIGITAL PLATFORM ENGINEERING (NICHE & TECHNO — 6 MK / 18 SKS)
 Fokus keahlian: Rekayasa antarmuka pengguna interaktif (UI/UX research), otomasi proses bisnis, arsitektur multi-tenant SaaS, media imersif XR, dan manajemen produk digital agile (Profil Lulusan: `PL-3` & `PL-4`).
 
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Semester | Prasyarat Akademik | Bahan Kajian Utama |
 |:---:|:---:|---|:---:|:---:|:---:|---|---|
-| 1 | `STC-01` | User Experience Research & Design | 3 | +P | Sem 5 | `STI-308` UI/UX Design & Prototyping | BK-IS13 Human-Centered Design, Usability |
-| 2 | `STC-02` | Rekayasa & Otomasi Proses Bisnis (BPA) | 3 | +P | Sem 6 | `STI-306` Analisis & Perancangan SI | BK-IS09 Business Process, Workflow & RPA |
-| 3 | `STC-03` | Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech) | 3 | +P | Sem 6 | `STI-416` Web Back End Development | BK-IS05 Application Domains, Microservices |
-| 4 | `STC-04` | Immersive Media & XR Development | 3 | +P | Sem 7 | `STI-311` Web Front End Development | BK-IT14 Computer Graphics, Unity/WebXR |
-| 5 | `STC-05` | SaaS Architecture & Multi-Tenancy | 3 | +P | Sem 7 | `STI-416` Web Back End Development | BK-IT08 Distributed Systems, Multi-Tenancy |
-| 6 | `STC-06` | Digital Product Management & Agile Practices | 3 | Teori | Sem 7 | `STI-523` Manajemen Proyek TI | BK-IS14 Product Management, Scrum, Lean |
+| 1 | `STC-501` | User Experience Research & Design | 3 | +P | Sem 5 | `STI-308` UI/UX Design & Prototyping | BK-IS13 Human-Centered Design, Usability |
+| 2 | `STC-601` | Rekayasa & Otomasi Proses Bisnis (BPA) | 3 | +P | Sem 6 | `STI-306` Analisis & Perancangan SI | BK-IS09 Business Process, Workflow & RPA |
+| 3 | `STC-602` | Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech) | 3 | +P | Sem 6 | `STI-416` Web Back End Development | BK-IS05 Application Domains, Microservices |
+| 4 | `STC-701` | Immersive Media & XR Development | 3 | +P | Sem 7 | `STI-311` Web Front End Development | BK-IT14 Computer Graphics, Unity/WebXR |
+| 5 | `STC-702` | SaaS Architecture & Multi-Tenancy | 3 | +P | Sem 7 | `STI-416` Web Back End Development | BK-IT08 Distributed Systems, Multi-Tenancy |
+| 6 | `STC-703` | Digital Product Management & Agile Practices | 3 | Teori | Sem 7 | `STI-523` Manajemen Proyek TI | BK-IS14 Product Management, Scrum, Lean |
 
 
 ---
@@ -1071,12 +1071,12 @@ graph LR
 
 | No | Kode MK | Nama Mata Kuliah Pilihan P1 | SKS | Sem | CPL Dibina | PL Relevan | Target PEO | Status IRM |
 |:---:|:---:|---|:---:|:---:|---|:---:|:---:|:---:|
-| 1 | `STA-01` | Decision Support Systems | 3 | 5 | P2, KK1, KK2 | PL-1 | PEO-1, PEO-3 | **R** |
-| 2 | `STA-02` | Computational Methods and Numerics | 3 | 6 | P1, KK1 | PL-1 | PEO-1, PEO-3 | **M** |
-| 3 | `STA-03` | Intelligent Agent Systems | 3 | 6 | P2, KK1 | PL-1 | PEO-1, PEO-3 | **M** |
-| 4 | `STA-04` | MLOps and AI Pipeline | 3 | 7 | P4, KK1, KK2 | PL-1 | PEO-1, PEO-3 | **M** |
-| 5 | `STA-05` | Conversational AI & Intelligent Assistant | 3 | 7 | P2, KK1 | PL-1 | PEO-1, PEO-2 | **M** |
-| 6 | `STA-06` | Smart Surveillance and IoT Analytics | 3 | 7 | P3, KK1, KK3 | PL-1, PL-2 | PEO-1, PEO-3 | **M** |
+| 1 | `STA-501` | Decision Support Systems | 3 | 5 | P2, KK1, KK2 | PL-1 | PEO-1, PEO-3 | **R** |
+| 2 | `STA-601` | Computational Methods and Numerics | 3 | 6 | P1, KK1 | PL-1 | PEO-1, PEO-3 | **M** |
+| 3 | `STA-602` | Intelligent Agent Systems | 3 | 6 | P2, KK1 | PL-1 | PEO-1, PEO-3 | **M** |
+| 4 | `STA-701` | MLOps and AI Pipeline | 3 | 7 | P4, KK1, KK2 | PL-1 | PEO-1, PEO-3 | **M** |
+| 5 | `STA-702` | Conversational AI & Intelligent Assistant | 3 | 7 | P2, KK1 | PL-1 | PEO-1, PEO-2 | **M** |
+| 6 | `STA-703` | Smart Surveillance and IoT Analytics | 3 | 7 | P3, KK1, KK3 | PL-1, PL-2 | PEO-1, PEO-3 | **M** |
 
 ---
 
@@ -1084,12 +1084,12 @@ graph LR
 
 | No | Kode MK | Nama Mata Kuliah Pilihan P2 | SKS | Sem | CPL Dibina | PL Relevan | Target PEO | Status IRM |
 |:---:|:---:|---|:---:|:---:|---|:---:|:---:|:---:|
-| 1 | `STB-01` | Network Security & Digital Forensics | 3 | 5 | P3, KK3, KK4 | PL-2 | PEO-1, PEO-3 | **R** |
-| 2 | `STB-02` | Cloud Architecture & DevOps | 3 | 6 | P3, P4, KK3 | PL-2 | PEO-1, PEO-3 | **M** |
-| 3 | `STB-03` | Cybersecurity Risk Management | 3 | 6 | P3, KK4 | PL-2 | PEO-1 | **M** |
-| 4 | `STB-04` | IT Governance & Compliance (COBIT 2019) | 3 | 7 | P3, KK4 | PL-2, PL-4 | PEO-1, PEO-2 | **M** |
-| 5 | `STB-05` | IT Service Management (ITIL 4) | 3 | 7 | P2, KK4 | PL-2, PL-4 | PEO-1, PEO-2 | **M** |
-| 6 | `STB-06` | Enterprise Architecture (TOGAF) | 3 | 7 | P2, P3, KK4 | PL-2, PL-4 | PEO-1, PEO-2 | **M** |
+| 1 | `STB-501` | Network Security & Digital Forensics | 3 | 5 | P3, KK3, KK4 | PL-2 | PEO-1, PEO-3 | **R** |
+| 2 | `STB-601` | Cloud Architecture & DevOps | 3 | 6 | P3, P4, KK3 | PL-2 | PEO-1, PEO-3 | **M** |
+| 3 | `STB-602` | Cybersecurity Risk Management | 3 | 6 | P3, KK4 | PL-2 | PEO-1 | **M** |
+| 4 | `STB-701` | IT Governance & Compliance (COBIT 2019) | 3 | 7 | P3, KK4 | PL-2, PL-4 | PEO-1, PEO-2 | **M** |
+| 5 | `STB-702` | IT Service Management (ITIL 4) | 3 | 7 | P2, KK4 | PL-2, PL-4 | PEO-1, PEO-2 | **M** |
+| 6 | `STB-703` | Enterprise Architecture (TOGAF) | 3 | 7 | P2, P3, KK4 | PL-2, PL-4 | PEO-1, PEO-2 | **M** |
 
 ---
 
@@ -1097,12 +1097,12 @@ graph LR
 
 | No | Kode MK | Nama Mata Kuliah Pilihan P3 | SKS | Sem | CPL Dibina | PL Relevan | Target PEO | Status IRM |
 |:---:|:---:|---|:---:|:---:|---|:---:|:---:|:---:|
-| 1 | `STC-01` | User Experience Research & Design | 3 | 5 | P4, KK5 | PL-3 | PEO-1, PEO-2 | **R** |
-| 2 | `STC-02` | Rekayasa & Otomasi Proses Bisnis (BPA) | 3 | 6 | P2, P4, KK5 | PL-3 | PEO-1, PEO-2 | **M** |
-| 3 | `STC-03` | Rekayasa Aplikasi Industri Vertikal | 3 | 6 | P4, KK5 | PL-3 | PEO-1, PEO-2 | **M** |
-| 4 | `STC-04` | Immersive Media & XR Development | 3 | 7 | P4, KK5 | PL-3 | PEO-1, PEO-3 | **M** |
-| 5 | `STC-05` | SaaS Architecture & Multi-Tenancy | 3 | 7 | P4, KK5 | PL-3 | PEO-1, PEO-2 | **M** |
-| 6 | `STC-06` | Digital Product Management & Agile | 3 | 7 | P2, KK6 | PL-3, PL-4 | PEO-1, PEO-2 | **M** |
+| 1 | `STC-501` | User Experience Research & Design | 3 | 5 | P4, KK5 | PL-3 | PEO-1, PEO-2 | **R** |
+| 2 | `STC-601` | Rekayasa & Otomasi Proses Bisnis (BPA) | 3 | 6 | P2, P4, KK5 | PL-3 | PEO-1, PEO-2 | **M** |
+| 3 | `STC-602` | Rekayasa Aplikasi Industri Vertikal | 3 | 6 | P4, KK5 | PL-3 | PEO-1, PEO-2 | **M** |
+| 4 | `STC-701` | Immersive Media & XR Development | 3 | 7 | P4, KK5 | PL-3 | PEO-1, PEO-3 | **M** |
+| 5 | `STC-702` | SaaS Architecture & Multi-Tenancy | 3 | 7 | P4, KK5 | PL-3 | PEO-1, PEO-2 | **M** |
+| 6 | `STC-703` | Digital Product Management & Agile | 3 | 7 | P2, KK6 | PL-3, PL-4 | PEO-1, PEO-2 | **M** |
 
 ---
 
@@ -1142,25 +1142,25 @@ Matriks ini memetakan relasi langsung antara 21 Bahan Kajian Standar APTIKOM SI 
 | Kode BoK IS | Nomenklatur Bahan Kajian IS2020 | Mata Kuliah Pembina Primer (●) | Mata Kuliah Pembina Sekunder (○) | Total MK | Status Cakupan |
 |---|---|---|---|:---:|:---:|
 | **BK-IS01** | *Foundations of Information Systems* | `STI-101`, `FST-101` | `STI-306` | 3 MK | ✅ Sangat Kuat |
-| **BK-IS02** | *Data and Information Management* | `FST-207`, `STI-415`, `STI-520` | `STA-01`, `STA-04` | 5 MK | ✅ Sangat Kuat |
-| **BK-IS03** | *IT Infrastructure and Networking* | `STI-103`, `STI-312`, `STI-417`, `STI-310` | `STB-01`, `STB-02`, `STI-521` | 7 MK | ✅ Sangat Kuat |
-| **BK-IS04** | *Enterprise Architecture* | `STB-06` | `STI-306`, `STI-627` | 3 MK | ✅ Terpenuhi |
-| **BK-IS05** | *IS Management and Governance* | `STB-04`, `STB-05` | `STI-523`, `STB-03` | 4 MK | ✅ Terpenuhi |
-| **BK-IS06** | *Information Security and Risk Management* | `STI-418`, `STI-626`, `STB-01`, `STB-03` | `FST-206` | 5 MK | ✅ Sangat Kuat |
-| **BK-IS07** | *Systems Analysis and Design* | `STI-306`, `STI-309` | `FST-610`, `STC-02` | 4 MK | ✅ Sangat Kuat |
-| **BK-IS08** | *Project Management* | `STI-523`, `STC-06` | `FST-610`, `FST-612` | 4 MK | ✅ Sangat Kuat |
-| **BK-IS09** | *Business Process Management* | `STC-02` | `STI-306`, `STI-625` | 3 MK | ✅ Terpenuhi |
-| **BK-IS10** | *Applied Mathematics and Logic* | `STI-102`, `STI-204`, `STI-205`, `FST-408` | `STA-02` | 5 MK | ✅ Sangat Kuat |
+| **BK-IS02** | *Data and Information Management* | `FST-207`, `STI-415`, `STI-520` | `STA-501`, `STA-701` | 5 MK | ✅ Sangat Kuat |
+| **BK-IS03** | *IT Infrastructure and Networking* | `STI-103`, `STI-312`, `STI-417`, `STI-310` | `STB-501`, `STB-601`, `STI-521` | 7 MK | ✅ Sangat Kuat |
+| **BK-IS04** | *Enterprise Architecture* | `STB-703` | `STI-306`, `STI-627` | 3 MK | ✅ Terpenuhi |
+| **BK-IS05** | *IS Management and Governance* | `STB-701`, `STB-702` | `STI-523`, `STB-602` | 4 MK | ✅ Terpenuhi |
+| **BK-IS06** | *Information Security and Risk Management* | `STI-418`, `STI-626`, `STB-501`, `STB-602` | `FST-206` | 5 MK | ✅ Sangat Kuat |
+| **BK-IS07** | *Systems Analysis and Design* | `STI-306`, `STI-309` | `FST-610`, `STC-601` | 4 MK | ✅ Sangat Kuat |
+| **BK-IS08** | *Project Management* | `STI-523`, `STC-703` | `FST-610`, `FST-612` | 4 MK | ✅ Sangat Kuat |
+| **BK-IS09** | *Business Process Management* | `STC-601` | `STI-306`, `STI-625` | 3 MK | ✅ Terpenuhi |
+| **BK-IS10** | *Applied Mathematics and Logic* | `STI-102`, `STI-204`, `STI-205`, `FST-408` | `STA-601` | 5 MK | ✅ Sangat Kuat |
 | **BK-IS11** | *Programming Fundamentals & OOP* | `FST-102`, `FST-203`, `FST-205` | `STI-311`, `STI-416` | 5 MK | ✅ Sangat Kuat |
-| **BK-IS12** | *Web and Mobile App Development* | `STI-311`, `STI-416`, `STI-522`, `STI-627` | `STC-03`, `STC-05` | 6 MK | ✅ Sangat Kuat |
-| **BK-IS13** | *Data Analytics and Business Intelligence* | `STI-415`, `STI-520`, `STA-01` | `STI-413`, `STA-04` | 5 MK | ✅ Sangat Kuat |
-| **BK-IS14** | *IT Audit and Compliance* | `STB-04`, `STB-03` | `FST-206`, `STB-05` | 4 MK | ✅ Terpenuhi |
-| **BK-IS15** | *Digital Innovation and Entrepreneurship* | `MKU-204`, `STI-728`, `FST-610` | `STC-06` | 4 MK | ✅ Sangat Kuat |
-| **BK-IS16** | *Artificial Intelligence & Intelligent Systems*| `STI-307`, `STI-414`, `STI-624`, `STA-03`, `STA-05` | `STI-413`, `STA-06` | 7 MK | ✅ Sangat Kuat |
-| **BK-IS17** | *Human-Computer Interaction & UX* | `STI-308`, `STC-01` | `STI-311`, `STI-522` | 4 MK | ✅ Sangat Kuat |
-| **BK-IS18** | *Machine Learning and Data Science* | `STI-413`, `STI-519`, `STA-04` | `STA-02`, `STA-06` | 5 MK | ✅ Sangat Kuat |
-| **BK-IS19** | *Cloud Architecture & DevOps* | `STI-417`, `STB-02` | `STI-627`, `STC-05` | 4 MK | ✅ Sangat Kuat |
-| **BK-IS20** | *Ethics, Use and Implications for Society* | `FST-206` | `STI-418`, `STI-625`, `STB-04` | 4 MK | ✅ Terpenuhi |
+| **BK-IS12** | *Web and Mobile App Development* | `STI-311`, `STI-416`, `STI-522`, `STI-627` | `STC-602`, `STC-702` | 6 MK | ✅ Sangat Kuat |
+| **BK-IS13** | *Data Analytics and Business Intelligence* | `STI-415`, `STI-520`, `STA-501` | `STI-413`, `STA-701` | 5 MK | ✅ Sangat Kuat |
+| **BK-IS14** | *IT Audit and Compliance* | `STB-701`, `STB-602` | `FST-206`, `STB-702` | 4 MK | ✅ Terpenuhi |
+| **BK-IS15** | *Digital Innovation and Entrepreneurship* | `MKU-204`, `STI-728`, `FST-610` | `STC-703` | 4 MK | ✅ Sangat Kuat |
+| **BK-IS16** | *Artificial Intelligence & Intelligent Systems*| `STI-307`, `STI-414`, `STI-624`, `STA-602`, `STA-702` | `STI-413`, `STA-703` | 7 MK | ✅ Sangat Kuat |
+| **BK-IS17** | *Human-Computer Interaction & UX* | `STI-308`, `STC-501` | `STI-311`, `STI-522` | 4 MK | ✅ Sangat Kuat |
+| **BK-IS18** | *Machine Learning and Data Science* | `STI-413`, `STI-519`, `STA-701` | `STA-601`, `STA-703` | 5 MK | ✅ Sangat Kuat |
+| **BK-IS19** | *Cloud Architecture & DevOps* | `STI-417`, `STB-601` | `STI-627`, `STC-702` | 4 MK | ✅ Sangat Kuat |
+| **BK-IS20** | *Ethics, Use and Implications for Society* | `FST-206` | `STI-418`, `STI-625`, `STB-701` | 4 MK | ✅ Terpenuhi |
 | **BK-IS21** | *Internship and Professional Practice* | `FST-612` | `MKU-507`, `FST-610` | 3 MK | ✅ Terpenuhi |
 
 ---
@@ -1170,19 +1170,19 @@ Matriks ini memetakan relasi langsung antara 21 Bahan Kajian Standar APTIKOM SI 
 | Kode BoK IT | Nomenklatur Bahan Kajian Utama IT2017 | Mata Kuliah Pembina Primer (●) | Mata Kuliah Pembina Sekunder (○) | Total MK | Status Cakupan |
 |---|---|---|---|:---:|:---:|
 | **BK-IT01** | *Information Technology Fundamentals* | `FST-101`, `STI-101` | `FST-204` | 3 MK | ✅ Sangat Kuat |
-| **BK-IT02** | *Applied AI & Intelligent Technologies* | `STI-307`, `STI-413`, `STI-414`, `STI-519`, `STI-624` | `STA-03..06` | 9 MK | ✅ Sangat Kuat |
-| **BK-IT03** | *Networking & Communications* | `STI-312` | `STI-417`, `STI-521`, `STB-01` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT04** | *Platform Technologies & Web/Mobile* | `STI-311`, `STI-416`, `STI-522`, `STI-627` | `STC-03..05` | 7 MK | ✅ Sangat Kuat |
-| **BK-IT05** | *Cloud Computing & Virtualization* | `STI-417`, `STB-02` | `STI-310`, `STC-05` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT06** | *Cybersecurity Principles & Defense* | `STI-418`, `STI-626`, `STB-01` | `STB-03` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT07** | *System Integration and Architecture* | `STI-624`, `STI-627`, `FST-610` | `STB-06`, `STC-02` | 5 MK | ✅ Sangat Kuat |
-| **BK-IT08** | *IT Service Management & Governance* | `STB-04`, `STB-05` | `STI-523` | 3 MK | ✅ Terpenuhi |
-| **BK-IT09** | *Data Analytics & Information Visualization*| `STI-415`, `STI-520` | `STA-01`, `STA-04` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT10** | *User Experience & Interaction Design* | `STI-308`, `STC-01` | `STI-311`, `STC-04` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT11** | *Software Development Practices* | `STI-309`, `STI-416`, `STI-627` | `FST-205`, `STC-05` | 5 MK | ✅ Sangat Kuat |
-| **BK-IT12** | *IT Risk Management and Compliance* | `STB-03`, `STB-04` | `FST-206` | 3 MK | ✅ Terpenuhi |
-| **BK-IT13** | *Technology Entrepreneurship* | `MKU-204`, `STI-728`, `FST-610` | `STC-06` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT14** | *IoT and Embedded Smart Systems* | `STI-521`, `STA-06` | `STI-310`, `STI-312` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT02** | *Applied AI & Intelligent Technologies* | `STI-307`, `STI-413`, `STI-414`, `STI-519`, `STI-624` | `STA-602, STA-701..703` | 9 MK | ✅ Sangat Kuat |
+| **BK-IT03** | *Networking & Communications* | `STI-312` | `STI-417`, `STI-521`, `STB-501` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT04** | *Platform Technologies & Web/Mobile* | `STI-311`, `STI-416`, `STI-522`, `STI-627` | `STC-602, STC-701..702` | 7 MK | ✅ Sangat Kuat |
+| **BK-IT05** | *Cloud Computing & Virtualization* | `STI-417`, `STB-601` | `STI-310`, `STC-702` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT06** | *Cybersecurity Principles & Defense* | `STI-418`, `STI-626`, `STB-501` | `STB-602` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT07** | *System Integration and Architecture* | `STI-624`, `STI-627`, `FST-610` | `STB-703`, `STC-601` | 5 MK | ✅ Sangat Kuat |
+| **BK-IT08** | *IT Service Management & Governance* | `STB-701`, `STB-702` | `STI-523` | 3 MK | ✅ Terpenuhi |
+| **BK-IT09** | *Data Analytics & Information Visualization*| `STI-415`, `STI-520` | `STA-501`, `STA-701` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT10** | *User Experience & Interaction Design* | `STI-308`, `STC-501` | `STI-311`, `STC-701` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT11** | *Software Development Practices* | `STI-309`, `STI-416`, `STI-627` | `FST-205`, `STC-702` | 5 MK | ✅ Sangat Kuat |
+| **BK-IT12** | *IT Risk Management and Compliance* | `STB-602`, `STB-701` | `FST-206` | 3 MK | ✅ Terpenuhi |
+| **BK-IT13** | *Technology Entrepreneurship* | `MKU-204`, `STI-728`, `FST-610` | `STC-703` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT14** | *IoT and Embedded Smart Systems* | `STI-521`, `STA-703` | `STI-310`, `STI-312` | 4 MK | ✅ Sangat Kuat |
 | **BK-IT15** | *Global Professional Practice* | `FST-205`, `FST-612` | `FST-206`, `MKU-507` | 4 MK | ✅ Terpenuhi |
 
 > [!NOTE]
@@ -3342,12 +3342,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 48. STA-01 — Decision Support Systems (Decision Support Systems)
+### 48. STA-501 — Decision Support Systems (Decision Support Systems)
 
 #### Tabel 48.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STA-01 — Decision Support Systems** (*Decision Support Systems*) |
+| **Kode & Nama Mata Kuliah** | **STA-501 — Decision Support Systems** (*Decision Support Systems*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 5** / Peminatan 1: Integrated Smart Systems |
 | **Prasyarat Akademik** | `STI-307` Sistem Cerdas |
@@ -3384,12 +3384,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 49. STA-02 — Computational Methods and Numerics (Computational Methods and Numerics)
+### 49. STA-601 — Computational Methods and Numerics (Computational Methods and Numerics)
 
 #### Tabel 49.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STA-02 — Computational Methods and Numerics** (*Computational Methods and Numerics*) |
+| **Kode & Nama Mata Kuliah** | **STA-601 — Computational Methods and Numerics** (*Computational Methods and Numerics*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Peminatan 1: Integrated Smart Systems |
 | **Prasyarat Akademik** | `STI-102` Kalkulus & `STI-205` Aljabar Linear |
@@ -3427,12 +3427,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 50. STA-03 — Intelligent Agent Systems (Intelligent Agent Systems)
+### 50. STA-602 — Intelligent Agent Systems (Intelligent Agent Systems)
 
 #### Tabel 50.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STA-03 — Intelligent Agent Systems** (*Intelligent Agent Systems*) |
+| **Kode & Nama Mata Kuliah** | **STA-602 — Intelligent Agent Systems** (*Intelligent Agent Systems*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Peminatan 1: Integrated Smart Systems |
 | **Prasyarat Akademik** | `STI-307` Sistem Cerdas |
@@ -3470,12 +3470,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 51. STA-04 — MLOps and AI Pipeline (MLOps and AI Pipeline)
+### 51. STA-701 — MLOps and AI Pipeline (MLOps and AI Pipeline)
 
 #### Tabel 51.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STA-04 — MLOps and AI Pipeline** (*MLOps and AI Pipeline*) |
+| **Kode & Nama Mata Kuliah** | **STA-701 — MLOps and AI Pipeline** (*MLOps and AI Pipeline*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 1: Integrated Smart Systems |
 | **Prasyarat Akademik** | `STI-413` Machine Learning & `STI-624` Integrasi AI |
@@ -3512,12 +3512,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 52. STA-05 — Conversational AI and Intelligent Assistant (Conversational AI & Intelligent Assistant)
+### 52. STA-702 — Conversational AI and Intelligent Assistant (Conversational AI & Intelligent Assistant)
 
 #### Tabel 52.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STA-05 — Conversational AI and Intelligent Assistant** (*Conversational AI & Intelligent Assistant*) |
+| **Kode & Nama Mata Kuliah** | **STA-702 — Conversational AI and Intelligent Assistant** (*Conversational AI & Intelligent Assistant*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 1: Integrated Smart Systems |
 | **Prasyarat Akademik** | `STI-413` Machine Learning & `STI-416` Web Back End Development |
@@ -3555,12 +3555,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 53. STA-06 — Smart Surveillance and IoT Analytics (Smart Surveillance and IoT Analytics)
+### 53. STA-703 — Smart Surveillance and IoT Analytics (Smart Surveillance and IoT Analytics)
 
 #### Tabel 53.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STA-06 — Smart Surveillance and IoT Analytics** (*Smart Surveillance and IoT Analytics*) |
+| **Kode & Nama Mata Kuliah** | **STA-703 — Smart Surveillance and IoT Analytics** (*Smart Surveillance and IoT Analytics*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 1: Integrated Smart Systems |
 | **Prasyarat Akademik** | `STI-626` Deep Learning & `STI-521` IoT |
@@ -3598,12 +3598,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 54. STB-01 — Network Security and Digital Forensics (Network Security and Digital Forensics)
+### 54. STB-501 — Network Security and Digital Forensics (Network Security and Digital Forensics)
 
 #### Tabel 54.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STB-01 — Network Security and Digital Forensics** (*Network Security and Digital Forensics*) |
+| **Kode & Nama Mata Kuliah** | **STB-501 — Network Security and Digital Forensics** (*Network Security and Digital Forensics*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 5** / Peminatan 2: Cloud Infrastructure & Cybersecurity |
 | **Prasyarat Akademik** | `STI-312` Jaringan Komputer & `STI-418` Keamanan |
@@ -3640,12 +3640,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 55. STB-02 — Cloud Architecture & DevOps (Cloud Architecture & DevOps)
+### 55. STB-601 — Cloud Architecture & DevOps (Cloud Architecture & DevOps)
 
 #### Tabel 55.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STB-02 — Cloud Architecture & DevOps** (*Cloud Architecture & DevOps*) |
+| **Kode & Nama Mata Kuliah** | **STB-601 — Cloud Architecture & DevOps** (*Cloud Architecture & DevOps*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Peminatan 2: Cloud Infrastructure & Cybersecurity |
 | **Prasyarat Akademik** | `STI-417` Komputasi Awan (Cloud Computing) |
@@ -3682,12 +3682,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 56. STB-03 — Cybersecurity Risk Management (Cybersecurity Risk Management)
+### 56. STB-602 — Cybersecurity Risk Management (Cybersecurity Risk Management)
 
 #### Tabel 56.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STB-03 — Cybersecurity Risk Management** (*Cybersecurity Risk Management*) |
+| **Kode & Nama Mata Kuliah** | **STB-602 — Cybersecurity Risk Management** (*Cybersecurity Risk Management*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Peminatan 2: Cloud Infrastructure & Cybersecurity |
 | **Prasyarat Akademik** | `STI-418` Dasar Keamanan Informasi |
@@ -3724,12 +3724,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 57. STB-04 — IT Governance & Compliance (COBIT 2019) (IT Governance & Compliance (COBIT 2019))
+### 57. STB-701 — IT Governance & Compliance (COBIT 2019) (IT Governance & Compliance (COBIT 2019))
 
 #### Tabel 57.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STB-04 — IT Governance & Compliance (COBIT 2019)** (*IT Governance & Compliance (COBIT 2019)*) |
+| **Kode & Nama Mata Kuliah** | **STB-701 — IT Governance & Compliance (COBIT 2019)** (*IT Governance & Compliance (COBIT 2019)*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 2: Cloud Infrastructure & Cybersecurity |
 | **Prasyarat Akademik** | `STI-101` Pengantar Sistem & TI |
@@ -3766,12 +3766,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 58. STB-05 — IT Service Management (ITIL 4) (IT Service Management (ITIL 4))
+### 58. STB-702 — IT Service Management (ITIL 4) (IT Service Management (ITIL 4))
 
 #### Tabel 58.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STB-05 — IT Service Management (ITIL 4)** (*IT Service Management (ITIL 4)*) |
+| **Kode & Nama Mata Kuliah** | **STB-702 — IT Service Management (ITIL 4)** (*IT Service Management (ITIL 4)*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 2: Cloud Infrastructure & Cybersecurity |
 | **Prasyarat Akademik** | `STI-101` Pengantar Sistem & TI |
@@ -3808,12 +3808,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 59. STB-06 — Enterprise Architecture (TOGAF) (Enterprise Architecture (TOGAF))
+### 59. STB-703 — Enterprise Architecture (TOGAF) (Enterprise Architecture (TOGAF))
 
 #### Tabel 59.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STB-06 — Enterprise Architecture (TOGAF)** (*Enterprise Architecture (TOGAF)*) |
+| **Kode & Nama Mata Kuliah** | **STB-703 — Enterprise Architecture (TOGAF)** (*Enterprise Architecture (TOGAF)*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 2: Cloud Infrastructure & Cybersecurity |
 | **Prasyarat Akademik** | `STI-306` Analisis & Perancangan SI |
@@ -3850,12 +3850,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 60. STC-01 — User Experience Research & Design (User Experience Research & Design)
+### 60. STC-501 — User Experience Research & Design (User Experience Research & Design)
 
 #### Tabel 60.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STC-01 — User Experience Research & Design** (*User Experience Research & Design*) |
+| **Kode & Nama Mata Kuliah** | **STC-501 — User Experience Research & Design** (*User Experience Research & Design*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 5** / Peminatan 3: Digital Platform Engineering |
 | **Prasyarat Akademik** | `STI-308` UI/UX Design & Prototyping |
@@ -3892,12 +3892,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 61. STC-02 — Rekayasa & Otomasi Proses Bisnis (BPA) (Business Process Automation)
+### 61. STC-601 — Rekayasa & Otomasi Proses Bisnis (BPA) (Business Process Automation)
 
 #### Tabel 61.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STC-02 — Rekayasa & Otomasi Proses Bisnis (BPA)** (*Business Process Automation*) |
+| **Kode & Nama Mata Kuliah** | **STC-601 — Rekayasa & Otomasi Proses Bisnis (BPA)** (*Business Process Automation*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Peminatan 3: Digital Platform Engineering |
 | **Prasyarat Akademik** | `STI-306` Analisis & Perancangan SI |
@@ -3934,12 +3934,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 62. STC-03 — Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech) (Vertical Industry Application Engineering)
+### 62. STC-602 — Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech) (Vertical Industry Application Engineering)
 
 #### Tabel 62.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STC-03 — Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech)** (*Vertical Industry Application Engineering*) |
+| **Kode & Nama Mata Kuliah** | **STC-602 — Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech)** (*Vertical Industry Application Engineering*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Peminatan 3: Digital Platform Engineering |
 | **Prasyarat Akademik** | `STI-416` Web Back End Development |
@@ -3976,12 +3976,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 63. STC-04 — Immersive Media & XR Development (Immersive Media & XR Development)
+### 63. STC-701 — Immersive Media & XR Development (Immersive Media & XR Development)
 
 #### Tabel 63.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STC-04 — Immersive Media & XR Development** (*Immersive Media & XR Development*) |
+| **Kode & Nama Mata Kuliah** | **STC-701 — Immersive Media & XR Development** (*Immersive Media & XR Development*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 3: Digital Platform Engineering |
 | **Prasyarat Akademik** | `STI-311` Web Front End Development |
@@ -4018,12 +4018,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 64. STC-05 — SaaS Architecture & Multi-Tenancy (SaaS Architecture & Multi-Tenancy)
+### 64. STC-702 — SaaS Architecture & Multi-Tenancy (SaaS Architecture & Multi-Tenancy)
 
 #### Tabel 64.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STC-05 — SaaS Architecture & Multi-Tenancy** (*SaaS Architecture & Multi-Tenancy*) |
+| **Kode & Nama Mata Kuliah** | **STC-702 — SaaS Architecture & Multi-Tenancy** (*SaaS Architecture & Multi-Tenancy*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 3: Digital Platform Engineering |
 | **Prasyarat Akademik** | `STI-416` Web Back End Development |
@@ -4060,12 +4060,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 65. STC-06 — Digital Product Management & Agile Practices (Digital Product Management & Agile)
+### 65. STC-703 — Digital Product Management & Agile Practices (Digital Product Management & Agile)
 
 #### Tabel 65.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STC-06 — Digital Product Management & Agile Practices** (*Digital Product Management & Agile*) |
+| **Kode & Nama Mata Kuliah** | **STC-703 — Digital Product Management & Agile Practices** (*Digital Product Management & Agile*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 3: Digital Platform Engineering |
 | **Prasyarat Akademik** | `STI-523` Manajemen Proyek TI |

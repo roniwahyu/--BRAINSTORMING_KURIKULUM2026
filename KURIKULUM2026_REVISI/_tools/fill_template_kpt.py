@@ -330,9 +330,9 @@ for i in range(1, len(t.rows)):
 # ============================================================
 t = doc.tables[30]
 peminatan = [
-    ("P1: Integrated Smart Systems", "STA-01..STA-06 (Decision Support, Computational Methods, Intelligent Agent, MLOps, Conversational AI, Smart Surveillance)", "18 SKS (6 MK)", "Sem 5, 6, 7"),
-    ("P2: Cloud Infrastructure & Cybersecurity", "STB-01..STB-06 (Network Security, Cloud/DevOps, Cyber Risk Mgmt, IT Governance, ITIL, TOGAF)", "18 SKS (6 MK)", "Sem 5, 6, 7"),
-    ("P3: Digital Platform Engineering", "STC-01..STC-06 (UX Research, BPA, Vertical App, XR, SaaS, Product Mgmt)", "18 SKS (6 MK)", "Sem 5, 6, 7"),
+    ("P1: Integrated Smart Systems", "STA-501..STA-703 (Decision Support, Computational Methods, Intelligent Agent, MLOps, Conversational AI, Smart Surveillance)", "18 SKS (6 MK)", "Sem 5, 6, 7"),
+    ("P2: Cloud Infrastructure & Cybersecurity", "STB-501..STB-703 (Network Security, Cloud/DevOps, Cyber Risk Mgmt, IT Governance, ITIL, TOGAF)", "18 SKS (6 MK)", "Sem 5, 6, 7"),
+    ("P3: Digital Platform Engineering", "STC-501..STC-703 (UX Research, BPA, Vertical App, XR, SaaS, Product Mgmt)", "18 SKS (6 MK)", "Sem 5, 6, 7"),
 ]
 for i in range(1, len(t.rows)):
     cells = t.rows[i].cells

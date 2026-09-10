@@ -1,4 +1,4 @@
-# 030 — JUSTIFIKASI AKADEMIS DAN AUDIT BoK: PENETAPAN STA-02 COMPUTATIONAL METHODS & NUMERICS SEBAGAI MATA KULIAH PILIHAN PEMINATAN INTEGRATED SMART SYSTEMS
+# 030 — JUSTIFIKASI AKADEMIS DAN AUDIT BoK: PENETAPAN STA-601 COMPUTATIONAL METHODS & NUMERICS SEBAGAI MATA KULIAH PILIHAN PEMINATAN INTEGRATED SMART SYSTEMS
 ## Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang
 
 ---
@@ -21,7 +21,7 @@ Pada Kurikulum 2025 (K2025), Program Studi SISTEKIN memiliki mata kuliah:
 * **`STI-317` Metode Komputasi dan Numerik** (2 SKS, Semester 3, Berstatus **Wajib**).
 
 Sedangkan pada Kurikulum 2026 (K2026 Revisi Definitif), mata kuliah ini bertransformasi menjadi:
-* **`STA-02` Computational Methods and Numerics (+P)** (3 SKS, Semester 6, Berstatus **Elektif / Mata Kuliah Pilihan Peminatan 1: Integrated Smart Systems**).
+* **`STA-601` Computational Methods and Numerics (+P)** (3 SKS, Semester 6, Berstatus **Elektif / Mata Kuliah Pilihan Peminatan 1: Integrated Smart Systems**).
 
 Muncul pertanyaan kritis akademik dalam peninjauan kurikulum:
 > *"Mengapa mata kuliah komputasi numerik yang semula wajib di Semester 3 dialihkan menjadi mata kuliah pilihan di Semester 6? Apakah perpindahan ini sah secara Body of Knowledge (BoK) APTIKOM rumpun Sistem Informasi dan Teknologi Informasi? Bagaimana justifikasi pedagogis dan distribusi beban SKS-nya?"*
@@ -77,7 +77,7 @@ Mengapa pada Kurikulum 2025 mata kuliah `STI-317 Metode Komputasi dan Numerik` b
 
 ---
 
-## 4. EMPAT ALASAN ARSITEKTURAL PENETAPAN STA-02 SEBAGAI MK PILIHAN P1
+## 4. EMPAT ALASAN ARSITEKTURAL PENETAPAN STA-601 SEBAGAI MK PILIHAN P1
 
 ### 4.1 Fondasi Matematika Wajib SISTEKIN 2026 Sudah Sangat Kokoh (10 SKS Wajib)
 
@@ -98,10 +98,10 @@ Dengan total 10 SKS matematika wajib ini, prasyarat keilmuan untuk seluruh profi
 SISTEKIN 2026 membagi spesialisasi mahasiswa ke dalam 3 Jalur Peminatan (@ 18 SKS):
 
 1. **Jalur P2: Cloud Infrastructure & Cybersecurity (`PL-2`):**
-   - Mahasiswa di jalur ini memerlukan pendalaman pada Keamanan Jaringan (`STB-01`), Cloud DevOps (`STB-02`), Cyber Risk (`STB-03`), dan IT Governance (`STB-05`).
+   - Mahasiswa di jalur ini memerlukan pendalaman pada Keamanan Jaringan (`STB-501`), Cloud DevOps (`STB-601`), Cyber Risk (`STB-602`), dan IT Governance (`STB-702`).
    - Memaksa mahasiswa jalur ini menempuh *Solusi PDB Runge-Kutta Orde 4, Kuadratur Gauss-Legendre, atau Interpolasi Spline* adalah beban kurikulum yang tidak relevan dengan profil insinyur Cloud & Keamanan Siber.
 2. **Jalur P3: Digital Platform Engineering (`PL-3`):**
-   - Mahasiswa fokus pada UX Research (`STC-01`), Otomasi Proses Bisnis (`STC-02`), Aplikasi Vertikal (`STC-03`), SaaS Architecture (`STC-05`), dan Agile Product (`STC-06`).
+   - Mahasiswa fokus pada UX Research (`STC-501`), Otomasi Proses Bisnis (`STC-601`), Aplikasi Vertikal (`STC-602`), SaaS Architecture (`STC-702`), dan Agile Product (`STC-703`).
    - Tidak ada kebutuhan langsung terhadap analisis galat pemotongan floating-point numerik.
 3. **Jalur P1: Integrated Smart Systems (`PL-1: Intelligent IS & Data/AI Engineer`):**
    - Calon Data/AI Engineer **mutlak membutuhkan metode numerik terapan** untuk:
@@ -113,7 +113,7 @@ SISTEKIN 2026 membagi spesialisasi mahasiswa ke dalam 3 Jalur Peminatan (@ 18 SK
 
 ### 4.3 Peningkatan Kualitas Pedagogis: Dari 2 SKS Teori Menjadi 3 SKS (+Praktikum)
 
-Transformasi dari `STI-317` (K2025) ke `STA-02` (K2026) bukan sekadar pengalihan status, melainkan **eskalasi mutu pembelajaran**:
+Transformasi dari `STI-317` (K2025) ke `STA-601` (K2026) bukan sekadar pengalihan status, melainkan **eskalasi mutu pembelajaran**:
 - **Peningkatan Bobot:** Dari 2 SKS Teori $\rightarrow$ **3 SKS (+P: 100m Teori + 170m Laboratorium Praktikum Komputasi)**.
 - **Teknologi Komputasi:** Seluruh algoritma (Newton-Raphson, Spline, Runge-Kutta RK4, SGD) diimplementasikan secara langsung menggunakan bahasa pemrograman modern (**Python, NumPy, SciPy**).
 - **Penempatan Semester:** Dipindahkan dari Sem 3 ke **Semester 6**. Mahasiswa yang mengambil MK ini telah menuntaskan `STI-102` Kalkulus, `STI-205` Aljabar Linear, serta `STI-413` Machine Learning, sehingga materi numerik dapat langsung diaplikasikan ke optimasi model AI.
@@ -128,11 +128,11 @@ Pada Dokumen 004 dan Dokumen 007:
 
 ---
 
-## 5. REKAPITULASI ATRIBUT KURIKULER STA-02
+## 5. REKAPITULASI ATRIBUT KURIKULER STA-601
 
 ```
 ========================================================================================
-MATA KULIAH       : STA-02 Computational Methods and Numerics (+P)
+MATA KULIAH       : STA-601 Computational Methods and Numerics (+P)
 STATUS            : Mata Kuliah Pilihan (Peminatan 1: Integrated Smart Systems)
 BOBOT             : 3 SKS (+Praktikum: 100 menit Teori + 170 menit Lab + 180 menit Mandiri)
 SEMESTER          : Semester 6 (Paket Elektif P1 ke-2)
@@ -150,7 +150,7 @@ TARGET PEO        : PEO-1 (Professional Practice & Systems Integration), PEO-3 (
 
 Berdasarkan Dokumen 024 (*Matriks Ekivalensi Kurikulum 2025 ke 2026*):
 1. Mahasiswa K2025 yang telah lulus `STI-317` Metode Komputasi dan Numerik (2 SKS, Nilai $\ge$ C):
-   - **Jika Memilih Peminatan P1:** Diakui sebagai `STA-02` (3 SKS) melalui skema **E2 (Diakui Bersyarat)** dengan menempuh penugasan uji penyetaraan modul praktikum koding laboratorium (+P).
+   - **Jika Memilih Peminatan P1:** Diakui sebagai `STA-601` (3 SKS) melalui skema **E2 (Diakui Bersyarat)** dengan menempuh penugasan uji penyetaraan modul praktikum koding laboratorium (+P).
    - **Jika Memilih Peminatan P2 atau P3:** Nilai `STI-317` (2 SKS) tetap sah diakui di transkrip akademik sebagai **Kredit Bebas Pilihan / Suplemen Sains Komputasi** sehingga mahasiswa tidak kehilangan hak kredit SKS yang telah ditempuh.
 2. Aturan ini adil, menjamin hak mahasiswa transisi, dan mematuhi Permendikbudristek No. 53 Tahun 2023 Pasal 24.
 
@@ -158,10 +158,10 @@ Berdasarkan Dokumen 024 (*Matriks Ekivalensi Kurikulum 2025 ke 2026*):
 
 ## 7. KESIMPULAN & REKOMENDASI TIM KURIKULUM
 
-1. **Sah dan Selaras Standar Asosiasi:** Penetapan `STA-02` sebagai mata kuliah pilihan peminatan P1 **100% konsisten dan tidak melanggar standar APTIKOM SI v2.0 maupun TI 2023**, karena kedua standar asosiasi tersebut memang tidak mewajibkan analisis numerik pada rumpun mata kuliah inti.
+1. **Sah dan Selaras Standar Asosiasi:** Penetapan `STA-601` sebagai mata kuliah pilihan peminatan P1 **100% konsisten dan tidak melanggar standar APTIKOM SI v2.0 maupun TI 2023**, karena kedua standar asosiasi tersebut memang tidak mewajibkan analisis numerik pada rumpun mata kuliah inti.
 2. **Kebutuhan Matematika Terpenuhi:** Seluruh lulusan SISTEKIN telah dibekali **10 SKS matematika wajib** yang kokoh (`STI-102`, `STI-204`, `STI-205`, `FST-408`).
 3. **Efisiensi Kurikulum Nasional:** Menghindarkan mahasiswa peminatan Cloud, Cyber, dan Platform dari beban komputasi numerik diferensial yang tidak relevan dengan profil karier mereka, sekaligus memberi ruang MBKM hingga 20 SKS di Semester 6 dan 7.
-4. **Keputusan Final:** Status `STA-02 Computational Methods and Numerics (+P)` **tetap dipertahankan sebagai Mata Kuliah Pilihan Peminatan 1 (Integrated Smart Systems) berbobot 3 SKS (+P) pada Semester 6**.
+4. **Keputusan Final:** Status `STA-601 Computational Methods and Numerics (+P)` **tetap dipertahankan sebagai Mata Kuliah Pilihan Peminatan 1 (Integrated Smart Systems) berbobot 3 SKS (+P) pada Semester 6**.
 
 ---
 *Dokumen ini merupakan bagian integral dari Naskah Buku Kurikulum OBE SISTEKIN 2026 FSTI Universitas Widyagama Malang.*

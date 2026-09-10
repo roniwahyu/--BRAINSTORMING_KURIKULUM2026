@@ -17,19 +17,19 @@ clean_part = """### 🌲 PILAR 1: AI, DATA SCIENCE & INTELLIGENT SYSTEMS (PL-1 &
 ```text
 [SEM 8]  FST-714 Skripsi / Tugas Akhir (Topik AI / Data Science / Intelligent Systems)
    │
-[SEM 7]  ├── STA-04 MLOps & AI Model Deployment (+P) ─────────┐
-         ├── STA-05 Natural Language Processing & LLM (+P) ────┤
-         ├── STA-06 Smart Surveillance & Vision Analytics ─────┤
+[SEM 7]  ├── STA-701 MLOps & AI Model Deployment (+P) ─────────┐
+         ├── STA-702 Natural Language Processing & LLM (+P) ────┤
+         ├── STA-703 Smart Surveillance & Vision Analytics ─────┤
          │                                                     │
 [SEM 6]  ├── STI-624 Integrasi Layanan Cerdas AI (+P) ─────────┤
-         ├── STA-03 Sistem Agen Cerdas & Multi-Agent (+P) ─────┤
-         ├── STA-02 Metode Komputasi Numerik Terapan (+P) ─────┤
+         ├── STA-602 Sistem Agen Cerdas & Multi-Agent (+P) ─────┤
+         ├── STA-601 Metode Komputasi Numerik Terapan (+P) ─────┤
          │                                                     │
 [SEM 5]  ├── STI-519 Deep Learning & Neural Networks (+P) ─────┴── STI-413 Machine Learning (+P) [SEM 4]
          │                                                           │
          ├── STI-520 Data Mining & Visualisasi Data (+P) ────────────┼── STI-415 Data Warehouse & BI [SEM 4]
          │                                                           │
-         ├── STA-01 Decision Support Systems (+P) ───────────────────┼── STI-414 Pengantar NLP & IR [SEM 4]
+         ├── STA-501 Decision Support Systems (+P) ───────────────────┼── STI-414 Pengantar NLP & IR [SEM 4]
          │                                                           │     │
 [SEM 4]  └── STI-413 Machine Learning (+P) ──────────────────────────┴─────┼── STI-307 Sistem Cerdas [SEM 3]
                │                                                           │     │
@@ -42,9 +42,9 @@ clean_part = """### 🌲 PILAR 1: AI, DATA SCIENCE & INTELLIGENT SYSTEMS (PL-1 &
 ```
 
 #### 🔍 Analisis Kritis & Justifikasi Pedagogis Pilar 1:
-1. **Peran Kunci `STI-414 Pengantar NLP & IR` (Sem 4):** Menjadi jembatan esensial untuk `STA-05 Conversational AI` (Sem 7) yang berbasis LLM/RAG. Tanpa fondasi tokenisasi, TF-IDF, vector space model, dan embedding di Sem 4, pemahaman generative AI di Sem 7 akan bersifat superficial.
+1. **Peran Kunci `STI-414 Pengantar NLP & IR` (Sem 4):** Menjadi jembatan esensial untuk `STA-702 Conversational AI` (Sem 7) yang berbasis LLM/RAG. Tanpa fondasi tokenisasi, TF-IDF, vector space model, dan embedding di Sem 4, pemahaman generative AI di Sem 7 akan bersifat superficial.
 2. **Keterpaduan Deep Learning & Machine Learning:** `STI-413 Machine Learning` (Sem 4) mengajarkan *classical tabular & loss minimization*, yang menjadi landasan wajib bagi `STI-519 Deep Learning` (Sem 5) yang memperdalam *backpropagation, CNN, RNN/LSTM, dan Attention Mechanism*.
-3. **MLOps sebagai Muara Rekayasa:** `STA-04 MLOps` (Sem 7) mensintesis model machine learning dengan containerization dan pipeline deployment (menghubungkan pilar AI dengan pilar Cloud/DevOps).
+3. **MLOps sebagai Muara Rekayasa:** `STA-701 MLOps` (Sem 7) mensintesis model machine learning dengan containerization dan pipeline deployment (menghubungkan pilar AI dengan pilar Cloud/DevOps).
 
 ---
 
@@ -53,16 +53,16 @@ clean_part = """### 🌲 PILAR 1: AI, DATA SCIENCE & INTELLIGENT SYSTEMS (PL-1 &
 ```text
 [SEM 8]  FST-714 Skripsi / Tugas Akhir (Topik Cloud Native & Cyber Resilience)
    │
-[SEM 7]  ├── STB-04 IT Governance & Compliance COBIT 2019 ────┐
-         ├── STB-05 Keamanan Cloud & Kriptografi Terapan ──────┤
-         ├── STB-06 Rekayasa Ketahanan Sistem & SRE (+P) ──────┤
+[SEM 7]  ├── STB-701 IT Governance & Compliance COBIT 2019 ────┐
+         ├── STB-702 Keamanan Cloud & Kriptografi Terapan ──────┤
+         ├── STB-703 Rekayasa Ketahanan Sistem & SRE (+P) ──────┤
          │                                                     │
-[SEM 6]  ├── STB-02 Cloud Architecture & DevOps (+P) ──────────┼── STI-417 Komputasi Awan (Cloud) [SEM 4]
-         ├── STB-03 Penetration Testing & Red Teaming (+P) ────┤     │
+[SEM 6]  ├── STB-601 Cloud Architecture & DevOps (+P) ──────────┼── STI-417 Komputasi Awan (Cloud) [SEM 4]
+         ├── STB-602 Penetration Testing & Red Teaming (+P) ────┤     │
          ├── STI-626 Keamanan Informasi Lanjut ────────────────┤     │
          │                                                     │     │
 [SEM 5]  ├── STI-521 Internet of Things (IoT) (+P) ────────────┼── STI-312 Jaringan Komputer [SEM 3]
-         ├── STB-01 Keamanan Jaringan & Forensik Digital ──────┤     │
+         ├── STB-501 Keamanan Jaringan & Forensik Digital ──────┤     │
          │                                                     │     │
 [SEM 4]  ├── STI-417 Komputasi Awan (Cloud Computing) ─────────┴─────┼── STI-310 Sistem Operasi [SEM 3]
          └── STI-418 Dasar Keamanan Informasi ───────────────────────┘     │
@@ -79,9 +79,9 @@ clean_part = """### 🌲 PILAR 1: AI, DATA SCIENCE & INTELLIGENT SYSTEMS (PL-1 &
 2. **Kematangan Bertahap Cyber Defense:** 
    * Sem 2: Regulasi & UU ITE (`FST-206`)
    * Sem 4: CIA Triad, Kripto Klasik, Risk (`STI-418`)
-   * Sem 5: Wireshark, Packet Inspection, Autopsy (`STB-01`)
-   * Sem 6: Ethical Hacking, OWASP Top 10, Kali Linux (`STB-03` & `STI-626`)
-   * Sem 7: Zero-Trust Cloud & GRC Enterprise (`STB-04` & `STB-05`).
+   * Sem 5: Wireshark, Packet Inspection, Autopsy (`STB-501`)
+   * Sem 6: Ethical Hacking, OWASP Top 10, Kali Linux (`STB-602` & `STI-626`)
+   * Sem 7: Zero-Trust Cloud & GRC Enterprise (`STB-701` & `STB-702`).
 
 ---
 

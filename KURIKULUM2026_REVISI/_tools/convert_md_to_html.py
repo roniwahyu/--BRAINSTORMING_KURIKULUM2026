@@ -41,7 +41,19 @@ DOC_FILES = [
     ("027_RENCANA_RESTRUKTURISASI_KODE_MK_CORE_STI_KONTINU.md", "027 — Rencana Aksi Restrukturisasi Kode Core STI Kontinu"),
     ("028_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_CORE_STI.md", "028 — Dev Report & Dev Log Restrukturisasi Kode Core STI"),
     ("029_TABEL_VERIFIKASI_KODE_MK_BARU.md", "029 — Tabel Verifikasi Kode MK Baru (Core STI Sem 1 & 3)"),
-    ("030_JUSTIFIKASI_AKADEMIS_DAN_BoK_STA02_COMPUTATIONAL_METHODS_SEBAGAI_MK_PILIHAN.md", "030 — Justifikasi Akademis & Audit BoK STA-02 Komputasi Numerik sebagai MK Pilihan"),
+    ("030_JUSTIFIKASI_AKADEMIS_DAN_BoK_STA02_COMPUTATIONAL_METHODS_SEBAGAI_MK_PILIHAN.md", "030 — Justifikasi Akademis & Audit BoK STA-601 Komputasi Numerik sebagai MK Pilihan"),
+    ("031_RENCANA_PENYUSUNAN_BUKU_KPT_APTIKOM_A-L.md", "031 — Rencana Penyusunan Buku KPT APTIKOM Bab A-L"),
+    ("032_MODALITAS_PEMBELAJARAN_KPT2024.md", "032 — Modalitas Pembelajaran KPT 2024"),
+    ("033_RUBRIK_HOLISTIK_DAN_SKALA_PERSEPSI.md", "033 — Rubrik Holistik & Skala Persepsi Asesmen"),
+    ("034_SEMBILAN_BENTUK_MBKM_DAN_REKOGNISI.md", "034 — Sembilan Bentuk MBKM & Skema Rekognisi SKS"),
+    ("035_RESTRUKTURISASI_KODE_MK_PEMINATAN_STA_STB_STC.md", "035 — Restrukturisasi Kode MK Peminatan (STA, STB, STC) Berbasis Semester"),
+    ("036_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_PEMINATAN.md", "036 — Dev Report & Dev Log Restrukturisasi Kode MK Peminatan"),
+    ("037_BOUNDARY_OF_TOPICS_DAN_MATRIKS_ANTI_OVERLAP_KURIKULUM.md", "037 — Boundary of Topics & Matriks Anti-Overlap Kurikulum"),
+    ("038_RENCANA_KONTEN_LAMPIRAN_BUKU_KPT.md", "038 — Rencana Konten Lampiran Buku KPT SISTEKIN 2026"),
+    ("039_LAMPIRAN_SIAP_BUKU_KPT_SISTEKIN_2026.md", "039 — Lampiran Siap Buku KPT SISTEKIN 2026"),
+    ("040_LAMPIRAN_RAKIT_BUKU_KPT.md", "040 — Lampiran Rakit Buku KPT SISTEKIN 2026"),
+    ("041_LAMPIRAN_BARU_BUKU_KPT.md", "041 — Lampiran Baru Buku KPT SISTEKIN 2026"),
+    ("042_LAPORAN_AUDIT_KESELARASAN_KURIKULUM_DAN_BOUNDARY_OF_TOPICS.md", "042 — Laporan Audit Mutu & Keselarasan Kurikulum vs Dokumen 005"),
     ("BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md", "📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)")
 ]
 

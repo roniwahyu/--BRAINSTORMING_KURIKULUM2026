@@ -90,12 +90,12 @@ Perubahan kode Core STI secara otomatis memicu pemutakhiran syarat prasyarat pad
 1. **MK Wajib Fakultas (FSTI):**
    * `FST-610 Capstone Project FSTI` (Sem 7): Prasyarat `STI-506` dimutakhirkan ke **`STI-523`** *Manajemen Proyek TI*.
 2. **MK Pilihan Peminatan (Elektif):**
-   * `STA-01 Decision Support Systems` (Sem 5): Prasyarat `STI-402` dimutakhirkan ke **`STI-415`** *Data Warehouse & BI*.
-   * `STB-01 Network Security & Digital Forensics` (Sem 5): Prasyarat `STI-307` dimutakhirkan ke **`STI-312`** *Jaringan Komputer*.
-   * `STB-02 Cloud Architecture & DevOps` (Sem 6): Prasyarat `STI-404` dimutakhirkan ke **`STI-417`** *Komputasi Awan*.
-   * `STC-01 UX Research & Design` (Sem 5): Prasyarat `STI-303` dimutakhirkan ke **`STI-308`** *UI/UX Design & Prototyping*.
-   * `STC-02 Rekayasa & Otomasi Proses Bisnis` (Sem 6): Prasyarat `STI-301` dimutakhirkan ke **`STI-306`** *Analisis dan Perancangan SI*.
-   * `STC-05 SaaS Architecture & Multi-Tenancy` (Sem 7): Prasyarat `STI-604` dimutakhirkan ke **`STI-627`** *Digital Platform Engineering*.
+   * `STA-501 Decision Support Systems` (Sem 5): Prasyarat `STI-402` dimutakhirkan ke **`STI-415`** *Data Warehouse & BI*.
+   * `STB-501 Network Security & Digital Forensics` (Sem 5): Prasyarat `STI-307` dimutakhirkan ke **`STI-312`** *Jaringan Komputer*.
+   * `STB-601 Cloud Architecture & DevOps` (Sem 6): Prasyarat `STI-404` dimutakhirkan ke **`STI-417`** *Komputasi Awan*.
+   * `STC-501 UX Research & Design` (Sem 5): Prasyarat `STI-303` dimutakhirkan ke **`STI-308`** *UI/UX Design & Prototyping*.
+   * `STC-601 Rekayasa & Otomasi Proses Bisnis` (Sem 6): Prasyarat `STI-301` dimutakhirkan ke **`STI-306`** *Analisis dan Perancangan SI*.
+   * `STC-702 SaaS Architecture & Multi-Tenancy` (Sem 7): Prasyarat `STI-604` dimutakhirkan ke **`STI-627`** *Digital Platform Engineering*.
 
 ---
 

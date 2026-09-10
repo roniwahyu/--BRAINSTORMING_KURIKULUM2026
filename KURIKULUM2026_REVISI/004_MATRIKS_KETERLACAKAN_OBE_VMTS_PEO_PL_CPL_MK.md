@@ -143,12 +143,12 @@ graph LR
 
 | No | Kode MK | Nama Mata Kuliah Pilihan P1 | SKS | Sem | CPL Dibina | PL Relevan | Target PEO | Status IRM |
 |:---:|:---:|---|:---:|:---:|---|:---:|:---:|:---:|
-| 1 | `STA-01` | Decision Support Systems | 3 | 5 | P2, KK1, KK2 | PL-1 | PEO-1, PEO-3 | **R** |
-| 2 | `STA-02` | Computational Methods and Numerics | 3 | 6 | P1, KK1 | PL-1 | PEO-1, PEO-3 | **M** |
-| 3 | `STA-03` | Intelligent Agent Systems | 3 | 6 | P2, KK1 | PL-1 | PEO-1, PEO-3 | **M** |
-| 4 | `STA-04` | MLOps and AI Pipeline | 3 | 7 | P4, KK1, KK2 | PL-1 | PEO-1, PEO-3 | **M** |
-| 5 | `STA-05` | Conversational AI & Intelligent Assistant | 3 | 7 | P2, KK1 | PL-1 | PEO-1, PEO-2 | **M** |
-| 6 | `STA-06` | Smart Surveillance and IoT Analytics | 3 | 7 | P3, KK1, KK3 | PL-1, PL-2 | PEO-1, PEO-3 | **M** |
+| 1 | `STA-501` | Decision Support Systems | 3 | 5 | P2, KK1, KK2 | PL-1 | PEO-1, PEO-3 | **R** |
+| 2 | `STA-601` | Computational Methods and Numerics | 3 | 6 | P1, KK1 | PL-1 | PEO-1, PEO-3 | **M** |
+| 3 | `STA-602` | Intelligent Agent Systems | 3 | 6 | P2, KK1 | PL-1 | PEO-1, PEO-3 | **M** |
+| 4 | `STA-701` | MLOps and AI Pipeline | 3 | 7 | P4, KK1, KK2 | PL-1 | PEO-1, PEO-3 | **M** |
+| 5 | `STA-702` | Conversational AI & Intelligent Assistant | 3 | 7 | P2, KK1 | PL-1 | PEO-1, PEO-2 | **M** |
+| 6 | `STA-703` | Smart Surveillance and IoT Analytics | 3 | 7 | P3, KK1, KK3 | PL-1, PL-2 | PEO-1, PEO-3 | **M** |
 
 ---
 
@@ -156,12 +156,12 @@ graph LR
 
 | No | Kode MK | Nama Mata Kuliah Pilihan P2 | SKS | Sem | CPL Dibina | PL Relevan | Target PEO | Status IRM |
 |:---:|:---:|---|:---:|:---:|---|:---:|:---:|:---:|
-| 1 | `STB-01` | Network Security & Digital Forensics | 3 | 5 | P3, KK3, KK4 | PL-2 | PEO-1, PEO-3 | **R** |
-| 2 | `STB-02` | Cloud Architecture & DevOps | 3 | 6 | P3, P4, KK3 | PL-2 | PEO-1, PEO-3 | **M** |
-| 3 | `STB-03` | Cybersecurity Risk Management | 3 | 6 | P3, KK4 | PL-2 | PEO-1 | **M** |
-| 4 | `STB-04` | IT Governance & Compliance (COBIT 2019) | 3 | 7 | P3, KK4 | PL-2, PL-4 | PEO-1, PEO-2 | **M** |
-| 5 | `STB-05` | IT Service Management (ITIL 4) | 3 | 7 | P2, KK4 | PL-2, PL-4 | PEO-1, PEO-2 | **M** |
-| 6 | `STB-06` | Enterprise Architecture (TOGAF) | 3 | 7 | P2, P3, KK4 | PL-2, PL-4 | PEO-1, PEO-2 | **M** |
+| 1 | `STB-501` | Network Security & Digital Forensics | 3 | 5 | P3, KK3, KK4 | PL-2 | PEO-1, PEO-3 | **R** |
+| 2 | `STB-601` | Cloud Architecture & DevOps | 3 | 6 | P3, P4, KK3 | PL-2 | PEO-1, PEO-3 | **M** |
+| 3 | `STB-602` | Cybersecurity Risk Management | 3 | 6 | P3, KK4 | PL-2 | PEO-1 | **M** |
+| 4 | `STB-701` | IT Governance & Compliance (COBIT 2019) | 3 | 7 | P3, KK4 | PL-2, PL-4 | PEO-1, PEO-2 | **M** |
+| 5 | `STB-702` | IT Service Management (ITIL 4) | 3 | 7 | P2, KK4 | PL-2, PL-4 | PEO-1, PEO-2 | **M** |
+| 6 | `STB-703` | Enterprise Architecture (TOGAF) | 3 | 7 | P2, P3, KK4 | PL-2, PL-4 | PEO-1, PEO-2 | **M** |
 
 ---
 
@@ -169,12 +169,12 @@ graph LR
 
 | No | Kode MK | Nama Mata Kuliah Pilihan P3 | SKS | Sem | CPL Dibina | PL Relevan | Target PEO | Status IRM |
 |:---:|:---:|---|:---:|:---:|---|:---:|:---:|:---:|
-| 1 | `STC-01` | User Experience Research & Design | 3 | 5 | P4, KK5 | PL-3 | PEO-1, PEO-2 | **R** |
-| 2 | `STC-02` | Rekayasa & Otomasi Proses Bisnis (BPA) | 3 | 6 | P2, P4, KK5 | PL-3 | PEO-1, PEO-2 | **M** |
-| 3 | `STC-03` | Rekayasa Aplikasi Industri Vertikal | 3 | 6 | P4, KK5 | PL-3 | PEO-1, PEO-2 | **M** |
-| 4 | `STC-04` | Immersive Media & XR Development | 3 | 7 | P4, KK5 | PL-3 | PEO-1, PEO-3 | **M** |
-| 5 | `STC-05` | SaaS Architecture & Multi-Tenancy | 3 | 7 | P4, KK5 | PL-3 | PEO-1, PEO-2 | **M** |
-| 6 | `STC-06` | Digital Product Management & Agile | 3 | 7 | P2, KK6 | PL-3, PL-4 | PEO-1, PEO-2 | **M** |
+| 1 | `STC-501` | User Experience Research & Design | 3 | 5 | P4, KK5 | PL-3 | PEO-1, PEO-2 | **R** |
+| 2 | `STC-601` | Rekayasa & Otomasi Proses Bisnis (BPA) | 3 | 6 | P2, P4, KK5 | PL-3 | PEO-1, PEO-2 | **M** |
+| 3 | `STC-602` | Rekayasa Aplikasi Industri Vertikal | 3 | 6 | P4, KK5 | PL-3 | PEO-1, PEO-2 | **M** |
+| 4 | `STC-701` | Immersive Media & XR Development | 3 | 7 | P4, KK5 | PL-3 | PEO-1, PEO-3 | **M** |
+| 5 | `STC-702` | SaaS Architecture & Multi-Tenancy | 3 | 7 | P4, KK5 | PL-3 | PEO-1, PEO-2 | **M** |
+| 6 | `STC-703` | Digital Product Management & Agile | 3 | 7 | P2, KK6 | PL-3, PL-4 | PEO-1, PEO-2 | **M** |
 
 ---
 
@@ -214,25 +214,25 @@ Matriks ini memetakan relasi langsung antara 21 Bahan Kajian Standar APTIKOM SI 
 | Kode BoK IS | Nomenklatur Bahan Kajian IS2020 | Mata Kuliah Pembina Primer (●) | Mata Kuliah Pembina Sekunder (○) | Total MK | Status Cakupan |
 |---|---|---|---|:---:|:---:|
 | **BK-IS01** | *Foundations of Information Systems* | `STI-101`, `FST-101` | `STI-306` | 3 MK | ✅ Sangat Kuat |
-| **BK-IS02** | *Data and Information Management* | `FST-207`, `STI-415`, `STI-520` | `STA-01`, `STA-04` | 5 MK | ✅ Sangat Kuat |
-| **BK-IS03** | *IT Infrastructure and Networking* | `STI-103`, `STI-312`, `STI-417`, `STI-310` | `STB-01`, `STB-02`, `STI-521` | 7 MK | ✅ Sangat Kuat |
-| **BK-IS04** | *Enterprise Architecture* | `STB-06` | `STI-306`, `STI-627` | 3 MK | ✅ Terpenuhi |
-| **BK-IS05** | *IS Management and Governance* | `STB-04`, `STB-05` | `STI-523`, `STB-03` | 4 MK | ✅ Terpenuhi |
-| **BK-IS06** | *Information Security and Risk Management* | `STI-418`, `STI-519`, `STB-01`, `STB-03` | `FST-206` | 5 MK | ✅ Sangat Kuat |
-| **BK-IS07** | *Systems Analysis and Design* | `STI-306`, `STI-309` | `FST-610`, `STC-02` | 4 MK | ✅ Sangat Kuat |
-| **BK-IS08** | *Project Management* | `STI-523`, `STC-06` | `FST-610`, `FST-612` | 4 MK | ✅ Sangat Kuat |
-| **BK-IS09** | *Business Process Management* | `STC-02` | `STI-306`, `STI-625` | 3 MK | ✅ Terpenuhi |
-| **BK-IS10** | *Applied Mathematics and Logic* | `STI-102`, `STI-204`, `STI-205`, `FST-408` | `STA-02` | 5 MK | ✅ Sangat Kuat |
+| **BK-IS02** | *Data and Information Management* | `FST-207`, `STI-415`, `STI-520` | `STA-501`, `STA-701` | 5 MK | ✅ Sangat Kuat |
+| **BK-IS03** | *IT Infrastructure and Networking* | `STI-103`, `STI-312`, `STI-417`, `STI-310` | `STB-501`, `STB-601`, `STI-521` | 7 MK | ✅ Sangat Kuat |
+| **BK-IS04** | *Enterprise Architecture* | `STB-703` | `STI-306`, `STI-627` | 3 MK | ✅ Terpenuhi |
+| **BK-IS05** | *IS Management and Governance* | `STB-701`, `STB-702` | `STI-523`, `STB-602` | 4 MK | ✅ Terpenuhi |
+| **BK-IS06** | *Information Security and Risk Management* | `STI-418`, `STI-519`, `STB-501`, `STB-602` | `FST-206` | 5 MK | ✅ Sangat Kuat |
+| **BK-IS07** | *Systems Analysis and Design* | `STI-306`, `STI-309` | `FST-610`, `STC-601` | 4 MK | ✅ Sangat Kuat |
+| **BK-IS08** | *Project Management* | `STI-523`, `STC-703` | `FST-610`, `FST-612` | 4 MK | ✅ Sangat Kuat |
+| **BK-IS09** | *Business Process Management* | `STC-601` | `STI-306`, `STI-625` | 3 MK | ✅ Terpenuhi |
+| **BK-IS10** | *Applied Mathematics and Logic* | `STI-102`, `STI-204`, `STI-205`, `FST-408` | `STA-601` | 5 MK | ✅ Sangat Kuat |
 | **BK-IS11** | *Programming Fundamentals & OOP* | `FST-102`, `FST-203`, `FST-205` | `STI-311`, `STI-416` | 5 MK | ✅ Sangat Kuat |
-| **BK-IS12** | *Web and Mobile App Development* | `STI-311`, `STI-416`, `STI-522`, `STI-627` | `STC-03`, `STC-05` | 6 MK | ✅ Sangat Kuat |
-| **BK-IS13** | *Data Analytics and Business Intelligence* | `STI-415`, `STI-520`, `STA-01` | `STI-413`, `STA-04` | 5 MK | ✅ Sangat Kuat |
-| **BK-IS14** | *IT Audit and Compliance* | `STB-04`, `STB-03` | `FST-206`, `STB-05` | 4 MK | ✅ Terpenuhi |
-| **BK-IS15** | *Digital Innovation and Entrepreneurship* | `MKU-204`, `STI-728`, `FST-610` | `STC-06` | 4 MK | ✅ Sangat Kuat |
-| **BK-IS16** | *Artificial Intelligence & Intelligent Systems*| `STI-307`, `STI-414`, `STI-624`, `STA-03`, `STA-05` | `STI-413`, `STA-06` | 7 MK | ✅ Sangat Kuat |
-| **BK-IS17** | *Human-Computer Interaction & UX* | `STI-308`, `STC-01` | `STI-311`, `STI-522` | 4 MK | ✅ Sangat Kuat |
-| **BK-IS18** | *Machine Learning and Data Science* | `STI-413`, `STI-626`, `STA-04` | `STA-02`, `STA-06` | 5 MK | ✅ Sangat Kuat |
-| **BK-IS19** | *Cloud Architecture & DevOps* | `STI-417`, `STB-02` | `STI-627`, `STC-05` | 4 MK | ✅ Sangat Kuat |
-| **BK-IS20** | *Ethics, Use and Implications for Society* | `FST-206` | `STI-418`, `STI-625`, `STB-04` | 4 MK | ✅ Terpenuhi |
+| **BK-IS12** | *Web and Mobile App Development* | `STI-311`, `STI-416`, `STI-522`, `STI-627` | `STC-602`, `STC-702` | 6 MK | ✅ Sangat Kuat |
+| **BK-IS13** | *Data Analytics and Business Intelligence* | `STI-415`, `STI-520`, `STA-501` | `STI-413`, `STA-701` | 5 MK | ✅ Sangat Kuat |
+| **BK-IS14** | *IT Audit and Compliance* | `STB-701`, `STB-602` | `FST-206`, `STB-702` | 4 MK | ✅ Terpenuhi |
+| **BK-IS15** | *Digital Innovation and Entrepreneurship* | `MKU-204`, `STI-728`, `FST-610` | `STC-703` | 4 MK | ✅ Sangat Kuat |
+| **BK-IS16** | *Artificial Intelligence & Intelligent Systems*| `STI-307`, `STI-414`, `STI-624`, `STA-602`, `STA-702` | `STI-413`, `STA-703` | 7 MK | ✅ Sangat Kuat |
+| **BK-IS17** | *Human-Computer Interaction & UX* | `STI-308`, `STC-501` | `STI-311`, `STI-522` | 4 MK | ✅ Sangat Kuat |
+| **BK-IS18** | *Machine Learning and Data Science* | `STI-413`, `STI-626`, `STA-701` | `STA-601`, `STA-703` | 5 MK | ✅ Sangat Kuat |
+| **BK-IS19** | *Cloud Architecture & DevOps* | `STI-417`, `STB-601` | `STI-627`, `STC-702` | 4 MK | ✅ Sangat Kuat |
+| **BK-IS20** | *Ethics, Use and Implications for Society* | `FST-206` | `STI-418`, `STI-625`, `STB-701` | 4 MK | ✅ Terpenuhi |
 | **BK-IS21** | *Internship and Professional Practice* | `FST-612` | `MKU-507`, `FST-610` | 3 MK | ✅ Terpenuhi |
 
 > [!NOTE]
@@ -245,19 +245,19 @@ Matriks ini memetakan relasi langsung antara 21 Bahan Kajian Standar APTIKOM SI 
 | Kode BoK IT | Nomenklatur Bahan Kajian Utama IT2017 | Mata Kuliah Pembina Primer (●) | Mata Kuliah Pembina Sekunder (○) | Total MK | Status Cakupan |
 |---|---|---|---|:---:|:---:|
 | **BK-IT01** | *Information Technology Fundamentals* | `FST-101`, `STI-101` | `FST-204` | 3 MK | ✅ Sangat Kuat |
-| **BK-IT02** | *Applied AI & Intelligent Technologies* | `STI-307`, `STI-413`, `STI-414`, `STI-626`, `STI-624` | `STA-03..06` | 9 MK | ✅ Sangat Kuat |
-| **BK-IT03** | *Networking & Communications* | `STI-312` | `STI-417`, `STI-521`, `STB-01` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT04** | *Platform Technologies & Web/Mobile* | `STI-311`, `STI-416`, `STI-522`, `STI-627` | `STC-03..05` | 7 MK | ✅ Sangat Kuat |
-| **BK-IT05** | *Cloud Computing & Virtualization* | `STI-417`, `STB-02` | `STI-310`, `STC-05` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT06** | *Cybersecurity Principles & Defense* | `STI-418`, `STI-519`, `STB-01` | `STB-03` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT07** | *System Integration and Architecture* | `STI-624`, `STI-627`, `FST-610` | `STB-06`, `STC-02` | 5 MK | ✅ Sangat Kuat |
-| **BK-IT08** | *IT Service Management & Governance* | `STB-04`, `STB-05` | `STI-523` | 3 MK | ✅ Terpenuhi |
-| **BK-IT09** | *Data Analytics & Information Visualization*| `STI-415`, `STI-520` | `STA-01`, `STA-04` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT10** | *User Experience & Interaction Design* | `STI-308`, `STC-01` | `STI-311`, `STC-04` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT11** | *Software Development Practices* | `STI-309`, `STI-416`, `STI-627` | `FST-205`, `STC-05` | 5 MK | ✅ Sangat Kuat |
-| **BK-IT12** | *IT Risk Management and Compliance* | `STB-03`, `STB-04` | `FST-206` | 3 MK | ✅ Terpenuhi |
-| **BK-IT13** | *Technology Entrepreneurship* | `MKU-204`, `STI-728`, `FST-610` | `STC-06` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT14** | *IoT and Embedded Smart Systems* | `STI-521`, `STA-06` | `STI-310`, `STI-312` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT02** | *Applied AI & Intelligent Technologies* | `STI-307`, `STI-413`, `STI-414`, `STI-626`, `STI-624` | `STA-602, STA-701..703` | 9 MK | ✅ Sangat Kuat |
+| **BK-IT03** | *Networking & Communications* | `STI-312` | `STI-417`, `STI-521`, `STB-501` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT04** | *Platform Technologies & Web/Mobile* | `STI-311`, `STI-416`, `STI-522`, `STI-627` | `STC-602, STC-701..702` | 7 MK | ✅ Sangat Kuat |
+| **BK-IT05** | *Cloud Computing & Virtualization* | `STI-417`, `STB-601` | `STI-310`, `STC-702` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT06** | *Cybersecurity Principles & Defense* | `STI-418`, `STI-519`, `STB-501` | `STB-602` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT07** | *System Integration and Architecture* | `STI-624`, `STI-627`, `FST-610` | `STB-703`, `STC-601` | 5 MK | ✅ Sangat Kuat |
+| **BK-IT08** | *IT Service Management & Governance* | `STB-701`, `STB-702` | `STI-523` | 3 MK | ✅ Terpenuhi |
+| **BK-IT09** | *Data Analytics & Information Visualization*| `STI-415`, `STI-520` | `STA-501`, `STA-701` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT10** | *User Experience & Interaction Design* | `STI-308`, `STC-501` | `STI-311`, `STC-701` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT11** | *Software Development Practices* | `STI-309`, `STI-416`, `STI-627` | `FST-205`, `STC-702` | 5 MK | ✅ Sangat Kuat |
+| **BK-IT12** | *IT Risk Management and Compliance* | `STB-602`, `STB-701` | `FST-206` | 3 MK | ✅ Terpenuhi |
+| **BK-IT13** | *Technology Entrepreneurship* | `MKU-204`, `STI-728`, `FST-610` | `STC-703` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT14** | *IoT and Embedded Smart Systems* | `STI-521`, `STA-703` | `STI-310`, `STI-312` | 4 MK | ✅ Sangat Kuat |
 | **BK-IT15** | *Global Professional Practice* | `FST-205`, `FST-612` | `FST-206`, `MKU-507` | 4 MK | ✅ Terpenuhi |
 
 > [!NOTE]

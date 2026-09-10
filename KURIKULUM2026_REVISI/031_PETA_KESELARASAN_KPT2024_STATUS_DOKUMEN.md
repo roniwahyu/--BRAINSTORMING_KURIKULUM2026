@@ -108,7 +108,7 @@ Menandai peran setiap file terhadap butir KPT 2024 dan status keselarasannya.
 | 025 | Rekomendasi MK peminatan 2027 | (di luar butir KPT) | — pendukung |
 | 026 | Analisis MK dihapus & pengganti | II (pendukung ekivalensi) | — pendukung |
 | 027–029 | Restrukturisasi & verifikasi kode MK | VII (pendukung) | — pendukung |
-| 030 | Justifikasi STA-02 sebagai MK pilihan | VI, VII (pendukung) | — pendukung |
+| 030 | Justifikasi STA-601 sebagai MK pilihan | VI, VII (pendukung) | — pendukung |
 
 ---
 

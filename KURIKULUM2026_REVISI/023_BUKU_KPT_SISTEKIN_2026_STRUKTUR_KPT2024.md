@@ -510,9 +510,9 @@ Penataan kunci yang menjadi konsensus final:
 
 | Kode | Peminatan | Beban | Sebaran |
 |:---:|---|:---:|---|
-| **P1** | Integrated Smart Systems (`STA-01`–`STA-06`) | 6 MK / 18 SKS | 1 MK Sem 5, 2 MK Sem 6, 3 MK Sem 7 |
-| **P2** | Cloud Infrastructure & Cybersecurity (`STB-01`–`STB-06`) | 6 MK / 18 SKS | idem |
-| **P3** | Digital Platform Engineering (`STC-01`–`STC-06`) | 6 MK / 18 SKS | idem |
+| **P1** | Integrated Smart Systems (`STA-501`–`STA-703`) | 6 MK / 18 SKS | 1 MK Sem 5, 2 MK Sem 6, 3 MK Sem 7 |
+| **P2** | Cloud Infrastructure & Cybersecurity (`STB-501`–`STB-703`) | 6 MK / 18 SKS | idem |
+| **P3** | Digital Platform Engineering (`STC-501`–`STC-703`) | 6 MK / 18 SKS | idem |
 
 Mahasiswa menempuh **satu paket peminatan penuh**. Rincian: Dokumen 005 §4, Dokumen 006.
 

@@ -151,26 +151,26 @@
 | 48 | STI-627 | Digital Platform Engineering (+P) | 6 | 3 |  |  |  |  |  |  |  | V |  |  |  |  | V |  | 2 |
 | 49 | STI-728 | Inovasi Teknologi & Startup Digital (+P) | 7 | 3 |  |  |  |  |  |  |  |  |  |  |  |  |  | V | 1 |
 | D. MK PILIHAN P1: INTEGRATED SMART SYSTEMS (6 MK / 18 SKS) | | | | | | | | | | | | | | | | | | | |
-| 50 | STA-01 | Decision Support Systems (+P) | 5-7 | 3 |  |  |  |  |  | V |  |  | V |  |  |  |  |  | 2 |
-| 51 | STA-02 | Computational Methods & Numerics (+P) | 5-7 | 3 |  |  |  |  | V |  |  |  |  | V |  |  |  |  | 2 |
-| 52 | STA-03 | Intelligent Agent Systems (+P) | 5-7 | 3 |  |  |  |  |  |  |  |  | V |  |  |  |  |  | 1 |
-| 53 | STA-04 | MLOps and AI Pipeline (+P) | 5-7 | 3 |  |  |  |  |  |  |  |  | V | V |  |  |  |  | 2 |
-| 54 | STA-05 | Conversational AI & Intelligent Assistant (+P) | 5-7 | 3 |  |  |  |  |  |  |  |  | V |  |  |  |  |  | 1 |
-| 55 | STA-06 | Smart Surveillance & IoT Analytics (+P) | 5-7 | 3 |  |  |  |  |  |  |  |  | V |  | V |  |  |  | 2 |
+| 50 | STA-501 | Decision Support Systems (+P) | 5-7 | 3 |  |  |  |  |  | V |  |  | V |  |  |  |  |  | 2 |
+| 51 | STA-601 | Computational Methods & Numerics (+P) | 5-7 | 3 |  |  |  |  | V |  |  |  |  | V |  |  |  |  | 2 |
+| 52 | STA-602 | Intelligent Agent Systems (+P) | 5-7 | 3 |  |  |  |  |  |  |  |  | V |  |  |  |  |  | 1 |
+| 53 | STA-701 | MLOps and AI Pipeline (+P) | 5-7 | 3 |  |  |  |  |  |  |  |  | V | V |  |  |  |  | 2 |
+| 54 | STA-702 | Conversational AI & Intelligent Assistant (+P) | 5-7 | 3 |  |  |  |  |  |  |  |  | V |  |  |  |  |  | 1 |
+| 55 | STA-703 | Smart Surveillance & IoT Analytics (+P) | 5-7 | 3 |  |  |  |  |  |  |  |  | V |  | V |  |  |  | 2 |
 | E. MK PILIHAN P2: CLOUD INFRASTRUCTURE & CYBERSECURITY (6 MK / 18 SKS) | | | | | | | | | | | | | | | | | | | |
-| 56 | STB-01 | Network Security & Digital Forensics (+P) | 5-7 | 3 |  |  |  |  |  |  | V |  |  |  | V | V |  |  | 3 |
-| 57 | STB-02 | Cloud Architecture & DevOps (+P) | 5-7 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
-| 58 | STB-03 | Cybersecurity Risk Management | 5-7 | 3 |  |  |  |  |  |  |  |  |  |  | V | V |  |  | 2 |
-| 59 | STB-04 | IT Governance & Compliance (COBIT 2019) | 5-7 | 3 |  |  |  |  |  |  |  |  |  |  |  | V |  |  | 1 |
-| 60 | STB-05 | IT Service Management (ITIL 4) | 5-7 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
-| 61 | STB-06 | Enterprise Architecture (TOGAF) | 5-7 | 3 |  |  |  |  |  |  | V |  |  |  |  | V |  |  | 2 |
+| 56 | STB-501 | Network Security & Digital Forensics (+P) | 5-7 | 3 |  |  |  |  |  |  | V |  |  |  | V | V |  |  | 3 |
+| 57 | STB-601 | Cloud Architecture & DevOps (+P) | 5-7 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
+| 58 | STB-602 | Cybersecurity Risk Management | 5-7 | 3 |  |  |  |  |  |  |  |  |  |  | V | V |  |  | 2 |
+| 59 | STB-701 | IT Governance & Compliance (COBIT 2019) | 5-7 | 3 |  |  |  |  |  |  |  |  |  |  |  | V |  |  | 1 |
+| 60 | STB-702 | IT Service Management (ITIL 4) | 5-7 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
+| 61 | STB-703 | Enterprise Architecture (TOGAF) | 5-7 | 3 |  |  |  |  |  |  | V |  |  |  |  | V |  |  | 2 |
 | F. MK PILIHAN P3: DIGITAL PLATFORM ENGINEERING (6 MK / 18 SKS) | | | | | | | | | | | | | | | | | | | |
-| 62 | STC-01 | User Experience Research & Design (+P) | 5-7 | 3 |  |  |  |  |  |  |  |  |  |  |  |  | V |  | 1 |
-| 63 | STC-02 | Rekayasa & Otomasi Proses Bisnis (+P) | 5-7 | 3 |  |  |  |  |  |  |  |  |  |  |  |  | V |  | 1 |
-| 64 | STC-03 | Rekayasa Aplikasi Industri Vertikal (+P) | 5-7 | 3 |  |  |  |  |  |  |  |  |  |  |  |  | V |  | 1 |
-| 65 | STC-04 | Immersive Media & XR Development (+P) | 5-7 | 3 |  |  |  |  |  |  |  |  |  |  |  |  | V |  | 1 |
-| 66 | STC-05 | SaaS Architecture & Multi-Tenancy (+P) | 5-7 | 3 |  |  |  |  |  |  |  |  |  |  |  |  | V |  | 1 |
-| 67 | STC-06 | Digital Product Management & Agile | 5-7 | 3 |  |  |  |  |  |  |  |  |  |  |  |  |  | V | 1 |
+| 62 | STC-501 | User Experience Research & Design (+P) | 5-7 | 3 |  |  |  |  |  |  |  |  |  |  |  |  | V |  | 1 |
+| 63 | STC-601 | Rekayasa & Otomasi Proses Bisnis (+P) | 5-7 | 3 |  |  |  |  |  |  |  |  |  |  |  |  | V |  | 1 |
+| 64 | STC-602 | Rekayasa Aplikasi Industri Vertikal (+P) | 5-7 | 3 |  |  |  |  |  |  |  |  |  |  |  |  | V |  | 1 |
+| 65 | STC-701 | Immersive Media & XR Development (+P) | 5-7 | 3 |  |  |  |  |  |  |  |  |  |  |  |  | V |  | 1 |
+| 66 | STC-702 | SaaS Architecture & Multi-Tenancy (+P) | 5-7 | 3 |  |  |  |  |  |  |  |  |  |  |  |  | V |  | 1 |
+| 67 | STC-703 | Digital Product Management & Agile | 5-7 | 3 |  |  |  |  |  |  |  |  |  |  |  |  |  | V | 1 |
 | Jumlah MK Pendukung tiap CPL | | | | | 9 | 12 | 11 | 6 | 9 | 15 | 12 | 12 | 11 | 7 | 12 | 7 | 14 | 8 | Seluruh 14 CPL dicakup minimal 1 MK |
 
 ---
@@ -384,11 +384,11 @@
 | P3 | Infrastruktur TI & keamanan | 12 | STI-521 IoT, STI-625 Smart City, STI-519 Keamanan Lanjut, FST-714 Skripsi | 70 |  | Belum ada data |
 | P4 | Platform digital & pengembangan aplikasi | 12 | STI-522 Mobile, STI-627 Platform Eng, FST-714 Skripsi | 70 |  | Belum ada data |
 | KK1 | AI/ML integration ke SI bisnis | 11 | STI-626 Deep Learning, STI-624 Integrasi AI, FST-610 Capstone | 75 |  | Belum ada data |
-| KK2 | Data engineering & ML pipeline | 7 | STI-626 Deep Learning, STI-520 Data Mining, STA-04 MLOps | 75 |  | Belum ada data |
-| KK3 | Cloud, IoT & infrastruktur terintegrasi | 12 | STI-521 IoT, STI-625 Smart City, STB-02 Cloud DevOps, FST-714 Skripsi | 75 |  | Belum ada data |
-| KK4 | Audit, GRC & tata kelola TI | 7 | STI-519 Keamanan Lanjut, STB-04 COBIT, FST-612 PKL | 70 |  | Belum ada data |
-| KK5 | Platform digital skalabel & UI/UX | 14 | STI-308 UI/UX, STI-522 Mobile, STI-627 Platform Eng, STC-01 UXR, FST-610 Capstone | 75 |  | Belum ada data |
-| KK6 | Manajemen proyek & technopreneurship | 8 | STI-523 Manpro, STI-728 Startup, STC-06 Digital Product Mgmt | 75 |  | Belum ada data |
+| KK2 | Data engineering & ML pipeline | 7 | STI-626 Deep Learning, STI-520 Data Mining, STA-701 MLOps | 75 |  | Belum ada data |
+| KK3 | Cloud, IoT & infrastruktur terintegrasi | 12 | STI-521 IoT, STI-625 Smart City, STB-601 Cloud DevOps, FST-714 Skripsi | 75 |  | Belum ada data |
+| KK4 | Audit, GRC & tata kelola TI | 7 | STI-519 Keamanan Lanjut, STB-701 COBIT, FST-612 PKL | 70 |  | Belum ada data |
+| KK5 | Platform digital skalabel & UI/UX | 14 | STI-308 UI/UX, STI-522 Mobile, STI-627 Platform Eng, STC-501 UXR, FST-610 Capstone | 75 |  | Belum ada data |
+| KK6 | Manajemen proyek & technopreneurship | 8 | STI-523 Manpro, STI-728 Startup, STC-703 Digital Product Mgmt | 75 |  | Belum ada data |
 
 ---
 

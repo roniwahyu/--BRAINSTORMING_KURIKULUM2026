@@ -5,8 +5,8 @@ Script swap definitif:
    - Keamanan Informasi Lanjut: dari Sem 6 (lama STI-626) -> Sem 5 (baru STI-519)
 2. Sesuaikan prasyarat:
    - STI-624 (Sem 6): prasyarat menjadi STI-413 & STI-416 (karena DL sekarang satu semester di Sem 6)
-   - STA-04, STA-05, STA-06 (Sem 7): prasyarat DL merujuk STI-626
-   - STB-05 (Sem 7): prasyarat Keamanan Lanjut merujuk STI-519
+   - STA-701, STA-702, STA-703 (Sem 7): prasyarat DL merujuk STI-626
+   - STB-702 (Sem 7): prasyarat Keamanan Lanjut merujuk STI-519
 3. Sesuaikan dokumen 024 (matriks ekivalensi):
    - STI-634 asal K2025 memetakan ke STI-626 (Sem 6, E2)
    - Sem 5 K2026: memiliki STI-519 (Wajib Tempuh, defisit 3 SKS)
@@ -132,17 +132,17 @@ def swap_syllabus_sections(filepath):
         "| **Prasyarat Akademik** | `STI-519` Deep Learning & Neural Networks |",
         "| **Prasyarat Akademik** | `STI-413` Machine Learning & `STI-416` Web Back End Development |"
     )
-    # STA-04
+    # STA-701
     content = content.replace(
         "| **Prasyarat Akademik** | `STI-519` Deep Learning & `STI-417` Komputasi Awan |",
         "| **Prasyarat Akademik** | `STI-626` Deep Learning & `STI-417` Komputasi Awan |"
     )
-    # STA-05
+    # STA-702
     content = content.replace(
         "| **Prasyarat Akademik** | `STI-519` Deep Learning & Neural Networks |",
         "| **Prasyarat Akademik** | `STI-414` Pengantar NLP & IR & `STI-626` Deep Learning |"
     )
-    # STA-06
+    # STA-703
     content = content.replace(
         "| **Prasyarat Akademik** | `STI-519` Deep Learning & `STI-521` IoT |",
         "| **Prasyarat Akademik** | `STI-626` Deep Learning & `STI-521` IoT |"
@@ -208,20 +208,20 @@ c004 = c004.replace(
 
 # BoK mapping in Section 3
 c004 = c004.replace(
-    "| **BK-IS18** | *Machine Learning and Data Science* | `STI-413`, `STI-519`, `STA-04` | `STA-02`, `STA-06` | 5 MK | ✅ Sangat Kuat |",
-    "| **BK-IS18** | *Machine Learning and Data Science* | `STI-413`, `STI-626`, `STA-04` | `STA-02`, `STA-06` | 5 MK | ✅ Sangat Kuat |"
+    "| **BK-IS18** | *Machine Learning and Data Science* | `STI-413`, `STI-519`, `STA-701` | `STA-601`, `STA-703` | 5 MK | ✅ Sangat Kuat |",
+    "| **BK-IS18** | *Machine Learning and Data Science* | `STI-413`, `STI-626`, `STA-701` | `STA-601`, `STA-703` | 5 MK | ✅ Sangat Kuat |"
 )
 c004 = c004.replace(
-    "| **BK-IT02** | *Applied AI & Intelligent Technologies* | `STI-307`, `STI-413`, `STI-414`, `STI-519`, `STI-624` | `STA-03..06` | 9 MK | ✅ Sangat Kuat |",
-    "| **BK-IT02** | *Applied AI & Intelligent Technologies* | `STI-307`, `STI-413`, `STI-414`, `STI-626`, `STI-624` | `STA-03..06` | 9 MK | ✅ Sangat Kuat |"
+    "| **BK-IT02** | *Applied AI & Intelligent Technologies* | `STI-307`, `STI-413`, `STI-414`, `STI-519`, `STI-624` | `STA-602, STA-701..703` | 9 MK | ✅ Sangat Kuat |",
+    "| **BK-IT02** | *Applied AI & Intelligent Technologies* | `STI-307`, `STI-413`, `STI-414`, `STI-626`, `STI-624` | `STA-602, STA-701..703` | 9 MK | ✅ Sangat Kuat |"
 )
 c004 = c004.replace(
-    "| **BK-IS06** | *Information Security and Risk Management* | `STI-418`, `STI-626`, `STB-01`, `STB-03` | `FST-206` | 5 MK | ✅ Sangat Kuat |",
-    "| **BK-IS06** | *Information Security and Risk Management* | `STI-418`, `STI-519`, `STB-01`, `STB-03` | `FST-206` | 5 MK | ✅ Sangat Kuat |"
+    "| **BK-IS06** | *Information Security and Risk Management* | `STI-418`, `STI-626`, `STB-501`, `STB-602` | `FST-206` | 5 MK | ✅ Sangat Kuat |",
+    "| **BK-IS06** | *Information Security and Risk Management* | `STI-418`, `STI-519`, `STB-501`, `STB-602` | `FST-206` | 5 MK | ✅ Sangat Kuat |"
 )
 c004 = c004.replace(
-    "| **BK-IT06** | *Cybersecurity Principles & Defense* | `STI-418`, `STI-626`, `STB-01` | `STB-03` | 4 MK | ✅ Sangat Kuat |",
-    "| **BK-IT06** | *Cybersecurity Principles & Defense* | `STI-418`, `STI-519`, `STB-01` | `STB-03` | 4 MK | ✅ Sangat Kuat |"
+    "| **BK-IT06** | *Cybersecurity Principles & Defense* | `STI-418`, `STI-626`, `STB-501` | `STB-602` | 4 MK | ✅ Sangat Kuat |",
+    "| **BK-IT06** | *Cybersecurity Principles & Defense* | `STI-418`, `STI-519`, `STB-501` | `STB-602` | 4 MK | ✅ Sangat Kuat |"
 )
 
 # IKU 7 Table (Section 4)
@@ -314,12 +314,12 @@ c011 = c011.replace(
     "| KK1 | AI/ML integration ke SI bisnis | 11 | STI-626 Deep Learning, STI-624 Integrasi AI, FST-610 Capstone |"
 )
 c011 = c011.replace(
-    "| KK2 | Data engineering & ML pipeline | 7 | STI-519 Deep Learning, STI-520 Data Mining, STA-04 MLOps |",
-    "| KK2 | Data engineering & ML pipeline | 7 | STI-626 Deep Learning, STI-520 Data Mining, STA-04 MLOps |"
+    "| KK2 | Data engineering & ML pipeline | 7 | STI-519 Deep Learning, STI-520 Data Mining, STA-701 MLOps |",
+    "| KK2 | Data engineering & ML pipeline | 7 | STI-626 Deep Learning, STI-520 Data Mining, STA-701 MLOps |"
 )
 c011 = c011.replace(
-    "| KK4 | Audit, GRC & tata kelola TI | 7 | STI-626 Keamanan Lanjut, STB-04 COBIT, FST-612 PKL |",
-    "| KK4 | Audit, GRC & tata kelola TI | 7 | STI-519 Keamanan Lanjut, STB-04 COBIT, FST-612 PKL |"
+    "| KK4 | Audit, GRC & tata kelola TI | 7 | STI-626 Keamanan Lanjut, STB-701 COBIT, FST-612 PKL |",
+    "| KK4 | Audit, GRC & tata kelola TI | 7 | STI-519 Keamanan Lanjut, STB-701 COBIT, FST-612 PKL |"
 )
 
 with open(f011, "w", encoding="utf-8") as f:
@@ -347,36 +347,36 @@ c012 = c012.replace(
     "         ├── STI-519 Keamanan Informasi Lanjut ────────────────┤     │"
 )
 c012 = c012.replace(
-    "   * Sem 6: Ethical Hacking, OWASP Top 10, Kali Linux (`STB-03` & `STI-626`)",
-    "   * Sem 5: Keamanan Lanjut (`STI-519`), Sem 6: Ethical Hacking (`STB-03`)"
+    "   * Sem 6: Ethical Hacking, OWASP Top 10, Kali Linux (`STB-602` & `STI-626`)",
+    "   * Sem 5: Keamanan Lanjut (`STI-519`), Sem 6: Ethical Hacking (`STB-602`)"
 )
 c012 = c012.replace(
     "| **5** | `STI-519` | Deep Learning & Neural Networks | 3 | +P | `STI-413` Machine Learning | `STI-205` Aljabar Linear, `FST-408` Probstat | 🟢 **Sangat Kuat** |",
-    "| **5** | `STI-519` | Keamanan Informasi Lanjut | 3 | Teori | `STI-418` Dasar Keamanan | `STI-312` Jarkom, `STB-01` NetSec | 🟢 **Sangat Kuat** |"
+    "| **5** | `STI-519` | Keamanan Informasi Lanjut | 3 | Teori | `STI-418` Dasar Keamanan | `STI-312` Jarkom, `STB-501` NetSec | 🟢 **Sangat Kuat** |"
 )
 c012 = c012.replace(
     "| **6** | `STI-624` | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | `STI-519` DL, `STI-416` Back End | `STI-414` NLP & IR, `STI-413` ML | 🟢 **Sangat Kuat** |",
     "| **6** | `STI-624` | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | `STI-413` ML, `STI-416` Back End | `STI-414` NLP & IR, `STI-307` Cerdas | 🟢 **Sangat Kuat** |"
 )
 c012 = c012.replace(
-    "| **6** | `STI-626` | Keamanan Informasi Lanjut | 3 | Teori | `STI-418` Dasar Keamanan | `STI-312` Jarkom, `STB-01` NetSec | 🟢 **Sangat Kuat** |",
+    "| **6** | `STI-626` | Keamanan Informasi Lanjut | 3 | Teori | `STI-418` Dasar Keamanan | `STI-312` Jarkom, `STB-501` NetSec | 🟢 **Sangat Kuat** |",
     "| **6** | `STI-626` | Deep Learning & Neural Networks | 3 | +P | `STI-413` Machine Learning | `STI-205` Aljabar Linear, `FST-408` Probstat | 🟢 **Sangat Kuat** |"
 )
 c012 = c012.replace(
-    "| **7** | `STA-04` | MLOps & AI Pipeline *(P1)* | 3 | +P | `STI-519` DL, `STI-417` Cloud |",
-    "| **7** | `STA-04` | MLOps & AI Pipeline *(P1)* | 3 | +P | `STI-626` DL, `STI-417` Cloud |"
+    "| **7** | `STA-701` | MLOps & AI Pipeline *(P1)* | 3 | +P | `STI-519` DL, `STI-417` Cloud |",
+    "| **7** | `STA-701` | MLOps & AI Pipeline *(P1)* | 3 | +P | `STI-626` DL, `STI-417` Cloud |"
 )
 c012 = c012.replace(
-    "| **7** | `STA-05` | Conversational AI & LLM *(P1)* | 3 | +P | `STI-414` NLP & IR, `STI-519` DL |",
-    "| **7** | `STA-05` | Conversational AI & LLM *(P1)* | 3 | +P | `STI-414` NLP & IR, `STI-626` DL |"
+    "| **7** | `STA-702` | Conversational AI & LLM *(P1)* | 3 | +P | `STI-414` NLP & IR, `STI-519` DL |",
+    "| **7** | `STA-702` | Conversational AI & LLM *(P1)* | 3 | +P | `STI-414` NLP & IR, `STI-626` DL |"
 )
 c012 = c012.replace(
-    "| **7** | `STA-06` | Smart Surveillance & Edge AI *(P1)*| 3 | +P | `STI-519` DL, `STI-521` IoT |",
-    "| **7** | `STA-06` | Smart Surveillance & Edge AI *(P1)*| 3 | +P | `STI-626` DL, `STI-521` IoT |"
+    "| **7** | `STA-703` | Smart Surveillance & Edge AI *(P1)*| 3 | +P | `STI-519` DL, `STI-521` IoT |",
+    "| **7** | `STA-703` | Smart Surveillance & Edge AI *(P1)*| 3 | +P | `STI-626` DL, `STI-521` IoT |"
 )
 c012 = c012.replace(
-    "| **7** | `STB-05` | Keamanan Cloud & Kripto *(P2)* | 3 | +P | `STI-417` Cloud, `STI-626` Security |",
-    "| **7** | `STB-05` | Keamanan Cloud & Kripto *(P2)* | 3 | +P | `STI-417` Cloud, `STI-519` Security |"
+    "| **7** | `STB-702` | Keamanan Cloud & Kripto *(P2)* | 3 | +P | `STI-417` Cloud, `STI-626` Security |",
+    "| **7** | `STB-702` | Keamanan Cloud & Kripto *(P2)* | 3 | +P | `STI-417` Cloud, `STI-519` Security |"
 )
 
 with open(f012, "w", encoding="utf-8") as f:
@@ -525,7 +525,7 @@ for fname in other_files:
     # Khusus di 009D: (STI-413 / STI-519) -> (STI-413 / STI-626)
     c = c.replace("STI-413 / STI-519", "STI-413 / STI-626")
 
-    # Khusus 025 prasyarat STA-10/11
+    # Khusus 025 prasyarat STA-604/11
     c = c.replace("`STI-519` (Deep Learning)", "`STI-626` (Deep Learning)")
     c = c.replace("`STI-626` (Keamanan Informasi Lanjut)", "`STI-519` (Keamanan Informasi Lanjut)")
 

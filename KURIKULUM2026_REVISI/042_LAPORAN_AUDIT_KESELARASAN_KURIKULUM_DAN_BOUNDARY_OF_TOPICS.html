@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>042 — Laporan Audit Mutu & Keselarasan Kurikulum vs Dokumen 005 | Kurikulum OBE SISTEKIN 2026</title>
+    <meta name="description" content="Dokumen Resmi Kurikulum OBE 2026 Program Studi Sistem dan Teknologi Informasi (S1) FSTI UWG Malang.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- KaTeX for LaTeX Math -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+
+    <!-- Mermaid JS for Flowcharts -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+
+    <style>
+        :root {
+            --bg-primary: #0b0f19;
+            --bg-secondary: #111827;
+            --bg-card: rgba(17, 24, 39, 0.75);
+            --bg-card-hover: rgba(31, 41, 55, 0.85);
+            --border-color: rgba(255, 255, 255, 0.1);
+            --border-accent: rgba(99, 102, 241, 0.35);
+            
+            --text-primary: #f9fafb;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+            
+            --primary: #6366f1;
+            --primary-light: #818cf8;
+            --secondary: #06b6d4;
+            --accent: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            
+            --mkwu-color: #ec4899;
+            --fsti-color: #8b5cf6;
+            --sti-color: #3b82f6;
+            --elektif-color: #10b981;
+            
+            --font-sans: 'Plus Jakarta Sans', 'Inter', sans-serif;
+            --font-code: 'Fira Code', monospace;
+            --shadow-glow: 0 0 30px rgba(99, 102, 241, 0.12);
+            --radius-lg: 16px;
+            --radius-md: 12px;
+            --radius-sm: 8px;
+        }
+
+        [data-theme="light"] {
+            --bg-primary: #f8fafc;
+            --bg-secondary: #ffffff;
+            --bg-card: rgba(255, 255, 255, 0.9);
+            --bg-card-hover: #ffffff;
+            --border-color: rgba(0, 0, 0, 0.08);
+            --border-accent: rgba(99, 102, 241, 0.25);
+            
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --text-muted: #94a3b8;
+            
+            --shadow-glow: 0 10px 30px rgba(99, 102, 241, 0.08);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            padding-bottom: 80px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Navbar */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(11, 15, 25, 0.85);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 14px 0;
+            margin-bottom: 32px;
+        }
+        [data-theme="light"] .navbar { background: rgba(248, 250, 252, 0.85); }
+
+        .navbar-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+        .brand-logo {
+            width: 40px; height: 40px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: var(--radius-sm);
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 800; color: white; font-size: 1.1rem;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+        }
+        .brand-text h1 { font-size: 1.05rem; font-weight: 700; color: var(--text-primary); }
+        .brand-text p { font-size: 0.75rem; color: var(--text-secondary); }
+
+        .doc-select {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            font-size: 0.85rem;
+            font-weight: 600;
+            outline: none;
+            cursor: pointer;
+            max-width: 380px;
+        }
+
+        .search-box {
+            position: relative;
+            min-width: 240px;
+        }
+        .search-input {
+            width: 100%;
+            padding: 8px 14px 8px 34px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            color: var(--text-primary);
+            font-size: 0.85rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .search-input:focus { border-color: var(--primary); }
+        .search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); font-size: 0.8rem; opacity: 0.6; }
+
+        .nav-actions { display: flex; align-items: center; gap: 10px; }
+        .btn-action {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            cursor: pointer; font-size: 0.85rem; font-weight: 600;
+            display: inline-flex; align-items: center; gap: 6px;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
+        .btn-action:hover { border-color: var(--primary); color: var(--primary-light); transform: translateY(-1px); }
+
+        /* Hero Header */
+        .hero {
+            background: radial-gradient(circle at top right, rgba(99, 102, 241, 0.15), transparent 50%),
+                        radial-gradient(circle at bottom left, rgba(6, 182, 212, 0.1), transparent 50%);
+            border: 1px solid var(--border-accent);
+            border-radius: var(--radius-lg);
+            padding: 36px;
+            margin-bottom: 36px;
+            box-shadow: var(--shadow-glow);
+        }
+        .hero-badge-group { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+        .badge {
+            font-size: 0.72rem; font-weight: 700; padding: 4px 12px; border-radius: 20px;
+            letter-spacing: 0.03em; text-transform: uppercase;
+        }
+        .badge-primary { background: rgba(99, 102, 241, 0.2); color: var(--primary-light); border: 1px solid rgba(99, 102, 241, 0.4); }
+        .badge-accent { background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); }
+        .badge-warning { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.4); }
+
+        .hero-title {
+            font-size: 2rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 8px;
+            background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        [data-theme="light"] .hero-title {
+            background: linear-gradient(135deg, #0f172a 0%, #334155 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+
+        /* Typography & Content */
+        .content {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+        }
+
+        .content h1 { font-size: 1.8rem; font-weight: 800; margin: 32px 0 16px 0; color: var(--text-primary); border-bottom: 2px solid var(--border-accent); padding-bottom: 10px; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 30px 0 14px 0; color: var(--primary-light); border-bottom: 1px solid var(--border-color); padding-bottom: 8px; }
+        .content h3 { font-size: 1.15rem; font-weight: 700; margin: 24px 0 12px 0; color: var(--text-primary); }
+        .content h4 { font-size: 1rem; font-weight: 600; margin: 18px 0 8px 0; color: var(--text-secondary); }
+
+        .content p { margin-bottom: 16px; color: var(--text-secondary); font-size: 0.96rem; }
+        .content ul, .content ol { margin: 0 0 20px 24px; color: var(--text-secondary); font-size: 0.95rem; }
+        .content li { margin-bottom: 6px; }
+        .content blockquote {
+            border-left: 4px solid var(--primary);
+            padding: 12px 20px;
+            background: rgba(99, 102, 241, 0.06);
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            margin: 20px 0;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Tables */
+        .table-wrapper { overflow-x: auto; margin: 24px 0; border-radius: var(--radius-md); border: 1px solid var(--border-color); }
+        table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem; }
+        th {
+            background: rgba(31, 41, 55, 0.7); color: var(--text-primary);
+            font-weight: 700; padding: 12px 16px; border-bottom: 1px solid var(--border-color);
+            font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em;
+        }
+        [data-theme="light"] th { background: #f1f5f9; }
+        td { padding: 12px 16px; border-bottom: 1px solid var(--border-color); color: var(--text-secondary); }
+        tr:last-child td { border-bottom: none; }
+        tr:hover td { background: var(--bg-card-hover); color: var(--text-primary); }
+
+        /* Code Badges */
+        .code-tag {
+            font-family: var(--font-code); font-weight: 600; font-size: 0.82rem;
+            padding: 2px 8px; border-radius: 4px; background: rgba(99, 102, 241, 0.12);
+            color: var(--primary-light); border: 1px solid rgba(99, 102, 241, 0.25);
+        }
+        code {
+            font-family: var(--font-code); font-size: 0.85rem; padding: 2px 6px;
+            background: rgba(255, 255, 255, 0.06); border-radius: 4px; color: var(--primary-light);
+        }
+
+        .cat-badge { font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px; display: inline-block; }
+        .cat-mkwu { background: rgba(236, 72, 153, 0.15); color: #f472b6; border: 1px solid rgba(236, 72, 153, 0.3); }
+        .cat-fsti { background: rgba(139, 92, 246, 0.15); color: #c084fc; border: 1px solid rgba(139, 92, 246, 0.3); }
+        .cat-sti  { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
+        .cat-elektif { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+
+        /* Custom Alerts */
+        .custom-alert {
+            border-left: 4px solid var(--primary);
+            background: rgba(17, 24, 39, 0.6);
+            border: 1px solid var(--border-color);
+            border-left-width: 4px;
+            border-radius: var(--radius-md);
+            padding: 16px 20px;
+            margin: 24px 0;
+        }
+        .alert-important { border-left-color: var(--primary); background: rgba(99, 102, 241, 0.08); }
+        .alert-note { border-left-color: var(--secondary); background: rgba(6, 182, 212, 0.08); }
+        .alert-tip { border-left-color: var(--accent); background: rgba(16, 185, 129, 0.08); }
+        .alert-warning { border-left-color: var(--warning); background: rgba(245, 158, 11, 0.08); }
+        .alert-caution { border-left-color: var(--danger); background: rgba(239, 68, 68, 0.08); }
+        
+        .alert-header { font-weight: 700; font-size: 0.9rem; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
+        .alert-important .alert-header { color: var(--primary-light); }
+        .alert-note .alert-header { color: var(--secondary); }
+        .alert-tip .alert-header { color: var(--accent); }
+        .alert-warning .alert-header { color: var(--warning); }
+        .alert-caution .alert-header { color: var(--danger); }
+        .alert-content { color: var(--text-secondary); font-size: 0.92rem; }
+
+        /* Mermaid Box */
+        .mermaid-card {
+            background: rgba(17, 24, 39, 0.5);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 24px; margin: 24px 0;
+            text-align: center; overflow-x: auto;
+        }
+
+        /* Bottom Nav Links */
+        .doc-nav {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--border-color);
+        }
+        .nav-btn {
+            background: var(--bg-secondary); border: 1px solid var(--border-color);
+            color: var(--text-primary); padding: 10px 18px; border-radius: var(--radius-sm);
+            text-decoration: none; font-weight: 600; font-size: 0.88rem; transition: all 0.2s;
+        }
+        .nav-btn:hover { border-color: var(--primary); color: var(--primary-light); }
+
+        /* Footer */
+        .footer { margin-top: 60px; text-align: center; color: var(--text-muted); font-size: 0.85rem; }
+
+        @media print {
+            body { background: white; color: black; }
+            .navbar, .nav-actions, .doc-nav, .search-box { display: none; }
+            .hero, .content { border: 1px solid #ccc; box-shadow: none; background: white; padding: 20px; }
+            th { background: #eee !important; color: black !important; }
+            td { color: black !important; }
+            .code-tag { background: #f0f0f0; color: black; border: 1px solid #ccc; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <a href="index.html" class="brand">
+                <div class="brand-logo">STI</div>
+                <div class="brand-text">
+                    <h1>SISTEKIN — FSTI UWG</h1>
+                    <p>Buku Kurikulum OBE 2026</p>
+                </div>
+            </a>
+            
+            <select class="doc-select" onchange="window.location.href=this.value">
+                <option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
+<option value="002_FORMULASI_3_PEO_DAN_4_PROFIL_LULUSAN_SISTEKIN.html" >002 — Formulasi 3 PEO & 4 Profil Lulusan</option>
+<option value="003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.html" >003 — Standar 14 CPL & Pemetaan BoK APTIKOM</option>
+<option value="004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.html" >004 — Matriks Keterlacakan OBE VMTS-PEO-PL-CPL-MK</option>
+<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — Struktur Kurikulum 8 Semester & Peminatan</option>
+<option value="006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.html" >006 — Distribusi MK Peminatan & Panduan MBKM</option>
+<option value="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" >007 — Silabus 3-Tabel & CPMK 67 MK Portofolio</option>
+<option value="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" >008 — Sistem Asesmen OBE & Attainment CPL</option>
+<option value="009_LANGKAH2_CPL_FORMAL.html" >009 — Ringkasan Langkah 2: CPL Formal</option>
+<option value="009A_CPL_SIKAP_SISTEKIN.html" >009A — Detail CPL Sikap (S1)</option>
+<option value="009B_CPL_KETERAMPILAN_UMUM_SISTEKIN.html" >009B — Detail CPL Keterampilan Umum (KU1-3)</option>
+<option value="009C_CPL_PENGETAHUAN_SISTEKIN.html" >009C — Detail CPL Pengetahuan (P1-4)</option>
+<option value="009D_CPL_KETERAMPILAN_KHUSUS_SISTEKIN.html" >009D — Detail CPL Keterampilan Khusus (KK1-6)</option>
+<option value="009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.html" >009E — Master Matriks Kompilasi 14 CPL & BoK</option>
+<option value="009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.html" >009 — Pedoman Capstone & 4 Opsi TA Non-Skripsi</option>
+<option value="010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.html" >010 — Instrumen Tracer Study & Evaluasi PEO</option>
+<option value="011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.html" >011 — 14 Sheet Matriks Implementasi OBE</option>
+<option value="012_ANALISIS_KRITIS_JALUR_PONDASI_DAN_TREE_PRASYARAT.html" >012 — Analisis Kritis Jalur Pondasi & Tree View Prasyarat</option>
+<option value="013_REKOMENDASI_SOLUSI_DAN_MITIGASI_KELEMAHAN_KURIKULUM.html" >013 — Rekomendasi Solusi & Mitigasi Kelemahan Kurikulum</option>
+<option value="014_ANALISIS_KRITIS_PEMANGKASAN_SKS_TEORI_SEM4_SEM5.html" >014 — Analisis Kritis Pemangkasan SKS Teori Sem 4 & 5</option>
+<option value="015_SIMULASI_AKSELERASI_KELULUSAN_7_SEMESTER.html" >015 — Panduan & Simulasi Akselerasi 7 Semester (Fast-Track)</option>
+<option value="016_ANALISIS_BoK_APTIKOM_REDUNDANSI_DAN_PIPELINE_AI.html" >016 — Analisis BoK APTIKOM, Audit Redundansi & Pipeline AI</option>
+<option value="017_AUDIT_FORENSIK_ZERO_REDUNDANCY_DAN_ZERO_GAP.html" >017 — Audit Forensik Zero Redundancy & Zero Gap 5 Domain</option>
+<option value="018_PANDUAN_RUBRIK_KLASTER_DAN_MODEL_ASESMEN_OBE_DOSEN.html" >018 — Panduan Master Rubrik Klaster & Model Asesmen Dosen</option>
+<option value="020_TEMPLATE_BUKU_KURIKULUM_KPT_OBE_APTIKOM.html" >020 — Template Buku Kurikulum KPT-OBE & Analisis Gap</option>
+<option value="021_PANDUAN_KPT2024_DIKTI_FULLTEXT.html" >021 — Panduan KPT 2024 Belmawa Dikti (Teks Lengkap)</option>
+<option value="022_AUDIT_KELENGKAPAN_KOMPONEN_VS_TEMPLATE_KPT_OBE.html" >022 — Audit Kelengkapan Komponen vs Template KPT-OBE</option>
+<option value="023_BUKU_KPT_SISTEKIN_2026_STRUKTUR_KPT2024.html" >023 — 📘 BUKU KPT SISTEKIN 2026 (Struktur 12 Bab KPT 2024)</option>
+<option value="024_MATRIKS_EKIVALENSI_KURIKULUM2025_KE_KURIKULUM2026.html" >024 — Matriks Ekivalensi MK Kurikulum 2025 → 2026</option>
+<option value="025_REKOMENDASI_PENGEMBANGAN_MK_PEMINATAN_DAN_CROSS_TRACK_2027.html" >025 — Rekomendasi Pool MK Peminatan & Cross-Track 2027</option>
+<option value="026_ANALISIS_KRITIS_MK_DIHAPUS_DAN_REKOMENDASI_PENGGANTI.html" >026 — Analisis Kritis MK Dihapus & Rekomendasi Pengganti</option>
+<option value="027_RENCANA_RESTRUKTURISASI_KODE_MK_CORE_STI_KONTINU.html" >027 — Rencana Aksi Restrukturisasi Kode Core STI Kontinu</option>
+<option value="028_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_CORE_STI.html" >028 — Dev Report & Dev Log Restrukturisasi Kode Core STI</option>
+<option value="029_TABEL_VERIFIKASI_KODE_MK_BARU.html" >029 — Tabel Verifikasi Kode MK Baru (Core STI Sem 1 & 3)</option>
+<option value="030_JUSTIFIKASI_AKADEMIS_DAN_BoK_STA02_COMPUTATIONAL_METHODS_SEBAGAI_MK_PILIHAN.html" >030 — Justifikasi Akademis & Audit BoK STA-601 Komputasi Numerik sebagai MK Pilihan</option>
+<option value="031_RENCANA_PENYUSUNAN_BUKU_KPT_APTIKOM_A-L.html" >031 — Rencana Penyusunan Buku KPT APTIKOM Bab A-L</option>
+<option value="032_MODALITAS_PEMBELAJARAN_KPT2024.html" >032 — Modalitas Pembelajaran KPT 2024</option>
+<option value="033_RUBRIK_HOLISTIK_DAN_SKALA_PERSEPSI.html" >033 — Rubrik Holistik & Skala Persepsi Asesmen</option>
+<option value="034_SEMBILAN_BENTUK_MBKM_DAN_REKOGNISI.html" >034 — Sembilan Bentuk MBKM & Skema Rekognisi SKS</option>
+<option value="035_RESTRUKTURISASI_KODE_MK_PEMINATAN_STA_STB_STC.html" >035 — Restrukturisasi Kode MK Peminatan (STA, STB, STC) Berbasis Semester</option>
+<option value="036_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_PEMINATAN.html" >036 — Dev Report & Dev Log Restrukturisasi Kode MK Peminatan</option>
+<option value="037_BOUNDARY_OF_TOPICS_DAN_MATRIKS_ANTI_OVERLAP_KURIKULUM.html" >037 — Boundary of Topics & Matriks Anti-Overlap Kurikulum</option>
+<option value="038_RENCANA_KONTEN_LAMPIRAN_BUKU_KPT.html" >038 — Rencana Konten Lampiran Buku KPT SISTEKIN 2026</option>
+<option value="039_LAMPIRAN_SIAP_BUKU_KPT_SISTEKIN_2026.html" >039 — Lampiran Siap Buku KPT SISTEKIN 2026</option>
+<option value="040_LAMPIRAN_RAKIT_BUKU_KPT.html" >040 — Lampiran Rakit Buku KPT SISTEKIN 2026</option>
+<option value="041_LAMPIRAN_BARU_BUKU_KPT.html" >041 — Lampiran Baru Buku KPT SISTEKIN 2026</option>
+<option value="042_LAPORAN_AUDIT_KESELARASAN_KURIKULUM_DAN_BOUNDARY_OF_TOPICS.html" selected>042 — Laporan Audit Mutu & Keselarasan Kurikulum vs Dokumen 005</option>
+<option value="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" >📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)</option>
+            </select>
+
+            
+    <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="globalTableSearch" class="search-input" placeholder="Cari dalam dokumen (kode, MK, istilah, tabel)...">
+    </div>
+    
+
+            <div class="nav-actions">
+                <a href="index.html" class="btn-action">🏠 Portal Dokumen</a>
+                <button class="btn-action" onclick="window.print()">🖨️ Cetak PDF</button>
+                <button class="btn-action" id="themeToggle">🌓 Tema</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-badge-group">
+                <span class="badge badge-primary">Kurikulum OBE 2026</span>
+                <span class="badge badge-accent">Permendikbudristek 53/2023</span>
+                <span class="badge badge-warning">FSTI UWG Malang</span>
+            </div>
+            <h1 class="hero-title">042 — Laporan Audit Mutu & Keselarasan Kurikulum vs Dokumen 005</h1>
+            <p style="color: var(--text-secondary); font-size: 0.95rem;">Dokumen Kurikulum OBE Definitif Program Studi Sistem dan Teknologi Informasi (S1)</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="content">
+            <h1 id="042-laporan-audit-mutu-dan-keselarasan-menyeluruh-kurikulum-sistekin-2026-terhadap-dokumen-005">042 — LAPORAN AUDIT MUTU DAN KESELARASAN MENYELURUH KURIKULUM SISTEKIN 2026 TERHADAP DOKUMEN 005</h1>
+<h2 id="hasil-restrukturisasi-peminatan-3-digit-formulasi-boundary-of-topics-anti-overlap-dan-verifikasi-konsistensi-67-mata-kuliah">Hasil Restrukturisasi Peminatan 3-Digit, Formulasi Boundary of Topics (Anti-Overlap), dan Verifikasi Konsistensi 67 Mata Kuliah</h2>
+<p><strong>Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang</strong></p>
+<hr />
+<h3 id="ringkasan-eksekutif-executive-summary">RINGKASAN EKSEKUTIF (EXECUTIVE SUMMARY)</h3>
+<p>Dokumen ini merupakan <strong>Laporan Resmi Audit Mutu dan Rekayasa Kurikuler Definitif</strong> yang mendokumentasikan seluruh rangkaian aksi strategis, audit teknis, serta penyelarasan terprogram yang telah diselesaikan oleh Tim Pengembang Kurikulum Program Studi Sistem dan Teknologi Informasi (SISTEKIN) FSTI Universitas Widyagama Malang. </p>
+<p>Tiga sasaran utama yang telah diselesaikan secara tuntas dan teruji meliputi:
+1. <strong>Restrukturisasi Kodifikasi 18 Mata Kuliah Pilihan Peminatan:</strong> Mengubah format penomoran datar 2-digit (<code>STA-01..06</code>>, <code>STB-01..06</code>>, <code>STC-01..06</code>>) menjadi format 3-digit berbasis semester dengan skema reset ke <code>01</code>> pada setiap semester (<code>STA/STB/STC-501</code>, <code>601..602</code>>, <code>701..703</code>>).
+2. <strong>Formulasi Dokumen 037 (Boundary of Topics &amp; Matriks Anti-Overlap):</strong> Menetapkan instrumen pengendali mutu kurikulum (<em>quality control guardrails</em>) yang membedah batasan materi (<em>In-Scope, Out-of-Scope, Handoff Anchor</em>), keterkaitan CPL, CPMK (ABCD &amp; Bloom C3–C6), dan Sub-CPMK pada 8 klaster kritis, seluruh 18 MK pilihan peminatan, serta 8 pasangan baseline mata kuliah core/fondasi.
+3. <strong>Audit Forensik &amp; Penyelarasan Menyeluruh terhadap Dokumen 005:</strong> Melakukan validasi konsistensi 67 mata kuliah portofolio (55 MK paket ditempuh / 146 SKS) di seluruh 50 berkas markdown, mengeliminasi kode fiktif/anomali non-005, serta mengunci integritas kurikulum dengan instrumen uji terprogram.</p>
+<hr />
+<h3 id="1-rekapitulasi-master-kurikulum-2026-ground-truth-dokumen-005">1. REKAPITULASI MASTER KURIKULUM 2026 (GROUND TRUTH DOKUMEN 005)</h3>
+<p>Sesuai konsensus final pada <strong>Dokumen 005 (Struktur Kurikulum 8 Semester dan Peminatan)</strong>, portofolio resmi program studi terdiri atas <strong>67 Mata Kuliah (182 SKS Ditawarkan)</strong> dengan beban kelulusan wajib bagi mahasiswa sebesar <strong>55 Mata Kuliah (146 SKS Ditempuh)</strong>:</p>
+<div class="table-wrapper">
+<div class="table-title-header" style="background: rgba(99, 102, 241, 0.15); padding: 10px 16px; font-weight: 700; color: var(--primary-light); border: 1px solid var(--border-color); border-bottom: none; border-radius: var(--radius-md) var(--radius-md) 0 0; text-align: center;">KOMPOSISI BEBAN STUDI KURIKULUM OBE SISTEKIN 2026 (146 SKS)</div>
+<div class="table-wrapper"><table><thead><tr>
+<th>KELOMPOK MATA KULIAH</th>
+<th>JUMLAH MK</th>
+<th>TOTAL SKS</th>
+<th>% DITEMPUH</th>
+<th>RENTANG KODIFIKASI</th>
+</tr></thead><tbody>
+<tr>
+<td>1. Mata Kuliah Wajib Umum (MKWU)<br>2. Mata Kuliah Wajib Fakultas (FSTI)<br>3. Mata Kuliah Inti Prodi (Core STI)<br>4. MK Pilihan Peminatan (Elektif)</td>
+<td>8 MK<br>13 MK<br>28 MK<br>6 MK</td>
+<td>13 SKS<br>36 SKS<br>79 SKS<br>18 SKS</td>
+<td>8,9 %<br>24,7 %<br>54,1 %<br>12,3 %</td>
+<td>MKU-101 s.d. 508<br>FST-101 s.d. 714<br>STI-101 s.d. 728<br>ST[A/B/C]-501..703</td>
+</tr>
+<tr>
+<td>TOTAL PAKET DITEMPUH MAHASISWA</td>
+<td>55 MK</td>
+<td>146 SKS</td>
+<td>100,0 %</td>
+<td>Syarat Lulus S1</td>
+</tr>
+<tr>
+<td>PORTOFOLIO MK DITAWARKAN (SIAKAD)</td>
+<td>67 MK</td>
+<td>182 SKS</td>
+<td>18 MK Pool</td>
+<td>3 Jalur Peminatan</td>
+</tr>
+</tbody></table></div></div>
+
+<h4 id="sebaran-8-semester-paket-ditempuh-146-sks">Sebaran 8 Semester Paket Ditempuh (146 SKS):</h4>
+<ul>
+<li><strong>Semester 1 (19 SKS / 8 MK):</strong> <span class="code-tag">MKU-101</span>> (2), <span class="code-tag">MKU-102</span>> (2), <span class="code-tag">MKU-103</span>> (2), <span class="code-tag">FST-101</span>> (2), <span class="code-tag">FST-102</span>> (3), <span class="code-tag">STI-101</span>> (2), <span class="code-tag">STI-102</span>> (3), <span class="code-tag">STI-103</span>> (3). <em>(Patuh <span class="arithmatex"><span class="MathJax_Preview">\le 20</span><script type="math/tex">\le 20</script></span> SKS Permendikbud 53/2023)</em></li>
+<li><strong>Semester 2 (20 SKS / 8 MK):</strong> <span class="code-tag">MKU-204</span>> (2), <span class="code-tag">FST-203</span>> (3), <span class="code-tag">FST-204</span>> (2), <span class="code-tag">FST-205</span>> (2), <span class="code-tag">FST-206</span>> (2), <span class="code-tag">FST-207</span>> (3), <span class="code-tag">STI-204</span>> (3), <span class="code-tag">STI-205</span>> (3). <em>(Tepat 20 SKS)</em></li>
+<li><strong>Semester 3 (20 SKS / 7 MK):</strong> <span class="code-tag">STI-306</span>> (3), <span class="code-tag">STI-307</span>> (2), <span class="code-tag">STI-308</span>> (3), <span class="code-tag">STI-309</span>> (3), <span class="code-tag">STI-310</span>> (3), <span class="code-tag">STI-311</span>> (3), <span class="code-tag">STI-312</span>> (3).</li>
+<li><strong>Semester 4 (21 SKS / 9 MK):</strong> <span class="code-tag">STI-413</span>> (3), <span class="code-tag">STI-414</span>> (2), <span class="code-tag">STI-415</span>> (3), <span class="code-tag">STI-416</span>> (3), <span class="code-tag">STI-417</span>> (3), <span class="code-tag">STI-418</span>> (2), <span class="code-tag">FST-408</span>> (3), <span class="code-tag">MKU-405</span>> (2), <span class="code-tag">MKU-406</span>> (0).</li>
+<li><strong>Semester 5 (21 SKS / 8 MK):</strong> <span class="code-tag">STI-519</span>> (3), <span class="code-tag">STI-520</span>> (3), <span class="code-tag">STI-521</span>> (3), <span class="code-tag">STI-522</span>> (3), <span class="code-tag">STI-523</span>> (3), <span class="code-tag">MKU-507</span>> (3), <span class="code-tag">MKU-508</span>> (0), <strong>MK Pilihan Peminatan 1</strong> (3).</li>
+<li><strong>Semester 6 (19 SKS / 7 MK):</strong> <span class="code-tag">STI-624</span>> (3), <span class="code-tag">STI-625</span>> (2), <span class="code-tag">STI-626</span>> (3), <span class="code-tag">STI-627</span>> (3), <span class="code-tag">FST-611</span>> (2), <strong>MK Pilihan Peminatan 2</strong> (3), <strong>MK Pilihan Peminatan 3</strong> (3).</li>
+<li><strong>Semester 7 (20 SKS / 7 MK):</strong> <span class="code-tag">STI-728</span>> (3), <span class="code-tag">FST-610</span>> (3), <span class="code-tag">FST-612</span>> (3), <span class="code-tag">FST-613</span>> (2), <strong>MK Pilihan Peminatan 4</strong> (3), <strong>MK Pilihan Peminatan 5</strong> (3), <strong>MK Pilihan Peminatan 6</strong> (3).</li>
+<li><strong>Semester 8 (6 SKS / 1 MK):</strong> <span class="code-tag">FST-714</span>> Skripsi / Tugas Akhir Murni / 4 Opsi Non-Skripsi (6 SKS).</li>
+</ul>
+<hr />
+<h3 id="2-rekayasa-kodifikasi-18-mk-pilihan-peminatan-sta-stb-stc">2. REKAYASA KODIFIKASI 18 MK PILIHAN PEMINATAN (STA, STB, STC)</h3>
+<p>Kodifikasi 18 mata kuliah peminatan telah distandarisasi ke format 3-digit berbasis semester:
+$<span class="arithmatex"><span class="MathJax_Preview">\mathbf{ST[A/B/C]\text{-}[Semester][Nomor\ Urut\ dalam\ Semester\ (2\ Digit)]}</span><script type="math/tex">\mathbf{ST[A/B/C]\text{-}[Semester][Nomor\ Urut\ dalam\ Semester\ (2\ Digit)]}</script></span>$</p>
+<div class="table-wrapper">
+<div class="table-title-header" style="background: rgba(99, 102, 241, 0.15); padding: 10px 16px; font-weight: 700; color: var(--primary-light); border: 1px solid var(--border-color); border-bottom: none; border-radius: var(--radius-md) var(--radius-md) 0 0; text-align: center;">DAFTAR BAKU 18 MATA KULIAH PILIHAN PEMINATAN (PORTFOLIO RESMI)</div>
+<div class="table-wrapper"><table><thead><tr>
+<th>SEM</th>
+<th>KODE BARU</th>
+<th>NAMA MATA KULIAH</th>
+<th>SKS</th>
+<th>TIPE</th>
+<th>PRASYARAT</th>
+</tr></thead><tbody>
+<tr>
+<td>5<br>6<br>6<br>7<br>7<br>7</td>
+<td>STA-501<br>STA-601<br>STA-602<br>STA-701<br>STA-702<br>STA-703</td>
+<td>Decision Support Systems<br>Computational Methods and Numerics<br>Intelligent Agent Systems<br>MLOps and AI Pipeline<br>Conversational AI and Intelligent Assistant<br>Smart Surveillance and IoT Analytics</td>
+<td>3<br>3<br>3<br>3<br>3<br>3</td>
+<td>+P<br>+P<br>+P<br>+P<br>+P<br>+P</td>
+<td>STI-307<br>STI-102, STI-205<br>STI-307<br>STI-413, STI-624<br>STI-413, STI-416<br>STI-626, STI-521</td>
+</tr>
+<tr>
+<td>5<br>6<br>6<br>7<br>7<br>7</td>
+<td>STB-501<br>STB-601<br>STB-602<br>STB-701<br>STB-702<br>STB-703</td>
+<td>Network Security and Digital Forensics<br>Cloud Architecture & DevOps<br>Cybersecurity Risk Management<br>IT Governance & Compliance (COBIT 2019)<br>IT Service Management (ITIL 4)<br>Enterprise Architecture (TOGAF)</td>
+<td>3<br>3<br>3<br>3<br>3<br>3</td>
+<td>+P<br>+P<br>Teori<br>Teori<br>Teori<br>Teori</td>
+<td>STI-312, STI-418<br>STI-417<br>STI-418<br>STI-101<br>STI-101<br>STI-306</td>
+</tr>
+<tr>
+<td>5<br>6<br>6<br>7<br>7<br>7</td>
+<td>STC-501<br>STC-601<br>STC-602<br>STC-701<br>STC-702<br>STC-703</td>
+<td>User Experience Research & Design<br>Rekayasa & Otomasi Proses Bisnis (BPA)<br>Rekayasa Aplikasi Industri Vertikal (Fin/EdTech)<br>Immersive Media & XR Development<br>SaaS Architecture & Multi-Tenancy<br>Digital Product Management & Agile Practices</td>
+<td>3<br>3<br>3<br>3<br>3<br>3</td>
+<td>+P<br>+P<br>+P<br>+P<br>+P<br>Teori</td>
+<td>STI-308<br>STI-306<br>STI-416<br>STI-311<br>STI-416<br>STI-523</td>
+</tr>
+</tbody></table></div></div>
+
+<p>Sebanyak <strong>660 titik kemunculan kode lama</strong> (<code>STA-01..06</code>>, <code>STB-01..06</code>>, <code>STC-01..06</code>>) telah disubstitusi secara atomik di 21 berkas Markdown dan 8 skrip automasi Python tanpa menyisakan satupun residu kode usang.</p>
+<hr />
+<h3 id="3-formulasi-instrumen-defender-dokumen-037-boundary-of-topics">3. FORMULASI INSTRUMEN DEFENDER DOKUMEN 037 (BOUNDARY OF TOPICS)</h3>
+<p>Dokumen <strong><code>037_BOUNDARY_OF_TOPICS_DAN_MATRIKS_ANTI_OVERLAP_KURIKULUM.md</code>></strong> telah disusun sebagai instrumen audit kurikuler resmi program studi yang memuat:
+1. <strong>Arsitektur Tiga Pagar Pembatas (<em>Three Curricular Guardrails</em>):</strong>
+   * <em>IN-SCOPE:</em> Materi otoritas penuh yang wajib diajarkan dan diuji.
+   * <em>OUT-OF-SCOPE:</em> Batas materi terlarang guna mencegah pengulangan topik (<em>Zero Redundancy</em>).
+   * <em>HANDOFF ANCHOR:</em> Titik temu kognitif antar-mata kuliah prasyarat dan mata kuliah lanjutan (<em>Zero Gap</em>).
+2. <strong>Katalog 36 Bahan Kajian Rujukan:</strong>
+   * 21 Bahan Kajian APTIKOM SI (IS2020: <code>BK-IS01</code>> s.d. <code>BK-IS21</code>>).
+   * 15 Bahan Kajian Utama APTIKOM TI (IT2017/CC2020: <code>BK-IT01</code>> s.d. <code>BK-IT15</code>>).
+3. <strong>Analisis Mendalam 8 Klaster Kritis Rawan Overlap:</strong>
+   * Klaster 1: AI &amp; Language Technology (<span class="code-tag">FST-204</span>> → <span class="code-tag">STI-307</span>> → <span class="code-tag">STI-414</span>> → <span class="code-tag">STA-702</span>>).
+   * Klaster 2: Machine Learning, Deep Learning &amp; MLOps (<span class="code-tag">STI-413</span>> → <span class="code-tag">STI-626</span>> → <span class="code-tag">STA-701</span>>).
+   * Klaster 3: Data Management, Warehouse &amp; Mining (<span class="code-tag">FST-207</span>> → <span class="code-tag">STI-415</span>> → <span class="code-tag">STI-520</span>>).
+   * Klaster 4: Software Engineering &amp; Project Management (<span class="code-tag">STI-306</span>> → <span class="code-tag">STI-309</span>> → <span class="code-tag">STI-523</span>>).
+   * Klaster 5: Web, Mobile, Platform &amp; Distributed System (<span class="code-tag">STI-311</span>> → <span class="code-tag">STI-416</span>> → <span class="code-tag">STI-522</span>> → <span class="code-tag">STI-627</span>> → <span class="code-tag">STC-702</span>>).
+   * Klaster 6: Cloud Computing, DevOps &amp; Infrastructure (<span class="code-tag">STI-103</span>> → <span class="code-tag">STI-310</span>> → <span class="code-tag">STI-312</span>> → <span class="code-tag">STI-417</span>> → <span class="code-tag">STB-601</span>>).
+   * Klaster 7: Cybersecurity, Forensics &amp; Risk Governance (<span class="code-tag">STI-418</span>> → <span class="code-tag">STB-501</span>> → <span class="code-tag">STI-519</span>> → <span class="code-tag">STB-602</span>> → <span class="code-tag">STB-701</span>>).
+   * Klaster 8: HCI, UI/UX &amp; Digital Product Design (<span class="code-tag">STI-308</span>> → <span class="code-tag">STC-501</span>> → <span class="code-tag">STC-703</span>>).
+4. <strong>Matriks Rinci 18 MK Peminatan (Bagian 3B):</strong> Membedah secara individual setiap MK peminatan mencakup rujukan BoK, CPL, rumusan 3-4 CPMK berbasis ABCD (C3–C6), Sub-CPMK kunci, rasional boundary, In-Scope, Out-of-Scope, dan Handoff Anchor.
+5. <strong>Matriks Boundary Baseline Core STI (Bagian 3C):</strong> Menetapkan pagar pembatas tegas pada 8 pasang/trio MK pondasi matematika, logika, pemrograman, IoT, smart city, manajemen proyek, dan tata kelola.</p>
+<hr />
+<h3 id="4-log-tindakan-audit-dan-penyelarasan-dokumen-005">4. LOG TINDAKAN AUDIT DAN PENYELARASAN DOKUMEN 005</h3>
+<p>Dalam rangka menjamin seluruh dokumen kurikulum 100% selaras dengan Dokumen 005, serangkaian tindakan kuratif telah dieksekusi:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th>Dokumen Target</th>
+<th>Masalah yang Ditemukan</th>
+<th>Tindakan Kuratif yang Diterapkan</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td><code>037_BOUNDARY_OF_TOPICS...md</code>></td>
+<td>Typo penomoran <span class="code-tag">STI-628</span>> pada baris Smart City (seharusnya <span class="code-tag">STI-625</span>>) dan penulisan PBO sebagai <span class="code-tag">STI-206</span>>.</td>
+<td>Diperbaiki menjadi <code>STI-625 Smart City &amp; Pemerintahan Digital (2 SKS)</code> dan pemodelan pasangan ke-3 diselaraskan ke <code>FST-102 &amp; FST-203 vs STI-309 RPL</code>.</td>
+<td style="text-align: center;">🟢 Selesai</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td><code>039_LAMPIRAN_SIAP...md</code>></td>
+<td>Memuat kode non-005 (<code>STI-628 Data Eng</code>, <code>STI-729 Digital Startup</code>, <code>STI-730 Penambangan Pengetahuan</code>); <span class="code-tag">FST-611</span>> tercatat 3 SKS di Sem 7; baris paket Sem 5 hilang.</td>
+<td>Menghapus kode fiktif; memindahkan <span class="code-tag">FST-611</span>> ke Semester 6 (2 SKS); memasukkan kembali <span class="code-tag">MKU-507</span>>, <span class="code-tag">MKU-508</span>>, dan <code>MK Pilihan 1</code> di Sem 5; mengunci <code>STI-728 Inovasi Startup</code> (3 SKS, Sem 7).</td>
+<td style="text-align: center;">🟢 Selesai</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td><code>041_LAMPIRAN_BARU...md</code>></td>
+<td>Peta kurikulum Sem 6-7 memuat <span class="code-tag">STI-628</span>> dan <span class="code-tag">STI-729</span>>; aturan prasyarat masih mencantumkan kode lama <code>STA-01..STC-01</code>>.</td>
+<td>Menyelaraskan alur Sem 6-7 dengan memasukkan <span class="code-tag">STI-625</span>>, <span class="code-tag">FST-611</span>>, <span class="code-tag">STI-728</span>>; memperbarui rujukan kode peminatan ke <span class="code-tag">STA-501</span>>, <span class="code-tag">STB-501</span>>, <span class="code-tag">STC-501</span>>.</td>
+<td style="text-align: center;">🟢 Selesai</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td><code>035_RESTRUKTURISASI...md</code>></td>
+<td>Kutipan rentang semester FSTI menyebut <code>FST-304..305</code>> di Sem 3 dan MKWU menyebut <code>MKU-204..205</code>>.</td>
+<td>Menyelaraskan teks kutipan agar presisi mengikuti Dok 005 (<code>FST-101..102</code>>, <code>FST-203..207</code>>, <span class="code-tag">FST-408</span>>, <span class="code-tag">FST-611</span>>, <code>FST-610..613</code>>, <span class="code-tag">FST-714</span>>).</td>
+<td style="text-align: center;">🟢 Selesai</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td><code>036_DEV_REPORT...md</code>></td>
+<td>Kutipan rentang semester FSTI dan MKWU pada dev report mengikuti ketidakakuratan Dok 035.</td>
+<td>Diperbarui identik dengan Dok 035 sehingga seluruh rujukan struktur semester 100% konsisten.</td>
+<td style="text-align: center;">🟢 Selesai</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="5-hasil-verifikasi-terprogram-automated-audit-suite">5. HASIL VERIFIKASI TERPROGRAM (AUTOMATED AUDIT SUITE)</h3>
+<p>Seluruh sistem kurikulum telah diverifikasi menggunakan 4 engine pengujian otomatis:</p>
+<div class="highlight"><pre><span></span><code>================================================================================
+LAPORAN HASIL PENGUJIAN OTOMATIS KURIKULUM SISTEKIN 2026
+================================================================================
+
+[1] Engine: _tools/verify_all_mk_aligned_with_005.py
+    Tujuan  : Memeriksa keselarasan 67 MK (SKS, Semester, Tipe, Kode, Prasyarat)
+    Hasil   : [LULUS] SELURUH DOKUMEN 100% SELARAS DENGAN STRUKTUR DOKUMEN 005!
+    Cakupan : 13 berkas dokumen kunci diverifikasi baris demi baris.
+
+[2] Engine: _tools/verify_zero_discrepancy.py
+    Tujuan  : Audit ketiadaan diskrepansi nomenklatur STI-103 dan STI-204
+    Hasil   : [SUCCESS] 100% PERFECT ALIGNMENT: 50 dari 50 berkas Markdown lolos.
+
+[3] Engine: _tools/verify_k2025_ground_truth.py
+    Tujuan  : Audit integritas data Kurikulum 2025 terhadap Laporan Resmi SIAKAD
+    Hasil   : [LULUS] 11 dari 11 kelompok uji (17 butir verifikasi tuntas).
+    Status  : 56 MK / 146 SKS K2025 terpetakan sempurna (Zero Orphan, Zero Fictitious).
+
+[4] Engine: _tools/convert_md_to_html.py
+    Tujuan  : Kompilasi dokumen Markdown ke antarmuka HTML modern interaktif
+    Hasil   : [SUKSES] 39 berkas HTML dan index.html portal navigasi berhasil
+              dibangkitkan ulang dengan styling interaktif dan tabel responsif.
+================================================================================
+</code></pre></div>
+<hr />
+<h3 id="6-status-artefak-dan-portal-diseminasi">6. STATUS ARTEFAK DAN PORTAL DISEMINASI</h3>
+<p>Seluruh artefak pendukung kurikulum telah dimutakhirkan dan siap digunakan:</p>
+<ol>
+<li><strong>Berkas Markdown Resmi:</strong>
+   * <a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md"><code>005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md</code>></a> (Master Struktur).
+   * <a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.md"><code>007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.md</code>></a> (Silabus 3-Tabel 67 MK).
+   * <a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/035_RESTRUKTURISASI_KODE_MK_PEMINATAN_STA_STB_STC.md"><code>035_RESTRUKTURISASI_KODE_MK_PEMINATAN_STA_STB_STC.md</code>></a> (Laporan Kebijakan Kodifikasi Peminatan).
+   * <a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/036_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_PEMINATAN.md"><code>036_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_PEMINATAN.md</code>></a> (Audit Trail Teknis).
+   * <a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/037_BOUNDARY_OF_TOPICS_DAN_MATRIKS_ANTI_OVERLAP_KURIKULUM.md"><code>037_BOUNDARY_OF_TOPICS_DAN_MATRIKS_ANTI_OVERLAP_KURIKULUM.md</code>></a> (Instrumen Audit Mutu &amp; Guardrails).
+   * <a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/042_LAPORAN_AUDIT_KESELARASAN_KURIKULUM_DAN_BOUNDARY_OF_TOPICS.md"><code>042_LAPORAN_AUDIT_KESELARASAN_KURIKULUM_DAN_BOUNDARY_OF_TOPICS.md</code>></a> (Dokumen Ini).</li>
+<li><strong>Artefak Diseminasi Pembaca Non-Teknis:</strong>
+   * <code>024_RINGKAS_EKIVALENSI_UNTUK_AWAM.xlsx</code>> (Workbook 8 sheet berformat warna dan filter aktif).
+   * <code>024_RINGKAS_EKIVALENSI_UNTUK_AWAM.docx</code>> (Dokumen 9 tabel lanskap siap cetak untuk sosialisasi).</li>
+<li><strong>Web Portal Navigasi:</strong>
+   * <a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/index.html"><code>index.html</code>></a> (Portal web lokal dengan status live dan tautan ke seluruh 39 dokumen HTML).</li>
+</ol>
+<hr />
+<h3 id="kesimpulan">KESIMPULAN</h3>
+<p>Seluruh dokumen Kurikulum Program Studi Sistem dan Teknologi Informasi (S1) Kurikulum 2026 kini berada dalam kondisi <strong>100% selaras (<em>perfectly aligned</em>), bebas anomali dan tumpang tindih (<em>zero overlap &amp; zero discrepancy</em>), serta memiliki landasan formal yang sangat kokoh</strong> untuk dipertanggungjawabkan di hadapan Senat Universitas, Asesor Akreditasi Nasional (LAM INFOKOM), maupun Lembaga Akreditasi Internasional (IABEE).</p>
+<hr />
+<p><em>Disahkan sebagai Dokumen Resmi 042 — Laporan Audit Mutu &amp; Keselarasan Kurikulum SISTEKIN 2026.</em><br />
+<strong>Fakultas Sains dan Teknologi Informasi (FSTI) — Universitas Widyagama Malang</strong></p>
+
+            <div class="doc-nav">
+                <div><a href="041_LAMPIRAN_BARU_BUKU_KPT.html" class="nav-btn">← Sebelumnya</a></div>
+                <div><a href="index.html" class="nav-btn">🏠 Index Utama</a></div>
+                <div><a href="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" class="nav-btn">Selanjutnya →</a></div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p><strong>Dokumen Resmi Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
+            <p>Tim Pengembang Kurikulum FSTI — Universitas Widyagama Malang © 2026</p>
+        </footer>
+    </div>
+
+    <script>
+        // Mermaid Init
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'dark',
+            flowchart: { curve: 'basis', useMaxWidth: true }
+        });
+
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        let currentTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', currentTheme);
+
+        themeToggle.addEventListener('click', () => {
+            currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', currentTheme);
+            localStorage.setItem('theme', currentTheme);
+        });
+
+        // Live Table Search Filter
+        const searchInput = document.getElementById('globalTableSearch');
+        if (searchInput) {
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase().trim();
+                const rows = document.querySelectorAll('table tbody tr');
+                rows.forEach(row => {
+                    const text = row.innerText.toLowerCase();
+                    if (query === '' || text.includes(query)) {
+                        row.style.display = '';
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+            });
+        }
+    </script>
+</body>
+</html>
