@@ -170,9 +170,9 @@
 
 | Peminatan | Kode | Jumlah MK | Total SKS |
 |-----------|------|:---------:|:---------:|
-| **P1: Integrated Smart Systems** | STA-01..06 | 6 | 18 |
-| **P2: Cloud Infra & Cybersecurity** | STB-01..06 | 6 | 18 |
-| **P3: Digital Platform Engineering** | STC-01..06 | 6 | 18 |
+| **P1: Integrated Smart Systems** | STA-501..703 | 6 | 18 |
+| **P2: Cloud Infra & Cybersecurity** | STB-501..703 | 6 | 18 |
+| **P3: Digital Platform Engineering** | STC-501..703 | 6 | 18 |
 
 Mahasiswa menempuh **1 paket penuh** (6 MK / 18 SKS) dari 18 MK elektif yang ditawarkan.
 
