@@ -13,6 +13,7 @@ import os
 import sys
 import io
 import re
+import glob
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
@@ -290,6 +291,9 @@ def convert_master_workbook():
         ("008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.md", "008 Asesmen & Rubrik", "FFC000"),
         ("009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.md", "009E Matriks Kompilasi CPL", "7030A0"),
         ("010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.md", "010 Tracer Study & PPEPP", "EC4899"),
+        ("024_MATRIKS_EKIVALENSI_KURIKULUM2025_KE_KURIKULUM2026.md", "024 Ekivalensi K2025-2026", "0284C7"),
+        ("037_BOUNDARY_OF_TOPICS_DAN_MATRIKS_ANTI_OVERLAP_KURIKULUM.md", "037 Boundary Anti-Overlap", "D97706"),
+        ("043_MATRIKS_CPL_CPMK_BoK_DAN_BOUNDARY_GUARDRAILS.md", "043 Matriks Guardrails", "059669"),
     ]
     
     for filename, tab_label, tab_col in doc_sources:
@@ -324,35 +328,9 @@ def main():
     print("  EXCEL EXPORTER: KURIKULUM OBE SISTEKIN 2026")
     print("=====================================================================")
     
-    docs_to_convert = [
-        "001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.md",
-        "002_FORMULASI_3_PEO_DAN_4_PROFIL_LULUSAN_SISTEKIN.md",
-        "003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.md",
-        "004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.md",
-        "005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md",
-        "006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.md",
-        "007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.md",
-        "008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.md",
-        "009_LANGKAH2_CPL_FORMAL.md",
-        "009A_CPL_SIKAP_SISTEKIN.md",
-        "009B_CPL_KETERAMPILAN_UMUM_SISTEKIN.md",
-        "009C_CPL_PENGETAHUAN_SISTEKIN.md",
-        "009D_CPL_KETERAMPILAN_KHUSUS_SISTEKIN.md",
-        "009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.md",
-        "009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.md",
-        "010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.md",
-        "012_ANALISIS_KRITIS_JALUR_PONDASI_DAN_TREE_PRASYARAT.md",
-        "013_REKOMENDASI_SOLUSI_DAN_MITIGASI_KELEMAHAN_KURIKULUM.md",
-        "014_ANALISIS_KRITIS_PEMANGKASAN_SKS_TEORI_SEM4_SEM5.md",
-        "015_SIMULASI_AKSELERASI_KELULUSAN_7_SEMESTER.md",
-        "016_ANALISIS_BoK_APTIKOM_REDUNDANSI_DAN_PIPELINE_AI.md",
-        "017_AUDIT_FORENSIK_ZERO_REDUNDANCY_DAN_ZERO_GAP.md",
-        "018_PANDUAN_RUBRIK_KLASTER_DAN_MODEL_ASESMEN_OBE_DOSEN.md",
-        "024_MATRIKS_EKIVALENSI_KURIKULUM2025_KE_KURIKULUM2026.md",
-    ]
-    
-    print("\n1. Mengonversi Masing-Masing Dokumen Kurikulum ke Excel Individu:")
-    for md_doc in docs_to_convert:
+    md_files = sorted([os.path.basename(p) for p in glob.glob(os.path.join(WORKDIR, "*.md"))])
+    print(f"\n1. Mengonversi Masing-Masing Dokumen Kurikulum ({len(md_files)} file) ke Excel Individu:")
+    for md_doc in md_files:
         convert_single_file(md_doc)
         
     print("\n2. Mengonversi Dokumen 011 (14 Sheet) ke Excel:")
