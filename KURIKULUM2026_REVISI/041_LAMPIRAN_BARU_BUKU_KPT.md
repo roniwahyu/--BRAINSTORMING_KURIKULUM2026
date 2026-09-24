@@ -40,7 +40,7 @@
 | **3** | STI-306 APSI [3] · STI-309 RPL [3] · STI-308 UI/UX [3] · STI-310 Sistem Operasi [3] · STI-311 Web Front End [3] · STI-312 Jaringan [3] | FST-203; STI-205 |
 | **4** | STI-413 Machine Learning [3] · STI-415 DW & BI [3] · STI-416 Web Back End [3] · STI-417 Cloud [3] · STI-418 Dasar Keamanan [2] | STI-307; STI-311 |
 | **5** | STI-519 Keamanan Lanjut [3] · STI-520 Data Mining [3] · STI-521 IoT [3] · STI-522 Mobile [3] · STI-523 Manpro TI [3] · MK Pilihan 1 [3] | STI-418; STI-413 |
-| **6** | STI-624 Integrasi AI [3] · STI-625 Smart City [2] · STI-626 Deep Learning [3] · STI-627 Platform Eng [3] · FST-611 Metopel [2] · MK Pilihan 2 & 3 [3+3] | STI-413; STI-416 |
+| **6** | STI-726 Integrasi AI [3] · STI-727 Smart City [2] · STI-726 Deep Learning [3] · STI-727 Platform Eng [3] · FST-611 Metopel [2] · MK Pilihan 2 & 3 [3+3] | STI-413; STI-416 |
 | **7** | STI-728 Inovasi Startup [3] · FST-610 Capstone [3] · FST-612 PKL [3] · FST-613 Pra-Skripsi [2] · MK Pilihan 4-6 [9] | ≥ 100 SKS; STI-523 |
 | **8** | FST-714 Skripsi/Tugas Akhir [6] | FST-613; FST-611 |
 

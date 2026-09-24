@@ -247,13 +247,13 @@ graph TD
     subgraph P5 [&quot;PILAR 5: SINTESIS CAPSTONE, RISET &amp; STARTUP&quot;]
         S2_KWU[&quot;Sem 2: Kewirausahaan I&quot;] --&gt; S5_Manpro[&quot;Sem 5: Manajemen Proyek TI&quot;]
         S3_APSI --&gt; S5_Manpro
-        S5_Manpro --&gt; S7_Capstone[&quot;Sem 7: Capstone Project FSTI (+P)&quot;]
+        S5_Manpro --&gt; S6_Capstone[&quot;Sem 6: Capstone Project FSTI (+P)&quot;]
         S6_Platform --&gt; S7_Startup[&quot;Sem 7: Inovasi &amp; Startup Digital (+P)&quot;]
         S2_KWU --&gt; S7_Startup
         S4_ML --&gt; S6_Metpen[&quot;Sem 6: Metodologi Penelitian&quot;]
-        S6_Metpen --&gt; S7_Sempro[&quot;Sem 7: Pra-Skripsi / Sempro&quot;]
-        S7_Sempro --&gt; S8_Skripsi[&quot;Sem 8: Skripsi Murni / 4 Opsi Non-Skripsi (6 SKS)&quot;]
-        S7_Capstone --&gt; S8_Skripsi
+        S6_Metpen --&gt; S6_Sempro[&quot;Sem 6: Pra-Skripsi / Sempro&quot;]
+        S6_Sempro --&gt; S8_Skripsi[&quot;Sem 8: Skripsi Murni / 4 Opsi Non-Skripsi (6 SKS)&quot;]
+        S6_Capstone --&gt; S8_Skripsi
     end
 </div></div>
 
@@ -267,11 +267,11 @@ graph TD
          ├── STA-702 Natural Language Processing &amp; LLM (+P) ────┤
          ├── STA-703 Smart Surveillance &amp; Vision Analytics ─────┤
          │                                                     │
-[SEM 6]  ├── STI-624 Integrasi Layanan Cerdas AI (+P) ─────────┤
+[SEM 6]  ├── STI-726 Integrasi Layanan Cerdas AI (+P) ─────────┤
          ├── STA-602 Sistem Agen Cerdas &amp; Multi-Agent (+P) ─────┤
          ├── STA-601 Big Data Engineering &amp; Terdistribusi (+P) ─┤
          │                                                     │
-[SEM 6]  ├── STI-626 Deep Learning &amp; Neural Networks (+P) ─────┴── STI-413 Machine Learning (+P) [SEM 4]
+[SEM 6]  ├── STI-726 Deep Learning &amp; Neural Networks (+P) ─────┴── STI-413 Machine Learning (+P) [SEM 4]
          │                                                           │
          ├── STI-520 Data Mining &amp; Visualisasi Data (+P) ────────────┼── STI-415 Data Warehouse &amp; BI [SEM 4]
          │                                                           │
@@ -289,7 +289,7 @@ graph TD
 <h4 id="analisis-kritis-justifikasi-pedagogis-pilar-1">🔍 Analisis Kritis &amp; Justifikasi Pedagogis Pilar 1:</h4>
 <ol>
 <li><strong>Peran Kunci <code>STI-414 Pengantar NLP &amp; IR</code> (Sem 4):</strong> Menjadi jembatan esensial untuk <code>STA-702 Conversational AI</code> (Sem 7) yang berbasis LLM/RAG. Tanpa fondasi tokenisasi, TF-IDF, vector space model, dan embedding di Sem 4, pemahaman generative AI di Sem 7 akan bersifat superficial.</li>
-<li><strong>Keterpaduan Deep Learning &amp; Machine Learning:</strong> <code>STI-413 Machine Learning</code> (Sem 4) mengajarkan <em>classical tabular &amp; loss minimization</em>, yang menjadi landasan wajib bagi <code>STI-626 Deep Learning</code> (Sem 6) yang memperdalam <em>backpropagation, CNN, RNN/LSTM, dan Attention Mechanism</em>.</li>
+<li><strong>Keterpaduan Deep Learning &amp; Machine Learning:</strong> <code>STI-413 Machine Learning</code> (Sem 4) mengajarkan <em>classical tabular &amp; loss minimization</em>, yang menjadi landasan wajib bagi <code>STI-726 Deep Learning</code> (Sem 6) yang memperdalam <em>backpropagation, CNN, RNN/LSTM, dan Attention Mechanism</em>.</li>
 <li><strong>MLOps sebagai Muara Rekayasa:</strong> <code>STA-701 MLOps</code> (Sem 7) mensintesis model machine learning dengan containerization dan pipeline deployment (menghubungkan pilar AI dengan pilar Cloud/DevOps).</li>
 </ol>
 <hr />
@@ -334,7 +334,7 @@ graph TD
          ├── STC-702 Arsitektur SaaS &amp; Multi-Tenancy (+P) ──────┤
          ├── STC-703 Manajemen Produk Digital &amp; Growth ─────────┤
          │                                                     │
-[SEM 6]  ├── STI-627 Digital Platform Engineering (+P) ────────┼── STI-416 Web Back End Development [SEM 4]
+[SEM 6]  ├── STI-727 Digital Platform Engineering (+P) ────────┼── STI-416 Web Back End Development [SEM 4]
          ├── STC-601 Rekayasa &amp; Otomasi Proses Bisnis BPMN ─────┤     │
          ├── STC-602 Pengembangan Aplikasi Vertikal Industri ───┤     │
          │                                                     │     │
@@ -356,7 +356,7 @@ graph TD
 <li><strong>Pemisahan Front-End dan Back-End yang Rapi:</strong> 
    * <code>STI-311 Web Front-End</code> di Semester 3 (HTML/CSS/JS, React/Vue, Component Lifecycle)
    * <code>STI-416 Web Back-End</code> di Semester 4 (NodeJS/FastAPI, RESTful/GraphQL, ORM, Auth JWT)
-   * Terintegrasi menjadi <code>STI-522 Mobile App</code> di Sem 5 dan <code>STI-627 Platform Engineering</code> di Sem 6.</li>
+   * Terintegrasi menjadi <code>STI-522 Mobile App</code> di Sem 5 dan <code>STI-727 Platform Engineering</code> di Sem 6.</li>
 <li><strong>SaaS Architecture sebagai Puncak:</strong> <code>STC-702 SaaS Architecture</code> (Sem 7) mengajarkan multi-tenancy database, rate limiting, billing API, dan microservices scaling yang membutuhkan kematangan penuh dari Sem 1 hingga Sem 6.</li>
 </ol>
 <hr />
@@ -369,7 +369,7 @@ graph TD
          ├── STI-728 Inovasi Teknologi &amp; Startup (3 SKS) ─────┼── FST-611 Metodologi Penelitian [SEM 6]
          │                                                    │     │
 [SEM 6]  ├── FST-611 Metodologi Penelitian (2 SKS) ───────────┴── MKU-204 Kewirausahaan I [SEM 2]
-         └── STI-625 Smart City &amp; Pemerintahan Digital (2 SKS)
+         └── STI-727 Smart City &amp; Pemerintahan Digital (2 SKS)
                │
 [SEM 5]  ├── MKU-507 Kuliah Pengabdian Masyarakat / KPM (3 SKS)
          └── STI-523 Manajemen Proyek TI (3 SKS)
@@ -475,7 +475,7 @@ graph TD
 </tr>
 <tr>
 <td style="text-align: center;"><strong>6</strong></td>
-<td style="text-align: center;"><span class="code-tag">STI-624</span></td>
+<td style="text-align: center;"><span class="code-tag">STI-726</span></td>
 <td>Integrasi Layanan Cerdas Berbasis AI</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
@@ -485,7 +485,7 @@ graph TD
 </tr>
 <tr>
 <td style="text-align: center;"><strong>6</strong></td>
-<td style="text-align: center;"><span class="code-tag">STI-625</span></td>
+<td style="text-align: center;"><span class="code-tag">STI-727</span></td>
 <td>Smart City &amp; Pemerintahan Digital</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
@@ -495,7 +495,7 @@ graph TD
 </tr>
 <tr>
 <td style="text-align: center;"><strong>6</strong></td>
-<td style="text-align: center;"><span class="code-tag">STI-626</span></td>
+<td style="text-align: center;"><span class="code-tag">STI-726</span></td>
 <td>Deep Learning &amp; Neural Networks</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
@@ -505,7 +505,7 @@ graph TD
 </tr>
 <tr>
 <td style="text-align: center;"><strong>6</strong></td>
-<td style="text-align: center;"><span class="code-tag">STI-627</span></td>
+<td style="text-align: center;"><span class="code-tag">STI-727</span></td>
 <td>Digital Platform Engineering</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
@@ -589,7 +589,7 @@ graph TD
 <td>Inovasi Teknologi &amp; Startup Digital</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
-<td><span class="code-tag">STI-627</span> Platform, <span class="code-tag">MKU-204</span> KWU</td>
+<td><span class="code-tag">STI-727</span> Platform, <span class="code-tag">MKU-204</span> KWU</td>
 <td><span class="code-tag">STI-523</span> Manajemen Proyek TI</td>
 <td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
 </tr>
@@ -629,7 +629,7 @@ graph TD
 <td>MLOps &amp; AI Pipeline <em>(P1)</em></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
-<td><span class="code-tag">STI-626</span> DL, <span class="code-tag">STI-417</span> Cloud</td>
+<td><span class="code-tag">STI-726</span> DL, <span class="code-tag">STI-417</span> Cloud</td>
 <td><span class="code-tag">STA-501</span> DSS, <span class="code-tag">STI-413</span> ML</td>
 <td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
 </tr>
@@ -639,8 +639,8 @@ graph TD
 <td>Conversational AI &amp; LLM <em>(P1)</em></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
-<td><span class="code-tag">STI-414</span> NLP &amp; IR, <span class="code-tag">STI-626</span> DL</td>
-<td><span class="code-tag">STI-624</span> Integrasi Layanan Cerdas AI</td>
+<td><span class="code-tag">STI-414</span> NLP &amp; IR, <span class="code-tag">STI-726</span> DL</td>
+<td><span class="code-tag">STI-726</span> Integrasi Layanan Cerdas AI</td>
 <td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
 </tr>
 <tr>
@@ -649,7 +649,7 @@ graph TD
 <td>Smart Surveillance &amp; Edge AI <em>(P1)</em></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
-<td><span class="code-tag">STI-626</span> DL, <span class="code-tag">STI-521</span> IoT</td>
+<td><span class="code-tag">STI-726</span> DL, <span class="code-tag">STI-521</span> IoT</td>
 <td><span class="code-tag">STI-413</span> Machine Learning</td>
 <td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
 </tr>
@@ -699,7 +699,7 @@ graph TD
 <td>Arsitektur SaaS Enterprise <em>(P3)</em></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
-<td><span class="code-tag">STI-627</span> Platform, <span class="code-tag">STI-417</span> Cloud</td>
+<td><span class="code-tag">STI-727</span> Platform, <span class="code-tag">STI-417</span> Cloud</td>
 <td><span class="code-tag">STI-416</span> Web Back End Development</td>
 <td style="text-align: center;">🟢 <strong>Sangat Kuat</strong></td>
 </tr>

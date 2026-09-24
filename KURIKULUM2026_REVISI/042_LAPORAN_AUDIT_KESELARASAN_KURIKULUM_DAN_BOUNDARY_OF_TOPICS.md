@@ -42,8 +42,8 @@ Sesuai konsensus final pada **Dokumen 005 (Struktur Kurikulum 8 Semester dan Pem
 * **Semester 3 (20 SKS / 7 MK):** `STI-306` (3), `STI-307` (2), `STI-308` (3), `STI-309` (3), `STI-310` (3), `STI-311` (3), `STI-312` (3).
 * **Semester 4 (21 SKS / 9 MK):** `STI-413` (3), `STI-414` (2), `STI-415` (3), `STI-416` (3), `STI-417` (3), `STI-418` (2), `FST-408` (3), `MKU-405` (2), `MKU-406` (0).
 * **Semester 5 (21 SKS / 8 MK):** `STI-519` (3), `STI-520` (3), `STI-521` (3), `STI-522` (3), `STI-523` (3), `MKU-507` (3), `MKU-508` (0), **MK Pilihan Peminatan 1** (3).
-* **Semester 6 (19 SKS / 7 MK):** `STI-626` (3), `STI-627` (3), `FST-610` (3), `FST-611` (2), `FST-612` (3), `FST-613` (2), **MK Pilihan Peminatan 2** (3).
-* **Semester 7 (20 SKS / 7 MK):** `STI-624` (3), `STI-625` (2), `STI-728` (3), **MK Pilihan Peminatan 3** (3), **MK Pilihan Peminatan 4** (3), **MK Pilihan Peminatan 5** (3), **MK Pilihan Peminatan 6** (3).
+* **Semester 6 (19 SKS / 7 MK):** `STI-726` (3), `STI-727` (3), `FST-610` (3), `FST-611` (2), `FST-612` (3), `FST-613` (2), **MK Pilihan Peminatan 2** (3).
+* **Semester 7 (20 SKS / 7 MK):** `STI-726` (3), `STI-727` (2), `STI-728` (3), **MK Pilihan Peminatan 3** (3), **MK Pilihan Peminatan 4** (3), **MK Pilihan Peminatan 5** (3), **MK Pilihan Peminatan 6** (3).
 * **Semester 8 (6 SKS / 1 MK):** `FST-714` Skripsi / Tugas Akhir Murni / 4 Opsi Non-Skripsi (6 SKS).
 
 ---
@@ -62,9 +62,9 @@ $$\mathbf{ST[A/B/C]\text{-}[Semester][Nomor\ Urut\ dalam\ Semester\ (2\ Digit)]}
 │  5  │  STA-501  │ Decision Support Systems                        │  3  │  +P  │ STI-307         │
 │  6  │  STA-601  │ Rekayasa Big Data & Komp. Terdistribusi         │  3  │  +P  │ FST-207, STI-415│
 │  6  │  STA-602  │ Intelligent Agent Systems                       │  3  │  +P  │ STI-307         │
-│  7  │  STA-701  │ MLOps and AI Pipeline                           │  3  │  +P  │ STI-413, STI-624│
+│  7  │  STA-701  │ MLOps and AI Pipeline                           │  3  │  +P  │ STI-413, STI-726│
 │  7  │  STA-702  │ Conversational AI and Intelligent Assistant     │  3  │  +P  │ STI-413, STI-416│
-│  7  │  STA-703  │ Smart Surveillance and IoT Analytics            │  3  │  +P  │ STI-626, STI-521│
+│  7  │  STA-703  │ Smart Surveillance and IoT Analytics            │  3  │  +P  │ STI-726, STI-521│
 ├─────┼───────────┼─────────────────────────────────────────────────┼─────┼──────┼─────────────────┤
 │  5  │  STB-501  │ Network Security and Digital Forensics          │  3  │  +P  │ STI-312, STI-418│
 │  6  │  STB-601  │ Cloud Architecture & DevOps                     │  3  │  +P  │ STI-417         │
@@ -98,10 +98,10 @@ Dokumen **`037_BOUNDARY_OF_TOPICS_DAN_MATRIKS_ANTI_OVERLAP_KURIKULUM.md`** telah
    * 15 Bahan Kajian Utama APTIKOM TI (IT2017/CC2020: `BK-IT01` s.d. `BK-IT15`).
 3. **Analisis Mendalam 8 Klaster Kritis Rawan Overlap:**
    * Klaster 1: AI & Language Technology (`FST-204` $\rightarrow$ `STI-307` $\rightarrow$ `STI-414` $\rightarrow$ `STA-702`).
-   * Klaster 2: Machine Learning, Deep Learning & MLOps (`STI-413` $\rightarrow$ `STI-626` $\rightarrow$ `STA-701`).
+   * Klaster 2: Machine Learning, Deep Learning & MLOps (`STI-413` $\rightarrow$ `STI-726` $\rightarrow$ `STA-701`).
    * Klaster 3: Data Management, Warehouse & Mining (`FST-207` $\rightarrow$ `STI-415` $\rightarrow$ `STI-520`).
    * Klaster 4: Software Engineering & Project Management (`STI-306` $\rightarrow$ `STI-309` $\rightarrow$ `STI-523`).
-   * Klaster 5: Web, Mobile, Platform & Distributed System (`STI-311` $\rightarrow$ `STI-416` $\rightarrow$ `STI-522` $\rightarrow$ `STI-627` $\rightarrow$ `STC-702`).
+   * Klaster 5: Web, Mobile, Platform & Distributed System (`STI-311` $\rightarrow$ `STI-416` $\rightarrow$ `STI-522` $\rightarrow$ `STI-727` $\rightarrow$ `STC-702`).
    * Klaster 6: Cloud Computing, DevOps & Infrastructure (`STI-103` $\rightarrow$ `STI-310` $\rightarrow$ `STI-312` $\rightarrow$ `STI-417` $\rightarrow$ `STB-601`).
    * Klaster 7: Cybersecurity, Forensics & Risk Governance (`STI-418` $\rightarrow$ `STB-501` $\rightarrow$ `STI-519` $\rightarrow$ `STB-602` $\rightarrow$ `STB-701`).
    * Klaster 8: HCI, UI/UX & Digital Product Design (`STI-308` $\rightarrow$ `STC-501` $\rightarrow$ `STC-703`).
@@ -116,9 +116,9 @@ Dalam rangka menjamin seluruh dokumen kurikulum 100% selaras dengan Dokumen 005,
 
 | No | Dokumen Target | Masalah yang Ditemukan | Tindakan Kuratif yang Diterapkan | Status |
 |:--:|---|---|---|:---:|
-| 1 | `037_BOUNDARY_OF_TOPICS...md` | Typo penomoran `STI-628` pada baris Smart City (seharusnya `STI-625`) dan penulisan PBO sebagai `STI-206`. | Diperbaiki menjadi `STI-625 Smart City & Pemerintahan Digital (2 SKS)` dan pemodelan pasangan ke-3 diselaraskan ke `FST-102 & FST-203 vs STI-309 RPL`. | 🟢 Selesai |
+| 1 | `037_BOUNDARY_OF_TOPICS...md` | Typo penomoran `STI-628` pada baris Smart City (seharusnya `STI-727`) dan penulisan PBO sebagai `STI-206`. | Diperbaiki menjadi `STI-727 Smart City & Pemerintahan Digital (2 SKS)` dan pemodelan pasangan ke-3 diselaraskan ke `FST-102 & FST-203 vs STI-309 RPL`. | 🟢 Selesai |
 | 2 | `039_LAMPIRAN_SIAP...md` | Memuat kode non-005 (`STI-628 Data Eng`, `STI-729 Digital Startup`, `STI-730 Penambangan Pengetahuan`); `FST-611` tercatat 3 SKS di Sem 7; baris paket Sem 5 hilang. | Menghapus kode fiktif; memindahkan `FST-611` ke Semester 6 (2 SKS); memasukkan kembali `MKU-507`, `MKU-508`, dan `MK Pilihan 1` di Sem 5; mengunci `STI-728 Inovasi Startup` (3 SKS, Sem 7). | 🟢 Selesai |
-| 3 | `041_LAMPIRAN_BARU...md` | Peta kurikulum Sem 6-7 memuat `STI-628` dan `STI-729`; aturan prasyarat masih mencantumkan kode lama `STA-01..STC-01`. | Menyelaraskan alur Sem 6-7 dengan memasukkan `STI-625`, `FST-611`, `STI-728`; memperbarui rujukan kode peminatan ke `STA-501`, `STB-501`, `STC-501`. | 🟢 Selesai |
+| 3 | `041_LAMPIRAN_BARU...md` | Peta kurikulum Sem 6-7 memuat `STI-628` dan `STI-729`; aturan prasyarat masih mencantumkan kode lama `STA-01..STC-01`. | Menyelaraskan alur Sem 6-7 dengan memasukkan `STI-727`, `FST-611`, `STI-728`; memperbarui rujukan kode peminatan ke `STA-501`, `STB-501`, `STC-501`. | 🟢 Selesai |
 | 4 | `035_RESTRUKTURISASI...md` | Kutipan rentang semester FSTI menyebut `FST-304..305` di Sem 3 dan MKWU menyebut `MKU-204..205`. | Menyelaraskan teks kutipan agar presisi mengikuti Dok 005 (`FST-101..102`, `FST-203..207`, `FST-408`, `FST-611`, `FST-610..613`, `FST-714`). | 🟢 Selesai |
 | 5 | `036_DEV_REPORT...md` | Kutipan rentang semester FSTI dan MKWU pada dev report mengikuti ketidakakuratan Dok 035. | Diperbarui identik dengan Dok 035 sehingga seluruh rujukan struktur semester 100% konsisten. | 🟢 Selesai |
 

@@ -224,7 +224,7 @@ Sarjana yang berjiwa kewirausahaan teknologi, mampu mengidentifikasi celah pasar
 | BK-IS13 Data Analytics & BI | STI-415 DW & BI; STI-520 Data Mining | Analytics |
 | BK-IS16 AI Foundations | FST-204 Pengantar AI; STI-413 Machine Learning | Kecerdasan artifisial |
 | BK-IS19 Cloud Computing | STI-417 Komputasi Awan; STB-601 Cloud & DevOps | Cloud & DevOps |
-| BK-IS21 Emerging Tech (IoT/Smart) | STI-521 IoT; STI-626 Smart City | IoT & smart systems |
+| BK-IS21 Emerging Tech (IoT/Smart) | STI-521 IoT; STI-726 Smart City | IoT & smart systems |
 
 > Peta lengkap 36 BK terhadap 55 MK paket dapat diekspor dari Dok 011 (14 sheet) dan Dok 017 (audit zero gap).
 
@@ -332,10 +332,10 @@ Sarjana yang berjiwa kewirausahaan teknologi, mampu mengidentifikasi celah pasar
 | 38 | MKU-507 | KPM (Kuliah Pengabdian Masyarakat) | 3 | 5 | MKWU |
 | 39 | MKU-508 | Kewirausahaan II | 0 | 5 | MKWU |
 | 40 | **MK Pilihan Peminatan 1** | (P1/P2/P3) | 3 | 5 | Elektif |
-| 41 | STI-624 | Integrasi Layanan Cerdas Berbasis AI | 3 | 7 | Core STI |
-| 42 | STI-625 | Smart City & Pemerintahan Digital | 2 | 7 | Core STI |
-| 43 | STI-626 | Deep Learning & Neural Networks | 3 | 6 | Core STI |
-| 44 | STI-627 | Digital Platform Engineering | 3 | 6 | Core STI |
+| 41 | STI-726 | Integrasi Layanan Cerdas Berbasis AI | 3 | 7 | Core STI |
+| 42 | STI-727 | Smart City & Pemerintahan Digital | 2 | 7 | Core STI |
+| 43 | STI-726 | Deep Learning & Neural Networks | 3 | 6 | Core STI |
+| 44 | STI-727 | Digital Platform Engineering | 3 | 6 | Core STI |
 | 45 | FST-611 | Metodologi Penelitian | 2 | 6 | FSTI |
 | 46 | **MK Pilihan Peminatan 2** | (P1/P2/P3) | 3 | 6 | Elektif |
 | 47 | **MK Pilihan Peminatan 3** | (P1/P2/P3) | 3 | 6 | Elektif |
@@ -415,10 +415,10 @@ Sarjana yang berjiwa kewirausahaan teknologi, mampu mengidentifikasi celah pasar
 | 5 | MKU-507 | KPM | 3 |
 | 5 | MKU-508 | Kewirausahaan II | 0 |
 | 5 | **MK Pilihan 1** | (P1/P2/P3) | 3 |
-| 7 | STI-624 | Integrasi Layanan Cerdas AI | 3 |
-| 7 | STI-625 | Smart City & Pemerintahan Digital | 2 |
-| 6 | STI-626 | Deep Learning & Neural Networks | 3 |
-| 6 | STI-627 | Platform Engineering | 3 |
+| 7 | STI-726 | Integrasi Layanan Cerdas AI | 3 |
+| 7 | STI-727 | Smart City & Pemerintahan Digital | 2 |
+| 6 | STI-726 | Deep Learning & Neural Networks | 3 |
+| 6 | STI-727 | Platform Engineering | 3 |
 | 6 | FST-611 | Metodologi Penelitian | 2 |
 | 6 | **MK Pilihan 2** | (P1/P2/P3) | 3 |
 | 6 | **MK Pilihan 3** | (P1/P2/P3) | 3 |
@@ -454,9 +454,9 @@ Sarjana yang berjiwa kewirausahaan teknologi, mampu mengidentifikasi celah pasar
 | 1 | STA-501 | Decision Support Systems | 3 | +P | 5 | STI-307 |
 | 2 | STA-601 | Rekayasa Big Data dan Komputasi Terdistribusi | 3 | +P | 6 | FST-207, STI-415 |
 | 3 | STA-602 | Intelligent Agent Systems | 3 | +P | 7 | STI-307 |
-| 4 | STA-701 | MLOps and AI Pipeline | 3 | +P | 7 | STI-413, STI-624 |
+| 4 | STA-701 | MLOps and AI Pipeline | 3 | +P | 7 | STI-413, STI-726 |
 | 5 | STA-702 | Conversational AI & Intelligent Assistant | 3 | +P | 7 | STI-413, STI-416 |
-| 6 | STA-703 | Smart Surveillance and IoT Analytics | 3 | +P | 7 | STI-626, STI-521 |
+| 6 | STA-703 | Smart Surveillance and IoT Analytics | 3 | +P | 7 | STI-726, STI-521 |
 
 ### Jalur P2 — Cloud Infrastructure & Cybersecurity
 
@@ -512,7 +512,7 @@ Sarjana yang berjiwa kewirausahaan teknologi, mampu mengidentifikasi celah pasar
 | Akurasi hasil akhir (20%) | 100% presisi | Kesalahan <5% | Galat tengah | Salah total |
 
 ### Klaster 2 (K-2): Rekayasa Perangkat Lunak & Data
-- **Daftar MK contoh:** FST-102 Algoritma, FST-203 Struktur Data, FST-207 Basis Data, STI-311 Web Front End, STI-416 Web Back End, STI-522 Mobile App, STI-415 DW & BI, STI-627 Platform Engineering.
+- **Daftar MK contoh:** FST-102 Algoritma, FST-203 Struktur Data, FST-207 Basis Data, STI-311 Web Front End, STI-416 Web Back End, STI-522 Mobile App, STI-415 DW & BI, STI-727 Platform Engineering.
 - **Bentuk:** Coding Challenge, Lab Hands-on Exam, Team Mini-Project (Sprint 1), Final App Showcase & Repositori Git.
 
 | Kriteria | Sangat Baik | Baik | Cukup | Kurang |
@@ -523,7 +523,7 @@ Sarjana yang berjiwa kewirausahaan teknologi, mampu mengidentifikasi celah pasar
 | Presentasi & demo (10%) | Demo lancar, showcase komprehensif | Cukup | Kaku | Gagal demo |
 
 ### Klaster 3 (K-3): Kecerdasan Artifisial, Cloud & Cybersecurity
-- **Daftar MK contoh:** STI-413 Machine Learning, STI-624 Integrasi AI, STI-417 Cloud, STI-418/519 Keamanan, STI-521 IoT.
+- **Daftar MK contoh:** STI-413 Machine Learning, STI-726 Integrasi AI, STI-417 Cloud, STI-418/519 Keamanan, STI-521 IoT.
 - **Bentuk:** Hands-on experiment, Lab Test praktikum, Mini-project AI/cloud/security, Case evaluation.
 
 | Kriteria | Sangat Baik | Baik | Cukup | Kurang |
@@ -574,7 +574,7 @@ Digunakan untuk **survei persepsi** (tracer study, kepuasan pengguna lulusan, ev
 | 1 | Magang / Praktik Kerja | 6-7 | Terstruktur + Hibrida | Paket 20 SKS (Dok 006) — MSIB / magang industri |
 | 2 | Studi / Proyek Independen | 7 | Terstruktur + Hibrida | Paket 20 SKS (Dok 006) |
 | 3 | Kegiatan Wirausaha | 7 | Terstruktur + Hibrida | Paket 20 SKS; minimal 1 produk/startup |
-| 4 | KKN Tematik (Membangun Desa) | 6-7 | Terstruktur | Konversi ke STI-625 Smart City (2) + PKL + MK pengabdian |
+| 4 | KKN Tematik (Membangun Desa) | 6-7 | Terstruktur | Konversi ke STI-727 Smart City (2) + PKL + MK pengabdian |
 | 5 | Asistensi Mengajar di Satuan Pendidikan | 6-7 | Terstruktur | Konversi ke MKWU (Bahasa Indonesia, dll.) + soft skills |
 | 6 | Penelitian / Riset | 7 | Terstruktur + Hibrida | Konversi ke FST-613 Pra-Skripsi (2) + FST-610 Capstone (3) + MK peminatan |
 | 7 | Proyek Kemanusiaan | 6-7 | Terstruktur + Bebas | Konversi ke MK pengabdian + soft skills (universitas) |

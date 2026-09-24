@@ -66,11 +66,11 @@ Seluruh usulan mata kuliah pilihan tambahan dirancang **bebas redundansi** (*Zer
 | **6** | `STA-601` | Rekayasa Big Data dan Komputasi Terdistribusi | 3 | +P | `FST-207` Basis Data, `STI-415` DW/BI | BK-IS02 (Data Mgmt) / BK-IS18 | Eksis 2026 — pengganti Numerik per Dok 047/048 |
 | **6** | `STA-602` | Intelligent Agent Systems | 3 | +P | `STI-307` Sistem Cerdas | BK-IS15 / BK-IT10 (AI Systems) | Eksis 2026 |
 | **6** | `STA-603` | Riset Operasi dan Optimasi Sistem | 3 | +P | `STI-415` DW/BI, `STA-501` | BK-IS13 (Decision/OR) | **Usulan 2027 pengganti** — slot Big Data sudah diampu `STA-601` per Dok 047/048; OR masuk pool cross-track |
-| **6** | `STA-604` | Edge AI & Embedded Machine Learning | 3 | +P | `STI-521` IoT, `STI-626` DL | BK-IT06 / BK-IT10 (Edge AI) | **Usulan 2027** |
-| **7** | `STA-701` | MLOps and AI Pipeline | 3 | +P | `STI-626` DL, `STI-417` Cloud | BK-IT07 / BK-IT10 (MLOps) | Eksis 2026 |
-| **7** | `STA-702` | Conversational AI & Intelligent Assistant | 3 | +P | `STI-414` NLP, `STI-626` DL | BK-IS15 / BK-IT10 (NLP/GenAI) | Eksis 2026 |
+| **6** | `STA-604` | Edge AI & Embedded Machine Learning | 3 | +P | `STI-521` IoT, `STI-726` DL | BK-IT06 / BK-IT10 (Edge AI) | **Usulan 2027** |
+| **7** | `STA-701` | MLOps and AI Pipeline | 3 | +P | `STI-726` DL, `STI-417` Cloud | BK-IT07 / BK-IT10 (MLOps) | Eksis 2026 |
+| **7** | `STA-702` | Conversational AI & Intelligent Assistant | 3 | +P | `STI-414` NLP, `STI-726` DL | BK-IS15 / BK-IT10 (NLP/GenAI) | Eksis 2026 |
 | **7** | `STA-703` | Smart Surveillance & IoT Analytics | 3 | +P | `STI-521` IoT, `STA-502` CV | BK-IT06 / BK-IT10 (IoT Vision) | Eksis 2026 |
-| **7** | `STA-704` | Generative AI Engineering & LLM App | 3 | +P | `STI-414` NLP, `STI-626` DL | BK-IT10 (GenAI Engineering) | **Usulan 2027** |
+| **7** | `STA-704` | Generative AI Engineering & LLM App | 3 | +P | `STI-414` NLP, `STI-726` DL | BK-IT10 (GenAI Engineering) | **Usulan 2027** |
 | **7** | `STA-705` | Autonomous Systems & Robot Navigation | 3 | +P | `STI-521` IoT, `STA-502` CV | BK-IT06 / BK-IT10 (Robotics) | **Usulan 2027** |
 
 ---
@@ -90,7 +90,7 @@ Seluruh usulan mata kuliah pilihan tambahan dirancang **bebas redundansi** (*Zer
 | **7** | `STB-701` | IT Governance & Compliance COBIT 2019 | 3 | Teori | `STI-523` Manajemen Proyek | BK-IS08 (IT Governance) | Eksis 2026 |
 | **7** | `STB-702` | IT Service Management ITIL 4 | 3 | Teori | `STI-523` Manajemen Proyek | BK-IS09 (IT Service Mgmt) | Eksis 2026 |
 | **7** | `STB-703` | Enterprise Architecture TOGAF | 3 | Teori | `STI-306` APSI | BK-IS03 (Enterprise Arch) | Eksis 2026 |
-| **7** | `STB-704` | Security Operations Center (SOC) & SIEM | 3 | +P | `STB-501` NetSec, `STI-626` | BK-IT08 (Defensive Cyber) | **Usulan 2027** |
+| **7** | `STB-704` | Security Operations Center (SOC) & SIEM | 3 | +P | `STB-501` NetSec, `STI-726` | BK-IT08 (Defensive Cyber) | **Usulan 2027** |
 | **7** | `STB-705` | Cloud Security & Zero Trust Architecture | 3 | +P | `STI-417` Cloud, `STI-418` | BK-IT07 / BK-IT08 (Zero Trust) | **Usulan 2027** |
 
 ---
@@ -105,10 +105,10 @@ Seluruh usulan mata kuliah pilihan tambahan dirancang **bebas redundansi** (*Zer
 | **5** | `STC-503` | E-Commerce Platform & Payment API | 3 | +P | `STI-311` Web Front, `STI-416` | BK-IS16 (E-Business Tech) | **Usulan 2027** |
 | **6** | `STC-601` | Rekayasa & Otomasi Proses Bisnis | 3 | +P | `STI-306` APSI | BK-IS05 (Business Processes) | Eksis 2026 |
 | **6** | `STC-602` | Rekayasa Aplikasi Industri Vertikal | 3 | +P | `STI-416` Web Back End | BK-IS04 / BK-IT04 (Domain Apps)| Eksis 2026 |
-| **6** | `STC-603` | Microservices Architecture & API Gateway | 3 | +P | `STI-416` Web Back, `STI-627` | BK-IS04 / BK-IT07 (Microservice)| **Usulan 2027** |
+| **6** | `STC-603` | Microservices Architecture & API Gateway | 3 | +P | `STI-416` Web Back, `STI-727` | BK-IS04 / BK-IT07 (Microservice)| **Usulan 2027** |
 | **6** | `STC-604` | Cross-Platform Mobile Engineering | 3 | +P | `STI-522` Mobile Programming | BK-IT04 (Mobile App Eng) | **Usulan 2027** |
 | **7** | `STC-701` | Immersive Media & XR Development | 3 | +P | `STI-308` UI/UX, `STI-311` | BK-IT10 (XR/Graphics) | Eksis 2026 |
-| **7** | `STC-702` | SaaS Architecture & Multi-Tenancy | 3 | +P | `STI-627` Digital Platform | BK-IS04 / BK-IT07 (SaaS) | Eksis 2026 |
+| **7** | `STC-702` | SaaS Architecture & Multi-Tenancy | 3 | +P | `STI-727` Digital Platform | BK-IS04 / BK-IT07 (SaaS) | Eksis 2026 |
 | **7** | `STC-703` | Digital Product Management | 3 | Teori | `STI-523` Manajemen Proyek | BK-IS01 (Product Strategy) | Eksis 2026 |
 | **7** | `STC-704` | Enterprise Resource Planning (ERP) Systems | 3 | +P | `STI-306` APSI, `FST-207` | BK-IS05 (Integrated ERP) | **Usulan 2027** |
 | **7** | `STC-705` | Web3 & Decentralized Platform Engineering | 3 | +P | `STI-416` Web Back, `STI-418` | BK-IS17 / BK-IT14 (Decentralized)| **Usulan 2027** |

@@ -33,7 +33,7 @@ Pada perancangan awal Kurikulum 2026, mata kuliah peminatan menggunakan penomora
 2. **Inkonsistensi Format dengan Rumpun Lain:**
    - **MKWU:** Menggunakan digit semester pada digit pertama (`MKU-101..103`, `MKU-204`, `MKU-405..406`, `MKU-507..508`).
    - **FSTI:** Menggunakan digit semester pada digit pertama (`FST-101..102`, `FST-203..207`, `FST-408`, `FST-611`, `FST-610..613`, `FST-714`).
-   - **Core STI:** Menggunakan digit semester pada digit pertama (`STI-101..103`, `STI-204..205`, `STI-306..312`, `STI-413..418`, `STI-519..523`, `STI-624..627`, `STI-728`).
+   - **Core STI:** Menggunakan digit semester pada digit pertama (`STI-101..103`, `STI-204..205`, `STI-306..312`, `STI-413..418`, `STI-519..523`, `STI-726..627`, `STI-728`).
    Penggunaan kode 2-digit pada MK Peminatan merupakan anomali format tunggal yang tersisa di Kurikulum 2026.
 3. **Bebas Risiko Kolisi Historis:** Berdasarkan audit basis data Kurikulum 2025 (`Laporan Daftar Kurikulum Prodi Sistekin.pdf`), Kurikulum 2025 tidak pernah menggunakan kode `STA`, `STB`, ataupun `STC` (0 kemunculan), sehingga transisi ke format 3-digit dijamin **100% bebas risiko tabrakan kode**.
 
@@ -64,9 +64,9 @@ Tim Kurikulum menetapkan **Model 2: Reset ke 01 pada Setiap Semester**:
 | **6** | P2: Cloud Infra & Cyber | Cybersecurity Risk Management | 3 | Teori | `STB-03` | **`STB-602`** | `STI-418` Dasar Keamanan Informasi |
 | **6** | P3: Digital Platform Eng | Rekayasa & Otomasi Proses Bisnis (BPA) | 3 | +P | `STC-02` | **`STC-601`** | `STI-306` Analisis & Perancangan Sistem Informasi |
 | **6** | P3: Digital Platform Eng | Rekayasa Aplikasi Industri Vertikal | 3 | +P | `STC-03` | **`STC-602`** | `STI-416` Web Back End Development |
-| **7** | P1: Integrated Smart Systems | MLOps and AI Pipeline | 3 | +P | `STA-04` | **`STA-701`** | `STI-413` Machine Learning, `STI-624` Integrasi AI |
+| **7** | P1: Integrated Smart Systems | MLOps and AI Pipeline | 3 | +P | `STA-04` | **`STA-701`** | `STI-413` Machine Learning, `STI-726` Integrasi AI |
 | **7** | P1: Integrated Smart Systems | Conversational AI & Intelligent Assistant | 3 | +P | `STA-05` | **`STA-702`** | `STI-413` Machine Learning, `STI-416` Web Back End |
-| **7** | P1: Integrated Smart Systems | Smart Surveillance & IoT Analytics | 3 | +P | `STA-06` | **`STA-703`** | `STI-626` Deep Learning, `STI-521` IoT |
+| **7** | P1: Integrated Smart Systems | Smart Surveillance & IoT Analytics | 3 | +P | `STA-06` | **`STA-703`** | `STI-726` Deep Learning, `STI-521` IoT |
 | **7** | P2: Cloud Infra & Cyber | IT Governance & Compliance (COBIT 2019) | 3 | Teori | `STB-04` | **`STB-701`** | `STI-101` Pengantar STI |
 | **7** | P2: Cloud Infra & Cyber | IT Service Management (ITIL 4) | 3 | Teori | `STB-05` | **`STB-702`** | `STI-101` Pengantar STI |
 | **7** | P2: Cloud Infra & Cyber | Enterprise Architecture (TOGAF) | 3 | Teori | `STB-06` | **`STB-703`** | `STI-306` Analisis & Perancangan Sistem Informasi |

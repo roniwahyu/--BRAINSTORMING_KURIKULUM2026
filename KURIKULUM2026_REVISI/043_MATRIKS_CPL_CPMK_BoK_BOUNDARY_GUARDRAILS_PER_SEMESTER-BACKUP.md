@@ -300,7 +300,7 @@
 | Guardrail | Batas Materi |
 |---|---|
 | **IN-SCOPE** (wajib diajarkan) | Pencarian heuristik (A*, Greedy, Minimax), knowledge representation, sistem pakar (forward/backward chaining), fuzzy inference. |
-| **OUT-OF-SCOPE** (dilarang) | ML statistik / neural network / deep learning (STI-413/STI-626); agen otonom & MAS (STA-602). |
+| **OUT-OF-SCOPE** (dilarang) | ML statistik / neural network / deep learning (STI-413/STI-726); agen otonom & MAS (STA-602). |
 | **Handoff Anchor** (titik transisi) | Inferensi simbolik deterministik; menyerahkan ML probabilistik ke STI-413 dan NLP ke STI-414. |
 
 ---
@@ -548,8 +548,8 @@
 | Guardrail | Batas Materi |
 |---|---|
 | **IN-SCOPE** (wajib diajarkan) | Data tabular & pipeline scikit-learn, regresi, decision tree, random forest, SVM, K-Means, PCA, hyperparameter tuning, metrik evaluasi. |
-| **OUT-OF-SCOPE** (dilarang) | PyTorch/TensorFlow, CNN/RNN, deep learning (STI-626); sistem otonom BDI & teori permainan (STA-602). |
-| **Handoff Anchor** (titik transisi) | Pemodelan data tabular klasik; menyerahkan data tak terstruktur (citra/sekuensial) ke STI-626. |
+| **OUT-OF-SCOPE** (dilarang) | PyTorch/TensorFlow, CNN/RNN, deep learning (STI-726); sistem otonom BDI & teori permainan (STA-602). |
+| **Handoff Anchor** (titik transisi) | Pemodelan data tabular klasik; menyerahkan data tak terstruktur (citra/sekuensial) ke STI-726. |
 
 ---
 
@@ -674,8 +674,8 @@
 | Guardrail | Batas Materi |
 |---|---|
 | **IN-SCOPE** (wajib diajarkan) | Arsitektur server-side, RESTful API design, JWT & RBAC, ORM/ODM, session & caching dasar (Redis), validasi input, dokumentasi Swagger/OpenAPI, deploy kontainer. |
-| **OUT-OF-SCOPE** (dilarang) | Layout CSS/HTML (STI-311); message broker skala besar (STI-627); frontend mobile (STI-522). |
-| **Handoff Anchor** (titik transisi) | Layanan backend modular; menyerahkan aksesibilitas mobile ke STI-522 dan skalabilitas terdistribusi ke STI-627. |
+| **OUT-OF-SCOPE** (dilarang) | Layout CSS/HTML (STI-311); message broker skala besar (STI-727); frontend mobile (STI-522). |
+| **Handoff Anchor** (titik transisi) | Layanan backend modular; menyerahkan aksesibilitas mobile ke STI-522 dan skalabilitas terdistribusi ke STI-727. |
 
 ---
 
@@ -971,7 +971,7 @@
 
 ### A-6. SEMESTER 6
 
-### 24. STI-624 — Integrasi Layanan Cerdas Berbasis AI
+### 24. STI-726 — Integrasi Layanan Cerdas Berbasis AI
 
 | Atribut | Spesifikasi |
 |---|---|
@@ -1008,12 +1008,12 @@
 | Guardrail | Batas Materi |
 |---|---|
 | **IN-SCOPE** (wajib diajarkan) | Konversi model ke ONNX/TensorRT, RESTful/gRPC inference service, kontainerisasi model, RAG & vector database, load testing, monitoring laten. |
-| **OUT-OF-SCOPE** (dilarang) | Riset/training arsitektur deep learning dari nol (STI-626); pengaturan lifecycle MLOps penuh & CI/CD/CT (STA-701). |
+| **OUT-OF-SCOPE** (dilarang) | Riset/training arsitektur deep learning dari nol (STI-726); pengaturan lifecycle MLOps penuh & CI/CD/CT (STA-701). |
 | **Handoff Anchor** (titik transisi) | Mengoperasikan layanan AI; menyerahkan otomasi lifecycle & monitoring drift produksi ke STA-701. |
 
 ---
 
-### 25. STI-625 — Smart City & Pemerintahan Digital
+### 25. STI-727 — Smart City & Pemerintahan Digital
 
 | Atribut | Spesifikasi |
 |---|---|
@@ -1055,7 +1055,7 @@
 
 ---
 
-### 26. STI-626 — Deep Learning & Neural Networks
+### 26. STI-726 — Deep Learning & Neural Networks
 
 | Atribut | Spesifikasi |
 |---|---|
@@ -1097,7 +1097,7 @@
 
 ---
 
-### 27. STI-627 — Digital Platform Engineering
+### 27. STI-727 — Digital Platform Engineering
 
 | Atribut | Spesifikasi |
 |---|---|
@@ -1147,7 +1147,7 @@
 |---|---|
 | **Semester / SKS / Tipe** | 7 / 3 SKS / +P |
 | **Rumpun MK** | Digital Innovation & Entrepreneurship |
-| **Prasyarat** | STI-627, MKU-204 |
+| **Prasyarat** | STI-727, MKU-204 |
 | **CPL yang Dibebankan** | `KK6` (Inovasi Produk Digital, Lean Startup, Validasi MVP & Pitching) |
 | **Bahan Kajian (BoK)** | `BK-IS15` Digital Innovation and Entrepreneurship & `BK-IT13` Technology Entrepreneurship |
 
@@ -1178,7 +1178,7 @@
 | Guardrail | Batas Materi |
 |---|---|
 | **IN-SCOPE** (wajib diajarkan) | Lean Startup, problem-solution fit, MVP fungsional, metrik pertumbuhan (AARRR, CAC, LTV, Burn Rate), investor pitch deck, Demo Day. |
-| **OUT-OF-SCOPE** (dilarang) | Implementasi teknis deep learning/MVP rekayasa (STI-626/STI-627); desain UI (STI-308). |
+| **OUT-OF-SCOPE** (dilarang) | Implementasi teknis deep learning/MVP rekayasa (STI-726/STI-727); desain UI (STI-308). |
 | **Handoff Anchor** (titik transisi) | Memvalidasi kejelasan pasar bisnis & pitching; startup yang dibina menjadi wadah penerapan capstone/PKL (Capstone FSTI, PKL). |
 
 ---
@@ -1343,8 +1343,8 @@
 | Guardrail | Batas Materi |
 |---|---|
 | **IN-SCOPE** (wajib diajarkan) | Representasi floating-point & galat (IEEE 754), akar non-linier (Newton-Raphson, Secant), solusi SPL numerik, interpolasi Spline, integrasi Romberg/Gauss-Legendre, PDB (RK4), optimasi SGD/Gradient Descent. |
-| **OUT-OF-SCOPE** (dilarang) | Menghitung limit/turunan murni manual tanpa kode (STI-102); melatih jaringan deep (STI-626). |
-| **Handoff Anchor** (titik transisi) | Algoritma aproksimasi & optimasi numerik; menyerahkan pemodelan deep learning ke STI-626. |
+| **OUT-OF-SCOPE** (dilarang) | Menghitung limit/turunan murni manual tanpa kode (STI-102); melatih jaringan deep (STI-726). |
+| **Handoff Anchor** (titik transisi) | Algoritma aproksimasi & optimasi numerik; menyerahkan pemodelan deep learning ke STI-726. |
 
 ---
 
@@ -1385,8 +1385,8 @@
 | Guardrail | Batas Materi |
 |---|---|
 | **IN-SCOPE** (wajib diajarkan) | Arsitektur agen (BDI), Multi-Agent Systems (MAS), protokol FIPA-ACL, framework Python Mesa/JADE, reinforcement learning dasar, negosiasi & koordinasi agen. |
-| **OUT-OF-SCOPE** (dilarang) | Inferensi sistem pakar rule-based (STI-307); training deep reinforcement learning skala besar (STI-626). |
-| **Handoff Anchor** (titik transisi) | Agen otonom terdistribusi; menyerahkan NN besar ke STI-626 dan pengambilan keputusan tunggal ke STI-307. |
+| **OUT-OF-SCOPE** (dilarang) | Inferensi sistem pakar rule-based (STI-307); training deep reinforcement learning skala besar (STI-726). |
+| **Handoff Anchor** (titik transisi) | Agen otonom terdistribusi; menyerahkan NN besar ke STI-726 dan pengambilan keputusan tunggal ke STI-307. |
 
 ---
 
@@ -1424,8 +1424,8 @@
 | Guardrail | Batas Materi |
 |---|---|
 | **IN-SCOPE** (wajib diajarkan) | Infrastructure as Code (Terraform), orkestrasi Kubernetes (Deployments, StatefulSets, Ingress, PV), Helm, GitOps (ArgoCD), CI/CD pipeline kontainer. |
-| **OUT-OF-SCOPE** (dilarang) | Provisi VM & kontainer Docker tunggal (STI-417); arsitektur aplikasi microservices (STI-627). |
-| **Handoff Anchor** (titik transisi) | Automasi & orkestrasi infrastruktur; menyerahkan desain aplikasi microservices ke STI-627. |
+| **OUT-OF-SCOPE** (dilarang) | Provisi VM & kontainer Docker tunggal (STI-417); arsitektur aplikasi microservices (STI-727). |
+| **Handoff Anchor** (titik transisi) | Automasi & orkestrasi infrastruktur; menyerahkan desain aplikasi microservices ke STI-727. |
 
 ---
 
@@ -1542,7 +1542,7 @@
 |---|---|
 | **IN-SCOPE** (wajib diajarkan) | Aplikasi industri vertikal: FinTech (transaksi, e-wallet, AML/risk rule) & EdTech (LMS, SIS, proctoring), integrasi pembayaran (payment gateway). |
 | **OUT-OF-SCOPE** (dilarang) | CRUD aplikasi generik (STI-416); aturan pembayaran/transaksi di luar domain STI-416. |
-| **Handoff Anchor** (titik transisi) | Spesialisasi domain vertikal; menyerahkan infrastruktur platform umum ke STI-627/STC-702. |
+| **Handoff Anchor** (titik transisi) | Spesialisasi domain vertikal; menyerahkan infrastruktur platform umum ke STI-727/STC-702. |
 
 ---
 
@@ -1554,7 +1554,7 @@
 |---|---|
 | **Semester / SKS / Tipe** | 7 / 3 SKS / +P |
 | **Rumpun MK** | P1 Integrated Smart Systems |
-| **Prasyarat** | STI-413, STI-624 |
+| **Prasyarat** | STI-413, STI-726 |
 | **CPL yang Dibebankan** | `P4` (Pipeline Otomasi ML), `KK1` (Continuous Training & Model Registry), `KK2` (Pelacakan Data) |
 | **Bahan Kajian (BoK)** | `BK-IS18` Machine Learning and Data Science & `BK-IS19` Cloud Architecture & DevOps & `BK-IT07` System Integration and Architecture |
 
@@ -1582,8 +1582,8 @@
 | Guardrail | Batas Materi |
 |---|---|
 | **IN-SCOPE** (wajib diajarkan) | MLOps lifecycle (CI/CD/CT), registry model (MLflow), otomasi retraining & monitoring drift, eksperimen tracking, feature store, deployment model & canary. |
-| **OUT-OF-SCOPE** (dilarang) | Riset/training arsitektur model baru (STI-626); deployment layanan inference via FastAPI/ONNX mendalam (STI-624). |
-| **Handoff Anchor** (titik transisi) | Otomasi & tata kelola model produksi; menyerahkan pembuatan layanan inference ke STI-624. |
+| **OUT-OF-SCOPE** (dilarang) | Riset/training arsitektur model baru (STI-726); deployment layanan inference via FastAPI/ONNX mendalam (STI-726). |
+| **Handoff Anchor** (titik transisi) | Otomasi & tata kelola model produksi; menyerahkan pembuatan layanan inference ke STI-726. |
 
 ---
 
@@ -1624,7 +1624,7 @@
 | Guardrail | Batas Materi |
 |---|---|
 | **IN-SCOPE** (wajib diajarkan) | LLM/Transformer (fine-tuning), prompt engineering, RAG (LangChain, vectordb), agentic AI & tool-use, evaluasi percakapan. |
-| **OUT-OF-SCOPE** (dilarang) | Analisis NLP statistik klasik VSM (STI-414); layanan API web kembali (STI-416/STI-624). |
+| **OUT-OF-SCOPE** (dilarang) | Analisis NLP statistik klasik VSM (STI-414); layanan API web kembali (STI-416/STI-726). |
 | **Handoff Anchor** (titik transisi) | Bahasa generatif & percakapan; menyerahkan pencarian dokumen klasik ke STI-414. |
 
 ---
@@ -1635,7 +1635,7 @@
 |---|---|
 | **Semester / SKS / Tipe** | 7 / 3 SKS / +P |
 | **Rumpun MK** | P1 Integrated Smart Systems |
-| **Prasyarat** | STI-626, STI-521 |
+| **Prasyarat** | STI-726, STI-521 |
 | **CPL yang Dibebankan** | `P3` (Edge AI & Video Analytics), `KK1` (Computer Vision Real-Time), `KK3` (Integrasi Sensor & CCTV) |
 | **Bahan Kajian (BoK)** | `BK-IS16` Artificial Intelligence & Intelligent Systems & `BK-IT02` Applied AI & Intelligent Technologies & `BK-IT14` IoT and Embedded Smart Systems |
 
@@ -1783,8 +1783,8 @@
 | Guardrail | Batas Materi |
 |---|---|
 | **IN-SCOPE** (wajib diajarkan) | Pendekatan TOGAF ADM (Architecture Vision s.d. Migration), pemodelan arsitektur (ArchiMate), business/data/application/technology architecture. |
-| **OUT-OF-SCOPE** (dilarang) | Blueprint SPBE selesai; fokus pada proyek bisnis sistem informasi (STI-625); pemodelan UML detail (STI-306). |
-| **Handoff Anchor** (titik transisi) | Peta arsitektur enterprise korporat; menyerahkan sistem domain publik ke STI-625. |
+| **OUT-OF-SCOPE** (dilarang) | Blueprint SPBE selesai; fokus pada proyek bisnis sistem informasi (STI-727); pemodelan UML detail (STI-306). |
+| **Handoff Anchor** (titik transisi) | Peta arsitektur enterprise korporat; menyerahkan sistem domain publik ke STI-727. |
 
 ---
 
@@ -1861,7 +1861,7 @@
 | Guardrail | Batas Materi |
 |---|---|
 | **IN-SCOPE** (wajib diajarkan) | Arsitektur SaaS (multi-tenant, tenant isolation), monetisasi & metering (plan, quota), on-boarding tenant, sharing schema & shared DB. |
-| **OUT-OF-SCOPE** (dilarang) | Membangun microservice event-driven skalabel (STI-627); penyusunan PRD & metrik produk (STC-703). |
+| **OUT-OF-SCOPE** (dilarang) | Membangun microservice event-driven skalabel (STI-727); penyusunan PRD & metrik produk (STC-703). |
 | **Handoff Anchor** (titik transisi) | Mesin multitenansi SaaS; menyerahkan strategi go-to-market produk ke STC-703. |
 
 ---

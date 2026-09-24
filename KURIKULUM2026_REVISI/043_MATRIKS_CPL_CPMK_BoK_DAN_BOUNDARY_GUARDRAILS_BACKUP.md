@@ -224,7 +224,7 @@ Matriks ini dirancang sebagai instrumen pengendali mutu kurikulum (*curricular q
 
 * 🟢 **IN-SCOPE (Wajib Diajarkan):** Sistem Persamaan Linier (SPL), Eliminasi Gauss-Jordan, Aljabar Matriks, Vektor Ruang R^n, Determinan, Invers, Nilai Eigen dan Vektor Eigen, Dekomposisi PCA dasar.
 * ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang training algoritma machine learning (Scikit-Learn), koding aplikasi web, analisis limit diferensial kalkulus.
-* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menguasai manipulasi aljabar linier matriks; menyerahkan pemodelan machine learning tabular ke `STI-413` dan deep learning ke `STI-626`.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menguasai manipulasi aljabar linier matriks; menyerahkan pemodelan machine learning tabular ke `STI-413` dan deep learning ke `STI-726`.
 
 ---
 
@@ -521,7 +521,7 @@ Matriks ini dirancang sebagai instrumen pengendali mutu kurikulum (*curricular q
 
 * 🟢 **IN-SCOPE (Wajib Diajarkan):** Data Preprocessing, Scikit-Learn Pipeline, Supervised Learning (Linear/Logistic Regression, Decision Tree, Random Forest, SVM), Unsupervised (K-Means, PCA), Validasi & Metrik Evaluasi.
 * ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang deep learning PyTorch/TensorFlow, arsitektur CNN/RNN, orkestrasi pipeline MLOps produksi.
-* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menguasai pemodelan data tabular terstruktur; menyerahkan data citra/teks ke `STI-626` dan operasionalisasi ke `STA-701`.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menguasai pemodelan data tabular terstruktur; menyerahkan data citra/teks ke `STI-726` dan operasionalisasi ke `STA-701`.
 
 ---
 
@@ -626,7 +626,7 @@ Matriks ini dirancang sebagai instrumen pengendali mutu kurikulum (*curricular q
 
 * 🟢 **IN-SCOPE (Wajib Diajarkan):** Arsitektur Server-Side, Node.js / Python FastAPI, RESTful API Design, Middleware, Autentikasi JWT & OAuth2, ORM / Query Optimization, API Documentation (Swagger/OpenAPI).
 * ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang desain visual antarmuka pengguna CSS, orkestrasi microservices multi-container Kubernetes, event streaming Kafka skala besar.
-* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menghasilkan layanan backend API andal; menyerahkan integrasi platform dan event streaming ke `STI-627`.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menghasilkan layanan backend API andal; menyerahkan integrasi platform dan event streaming ke `STI-727`.
 
 ---
 
@@ -806,7 +806,7 @@ Matriks ini dirancang sebagai instrumen pengendali mutu kurikulum (*curricular q
 
 * 🟢 **IN-SCOPE (Wajib Diajarkan):** Arsitektur IoT (Perception, Network, Application), Mikrokontroler (ESP32/Arduino), Sensor & Aktuator, Protokol Komunikasi IoT (MQTT, CoAP, HTTP), Edge Data Acquisition, IoT Cloud Integration.
 * ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang deep learning video streaming analytics pada hardware edge, desain sirkuit PCB fabrikasi industri, audit keamanan firmware skala besar.
-* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Membangun node sensor cerdas terhubung; menyerahkan analitik pengawasan cerdas ke `STA-703` dan platform perkotaan ke `STI-625`.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Membangun node sensor cerdas terhubung; menyerahkan analitik pengawasan cerdas ke `STA-703` dan platform perkotaan ke `STI-727`.
 
 ---
 
@@ -841,7 +841,7 @@ Matriks ini dirancang sebagai instrumen pengendali mutu kurikulum (*curricular q
 
 * 🟢 **IN-SCOPE (Wajib Diajarkan):** Pengembangan Aplikasi Mobile Cross-Platform (Flutter / React Native), State Management Mobile, Integrasi REST API, Penyimpanan Lokal (SQLite/Preferences), Akses Fitur Hardware (Kamera, GPS).
 * ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang native iOS Swift / Android Kotlin murni tingkat rendah, arsitektur backend server, desain grafis UI/UX dari nol.
-* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menghasilkan aplikasi bergerak terhubung; menyerahkan rekayasa platform skala enterprise ke `STI-627`.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menghasilkan aplikasi bergerak terhubung; menyerahkan rekayasa platform skala enterprise ke `STI-727`.
 
 ---
 
@@ -885,12 +885,12 @@ Matriks ini dirancang sebagai instrumen pengendali mutu kurikulum (*curricular q
 #### Tabel Rekapitulasi Core Semester 6
 | Kode MK | Nama Mata Kuliah | SKS | Prasyarat | CPL Utama | Bahan Kajian (BoK) | Fokus Kewenangan (In-Scope Ringkas) |
 |:---:|---|:---:|:---:|:---:|---|---|
-| `STI-624` | Integrasi Layanan Cerdas Berbasis AI | 3 | `STI-413`, `STI-416` | `P2` , `KK1` | `BK-IS16` *Artificial Intelligence* | Arsitektur Integrasi Model AI ke Sistem Produksi, Pembuatan Wrapp... |
-| `STI-625` | Smart City & Pemerintahan Digital | 2 | `STI-521` | `P3` , `KK3` | `BK-IS01` *Foundations of IS* | Konsep Smart City 6 Pilar, Transformasi Digital Sektor Publik, Si... |
-| `STI-626` | Deep Learning & Neural Networks | 3 | `STI-413` | `KK1` , `KK2` | `BK-IS18` *Machine Learning* | Multi-Layer Perceptron, Backpropagation, Framework PyTorch, Convo... |
-| `STI-627` | Digital Platform Engineering | 3 | `STI-416` | `P4` , `KK5` | `BK-IS12` *Web and Mobile App Development* | Arsitektur Platform Digital, Event-Driven Architecture, Message B... |
+| `STI-726` | Integrasi Layanan Cerdas Berbasis AI | 3 | `STI-413`, `STI-416` | `P2` , `KK1` | `BK-IS16` *Artificial Intelligence* | Arsitektur Integrasi Model AI ke Sistem Produksi, Pembuatan Wrapp... |
+| `STI-727` | Smart City & Pemerintahan Digital | 2 | `STI-521` | `P3` , `KK3` | `BK-IS01` *Foundations of IS* | Konsep Smart City 6 Pilar, Transformasi Digital Sektor Publik, Si... |
+| `STI-726` | Deep Learning & Neural Networks | 3 | `STI-413` | `KK1` , `KK2` | `BK-IS18` *Machine Learning* | Multi-Layer Perceptron, Backpropagation, Framework PyTorch, Convo... |
+| `STI-727` | Digital Platform Engineering | 3 | `STI-416` | `P4` , `KK5` | `BK-IS12` *Web and Mobile App Development* | Arsitektur Platform Digital, Event-Driven Architecture, Message B... |
 
-#### STI-624 — Integrasi Layanan Cerdas Berbasis AI
+#### STI-726 — Integrasi Layanan Cerdas Berbasis AI
 * **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `STI-413`, `STI-416`
 * **CPL yang Dibebankan:** `P2` (Arsitektur AI-as-a-Service), `KK1` (Model Serving, RAG, & Vektor Database)
 * **Body of Knowledge (BoK):** `BK-IS16` *Artificial Intelligence*, `BK-IT07` *System Integration*
@@ -925,7 +925,7 @@ Matriks ini dirancang sebagai instrumen pengendali mutu kurikulum (*curricular q
 
 ---
 
-#### STI-625 — Smart City & Pemerintahan Digital
+#### STI-727 — Smart City & Pemerintahan Digital
 * **Beban / Tipe / Prasyarat:** 2 SKS / Teori / Prasyarat: `STI-521`
 * **CPL yang Dibebankan:** `P3` (Infrastruktur Kota Cerdas & Arsitektur SPBE), `KK3` (Integrasi GIS & Telemetri Perkotaan)
 * **Body of Knowledge (BoK):** `BK-IS01` *Foundations of IS*, `BK-IS04` *Enterprise Architecture*
@@ -960,7 +960,7 @@ Matriks ini dirancang sebagai instrumen pengendali mutu kurikulum (*curricular q
 
 ---
 
-#### STI-626 — Deep Learning & Neural Networks
+#### STI-726 — Deep Learning & Neural Networks
 * **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `STI-413`
 * **CPL yang Dibebankan:** `KK1` (Pemodelan Deep Learning Vision & NLP), `KK2` (Rekayasa Dataset Citra & Teks)
 * **Body of Knowledge (BoK):** `BK-IS18` *Machine Learning*, `BK-IT02` *Applied AI*
@@ -995,7 +995,7 @@ Matriks ini dirancang sebagai instrumen pengendali mutu kurikulum (*curricular q
 
 ---
 
-#### STI-627 — Digital Platform Engineering
+#### STI-727 — Digital Platform Engineering
 * **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `STI-416`
 * **CPL yang Dibebankan:** `P4` (Arsitektur Microservices & Event Streaming), `KK5` (Platform Engineering & CI/CD Pipeline)
 * **Body of Knowledge (BoK):** `BK-IS12` *Web and Mobile App Development*, `BK-IT07` *System Integration and Architecture*
@@ -1035,10 +1035,10 @@ Matriks ini dirancang sebagai instrumen pengendali mutu kurikulum (*curricular q
 #### Tabel Rekapitulasi Core Semester 7
 | Kode MK | Nama Mata Kuliah | SKS | Prasyarat | CPL Utama | Bahan Kajian (BoK) | Fokus Kewenangan (In-Scope Ringkas) |
 |:---:|---|:---:|:---:|:---:|---|---|
-| `STI-728` | Inovasi Teknologi dan Startup Digital | 3 | `STI-627`, `MKU-204` | `KK6` | `BK-IS15` *Digital Innovation and Entrepreneurship* | Inovasi Teknologi Digital, Lean Startup Methodology, Business Mod... |
+| `STI-728` | Inovasi Teknologi dan Startup Digital | 3 | `STI-727`, `MKU-204` | `KK6` | `BK-IS15` *Digital Innovation and Entrepreneurship* | Inovasi Teknologi Digital, Lean Startup Methodology, Business Mod... |
 
 #### STI-728 — Inovasi Teknologi dan Startup Digital
-* **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `STI-627`, `MKU-204`
+* **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `STI-727`, `MKU-204`
 * **CPL yang Dibebankan:** `KK6` (Inovasi Produk Digital, Lean Startup, Validasi MVP & Pitching)
 * **Body of Knowledge (BoK):** `BK-IS15` *Digital Innovation and Entrepreneurship*, `BK-IT13` *Technology Entrepreneurship*
 
@@ -1398,9 +1398,9 @@ Mata kuliah keahlian spesialisasi ditawarkan dalam 3 jalur:
 #### Tabel Rekapitulasi Peminatan Semester 7
 | Kode MK | Jalur | Nama Mata Kuliah | SKS | Prasyarat | CPL Utama | Bahan Kajian (BoK) | Fokus Spesialisasi (In-Scope) |
 |:---:|:---:|---|:---:|:---:|:---:|---|---|
-| `STA-701` | P1 | MLOps and AI Pipeline | 3 | `STI-413`, `STI-624` Integrasi AI | `P4` , `KK1` , `KK2` | `BK-IS18` *Machine Learning* | Lifecycle MLOps, Experiment Tracking (MLflow), Data Versioni... |
+| `STA-701` | P1 | MLOps and AI Pipeline | 3 | `STI-413`, `STI-726` Integrasi AI | `P4` , `KK1` , `KK2` | `BK-IS18` *Machine Learning* | Lifecycle MLOps, Experiment Tracking (MLflow), Data Versioni... |
 | `STA-702` | P1 | Conversational AI and Intelligent Assistant | 3 | `STI-413`, `STI-416` Web Back End | `P2` , `KK1` | `BK-IS16` *Artificial Intelligence* | Arsitektur LLM Modern, Prompt Engineering Lanjut (Few-shot, ... |
-| `STA-703` | P1 | Smart Surveillance and IoT Analytics | 3 | `STI-626`, `STI-521` IoT | `P3` , `KK1` , `KK3` | `BK-IS16` *Artificial Intelligence* | Video Analytics Real-Time, Deteksi Objek Edge (YOLO/MobileNe... |
+| `STA-703` | P1 | Smart Surveillance and IoT Analytics | 3 | `STI-726`, `STI-521` IoT | `P3` , `KK1` , `KK3` | `BK-IS16` *Artificial Intelligence* | Video Analytics Real-Time, Deteksi Objek Edge (YOLO/MobileNe... |
 | `STB-701` | P2 | IT Governance & Compliance (COBIT 2019) | 3 | `STI-101` Pengantar Sistem & TI | `P3` , `KK4` | `BK-IS05` *IS Management and Governance* | Tata Kelola TI Korporat, Framework COBIT 2019 (Governance & ... |
 | `STB-702` | P2 | IT Service Management (ITIL 4) | 3 | `STI-101` Pengantar Sistem & TI | `P2` , `KK4` | `BK-IS05` *IS Management* | Manajemen Layanan TI (ITIL 4), Service Value System (SVS), E... |
 | `STB-703` | P2 | Enterprise Architecture (TOGAF) | 3 | `STI-306` Analisis & Perancangan SI | `P2` , `P3` , `KK4` | `BK-IS04` *Enterprise Architecture* | Arsitektur Enterprise Korporat, Framework TOGAF (Architectur... |
@@ -1409,7 +1409,7 @@ Mata kuliah keahlian spesialisasi ditawarkan dalam 3 jalur:
 | `STC-703` | P3 | Digital Product Management & Agile Practices | 3 | `STI-523` Manajemen Proyek TI | `P2` , `KK6` | `BK-IS15` *Digital Innovation* | Manajemen Produk Digital (Product Management), Product Roadm... |
 
 #### STA-701 — MLOps and AI Pipeline (Peminatan 1: Integrated Smart Systems)
-* **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `STI-413`, `STI-624` Integrasi AI
+* **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `STI-413`, `STI-726` Integrasi AI
 * **CPL yang Dibebankan:** `P4` (Pipeline Otomasi ML), `KK1` (Continuous Training & Model Registry), `KK2` (Pelacakan Data)
 * **Body of Knowledge (BoK):** `BK-IS18` *Machine Learning*, `BK-IT07` *System Integration*
 
@@ -1476,7 +1476,7 @@ Mata kuliah keahlian spesialisasi ditawarkan dalam 3 jalur:
 ---
 
 #### STA-703 — Smart Surveillance and IoT Analytics (Peminatan 1: Integrated Smart Systems)
-* **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `STI-626`, `STI-521` IoT
+* **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `STI-726`, `STI-521` IoT
 * **CPL yang Dibebankan:** `P3` (Edge AI & Video Analytics), `KK1` (Computer Vision Real-Time), `KK3` (Integrasi Sensor & CCTV)
 * **Body of Knowledge (BoK):** `BK-IS16` *Artificial Intelligence*, `BK-IT14` *IoT & Smart Systems*
 

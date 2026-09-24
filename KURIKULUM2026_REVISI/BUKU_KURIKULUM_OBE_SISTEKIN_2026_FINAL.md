@@ -296,8 +296,8 @@ Sebagai program studi baru yang sedang bertumbuh, SISTEKIN menerapkan evaluasi P
 ### SEMESTER 6 (19 SKS)
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
-| 39 | STI-626 | Deep Learning & Neural Networks | 3 | +P | Core STI | STI-413 |
-| 40 | STI-627 | Digital Platform Engineering | 3 | +P | Core STI | STI-416 |
+| 39 | STI-726 | Deep Learning & Neural Networks | 3 | +P | Core STI | STI-413 |
+| 40 | STI-727 | Digital Platform Engineering | 3 | +P | Core STI | STI-416 |
 | 41 | FST-610 | Capstone Project FSTI | 3 | Proyek | FSTI | STI-523, $\ge 100\text{ SKS}$ |
 | 42 | FST-611 | Metodologi Penelitian | 2 | Teori | FSTI | $\ge 76\text{ SKS}$ |
 | 43 | FST-612 | Praktik Kerja Lapangan (PKL) | 3 | Magang | FSTI | $\ge 100\text{ SKS}$ |
@@ -314,9 +314,9 @@ Sebagai program studi baru yang sedang bertumbuh, SISTEKIN menerapkan evaluasi P
 ### SEMESTER 7 (20 SKS)
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Kategori | Prasyarat |
 |:---:|:---:|---|:---:|:---:|:---:|---|
-| 46 | STI-624 | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | Core STI | STI-413, STI-416 |
-| 47 | STI-625 | Smart City & Pemerintahan Digital | 2 | Teori | Core STI | STI-521 |
-| 48 | STI-728 | Inovasi Teknologi dan Startup Digital | 3 | +P | Core STI | STI-627, MKU-204 |
+| 46 | STI-726 | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | Core STI | STI-413, STI-416 |
+| 47 | STI-727 | Smart City & Pemerintahan Digital | 2 | Teori | Core STI | STI-521 |
+| 48 | STI-728 | Inovasi Teknologi dan Startup Digital | 3 | +P | Core STI | STI-727, MKU-204 |
 | 49 | STA/B/C | **MK Pilihan Peminatan 3** | 3 | Elektif | Peminatan | Prasyarat Peminatan |
 | 50 | STA/B/C | **MK Pilihan Peminatan 4** | 3 | Elektif | Peminatan | Prasyarat Peminatan |
 | 51 | STA/B/C | **MK Pilihan Peminatan 5** | 3 | Elektif | Peminatan | Prasyarat Peminatan |
@@ -389,9 +389,9 @@ Fokus keahlian: Rekayasa sistem berbasis AI, machine learning pipelines, deep le
 | 1 | `STA-501` | Decision Support Systems | 3 | +P | Sem 5 | `STI-307` Sistem Cerdas | BK-IS17 Business Analytics, AHP/TOPSIS |
 | 2 | `STA-601` | Rekayasa Big Data dan Komputasi Terdistribusi | 3 | +P | Sem 6 | `FST-207`, `STI-415` Data Warehouse & BI | BK-IS02 / BK-IS18 Data & ML Terdistribusi |
 | 3 | `STA-602` | Intelligent Agent Systems | 3 | +P | Sem 7 | `STI-307` Sistem Cerdas | BK-IT02 Multi-Agent Systems, Reinforcement |
-| 4 | `STA-701` | MLOps and AI Pipeline | 3 | +P | Sem 7 | `STI-413`, `STI-624` Integrasi AI | BK-IS18 Machine Learning Engineering |
+| 4 | `STA-701` | MLOps and AI Pipeline | 3 | +P | Sem 7 | `STI-413`, `STI-726` Integrasi AI | BK-IS18 Machine Learning Engineering |
 | 5 | `STA-702` | Conversational AI and Intelligent Assistant | 3 | +P | Sem 7 | `STI-413`, `STI-416` Web Back End | BK-IT02 LLM, RAG Architecture, Prompt Eng |
-| 6 | `STA-703` | Smart Surveillance and IoT Analytics | 3 | +P | Sem 7 | `STI-626`, `STI-521` IoT | BK-IT02 Video Analytics, Edge AI, Vision |
+| 6 | `STA-703` | Smart Surveillance and IoT Analytics | 3 | +P | Sem 7 | `STI-726`, `STI-521` IoT | BK-IT02 Video Analytics, Edge AI, Vision |
 
 ### 4.2 PEMINATAN 2: CLOUD INFRASTRUCTURE & CYBERSECURITY (VOLUME — 6 MK / 18 SKS)
 Fokus keahlian: Arsitektur cloud computing, otomatisasi DevOps, tata kelola keamanan siber, manajemen risiko, forensik digital, dan enterprise architecture (Profil Lulusan: `PL-2`).
@@ -440,8 +440,8 @@ Fokus keahlian: Rekayasa antarmuka pengguna interaktif (UI/UX research), otomasi
 | Jalur MBKM | Semester | Paket MK yang Dikonversi | Total SKS Dikonversi |
 | --- | --- | --- | --- |
 | Magang Industri | Sem 6 | • MK Pilihan Peminatan 2 (3) | **19 SKS** |
-| Bersertifikat (MSIB) |  | • STI-626 Deep Learning (3) |  |
-|  |  | • STI-627 Platform Eng (3) |  |
+| Bersertifikat (MSIB) |  | • STI-726 Deep Learning (3) |  |
+|  |  | • STI-727 Platform Eng (3) |  |
 |  |  | • FST-610 Capstone FSTI (3) |  |
 |  |  | • FST-611 Metopel (2) |  |
 |  |  | • FST-612 PKL Industri (3) |  |
@@ -450,8 +450,8 @@ Fokus keahlian: Rekayasa antarmuka pengguna interaktif (UI/UX research), otomasi
 | Studi Independen / |  | • MK Pilihan Peminatan 4 (3) |  |
 | Wirausaha Merdeka |  | • MK Pilihan Peminatan 5 (3) |  |
 |  |  | • MK Pilihan Peminatan 6 (3) |  |
-|  |  | • STI-624 Integrasi AI (3) |  |
-|  |  | • STI-625 Smart City (2) |  |
+|  |  | • STI-726 Integrasi AI (3) |  |
+|  |  | • STI-727 Smart City (2) |  |
 |  |  | • STI-728 Startup Digital (3) |  |
 
 ---
@@ -917,7 +917,7 @@ Untuk menjamin hak akademik mahasiswa yang telah menempuh kurikulum 2025, diberl
 | `MKU-405` | Kewarganegaraan | 2 | `MKU-405` | Kewarganegaraan (Digeser ke Sem 4) | 2 | Ekuivalen Penuh |
 | `FST-206` | Etika Profesi | 2 | `FST-206` | Etika Profesi & Hukum Digital (Sem 2)| 2 | Ekuivalen Penuh |
 | `MKU-204` | Kewirausahaan I | 2 | `MKU-204` | Kewirausahaan I (Sem 2) | 2 | Ekuivalen Penuh |
-| `STI-624` | AI Terapan & Layanan Cerdas | 3 | `STI-624` | Integrasi Layanan Cerdas AI (Sem 7) | 3 | Ekuivalen Penuh |
+| `STI-726` | AI Terapan & Layanan Cerdas | 3 | `STI-726` | Integrasi Layanan Cerdas AI (Sem 7) | 3 | Ekuivalen Penuh |
 | `FST-610` | Capstone Project FSTI | 3 | `FST-610` | Capstone Project FSTI (Sem 6) | 3 | Ekuivalen Penuh |
 
 ---
@@ -1040,10 +1040,10 @@ graph LR
 | 36 | `STI-523` | Manajemen Proyek TI | 3 | | | | | | | | | | | | | | **R** | PL-4 | PEO-1, PEO-2 | **R** |
 | 37 | `MKU-507` | KPM (Kuliah Pengabdian Kepada Masyarakat) | 3 | **M** | | | **M** | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **M** |
 | 38 | `STA/B/C` | **MK Pilihan Peminatan 1** | 3 | | | | | | | | | * | * | * | * | * | * | PL-1..3 | PEO-1..3 | **R** |
-| 39 | `STI-624` | Integrasi Layanan Cerdas AI | 3 | | | | | | **M** | | | **M** | | | | | | PL-1 | PEO-1, PEO-3 | **M** |
-| 40 | `STI-625` | Smart City & Pem. Digital | 2 | | | | | | | **M** | | | | **M** | | | | PL-2 | PEO-1 | **M** |
-| 41 | `STI-626` | Keamanan Informasi Lanjut | 3 | | | | | | | **M** | | | | **M** | **M** | | | PL-2 | PEO-1 | **M** |
-| 42 | `STI-627` | Digital Platform Engineering| 3 | | | | | | | | **M** | | | | | **M** | | PL-3 | PEO-1, PEO-2 | **M** |
+| 39 | `STI-726` | Integrasi Layanan Cerdas AI | 3 | | | | | | **M** | | | **M** | | | | | | PL-1 | PEO-1, PEO-3 | **M** |
+| 40 | `STI-727` | Smart City & Pem. Digital | 2 | | | | | | | **M** | | | | **M** | | | | PL-2 | PEO-1 | **M** |
+| 41 | `STI-726` | Keamanan Informasi Lanjut | 3 | | | | | | | **M** | | | | **M** | **M** | | | PL-2 | PEO-1 | **M** |
+| 42 | `STI-727` | Digital Platform Engineering| 3 | | | | | | | | **M** | | | | | **M** | | PL-3 | PEO-1, PEO-2 | **M** |
 | 43 | `FST-611` | Metodologi Penelitian | 2 | | **M** | **M** | | | | | | | | | | | | Seluruh PL | PEO-3 | **M** |
 | 44 | `STA/B/C` | **MK Pilihan Peminatan 2** | 3 | | | | | | | | | * | * | * | * | * | * | PL-1..3 | PEO-1..3 | **M** |
 | 45 | `STA/B/C` | **MK Pilihan Peminatan 3** | 3 | | | | | | | | | * | * | * | * | * | * | PL-1..3 | PEO-1..3 | **M** |
@@ -1144,23 +1144,23 @@ Matriks ini memetakan relasi langsung antara 21 Bahan Kajian Standar APTIKOM SI 
 | **BK-IS01** | *Foundations of Information Systems* | `STI-101`, `FST-101` | `STI-306` | 3 MK | ✅ Sangat Kuat |
 | **BK-IS02** | *Data and Information Management* | `FST-207`, `STI-415`, `STI-520`, `STA-601` | `STA-501`, `STA-701` | 6 MK | ✅ Sangat Kuat |
 | **BK-IS03** | *IT Infrastructure and Networking* | `STI-103`, `STI-312`, `STI-417`, `STI-310` | `STB-501`, `STB-601`, `STI-521` | 7 MK | ✅ Sangat Kuat |
-| **BK-IS04** | *Enterprise Architecture* | `STB-703` | `STI-306`, `STI-627` | 3 MK | ✅ Terpenuhi |
+| **BK-IS04** | *Enterprise Architecture* | `STB-703` | `STI-306`, `STI-727` | 3 MK | ✅ Terpenuhi |
 | **BK-IS05** | *IS Management and Governance* | `STB-701`, `STB-702` | `STI-523`, `STB-602` | 4 MK | ✅ Terpenuhi |
-| **BK-IS06** | *Information Security and Risk Management* | `STI-418`, `STI-626`, `STB-501`, `STB-602` | `FST-206` | 5 MK | ✅ Sangat Kuat |
+| **BK-IS06** | *Information Security and Risk Management* | `STI-418`, `STI-726`, `STB-501`, `STB-602` | `FST-206` | 5 MK | ✅ Sangat Kuat |
 | **BK-IS07** | *Systems Analysis and Design* | `STI-306`, `STI-309` | `FST-610`, `STC-601` | 4 MK | ✅ Sangat Kuat |
 | **BK-IS08** | *Project Management* | `STI-523`, `STC-703` | `FST-610`, `FST-612` | 4 MK | ✅ Sangat Kuat |
-| **BK-IS09** | *Business Process Management* | `STC-601` | `STI-306`, `STI-625` | 3 MK | ✅ Terpenuhi |
+| **BK-IS09** | *Business Process Management* | `STC-601` | `STI-306`, `STI-727` | 3 MK | ✅ Terpenuhi |
 | **BK-IS10** | *Applied Mathematics and Logic* | `STI-102`, `STI-204`, `STI-205`, `FST-408` | — | 4 MK | ✅ Sangat Kuat |
 | **BK-IS11** | *Programming Fundamentals & OOP* | `FST-102`, `FST-203`, `FST-205` | `STI-311`, `STI-416` | 5 MK | ✅ Sangat Kuat |
-| **BK-IS12** | *Web and Mobile App Development* | `STI-311`, `STI-416`, `STI-522`, `STI-627` | `STC-602`, `STC-702` | 6 MK | ✅ Sangat Kuat |
+| **BK-IS12** | *Web and Mobile App Development* | `STI-311`, `STI-416`, `STI-522`, `STI-727` | `STC-602`, `STC-702` | 6 MK | ✅ Sangat Kuat |
 | **BK-IS13** | *Data Analytics and Business Intelligence* | `STI-415`, `STI-520`, `STA-501` | `STI-413`, `STA-701` | 5 MK | ✅ Sangat Kuat |
 | **BK-IS14** | *IT Audit and Compliance* | `STB-701`, `STB-602` | `FST-206`, `STB-702` | 4 MK | ✅ Terpenuhi |
 | **BK-IS15** | *Digital Innovation and Entrepreneurship* | `MKU-204`, `STI-728`, `FST-610` | `STC-703` | 4 MK | ✅ Sangat Kuat |
-| **BK-IS16** | *Artificial Intelligence & Intelligent Systems*| `STI-307`, `STI-414`, `STI-624`, `STA-602`, `STA-702` | `STI-413`, `STA-703` | 7 MK | ✅ Sangat Kuat |
+| **BK-IS16** | *Artificial Intelligence & Intelligent Systems*| `STI-307`, `STI-414`, `STI-726`, `STA-602`, `STA-702` | `STI-413`, `STA-703` | 7 MK | ✅ Sangat Kuat |
 | **BK-IS17** | *Human-Computer Interaction & UX* | `STI-308`, `STC-501` | `STI-311`, `STI-522` | 4 MK | ✅ Sangat Kuat |
 | **BK-IS18** | *Machine Learning and Data Science* | `STI-413`, `STI-519`, `STA-701` | `STA-601`, `STA-703` | 5 MK | ✅ Sangat Kuat |
-| **BK-IS19** | *Cloud Architecture & DevOps* | `STI-417`, `STB-601` | `STI-627`, `STC-702` | 4 MK | ✅ Sangat Kuat |
-| **BK-IS20** | *Ethics, Use and Implications for Society* | `FST-206` | `STI-418`, `STI-625`, `STB-701` | 4 MK | ✅ Terpenuhi |
+| **BK-IS19** | *Cloud Architecture & DevOps* | `STI-417`, `STB-601` | `STI-727`, `STC-702` | 4 MK | ✅ Sangat Kuat |
+| **BK-IS20** | *Ethics, Use and Implications for Society* | `FST-206` | `STI-418`, `STI-727`, `STB-701` | 4 MK | ✅ Terpenuhi |
 | **BK-IS21** | *Internship and Professional Practice* | `FST-612` | `MKU-507`, `FST-610` | 3 MK | ✅ Terpenuhi |
 
 ---
@@ -1170,16 +1170,16 @@ Matriks ini memetakan relasi langsung antara 21 Bahan Kajian Standar APTIKOM SI 
 | Kode BoK IT | Nomenklatur Bahan Kajian Utama IT2017 | Mata Kuliah Pembina Primer (●) | Mata Kuliah Pembina Sekunder (○) | Total MK | Status Cakupan |
 |---|---|---|---|:---:|:---:|
 | **BK-IT01** | *Information Technology Fundamentals* | `FST-101`, `STI-101` | `FST-204` | 3 MK | ✅ Sangat Kuat |
-| **BK-IT02** | *Applied AI & Intelligent Technologies* | `STI-307`, `STI-413`, `STI-414`, `STI-519`, `STI-624` | `STA-602, STA-701..703` | 9 MK | ✅ Sangat Kuat |
+| **BK-IT02** | *Applied AI & Intelligent Technologies* | `STI-307`, `STI-413`, `STI-414`, `STI-519`, `STI-726` | `STA-602, STA-701..703` | 9 MK | ✅ Sangat Kuat |
 | **BK-IT03** | *Networking & Communications* | `STI-312` | `STI-417`, `STI-521`, `STB-501` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT04** | *Platform Technologies & Web/Mobile* | `STI-311`, `STI-416`, `STI-522`, `STI-627` | `STC-602, STC-701..702` | 7 MK | ✅ Sangat Kuat |
+| **BK-IT04** | *Platform Technologies & Web/Mobile* | `STI-311`, `STI-416`, `STI-522`, `STI-727` | `STC-602, STC-701..702` | 7 MK | ✅ Sangat Kuat |
 | **BK-IT05** | *Cloud Computing & Virtualization* | `STI-417`, `STB-601` | `STI-310`, `STC-702` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT06** | *Cybersecurity Principles & Defense* | `STI-418`, `STI-626`, `STB-501` | `STB-602` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT07** | *System Integration and Architecture* | `STI-624`, `STI-627`, `FST-610` | `STB-703`, `STC-601` | 5 MK | ✅ Sangat Kuat |
+| **BK-IT06** | *Cybersecurity Principles & Defense* | `STI-418`, `STI-726`, `STB-501` | `STB-602` | 4 MK | ✅ Sangat Kuat |
+| **BK-IT07** | *System Integration and Architecture* | `STI-726`, `STI-727`, `FST-610` | `STB-703`, `STC-601` | 5 MK | ✅ Sangat Kuat |
 | **BK-IT08** | *IT Service Management & Governance* | `STB-701`, `STB-702` | `STI-523` | 3 MK | ✅ Terpenuhi |
 | **BK-IT09** | *Data Analytics & Information Visualization*| `STI-415`, `STI-520` | `STA-501`, `STA-701` | 4 MK | ✅ Sangat Kuat |
 | **BK-IT10** | *User Experience & Interaction Design* | `STI-308`, `STC-501` | `STI-311`, `STC-701` | 4 MK | ✅ Sangat Kuat |
-| **BK-IT11** | *Software Development Practices* | `STI-309`, `STI-416`, `STI-627` | `FST-205`, `STC-702` | 5 MK | ✅ Sangat Kuat |
+| **BK-IT11** | *Software Development Practices* | `STI-309`, `STI-416`, `STI-727` | `FST-205`, `STC-702` | 5 MK | ✅ Sangat Kuat |
 | **BK-IT12** | *IT Risk Management and Compliance* | `STB-602`, `STB-701` | `FST-206` | 3 MK | ✅ Terpenuhi |
 | **BK-IT13** | *Technology Entrepreneurship* | `MKU-204`, `STI-728`, `FST-610` | `STC-703` | 4 MK | ✅ Sangat Kuat |
 | **BK-IT14** | *IoT and Embedded Smart Systems* | `STI-521`, `STA-703` | `STI-310`, `STI-312` | 4 MK | ✅ Sangat Kuat |
@@ -1239,10 +1239,10 @@ Sesuai Keputusan Menteri Pendidikan dan Kebudayaan No. 210/M/2023 tentang Indika
 | 36 | `STI-523` | Manajemen Proyek TI | 3 | 30% | 45% | 25% | **75%** | ✅ Patuh IKU 7 |
 | 37 | `MKU-507` | KPM (Kuliah Pengabdian Kepada Masyarakat) | 3 | 20% | 70% | 10% | **90%** | ✅ Patuh IKU 7 |
 | 38 | `STA/B/C` | MK Pilihan Peminatan 1 | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
-| 39 | `STI-624` | Integrasi Layanan Cerdas AI| 3 | 20% | 55% | 25% | **75%** | ✅ Patuh IKU 7 |
-| 40 | `STI-625` | Smart City & Pem. Digital | 2 | 35% | 35% | 30% | **70%** | ✅ Patuh IKU 7 |
-| 41 | `STI-626` | Keamanan Informasi Lanjut | 3 | 30% | 40% | 30% | **70%** | ✅ Patuh IKU 7 |
-| 42 | `STI-627` | Digital Platform Engineering| 3 | 20% | 55% | 25% | **75%** | ✅ Patuh IKU 7 |
+| 39 | `STI-726` | Integrasi Layanan Cerdas AI| 3 | 20% | 55% | 25% | **75%** | ✅ Patuh IKU 7 |
+| 40 | `STI-727` | Smart City & Pem. Digital | 2 | 35% | 35% | 30% | **70%** | ✅ Patuh IKU 7 |
+| 41 | `STI-726` | Keamanan Informasi Lanjut | 3 | 30% | 40% | 30% | **70%** | ✅ Patuh IKU 7 |
+| 42 | `STI-727` | Digital Platform Engineering| 3 | 20% | 55% | 25% | **75%** | ✅ Patuh IKU 7 |
 | 43 | `FST-611` | Metodologi Penelitian | 2 | 30% | 40% | 30% | **70%** | ✅ Patuh IKU 7 |
 | 44 | `STA/B/C` | MK Pilihan Peminatan 2 | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
 | 45 | `STA/B/C` | MK Pilihan Peminatan 3 | 3 | 20% | 50% | 30% | **70%** | ✅ Patuh IKU 7 |
@@ -2915,12 +2915,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 38. STI-624 — Integrasi Layanan Cerdas Berbasis AI (AI-Based Smart Services Integration)
+### 38. STI-726 — Integrasi Layanan Cerdas Berbasis AI (AI-Based Smart Services Integration)
 
 #### Tabel 38.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-624 — Integrasi Layanan Cerdas Berbasis AI** (*AI-Based Smart Services Integration*) |
+| **Kode & Nama Mata Kuliah** | **STI-726 — Integrasi Layanan Cerdas Berbasis AI** (*AI-Based Smart Services Integration*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Sistem Cerdas & Sains Data (Core STI) |
 | **Prasyarat Akademik** | `STI-413` Machine Learning & `STI-416` Web Back End Development |
@@ -2958,12 +2958,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 39. STI-625 — Smart City & Pemerintahan Digital (Smart City & Digital Governance)
+### 39. STI-727 — Smart City & Pemerintahan Digital (Smart City & Digital Governance)
 
 #### Tabel 39.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-625 — Smart City & Pemerintahan Digital** (*Smart City & Digital Governance*) |
+| **Kode & Nama Mata Kuliah** | **STI-727 — Smart City & Pemerintahan Digital** (*Smart City & Digital Governance*) |
 | **Bobot SKS / Tipe** | **2 SKS** / Tipe: **Teori** (100m Kuliah + 120m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Sistem Informasi & Tata Kelola (Core STI) |
 | **Prasyarat Akademik** | `STI-521` Internet of Things (IoT) |
@@ -3001,12 +3001,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 40. STI-626 — Deep Learning & Neural Networks (Deep Learning & Neural Networks)
+### 40. STI-726 — Deep Learning & Neural Networks (Deep Learning & Neural Networks)
 
 #### Tabel 40.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-626 — Deep Learning & Neural Networks** (*Deep Learning & Neural Networks*) |
+| **Kode & Nama Mata Kuliah** | **STI-726 — Deep Learning & Neural Networks** (*Deep Learning & Neural Networks*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Sistem Cerdas & Sains Data (Core STI) |
 | **Prasyarat Akademik** | `STI-413` Machine Learning |
@@ -3044,12 +3044,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 41. STI-627 — Digital Platform Engineering (Digital Platform Engineering)
+### 41. STI-727 — Digital Platform Engineering (Digital Platform Engineering)
 
 #### Tabel 41.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-627 — Digital Platform Engineering** (*Digital Platform Engineering*) |
+| **Kode & Nama Mata Kuliah** | **STI-727 — Digital Platform Engineering** (*Digital Platform Engineering*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Rekayasa Perangkat Lunak & Platform (Core STI) |
 | **Prasyarat Akademik** | `STI-416` Web Back End Development |
@@ -3478,7 +3478,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STA-701 — MLOps and AI Pipeline** (*MLOps and AI Pipeline*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 1: Integrated Smart Systems |
-| **Prasyarat Akademik** | `STI-413` Machine Learning & `STI-624` Integrasi AI |
+| **Prasyarat Akademik** | `STI-413` Machine Learning & `STI-726` Integrasi AI |
 | **CPL yang Dibebankan** | `P4` (Pipeline Otomasi ML), `KK1` (Continuous Training & Model Registry), `KK2` (Pelacakan Data) |
 | **Profil Lulusan (PL)** | `PL-1` (MLOps Engineer / Data Architect) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |
@@ -3563,7 +3563,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STA-703 — Smart Surveillance and IoT Analytics** (*Smart Surveillance and IoT Analytics*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 1: Integrated Smart Systems |
-| **Prasyarat Akademik** | `STI-626` Deep Learning & `STI-521` IoT |
+| **Prasyarat Akademik** | `STI-726` Deep Learning & `STI-521` IoT |
 | **CPL yang Dibebankan** | `P3` (Edge AI & Video Analytics), `KK1` (Computer Vision Real-Time), `KK3` (Integrasi Sensor & CCTV) |
 | **Profil Lulusan (PL)** | `PL-1`, `PL-2` (Smart Systems Integrator) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |

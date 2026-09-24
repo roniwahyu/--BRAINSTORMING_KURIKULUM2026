@@ -30,7 +30,7 @@ Folder `KURIKULUM2026_REVISI/` **belum selaras**. Audit ini menemukan 3 temuan p
 | 7 | Keseragaman rumusan tekstual 14 CPL antar file | ❌ 4 CPL berbeda substantif | **P1** |
 | 8 | Ketunggalan matriks CPL↔PL dan PEO↔CPL | ❌ 3 versi & 2 versi | **P1** |
 | 9 | Kepatuhan pola I→R→M per CPL | ❌ KK4 tanpa I dan R | **P1** |
-| 10 | Konsistensi SKS `STI-625` Smart City | ❌ 3 SKS vs 2 SKS | **P2** |
+| 10 | Konsistensi SKS `STI-727` Smart City | ❌ 3 SKS vs 2 SKS | **P2** |
 | 11 | Kelengkapan silabus 67 MK portofolio | ❌ Hanya 65 MK | **P2** |
 | 12 | Validitas sintaks tabel Markdown untuk ekspor | ❌ 4 separator rusak | **P2** |
 | 13 | Akurasi sel rekapitulasi dokumen 011 | ❌ 34 sel salah | **P2** |
@@ -321,21 +321,21 @@ Karena subtotal gabungan dan total keseluruhan (55 MK / 146 SKS) tetap benar, ke
 
 **Pembanding sumber.** `005:72` (`\| Sem 6 \| ... \| 7 MK \| 19 SKS \|`), `005:156` (`### SEMESTER 6 (19 SKS)`), `005:166` (`Kumulatif: 120 SKS`), dan `005:180` (`Kumulatif: 140 SKS`) **seluruhnya sudah benar**. Ini mengonfirmasi bahwa temuan ini adalah regresi murni pada proses pembuatan Buku Final.
 
-### P0-3c. Akar Penyebab: `STI-625` Smart City Tercatat 3 SKS
+### P0-3c. Akar Penyebab: `STI-727` Smart City Tercatat 3 SKS
 
-Sumber kesalahan Semester 6 dapat ditelusuri ke inkonsistensi SKS `STI-625`:
+Sumber kesalahan Semester 6 dapat ditelusuri ke inkonsistensi SKS `STI-727`:
 
 | File | Baris | Tertulis | Seharusnya |
 |---|:---:|---|---|
 | `007_FORMULASI...md` | 1689 | `\| **Bobot SKS / Tipe** \| **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) \|` | **2 SKS / Teori** |
 | `BUKU...FINAL.md` | 2906 | `\| **Bobot SKS / Tipe** \| **3 SKS** / Tipe: **+P** ... \|` | **2 SKS / Teori** |
-| `BUKU...FINAL.md` | 294 | `\| 40 \| STI-625 \| Smart City & Pemerintahan Digital \| 2 \| **+P** \|` | SKS 2 benar; tipe **Teori** |
-| `006_DISTRIBUSI...md` | 19 | `• STI-625 Smart City (3)` | `(2)` |
-| `005_STRUKTUR...md` | 160 | `\| 40 \| `STI-625` \| Smart City & Pemerintahan Digital \| 2 \| Teori \|` | ✅ **Benar** |
+| `BUKU...FINAL.md` | 294 | `\| 40 \| STI-727 \| Smart City & Pemerintahan Digital \| 2 \| **+P** \|` | SKS 2 benar; tipe **Teori** |
+| `006_DISTRIBUSI...md` | 19 | `• STI-727 Smart City (3)` | `(2)` |
+| `005_STRUKTUR...md` | 160 | `\| 40 \| `STI-727` \| Smart City & Pemerintahan Digital \| 2 \| Teori \|` | ✅ **Benar** |
 
 Ground truth `AGENTS.md` menegaskan: *"Sem 6 (19 SKS, Smart City & Pem. Digital 2 SKS)"*. Dokumen `005` mematuhinya; `006`, `007`, dan Buku Final tidak.
 
-**Dampak kuantitatif pada dokumen 007:** total SKS 65 blok silabus di `007` = **183 SKS**, sedangkan portofolio seharusnya **182 SKS**. Kelebihan +1 SKS bersumber tunggal dari `STI-625`. Semester 6 di `007` terhitung 32 SKS untuk 11 MK, seharusnya 31 SKS.
+**Dampak kuantitatif pada dokumen 007:** total SKS 65 blok silabus di `007` = **183 SKS**, sedangkan portofolio seharusnya **182 SKS**. Kelebihan +1 SKS bersumber tunggal dari `STI-727`. Semester 6 di `007` terhitung 32 SKS untuk 11 MK, seharusnya 31 SKS.
 
 ---
 
@@ -384,7 +384,7 @@ Namun hanya **34 dari 65 MK** yang benar-benar memiliki 4 CPMK. Pada **31 MK (47
 | 8 | `STI-310` | 914 | 22 | `STB-703` | 2532 |
 | 9 | `STI-418` | 1214 | 23 | `STC-501` | 2574 |
 | 10 | `MKU-507` | 1598 | 24 | `STC-601` | 2616 |
-| 11 | `STI-626` | 1726 | 25 | `STC-602` | 2658 |
+| 11 | `STI-726` | 1726 | 25 | `STC-602` | 2658 |
 | 12 | `FST-611` | 1811 | 26 | `STC-701` | 2700 |
 | 13 | `FST-612` | 1939 | 27 | `STC-702` | 2742 |
 | 14 | `FST-613` | 1981 | 28 | `STC-703` | 2784 |
@@ -462,8 +462,8 @@ Mahasiswa dapat mengambil mata kuliah tanpa fondasi yang diperlukan:
 | 1136 | `STI-416` Web Back End | `STI-311` | `FST-207`, `STI-311` | Sistem Basis Data |
 | 1434 | `STI-520` Data Mining | `STI-415` | `STI-413`, `STI-415` | Machine Learning |
 | 1563 | `STI-523` Manajemen Proyek TI | `STI-306` | `STI-306`, `STI-309` | Rekayasa Perangkat Lunak |
-| 1648 | `STI-624` Integrasi Layanan Cerdas AI | `STI-519` | `STI-519`, `STI-416` | Web Back End |
-| 1861 | `STI-728` Startup Digital | `MKU-204` | `STI-627`, `MKU-204` | Digital Platform Engineering |
+| 1648 | `STI-726` Integrasi Layanan Cerdas AI | `STI-519` | `STI-519`, `STI-416` | Web Back End |
+| 1861 | `STI-728` Startup Digital | `MKU-204` | `STI-727`, `MKU-204` | Digital Platform Engineering |
 | 1904 | `FST-610` Capstone Project FSTI | hanya ambang SKS | `STI-523`, ≥100 SKS | Manajemen Proyek TI |
 
 Yang paling berisiko: `FST-207 Sistem Basis Data` tanpa prasyarat `FST-102 Algoritma dan Pemrograman`, dan `STI-416 Web Back End` tanpa prasyarat basis data — keduanya membuat mahasiswa dapat masuk MK teknis tanpa kemampuan pemrograman dasar.
@@ -479,12 +479,12 @@ Bukan sekadar berkurang, tetapi merujuk mata kuliah yang sama sekali lain:
 | 1007 | `STI-312` Jaringan Komputer | `FST-101` | **`STI-103`** Arsitektur & Organisasi Sistem TI |
 | 1050 | `STI-413` Machine Learning | `FST-207`, `FST-408` | **`STI-205`, `STI-307`** |
 | 1520 | `STI-522` Pemrograman Mobile | `FST-203`, `STI-311` | **`STI-311`, `STI-416`** |
-| 1691 | `STI-625` Smart City | `STI-101` | **`STI-521`** Internet of Things |
+| 1691 | `STI-727` Smart City | `STI-101` | **`STI-521`** Internet of Things |
 | 581 | `FST-205` | `FST-102` | Tanpa prasyarat (konsekuensi P0-1) |
 
 Penyimpangan pada `STI-310` dan `STI-312` sangat perlu diperhatikan: keduanya seharusnya berfondasi pada `STI-103`, yang merupakan **konsensus final** dalam `AGENTS.md` (*"Jaringan komputer memerlukan pemahaman datapath, bus biner, dan arsitektur hardware Sem 1"*). Penyimpangan ini justru meruntuhkan rasionalisasi keberadaan `STI-103`.
 
-Perlu dicatat pula bahwa `STI-625 Smart City` mengalami **dua kesalahan sekaligus** — SKS salah (P0-3c) dan prasyarat salah.
+Perlu dicatat pula bahwa `STI-727 Smart City` mengalami **dua kesalahan sekaligus** — SKS salah (P0-3c) dan prasyarat salah.
 
 ### P1-2d. Ambang SKS Tidak Sinkron (6 MK) — Semua Lebih Ketat dari 005
 
@@ -572,7 +572,7 @@ Sisi positifnya, **tidak ada CPL orphan**. Hasil parsing 55 baris MK pada Tabel 
 | KK5 | 9 | Tidak | — |
 | KK6 | 7 | Tidak | — |
 
-**Risiko pada KK4 (Tata Kelola & Audit TI):** hanya dibina 4 MK di jalur wajib — `STI-626`, `FST-610`, `FST-612`, `FST-714`. Penopang riilnya berada pada 5 MK elektif `STB` (`004:159-164`), tetapi **elektif tidak wajib bagi mahasiswa peminatan P1 atau P3**.
+**Risiko pada KK4 (Tata Kelola & Audit TI):** hanya dibina 4 MK di jalur wajib — `STI-726`, `FST-610`, `FST-612`, `FST-714`. Penopang riilnya berada pada 5 MK elektif `STB` (`004:159-164`), tetapi **elektif tidak wajib bagi mahasiswa peminatan P1 atau P3**.
 
 Artinya, mahasiswa jalur P1 (Integrated Smart Systems) atau P3 (Digital Platform Engineering) mencapai KK4 **hanya melalui Keamanan Informasi Lanjut ditambah Capstone/PKL/Skripsi**. Ini titik lemah yang hampir pasti ditanyakan asesor: *"Bagaimana Prodi menjamin CPL KK4 tercapai oleh seluruh lulusan, bukan hanya lulusan peminatan P2?"*
 
@@ -787,10 +787,10 @@ Dokumen `011` diekspor ke Excel (`GENERATE_EXCEL_011.bat`), HTML (`GENERATE_HTML
 
 | Baris | Sheet | Kolom Header | Kolom Separator | Kolom Baris Data | Baris Anomali |
 |:---:|---|:---:|:---:|:---:|:---:|
-| **289** | Sheet 9 (`STI-624`) | 12 | **24** | **13** | 11 dari 12 |
+| **289** | Sheet 9 (`STI-726`) | 12 | **24** | **13** | 11 dari 12 |
 | **311** | Sheet 10 (`STI-413`) | 13 | **26** | **14** | 11 dari 12 |
 | **333** | Sheet 11 (`STI-308`) | 12 | **24** | **13** | 11 dari 12 |
-| **355** | Sheet 12 (`STI-626`) | 12 | **24** | **13** | 11 dari 12 |
+| **355** | Sheet 12 (`STI-726`) | 12 | **24** | **13** | 11 dari 12 |
 
 Kutipan verbatim `011:289`:
 
@@ -1181,7 +1181,7 @@ Satu-satunya cacat pada `005` adalah angka proporsi praktikum di baris 57 (lihat
 |---|:---:|
 | 18 MK elektif berada di semester yang benar (`-01`→Sem 5, `-02`/`-03`→Sem 6, `-04`/`-05`/`-06`→Sem 7) | **18/18** ✅ |
 | Setiap MK elektif = 3 SKS | **18/18** ✅ |
-| Semester per MK di `007` (65 blok) | **64/65 benar**; hanya `STI-625` yang salah SKS (semesternya benar) ✅ |
+| Semester per MK di `007` (65 blok) | **64/65 benar**; hanya `STI-727` yang salah SKS (semesternya benar) ✅ |
 
 ---
 
@@ -1264,7 +1264,7 @@ Urutan ini dirancang agar tidak terjadi kerja ganda — keputusan yang berdampak
 | **0** | Perkuat `verify_zero_discrepancy.py` sesuai §5.3 | Agar setiap koreksi berikutnya dapat diverifikasi otomatis dan regresi tidak lolos lagi | Agent (teknis) |
 | **1** | **Putuskan identitas `FST-204` & `FST-205`** (P0-1) | Menentukan arah koreksi di `004`, `005`, `007`, dan Buku Final sekaligus. Tanpa ini, keempat dokumen tidak dapat dikoreksi konsisten | **Tim Pengembang Kurikulum** |
 | **2** | Putuskan penyelesaian jumlah CPMK (P1-1) | Menentukan volume kerja pada 31 MK di `007` dan Lampiran 2 Buku Final | **Tim Pengembang Kurikulum** |
-| **3** | Koreksi angka P0-3 di Buku Final (komposisi rumpun, Sem 6, kumulatif Sem 6–7, `STI-625`) | Murni aritmetika, angka benar sudah tersedia di `005` | Agent (teknis) |
+| **3** | Koreksi angka P0-3 di Buku Final (komposisi rumpun, Sem 6, kumulatif Sem 6–7, `STI-727`) | Murni aritmetika, angka benar sudah tersedia di `005` | Agent (teknis) |
 | **4** | Satukan rantai prasyarat `007` → `005` (P1-2) | Setelah Tahap 1 selesai, karena `FST-204`/`FST-205` muncul sebagai prasyarat | Agent + validasi Tim |
 | **5** | Rekonstruksi Bab I, III, V Buku Final (P0-2) | Materi tersedia di `001`, `003`, `009A`–`009E`; pekerjaan penggabungan | Agent (teknis) |
 | **6** | Satukan rumusan 14 CPL (P1-4) dan matriks CPL↔PL / PEO↔CPL (P1-5) | Perlu keputusan versi mana yang berlaku | **Tim Pengembang** + Agent |
@@ -1339,7 +1339,7 @@ Audit ini memeriksa konsistensi numerik, kelengkapan struktural, dan keterlacaka
 | `003_STANDAR_14_CPL...md` | P1-4e (KU2), P1-4f (S1 outlier), P1-5b (PEO↔CPL), P2-6b (4 sel BoK) | 4 |
 | `004_MATRIKS_KETERLACAKAN...md` | P0-1 (FST-204/205), P1-3 (rekap §5 + KU3 salah domain + legenda `*` + kolom `:76`), P2-3e | 3 |
 | `005_STRUKTUR_KURIKULUM...md` | P2-4 (proporsi praktikum) | 1 |
-| `006_DISTRIBUSI...MBKM.md` | P0-3c (`STI-625` 3 SKS) | 1 |
+| `006_DISTRIBUSI...MBKM.md` | P0-3c (`STI-727` 3 SKS) | 1 |
 | `007_FORMULASI_CPMK...md` | P0-1, P0-3c, P1-1 (31 MK), P1-2 (19 MK), P2-1 (65 vs 67), P2-6e, P2-6f | 7 |
 | `009_LANGKAH2_CPL_FORMAL.md` | P2-6c (indeks stale + label PL ad-hoc) | 1 |
 | `011_IMPLEMENTASI_OBE...md` | P1-4a–d (rumusan CPL), P1-5a (Sheet 3 vs 4), P1-5c (I→R→M), P2-2 (separator), P2-3 (34 sel) | 5 |

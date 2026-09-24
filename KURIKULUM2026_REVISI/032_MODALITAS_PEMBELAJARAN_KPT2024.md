@@ -35,8 +35,8 @@ Sesuai Permendikbudristek 53/2023 Pasal 14 dan KPT 2024 Bagian C, pembelajaran S
 
 | Metode | Penerapan di SISTEKIN | Contoh MK |
 |---|---|---|
-| **Project-Based Learning (PjBL)** | Proyek berjangka (2–8 pekan) dengan deliverable produk nyata | `STI-624` Integrasi AI, `STI-627` Platform Eng, `FST-610` Capstone |
-| **Problem/Case-Based Learning (PBL/CBL)** | Analisis kasus nyata industri/masyarakat | `STI-418` Dasar Keamanan Informasi, `STI-625` Smart City |
+| **Project-Based Learning (PjBL)** | Proyek berjangka (2–8 pekan) dengan deliverable produk nyata | `STI-726` Integrasi AI, `STI-727` Platform Eng, `FST-610` Capstone |
+| **Problem/Case-Based Learning (PBL/CBL)** | Analisis kasus nyata industri/masyarakat | `STI-418` Dasar Keamanan Informasi, `STI-727` Smart City |
 | **Collaborative/Cooperative Learning** | Kerja kelompok dengan pembagian peran | Seluruh MK berpraktikum (63 SKS / 43,2%) |
 | **Discovery & Inquiry** | Mahasiswa menelusuri sumber, merumuskan pertanyaan | `STI-204` Matematika Diskrit & Logika |
 | **Self-Directed Learning (SDL)** | Belajar mandiri berbasis LMS & repositori | Pendukung CPL KU3 (lifelong learning) |

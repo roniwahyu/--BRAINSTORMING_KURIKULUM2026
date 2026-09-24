@@ -21,7 +21,7 @@ Dok 006 telah merancang paket konversi 20 SKS untuk **3 bentuk** (magang, studi 
 | 1 | **Magang / Praktik Kerja** | 6 atau 7 | Terstruktur + Hibrida | Paket 20 SKS (Dok 006) — MSIB / magang industri |
 | 2 | **Studi / Proyek Independen** | 7 | Terstruktur + Hibrida | Paket 20 SKS (Dok 006) |
 | 3 | **Kegiatan Wirausaha** | 7 | Terstruktur + Hibrida | Paket 20 SKS (Dok 006); minimal 1 produk/startup |
-| 4 | **KKN Tematik (Membangun Desa)** | 6 atau 7 | Terstruktur | Konversi ke `STI-625` Smart City (2) + PKL + MK pengabdian |
+| 4 | **KKN Tematik (Membangun Desa)** | 6 atau 7 | Terstruktur | Konversi ke `STI-727` Smart City (2) + PKL + MK pengabdian |
 | 5 | **Asistensi Mengajar di Satuan Pendidikan** | 6 atau 7 | Terstruktur | Konversi ke MKWU (Bahasa Indonesia, dll.) + soft skills |
 | 6 | **Penelitian / Riset** | 7 | Terstruktur + Hibrida | Konversi ke `FST-613` Pra-Skripsi (2) + `FST-610` Capstone (3) + MK peminatan |
 | 7 | **Proyek Kemanusiaan** | 6 atau 7 | Terstruktur + Bebas | Konversi ke MK pengabdian + soft skills (universitas) |
@@ -80,7 +80,7 @@ Integrasi CPL ke SKPI secara umum sudah ada di Dok 008 §5; dokumen ini menambah
 
 | Jalur | Semester | Paket MK Dikonversi | Total |
 |---|:---:|---|:---:|
-| Magang Industri Bersertifikat (MSIB) | 6 | Peminatan MK-2 & MK-3 (6), `STI-624` Integrasi AI (3), `STI-627` Platform Eng (3), `STI-625` Smart City (2), `STI-626` Deep Learning (+P) (3), `FST-611` Metopel (2) | 20 SKS |
+| Magang Industri Bersertifikat (MSIB) | 6 | Peminatan MK-2 & MK-3 (6), `STI-726` Integrasi AI (3), `STI-727` Platform Eng (3), `STI-727` Smart City (2), `STI-726` Deep Learning (+P) (3), `FST-611` Metopel (2) | 20 SKS |
 | Magang / Studi Independen / Wirausaha | 7 | Peminatan MK-4, 5, 6 (9), `STI-728` Startup Digital (3), `FST-610` Capstone (3), `FST-612` PKL (3), `FST-613` Pra-Skripsi (2) | 20 SKS |
 
 ---

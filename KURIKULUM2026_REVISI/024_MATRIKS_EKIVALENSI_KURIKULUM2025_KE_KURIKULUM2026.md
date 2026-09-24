@@ -160,11 +160,11 @@ Matriks disusun dua arah agar dapat dipakai oleh dua pengguna berbeda:
 |:---:|:---:|---|:---:|:---:|---|:---:|:---:|:---:|---|
 | 41 | `STI-632` | Rekayasa Perangkat Lunak | 3 | `STI-309` | Rekayasa Perangkat Lunak | 3 | 3 | **E1** | Nama dan SKS identik; posisi bergeser Sem 6 → Sem 3 (penguatan fondasi rekayasa lebih dini) |
 | 42 | `STI-633` | Sistem Pendukung Keputusan | 3 | `STA-501` | Decision Support Systems (+P) | 3 | 5 | **E1** | Padanan pada **MK elektif Peminatan P1 (Sem 5)**. Diakui penuh bila mahasiswa memilih Peminatan P1; jika tidak, dihitung sebagai kredit bebas |
-| 43 | `STI-634` | Pengolahan Citra Digital dan Vision (+P) | 3 | `STI-626` | Deep Learning & Neural Networks (+P) | 3 | 6 | **E2** | K2026 mengintegrasikan computer vision ke dalam kerangka deep learning (CNN). Overlap ± 65% → wajib uji penyetaraan pada komponen arsitektur jaringan saraf & pelatihan model |
+| 43 | `STI-634` | Pengolahan Citra Digital dan Vision (+P) | 3 | `STI-726` | Deep Learning & Neural Networks (+P) | 3 | 6 | **E2** | K2026 mengintegrasikan computer vision ke dalam kerangka deep learning (CNN). Overlap ± 65% → wajib uji penyetaraan pada komponen arsitektur jaringan saraf & pelatihan model |
 | 44 | `STI-635` | Desain dan Evaluasi Antarmuka Pengguna (UI/UX) (+P) | 3 | `STI-308` | UI/UX Design & Prototyping (+P) | 3 | 3 | **E3** | Dilebur bersama `STI-314` Interaksi Manusia dan Komputer — lihat klaster G-3 |
 | 45 | `STI-636` | Machine Learning (+P) | 3 | `STI-413` | Machine Learning (+P) | 3 | 4 | **E1** | Nama dan SKS identik; posisi bergeser Sem 6 → Sem 4 |
-| 46 | `STI-637` | Smart City dan Sistem Pemerintahan Digital | 3 | `STI-625` | Smart City & Pemerintahan Digital | 2 | 7 | **E1** | SKS diturunkan 3 → 2 (rasionalisasi Dok. 014); posisi bergeser Sem 6 → Sem 7. Selisih 1 SKS menjadi kredit bebas |
-| 47 | `STI-638` | Intelligent Signal Processing | 3 | — | *Tidak ada padanan* | — | — | **E5** | **Dihapus** dari K2026 (bertumpang dengan ranah riset algoritma Prodi TI, Dok. 016). Unsur ekstraksi fitur sinyal terserap parsial pada `STI-626` Deep Learning & `STA-703` Smart Surveillance. Diakui sebagai kredit bebas 3 SKS |
+| 46 | `STI-637` | Smart City dan Sistem Pemerintahan Digital | 3 | `STI-727` | Smart City & Pemerintahan Digital | 2 | 7 | **E1** | SKS diturunkan 3 → 2 (rasionalisasi Dok. 014); posisi bergeser Sem 6 → Sem 7. Selisih 1 SKS menjadi kredit bebas |
+| 47 | `STI-638` | Intelligent Signal Processing | 3 | — | *Tidak ada padanan* | — | — | **E5** | **Dihapus** dari K2026 (bertumpang dengan ranah riset algoritma Prodi TI, Dok. 016). Unsur ekstraksi fitur sinyal terserap parsial pada `STI-726` Deep Learning & `STA-703` Smart Surveillance. Diakui sebagai kredit bebas 3 SKS |
 
 ### 3.7 EKIVALENSI MK SEMESTER 7 KURIKULUM 2025 (20 SKS)
 
@@ -172,9 +172,9 @@ Matriks disusun dua arah agar dapat dipakai oleh dua pengguna berbeda:
 |:---:|:---:|---|:---:|:---:|---|:---:|:---:|:---:|---|
 | 48 | `MFT-002` | Metodologi Penelitian | 2 | `FST-611` | Metodologi Penelitian | 2 | 6 | **E1** | Nama dan SKS identik; **prefiks berubah** `MFT` → `FST`; posisi bergeser Sem 7 → Sem 6 |
 | 49 | `MFT-003` | Praktik Kerja Lapangan | 3 | `FST-612` | Praktik Kerja Lapangan (PKL) | 3 | 6 | **E1** | Nama dan SKS identik; **prefiks berubah** `MFT` → `FST`; posisi bergeser Sem 7 → Sem 6 |
-| 50 | `STI-739` | Platform Literasi dan Edukasi Digital (+P) | 3 | `STI-627` | Digital Platform Engineering (+P) | 3 | 6 | **E2** | Reorientasi dari platform edukasi domain-spesifik ke rekayasa platform digital generik (arsitektur layanan, skalabilitas, DevOps dasar). Overlap ± 60% → wajib uji penyetaraan |
+| 50 | `STI-739` | Platform Literasi dan Edukasi Digital (+P) | 3 | `STI-727` | Digital Platform Engineering (+P) | 3 | 6 | **E2** | Reorientasi dari platform edukasi domain-spesifik ke rekayasa platform digital generik (arsitektur layanan, skalabilitas, DevOps dasar). Overlap ± 60% → wajib uji penyetaraan |
 | 51 | `STI-740` | Penambangan Data dan Visualisasi (+P) | 3 | `STI-520` | Data Mining & Visualisasi Data (+P) | 3 | 5 | **E3** | Dilebur bersama `STI-208` Visualisasi Data dan Dashboard Interaktif — lihat klaster G-2 |
-| 52 | `STI-741` | Integrasi Layanan Cerdas Berbasis AI | 3 | `STI-624` | Integrasi Layanan Cerdas Berbasis AI (+P) | 3 | 7 | **E2** | Nama, SKS, dan semester identik, namun MK baru **berpraktikum** (MK penciri prodi) → wajib praktikum penyetaraan (integrasi API model AI ke aplikasi nyata) |
+| 52 | `STI-741` | Integrasi Layanan Cerdas Berbasis AI | 3 | `STI-726` | Integrasi Layanan Cerdas Berbasis AI (+P) | 3 | 7 | **E2** | Nama, SKS, dan semester identik, namun MK baru **berpraktikum** (MK penciri prodi) → wajib praktikum penyetaraan (integrasi API model AI ke aplikasi nyata) |
 | 53 | `STI-742` | Inovasi Teknologi dan Startup Digital | 3 | `STI-728` | Inovasi Teknologi dan Startup Digital (+P) | 3 | 7 | **E2** | Nama dan SKS identik, namun MK baru **berpraktikum** (validasi produk & pitching) → wajib praktikum penyetaraan. **Catatan:** apabila mahasiswa telah lulus `STI-742`, maka `STI-422` E-Commerce (baris 29) dialihkan menjadi kredit bebas |
 | 54 | `STI-743` | Audit dan Tata Kelola Sistem Informasi | 3 | `STB-701` | IT Governance & Compliance (COBIT 2019) | 3 | 7 | **E1** | Padanan pada **MK elektif Peminatan P2 (Sem 7)**. Diakui penuh bila mahasiswa memilih Peminatan P2; jika tidak, dihitung sebagai kredit bebas |
 
@@ -285,8 +285,8 @@ Kolom "Asal K2025" adalah MK yang **harus sudah lulus** (nilai ≥ C) agar MK K2
 
 | Kode K2026 | Nama Mata Kuliah | SKS | Kat | Asal K2025 | Tindakan Akademik |
 |:---:|---|:---:|:---:|:---:|---|
-| `STI-626` | Deep Learning & Neural Networks (+P) | 3 | E2 | `STI-634` | **Uji penyetaraan** (CNN & pelatihan model) |
-| `STI-627` | Digital Platform Engineering (+P) | 3 | E2 | `STI-739` | **Uji penyetaraan** (reorientasi platform) |
+| `STI-726` | Deep Learning & Neural Networks (+P) | 3 | E2 | `STI-634` | **Uji penyetaraan** (CNN & pelatihan model) |
+| `STI-727` | Digital Platform Engineering (+P) | 3 | E2 | `STI-739` | **Uji penyetaraan** (reorientasi platform) |
 | `FST-611` | Metodologi Penelitian | 2 | E1 | `MFT-002` | Alih nilai langsung |
 | `FST-610` | Capstone Project FSTI (+P) | 3 | **B** | — | **WAJIB TEMPUH** — wahana asesmen 10 dari 14 CPL |
 | `FST-612` | Praktik Kerja Lapangan (PKL) | 3 | E1 | `MFT-003` | Alih nilai langsung |
@@ -298,8 +298,8 @@ Kolom "Asal K2025" adalah MK yang **harus sudah lulus** (nilai ≥ C) agar MK K2
 | Kode K2026 | Nama Mata Kuliah | SKS | Kat | Asal K2025 | Tindakan Akademik |
 |:---:|---|:---:|:---:|:---:|---|
 | `STI-728` | Inovasi Teknologi dan Startup Digital (+P) | 3 | E2 | `STI-742` | **Praktikum penyetaraan**; `STI-422` → kredit bebas |
-| `STI-624` | Integrasi Layanan Cerdas Berbasis AI (+P) | 3 | E2 | `STI-741` | **Praktikum penyetaraan** (MK penciri prodi) |
-| `STI-625` | Smart City & Pemerintahan Digital | 2 | E1 | `STI-637` (3 SKS) | Alih nilai; 1 SKS jadi kredit bebas |
+| `STI-726` | Integrasi Layanan Cerdas Berbasis AI (+P) | 3 | E2 | `STI-741` | **Praktikum penyetaraan** (MK penciri prodi) |
+| `STI-727` | Smart City & Pemerintahan Digital | 2 | E1 | `STI-637` (3 SKS) | Alih nilai; 1 SKS jadi kredit bebas |
 | *Elektif* | **MK Peminatan 3, 4, 5 & 6** | 12 | — | Lihat Bagian 6.3 | Bergantung jalur peminatan |
 
 #### SEMESTER 8 — Diakui 6 SKS, Defisit 0 SKS ✅
@@ -412,7 +412,7 @@ Kolom **Smt** pada Bagian 3 kini merujuk semester definitif Dokumen 005 (pola te
 > [!IMPORTANT]
 > **Konsekuensi bagi mahasiswa transisi:** pengakuan MK elektif **bergantung pada peminatan yang dipilih**. MK K2025 yang berpadanan ke elektif di luar peminatan terpilih otomatis menjadi kredit bebas. Contoh: mahasiswa yang telah lulus `STI-633` SPK namun memilih Peminatan P2 tidak dapat mengklaim `STA-501`; 3 SKS tersebut dicatat sebagai kredit bebas.
 >
-> **Prasyarat elektif wajib dicek terpisah.** Empat MK elektif memiliki prasyarat pada MK wajib **baru** K2026 yang belum ditempuh mahasiswa transisi: `STB-501` membutuhkan `STI-312` Jaringan Komputer (MK baru), sedangkan `STA-701` membutuhkan `STI-624` yang berada pada semester yang sama sehingga perlu ditetapkan sebagai prasyarat lunak (concurrent) atau dihapus.
+> **Prasyarat elektif wajib dicek terpisah.** Empat MK elektif memiliki prasyarat pada MK wajib **baru** K2026 yang belum ditempuh mahasiswa transisi: `STB-501` membutuhkan `STI-312` Jaringan Komputer (MK baru), sedangkan `STA-701` membutuhkan `STI-726` yang berada pada semester yang sama sehingga perlu ditetapkan sebagai prasyarat lunak (concurrent) atau dihapus.
 
 ---
 
@@ -432,7 +432,7 @@ Kolom **Smt** pada Bagian 3 kini merujuk semester definitif Dokumen 005 (pola te
 | **TOTAL (jalur P1 atau P3)** | **146** | **117** | **29** | Setara **1 semester penuh (21 SKS) + 8 SKS** |
 
 > [!NOTE]
-> **Rincian status pengakuan (jalur P2):** Dari 114 SKS MK wajib yang diakui, **24 SKS berstatus bersyarat (E2)** dan mensyaratkan uji penyetaraan, yaitu `FST-203`, `STI-311`, `STI-417`, `STI-626`, `STI-523`, `STI-624`, `STI-627`, dan `STI-728`. `STA-601` baru wajib ditempuh seluruh jalur P1; `FST-101` (2 SKS) bersyarat melalui skema E4.
+> **Rincian status pengakuan (jalur P2):** Dari 114 SKS MK wajib yang diakui, **24 SKS berstatus bersyarat (E2)** dan mensyaratkan uji penyetaraan, yaitu `FST-203`, `STI-311`, `STI-417`, `STI-726`, `STI-523`, `STI-726`, `STI-727`, dan `STI-728`. `STA-601` baru wajib ditempuh seluruh jalur P1; `FST-101` (2 SKS) bersyarat melalui skema E4.
 
 ### 7.1.1 NERACA SKS KURIKULUM 2025 SETELAH KONVERSI (146 SKS)
 
@@ -526,12 +526,12 @@ Format satu baris per pasangan konversi, siap diimpor ke tabel `mk_ekivalensi` S
 | `STI-530` | 3 | `STI-415` | 3 | E1 | C | Tidak |
 | `STI-632` | 3 | `STI-309` | 3 | E1 | C | Tidak |
 | `STI-633` | 3 | `STA-501` | 3 | E1 | C | Tidak |
-| `STI-634` | 3 | `STI-626` | 3 | E2 | C | **Ya** |
+| `STI-634` | 3 | `STI-726` | 3 | E2 | C | **Ya** |
 | `STI-636` | 3 | `STI-413` | 3 | E1 | C | Tidak |
-| `STI-637` | 3 | `STI-625` | 2 | E1 | C | Tidak |
+| `STI-637` | 3 | `STI-727` | 2 | E1 | C | Tidak |
 | `STI-638` | 3 | — | — | E5 | — | Kredit Bebas |
-| `STI-739` | 3 | `STI-627` | 3 | E2 | C | **Ya** |
-| `STI-741` | 3 | `STI-624` | 3 | E2 | C | **Ya** |
+| `STI-739` | 3 | `STI-727` | 3 | E2 | C | **Ya** |
+| `STI-741` | 3 | `STI-726` | 3 | E2 | C | **Ya** |
 | `STI-742` | 3 | `STI-728` | 3 | E2 | C | **Ya** |
 | `STI-743` | 3 | `STB-701` | 3 | E1 | C | Tidak |
 | `STI-844` | 2 | `FST-613` | 2 | E1 | C | Tidak |

@@ -1636,12 +1636,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 38. STI-624 — Integrasi Layanan Cerdas Berbasis AI (AI-Based Smart Services Integration)
+### 38. STI-726 — Integrasi Layanan Cerdas Berbasis AI (AI-Based Smart Services Integration)
 
 #### Tabel 38.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-624 — Integrasi Layanan Cerdas Berbasis AI** (*AI-Based Smart Services Integration*) |
+| **Kode & Nama Mata Kuliah** | **STI-726 — Integrasi Layanan Cerdas Berbasis AI** (*AI-Based Smart Services Integration*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Sistem Cerdas & Sains Data (Core STI) |
 | **Prasyarat Akademik** | `STI-413` Machine Learning & `STI-416` Web Back End Development |
@@ -1679,12 +1679,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 39. STI-625 — Smart City & Pemerintahan Digital (Smart City & Digital Governance)
+### 39. STI-727 — Smart City & Pemerintahan Digital (Smart City & Digital Governance)
 
 #### Tabel 39.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-625 — Smart City & Pemerintahan Digital** (*Smart City & Digital Governance*) |
+| **Kode & Nama Mata Kuliah** | **STI-727 — Smart City & Pemerintahan Digital** (*Smart City & Digital Governance*) |
 | **Bobot SKS / Tipe** | **2 SKS** / Tipe: **Teori** (100m Kuliah + 120m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Sistem Informasi & Tata Kelola (Core STI) |
 | **Prasyarat Akademik** | `STI-521` Internet of Things (IoT) |
@@ -1722,12 +1722,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 40. STI-626 — Deep Learning & Neural Networks (Deep Learning & Neural Networks)
+### 40. STI-624 — Deep Learning & Neural Networks (Deep Learning & Neural Networks)
 
 #### Tabel 40.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-626 — Deep Learning & Neural Networks** (*Deep Learning & Neural Networks*) |
+| **Kode & Nama Mata Kuliah** | **STI-624 — Deep Learning & Neural Networks** (*Deep Learning & Neural Networks*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Sistem Cerdas & Sains Data (Core STI) |
 | **Prasyarat Akademik** | `STI-413` Machine Learning |
@@ -1765,12 +1765,12 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 41. STI-627 — Digital Platform Engineering (Digital Platform Engineering)
+### 41. STI-625 — Digital Platform Engineering (Digital Platform Engineering)
 
 #### Tabel 41.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STI-627 — Digital Platform Engineering** (*Digital Platform Engineering*) |
+| **Kode & Nama Mata Kuliah** | **STI-625 — Digital Platform Engineering** (*Digital Platform Engineering*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Rekayasa Perangkat Lunak & Platform (Core STI) |
 | **Prasyarat Akademik** | `STI-416` Web Back End Development |
@@ -2199,7 +2199,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STA-701 — MLOps and AI Pipeline** (*MLOps and AI Pipeline*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 1: Integrated Smart Systems |
-| **Prasyarat Akademik** | `STI-413` Machine Learning & `STI-624` Integrasi AI |
+| **Prasyarat Akademik** | `STI-413` Machine Learning & `STI-726` Integrasi AI |
 | **CPL yang Dibebankan** | `P4` (Pipeline Otomasi ML), `KK1` (Continuous Training & Model Registry), `KK2` (Pelacakan Data) |
 | **Profil Lulusan (PL)** | `PL-1` (MLOps Engineer / Data Architect) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |
@@ -2284,7 +2284,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 | **Kode & Nama Mata Kuliah** | **STA-703 — Smart Surveillance and IoT Analytics** (*Smart Surveillance and IoT Analytics*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 7** / Peminatan 1: Integrated Smart Systems |
-| **Prasyarat Akademik** | `STI-626` Deep Learning & `STI-521` IoT |
+| **Prasyarat Akademik** | `STI-624` Deep Learning & `STI-521` IoT |
 | **CPL yang Dibebankan** | `P3` (Edge AI & Video Analytics), `KK1` (Computer Vision Real-Time), `KK3` (Integrasi Sensor & CCTV) |
 | **Profil Lulusan (PL)** | `PL-1`, `PL-2` (Smart Systems Integrator) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |

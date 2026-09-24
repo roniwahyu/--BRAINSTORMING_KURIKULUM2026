@@ -84,7 +84,7 @@ Kelompok Core STI berjumlah **28 Mata Kuliah (79 SKS)** yang disusun berurutan p
 | **Semester 3** | 7 MK | 20 SKS | `STI-306`, `STI-307`, `STI-308`, `STI-309`, `STI-310`, `STI-311`, `STI-312` | Analisis SI (UML), Sistem Cerdas Simbolik, UI/UX Prototyping, Rekayasa PL (SOLID), Sistem Operasi, Front-End Web, Jaringan Komputer |
 | **Semester 4** | 6 MK | 16 SKS | `STI-413`, `STI-414`, `STI-415`, `STI-416`, `STI-417`, `STI-418` | Machine Learning Tabular, Pengantar NLP & IR, Data Warehouse & BI, Back-End API, Komputasi Awan Dasar, Dasar Keamanan Informasi |
 | **Semester 5** | 5 MK | 15 SKS | `STI-519`, `STI-520`, `STI-521`, `STI-522`, `STI-523` | Keamanan Sistem Lanjut, Data Mining & Visualisasi, IoT & Mikrokontroler, Mobile Cross-Platform, Manajemen Proyek TI (Agile/EVM) |
-| **Semester 6** | 4 MK | 11 SKS | `STI-624`, `STI-625`, `STI-626`, `STI-627` | Integrasi Layanan Cerdas AI, Smart City & SPBE, Deep Learning (CNN/PyTorch), Digital Platform Engineering (Kafka/Microservices) |
+| **Semester 6** | 4 MK | 11 SKS | `STI-726`, `STI-727`, `STI-726`, `STI-727` | Integrasi Layanan Cerdas AI, Smart City & SPBE, Deep Learning (CNN/PyTorch), Digital Platform Engineering (Kafka/Microservices) |
 | **Semester 7** | 1 MK | 3 SKS | `STI-728` | Inovasi Startup, Lean MVP, Pitching Investor, & Technopreneurship |
 | **TOTAL** | **28 MK** | **79 SKS** | `STI-101` s.d. `STI-728` | **54,1% Beban Paket Kelulusan (146 SKS)** |
 
@@ -132,10 +132,10 @@ Berikut adalah status audit kelengkapan 4 elemen (*CPL, CPMK ABCD, BoK APTIKOM, 
 | 21 | `STI-521` | Internet of Things (IoT) | 3 | 5 | Lengkap | Lengkap (C3-C5) | `BK-IS03, BK-IT14` | Lengkap (3 Pagar) | **LULUS** |
 | 22 | `STI-522` | Pemrograman Aplikasi Mobile | 3 | 5 | Lengkap | Lengkap (C3-C5) | `BK-IS12, BK-IT04` | Lengkap (3 Pagar) | **LULUS** |
 | 23 | `STI-523` | Manajemen Proyek TI | 3 | 5 | Lengkap | Lengkap (C3-C5) | `BK-IS08, BK-IS05` | Lengkap (3 Pagar) | **LULUS** |
-| 24 | `STI-624` | Integrasi Layanan Cerdas AI | 3 | 7 | Lengkap | Lengkap (C3-C5) | `BK-IS16, BK-IT07` | Lengkap (3 Pagar) | **LULUS** |
-| 25 | `STI-625` | Smart City & Pem. Digital | 2 | 7 | Lengkap | Lengkap (C3-C4) | `BK-IS01, BK-IS04` | Lengkap (3 Pagar) | **LULUS** |
-| 26 | `STI-626` | Deep Learning & Neural Networks | 3 | 6 | Lengkap | Lengkap (C3-C5) | `BK-IS18, BK-IT02` | Lengkap (3 Pagar) | **LULUS** |
-| 27 | `STI-627` | Digital Platform Engineering | 3 | 6 | Lengkap | Lengkap (C3-C5) | `BK-IS12, BK-IT07` | Lengkap (3 Pagar) | **LULUS** |
+| 24 | `STI-726` | Integrasi Layanan Cerdas AI | 3 | 7 | Lengkap | Lengkap (C3-C5) | `BK-IS16, BK-IT07` | Lengkap (3 Pagar) | **LULUS** |
+| 25 | `STI-727` | Smart City & Pem. Digital | 2 | 7 | Lengkap | Lengkap (C3-C4) | `BK-IS01, BK-IS04` | Lengkap (3 Pagar) | **LULUS** |
+| 26 | `STI-726` | Deep Learning & Neural Networks | 3 | 6 | Lengkap | Lengkap (C3-C5) | `BK-IS18, BK-IT02` | Lengkap (3 Pagar) | **LULUS** |
+| 27 | `STI-727` | Digital Platform Engineering | 3 | 6 | Lengkap | Lengkap (C3-C5) | `BK-IS12, BK-IT07` | Lengkap (3 Pagar) | **LULUS** |
 | 28 | `STI-728` | Inovasi Startup Digital | 3 | 7 | Lengkap | Lengkap (C4-C6) | `BK-IS15, BK-IT13` | Lengkap (3 Pagar) | **LULUS** |
 | 29 | `STA-501` | Decision Support Systems | 3 | 5 | Lengkap | Lengkap (C3-C5) | `BK-IS01, BK-IS13` | Lengkap (3 Pagar) | **LULUS** |
 | 30 | `STA-601` | Rekayasa Big Data dan Komputasi Terdistribusi | 3 | 6 | Lengkap | Lengkap (C3-C6) | `BK-IS02, BK-IS18` | Lengkap (3 Pagar) | **LULUS** |

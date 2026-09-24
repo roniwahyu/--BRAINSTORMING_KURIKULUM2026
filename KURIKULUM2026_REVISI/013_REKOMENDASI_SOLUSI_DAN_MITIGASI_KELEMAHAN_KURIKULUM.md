@@ -92,12 +92,12 @@ Menerapkan kebijakan **Proyek Terpadu Antar-Mata Kuliah (*Cross-Course Joint Pro
 ### 💡 SOLUSI 2: Mengatasi *Single Point of Failure (SPOF)* Prasyarat Koding
 
 #### A. Identifikasi Masalah:
-Rantai linier `STI-101 Algoritma` $\rightarrow$ `STI-205 OOP` $\rightarrow$ `STI-311 Front-End` $\rightarrow$ `STI-416 Back-End` $\rightarrow$ `STI-627 Platform` berisiko menunda kelulusan mahasiswa 1–2 tahun jika gagal di semester awal.
+Rantai linier `STI-101 Algoritma` $\rightarrow$ `STI-205 OOP` $\rightarrow$ `STI-311 Front-End` $\rightarrow$ `STI-416 Back-End` $\rightarrow$ `STI-727 Platform` berisiko menunda kelulusan mahasiswa 1–2 tahun jika gagal di semester awal.
 
 #### B. Solusi Operasional:
 1. **Penerapan Kebijakan Dual Prerequisite (Hard vs Soft Prerequisite):**
    * **Hard Prerequisite (Nilai $\ge C$):** Hanya berlaku untuk transisi dari `STI-101 Algoritma` ke `FST-203 Struktur Data` dan `FST-205 OOP`.
-   * **Soft / Advisory Prerequisite (Pernah Menempuh, Nilai $\ge D$):** Untuk MK lanjutan tingkat menengah (misal dari `STI-311 Web Front` ke `STI-416 Web Back` atau `STI-413 ML` ke `STI-626 Deep Learning`), mahasiswa yang mendapat nilai D diizinkan mengambil MK lanjutan secara paralel (*concurrent enrollment*) sambil mengulang ujian perbaikan.
+   * **Soft / Advisory Prerequisite (Pernah Menempuh, Nilai $\ge D$):** Untuk MK lanjutan tingkat menengah (misal dari `STI-311 Web Front` ke `STI-416 Web Back` atau `STI-413 ML` ke `STI-726 Deep Learning`), mahasiswa yang mendapat nilai D diizinkan mengambil MK lanjutan secara paralel (*concurrent enrollment*) sambil mengulang ujian perbaikan.
 2. **Penyelenggaraan Semester Antara / Remedial Bootcamp Khusus (Juli–Agustus):**
    * Fakultas secara rutin membuka Semester Antara dengan masa intensif 8 pekan khusus untuk 4 mata kuliah gerbang (*gateway courses*): `Algoritma & Pemrograman`, `OOP`, `Struktur Data`, dan `Matematika Diskrit`.
 

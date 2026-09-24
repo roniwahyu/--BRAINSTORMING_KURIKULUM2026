@@ -256,7 +256,7 @@ Dosen pengampu <span class="code-tag">STI-520</span> <strong>dilarang keras</str
 Dokumen CPL menjanjikan bukti portofolio mahasiswa berupa <strong><code>Pipeline Data dengan PySpark</code></strong>. Namun kenyataannya:
 - <span class="code-tag">STI-415</span> (Data Warehouse) hanya mengajarkan ETL relasional konvensional (Airflow/Pentaho).
 - <span class="code-tag">STI-520</span> (Data Mining) <strong>melarang</strong> Hadoop/Spark.
-- <span class="code-tag">STI-627</span> (Digital Platform) memakai Kafka untuk arsitektur <em>microservices</em>, bukan pemrosesan analitik Big Data.
+- <span class="code-tag">STI-625</span> (Digital Platform) memakai Kafka untuk arsitektur <em>microservices</em>, bukan pemrosesan analitik Big Data.
 - <span class="code-tag">STA-701</span> (MLOps) fokus pada deployment model AI (<em>MLflow/Kubeflow</em>).</p>
 </blockquote>
 <h3 id="33-temuan-status-riset-operasi-pada-dokumen-043">3.3 Temuan Status Riset Operasi pada Dokumen 043</h3>
@@ -418,14 +418,14 @@ Kurikulum SISTEKIN 2026 saat ini telah memiliki **6 mata kuliah Core yang secara
 3. `STI-414` NLP &amp; Text Mining (Sem 4, Core) → Analisis data teks tak terstruktur dan sentimen.
 4. `STI-415` Data Warehouse &amp; BI (Sem 4, Core) → Analisis dimensi bisnis, agregasi data, dan visualisasi dashboard.
 5. `STI-520` Data Mining &amp; Visualisasi Data (Sem 5, Core) → Penemuan pola, klastering DBSCAN, aturan asosiasi, dan *visual storytelling*.
-6. `STI-626` Deep Learning &amp; Neural Networks (Sem 6, Core) → Analisis pola citra dan runtun waktu non-linier kompleks.
+6. `STI-624` Deep Learning &amp; Neural Networks (Sem 6, Core) → Analisis pola citra dan runtun waktu non-linier kompleks.
 
 &gt; ⚠️ **Risiko Kurikuler:**  
 &gt; Jika `STA-601` dijadikan *Big Data Analysis*, mahasiswa hanya akan mengulang materi Data Mining (`STI-520`) dan Machine Learning (`STI-413`), hanya saja ukuran dataset CSV-nya diganti menjadi lebih besar. Ini adalah pemborosan 3 SKS yang tidak menambah daya saing lulusan.
 
 ### 6.3 Di Mana Kekosongan Sebenarnya? Kesenjangan Mutlak Ada pada &quot;ENGINEERING&quot;
 Sebaliknya, keahlian **membangun infrastruktur rekayasa data skala industri** saat ini berstatus **0 SKS (KOSONG SAMA SEKALI)** di seluruh kurikulum SISTEKIN:
-* Mahasiswa tahu cara melatih algoritma model AI (diajarkan di `STI-413` dan `STI-626`).
+* Mahasiswa tahu cara melatih algoritma model AI (diajarkan di `STI-413` dan `STI-624`).
 * **TETAPI mahasiswa TIDAK TAHU:**
   * Bagaimana cara mengalirkan 50.000 transaksi/detik dari sensor IoT (`STI-521`) dan aplikasi web tanpa server tumbang?
   * Bagaimana cara membagi beban data ke puluhan node worker komputasi terdistribusi menggunakan **Apache Spark**?
@@ -488,7 +488,7 @@ Memperbarui baris *Out-of-Scope* dan *Handoff Anchor* pada `STI-520 Data Mining 
 - * ❌ OUT-OF-SCOPE: Dilarang arsitektur cluster Big Data Hadoop/Spark, deployment pipeline data streaming.
 - * 🔄 HANDOFF ANCHOR: Menguasai wawasan data; menyerahkan sistem pendukung keputusan ke STA-501.
 + * ❌ OUT-OF-SCOPE: Dilarang arsitektur cluster Big Data terdistribusi (itu ranah STA-601); 
-+   deployment streaming event-driven platform (itu ranah STI-627).
++   deployment streaming event-driven platform (itu ranah STI-625).
 + * 🔄 HANDOFF ANCHOR: Menguasai analisis data tabular lokal; menyerahkan pemrosesan data skala besar 
 +   dan pipeline terdistribusi ke STA-601 (Big Data Engineering).
 </code></pre>

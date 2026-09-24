@@ -32,9 +32,9 @@ $$\mathbf{ST[A/B/C]\text{-}[Semester][Nomor\ Urut\ dalam\ Semester\ (2\ Digit)]}
 | **6** | P2: Cloud Infra & Cyber | Cybersecurity Risk Management | 3 | Teori | `STB-03` | **`STB-602`** | `STI-418` Dasar Keamanan Informasi |
 | **6** | P3: Digital Platform Eng | Rekayasa & Otomasi Proses Bisnis (BPA) | 3 | +P | `STC-02` | **`STC-601`** | `STI-306` Analisis & Perancangan Sistem Info |
 | **6** | P3: Digital Platform Eng | Rekayasa Aplikasi Industri Vertikal | 3 | +P | `STC-03` | **`STC-602`** | `STI-416` Web Back End Development |
-| **7** | P1: Integrated Smart Systems | MLOps and AI Pipeline | 3 | +P | `STA-04` | **`STA-701`** | `STI-413` Machine Learning, `STI-624` Integrasi AI |
+| **7** | P1: Integrated Smart Systems | MLOps and AI Pipeline | 3 | +P | `STA-04` | **`STA-701`** | `STI-413` Machine Learning, `STI-726` Integrasi AI |
 | **7** | P1: Integrated Smart Systems | Conversational AI & Intelligent Assistant | 3 | +P | `STA-05` | **`STA-702`** | `STI-413` Machine Learning, `STI-416` Web Back End |
-| **7** | P1: Integrated Smart Systems | Smart Surveillance & IoT Analytics | 3 | +P | `STA-06` | **`STA-703`** | `STI-626` Deep Learning, `STI-521` IoT |
+| **7** | P1: Integrated Smart Systems | Smart Surveillance & IoT Analytics | 3 | +P | `STA-06` | **`STA-703`** | `STI-726` Deep Learning, `STI-521` IoT |
 | **7** | P2: Cloud Infra & Cyber | IT Governance & Compliance (COBIT 2019) | 3 | Teori | `STB-04` | **`STB-701`** | `STI-101` Pengantar STI |
 | **7** | P2: Cloud Infra & Cyber | IT Service Management (ITIL 4) | 3 | Teori | `STB-05` | **`STB-702`** | `STI-101` Pengantar STI |
 | **7** | P2: Cloud Infra & Cyber | Enterprise Architecture (TOGAF) | 3 | Teori | `STB-06` | **`STB-703`** | `STI-306` Analisis & Perancangan Sistem Info |

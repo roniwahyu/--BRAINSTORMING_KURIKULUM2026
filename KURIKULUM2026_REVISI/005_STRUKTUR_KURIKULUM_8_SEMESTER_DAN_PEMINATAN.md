@@ -351,9 +351,9 @@ Fokus keahlian: Rekayasa sistem berbasis AI, machine learning pipelines, deep le
 | 1 | `STA-501` | Sistem Pendukung Keputusan | *Decision Support Systems* | 3 | +P | Sem 5 | `STI-307` Sistem Cerdas | BK-IS17 Business Analytics, AHP/TOPSIS |
 | 2 | `STA-601` | Rekayasa Big Data dan Komputasi Terdistribusi | *Big Data Engineering and Distributed Systems* | 3 | +P | Sem 6 | `FST-207`, `STI-415` Data Warehouse & BI | BK-IS02 Data & Information Mgmt / BK-IS18 ML & Data Science |
 | 3 | `STA-602` | Sistem Agen Cerdas | *Intelligent Agent Systems* | 3 | +P | Sem 7 | `STI-307` Sistem Cerdas | BK-IT02 Multi-Agent Systems, Reinforcement |
-| 4 | `STA-701` | MLOps dan Alur Pipa AI | *MLOps and AI Pipeline* | 3 | +P | Sem 7 | `STI-413`, `STI-624` Integrasi AI | BK-IS18 Machine Learning Engineering |
+| 4 | `STA-701` | MLOps dan Alur Pipa AI | *MLOps and AI Pipeline* | 3 | +P | Sem 7 | `STI-413`, `STI-726` Integrasi AI | BK-IS18 Machine Learning Engineering |
 | 5 | `STA-702` | AI Percakapan dan Asisten Cerdas | *Conversational AI and Intelligent Assistant* | 3 | +P | Sem 7 | `STI-413`, `STI-416` Web Back End | BK-IT02 LLM, RAG Architecture, Prompt Eng |
-| 6 | `STA-703` | Pengawasan Cerdas dan Analitika IoT | *Smart Surveillance and IoT Analytics* | 3 | +P | Sem 7 | `STI-626`, `STI-521` IoT | BK-IT02 Video Analytics, Edge AI, Vision |
+| 6 | `STA-703` | Pengawasan Cerdas dan Analitika IoT | *Smart Surveillance and IoT Analytics* | 3 | +P | Sem 7 | `STI-624`, `STI-521` IoT | BK-IT02 Video Analytics, Edge AI, Vision |
 
 ### 4.2 PEMINATAN 2: CLOUD INFRASTRUCTURE & CYBERSECURITY (VOLUME — 6 MK / 18 SKS)
 Fokus keahlian: Arsitektur cloud computing, otomatisasi DevOps, tata kelola keamanan siber, manajemen risiko, forensik digital, dan enterprise architecture (Profil Lulusan: `PL-2`).

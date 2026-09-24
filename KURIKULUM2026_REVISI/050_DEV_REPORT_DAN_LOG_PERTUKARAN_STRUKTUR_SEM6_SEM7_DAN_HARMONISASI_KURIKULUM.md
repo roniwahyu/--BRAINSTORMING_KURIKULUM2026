@@ -11,7 +11,7 @@
 | **Nomor Dokumen** | **050 (Dokumen Resmi Rekayasa Kurikulum)** |
 | **Periode Pengerjaan** | 18 – 22 September 2026 |
 | **Status Pekerjaan** | **SELESAI (100% Tuntas, Terharmonisasi, Teruji, dan Terverifikasi Penuh)** |
-| **Fokus Rekayasa Utama** | 1. **Pertukaran Struktur Tingkat Akhir (8 SKS):** `FST-610 Capstone Project FSTI` (3 SKS), `FST-612 PKL` (3 SKS), dan `FST-613 Pra-Skripsi` (2 SKS) dipindahkan dari Semester 7 ke **Semester 6**; sebaliknya `STI-624 Integrasi Layanan Cerdas AI` (3 SKS), `STI-625 Smart City & Pem. Digital` (2 SKS), dan 1 MK Pilihan Peminatan (`STA/B/C-602`, 3 SKS) dipindahkan dari Semester 6 ke **Semester 7**.<br>2. **Standardisasi Format Tabel Dwibahasa (Bilingual):** Penerapan kolom ganda `Nama Mata Kuliah (Indonesia)` dan `Nama Mata Kuliah (English)` pada seluruh tabel [Dokumen 005](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md) via script automasi [apply_005_id_en.py](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/_tools/apply_005_id_en.py).<br>3. **Harmonisasi Sistemik Lintas Ekosistem:** Penyelarasan menyeluruh ke 20+ dokumen markdown kurikulum, modul asesmen OBE, naskah buku final, dan skrip automasi QA. |
+| **Fokus Rekayasa Utama** | 1. **Pertukaran Struktur Tingkat Akhir (8 SKS):** `FST-610 Capstone Project FSTI` (3 SKS), `FST-612 PKL` (3 SKS), dan `FST-613 Pra-Skripsi` (2 SKS) dipindahkan dari Semester 7 ke **Semester 6**; sebaliknya `STI-726 Integrasi Layanan Cerdas AI` (3 SKS), `STI-727 Smart City & Pem. Digital` (2 SKS), dan 1 MK Pilihan Peminatan (`STA/B/C-602`, 3 SKS) dipindahkan dari Semester 6 ke **Semester 7**.<br>2. **Standardisasi Format Tabel Dwibahasa (Bilingual):** Penerapan kolom ganda `Nama Mata Kuliah (Indonesia)` dan `Nama Mata Kuliah (English)` pada seluruh tabel [Dokumen 005](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md) via script automasi [apply_005_id_en.py](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/_tools/apply_005_id_en.py).<br>3. **Harmonisasi Sistemik Lintas Ekosistem:** Penyelarasan menyeluruh ke 20+ dokumen markdown kurikulum, modul asesmen OBE, naskah buku final, dan skrip automasi QA. |
 | **Dampak Beban SKS** | **Invariant (Net Zero Change):**<br>• Semester 6: $19 - 8 + 8 =$ **19 SKS (7 MK)** $\rightarrow$ Kumulatif: **120 SKS**.<br>• Semester 7: $20 - 8 + 8 =$ **20 SKS (7 MK)** $\rightarrow$ Kumulatif: **140 SKS**.<br>• Total Paket Kelulusan: Tetap **146 SKS / 55 MK** (Portofolio Ditawarkan: **182 SKS / 67 MK**). |
 | **Integritas Prasyarat** | **100% Valid & Memenuhi Syarat:** Di awal Sem 6, mahasiswa telah menempuh **101 SKS** (melampaui syarat $\ge 100\text{ SKS}$ untuk Capstone, PKL, Pra-Skripsi). Di Sem 7, mahasiswa telah lulus `STI-413`, `STI-416`, dan `STI-521` untuk mengambil Integrasi AI dan Smart City. |
 | **Total Berkas Terupdate** | **23 Berkas Markdown** + **4 Skrip Python Automasi QA & Ekspor** + **63 Berkas Excel Hasil Kompilasi** |
@@ -32,9 +32,9 @@ Pada struktur kurikulum draf awal:
 
 #### 1.2 Tujuan Rekayasa
 1. Memindahkan **Capstone Project (`FST-610`)**, **PKL (`FST-612`)**, dan **Pra-Skripsi (`FST-613`)** ke **Semester 6**.
-2. Memindahkan **Integrasi Layanan Cerdas AI (`STI-624`)**, **Smart City & Pem. Digital (`STI-625`)**, dan **MK Pilihan Peminatan-3 (`STA/B/C-602`)** ke **Semester 7**.
+2. Memindahkan **Integrasi Layanan Cerdas AI (`STI-726`)**, **Smart City & Pem. Digital (`STI-727`)**, dan **MK Pilihan Peminatan-3 (`STA/B/C-602`)** ke **Semester 7**.
 3. Menyandingkan `FST-611 Metodologi Penelitian` dengan `FST-613 Pra-Skripsi` di Semester 6 sehingga luaran UTS/UAS Metopen langsung menjadi naskah proposal skripsi siap uji.
-4. Menjadikan Semester 7 sebagai semester pematangan spesialisasi tingkat lanjut (4 MK Peminatan: 12 SKS) dan implementasi produk enterprise skala nyata (`STI-624`, `STI-625`, `STI-728`).
+4. Menjadikan Semester 7 sebagai semester pematangan spesialisasi tingkat lanjut (4 MK Peminatan: 12 SKS) dan implementasi produk enterprise skala nyata (`STI-726`, `STI-727`, `STI-728`).
 5. Memperbarui tabel [Dokumen 005](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md) menjadi dwibahasa (*bilingual*) untuk memenuhi standar akreditasi internasional dan memudahkan penerbitan Surat Keterangan Pendamping Ijazah (SKPI) serta transkrip resmi berbahasa Inggris.
 
 ---
@@ -45,18 +45,18 @@ Pada struktur kurikulum draf awal:
 
 ```
 SEMESTER 6 SEBELUM REVISI (19 SKS / 7 MK)          SEMESTER 6 SETELAH REVISI (19 SKS / 7 MK)
-├── STI-624 Integrasi Layanan Cerdas AI (3) [Core]   ├── STI-626 Deep Learning & Neural Net (3) [Core]
-├── STI-625 Smart City & Pem. Digital (2) [Core]     ├── STI-627 Digital Platform Engineering (3) [Core]
-├── STI-626 Deep Learning & Neural Net (3) [Core]    ├── FST-610 Capstone Project FSTI (3) [FSTI] ⬅ DARI S7
-├── STI-627 Digital Platform Engineering (3) [Core]  ├── FST-611 Metodologi Penelitian (2) [FSTI]
+├── STI-726 Integrasi Layanan Cerdas AI (3) [Core]   ├── STI-624 Deep Learning & Neural Net (3) [Core]
+├── STI-727 Smart City & Pem. Digital (2) [Core]     ├── STI-625 Digital Platform Engineering (3) [Core]
+├── STI-624 Deep Learning & Neural Net (3) [Core]    ├── FST-610 Capstone Project FSTI (3) [FSTI] ⬅ DARI S7
+├── STI-625 Digital Platform Engineering (3) [Core]  ├── FST-611 Metodologi Penelitian (2) [FSTI]
 ├── FST-611 Metodologi Penelitian (2) [FSTI]         ├── FST-612 Praktik Kerja Lapangan (3) [FSTI] ⬅ DARI S7
 ├── STA/B/C-601 Pilihan Peminatan-2 (3) [Elektif]    ├── FST-613 Pra-Skripsi / Sempro (2) [FSTI] ⬅ DARI S7
 └── STA/B/C-602 Pilihan Peminatan-3 (3) [Elektif]    └── STA/B/C-601 Pilihan Peminatan-2 (3) [Elektif]
 Total: 19 SKS (Kumulatif: 120 SKS)                   Total: 19 SKS (Kumulatif: 120 SKS)
 
 SEMESTER 7 SEBELUM REVISI (20 SKS / 7 MK)          SEMESTER 7 SETELAH REVISI (20 SKS / 7 MK)
-├── STI-728 Inovasi Startup Digital (3) [Core]       ├── STI-624 Integrasi Layanan AI (3) [Core] ⬅ DARI S6
-├── FST-610 Capstone Project FSTI (3) [FSTI]         ├── STI-625 Smart City & Pem Dig (2) [Core] ⬅ DARI S6
+├── STI-728 Inovasi Startup Digital (3) [Core]       ├── STI-726 Integrasi Layanan AI (3) [Core] ⬅ DARI S6
+├── FST-610 Capstone Project FSTI (3) [FSTI]         ├── STI-727 Smart City & Pem Dig (2) [Core] ⬅ DARI S6
 ├── FST-612 Praktik Kerja Lapangan (3) [FSTI]        ├── STI-728 Inovasi Startup Digital (3) [Core]
 ├── FST-613 Pra-Skripsi / Sempro (2) [FSTI]          ├── STA/B/C-602 Pilihan Peminatan-3 (3) [Elektif] ⬅ DARI S6
 ├── STA/B/C-701 Pilihan Peminatan-4 (3) [Elektif]    ├── STA/B/C-701 Pilihan Peminatan-4 (3) [Elektif]
@@ -72,8 +72,8 @@ Total: 20 SKS (Kumulatif: 140 SKS)                   Total: 20 SKS (Kumulatif: 1
 | 1 | `FST-610` | Capstone Project FSTI | 3 | Proyek | FSTI | Sem 7 | **Sem 6** | Di awal Sem 6, mahasiswa memiliki **101 SKS**. Syarat $\ge 100\text{ SKS}$ dan prasyarat `STI-523 Manajemen Proyek TI` (Sem 5) **terpenuhi**. Kolaborasi proyek multidisiplin FSTI berlangsung sebelum penyusunan skripsi. |
 | 2 | `FST-612` | Praktik Kerja Lapangan (PKL) | 3 | Magang | FSTI | Sem 7 | **Sem 6** | Syarat $\ge 100\text{ SKS}$ **terpenuhi**. Pelaksanaan magang di industri pada Sem 6 memungkinkan permasalahan riil mitra industri langsung dijadikan objek penelitian tugas akhir/skripsi. |
 | 3 | `FST-613` | Pra-Skripsi / Seminar Proposal | 2 | Seminar | FSTI | Sem 7 | **Sem 6** | Syarat $\ge 100\text{ SKS}$ **terpenuhi**. Ditempuh bersamaan dengan `FST-611 Metodologi Penelitian`, menciptakan kesinambungan langsung antara rancangan riset dan ujian seminar proposal resmi. |
-| 4 | `STI-624` | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | Core STI | Sem 6 | **Sem 7** | Prasyarat `STI-413 Machine Learning` dan `STI-416 Web Back End` telah ditempuh di Sem 4. Mahasiswa juga telah menguasai `STI-626 Deep Learning` dari Sem 6, sehingga integrasi model AI ke sistem produksi menjadi jauh lebih matang. |
-| 5 | `STI-625` | Smart City & Pemerintahan Digital | 2 | Teori | Core STI | Sem 6 | **Sem 7** | Prasyarat `STI-521 IoT` (Sem 5) dan wawasan platform digital `STI-627` (Sem 6) telah matang, mendukung perancangan arsitektur SPBE dan sistem kota cerdas skala enterprise. |
+| 4 | `STI-726` | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | Core STI | Sem 6 | **Sem 7** | Prasyarat `STI-413 Machine Learning` dan `STI-416 Web Back End` telah ditempuh di Sem 4. Mahasiswa juga telah menguasai `STI-624 Deep Learning` dari Sem 6, sehingga integrasi model AI ke sistem produksi menjadi jauh lebih matang. |
+| 5 | `STI-727` | Smart City & Pemerintahan Digital | 2 | Teori | Core STI | Sem 6 | **Sem 7** | Prasyarat `STI-521 IoT` (Sem 5) dan wawasan platform digital `STI-625` (Sem 6) telah matang, mendukung perancangan arsitektur SPBE dan sistem kota cerdas skala enterprise. |
 | 6 | `STA-602` / `STB-602` / `STC-602` | MK Pilihan Peminatan-3 (Intelligent Agent / Cyber Risk / FinTech) | 3 | +P / T | Elektif | Sem 6 | **Sem 7** | Menjadikan Semester 7 sebagai blok konsentrasi peminatan penuh (4 MK / 12 SKS), memberikan pendalaman spesialisasi sebelum mahasiswa menempuh tugas akhir di Semester 8. |
 
 ---
@@ -111,9 +111,9 @@ Berikut adalah rekapitulasi tindakan sinkronisasi atomik pada seluruh berkas eko
 |:---:|---|---|---|
 | 1 | [005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md) | • Diagram Mermaid Alur Studi<br>• Tabel 1.2 MK FSTI, 1.3 Core STI, 1.4 Peminatan<br>• Tabel Sebaran 8 Semester (Sem 6 & Sem 7)<br>• Skema 3 Peminatan (P1, P2, P3)<br>• Penambahan kolom English Course Title | **TUNTAS** (Master Ground Truth Kurikulum 2026) |
 | 2 | [AGENTS.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/AGENTS.md) | • Tabel Ground Truth Key Decisions consensus: baris Penataan Tingkat Akhir & Sebaran SKS | **TUNTAS** (Penyelarasan instruksi sistem) |
-| 3 | [004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.md) | • Tabel 3.3 (Sem 6) memasukkan `FST-610`, `FST-612`, `FST-613`<br>• Tabel 3.4 (Sem 7) memasukkan `STI-624`, `STI-625`<br>• Tabel 4.1–4.3 Peminatan (kolom semester `STA/B/C-602` $\rightarrow$ Sem 7) | **TUNTAS** (Matriks keterlacakan 14 CPL selaras) |
+| 3 | [004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.md) | • Tabel 3.3 (Sem 6) memasukkan `FST-610`, `FST-612`, `FST-613`<br>• Tabel 3.4 (Sem 7) memasukkan `STI-726`, `STI-727`<br>• Tabel 4.1–4.3 Peminatan (kolom semester `STA/B/C-602` $\rightarrow$ Sem 7) | **TUNTAS** (Matriks keterlacakan 14 CPL selaras) |
 | 4 | [006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.md) | • Paket konversi MBKM Sem 6 (19 SKS) & Sem 7 (20 SKS) | **TUNTAS** (Formula rekognisi 20 SKS MBKM valid) |
-| 5 | [007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.md) | • Tabel Identitas Makro Silabus untuk 8 MK (`STI-624`, `STI-625`, `FST-610`, `FST-612`, `FST-613`, `STA-602`, `STB-602`, `STC-602`) | **TUNTAS** (Atribut semester pada silabus selaras) |
+| 5 | [007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.md) | • Tabel Identitas Makro Silabus untuk 8 MK (`STI-726`, `STI-727`, `FST-610`, `FST-612`, `FST-613`, `STA-602`, `STB-602`, `STC-602`) | **TUNTAS** (Atribut semester pada silabus selaras) |
 | 6 | [009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.md) | • Penetapan semester Capstone Project FSTI menjadi Semester 6 | **TUNTAS** (Pedoman Capstone & Non-Skripsi sinkron) |
 | 7 | [011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.md) | • Sheet 5 (Matriks CPL-MK)<br>• Sheet 6 (Organisasi MK per Semester)<br>• Sheet 7 (Level I-R-M)<br>• Sheet 14 (Ringkasan Implementasi Kurikulum) | **TUNTAS** (Kompilasi 14 tab Markdown rapi) |
 | 8 | [015_SIMULASI_AKSELERASI_KELULUSAN_7_SEMESTER.md](file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/015_SIMULASI_AKSELERASI_KELULUSAN_7_SEMESTER.md) | • Penyesuaian peta studi 3,5 tahun (Capstone & PKL berada di Sem 6 secara reguler) | **TUNTAS** (Simulasi fast-track realistis) |

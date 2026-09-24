@@ -13,8 +13,8 @@
 | Jalur MBKM | Semester | Paket MK yang Dikonversi | Total SKS Dikonversi |
 | --- | --- | --- | --- |
 | Magang Industri | Sem 6 | • MK Pilihan Peminatan 2 (3) | **19 SKS** |
-| Bersertifikat (MSIB) |  | • STI-626 Deep Learning (+P) (3) |  |
-|  |  | • STI-627 Platform Eng (3) |  |
+| Bersertifikat (MSIB) |  | • STI-726 Deep Learning (+P) (3) |  |
+|  |  | • STI-727 Platform Eng (3) |  |
 |  |  | • FST-611 Metopel (2) |  |
 |  |  | • FST-610 Capstone FSTI (3) |  |
 |  |  | • FST-612 PKL Industri (3) |  |
@@ -24,8 +24,8 @@
 | Wirausaha Merdeka |  | • MK Pilihan Peminatan 5 (3) |  |
 |  |  | • MK Pilihan Peminatan 6 (3) |  |
 |  |  | • STI-728 Startup Digital (3) |  |
-|  |  | • STI-624 Integrasi AI (3) |  |
-|  |  | • STI-625 Smart City (2) |  |
+|  |  | • STI-726 Integrasi AI (3) |  |
+|  |  | • STI-727 Smart City (2) |  |
 
 ---
 *Disahkan sebagai Dokumen Resmi 006 — Kurikulum OBE Revisi SISTEKIN 2026.*  

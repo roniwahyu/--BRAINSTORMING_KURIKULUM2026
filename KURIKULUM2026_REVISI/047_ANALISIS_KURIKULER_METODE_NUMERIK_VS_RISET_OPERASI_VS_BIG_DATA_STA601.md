@@ -90,7 +90,7 @@ Pada Dokumen `009D_CPL_KETERAMPILAN_KHUSUS_SISTEKIN.md`, Capaian Pembelajaran Lu
 > Dokumen CPL menjanjikan bukti portofolio mahasiswa berupa **`Pipeline Data dengan PySpark`**. Namun kenyataannya:
 > - `STI-415` (Data Warehouse) hanya mengajarkan ETL relasional konvensional (Airflow/Pentaho).
 > - `STI-520` (Data Mining) **melarang** Hadoop/Spark.
-> - `STI-627` (Digital Platform) memakai Kafka untuk arsitektur *microservices*, bukan pemrosesan analitik Big Data.
+> - `STI-625` (Digital Platform) memakai Kafka untuk arsitektur *microservices*, bukan pemrosesan analitik Big Data.
 > - `STA-701` (MLOps) fokus pada deployment model AI (*MLflow/Kubeflow*).
 
 ### 3.3 Temuan Status Riset Operasi pada Dokumen 043
@@ -238,14 +238,14 @@ Kurikulum SISTEKIN 2026 saat ini telah memiliki **6 mata kuliah Core yang secara
 3. `STI-414` NLP & Text Mining (Sem 4, Core) $\rightarrow$ Analisis data teks tak terstruktur dan sentimen.
 4. `STI-415` Data Warehouse & BI (Sem 4, Core) $\rightarrow$ Analisis dimensi bisnis, agregasi data, dan visualisasi dashboard.
 5. `STI-520` Data Mining & Visualisasi Data (Sem 5, Core) $\rightarrow$ Penemuan pola, klastering DBSCAN, aturan asosiasi, dan *visual storytelling*.
-6. `STI-626` Deep Learning & Neural Networks (Sem 6, Core) $\rightarrow$ Analisis pola citra dan runtun waktu non-linier kompleks.
+6. `STI-624` Deep Learning & Neural Networks (Sem 6, Core) $\rightarrow$ Analisis pola citra dan runtun waktu non-linier kompleks.
 
 > ⚠️ **Risiko Kurikuler:**  
 > Jika `STA-601` dijadikan *Big Data Analysis*, mahasiswa hanya akan mengulang materi Data Mining (`STI-520`) dan Machine Learning (`STI-413`), hanya saja ukuran dataset CSV-nya diganti menjadi lebih besar. Ini adalah pemborosan 3 SKS yang tidak menambah daya saing lulusan.
 
 ### 6.3 Di Mana Kekosongan Sebenarnya? Kesenjangan Mutlak Ada pada "ENGINEERING"
 Sebaliknya, keahlian **membangun infrastruktur rekayasa data skala industri** saat ini berstatus **0 SKS (KOSONG SAMA SEKALI)** di seluruh kurikulum SISTEKIN:
-* Mahasiswa tahu cara melatih algoritma model AI (diajarkan di `STI-413` dan `STI-626`).
+* Mahasiswa tahu cara melatih algoritma model AI (diajarkan di `STI-413` dan `STI-624`).
 * **TETAPI mahasiswa TIDAK TAHU:**
   * Bagaimana cara mengalirkan 50.000 transaksi/detik dari sensor IoT (`STI-521`) dan aplikasi web tanpa server tumbang?
   * Bagaimana cara membagi beban data ke puluhan node worker komputasi terdistribusi menggunakan **Apache Spark**?
@@ -308,7 +308,7 @@ Memperbarui baris *Out-of-Scope* dan *Handoff Anchor* pada `STI-520 Data Mining 
 - * ❌ OUT-OF-SCOPE: Dilarang arsitektur cluster Big Data Hadoop/Spark, deployment pipeline data streaming.
 - * 🔄 HANDOFF ANCHOR: Menguasai wawasan data; menyerahkan sistem pendukung keputusan ke STA-501.
 + * ❌ OUT-OF-SCOPE: Dilarang arsitektur cluster Big Data terdistribusi (itu ranah STA-601); 
-+   deployment streaming event-driven platform (itu ranah STI-627).
++   deployment streaming event-driven platform (itu ranah STI-625).
 + * 🔄 HANDOFF ANCHOR: Menguasai analisis data tabular lokal; menyerahkan pemrosesan data skala besar 
 +   dan pipeline terdistribusi ke STA-601 (Big Data Engineering).
 ```

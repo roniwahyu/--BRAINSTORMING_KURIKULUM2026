@@ -43,11 +43,11 @@ di mana digit semester (1 s.d. 7) dipadukan dengan nomor urut kumulatif (01 s.d.
 | **5** | 21 | `STI-504` | **`STI-521`** | Internet of Things (IoT) | 3 | `STI-307`, `STI-305` | **`STI-312`**, **`STI-310`** |
 | **5** | 22 | `STI-505` | **`STI-522`** | Pemrograman Aplikasi Mobile | 3 | `STI-306`, `STI-407` | **`STI-311`**, **`STI-416`** |
 | **5** | 23 | `STI-506` | **`STI-523`** | Manajemen Proyek TI | 3 | `STI-301`, `STI-304` | **`STI-306`**, **`STI-309`** |
-| **6** | 24 | `STI-601` | **`STI-624`** | Integrasi Layanan Cerdas Berbasis AI | 3 | `STI-501`, `STI-407` | **`STI-519`**, **`STI-416`** |
-| **6** | 25 | `STI-602` | **`STI-625`** | Smart City & Pemerintahan Digital | 2 | `STI-504` | **`STI-521`** |
-| **6** | 26 | `STI-603` | **`STI-626`** | Keamanan Informasi Lanjut | 3 | `STI-405` | **`STI-418`** |
-| **6** | 27 | `STI-604` | **`STI-627`** | Digital Platform Engineering | 3 | `STI-407` | **`STI-416`** |
-| **7** | 28 | `STI-701` | **`STI-728`** | Inovasi Teknologi dan Startup Digital | 3 | `STI-604`, `MKU-204` | **`STI-627`**, `MKU-204` |
+| **6** | 24 | `STI-601` | **`STI-726`** | Integrasi Layanan Cerdas Berbasis AI | 3 | `STI-501`, `STI-407` | **`STI-519`**, **`STI-416`** |
+| **6** | 25 | `STI-602` | **`STI-727`** | Smart City & Pemerintahan Digital | 2 | `STI-504` | **`STI-521`** |
+| **6** | 26 | `STI-603` | **`STI-726`** | Keamanan Informasi Lanjut | 3 | `STI-405` | **`STI-418`** |
+| **6** | 27 | `STI-604` | **`STI-727`** | Digital Platform Engineering | 3 | `STI-407` | **`STI-416`** |
+| **7** | 28 | `STI-701` | **`STI-728`** | Inovasi Teknologi dan Startup Digital | 3 | `STI-604`, `MKU-204` | **`STI-727`**, `MKU-204` |
 
 ---
 
@@ -61,7 +61,7 @@ Mata kuliah non-Core STI yang memiliki prasyarat ke mata kuliah Core STI wajib d
 5. **`STB-601` Cloud Architecture & DevOps (Sem 6):** Prasyarat `STI-404` $\rightarrow$ diperbarui menjadi **`STI-417`**.
 6. **`STC-501` UX Research & Design (Sem 5):** Prasyarat `STI-303` $\rightarrow$ diperbarui menjadi **`STI-308`**.
 7. **`STC-601` Rekayasa & Otomasi Proses Bisnis (Sem 6):** Prasyarat `STI-301` $\rightarrow$ diperbarui menjadi **`STI-306`**.
-8. **`STC-702` SaaS Architecture & Multi-Tenancy (Sem 7):** Prasyarat `STI-604` $\rightarrow$ diperbarui menjadi **`STI-627`**.
+8. **`STC-702` SaaS Architecture & Multi-Tenancy (Sem 7):** Prasyarat `STI-604` $\rightarrow$ diperbarui menjadi **`STI-727`**.
 
 ---
 

@@ -79,7 +79,7 @@ Melalui pemindaian terprogram atas Dokumen 043 (*Boundary Guardrails*) dan Dokum
 **Analisis Realitas di Lapangan Kurikulum:**
 1. `STI-415 Data Warehouse & BI` (Sem 4): Menggunakan PostgreSQL dan ETL konvensional (Pentaho/Airflow). Tidak mengajarkan cluster terdistribusi Spark.
 2. `STI-520 Data Mining & Visualisasi` (Sem 5): Berfokus pada Scikit-Learn dan Pandas lokal, serta secara resmi **dilarang mengajarkan Hadoop/Spark**.
-3. `STI-627 Digital Platform Engineering` (Sem 6): Menggunakan Kafka untuk *asynchronous microservices*, bukan untuk *Big Data Analytics Processing*.
+3. `STI-625 Digital Platform Engineering` (Sem 6): Menggunakan Kafka untuk *asynchronous microservices*, bukan untuk *Big Data Analytics Processing*.
 4. `STA-701 MLOps & AI Pipeline` (Sem 7): Berfokus pada siklus hidup model AI (*MLflow/Kubeflow*).
 
 > **Kesimpulan Anomali:**  
@@ -101,7 +101,7 @@ Uji kelayakan membuktikan bahwa materi Big Data **tidak boleh diintegrasikan** k
 * **Solusi Terbaik:** Dipisahkan sebagai **MK Mandiri `STA-601` (3 SKS +P) di Semester 6** untuk mahasiswa peminatan P1.
 
 ### 4.3 Analisis Orientasi: Big Data Analysis vs. Big Data Engineering
-* **Ranah Analisis Data Sudah Padat:** Kurikulum SISTEKIN sudah memiliki **6 mata kuliah analitik data** di Core (`FST-408`, `STI-413`, `STI-414`, `STI-415`, `STI-520`, `STI-626`). Menambah "Big Data Analysis" hanya akan memicu redundansi materi.
+* **Ranah Analisis Data Sudah Padat:** Kurikulum SISTEKIN sudah memiliki **6 mata kuliah analitik data** di Core (`FST-408`, `STI-413`, `STI-414`, `STI-415`, `STI-520`, `STI-624`). Menambah "Big Data Analysis" hanya akan memicu redundansi materi.
 * **Ranah Rekayasa Data Masih Kosong:** Kemampuan membangun data pipeline terdistribusi skala industri sebelumnya bernilai **0 SKS**.
 * **DNA SISTEKIN:** Sebagai sarjana Sistem dan Teknologi Informasi, keunggulan lulusan bertumpu pada **rekayasa infrastruktur dan keandalan sistem (*engineering*)**, bukan sekadar analisis statistik. Di industri, kebutuhan tenaga kerja menunjukkan rasio **1 Data Scientist : 2-3 Data Engineers**.
 

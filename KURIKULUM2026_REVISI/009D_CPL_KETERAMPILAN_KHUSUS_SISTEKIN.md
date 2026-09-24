@@ -111,16 +111,16 @@
 ### KK1: Sistem Informasi Cerdas Berbasis AI/ML (Peminatan P1)
 | No | Indikator Kinerja | Bukti Ketercapaian |
 |:---:|---|---|
-| 1 | Mampu menganalisis kebutuhan solusi cerdas berbasis AI/ML untuk proses bisnis organisasi. | Laporan Analisis Kebutuhan Sistem Cerdas (STI-307 / STI-624). |
+| 1 | Mampu menganalisis kebutuhan solusi cerdas berbasis AI/ML untuk proses bisnis organisasi. | Laporan Analisis Kebutuhan Sistem Cerdas (STI-307 / STI-726). |
 | 2 | Mampu merancang arsitektur sistem cerdas (NLP, Computer Vision, DSS, Conversational AI). | Dokumen Desain Arsitektur AI (STA-501 / STA-702). |
-| 3 | Mampu mengembangkan prototipe aplikasi terintegrasi API inferensi AI secara fungsional. | Repositori Kode Sumber dan Prototipe Aplikasi Cerdas (STI-624). |
+| 3 | Mampu mengembangkan prototipe aplikasi terintegrasi API inferensi AI secara fungsional. | Repositori Kode Sumber dan Prototipe Aplikasi Cerdas (STI-726). |
 | 4 | Mampu menguji dan mengevaluasi akurasi, efisiensi, dan keandalan model AI pada sistem. | Laporan Uji Kinerja & Evaluasi Interoperabilitas AI. |
 
 ### KK2: Rekayasa Data & MLOps (Peminatan P1)
 | No | Indikator Kinerja | Bukti Ketercapaian |
 |:---:|---|---|
 | 1 | Mampu membangun pipeline akuisisi, praproses, dan transformasi data (ETL/ELT). | Pipeline Data dengan Pandas/PySpark (STI-415 / STI-520 / STA-601). |
-| 2 | Mampu melatih dan mengoptimasi model Machine Learning / Deep Learning. | Model ML terlatih dengan evaluasi Confusion Matrix / F1-Score (STI-413 / STI-626). |
+| 2 | Mampu melatih dan mengoptimasi model Machine Learning / Deep Learning. | Model ML terlatih dengan evaluasi Confusion Matrix / F1-Score (STI-413 / STI-726). |
 | 3 | Mampu membangun dashboard Business Intelligence dan visualisasi data interaktif. | Dashboard BI interaktif di Tableau / Power BI / Streamlit (STI-415 / STI-520). |
 | 4 | Mampu menerapkan pipeline MLOps untuk automasi deployment model AI (*Continuous Training*). | Pipeline CI/CD MLOps menggunakan MLflow / Docker (STA-701). |
 
@@ -130,13 +130,13 @@
 | 1 | Mampu merancang dan mengelola arsitektur cloud terdistribusi (AWS/GCP/Azure). | Topologi Cloud dan Konfigurasi Layanan IaaS/PaaS (STI-417 / STB-601). |
 | 2 | Mampu mengimplementasikan sistem IoT berbasis mikrokontroler dan protokol MQTT/CoAP. | Purwarupa Perangkat Keras ESP32 + Dashboard Telemetri (STI-521). |
 | 3 | Mampu menerapkan otomasi infrastruktur (CI/CD, Docker container, Kubernetes, Terraform). | Pipeline CI/CD GitHub Actions & Skrip IaC (STB-601). |
-| 4 | Mampu mengonfigurasi sistem pertahanan siber (Firewall, IDS/IPS, enkripsi SSL/TLS). | Laporan Konfigurasi Keamanan Jaringan (STI-626 / STB-501). |
+| 4 | Mampu mengonfigurasi sistem pertahanan siber (Firewall, IDS/IPS, enkripsi SSL/TLS). | Laporan Konfigurasi Keamanan Jaringan (STI-726 / STB-501). |
 
 ### KK4: IT Governance, Risk Management & Security Audit (Peminatan P2)
 | No | Indikator Kinerja | Bukti Ketercapaian |
 |:---:|---|---|
 | 1 | Mampu menyusun kerangka kerja tata kelola TI berbasis standar COBIT 2019 / ITIL 4. | Dokumen Desain Tata Kelola TI Organisasi (STB-701 / STB-702). |
-| 2 | Mampu melakukan audit keamanan sistem informasi dan simulasi penetration testing beretika. | Laporan Hasil Audit Keamanan & Uji Penetrasi (STI-626 / STB-501). |
+| 2 | Mampu melakukan audit keamanan sistem informasi dan simulasi penetration testing beretika. | Laporan Hasil Audit Keamanan & Uji Penetrasi (STI-726 / STB-501). |
 | 3 | Mampu menyusun peta risiko TI (*Risk Register*) dan rencana mitigasi (ISO 27001 / ISO 31000). | Dokumen Manajemen Risiko & Rencana Keberlangsungan Bisnis (STB-602). |
 | 4 | Mampu mengevaluasi keselarasan strategis investasi TI terhadap tujuan bisnis organisasi. | Laporan Evaluasi Enterprise Architecture TOGAF (STB-703). |
 
@@ -145,7 +145,7 @@
 |:---:|---|---|
 | 1 | Mampu melakukan riset pengguna (*UX Research*), pemetaan persona, dan perancangan *User Journey*. | Dokumen Riset UX dan *Empathy Map* (STI-308 / STC-501). |
 | 2 | Mampu membangun prototipe UI interaktif *high-fidelity* berstandar *Design System*. | Prototipe Figma Interaktif dengan *Auto-Layout* & Variabel (STI-308). |
-| 3 | Mampu membangun aplikasi web frontend modern (SPA/SSR) dan backend API microservices. | Aplikasi Full-Stack Web di React/Vue/NodeJS/Go (STI-311 / STI-416 / STI-627). |
+| 3 | Mampu membangun aplikasi web frontend modern (SPA/SSR) dan backend API microservices. | Aplikasi Full-Stack Web di React/Vue/NodeJS/Go (STI-311 / STI-416 / STI-727). |
 | 4 | Mampu merekayasa aplikasi mobile multiplatform dan sistem arsitektur multi-tenant SaaS. | Aplikasi Mobile Flutter/React Native & Arsitektur SaaS (STI-522 / STC-702). |
 
 ### KK6: Digital Technopreneurship & Agile Project Management (Peminatan P3)
