@@ -64,6 +64,9 @@ DOC_FILES = [
     ("047_ANALISIS_KURIKULER_METODE_NUMERIK_VS_RISET_OPERASI_VS_BIG_DATA_STA601.md", "047 — Analisis Kurikuler: Metode Numerik vs. Riset Operasi vs. Big Data (STA-601)"),
     ("048_KEPUTUSAN_PENGGANTIAN_STA601_NUMERIK_MENJADI_BIG_DATA_ENGINEERING.md", "048 — Keputusan Penggantian STA-601 Menjadi Big Data Engineering"),
     ("049_LAPORAN_EVALUASI_DAN_REVISI_KURIKULUM_STA601_BIG_DATA_ENGINEERING.md", "049 — Laporan Resmi Evaluasi & Revisi Kurikulum STA-601 Big Data Engineering"),
+    ("050_DEV_REPORT_DAN_LOG_PERTUKARAN_STRUKTUR_SEM6_SEM7_DAN_HARMONISASI_KURIKULUM.md", "050 — Dev Report & Log Pertukaran Struktur Sem 6-7 & Harmonisasi"),
+    ("051_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_MK_PASCA_PERTUKARAN_SEM6_SEM7.md", "051 — Dev Report & Log Restrukturisasi Kode MK Pasca Pertukaran Sem 6-7"),
+    ("052_ANALISIS_FORMAT_DAN_LAYOUT_TEMPLATE_RPS_OBE.md", "052 — 📑 Analisis Format, Layout & Kamus Tag Template RPS OBE FSTI"),
     ("BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md", "📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)")
 ]
 

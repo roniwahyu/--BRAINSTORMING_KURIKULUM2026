@@ -1,0 +1,437 @@
+﻿warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+================================================================================
+ANALYSIS OF: 0001_Template_RPS_OBE.pdf
+Total Pages: 11
+================================================================================
+
+>>> PAGE 1 (Size: 792.0 x 612.0) <<<
+Orientation: Landscape
+Drawing paths / rects count: 149
+  [321.0, 39.7] UNIVERSITAS WIDYA GAMA
+  [295.3, 57.2] FAKULTAS TEKNIK  | PROGRAM STUDI S1 TEKNIK MESIN
+  [687.0, 52.9] 071030.B4.5 | .2.RPS-315
+  [285.1, 92.6] RENCANA PEMBELAJARAN SEMESTER
+  [38.5, 108.4] MATA KULIAH (MK)  | KODE  | Rumpun MK  | BOBOT (sks)  | SEMESTER  | Tgl  | Penyusunan | DASAR PEMROGRAMAN KOMPUTER | MSN
+  [151.8, 171.0] CPL-PRODI yang dibebankan pada MK        | CPL-3 | Mampu merancang dan melaksanakan eksperimen, melakukan pengukuran, me
+  [151.8, 471.2] CPL-3 (%) | CPL-5 (%) | CPL-8 (%) | Bobot Penilaian (%) | Jumlah Minggu | Bentuk Asesmen | CPMK-1 | 15 | 15 |   | 30  | 
+
+>>> PAGE 2 (Size: 792.0 x 612.0) <<<
+Orientation: Landscape
+Drawing paths / rects count: 36
+  [38.4, 39.6] Deskripsi Singkat MK | Mata kuliah Dasar Pemrograman Komputer membekali mahasiswa dengan kemampuan dasar dalam menyusun 
+  [38.4, 196.4] Bahan Kajian: Materi  | Pembelajaran
+  [151.8, 196.4] Dasar Pemrograman Komputer: | 1. Pengantar algoritma, logika pemrograman, flowchart, pseudocode. [Sub-CPMK-1]  | 2. Vari
+  [38.4, 293.1] Pustaka | Utama : | 1. Yanto, Robi. (2016). Manajemen Basis Data Menggunakan MySQL. Deepublish. | 2. Raharjo, Budi. (202
+  [153.2, 367.6] 4. Elmasri, Ramez, & Navathe, Shamkant B. (2021). Fundamentals of Database Systems (7th ed.). Pearson. | 5. Silberschatz
+  [38.4, 488.4] Dosen Pengampu | Arief Rizki Fadhillah, ST., MT. | Matakuliah syarat | -
+
+>>> PAGE 3 (Size: 792.0 x 612.0) <<<
+Orientation: Landscape
+Drawing paths / rects count: 79
+  [35.3, 69.9] Mg ke-
+  [82.7, 57.8] Kemampuan akhir tiap
+  [99.2, 69.9] tahapan belajar
+  [109.7, 81.9] (Sub-CPMK)
+  [287.9, 57.7] Penilaian
+  [448.9, 39.6] Bentuk Pembelajaran; | Metode Pembelajaran;   | Penugasan Mahasiswa,
+  [463.0, 75.7] [ Estimasi Waktu]
+  [613.9, 57.8] Materi  | Pembelajaran
+  [621.4, 81.9] [ Pustaka ]
+  [708.7, 57.8] Bobot  | Penilaian
+  [235.0, 81.9] (%)  | Indikator | Kriteria & Teknik | Luring  | (offline)
+  [508.1, 88.2] Daring (online)
+  [43.7, 112.6] (1) | (2) | (3) | (4) | (5) | (6) | (7) | (8) | 1,2 | SubCPMK-1: mampu  | menjelaskan konsep dasar  | basis data dan per
+  [213.0, 126.1] 1.1. Ketepatan  | menjelaskan  | pengertian  | data,  | informasi, dan  | basis data  | 1.2. Ketepatan  | menjelaskan  |
+  [311.9, 126.1] Teknik non-test &  | test:
+  [311.9, 150.2] a) Diskusi kelas  | b) Kuis 1: Soal essay |   | Kriteria:
+  [313.9, 198.2] a) Rubrik
+  [327.2, 210.3] pemahaman  | konsep
+  [418.7, 126.6] Kuliah;  | Diskusi kelas;  | Praktikum  | pengenalan  | DBMS /  | instalasi /  | eksplorasi  | tools;  | [BM:2mg x  | (2
+  [498.8, 126.1] Diskusi asinkron; | eLearning: LMS  | (Edlink)
+  [599.2, 126.1] Penjelasan RPS; | Pengantar Basis  | Data & DBMS:  | Pengertian data,  | basis data, DBMS,  | komponen DBMS,  | peran DB
+  [722.4, 126.1] 10%
+  [39.1, 416.7] 3,4,5 | SubCPMK-2: mampu  | mengidentifikasi  | kebutuhan data dan  | menentukan entitas,  | atribut, serta relasi dalam
+  [213.0, 416.7] 2.1. Ketepatan  | mengidentifik | asi kebutuhan  | data dari studi  | kasus  | 2.2. Ketepatan  | menentukan  | entitas d
+  [311.9, 416.7] Teknik non-test:
+  [313.9, 428.7] a) Tugas analisis
+  [313.9, 440.8] studi kasus  | b) Presentasi hasil
+  [311.9, 464.8] analisis  |   | Kriteria:
+  [313.9, 501.0] a) Rubrik analitik
+  [327.2, 513.0] (ketepatan  | entitas, atribut,  | relasi)
+  [418.7, 417.2] Kuliah;  | Diskusi studi  | kasus;  | Praktikum  | identifikasi  | entitas;  | [BM:=3mg x  | (2sks x 50ΓÇÖ)]  | [Praktikum
+  [498.8, 416.7] Diskusi asinkron; | eLearning: LMS  | (Edlink)
+  [599.2, 416.7] Analisis Kebutuhan  | Data:  | Identifikasi  | kebutuhan data,  | entitas, atribut,  | relasi dalam studi  | kasus.  | [
+  [721.7, 416.8] 20%
+
+>>> PAGE 4 (Size: 792.0 x 612.0) <<<
+Orientation: Landscape
+Drawing paths / rects count: 88
+  [35.3, 69.9] Mg ke-
+  [82.7, 57.8] Kemampuan akhir tiap
+  [99.2, 69.9] tahapan belajar
+  [109.7, 81.9] (Sub-CPMK)
+  [287.9, 57.7] Penilaian
+  [448.9, 39.6] Bentuk Pembelajaran; | Metode Pembelajaran;   | Penugasan Mahasiswa,
+  [463.0, 75.7] [ Estimasi Waktu]
+  [613.9, 57.8] Materi  | Pembelajaran
+  [621.4, 81.9] [ Pustaka ]
+  [708.7, 57.8] Bobot  | Penilaian
+  [235.0, 81.9] (%)  | Indikator | Kriteria & Teknik | Luring  | (offline)
+  [508.1, 88.2] Daring (online)
+  [44.2, 112.6] (1) | (2) | (3) | (4) | (5) | (6) | (7) | (8) | relasi antar  | entitas
+  [418.7, 126.6] Tugas-2:  | Analisis  | kebutuhan data  | [PT:3mg x  | (2sks x 60ΓÇÖ)]  | [KM:3x(2sks x  | 60ΓÇÖ)]
+  [599.2, 126.1] Model konseptual,  | relasi antar entitas,  | representasi data.  | [5] hal: 30ΓÇô60
+  [43.7, 213.7] 6,7 | SubCPMK-3: mampu  | merancang model basis  | data (ERD) secara  | sistematis sesuai  | kebutuhan sistem [C4]
+  [213.0, 213.7] 3.1. Ketepatan  | menggambar  | ERD sesuai  | studi kasus  | 3.2. Ketepatan  | menentukan  | kardinalitas  | relasi  | 3
+  [311.9, 213.7] Teknik non-test:
+  [313.9, 225.7] a) Tugas
+  [311.9, 237.8] perancangan ERD  |   | Kriteria:
+  [313.9, 273.8] a) Rubrik analitik
+  [327.2, 285.8] (ketepatan  | model dan  | kardinalitas)
+  [418.7, 213.7] Kuliah; | Diskusi;  | Praktikum  | perancangan  | ERD;  | [BM:2mg x  | (2sks x 50ΓÇÖ)]  | [Praktikum:2 | mg x (1sks x  | 1
+  [498.8, 213.7] Diskusi asinkron; | Review desain  | ERD;  | eLearning: LMS  | (Edlink)
+  [599.2, 213.7] Perancangan ERD: | Entity Relationship  | Diagram, atribut,  | relasi, kardinalitas.  | [4] hal: 100ΓÇô130  | [5] hal: 70ΓÇô
+  [721.7, 213.8] 15%
+  [48.4, 442.6] 8 | Evaluasi Tengah Semester / Ujian Tengah Semester
+  [43.2, 503.2] 9,10
+  [73.1, 455.1] SubCPMK-4: mampu  | menganalisis dan  | melakukan normalisasi  | data untuk menghasilkan  | struktur basis data yang  | 
+  [213.0, 455.1] 4.1. Ketepatan  | mengidentifik | asi redundansi  | data  | 4.2. Ketepatan  | menentukan  | dependensi  | fungsional
+  [311.9, 455.1] Teknik non-test:
+  [313.9, 467.1] a) Tugas
+  [311.9, 479.2] normalisasi tabel  |   | Kriteria:
+  [313.9, 515.2] a) Rubrik analitik
+  [327.2, 527.2] (ketepatan  | bentuk normal)
+  [418.7, 455.1] Kuliah; | Diskusi;  | Praktikum  | normalisasi;  | [BM:2mg x  | (2sks x 50ΓÇÖ)]  | [Praktikum:2 | mg x (1sks x  | 170ΓÇÖ)]
+  [498.8, 455.1] Diskusi asinkron; | Latihan soal  | normalisasi;  | eLearning: LMS  | (Edlink)
+  [599.2, 455.1] Normalisasi Basis  | Data:  | Redundansi data,  | dependensi  | fungsional,  | normalisasi 1NFΓÇô | 3NF.  | [4] hal: 150ΓÇô1
+  [722.4, 455.1] 15%
+
+>>> PAGE 5 (Size: 792.0 x 612.0) <<<
+Orientation: Landscape
+Drawing paths / rects count: 82
+  [35.3, 69.9] Mg ke-
+  [82.7, 57.8] Kemampuan akhir tiap
+  [99.2, 69.9] tahapan belajar
+  [109.7, 81.9] (Sub-CPMK)
+  [287.9, 57.7] Penilaian
+  [448.9, 39.6] Bentuk Pembelajaran; | Metode Pembelajaran;   | Penugasan Mahasiswa,
+  [463.0, 75.7] [ Estimasi Waktu]
+  [613.9, 57.8] Materi  | Pembelajaran
+  [621.4, 81.9] [ Pustaka ]
+  [708.7, 57.8] Bobot  | Penilaian
+  [235.0, 81.9] (%)  | Indikator | Kriteria & Teknik | Luring  | (offline)
+  [508.1, 88.2] Daring (online)
+  [44.2, 112.6] (1) | (2) | (3) | (4) | (5) | (6) | (7) | (8) | 4.3. Ketepatan  | melakukan  | normalisasi  | hingga bentuk  | normal (1
+  [418.7, 138.1] Tugas-4:  | Normalisasi  | tabel (1NFΓÇô | 3NF)  | [PT:2mg x  | (2sks x 60ΓÇÖ)]  | [KM:2x(2sks x  | 60ΓÇÖ)]
+  [599.2, 138.1] Optimasi Struktur  | Data:  | Efisiensi  | penyimpanan dan  | konsistensi data.  | [7] hal: 40ΓÇô70
+  [38.4, 337.0] 11,12, | 13
+  [73.1, 234.8] SubCPMK-5: mampu  | mengimplementasikan  | basis data menggunakan  | SQL sesuai dengan desain  | yang telah dibuat [C3]
+  [213.0, 234.8] 5.1. Ketepatan  | membuat  | database dan  | tabel (DDL)  | 5.2. Ketepatan  | melakukan  | manipulasi  | data (INSERT,  
+  [311.9, 234.8] Teknik non-test:
+  [311.9, 246.8] a) Praktikum SQL  | b) Latihan query  |   | Kriteria:
+  [313.9, 294.9] a) Rubrik kinerja
+  [327.2, 307.0] (ketepatan  | sintaks dan hasil  | query)
+  [418.7, 234.8] Kuliah  | singkat;  | Praktikum  | SQL (DDL,  | DML);  | [BM:3mg x  | (2sks x 50ΓÇÖ)]  | [Praktikum:3 | mg x (1sks x  | 17
+  [498.8, 234.8] Diskusi asinkron; | Review query;  | eLearning: LMS  | (Edlink)
+  [599.2, 234.8] SQL (Structured  | Query Language):  | DDL (CREATE,  | ALTER), DML  | (INSERT, UPDATE,  | DELETE), SELECT.  | [2] hal: 5
+  [599.2, 330.9] Implementasi Basis  | Data:  | Pembuatan  | database dan  | manipulasi data.  | [1] hal: 60ΓÇô100
+  [722.4, 234.8] 20%
+  [38.4, 511.9] 14,15
+  [73.1, 463.8] SubCPMK-6: mampu  | mengelola, memanipulasi,  | dan menyajikan data  | secara efisien untuk  | kebutuhan pengolahan  | d
+  [213.0, 463.8] 6.1. Ketepatan  | membuat  | query lanjutan  | (JOIN,  | agregasi)  | 6.2. Ketepatan  | menyajikan  | data sesuai  | keb
+  [311.9, 463.8] Teknik non-test:
+  [313.9, 475.9] a) Proyek
+  [311.9, 487.8] pengolahan data  | b) Presentasi hasil  |   | Kriteria:
+  [313.9, 536.0] a) Rubrik holistik
+  [327.2, 547.9] (akurasi,
+  [418.7, 463.8] Diskusi; | Praktikum  | query  | lanjutan  | (JOIN,  | agregasi);  | [BM:2mg x  | (2sks x 50ΓÇÖ)]
+  [498.8, 463.8] Diskusi asinkron; | Presentasi hasil  | proyek;  | eLearning: LMS  | (Edlink)
+  [599.2, 463.8] Query Lanjutan &  | Pengolahan Data:  | JOIN, agregasi,  | subquery,  | pengolahan data.  | [6] hal: 180ΓÇô220  | [8] hal:
+  [722.4, 463.8] 20%
+
+>>> PAGE 6 (Size: 792.0 x 612.0) <<<
+Orientation: Landscape
+Drawing paths / rects count: 73
+  [35.3, 69.9] Mg ke-
+  [82.7, 57.8] Kemampuan akhir tiap
+  [99.2, 69.9] tahapan belajar
+  [109.7, 81.9] (Sub-CPMK)
+  [287.9, 57.7] Penilaian
+  [448.9, 39.6] Bentuk Pembelajaran; | Metode Pembelajaran;   | Penugasan Mahasiswa,
+  [463.0, 75.7] [ Estimasi Waktu]
+  [613.9, 57.8] Materi  | Pembelajaran
+  [621.4, 81.9] [ Pustaka ]
+  [708.7, 57.8] Bobot  | Penilaian
+  [235.0, 81.9] (%)  | Indikator | Kriteria & Teknik | Luring  | (offline)
+  [508.1, 88.2] Daring (online)
+  [44.2, 112.6] (1) | (2) | (3) | (4) | (5) | (6) | (7) | (8) | 6.3. Ketepatan  | penggunaan  | data secara  | efisien dan  | bertanggun
+  [327.2, 126.1] efisiensi, etika  | data)
+  [418.7, 126.1] [Praktikum:2 | mg x (1sks x  | 170ΓÇÖ)]  |   | Tugas-6:  | Proyek  | pengolahan  | data  | [PT:2mg x  | (2sks x 60ΓÇÖ)]  | [
+  [599.2, 126.1] Penyajian &  | Evaluasi Data:  | Penyajian data,  | efisiensi query,  | etika penggunaan  | data.  | [9] hal: 71ΓÇô82
+  [47.8, 270.8] 16 | Evaluasi Akhir Semester / Ujian Akhir Semester
+  [592.2, 283.4] Total bobot penilaian | 100%
+  [46.8, 301.5] Catatan : TM (Tatap Muka); PT (Penugasan Terstruktur); BM (Belajar Mandiri)
+
+>>> PAGE 7 (Size: 612.0 x 792.0) <<<
+Orientation: Portrait
+Drawing paths / rects count: 12
+  [106.0, 106.8] Soal Penugasan Terstruktur 1
+  [106.0, 314.6] Rubrik Penilaian Penugasan Terstruktur 1
+
+>>> PAGE 8 (Size: 612.0 x 792.0) <<<
+Orientation: Portrait
+Drawing paths / rects count: 12
+  [106.0, 106.8] Soal Ujian Tengah Semester
+  [106.0, 314.6] Rubrik Penilaian Ujian Tengah Semester
+
+>>> PAGE 9 (Size: 612.0 x 792.0) <<<
+Orientation: Portrait
+Drawing paths / rects count: 12
+  [106.0, 106.8] Soal Penugasan Terstruktur 2
+  [106.0, 314.6] Rubrik Penilaian Penugasan Terstruktur 2
+
+>>> PAGE 10 (Size: 612.0 x 792.0) <<<
+Orientation: Portrait
+Drawing paths / rects count: 12
+  [106.0, 106.8] Soal Ujian Akhir Semester
+  [106.0, 314.6] Rubrik Penilaian Ujian Akhir Semester
+
+>>> PAGE 11 (Size: 612.0 x 792.0) <<<
+Orientation: Portrait
+Drawing paths / rects count: 3
+  [111.0, 120.0] Memvalidasi,  | Unit Penjaminan Mutu  | Fakultas ________  |   |   |   |   | Nama Pejabat UPM  | NUPTK. xxxxxxxxxx
+  [311.0, 106.8] Malang, Tanggal Bulan Tahun |   | Dosen Pengampuh,  |   |   |   |   |   | Nama Dosen + Gelar  | NUPTK. xxxxxxxxxxxxx
+  [225.6, 264.2] Mengesahkan,  | Ketua Program Studi _________
+  [230.4, 290.6] Nama Pejabat Program Studi
+  [106.0, 369.2] NUPTK. xxxxxxxxxxxxxxxx
+
+
+
+
+================================================================================
+ANALYSIS OF: Template_RPS_GEN_2026_20092026-SWI.pdf
+Total Pages: 9
+================================================================================
+
+>>> PAGE 1 (Size: 841.7000122070312 x 595.4000244140625) <<<
+Orientation: Landscape
+Drawing paths / rects count: 16
+  [236.4, 14.7] RENCANA PEMBELAJARAN SEMESTER
+  [382.2, 37.9] (RPS)
+  [335.5, 244.6] Disusun Oleh:  | Nama: {{namadosen}}
+  [349.3, 324.6] NUPTK: {{nuptk}}
+  [283.5, 346.5] UNIVERSITAS WIDYA GAMA
+  [85.1, 532.3] AGUSTUS, 2026
+
+>>> PAGE 2 (Size: 841.7000122070312 x 595.4000244140625) <<<
+Orientation: Landscape
+Drawing paths / rects count: 392
+  [340.9, 14.7] UNIVERSITAS WIDYA GAMA
+  [313.6, 33.3] FAKULTAS TEKNIK  | PROGRAM STUDI S1 TEKNIK MESIN
+  [730.5, 28.6] 071030.{{ko | deprodi}}
+  [302.7, 71.0] RENCANA PEMBELAJARAN SEMESTER
+  [40.8, 87.8] MATA KULIAH (MK)  | KODE  | Rumpun MK  | BOBOT (sks)  | SEMESTER  | Tgl  | Penyusunan  | {{namamk}}  | {{kodemk}}  | {{r
+  [600.4, 113.8] P=  | {{sks
+  [605.0, 139.4] p}}
+  [659.9, 113.8] {{sms}}  | {{tglsusun}}
+  [40.8, 152.6] OTORISASI  | Pengembang RPS  | Koordinator RMK  | Ketua Program Studi  | {{pengembangrps}}  | {{koordinatormk}}  | {{ket
+  [161.2, 179.7] CPL-PRODI yang dibebankan pada MK         |   | [nocpl]  | [cpl]  | [nocpl]  | [cpl]  | [nocpl]  | [cpl]  | [nocpl]  | [
+  [232.2, 382.4] [subcpmk]
+  [161.2, 408.5] [nosubcpmk | ]
+  [232.2, 408.5] [subcpmk]
+  [161.2, 434.5] [nosubcpmk | ]
+  [232.2, 434.5] [subcpmk]
+  [161.2, 460.6] [nosubcpmk | ]
+  [232.2, 460.6] [subcpmk]
+  [161.2, 486.6] [nosubcpmk | ]
+  [232.2, 486.6] [subcpmk]
+  [40.8, 512.7] Korelasi CPL terhadap CPMK  |   | [tabelkolerasi].  | Deskripsi Singkat MK  | {{deskripsimk}}
+
+>>> PAGE 3 (Size: 841.7000122070312 x 595.4000244140625) <<<
+Orientation: Landscape
+Drawing paths / rects count: 723
+  [40.8, 14.8] Bahan Kajian: Materi  | Pembelajaran
+  [161.2, 14.8] {{bahankajian}}
+  [40.8, 27.5] Pustaka  | Utama :  |   | [pustakautama]  | Pendukung :  |   | [pustakapendukung]  | Dosen Pengampu  | {{dosenpengampu}}
+  [37.5, 209.2] Mg ke-
+  [87.8, 196.5] Kemampuan akhir tiap
+  [105.3, 209.2] tahapan belajar
+  [116.5, 222.0] (Sub-CPMK)
+  [305.7, 196.2] Penilaian
+  [477.0, 177.1] Bentuk Pembelajaran;  | Metode Pembelajaran;   | Penugasan Mahasiswa,
+  [488.5, 215.4] [ Estimasi Waktu]
+  [652.1, 196.5] Materi  | Pembelajaran
+  [659.9, 222.0] [ Pustaka ]
+  [752.6, 196.5] Bobot  | Penilaian
+  [249.4, 222.0] (%)  | Indikator  | Kriteria & Teknik  | Luring  | (offline)
+  [539.5, 228.7] Daring (online)
+  [36.9, 254.7] (1)  | (2)  | (3)  | (4)  | (5)  | (6)  | (7)  | (8)  | [mingg
+  [42.6, 281.7] uke]
+  [84.5, 268.9] [kemampuan_subcpmk]  | [indikator]  | [kriteriateknik]  | [luring]  | [daring]  | [materi]  | [bobot_ni
+  [36.9, 281.7] lai]  | [mingg
+  [42.6, 307.7] uke]
+  [84.5, 294.9] [kemampuan_subcpmk]  | [indikator]  | [kriteriateknik]  | [luring]  | [daring]  | [materi]  | [bobot_ni
+  [36.9, 307.7] lai]  | [mingg
+  [42.6, 333.8] uke]
+  [84.5, 321.0] [kemampuan_subcpmk]  | [indikator]  | [kriteriateknik]  | [luring]  | [daring]  | [materi]  | [bobot_ni
+  [36.9, 333.8] lai]  | [mingg
+  [42.6, 359.8] uke]
+  [84.5, 347.0] [kemampuan_subcpmk]  | [indikator]  | [kriteriateknik]  | [luring]  | [daring]  | [materi]  | [bobot_ni
+  [36.9, 359.8] lai]  | [mingg
+  [42.6, 385.9] uke]
+  [84.5, 373.1] [kemampuan_subcpmk]  | [indikator]  | [kriteriateknik]  | [luring]  | [daring]  | [materi]  | [bobot_ni
+  [36.9, 385.9] lai]  | [mingg
+  [42.6, 411.9] uke]
+  [84.5, 399.1] [kemampuan_subcpmk]  | [indikator]  | [kriteriateknik]  | [luring]  | [daring]  | [materi]  | [bobot_ni
+  [36.9, 411.9] lai]  | [mingg
+  [42.6, 437.9] uke]
+  [84.5, 425.2] [kemampuan_subcpmk]  | [indikator]  | [kriteriateknik]  | [luring]  | [daring]  | [materi]  | [bobot_ni
+  [36.9, 437.9] lai]  | 8  | Evaluasi Tengah Semester / Ujian Tengah Semester  |   | [mingg
+  [42.6, 477.3] uke]
+  [84.5, 464.5] [kemampuan_subcpmk]  | [indikator]  | [kriteriateknik]  | [luring]  | [daring]  | [materi]  | [bobot_ni
+  [36.9, 477.3] lai]  | [mingg
+  [42.6, 503.4] uke]
+  [84.5, 490.5] [kemampuan_subcpmk]  | [indikator]  | [kriteriateknik]  | [luring]  | [daring]  | [materi]  | [bobot_ni
+  [36.9, 503.4] lai]  | [mingg
+  [42.6, 529.4] uke]
+  [84.5, 516.7] [kemampuan_subcpmk]  | [indikator]  | [kriteriateknik]  | [luring]  | [daring]  | [materi]  | [bobot_ni
+  [36.9, 529.4] lai]  | [mingg
+  [42.6, 555.5] uke]
+  [84.5, 542.7] [kemampuan_subcpmk]  | [indikator]  | [kriteriateknik]  | [luring]  | [daring]  | [materi]  | [bobot_ni
+  [767.9, 555.5] lai]
+
+>>> PAGE 4 (Size: 841.7000122070312 x 595.4000244140625) <<<
+Orientation: Landscape
+Drawing paths / rects count: 468
+  [37.5, 47.0] Mg ke-
+  [87.8, 34.2] Kemampuan akhir tiap
+  [105.3, 47.0] tahapan belajar
+  [116.5, 59.7] (Sub-CPMK)
+  [305.7, 33.9] Penilaian
+  [477.0, 14.8] Bentuk Pembelajaran;  | Metode Pembelajaran;   | Penugasan Mahasiswa,
+  [488.5, 53.1] [ Estimasi Waktu]
+  [652.1, 34.2] Materi  | Pembelajaran
+  [659.9, 59.7] [ Pustaka ]
+  [752.6, 34.2] Bobot  | Penilaian
+  [249.4, 59.7] (%)  | Indikator  | Kriteria & Teknik  | Luring  | (offline)
+  [539.5, 66.4] Daring (online)
+  [36.9, 92.4] (1)  | (2)  | (3)  | (4)  | (5)  | (6)  | (7)  | (8)  | [mingg
+  [42.6, 119.4] uke]
+  [84.5, 106.6] [kemampuan_subcpmk]  | [indikator]  | [kriteriateknik]  | [luring]  | [daring]  | [materi]  | [bobot_ni
+  [36.9, 119.4] lai]  | [mingg
+  [42.6, 145.4] uke]
+  [84.5, 132.7] [kemampuan_subcpmk]  | [indikator]  | [kriteriateknik]  | [luring]  | [daring]  | [materi]  | [bobot_ni
+  [36.9, 145.4] lai]  | [mingg
+  [42.6, 171.5] uke]
+  [84.5, 158.7] [kemampuan_subcpmk]  | [indikator]  | [kriteriateknik]  | [luring]  | [daring]  | [materi]  | [bobot_ni
+  [36.9, 171.5] lai]  | [mingg
+  [42.6, 197.5] uke]
+  [84.5, 184.7] [kemampuan_subcpmk]  | [indikator]  | [kriteriateknik]  | [luring]  | [daring]  | [materi]  | [bobot_ni
+  [36.9, 197.5] lai]  | [mingg
+  [42.6, 223.6] uke]
+  [84.5, 210.8] [kemampuan_subcpmk]  | [indikator]  | [kriteriateknik]  | [luring]  | [daring]  | [materi]  | [bobot_ni
+  [36.9, 223.6] lai]  | [mingg
+  [42.6, 249.6] uke]
+  [84.5, 236.8] [kemampuan_subcpmk]  | [indikator]  | [kriteriateknik]  | [luring]  | [daring]  | [materi]  | [bobot_ni
+  [36.9, 249.6] lai]  | [mingg
+  [42.6, 275.6] uke]
+  [84.5, 262.9] [kemampuan_subcpmk]  | [indikator]  | [kriteriateknik]  | [luring]  | [daring]  | [materi]  | [bobot_ni
+  [50.7, 275.6] lai]  | 16  | Evaluasi Akhir Semester / Ujian Akhir Semester  |   | Total bobot penilaian  | 100%
+  [49.7, 321.5] Catatan : TM (Tatap Muka); PT (Penugasan Terstruktur); BM (Belajar Mandiri)
+
+>>> PAGE 5 (Size: 595.4000244140625 x 841.7000122070312) <<<
+Orientation: Portrait
+Drawing paths / rects count: 24
+  [85.1, 113.5] Soal Penugasan Terstruktur 1
+  [90.7, 127.9] [penugasan1]
+  [85.1, 334.2] Rubrik Penilaian Penugasan Terstruktur 1
+  [90.7, 362.6] [rubriktugas1]
+
+>>> PAGE 6 (Size: 595.4000244140625 x 841.7000122070312) <<<
+Orientation: Portrait
+Drawing paths / rects count: 24
+  [85.1, 113.5] Soal Ujian Tengah Semester
+  [90.7, 127.9] [soaluts]
+  [85.1, 334.2] Rubrik Penilaian Ujian Tengah Semester
+  [90.7, 362.6] [rubrikuts]
+
+>>> PAGE 7 (Size: 595.4000244140625 x 841.7000122070312) <<<
+Orientation: Portrait
+Drawing paths / rects count: 24
+  [85.1, 113.5] Soal Penugasan Terstruktur 2
+  [90.7, 127.9] [tugas2]
+  [85.1, 334.2] Rubrik Penilaian Penugasan Terstruktur 2
+  [90.7, 362.6] [rubriktugas2]
+
+>>> PAGE 8 (Size: 595.4000244140625 x 841.7000122070312) <<<
+Orientation: Portrait
+Drawing paths / rects count: 24
+  [85.1, 113.5] Soal Ujian Akhir Semester
+  [90.7, 127.9] [soaluas]
+  [85.1, 334.2] Rubrik Penilaian Ujian Akhir Semester
+  [90.7, 362.6] [rubrikuas]
+
+>>> PAGE 9 (Size: 595.4000244140625 x 841.7000122070312) <<<
+Orientation: Portrait
+Drawing paths / rects count: 3
+  [90.4, 113.5] Memvalidasi,  | Unit Penjaminan Mutu  | Fakultas Sains dan Teknologi Informasi  |   |   |   |   | Nama Pejabat UPM  | NU
+  [90.4, 113.5] Malang, Tanggal Bulan Tahun  |   | Dosen Pengampuh,  |   |   |   |   |   | {{namadosen}}  | NUPTK. {{nuptk}}
+  [230.9, 280.7] Mengesahkan,  | Ketua Program Studi {{prodi}}
+  [230.4, 308.6] Nama Pejabat Program Studi
+  [85.1, 392.2] NUPTK. xxxxxxxxxxxxxxxx
+
+
+
+
+================================================================================
+ANALYSIS OF DOCX: Template_RPS_GEN_2026_20092026-SWO.docx
+================================================================================
+Paragraphs count: 29
+Tables count: 12
+
+--- Table 1 (3 rows x 1 cols) ---
+  Row 1: RENCANA PEMBELAJARAN SEMESTER (RPS)
+  Row 2: Disusun Oleh: Nama: {{namadosen}} NUPTK: {{nuptk}}
+  Row 3: UNIVERSITAS WIDYA GAMA AGUSTUS, 2026
+
+--- Table 2 (36 rows x 13 cols) ---
+  Row 1:  | UNIVERSITAS WIDYA GAMA FAKULTAS TEKNIK PROGRAM STUDI S1 TEKNIK MESIN | UNIVERSITAS WIDYA GAMA FAKULTAS TEKNIK PROGRAM STUDI S1 TEKNIK MESIN | UNIVERSITAS WIDYA GAMA FAKULTAS TEKNIK PROGRAM STUDI S1 TEKNIK MESIN | UNIVERSITAS WIDYA GAMA FAKULTAS TEKNIK PROGRAM STUDI S1 TEKNIK MESIN | UNIVERSITAS WIDYA GAMA FAKULTAS TEKNIK PROGRAM STUDI S1 TEKNIK MESIN
+  Row 2: RENCANA PEMBELAJARAN SEMESTER | RENCANA PEMBELAJARAN SEMESTER | RENCANA PEMBELAJARAN SEMESTER | RENCANA PEMBELAJARAN SEMESTER | RENCANA PEMBELAJARAN SEMESTER | RENCANA PEMBELAJARAN SEMESTER
+  Row 3: MATA KULIAH (MK) | MATA KULIAH (MK) | MATA KULIAH (MK) | MATA KULIAH (MK) | KODE | KODE
+  Row 4: {{namamk}} | {{namamk}} | {{namamk}} | {{namamk}} | {{kodemk}} | {{kodemk}}
+  Row 5: OTORISASI | OTORISASI | Pengembang RPS | Pengembang RPS | Pengembang RPS | Koordinator RMK
+
+--- Table 3 (17 rows x 8 cols) ---
+  Row 1: Mg ke- | Kemampuan akhir tiap tahapan belajar  (Sub-CPMK) | Penilaian | Penilaian | Bentuk Pembelajaran; Metode Pembelajaran;  Penugasan Mahasiswa,  [ Estimasi Waktu] | Bentuk Pembelajaran; Metode Pembelajaran;  Penugasan Mahasiswa,  [ Estimasi Waktu]
+  Row 2: Mg ke- | Kemampuan akhir tiap tahapan belajar  (Sub-CPMK) | Indikator | Kriteria & Teknik | Luring (offline) | Daring (online)
+  Row 3: (1) | (2) | (3) | (4) | (5) | (6)
+  Row 4: [mingguke] | [kemampuan_subcpmk] | [indikator] | [kriteriateknik] | [luring] | [daring]
+  Row 5: [mingguke] | [kemampuan_subcpmk] | [indikator] | [kriteriateknik] | [luring] | [daring]
+
+--- Table 4 (1 rows x 1 cols) ---
+  Row 1: [penugasan1]
+
+--- Table 5 (1 rows x 1 cols) ---
+  Row 1: [rubriktugas1]
+
+--- Table 6 (1 rows x 1 cols) ---
+  Row 1: [soaluts]
+
+--- Table 7 (1 rows x 1 cols) ---
+  Row 1: [rubrikuts]
+
+--- Table 8 (1 rows x 1 cols) ---
+  Row 1: [tugas2]
+
+--- Table 9 (1 rows x 1 cols) ---
+  Row 1: [rubriktugas2]
+
+--- Table 10 (1 rows x 1 cols) ---
+  Row 1: [soaluas]
+
+--- Table 11 (1 rows x 1 cols) ---
+  Row 1: [rubrikuas]
+
+--- Table 12 (2 rows x 2 cols) ---
+  Row 1: Memvalidasi, Unit Penjaminan Mutu Fakultas Sains dan Teknologi Informasi     Nama Pejabat UPM NUPTK. xxxxxxxxxx | Malang, Tanggal Bulan Tahun  Dosen Pengampuh,      {{namadosen}} NUPTK. {{nuptk}}
+  Row 2: Mengesahkan, Ketua Program Studi {{prodi}}      Nama Pejabat Program Studi NUPTK. xxxxxxxxxxxxxxxx | Mengesahkan, Ketua Program Studi {{prodi}}      Nama Pejabat Program Studi NUPTK. xxxxxxxxxxxxxxxx

@@ -123,6 +123,8 @@ KURIKULUM2026_REVISI/
 ├── 048_KEPUTUSAN_PENGGANTIAN_STA601_NUMERIK_MENJADI_BIG_DATA_ENGINEERING.md ⭐ (Surat Keputusan Definitif Penggantian STA-601)
 ├── 049_LAPORAN_EVALUASI_DAN_REVISI_KURIKULUM_STA601_BIG_DATA_ENGINEERING.md ⭐ (Laporan Resmi Evaluasi, Dev Report & Harmonisasi Sistemik STA-601)
 ├── 050_DEV_REPORT_DAN_LOG_PERTUKARAN_STRUKTUR_SEM6_SEM7_DAN_HARMONISASI_KURIKULUM.md ⭐ (Dev Report & Dev Log Pertukaran Struktur 8 SKS Sem 6-7, Standardisasi Bilingual ID/EN, dan Harmonisasi Ekosistem)
+├── 051_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_MK_PASCA_PERTUKARAN_SEM6_SEM7.md ⭐ (Dev Report & Log Restrukturisasi Kode MK Pasca Pertukaran Sem 6-7)
+├── 052_ANALISIS_FORMAT_DAN_LAYOUT_TEMPLATE_RPS_OBE.md ⭐ (Audit Desain Layout Hybrid Landscape/Portrait, Kamus Tag Placeholder, & Keselarasan RPS FSTI UWG)
 ├── BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md ⭐ (Naskah Utuh Lengkap Buku Kurikulum Bab 1-8 + Silabus)
 ├── GENERATE_EXCEL_011.bat (Trigger Batch Sekali Klik untuk Re-generate Excel)
 ├── GENERATE_HTML.bat (Trigger Batch Sekali Klik untuk Re-generate Seluruh File HTML & Portal)
