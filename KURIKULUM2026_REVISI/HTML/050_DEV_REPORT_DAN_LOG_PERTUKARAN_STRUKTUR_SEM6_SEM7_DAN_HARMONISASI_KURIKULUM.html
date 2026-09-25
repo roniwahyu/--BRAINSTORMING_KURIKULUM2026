@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>050 — Dev Report & Log Pertukaran Struktur Sem 6-7 & Harmonisasi | Kurikulum OBE SISTEKIN 2026</title>
+    <meta name="description" content="Dokumen Resmi Kurikulum OBE 2026 Program Studi Sistem dan Teknologi Informasi (S1) FSTI UWG Malang.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- KaTeX for LaTeX Math (Enhanced with inline single dollar delimiters) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});"></script>
+
+    <!-- Mermaid JS for Flowcharts -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+
+    <!-- Master External Modular Stylesheet (Zero-Token Redundancy) -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar no-print">
+        <div class="container navbar-content">
+            <a href="index.html" class="brand">
+                <div class="brand-logo">STI</div>
+                <div class="brand-text">
+                    <h1>SISTEKIN — FSTI UWG</h1>
+                    <p>Buku Kurikulum OBE 2026</p>
+                </div>
+            </a>
+            
+            <select class="doc-select" onchange="window.location.href=this.value">
+                <option value="000_CHANGELOG_ALIGNMENT_FINAL.html" >000 — Changelog Alignment Final</option>
+<option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
+<option value="002_FORMULASI_3_PEO_DAN_4_PROFIL_LULUSAN_SISTEKIN.html" >002 — Formulasi 3 PEO & 4 Profil Lulusan</option>
+<option value="003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.html" >003 — Standar 14 CPL & Pemetaan BoK APTIKOM</option>
+<option value="004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.html" >004 — Matriks Keterlacakan OBE VMTS-PEO-PL-CPL-MK</option>
+<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — 🏛️ Struktur Kurikulum 8 Semester & Peminatan</option>
+<option value="006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.html" >006 — Distribusi MK Peminatan & Panduan MBKM</option>
+<option value="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" >007 — Silabus 3-Tabel & CPMK 67 MK Portofolio</option>
+<option value="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" >008 — Sistem Asesmen OBE & Attainment CPL</option>
+<option value="009_LANGKAH2_CPL_FORMAL.html" >009 — Ringkasan Langkah 2: CPL Formal</option>
+<option value="009A_CPL_SIKAP_SISTEKIN.html" >009A — Detail CPL Sikap (S1)</option>
+<option value="009B_CPL_KETERAMPILAN_UMUM_SISTEKIN.html" >009B — Detail CPL Keterampilan Umum (KU1-3)</option>
+<option value="009C_CPL_PENGETAHUAN_SISTEKIN.html" >009C — Detail CPL Pengetahuan (P1-4)</option>
+<option value="009D_CPL_KETERAMPILAN_KHUSUS_SISTEKIN.html" >009D — Detail CPL Keterampilan Khusus (KK1-6)</option>
+<option value="009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.html" >009E — Master Matriks Kompilasi 14 CPL & BoK</option>
+<option value="009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.html" >009 — Pedoman Capstone & 4 Opsi TA Non-Skripsi</option>
+<option value="010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.html" >010 — Instrumen Tracer Study & Evaluasi PEO</option>
+<option value="011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.html" >011 — 14 Sheet Matriks Implementasi OBE</option>
+<option value="012_ANALISIS_KRITIS_JALUR_PONDASI_DAN_TREE_PRASYARAT.html" >012 — Analisis Kritis Jalur Pondasi & Tree View Prasyarat</option>
+<option value="013_REKOMENDASI_SOLUSI_DAN_MITIGASI_KELEMAHAN_KURIKULUM.html" >013 — Rekomendasi Solusi & Mitigasi Kelemahan Kurikulum</option>
+<option value="014_ANALISIS_KRITIS_PEMANGKASAN_SKS_TEORI_SEM4_SEM5.html" >014 — Analisis Kritis Pemangkasan SKS Teori Sem 4 & 5</option>
+<option value="015_SIMULASI_AKSELERASI_KELULUSAN_7_SEMESTER.html" >015 — Panduan & Simulasi Akselerasi 7 Semester (Fast-Track)</option>
+<option value="016_ANALISIS_BoK_APTIKOM_REDUNDANSI_DAN_PIPELINE_AI.html" >016 — Analisis BoK APTIKOM, Audit Redundansi & Pipeline AI</option>
+<option value="017_AUDIT_FORENSIK_ZERO_REDUNDANCY_DAN_ZERO_GAP.html" >017 — Audit Forensik Zero Redundancy & Zero Gap 5 Domain</option>
+<option value="018_PANDUAN_RUBRIK_KLASTER_DAN_MODEL_ASESMEN_OBE_DOSEN.html" >018 — Panduan Master Rubrik Klaster & Model Asesmen Dosen</option>
+<option value="019_AUDIT_KRITIS_KESELARASAN_FOLDER_REVISI_23082026_212923.html" >019 — Audit Kritis Keselarasan Dokumen Kurikulum</option>
+<option value="020_TEMPLATE_BUKU_KURIKULUM_KPT_OBE_APTIKOM.html" >020 — Template Buku Kurikulum KPT-OBE & Analisis Gap</option>
+<option value="021_PANDUAN_KPT2024_DIKTI_FULLTEXT.html" >021 — Panduan KPT 2024 Belmawa Dikti (Teks Lengkap)</option>
+<option value="022_AUDIT_KELENGKAPAN_KOMPONEN_VS_TEMPLATE_KPT_OBE.html" >022 — Audit Kelengkapan Komponen vs Template KPT-OBE</option>
+<option value="023_BUKU_KPT_SISTEKIN_2026_STRUKTUR_KPT2024.html" >023 — 📘 BUKU KPT SISTEKIN 2026 (Struktur 12 Bab KPT 2024)</option>
+<option value="024_MATRIKS_EKIVALENSI_KURIKULUM2025_KE_KURIKULUM2026.html" >024 — Matriks Ekivalensi MK Kurikulum 2025 → 2026</option>
+<option value="025_REKOMENDASI_PENGEMBANGAN_MK_PEMINATAN_DAN_CROSS_TRACK_2027.html" >025 — Rekomendasi Pool MK Peminatan & Cross-Track 2027</option>
+<option value="026_ANALISIS_KRITIS_MK_DIHAPUS_DAN_REKOMENDASI_PENGGANTI.html" >026 — Analisis Kritis MK Dihapus & Rekomendasi Pengganti</option>
+<option value="027_RENCANA_RESTRUKTURISASI_KODE_MK_CORE_STI_KONTINU.html" >027 — Rencana Aksi Restrukturisasi Kode Core STI Kontinu</option>
+<option value="028_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_CORE_STI.html" >028 — Dev Report & Dev Log Restrukturisasi Kode Core STI</option>
+<option value="029_TABEL_VERIFIKASI_KODE_MK_BARU.html" >029 — Tabel Verifikasi Kode MK Baru (Core STI Sem 1 & 3)</option>
+<option value="030_JUSTIFIKASI_AKADEMIS_DAN_BoK_STA02_COMPUTATIONAL_METHODS_SEBAGAI_MK_PILIHAN.html" >030 — Justifikasi Akademis & Audit BoK STA-601 Komputasi Numerik sebagai MK Pilihan</option>
+<option value="031_PETA_KESELARASAN_KPT2024_STATUS_DOKUMEN.html" >031 — Peta Keselarasan KPT 2024 & Status Dokumen</option>
+<option value="031_RENCANA_PENYUSUNAN_BUKU_KPT_APTIKOM_A-L.html" >031 — Rencana Penyusunan Buku KPT APTIKOM Bab A-L</option>
+<option value="032_MODALITAS_PEMBELAJARAN_KPT2024.html" >032 — Modalitas Pembelajaran KPT 2024</option>
+<option value="033_RUBRIK_HOLISTIK_DAN_SKALA_PERSEPSI.html" >033 — Rubrik Holistik & Skala Persepsi Asesmen</option>
+<option value="034_SEMBILAN_BENTUK_MBKM_DAN_REKOGNISI.html" >034 — Sembilan Bentuk MBKM & Skema Rekognisi SKS</option>
+<option value="035_RESTRUKTURISASI_KODE_MK_PEMINATAN_STA_STB_STC.html" >035 — Restrukturisasi Kode MK Peminatan (STA, STB, STC) Berbasis Semester</option>
+<option value="036_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_PEMINATAN.html" >036 — Dev Report & Dev Log Restrukturisasi Kode MK Peminatan</option>
+<option value="037_BOUNDARY_OF_TOPICS_DAN_MATRIKS_ANTI_OVERLAP_KURIKULUM.html" >037 — Boundary of Topics & Matriks Anti-Overlap Kurikulum</option>
+<option value="038_RENCANA_KONTEN_LAMPIRAN_BUKU_KPT.html" >038 — Rencana Konten Lampiran Buku KPT SISTEKIN 2026</option>
+<option value="039_LAMPIRAN_SIAP_BUKU_KPT_SISTEKIN_2026.html" >039 — Lampiran Siap Buku KPT SISTEKIN 2026</option>
+<option value="040_LAMPIRAN_RAKIT_BUKU_KPT.html" >040 — Lampiran Rakit Buku KPT SISTEKIN 2026</option>
+<option value="041_LAMPIRAN_BARU_BUKU_KPT.html" >041 — Lampiran Baru Buku KPT SISTEKIN 2026</option>
+<option value="042_LAPORAN_AUDIT_KESELARASAN_KURIKULUM_DAN_BOUNDARY_OF_TOPICS.html" >042 — Laporan Audit Mutu & Keselarasan Kurikulum vs Dokumen 005</option>
+<option value="043_MATRIKS_CPL_CPMK_BoK_DAN_BOUNDARY_GUARDRAILS.html" >043 — Matriks CPL, CPMK, BoK, dan Boundary Guardrails (Core & Peminatan)</option>
+<option value="044_DEV_REPORT_DAN_LOG_PENYUSUNAN_MATRIKS_CPL_CPMK_BoK_GUARDRAILS.html" >044 — Dev Report & Log Penyusunan Matriks CPL, CPMK, BoK, dan Boundary Guardrails</option>
+<option value="045_DRAFT_BUKU_KPT_SISTEKIN_2026_MENGIKUTI_TEMPLATE_DOCX.html" >045 — 📘 Draft Buku KPT SISTEKIN 2026 Sesuai Template Dikti</option>
+<option value="046_RENCANA_SUBCPMK_DAN_16_PERTEMUAN_SWI_13092026_2300.html" >046 — Rencana Sub-CPMK & 16 Pertemuan</option>
+<option value="047_ANALISIS_KURIKULER_METODE_NUMERIK_VS_RISET_OPERASI_VS_BIG_DATA_STA601.html" >047 — Analisis Kurikuler: Metode Numerik vs. Riset Operasi vs. Big Data (STA-601)</option>
+<option value="048_KEPUTUSAN_PENGGANTIAN_STA601_NUMERIK_MENJADI_BIG_DATA_ENGINEERING.html" >048 — Keputusan Penggantian STA-601 Menjadi Big Data Engineering</option>
+<option value="049_LAPORAN_EVALUASI_DAN_REVISI_KURIKULUM_STA601_BIG_DATA_ENGINEERING.html" >049 — Laporan Resmi Evaluasi & Revisi Kurikulum STA-601 Big Data Engineering</option>
+<option value="050_DEV_REPORT_DAN_LOG_PERTUKARAN_STRUKTUR_SEM6_SEM7_DAN_HARMONISASI_KURIKULUM.html" selected>050 — Dev Report & Log Pertukaran Struktur Sem 6-7 & Harmonisasi</option>
+<option value="051_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_MK_PASCA_PERTUKARAN_SEM6_SEM7.html" >051 — Dev Report & Log Restrukturisasi Kode MK Pasca Pertukaran Sem 6-7</option>
+<option value="052_ANALISIS_FORMAT_DAN_LAYOUT_TEMPLATE_RPS_OBE.html" >052 — 📑 Analisis Format, Layout & Kamus Tag Template RPS OBE FSTI</option>
+<option value="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" >📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)</option>
+            </select>
+
+            
+    <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="globalTableSearch" class="search-input" placeholder="Cari dalam dokumen (kode, MK, istilah, tabel)...">
+    </div>
+    
+
+            <div class="nav-actions">
+                <a href="index.html" class="btn-action">🏠 Portal Dokumen</a>
+                <button class="btn-action btn-print" onclick="window.print()">🖨️ Cetak PDF</button>
+                <button class="btn-action" id="themeToggle">🌓 Tema</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Print Official Header (Visible ONLY on print) -->
+        <header class="print-header">
+            <h2>Universitas Widyagama Malang — Fakultas Sains dan Teknologi Informasi</h2>
+            <h3>Program Studi Sistem dan Teknologi Informasi (S1)</h3>
+            <p>Dokumen Resmi Kurikulum OBE 2026 • Sesuai Permendikbudristek No. 53/2023 & Standar APTIKOM</p>
+        </header>
+
+        <!-- Reader Toolbar (Interactive UI, Layout, Typography, and Export Controls) -->
+        <div class="reader-toolbar no-print">
+            <div class="reader-toolbar-left">
+                <div class="reader-toolbar-group">
+                    <span class="reader-tool-label">📑 Bagian:</span>
+                    <select id="quickJumpSelect" class="quick-jump-select">
+                        <option value="">Lompat ke bagian...</option>
+                    </select>
+                </div>
+                <div class="reader-toolbar-group">
+                    <span class="reader-tool-label">↔️ Lebar:</span>
+                    <button type="button" id="btnWidthNarrow" class="reader-tool-btn" title="Mode Baca Nyaman (860px)">📖 Baca</button>
+                    <button type="button" id="btnWidthNormal" class="reader-tool-btn active" title="Mode Standar (1240px)">📄 Standar</button>
+                    <button type="button" id="btnWidthWide" class="reader-tool-btn" title="Mode Lebar Penuh (Tabel & Matriks)">↔️ Lebar Penuh</button>
+                </div>
+            </div>
+            <div class="reader-toolbar-right">
+                <div class="reader-toolbar-group">
+                    <span class="reader-tool-label">🔠 Font:</span>
+                    <button type="button" id="btnFontMinus" class="reader-tool-btn" title="Kecilkan Font">A-</button>
+                    <button type="button" id="btnFontReset" class="reader-tool-btn active" title="Ukuran Font Standar">A</button>
+                    <button type="button" id="btnFontPlus" class="reader-tool-btn" title="Perbesar Font">A+</button>
+                    <button type="button" id="btnFontToggle" class="reader-tool-btn" title="Ganti Tipografi (Modern Sans / Academic Serif)">🔤 Sans</button>
+                </div>
+                <div class="reader-toolbar-group">
+                    <span class="reader-tool-label">🌓 Tema:</span>
+                    <button type="button" id="themeBtnLight" class="reader-tool-btn" title="Mode Terang (Eksekutif A4-Ready)">☀️ Terang</button>
+                    <button type="button" id="themeBtnSepia" class="reader-tool-btn" title="Mode Sepia (Kenyamanan Mata Buku)">📖 Sepia</button>
+                    <button type="button" id="themeBtnDark" class="reader-tool-btn" title="Mode Gelap">🌙 Gelap</button>
+                </div>
+                <div class="reader-toolbar-group">
+                    <span class="reader-tool-label">📤 Ekspor:</span>
+                    <button type="button" id="btnCopyDocument" class="reader-tool-btn btn-export-doc" title="Salin seluruh isi dokumen ke Clipboard berformat Word-ready">📋 Salin ke Word</button>
+                    <button type="button" class="btn-action btn-print" onclick="window.print()" title="Cetak atau Simpan sebagai PDF A4">🖨️ Cetak / PDF</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-badge-group no-print">
+                <span class="badge badge-primary">Kurikulum OBE 2026</span>
+                <span class="badge badge-accent">Permendikbudristek 53/2023</span>
+                <span class="badge badge-warning">FSTI UWG Malang</span>
+            </div>
+            <h1 class="hero-title">050 — Dev Report & Log Pertukaran Struktur Sem 6-7 & Harmonisasi</h1>
+            <p style="color: var(--text-secondary); font-size: 0.95rem;">Dokumen Kurikulum OBE Definitif Program Studi Sistem dan Teknologi Informasi (S1)</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="content">
+            <h1 id="050-dev-report-dev-log-pertukaran-struktur-semester-67-dan-harmonisasi-ekosistem-kurikulum-obe">050 — DEV REPORT &amp; DEV LOG: PERTUKARAN STRUKTUR SEMESTER 6–7 DAN HARMONISASI EKOSISTEM KURIKULUM OBE</h1>
+<h2 id="laporan-rekayasa-kurikuler-rasionalisasi-prasyarat-akademik-standardisasi-bilingual-dan-dev-log-sinkronisasi-lintas-dokumen">Laporan Rekayasa Kurikuler, Rasionalisasi Prasyarat Akademik, Standardisasi Bilingual, dan Dev Log Sinkronisasi Lintas Dokumen</h2>
+<p><strong>Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang</strong></p>
+<hr />
+<h3 id="ringkasan-eksekutif-executive-summary">RINGKASAN EKSEKUTIF (EXECUTIVE SUMMARY)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nomor Dokumen</strong></td>
+<td><strong>050 (Dokumen Resmi Rekayasa Kurikulum)</strong></td>
+</tr>
+<tr>
+<td><strong>Periode Pengerjaan</strong></td>
+<td>18 – 22 September 2026</td>
+</tr>
+<tr>
+<td><strong>Status Pekerjaan</strong></td>
+<td><strong>SELESAI (100% Tuntas, Terharmonisasi, Teruji, dan Terverifikasi Penuh)</strong></td>
+</tr>
+<tr>
+<td><strong>Fokus Rekayasa Utama</strong></td>
+<td>1. <strong>Pertukaran Struktur Tingkat Akhir (8 SKS):</strong> <code>FST-610 Capstone Project FSTI</code> (3 SKS), <code>FST-612 PKL</code> (3 SKS), dan <code>FST-613 Pra-Skripsi</code> (2 SKS) dipindahkan dari Semester 7 ke <strong>Semester 6</strong>; sebaliknya <code>STI-726 Integrasi Layanan Cerdas AI</code> (3 SKS), <code>STI-727 Smart City &amp; Pem. Digital</code> (2 SKS), dan 1 MK Pilihan Peminatan (<code>STA/B/C-602</code>, 3 SKS) dipindahkan dari Semester 6 ke <strong>Semester 7</strong>.<br>2. <strong>Standardisasi Format Tabel Dwibahasa (Bilingual):</strong> Penerapan kolom ganda <code>Nama Mata Kuliah (Indonesia)</code> dan <code>Nama Mata Kuliah (English)</code> pada seluruh tabel <a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md">Dokumen 005</a> via script automasi <a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/_tools/apply_005_id_en.py">apply_005_id_en.py</a>.<br>3. <strong>Harmonisasi Sistemik Lintas Ekosistem:</strong> Penyelarasan menyeluruh ke 20+ dokumen markdown kurikulum, modul asesmen OBE, naskah buku final, dan skrip automasi QA.</td>
+</tr>
+<tr>
+<td><strong>Dampak Beban SKS</strong></td>
+<td><strong>Invariant (Net Zero Change):</strong><br>• Semester 6: $19 - 8 + 8 =$ <strong>19 SKS (7 MK)</strong> → Kumulatif: <strong>120 SKS</strong>.<br>• Semester 7: $20 - 8 + 8 =$ <strong>20 SKS (7 MK)</strong> → Kumulatif: <strong>140 SKS</strong>.<br>• Total Paket Kelulusan: Tetap <strong>146 SKS / 55 MK</strong> (Portofolio Ditawarkan: <strong>182 SKS / 67 MK</strong>).</td>
+</tr>
+<tr>
+<td><strong>Integritas Prasyarat</strong></td>
+<td><strong>100% Valid &amp; Memenuhi Syarat:</strong> Di awal Sem 6, mahasiswa telah menempuh <strong>101 SKS</strong> (melampaui syarat ≥ 100 SKS untuk Capstone, PKL, Pra-Skripsi). Di Sem 7, mahasiswa telah lulus <span class="code-tag">STI-413</span>, <span class="code-tag">STI-416</span>, dan <span class="code-tag">STI-521</span> untuk mengambil Integrasi AI dan Smart City.</td>
+</tr>
+<tr>
+<td><strong>Total Berkas Terupdate</strong></td>
+<td><strong>23 Berkas Markdown</strong> + <strong>4 Skrip Python Automasi QA &amp; Ekspor</strong> + <strong>63 Berkas Excel Hasil Kompilasi</strong></td>
+</tr>
+<tr>
+<td><strong>Hasil Validasi QA Terprogram</strong></td>
+<td>• <code>verify_all_mk_aligned_with_005.py</code>: <strong>[LULUS] 100% Selaras (13/13 Dokumen Kunci)</strong>.<br>• <code>verify_k2025_ground_truth.py</code>: <strong>[LULUS] 11/11 Test Suites Konsisten dengan PDF SIAKAD</strong>.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="1-latar-belakang-dan-tujuan-rekayasa-kurikuler">1. LATAR BELAKANG DAN TUJUAN REKAYASA KURIKULER</h3>
+<h4 id="11-permasalahan-pada-struktur-sebelumnya">1.1 Permasalahan pada Struktur Sebelumnya</h4>
+<p>Pada struktur kurikulum draf awal:
+1. <strong>Penumpukan Beban Proyek di Semester 7:</strong>
+   Semester 7 dibebani oleh <code>FST-610 Capstone Project FSTI</code> (3 SKS), <code>FST-612 Praktik Kerja Lapangan (PKL)</code> (3 SKS), <code>FST-613 Pra-Skripsi</code> (2 SKS), dan <code>STI-728 Inovasi Teknologi dan Startup Digital</code> (3 SKS). Hal ini menciptakan <em>project cognitive overload</em> ekstrem pada mahasiswa di semester yang sama, berpotensi menurunkan kualitas luaran proyek capstone dan menunda kelulusan.
+2. <strong>Keterlambatan Penjajakan Topik Tugas Akhir:</strong>
+   Penempatan <code>FST-613 Pra-Skripsi</code> di Semester 7 membuat mahasiswa baru menyusun proposal skripsi mendekati akhir masa studi. Akibatnya, mahasiswa tidak memiliki waktu persiapan yang cukup sebelum memprogram skripsi di Semester 8.
+3. <strong>Pemisahan Metodologi Penelitian dan Proposal Skripsi:</strong>
+   <code>FST-611 Metodologi Penelitian</code> diajarkan di Semester 6, sedangkan <code>FST-613 Pra-Skripsi</code> di Semester 7. Jeda satu semester ini memutus momentum praktis mahasiswa dalam menerapkan metodologi riset langsung pada penulisan proposal.</p>
+<h4 id="12-tujuan-rekayasa">1.2 Tujuan Rekayasa</h4>
+<ol>
+<li>Memindahkan <strong>Capstone Project (<span class="code-tag">FST-610</span>)</strong>, <strong>PKL (<span class="code-tag">FST-612</span>)</strong>, dan <strong>Pra-Skripsi (<span class="code-tag">FST-613</span>)</strong> ke <strong>Semester 6</strong>.</li>
+<li>Memindahkan <strong>Integrasi Layanan Cerdas AI (<span class="code-tag">STI-726</span>)</strong>, <strong>Smart City &amp; Pem. Digital (<span class="code-tag">STI-727</span>)</strong>, dan <strong>MK Pilihan Peminatan-3 (<code>STA/B/C-602</code>)</strong> ke <strong>Semester 7</strong>.</li>
+<li>Menyandingkan <code>FST-611 Metodologi Penelitian</code> dengan <code>FST-613 Pra-Skripsi</code> di Semester 6 sehingga luaran UTS/UAS Metopen langsung menjadi naskah proposal skripsi siap uji.</li>
+<li>Menjadikan Semester 7 sebagai semester pematangan spesialisasi tingkat lanjut (4 MK Peminatan: 12 SKS) dan implementasi produk enterprise skala nyata (<span class="code-tag">STI-726</span>, <span class="code-tag">STI-727</span>, <span class="code-tag">STI-728</span>).</li>
+<li>Memperbarui tabel <a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md">Dokumen 005</a> menjadi dwibahasa (<em>bilingual</em>) untuk memenuhi standar akreditasi internasional dan memudahkan penerbitan Surat Keterangan Pendamping Ijazah (SKPI) serta transkrip resmi berbahasa Inggris.</li>
+</ol>
+<hr />
+<h3 id="2-analisis-pertukaran-struktur-before-vs-after">2. ANALISIS PERTUKARAN STRUKTUR (BEFORE VS AFTER)</h3>
+<h4 id="21-matriks-komparasi-semester-6-dan-semester-7">2.1 Matriks Komparasi Semester 6 dan Semester 7</h4>
+<pre><code>SEMESTER 6 SEBELUM REVISI (19 SKS / 7 MK)          SEMESTER 6 SETELAH REVISI (19 SKS / 7 MK)
+├── STI-726 Integrasi Layanan Cerdas AI (3) [Core]   ├── STI-624 Deep Learning &amp; Neural Net (3) [Core]
+├── STI-727 Smart City &amp; Pem. Digital (2) [Core]     ├── STI-625 Digital Platform Engineering (3) [Core]
+├── STI-624 Deep Learning &amp; Neural Net (3) [Core]    ├── FST-610 Capstone Project FSTI (3) [FSTI] ⬅ DARI S7
+├── STI-625 Digital Platform Engineering (3) [Core]  ├── FST-611 Metodologi Penelitian (2) [FSTI]
+├── FST-611 Metodologi Penelitian (2) [FSTI]         ├── FST-612 Praktik Kerja Lapangan (3) [FSTI] ⬅ DARI S7
+├── STA/B/C-601 Pilihan Peminatan-2 (3) [Elektif]    ├── FST-613 Pra-Skripsi / Sempro (2) [FSTI] ⬅ DARI S7
+└── STA/B/C-602 Pilihan Peminatan-3 (3) [Elektif]    └── STA/B/C-601 Pilihan Peminatan-2 (3) [Elektif]
+Total: 19 SKS (Kumulatif: 120 SKS)                   Total: 19 SKS (Kumulatif: 120 SKS)
+
+SEMESTER 7 SEBELUM REVISI (20 SKS / 7 MK)          SEMESTER 7 SETELAH REVISI (20 SKS / 7 MK)
+├── STI-728 Inovasi Startup Digital (3) [Core]       ├── STI-726 Integrasi Layanan AI (3) [Core] ⬅ DARI S6
+├── FST-610 Capstone Project FSTI (3) [FSTI]         ├── STI-727 Smart City &amp; Pem Dig (2) [Core] ⬅ DARI S6
+├── FST-612 Praktik Kerja Lapangan (3) [FSTI]        ├── STI-728 Inovasi Startup Digital (3) [Core]
+├── FST-613 Pra-Skripsi / Sempro (2) [FSTI]          ├── STA/B/C-602 Pilihan Peminatan-3 (3) [Elektif] ⬅ DARI S6
+├── STA/B/C-701 Pilihan Peminatan-4 (3) [Elektif]    ├── STA/B/C-701 Pilihan Peminatan-4 (3) [Elektif]
+├── STA/B/C-702 Pilihan Peminatan-5 (3) [Elektif]    ├── STA/B/C-702 Pilihan Peminatan-5 (3) [Elektif]
+└── STA/B/C-703 Pilihan Peminatan-6 (3) [Elektif]    └── STA/B/C-703 Pilihan Peminatan-6 (3) [Elektif]
+Total: 20 SKS (Kumulatif: 140 SKS)                   Total: 20 SKS (Kumulatif: 140 SKS)
+</code></pre>
+<h4 id="22-tabel-rinci-8-sks-yang-bertukar-tempat">2.2 Tabel Rinci 8 SKS yang Bertukar Tempat</h4>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th style="text-align: center;">Kode MK</th>
+<th>Nama Mata Kuliah</th>
+<th style="text-align: center;">SKS</th>
+<th style="text-align: center;">Tipe</th>
+<th style="text-align: center;">Rumpun</th>
+<th style="text-align: center;">Semester Awal</th>
+<th style="text-align: center;"><strong>Semester Revisi</strong></th>
+<th>Rasionalisasi Akademik &amp; Kelayakan Prasyarat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"><span class="code-tag">FST-610</span></td>
+<td>Capstone Project FSTI</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><span class="badge-type badge-type-proyek">Proyek</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-fsti">FSTI</span></td>
+<td style="text-align: center;">Sem 7</td>
+<td style="text-align: center;"><strong>Sem 6</strong></td>
+<td>Di awal Sem 6, mahasiswa memiliki <strong>101 SKS</strong>. Syarat ≥ 100 SKS dan prasyarat <code>STI-523 Manajemen Proyek TI</code> (Sem 5) <strong>terpenuhi</strong>. Kolaborasi proyek multidisiplin FSTI berlangsung sebelum penyusunan skripsi.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><span class="code-tag">FST-612</span></td>
+<td>Praktik Kerja Lapangan (PKL)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><span class="badge-type badge-type-magang">Magang</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-fsti">FSTI</span></td>
+<td style="text-align: center;">Sem 7</td>
+<td style="text-align: center;"><strong>Sem 6</strong></td>
+<td>Syarat ≥ 100 SKS <strong>terpenuhi</strong>. Pelaksanaan magang di industri pada Sem 6 memungkinkan permasalahan riil mitra industri langsung dijadikan objek penelitian tugas akhir/skripsi.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><span class="code-tag">FST-613</span></td>
+<td>Pra-Skripsi / Seminar Proposal</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><span class="badge-type badge-type-proyek">Seminar</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-fsti">FSTI</span></td>
+<td style="text-align: center;">Sem 7</td>
+<td style="text-align: center;"><strong>Sem 6</strong></td>
+<td>Syarat ≥ 100 SKS <strong>terpenuhi</strong>. Ditempuh bersamaan dengan <code>FST-611 Metodologi Penelitian</code>, menciptakan kesinambungan langsung antara rancangan riset dan ujian seminar proposal resmi.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"><span class="code-tag">STI-726</span></td>
+<td>Integrasi Layanan Cerdas Berbasis AI</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td style="text-align: center;">Sem 6</td>
+<td style="text-align: center;"><strong>Sem 7</strong></td>
+<td>Prasyarat <code>STI-413 Machine Learning</code> dan <code>STI-416 Web Back End</code> telah ditempuh di Sem 4. Mahasiswa juga telah menguasai <code>STI-624 Deep Learning</code> dari Sem 6, sehingga integrasi model AI ke sistem produksi menjadi jauh lebih matang.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><span class="code-tag">STI-727</span></td>
+<td>Smart City &amp; Pemerintahan Digital</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td style="text-align: center;">Sem 6</td>
+<td style="text-align: center;"><strong>Sem 7</strong></td>
+<td>Prasyarat <code>STI-521 IoT</code> (Sem 5) dan wawasan platform digital <span class="code-tag">STI-625</span> (Sem 6) telah matang, mendukung perancangan arsitektur SPBE dan sistem kota cerdas skala enterprise.</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;"><span class="code-tag">STA-602</span> / <span class="code-tag">STB-602</span> / <span class="code-tag">STC-602</span></td>
+<td>MK Pilihan Peminatan-3 (Intelligent Agent / Cyber Risk / FinTech)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+P / T</td>
+<td style="text-align: center;"><span class="cat-badge cat-elektif">Elektif</span></td>
+<td style="text-align: center;">Sem 6</td>
+<td style="text-align: center;"><strong>Sem 7</strong></td>
+<td>Menjadikan Semester 7 sebagai blok konsentrasi peminatan penuh (4 MK / 12 SKS), memberikan pendalaman spesialisasi sebelum mahasiswa menempuh tugas akhir di Semester 8.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="3-standardisasi-tabel-dwibahasa-bilingual-audit-automation">3. STANDARDISASI TABEL DWIBAHASA (BILINGUAL AUDIT &amp; AUTOMATION)</h3>
+<p>Sebagai bagian dari peningkatan mutu borang kurikulum berbasis standar internasional, tabel sebaran mata kuliah pada <a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md">005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md</a> diperbarui dari skema 6-kolom menjadi <strong>skema 7-kolom dwibahasa (Bahasa Indonesia &amp; English)</strong>:</p>
+<h4 id="31-skema-format-tabel">3.1 Skema Format Tabel</h4>
+<ul>
+<li><strong>Format Lama (6 Kolom):</strong><br />
+<code>| Kode MK | Nama Mata Kuliah | SKS | Tipe | Semester | Prasyarat Akademik |</code></li>
+<li><strong>Format Baru Definitif (7 Kolom):</strong><br />
+<code>| Kode MK | Nama Mata Kuliah | Course Title (English) | SKS | Tipe | Semester | Prasyarat Akademik |</code></li>
+</ul>
+<h4 id="32-implementasi-teknis-automasi">3.2 Implementasi Teknis &amp; Automasi</h4>
+<ul>
+<li><strong>Script Eksekusi:</strong> <a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/_tools/apply_005_id_en.py">_tools/apply_005_id_en.py</a></li>
+<li><strong>Pembaruan Parser Regex:</strong>
+  Skrip audit kurikulum <code>verify_all_mk_aligned_with_005.py</code> dan <code>verify_k2025_ground_truth.py</code> ditingkatkan dengan <em>dual-matching regex pattern</em>:
+  <code>python
+  # Regex Bilingual (7 Kolom):
+  m = re.search(r'\|\s*`([A-Z]{3}-\d{3})`\s*\|\s*([^|]+)\|\s*\*?([^|*]+)\*?\s*\|\s*(\d+)\s*\|\s*([^|]+)\|\s*(?:Sem\s*)?(\d+)\s*\|\s*([^|]+)\|', line)
+  # Fallback Unilingual (6 Kolom):
+  if not m:
+      m = re.search(r'\|\s*`([A-Z]{3}-\d{3})`\s*\|\s*([^|]+)\|\s*(\d+)\s*\|\s*([^|]+)\|\s*(?:Sem\s*)?(\d+)\s*\|\s*([^|]+)\|', line)</code>
+  Hal ini menjamin kelancaran automasi tanpa merusak kompatibilitas skrip terhadap dokumen-dokumen turunan lainnya.</li>
+</ul>
+<hr />
+<h3 id="4-log-pekerjaan-harmonisasi-dokumen-dev-log">4. LOG PEKERJAAN &amp; HARMONISASI DOKUMEN (DEV LOG)</h3>
+<p>Berikut adalah rekapitulasi tindakan sinkronisasi atomik pada seluruh berkas ekosistem kurikulum:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th>Berkas yang Diperbarui</th>
+<th>Bagian / Komponen yang Diubah</th>
+<th>Hasil &amp; Validasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td><a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md">005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md</a></td>
+<td>• Diagram Mermaid Alur Studi<br>• Tabel 1.2 MK FSTI, 1.3 Core STI, 1.4 Peminatan<br>• Tabel Sebaran 8 Semester (Sem 6 &amp; Sem 7)<br>• Skema 3 Peminatan (P1, P2, P3)<br>• Penambahan kolom English Course Title</td>
+<td><strong>TUNTAS</strong> (Master Ground Truth Kurikulum 2026)</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td><a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/AGENTS.md">AGENTS.md</a></td>
+<td>• Tabel Ground Truth Key Decisions consensus: baris Penataan Tingkat Akhir &amp; Sebaran SKS</td>
+<td><strong>TUNTAS</strong> (Penyelarasan instruksi sistem)</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td><a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.md">004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.md</a></td>
+<td>• Tabel 3.3 (Sem 6) memasukkan <span class="code-tag">FST-610</span>, <span class="code-tag">FST-612</span>, <span class="code-tag">FST-613</span><br>• Tabel 3.4 (Sem 7) memasukkan <span class="code-tag">STI-726</span>, <span class="code-tag">STI-727</span><br>• Tabel 4.1–4.3 Peminatan (kolom semester <code>STA/B/C-602</code> → Sem 7)</td>
+<td><strong>TUNTAS</strong> (Matriks keterlacakan 14 CPL selaras)</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td><a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.md">006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.md</a></td>
+<td>• Paket konversi MBKM Sem 6 (19 SKS) &amp; Sem 7 (20 SKS)</td>
+<td><strong>TUNTAS</strong> (Formula rekognisi 20 SKS MBKM valid)</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td><a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.md">007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.md</a></td>
+<td>• Tabel Identitas Makro Silabus untuk 8 MK (<span class="code-tag">STI-726</span>, <span class="code-tag">STI-727</span>, <span class="code-tag">FST-610</span>, <span class="code-tag">FST-612</span>, <span class="code-tag">FST-613</span>, <span class="code-tag">STA-602</span>, <span class="code-tag">STB-602</span>, <span class="code-tag">STC-602</span>)</td>
+<td><strong>TUNTAS</strong> (Atribut semester pada silabus selaras)</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td><a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.md">009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.md</a></td>
+<td>• Penetapan semester Capstone Project FSTI menjadi Semester 6</td>
+<td><strong>TUNTAS</strong> (Pedoman Capstone &amp; Non-Skripsi sinkron)</td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td><a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.md">011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.md</a></td>
+<td>• Sheet 5 (Matriks CPL-MK)<br>• Sheet 6 (Organisasi MK per Semester)<br>• Sheet 7 (Level I-R-M)<br>• Sheet 14 (Ringkasan Implementasi Kurikulum)</td>
+<td><strong>TUNTAS</strong> (Kompilasi 14 tab Markdown rapi)</td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td><a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/015_SIMULASI_AKSELERASI_KELULUSAN_7_SEMESTER.md">015_SIMULASI_AKSELERASI_KELULUSAN_7_SEMESTER.md</a></td>
+<td>• Penyesuaian peta studi 3,5 tahun (Capstone &amp; PKL berada di Sem 6 secara reguler)</td>
+<td><strong>TUNTAS</strong> (Simulasi fast-track realistis)</td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td><a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/024_MATRIKS_EKIVALENSI_KURIKULUM2025_KE_KURIKULUM2026.md">024_MATRIKS_EKIVALENSI_KURIKULUM2025_KE_KURIKULUM2026.md</a></td>
+<td>• Tabel 3.6 &amp; 3.7 Ekivalensi K2025 → K2026<br>• Bagian 3A Matriks Rekognisi Arah Balik (Sem 6 &amp; Sem 7)<br>• Tabel 6.1 Neraca Ekivalensi per Semester</td>
+<td><strong>TUNTAS</strong> (114 SKS diakui, 14 SKS defisit paket wajib)</td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td><a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/037_BOUNDARY_OF_TOPICS_DAN_MATRIKS_ANTI_OVERLAP_KURIKULUM.md">037_BOUNDARY_OF_TOPICS_DAN_MATRIKS_ANTI_OVERLAP_KURIKULUM.md</a></td>
+<td>• Label semester <span class="code-tag">STA-602</span>, <span class="code-tag">STB-602</span>, <span class="code-tag">STC-602</span> menjadi Semester 7 pada Klaster Kritis dan Peta Peminatan</td>
+<td><strong>TUNTAS</strong> (Pagar pembatas silabus selaras)</td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td><a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/039_LAMPIRAN_SIAP_BUKU_KPT_SISTEKIN_2026.md">039_LAMPIRAN_SIAP_BUKU_KPT_SISTEKIN_2026.md</a></td>
+<td>• Tabel sebaran MK FSTI, Core, dan Peminatan per Semester</td>
+<td><strong>TUNTAS</strong> (Lampiran buku KPT selaras)</td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td><a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/042_LAPORAN_AUDIT_KESELARASAN_KURIKULUM_DAN_BOUNDARY_OF_TOPICS.md">042_LAPORAN_AUDIT_KESELARASAN_KURIKULUM_DAN_BOUNDARY_OF_TOPICS.md</a></td>
+<td>• Butir sebaran MK Sem 6 &amp; Sem 7 pada Laporan Mutu Kurikulum</td>
+<td><strong>TUNTAS</strong> (Laporan audit mutu mutakhir)</td>
+</tr>
+<tr>
+<td style="text-align: center;">13</td>
+<td><a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/043_MATRIKS_CPL_CPMK_BoK_DAN_BOUNDARY_GUARDRAILS.md">043_MATRIKS_CPL_CPMK_BoK_DAN_BOUNDARY_GUARDRAILS.md</a></td>
+<td>• Reorganisasi bab Core Sem 6 (2 MK) &amp; Sem 7 (3 MK)<br>• Reorganisasi bab Peminatan Sem 6 (3 MK) &amp; Sem 7 (12 MK)<br>• Pemindahan blok silabus tanpa kehilangan materi</td>
+<td><strong>TUNTAS</strong> (Matriks operasional dosen selaras)</td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td><a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/044_DEV_REPORT_DAN_LOG_PENYUSUNAN_MATRIKS_CPL_CPMK_BoK_GUARDRAILS.md">044_DEV_REPORT_DAN_LOG_PENYUSUNAN_MATRIKS_CPL_CPMK_BoK_GUARDRAILS.md</a></td>
+<td>• Rekapitulasi jumlah MK Core dan Peminatan per semester pada dev report sebelumnya</td>
+<td><strong>TUNTAS</strong> (Riwayat pelaporan konsisten)</td>
+</tr>
+<tr>
+<td style="text-align: center;">15</td>
+<td><a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/045_DRAFT_BUKU_KPT_SISTEKIN_2026_MENGIKUTI_TEMPLATE_DOCX.md">045_DRAFT_BUKU_KPT_SISTEKIN_2026_MENGIKUTI_TEMPLATE_DOCX.md</a></td>
+<td>• Tabel semester 6 &amp; 7, diagram Mermaid, dan deskripsi rumpun MK</td>
+<td><strong>TUNTAS</strong> (Draft buku KPT format Docx selaras)</td>
+</tr>
+<tr>
+<td style="text-align: center;">16</td>
+<td><a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md">BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md</a></td>
+<td>• Bab III (Struktur 8 Semester &amp; Peminatan)<br>• Bab VI (MBKM &amp; Capstone Project)<br>• Bab VIII &amp; Lampiran 1 (Matriks OBE Makro I-R-M)<br>• Tabel IKU 7 (Asesmen Pemecahan Kasus/Proyek)<br>• Seluruh baris semester pada blok Silabus MK</td>
+<td><strong>TUNTAS</strong> (Naskah Utuh Buku Kurikulum Final selaras)</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="5-hasil-verifikasi-terprogram-automated-qa-audit">5. HASIL VERIFIKASI TERPROGRAM (AUTOMATED QA AUDIT)</h3>
+<p>Seluruh perubahan telah diuji melalui dua lapis skrip audit independen berbasis Python:</p>
+<h4 id="51-uji-keselarasan-dokumen-005-verify_all_mk_aligned_with_005py">5.1 Uji Keselarasan Dokumen 005 (<code>verify_all_mk_aligned_with_005.py</code>)</h4>
+<p>Skrip menguji konsistensi 67 mata kuliah (49 wajib + 18 elektif), bobot SKS, tipe mata kuliah, prasyarat, ketiadaan kode fiktif/usang, serta keselarasan antar-dokumen:</p>
+<pre><code>================================================================================
+MASTER GROUND TRUTH: DOKUMEN 005 (67 MATA KULIAH)
+================================================================================
+• MKWU (Wajib Umum)        : 8 MK (13 SKS)
+• FSTI (Wajib Fakultas)    : 13 MK (36 SKS)
+• Core STI (Inti Prodi)    : 28 MK (79 SKS)
+• P1: Smart Systems        : 6 MK (18 SKS)
+• P2: Cloud &amp; Cyber        : 6 MK (18 SKS)
+• P3: Digital Platform     : 6 MK (18 SKS)
+TOTAL PORTOFOLIO DITAWARKAN: 67 MK (182 SKS)
+TOTAL PAKET DITEMPUH       : 55 MK (146 SKS)
+--------------------------------------------------------------------------------
+[OK] 004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.md : 100% Selaras
+[OK] 007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.md : 100% Selaras
+[OK] 011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.md : 100% Selaras
+[OK] 012_ANALISIS_KRITIS_JALUR_PONDASI_DAN_TREE_PRASYARAT.md : 100% Selaras
+[OK] 023_BUKU_KPT_SISTEKIN_2026_STRUKTUR_KPT2024.md : 100% Selaras
+[OK] 024_MATRIKS_EKIVALENSI_KURIKULUM2025_KE_KURIKULUM2026.md : 100% Selaras
+[OK] 034_SEMBILAN_BENTUK_MBKM_DAN_REKOGNISI.md : 100% Selaras
+[OK] 035_RESTRUKTURISASI_KODE_MK_PEMINATAN_STA_STB_STC.md : 100% Selaras
+[OK] 036_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_PEMINATAN.md : 100% Selaras
+[OK] 037_BOUNDARY_OF_TOPICS_DAN_MATRIKS_ANTI_OVERLAP_KURIKULUM.md : 100% Selaras
+[OK] 039_LAMPIRAN_SIAP_BUKU_KPT_SISTEKIN_2026.md : 100% Selaras
+[OK] 041_LAMPIRAN_BARU_BUKU_KPT.md : 100% Selaras
+[OK] BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md : 100% Selaras
+================================================================================
+[LULUS] SELURUH DOKUMEN 100% SELARAS DENGAN STRUKTUR DOKUMEN 005!
+================================================================================
+</code></pre>
+<h4 id="52-uji-ground-truth-kurikulum-2025-verify_k2025_ground_truthpy">5.2 Uji Ground Truth Kurikulum 2025 (<code>verify_k2025_ground_truth.py</code>)</h4>
+<p>Skrip memverifikasi kepatuhan terhadap data resmi basis data SIAKAD (<code>Laporan Daftar Kurikulum Prodi Sistekin.pdf</code>):</p>
+<pre><code>==============================================================================
+VERIFIKASI GROUND TRUTH KURIKULUM 2025 (LAPORAN SIAKAD)
+==============================================================================
+[1] INTEGRITAS EKSTRAKSI PDF         : 56 MK / 146 SKS [OK]
+[2] HEADER SEKSI 3.x DOK 024 vs PDF  : 8 Semester [OK]
+[3] AUDIT BARIS DEMI BARIS BAGIAN 3  : 0 Ketidakcocokan Atribut [OK]
+[4] PENEMPATAN BARIS PADA SEKSI ASAL : 0 Baris Salah Seksi [OK]
+[5] ZERO ORPHAN TABEL ENTRI SIAKAD   : 0 Orphan, 0 Kode Fiktif [OK]
+[6] NERACA KATEGORI EKIVALENSI E1-E5 : E1=89 SKS, E2=27 SKS, E3=19 SKS,
+                                       E4=3 SKS, E5=8 SKS -&gt; TOTAL: 146 SKS [OK]
+[7] VALIDITAS KODE TARGET K2026      : 48 Kode Unik Valid di Dok 005/007 [OK]
+[8] SEMESTER MK ELEKTIF PEMINATAN    : 18 Kode Elektif Presisi [OK]
+[9] NERACA REKOGNISI ARAH BALIK      : 128 SKS Paket Wajib -&gt; 114 SKS Diakui,
+                                       14 SKS Defisit (5 MK Baru) [OK]
+[10] KELENGKAPAN PORTOFOLIO 67 MK    : 48 Direkognisi + 19 Baru Ditempuh [OK]
+[11] KETUNTASAN ATURAN KLAIM GANDA   : 2 Kasus Tuntas Bebas Konflik [OK]
+==============================================================================
+[LULUS] 11/11 TEST SUITES KONSISTEN DENGAN LAPORAN SIAKAD K2025
+==============================================================================
+</code></pre>
+<h4 id="53-regenerasi-berkas-excel">5.3 Regenerasi Berkas Excel</h4>
+<p>Engine ekspor multi-sheet (<a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/_tools/export_all_to_excel.py">_tools/export_all_to_excel.py</a>) telah dijalankan kembali secara komprehensif:
+* <a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.xlsx">005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.xlsx</a>
+* <a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.xlsx">011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.xlsx</a> (14 Tab Lengkap)
+* <a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/043_MATRIKS_CPL_CPMK_BoK_DAN_BOUNDARY_GUARDRAILS.xlsx">043_MATRIKS_CPL_CPMK_BoK_DAN_BOUNDARY_GUARDRAILS.xlsx</a>
+* <a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.xlsx">BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.xlsx</a>
+* <a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/MASTER_KURIKULUM_OBE_SISTEKIN_2026.xlsx">MASTER_KURIKULUM_OBE_SISTEKIN_2026.xlsx</a> (Master Multi-Sheet)</p>
+<hr />
+<h3 id="6-kesimpulan-dan-rekomendasi-tahap-berikutnya">6. KESIMPULAN DAN REKOMENDASI TAHAP BERIKUTNYA</h3>
+<ol>
+<li><strong>Struktur Kurikulum Definitif:</strong>
+   Pertukaran mata kuliah tingkat akhir antara Semester 6 dan Semester 7 telah tuntas dan sah secara kurikuler, memberikan beban proyek yang seimbang bagi mahasiswa, menyatukan Metodologi Penelitian dengan Pra-Skripsi, serta memperkuat blok spesialisasi di Semester 7.</li>
+<li><strong>Kesiapan Naskah Buku Kurikulum:</strong>
+   Dokumen master <a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md">BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md</a> dan seluruh dokumen operasional telah 100% selaras tanpa satu celah inkonsistensi pun.</li>
+<li><strong>Langkah Kerja Berikutnya (Tahap 2):</strong>
+   Melanjutkan ke <strong>Tahap 2</strong> sesuai alur bertahap (1, 2, 3, 4), yaitu pemvalidasian detail pada <a href="file:///d:/!!MYDOCUMENTS2026/!!!SISTEKIN2026/!!BRAINSTORMING_KURIKULUM2026/KURIKULUM2026_REVISI/024_MATRIKS_EKIVALENSI_KURIKULUM2025_KE_KURIKULUM2026.md">Dokumen 024 Matriks Ekivalensi Kurikulum 2025 ke 2026</a> dan sosialisasi kepada civitas akademika Program Studi SISTEKIN FSTI Universitas Widyagama Malang.</li>
+</ol>
+<hr />
+<p><em>Disahkan sebagai Dokumen Resmi 050 — Dev Report &amp; Dev Log Kurikulum OBE Revisi SISTEKIN 2026.</em><br />
+<strong>Tim Pengembang Kurikulum FSTI Universitas Widyagama Malang</strong></p>
+
+            <div class="doc-nav no-print">
+                <div><a href="049_LAPORAN_EVALUASI_DAN_REVISI_KURIKULUM_STA601_BIG_DATA_ENGINEERING.html" class="nav-btn">← Sebelumnya</a></div>
+                <div><a href="index.html" class="nav-btn">🏠 Index Utama</a></div>
+                <div><a href="051_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_MK_PASCA_PERTUKARAN_SEM6_SEM7.html" class="nav-btn">Selanjutnya →</a></div>
+            </div>
+        </main>
+
+        <footer class="footer no-print">
+            <p><strong>Dokumen Resmi Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
+            <p>Tim Pengembang Kurikulum FSTI — Universitas Widyagama Malang © 2026</p>
+        </footer>
+
+        <!-- Print Footer Note -->
+        <div class="print-footer-note">
+            Buku Kurikulum OBE 2026 Program Studi Sistem dan Teknologi Informasi (S1) — FSTI Universitas Widyagama Malang
+        </div>
+    </div>
+
+    <!-- Master External Modular Script -->
+    <script defer src="assets/js/app.js"></script>
+</body>
+</html>
